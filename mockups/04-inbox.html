@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案4: インボックス</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #dde1e9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  .phone { width: 390px; height: 844px; background: #f1f5f9; border-radius: 44px; box-shadow: 0 0 0 2px #cbd5e1, 0 40px 100px rgba(0,0,0,0.2); overflow: hidden; display: flex; flex-direction: column; }
+  .inbox-row { background: white; cursor: pointer; transition: background 0.15s; position: relative; overflow: hidden; }
+  .inbox-row:hover { background: #f8fafc; }
+  .unread-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+  .scrollable { overflow-y: auto; scrollbar-width: none; }
+  .scrollable::-webkit-scrollbar { display: none; }
+  .swipe-hint { position: absolute; right: 0; top: 0; bottom: 0; width: 60px; display: flex; items-center: center; justify-content: flex-end; padding-right: 16px; opacity: 0.3; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <!-- Status bar -->
+  <div class="flex justify-between items-center px-8 pt-5 pb-1 text-sm font-semibold bg-slate-100">
+    <span>9:41</span>
+    <span class="text-xs">●●● WiFi 🔋</span>
+  </div>
+
+  <!-- Header -->
+  <div class="px-5 pt-3 pb-3 bg-slate-100">
+    <div class="flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">受信トレイ</h1>
+      <span class="text-sm bg-blue-600 text-white px-3 py-1 rounded-full font-semibold">未読 12</span>
+    </div>
+    <p class="text-xs text-gray-500 mt-1">← スワイプで既読　→ スワイプで削除</p>
+  </div>
+
+  <!-- Search bar -->
+  <div class="px-4 py-2 bg-slate-100">
+    <div class="bg-white rounded-xl flex items-center gap-2 px-3 py-2 shadow-sm border border-gray-200">
+      <span class="text-gray-400">🔍</span>
+      <span class="text-gray-400 text-sm">通知を検索...</span>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="h-px bg-gray-200"></div>
+
+  <!-- Inbox list -->
+  <div class="scrollable flex-1">
+
+    <!-- Unread CRITICAL -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3">
+      <div class="unread-dot bg-red-500 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-bold text-gray-900 text-sm">CVE-2024-1234</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">3分前</span>
+        </div>
+        <div class="text-sm text-gray-700 font-medium truncate">Apache HTTP Server RCE</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-red-600 bg-red-50 border border-red-200 px-2 py-0.5 rounded">致命的</span>
+          <span class="text-xs text-gray-400">CVSS 9.8 · NVD</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Unread HIGH -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3">
+      <div class="unread-dot bg-orange-500 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-bold text-gray-900 text-sm">JVN#12345678</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">15分前</span>
+        </div>
+        <div class="text-sm text-gray-700 font-medium truncate">OpenSSL バッファオーバーフロー</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-orange-600 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded">高</span>
+          <span class="text-xs text-gray-400">CVSS 7.5 · JVN</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Unread CRITICAL 2 -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3">
+      <div class="unread-dot bg-red-500 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-bold text-gray-900 text-sm">CVE-2024-5678</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">22分前</span>
+        </div>
+        <div class="text-sm text-gray-700 font-medium truncate">Linux Kernel 権限昇格 (LPE)</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-red-600 bg-red-50 border border-red-200 px-2 py-0.5 rounded">致命的</span>
+          <span class="text-xs text-gray-400">CVSS 9.3 · NVD</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Read MEDIUM -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3 opacity-70">
+      <div class="unread-dot bg-transparent border-2 border-gray-200 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-normal text-gray-600 text-sm">セキュリティブログ</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">1時間前</span>
+        </div>
+        <div class="text-sm text-gray-500 truncate">新しいフィッシング攻撃手法が確認される</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-yellow-600 bg-yellow-50 border border-yellow-200 px-2 py-0.5 rounded">中</span>
+          <span class="text-xs text-gray-400">RSS</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Unread HIGH 2 -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3">
+      <div class="unread-dot bg-orange-500 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-bold text-gray-900 text-sm">JVN#87654321</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">2時間前</span>
+        </div>
+        <div class="text-sm text-gray-700 font-medium truncate">Nginx 設定ミスによる情報漏洩</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-orange-600 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded">高</span>
+          <span class="text-xs text-gray-400">CVSS 7.2 · JVN</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Read INFO -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3 opacity-70">
+      <div class="unread-dot bg-transparent border-2 border-gray-200 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-normal text-gray-600 text-sm">業界ニュース</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">3時間前</span>
+        </div>
+        <div class="text-sm text-gray-500 truncate">2024年Q1 脅威インテリジェンスレポート公開</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-blue-600 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded">情報</span>
+          <span class="text-xs text-gray-400">RSS</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <!-- Read MEDIUM 2 -->
+    <div class="inbox-row px-4 py-3 border-b border-gray-100 flex items-start gap-3 opacity-70">
+      <div class="unread-dot bg-transparent border-2 border-gray-200 mt-1.5"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex justify-between items-start">
+          <span class="font-normal text-gray-600 text-sm">CVE-2024-9999</span>
+          <span class="text-xs text-gray-400 ml-2 flex-shrink-0">4時間前</span>
+        </div>
+        <div class="text-sm text-gray-500 truncate">WordPress プラグイン XSS 脆弱性</div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="text-xs font-bold text-yellow-600 bg-yellow-50 border border-yellow-200 px-2 py-0.5 rounded">中</span>
+          <span class="text-xs text-gray-400">CVSS 5.4 · NVD</span>
+        </div>
+      </div>
+      <span class="text-gray-200 text-lg flex-shrink-0 mt-1">›</span>
+    </div>
+
+    <div class="px-4 py-3 text-center">
+      <button class="text-sm text-blue-600 font-medium">すべて既読にする</button>
+    </div>
+
+  </div>
+
+  <!-- Bottom nav -->
+  <div class="flex border-t border-gray-200 bg-white">
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">📥</span>
+      <span class="text-xs text-blue-600 font-medium">受信</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">📡</span>
+      <span class="text-xs text-gray-400">ソース</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⚡</span>
+      <span class="text-xs text-gray-400">ルール</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⚙️</span>
+      <span class="text-xs text-gray-400">設定</span>
+    </button>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案6: マテリアルデザイン3</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #e6e0f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: 'Google Sans', Roboto, sans-serif; }
+  .phone { width: 390px; height: 844px; background: #fffbfe; border-radius: 44px; box-shadow: 0 0 0 2px #cac4d0, 0 40px 100px rgba(0,0,0,0.18); overflow: hidden; display: flex; flex-direction: column; position: relative; }
+  .m3-card { background: #f3edf7; border-radius: 12px; transition: all 0.2s; cursor: pointer; }
+  .m3-card:hover { filter: brightness(0.97); }
+  .ripple { position: relative; overflow: hidden; cursor: pointer; }
+  .ripple::after { content:''; position:absolute; inset:0; background:rgba(103,80,164,0.08); opacity:0; transition:opacity 0.2s; border-radius:inherit; }
+  .ripple:hover::after { opacity:1; }
+  .m3-chip { border-radius: 8px; font-size: 11px; font-weight: 600; padding: 2px 8px; }
+  .scrollable { overflow-y: auto; scrollbar-width: none; }
+  .scrollable::-webkit-scrollbar { display: none; }
+  .fab { box-shadow: 0 3px 8px rgba(103,80,164,0.4); transition: all 0.2s; }
+  .fab:hover { transform: scale(1.05); box-shadow: 0 6px 16px rgba(103,80,164,0.5); }
+</style>
+</head>
+<body>
+<div class="phone">
+  <!-- Status bar -->
+  <div class="flex justify-between items-center px-8 pt-5 pb-1 text-sm font-medium text-gray-800">
+    <span>9:41</span>
+    <span class="text-xs">●●● WiFi 🔋</span>
+  </div>
+
+  <!-- Top App Bar (M3 Large) -->
+  <div class="px-5 pt-2 pb-4 bg-fffbfe">
+    <div class="flex justify-between items-start">
+      <div>
+        <p class="text-sm text-purple-700 font-medium">おはようございます</p>
+        <h1 class="text-3xl font-medium text-gray-900 mt-0.5">InfoWatch</h1>
+      </div>
+      <div class="flex items-center gap-2 mt-1">
+        <button class="ripple w-10 h-10 rounded-full flex items-center justify-center">
+          <span class="text-lg">🔍</span>
+        </button>
+        <div class="relative">
+          <button class="ripple w-10 h-10 rounded-full flex items-center justify-center">
+            <span class="text-lg">🔔</span>
+          </button>
+          <span class="absolute -top-0.5 -right-0.5 w-5 h-5 bg-red-600 rounded-full text-white text-xs flex items-center justify-center font-bold">3</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter chips (M3 chip row) -->
+  <div class="flex gap-2 px-4 pb-3 overflow-x-auto" style="scrollbar-width:none;">
+    <button class="flex-shrink-0 bg-purple-700 text-white m3-chip ripple">すべて</button>
+    <button class="flex-shrink-0 border border-gray-300 text-gray-700 m3-chip ripple">致命的</button>
+    <button class="flex-shrink-0 border border-gray-300 text-gray-700 m3-chip ripple">高</button>
+    <button class="flex-shrink-0 border border-gray-300 text-gray-700 m3-chip ripple">中</button>
+    <button class="flex-shrink-0 border border-gray-300 text-gray-700 m3-chip ripple">CVE</button>
+    <button class="flex-shrink-0 border border-gray-300 text-gray-700 m3-chip ripple">JVN</button>
+  </div>
+
+  <!-- Card list -->
+  <div class="scrollable flex-1 px-4 space-y-3 pb-4">
+
+    <div class="m3-card ripple p-4">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <span class="bg-red-100 text-red-700 m3-chip">CVE</span>
+          <span class="bg-red-600 text-white m3-chip">致命的</span>
+        </div>
+        <span class="text-xs text-gray-500">3分前</span>
+      </div>
+      <div class="text-base font-semibold text-gray-900 mb-0.5">CVE-2024-1234</div>
+      <div class="text-sm text-gray-600 mb-3">Apache HTTP Server リモートコード実行の脆弱性</div>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="flex">
+            <span class="w-4 h-4 rounded-full bg-red-500 border-2 border-white -ml-0 z-30"></span>
+            <span class="w-4 h-4 rounded-full bg-red-400 border-2 border-white -ml-1 z-20"></span>
+            <span class="w-4 h-4 rounded-full bg-red-300 border-2 border-white -ml-1 z-10"></span>
+          </div>
+          <span class="text-xs text-gray-500">CVSS 9.8</span>
+        </div>
+        <button class="text-purple-700 text-sm font-medium ripple px-3 py-1 rounded-full">詳細</button>
+      </div>
+    </div>
+
+    <div class="m3-card ripple p-4">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <span class="bg-orange-100 text-orange-700 m3-chip">JVN</span>
+          <span class="bg-orange-500 text-white m3-chip">高</span>
+        </div>
+        <span class="text-xs text-gray-500">15分前</span>
+      </div>
+      <div class="text-base font-semibold text-gray-900 mb-0.5">JVN#12345678</div>
+      <div class="text-sm text-gray-600 mb-3">OpenSSL バッファオーバーフロー脆弱性</div>
+      <div class="flex items-center justify-between">
+        <span class="text-xs text-gray-500">CVSS 7.5</span>
+        <button class="text-purple-700 text-sm font-medium ripple px-3 py-1 rounded-full">詳細</button>
+      </div>
+    </div>
+
+    <div class="m3-card ripple p-4">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <span class="bg-red-100 text-red-700 m3-chip">CVE</span>
+          <span class="bg-red-600 text-white m3-chip">致命的</span>
+        </div>
+        <span class="text-xs text-gray-500">22分前</span>
+      </div>
+      <div class="text-base font-semibold text-gray-900 mb-0.5">CVE-2024-5678</div>
+      <div class="text-sm text-gray-600 mb-3">Linux Kernel 権限昇格 (LPE)</div>
+      <div class="flex items-center justify-between">
+        <span class="text-xs text-gray-500">CVSS 9.3</span>
+        <button class="text-purple-700 text-sm font-medium ripple px-3 py-1 rounded-full">詳細</button>
+      </div>
+    </div>
+
+    <div class="m3-card ripple p-4">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <span class="bg-blue-100 text-blue-700 m3-chip">RSS</span>
+          <span class="bg-yellow-500 text-white m3-chip">中</span>
+        </div>
+        <span class="text-xs text-gray-500">1時間前</span>
+      </div>
+      <div class="text-base font-semibold text-gray-900 mb-0.5">セキュリティブログ</div>
+      <div class="text-sm text-gray-600 mb-3">新しいフィッシング攻撃手法が確認される</div>
+      <div class="flex items-center justify-between">
+        <span class="text-xs text-gray-500">security-blog.example.jp</span>
+        <button class="text-purple-700 text-sm font-medium ripple px-3 py-1 rounded-full">詳細</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FAB -->
+  <button class="fab absolute bottom-20 right-5 bg-purple-700 text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl">
+    ＋
+  </button>
+
+  <!-- M3 Navigation Bar -->
+  <div class="flex bg-white border-t border-gray-100" style="padding-bottom: env(safe-area-inset-bottom, 8px);">
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5 relative">
+      <div class="bg-purple-100 rounded-full px-5 py-1">
+        <span class="text-purple-700 text-lg">📋</span>
+      </div>
+      <span class="text-xs text-purple-700 font-medium">フィード</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">📡</span>
+      <span class="text-xs text-gray-500">ソース</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⚡</span>
+      <span class="text-xs text-gray-500">ルール</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⚙️</span>
+      <span class="text-xs text-gray-500">設定</span>
+    </button>
+  </div>
+</div>
+</body>
+</html>

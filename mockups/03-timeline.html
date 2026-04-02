@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案3: タイムライン</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #e8eaf0; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  .phone { width: 390px; height: 844px; background: #ffffff; border-radius: 44px; box-shadow: 0 0 0 2px #d1d5db, 0 40px 100px rgba(0,0,0,0.2); overflow: hidden; display: flex; flex-direction: column; }
+  .tab-active { color: #1d4ed8; border-bottom: 2px solid #1d4ed8; }
+  .tab-btn { transition: all 0.2s; cursor: pointer; }
+  .tab-btn:hover { background: #f8fafc; }
+  .card { transition: background 0.15s; cursor: pointer; border-bottom: 1px solid #f1f5f9; }
+  .card:hover { background: #f8fafc; }
+  .scrollable { overflow-y: auto; scrollbar-width: none; }
+  .scrollable::-webkit-scrollbar { display: none; }
+  .star-btn { transition: transform 0.2s; cursor: pointer; }
+  .star-btn:hover { transform: scale(1.3); }
+</style>
+</head>
+<body>
+<div class="phone">
+  <!-- Status bar -->
+  <div class="flex justify-between items-center px-8 pt-5 pb-1 text-sm font-semibold bg-white">
+    <span>9:41</span>
+    <span class="text-xs">●●● WiFi 🔋</span>
+  </div>
+
+  <!-- Header -->
+  <div class="flex justify-between items-center px-5 py-3 bg-white border-b border-gray-100">
+    <button class="text-gray-400 text-xl">☰</button>
+    <span class="text-lg font-bold text-gray-900">InfoWatch</span>
+    <button class="text-blue-600 text-sm font-semibold">＋追加</button>
+  </div>
+
+  <!-- Source tabs (scrollable) -->
+  <div class="flex border-b border-gray-100 bg-white text-xs font-semibold overflow-x-auto" style="scrollbar-width:none;">
+    <button class="tab-btn tab-active flex-shrink-0 px-4 py-3">全て</button>
+    <button class="tab-btn text-gray-400 flex-shrink-0 px-4 py-3 border-b-2 border-transparent">CVE</button>
+    <button class="tab-btn text-gray-400 flex-shrink-0 px-4 py-3 border-b-2 border-transparent">JVN</button>
+    <button class="tab-btn text-gray-400 flex-shrink-0 px-4 py-3 border-b-2 border-transparent">RSS</button>
+    <button class="tab-btn text-gray-400 flex-shrink-0 px-4 py-3 border-b-2 border-transparent">⭐</button>
+  </div>
+
+  <!-- Timeline feed -->
+  <div class="scrollable flex-1">
+
+    <div class="card px-5 py-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-bold text-white bg-red-600 px-2 py-0.5 rounded-full">CVE</span>
+        <span class="text-xs text-gray-400">3分前</span>
+        <span class="ml-auto text-xs font-bold text-red-600">CRITICAL</span>
+      </div>
+      <div class="font-bold text-gray-900 mb-1">CVE-2024-1234</div>
+      <div class="text-sm text-gray-600 mb-3">Apache HTTP Server リモートコード実行の脆弱性が公開されました。影響を受けるバージョン: 2.4.0-2.4.57</div>
+      <div class="mb-3">
+        <div class="flex justify-between text-xs text-gray-500 mb-1">
+          <span>CVSS スコア</span>
+          <span class="font-bold text-red-600">9.8 / 10</span>
+        </div>
+        <div class="bg-gray-100 rounded-full h-2">
+          <div class="h-2 rounded-full bg-gradient-to-r from-red-500 to-red-600" style="width:98%"></div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="text-sm text-blue-600 font-medium hover:underline">詳細を見る →</button>
+        <button class="star-btn ml-auto text-xl text-gray-300">☆</button>
+      </div>
+    </div>
+
+    <div class="card px-5 py-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-bold text-white bg-orange-500 px-2 py-0.5 rounded-full">JVN</span>
+        <span class="text-xs text-gray-400">15分前</span>
+        <span class="ml-auto text-xs font-bold text-orange-500">HIGH</span>
+      </div>
+      <div class="font-bold text-gray-900 mb-1">JVN#12345678</div>
+      <div class="text-sm text-gray-600 mb-3">OpenSSL においてバッファオーバーフローの脆弱性が存在し、遠隔の攻撃者がDoS攻撃を行う可能性があります。</div>
+      <div class="mb-3">
+        <div class="flex justify-between text-xs text-gray-500 mb-1">
+          <span>CVSS スコア</span>
+          <span class="font-bold text-orange-500">7.5 / 10</span>
+        </div>
+        <div class="bg-gray-100 rounded-full h-2">
+          <div class="h-2 rounded-full bg-gradient-to-r from-orange-400 to-orange-500" style="width:75%"></div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="text-sm text-blue-600 font-medium hover:underline">詳細を見る →</button>
+        <button class="star-btn ml-auto text-xl text-yellow-400">★</button>
+      </div>
+    </div>
+
+    <div class="card px-5 py-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-bold text-white bg-red-600 px-2 py-0.5 rounded-full">CVE</span>
+        <span class="text-xs text-gray-400">22分前</span>
+        <span class="ml-auto text-xs font-bold text-red-600">CRITICAL</span>
+      </div>
+      <div class="font-bold text-gray-900 mb-1">CVE-2024-5678</div>
+      <div class="text-sm text-gray-600 mb-3">Linux Kernel の権限昇格 (LPE) 脆弱性。ローカル攻撃者がroot権限を取得できる可能性があります。</div>
+      <div class="mb-3">
+        <div class="flex justify-between text-xs text-gray-500 mb-1">
+          <span>CVSS スコア</span>
+          <span class="font-bold text-red-600">9.3 / 10</span>
+        </div>
+        <div class="bg-gray-100 rounded-full h-2">
+          <div class="h-2 rounded-full bg-gradient-to-r from-red-500 to-red-600" style="width:93%"></div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="text-sm text-blue-600 font-medium hover:underline">詳細を見る →</button>
+        <button class="star-btn ml-auto text-xl text-gray-300">☆</button>
+      </div>
+    </div>
+
+    <div class="card px-5 py-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-bold text-white bg-blue-500 px-2 py-0.5 rounded-full">RSS</span>
+        <span class="text-xs text-gray-400">1時間前</span>
+        <span class="ml-auto text-xs font-bold text-yellow-600">MEDIUM</span>
+      </div>
+      <div class="font-bold text-gray-900 mb-1">新しいフィッシング攻撃手法</div>
+      <div class="text-sm text-gray-600 mb-3">セキュリティ研究者が新しいAIを悪用したフィッシング攻撃手法を発見。従来の検知手法では回避される可能性。</div>
+      <div class="flex items-center gap-3">
+        <button class="text-sm text-blue-600 font-medium hover:underline">詳細を見る →</button>
+        <span class="text-xs text-gray-400 ml-auto">security-blog.example.jp</span>
+        <button class="star-btn text-xl text-gray-300">☆</button>
+      </div>
+    </div>
+
+    <div class="card px-5 py-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-bold text-white bg-orange-500 px-2 py-0.5 rounded-full">JVN</span>
+        <span class="text-xs text-gray-400">2時間前</span>
+        <span class="ml-auto text-xs font-bold text-orange-500">HIGH</span>
+      </div>
+      <div class="font-bold text-gray-900 mb-1">JVN#87654321</div>
+      <div class="text-sm text-gray-600 mb-3">Nginx の設定ミスにより、意図しない情報が漏洩する可能性があります。</div>
+      <div class="mb-3">
+        <div class="flex justify-between text-xs text-gray-500 mb-1">
+          <span>CVSS スコア</span>
+          <span class="font-bold text-orange-500">7.2 / 10</span>
+        </div>
+        <div class="bg-gray-100 rounded-full h-2">
+          <div class="h-2 rounded-full bg-gradient-to-r from-orange-400 to-orange-500" style="width:72%"></div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="text-sm text-blue-600 font-medium hover:underline">詳細を見る →</button>
+        <button class="star-btn ml-auto text-xl text-gray-300">☆</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom nav -->
+  <div class="flex border-t border-gray-100 bg-white">
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">🏠</span>
+      <span class="text-xs text-blue-600 font-medium">フィード</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">📡</span>
+      <span class="text-xs text-gray-400">ソース</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⭐</span>
+      <span class="text-xs text-gray-400">保存済み</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <span class="text-2xl">⚙️</span>
+      <span class="text-xs text-gray-400">設定</span>
+    </button>
+  </div>
+</div>
+</body>
+</html>

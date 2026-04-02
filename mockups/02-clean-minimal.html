@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案2: クリーンミニマル</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #f0f4f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; }
+  .phone { width: 390px; height: 844px; background: #f9fafb; border-radius: 44px; box-shadow: 0 0 0 2px #d1d5db, 0 40px 100px rgba(0,0,0,0.25); overflow: hidden; display: flex; flex-direction: column; }
+  .card { transition: all 0.2s; cursor: pointer; }
+  .card:hover { transform: scale(1.01); box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+  .scrollable { overflow-y: auto; scrollbar-width: none; }
+  .scrollable::-webkit-scrollbar { display: none; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <!-- Status bar -->
+  <div class="flex justify-between items-center px-8 pt-5 pb-1 text-sm font-medium">
+    <span class="text-gray-900">9:41</span>
+    <div class="flex gap-1 items-center text-gray-900">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0" width="3" height="12" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.4C5.6 2.4 3.4 3.4 1.8 5L0 3.2C2.2 1.2 5 0 8 0s5.8 1.2 8 3.2L14.2 5C12.6 3.4 10.4 2.4 8 2.4z"/><path d="M8 5.6c-1.6 0-3 .6-4 1.6L2.4 5.6C3.8 4.2 5.8 3.2 8 3.2s4.2 1 5.6 2.4L12 7.2c-1-1-2.4-1.6-4-1.6z"/><circle cx="8" cy="10" r="2"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="currentColor"><rect x="0.5" y="0.5" width="21" height="11" rx="3.5" stroke="currentColor" stroke-opacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="2" fill="currentColor"/><path d="M23 4v4a2 2 0 000-4z"/></svg>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="px-5 pt-3 pb-4">
+    <div class="flex justify-between items-start">
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">InfoWatch</h1>
+        <p class="text-sm text-gray-500 mt-0.5">今日 · 未読 <span class="text-blue-600 font-semibold">12件</span></p>
+      </div>
+      <button class="relative mt-1">
+        <div class="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center">
+          <span class="text-lg">🔔</span>
+        </div>
+        <span class="absolute top-0 right-0 w-5 h-5 bg-red-500 rounded-full text-white text-xs flex items-center justify-center font-bold">3</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Notification list -->
+  <div class="scrollable flex-1 px-4 space-y-3">
+
+    <div class="card bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+      <div class="flex items-start justify-between mb-2">
+        <span class="text-xs font-semibold text-red-600 bg-red-50 px-2.5 py-1 rounded-full">致命的</span>
+        <span class="text-xs text-gray-400">3分前</span>
+      </div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">CVE</span>
+        <span class="text-sm font-bold text-gray-900">CVE-2024-1234</span>
+      </div>
+      <p class="text-sm text-gray-600">Apache HTTP Server リモートコード実行</p>
+      <div class="flex items-center justify-between mt-2.5">
+        <span class="text-xs text-gray-400">CVSS 9.8 · NVD</span>
+        <svg class="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+
+    <div class="card bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+      <div class="flex items-start justify-between mb-2">
+        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">高</span>
+        <span class="text-xs text-gray-400">15分前</span>
+      </div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">JVN</span>
+        <span class="text-sm font-bold text-gray-900">JVN#12345678</span>
+      </div>
+      <p class="text-sm text-gray-600">OpenSSL バッファオーバーフロー脆弱性</p>
+      <div class="flex items-center justify-between mt-2.5">
+        <span class="text-xs text-gray-400">CVSS 7.5 · JVN</span>
+        <svg class="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+
+    <div class="card bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+      <div class="flex items-start justify-between mb-2">
+        <span class="text-xs font-semibold text-red-600 bg-red-50 px-2.5 py-1 rounded-full">致命的</span>
+        <span class="text-xs text-gray-400">22分前</span>
+      </div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">CVE</span>
+        <span class="text-sm font-bold text-gray-900">CVE-2024-5678</span>
+      </div>
+      <p class="text-sm text-gray-600">Linux Kernel 権限昇格 (LPE)</p>
+      <div class="flex items-center justify-between mt-2.5">
+        <span class="text-xs text-gray-400">CVSS 9.3 · NVD</span>
+        <svg class="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+
+    <div class="card bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+      <div class="flex items-start justify-between mb-2">
+        <span class="text-xs font-semibold text-yellow-600 bg-yellow-50 px-2.5 py-1 rounded-full">中</span>
+        <span class="text-xs text-gray-400">1時間前</span>
+      </div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">RSS</span>
+        <span class="text-sm font-bold text-gray-900">セキュリティブログ</span>
+      </div>
+      <p class="text-sm text-gray-600">新しいフィッシング攻撃手法が確認される</p>
+      <div class="flex items-center justify-between mt-2.5">
+        <span class="text-xs text-gray-400">security-blog.example.jp</span>
+        <svg class="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+
+    <div class="card bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+      <div class="flex items-start justify-between mb-2">
+        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">高</span>
+        <span class="text-xs text-gray-400">2時間前</span>
+      </div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">JVN</span>
+        <span class="text-sm font-bold text-gray-900">JVN#87654321</span>
+      </div>
+      <p class="text-sm text-gray-600">Nginx 設定ミスによる情報漏洩</p>
+      <div class="flex items-center justify-between mt-2.5">
+        <span class="text-xs text-gray-400">CVSS 7.2 · JVN</span>
+        <svg class="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </div>
+    </div>
+
+    <div class="h-4"></div>
+  </div>
+
+  <!-- Bottom nav -->
+  <div class="flex border-t border-gray-100 bg-white/90 backdrop-blur">
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+      <span class="text-xs text-blue-600 font-medium">フィード</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <svg class="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path stroke-linecap="round" stroke-width="2" d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+      <span class="text-xs text-gray-400">ソース</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <svg class="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <span class="text-xs text-gray-400">ルール</span>
+    </button>
+    <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+      <svg class="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      <span class="text-xs text-gray-400">設定</span>
+    </button>
+  </div>
+</div>
+</body>
+</html>

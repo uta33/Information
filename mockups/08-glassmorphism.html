@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案8: グラスモーフィズム</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #1a1a2e; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  .phone { width: 390px; height: 844px; border-radius: 44px; box-shadow: 0 0 0 2px rgba(255,255,255,0.15), 0 40px 100px rgba(0,0,0,0.6); overflow: hidden; display: flex; flex-direction: column; position: relative; }
+  .bg-gradient { position: absolute; inset: 0; background: linear-gradient(135deg, #1a1a4e 0%, #2d1b69 25%, #1a3a5c 50%, #0d2137 75%, #1a0533 100%); }
+  .blob1 { position: absolute; width: 250px; height: 250px; border-radius: 50%; background: radial-gradient(circle, rgba(147,51,234,0.4) 0%, transparent 70%); top: 50px; left: -50px; }
+  .blob2 { position: absolute; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(59,130,246,0.35) 0%, transparent 70%); top: 150px; right: -30px; }
+  .blob3 { position: absolute; width: 180px; height: 180px; border-radius: 50%; background: radial-gradient(circle, rgba(236,72,153,0.3) 0%, transparent 70%); bottom: 200px; left: 50px; }
+  .content { position: relative; z-index: 10; display: flex; flex-direction: column; height: 100%; }
+  .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; transition: all 0.2s; cursor: pointer; }
+  .glass:hover { background: rgba(255,255,255,0.13); }
+  .glass-nav { background: rgba(0,0,0,0.3); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-top: 1px solid rgba(255,255,255,0.1); }
+  .scrollable { overflow-y: auto; scrollbar-width: none; }
+  .scrollable::-webkit-scrollbar { display: none; }
+  .glow-red { text-shadow: 0 0 8px rgba(239,68,68,0.8); }
+  .glow-orange { text-shadow: 0 0 8px rgba(249,115,22,0.8); }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="bg-gradient"></div>
+  <div class="blob1"></div>
+  <div class="blob2"></div>
+  <div class="blob3"></div>
+
+  <div class="content">
+    <!-- Status bar -->
+    <div class="flex justify-between items-center px-8 pt-5 pb-1 text-sm font-medium text-white/70">
+      <span>9:41</span>
+      <span class="text-xs">●●● WiFi 🔋</span>
+    </div>
+
+    <!-- Header -->
+    <div class="px-5 pt-3 pb-4">
+      <div class="flex justify-between items-center">
+        <div>
+          <h1 class="text-2xl font-bold text-white">InfoWatch</h1>
+          <p class="text-xs text-white/50 mt-0.5">未読 <span class="text-purple-300 font-semibold">12件</span></p>
+        </div>
+        <div class="relative">
+          <div class="glass w-10 h-10 rounded-full flex items-center justify-center">
+            <span class="text-lg">🔔</span>
+          </div>
+          <span class="absolute -top-1 -right-1 w-5 h-5 bg-red-500 rounded-full text-white text-xs flex items-center justify-center font-bold">3</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter chips -->
+    <div class="flex gap-2 px-4 pb-4 overflow-x-auto" style="scrollbar-width:none;">
+      <button class="flex-shrink-0 bg-purple-500/60 backdrop-blur text-white text-xs font-bold px-4 py-1.5 rounded-full border border-purple-400/50">全て</button>
+      <button class="flex-shrink-0 glass text-white/70 text-xs font-bold px-4 py-1.5 rounded-full">CRITICAL</button>
+      <button class="flex-shrink-0 glass text-white/70 text-xs font-bold px-4 py-1.5 rounded-full">HIGH</button>
+      <button class="flex-shrink-0 glass text-white/70 text-xs font-bold px-4 py-1.5 rounded-full">CVE</button>
+      <button class="flex-shrink-0 glass text-white/70 text-xs font-bold px-4 py-1.5 rounded-full">JVN</button>
+    </div>
+
+    <!-- Card list -->
+    <div class="scrollable flex-1 px-4 space-y-3 pb-4">
+
+      <div class="glass p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-red-400 shadow-lg" style="box-shadow:0 0 8px #ef4444"></span>
+            <span class="text-xs font-bold text-red-400 glow-red">CRITICAL</span>
+            <span class="text-xs text-white/40">CVE</span>
+          </div>
+          <span class="text-xs text-white/40">3分前</span>
+        </div>
+        <div class="text-base font-bold text-white mb-1">CVE-2024-1234</div>
+        <div class="text-sm text-white/60 mb-3">Apache HTTP Server リモートコード実行</div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-white/40 font-mono">CVSS 9.8</span>
+          <div class="flex-1 h-1 rounded-full overflow-hidden" style="background:rgba(255,255,255,0.1)">
+            <div class="h-full rounded-full bg-gradient-to-r from-red-500 to-red-400" style="width:98%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-orange-400 shadow-lg" style="box-shadow:0 0 8px #f97316"></span>
+            <span class="text-xs font-bold text-orange-400 glow-orange">HIGH</span>
+            <span class="text-xs text-white/40">JVN</span>
+          </div>
+          <span class="text-xs text-white/40">15分前</span>
+        </div>
+        <div class="text-base font-bold text-white mb-1">JVN#12345678</div>
+        <div class="text-sm text-white/60 mb-3">OpenSSL バッファオーバーフロー脆弱性</div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-white/40 font-mono">CVSS 7.5</span>
+          <div class="flex-1 h-1 rounded-full overflow-hidden" style="background:rgba(255,255,255,0.1)">
+            <div class="h-full rounded-full bg-gradient-to-r from-orange-500 to-orange-400" style="width:75%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-red-400 shadow-lg" style="box-shadow:0 0 8px #ef4444"></span>
+            <span class="text-xs font-bold text-red-400 glow-red">CRITICAL</span>
+            <span class="text-xs text-white/40">CVE</span>
+          </div>
+          <span class="text-xs text-white/40">22分前</span>
+        </div>
+        <div class="text-base font-bold text-white mb-1">CVE-2024-5678</div>
+        <div class="text-sm text-white/60 mb-3">Linux Kernel 権限昇格 (LPE)</div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-white/40 font-mono">CVSS 9.3</span>
+          <div class="flex-1 h-1 rounded-full overflow-hidden" style="background:rgba(255,255,255,0.1)">
+            <div class="h-full rounded-full bg-gradient-to-r from-red-500 to-red-400" style="width:93%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-yellow-400"></span>
+            <span class="text-xs font-bold text-yellow-400">MEDIUM</span>
+            <span class="text-xs text-white/40">RSS</span>
+          </div>
+          <span class="text-xs text-white/40">1時間前</span>
+        </div>
+        <div class="text-base font-bold text-white mb-1">セキュリティブログ</div>
+        <div class="text-sm text-white/60">新しいフィッシング攻撃手法が確認される</div>
+      </div>
+
+      <div class="glass p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-orange-400 shadow-lg"></span>
+            <span class="text-xs font-bold text-orange-400">HIGH</span>
+            <span class="text-xs text-white/40">JVN</span>
+          </div>
+          <span class="text-xs text-white/40">2時間前</span>
+        </div>
+        <div class="text-base font-bold text-white mb-1">JVN#87654321</div>
+        <div class="text-sm text-white/60 mb-3">Nginx 設定ミスによる情報漏洩</div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-white/40 font-mono">CVSS 7.2</span>
+          <div class="flex-1 h-1 rounded-full overflow-hidden" style="background:rgba(255,255,255,0.1)">
+            <div class="h-full rounded-full bg-gradient-to-r from-orange-500 to-orange-400" style="width:72%"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom nav (glass) -->
+    <div class="glass-nav flex">
+      <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+        <span class="text-2xl">🏠</span>
+        <span class="text-xs text-purple-300 font-medium">フィード</span>
+      </button>
+      <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+        <span class="text-2xl">📡</span>
+        <span class="text-xs text-white/40">ソース</span>
+      </button>
+      <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+        <span class="text-2xl">⚡</span>
+        <span class="text-xs text-white/40">ルール</span>
+      </button>
+      <button class="flex-1 py-3 flex flex-col items-center gap-0.5">
+        <span class="text-2xl">⚙️</span>
+        <span class="text-xs text-white/40">設定</span>
+      </button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

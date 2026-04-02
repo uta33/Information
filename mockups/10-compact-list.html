@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案10: コンパクトリスト</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background: #1e2124; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .phone { width: 390px; height: 844px; background: #2f3136; border-radius: 44px; box-shadow: 0 0 0 2px #40444b, 0 40px 100px rgba(0,0,0,0.7); overflow: hidden; display: flex; flex-direction: column; }
+  .row { transition: background 0.1s; cursor: pointer; border-left: 3px solid transparent; }
+  .row:hover { background: rgba(255,255,255,0.06); }
+  .row-critical { border-left-color: #ef4444; }
+  .row-high { border-left-color: #f97316; }
+  .row-medium { border-left-color: #eab308; }
+  .row-info { border-left-color: #3b82f6; }
+  .scrollable { overflow-y: auto; scrollbar-width: thin; scrollbar-color: #40444b transparent; }
+  .scrollable::-webkit-scrollbar { width: 3px; }
+  .scrollable::-webkit-scrollbar-thumb { background: #40444b; border-radius: 2px; }
+  .channel { transition: background 0.15s; cursor: pointer; border-radius: 4px; }
+  .channel:hover { background: rgba(255,255,255,0.06); }
+  .channel-active { background: rgba(255,255,255,0.1); }
+  .badge { font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <!-- Status bar -->
+  <div class="flex justify-between items-center px-8 pt-5 pb-1 text-xs font-medium text-gray-400 bg-gray-900">
+    <span>9:41</span>
+    <span>●●● WiFi 🔋</span>
+  </div>
+
+  <!-- Server header (Discord-style) -->
+  <div class="bg-gray-900 px-4 py-3 flex items-center justify-between border-b border-black/20">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 bg-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-sm">IW</div>
+      <span class="text-white font-bold text-sm">InfoWatch</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="text-gray-400 text-sm">🔍</span>
+      <div class="relative">
+        <span class="text-gray-400 text-sm">🔔</span>
+        <span class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full text-white flex items-center justify-center font-bold" style="font-size:9px;">3</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-1 overflow-hidden">
+    <!-- Left sidebar (channel list) -->
+    <div class="w-36 bg-gray-800 flex-shrink-0 flex flex-col overflow-y-auto" style="scrollbar-width:none;">
+      <div class="px-2 pt-3 pb-1">
+        <p class="text-gray-400 text-xs font-bold px-2 pb-1 uppercase tracking-wide">重要度</p>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-gray-400 text-xs">#</span>
+          <span class="text-gray-200 text-xs">全て</span>
+          <span class="ml-auto text-white text-xs font-bold bg-red-500 rounded px-1">12</span>
+        </div>
+        <div class="channel channel-active px-2 py-1 flex items-center gap-1.5">
+          <span class="text-red-400 text-xs">●</span>
+          <span class="text-white text-xs font-semibold">致命的</span>
+          <span class="ml-auto text-white text-xs font-bold bg-red-500 rounded px-1">2</span>
+        </div>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-orange-400 text-xs">●</span>
+          <span class="text-gray-300 text-xs">高</span>
+          <span class="ml-auto text-gray-400 text-xs font-bold bg-gray-700 rounded px-1">5</span>
+        </div>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-yellow-400 text-xs">●</span>
+          <span class="text-gray-300 text-xs">中</span>
+          <span class="ml-auto text-gray-400 text-xs bg-gray-700 rounded px-1">8</span>
+        </div>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-blue-400 text-xs">●</span>
+          <span class="text-gray-300 text-xs">情報</span>
+        </div>
+      </div>
+      <div class="px-2 pt-3 pb-1">
+        <p class="text-gray-400 text-xs font-bold px-2 pb-1 uppercase tracking-wide">ソース</p>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-gray-400 text-xs">#</span>
+          <span class="text-gray-300 text-xs">CVE/NVD</span>
+        </div>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-gray-400 text-xs">#</span>
+          <span class="text-gray-300 text-xs">JVN</span>
+        </div>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-gray-400 text-xs">#</span>
+          <span class="text-gray-300 text-xs">RSS</span>
+        </div>
+      </div>
+      <div class="px-2 pt-3">
+        <p class="text-gray-400 text-xs font-bold px-2 pb-1 uppercase tracking-wide">保存</p>
+        <div class="channel px-2 py-1 flex items-center gap-1.5">
+          <span class="text-yellow-400 text-xs">★</span>
+          <span class="text-gray-300 text-xs">スター済み</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="flex-1 flex flex-col min-w-0">
+
+      <!-- Channel header -->
+      <div class="flex items-center justify-between px-3 py-2 border-b border-black/20 bg-gray-700">
+        <div class="flex items-center gap-2">
+          <span class="text-red-400 text-sm font-bold">●</span>
+          <span class="text-white text-sm font-semibold">致命的</span>
+        </div>
+        <span class="text-gray-400 text-xs">2件</span>
+      </div>
+
+      <!-- Notification rows (compact) -->
+      <div class="scrollable flex-1 bg-gray-700">
+
+        <!-- Date separator -->
+        <div class="flex items-center gap-2 px-3 py-1.5">
+          <div class="flex-1 h-px bg-gray-600"></div>
+          <span class="text-gray-500 text-xs font-semibold">今日</span>
+          <div class="flex-1 h-px bg-gray-600"></div>
+        </div>
+
+        <!-- Row: CRITICAL CVE -->
+        <div class="row row-critical px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-red-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-red-300">C</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">CVE-2024-1234</span>
+                <span class="badge bg-red-900 text-red-300">9.8</span>
+                <span class="badge bg-gray-600 text-gray-200">NVD</span>
+                <span class="text-gray-400 text-xs ml-auto">9:38</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">Apache HTTP Server リモートコード実行 — 2.4.0〜2.4.57が影響を受ける</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row: CRITICAL CVE 2 -->
+        <div class="row row-critical px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-red-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-red-300">C</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">CVE-2024-5678</span>
+                <span class="badge bg-red-900 text-red-300">9.3</span>
+                <span class="badge bg-gray-600 text-gray-200">NVD</span>
+                <span class="text-gray-400 text-xs ml-auto">9:19</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">Linux Kernel 権限昇格 (LPE) — ローカルで root 取得の可能性</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Date separator for HIGH -->
+        <div class="flex items-center gap-2 px-3 py-1.5 mt-1">
+          <div class="flex-1 h-px bg-gray-600"></div>
+          <span class="text-gray-500 text-xs font-semibold">HIGH (今日)</span>
+          <div class="flex-1 h-px bg-gray-600"></div>
+        </div>
+
+        <!-- Row: HIGH JVN -->
+        <div class="row row-high px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-orange-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-orange-300">J</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">JVN#12345678</span>
+                <span class="badge bg-orange-900 text-orange-300">7.5</span>
+                <span class="badge bg-gray-600 text-gray-200">JVN</span>
+                <span class="text-gray-400 text-xs ml-auto">9:26</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">OpenSSL バッファオーバーフロー — DoS攻撃の可能性</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row: HIGH JVN 2 -->
+        <div class="row row-high px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-orange-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-orange-300">J</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">JVN#87654321</span>
+                <span class="badge bg-orange-900 text-orange-300">7.2</span>
+                <span class="badge bg-gray-600 text-gray-200">JVN</span>
+                <span class="text-gray-400 text-xs ml-auto">7:41</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">Nginx 設定ミスによる情報漏洩</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row: MEDIUM RSS -->
+        <div class="row row-medium px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-yellow-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-yellow-300">R</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">セキュリティブログ</span>
+                <span class="badge bg-yellow-900 text-yellow-300">MEDIUM</span>
+                <span class="badge bg-gray-600 text-gray-200">RSS</span>
+                <span class="text-gray-400 text-xs ml-auto">8:55</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">新しいフィッシング攻撃手法が確認される</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row: INFO RSS -->
+        <div class="row row-info px-3 py-2">
+          <div class="flex items-start gap-2">
+            <div class="w-7 h-7 bg-blue-900 rounded flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-blue-300">R</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-white text-sm font-semibold">業界ニュース</span>
+                <span class="badge bg-blue-900 text-blue-300">INFO</span>
+                <span class="badge bg-gray-600 text-gray-200">RSS</span>
+                <span class="text-gray-400 text-xs ml-auto">6:30</span>
+              </div>
+              <p class="text-gray-300 text-xs mt-0.5">2024年Q1 脅威インテリジェンスレポート公開</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Message input (Discord style) -->
+      <div class="px-3 py-2 bg-gray-700 border-t border-black/20">
+        <div class="bg-gray-600 rounded-lg flex items-center gap-2 px-3 py-2">
+          <span class="text-gray-400 text-sm">🔍</span>
+          <span class="text-gray-400 text-xs">致命的 を検索...</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom nav -->
+  <div class="flex border-t border-black/30 bg-gray-900">
+    <button class="flex-1 py-2.5 flex flex-col items-center gap-0.5">
+      <span class="text-xl">📋</span>
+      <span class="text-xs text-indigo-400 font-medium">フィード</span>
+    </button>
+    <button class="flex-1 py-2.5 flex flex-col items-center gap-0.5">
+      <span class="text-xl">📡</span>
+      <span class="text-xs text-gray-500">ソース</span>
+    </button>
+    <button class="flex-1 py-2.5 flex flex-col items-center gap-0.5">
+      <span class="text-xl">⭐</span>
+      <span class="text-xs text-gray-500">保存</span>
+    </button>
+    <button class="flex-1 py-2.5 flex flex-col items-center gap-0.5">
+      <span class="text-xl">⚙️</span>
+      <span class="text-xs text-gray-500">設定</span>
+    </button>
+  </div>
+</div>
+</body>
+</html>
