@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-04T02:32:50.835176+00:00",
+  "generated_at": "2026-04-04T04:44:29.691498+00:00",
   "items": [
+    {
+      "id": "3f3858ed07b05832",
+      "content_hash": "3f3858ed07b0583207c656dd2f9de1b28f1bd0036fa19eee010256405fdd06cc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr",
+      "title": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47635056\">Comments</a>",
+      "url": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T02:30:32+00:00",
+      "created_at": "2026-04-04T04:44:29.690880+00:00"
+    },
+    {
+      "id": "995467ae07cb9a0e",
+      "content_hash": "995467ae07cb9a0ea33b110a69c49a7c71292c5ac7292184176d5c3e748af056",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/borski/travel-hacking-toolkit",
+      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47635033\">Comments</a>",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T02:26:42+00:00",
+      "created_at": "2026-04-04T04:44:29.690835+00:00"
+    },
+    {
+      "id": "c9f683dd2ad0c3c8",
+      "content_hash": "c9f683dd2ad0c3c81bdb50f87fbedc73db5b9379a6885a4a4a4d460085a7dc72",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/delve",
+      "title": "Delve removed from Y Combinator",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47634690\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/delve",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T01:37:02+00:00",
+      "created_at": "2026-04-04T04:44:29.690790+00:00"
+    },
     {
       "id": "b3e15fdb93f121e5",
       "content_hash": "b3e15fdb93f121e59324e292afa9d1fb99f2dbddeb7e5ca7424add4cba766cbc",
@@ -478,6 +520,34 @@
       "created_at": "2026-04-04T02:32:50.834579+00:00"
     },
     {
+      "id": "e3550d30ed23ba17",
+      "content_hash": "e3550d30ed23ba17ee9447f6b449953b10c2f7c13b59c1f5253217e0dee34a20",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-68152",
+      "title": "CVE-2025-68152 - Juju is an open source application orchestration engine that enables any applica...",
+      "body": "Juju is an open source application orchestration engine that enables any application operation on any infrastructure at any scale through special operators called ‘charms’. From versions 2.9 to before 2.9.56 and 3.6 to before 3.6.19, it is possible that a compromised workload machine under a Juju controller can read any log file for any entity in any model at any level. This issue has been patched in versions 2.9.56 and 3.6.19.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68152",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:23.193000",
+      "created_at": "2026-04-04T04:44:26.087187+00:00"
+    },
+    {
+      "id": "e862fc15999bc62c",
+      "content_hash": "e862fc15999bc62ce099e6d67fdd0742a0393fdf8d41c993ddd4da47afa06fc5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-64340",
+      "title": "CVE-2025-64340 - FastMCP is the standard framework for building MCP applications. Prior to versio...",
+      "body": "FastMCP is the standard framework for building MCP applications. Prior to version 3.2.0, server names containing shell metacharacters (e.g., &) can cause command injection on Windows when passed to fastmcp install claude-code or fastmcp install gemini-cli. These install paths use subprocess.run() with a list argument, but on Windows the target CLIs often resolve to .cmd wrappers that are executed through cmd.exe, which interprets metacharacters in the flattened command string. This issue has been patched in version 3.2.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64340",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-03T16:16:23.010000",
+      "created_at": "2026-04-04T04:44:26.087179+00:00"
+    },
+    {
       "id": "dc1613afcc0bd68a",
       "content_hash": "dc1613afcc0bd68ac3586040743c4396e31a062122ac7ce6128f1ed55de9e736",
       "source_name": "Hacker News (Best)",
@@ -518,6 +588,34 @@
       "cvss_score": null,
       "published_at": "2026-04-03T15:32:00+00:00",
       "created_at": "2026-04-04T02:32:46.881765+00:00"
+    },
+    {
+      "id": "951f6a9db3d83b92",
+      "content_hash": "951f6a9db3d83b92a592ea9d228e5f624267d7671b70ad40ce20eba13ef3688c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5469",
+      "title": "CVE-2026-5469 - A weakness has been identified in Casdoor 2.356.0. This vulnerability affects un...",
+      "body": "A weakness has been identified in Casdoor 2.356.0. This vulnerability affects unknown code of the component Webhook URL Handler. Executing a manipulation can lead to server-side request forgery. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5469",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.7,
+      "published_at": "2026-04-03T15:16:06.420000",
+      "created_at": "2026-04-04T04:44:26.087172+00:00"
+    },
+    {
+      "id": "989240116911c7d7",
+      "content_hash": "989240116911c7d71c8c5c46400b2f93cbd3883a13464750ea76d1dce7b9b433",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-26477",
+      "title": "CVE-2026-26477 - An issue in Dokuwiki v.2025-05-14b 'Librarian' allows a remote attacker to cause...",
+      "body": "An issue in Dokuwiki v.2025-05-14b 'Librarian' allows a remote attacker to cause a denial of service via the media_upload_xhr() function in the media.php file",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26477",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-03T15:16:05.093000",
+      "created_at": "2026-04-04T04:44:26.087165+00:00"
     },
     {
       "id": "fbc15378df344f49",
@@ -770,6 +868,20 @@
       "cvss_score": null,
       "published_at": "2026-04-03T14:00:15+00:00",
       "created_at": "2026-04-04T02:32:50.704246+00:00"
+    },
+    {
+      "id": "878cfb811c42cf2a",
+      "content_hash": "878cfb811c42cf2ac20aa5453703c2a4debd643bd4bb919ebb5e8f6d820c3c31",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hanshq.net/big-endian-qemu.html",
+      "title": "Big-Endian Testing with QEMU",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47626462\">Comments</a>",
+      "url": "https://www.hanshq.net/big-endian-qemu.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T13:28:58+00:00",
+      "created_at": "2026-04-04T04:44:29.691165+00:00"
     },
     {
       "id": "696e0d4e04568c0f",
@@ -2102,6 +2214,20 @@
       "created_at": "2026-04-04T02:32:47.549577+00:00"
     },
     {
+      "id": "7edd28e3b750e029",
+      "content_hash": "7edd28e3b750e029c87e696dac8bc4df221fe2bb9f7f00064f2de8c49bf784a2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/axios/axios/issues/10636",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47621792\">Comments</a>",
+      "url": "https://github.com/axios/axios/issues/10636",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T00:00:19+00:00",
+      "created_at": "2026-04-04T04:44:29.691037+00:00"
+    },
+    {
       "id": "259c113e93af29c2",
       "content_hash": "259c113e93af29c215273479e99b456a38276f317265ba49fc331e0f640f7fb0",
       "source_name": "TechCrunch",
@@ -2494,6 +2620,20 @@
       "created_at": "2026-04-04T02:32:46.882027+00:00"
     },
     {
+      "id": "926602688c98164a",
+      "content_hash": "926602688c98164a8c331d82907de3d0a302b93ac797bd05b9c192cb58284350",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mapledeploy.ca/blog/answer-engine-optimization-guide",
+      "title": "An experimental guide to Answer Engine Optimization",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47602598\">Comments</a>",
+      "url": "https://mapledeploy.ca/blog/answer-engine-optimization-guide",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T15:57:28+00:00",
+      "created_at": "2026-04-04T04:44:29.691228+00:00"
+    },
+    {
       "id": "db8b0661c3536d77",
       "content_hash": "db8b0661c3536d77f578486366570dae713f74b318a6b6a1a03cb5eeea406e1e",
       "source_name": "The Hacker News",
@@ -2618,6 +2758,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T06:12:00+00:00",
       "created_at": "2026-04-04T02:32:46.882180+00:00"
+    },
+    {
+      "id": "f8322998a1f4ae81",
+      "content_hash": "f8322998a1f4ae81707eecd9ece3e3d2cbb36b4f4d00da545f2962ad61801f07",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ounapuu.ee/posts/2026/04/01/focus/",
+      "title": "Improving my focus by giving up my big monitor",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47597159\">Comments</a>",
+      "url": "https://ounapuu.ee/posts/2026/04/01/focus/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T05:28:59+00:00",
+      "created_at": "2026-04-04T04:44:29.691019+00:00"
     },
     {
       "id": "080f594b1a1e5fae",
@@ -2814,6 +2968,20 @@
       "cvss_score": null,
       "published_at": "2026-03-31T06:08:00+00:00",
       "created_at": "2026-04-04T02:32:46.882304+00:00"
+    },
+    {
+      "id": "ab536310452a2813",
+      "content_hash": "ab536310452a2813ecbb30e159185174c5e842030f5559701665ddf5fccf8f09",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.laphamsquarterly.org/roundtable/south-polar-times",
+      "title": "South Polar Times",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47580271\">Comments</a>",
+      "url": "https://www.laphamsquarterly.org/roundtable/south-polar-times",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-03-30T22:03:01+00:00",
+      "created_at": "2026-04-04T04:44:29.691077+00:00"
     },
     {
       "id": "013edb8780757e9e",
