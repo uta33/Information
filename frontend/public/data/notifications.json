@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T08:29:18.310135+00:00",
+  "generated_at": "2026-04-04T09:27:42.654588+00:00",
   "items": [
     {
       "id": "edb185b3a887022d",
@@ -140,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-04-03T23:56:32+00:00",
       "created_at": "2026-04-04T02:32:50.834558+00:00"
+    },
+    {
+      "id": "5e9e503220c4b1f3",
+      "content_hash": "5e9e503220c4b1f3947cdcd52917ea0ae0271d55c366640bdcad4e227ca689b1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47633855\">Comments</a>",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-03T23:46:51+00:00",
+      "created_at": "2026-04-04T09:27:42.654393+00:00"
     },
     {
       "id": "9d48ff3d3a15fe6e",
@@ -574,6 +588,48 @@
       "cvss_score": null,
       "published_at": "2026-04-03T16:21:32+00:00",
       "created_at": "2026-04-04T02:32:50.834579+00:00"
+    },
+    {
+      "id": "2c86adb09091be9d",
+      "content_hash": "2c86adb09091be9d3b4a759fbcf8ef5d98e77823e07196bef4c1376159884f79",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23447",
+      "title": "CVE-2026-23447 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: c...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: cdc_ncm: add ndpoffset to NDP32 nframes bounds check\n\nThe same bounds-check bug fixed for NDP16 in the previous patch also\nexists in cdc_ncm_rx_verify_ndp32(). The DPE array size is validated\nagainst the total skb length without accounting for ndpoffset, allowing\nout-of-bounds reads when the NDP32 is placed near the end of the NTB.\n\nAdd ndpoffset to the nframes bounds check and use struct_size_t() to\nexpress the NDP-plus-DPE-array size more clearly.\n\nCompile-tested only.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23447",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:30.663000",
+      "created_at": "2026-04-04T09:27:39.606607+00:00"
+    },
+    {
+      "id": "953ec31495a456a0",
+      "content_hash": "953ec31495a456a09028b7d43d159b4e4939db5c7e657f66a86a8498310f2d4a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23446",
+      "title": "CVE-2026-23446 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: a...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: aqc111: Do not perform PM inside suspend callback\n\nsyzbot reports \"task hung in rpm_resume\"\n\nThis is caused by aqc111_suspend calling\nthe PM variant of its write_cmd routine.\n\nThe simplified call trace looks like this:\n\nrpm_suspend()\n  usb_suspend_both() - here udev->dev.power.runtime_status == RPM_SUSPENDING\n    aqc111_suspend() - called for the usb device interface\n      aqc111_write32_cmd()\n        usb_autopm_get_interface()\n          pm_runtime_resume_and_get()\n            rpm_resume() - here we call rpm_resume() on our parent\n              rpm_resume() - Here we wait for a status change that will never happen.\n\nAt this point we block another task which holds\nrtnl_lock and locks up the whole networking stack.\n\nFix this by replacing the write_cmd calls with their _nopm variants",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23446",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:30.317000",
+      "created_at": "2026-04-04T09:27:39.606600+00:00"
+    },
+    {
+      "id": "5b404b5851d97b3c",
+      "content_hash": "5b404b5851d97b3c255c3ac7a7d3f03164372d9b44de0fcbebc6960178180c28",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23445",
+      "title": "CVE-2026-23445 - In the Linux kernel, the following vulnerability has been resolved:\n\nigc: fix pa...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nigc: fix page fault in XDP TX timestamps handling\n\nIf an XDP application that requested TX timestamping is shutting down\nwhile the link of the interface in use is still up the following kernel\nsplat is reported:\n\n[  883.803618] [   T1554] BUG: unable to handle page fault for address: ffffcfb6200fd008\n...\n[  883.803650] [   T1554] Call Trace:\n[  883.803652] [   T1554]  <TASK>\n[  883.803654] [   T1554]  igc_ptp_tx_tstamp_event+0xdf/0x160 [igc]\n[  883.803660] [   T1554]  igc_tsync_interrupt+0x2d5/0x300 [igc]\n...\n\nDuring shutdown of the TX ring the xsk_meta pointers are left behind, so\nthat the IRQ handler is trying to touch them.\n\nThis issue is now being fixed by cleaning up the stale xsk meta data on\nTX shutdown. TX timestamps on other queues remain unaffected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23445",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:30.077000",
+      "created_at": "2026-04-04T09:27:39.606594+00:00"
     },
     {
       "id": "05962bad26d1e743",
@@ -3094,6 +3150,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T07:44:00+00:00",
       "created_at": "2026-04-04T02:32:46.882160+00:00"
+    },
+    {
+      "id": "34e9ea7322b6ffa2",
+      "content_hash": "34e9ea7322b6ffa24c3b370fc186bd5c46c2ee605fcdded6ba4a5145f8432585",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://2earth.github.io/website/20260304.html",
+      "title": "Remembering Magnetic Memories and the Apollo AGC",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47597908\">Comments</a>",
+      "url": "https://2earth.github.io/website/20260304.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T07:22:41+00:00",
+      "created_at": "2026-04-04T09:27:42.654116+00:00"
     },
     {
       "id": "1cb8d0759c879af4",
