@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-04T11:20:40.388974+00:00",
+  "generated_at": "2026-04-04T12:30:40.570977+00:00",
   "items": [
+    {
+      "id": "14fe65d3169cecd3",
+      "content_hash": "14fe65d3169cecd3e9d2f0fd57a933ff58701183da831db55144755f6f8bbdd3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/mbodi-ai/jobs/mf9L3sy-senior-robotics-engineer-systems-controls",
+      "title": "Mbodi AI (YC P25) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638270\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs/mf9L3sy-senior-robotics-engineer-systems-controls",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T12:00:38+00:00",
+      "created_at": "2026-04-04T12:30:40.570423+00:00"
+    },
+    {
+      "id": "b4c82d1fa113f319",
+      "content_hash": "b4c82d1fa113f319a2f807550071bbe960257cd439ad90b256b10c3fe775c5af",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "title": "The CMS is dead. Long live the CMS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638075\">Comments</a>",
+      "url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T11:24:30+00:00",
+      "created_at": "2026-04-04T12:30:40.570383+00:00"
+    },
+    {
+      "id": "0a246927b9ac2f0e",
+      "content_hash": "0a246927b9ac2f0e8a307b621678f8d41ffd5bf4862f8c84bae7fab7ea5dd3bb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://insideevs.com/news/791999/tesla-unsold-inventory-record-q1-2026/",
+      "title": "Tesla Is Sitting on a Record 50k Unsold EVs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638047\">Comments</a>",
+      "url": "https://insideevs.com/news/791999/tesla-unsold-inventory-record-q1-2026/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T11:19:55+00:00",
+      "created_at": "2026-04-04T12:30:40.570403+00:00"
+    },
+    {
+      "id": "051790b24bd392cd",
+      "content_hash": "051790b24bd392cdb98fc54fb30aaf3440b5cd7ad6e524e5c4688a4772a71112",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2604.01193",
+      "title": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637757\">Comments</a>",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T10:26:21+00:00",
+      "created_at": "2026-04-04T12:30:40.570281+00:00"
+    },
     {
       "id": "23cc466aae113248",
       "content_hash": "23cc466aae1132482ef7a4a5db9f9b1dac1c09ed2357be80e0f314be3866cead",
@@ -616,6 +672,34 @@
       "cvss_score": null,
       "published_at": "2026-04-03T16:21:32+00:00",
       "created_at": "2026-04-04T02:32:50.834579+00:00"
+    },
+    {
+      "id": "23b42833948ead6c",
+      "content_hash": "23b42833948ead6cb52bdf81200f05e822364335fe0af1415d3307af4b37f745",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23449",
+      "title": "CVE-2026-23449 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: teql: Fix double-free in teql_master_xmit\n\nWhenever a TEQL devices has a lockless Qdisc as root, qdisc_reset should\nbe called using the seq_lock to avoid racing with the datapath. Failure\nto do so may cause crashes like the following:\n\n[  238.028993][  T318] BUG: KASAN: double-free in skb_release_data (net/core/skbuff.c:1139)\n[  238.029328][  T318] Free of addr ffff88810c67ec00 by task poc_teql_uaf_ke/318\n[  238.029749][  T318]\n[  238.029900][  T318] CPU: 3 UID: 0 PID: 318 Comm: poc_teql_ke Not tainted 7.0.0-rc3-00149-ge5b31d988a41 #704 PREEMPT(full)\n[  238.029906][  T318] Hardware name: Bochs Bochs, BIOS Bochs 01/01/2011\n[  238.029910][  T318] Call Trace:\n[  238.029913][  T318]  <TASK>\n[  238.029916][  T318]  dump_stack_lvl (lib/dump_stack.c:122)\n[  238.029928][  T318]  print_report (mm/kasan/report.c:379 mm/kasan/report.c:482)\n[  238.029940][  T318]  ? skb_release_data (net/core/skbuff.c:1139)\n[  238.029944][  T318]  ? srso_alias_return_thunk (arch/x86/lib/retpoline.S:221)\n...\n[  238.029957][  T318]  ? skb_release_data (net/core/skbuff.c:1139)\n[  238.029969][  T318]  kasan_report_invalid_free (mm/kasan/report.c:221 mm/kasan/report.c:563)\n[  238.029979][  T318]  ? skb_release_data (net/core/skbuff.c:1139)\n[  238.029989][  T318]  check_slab_allocation (mm/kasan/common.c:231)\n[  238.029995][  T318]  kmem_cache_free (mm/slub.c:2637 (discriminator 1) mm/slub.c:6168 (discriminator 1) mm/slub.c:6298 (discriminator 1))\n[  238.030004][  T318]  skb_release_data (net/core/skbuff.c:1139)\n...\n[  238.030025][  T318]  sk_skb_reason_drop (net/core/skbuff.c:1256)\n[  238.030032][  T318]  pfifo_fast_reset (./include/linux/ptr_ring.h:171 ./include/linux/ptr_ring.h:309 ./include/linux/skb_array.h:98 net/sched/sch_generic.c:827)\n[  238.030039][  T318]  ? srso_alias_return_thunk (arch/x86/lib/retpoline.S:221)\n...\n[  238.030054][  T318]  qdisc_reset (net/sched/sch_generic.c:1034)\n[  238.030062][  T318]  teql_",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23449",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.037000",
+      "created_at": "2026-04-04T12:30:36.098397+00:00"
+    },
+    {
+      "id": "f002eb9bb94835d1",
+      "content_hash": "f002eb9bb94835d1bd1fc87af1c1333011b504ae659c2fcc6915ce3ef77f3390",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23448",
+      "title": "CVE-2026-23448 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: c...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: cdc_ncm: add ndpoffset to NDP16 nframes bounds check\n\ncdc_ncm_rx_verify_ndp16() validates that the NDP header and its DPE\nentries fit within the skb. The first check correctly accounts for\nndpoffset:\n\n  if ((ndpoffset + sizeof(struct usb_cdc_ncm_ndp16)) > skb_in->len)\n\nbut the second check omits it:\n\n  if ((sizeof(struct usb_cdc_ncm_ndp16) +\n       ret * (sizeof(struct usb_cdc_ncm_dpe16))) > skb_in->len)\n\nThis validates the DPE array size against the total skb length as if\nthe NDP were at offset 0, rather than at ndpoffset. When the NDP is\nplaced near the end of the NTB (large wNdpIndex), the DPE entries can\nextend past the skb data buffer even though the check passes.\ncdc_ncm_rx_fixup() then reads out-of-bounds memory when iterating\nthe DPE array.\n\nAdd ndpoffset to the nframes bounds check and use struct_size_t() to\nexpress the NDP-plus-DPE-array size more clearly.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23448",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:30.863000",
+      "created_at": "2026-04-04T12:30:36.098390+00:00"
     },
     {
       "id": "2c86adb09091be9d",
@@ -3066,6 +3150,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T15:57:28+00:00",
       "created_at": "2026-04-04T04:44:29.691228+00:00"
+    },
+    {
+      "id": "cdd9471b29e935c6",
+      "content_hash": "cdd9471b29e935c678549db9981cf661a13df2c0a4c9b9e01b7b31e0d8823f73",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html",
+      "title": "The Cathedral, the Bazaar, and the Winchester Mystery House",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47601194\">Comments</a>",
+      "url": "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T14:13:34+00:00",
+      "created_at": "2026-04-04T12:30:40.570522+00:00"
     },
     {
       "id": "db8b0661c3536d77",
