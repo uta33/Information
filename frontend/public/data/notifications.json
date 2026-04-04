@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T06:45:48.274572+00:00",
+  "generated_at": "2026-04-04T07:41:35.595309+00:00",
   "items": [
+    {
+      "id": "edb185b3a887022d",
+      "content_hash": "edb185b3a887022d52c6f3ad968f13f05aa7ce18af948ddb054dad55f6a75bb8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.anthropic.com/research/emotion-concepts-function",
+      "title": "Emotion concepts and their function in a large language model",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47636435\">Comments</a>",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T06:30:25+00:00",
+      "created_at": "2026-04-04T07:41:35.594630+00:00"
+    },
     {
       "id": "6b781fb77b9870c5",
       "content_hash": "6b781fb77b9870c591677b69bc03e7b6a2059e45c890cc0c799130f1235a227a",
@@ -2842,6 +2856,20 @@
       "cvss_score": null,
       "published_at": "2026-04-02T07:09:00+00:00",
       "created_at": "2026-04-04T02:32:46.882007+00:00"
+    },
+    {
+      "id": "49abfd82445d4315",
+      "content_hash": "49abfd82445d43153e3a76e28f3be94d3c6143ae7e86a5cd4ab33c91eb813010",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.csiro.au/en/news/All/News/2026/April/50-years-measuring-the-worlds-cleanest-air",
+      "title": "50 years measuring the cleanest air",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47609492\">Comments</a>",
+      "url": "https://www.csiro.au/en/news/All/News/2026/April/50-years-measuring-the-worlds-cleanest-air",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T02:59:56+00:00",
+      "created_at": "2026-04-04T07:41:35.595056+00:00"
     },
     {
       "id": "51e27d25d1563e46",
