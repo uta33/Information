@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T12:30:40.570977+00:00",
+  "generated_at": "2026-04-04T13:44:29.889976+00:00",
   "items": [
+    {
+      "id": "a3ba39d259ee8d0f",
+      "content_hash": "a3ba39d259ee8d0f7e600ba18dc1e3204ceb89166e0646c400d1e07f47de94b4",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109040",
+      "title": "After fighting malware for decades, this cybersecurity veteran is now hacking drones",
+      "body": "Mikko Hyppönen is one of the most recognizable faces of the cybersecurity industry. After fighting computer viruses, worms, and malware, for more than 35 years, he tells TechCrunch why he is now working on systems to stop killer drones.",
+      "url": "https://techcrunch.com/2026/04/04/after-fighting-malware-for-decades-this-cybersecurity-veteran-is-now-hacking-drones/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T13:00:00+00:00",
+      "created_at": "2026-04-04T13:44:29.582759+00:00"
+    },
     {
       "id": "14fe65d3169cecd3",
       "content_hash": "14fe65d3169cecd3e9d2f0fd57a933ff58701183da831db55144755f6f8bbdd3",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T12:00:38+00:00",
       "created_at": "2026-04-04T12:30:40.570423+00:00"
+    },
+    {
+      "id": "7f17e5aaab4dd782",
+      "content_hash": "7f17e5aaab4dd7829fd613a1a1aa73004f43659549cd25a019e21e928c4bdbe8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.businessinsider.com/block-ceo-jack-dorsey-bring-prototypes-not-slide-decks-meetings-2026-4",
+      "title": "Jack Dorsey says Block employees now bring prototypes, not slides, to meetings",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638246\">Comments</a>",
+      "url": "https://www.businessinsider.com/block-ceo-jack-dorsey-bring-prototypes-not-slide-decks-meetings-2026-4",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T11:57:14+00:00",
+      "created_at": "2026-04-04T13:44:29.889655+00:00"
     },
     {
       "id": "b4c82d1fa113f319",
@@ -56,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T10:26:21+00:00",
       "created_at": "2026-04-04T12:30:40.570281+00:00"
+    },
+    {
+      "id": "7f13e79d008288ca",
+      "content_hash": "7f13e79d008288caa2489cc0aed545b06490b69a896e5fa5f684e6047ec401d5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2604.01193",
+      "title": "Simple self-distillation improves code generation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637757\">Comments</a>",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T10:26:21+00:00",
+      "created_at": "2026-04-04T13:44:29.889263+00:00"
     },
     {
       "id": "23cc466aae113248",
@@ -672,6 +714,90 @@
       "cvss_score": null,
       "published_at": "2026-04-03T16:21:32+00:00",
       "created_at": "2026-04-04T02:32:50.834579+00:00"
+    },
+    {
+      "id": "43751bc7189b06bb",
+      "content_hash": "43751bc7189b06bbc3940b6b94cc2c3ff7614a0f808663b1234fddd587a364a9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23455",
+      "title": "CVE-2026-23455 - In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_conntrack_h323: check for zero length in DecodeQ931()\n\nIn DecodeQ931(), the UserUserIE code path reads a 16-bit length from\nthe packet, then decrements it by 1 to skip the protocol discriminator\nbyte before passing it to DecodeH323_UserInformation(). If the encoded\nlength is 0, the decrement wraps to -1, which is then passed as a\nlarge value to the decoder, leading to an out-of-bounds read.\n\nAdd a check to ensure len is positive after the decrement.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23455",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:32.123000",
+      "created_at": "2026-04-04T13:44:25.776776+00:00"
+    },
+    {
+      "id": "d6819fdef220fbf5",
+      "content_hash": "d6819fdef220fbf5004c4a794096e3363233344ec088548b30fe3aabd8269ae8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23454",
+      "title": "CVE-2026-23454 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mana: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mana: fix use-after-free in mana_hwc_destroy_channel() by reordering teardown\n\nA potential race condition exists in mana_hwc_destroy_channel() where\nhwc->caller_ctx is freed before the HWC's Completion Queue (CQ) and\nEvent Queue (EQ) are destroyed. This allows an in-flight CQ interrupt\nhandler to dereference freed memory, leading to a use-after-free or\nNULL pointer dereference in mana_hwc_handle_resp().\n\nmana_smc_teardown_hwc() signals the hardware to stop but does not\nsynchronize against IRQ handlers already executing on other CPUs. The\nIRQ synchronization only happens in mana_hwc_destroy_cq() via\nmana_gd_destroy_eq() -> mana_gd_deregister_irq(). Since this runs\nafter kfree(hwc->caller_ctx), a concurrent mana_hwc_rx_event_handler()\ncan dereference freed caller_ctx (and rxq->msg_buf) in\nmana_hwc_handle_resp().\n\nFix this by reordering teardown to reverse-of-creation order: destroy\nthe TX/RX work queues and CQ/EQ before freeing hwc->caller_ctx. This\nensures all in-flight interrupt handlers complete before the memory they\naccess is freed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23454",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.947000",
+      "created_at": "2026-04-04T13:44:25.776770+00:00"
+    },
+    {
+      "id": "ddba50d61c96db09",
+      "content_hash": "ddba50d61c96db0945e841fcc49f8a3202ed4196aa1fe2f9c1d8578e60288c3a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23453",
+      "title": "CVE-2026-23453 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ti: ic...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ti: icssg-prueth: Fix memory leak in XDP_DROP for non-zero-copy mode\n\nPage recycling was removed from the XDP_DROP path in emac_run_xdp() to\navoid conflicts with AF_XDP zero-copy mode, which uses xsk_buff_free()\ninstead.\n\nHowever, this causes a memory leak when running XDP programs that drop\npackets in non-zero-copy mode (standard page pool mode). The pages are\nnever returned to the page pool, leading to OOM conditions.\n\nFix this by handling cleanup in the caller, emac_rx_packet().\nWhen emac_run_xdp() returns ICSSG_XDP_CONSUMED for XDP_DROP, the\ncaller now recycles the page back to the page pool. The zero-copy\npath, emac_rx_packet_zc() already handles cleanup correctly with\nxsk_buff_free().",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23453",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.820000",
+      "created_at": "2026-04-04T13:44:25.776764+00:00"
+    },
+    {
+      "id": "8d4881fb8732dc22",
+      "content_hash": "8d4881fb8732dc229ad77e2a8c16782978706f63dda60825e705ed30ef09a80d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23452",
+      "title": "CVE-2026-23452 - In the Linux kernel, the following vulnerability has been resolved:\n\nPM: runtime...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nPM: runtime: Fix a race condition related to device removal\n\nThe following code in pm_runtime_work() may dereference the dev->parent\npointer after the parent device has been freed:\n\n\t/* Maybe the parent is now able to suspend. */\n\tif (parent && !parent->power.ignore_children) {\n\t\tspin_unlock(&dev->power.lock);\n\n\t\tspin_lock(&parent->power.lock);\n\t\trpm_idle(parent, RPM_ASYNC);\n\t\tspin_unlock(&parent->power.lock);\n\n\t\tspin_lock(&dev->power.lock);\n\t}\n\nFix this by inserting a flush_work() call in pm_runtime_remove().\n\nWithout this patch blktest block/001 triggers the following complaint\nsporadically:\n\nBUG: KASAN: slab-use-after-free in lock_acquire+0x70/0x160\nRead of size 1 at addr ffff88812bef7198 by task kworker/u553:1/3081\nWorkqueue: pm pm_runtime_work\nCall Trace:\n <TASK>\n dump_stack_lvl+0x61/0x80\n print_address_description.constprop.0+0x8b/0x310\n print_report+0xfd/0x1d7\n kasan_report+0xd8/0x1d0\n __kasan_check_byte+0x42/0x60\n lock_acquire.part.0+0x38/0x230\n lock_acquire+0x70/0x160\n _raw_spin_lock+0x36/0x50\n rpm_suspend+0xc6a/0xfe0\n rpm_idle+0x578/0x770\n pm_runtime_work+0xee/0x120\n process_one_work+0xde3/0x1410\n worker_thread+0x5eb/0xfe0\n kthread+0x37b/0x480\n ret_from_fork+0x6cb/0x920\n ret_from_fork_asm+0x11/0x20\n </TASK>\n\nAllocated by task 4314:\n kasan_save_stack+0x2a/0x50\n kasan_save_track+0x18/0x40\n kasan_save_alloc_info+0x3d/0x50\n __kasan_kmalloc+0xa0/0xb0\n __kmalloc_noprof+0x311/0x990\n scsi_alloc_target+0x122/0xb60 [scsi_mod]\n __scsi_scan_target+0x101/0x460 [scsi_mod]\n scsi_scan_channel+0x179/0x1c0 [scsi_mod]\n scsi_scan_host_selected+0x259/0x2d0 [scsi_mod]\n store_scan+0x2d2/0x390 [scsi_mod]\n dev_attr_store+0x43/0x80\n sysfs_kf_write+0xde/0x140\n kernfs_fop_write_iter+0x3ef/0x670\n vfs_write+0x506/0x1470\n ksys_write+0xfd/0x230\n __x64_sys_write+0x76/0xc0\n x64_sys_call+0x213/0x1810\n do_syscall_64+0xee/0xfc0\n entry_SYSCALL_64_after_hwframe+0x4b/0x53\n\nFreed by task 4314:\n kasan_save_stack+0x2a/0x50\n kasan_",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23452",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.617000",
+      "created_at": "2026-04-04T13:44:25.776757+00:00"
+    },
+    {
+      "id": "8f717efddbe71d0e",
+      "content_hash": "8f717efddbe71d0e4d0e8066482ada07affc9e27d2de7c57df3cb1832cdb1e9d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23451",
+      "title": "CVE-2026-23451 - In the Linux kernel, the following vulnerability has been resolved:\n\nbonding: pr...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nbonding: prevent potential infinite loop in bond_header_parse()\n\nbond_header_parse() can loop if a stack of two bonding devices is setup,\nbecause skb->dev always points to the hierarchy top.\n\nAdd new \"const struct net_device *dev\" parameter to\n(struct header_ops)->parse() method to make sure the recursion\nis bounded, and that the final leaf parse method is called.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23451",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.460000",
+      "created_at": "2026-04-04T13:44:25.776751+00:00"
+    },
+    {
+      "id": "1c2345573e5a7742",
+      "content_hash": "1c2345573e5a7742c29903cee806c2d576095dd3f6c627075b34a8cc9abc137d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23450",
+      "title": "CVE-2026-23450 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/smc: fi...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/smc: fix NULL dereference and UAF in smc_tcp_syn_recv_sock()\n\nSyzkaller reported a panic in smc_tcp_syn_recv_sock() [1].\n\nsmc_tcp_syn_recv_sock() is called in the TCP receive path\n(softirq) via icsk_af_ops->syn_recv_sock on the clcsock (TCP\nlistening socket). It reads sk_user_data to get the smc_sock\npointer. However, when the SMC listen socket is being closed\nconcurrently, smc_close_active() sets clcsock->sk_user_data\nto NULL under sk_callback_lock, and then the smc_sock itself\ncan be freed via sock_put() in smc_release().\n\nThis leads to two issues:\n\n1) NULL pointer dereference: sk_user_data is NULL when\n   accessed.\n2) Use-after-free: sk_user_data is read as non-NULL, but the\n   smc_sock is freed before its fields (e.g., queued_smc_hs,\n   ori_af_ops) are accessed.\n\nThe race window looks like this (the syzkaller crash [1]\ntriggers via the SYN cookie path: tcp_get_cookie_sock() ->\nsmc_tcp_syn_recv_sock(), but the normal tcp_check_req() path\nhas the same race):\n\n  CPU A (softirq)              CPU B (process ctx)\n\n  tcp_v4_rcv()\n    TCP_NEW_SYN_RECV:\n    sk = req->rsk_listener\n    sock_hold(sk)\n    /* No lock on listener */\n                               smc_close_active():\n                                 write_lock_bh(cb_lock)\n                                 sk_user_data = NULL\n                                 write_unlock_bh(cb_lock)\n                                 ...\n                                 smc_clcsock_release()\n                                 sock_put(smc->sk) x2\n                                   -> smc_sock freed!\n    tcp_check_req()\n      smc_tcp_syn_recv_sock():\n        smc = user_data(sk)\n          -> NULL or dangling\n        smc->queued_smc_hs\n          -> crash!\n\nNote that the clcsock and smc_sock are two independent objects\nwith separate refcounts. TCP stack holds a reference on the\nclcsock, which keeps it alive, but this does NOT prevent the\nsmc_sock from being freed.\n\n",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23450",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:31.243000",
+      "created_at": "2026-04-04T13:44:25.776744+00:00"
     },
     {
       "id": "23b42833948ead6c",
@@ -3360,6 +3486,20 @@
       "cvss_score": null,
       "published_at": "2026-03-31T23:41:42+00:00",
       "created_at": "2026-04-04T10:23:08.515586+00:00"
+    },
+    {
+      "id": "0d3627e472f6d170",
+      "content_hash": "0d3627e472f6d170fa4850d779240cb716529f57d4a77d3644dd10ddcd644a56",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=hyjCmIbRRvs",
+      "title": "Why Inventing Color TV Was So Difficult [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47592068\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=hyjCmIbRRvs",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-03-31T19:12:54+00:00",
+      "created_at": "2026-04-04T13:44:29.889579+00:00"
     },
     {
       "id": "022726587308bb33",
