@@ -1,1 +1,9 @@
-{"generated_at": null, "critical": 0, "high": 0, "ai_unread": 0, "it_unread": 0, "security_unread": 0, "total": 0}
+{
+  "critical": 28,
+  "high": 34,
+  "ai_unread": 70,
+  "it_unread": 50,
+  "security_unread": 165,
+  "total": 285,
+  "generated_at": "2026-04-04T02:32:50.835176+00:00"
+}
