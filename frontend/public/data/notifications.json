@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-04T20:18:12.346429+00:00",
+  "generated_at": "2026-04-04T21:21:27.088319+00:00",
   "items": [
+    {
+      "id": "528f2ddb4663cfe2",
+      "content_hash": "528f2ddb4663cfe2964ca9c0ab0fa301ab6dfc106cd7674384d1f76c90cbf373",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109441",
+      "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator",
+      "body": "The controversy around Delve appears to have cost the compliance startup its relationship with accelerator Y Combinator.",
+      "url": "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T21:03:43+00:00",
+      "created_at": "2026-04-04T21:21:26.725815+00:00"
+    },
+    {
+      "id": "9421eed80636bf6c",
+      "content_hash": "9421eed80636bf6c6eb41b21860c46e5b1aca336ece016b326facca08b497373",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/04/04/business/student-loans-abroad-default.html",
+      "title": "Student Debt Burdened Them, So They Moved Abroad and Stopped Paying",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47643094\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/04/04/business/student-loans-abroad-default.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T20:35:02+00:00",
+      "created_at": "2026-04-04T21:21:27.087697+00:00"
+    },
+    {
+      "id": "fb0aa2cd3c34b1b1",
+      "content_hash": "fb0aa2cd3c34b1b10794500dcf706547141045232e5db9b084ff2546a44becdc",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
+      "body": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducted by North Korean threat actors. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T20:30:42+00:00",
+      "created_at": "2026-04-04T21:21:22.172155+00:00"
+    },
     {
       "id": "b328ae567f2ff707",
       "content_hash": "b328ae567f2ff7078af4e82199785dfa0443bab368da8cd4060ae99958158aed",
@@ -16,6 +58,34 @@
       "created_at": "2026-04-04T20:18:12.345976+00:00"
     },
     {
+      "id": "863a03aed75be6fc",
+      "content_hash": "863a03aed75be6fc959be15a9a5b7a81c06f25035ad76d3ff577f150350707dd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "title": "How many products does Microsoft have named 'Copilot'?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47642569\">Comments</a>",
+      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T19:39:43+00:00",
+      "created_at": "2026-04-04T21:21:27.087589+00:00"
+    },
+    {
+      "id": "facc9cf76e288177",
+      "content_hash": "facc9cf76e288177aea7f6b4af97682a32fc129f10590f7f3ef53e8b0df733fb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
+      "title": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641788\">Comments</a>",
+      "url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T18:23:55+00:00",
+      "created_at": "2026-04-04T21:21:27.087946+00:00"
+    },
+    {
       "id": "883c703edf553a35",
       "content_hash": "883c703edf553a35ed3b0f597aad487768b331b2c17bf6c5b886642578e1aa53",
       "source_name": "Hacker News (Best)",
@@ -28,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T18:06:24+00:00",
       "created_at": "2026-04-04T19:23:24.444656+00:00"
+    },
+    {
+      "id": "91931b5015527fca",
+      "content_hash": "91931b5015527fca307eba48dfc1d03348454d6b2e0d16c87c681278ba6e179a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://www.sopwith.org/",
+      "title": "Sopwith – 1984 Game (2000)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641615\">Comments</a>",
+      "url": "http://www.sopwith.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T18:06:24+00:00",
+      "created_at": "2026-04-04T21:21:27.087909+00:00"
     },
     {
       "id": "35a0f0a04f6226a1",
@@ -112,6 +196,34 @@
       "cvss_score": null,
       "published_at": "2026-04-04T17:33:21+00:00",
       "created_at": "2026-04-04T19:23:24.444829+00:00"
+    },
+    {
+      "id": "b5d721ba330a93fe",
+      "content_hash": "b5d721ba330a93fe8b4a19a68cd14e88918928bd95f9fabf81c6ab16d07f8de7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.afloat.com.au/feature/plague-ships/",
+      "title": "Plague Ships (2020)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641255\">Comments</a>",
+      "url": "https://www.afloat.com.au/feature/plague-ships/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T17:33:21+00:00",
+      "created_at": "2026-04-04T21:21:27.087851+00:00"
+    },
+    {
+      "id": "1e6ecf5e490e67b2",
+      "content_hash": "1e6ecf5e490e67b2dc668934ed9548954552f62240e590dba8b37e5cd5fbf770",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf",
+      "title": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641141\">Comments</a>",
+      "url": "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T17:20:39+00:00",
+      "created_at": "2026-04-04T21:21:27.088067+00:00"
     },
     {
       "id": "b42f9f7113e1d7b8",
@@ -728,6 +840,48 @@
       "cvss_score": null,
       "published_at": "2026-04-03T23:22:37+00:00",
       "created_at": "2026-04-04T02:32:50.834694+00:00"
+    },
+    {
+      "id": "b3107428b51a9f64",
+      "content_hash": "b3107428b51a9f6458601ad4eb5182882c2c27da1a7f4fe810634bac2c9c79ca",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-34052",
+      "title": "CVE-2026-34052 - LTI JupyterHub Authenticator is a JupyterHub authenticator for LTI. Prior to ver...",
+      "body": "LTI JupyterHub Authenticator is a JupyterHub authenticator for LTI. Prior to version 1.6.3, the LTI 1.1 validator stores OAuth nonces in a class-level dictionary that grows without bounds. Nonces are added before signature validation, so an attacker with knowledge of a valid consumer key can send repeated requests with unique nonces to gradually exhaust server memory, causing a denial of service. This issue has been patched in version 1.6.3.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34052",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "published_at": "2026-04-03T23:17:03.777000",
+      "created_at": "2026-04-04T21:21:22.558841+00:00"
+    },
+    {
+      "id": "78113ba66d07a126",
+      "content_hash": "78113ba66d07a1266de92f0594e0beae3cf29e8d66ab01e6838bca72947346de",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33184",
+      "title": "CVE-2026-33184 - nimiq/core-rs-albatross is a Rust implementation of the Nimiq Proof-of-Stake pro...",
+      "body": "nimiq/core-rs-albatross is a Rust implementation of the Nimiq Proof-of-Stake protocol based on the Albatross consensus algorithm. Prior to version 1.3.0, the discovery handler accepts a peer-controlled limit during handshake and stores it unchanged. The immediate HandshakeAck path then honors limit = 0 and returns zero contacts, which makes the session look benign. Later, after the same session reaches Established, the periodic update path computes self.peer_list_limit.unwrap() as usize - 1. With limit = 0, that wraps to usize::MAX and then in rand 0.9.2, choose_multiple() immediately attempts Vec::with_capacity(amount), which deterministically panics with capacity overflow. This issue has been patched in version 1.3.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33184",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-03T23:17:03.600000",
+      "created_at": "2026-04-04T21:21:22.558835+00:00"
+    },
+    {
+      "id": "94184d9acf04bd5c",
+      "content_hash": "94184d9acf04bd5c5ac3dc04f96ac83111e1877dc8bccbd3ec6f166d96cc8f3d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2021-4477",
+      "title": "CVE-2021-4477 - Hirschmann HiLCOS OpenBAT and BAT450 products contain a firewall bypass vulnerab...",
+      "body": "Hirschmann HiLCOS OpenBAT and BAT450 products contain a firewall bypass vulnerability in IPv6 IPsec deployments that allows traffic from VPN connections to bypass configured firewall rules. Attackers can exploit this vulnerability by establishing IPv6 IPsec connections (IKEv1 or IKEv2) while simultaneously using an IPv6 Internet connection to circumvent firewall policy enforcement.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4477",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.1,
+      "published_at": "2026-04-03T23:17:01.043000",
+      "created_at": "2026-04-04T21:21:22.558828+00:00"
     },
     {
       "id": "70ef119d958fc571",
@@ -4606,6 +4760,20 @@
       "cvss_score": null,
       "published_at": "2026-04-02T14:01:11+00:00",
       "created_at": "2026-04-04T02:32:46.994977+00:00"
+    },
+    {
+      "id": "481155387dcad198",
+      "content_hash": "481155387dcad1981f2834778d3fc356985934f24625899765d3df74e2ee2b8f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ruckus.defn.io/",
+      "title": "Ruckus: Racket for iOS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47614532\">Comments</a>",
+      "url": "https://ruckus.defn.io/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T13:54:12+00:00",
+      "created_at": "2026-04-04T21:21:27.087814+00:00"
     },
     {
       "id": "3bc7f84b36596193",
