@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T19:23:24.445349+00:00",
+  "generated_at": "2026-04-04T20:18:12.346429+00:00",
   "items": [
+    {
+      "id": "b328ae567f2ff707",
+      "content_hash": "b328ae567f2ff7078af4e82199785dfa0443bab368da8cd4060ae99958158aed",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "title": "How many products does Microsoft have named 'Copilot'? I mapped every one",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47642569\">Comments</a>",
+      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T19:39:43+00:00",
+      "created_at": "2026-04-04T20:18:12.345976+00:00"
+    },
     {
       "id": "883c703edf553a35",
       "content_hash": "883c703edf553a35ed3b0f597aad487768b331b2c17bf6c5b886642578e1aa53",
@@ -72,6 +86,20 @@
       "created_at": "2026-04-04T19:23:24.444727+00:00"
     },
     {
+      "id": "0b35a889dfc7feb1",
+      "content_hash": "0b35a889dfc7feb1e9f3a2fe72f5f7e07d5b520d8b55db1047097c46f6c0c5ba",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
+      "title": "A new gene therapy is giving people born deaf the chance to hear",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641277\">Comments</a>",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T17:35:40+00:00",
+      "created_at": "2026-04-04T20:18:12.346203+00:00"
+    },
+    {
       "id": "115f1925940432d3",
       "content_hash": "115f1925940432d3adea3c498dd56e7017beaf1d56b1304a6e17f73073c7c8cc",
       "source_name": "Hacker News (Best)",
@@ -126,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T16:49:40+00:00",
       "created_at": "2026-04-04T18:26:14.830932+00:00"
+    },
+    {
+      "id": "9c433f725afed787",
+      "content_hash": "9c433f725afed7877f4efcdceed732245237925b36034d6db228a7312403bc2d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
+      "title": "Why the most valuable things you know are things you cannot say",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47640775\">Comments</a>",
+      "url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T16:49:40+00:00",
+      "created_at": "2026-04-04T20:18:12.346187+00:00"
     },
     {
       "id": "1f77d70c0853cf18",
@@ -478,6 +520,20 @@
       "created_at": "2026-04-04T13:44:29.889263+00:00"
     },
     {
+      "id": "3c6b2e8eb06205d9",
+      "content_hash": "3c6b2e8eb06205d91c3a7b1c11267b3dfef5a6828f9c15279f4048e1c2f29103",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2604.01193",
+      "title": "Embarrassingly simple self-distillation improves code generation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637757\">Comments</a>",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T10:26:21+00:00",
+      "created_at": "2026-04-04T20:18:12.345786+00:00"
+    },
+    {
       "id": "23cc466aae113248",
       "content_hash": "23cc466aae1132482ef7a4a5db9f9b1dac1c09ed2357be80e0f314be3866cead",
       "source_name": "Hacker News (Best)",
@@ -672,6 +728,34 @@
       "cvss_score": null,
       "published_at": "2026-04-03T23:22:37+00:00",
       "created_at": "2026-04-04T02:32:50.834694+00:00"
+    },
+    {
+      "id": "70ef119d958fc571",
+      "content_hash": "70ef119d958fc5714e43a780913b7a60eacf251f1e5c7ed478f0dc4b3b04f85a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2018-25236",
+      "title": "CVE-2018-25236 - Hirschmann HiOS and HiSecOS products RSP, RSPE, RSPS, RSPL, MSP, EES, EESX, GRS,...",
+      "body": "Hirschmann HiOS and HiSecOS products RSP, RSPE, RSPS, RSPL, MSP, EES, EESX, GRS, OS, RED, EAGLE contain an authentication bypass vulnerability in the HTTP(S) management module that allows unauthenticated remote attackers to gain administrative access by crafting specially formed HTTP requests. Attackers can exploit improper authentication handling to obtain the authentication status and privileges of a previously authenticated user without providing valid credentials.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25236",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-04-03T23:17:00.823000",
+      "created_at": "2026-04-04T20:18:08.232447+00:00"
+    },
+    {
+      "id": "5cc3d374766a7c11",
+      "content_hash": "5cc3d374766a7c114649efebbc7e0132a870f7e789455738171496fc427dffa9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2017-20238",
+      "title": "CVE-2017-20238 - Hirschmann Industrial HiVision versions 06.0.00 and 07.0.00 prior to 06.0.06 and...",
+      "body": "Hirschmann Industrial HiVision versions 06.0.00 and 07.0.00 prior to 06.0.06 and 07.0.01 contains an improper authorization vulnerability that allows read-only users to gain write access to managed devices by bypassing access control mechanisms. Attackers can exploit alternative interfaces such as the web interface or SNMP browser to modify device configurations despite having restricted permissions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20238",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-04-03T23:17:00.633000",
+      "created_at": "2026-04-04T20:18:08.232441+00:00"
     },
     {
       "id": "0d2e564e2f11398d",
@@ -4802,6 +4886,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T15:12:24+00:00",
       "created_at": "2026-04-04T14:25:07.868405+00:00"
+    },
+    {
+      "id": "d968e2fdfe1e291b",
+      "content_hash": "d968e2fdfe1e291be77cdb796348b54304de974d72a18ba388f3f6b85db44bb6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chs.us/2026/03/csp-toolkit/",
+      "title": "Csp-toolkit – Python library to parse, analyze, and find bypasses in CSP headers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47601570\">Comments</a>",
+      "url": "https://chs.us/2026/03/csp-toolkit/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T14:37:50+00:00",
+      "created_at": "2026-04-04T20:18:12.346120+00:00"
     },
     {
       "id": "cdd9471b29e935c6",
