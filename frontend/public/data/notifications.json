@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T18:26:14.831097+00:00",
+  "generated_at": "2026-04-04T19:23:24.445349+00:00",
   "items": [
+    {
+      "id": "883c703edf553a35",
+      "content_hash": "883c703edf553a35ed3b0f597aad487768b331b2c17bf6c5b886642578e1aa53",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://www.sopwith.org/",
+      "title": "Sopwith",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641615\">Comments</a>",
+      "url": "http://www.sopwith.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T18:06:24+00:00",
+      "created_at": "2026-04-04T19:23:24.444656+00:00"
+    },
     {
       "id": "35a0f0a04f6226a1",
       "content_hash": "35a0f0a04f6226a1e14b9e4aeb4fe24a93240be9a25b928d8ab6f92ebc8a8e33",
@@ -42,6 +56,34 @@
       "cvss_score": null,
       "published_at": "2026-04-04T17:52:55+00:00",
       "created_at": "2026-04-04T18:26:14.830366+00:00"
+    },
+    {
+      "id": "0e624f93bf7f6e51",
+      "content_hash": "0e624f93bf7f6e51650f6f4aeb901c167245d4dfb3a9cd5dcf355cd9d71c4145",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
+      "title": "Scientists observe an immune signaling complex forming inside cells",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641464\">Comments</a>",
+      "url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T17:52:55+00:00",
+      "created_at": "2026-04-04T19:23:24.444727+00:00"
+    },
+    {
+      "id": "115f1925940432d3",
+      "content_hash": "115f1925940432d3adea3c498dd56e7017beaf1d56b1304a6e17f73073c7c8cc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.afloat.com.au/feature/plague-ships/",
+      "title": "Plague Ships",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47641255\">Comments</a>",
+      "url": "https://www.afloat.com.au/feature/plague-ships/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T17:33:21+00:00",
+      "created_at": "2026-04-04T19:23:24.444829+00:00"
     },
     {
       "id": "b42f9f7113e1d7b8",
@@ -168,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T15:39:10+00:00",
       "created_at": "2026-04-04T16:22:21.322672+00:00"
+    },
+    {
+      "id": "036b1d966a71e66b",
+      "content_hash": "036b1d966a71e66bef0b4d8f7849772cb62711977ccc4ff451f2a75951e41ba0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
+      "title": "German men 18-45 need military permit for extended stays abroad",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47639976\">Comments</a>",
+      "url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T15:39:10+00:00",
+      "created_at": "2026-04-04T19:23:24.445124+00:00"
     },
     {
       "id": "e7e3cdcf5c1b2448",
@@ -364,6 +420,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T11:24:30+00:00",
       "created_at": "2026-04-04T12:30:40.570383+00:00"
+    },
+    {
+      "id": "3611317012489b49",
+      "content_hash": "3611317012489b493262f4febdff84059b53437b38fa09922f634bbbd2507ea7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "title": "The CMS is dead, long live the CMS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638075\">Comments</a>",
+      "url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T11:24:30+00:00",
+      "created_at": "2026-04-04T19:23:24.444868+00:00"
     },
     {
       "id": "0a246927b9ac2f0e",
@@ -602,6 +672,62 @@
       "cvss_score": null,
       "published_at": "2026-04-03T23:22:37+00:00",
       "created_at": "2026-04-04T02:32:50.834694+00:00"
+    },
+    {
+      "id": "0d2e564e2f11398d",
+      "content_hash": "0d2e564e2f11398d4bd5305db6df2689098fffed9bd4ac86b051bf93d306a7f0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2017-20236",
+      "title": "CVE-2017-20236 - ProSoft Technology ICX35-HWC versions 1.3 and prior cellular gateways contain an...",
+      "body": "ProSoft Technology ICX35-HWC versions 1.3 and prior cellular gateways contain an input validation vulnerability in the web user interface that allows remote attackers to inject and execute system commands by submitting malicious input through unvalidated fields. Attackers can exploit this vulnerability to gain root privileges and execute arbitrary commands on the device through the accessible web interface.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20236",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-04-03T23:17:00.447000",
+      "created_at": "2026-04-04T19:23:21.421229+00:00"
+    },
+    {
+      "id": "941e1046a7120b9a",
+      "content_hash": "941e1046a7120b9a083a36eadb4ffbe2535bbe9928d80eee2bb395cff9611fb8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2017-20235",
+      "title": "CVE-2017-20235 - ProSoft Technology ICX35-HWC version 1.3 and prior cellular gateways contain an ...",
+      "body": "ProSoft Technology ICX35-HWC version 1.3 and prior cellular gateways contain an authentication bypass vulnerability in the web user interface that allows unauthenticated attackers to gain access to administrative functions without valid credentials. Attackers can bypass the authentication mechanism in affected firmware versions to obtain full administrative access to device configuration and settings.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20235",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.1,
+      "published_at": "2026-04-03T23:17:00.267000",
+      "created_at": "2026-04-04T19:23:21.421222+00:00"
+    },
+    {
+      "id": "ec0dace5b612578d",
+      "content_hash": "ec0dace5b612578d36fd53263a1f73628fbb3d6099261d781ff7485ea17c5217",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2017-20234",
+      "title": "CVE-2017-20234 - GarrettCom Magnum 6K and 10K managed switches contain an authentication bypass v...",
+      "body": "GarrettCom Magnum 6K and 10K managed switches contain an authentication bypass vulnerability that allows unauthenticated attackers to gain unauthorized access by exploiting a hardcoded string in the authentication mechanism. Attackers can bypass login controls to access administrative functions and sensitive switch configuration without valid credentials.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20234",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-04-03T23:17:00.087000",
+      "created_at": "2026-04-04T19:23:21.421215+00:00"
+    },
+    {
+      "id": "d3e4da5c1aeb1941",
+      "content_hash": "d3e4da5c1aeb19410a3e98f6db441b0e8ccccfb8c483a3027d4c66ba0ae73c7b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2017-20233",
+      "title": "CVE-2017-20233 - Hirschmann HiLCOS products OpenBAT, BAT450, WLC, BAT867 contains a firewall filt...",
+      "body": "Hirschmann HiLCOS products OpenBAT, BAT450, WLC, BAT867 contains a firewall filtering vulnerability that fails to correctly filter IPv4 multicast and broadcast traffic when management IP address filtering is disabled, allowing configured filter rules to be bypassed. Attackers with network access can inject or observe multicast and broadcast packets that should have been blocked by the firewall.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20233",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-04-03T23:16:59.763000",
+      "created_at": "2026-04-04T19:23:21.421208+00:00"
     },
     {
       "id": "2a0ffdf30c94dd4e",
@@ -4536,6 +4662,20 @@
       "cvss_score": null,
       "published_at": "2026-04-02T07:09:00+00:00",
       "created_at": "2026-04-04T02:32:46.882007+00:00"
+    },
+    {
+      "id": "b73f93042df50237",
+      "content_hash": "b73f93042df5023795d66ea45adb71e3a60b44d035bc730850df82e8faedc819",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bamwor.com/en/news/rebuilt-same-project-after-15-years",
+      "title": "I rebuilt the same project after 15 years – what changed in web dev",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47610191\">Comments</a>",
+      "url": "https://bamwor.com/en/news/rebuilt-same-project-after-15-years",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T05:06:12+00:00",
+      "created_at": "2026-04-04T19:23:24.445048+00:00"
     },
     {
       "id": "49abfd82445d4315",
