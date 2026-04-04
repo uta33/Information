@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-04T09:27:42.654588+00:00",
+  "generated_at": "2026-04-04T10:23:08.516137+00:00",
   "items": [
+    {
+      "id": "23cc466aae113248",
+      "content_hash": "23cc466aae1132482ef7a4a5db9f9b1dac1c09ed2357be80e0f314be3866cead",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thoughts.wyounas.com/p/some-unusual-trees",
+      "title": "Some Unusual Trees",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637287\">Comments</a>",
+      "url": "https://thoughts.wyounas.com/p/some-unusual-trees",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T09:04:19+00:00",
+      "created_at": "2026-04-04T10:23:08.515441+00:00"
+    },
+    {
+      "id": "85518506b3e5f379",
+      "content_hash": "85518506b3e5f37914517d5e11eb6eeb7b1cd94c79981c79d1c56aec3bc12e4e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
+      "title": "TurboQuant model weight compression support added to Llamacpp",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637228\">Comments</a>",
+      "url": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T08:52:29+00:00",
+      "created_at": "2026-04-04T10:23:08.515463+00:00"
+    },
     {
       "id": "edb185b3a887022d",
       "content_hash": "edb185b3a887022d52c6f3ad968f13f05aa7ce18af948ddb054dad55f6a75bb8",
@@ -3206,6 +3234,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T02:00:00+00:00",
       "created_at": "2026-04-04T02:32:46.084393+00:00"
+    },
+    {
+      "id": "2a883c519e1b2f7b",
+      "content_hash": "2a883c519e1b2f7b0614f9beb0ce642722c2dbd5f5715f138636b0e335f2519d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/anthropics/claude-code/forks",
+      "title": "GitHub has DMCA'd nearly all forks of the official Claude-code repo",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47594936\">Comments</a>",
+      "url": "https://github.com/anthropics/claude-code/forks",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-03-31T23:41:42+00:00",
+      "created_at": "2026-04-04T10:23:08.515586+00:00"
     },
     {
       "id": "022726587308bb33",
