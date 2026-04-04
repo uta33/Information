@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T13:44:29.889976+00:00",
+  "generated_at": "2026-04-04T14:25:07.868719+00:00",
   "items": [
+    {
+      "id": "47b8bed4c29a4b5d",
+      "content_hash": "47b8bed4c29a4b5d11a4a474cc37261f907acc118e5a0d967f6bdd5813e2da7f",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+      "title": "Device code phishing attacks surge 37x as new kits spread online",
+      "body": "Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T14:17:38+00:00",
+      "created_at": "2026-04-04T14:25:02.961672+00:00"
+    },
     {
       "id": "a3ba39d259ee8d0f",
       "content_hash": "a3ba39d259ee8d0f7e600ba18dc1e3204ceb89166e0646c400d1e07f47de94b4",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T13:00:00+00:00",
       "created_at": "2026-04-04T13:44:29.582759+00:00"
+    },
+    {
+      "id": "625bc9a8fa65d192",
+      "content_hash": "625bc9a8fa65d192f3dbfc9172f2adc114262ef31b7a2689a21f6b31aa33d260",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47638685",
+      "title": "Ask HN: How do you handle clients who don't pay on time?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47638685\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47638685",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T12:58:45+00:00",
+      "created_at": "2026-04-04T14:25:07.868314+00:00"
     },
     {
       "id": "14fe65d3169cecd3",
@@ -436,6 +464,20 @@
       "created_at": "2026-04-04T02:32:46.994736+00:00"
     },
     {
+      "id": "8fb18731bad31552",
+      "content_hash": "8fb18731bad31552f682ec003c1ba8970dfd9b9b4dd31c7d76a78f88cc75e13e",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
+      "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
+      "body": "A new report dubbed \"BrowserGate\" warns that Microsoft's LinkedIn is using hidden JavaScript scripts on its website to scan visitors' browsers for installed extensions and collect device data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T20:40:22+00:00",
+      "created_at": "2026-04-04T14:25:02.961715+00:00"
+    },
+    {
       "id": "15fca5bdba52a79d",
       "content_hash": "15fca5bdba52a79deedbc1b8f4a26230d817e7e7112a2c42dcdc60a42ae3bd15",
       "source_name": "TechCrunch",
@@ -714,6 +756,20 @@
       "cvss_score": null,
       "published_at": "2026-04-03T16:21:32+00:00",
       "created_at": "2026-04-04T02:32:50.834579+00:00"
+    },
+    {
+      "id": "60d39bdcb6c1f2aa",
+      "content_hash": "60d39bdcb6c1f2aa0fdd14719653a44df2c5bdf854209aea60e04ba0802a87a1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23456",
+      "title": "CVE-2026-23456 - In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_conntrack_h323: fix OOB read in decode_int() CONS case\n\nIn decode_int(), the CONS case calls get_bits(bs, 2) to read a length\nvalue, then calls get_uint(bs, len) without checking that len bytes\nremain in the buffer. The existing boundary check only validates the\n2 bits for get_bits(), not the subsequent 1-4 bytes that get_uint()\nreads. This allows a malformed H.323/RAS packet to cause a 1-4 byte\nslab-out-of-bounds read.\n\nAdd a boundary check for len bytes after get_bits() and before\nget_uint().",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23456",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T16:16:32.300000",
+      "created_at": "2026-04-04T14:25:03.273748+00:00"
     },
     {
       "id": "43751bc7189b06bb",
@@ -3276,6 +3332,20 @@
       "cvss_score": null,
       "published_at": "2026-04-01T15:57:28+00:00",
       "created_at": "2026-04-04T04:44:29.691228+00:00"
+    },
+    {
+      "id": "8abac71414f665e0",
+      "content_hash": "8abac71414f665e0827249e0aa47446af562bcff3e1bcc6fb8667f39e884c5f9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nathanotterness.com/2021/10/tiny_elf_modernized.html",
+      "title": "The smallest ELF executable (2021)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47601992\">Comments</a>",
+      "url": "https://nathanotterness.com/2021/10/tiny_elf_modernized.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-01T15:12:24+00:00",
+      "created_at": "2026-04-04T14:25:07.868405+00:00"
     },
     {
       "id": "cdd9471b29e935c6",
