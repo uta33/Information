@@ -2,109 +2,134 @@
 
 ITマネージャー向け情報・セキュリティ通知アグリゲーター
 
-RSS / CVE (NVD) / JVN フィードを収集し、スマートフォンへWeb Pushで通知。統合インボックスで一括確認できるPWAアプリ。
+**GitHub Actions** が RSS / CVE (NVD) / JVN を自動収集し、**GitHub Pages** でモバイルファーストなPWAとして配信。サーバー不要・完全無料。
 
-## 特徴
+## 仕組み
 
-- **統合インボックス**: RSS・CVE・JVN を1つの受信トレイに集約（Readwise Reader方式）
-- **リーダーモード**: クリーンな記事詳細表示（FeedOwn方式）
-- **Web Push通知**: HIGH/CRITICAL アラートをスマホへ即時通知（アプリストア不要）
-- **重要度自動判定**: CVSSスコアをもとに CRITICAL / HIGH / MEDIUM / LOW に分類
-- **ダークモード**: デフォルトON（目に優しい長時間使用向け）
-- **保存機能**: 後で読む記事をブックマーク
-- **カテゴリタブ**: セキュリティ / AI / IT / 全般
-
-## クイックスタート（ローカル開発）
-
-```bash
-# 1. 環境変数を設定
-cp .env.example .env
-# .env を編集して VAPID キー等を設定
-
-# 2. 起動
-docker compose up
-
-# 3. ブラウザで開く
-open http://localhost:5173
+```
+GitHub Actions（毎時0分 自動実行）
+  ↓ scripts/collect.py
+  RSS / CVE(NVD) / JVN を収集・重複排除
+  ↓
+frontend/public/data/
+  ├ notifications.json  （最新500件）
+  ├ summary.json        （集計）
+  └ sources.json        ← ユーザーが編集する設定ファイル
+  ↓ git commit & push
+GitHub Pages（静的配信）
+  ↓ React PWA
+  スマホにインストールして使う
 ```
 
-## VAPID キー生成
+## セットアップ手順
 
-```bash
-pip install py-vapid
-python -c "
-from py_vapid import Vapid
-v = Vapid()
-v.generate_keys()
-print('VAPID_PRIVATE_KEY=', v.private_key)
-print('VAPID_PUBLIC_KEY=', v.public_key)
-"
-```
+### 1. リポジトリの設定
 
-## クラウドへのデプロイ（Railway）
+1. このリポジトリをフォーク or クローン
+2. GitHub リポジトリの **Settings → Pages** を開く
+3. Source を `GitHub Actions` に設定
+4. ブランチを `main` に設定
 
-1. [Railway](https://railway.app) でプロジェクト作成
-2. GitHub リポジトリを接続
-3. PostgreSQL プラグインを追加 → `DATABASE_URL` が自動設定される
-4. 環境変数を Railway ダッシュボードで設定:
-   - `SECRET_KEY`
-   - `VAPID_PRIVATE_KEY`
-   - `VAPID_PUBLIC_KEY`
-   - `VAPID_SUBSCRIBER_EMAIL`
-   - `NVD_API_KEY` (オプション)
-5. フロントエンドを別サービスとして追加（`frontend/` ディレクトリ）
-6. フロントエンドの環境変数に `VITE_API_BASE=https://your-backend.railway.app` を設定
+### 2. Actions の有効化
+
+1. **Actions** タブを開く
+2. ワークフローを有効化
+3. `Collect` ワークフローを手動実行（`Run workflow`）して動作確認
+
+### 3. シークレットの設定（任意）
+
+| シークレット名 | 説明 |
+|---|---|
+| `NVD_API_KEY` | NVD APIキー（なくても動くが取得推奨）。[こちらで取得](https://nvd.nist.gov/developers/request-an-api-key) |
+
+### 4. GitHub Pages の確認
+
+デプロイ後に `https://<ユーザー名>.github.io/<リポジトリ名>/` でアクセス。
 
 ## スマホでの使い方（PWA）
 
-1. スマホの Chrome/Safari でアプリのURLを開く
-2. ブラウザメニュー → 「ホーム画面に追加」
-3. アプリとして起動 → 設定 → 「通知を有効にする」
+1. スマホの Chrome（Android）または Safari（iOS）でアプリのURLを開く
+2. ブラウザのメニュー → **「ホーム画面に追加」**
+3. アプリとして起動 → 設定 → **「通知を有効にする」**
 
-### iOS対応
-iOS 16.4以上のSafariでWeb Push対応済み。必ずPWAとしてインストールしてから通知を有効にしてください。
+### iOS（Safari）
+- iOS 16.4以上が必要
+- PWAとしてインストール後に通知を許可してください
 
-## 情報ソースの追加
+## 情報ソースのカスタマイズ
 
-設定画面からRSSフィードを追加できます。
+`frontend/public/data/sources.json` を編集してコミットするだけ。
 
-| カテゴリ | 推奨ソース |
-|---|---|
-| AI | `https://www.anthropic.com/rss.xml` |
-| AI | `https://openai.com/news/rss.xml` |
-| Security | `https://feeds.feedburner.com/TheHackersNews` |
-| Security | `https://www.bleepingcomputer.com/feed/` |
-| IT | `https://feeds.feedburner.com/TechCrunch` |
-| JVN | 設定不要（自動取得: jvndb.jvn.jp） |
-| CVE | 設定不要（自動取得: NVD API v2） |
-
-## アーキテクチャ
-
-```
-RSS / CVE NVD / JVN
-        ↓ APScheduler（15〜60分ごと）
-  FastAPI Backend
-  - 重複排除（SHA-256ハッシュ）
-  - CVSS重要度スコアリング
-  - PostgreSQL保存
-  - VAPID Web Push送信
-        ↓ HTTPS
-  React PWA（モバイルファースト）
-  - ダッシュボード（集計カード）
-  - 受信トレイ（タブフィルタ）
-  - リーダーモード（記事詳細）
-  - Service Worker（プッシュ受信）
+```json
+[
+  {
+    "name": "自社セキュリティブログ",
+    "url": "https://example.com/rss.xml",
+    "type": "rss",
+    "category": "security",
+    "enabled": true
+  }
+]
 ```
 
-## 技術スタック
-
-| レイヤー | 技術 |
+| `type` | 説明 |
 |---|---|
-| Backend | Python 3.12 + FastAPI |
-| DB | PostgreSQL (SQLAlchemy async) |
-| スケジューラ | APScheduler |
-| Push通知 | Web Push VAPID (pywebpush) |
-| Frontend | React 18 + Vite + TypeScript |
-| UI | Tailwind CSS v3 |
-| データ取得 | TanStack Query |
-| PWA | vite-plugin-pwa + Service Worker |
+| `rss` | RSS / Atom フィード全般 |
+| `cve` | NVD CVE API（`url` は無視、自動取得） |
+| `jvn` | JVN RDFフィード（`url` は省略可） |
+
+| `category` | 表示場所 |
+|---|---|
+| `security` | 🔐 セキュリティタブ |
+| `ai` | 🤖 AI動向タブ |
+| `it` | 📰 IT全般タブ |
+| `general` | その他 |
+
+## ローカルでの開発・テスト
+
+```bash
+# Pythonコレクターを手動実行
+pip install -r scripts/requirements.txt
+python scripts/collect.py
+# → frontend/public/data/notifications.json が更新される
+
+# フロントエンド開発サーバー起動
+cd frontend
+npm install
+npm run dev
+# → http://localhost:5173
+```
+
+## ファイル構成
+
+```
+.github/
+  workflows/
+    collect.yml     ← 毎時データ収集（メイン処理）
+    deploy.yml      ← GitHub Pages デプロイ
+scripts/
+  collect.py        ← RSS/CVE/JVN 収集スクリプト
+  requirements.txt  ← feedparser, httpx のみ
+  generate_icons.py ← アイコン生成（初回セットアップ用）
+frontend/
+  public/
+    data/
+      sources.json        ← 編集してソースを追加/削除
+      notifications.json  ← 自動生成
+      summary.json        ← 自動生成
+    icons/
+      192.png, 512.png    ← PWAアイコン
+  src/                    ← React アプリ
+backend/               ← サーバー版へ移行する場合の参考用
+```
+
+## 制限事項
+
+| 機能 | 対応 |
+|---|---|
+| データ表示 | ✅ リアルタイム（最新1時間以内） |
+| 既読・保存 | ✅（localStorageに保存） |
+| PWAインストール | ✅ |
+| ブラウザ通知 | ✅ （アプリを開いた時のみ） |
+| バックグラウンドプッシュ通知 | ❌ サーバーが必要（[backend/](backend/)参照） |
+| 複数デバイスでの同期 | ❌ 各デバイス独立（localStorageのため） |

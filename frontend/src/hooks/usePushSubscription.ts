@@ -1,42 +1,31 @@
-import { useState } from "react";
-import { getVapidPublicKey, subscribePush } from "../api/sources";
+import { useState, useEffect } from "react";
 
-function urlBase64ToUint8Array(base64String: string): Uint8Array {
-  const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
-  const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
-  const rawData = atob(base64);
-  return Uint8Array.from([...rawData].map((c) => c.charCodeAt(0)));
-}
+export type NotificationPermission = "default" | "granted" | "denied";
 
-export function usePushSubscription() {
+/**
+ * GitHub Pages 版: サーバーなしのブラウザ通知 API のみ。
+ * アプリを開いた際に新着アイテムがあれば Notification を表示する。
+ */
+export function useBrowserNotification() {
+  const [permission, setPermission] = useState<NotificationPermission>(
+    typeof Notification !== "undefined" ? Notification.permission : "default"
+  );
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [subscribed, setSubscribed] = useState(false);
 
-  const subscribe = async () => {
+  const request = async () => {
+    if (typeof Notification === "undefined") {
+      setError("このブラウザは通知に対応していません");
+      return;
+    }
     setLoading(true);
     setError(null);
     try {
-      if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
-        throw new Error("このブラウザはプッシュ通知に対応していません");
+      const result = await Notification.requestPermission();
+      setPermission(result);
+      if (result === "denied") {
+        setError("通知がブロックされています。ブラウザの設定から許可してください。");
       }
-      const permission = await Notification.requestPermission();
-      if (permission !== "granted") throw new Error("通知の許可が必要です");
-
-      const { public_key } = await getVapidPublicKey();
-      const reg = await navigator.serviceWorker.ready;
-      const pushSub = await reg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(public_key),
-      });
-
-      const json = pushSub.toJSON();
-      await subscribePush({
-        endpoint: pushSub.endpoint,
-        p256dh: json.keys!.p256dh,
-        auth: json.keys!.auth,
-      });
-      setSubscribed(true);
     } catch (e) {
       setError(e instanceof Error ? e.message : "エラーが発生しました");
     } finally {
@@ -44,5 +33,15 @@ export function usePushSubscription() {
     }
   };
 
-  return { subscribe, loading, error, subscribed };
+  return { permission, loading, error, request };
+}
+
+export function showBrowserNotification(title: string, body: string, url?: string) {
+  if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+  const n = new Notification(title, {
+    body,
+    icon: `${import.meta.env.BASE_URL}icons/192.png`,
+    badge: `${import.meta.env.BASE_URL}icons/192.png`,
+  });
+  if (url) n.onclick = () => { window.open(url, "_blank"); };
 }

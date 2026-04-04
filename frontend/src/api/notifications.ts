@@ -1,11 +1,9 @@
-import client from "./client";
-
 export type Severity = "critical" | "high" | "medium" | "low" | "info";
 export type Category = "security" | "ai" | "it" | "general";
 
 export interface Notification {
   id: string;
-  source_id: string;
+  content_hash: string;
   source_name: string;
   external_id: string;
   title: string;
@@ -14,41 +12,96 @@ export interface Notification {
   category: Category;
   severity: Severity;
   cvss_score: number | null;
-  is_read: boolean;
-  is_saved: boolean;
-  read_progress: number;
   published_at: string | null;
   created_at: string;
 }
 
-export interface NotificationListResponse {
+export interface NotificationsData {
+  generated_at: string | null;
   items: Notification[];
-  total: number;
-  unread_count: number;
 }
 
 export interface Summary {
+  generated_at: string | null;
   critical: number;
   high: number;
   ai_unread: number;
   it_unread: number;
   security_unread: number;
-  total_unread: number;
+  total: number;
 }
 
-export const fetchNotifications = (params: {
-  category?: Category;
-  is_saved?: boolean;
-  limit?: number;
-  offset?: number;
-}) =>
-  client.get<NotificationListResponse>("/api/notifications", { params }).then((r) => r.data);
+// ─── Fetch helpers ────────────────────────────────────────────────────────────
 
-export const fetchSummary = () =>
-  client.get<Summary>("/api/notifications/summary").then((r) => r.data);
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-export const updateNotification = (id: string, data: Partial<Pick<Notification, "is_read" | "is_saved" | "read_progress">>) =>
-  client.patch<Notification>(`/api/notifications/${id}`, data).then((r) => r.data);
+export const fetchAllNotifications = (): Promise<NotificationsData> =>
+  fetch(`${BASE}/data/notifications.json`).then((r) => {
+    if (!r.ok) throw new Error("fetch failed");
+    return r.json();
+  });
 
-export const markAllRead = (category?: Category) =>
-  client.post("/api/notifications/read-all", null, { params: category ? { category } : {} });
+export const fetchSummaryData = (): Promise<Summary> =>
+  fetch(`${BASE}/data/summary.json`).then((r) => {
+    if (!r.ok) throw new Error("fetch failed");
+    return r.json();
+  });
+
+// ─── LocalStorage state (read / saved) ───────────────────────────────────────
+
+const LS_KEY = "infowatch_state";
+
+interface LocalState {
+  readIds: string[];
+  savedIds: string[];
+}
+
+function loadLocalState(): LocalState {
+  try {
+    const raw = localStorage.getItem(LS_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch {/* ignore */}
+  return { readIds: [], savedIds: [] };
+}
+
+function saveLocalState(state: LocalState): void {
+  localStorage.setItem(LS_KEY, JSON.stringify(state));
+}
+
+export function getReadIds(): Set<string> {
+  return new Set(loadLocalState().readIds);
+}
+
+export function getSavedIds(): Set<string> {
+  return new Set(loadLocalState().savedIds);
+}
+
+export function markRead(id: string): void {
+  const state = loadLocalState();
+  if (!state.readIds.includes(id)) {
+    state.readIds.push(id);
+    saveLocalState(state);
+  }
+}
+
+export function markAllRead(ids: string[]): void {
+  const state = loadLocalState();
+  const set = new Set(state.readIds);
+  ids.forEach((id) => set.add(id));
+  state.readIds = Array.from(set);
+  saveLocalState(state);
+}
+
+export function toggleSaved(id: string): boolean {
+  const state = loadLocalState();
+  const idx = state.savedIds.indexOf(id);
+  if (idx === -1) {
+    state.savedIds.push(id);
+    saveLocalState(state);
+    return true;
+  } else {
+    state.savedIds.splice(idx, 1);
+    saveLocalState(state);
+    return false;
+  }
+}

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useSummary } from "../../hooks/useNotifications";
+import { useSummary, useNotifications } from "../../hooks/useNotifications";
 
 const tabs = [
   { to: "/", label: "ホーム", icon: HomeIcon },
@@ -10,7 +10,8 @@ const tabs = [
 
 export default function MobileNav() {
   const { data: summary } = useSummary();
-  const unread = summary?.total_unread ?? 0;
+  const { unreadCount } = useNotifications();
+  const unread = unreadCount;
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t border-slate-800 safe-bottom">

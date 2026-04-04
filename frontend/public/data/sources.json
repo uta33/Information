@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Anthropic Blog",
+    "url": "https://www.anthropic.com/rss.xml",
+    "type": "rss",
+    "category": "ai",
+    "enabled": true
+  },
+  {
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "rss",
+    "category": "ai",
+    "enabled": true
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "type": "rss",
+    "category": "ai",
+    "enabled": true
+  },
+  {
+    "name": "The Hacker News",
+    "url": "https://feeds.feedburner.com/TheHackersNews",
+    "type": "rss",
+    "category": "security",
+    "enabled": true
+  },
+  {
+    "name": "Bleeping Computer",
+    "url": "https://www.bleepingcomputer.com/feed/",
+    "type": "rss",
+    "category": "security",
+    "enabled": true
+  },
+  {
+    "name": "CVE (NVD)",
+    "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+    "type": "cve",
+    "category": "security",
+    "enabled": true
+  },
+  {
+    "name": "JVN（日本脆弱性情報）",
+    "url": "https://jvndb.jvn.jp/ja/rss/jvndb.rdf",
+    "type": "jvn",
+    "category": "security",
+    "enabled": true
+  },
+  {
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/feed/",
+    "type": "rss",
+    "category": "it",
+    "enabled": true
+  },
+  {
+    "name": "Hacker News (Best)",
+    "url": "https://news.ycombinator.com/rss",
+    "type": "rss",
+    "category": "it",
+    "enabled": true
+  }
+]

@@ -6,13 +6,17 @@ import { ja } from "date-fns/locale";
 
 export default function DashboardPage() {
   const { data: summary } = useSummary();
-  const { data: urgent } = useNotifications("security");
-  const { data: aiNews } = useNotifications("ai");
+  const { items: securityItems } = useNotifications("security");
+  const { items: aiItems } = useNotifications("ai");
   const navigate = useNavigate();
   const today = format(new Date(), "M月d日（E）", { locale: ja });
 
-  const criticalItems = urgent?.items.filter((n) => n.severity === "critical" || n.severity === "high").slice(0, 3) ?? [];
-  const aiItems = aiNews?.items.slice(0, 3) ?? [];
+  const urgentItems = securityItems.filter((n) => n.severity === "critical" || n.severity === "high").slice(0, 3);
+  const topAiItems = aiItems.slice(0, 3);
+
+  const lastUpdated = summary?.generated_at
+    ? format(new Date(summary.generated_at), "HH:mm 更新", { locale: ja })
+    : null;
 
   return (
     <div className="min-h-full">
@@ -21,11 +25,13 @@ export default function DashboardPage() {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-xl font-bold text-slate-100">InfoWatch</h1>
-            <p className="text-xs text-slate-500 mt-0.5">{today}</p>
+            <p className="text-xs text-slate-500 mt-0.5">
+              {today}{lastUpdated && <span className="ml-2 text-slate-600">· {lastUpdated}</span>}
+            </p>
           </div>
-          {(summary?.total_unread ?? 0) > 0 && (
+          {(summary?.critical ?? 0) + (summary?.high ?? 0) > 0 && (
             <span className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-              未読 {summary!.total_unread}
+              要対応 {(summary!.critical) + (summary!.high)}
             </span>
           )}
         </div>
@@ -38,7 +44,7 @@ export default function DashboardPage() {
           label="緊急対応"
           count={summary?.critical ?? 0}
           sub={`要確認 ${summary?.high ?? 0}件`}
-          onClick={() => navigate("/inbox")}
+          onClick={() => navigate("/inbox?tab=security")}
           accent="border-red-900 bg-red-950/40"
         />
         <SummaryCard
@@ -68,35 +74,36 @@ export default function DashboardPage() {
       </div>
 
       {/* Critical Alerts */}
-      {criticalItems.length > 0 && (
+      {urgentItems.length > 0 && (
         <section className="mb-2">
           <div className="px-4 py-2 flex items-center justify-between">
             <h2 className="text-sm font-semibold text-red-400">🔴 要対応アラート</h2>
-            <button className="text-xs text-slate-500" onClick={() => navigate("/inbox")}>すべて →</button>
+            <button className="text-xs text-slate-500" onClick={() => navigate("/inbox?tab=security")}>すべて →</button>
           </div>
-          {criticalItems.map((n) => (
+          {urgentItems.map((n) => (
             <NotificationCard key={n.id} notification={n} />
           ))}
         </section>
       )}
 
       {/* AI Topics */}
-      {aiItems.length > 0 && (
+      {topAiItems.length > 0 && (
         <section className="mb-2">
           <div className="px-4 py-2 flex items-center justify-between">
             <h2 className="text-sm font-semibold text-purple-400">🤖 今日のAIトピック</h2>
             <button className="text-xs text-slate-500" onClick={() => navigate("/inbox?tab=ai")}>すべて →</button>
           </div>
-          {aiItems.map((n) => (
+          {topAiItems.map((n) => (
             <NotificationCard key={n.id} notification={n} />
           ))}
         </section>
       )}
 
-      {summary?.total_unread === 0 && criticalItems.length === 0 && (
+      {summary?.total === 0 && (
         <div className="flex flex-col items-center justify-center py-20 text-slate-600">
-          <span className="text-4xl mb-3">✅</span>
-          <p className="text-sm">未読の情報はありません</p>
+          <span className="text-4xl mb-3">📡</span>
+          <p className="text-sm">データ収集中...</p>
+          <p className="text-xs mt-1">GitHub Actions が毎時0分に自動収集します</p>
         </div>
       )}
     </div>

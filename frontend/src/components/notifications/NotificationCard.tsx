@@ -1,31 +1,31 @@
 import { useNavigate } from "react-router-dom";
 import { formatDistanceToNow } from "date-fns";
 import { ja } from "date-fns/locale";
-import type { Notification } from "../../api/notifications";
+import type { NotificationVM } from "../../hooks/useNotifications";
 import SeverityBadge, { CategoryBadge } from "./SeverityBadge";
 import { useMarkRead, useToggleSaved } from "../../hooks/useNotifications";
 
 interface Props {
-  notification: Notification;
+  notification: NotificationVM;
 }
 
 export default function NotificationCard({ notification: n }: Props) {
   const navigate = useNavigate();
-  const markRead = useMarkRead();
-  const toggleSaved = useToggleSaved();
+  const doMarkRead = useMarkRead();
+  const doToggleSaved = useToggleSaved();
 
   const timeAgo = n.published_at
     ? formatDistanceToNow(new Date(n.published_at), { addSuffix: true, locale: ja })
     : formatDistanceToNow(new Date(n.created_at), { addSuffix: true, locale: ja });
 
   const handleClick = () => {
-    if (!n.is_read) markRead.mutate({ id: n.id });
+    if (!n.is_read) doMarkRead(n.id);
     navigate(`/notification/${n.id}`, { state: { notification: n } });
   };
 
   const handleSave = (e: React.MouseEvent) => {
     e.stopPropagation();
-    toggleSaved.mutate({ id: n.id, is_saved: !n.is_saved });
+    doToggleSaved(n.id);
   };
 
   return (
@@ -58,7 +58,7 @@ export default function NotificationCard({ notification: n }: Props) {
         <p className={`text-sm leading-snug mb-1 ${n.is_read ? "text-slate-400" : "text-slate-100 font-medium"}`}>
           {n.title}
         </p>
-        {n.cvss_score && (
+        {n.cvss_score != null && (
           <div className="flex items-center gap-2 mt-1">
             <div className="flex-1 h-1.5 bg-slate-800 rounded-full overflow-hidden max-w-[80px]">
               <div
@@ -69,14 +69,6 @@ export default function NotificationCard({ notification: n }: Props) {
               />
             </div>
             <span className="text-xs text-slate-500 font-mono">CVSS {n.cvss_score.toFixed(1)}</span>
-          </div>
-        )}
-        {n.read_progress > 0 && n.read_progress < 100 && (
-          <div className="flex items-center gap-2 mt-1">
-            <div className="flex-1 h-1 bg-slate-800 rounded-full overflow-hidden max-w-[60px]">
-              <div className="h-full bg-indigo-500 rounded-full" style={{ width: `${n.read_progress}%` }} />
-            </div>
-            <span className="text-[10px] text-slate-500">読了 {n.read_progress}%</span>
           </div>
         )}
         <p className="text-xs text-slate-600 mt-0.5">{n.source_name}</p>

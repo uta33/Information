@@ -1,8 +1,7 @@
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
-import type { Notification } from "../api/notifications";
 import SeverityBadge, { CategoryBadge } from "../components/notifications/SeverityBadge";
-import { useMarkRead, useToggleSaved } from "../hooks/useNotifications";
+import { useMarkRead, useToggleSaved, type NotificationVM } from "../hooks/useNotifications";
 import { format } from "date-fns";
 import { ja } from "date-fns/locale";
 
@@ -10,13 +9,13 @@ export default function DetailPage() {
   const location = useLocation();
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
-  const n = location.state?.notification as Notification | undefined;
+  const n = location.state?.notification as NotificationVM | undefined;
 
-  const markRead = useMarkRead();
-  const toggleSaved = useToggleSaved();
+  const doMarkRead = useMarkRead();
+  const doToggleSaved = useToggleSaved();
 
   useEffect(() => {
-    if (n && !n.is_read) markRead.mutate({ id: n.id });
+    if (n && !n.is_read) doMarkRead(n.id);
   }, [n?.id]);
 
   if (!n) {
@@ -42,7 +41,7 @@ export default function DetailPage() {
         </button>
         <span className="flex-1 text-sm text-slate-400 truncate">{n.source_name}</span>
         <button
-          onClick={() => toggleSaved.mutate({ id: n.id, is_saved: !n.is_saved })}
+          onClick={() => doToggleSaved(n.id)}
           className={n.is_saved ? "text-yellow-400" : "text-slate-500"}
         >
           <svg className="w-6 h-6" fill={n.is_saved ? "currentColor" : "none"} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>

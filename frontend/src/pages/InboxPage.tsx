@@ -17,8 +17,8 @@ export default function InboxPage() {
   const [activeTab, setActiveTab] = useState<Category | "all">(initialTab);
   const category = activeTab === "all" ? undefined : activeTab;
 
-  const { data, isLoading } = useNotifications(category);
-  const markAll = useMarkAllRead();
+  const { items, isLoading, unreadCount } = useNotifications(category);
+  const doMarkAll = useMarkAllRead();
 
   return (
     <div className="min-h-full">
@@ -26,10 +26,10 @@ export default function InboxPage() {
       <div className="sticky top-0 z-10 bg-slate-900 border-b border-slate-800">
         <div className="px-4 pt-12 pb-3 flex items-center justify-between">
           <h1 className="text-lg font-bold">受信トレイ</h1>
-          {(data?.unread_count ?? 0) > 0 && (
+          {unreadCount > 0 && (
             <button
               className="text-xs text-slate-400 border border-slate-700 rounded-lg px-2 py-1"
-              onClick={() => markAll.mutate(category)}
+              onClick={() => doMarkAll(items)}
             >
               すべて既読
             </button>
@@ -57,11 +57,11 @@ export default function InboxPage() {
       {/* List */}
       {isLoading ? (
         <LoadingSkeleton />
-      ) : data?.items.length === 0 ? (
+      ) : items.length === 0 ? (
         <EmptyState />
       ) : (
         <div>
-          {data?.items.map((n) => (
+          {items.map((n) => (
             <NotificationCard key={n.id} notification={n} />
           ))}
         </div>
