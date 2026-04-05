@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-05T11:20:29.624930+00:00",
+  "generated_at": "2026-04-05T12:32:45.910526+00:00",
   "items": [
+    {
+      "id": "5c49a122d49fabb0",
+      "content_hash": "5c49a122d49fabb0ff6b404bc0e8802b93412b6650a0255f1baf40fdede230b5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hightouch.com/careers#open-positions",
+      "title": "Hightouch (YC S19) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648499\">Comments</a>",
+      "url": "https://hightouch.com/careers#open-positions",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-05T12:03:17+00:00",
+      "created_at": "2026-04-05T12:32:45.909933+00:00"
+    },
+    {
+      "id": "44f7bd073f50c274",
+      "content_hash": "44f7bd073f50c274771fc5ce719755d53f335a4fbbaf2a095ba2f78021fce018",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/",
+      "title": "Ubuntu now requires more RAM than Windows 11",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648452\">Comments</a>",
+      "url": "https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T11:57:25+00:00",
+      "created_at": "2026-04-05T12:32:45.909896+00:00"
+    },
+    {
+      "id": "853b200fe06ed8b9",
+      "content_hash": "853b200fe06ed8b94781faaacc94340b9963d31a30c7aaac15a87c93a33538d6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zencapital.substack.com/p/sad-story-of-my-google-workspace",
+      "title": "Sad Story of My Google Workspace Account Suspension",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648404\">Comments</a>",
+      "url": "https://zencapital.substack.com/p/sad-story-of-my-google-workspace",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T11:48:13+00:00",
+      "created_at": "2026-04-05T12:32:45.910034+00:00"
+    },
+    {
+      "id": "5f61824d293d9e4e",
+      "content_hash": "5f61824d293d9e4e32973ad6cdb23ba8ad8a3870caaf49564040e97594531d59",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ergosphere.blog/posts/the-machines-are-fine/",
+      "title": "The threat is comfortable drift toward not understanding what you're doing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47647788\">Comments</a>",
+      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T09:57:25+00:00",
+      "created_at": "2026-04-05T12:32:45.909807+00:00"
+    },
     {
       "id": "10bf0a96f4f03ea1",
       "content_hash": "10bf0a96f4f03ea127700c90038175759b46a9430b0fa5e2a7601891e367be74",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-02T02:32:00+00:00",
       "created_at": "2026-04-04T02:32:50.585051+00:00"
-    },
-    {
-      "id": "5717011674bedaee",
-      "content_hash": "5717011674bedaeea5dd83f6e93188693fc285af00291857ab477da35a555649",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=47609117",
-      "title": "Ask HN: Is there any interest in a native Qt/C++ Discord client?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47609117\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=47609117",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T01:53:11+00:00",
-      "created_at": "2026-04-05T11:20:29.624392+00:00"
-    },
-    {
-      "id": "433b1f3a702f02c6",
-      "content_hash": "433b1f3a702f02c6ba78b28d9234f57a9bb64c150e9087f7b8ddccda357cf608",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.irregular.com/publications/vibe-password-generation",
-      "title": "Why LLM-Generated Passwords Are Dangerously Insecure",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47608604\">Comments</a>",
-      "url": "https://www.irregular.com/publications/vibe-password-generation",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T00:39:53+00:00",
-      "created_at": "2026-04-04T16:22:21.322798+00:00"
-    },
-    {
-      "id": "97ad3ead19508bfc",
-      "content_hash": "97ad3ead19508bfc280d2fd9f118da8d90113f0fe81dc2cc158eb9ef8077ddfe",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.intelligentliving.co/scientists-finally-figured-out-how-eels-reproduce/",
-      "title": "Scientists Figured Out How Eels Reproduce (2022)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47607408\">Comments</a>",
-      "url": "https://www.intelligentliving.co/scientists-finally-figured-out-how-eels-reproduce/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-01T22:33:54+00:00",
-      "created_at": "2026-04-05T08:32:15.517084+00:00"
-    },
-    {
-      "id": "b0a8a6c74448d465",
-      "content_hash": "b0a8a6c74448d465f5a2f1b4648b28df20faf79e682e053bcb936257c9d40716",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=47606244",
-      "title": "Training mRNA Language Models Across 25 Species for $165",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47606244\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=47606244",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-01T20:38:24+00:00",
-      "created_at": "2026-04-04T15:20:53.462802+00:00"
     }
   ]
 }
