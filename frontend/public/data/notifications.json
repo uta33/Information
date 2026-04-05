@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-05T21:21:33.343293+00:00",
+  "generated_at": "2026-04-05T22:19:19.095918+00:00",
   "items": [
+    {
+      "id": "364dc10ef52d1e65",
+      "content_hash": "364dc10ef52d1e650a8f214d4f68367acbe036917ba290cc2dc2b407c951a2be",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/openrouter/status/2040239467865489874",
+      "title": "Qwen-3.6-Plus is the first model to break 1T tokens processed in a day",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47653975\">Comments</a>",
+      "url": "https://twitter.com/openrouter/status/2040239467865489874",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T21:18:25+00:00",
+      "created_at": "2026-04-05T22:19:19.095681+00:00"
+    },
+    {
+      "id": "09ada0f8850ced0c",
+      "content_hash": "09ada0f8850ced0c8e46cbcc64bcb0a0416fb48456cc1735bd2b4fbadf5a784d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security",
+      "title": "UK intelligence censored report on global warming and homeland security",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47653816\">Comments</a>",
+      "url": "https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T20:59:52+00:00",
+      "created_at": "2026-04-05T22:19:19.095333+00:00"
+    },
+    {
+      "id": "8cd9fa62611b4db9",
+      "content_hash": "8cd9fa62611b4db9930dc741f187772af64c6c8495ccf2571a964516b5e6e819",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/i/status/2040577536136974444",
+      "title": "Musician says AI company is cloning her music, filing claims against her",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47653471\">Comments</a>",
+      "url": "https://twitter.com/i/status/2040577536136974444",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T20:19:11+00:00",
+      "created_at": "2026-04-05T22:19:19.095550+00:00"
+    },
     {
       "id": "5965d5cf9649123a",
       "content_hash": "5965d5cf9649123a04c9447a3825e3ad7266df7b6354baddacf43b6dec42e9f6",
@@ -84,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T18:45:17+00:00",
       "created_at": "2026-04-05T19:26:32.619863+00:00"
+    },
+    {
+      "id": "556872914a81f22a",
+      "content_hash": "556872914a81f22a8246e3b8ff4c1f977ff5c142056555e2b8506f10105cf559",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sschueller.github.io/posts/the-free-market-lie/",
+      "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47652400\">Comments</a>",
+      "url": "https://sschueller.github.io/posts/the-free-market-lie/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T18:29:47+00:00",
+      "created_at": "2026-04-05T22:19:19.095453+00:00"
     },
     {
       "id": "ce6c74dcbe151255",
@@ -6944,62 +7000,6 @@
       "cvss_score": 3.7,
       "published_at": "2026-04-03T04:17:10.313000",
       "created_at": "2026-04-04T02:32:47.549637+00:00"
-    },
-    {
-      "id": "b2c0abef083a53e7",
-      "content_hash": "b2c0abef083a53e7e7c49bd4131d91296e1eac6c22850fcc66251b88c059bfc0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35536",
-      "title": "CVE-2026-35536 - In Tornado before 6.5.5, cookie attribute injection could occur because the doma...",
-      "body": "In Tornado before 6.5.5, cookie attribute injection could occur because the domain, path, and samesite arguments to .RequestHandler.set_cookie were not checked for crafted characters.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35536",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-04-03T04:16:53.550000",
-      "created_at": "2026-04-04T02:32:47.549630+00:00"
-    },
-    {
-      "id": "d1ff5e4815900180",
-      "content_hash": "d1ff5e481590018031820f3f02015fe1509be40b8c0e36da344bff4adfa039fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35535",
-      "title": "CVE-2026-35535 - In Sudo through 1.9.17p2 before 3e474c2, a failure of a setuid, setgid, or setgr...",
-      "body": "In Sudo through 1.9.17p2 before 3e474c2, a failure of a setuid, setgid, or setgroups call, during a privilege drop before running the mailer, is not a fatal error and can lead to privilege escalation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35535",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-04-03T03:16:18.233000",
-      "created_at": "2026-04-04T02:32:47.549622+00:00"
-    },
-    {
-      "id": "5053056ae1e8a549",
-      "content_hash": "5053056ae1e8a5494e27b9fdf9a31537c26830f5d29a610e3cd04236d3882cac",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-28815",
-      "title": "CVE-2026-28815 - A remote attacker can supply a short X-Wing HPKE encapsulated key and trigger an...",
-      "body": "A remote attacker can supply a short X-Wing HPKE encapsulated key and trigger an out-of-bounds read in the C decapsulation path, potentially causing a crash or memory disclosure depending on runtime protections. This issue is fixed in swift-crypto version 4.3.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28815",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-03T03:16:18.093000",
-      "created_at": "2026-04-04T02:32:47.549615+00:00"
-    },
-    {
-      "id": "2655956ae0b44760",
-      "content_hash": "2655956ae0b4476024b5d89db1f3345f509104423e46ce7c69f6f950c4cc4476",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000049.html",
-      "title": "NEC Atermシリーズにおける複数の脆弱性（NV26-001）",
-      "body": "日本電気株式会社が提供するAtermシリーズには、次の複数の脆弱性が存在します。\n<ul><li>権限チェックの欠如（CWE-862）- CVE-2026-4309</li><li>パストラバーサル（CWE-22）- CVE-2026-4619</li>    <li>OSコマンドインジェクション（CWE-78）- CVE-2026-4620、CVE-2026-4622</li><li>セキュリティ上問題のある隠し機能（CWE-912）- CVE-2026-4621</li></ul>\n本件に関する脆弱性情報は以下の方々から報告され、JPCERT/CCが開発者との調整を行いました。\n\nCVE-2026-4309\nこの脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方からIPAに報告されました。\n報告者：三井物産セキュアディレクション株式会社 塚本 泰三 氏\n\nCVE-2026-4619、CVE-2026-4620、CVE-2026-4621、CVE-2026-4622\nこの脆弱性情報は、下記の方からJPCERT/CCに報告されました。\n報告者：株式会社ゼロゼロワン 早川 宙也 氏",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000049.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T03:09:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585087+00:00"
     }
   ]
 }
