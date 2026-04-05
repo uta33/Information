@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-05T12:32:45.910526+00:00",
+  "generated_at": "2026-04-05T13:45:48.478827+00:00",
   "items": [
+    {
+      "id": "19e8122945285e85",
+      "content_hash": "19e8122945285e8553ea7c1dfb4e56a815d09f6ad1cab47e3ece39a693ad8914",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://iguanaworks.net/products/usb-ir-transceiver.html",
+      "title": "Iguanaworks has closed down. USB Infrared hardware open source maker",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47649148\">Comments</a>",
+      "url": "http://iguanaworks.net/products/usb-ir-transceiver.html",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-05T13:18:05+00:00",
+      "created_at": "2026-04-05T13:45:48.478157+00:00"
+    },
     {
       "id": "5c49a122d49fabb0",
       "content_hash": "5c49a122d49fabb0ff6b404bc0e8802b93412b6650a0255f1baf40fdede230b5",
@@ -30,6 +44,20 @@
       "created_at": "2026-04-05T12:32:45.909896+00:00"
     },
     {
+      "id": "6557d5eae0fa0b3d",
+      "content_hash": "6557d5eae0fa0b3d9e8ef00114b8dee8867dde22f51f01109edba621c90793e6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cnn.com/2026/04/05/us/colorado-field-drug-test-law",
+      "title": "Common drug tests lead to tens of thousands wrongful arrests a year",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648438\">Comments</a>",
+      "url": "https://www.cnn.com/2026/04/05/us/colorado-field-drug-test-law",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T11:54:35+00:00",
+      "created_at": "2026-04-05T13:45:48.478505+00:00"
+    },
+    {
       "id": "853b200fe06ed8b9",
       "content_hash": "853b200fe06ed8b94781faaacc94340b9963d31a30c7aaac15a87c93a33538d6",
       "source_name": "Hacker News (Best)",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T11:48:13+00:00",
       "created_at": "2026-04-05T12:32:45.910034+00:00"
+    },
+    {
+      "id": "0a8c70e00668dee7",
+      "content_hash": "0a8c70e00668dee707227623a01da812db0c489bcb0d60a50ff2255e5a63fc49",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://friendi.ca/",
+      "title": "Friendica – A Decentralized Social Network",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648048\">Comments</a>",
+      "url": "https://friendi.ca/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T10:41:06+00:00",
+      "created_at": "2026-04-05T13:45:48.478247+00:00"
     },
     {
       "id": "5f61824d293d9e4e",
@@ -100,6 +142,20 @@
       "created_at": "2026-04-05T08:32:15.516874+00:00"
     },
     {
+      "id": "a9882c223801f993",
+      "content_hash": "a9882c223801f993feb920077cb9d1f587eecce99740b46a6d8ec4f44b5081cd",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5544",
+      "title": "CVE-2026-5544 - A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-18053...",
+      "body": "A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-180535. The impacted element is an unknown function of the file /goform/formRemoteControl. The manipulation of the argument Profile results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5544",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-05T06:16:01.760000",
+      "created_at": "2026-04-05T13:45:44.414529+00:00"
+    },
+    {
       "id": "88e06b9517bdecd6",
       "content_hash": "88e06b9517bdecd6026e2393f833c3c85d51a53dbb0a6c524df6b59f2cc1c36e",
       "source_name": "Hacker News (Best)",
@@ -156,6 +212,62 @@
       "created_at": "2026-04-05T07:48:26.616064+00:00"
     },
     {
+      "id": "0ecbf71eeed78b1b",
+      "content_hash": "0ecbf71eeed78b1b89d71756387b538c2a72ccbd782450a5b5a798f014aa4efc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5543",
+      "title": "CVE-2026-5543 - A vulnerability was identified in PHPGurukul User Registration & Login and User ...",
+      "body": "A vulnerability was identified in PHPGurukul User Registration & Login and User Management System 3.3. The affected element is an unknown function of the file /admin/yesterday-reg-users.php. The manipulation of the argument ID leads to sql injection. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5543",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-04-05T05:16:04.743000",
+      "created_at": "2026-04-05T13:45:44.414523+00:00"
+    },
+    {
+      "id": "d1d194343f9e050a",
+      "content_hash": "d1d194343f9e050a6437f4a4f367ea2f75f925133da8e48466983e632e0ef59b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5542",
+      "title": "CVE-2026-5542 - A vulnerability was determined in code-projects Simple Laundry System 1.0. Impac...",
+      "body": "A vulnerability was determined in code-projects Simple Laundry System 1.0. Impacted is an unknown function of the file /modstaffinfo.php of the component Parameter Handler. Executing a manipulation of the argument userid can lead to cross site scripting. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5542",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-05T05:16:04.537000",
+      "created_at": "2026-04-05T13:45:44.414517+00:00"
+    },
+    {
+      "id": "e2b81046e99b07e1",
+      "content_hash": "e2b81046e99b07e1f4d5a0a212a34bd6179d5c067a1666ac78028e0a4e77daf0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5541",
+      "title": "CVE-2026-5541 - A vulnerability was found in code-projects Simple Laundry System 1.0. This issue...",
+      "body": "A vulnerability was found in code-projects Simple Laundry System 1.0. This issue affects some unknown processing of the file /modmemberinfo.php of the component Parameter Handler. Performing a manipulation of the argument userid results in cross site scripting. The attack may be initiated remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5541",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-05T05:16:04.310000",
+      "created_at": "2026-04-05T13:45:44.414511+00:00"
+    },
+    {
+      "id": "12565d8d040feb11",
+      "content_hash": "12565d8d040feb11d278814b8f7b1dca1a1595cd038c2ecc9c19d892204502a8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5540",
+      "title": "CVE-2026-5540 - A vulnerability has been found in code-projects Simple Laundry System 1.0. This ...",
+      "body": "A vulnerability has been found in code-projects Simple Laundry System 1.0. This vulnerability affects unknown code of the file /modifymember.php of the component Parameter Handler. Such manipulation of the argument firstName leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5540",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-05T05:16:03.100000",
+      "created_at": "2026-04-05T13:45:44.414505+00:00"
+    },
+    {
       "id": "ed8fbd028b3069c5",
       "content_hash": "ed8fbd028b3069c5824e18d514df70591a5db76a86de2776f63d0232f8fec5f9",
       "source_name": "Hacker News (Best)",
@@ -210,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T04:18:56+00:00",
       "created_at": "2026-04-05T06:08:27.772318+00:00"
+    },
+    {
+      "id": "da069d7dc6395a21",
+      "content_hash": "da069d7dc6395a21a96b1073a6988b57fe32dd694e23b4db7816cb7fe1b055da",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5590",
+      "title": "CVE-2026-5590 - A race condition during TCP connection teardown can cause tcp_recv() to operate ...",
+      "body": "A race condition during TCP connection teardown can cause tcp_recv() to operate on a connection that has already been released. If tcp_conn_search() returns NULL while processing a SYN packet, a NULL pointer derived from stale context data is passed to tcp_backlog_is_full() and dereferenced without validation, leading to a crash.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5590",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-04-05T04:16:16.370000",
+      "created_at": "2026-04-05T13:45:44.414498+00:00"
     },
     {
       "id": "ca4670968c45f995",
@@ -6764,6 +6890,20 @@
       "created_at": "2026-04-04T21:21:27.087814+00:00"
     },
     {
+      "id": "f5e04f17dc0bd1bf",
+      "content_hash": "f5e04f17dc0bd1bf320082ad153900c6bb85f29a98223d473bd69d9009d8693c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://paper.pro/apple-rich-text",
+      "title": "Apple Rich Text Fundamentals",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47614364\">Comments</a>",
+      "url": "https://paper.pro/apple-rich-text",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T13:41:08+00:00",
+      "created_at": "2026-04-05T13:45:48.478472+00:00"
+    },
+    {
       "id": "3bc7f84b36596193",
       "content_hash": "3bc7f84b36596193023a286e4e3170f609ec2156bfb2f7a2fca915342d2feab7",
       "source_name": "Bleeping Computer",
@@ -6860,146 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-02T11:01:14+00:00",
       "created_at": "2026-04-04T02:32:46.995031+00:00"
-    },
-    {
-      "id": "eca1ef40d2252b51",
-      "content_hash": "eca1ef40d2252b51a51ce4d821d25dc8257ffb1b31d7413290b3855f9f1863e6",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/openai-acquires-tbpn",
-      "title": "OpenAI acquires TBPN",
-      "body": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-      "url": "https://openai.com/index/openai-acquires-tbpn",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T10:30:00+00:00",
-      "created_at": "2026-04-04T02:32:46.084293+00:00"
-    },
-    {
-      "id": "494faea4ceb3b23e",
-      "content_hash": "494faea4ceb3b23e2c8b216694d6c664d69b1298f7de6ebaefb3a4ff1c6e12c4",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/codex-flexible-pricing-for-teams",
-      "title": "Codex now offers more flexible pricing for teams",
-      "body": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
-      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T10:00:00+00:00",
-      "created_at": "2026-04-04T02:32:46.084339+00:00"
-    },
-    {
-      "id": "b05ed4bcef99e28e",
-      "content_hash": "b05ed4bcef99e28e995f4ba9b4661888104a13c5745c94d6faf1757fa29e5096",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
-      "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
-      "body": "Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with&nbsp;spyware.\nAccording to reports from Italian&nbsp;newspaper La Repubblica and news&nbsp;agency ANSA, the vast majority of the targets are located in Italy. It's assessed that the threat actors behind the activity used social engineering",
-      "url": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T09:51:00+00:00",
-      "created_at": "2026-04-04T02:32:46.881987+00:00"
-    },
-    {
-      "id": "f601efbcd8980ecd",
-      "content_hash": "f601efbcd8980ecda3b5b64ef8248ba47e4dc19b437ea892f777d430a2b31bfd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://yadin.com/notes/vr-disrupts/",
-      "title": "VR Realizes the Cyberspace Metaphor",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47611993\">Comments</a>",
-      "url": "https://yadin.com/notes/vr-disrupts/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T09:24:07+00:00",
-      "created_at": "2026-04-05T04:28:11.677227+00:00"
-    },
-    {
-      "id": "47ff8971a554b358",
-      "content_hash": "47ff8971a554b35852198d7dd2c40c700e95f42885540d18ba8f40c48487ee72",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
-      "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit",
-      "body": "Apple&nbsp;on&nbsp;Wednesday expanded the availability of iOS 18.7.7&nbsp;and iPadOS 18.7.7&nbsp;to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known&nbsp;as DarkSword.\n\"We enabled the availability of iOS 18.7.7&nbsp;for more devices on April 1, 2026, so users with Automatic Updates turned on can automatically receive important security",
-      "url": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-02T07:09:00+00:00",
-      "created_at": "2026-04-04T02:32:46.882007+00:00"
-    },
-    {
-      "id": "4389e591d49b89e5",
-      "content_hash": "4389e591d49b89e5c43f20f2ee8cd1d720df9f8e5b012b84210a41aaf448dcb0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://publicdomainreview.org/collection/histoires-prodigieuses/",
-      "title": "Elizabeth I's Manuscript of Pierre Boaistuau's Histoires Prodigieuses (1559)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47610593\">Comments</a>",
-      "url": "https://publicdomainreview.org/collection/histoires-prodigieuses/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T06:16:03+00:00",
-      "created_at": "2026-04-05T10:23:01.205248+00:00"
-    },
-    {
-      "id": "f3deb5f176c2d48a",
-      "content_hash": "f3deb5f176c2d48aa3832687d5d9670972d975c673dd93a006bc98210ba53fe6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.historytoday.com/archive/history-matters/east-india-company-japan",
-      "title": "The East India Company in Japan",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47610590\">Comments</a>",
-      "url": "https://www.historytoday.com/archive/history-matters/east-india-company-japan",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T06:15:01+00:00",
-      "created_at": "2026-04-05T07:48:26.616234+00:00"
-    },
-    {
-      "id": "b73f93042df50237",
-      "content_hash": "b73f93042df5023795d66ea45adb71e3a60b44d035bc730850df82e8faedc819",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://bamwor.com/en/news/rebuilt-same-project-after-15-years",
-      "title": "I rebuilt the same project after 15 years – what changed in web dev",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47610191\">Comments</a>",
-      "url": "https://bamwor.com/en/news/rebuilt-same-project-after-15-years",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T05:06:12+00:00",
-      "created_at": "2026-04-04T19:23:24.445048+00:00"
-    },
-    {
-      "id": "49abfd82445d4315",
-      "content_hash": "49abfd82445d43153e3a76e28f3be94d3c6143ae7e86a5cd4ab33c91eb813010",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.csiro.au/en/news/All/News/2026/April/50-years-measuring-the-worlds-cleanest-air",
-      "title": "50 years measuring the cleanest air",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47609492\">Comments</a>",
-      "url": "https://www.csiro.au/en/news/All/News/2026/April/50-years-measuring-the-worlds-cleanest-air",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T02:59:56+00:00",
-      "created_at": "2026-04-04T07:41:35.595056+00:00"
-    },
-    {
-      "id": "51e27d25d1563e46",
-      "content_hash": "51e27d25d1563e468a327e63ff6930d3ae0e0a9efaebc4b078c05eb1b65b4eac",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009720.html",
-      "title": "富士電機製V-SFTにおける複数の脆弱性（2026年4月）",
-      "body": "富士電機株式会社が提供するV-SFTには、次の複数の脆弱性が存在します。<a href=\"https://cwe.mitre.org/data/definitions/121.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/125.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/125.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/121.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/125.html\" target=\"_blank\"></a><ul><li>VS6ComFile!CV7BaseMap::WriteV7DataToRom関数におけるスタックベースのバッファオーバーフロー（CWE-121） - CVE-2026-32925</li><li>VS6ComFile!load_link_inf関数における境界外読み取り（CWE-125） - CVE-2026-32926</li><li>VS6MemInIF!set_temp_type_default関数における境界外読み取り（CWE-125） - CVE-2026-32927</li><li>VS6ComFile!CSaveData::_conv_AnimationItem関数におけるスタックベースのバッファオーバーフロー（CWE-121） - CVE-2026-32928</li><li>VS6ComFile!get_macro_mem_COM関数における境界外読み取り（CWE-125） - CVE-2026-32929</li></ul>この脆弱性情報は、下記の方がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。\n報告者：Michael Heinzl 氏",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009720.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T02:32:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585051+00:00"
     }
   ]
 }
