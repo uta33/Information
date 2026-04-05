@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-05T22:19:19.095918+00:00",
+  "generated_at": "2026-04-05T23:23:11.273731+00:00",
   "items": [
+    {
+      "id": "4f045472cff38395",
+      "content_hash": "4f045472cff383955b4f4241c7cbc38154a97247ab25fc9260d4b92c73f444ac",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=SY2xyrmV44Y",
+      "title": "Introducing GEN-1 [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47654649\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=SY2xyrmV44Y",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T22:35:20+00:00",
+      "created_at": "2026-04-05T23:23:11.273432+00:00"
+    },
+    {
+      "id": "34ec54f702e535ab",
+      "content_hash": "34ec54f702e535abc7271322f297b51977fd814363ffbc47bb4753cf6896107f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "title": "In Japan, the robot isn't coming for your job; it's filling the one nobody wants",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47654620\">Comments</a>",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T22:31:16+00:00",
+      "created_at": "2026-04-05T23:23:11.273035+00:00"
+    },
+    {
+      "id": "14aaa1fc392dad9a",
+      "content_hash": "14aaa1fc392dad9a559ee827dae74184e2e95c51acaf722805c3b66b1f352f96",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
+      "title": "The Mechanics of Steins Gate (2023) [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47654171\">Comments</a>",
+      "url": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T21:42:01+00:00",
+      "created_at": "2026-04-05T23:23:11.273192+00:00"
+    },
     {
       "id": "364dc10ef52d1e65",
       "content_hash": "364dc10ef52d1e650a8f214d4f68367acbe036917ba290cc2dc2b407c951a2be",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T20:19:11+00:00",
       "created_at": "2026-04-05T22:19:19.095550+00:00"
+    },
+    {
+      "id": "178d2b6ad51d5fc5",
+      "content_hash": "178d2b6ad51d5fc5e3e0fc4d94d226be661c96f8ca7cd038c1be7a57b2a5190f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/unlimited_ls/status/2040577536136974444",
+      "title": "Musician says AI company is cloning her music, filing claims against her",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47653471\">Comments</a>",
+      "url": "https://twitter.com/unlimited_ls/status/2040577536136974444",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T20:19:11+00:00",
+      "created_at": "2026-04-05T23:23:11.273414+00:00"
     },
     {
       "id": "5965d5cf9649123a",
@@ -128,6 +184,20 @@
       "created_at": "2026-04-05T19:26:32.619863+00:00"
     },
     {
+      "id": "d4c94a88994d8fdc",
+      "content_hash": "d4c94a88994d8fdc7779defb6f489a28616a844e8505e046f8587765800331b8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openjdk.org/projects/panama/",
+      "title": "OpenJDK: Panama",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47652442\">Comments</a>",
+      "url": "https://openjdk.org/projects/panama/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T18:33:38+00:00",
+      "created_at": "2026-04-05T23:23:11.273380+00:00"
+    },
+    {
       "id": "556872914a81f22a",
       "content_hash": "556872914a81f22a8246e3b8ff4c1f977ff5c142056555e2b8506f10105cf559",
       "source_name": "Hacker News (Best)",
@@ -210,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T17:27:41+00:00",
       "created_at": "2026-04-05T20:20:34.855264+00:00"
+    },
+    {
+      "id": "76c418e357dc0095",
+      "content_hash": "76c418e357dc0095686f7b7aede3f1889bb60ebc31d0b87a735aa4663f3bccd3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47651703\">Comments</a>",
+      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T17:27:41+00:00",
+      "created_at": "2026-04-05T23:23:11.273135+00:00"
     },
     {
       "id": "da9f9d0c7a452366",
@@ -364,6 +448,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T15:38:18+00:00",
       "created_at": "2026-04-05T17:21:20.518481+00:00"
+    },
+    {
+      "id": "428b5243837b8292",
+      "content_hash": "428b5243837b8292f5495d8f56b95b96ebd4929dd4fb89127f92ffc851408208",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://websites.umich.edu/~mejn/cp2/",
+      "title": "Computational Physics (2nd Edition) (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47650502\">Comments</a>",
+      "url": "https://websites.umich.edu/~mejn/cp2/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T15:38:18+00:00",
+      "created_at": "2026-04-05T23:23:11.273211+00:00"
     },
     {
       "id": "ee44c9e6e0cd58df",
@@ -3150,6 +3248,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T10:26:21+00:00",
       "created_at": "2026-04-04T20:18:12.345786+00:00"
+    },
+    {
+      "id": "d7e76ea20b11c57f",
+      "content_hash": "d7e76ea20b11c57fe37482a5a70fe58b0d1e1f005ba0b5ddef10eabbbc54111d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://worksinprogress.co/issue/a-brief-history-of-instant-coffee/",
+      "title": "A brief history of instant coffee",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637622\">Comments</a>",
+      "url": "https://worksinprogress.co/issue/a-brief-history-of-instant-coffee/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T10:00:04+00:00",
+      "created_at": "2026-04-05T23:23:11.273246+00:00"
     },
     {
       "id": "f6ec517253d48a07",
@@ -6888,118 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-04-03T05:16:22.810000",
       "created_at": "2026-04-04T02:32:47.549694+00:00"
-    },
-    {
-      "id": "211c41b5d1f35e27",
-      "content_hash": "211c41b5d1f35e27d77f4c5e692adb01d734cc0767b63ce366971f36e19a626b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35543",
-      "title": "CVE-2026-35543 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. The remot...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. The remote image blocking feature can be bypassed via SVG content (with animate attributes) in an e-mail message. This may lead to information disclosure or access-control bypass.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35543",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-03T05:16:22.637000",
-      "created_at": "2026-04-04T02:32:47.549687+00:00"
-    },
-    {
-      "id": "4f1a5a1a411d2d74",
-      "content_hash": "4f1a5a1a411d2d74cec96ea9ea3de0f0b242e7c9335d7107e76b79cfc9e96c85",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35542",
-      "title": "CVE-2026-35542 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. The remot...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. The remote image blocking feature can be bypassed via a crafted background attribute of a BODY element in an e-mail message. This may lead to information disclosure or access-control bypass.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35542",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-03T05:16:22.460000",
-      "created_at": "2026-04-04T02:32:47.549681+00:00"
-    },
-    {
-      "id": "acb76bdaa0cf6caf",
-      "content_hash": "acb76bdaa0cf6caff4882e24d41759322f9f28c0647b22df9fcb2d848ade91aa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35541",
-      "title": "CVE-2026-35541 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Incorrect...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Incorrect password comparison in the password plugin could lead to type confusion that allows a password change without knowing the old password.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35541",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.2,
-      "published_at": "2026-04-03T05:16:22.283000",
-      "created_at": "2026-04-04T02:32:47.549674+00:00"
-    },
-    {
-      "id": "0fac258702932ebc",
-      "content_hash": "0fac258702932ebc2432715f70182408fafbb62195c3156adcd71d9c26a332e8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35540",
-      "title": "CVE-2026-35540 - An issue was discovered in Roundcube Webmail 1.6.0 before 1.6.14. Insufficient C...",
-      "body": "An issue was discovered in Roundcube Webmail 1.6.0 before 1.6.14. Insufficient Cascading Style Sheets (CSS) sanitization in HTML e-mail messages may lead to SSRF or Information Disclosure, e.g., if stylesheet links point to local network hosts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35540",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-03T05:16:22.100000",
-      "created_at": "2026-04-04T02:32:47.549666+00:00"
-    },
-    {
-      "id": "98465cc70de8563c",
-      "content_hash": "98465cc70de8563c4e0b4bbde05a127fcd3a7631e14c13df8d5dd0e241c0b88b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35539",
-      "title": "CVE-2026-35539 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. XSS exist...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. XSS exists because of insufficient HTML attachment sanitization in preview mode. A victim must preview a text/html attachment.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35539",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-03T05:16:21.920000",
-      "created_at": "2026-04-04T02:32:47.549657+00:00"
-    },
-    {
-      "id": "9ba4ac9c5bfd0cad",
-      "content_hash": "9ba4ac9c5bfd0cad4677fe1fb47fb1a2b1dbe73aa61ba5944eb8e967b1d9be81",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35538",
-      "title": "CVE-2026-35538 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Unsanitiz...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Unsanitized IMAP SEARCH command arguments could lead to IMAP injection or CSRF bypass during mail search.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35538",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-04-03T05:16:21.647000",
-      "created_at": "2026-04-04T02:32:47.549651+00:00"
-    },
-    {
-      "id": "d9f7ee4d00dbe8c5",
-      "content_hash": "d9f7ee4d00dbe8c520cb4804e4bd3888186b6d3e7d47b7ed0b94d7724338933b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5452",
-      "title": "CVE-2026-5452 - A flaw has been found in UCC CampusConnect App up to 14.3.5 on Android. This vul...",
-      "body": "A flaw has been found in UCC CampusConnect App up to 14.3.5 on Android. This vulnerability affects unknown code of the file campusconnect/BuildConfig.java of the component campusconnect.ucc. This manipulation causes use of hard-coded cryptographic key\r . The attack can only be executed locally. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5452",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-04-03T04:17:10.950000",
-      "created_at": "2026-04-04T02:32:47.549644+00:00"
-    },
-    {
-      "id": "f83b7f528faa0f6f",
-      "content_hash": "f83b7f528faa0f6f3faa7ef7cf400fb35ddeb097f36bcdbeaf52eb983341c027",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35537",
-      "title": "CVE-2026-35537 - An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Unsafe de...",
-      "body": "An issue was discovered in Roundcube Webmail before 1.5.14 and 1.6.14. Unsafe deserialization in the redis/memcache session handler may lead to arbitrary file write operations by unauthenticated attackers via crafted session data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35537",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-04-03T04:17:10.313000",
-      "created_at": "2026-04-04T02:32:47.549637+00:00"
     }
   ]
 }
