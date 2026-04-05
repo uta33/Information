@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-05T17:21:20.519183+00:00",
+  "generated_at": "2026-04-05T18:27:35.623410+00:00",
   "items": [
+    {
+      "id": "3b6a70f61afd79de",
+      "content_hash": "3b6a70f61afd79de0281e8655ca6016ae5c2ef7d1121dfb61e1b38679fd8c485",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3050440",
+      "title": "As people look for ways to make new friends, here are the apps promising to help",
+      "body": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",
+      "url": "https://techcrunch.com/2026/04/05/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T18:01:37+00:00",
+      "created_at": "2026-04-05T18:27:35.196434+00:00"
+    },
+    {
+      "id": "da9f9d0c7a452366",
+      "content_hash": "da9f9d0c7a45236615ea8da1138c625a2ac4fefb234b8e252e531751096af432",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/reaffirming-commitment-to-child-safety/",
+      "title": "Reaffirming our commitment to child safety in the face of EuropeanUnion inaction",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47651626\">Comments</a>",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/reaffirming-commitment-to-child-safety/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T17:20:10+00:00",
+      "created_at": "2026-04-05T18:27:35.622684+00:00"
+    },
+    {
+      "id": "610ac0609484a2d5",
+      "content_hash": "610ac0609484a2d5fed3d5c63ccb7c2de0fa58a77feffc59c56159b9e56e4769",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.kavliprize.org/nancy-kanwisher-autobiography",
+      "title": "From birds to brains: My path to the fusiform face area (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47651479\">Comments</a>",
+      "url": "https://www.kavliprize.org/nancy-kanwisher-autobiography",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T17:08:55+00:00",
+      "created_at": "2026-04-05T18:27:35.622819+00:00"
+    },
+    {
+      "id": "7aabd802068d75df",
+      "content_hash": "7aabd802068d75dfae238267b9f3ea24a6d604951697af9228fd6d8063eee51c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/",
+      "title": "The Melanesian: Dark-skinned people with blonde hair region of Oceania",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47650962\">Comments</a>",
+      "url": "https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T16:21:51+00:00",
+      "created_at": "2026-04-05T18:27:35.623017+00:00"
+    },
     {
       "id": "347736e4de15ae98",
       "content_hash": "347736e4de15ae984049ff8ac5033e001db994a2dbbc1654e3ffe065546c8b97",
@@ -70,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T15:27:17+00:00",
       "created_at": "2026-04-05T16:23:58.652245+00:00"
+    },
+    {
+      "id": "f6a23847b572c90c",
+      "content_hash": "f6a23847b572c90c5ad948cbe4125bc0bca2ad11a969981d214440457f687dd7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sigplan.org/Awards/Dissertation/2005_gulwani.pdf",
+      "title": "Program analysis using random interpretation (2005) [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47650383\">Comments</a>",
+      "url": "https://sigplan.org/Awards/Dissertation/2005_gulwani.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T15:25:28+00:00",
+      "created_at": "2026-04-05T18:27:35.623146+00:00"
     },
     {
       "id": "85fb55b8064422b2",
@@ -406,6 +476,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T13:14:38+00:00",
       "created_at": "2026-04-05T14:26:34.322528+00:00"
+    },
+    {
+      "id": "2e49fde38314a51e",
+      "content_hash": "2e49fde38314a51eacfa5e88b842fe48f6520bec2f4b25670408803155d8bddc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "title": "Someone at BrowserStack is leaking users' email addresses",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47649117\">Comments</a>",
+      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T13:14:38+00:00",
+      "created_at": "2026-04-05T18:27:35.623053+00:00"
     },
     {
       "id": "5f49285498bbb02f",
@@ -756,6 +840,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T08:56:18+00:00",
       "created_at": "2026-04-05T15:22:23.482563+00:00"
+    },
+    {
+      "id": "8b1149aae9a3e31e",
+      "content_hash": "8b1149aae9a3e31e9655e8b0f6b882b9520b959ecd2695d7bcb6baf3a35bc21a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/JuliusBrussee/caveman",
+      "title": "Caveman: Why use many token when few token do trick",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47647455\">Comments</a>",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T08:56:18+00:00",
+      "created_at": "2026-04-05T18:27:35.622662+00:00"
     },
     {
       "id": "c12c595fc472ee46",
@@ -3852,6 +3950,20 @@
       "created_at": "2026-04-04T02:32:50.834536+00:00"
     },
     {
+      "id": "7058deb58153b358",
+      "content_hash": "7058deb58153b35825ea71b9190e1f032945e9f89986f130ae3eee18936eaec6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.oldnorthwhale.com/p/why-modern-chinese-is-just-english",
+      "title": "Just 'English with Hanzi'",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47633086\">Comments</a>",
+      "url": "https://www.oldnorthwhale.com/p/why-modern-chinese-is-just-english",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-03T22:19:57+00:00",
+      "created_at": "2026-04-05T18:27:35.622743+00:00"
+    },
+    {
       "id": "afd35e6d68f2a072",
       "content_hash": "afd35e6d68f2a07232fcda130fb6e346f636b1796d90f0275c86b786c71c7d14",
       "source_name": "CVE (NVD)",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T02:19:00+00:00",
       "created_at": "2026-04-04T02:32:50.585430+00:00"
-    },
-    {
-      "id": "be1981c2cfc8812f",
-      "content_hash": "be1981c2cfc8812f781a8b413fc4c8f779ea248ed498f823db7fc50b836c0dd1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009872.html",
-      "title": "マイクロソフトのazure_data_factoryにおける情報漏えいに関する脆弱性",
-      "body": "Azure Data Factoryにおける機密情報が認可されていない主体に露出することにより、認可されていない攻撃者がネットワーク上で情報を開示できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009872.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585445+00:00"
-    },
-    {
-      "id": "2e0ed989b07328d9",
-      "content_hash": "2e0ed989b07328d9e6e2e1658770e57fe88dc80aff618f5247b29b9926751815",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009871.html",
-      "title": "hyprのHYPRにおけるユーザ制御の鍵による認証回避に関する脆弱性",
-      "body": "HYPRサーバーにおけるユーザー制御キーの脆弱性により認可バイパスが可能となり、特権を昇格させることができます。この問題はバージョン9.5.2から10.7.2未満のサーバーに影響を与えます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009871.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585460+00:00"
-    },
-    {
-      "id": "be49fe2d983e8819",
-      "content_hash": "be49fe2d983e88192f7a8d0e3c651352b2cd8eabb063457f072226d7f122ff6a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009870.html",
-      "title": "YokeCDのyokeにおける重要な機能に対する認証の欠如に関する脆弱性",
-      "body": "YokeはHelmに触発されたインフラストラクチャ・アズ・コード（IaC）パッケージデプロイヤーです。バージョン0.19.0以前のYokeのAir Traffic Controller（ATC）コンポーネントには脆弱性があります。ATCのWebhookエンドポイントは適切な認証機構を欠いており、クラスター内の任意のポッドがKubernetes APIサーバーの認証を回避してAdmissionReviewリクエストを直接Webhookに送信できます。これにより、攻撃者は適切な認可なしにATCコントローラーのコンテキスト内でWASMモジュールを実行させることが可能になります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009870.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585475+00:00"
-    },
-    {
-      "id": "bde933c2a9f59c67",
-      "content_hash": "bde933c2a9f59c675b81622f893f701a1b5b661cec4d98ba7029483006801c60",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009869.html",
-      "title": "YokeCDのyokeにおけるコードインジェクションの脆弱性",
-      "body": "YokeはHelmに触発されたインフラストラクチャコード（IaC）パッケージデプロイヤーです。バージョン0.19.0およびそれ以前のバージョンには、YokeのAir Traffic Controller（ATC）コンポーネントに脆弱性があります。この脆弱性により、CRの作成および更新権限を持つユーザーは、overrides.yoke.cd/flightアノテーションを通じて悪意のあるURLを注入し、ATCコントローラのコンテキスト内で任意のWASMコードを実行できます。ATCコントローラはURLを適切に検証せずにWASMモジュールをダウンロードおよび実行するため、攻撃者は任意のKubernetesリソースを作成し、クラスタ管理者レベルへの権限昇格を行う可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009869.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585490+00:00"
-    },
-    {
-      "id": "c8c73f6b18876305",
-      "content_hash": "c8c73f6b18876305a28387ae581becb641f24a4707a5e750aedea9601cca4f14",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009868.html",
-      "title": "マイクロソフトの.NET等の複数製品における境界外読み取りに関する脆弱性",
-      "body": "．NETにおける境界外読み取りにより、権限のない攻撃者がネットワークを介してサービス拒否を引き起こす可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009868.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585510+00:00"
-    },
-    {
-      "id": "dc98c58c1124b03d",
-      "content_hash": "dc98c58c1124b03deb6c427f0e2ba4b2bdf30811fe81ef4a9996ce1e9f3ec376",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009867.html",
-      "title": "Nginx UI Team等の複数ベンダの製品における競合状態に関する脆弱性",
-      "body": "Nginx UIはNginxウェブサーバーのためのウェブユーザーインターフェースです。バージョン2.3.4以前のnginx-uiアプリケーションには競合状態の脆弱性があります。同期機構（Mutex）が全くなく、非アトミックなファイル書き込みが行われるため、同時リクエストがプライマリ設定ファイル（app.ini）に重大な破損を引き起こします。この脆弱性は永続的なサービス拒否（DoS）を引き起こし、設定の交差汚染を通じてリモートコード実行（RCE）への非決定的な経路を生じさせます。この問題はバージョン2.3.4で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009867.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585526+00:00"
-    },
-    {
-      "id": "df0f7be154477fea",
-      "content_hash": "df0f7be154477fea65514d8c10888eab433e0be249a51675ee01306e27aecd42",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009866.html",
-      "title": "yansongdaのPayにおけるスプーフィングによる認証回避に関する脆弱性",
-      "body": "Payは、さまざまな中国の決済サービス向けのオープンソースの決済SDK拡張パッケージです。バージョン3.7.20以前では、`src/Functions.php`内の`verify_wechat_sign()`関数が、PSR-7リクエストでホストが`localhost`と報告された場合に署名検証を無条件にスキップしていました。攻撃者はこれを悪用し、`Host: localhost`ヘッダーを付けた細工されたHTTPリクエストをWeChat Payのコールバックエンドポイントに送信することで、RSA署名チェックを完全に回避できます。これにより、偽のWeChat Pay決済成功通知を偽造でき、実際の支払いがなくてもアプリケーションが注文を支払い済みとマークしてしまう可能性がありました。バージョン3.7.20でこの問題は修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009866.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585541+00:00"
-    },
-    {
-      "id": "a047950ace2d47bf",
-      "content_hash": "a047950ace2d47bffc7df93cd72e22f0c20cc0587dbcd5fdbedc215a150fe177",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009865.html",
-      "title": "Jon Schlinkertのpicomatchにおける非効率的な正規表現の複雑さに関する脆弱性",
-      "body": "PicomatchはJavaScriptで書かれたグロブマッチャーです。バージョン4.0.4、3.0.2、2.3.2より前のバージョンには、細工されたextglobパターンを処理する際に正規表現拒否サービス攻撃（ReDoS）の脆弱性があります。特に`+()`や`*()`といったextglobの量指定子を使用し、重複する選択肢や入れ子になったextglobと組み合わせた場合、一部のパターンは正規表現にコンパイルされ、非マッチ入力で壊滅的なバックトラッキングを引き起こす可能性があります。信頼できないユーザーが生成したグロブパターンを`picomatch`に渡してコンパイルやマッチングを行うアプリケーションが影響を受けます。その場合、攻撃者が過剰なCPU消費を引き起こし、Node.jsのイベントループをブロックしてサービス拒否に至らせる可能性があります。開発者が管理する信頼されたグロブパターンのみを使用するアプリケーションでは、この問題がセキュリティ上の大きなリスクになる可能性は低いです。この問題はpicomatchの4.0.4、3.0.2、2.3.2で修正されています。ユーザーはサポート対象のリリースラインに応じてこれらのバージョン以降にアップグレードする必要があります。すぐにアップグレードできない場合は、信頼できないグロブパターンを`picomatch`に渡すことを避けてください。対応策として、信頼できないパターンに対してextglobサポートを`noextglob: true`で無効化すること、ネストしたextglobや`+()`や`*()`などの量指定子を含むパターンを拒否またはサニタイズすること、許可されるパターン構文の厳格なホワイトリストを施行すること、制限された時間とリソースの中で隔離されたワーカーや別プロセスでマッチングを実行すること、グロブパターンを受け入れるエンドポイントでアプリケーションレベルのリクエスト制限や入力検証を適用することなどがあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009865.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585557+00:00"
     }
   ]
 }
