@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-05T06:08:27.773079+00:00",
+  "generated_at": "2026-04-05T07:48:26.616421+00:00",
   "items": [
+    {
+      "id": "4e28ab49b7204492",
+      "content_hash": "4e28ab49b72044928ce726f1630c2472856d0595acd89fddf57a938a8a0f79ed",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/PluMGMK/vbesvga.drv",
+      "title": "Modern Generic SVGA driver for Windows 3.1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47646363\">Comments</a>",
+      "url": "https://github.com/PluMGMK/vbesvga.drv",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T05:28:41+00:00",
+      "created_at": "2026-04-05T07:48:26.616064+00:00"
+    },
     {
       "id": "ed8fbd028b3069c5",
       "content_hash": "ed8fbd028b3069c5824e18d514df70591a5db76a86de2776f63d0232f8fec5f9",
@@ -140,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T01:54:29+00:00",
       "created_at": "2026-04-05T06:08:27.772262+00:00"
+    },
+    {
+      "id": "04bbd820d43a92e7",
+      "content_hash": "04bbd820d43a92e7f22fce4d1387fed52e3d9f6af60a4b61e2f2fd7b9ec9f2a6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/",
+      "title": "Demonstrating Real Time AV2 Decoding on Consumer Laptops",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47645305\">Comments</a>",
+      "url": "http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T01:32:28+00:00",
+      "created_at": "2026-04-05T07:48:26.616180+00:00"
     },
     {
       "id": "ba1fc76136819a84",
@@ -6344,6 +6372,20 @@
       "created_at": "2026-04-04T02:32:46.424591+00:00"
     },
     {
+      "id": "8d9f71278965c60b",
+      "content_hash": "8d9f71278965c60b47e75d1e1073f68f6423f87bfdf8a011511196a0db7b9831",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jmduke.com/posts/software-never-had-a-soul.html",
+      "title": "Software never had a soul",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47616157\">Comments</a>",
+      "url": "https://www.jmduke.com/posts/software-never-had-a-soul.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T15:53:45+00:00",
+      "created_at": "2026-04-05T07:48:26.616034+00:00"
+    },
+    {
       "id": "16cb8f2ae86b469f",
       "content_hash": "16cb8f2ae86b469f32705d3d8be2d1359d512abfa773c0347ab19d09173e70e2",
       "source_name": "Bleeping Computer",
@@ -6580,6 +6622,20 @@
       "cvss_score": null,
       "published_at": "2026-04-02T07:09:00+00:00",
       "created_at": "2026-04-04T02:32:46.882007+00:00"
+    },
+    {
+      "id": "f3deb5f176c2d48a",
+      "content_hash": "f3deb5f176c2d48aa3832687d5d9670972d975c673dd93a006bc98210ba53fe6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.historytoday.com/archive/history-matters/east-india-company-japan",
+      "title": "The East India Company in Japan",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47610590\">Comments</a>",
+      "url": "https://www.historytoday.com/archive/history-matters/east-india-company-japan",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T06:15:01+00:00",
+      "created_at": "2026-04-05T07:48:26.616234+00:00"
     },
     {
       "id": "b73f93042df50237",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-01T06:04:12+00:00",
       "created_at": "2026-04-04T11:20:40.388684+00:00"
-    },
-    {
-      "id": "f8322998a1f4ae81",
-      "content_hash": "f8322998a1f4ae81707eecd9ece3e3d2cbb36b4f4d00da545f2962ad61801f07",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://ounapuu.ee/posts/2026/04/01/focus/",
-      "title": "Improving my focus by giving up my big monitor",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47597159\">Comments</a>",
-      "url": "https://ounapuu.ee/posts/2026/04/01/focus/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-01T05:28:59+00:00",
-      "created_at": "2026-04-04T04:44:29.691019+00:00"
-    },
-    {
-      "id": "080f594b1a1e5fae",
-      "content_hash": "080f594b1a1e5faec87241ae2f45e3889cb590a448a4d4870ed0703e77cea914",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/gradient-labs",
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "body": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "url": "https://openai.com/index/gradient-labs",
-      "category": "ai",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-01T02:00:00+00:00",
-      "created_at": "2026-04-04T02:32:46.084393+00:00"
-    },
-    {
-      "id": "cbe27cc3911c2ebb",
-      "content_hash": "cbe27cc3911c2ebb95dd516ea26d0c9d9a6f31168f17e2f0c84e4cee29626cba",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/siddharthvaddem/openscreen",
-      "title": "OpenScreen is an open-source alternative to Screen Studio",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47595695\">Comments</a>",
-      "url": "https://github.com/siddharthvaddem/openscreen",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-01T01:31:46+00:00",
-      "created_at": "2026-04-04T23:21:02.672015+00:00"
-    },
-    {
-      "id": "2a883c519e1b2f7b",
-      "content_hash": "2a883c519e1b2f7b0614f9beb0ce642722c2dbd5f5715f138636b0e335f2519d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/anthropics/claude-code/forks",
-      "title": "GitHub has DMCA'd nearly all forks of the official Claude-code repo",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47594936\">Comments</a>",
-      "url": "https://github.com/anthropics/claude-code/forks",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-03-31T23:41:42+00:00",
-      "created_at": "2026-04-04T10:23:08.515586+00:00"
     }
   ]
 }
