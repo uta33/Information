@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-05T13:45:48.478827+00:00",
+  "generated_at": "2026-04-05T14:26:34.323243+00:00",
   "items": [
+    {
+      "id": "16b79d49ca9f416d",
+      "content_hash": "16b79d49ca9f416dc4f6cdfb502cc0bb01361ffaab0758c420c87f1f8fb37765",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3108607",
+      "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+      "body": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T14:00:00+00:00",
+      "created_at": "2026-04-05T14:26:34.163241+00:00"
+    },
     {
       "id": "19e8122945285e85",
       "content_hash": "19e8122945285e8553ea7c1dfb4e56a815d09f6ad1cab47e3ece39a693ad8914",
@@ -14,6 +28,48 @@
       "cvss_score": null,
       "published_at": "2026-04-05T13:18:05+00:00",
       "created_at": "2026-04-05T13:45:48.478157+00:00"
+    },
+    {
+      "id": "b6aed158e874850c",
+      "content_hash": "b6aed158e874850c587dc31d41010aeb98ddfd139bf800a5707e7d87e1f102de",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "title": "Someone at BrowserStack Is Leaking Users' Email Address",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47649117\">Comments</a>",
+      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T13:14:38+00:00",
+      "created_at": "2026-04-05T14:26:34.322528+00:00"
+    },
+    {
+      "id": "5f49285498bbb02f",
+      "content_hash": "5f49285498bbb02ff68493e7c88b7e6d290fb5fbffd7b455da7bba355c044183",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2645467#abstract",
+      "title": "Finnish sauna heat exposure induces stronger immune cell than cytokine responses",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47649113\">Comments</a>",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2645467#abstract",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T13:14:36+00:00",
+      "created_at": "2026-04-05T14:26:34.322598+00:00"
+    },
+    {
+      "id": "a77d29875d3d4d79",
+      "content_hash": "a77d29875d3d4d790b2344fe3eeea24c1f9d381d08c6b5c2cb38308eb474e074",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "title": "Eight years of wanting, three months of building with AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47648828\">Comments</a>",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T12:43:47+00:00",
+      "created_at": "2026-04-05T14:26:34.322689+00:00"
     },
     {
       "id": "5c49a122d49fabb0",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-02T12:45:00+00:00",
       "created_at": "2026-04-04T02:32:46.881926+00:00"
-    },
-    {
-      "id": "d259fe39df3cb7c4",
-      "content_hash": "d259fe39df3cb7c4eaf90a75a64379efca7f675f3c70f13fe4c44ddb6b6d57d8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://detawk.com/",
-      "title": "Show HN: I built a small app for FSI German Course",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47613118\">Comments</a>",
-      "url": "https://detawk.com/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T11:44:01+00:00",
-      "created_at": "2026-04-05T06:08:27.772408+00:00"
-    },
-    {
-      "id": "12cdb2571c83b3d9",
-      "content_hash": "12cdb2571c83b3d96ed4e4825a1600b41420329545367620aea3c97c6cd70086",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
-      "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners",
-      "body": "A&nbsp;financially motivated operation&nbsp;codenamed REF1695&nbsp;has been&nbsp;observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November&nbsp;2023.\n\"Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action) fraud, directing victims to content locker pages under the guise of software registration,\" Elastic",
-      "url": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-02T11:42:00+00:00",
-      "created_at": "2026-04-04T02:32:46.881948+00:00"
-    },
-    {
-      "id": "3f1a24324b1222f2",
-      "content_hash": "3f1a24324b1222f2b661474a6475ca6bfcc3bb22f840d0d438d8da85bc29c371",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
-      "title": "The State of Trusted Open Source Report",
-      "body": "In December&nbsp;2025, we shared the first-ever The State of Trusted Open&nbsp;Source report, featuring insights from our product data and customer base on open source consumption across our catalog of container image projects, versions, images, language libraries, and builds. These&nbsp;insights shed light on what teams pull, deploy, and maintain day to day, alongside the vulnerabilities and",
-      "url": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-02T11:30:00+00:00",
-      "created_at": "2026-04-04T02:32:46.881967+00:00"
-    },
-    {
-      "id": "fd9ed72869da24c9",
-      "content_hash": "fd9ed72869da24c91d29206095a1af9c38197f04606034cc1717602e299685ee",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
-      "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
-      "body": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-02T11:01:14+00:00",
-      "created_at": "2026-04-04T02:32:46.995031+00:00"
     }
   ]
 }
