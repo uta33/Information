@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T16:23:58.652515+00:00",
+  "generated_at": "2026-04-05T17:21:20.519183+00:00",
   "items": [
     {
       "id": "347736e4de15ae98",
@@ -16,6 +16,20 @@
       "created_at": "2026-04-05T16:23:58.293909+00:00"
     },
     {
+      "id": "9581493872a15f3b",
+      "content_hash": "9581493872a15f3bdecca8e1ce9a8b090660c62a63df744886ea5aef306b6367",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "title": "Codex is switching to API pricing based usage for all users",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47650726\">Comments</a>",
+      "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T15:58:08+00:00",
+      "created_at": "2026-04-05T17:21:20.518395+00:00"
+    },
+    {
       "id": "5031af115eec4d1d",
       "content_hash": "5031af115eec4d1dcd3e91941d94d94b78e7eaa5ae6ff0a3acfcd556a1985f6d",
       "source_name": "TechCrunch",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T15:40:58+00:00",
       "created_at": "2026-04-05T16:23:58.293940+00:00"
+    },
+    {
+      "id": "40ffdae4a0562054",
+      "content_hash": "40ffdae4a0562054575a4cbdd29dc8e8b172272b6981457cd83a235fee572592",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://websites.umich.edu/~mejn/cp2/",
+      "title": "Computational Physics (2nd Edition)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47650502\">Comments</a>",
+      "url": "https://websites.umich.edu/~mejn/cp2/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T15:38:18+00:00",
+      "created_at": "2026-04-05T17:21:20.518481+00:00"
     },
     {
       "id": "ee44c9e6e0cd58df",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T02:19:00+00:00",
       "created_at": "2026-04-04T02:32:50.585557+00:00"
-    },
-    {
-      "id": "aa048359819f068a",
-      "content_hash": "aa048359819f068a6ab0f31901473b816ea2a9ef1e3a467e268a5d5fcb9f2aba",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009864.html",
-      "title": "Jon Schlinkertのpicomatchにおけるオブジェクトプロトタイプ属性の不適切に制御された変更に関する脆弱性",
-      "body": "PicomatchはJavaScriptで書かれたグロブマッチャーです。バージョン4.0.4未満、3.0.2未満、および2.3.2未満には、`POSIX_REGEX_SOURCE`オブジェクトに影響を与えるメソッドインジェクションの脆弱性があります。このオブジェクトは`Object.prototype`を継承しているため、特別に細工されたPOSIXブラケット式（例：[[:constructor:]]）が継承されたメソッド名を参照できます。これらのメソッドは暗黙的に文字列に変換され、生成された正規表現に注入されます。これにより、パターンが意図しないファイル名にマッチする不正なグロブマッチング動作（整合性への影響）を引き起こします。この問題はリモートコード実行を可能にしませんが、フィルタリング、検証、アクセス制御のためにグロブマッチングに依存するアプリケーションにおいてセキュリティ上の論理エラーを引き起こす可能性があります。影響を受ける`picomatch`のすべてのバージョンを使用し、未検証またはユーザー制御のグロブパターンを処理するユーザーは潜在的に影響を受けます。この問題はpicomatch 4.0.4、3.0.2、および2.3.2で修正されています。ユーザーはサポートされているリリースラインに応じてこれらのバージョン以降にアップグレードする必要があります。すぐにアップグレードができない場合は、未検証のグロブパターンをpicomatchに渡すことを避けてください。考えられる緩和策には、特に[[:...:]]のようなPOSIX文字クラスを含む未検証のグロブパターンをサニタイズまたは拒否すること、ユーザー入力が関与する場合はPOSIXブラケット式の使用を避けること、そして`POSIX_REGEX_SOURCE`をヌルプロトタイプに変更してライブラリを手動でパッチすることが含まれます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009864.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585573+00:00"
-    },
-    {
-      "id": "ddcde2f4b0cbfbe8",
-      "content_hash": "ddcde2f4b0cbfbe8a6936325ea55e479331567569f28d2a101f8971e75e814cd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009863.html",
-      "title": "gematikのAuthenticatorにおけるOS コマンドインジェクションの脆弱性",
-      "body": "Gematik Authenticatorは、デジタルヘルスアプリケーションへのログイン時にユーザーを安全に認証するソフトウェアです。バージョン4.12.0から4.16.0未満のMac OS版Authenticatorには、被害者が悪意のあるファイルを開くとリモートコード実行が可能になる脆弱性が存在します。修正を適用するためには、Gematik Authenticatorをバージョン4.16.0以上にアップデートしてください。既知の回避策はありません。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009863.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:18:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585588+00:00"
     }
   ]
 }
