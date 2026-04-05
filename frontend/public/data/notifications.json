@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-05T19:26:37.695316+00:00",
+  "generated_at": "2026-04-05T20:20:34.855652+00:00",
   "items": [
+    {
+      "id": "5965d5cf9649123a",
+      "content_hash": "5965d5cf9649123a04c9447a3825e3ad7266df7b6354baddacf43b6dec42e9f6",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "title": "Traffic violation scams switch to QR codes in new phishing texts",
+      "body": "Scammers are sending fake \"Notice of Default\" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site demanding a $6.99 payment while stealing personal and financial information. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T19:44:10+00:00",
+      "created_at": "2026-04-05T20:20:31.366715+00:00"
+    },
+    {
+      "id": "f619b9e7fc5b5c6c",
+      "content_hash": "f619b9e7fc5b5c6c8076bfd6ebc14c640c62ca5de7921ae6ce968ccdeddf4791",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109474",
+      "title": "Polymarket took down wagers tied to rescue of downed Air Force officer",
+      "body": "A Democratic congressman had harsh criticism for Polymarket for allowing users to bet on the date the U.S. would confirm the rescue of Air Force service members shot down over Iran.",
+      "url": "https://techcrunch.com/2026/04/05/polymarket-took-down-wagers-tied-to-rescue-of-downed-air-force-officer/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-05T19:36:03+00:00",
+      "created_at": "2026-04-05T20:20:34.743736+00:00"
+    },
+    {
+      "id": "09712a4caa6a8696",
+      "content_hash": "09712a4caa6a869674af66cd2d3fcc2ae621dba3335665ea956daa9bf906eb19",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength",
+      "title": "Bacteria found in the human intestine capable of improving muscle strength",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47652726\">Comments</a>",
+      "url": "https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T19:01:55+00:00",
+      "created_at": "2026-04-05T20:20:34.854837+00:00"
+    },
     {
       "id": "c7522eeae4541335",
       "content_hash": "c7522eeae45413353c2df808c39042d2375b48505758924c57d7221feb97689a",
@@ -84,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T18:01:37+00:00",
       "created_at": "2026-04-05T18:27:35.196434+00:00"
+    },
+    {
+      "id": "1f69835f4ea2679b",
+      "content_hash": "1f69835f4ea2679b8449fd2de65b08d1cd162ea9730f4110a82dcf6e3dc3272b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "title": "Microsoft Hasn't Had a Coherent GUI Strategy Since Petzold",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47651703\">Comments</a>",
+      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T17:27:41+00:00",
+      "created_at": "2026-04-05T20:20:34.855264+00:00"
     },
     {
       "id": "da9f9d0c7a452366",
@@ -2982,6 +3038,20 @@
       "cvss_score": null,
       "published_at": "2026-04-04T10:26:21+00:00",
       "created_at": "2026-04-04T20:18:12.345786+00:00"
+    },
+    {
+      "id": "f6ec517253d48a07",
+      "content_hash": "f6ec517253d48a07bb59551b58045f1836ae56c52c561064eba8dc3a72f48afd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/love2d/love",
+      "title": "LÖVE: 2D Game Framework for Lua",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637377\">Comments</a>",
+      "url": "https://github.com/love2d/love",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T09:20:34+00:00",
+      "created_at": "2026-04-05T20:20:34.854945+00:00"
     },
     {
       "id": "5574199a6ce0ffd3",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T02:20:00+00:00",
       "created_at": "2026-04-04T02:32:50.585152+00:00"
-    },
-    {
-      "id": "8e4d3b5ee74a6fcb",
-      "content_hash": "8e4d3b5ee74a6fcb28ce80168b968a3a6febcd999b2587489a81ea632db52c1d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009887.html",
-      "title": "baserCMSユーザー会のbaserCMSにおけるOS コマンドインジェクションの脆弱性",
-      "body": "baserCMSはウェブサイト開発フレームワークです。バージョン5.2.3以前のbaserCMSには、コアのアップデート機能にOSコマンドインジェクションの脆弱性が存在していました。認証された管理者が、十分な検証やエスケープを行わずにexec()に直接渡されるユーザー制御入力を不適切に処理することで、サーバー上で任意のOSコマンドを実行できる可能性がありました。この問題はバージョン5.2.3で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009887.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:20:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585170+00:00"
-    },
-    {
-      "id": "d6a9b88950b63c1a",
-      "content_hash": "d6a9b88950b63c1ab9050e2156eace300c5ae0f98c006f50b724bce3706c5fdd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009886.html",
-      "title": "VMwareのSpring AIにおける言語構文の表現に使用される特殊な要素の不適切な無効化に関する脆弱性",
-      "body": "Spring AIのAbstractFilterExpressionConverterにおけるJSONPathインジェクションの脆弱性は、認証済みユーザーが細工されたフィルター式を通じてメタデータに基づくアクセス制御を回避できる問題です。ユーザーが制御する入力がFilterExpressionBuilderに渡される際、適切なエスケープ処理が行われずにJSONPathクエリに連結されるため、攻撃者は任意のJSONPathロジックを注入して認可されていないドキュメントにアクセスできます。この脆弱性はマルチテナントの分離、ロールベースアクセス制御、またはメタデータに基づくドキュメントフィルタリングのためにAbstractFilterExpressionConverterを拡張してベクターストアを使用するアプリケーションに影響を与えます。フィルター式内のユーザー提供値がJSONPathクエリに挿入される前に正しくエスケープされていない場合に脆弱性が発生します。\"||\"や\"&&\"などの特殊文字がエスケープされずに通過し、意図したクエリの意味を変える任意のJSONPathロジックの注入を可能にします。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009886.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:20:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585187+00:00"
-    },
-    {
-      "id": "ed4783b125834bd4",
-      "content_hash": "ed4783b125834bd4cb46dbb1263cdfc589c86e14eace72577cda704861dd3e63",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009885.html",
-      "title": "VMwareのSpring AIにおけるSQL インジェクションの脆弱性",
-      "body": "Spring AIのMariaDBFilterExpressionConverterに重大なSQLインジェクションの脆弱性が存在し、攻撃者がメタデータベースのアクセス制御を回避して任意のSQLコマンドを実行する可能性があります。この脆弱性は、入力が適切にサニタイズされていないことに起因しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009885.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585213+00:00"
-    },
-    {
-      "id": "4f1380949b3e7c51",
-      "content_hash": "4f1380949b3e7c51e88483a0672b419cbab40b2449ca4d87eda7caae7113f565",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009884.html",
-      "title": "baserCMSユーザー会のbaserCMSにおけるOS コマンドインジェクションの脆弱性",
-      "body": "baserCMSはウェブサイト開発フレームワークです。バージョン5.2.3以前には、更新機能にOSコマンドインジェクションの脆弱性が存在していました。この問題により、baserCMSの管理者権限を持つ認証済みユーザーは、baserCMSを実行しているユーザーアカウントの権限で任意のOSコマンドをサーバー上で実行できます。この問題はバージョン5.2.3で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009884.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585229+00:00"
-    },
-    {
-      "id": "cc70286e5142ca4f",
-      "content_hash": "cc70286e5142ca4ff899219dac6b9103ec8d62e1cde651428a7319cafefc2b89",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009883.html",
-      "title": "baserCMSユーザー会のbaserCMSにおける認可に関する脆弱性",
-      "body": "baserCMSはウェブサイト開発フレームワークです。バージョン5.2.3以前では、公開されているメール送信APIにより、対応するフォームが送信受付を停止している場合でも認証されていないユーザーがメールフォームのエントリを送信できました。これによりフォーム受付停止の管理制御が回避され、APIを経由してスパムや悪用が行われる可能性がありました。この問題はバージョン5.2.3で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009883.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:19:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585245+00:00"
     }
   ]
 }
