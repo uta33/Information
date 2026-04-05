@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T10:23:01.205463+00:00",
+  "generated_at": "2026-04-05T11:20:29.624930+00:00",
   "items": [
     {
       "id": "10bf0a96f4f03ea1",
@@ -6946,6 +6946,20 @@
       "created_at": "2026-04-04T02:32:50.585051+00:00"
     },
     {
+      "id": "5717011674bedaee",
+      "content_hash": "5717011674bedaeea5dd83f6e93188693fc285af00291857ab477da35a555649",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47609117",
+      "title": "Ask HN: Is there any interest in a native Qt/C++ Discord client?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47609117\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47609117",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-02T01:53:11+00:00",
+      "created_at": "2026-04-05T11:20:29.624392+00:00"
+    },
+    {
       "id": "433b1f3a702f02c6",
       "content_hash": "433b1f3a702f02c6ba78b28d9234f57a9bb64c150e9087f7b8ddccda357cf608",
       "source_name": "Hacker News (Best)",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-01T20:38:24+00:00",
       "created_at": "2026-04-04T15:20:53.462802+00:00"
-    },
-    {
-      "id": "0f553caa1af559f5",
-      "content_hash": "0f553caa1af559f5b2ae244bf00ff5cba3a89b7b05ab2eb517e8282e6eb1f4a2",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.autorouting.com/p/sequential-optimal-packing-for-pcb",
-      "title": "Sequential Optimal Packing for PCB Placement",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47605425\">Comments</a>",
-      "url": "https://blog.autorouting.com/p/sequential-optimal-packing-for-pcb",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-01T19:30:34+00:00",
-      "created_at": "2026-04-04T08:29:18.309872+00:00"
     }
   ]
 }
