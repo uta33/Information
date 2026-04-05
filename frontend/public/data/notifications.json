@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T20:20:34.855652+00:00",
+  "generated_at": "2026-04-05T21:21:33.343293+00:00",
   "items": [
     {
       "id": "5965d5cf9649123a",
@@ -114,6 +114,20 @@
       "created_at": "2026-04-05T19:26:37.694689+00:00"
     },
     {
+      "id": "134f8905d9249020",
+      "content_hash": "134f8905d92490203c42e6de046df7d6440178b291e18ddd7148351b1a70f5f4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://musicforprogramming.net",
+      "title": "Music for Programming",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47652322\">Comments</a>",
+      "url": "https://musicforprogramming.net",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T18:23:08+00:00",
+      "created_at": "2026-04-05T21:21:33.342868+00:00"
+    },
+    {
       "id": "3b6a70f61afd79de",
       "content_hash": "3b6a70f61afd79de0281e8655ca6016ae5c2ef7d1121dfb61e1b38679fd8c485",
       "source_name": "TechCrunch",
@@ -168,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T17:13:51+00:00",
       "created_at": "2026-04-05T19:26:37.694581+00:00"
+    },
+    {
+      "id": "aa5dc2cad78fa20e",
+      "content_hash": "aa5dc2cad78fa20e4ae510a254440c0dbc7b905d66401f932b08f8dbbeee7065",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47651540\">Comments</a>",
+      "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-05T17:13:51+00:00",
+      "created_at": "2026-04-05T21:21:33.342538+00:00"
     },
     {
       "id": "610ac0609484a2d5",
@@ -322,6 +350,34 @@
       "cvss_score": null,
       "published_at": "2026-04-05T15:18:01+00:00",
       "created_at": "2026-04-05T16:23:58.652035+00:00"
+    },
+    {
+      "id": "53c1490c3288fb3f",
+      "content_hash": "53c1490c3288fb3f26403ac41edac26dfb2bc87e67fd10359d81daa26ff6522a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5574",
+      "title": "CVE-2026-5574 - A security vulnerability has been detected in Technostrobe HI-LED-WR120-G2 5.5.0...",
+      "body": "A security vulnerability has been detected in Technostrobe HI-LED-WR120-G2 5.5.0.1R6.03.30. Affected is the function deletefile of the component FsBrowseClean. The manipulation of the argument dir/path leads to missing authorization. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5574",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-05T15:16:42.820000",
+      "created_at": "2026-04-05T21:21:28.994996+00:00"
+    },
+    {
+      "id": "632f327a6f9b293d",
+      "content_hash": "632f327a6f9b293d81ee5d808ba73dc271c3408b4412114a57491d69eabb1447",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5573",
+      "title": "CVE-2026-5573 - A weakness has been identified in Technostrobe HI-LED-WR120-G2 5.5.0.1R6.03.30. ...",
+      "body": "A weakness has been identified in Technostrobe HI-LED-WR120-G2 5.5.0.1R6.03.30. This impacts an unknown function of the file /fs. Executing a manipulation of the argument cwd can lead to unrestricted upload. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5573",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-05T15:16:41.880000",
+      "created_at": "2026-04-05T21:21:28.994990+00:00"
     },
     {
       "id": "8c75cdc39b8793fc",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T03:09:00+00:00",
       "created_at": "2026-04-04T02:32:50.585087+00:00"
-    },
-    {
-      "id": "f2003584f9ab6e7a",
-      "content_hash": "f2003584f9ab6e7a5817a60436132847fe6862cc9e8adbca0c547152f8d7f447",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://donotresearch.substack.com/p/welcome-to-the-technocracy",
-      "title": "The Technocracy Movement of the 1930s",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47622616\">Comments</a>",
-      "url": "https://donotresearch.substack.com/p/welcome-to-the-technocracy",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:29:22+00:00",
-      "created_at": "2026-04-04T02:32:50.834733+00:00"
-    },
-    {
-      "id": "5272382a921cac97",
-      "content_hash": "5272382a921cac971bc2f5705a1222d06865da4d16ef462e68635d2b4cb50f51",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009890.html",
-      "title": "baserCMSユーザー会のbaserCMSにおける危険なタイプのファイルの無制限アップロードに関する脆弱性",
-      "body": "baserCMSはウェブサイト開発フレームワークです。バージョン5.2.3以前では、アプリケーションの復元機能においてユーザーが.zipファイルをアップロードすると、そのファイルが自動的に展開されます。アーカイブ内のPHPファイルはファイル名の検証や制限なしにrequire_onceでインクルードされます。攻撃者はzip内に悪意のあるPHPファイルを作成し、それがインクルードされることで任意のコードを実行する可能性があります。この問題はバージョン5.2.3で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009890.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:20:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585108+00:00"
-    },
-    {
-      "id": "b5f4a526ff64b1eb",
-      "content_hash": "b5f4a526ff64b1eb0471a2cf0255510bbb4c65f5c3b528332f2b518c26b5ad9b",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009889.html",
-      "title": "TP-LINK TechnologiesのAginet等の複数製品における過度に許容されるクロスドメインホワイトリストに関する脆弱性",
-      "body": "寛容なWebセキュリティ設定により、特定の状況下で最新のブラウザが強制するクロスオリジン制限を回避できる可能性があります。悪用するためには、既存のクライアントサイドインジェクション脆弱性が存在し、影響を受けるWebインターフェースへのユーザーアクセスが必要です。悪用に成功すると、機密情報が不正に開示される可能性があります。この問題は、TP-Linkが自動的に展開する更新済みのOmada Cloud Controllerサービスのバージョンで修正されています。そのため、ユーザー側での対応は不要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009889.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:20:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585132+00:00"
-    },
-    {
-      "id": "938d2002b032de4f",
-      "content_hash": "938d2002b032de4f4c12afb93951078a10e01d2a29745c5576e67da8b04804e8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009888.html",
-      "title": "TP-LINK TechnologiesのAginet等の複数製品における証明書検証に関する脆弱性",
-      "body": "証明書検証ロジックの脆弱性により、アプリケーションはTLS通信中に信頼されていない、または不適切に検証されたサーバーの識別情報を受け入れてしまう可能性があります。特権的なネットワーク位置にいる攻撃者が通信チャネル内に自身を配置できれば、トラフィックを傍受または改ざんすることが可能です。これが成功すると、アプリケーションデータの機密性、完全性、および可用性が損なわれます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-009888.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T02:20:00+00:00",
-      "created_at": "2026-04-04T02:32:50.585152+00:00"
     }
   ]
 }
