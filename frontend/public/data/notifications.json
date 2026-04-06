@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-06T09:58:52.366090+00:00",
+  "generated_at": "2026-04-06T10:55:46.652125+00:00",
   "items": [
+    {
+      "id": "f76ba86aa95a5cec",
+      "content_hash": "f76ba86aa95a5cecfa4e4953d5b3fffc1b2470b0373a06cb96821058fca2e15f",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+      "body": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro.\nQilin attacks analyzed by Talos&nbsp;have been&nbsp;found to deploy a malicious DLL named \"msimg32.dll,\"",
+      "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T10:07:00+00:00",
+      "created_at": "2026-04-06T10:55:42.337610+00:00"
+    },
+    {
+      "id": "6aad938641db2020",
+      "content_hash": "6aad938641db2020596c8d0a6dd275c72b21fa4e140a4ad2482d7d0c8b2c370d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
+      "title": "Number in man page titles e.g. sleep(3)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47658743\">Comments</a>",
+      "url": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T09:39:17+00:00",
+      "created_at": "2026-04-06T10:55:46.651647+00:00"
+    },
     {
       "id": "0c0d521b81309b18",
       "content_hash": "0c0d521b81309b18a87cf72a887b518156ac3d29796e4fb706ede9843bad5b80",
@@ -1120,6 +1148,48 @@
       "cvss_score": null,
       "published_at": "2026-04-05T21:18:25+00:00",
       "created_at": "2026-04-05T22:19:19.095681+00:00"
+    },
+    {
+      "id": "12c60664feedf8c5",
+      "content_hash": "12c60664feedf8c51b52450bbb8a8af85cd1590ee8e877fcef773338804e6b9f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25669",
+      "title": "CVE-2019-25669 - qdPM 9.1 contains an SQL injection vulnerability that allows attackers to manipu...",
+      "body": "qdPM 9.1 contains an SQL injection vulnerability that allows attackers to manipulate database queries by injecting SQL code through the search_by_extrafields[] parameter. Attackers can send POST requests to the users endpoint with malicious search_by_extrafields[] values to trigger SQL syntax errors and extract database information.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25669",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "published_at": "2026-04-05T21:16:44.430000",
+      "created_at": "2026-04-06T10:55:43.299447+00:00"
+    },
+    {
+      "id": "052684efee6c24cf",
+      "content_hash": "052684efee6c24cf7f2a728d341bf615e112aa6e8b035b6f76026a5d02908eee",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25668",
+      "title": "CVE-2019-25668 - News Website Script 2.0.5 contains an SQL injection vulnerability that allows un...",
+      "body": "News Website Script 2.0.5 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the news ID parameter. Attackers can send GET requests to index.php/show/news/ with malicious SQL statements to extract sensitive database information.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25668",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "published_at": "2026-04-05T21:16:44.240000",
+      "created_at": "2026-04-06T10:55:43.299440+00:00"
+    },
+    {
+      "id": "4005e537cabc1182",
+      "content_hash": "4005e537cabc11829ef4371bd99f97b0d7e231c9376ac109470748a6902741e2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25667",
+      "title": "CVE-2019-25667 - TaskInfo 8.2.0.280 contains a local buffer overflow vulnerability that allows at...",
+      "body": "TaskInfo 8.2.0.280 contains a local buffer overflow vulnerability that allows attackers to crash the application by supplying oversized input to registration fields. Attackers can paste excessively long strings into the New User Name or New Serial Number textboxes in the Help menu's registration dialog to trigger a denial of service condition.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25667",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.2,
+      "published_at": "2026-04-05T21:16:44.077000",
+      "created_at": "2026-04-06T10:55:43.299434+00:00"
     },
     {
       "id": "c90e573cd1484ad1",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T17:18:38+00:00",
       "created_at": "2026-04-04T02:32:50.834789+00:00"
-    },
-    {
-      "id": "b16442a20089ff83",
-      "content_hash": "b16442a20089ff830b57c998d929cd5b9274ba621316399205e75f6dff53ae34",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5474",
-      "title": "CVE-2026-5474 - A vulnerability was found in NASA cFS up to 7.0.0. This affects the function CFE...",
-      "body": "A vulnerability was found in NASA cFS up to 7.0.0. This affects the function CFE_MSG_GetSize of the file apps/to_lab/fsw/src/to_lab_passthru_encode.c of the component CCSDS Packet Header Handler. Performing a manipulation results in heap-based buffer overflow. The attacker must have access to the local network to execute the attack. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5474",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-03T17:16:54.450000",
-      "created_at": "2026-04-04T17:21:18.872236+00:00"
-    },
-    {
-      "id": "c284a8d05391573a",
-      "content_hash": "c284a8d05391573a1d3fcaa9d284242a4844215085bf4907bd2fc3027c592205",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5473",
-      "title": "CVE-2026-5473 - A vulnerability has been found in NASA cFS up to 7.0.0. The impacted element is ...",
-      "body": "A vulnerability has been found in NASA cFS up to 7.0.0. The impacted element is the function pickle.load of the component Pickle Module. Such manipulation leads to deserialization. The attack needs to be performed locally. The attack requires a high level of complexity. The exploitability is regarded as difficult. The exploit has been disclosed to the public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5473",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-03T17:16:54.203000",
-      "created_at": "2026-04-04T17:21:18.872225+00:00"
-    },
-    {
-      "id": "26c03c3d7ae5938b",
-      "content_hash": "26c03c3d7ae5938b5386e6a3b05e0b3e2ba29622a367d56cec7ae0c70710f29d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-28373",
-      "title": "CVE-2026-28373 - The Stackfield Desktop App before 1.10.2 for macOS and Windows contains a path t...",
-      "body": "The Stackfield Desktop App before 1.10.2 for macOS and Windows contains a path traversal vulnerability in certain decryption functionality when processing the filePath property. A malicious export can write arbitrary content to any path on the victim's filesystem.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28373",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-04-03T17:16:42.140000",
-      "created_at": "2026-04-04T17:21:18.872202+00:00"
-    },
-    {
-      "id": "2470078689183a6d",
-      "content_hash": "2470078689183a6d0ecfff337a453a7553410ea2fc7c553191c4b1f5469137ee",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://tinygo.org/",
-      "title": "Go on Embedded Systems and WebAssembly",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47629116\">Comments</a>",
-      "url": "https://tinygo.org/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:57:09+00:00",
-      "created_at": "2026-04-04T02:32:50.834637+00:00"
-    },
-    {
-      "id": "263678fd26e48d3f",
-      "content_hash": "263678fd26e48d3f2b290e19ab0ac21c463096add80fa49fd7cdaec5e0bb6982",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3108753",
-      "title": "The final days of the Tesla Model X and S are here. All bets are on the Cybercab.",
-      "body": "It's a new era for Tesla — and one that will rely on its ability to launch the Cybercab and mass-produce the Optimus robot.",
-      "url": "https://techcrunch.com/2026/04/03/the-final-days-of-the-tesla-model-x-and-s-are-here-all-bets-are-on-the-cybercab/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:48:09+00:00",
-      "created_at": "2026-04-04T02:32:50.704205+00:00"
     }
   ]
 }
