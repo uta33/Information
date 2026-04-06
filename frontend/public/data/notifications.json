@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-06T19:44:16.436102+00:00",
+  "generated_at": "2026-04-06T20:28:15.572522+00:00",
   "items": [
+    {
+      "id": "93436bcec415fc70",
+      "content_hash": "93436bcec415fc705995abf78070b954eb53087cae77dc0e0b36f1cf58c03fd3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/matthartman/ghost-pepper",
+      "title": "Show HN: Ghost Pepper – 100% local hold-to-talk speech-to-text for macOS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47666024\">Comments</a>",
+      "url": "https://github.com/matthartman/ghost-pepper",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T19:50:16+00:00",
+      "created_at": "2026-04-06T20:28:15.571823+00:00"
+    },
     {
       "id": "100883b704674e3d",
       "content_hash": "100883b704674e3dd7efa34f42fc84ea34fe776aba0797eb392b5bcb65ef5bf2",
@@ -112,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T18:31:03+00:00",
       "created_at": "2026-04-06T19:44:16.435347+00:00"
+    },
+    {
+      "id": "78240bb67f0ff3fa",
+      "content_hash": "78240bb67f0ff3fa17be1cad96aeec0f0815e7d5e06bc491068140ffdb02884f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+      "title": "The cult of vibe coding is insane",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47664912\">Comments</a>",
+      "url": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T18:31:03+00:00",
+      "created_at": "2026-04-06T20:28:15.571774+00:00"
     },
     {
       "id": "78db69575487b4ea",
@@ -660,6 +688,20 @@
       "created_at": "2026-04-06T15:37:01.427904+00:00"
     },
     {
+      "id": "b2efbeb6897f05a5",
+      "content_hash": "b2efbeb6897f05a518de4d39453bd64aeea2ffc0d63ba5e1c984f53b6e40e8eb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "title": "German police name alleged leaders of GandCrab and REvil ransomware groups",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47660954\">Comments</a>",
+      "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T13:52:37+00:00",
+      "created_at": "2026-04-06T20:28:15.571884+00:00"
+    },
+    {
       "id": "54bb47d672d9d9d3",
       "content_hash": "54bb47d672d9d9d3974368ad18dd7ff9bb9b25a733a0cc41f62e8114a50133e5",
       "source_name": "Hacker News (Best)",
@@ -784,6 +826,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T12:53:41+00:00",
       "created_at": "2026-04-06T18:41:41.124208+00:00"
+    },
+    {
+      "id": "dc75751c3d857e79",
+      "content_hash": "dc75751c3d857e798afdbf792a08257d2bd254b4c3317e8a4beea187d298009c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.convexly.app/",
+      "title": "Show HN: I built a 2-min quiz that shows you how bad you are at estimating",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47660262\">Comments</a>",
+      "url": "https://www.convexly.app/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T12:50:20+00:00",
+      "created_at": "2026-04-06T20:28:15.572198+00:00"
     },
     {
       "id": "3f688b5e71f602d9",
@@ -2002,6 +2058,34 @@
       "cvss_score": null,
       "published_at": "2026-04-05T23:33:01+00:00",
       "created_at": "2026-04-06T01:20:14.912116+00:00"
+    },
+    {
+      "id": "5de3b8ea661ad742",
+      "content_hash": "5de3b8ea661ad742ad40c2ac83fe1812b57eb40a5f5ef803e81c671dd504bad3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5603",
+      "title": "CVE-2026-5603 - A vulnerability was identified in elgentos magento2-dev-mcp up to 1.0.2. The aff...",
+      "body": "A vulnerability was identified in elgentos magento2-dev-mcp up to 1.0.2. The affected element is the function executeMagerun2Command of the file src/index.ts. Such manipulation leads to os command injection. An attack has to be approached locally. The exploit is publicly available and might be used. The name of the patch is aa1ffcc0aea1b212c69787391783af27df15ae9d. A patch should be applied to remediate this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5603",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-04-05T23:16:20.390000",
+      "created_at": "2026-04-06T20:28:12.392337+00:00"
+    },
+    {
+      "id": "d173974390edd2b7",
+      "content_hash": "d173974390edd2b7f9b506fd28963f048471fa0fcbdb2465c0519b8679b622ff",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5602",
+      "title": "CVE-2026-5602 - A vulnerability was determined in Nor2-io heim-mcp up to 0.1.3. Impacted is the ...",
+      "body": "A vulnerability was determined in Nor2-io heim-mcp up to 0.1.3. Impacted is the function registerTools of the file src/tools.ts of the component new_heim_application/deploy_heim_application/deploy_heim_application_to_cloud. This manipulation causes os command injection. The attack requires local access. The exploit has been publicly disclosed and may be utilized. Patch name: c321d8af25f77668781e6ccb43a1336f9185df37. It is suggested to install a patch to address this issue. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5602",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-04-05T23:16:19.497000",
+      "created_at": "2026-04-06T20:28:12.392330+00:00"
     },
     {
       "id": "4f045472cff38395",
@@ -6456,6 +6540,20 @@
       "created_at": "2026-04-06T04:35:15.467753+00:00"
     },
     {
+      "id": "8fc482f3a7956088",
+      "content_hash": "8fc482f3a79560889c4c8ac494d0a541822f29bc936b54cec217276c86a24db0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/maaslalani/sheets",
+      "title": "Sheets: Terminal based spreadsheet tool",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47636456\">Comments</a>",
+      "url": "https://github.com/maaslalani/sheets",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T06:34:12+00:00",
+      "created_at": "2026-04-06T20:28:15.572348+00:00"
+    },
+    {
       "id": "edb185b3a887022d",
       "content_hash": "edb185b3a887022d52c6f3ad968f13f05aa7ce18af948ddb054dad55f6a75bb8",
       "source_name": "Hacker News (Best)",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T23:46:51+00:00",
       "created_at": "2026-04-04T09:27:42.654393+00:00"
-    },
-    {
-      "id": "9d48ff3d3a15fe6e",
-      "content_hash": "9d48ff3d3a15fe6e5adffcf390faacf0fbf27d4171bdfc49574276271b58a56f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.doc.ic.ac.uk/%7Esusan/475/unmain.html",
-      "title": "How to Write Unmaintainable Code (1999)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47633640\">Comments</a>",
-      "url": "https://www.doc.ic.ac.uk/%7Esusan/475/unmain.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T23:22:37+00:00",
-      "created_at": "2026-04-04T02:32:50.834694+00:00"
-    },
-    {
-      "id": "3a6abc3cdde56b60",
-      "content_hash": "3a6abc3cdde56b6096a98f349a2abbe85462e1db5f96026d0d3b2ae0c5ae5b02",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35468",
-      "title": "CVE-2026-35468 - nimiq/core-rs-albatross is a Rust implementation of the Nimiq Proof-of-Stake pro...",
-      "body": "nimiq/core-rs-albatross is a Rust implementation of the Nimiq Proof-of-Stake protocol based on the Albatross consensus algorithm. Prior to version 1.3.0, two peer-facing consensus request handlers assume that the history index is always available and call blockchain.history_store.history_index().unwrap() directly. That assumption is false by construction. HistoryStoreProxy::history_index() explicitly returns None for the valid HistoryStoreProxy::WithoutIndex state. when a full node is syncing or otherwise running without the history index, a remote peer can send RequestTransactionsProof or RequestTransactionReceiptsByAddress and trigger an Option::unwrap() panic on the request path. This issue has been patched in version 1.3.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35468",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-03T23:17:06.963000",
-      "created_at": "2026-04-04T22:18:00.455967+00:00"
-    },
-    {
-      "id": "e06d94c7af30896c",
-      "content_hash": "e06d94c7af30896c498ec2b5c252a7950138b34e4ae6ae1af87d4d1da5590422",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34954",
-      "title": "CVE-2026-34954 - PraisonAI is a multi-agent teams system. Prior to version 1.5.95, FileTools.down...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 1.5.95, FileTools.download_file() in praisonaiagents validates the destination path but performs no validation on the url parameter, passing it directly to httpx.stream() with follow_redirects=True. An attacker who controls the URL can reach any host accessible from the server including cloud metadata services and internal network services. This issue has been patched in version 1.5.95.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34954",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.6,
-      "published_at": "2026-04-03T23:17:06.810000",
-      "created_at": "2026-04-04T22:18:00.455960+00:00"
-    },
-    {
-      "id": "894297c4c3acea88",
-      "content_hash": "894297c4c3acea887a9043c6c9435080b92d02202b40748214f8b71673e8abc3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34953",
-      "title": "CVE-2026-34953 - PraisonAI is a multi-agent teams system. Prior to version 4.5.97, OAuthManager.v...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 4.5.97, OAuthManager.validate_token() returns True for any token not found in its internal store, which is empty by default. Any HTTP request to the MCP server with an arbitrary Bearer token is treated as authenticated, granting full access to all registered tools and agent capabilities. This issue has been patched in version 4.5.97.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34953",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-04-03T23:17:06.653000",
-      "created_at": "2026-04-04T22:18:00.455953+00:00"
-    },
-    {
-      "id": "a1253805b154b423",
-      "content_hash": "a1253805b154b4237445e1702abf49b66536c3910fefcbcaa0a3775ef3bc0454",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34952",
-      "title": "CVE-2026-34952 - PraisonAI is a multi-agent teams system. Prior to version 4.5.97, the PraisonAI ...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 4.5.97, the PraisonAI Gateway server accepts WebSocket connections at /ws and serves agent topology at /info with no authentication. Any network client can connect, enumerate registered agents, and send arbitrary messages to agents and their tool sets. This issue has been patched in version 4.5.97.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34952",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-04-03T23:17:06.490000",
-      "created_at": "2026-04-04T22:18:00.455947+00:00"
-    },
-    {
-      "id": "78e7083f0220a985",
-      "content_hash": "78e7083f0220a985e7cf0c8bb1d18091b40492fcb91f03c9cdf1393274d02b2c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34939",
-      "title": "CVE-2026-34939 - PraisonAI is a multi-agent teams system. Prior to version 4.5.90, MCPToolIndex.s...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 4.5.90, MCPToolIndex.search_tools() compiles a caller-supplied string directly as a Python regular expression with no validation, sanitization, or timeout. A crafted regex causes catastrophic backtracking in the re engine, blocking the Python thread for hundreds of seconds and causing a complete service outage. This issue has been patched in version 4.5.90.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34939",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-03T23:17:06.330000",
-      "created_at": "2026-04-04T22:18:00.455940+00:00"
-    },
-    {
-      "id": "79e8c331c84ca116",
-      "content_hash": "79e8c331c84ca11608db5d49305b4ebc7b3897674621ee818fe3aba465b30f9b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34938",
-      "title": "CVE-2026-34938 - PraisonAI is a multi-agent teams system. Prior to version 1.5.90, execute_code()...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 1.5.90, execute_code() in praisonai-agents runs attacker-controlled Python inside a three-layer sandbox that can be fully bypassed by passing a str subclass with an overridden startswith() method to the _safe_getattr wrapper, achieving arbitrary OS command execution on the host. This issue has been patched in version 1.5.90.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34938",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-04-03T23:17:06.170000",
-      "created_at": "2026-04-04T22:18:00.455933+00:00"
     }
   ]
 }
