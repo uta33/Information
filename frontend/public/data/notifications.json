@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-06T08:17:15.435346+00:00",
+  "generated_at": "2026-04-06T09:58:52.366090+00:00",
   "items": [
+    {
+      "id": "0c0d521b81309b18",
+      "content_hash": "0c0d521b81309b18a87cf72a887b518156ac3d29796e4fb706ede9843bad5b80",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "title": "France pulls last gold held in US for $15B gain",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47658146\">Comments</a>",
+      "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T08:03:43+00:00",
+      "created_at": "2026-04-06T09:58:52.365239+00:00"
+    },
     {
       "id": "ba4a0fa61fa3a2f1",
       "content_hash": "ba4a0fa61fa3a2f16f154dc0d0ccadd4a3214bb9835136fa7c354e6f985686d6",
@@ -730,6 +744,20 @@
       "created_at": "2026-04-06T04:35:15.467821+00:00"
     },
     {
+      "id": "f3d948b31a5a1aa2",
+      "content_hash": "f3d948b31a5a1aa2c60e227e048eb18e7896433d57b016186929be18d13a59a9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.leadedsolder.com/2026/03/24/colecovision-diy-part-5.html",
+      "title": "Make your own ColecoVision at home, part 5",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47656758\">Comments</a>",
+      "url": "https://www.leadedsolder.com/2026/03/24/colecovision-diy-part-5.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T03:45:07+00:00",
+      "created_at": "2026-04-06T09:58:52.365888+00:00"
+    },
+    {
       "id": "3fe14011ec41a9ea",
       "content_hash": "3fe14011ec41a9ea64ce9c0803345275da7bf549d0ed5f5ad773787b82b3d674",
       "source_name": "Hacker News (Best)",
@@ -812,6 +840,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T02:33:21+00:00",
       "created_at": "2026-04-06T08:17:15.435001+00:00"
+    },
+    {
+      "id": "6d03ec294b9680e9",
+      "content_hash": "6d03ec294b9680e9e2c50139bc24eb3ccae0243d7a3fb9810ab4154533fb1f8b",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "title": "Industrial policy for the Intelligence Age",
+      "body": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T02:30:00+00:00",
+      "created_at": "2026-04-06T09:58:47.247814+00:00"
     },
     {
       "id": "77c27af51414ddf9",
@@ -1078,6 +1120,62 @@
       "cvss_score": null,
       "published_at": "2026-04-05T21:18:25+00:00",
       "created_at": "2026-04-05T22:19:19.095681+00:00"
+    },
+    {
+      "id": "c90e573cd1484ad1",
+      "content_hash": "c90e573cd1484ad1e569af11f0f858be5e0aa40b7bd0cd28c7f27e31ca9e6b58",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25666",
+      "title": "CVE-2019-25666 - SpotAuditor 3.6.7 contains a local buffer overflow vulnerability in the Base64 P...",
+      "body": "SpotAuditor 3.6.7 contains a local buffer overflow vulnerability in the Base64 Password Decoder component that allows attackers to crash the application. Attackers can supply an oversized Base64 string through the decoder interface to trigger a denial of service condition.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25666",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.2,
+      "published_at": "2026-04-05T21:16:43.907000",
+      "created_at": "2026-04-06T09:58:48.416962+00:00"
+    },
+    {
+      "id": "6f1d70963dfa079c",
+      "content_hash": "6f1d70963dfa079cd588ae39ba4307ec7b89ef0ed77b1710e4df4fba967b892a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25665",
+      "title": "CVE-2019-25665 - River Past Ringtone Converter 2.7.6.1601 contains a local buffer overflow vulner...",
+      "body": "River Past Ringtone Converter 2.7.6.1601 contains a local buffer overflow vulnerability that allows attackers to crash the application by supplying oversized input to activation fields. Attackers can paste 300 bytes of data into the Email textbox and Activation code textarea via the Help menu's Activate dialog to trigger a denial of service condition.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25665",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.2,
+      "published_at": "2026-04-05T21:16:43.747000",
+      "created_at": "2026-04-06T09:58:48.416956+00:00"
+    },
+    {
+      "id": "d6da85ac27f019ae",
+      "content_hash": "d6da85ac27f019ae268b68cf5650572a6a9edeecb7806964dbb6f3c15bd8e95f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25664",
+      "title": "CVE-2019-25664 - SuiteCRM 7.10.7 contains a time-based SQL injection vulnerability in the record ...",
+      "body": "SuiteCRM 7.10.7 contains a time-based SQL injection vulnerability in the record parameter of the Users module DetailView action that allows authenticated attackers to manipulate database queries. Attackers can append SQL code to the record parameter in GET requests to the index.php endpoint to extract sensitive database information through time-based blind SQL injection techniques.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25664",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-04-05T21:16:43.570000",
+      "created_at": "2026-04-06T09:58:48.416947+00:00"
+    },
+    {
+      "id": "6567c779153f2e4f",
+      "content_hash": "6567c779153f2e4f8c5a94dfbd8e6b565ef42c4e0c34d4793b1a494d9e713991",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2019-25663",
+      "title": "CVE-2019-25663 - SuiteCRM 7.10.7 contains a SQL injection vulnerability that allows authenticated...",
+      "body": "SuiteCRM 7.10.7 contains a SQL injection vulnerability that allows authenticated attackers to manipulate database queries by injecting SQL code through the parentTab parameter. Attackers can send GET requests to the email module with malicious parentTab values using boolean-based SQL injection techniques to extract sensitive database information.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25663",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-04-05T21:16:43.393000",
+      "created_at": "2026-04-06T09:58:48.416941+00:00"
     },
     {
       "id": "0d5f1e038cea064f",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-03T16:48:09+00:00",
       "created_at": "2026-04-04T02:32:50.704205+00:00"
-    },
-    {
-      "id": "a034158649589337",
-      "content_hash": "a034158649589337ddafc88063353091d0bb58c53843a354f3a4a9e218a37b3c",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
-      "title": "Die Linke German political party confirms data stolen by Qilin ransomware",
-      "body": "The Qilin ransomware group has claimed responsibility for an attack against Die Linke ('The Left'), forcing an IT systems outage at the political party, and threatening sensitive data leak. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:36:44+00:00",
-      "created_at": "2026-04-04T02:32:46.994795+00:00"
-    },
-    {
-      "id": "ea0bbc2e3e9cb6ad",
-      "content_hash": "ea0bbc2e3e9cb6ad6748a15297bca313cddb2c5ee9a2414c9d5af2b23b1fffd6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
-      "title": "OpenClaw privilege escalation vulnerability",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47628608\">Comments</a>",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:21:32+00:00",
-      "created_at": "2026-04-04T02:32:50.834579+00:00"
-    },
-    {
-      "id": "b1617d283eac275d",
-      "content_hash": "b1617d283eac275d8bcd2032b42a94c8f9038c0c54f0b14d7bc6129c902a8364",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23473",
-      "title": "CVE-2026-23473 - In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/po...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/poll: fix multishot recv missing EOF on wakeup race\n\nWhen a socket send and shutdown() happen back-to-back, both fire\nwake-ups before the receiver's task_work has a chance to run. The first\nwake gets poll ownership (poll_refs=1), and the second bumps it to 2.\nWhen io_poll_check_events() runs, it calls io_poll_issue() which does a\nrecv that reads the data and returns IOU_RETRY. The loop then drains all\naccumulated refs (atomic_sub_return(2) -> 0) and exits, even though only\nthe first event was consumed. Since the shutdown is a persistent state\nchange, no further wakeups will happen, and the multishot recv can hang\nforever.\n\nCheck specifically for HUP in the poll loop, and ensure that another\nloop is done to check for status if more than a single poll activation\nis pending. This ensures we don't lose the shutdown event.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23473",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:16:35.120000",
-      "created_at": "2026-04-04T16:22:18.132381+00:00"
-    },
-    {
-      "id": "5d5339548fe0ec9e",
-      "content_hash": "5d5339548fe0ec9e5e1ab48cb821f6e884044216b8c209ba238fb296239cadc4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23472",
-      "title": "CVE-2026-23472 - In the Linux kernel, the following vulnerability has been resolved:\n\nserial: cor...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nserial: core: fix infinite loop in handle_tx() for PORT_UNKNOWN\n\nuart_write_room() and uart_write() behave inconsistently when\nxmit_buf is NULL (which happens for PORT_UNKNOWN ports that were\nnever properly initialized):\n\n- uart_write_room() returns kfifo_avail() which can be > 0\n- uart_write() checks xmit_buf and returns 0 if NULL\n\nThis inconsistency causes an infinite loop in drivers that rely on\ntty_write_room() to determine if they can write:\n\n  while (tty_write_room(tty) > 0) {\n      written = tty->ops->write(...);\n      // written is always 0, loop never exits\n  }\n\nFor example, caif_serial's handle_tx() enters an infinite loop when\nused with PORT_UNKNOWN serial ports, causing system hangs.\n\nFix by making uart_write_room() also check xmit_buf and return 0 if\nit's NULL, consistent with uart_write().\n\nReproducer: https://gist.github.com/mrpre/d9a694cc0e19828ee3bc3b37983fde13",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23472",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:16:34.977000",
-      "created_at": "2026-04-04T16:22:18.132374+00:00"
-    },
-    {
-      "id": "896097445a8d2c1d",
-      "content_hash": "896097445a8d2c1dd6bcacd770648e11d837ba53ca44c331116746b95459c0be",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23471",
-      "title": "CVE-2026-23471 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: Fix us...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: Fix use-after-free on framebuffers and property blobs when calling drm_dev_unplug\n\nWhen trying to do a rather aggressive test of igt's \"xe_module_load\n--r reload\" with a full desktop environment and game running I noticed\na few OOPSes when dereferencing freed pointers, related to\nframebuffers and property blobs after the compositor exits.\n\nSolve this by guarding the freeing in drm_file with drm_dev_enter/exit,\nand immediately put the references from struct drm_file objects during\ndrm_dev_unplug().\n\nRelated warnings for framebuffers on the subtest:\n[  739.713076] ------------[ cut here ]------------\n               WARN_ON(!list_empty(&dev->mode_config.fb_list))\n[  739.713079] WARNING: drivers/gpu/drm/drm_mode_config.c:584 at drm_mode_config_cleanup+0x30b/0x320 [drm], CPU#12: xe_module_load/13145\n....\n[  739.713328] Call Trace:\n[  739.713330]  <TASK>\n[  739.713335]  ? intel_pmdemand_destroy_state+0x11/0x20 [xe]\n[  739.713574]  ? intel_atomic_global_obj_cleanup+0xe4/0x1a0 [xe]\n[  739.713794]  intel_display_driver_remove_noirq+0x51/0xb0 [xe]\n[  739.714041]  xe_display_fini_early+0x33/0x50 [xe]\n[  739.714284]  devm_action_release+0xf/0x20\n[  739.714294]  devres_release_all+0xad/0xf0\n[  739.714301]  device_unbind_cleanup+0x12/0xa0\n[  739.714305]  device_release_driver_internal+0x1b7/0x210\n[  739.714311]  device_driver_detach+0x14/0x20\n[  739.714315]  unbind_store+0xa6/0xb0\n[  739.714319]  drv_attr_store+0x21/0x30\n[  739.714322]  sysfs_kf_write+0x48/0x60\n[  739.714328]  kernfs_fop_write_iter+0x16b/0x240\n[  739.714333]  vfs_write+0x266/0x520\n[  739.714341]  ksys_write+0x72/0xe0\n[  739.714345]  __x64_sys_write+0x19/0x20\n[  739.714347]  x64_sys_call+0xa15/0xa30\n[  739.714355]  do_syscall_64+0xd8/0xab0\n[  739.714361]  entry_SYSCALL_64_after_hwframe+0x4b/0x53\n\nand\n\n[  739.714459] ------------[ cut here ]------------\n[  739.714461] xe 0000:67:00.0: [drm] drm_WARN_ON(!list_empty(&fb->filp_head))\n[  739.7144",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23471",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:16:34.773000",
-      "created_at": "2026-04-04T16:22:18.132368+00:00"
-    },
-    {
-      "id": "03aef17c434e4b1f",
-      "content_hash": "03aef17c434e4b1f48289e9cc8acd7360d9f11f45bd7b16a2daab1c04b98f404",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23470",
-      "title": "CVE-2026-23470 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/imagina...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/imagination: Fix deadlock in soft reset sequence\n\nThe soft reset sequence is currently executed from the threaded IRQ\nhandler, hence it cannot call disable_irq() which internally waits\nfor IRQ handlers, i.e. itself, to complete.\n\nUse disable_irq_nosync() during a soft reset instead.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23470",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:16:34.630000",
-      "created_at": "2026-04-04T16:22:18.132361+00:00"
-    },
-    {
-      "id": "c2dfad4f24e00eab",
-      "content_hash": "c2dfad4f24e00eab4e49e0b6712f3f54c1408fada7a35e19e40f499d04f0a230",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23469",
-      "title": "CVE-2026-23469 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/imagina...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/imagination: Synchronize interrupts before suspending the GPU\n\nThe runtime PM suspend callback doesn't know whether the IRQ handler is\nin progress on a different CPU core and doesn't wait for it to finish.\n\nDepending on timing, the IRQ handler could be running while the GPU is\nsuspended, leading to kernel crashes when trying to access GPU\nregisters. See example signature below.\n\nIn a power off sequence initiated by the runtime PM suspend callback,\nwait for any IRQ handlers in progress on other CPU cores to finish, by\ncalling synchronize_irq().\n\nAt the same time, remove the runtime PM resume/put calls in the threaded\nIRQ handler. On top of not being the right approach to begin with, and\nbeing at the wrong place as they should have wrapped all GPU register\naccesses, the driver would hit a deadlock between synchronize_irq()\nbeing called from a runtime PM suspend callback, holding the device\npower lock, and the resume callback requiring the same.\n\nExample crash signature on a TI AM68 SK platform:\n\n  [  337.241218] SError Interrupt on CPU0, code 0x00000000bf000000 -- SError\n  [  337.241239] CPU: 0 UID: 0 PID: 112 Comm: irq/234-gpu Tainted: G   M                6.17.7-B2C-00005-g9c7bbe4ea16c #2 PREEMPT\n  [  337.241246] Tainted: [M]=MACHINE_CHECK\n  [  337.241249] Hardware name: Texas Instruments AM68 SK (DT)\n  [  337.241252] pstate: 60000005 (nZCv daif -PAN -UAO -TCO -DIT -SSBS BTYPE=--)\n  [  337.241256] pc : pvr_riscv_irq_pending+0xc/0x24\n  [  337.241277] lr : pvr_device_irq_thread_handler+0x64/0x310\n  [  337.241282] sp : ffff800085b0bd30\n  [  337.241284] x29: ffff800085b0bd50 x28: ffff0008070d9eab x27: ffff800083a5ce10\n  [  337.241291] x26: ffff000806e48f80 x25: ffff0008070d9eac x24: 0000000000000000\n  [  337.241296] x23: ffff0008068e9bf0 x22: ffff0008068e9bd0 x21: ffff800085b0bd30\n  [  337.241301] x20: ffff0008070d9e00 x19: ffff0008068e9000 x18: 0000000000000001\n  [  337.241305] x17: 637365645f656c",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23469",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T16:16:34.463000",
-      "created_at": "2026-04-04T16:22:18.132355+00:00"
     }
   ]
 }
