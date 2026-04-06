@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-06T22:24:44.955062+00:00",
+  "generated_at": "2026-04-06T23:26:19.545886+00:00",
   "items": [
+    {
+      "id": "f37e8d4fa366146e",
+      "content_hash": "f37e8d4fa366146e54e0bb66bc70fc12e59c3f8c42331974afb425b71a342570",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.rawstory.com/trump-administration-2676667065/",
+      "title": "US reputation hits 'depths not seen this century' – and 'may never recover'",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47668536\">Comments</a>",
+      "url": "https://www.rawstory.com/trump-administration-2676667065/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T23:04:23+00:00",
+      "created_at": "2026-04-06T23:26:19.545612+00:00"
+    },
     {
       "id": "068654bb09d1f8aa",
       "content_hash": "068654bb09d1f8aa0ac297d20f43daf9e7422f8f30e4ad31b62a210553b43cb2",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T21:54:26+00:00",
       "created_at": "2026-04-06T22:24:44.847746+00:00"
+    },
+    {
+      "id": "7a92e049c1bc4df1",
+      "content_hash": "7a92e049c1bc4df1787c4cd7b76bf1707b0cd15f2d388a50cd645a10e43bc318",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "title": "Anthropic expands partnership w Google and Broadcom for multiple GW of compute",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47667717\">Comments</a>",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T21:52:08+00:00",
+      "created_at": "2026-04-06T23:26:19.545591+00:00"
     },
     {
       "id": "bf56a005eb560cef",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T21:44:15+00:00",
       "created_at": "2026-04-06T22:24:41.494881+00:00"
+    },
+    {
+      "id": "8c3926a0ce893233",
+      "content_hash": "8c3926a0ce893233f8c42f0af4c8c19959d75ab132e0912e5eaed6cc5525132e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47667504",
+      "title": "Ask HN: How do you handle marketing as a solo technical founder?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47667504\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47667504",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T21:36:47+00:00",
+      "created_at": "2026-04-06T23:26:19.545649+00:00"
     },
     {
       "id": "73a1cb407a29b3b5",
@@ -364,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T18:21:49+00:00",
       "created_at": "2026-04-06T19:44:16.065835+00:00"
+    },
+    {
+      "id": "365a86a008fea5ad",
+      "content_hash": "365a86a008fea5add327254ddf2b31b6260b21365a91b1cdf864ad2c757a7bd4",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109672",
+      "title": "Netflix is expanding into kids’ games with a new stand-alone app",
+      "body": "Netflix says the app gives children access to an \"ever-growing\" library of games for kids.",
+      "url": "https://techcrunch.com/2026/04/06/netflix-launches-a-standalone-app-for-kids-games/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T18:21:49+00:00",
+      "created_at": "2026-04-06T23:26:19.429350+00:00"
     },
     {
       "id": "e2df7c27f09b6e95",
@@ -1206,6 +1262,34 @@
       "created_at": "2026-04-06T12:44:29.336726+00:00"
     },
     {
+      "id": "acc585efabd1e13f",
+      "content_hash": "acc585efabd1e13fa99be69c133b32b5bba4e74221ac2b262dfc77fad3de0135",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5646",
+      "title": "CVE-2026-5646 - A security vulnerability has been detected in code-projects Easy Blog Site 1.0. ...",
+      "body": "A security vulnerability has been detected in code-projects Easy Blog Site 1.0. Affected by this issue is some unknown functionality of the file login.php. The manipulation of the argument username/password leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5646",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-06T11:17:03.370000",
+      "created_at": "2026-04-06T23:26:16.324570+00:00"
+    },
+    {
+      "id": "cd8a0f3eb50e7e7a",
+      "content_hash": "cd8a0f3eb50e7e7a71604bdb8782400b127f943008eed216ff800aa66a400628",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5645",
+      "title": "CVE-2026-5645 - A weakness has been identified in projectworlds Car Rental System 1.0. Affected ...",
+      "body": "A weakness has been identified in projectworlds Car Rental System 1.0. Affected by this vulnerability is an unknown functionality of the file /pay.php of the component Parameter Handler. Executing a manipulation of the argument mpesa can lead to sql injection. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5645",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-06T11:17:03.177000",
+      "created_at": "2026-04-06T23:26:16.324564+00:00"
+    },
+    {
       "id": "3e281a734db983d9",
       "content_hash": "3e281a734db983d9ae57df8918298bc87d8a5e457cb4df2b94789ec43a6d58e4",
       "source_name": "Hacker News (Best)",
@@ -1246,6 +1330,34 @@
       "cvss_score": null,
       "published_at": "2026-04-06T10:33:02+00:00",
       "created_at": "2026-04-06T11:41:10.198065+00:00"
+    },
+    {
+      "id": "5f9d06186ab0fd19",
+      "content_hash": "5f9d06186ab0fd19dcefe4642c61712fda6f6c1b0909aa0183f60842b24c5628",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5673",
+      "title": "CVE-2026-5673 - A flaw was found in libtheora. This heap-based out-of-bounds read vulnerability ...",
+      "body": "A flaw was found in libtheora. This heap-based out-of-bounds read vulnerability exists within the AVI (Audio Video Interleave) parser, specifically in the avi_parse_input_file() function. A local attacker could exploit this by tricking a user into opening a specially crafted AVI file containing a truncated header sub-chunk. This could lead to a denial-of-service (application crash) or potentially leak sensitive information from the heap.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5673",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.6,
+      "published_at": "2026-04-06T10:16:03.400000",
+      "created_at": "2026-04-06T23:26:16.324557+00:00"
+    },
+    {
+      "id": "fc927d31664af2e7",
+      "content_hash": "fc927d31664af2e7632e3e5f1b0274d6c55dc00172b6d831c60a403829b4e152",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5644",
+      "title": "CVE-2026-5644 - A security flaw has been discovered in Cyber-III Student-Management-System up to...",
+      "body": "A security flaw has been discovered in Cyber-III Student-Management-System up to 1a938fa61e9f735078e9b291d2e6215b4942af3f. Affected is an unknown function of the file /admin/Add%20notice/batch-notice.php. Performing a manipulation of the argument $_SERVER['PHP_SELF'] results in cross site scripting. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5644",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 2.4,
+      "published_at": "2026-04-06T10:16:03.190000",
+      "created_at": "2026-04-06T23:26:16.324550+00:00"
     },
     {
       "id": "b5c13435a4eac731",
@@ -6888,118 +7000,6 @@
       "cvss_score": 6.2,
       "published_at": "2026-04-04T14:16:16.317000",
       "created_at": "2026-04-05T01:19:38.223930+00:00"
-    },
-    {
-      "id": "837cd1608ccda28d",
-      "content_hash": "837cd1608ccda28dd402c5735cccb5a638bf85f6c4c2b3bba253256489c68871",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.nytimes.com/2026/04/03/us/fema-gregg-phillips-waffle-house-teleportation.html",
-      "title": "No One at Waffle House Remembers FEMA Official Who Says He Teleported In",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47639199\">Comments</a>",
-      "url": "https://www.nytimes.com/2026/04/03/us/fema-gregg-phillips-waffle-house-teleportation.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-04T14:08:09+00:00",
-      "created_at": "2026-04-04T16:22:21.323143+00:00"
-    },
-    {
-      "id": "18036573a30ad8ec",
-      "content_hash": "18036573a30ad8ec6b3d47c1e5a28370cf26ee33885f803c4d96582f3a10d751",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=47639042",
-      "title": "Trying for 1 month but can't learn pixel art still",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47639042\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=47639042",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-04T13:49:03+00:00",
-      "created_at": "2026-04-04T15:20:53.463035+00:00"
-    },
-    {
-      "id": "79100aa661bebb9f",
-      "content_hash": "79100aa661bebb9f68712b422917f7b5b1e6e529ce461da798aa447acc0ff8d7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-      "title": "Components of a Coding Agent",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47638810\">Comments</a>",
-      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-04T13:16:33+00:00",
-      "created_at": "2026-04-04T15:20:53.462998+00:00"
-    },
-    {
-      "id": "a3ba39d259ee8d0f",
-      "content_hash": "a3ba39d259ee8d0f7e600ba18dc1e3204ceb89166e0646c400d1e07f47de94b4",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3109040",
-      "title": "After fighting malware for decades, this cybersecurity veteran is now hacking drones",
-      "body": "Mikko Hyppönen is one of the most recognizable faces of the cybersecurity industry. After fighting computer viruses, worms, and malware, for more than 35 years, he tells TechCrunch why he is now working on systems to stop killer drones.",
-      "url": "https://techcrunch.com/2026/04/04/after-fighting-malware-for-decades-this-cybersecurity-veteran-is-now-hacking-drones/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-04T13:00:00+00:00",
-      "created_at": "2026-04-04T13:44:29.582759+00:00"
-    },
-    {
-      "id": "625bc9a8fa65d192",
-      "content_hash": "625bc9a8fa65d192f3dbfc9172f2adc114262ef31b7a2689a21f6b31aa33d260",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=47638685",
-      "title": "Ask HN: How do you handle clients who don't pay on time?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47638685\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=47638685",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-04T12:58:45+00:00",
-      "created_at": "2026-04-04T14:25:07.868314+00:00"
-    },
-    {
-      "id": "03f927f2db0a8cd3",
-      "content_hash": "03f927f2db0a8cd353f848447aa4a85a50903bb9375e4362981d046b6fc3e652",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3666",
-      "title": "CVE-2026-3666 - The wpForo Forum plugin for WordPress is vulnerable to arbitrary file deletion i...",
-      "body": "The wpForo Forum plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 2.4.16. This is due to a missing file name/path validation against path traversal sequences. This makes it possible for authenticated attackers, with subscriber level access and above, to delete arbitrary files on the server by embedding a crafted path traversal string in a forum post body and then deleting the post.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3666",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-04T12:16:03.390000",
-      "created_at": "2026-04-05T01:19:38.223924+00:00"
-    },
-    {
-      "id": "4b1c97314f03ad23",
-      "content_hash": "4b1c97314f03ad23ab5c373d8f4ffb845d019279ac4e55bbaee6eae131a15f12",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3309",
-      "title": "CVE-2026-3309 - The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User ...",
-      "body": "The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 4.16.11. This is due to the plugin allowing user-supplied billing field values from the checkout process to be interpolated into shortcode template strings that are subsequently processed without proper sanitization of shortcode syntax. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes by submitting crafted billing field values during the checkout process.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3309",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-04T12:16:03.237000",
-      "created_at": "2026-04-05T01:19:38.223917+00:00"
-    },
-    {
-      "id": "b98301fedc01d543",
-      "content_hash": "b98301fedc01d5432b9f760366f4535edd3c6a9203b78229ebfa917a24a7eb2b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-2936",
-      "title": "CVE-2026-2936 - The Visitor Traffic Real Time Statistics plugin for WordPress is vulnerable to S...",
-      "body": "The Visitor Traffic Real Time Statistics plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'page_title' parameter in all versions up to, and including, 8.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever an admin user accesses the Traffic by Title section.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2936",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-04-04T12:16:03.090000",
-      "created_at": "2026-04-05T01:19:38.223910+00:00"
     }
   ]
 }
