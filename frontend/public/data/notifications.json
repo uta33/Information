@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-06T20:28:15.572522+00:00",
+  "generated_at": "2026-04-06T21:28:33.743617+00:00",
   "items": [
+    {
+      "id": "effb9207925b6dd6",
+      "content_hash": "effb9207925b6dd6911e7deca56b44a48982c599d44aa6b4a0e82c55934c1a2b",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109825",
+      "title": "Gas prices aren’t the only factor fueling used EV sales",
+      "body": "There are a growing number of reasons why used EVs have gained in popularity.",
+      "url": "https://techcrunch.com/2026/04/06/gas-prices-arent-the-only-factor-fueling-used-ev-sales/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T21:15:09+00:00",
+      "created_at": "2026-04-06T21:28:33.392453+00:00"
+    },
+    {
+      "id": "d4ce358b6e89e243",
+      "content_hash": "d4ce358b6e89e2433cee282cbb750bb946a8c9805ea01b51e98a9e9123e8ac51",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47667011",
+      "title": "HackerRank (YC S11) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47667011\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47667011",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T21:00:00+00:00",
+      "created_at": "2026-04-06T21:28:33.742944+00:00"
+    },
+    {
+      "id": "6a0ae20935a8db92",
+      "content_hash": "6a0ae20935a8db92f27bcb448562275c14a6fcfa37cd3bc97e10cea691a54cb4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://yaseenghanem.com/recovery-unrestricted-write-access/",
+      "title": "Root Persistence via macOS Recovery Mode Safari",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47666767\">Comments</a>",
+      "url": "https://yaseenghanem.com/recovery-unrestricted-write-access/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T20:41:41+00:00",
+      "created_at": "2026-04-06T21:28:33.742995+00:00"
+    },
+    {
+      "id": "f9ca30635e7671cf",
+      "content_hash": "f9ca30635e7671cf229897624070d2e192116cbb73ad17d1d6458a5a6194b0d4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking",
+      "title": "A macOS bug that causes TCP networking to stop working after 49.7 days",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47666488\">Comments</a>",
+      "url": "https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T20:20:54+00:00",
+      "created_at": "2026-04-06T21:28:33.743066+00:00"
+    },
     {
       "id": "93436bcec415fc70",
       "content_hash": "93436bcec415fc705995abf78070b954eb53087cae77dc0e0b36f1cf58c03fd3",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T19:50:16+00:00",
       "created_at": "2026-04-06T20:28:15.571823+00:00"
+    },
+    {
+      "id": "d8afbcf522131214",
+      "content_hash": "d8afbcf52213121485331e11b731611825db7c7ffac069de94a7eb888756939a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.malwarebytes.com/blog/ai/2026/04/wikipedias-ai-agent-row-likely-just-the-beginning-of-the-bot-ocalypse",
+      "title": "Wikipedia's AI agent row likely just the beginning of the bot-ocalypse",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47665902\">Comments</a>",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/04/wikipedias-ai-agent-row-likely-just-the-beginning-of-the-bot-ocalypse",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T19:41:39+00:00",
+      "created_at": "2026-04-06T21:28:33.743299+00:00"
     },
     {
       "id": "100883b704674e3d",
@@ -70,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T18:54:33+00:00",
       "created_at": "2026-04-06T19:44:16.065802+00:00"
+    },
+    {
+      "id": "577bc0ad6df078cc",
+      "content_hash": "577bc0ad6df078ccaeb88ef79ddc46a2ce038dcbec6552b73f74e22a96a73072",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://som-st.github.io/",
+      "title": "SOM: A minimal Smalltalk for teaching of and research on Virtual Machines",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47665207\">Comments</a>",
+      "url": "http://som-st.github.io/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T18:54:09+00:00",
+      "created_at": "2026-04-06T21:28:33.743212+00:00"
     },
     {
       "id": "6d24562097b3e680",
@@ -142,6 +226,20 @@
       "created_at": "2026-04-06T20:28:15.571774+00:00"
     },
     {
+      "id": "a3072218355914f3",
+      "content_hash": "a3072218355914f3140f293e5f1819681f4a15cb5482cacf99744fb7b15bb7ba",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+      "title": "The cult of vibe coding is dogfooding run amok",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47664912\">Comments</a>",
+      "url": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T18:31:03+00:00",
+      "created_at": "2026-04-06T21:28:33.743228+00:00"
+    },
+    {
       "id": "78db69575487b4ea",
       "content_hash": "78db69575487b4eafa32a10c195c9fe202e608cdf34eb26b9b57b12922ec079a",
       "source_name": "TechCrunch",
@@ -210,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T17:52:46+00:00",
       "created_at": "2026-04-06T19:44:16.435857+00:00"
+    },
+    {
+      "id": "3298c4eaf31e5361",
+      "content_hash": "3298c4eaf31e5361859986e9140fdf4fd32ab180ff9f728ee8c1858eeb57a406",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.psypost.org/intelligent-people-are-better-judges-of-the-intelligence-of-others/",
+      "title": "Intelligent people are better judges of the intelligence of others",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47664389\">Comments</a>",
+      "url": "https://www.psypost.org/intelligent-people-are-better-judges-of-the-intelligence-of-others/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T17:52:46+00:00",
+      "created_at": "2026-04-06T21:28:33.743262+00:00"
     },
     {
       "id": "a05c6ac7727a6a15",
@@ -366,6 +478,20 @@
       "created_at": "2026-04-06T17:36:14.416471+00:00"
     },
     {
+      "id": "1548af03f501ea8d",
+      "content_hash": "1548af03f501ea8d079cab81034fb04d58be715aeca691d74fae6a7267eb9b7a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.freestyle.sh/",
+      "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47663147\">Comments</a>",
+      "url": "https://www.freestyle.sh/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T16:32:11+00:00",
+      "created_at": "2026-04-06T21:28:33.742847+00:00"
+    },
+    {
       "id": "1833676cef803e86",
       "content_hash": "1833676cef803e868c95526328cc1bb88c83552c813373efa4a96c6a5aa9e093",
       "source_name": "The Hacker News",
@@ -490,6 +616,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T15:55:55+00:00",
       "created_at": "2026-04-06T16:34:54.549519+00:00"
+    },
+    {
+      "id": "d2a663e467417a25",
+      "content_hash": "d2a663e467417a253b0c127928abf329173799a36f253fb0641c4c46fa881a66",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109575",
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+      "body": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T15:55:55+00:00",
+      "created_at": "2026-04-06T21:28:33.392630+00:00"
     },
     {
       "id": "d9af742e81d26f33",
@@ -660,6 +800,20 @@
       "created_at": "2026-04-06T15:37:01.427951+00:00"
     },
     {
+      "id": "976fda0b50c2ac79",
+      "content_hash": "976fda0b50c2ac798ec1d5f15baf3c68ab0515318bdbb772708093a0b94db6b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.newyorker.com/culture/infinite-scroll/the-team-behind-a-pro-iran-lego-themed-viral-video-campaign",
+      "title": "The team behind a pro-Iran, Lego-themed viral-video campaign",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47661065\">Comments</a>",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/the-team-behind-a-pro-iran-lego-themed-viral-video-campaign",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T14:01:09+00:00",
+      "created_at": "2026-04-06T21:28:33.743281+00:00"
+    },
+    {
       "id": "e3422bb6d6280f67",
       "content_hash": "e3422bb6d6280f67e3a0ccc72c270c1a8df92804983c71221630758ec25357e8",
       "source_name": "TechCrunch",
@@ -716,6 +870,20 @@
       "created_at": "2026-04-06T16:34:54.877929+00:00"
     },
     {
+      "id": "2f8512ced84bf147",
+      "content_hash": "2f8512ced84bf147018827d1b69a1e97fb1a4d75e9835ee406d8d69499af8ac7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/anthropics/claude-code/issues/42796",
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47660925\">Comments</a>",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T13:50:35+00:00",
+      "created_at": "2026-04-06T21:28:33.743013+00:00"
+    },
+    {
       "id": "bb04563e80e8d19e",
       "content_hash": "bb04563e80e8d19ededf1fa9b8cdfb64087bd0fa062f5c46c10c00429b3e514c",
       "source_name": "Hacker News (Best)",
@@ -742,6 +910,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T13:44:01+00:00",
       "created_at": "2026-04-06T18:41:41.124104+00:00"
+    },
+    {
+      "id": "38b5e2c788ce702a",
+      "content_hash": "38b5e2c788ce702a16ff204a21e6291a6289a0b76b42b69280be4deb50644379",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.stephendiehl.com/posts/no_antimimetics/",
+      "title": "Book review: There Is No Antimemetics Division",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47660853\">Comments</a>",
+      "url": "https://www.stephendiehl.com/posts/no_antimimetics/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T13:44:01+00:00",
+      "created_at": "2026-04-06T21:28:33.742978+00:00"
     },
     {
       "id": "067023d0c75fbb21",
@@ -926,6 +1108,20 @@
       "created_at": "2026-04-06T11:41:10.198098+00:00"
     },
     {
+      "id": "7836e3689b3c3047",
+      "content_hash": "7836e3689b3c3047792730348543ef35511c7ff47c2ec359f598f149898cdcd6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "title": "Sam Altman may control our future – can he be trusted?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47659135\">Comments</a>",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T10:36:57+00:00",
+      "created_at": "2026-04-06T21:28:33.743160+00:00"
+    },
+    {
       "id": "cde3f9ea8cfa1d8f",
       "content_hash": "cde3f9ea8cfa1d8f76495de3957a35e2fd520a7e47c121c39f407dfac4849629",
       "source_name": "Hacker News (Best)",
@@ -994,6 +1190,20 @@
       "cvss_score": null,
       "published_at": "2026-04-06T08:03:43+00:00",
       "created_at": "2026-04-06T09:58:52.365239+00:00"
+    },
+    {
+      "id": "4de6dff7c133af2e",
+      "content_hash": "4de6dff7c133af2e579110131da98daffb0457e8ea8d57b7185fc997bf014b9c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "title": "France pulls last gold held in US",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47658146\">Comments</a>",
+      "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-06T08:03:43+00:00",
+      "created_at": "2026-04-06T21:28:33.743350+00:00"
     },
     {
       "id": "ba4a0fa61fa3a2f1",
@@ -2058,6 +2268,20 @@
       "cvss_score": null,
       "published_at": "2026-04-05T23:33:01+00:00",
       "created_at": "2026-04-06T01:20:14.912116+00:00"
+    },
+    {
+      "id": "fff494ee1953ceb9",
+      "content_hash": "fff494ee1953ceb90971eb49d8b430767c091e9c96d8666506839892e7eb61de",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5604",
+      "title": "CVE-2026-5604 - A security flaw has been discovered in Tenda CH22 1.0.0.1. The impacted element ...",
+      "body": "A security flaw has been discovered in Tenda CH22 1.0.0.1. The impacted element is the function formCertLocalPrecreate of the file /goform/CertLocalPrecreate of the component Parameter Handler. Performing a manipulation of the argument standard results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5604",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-05T23:16:20.593000",
+      "created_at": "2026-04-06T21:28:29.227091+00:00"
     },
     {
       "id": "5de3b8ea661ad742",
@@ -6358,6 +6582,20 @@
       "created_at": "2026-04-04T10:23:08.515463+00:00"
     },
     {
+      "id": "568c611fe76da621",
+      "content_hash": "568c611fe76da621e94c32e38ecbbb89b2ddbf6433a9abda2799eff3ede9e801",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://docking.cc",
+      "title": "Show HN: Docking – extensible Linux dock in Python",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47637206\">Comments</a>",
+      "url": "https://docking.cc",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-04T08:49:12+00:00",
+      "created_at": "2026-04-06T21:28:33.743122+00:00"
+    },
+    {
       "id": "5bb3beef9e948c73",
       "content_hash": "5bb3beef9e948c739540902fb126c141c5f5e358a0c72f3fa7361fef02ffe16b",
       "source_name": "Hacker News (Best)",
@@ -6762,244 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-04T01:03:13+00:00",
       "created_at": "2026-04-04T02:32:50.704018+00:00"
-    },
-    {
-      "id": "d5a18b74001cc2c1",
-      "content_hash": "d5a18b74001cc2c1d28e82757b0a4cee46a6b73444d4bfce6b5f1314b70d8a2a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34955",
-      "title": "CVE-2026-34955 - PraisonAI is a multi-agent teams system. Prior to version 4.5.97, SubprocessSand...",
-      "body": "PraisonAI is a multi-agent teams system. Prior to version 4.5.97, SubprocessSandbox in all modes (BASIC, STRICT, NETWORK_ISOLATED) calls subprocess.run() with shell=True and relies solely on string-pattern matching to block dangerous commands. The blocklist does not include sh or bash as standalone executables, allowing trivial sandbox escape in STRICT mode via sh -c '<command>'. This issue has been patched in version 4.5.97.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34955",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-04T00:16:19.370000",
-      "created_at": "2026-04-04T23:20:58.273323+00:00"
-    },
-    {
-      "id": "20c497289c6234fb",
-      "content_hash": "20c497289c6234fb75216c9a18f64598461d244ced0739a6dd3fd6b8a810b90c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34779",
-      "title": "CVE-2026-34779 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8, on macOS, app.moveToApplicationsFolder() used an AppleScript fallback path that did not properly handle certain characters in the application bundle path. Under specific conditions, a crafted launch path could lead to arbitrary AppleScript execution when the user accepted the move-to-Applications prompt. Apps are only affected if they call app.moveToApplicationsFolder(). Apps that do not use this API are not affected. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34779",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-04T00:16:19.213000",
-      "created_at": "2026-04-04T23:20:58.273316+00:00"
-    },
-    {
-      "id": "9d79c9650163ef9f",
-      "content_hash": "9d79c9650163ef9fdbab905eaa112693e9a809932828e705674d8c52359eb8e5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34778",
-      "title": "CVE-2026-34778 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0, a service worker running in a session could spoof reply messages on the internal IPC channel used by webContents.executeJavaScript() and related methods, causing the main-process promise to resolve with attacker-controlled data. Apps are only affected if they have service workers registered and use the result of webContents.executeJavaScript() (or webFrameMain.executeJavaScript()) in security-sensitive decisions. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34778",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-04-04T00:16:19.060000",
-      "created_at": "2026-04-04T23:20:58.273310+00:00"
-    },
-    {
-      "id": "5ad15dd76dce4ab7",
-      "content_hash": "5ad15dd76dce4ab708b5caff822c8a236a0c1771895e76c7871c58bfa47d1e33",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34777",
-      "title": "CVE-2026-34777 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0, when an iframe requests fullscreen, pointerLock, keyboardLock, openExternal, or media permissions, the origin passed to session.setPermissionRequestHandler() was the top-level page's origin rather than the requesting iframe's origin. Apps that grant permissions based on the origin parameter or webContents.getURL() may inadvertently grant permissions to embedded third-party content. The correct requesting URL remains available via details.requestingUrl. Apps that already check details.requestingUrl are not affected. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34777",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-04T00:16:18.907000",
-      "created_at": "2026-04-04T23:20:58.273303+00:00"
-    },
-    {
-      "id": "2785ad747d222059",
-      "content_hash": "2785ad747d222059b6f1a4e58aa2b5de18198126300db09e462eedcac8fdd56a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34776",
-      "title": "CVE-2026-34776 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0, on macOS and Linux, apps that call app.requestSingleInstanceLock() were vulnerable to an out-of-bounds heap read when parsing a crafted second-instance message. Leaked memory could be delivered to the app's second-instance event handler. This issue is limited to processes running as the same user as the Electron app. Apps that do not call app.requestSingleInstanceLock() are not affected. Windows is not affected by this issue. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34776",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-04T00:16:18.753000",
-      "created_at": "2026-04-04T23:20:58.273297+00:00"
-    },
-    {
-      "id": "9196a715e7088870",
-      "content_hash": "9196a715e7088870d877ba78fa2469e168a9e566461e4868a62217f9ec0a8a5e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34775",
-      "title": "CVE-2026-34775 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.4, 40.8.4, and 41.0.0, the nodeIntegrationInWorker webPreference was not correctly scoped in all configurations. In certain process-sharing scenarios, workers spawned in frames configured with nodeIntegrationInWorker: false could still receive Node.js integration. Apps are only affected if they enable nodeIntegrationInWorker. Apps that do not use nodeIntegrationInWorker are not affected. This issue has been patched in versions 38.8.6, 39.8.4, 40.8.4, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34775",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-04-04T00:16:18.597000",
-      "created_at": "2026-04-04T23:20:58.273290+00:00"
-    },
-    {
-      "id": "e6045611b84409d3",
-      "content_hash": "e6045611b84409d386fc62d183856a0d76fc51fdf001fa88c8581072ed664d47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34774",
-      "title": "CVE-2026-34774 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 39.8.1, 40.7.0, and 41.0.0, apps that use offscreen rendering and allow child windows via window.open() may be vulnerable to a use-after-free. If the parent offscreen WebContents is destroyed while a child window remains open, subsequent paint frames on the child dereference freed memory, which may lead to a crash or memory corruption. Apps are only affected if they use offscreen rendering (webPreferences.offscreen: true) and their setWindowOpenHandler permits child windows. Apps that do not use offscreen rendering, or that deny child windows, are not affected. This issue has been patched in versions 39.8.1, 40.7.0, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34774",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-04T00:16:18.447000",
-      "created_at": "2026-04-04T23:20:58.273283+00:00"
-    },
-    {
-      "id": "6e77ba3bc3d21aa3",
-      "content_hash": "6e77ba3bc3d21aa38b0f987008deee5e6b20d9e2d91529483a002ab1496d6000",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34773",
-      "title": "CVE-2026-34773 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0, on Windows, app.setAsDefaultProtocolClient(protocol) did not validate the protocol name before writing to the registry. Apps that pass untrusted input as the protocol name may allow an attacker to write to arbitrary subkeys under HKCU\\Software\\Classes\\, potentially hijacking existing protocol handlers. Apps are only affected if they call app.setAsDefaultProtocolClient() with a protocol name derived from external or untrusted input. Apps that use a hardcoded protocol name are not affected. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.1, and 41.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34773",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.7,
-      "published_at": "2026-04-04T00:16:18.287000",
-      "created_at": "2026-04-04T23:20:58.273277+00:00"
-    },
-    {
-      "id": "7dac95d658ce0463",
-      "content_hash": "7dac95d658ce04630cd37eeb5717a473b485a4f624313673735451f2ae230a16",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34772",
-      "title": "CVE-2026-34772 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, apps that allow downloads and programmatically destroy sessions may be vulnerable to a use-after-free. If a session is torn down while a native save-file dialog is open for a download, dismissing the dialog dereferences freed memory, which may lead to a crash or memory corruption. Apps that do not destroy sessions at runtime, or that do not permit downloads, are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34772",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-04-04T00:16:18.133000",
-      "created_at": "2026-04-04T23:20:58.273270+00:00"
-    },
-    {
-      "id": "09650fc943b3e6e8",
-      "content_hash": "09650fc943b3e6e8d16a364d7fe1d8e0543fdcd01465b82794e10cb486913e45",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34771",
-      "title": "CVE-2026-34771 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, apps that register an asynchronous session.setPermissionRequestHandler() may be vulnerable to a use-after-free when handling fullscreen, pointer-lock, or keyboard-lock permission requests. If the requesting frame navigates or the window closes while the permission handler is pending, invoking the stored callback dereferences freed memory, which may lead to a crash or memory corruption. Apps that do not set a permission request handler, or whose handler responds synchronously, are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34771",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-04T00:16:17.980000",
-      "created_at": "2026-04-04T23:20:58.273263+00:00"
-    },
-    {
-      "id": "ad218d769981d79d",
-      "content_hash": "ad218d769981d79db9e2385f7e030367ef9e5b86595ee8f3311091459ae2c309",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34770",
-      "title": "CVE-2026-34770 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8, apps that use the powerMonitor module may be vulnerable to a use-after-free. After the native PowerMonitor object is garbage-collected, the associated OS-level resources (a message window on Windows, a shutdown handler on macOS) retain dangling references. A subsequent session-change event (Windows) or system shutdown (macOS) dereferences freed memory, which may lead to a crash or memory corruption. All apps that access powerMonitor events (suspend, resume, lock-screen, etc.) are potentially affected. The issue is not directly renderer-controllable. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34770",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.0,
-      "published_at": "2026-04-04T00:16:17.823000",
-      "created_at": "2026-04-04T23:20:58.273257+00:00"
-    },
-    {
-      "id": "30e26d4aab329629",
-      "content_hash": "30e26d4aab3296296a7039e240f8217e5adc9ad0fe75d8abad071a72aca7f72a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34769",
-      "title": "CVE-2026-34769 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34769",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-04-04T00:16:17.657000",
-      "created_at": "2026-04-04T22:18:00.455995+00:00"
-    },
-    {
-      "id": "cedc68a7343be21b",
-      "content_hash": "cedc68a7343be21b212e4f993910d731c7bbb45626de7f1479f76dca1eec0421",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34768",
-      "title": "CVE-2026-34768 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8, on Windows, app.setLoginItemSettings({openAtLogin: true}) wrote the executable path to the Run registry key without quoting. If the app is installed to a path containing spaces, an attacker with write access to an ancestor directory may be able to cause a different executable to run at login instead of the intended app. On a default Windows install, standard system directories are protected against writes by standard users, so exploitation typically requires a non-standard install location. This issue has been patched in versions 38.8.6, 39.8.1, 40.8.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34768",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.9,
-      "published_at": "2026-04-04T00:16:17.500000",
-      "created_at": "2026-04-04T22:18:00.455988+00:00"
-    },
-    {
-      "id": "4bbb67db5e1ee187",
-      "content_hash": "4bbb67db5e1ee18717b39b79d436b706d0381933d6163ca6513159c1bc4955d8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34767",
-      "title": "CVE-2026-34767 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.3, 40.8.3, and 41.0.3, apps that register custom protocol handlers via protocol.handle() / protocol.registerSchemesAsPrivileged() or modify response headers via webRequest.onHeadersReceived may be vulnerable to HTTP response header injection if attacker-controlled input is reflected into a response header name or value. An attacker who can influence a header value may be able to inject additional response headers, affecting cookies, content security policy, or cross-origin access controls. Apps that do not reflect external input into response headers are not affected. This issue has been patched in versions 38.8.6, 39.8.3, 40.8.3, and 41.0.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34767",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-04-04T00:16:17.337000",
-      "created_at": "2026-04-04T22:18:00.455981+00:00"
-    },
-    {
-      "id": "16e2ce82edbcac7e",
-      "content_hash": "16e2ce82edbcac7ed97e9147b97b746c5f579218bf092dc031511f82cbfcce53",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34766",
-      "title": "CVE-2026-34766 - Electron is a framework for writing cross-platform desktop applications using Ja...",
-      "body": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, the select-usb-device event callback did not validate the chosen device ID against the filtered list that was presented to the handler. An app whose handler could be influenced to select a device ID outside the filtered set would grant access to a device that did not match the renderer's requested filters or was listed in exclusionFilters. The WebUSB security blocklist remained enforced regardless, so security-sensitive devices on the blocklist were not affected. The practical impact is limited to apps with unusual device-selection logic. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34766",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-04-04T00:16:17.140000",
-      "created_at": "2026-04-04T22:18:00.455974+00:00"
-    },
-    {
-      "id": "bf77a14610d1890c",
-      "content_hash": "bf77a14610d1890c6832d407d83e6231387536c2b4e1fc8ec2a589e9e14fa881",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice",
-      "title": "The FAA’s flight restriction for drones is an attempt to criminalize filming ICE",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47633947\">Comments</a>",
-      "url": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-03T23:56:32+00:00",
-      "created_at": "2026-04-04T02:32:50.834558+00:00"
-    },
-    {
-      "id": "5e9e503220c4b1f3",
-      "content_hash": "5e9e503220c4b1f3947cdcd52917ea0ae0271d55c366640bdcad4e227ca689b1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47633855\">Comments</a>",
-      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-03T23:46:51+00:00",
-      "created_at": "2026-04-04T09:27:42.654393+00:00"
     }
   ]
 }
