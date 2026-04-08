@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-08T11:46:08.742898+00:00",
+  "generated_at": "2026-04-08T12:56:39.781798+00:00",
   "items": [
+    {
+      "id": "a403909ddf2067d3",
+      "content_hash": "a403909ddf2067d3ff420c8434cedc6fe03e460a9822646d340e06acaf1369fb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+      "title": "US cities are axing Flock Safety surveillance technology",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47689237\">Comments</a>",
+      "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T12:26:14+00:00",
+      "created_at": "2026-04-08T12:56:39.781579+00:00"
+    },
+    {
+      "id": "dff36f371da3db40",
+      "content_hash": "dff36f371da3db40044c9a4a414bc84675c6e2954647f6459a305423b6937e0f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2604.05091",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47689174\">Comments</a>",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T12:19:00+00:00",
+      "created_at": "2026-04-08T12:56:39.781120+00:00"
+    },
+    {
+      "id": "4d38bc10d2c27fa3",
+      "content_hash": "4d38bc10d2c27fa39415dc1f36b53a8ff5e090f7d77489717aeca76b3eafd2b5",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3110385",
+      "title": "X is rolling out automatic translation and photo editing powered by Grok",
+      "body": "New automatic translations and photo editing on X are powered by the company's flagship AI model.",
+      "url": "https://techcrunch.com/2026/04/08/x-is-rolling-out-automatic-translation-and-photo-editing-powered-by-grok/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T12:06:22+00:00",
+      "created_at": "2026-04-08T12:56:39.389777+00:00"
+    },
     {
       "id": "e3c58322e0734c35",
       "content_hash": "e3c58322e0734c35479b00fe19d6d47963bc2020aef6215943d36f9db02e8b39",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T11:30:00+00:00",
       "created_at": "2026-04-08T11:46:08.380866+00:00"
+    },
+    {
+      "id": "aef0f0b18b745aa6",
+      "content_hash": "aef0f0b18b745aa6d288eece9527ddd147db2fa72ee794180fdb7e7d6cde84e9",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
+      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+      "body": "The Fragmented State of Modern Enterprise&nbsp;Identity\nEnterprise IAM is approaching a breaking point. As&nbsp;organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous&nbsp;systems.&nbsp;\nThe result is Identity Dark Matter: identity activity that sits outside the visibility of centralized IAM and",
+      "url": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T11:30:00+00:00",
+      "created_at": "2026-04-08T12:54:59.736645+00:00"
     },
     {
       "id": "3c4ac12770a9cedc",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T09:21:38+00:00",
       "created_at": "2026-04-08T10:54:15.592981+00:00"
+    },
+    {
+      "id": "43984937a1c016fa",
+      "content_hash": "43984937a1c016fadbfbaf7b1d7d7f180b2075fa3664ee095a274f8316633903",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mariozechner.at/posts/2026-04-08-ive-sold-out/",
+      "title": "I've sold out",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47687533\">Comments</a>",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T09:21:38+00:00",
+      "created_at": "2026-04-08T12:56:39.781056+00:00"
     },
     {
       "id": "0aae632da4d74b66",
@@ -86,6 +156,20 @@
       "created_at": "2026-04-08T10:54:15.592891+00:00"
     },
     {
+      "id": "2789a74f171705c3",
+      "content_hash": "2789a74f171705c3eea362a2c133b4241a89c1ac70f96414bf4a81358ea095d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "title": "Git commands I run before reading any code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47687273\">Comments</a>",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T08:53:42+00:00",
+      "created_at": "2026-04-08T12:56:39.781001+00:00"
+    },
+    {
       "id": "e362483be8d9f81a",
       "content_hash": "e362483be8d9f81ac0dbec2fbee81a564f9b1521386ebe9216a014d020bea830",
       "source_name": "Hacker News (Best)",
@@ -126,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T07:23:39+00:00",
       "created_at": "2026-04-08T09:58:14.041115+00:00"
+    },
+    {
+      "id": "cbedf977dd5d104a",
+      "content_hash": "cbedf977dd5d104a223df9d6de0e9227e52f0b09ef88abb54078ee5bfc13d4be",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "title": "Veracrypt project update",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47686549\">Comments</a>",
+      "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T07:23:39+00:00",
+      "created_at": "2026-04-08T12:56:39.781032+00:00"
     },
     {
       "id": "ed80f5cc9fb539b8",
@@ -182,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T05:21:00+00:00",
       "created_at": "2026-04-08T08:05:44.380455+00:00"
+    },
+    {
+      "id": "fa0dcb574263a813",
+      "content_hash": "fa0dcb574263a81367f9885a11482344e36c01d2d85a9a7daba09212254f0c9a",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/introducing-child-safety-blueprint",
+      "title": "Introducing the Child Safety Blueprint",
+      "body": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T05:00:00+00:00",
+      "created_at": "2026-04-08T12:54:59.268514+00:00"
     },
     {
       "id": "f5b94318f8783847",
@@ -1680,6 +1792,20 @@
       "cvss_score": null,
       "published_at": "2026-04-07T15:30:00+00:00",
       "created_at": "2026-04-07T16:04:06.275961+00:00"
+    },
+    {
+      "id": "9ee69ed0cb17ebeb",
+      "content_hash": "9ee69ed0cb17ebebaac842f89d65af59b8d28a91c0d016061fa46319e6c6f90b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5375",
+      "title": "CVE-2026-5375 - An issue that could allow a user with access to a credential to view sensitive f...",
+      "body": "An issue that could allow a user with access to a credential to view sensitive fields through an API response has been resolved. This is an instance of CWE-200: Exposure of Sensitive Information to an Unauthorized Actor, and has an estimated CVSS score of CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N (2.7 Low). This issue was fixed in version 4.0.260203.0 of the runZero Platform.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5375",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 2.7,
+      "published_at": "2026-04-07T15:17:47.460000",
+      "created_at": "2026-04-08T12:55:00.128714+00:00"
     },
     {
       "id": "94c57087db22dd35",
@@ -6874,132 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-04-06T15:17:09.670000",
       "created_at": "2026-04-07T09:57:57.314299+00:00"
-    },
-    {
-      "id": "47e2dfd7af1d83f5",
-      "content_hash": "47e2dfd7af1d83f59a5beb0c8fcfa83bd54a1ea6a5731fbff1041538a0efc02c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31151",
-      "title": "CVE-2026-31151 - An issue in the login mechanism of Kaleris YMS v7.2.2.1 allows attackers to bypa...",
-      "body": "An issue in the login mechanism of Kaleris YMS v7.2.2.1 allows attackers to bypass login verification to access the application 's resources.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31151",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-06T15:17:09.553000",
-      "created_at": "2026-04-07T08:05:13.870581+00:00"
-    },
-    {
-      "id": "e3d395bb52e86ad8",
-      "content_hash": "e3d395bb52e86ad89cf2f3724722e3f6213b481bd956475b6e908cbffb75286e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31150",
-      "title": "CVE-2026-31150 - Incorrect access control in Kaleris YMS v7.2.2.1 allows authenticated attackers ...",
-      "body": "Incorrect access control in Kaleris YMS v7.2.2.1 allows authenticated attackers with only the shipping/receiving role to view the truck's dashboard resources.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31150",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-06T15:17:09.430000",
-      "created_at": "2026-04-07T08:05:13.870574+00:00"
-    },
-    {
-      "id": "c415690cadbb7b62",
-      "content_hash": "c415690cadbb7b6285b1d5e3f4eec1d10c8061517f960e9927ae5af32dfeb771",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31067",
-      "title": "CVE-2026-31067 - A remote command execution (RCE) vulnerability in the /goform/formReleaseConnect...",
-      "body": "A remote command execution (RCE) vulnerability in the /goform/formReleaseConnect component of UTT Aggressive 520W v3v1.7.7-180627 allows attackers to execute arbitrary commands via a crafted string.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31067",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-04-06T15:17:09.313000",
-      "created_at": "2026-04-07T08:05:13.870568+00:00"
-    },
-    {
-      "id": "cc92825199d6a981",
-      "content_hash": "cc92825199d6a981e1ba82acf5bf574425f1703a84638833209fda6239ed0efb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31066",
-      "title": "CVE-2026-31066 - UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer ove...",
-      "body": "UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer overflow in the selDateType parameter of the formTaskEdit function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31066",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:09.200000",
-      "created_at": "2026-04-07T08:05:13.870561+00:00"
-    },
-    {
-      "id": "68e23cbe579e9e8d",
-      "content_hash": "68e23cbe579e9e8dbb70901158a311f6f8e0cf6b15a7c7c88c22dddec05ca041",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31065",
-      "title": "CVE-2026-31065 - UTT Aggressive 520W v3v1.7.7-180627 was discovered to contain a buffer overflow ...",
-      "body": "UTT Aggressive 520W v3v1.7.7-180627 was discovered to contain a buffer overflow in the addCommand parameter of the formConfigCliForEngineerOnly function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31065",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:09.080000",
-      "created_at": "2026-04-07T08:05:13.870555+00:00"
-    },
-    {
-      "id": "ab055f18d700f1c3",
-      "content_hash": "ab055f18d700f1c3f45c82b684a541dc446a252b1d45397f8b450b2f585fb91b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31063",
-      "title": "CVE-2026-31063 - UTT Aggressive HiPER 1200GW v2.5.3-170306 was discovered to contain a buffer ove...",
-      "body": "UTT Aggressive HiPER 1200GW v2.5.3-170306 was discovered to contain a buffer overflow in the pools parameter of the formArpBindConfig function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31063",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:08.953000",
-      "created_at": "2026-04-07T08:05:13.870548+00:00"
-    },
-    {
-      "id": "e0a86130611978cc",
-      "content_hash": "e0a86130611978cce53c22d321a1e9f138ebb2f463c99236025e06ab0686d5ca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31062",
-      "title": "CVE-2026-31062 - UTT Aggressive 520W v3v1.7.7-180627 was discovered to contain a buffer overflow ...",
-      "body": "UTT Aggressive 520W v3v1.7.7-180627 was discovered to contain a buffer overflow in the filename parameter of the formFtpServerDirConfig function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31062",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:08.840000",
-      "created_at": "2026-04-07T08:05:13.870541+00:00"
-    },
-    {
-      "id": "7e71aa9fc9a1cf42",
-      "content_hash": "7e71aa9fc9a1cf421b6c9cfad4b0ffe3a918d652f7f84e2f6a6ce2f6d4bd6fec",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31061",
-      "title": "CVE-2026-31061 - UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer ove...",
-      "body": "UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer overflow in the timestart parameter of the ConfigAdvideo function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31061",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:08.487000",
-      "created_at": "2026-04-07T08:05:13.870535+00:00"
-    },
-    {
-      "id": "82b58aae0678fbaa",
-      "content_hash": "82b58aae0678fbaae21163373160f99043de09ed169dab3f7ae3b7c83d46aee7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31060",
-      "title": "CVE-2026-31060 - UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer ove...",
-      "body": "UTT Aggressive HiPER 810G v3v1.7.7-171114 was discovered to contain a buffer overflow in the notes parameter of the formGroupConfig function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31060",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:08.330000",
-      "created_at": "2026-04-07T08:05:13.870528+00:00"
     }
   ]
 }
