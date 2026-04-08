@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-08T10:54:15.593704+00:00",
+  "generated_at": "2026-04-08T11:46:08.742898+00:00",
   "items": [
+    {
+      "id": "e3c58322e0734c35",
+      "content_hash": "e3c58322e0734c35479b00fe19d6d47963bc2020aef6215943d36f9db02e8b39",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3110278",
+      "title": "How nuclear batteries could speed the race to fusion power",
+      "body": "Avalanche Energy is working on an DARPA project to build a new class of materials capable of turning damaging radiation into electricity.",
+      "url": "https://techcrunch.com/2026/04/08/how-nuclear-batteries-could-speed-the-race-to-fusion-power/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T11:30:00+00:00",
+      "created_at": "2026-04-08T11:46:08.380866+00:00"
+    },
+    {
+      "id": "3c4ac12770a9cedc",
+      "content_hash": "3c4ac12770a9cedc2c3fc2ee838beac74bf39ad851d9a60c2739939b0e6b29a3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://firstthings.com/struggle-against-the-gods/",
+      "title": "Struggle Against the Gods",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47687755\">Comments</a>",
+      "url": "https://firstthings.com/struggle-against-the-gods/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T09:41:56+00:00",
+      "created_at": "2026-04-08T11:46:08.742420+00:00"
+    },
     {
       "id": "8cb5dc3a39dbbf0e",
       "content_hash": "8cb5dc3a39dbbf0e64109a2daf00a7edfe1403089e7cb7832a5a3cfa1b3616ee",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T09:16:00+00:00",
       "created_at": "2026-04-08T09:58:07.571858+00:00"
+    },
+    {
+      "id": "d7efde1f2de3a8a2",
+      "content_hash": "d7efde1f2de3a8a2591c7c79f41cc972b9c1f0fad9e0e039b93e3abcc263defa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "title": "Mario and Earendil",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47687464\">Comments</a>",
+      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T09:13:17+00:00",
+      "created_at": "2026-04-08T11:46:08.742660+00:00"
     },
     {
       "id": "61a31e6b83e48246",
@@ -2254,6 +2296,20 @@
       "cvss_score": null,
       "published_at": "2026-04-07T14:00:00+00:00",
       "created_at": "2026-04-07T14:25:50.476561+00:00"
+    },
+    {
+      "id": "893d9a263ce20669",
+      "content_hash": "893d9a263ce20669a0b83a127f551a4c963b2c70edcadd11f320d24948a7b321",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://scottlawsonbc.com/post/audio-led",
+      "title": "Audio Reactive LED Strips Are Diabolically Hard",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47675446\">Comments</a>",
+      "url": "https://scottlawsonbc.com/post/audio-led",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-07T13:55:14+00:00",
+      "created_at": "2026-04-08T11:46:08.742299+00:00"
     },
     {
       "id": "f05163d1891a0d56",
@@ -6944,62 +7000,6 @@
       "cvss_score": 4.5,
       "published_at": "2026-04-06T15:17:08.330000",
       "created_at": "2026-04-07T08:05:13.870528+00:00"
-    },
-    {
-      "id": "653d8a0ddcee4901",
-      "content_hash": "653d8a0ddcee49019f6b8520cae32922b8fd24b7fb38e205a9ec2672eae2fd34",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31059",
-      "title": "CVE-2026-31059 - A remote command execution (RCE) vulnerability in the /goform/formDia component ...",
-      "body": "A remote command execution (RCE) vulnerability in the /goform/formDia component of UTT Aggressive HiPER 520W v3v1.7.7-180627 allows attackers to execute arbitrary commands via a crafted string.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31059",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-06T15:17:08.210000",
-      "created_at": "2026-04-07T06:12:37.290557+00:00"
-    },
-    {
-      "id": "194f2ce46bc8a42d",
-      "content_hash": "194f2ce46bc8a42d66597cdc3fa44ada72e200e133fd3320c8bc362f4403427b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31058",
-      "title": "CVE-2026-31058 - UTT Aggressive HiPER 1200GW v2.5.3-170306 was discovered to contain a buffer ove...",
-      "body": "UTT Aggressive HiPER 1200GW v2.5.3-170306 was discovered to contain a buffer overflow in the timeRangeName parameter of the formConfigDnsFilterGlobal function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31058",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-04-06T15:17:08.090000",
-      "created_at": "2026-04-07T06:12:37.290550+00:00"
-    },
-    {
-      "id": "f76cf55b8acaebda",
-      "content_hash": "f76cf55b8acaebdaeb9eb26cb5a130ddbfed3d44dbb3d81a6f46b83aa795f313",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31053",
-      "title": "CVE-2026-31053 - A double free vulnerability exists in librz/bin/format/le/le.c in the function l...",
-      "body": "A double free vulnerability exists in librz/bin/format/le/le.c in the function le_load_fixup_record(). When processing malformed or circular LE fixup chains, relocation entries may be freed multiple times during error handling. A specially crafted LE binary can trigger heap corruption and cause the application to crash, resulting in a denial-of-service condition. An attacker with a crafted binary could cause a denial of service when the tool is integrated on a service pipeline.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31053",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.2,
-      "published_at": "2026-04-06T15:17:07.953000",
-      "created_at": "2026-04-07T06:12:37.290543+00:00"
-    },
-    {
-      "id": "0a6c49bf89bbe877",
-      "content_hash": "0a6c49bf89bbe877103ffb549f6721b87a852585cbd49d65a81bdd25727f0a47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-29047",
-      "title": "CVE-2026-29047 - GLPI is a free asset and IT management software package. From 10.0.0 to before 1...",
-      "body": "GLPI is a free asset and IT management software package. From 10.0.0 to before 10.0.24 and 11.0.6, an authenticated user can perform a SQL injection via the logs export feature. This vulnerability is fixed in 10.0.24 and 11.0.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29047",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-04-06T15:17:07.590000",
-      "created_at": "2026-04-07T06:12:37.290537+00:00"
     }
   ]
 }
