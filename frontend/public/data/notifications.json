@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-08T04:27:39.861132+00:00",
+  "generated_at": "2026-04-08T06:15:14.279658+00:00",
   "items": [
+    {
+      "id": "f5b94318f8783847",
+      "content_hash": "f5b94318f87838477a28bbaa0d2a58f75c9cfc3bd60c0c745e8b10af744dc51e",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
+      "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
+      "body": "Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecurity and intelligence&nbsp;agencies warned&nbsp;Tuesday.\n\"These attacks have led to diminished PLC functionality, manipulation of display data and, in some cases, operational disruption and financial",
+      "url": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-08T04:23:00+00:00",
+      "created_at": "2026-04-08T06:15:09.066063+00:00"
+    },
     {
       "id": "a0f8a32462a1e424",
       "content_hash": "a0f8a32462a1e4249346960466cea79458e20c94e01c4d34b49fc2121de29764",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-08T03:03:33+00:00",
       "created_at": "2026-04-08T04:27:39.860375+00:00"
+    },
+    {
+      "id": "20ed4695c9c0e31a",
+      "content_hash": "20ed4695c9c0e31aa84f72ce88718f3c5cd88ce563e218d309cdc1c2da71a0c0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "title": "Protect your shed",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47684514\">Comments</a>",
+      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T03:03:33+00:00",
+      "created_at": "2026-04-08T06:15:14.278933+00:00"
     },
     {
       "id": "d35a2538b0f370cc",
@@ -1456,6 +1484,62 @@
       "cvss_score": null,
       "published_at": "2026-04-07T15:30:00+00:00",
       "created_at": "2026-04-07T16:04:06.275961+00:00"
+    },
+    {
+      "id": "3e503e47a3ba3c55",
+      "content_hash": "3e503e47a3ba3c55dfd2682d0f3f24cf240b7d2310878d32fe7063e4c2f1fb2e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35458",
+      "title": "CVE-2026-35458 - Gotenberg is an API for converting document formats. In 8.29.1 and earlier, Gote...",
+      "body": "Gotenberg is an API for converting document formats. In 8.29.1 and earlier, Gotenberg uses dlclark/regexp2 to compile user-supplied scope patterns without setting a proper timeout. Users with access to features using this logic can hang workers indefinitely.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35458",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-07T15:17:43.733000",
+      "created_at": "2026-04-08T06:15:09.625998+00:00"
+    },
+    {
+      "id": "c1e500aa126493c6",
+      "content_hash": "c1e500aa126493c68f78c960870f0a66682176c69386a46c06e8c0d92eb817d0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35457",
+      "title": "CVE-2026-35457 - libp2p-rust is the official rust language Implementation of the libp2p networkin...",
+      "body": "libp2p-rust is the official rust language Implementation of the libp2p networking stack. Prior to 0.17.1, the rendezvous server stores pagination cookies without bounds. An unauthenticated peer can repeatedly issue DISCOVER requests and force unbounded memory growth. This vulnerability is fixed in 0.17.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35457",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "published_at": "2026-04-07T15:17:43.587000",
+      "created_at": "2026-04-08T06:15:09.625992+00:00"
+    },
+    {
+      "id": "4e513f46bd3883a5",
+      "content_hash": "4e513f46bd3883a556813b3bb7b1348facb2e155ebc93b8bca55e481665127f4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35405",
+      "title": "CVE-2026-35405 - libp2p-rust is the official rust language Implementation of the libp2p networkin...",
+      "body": "libp2p-rust is the official rust language Implementation of the libp2p networking stack. Prior to 0.17.1, libp2p-rendezvous server has no limit on how many namespaces a single peer can register.  A malicious peer can just keep registering unique namespaces in a loop and the server happily accepts every single one allocating memory for each registration with no pushback. Keep doing this long enough (or with multiple sybil peers) and the server process gets OOM killed. This vulnerability is fixed in 0.17.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35405",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-07T15:17:43.367000",
+      "created_at": "2026-04-08T06:15:09.625985+00:00"
+    },
+    {
+      "id": "59ac5ecb023135b3",
+      "content_hash": "59ac5ecb023135b3065b7a2c440b00c6a340ae89ecf3f48aa8076bec9699f4a9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33034",
+      "title": "CVE-2026-33034 - An issue was discovered in 6.0 before 6.0.4, 5.2 before 5.2.13, and 4.2 before 4...",
+      "body": "An issue was discovered in 6.0 before 6.0.4, 5.2 before 5.2.13, and 4.2 before 4.2.30.\nASGI requests with a missing or understated `Content-Length` header could\r\nbypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit when reading\r\n`HttpRequest.body`, allowing remote attackers to load an unbounded request body into\r\nmemory.\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\nDjango would like to thank Superior for reporting this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33034",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-07T15:17:39.393000",
+      "created_at": "2026-04-08T06:15:09.625978+00:00"
     },
     {
       "id": "3fd7d256d2e13fad",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-06T12:59:33+00:00",
       "created_at": "2026-04-06T14:04:41.517127+00:00"
-    },
-    {
-      "id": "61f7f51f07039714",
-      "content_hash": "61f7f51f07039714a036c894be7244d3f09734504526f66eda419aa57efc796e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://belief.horse/notes/what-being-ripped-off-taught-me/",
-      "title": "What Being Ripped Off Taught Me",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47660286\">Comments</a>",
-      "url": "https://belief.horse/notes/what-being-ripped-off-taught-me/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-06T12:53:41+00:00",
-      "created_at": "2026-04-06T14:04:41.516984+00:00"
-    },
-    {
-      "id": "bfefba51cf792012",
-      "content_hash": "bfefba51cf792012d64f0522c4d707800be1f964ed226e851e2d6cac8fadddd6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://belief.horse/notes/what-being-ripped-off-taught-me/",
-      "title": "What being ripped off taught me",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47660286\">Comments</a>",
-      "url": "https://belief.horse/notes/what-being-ripped-off-taught-me/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-06T12:53:41+00:00",
-      "created_at": "2026-04-06T18:41:41.124208+00:00"
-    },
-    {
-      "id": "dc75751c3d857e79",
-      "content_hash": "dc75751c3d857e798afdbf792a08257d2bd254b4c3317e8a4beea187d298009c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.convexly.app/",
-      "title": "Show HN: I built a 2-min quiz that shows you how bad you are at estimating",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47660262\">Comments</a>",
-      "url": "https://www.convexly.app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-06T12:50:20+00:00",
-      "created_at": "2026-04-06T20:28:15.572198+00:00"
-    },
-    {
-      "id": "3f688b5e71f602d9",
-      "content_hash": "3f688b5e71f602d90f33e4f1d4abf7702fbc467d947b65185d97a8f7c073cdae",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
-      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
-      "body": "This&nbsp;week had real hits. The&nbsp;key software got tampered with. Active&nbsp;bugs showed up in the tools people use every day. Some&nbsp;attacks didn’t even need much effort because the path was already&nbsp;there.\nOne weak spot now spreads wider than before. What&nbsp;starts small can reach a lot of systems fast. New&nbsp;bugs, faster use, less time to&nbsp;react.\nThat’s this week. Read&",
-      "url": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-06T12:46:00+00:00",
-      "created_at": "2026-04-06T15:36:56.674979+00:00"
-    },
-    {
-      "id": "96107418a0f06020",
-      "content_hash": "96107418a0f060201d333f18f6b3e2b240461f2b0628b87c04e4868ac38caf0e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5650",
-      "title": "CVE-2026-5650 - A vulnerability was found in code-projects Online Application System for Admissi...",
-      "body": "A vulnerability was found in code-projects Online Application System for Admission 1.0. Impacted is an unknown function of the file /enrollment/database/oas.sql. Performing a manipulation results in insecure storage of sensitive information. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5650",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-06T12:16:19.810000",
-      "created_at": "2026-04-07T01:17:53.518934+00:00"
-    },
-    {
-      "id": "e894f559603046ce",
-      "content_hash": "e894f559603046ce4d9ff0209c0c4c14343517a5070bfb02859a848b1b7e69ed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5649",
-      "title": "CVE-2026-5649 - A vulnerability has been found in code-projects Online Application System for Ad...",
-      "body": "A vulnerability has been found in code-projects Online Application System for Admission 1.0. This issue affects some unknown processing of the file /enrollment/admsnform.php of the component Endpoint. Such manipulation leads to sql injection. The attack can be executed remotely. The exploit has been disclosed to the public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5649",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-06T12:16:19.387000",
-      "created_at": "2026-04-07T01:17:53.518926+00:00"
     }
   ]
 }
