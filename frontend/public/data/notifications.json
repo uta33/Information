@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-09T11:44:21.289044+00:00",
+  "generated_at": "2026-04-09T12:57:04.422142+00:00",
   "items": [
+    {
+      "id": "8bdf6ab43d4734da",
+      "content_hash": "8bdf6ab43d4734da29ed8b3bab559a17676155be267c2687915f4799a7140faa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ssta.willhelps.org",
+      "title": "Show HN: 41 years sea surface temperature anomalies",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47702791\">Comments</a>",
+      "url": "https://ssta.willhelps.org",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T12:25:57+00:00",
+      "created_at": "2026-04-09T12:57:04.421580+00:00"
+    },
+    {
+      "id": "b6c9b75b5d4cd628",
+      "content_hash": "b6c9b75b5d4cd628a489b164f511428bf9106106bfb87e04e27aa14e05e2857d",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
+      "title": "Webinar: From noise to signal - What threat actors are targeting next",
+      "body": "Threat actors often signal their intentions before launching attacks, from dark web chatter to access-broker listings and credential requests. Join our upcoming webinar with Flare Systems to learn how to turn those early warning signs into proactive defensive action before an intrusion begins. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T12:20:28+00:00",
+      "created_at": "2026-04-09T12:56:59.327534+00:00"
+    },
+    {
+      "id": "0031b0220b015741",
+      "content_hash": "0031b0220b015741515648d2f2e5c11dd8fab7316eaaa702795466f3db3b059d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.relvy.ai",
+      "title": "Launch HN: Relvy (YC F24) – On-call runbooks, automated",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47702647\">Comments</a>",
+      "url": "https://www.relvy.ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T12:11:56+00:00",
+      "created_at": "2026-04-09T12:57:04.421501+00:00"
+    },
+    {
+      "id": "8ee7770cc3631151",
+      "content_hash": "8ee7770cc3631151353f8e87ac027465d2cdf8e55a3f08f9e071f4d6e5fcff2a",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3109187",
+      "title": "Ex-Tesla engineer’s startup taps Pronto to help automate a copper mine",
+      "body": "Pronto's autonomous haulage trucks are about to start operating at Mariana Minerals's Utah copper mine -- the first such deal since Pronto got acquired by Travis Kalanick's Atoms Inc.",
+      "url": "https://techcrunch.com/2026/04/09/mariana-minerals-taps-pronto-to-help-automate-a-copper-mine/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T12:00:00+00:00",
+      "created_at": "2026-04-09T12:57:04.035095+00:00"
+    },
     {
       "id": "5075df4b936732b7",
       "content_hash": "5075df4b936732b7624b3f0e787f116608815a26b28d02a185e48da39ab3ee44",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-04-09T11:31:00+00:00",
       "created_at": "2026-04-09T11:44:16.383850+00:00"
+    },
+    {
+      "id": "fa6e3a94bc9eb667",
+      "content_hash": "fa6e3a94bc9eb6671c1b3df32f1e65802add0c899c7a514f77b063dd9ec4bb8a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cssstudio.ai",
+      "title": "Show HN: CSS Studio. Design by hand, code by agent",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47702196\">Comments</a>",
+      "url": "https://cssstudio.ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T11:23:31+00:00",
+      "created_at": "2026-04-09T12:57:04.421385+00:00"
     },
     {
       "id": "56b9ec20baa6fced",
@@ -98,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-04-09T09:22:35+00:00",
       "created_at": "2026-04-09T10:02:18.773955+00:00"
+    },
+    {
+      "id": "15c969bcb0cec61b",
+      "content_hash": "15c969bcb0cec61b2fedd1287897c0c3d7a55727bdfad03ffd7175e94558248b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://freebsdfoundation.github.io/freebsd-laptop-testing/",
+      "title": "FreeBSD Laptop Compatibility: Top Laptops to Use with FreeBSD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47701148\">Comments</a>",
+      "url": "https://freebsdfoundation.github.io/freebsd-laptop-testing/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T09:17:25+00:00",
+      "created_at": "2026-04-09T12:57:04.421747+00:00"
     },
     {
       "id": "16f50e50c983a093",
@@ -952,6 +1036,20 @@
       "cvss_score": null,
       "published_at": "2026-04-09T00:26:08+00:00",
       "created_at": "2026-04-09T01:08:47.334442+00:00"
+    },
+    {
+      "id": "06fff68ee6371bdf",
+      "content_hash": "06fff68ee6371bdfa6cf0ad87f73f0729c8b7a000c392518f05318d2bb3de9dd",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
+      "body": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on Instagram, and win IPL match tickets.",
+      "url": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "created_at": "2026-04-09T12:56:58.732151+00:00"
     },
     {
       "id": "7e68b7baa60d8177",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-07T18:16:45.753000",
       "created_at": "2026-04-08T19:10:26.593544+00:00"
-    },
-    {
-      "id": "5fa123a7acb8fe69",
-      "content_hash": "5fa123a7acb8fe69e2ff8475f67fe1aab4bb0ff5976da0643dbb0c1b81593c29",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39337",
-      "title": "CVE-2026-39337 - ChurchCRM is an open-source church management system. Prior to 7.1.0, critical p...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, critical pre-authentication remote code execution vulnerability in ChurchCRM's setup wizard allows unauthenticated attackers to inject arbitrary PHP code during the initial installation process, leading to complete server compromise. The \"$dbPassword\" variable is not sanitized. This vulnerability exists due to an incomplete fix for CVE-2025-62521. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39337",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-04-07T18:16:45.630000",
-      "created_at": "2026-04-08T19:10:26.593537+00:00"
-    },
-    {
-      "id": "9274f9c81a66a529",
-      "content_hash": "9274f9c81a66a529ce4577386ca95ae9af357842670b71bedb6c30749ade1ce3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39336",
-      "title": "CVE-2026-39336 - ChurchCRM is an open-source church management system. Prior to 7.1.0, a stored c...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, a stored cross-site scripting issue affects the Directory Reports form fields set from config, Person editor defaults rendered into address fields, and external self-registration form defaults. This is primarily an admin-to-admin stored XSS path where writable configuration fields are abused. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39336",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-07T18:16:45.463000",
-      "created_at": "2026-04-08T19:10:26.593530+00:00"
-    },
-    {
-      "id": "c9831c69798870cf",
-      "content_hash": "c9831c69798870cf7352235178ac0e7c385aed339e456032b67200e6a1e48975",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39335",
-      "title": "CVE-2026-39335 - ChurchCRM is an open-source church management system. Prior to 7.1.1, there is S...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.1, there is Stored XSS in group remove control and family editor state/country. This is primarily an admin-to-admin stored XSS path when writable entity fields are abused. This vulnerability is fixed in 7.1.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39335",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-07T18:16:45.307000",
-      "created_at": "2026-04-08T19:10:26.593524+00:00"
-    },
-    {
-      "id": "acc8485fdd32dca9",
-      "content_hash": "acc8485fdd32dca936e8f6dcfa904b3d34399614f1c6a397a20382e642ce33ef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39334",
-      "title": "CVE-2026-39334 - ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL inj...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability was found in the endpoint /SettingsIndividual.php in ChurchCRM 7.0.5. Authenticated users without any specific privileges can inject arbitrary SQL statements through the type array parameter via the index and thus extract and modify information from the database. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39334",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-07T18:16:45.140000",
-      "created_at": "2026-04-08T19:10:26.593518+00:00"
-    },
-    {
-      "id": "709bfb3f524be53f",
-      "content_hash": "709bfb3f524be53f219b82c271414575753bf8df358ce6b16451708ab73b2401",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39333",
-      "title": "CVE-2026-39333 - ChurchCRM is an open-source church management system. Prior to 7.1.0, he FindFun...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, he FindFundRaiser.php endpoint reflects user-supplied input (DateStart and DateEnd) into HTML input field attributes without proper output encoding for the HTML attribute context. An authenticated attacker can craft a malicious URL that executes arbitrary JavaScript when visited by another authenticated user. This constitutes a reflected XSS vulnerability. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39333",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.7,
-      "published_at": "2026-04-07T18:16:44.997000",
-      "created_at": "2026-04-08T19:10:26.593511+00:00"
-    },
-    {
-      "id": "45122fc9cfbfd215",
-      "content_hash": "45122fc9cfbfd2150e0e33ff771802ed0f4b274d8b9110b0b87401b5ea389ea5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39332",
-      "title": "CVE-2026-39332 - ChurchCRM is an open-source church management system. Prior to 7.1.0, a reflecte...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, a reflected Cross-Site Scripting (XSS) vulnerability in GeoPage.php allows any authenticated user to inject arbitrary JavaScript into the browser of another authenticated user. Because the payload fires automatically via autofocus with no user interaction required, an attacker can steal session cookies and fully take over any victim account, including administrator accounts, by tricking them into submitting a crafted form. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39332",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.7,
-      "published_at": "2026-04-07T18:16:44.717000",
-      "created_at": "2026-04-08T19:10:26.593505+00:00"
-    },
-    {
-      "id": "2beae7e9ee068802",
-      "content_hash": "2beae7e9ee068802e5999b462c4808db97de29963e964baf3da56c4282eedec3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39331",
-      "title": "CVE-2026-39331 - ChurchCRM is an open-source church management system. Prior to 7.1.0, an authent...",
-      "body": "ChurchCRM is an open-source church management system. Prior to 7.1.0, an authenticated API user can modify any family record's state without proper authorization by simply changing the {familyId} parameter in requests, regardless of whether they possess the required EditRecords privilege. /family/{familyId}/verify, /family/{familyId}/verify/url, /family/{familyId}/verify/now, /family/{familyId}/activate/{status}, and /family/{familyId}/geocode lack role-based access control, allowing users to deactivate/reactivate arbitrary families, spam verification emails, and mark families as verified and trigger geocoding. This vulnerability is fixed in 7.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39331",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-07T18:16:44.530000",
-      "created_at": "2026-04-08T19:10:26.593498+00:00"
     }
   ]
 }
