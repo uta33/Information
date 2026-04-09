@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-09T04:24:07.828262+00:00",
+  "generated_at": "2026-04-09T06:13:59.695225+00:00",
   "items": [
+    {
+      "id": "58a279dd1aa94f34",
+      "content_hash": "58a279dd1aa94f34a011503c7bbc2ae5c8b7b0f8efea8ea8619b69c8ce45f6f0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://astral.sh/blog/open-source-security-at-astral",
+      "title": "Open Source Security at Astral",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47699181\">Comments</a>",
+      "url": "https://astral.sh/blog/open-source-security-at-astral",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-09T04:11:55+00:00",
+      "created_at": "2026-04-09T06:13:59.694459+00:00"
+    },
     {
       "id": "41873012ec1f7767",
       "content_hash": "41873012ec1f7767a1d4993b6f4c7967de3f71e586f02e1cd530e27578b78dba",
@@ -1764,6 +1778,34 @@
       "cvss_score": null,
       "published_at": "2026-04-08T09:21:38+00:00",
       "created_at": "2026-04-08T12:56:39.781056+00:00"
+    },
+    {
+      "id": "9b2614fb70568505",
+      "content_hash": "9b2614fb70568505d01d81f731253674829a3bb7f0b2ca123ef2cd46fbb085da",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-39484",
+      "title": "CVE-2026-39484 - URL Redirection to Untrusted Site ('Open Redirect') vulnerability in John Darrel...",
+      "body": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in John Darrel Hide My WP Ghost hide-my-wp allows Phishing.This issue affects Hide My WP Ghost: from n/a through < 7.0.00.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39484",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T09:16:23.110000",
+      "created_at": "2026-04-09T06:13:56.405271+00:00"
+    },
+    {
+      "id": "85d031e55e3d5e58",
+      "content_hash": "85d031e55e3d5e58de849ab3cd275115ce256249271c484e6f7fd8686b07c89a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-39483",
+      "title": "CVE-2026-39483 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripti...",
+      "body": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Hidekazu Ishikawa VK All in One Expansion Unit vk-all-in-one-expansion-unit allows Stored XSS.This issue affects VK All in One Expansion Unit: from n/a through <= 9.113.3.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39483",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-08T09:16:22.970000",
+      "created_at": "2026-04-09T06:13:56.405264+00:00"
     },
     {
       "id": "28f599089b256ea0",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-07T15:47:16+00:00",
       "created_at": "2026-04-07T17:48:13.910492+00:00"
-    },
-    {
-      "id": "f7ce3f47b541cf10",
-      "content_hash": "f7ce3f47b541cf10e5d7b39143108b1e1e91269bf40c6dc7367d0094fe63f918",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3110045",
-      "title": "Google Maps can now write captions for your photos using AI",
-      "body": "Gemini can now create captions when users are looking to share a photo or video.",
-      "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-07T15:30:00+00:00",
-      "created_at": "2026-04-07T16:04:06.275961+00:00"
-    },
-    {
-      "id": "1b793313a9b82ea6",
-      "content_hash": "1b793313a9b82ea62d6321641d9b09725d3713fc337f399f7bee22938e417be6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5384",
-      "title": "CVE-2026-5384 - An issue that could allow a credential to be updated and used for a task from ou...",
-      "body": "An issue that could allow a credential to be updated and used for a task from outside of the authorized organization scope has been resolved. This is an instance of CWE-863: Incorrect Authorization, and has an estimated CVSS score of CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N (5.8 Medium). This issue was fixed in version 4.0.26021.0 of the runZero Platform.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5384",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-04-07T15:17:48.720000",
-      "created_at": "2026-04-08T14:27:50.297603+00:00"
-    },
-    {
-      "id": "ff752e87e2cd9876",
-      "content_hash": "ff752e87e2cd98768b1ddc1b2d616651293acc1f0e8a640de2a5c2f85c82b9b5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5383",
-      "title": "CVE-2026-5383 - An issue that could allow access to Explorer groups from outside of the authoriz...",
-      "body": "An issue that could allow access to Explorer groups from outside of the authorized organization scope has been resolved. This is an instance of CWE-863: Incorrect Authorization, and has an estimated CVSS score of CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:L/A:L (4.4 Medium). This issue was fixed in version 4.0.260208.0 of the runZero Explorer.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5383",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "published_at": "2026-04-07T15:17:48.543000",
-      "created_at": "2026-04-08T14:27:50.297592+00:00"
     }
   ]
 }
