@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-10T09:59:20.143561+00:00",
+  "generated_at": "2026-04-10T10:55:05.368476+00:00",
   "items": [
+    {
+      "id": "65e3afd0645b150e",
+      "content_hash": "65e3afd0645b150e60b2b34b05f1a12bd107ef1604cdcba4c597c0f5a836acf0",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/",
+      "title": "Google rolls out Gmail end-to-end encryption on mobile devices",
+      "body": "Google says Gmail end-to-end encryption (E2EE) is now available on all Android and iOS devices, allowing enterprise users to read and compose emails without additional tools. [...]",
+      "url": "https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T10:44:08+00:00",
+      "created_at": "2026-04-10T10:55:00.178104+00:00"
+    },
+    {
+      "id": "4c182103397a12d1",
+      "content_hash": "4c182103397a12d163305f255eeca37016505e9b95be03089b9085909a5231df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
+      "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47716043\">Comments</a>",
+      "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T10:37:33+00:00",
+      "created_at": "2026-04-10T10:55:05.367720+00:00"
+    },
     {
       "id": "5286b0acfd71d3de",
       "content_hash": "5286b0acfd71d3de1894dd80895d07348482675ed49fb2972861f4bd130120ff",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-08T18:53:19+00:00",
       "created_at": "2026-04-08T19:10:30.761520+00:00"
-    },
-    {
-      "id": "75942a3a2956ed83",
-      "content_hash": "75942a3a2956ed831d35fabb998135cdb7d981b4c73dfcf70568b9e3d123586b",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3110564",
-      "title": "Hack-for-hire group caught targeting Android devices and iCloud backups",
-      "body": "Security researchers exposed a spying campaign by a hack-for-hire group that used Android spyware and phishing to steal iCloud credentials and hack victims’ devices.",
-      "url": "https://techcrunch.com/2026/04/08/hack-for-hire-group-caught-targeting-android-devices-and-icloud-backups/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-08T18:51:20+00:00",
-      "created_at": "2026-04-08T19:10:30.761555+00:00"
-    },
-    {
-      "id": "d82716316f9e4e6e",
-      "content_hash": "d82716316f9e4e6efc71697eefd494366cf18302cea8d94ee2a4aece38a427bd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33756",
-      "title": "CVE-2026-33756 - Saleor is an e-commerce platform. From 2.0.0 to before 3.23.0a3, 3.22.47, 3.21.5...",
-      "body": "Saleor is an e-commerce platform. From 2.0.0 to before 3.23.0a3, 3.22.47, 3.21.54, and 3.20.118, Saleor supports query batching by submitting multiple GraphQL operations in a single HTTP request as a JSON array but wasn't enforcing any upper limit on the number of operations. This allowed an unauthenticated attacker to send a single HTTP request many operations (bypassing the per query complexity limit) to exhaust resources. This vulnerability is fixed in 3.23.0a3, 3.22.47, 3.21.54, and 3.20.118.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33756",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-08T18:26:00.700000",
-      "created_at": "2026-04-09T14:51:31.475528+00:00"
     }
   ]
 }
