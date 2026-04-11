@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-11T21:22:45.932251+00:00",
+  "generated_at": "2026-04-11T22:20:14.084418+00:00",
   "items": [
+    {
+      "id": "9e90c40cd10fa30d",
+      "content_hash": "9e90c40cd10fa30d11d650e13b531fb7d536f6817d4b0d80187428314ff7cd7a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6105",
+      "title": "CVE-2026-6105 - A security vulnerability has been detected in perfree go-fastdfs-web up to 1.3.7...",
+      "body": "A security vulnerability has been detected in perfree go-fastdfs-web up to 1.3.7. This affects an unknown part of the file src/main/java/com/perfree/controller/InstallController.java of the component doInstall Interface. The manipulation leads to improper authorization. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6105",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-11T22:16:01.417000",
+      "created_at": "2026-04-11T22:20:09.081968+00:00"
+    },
     {
       "id": "2da39682637fef3e",
       "content_hash": "2da39682637fef3eb99e571c5dbca659aa8ff11d7bfa9e13538ed7abc8208dd0",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T20:58:48+00:00",
       "created_at": "2026-04-11T21:22:45.931533+00:00"
+    },
+    {
+      "id": "1bd703ba3f7bb1f3",
+      "content_hash": "1bd703ba3f7bb1f3b85eca1f17b6da6a231f93272b06c4661085f125c047a52a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
+      "title": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47733971\">Comments</a>",
+      "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T20:58:48+00:00",
+      "created_at": "2026-04-11T22:20:14.083631+00:00"
     },
     {
       "id": "80acb1f8d2d91474",
@@ -6972,34 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-04-09T22:16:33.507000",
       "created_at": "2026-04-10T22:25:49.879028+00:00"
-    },
-    {
-      "id": "880801a37d02e00a",
-      "content_hash": "880801a37d02e00a592fa712b9b002857280b0af5e4f5853798c57f0b2eb5d8a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35639",
-      "title": "CVE-2026-35639 - OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the d...",
-      "body": "OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the device.pair.approve method that allows an operator.pairing approver to approve pending device requests with broader operator scopes than the approver actually holds. Attackers can exploit insufficient scope validation to escalate privileges to operator.admin and achieve remote code execution on the Node infrastructure.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35639",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-09T22:16:33.317000",
-      "created_at": "2026-04-10T22:25:49.879021+00:00"
-    },
-    {
-      "id": "6a41802ec66d1e3e",
-      "content_hash": "6a41802ec66d1e3ecefa802df55dd0ae99574f7ee6bd53ded19397efc5331b04",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35638",
-      "title": "CVE-2026-35638 - OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the C...",
-      "body": "OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the Control UI that allows unauthenticated sessions to retain self-declared privileged scopes without device identity verification. Attackers can exploit the device-less allow path in the trusted-proxy mechanism to maintain elevated permissions by declaring arbitrary scopes, bypassing device identity requirements.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35638",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-09T22:16:33.123000",
-      "created_at": "2026-04-10T22:25:49.879014+00:00"
     }
   ]
 }
