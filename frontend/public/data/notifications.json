@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T06:47:49.935474+00:00",
+  "generated_at": "2026-04-11T07:42:29.850194+00:00",
   "items": [
     {
       "id": "659072453c0bf81c",
@@ -16,6 +16,20 @@
       "created_at": "2026-04-11T06:47:49.935130+00:00"
     },
     {
+      "id": "fd654ef15fb0a2b7",
+      "content_hash": "fd654ef15fb0a2b72cd30d5b5e0c75108fcb6352097133a45f92f71b66a52f48",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
+      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
+      "body": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law&nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called&nbsp;Webloc.\nThe tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after&nbsp;the two firms merged in July&nbsp;2023",
+      "url": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-11T06:02:00+00:00",
+      "created_at": "2026-04-11T07:42:24.829861+00:00"
+    },
+    {
       "id": "3471d98445047bfe",
       "content_hash": "3471d98445047bfe380406ea20786a45750fff3fc815dea652f74c4809e74047",
       "source_name": "Hacker News (Best)",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T05:31:10+00:00",
       "created_at": "2026-04-11T05:53:47.637173+00:00"
+    },
+    {
+      "id": "fa9c9680bf7ff6d0",
+      "content_hash": "fa9c9680bf7ff6d076a24f239afaa3353214552ea80f45bd6c4df9decddf220a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+      "title": "20 years on AWS and never not my job",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47727711\">Comments</a>",
+      "url": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T05:31:10+00:00",
+      "created_at": "2026-04-11T07:42:29.849598+00:00"
     },
     {
       "id": "f5cba254318d0432",
@@ -742,6 +770,76 @@
       "cvss_score": null,
       "published_at": "2026-04-10T15:20:48+00:00",
       "created_at": "2026-04-10T15:40:59.169710+00:00"
+    },
+    {
+      "id": "a880fee32fdebaf9",
+      "content_hash": "a880fee32fdebaf9af29a169c32aba28688c66b99adf08faf646dc54d4204b49",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-36235",
+      "title": "CVE-2026-36235 - A SQL injection vulnerability was found in the scheduleSubList.php file of itsou...",
+      "body": "A SQL injection vulnerability was found in the scheduleSubList.php file of itsourcecode Online Student Enrollment System v1.0. The reason for this issue is that the 'subjcode' parameter is directly embedded into the SQL query via string interpolation without any sanitization or validation.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36235",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:16:25.077000",
+      "created_at": "2026-04-11T07:42:25.230205+00:00"
+    },
+    {
+      "id": "41b28260321d97f7",
+      "content_hash": "41b28260321d97f770655a71e2ff60edadeea173f8de067cec05717147d5dd1e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-36234",
+      "title": "CVE-2026-36234 - itsourcecode Online Student Enrollment System v1.0 is vulnerable to SQL Injectio...",
+      "body": "itsourcecode Online Student Enrollment System v1.0 is vulnerable to SQL Injection in newCourse.php via the 'coursename' parameter.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36234",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:16:24.953000",
+      "created_at": "2026-04-11T07:42:25.230199+00:00"
+    },
+    {
+      "id": "0683c1934d60500d",
+      "content_hash": "0683c1934d60500d8f1345cdd2c9b7e2ad978b0d122bfd1e3bfcc19cbf863349",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-36233",
+      "title": "CVE-2026-36233 - A SQL injection vulnerability was found in the assignInstructorSubjects.php file...",
+      "body": "A SQL injection vulnerability was found in the assignInstructorSubjects.php file of itsourcecode Online Student Enrollment System v1.0. The reason for this issue is that attackers can inject malicious code via the parameter \"subjcode\" and use it directly in SQL queries without the need for appropriate cleaning or validation.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36233",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:16:24.820000",
+      "created_at": "2026-04-11T07:42:25.230193+00:00"
+    },
+    {
+      "id": "491d464a95303c82",
+      "content_hash": "491d464a95303c82446b958d51cd9349a5c54ac73374937fce18b1207fac4392",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-36232",
+      "title": "CVE-2026-36232 - A SQL injection vulnerability was found in the instructorClasses.php file of its...",
+      "body": "A SQL injection vulnerability was found in the instructorClasses.php file of itsourcecode Online Student Enrollment System v1.0. The reason for this issue is that the 'classId' parameter from $_GET['classId'] is directly concatenated into the SQL query without any sanitization or validation.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36232",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:16:24.697000",
+      "created_at": "2026-04-11T07:42:25.230187+00:00"
+    },
+    {
+      "id": "5c895747b9113511",
+      "content_hash": "5c895747b911351104ceb1853f0733446dd830feeaa02d37d7de13c7dbdc9056",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31262",
+      "title": "CVE-2026-31262 - Cross Site Scripting vulnerability in Altenar Sportsbook Software Platform (SB2)...",
+      "body": "Cross Site Scripting vulnerability in Altenar Sportsbook Software Platform (SB2) v.2.0 allows a remote attacker to obtain sensitive information and execute arbitrary code via the URL parameter",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31262",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:16:23.607000",
+      "created_at": "2026-04-11T07:42:25.230180+00:00"
     },
     {
       "id": "0cc7e22ae6593c7f",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-09T16:16:27.550000",
       "created_at": "2026-04-10T08:15:28.302698+00:00"
-    },
-    {
-      "id": "e9427c923f8711e0",
-      "content_hash": "e9427c923f8711e063afa671965b36e1538d35470b108dce40912605f7798d13",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35041",
-      "title": "CVE-2026-35041 - fast-jwt provides fast JSON Web Token (JWT) implementation. From 5.0.0 to 6.2.0,...",
-      "body": "fast-jwt provides fast JSON Web Token (JWT) implementation. From 5.0.0 to 6.2.0, a denial-of-service condition exists in fast-jwt when the allowedAud verification option is configured using a regular expression. Because the aud claim is attacker-controlled and the library evaluates it against the supplied RegExp, a crafted JWT can trigger catastrophic backtracking in the JavaScript regex engine, resulting in significant CPU consumption during verification. This vulnerability is fixed in 6.2.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35041",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.2,
-      "published_at": "2026-04-09T16:16:27.383000",
-      "created_at": "2026-04-10T08:15:28.302692+00:00"
-    },
-    {
-      "id": "c88c84ac8682d521",
-      "content_hash": "c88c84ac8682d521bec23ac8e0ad4d8bbd662c6e35e4364b84e73d52791e527c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35040",
-      "title": "CVE-2026-35040 - fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 6.2.1, usin...",
-      "body": "fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 6.2.1, using certain modifiers on RegExp objects in the allowedAud, allowedIss, allowedSub, allowedJti, or allowedNonce options in verify functions can cause certain unintended behaviours. This is because some modifiers are stateful and will cause failures in every second verification attempt regardless of the validity of the token provided. Such modifiers are /g (global matching) and /y (sticky matching). This does NOT allow invalid tokens to be accepted, only for valid tokens to be improperly rejected in some configurations. Instead it causes 50% of valid authentication requests to fail in an alternating pattern. This vulnerability is fixed in 6.2.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35040",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-09T16:16:27.213000",
-      "created_at": "2026-04-10T08:15:28.302685+00:00"
-    },
-    {
-      "id": "417569cc3935a5be",
-      "content_hash": "417569cc3935a5be71d72298707ad786681723e3d526ed6a44fa7bd2eda2222c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34020",
-      "title": "CVE-2026-34020 - Use of GET Request Method With Sensitive Query Strings vulnerability in Apache O...",
-      "body": "Use of GET Request Method With Sensitive Query Strings vulnerability in Apache OpenMeetings.\n\nThe REST login endpoint uses HTTP GET method with username and password passed as query parameters. Please check references regarding possible impact\n\n\nThis issue affects Apache OpenMeetings: from 3.1.3 before 9.0.0.\n\nUsers are recommended to upgrade to version 9.0.0, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34020",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T16:16:27.090000",
-      "created_at": "2026-04-10T06:25:42.850277+00:00"
-    },
-    {
-      "id": "01322e2c4aeb781b",
-      "content_hash": "01322e2c4aeb781b0b455d4bbaf338c26f77251c0418e7906ce3d8c76c490f66",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33266",
-      "title": "CVE-2026-33266 - Use of Hard-coded Cryptographic Key vulnerability in Apache OpenMeetings.\n\nThe r...",
-      "body": "Use of Hard-coded Cryptographic Key vulnerability in Apache OpenMeetings.\n\nThe remember-me cookie encryption key is set to default value in openmeetings.properties and not being auto-rotated. In case OM admin hasn't changed the default encryption key, an attacker who has stolen a cookie from a logged-in user can get full user credentials.\n\n\nThis issue affects Apache OpenMeetings: from 6.1.0 before 9.0.0.\n\nUsers are recommended to upgrade to version 9.0.0, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33266",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T16:16:26.960000",
-      "created_at": "2026-04-10T06:25:42.850270+00:00"
-    },
-    {
-      "id": "e2b5ce353a63168e",
-      "content_hash": "e2b5ce353a63168e159998f831b9bedd93fc16def1f7817921543f146d82c381",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33005",
-      "title": "CVE-2026-33005 - Improper Handling of Insufficient Privileges vulnerability in Apache OpenMeeting...",
-      "body": "Improper Handling of Insufficient Privileges vulnerability in Apache OpenMeetings.\n\nAny registered user can query web service with their credentials and get files/sub-folders of any folder by ID (metadata only NOT contents). Metadata includes id, type, name and some other field. Full list of fields get be checked at FileItemDTO object.\n\nThis issue affects Apache OpenMeetings: from 3.10 before 9.0.0.\n\nUsers are recommended to upgrade to version 9.0.0, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33005",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T16:16:26.823000",
-      "created_at": "2026-04-10T06:25:42.850264+00:00"
-    },
-    {
-      "id": "f8035d7924afdde4",
-      "content_hash": "f8035d7924afdde488d7f254dd7ef3f89ce37600da2a81aaa6d5a198afa35d29",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-70365",
-      "title": "CVE-2025-70365 - A stored cross-site scripting (XSS) vulnerability exists in Kiamo before 8.4 due...",
-      "body": "A stored cross-site scripting (XSS) vulnerability exists in Kiamo before 8.4 due to improper output encoding of user-supplied input in administrative interfaces. An authenticated administrative user can inject arbitrary JavaScript code that is executed in the browser of users viewing the affected pages.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70365",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T16:16:25.707000",
-      "created_at": "2026-04-10T06:25:42.850257+00:00"
-    },
-    {
-      "id": "56cdfb36ea58682c",
-      "content_hash": "56cdfb36ea58682cef53428887ebc0cac3024260745da6c7822a099df32124d9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-70364",
-      "title": "CVE-2025-70364 - An issue was discovered in Kiamo before 8.4 allowing authenticated administrativ...",
-      "body": "An issue was discovered in Kiamo before 8.4 allowing authenticated administrative attackers to execute arbitrary PHP code on the server.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70364",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T16:16:25.573000",
-      "created_at": "2026-04-10T06:25:42.850251+00:00"
     }
   ]
 }
