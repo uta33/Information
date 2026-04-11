@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-11T10:22:46.211670+00:00",
+  "generated_at": "2026-04-11T11:21:55.577109+00:00",
   "items": [
+    {
+      "id": "87246e5209b2e067",
+      "content_hash": "87246e5209b2e06706d5bbdea07b4870758c2108d23e47398b7eab707c6b1124",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lizplank.substack.com/p/artemis-ii-is-competency-porn-and",
+      "title": "Artemis II is competency porn",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47728721\">Comments</a>",
+      "url": "https://lizplank.substack.com/p/artemis-ii-is-competency-porn-and",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T08:35:23+00:00",
+      "created_at": "2026-04-11T11:21:55.576802+00:00"
+    },
     {
       "id": "fdc1ac49fd987adb",
       "content_hash": "fdc1ac49fd987adbc56d1506488ce377edc3d807389eb5147b834e02170cdaf0",
@@ -630,6 +644,62 @@
       "cvss_score": null,
       "published_at": "2026-04-10T17:27:07+00:00",
       "created_at": "2026-04-10T18:38:31.976692+00:00"
+    },
+    {
+      "id": "5dddeef514199d63",
+      "content_hash": "5dddeef514199d63aeaa456e12efa263cc344342bb803c55d27eea2a61e2506e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35602",
+      "title": "CVE-2026-35602 - Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, ...",
+      "body": "Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, the Vikunja file import endpoint uses the attacker-controlled Size field from the JSON metadata inside the import zip instead of the actual decompressed file content length for the file size enforcement check. By setting Size to 0 in the JSON while including large compressed file entries in the zip, an attacker bypasses the configured maximum file size limit. This vulnerability is fixed in 2.3.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35602",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-04-10T17:17:03.993000",
+      "created_at": "2026-04-11T11:21:51.063087+00:00"
+    },
+    {
+      "id": "b2e3e8101fb383a2",
+      "content_hash": "b2e3e8101fb383a2cefd14dfb55d62ce2f1dc33b2150f4b084a08e517bf84f86",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35601",
+      "title": "CVE-2026-35601 - Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, ...",
+      "body": "Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, the CalDAV output generator builds iCalendar VTODO entries via raw string concatenation without applying RFC 5545 TEXT value escaping. User-controlled task titles containing CRLF characters break the iCalendar property boundary, allowing injection of arbitrary iCalendar properties such as ATTACH, VALARM, or ORGANIZER. This vulnerability is fixed in 2.3.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35601",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.1,
+      "published_at": "2026-04-10T17:17:03.837000",
+      "created_at": "2026-04-11T11:21:51.063080+00:00"
+    },
+    {
+      "id": "3ff9cfe36b4b1e54",
+      "content_hash": "3ff9cfe36b4b1e549bb77985535ccb24b320e0596daf5c409ea11819c887602b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35600",
+      "title": "CVE-2026-35600 - Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, ...",
+      "body": "Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, task titles are embedded directly into Markdown link syntax in overdue email notifications without escaping Markdown special characters. When rendered by goldmark and sanitized by bluemonday (which allows <a> and <img> tags), injected Markdown constructs produce phishing links and tracking pixels in legitimate notification emails. This vulnerability is fixed in 2.3.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35600",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-04-10T17:17:03.680000",
+      "created_at": "2026-04-11T11:21:51.063074+00:00"
+    },
+    {
+      "id": "9e9a9e262ea2966e",
+      "content_hash": "9e9a9e262ea2966e60cc896695968cc510631051688d1d3c721671a53ee48860",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35599",
+      "title": "CVE-2026-35599 - Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, ...",
+      "body": "Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, the addRepeatIntervalToTime function uses an O(n) loop that advances a date by the task's RepeatAfter duration until it exceeds the current time. By creating a repeating task with a 1-second interval and a due date far in the past, an attacker triggers billions of loop iterations, consuming CPU and holding a database connection for minutes per request. This vulnerability is fixed in 2.3.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35599",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-10T17:17:03.520000",
+      "created_at": "2026-04-11T11:21:51.063067+00:00"
     },
     {
       "id": "45906a627463728e",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-09T17:49:57+00:00",
       "created_at": "2026-04-09T17:53:07.590936+00:00"
-    },
-    {
-      "id": "ae04795623d1c5bc",
-      "content_hash": "ae04795623d1c5bc84dc6014a0c019e9844b4253895d58aa184e4c88da5c628f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://read.technically.dev/p/i-let-claude-code-autonomously-run",
-      "title": "I Let Claude Code Autonomously Run Ads for a Month",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47706611\">Comments</a>",
-      "url": "https://read.technically.dev/p/i-let-claude-code-autonomously-run",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T17:30:41+00:00",
-      "created_at": "2026-04-09T17:53:07.903864+00:00"
-    },
-    {
-      "id": "6a84ecd760088c3c",
-      "content_hash": "6a84ecd760088c3ccd6c8b0e0cbcbe108940742645ac581ab219685c183cd9c1",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets",
-      "body": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit&nbsp;(SDK) called&nbsp;EngageLab&nbsp;SDK that could have put millions of cryptocurrency wallet users at&nbsp;risk.\n\"This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private&nbsp;data,\" the Microsoft Defender",
-      "url": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-09T17:26:00+00:00",
-      "created_at": "2026-04-09T19:57:29.011491+00:00"
-    },
-    {
-      "id": "b034de7a381808b1",
-      "content_hash": "b034de7a381808b120b53c1045d808df3947079557085dd74e1dc4059808e613",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
-      "body": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit&nbsp;(SDK) called&nbsp;EngageLab&nbsp;SDK that could have put millions of cryptocurrency wallet users at&nbsp;risk.\n\"This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private&nbsp;data,\" the Microsoft Defender",
-      "url": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-09T17:26:00+00:00",
-      "created_at": "2026-04-10T06:25:42.342853+00:00"
-    },
-    {
-      "id": "83fdd7ef98850b43",
-      "content_hash": "83fdd7ef98850b4335fc173e1fb1b42aa05198ffba4c397b691d092a988f2193",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3110892",
-      "title": "Sierra’s Bret Taylor says the era of clicking buttons is over",
-      "body": "Co-founder of Sierra predicts that AI agents will make software interfaces obsolete.",
-      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T17:20:50+00:00",
-      "created_at": "2026-04-09T17:53:07.590967+00:00"
-    },
-    {
-      "id": "75617ea119f838bb",
-      "content_hash": "75617ea119f838bb51bb24fbda9f3763d31ba93a05bd21235d68aa8a9a272348",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5962",
-      "title": "CVE-2026-5962 - A vulnerability was detected in Tenda CH22 1.0.0.6(468). This issue affects the ...",
-      "body": "A vulnerability was detected in Tenda CH22 1.0.0.6(468). This issue affects the function R7WebsSecurityHandlerfunction of the component httpd. The manipulation results in path traversal. The attack may be launched remotely. The exploit is now public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5962",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-09T17:16:35.037000",
-      "created_at": "2026-04-10T16:39:35.054070+00:00"
     }
   ]
 }
