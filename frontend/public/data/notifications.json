@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T11:21:55.577109+00:00",
+  "generated_at": "2026-04-11T12:32:44.308135+00:00",
   "items": [
     {
       "id": "87246e5209b2e067",
@@ -644,6 +644,34 @@
       "cvss_score": null,
       "published_at": "2026-04-10T17:27:07+00:00",
       "created_at": "2026-04-10T18:38:31.976692+00:00"
+    },
+    {
+      "id": "732498fd75911443",
+      "content_hash": "732498fd75911443fb7b39d1f2e8e8a130811eeacfcda08685846ad188a67836",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35620",
+      "title": "CVE-2026-35620 - OpenClaw before 2026.3.24 contains missing authorization vulnerabilities in the ...",
+      "body": "OpenClaw before 2026.3.24 contains missing authorization vulnerabilities in the /send and /allowlist chat command handlers. The /send command allows non-owner command-authorized senders to change owner-only session delivery policy settings, and the /allowlist mutating commands fail to enforce operator.admin scope. Attackers with operator.write scope can invoke /send on|off|inherit to persistently mutate the current session's sendPolicy, and execute /allowlist add commands to modify config-backed allowFrom entries and pairing-store allowlist entries without proper admin authorization.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35620",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-04-10T17:17:04.320000",
+      "created_at": "2026-04-11T12:32:39.292221+00:00"
+    },
+    {
+      "id": "051a271861bfd361",
+      "content_hash": "051a271861bfd361b57400e90b9c9b15f46546e6eaf87292b579b03e3ce8ad7f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35619",
+      "title": "CVE-2026-35619 - OpenClaw before 2026.3.24 contains an authorization bypass vulnerability in the ...",
+      "body": "OpenClaw before 2026.3.24 contains an authorization bypass vulnerability in the HTTP /v1/models endpoint that fails to enforce operator read scope requirements. Attackers with only operator.approvals scope can enumerate gateway model metadata through the HTTP compatibility route, bypassing the stricter WebSocket RPC authorization checks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35619",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-10T17:17:04.140000",
+      "created_at": "2026-04-11T12:32:39.292214+00:00"
     },
     {
       "id": "5dddeef514199d63",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-09T18:09:19+00:00",
       "created_at": "2026-04-09T18:46:49.059810+00:00"
-    },
-    {
-      "id": "7b06c0a97e506555",
-      "content_hash": "7b06c0a97e5065554c6e571a4f329cf99e283cb4c6811ebc574118d347931a7f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3110945",
-      "title": "How to make the Startup Battlefield Top 20 — and what every company gets regardless",
-      "body": "Every founder who applies to Startup Battlefield wants the same thing: the Disrupt Main Stage. Here’s how to get there and why the opportunity starts well before the main stage.",
-      "url": "https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T18:01:48+00:00",
-      "created_at": "2026-04-09T18:46:48.728944+00:00"
-    },
-    {
-      "id": "56720af2db68a267",
-      "content_hash": "56720af2db68a267fc2982e8481f165686381538ad13510987a19d469acb4735",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3110974",
-      "title": "You can now edit your Instagram comments",
-      "body": "Instagram users can now edit comments, which is a long-awaited fix for anyone who’s ever had to delete and re-post a comment just to fix a typo.",
-      "url": "https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T17:49:57+00:00",
-      "created_at": "2026-04-09T17:53:07.590936+00:00"
     }
   ]
 }
