@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-11T13:47:18.762185+00:00",
+  "generated_at": "2026-04-11T14:28:02.944360+00:00",
   "items": [
+    {
+      "id": "f2603b80cd95b9aa",
+      "content_hash": "f2603b80cd95b9aa16147029ef9943cf6326833ad1a578b905692d48e2fefa7e",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "title": "Over 20,000 crypto fraud victims identified in international crackdown",
+      "body": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-11T14:20:40+00:00",
+      "created_at": "2026-04-11T14:27:58.613765+00:00"
+    },
+    {
+      "id": "eee348b871217a70",
+      "content_hash": "eee348b871217a707fe691afb185202f579236fdfc26b0de7c096bc643b4bc03",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3111572",
+      "title": "Nvidia-backed SiFive hits $3.65 billion valuation for open AI chips",
+      "body": "The deal is interesting for a number of reasons, including that SiFive's chip designs are based on RISC-V, not x86 or ARM.",
+      "url": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T14:03:00+00:00",
+      "created_at": "2026-04-11T14:28:02.754900+00:00"
+    },
+    {
+      "id": "0f5a605d9e458ca2",
+      "content_hash": "0f5a605d9e458ca27dbfd22a79a145ecedd04788d7c4361759a0194ce614508c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+      "title": "South Korea introduces universal basic mobile data access",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47730407\">Comments</a>",
+      "url": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T13:27:16+00:00",
+      "created_at": "2026-04-11T14:28:02.943761+00:00"
+    },
     {
       "id": "009da2e22d50f475",
       "content_hash": "009da2e22d50f4753a71816129dbff104290c85c5640e5d178d42a9206ac6877",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T13:22:25+00:00",
       "created_at": "2026-04-11T13:47:18.761432+00:00"
+    },
+    {
+      "id": "d4a383f60a4962e0",
+      "content_hash": "d4a383f60a4962e02474a88899a3047d65aa01810508ca564b0e15e7528e8547",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "title": "Bitcoin miners are losing on every coin produced as difficulty drops",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47730370\">Comments</a>",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T13:22:25+00:00",
+      "created_at": "2026-04-11T14:28:02.943687+00:00"
     },
     {
       "id": "67ec29fa88b53f74",
@@ -44,6 +100,20 @@
       "created_at": "2026-04-11T13:47:18.761388+00:00"
     },
     {
+      "id": "8ef8e1368ba24313",
+      "content_hash": "8ef8e1368ba2431385c83a0b7fab169d1897286f3fe994194e71f88a5e121f5a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cirruslabs.org/",
+      "title": "Cirrus Labs to join OpenAI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47730194\">Comments</a>",
+      "url": "https://cirruslabs.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T13:01:34+00:00",
+      "created_at": "2026-04-11T14:28:02.943637+00:00"
+    },
+    {
       "id": "a3e2dbd0867afa07",
       "content_hash": "a3e2dbd0867afa0755ef60e7d4a62e02c056cf8673bd905be3ae5cf7568742f4",
       "source_name": "Hacker News (Best)",
@@ -56,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T12:28:04+00:00",
       "created_at": "2026-04-11T13:47:18.761466+00:00"
+    },
+    {
+      "id": "3f4a5431e69831e1",
+      "content_hash": "3f4a5431e69831e167ea64cb23aa55905f66804465cdc690ba381c9d9fefa58a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
+      "title": "Polymarket gamblers betting millions on war",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47729994\">Comments</a>",
+      "url": "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T12:28:04+00:00",
+      "created_at": "2026-04-11T14:28:02.944075+00:00"
     },
     {
       "id": "684c9f0547c7a9a5",
@@ -714,6 +798,34 @@
       "cvss_score": null,
       "published_at": "2026-04-10T17:27:07+00:00",
       "created_at": "2026-04-10T18:38:31.976692+00:00"
+    },
+    {
+      "id": "4623a3837c52eb7b",
+      "content_hash": "4623a3837c52eb7ba11106b8a5c2a517f31176840618540bc997dfcc834d4f9e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35643",
+      "title": "CVE-2026-35643 - OpenClaw before 2026.3.22 contains an unvalidated WebView JavascriptInterface vu...",
+      "body": "OpenClaw before 2026.3.22 contains an unvalidated WebView JavascriptInterface vulnerability allowing attackers to inject arbitrary instructions. Untrusted pages can invoke the canvas bridge to execute malicious code within the Android application context.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35643",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-10T17:17:04.887000",
+      "created_at": "2026-04-11T14:27:59.026806+00:00"
+    },
+    {
+      "id": "e6c78e012fc86641",
+      "content_hash": "e6c78e012fc86641b7c4caaaab1d789d36cc135bf82e45aed89fe749bc88309c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35641",
+      "title": "CVE-2026-35641 - OpenClaw before 2026.3.24 contains an arbitrary code execution vulnerability in ...",
+      "body": "OpenClaw before 2026.3.24 contains an arbitrary code execution vulnerability in local plugin and hook installation that allows attackers to execute malicious code by crafting a .npmrc file with a git executable override. During npm install execution in the staged package directory, attackers can leverage git dependencies to trigger execution of arbitrary programs specified in the attacker-controlled .npmrc configuration file.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35641",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.8,
+      "published_at": "2026-04-10T17:17:04.697000",
+      "created_at": "2026-04-11T14:27:59.026800+00:00"
     },
     {
       "id": "f8d77448e8620293",
@@ -1848,6 +1960,20 @@
       "cvss_score": 9.9,
       "published_at": "2026-04-10T13:16:45.780000",
       "created_at": "2026-04-11T05:53:43.494030+00:00"
+    },
+    {
+      "id": "f6d8bdc1e7c4c4df",
+      "content_hash": "f6d8bdc1e7c4c4dffc1b5f46f6b6525e8764c33e43c00bfbc03b22a495e2b5a1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+      "title": "Cooperative Vectors Introduction",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47717690\">Comments</a>",
+      "url": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T13:16:12+00:00",
+      "created_at": "2026-04-11T14:28:02.943795+00:00"
     },
     {
       "id": "6d133d158e9b47e1",
@@ -6874,132 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-04-09T18:17:03.203000",
       "created_at": "2026-04-10T16:39:35.054169+00:00"
-    },
-    {
-      "id": "91df8abca86d632f",
-      "content_hash": "91df8abca86d632f39e37a722c0e63bc079bcfb7d040b20fb686aa871ed1e124",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40069",
-      "title": "CVE-2026-40069 - BSV Ruby SDK is the Ruby SDK for the BSV blockchain. From 0.1.0 to before 0.8.2,...",
-      "body": "BSV Ruby SDK is the Ruby SDK for the BSV blockchain. From 0.1.0 to before 0.8.2, BSV::Network::ARC's failure detection only recognises REJECTED and DOUBLE_SPEND_ATTEMPTED. ARC responses with txStatus values of INVALID, MALFORMED, MINED_IN_STALE_BLOCK, or any ORPHAN-containing extraInfo / txStatus are silently treated as successful broadcasts. Applications that gate actions on broadcaster success are tricked into trusting transactions that were never accepted by the network. This vulnerability is fixed in 0.8.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40069",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-09T18:17:03.043000",
-      "created_at": "2026-04-10T16:39:35.054163+00:00"
-    },
-    {
-      "id": "2379cb6d89cc36e2",
-      "content_hash": "2379cb6d89cc36e2de104973007961459e840760fb32d5facb14749daf40d432",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39987",
-      "title": "CVE-2026-39987 - marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE...",
-      "body": "marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authentication validation, allowing an unauthenticated attacker to obtain a full PTY shell and execute arbitrary system commands. Unlike other WebSocket endpoints (e.g., /ws) that correctly call validate_auth() for authentication, the /terminal/ws endpoint only checks the running mode and platform support before accepting connections, completely skipping authentication verification. This vulnerability is fixed in 0.23.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39987",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T18:17:02.807000",
-      "created_at": "2026-04-10T16:39:35.054156+00:00"
-    },
-    {
-      "id": "59e6a9f0d15383b7",
-      "content_hash": "59e6a9f0d15383b7dfaa454f27c7337f73f15b1507b54a52ebf1e3cc1a21f9e0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39985",
-      "title": "CVE-2026-39985 - LORIS (Longitudinal Online Research and Imaging System) is a self-hosted web app...",
-      "body": "LORIS (Longitudinal Online Research and Imaging System) is a self-hosted web application that provides data- and project-management for neuroimaging research. Prior to 27.0.3 and 28.0.1, the redirect parameter upon login to LORIS was not validating the value of the redirect as being within LORIS, which could be used to trick users into visiting arbitrary URLs if they are given a link with a third party redirect parameter. This vulnerability is fixed in 27.0.3 and 28.0.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39985",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-09T18:17:02.653000",
-      "created_at": "2026-04-10T16:39:35.054149+00:00"
-    },
-    {
-      "id": "305c6664df2582fa",
-      "content_hash": "305c6664df2582fa8bf260d03313e1c77fb2f1d63fb0284c15447ef230d68c1e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39983",
-      "title": "CVE-2026-39983 - basic-ftp is an FTP client for Node.js. Prior to 5.2.1, basic-ftp allows FTP com...",
-      "body": "basic-ftp is an FTP client for Node.js. Prior to 5.2.1, basic-ftp allows FTP command injection via CRLF sequences (\\r\\n) in file path parameters passed to high-level path APIs such as cd(), remove(), rename(), uploadFrom(), downloadTo(), list(), and removeDir(). The library's protectWhitespace() helper only handles leading spaces and returns other paths unchanged, while FtpContext.send() writes the resulting command string directly to the control socket with \\r\\n appended. This lets attacker-controlled path strings split one intended FTP command into multiple commands. This vulnerability is fixed in 5.2.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39983",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.6,
-      "published_at": "2026-04-09T18:17:02.503000",
-      "created_at": "2026-04-10T16:39:35.054143+00:00"
-    },
-    {
-      "id": "849af421be3c4c15",
-      "content_hash": "849af421be3c4c15f52550e48c7b76b61d646836c35368586a1335805795d31c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39981",
-      "title": "CVE-2026-39981 - AGiXT is a dynamic AI Agent Automation Platform. Prior to 1.9.2, the safe_join()...",
-      "body": "AGiXT is a dynamic AI Agent Automation Platform. Prior to 1.9.2, the safe_join() function in the essential_abilities extension fails to validate that resolved file paths remain within the designated agent workspace. An authenticated attacker can use directory traversal sequences to read, write, or delete arbitrary files on the server hosting the AGiXT instance. This vulnerability is fixed in 1.9.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39981",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-09T18:17:02.350000",
-      "created_at": "2026-04-10T16:39:35.054137+00:00"
-    },
-    {
-      "id": "d970c7ad7137b221",
-      "content_hash": "d970c7ad7137b22157f80e0b60e84f47bee43800dc76f4886a4ea28affe50ce3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39980",
-      "title": "CVE-2026-39980 - OpenCTI is an open source platform for managing cyber threat intelligence knowle...",
-      "body": "OpenCTI is an open source platform for managing cyber threat intelligence knowledge and observables. Prior to 6.9.5, the safeEjs.ts file does not properly sanitize EJS templates. Users with the Manage customization capability can run arbitrary JavaScript in the context of the OpenCTI platform process during notifier template execution. This vulnerability is fixed in 6.9.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39980",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-04-09T18:17:02.203000",
-      "created_at": "2026-04-10T16:39:35.054130+00:00"
-    },
-    {
-      "id": "f415538b179b6ee2",
-      "content_hash": "f415538b179b6ee213c35e1f03ea7f95fe1073e8afec42cc0f4f9a4b2dee9d73",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39961",
-      "title": "CVE-2026-39961 - Aiven Operator allows you to provision and manage Aiven Services from your Kuber...",
-      "body": "Aiven Operator allows you to provision and manage Aiven Services from your Kubernetes cluster. From 0.31.0 to before 0.37.0, a developer with create permission on ClickhouseUser CRDs in their own namespace can exfiltrate secrets from any other namespace — production database credentials, API keys, service tokens — with a single kubectl apply. The operator reads the victim's secret using its ClusterRole and writes the password into a new secret in the attacker's namespace. The operator acts as a confused deputy: its ServiceAccount has cluster-wide secret read/write (aiven-operator-role ClusterRole), and it trusts user-supplied namespace values in spec.connInfoSecretSource.namespace without validation. No admission webhook enforces this boundary — the ServiceUser webhook returns nil, and no ClickhouseUser webhook exists. This vulnerability is fixed in 0.37.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39961",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-04-09T18:17:02.053000",
-      "created_at": "2026-04-10T16:39:35.054124+00:00"
-    },
-    {
-      "id": "3cbdb908468a755e",
-      "content_hash": "3cbdb908468a755e20dfd58fff840e89a1bfa5e3c11727f7f446c756230b9065",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39911",
-      "title": "CVE-2026-39911 - Hashgraph Guardian through version 3.5.0 contains an unsandboxed JavaScript exec...",
-      "body": "Hashgraph Guardian through version 3.5.0 contains an unsandboxed JavaScript execution vulnerability in the Custom Logic policy block worker that allows authenticated Standard Registry users to execute arbitrary code by passing user-supplied JavaScript expressions directly to the Node.js Function() constructor without isolation. Attackers can import native Node.js modules to read arbitrary files from the container filesystem, access process environment variables containing sensitive credentials such as RSA private keys, JWT signing keys, and API tokens, and forge valid authentication tokens for any user including administrators.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39911",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-09T18:17:01.870000",
-      "created_at": "2026-04-10T16:39:35.054117+00:00"
-    },
-    {
-      "id": "9db0a0bea921b7ed",
-      "content_hash": "9db0a0bea921b7edb6fd8c23fde5a8203bdbfe01684ea589937881248a605642",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39315",
-      "title": "CVE-2026-39315 - Unhead is a document head and template manager. Prior to 2.1.13, useHeadSafe() i...",
-      "body": "Unhead is a document head and template manager. Prior to 2.1.13, useHeadSafe() is the composable that Nuxt's own documentation explicitly recommends for rendering user-supplied content in <head> safely. Internally, the hasDangerousProtocol() function in packages/unhead/src/plugins/safe.ts decodes HTML entities before checking for blocked URI schemes (javascript:, data:, vbscript:). The decoder uses two regular expressions with fixed-width digit caps. The HTML5 specification imposes no limit on leading zeros in numeric character references. When a padded entity exceeds the regex digit cap, the decoder silently skips it. The undecoded string is then passed to startsWith('javascript:'), which does not match. makeTagSafe() writes the raw value directly into SSR HTML output. The browser's HTML parser decodes the padded entity natively and constructs the blocked URI. This vulnerability is fixed in 2.1.13.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39315",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-09T18:17:01.433000",
-      "created_at": "2026-04-10T16:39:35.054110+00:00"
     }
   ]
 }
