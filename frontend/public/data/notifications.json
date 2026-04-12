@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-12T10:28:52.383674+00:00",
+  "generated_at": "2026-04-12T11:26:19.077529+00:00",
   "items": [
+    {
+      "id": "492119b52da0d1a9",
+      "content_hash": "492119b52da0d1a9274ac69ea86158813823704683e494663d43874fd8ac80d1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6126",
+      "title": "CVE-2026-6126 - A weakness has been identified in zhayujie chatgpt-on-wechat CowAgent 2.0.4. The...",
+      "body": "A weakness has been identified in zhayujie chatgpt-on-wechat CowAgent 2.0.4. The affected element is an unknown function of the component Administrative HTTP Endpoint. This manipulation causes missing authentication. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6126",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-12T11:16:16.407000",
+      "created_at": "2026-04-12T11:26:14.355585+00:00"
+    },
+    {
+      "id": "ddd9540b25334dd6",
+      "content_hash": "ddd9540b25334dd64480167e5a2f96e6e54fcaefc1812be54d59b07b432f4f1d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chriswhocodes.com/vm-options-explorer.html",
+      "title": "JVM Options Explorer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738094\">Comments</a>",
+      "url": "https://chriswhocodes.com/vm-options-explorer.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T10:29:26+00:00",
+      "created_at": "2026-04-12T11:26:19.076740+00:00"
+    },
     {
       "id": "f64a16a8e2c012d5",
       "content_hash": "f64a16a8e2c012d56e1a535f7251803256a6f7fbc117f184d2a2b139d9e142b6",
@@ -14,6 +42,20 @@
       "cvss_score": 6.3,
       "published_at": "2026-04-12T10:16:01.277000",
       "created_at": "2026-04-12T10:28:47.410163+00:00"
+    },
+    {
+      "id": "83dc986b4eaf6341",
+      "content_hash": "83dc986b4eaf634181e10d60503fb9a72ea0ba2d2f11770e3b1bc022f17bbee2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://firethering.com/minimax-m2-7-agentic-model/",
+      "title": "MiniMax M2.7 Is Now Open Source",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47737928\">Comments</a>",
+      "url": "https://firethering.com/minimax-m2-7-agentic-model/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-12T10:07:33+00:00",
+      "created_at": "2026-04-12T11:26:19.076705+00:00"
     },
     {
       "id": "c8bfdb0423ae90a2",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T01:09:06+00:00",
       "created_at": "2026-04-10T04:37:54.221089+00:00"
-    },
-    {
-      "id": "4651a6a9ebd7b93d",
-      "content_hash": "4651a6a9ebd7b93d34f5ec9b42d11576ac025d27d2aead45eec9591919e07295",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/",
-      "title": "Apple's New iPhone Update Is Restricting Internet Freedom in the UK",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47712222\">Comments</a>",
-      "url": "https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:50:43+00:00",
-      "created_at": "2026-04-10T04:37:54.220770+00:00"
-    },
-    {
-      "id": "889583fd508df147",
-      "content_hash": "889583fd508df1474847bf89633b431f26728506cc871a4cbe1bd1e7ee1e01a5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/",
-      "title": "Mexican surveillance company Grupo Seguritech watches the U.S. border",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47712134\">Comments</a>",
-      "url": "https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:36:21+00:00",
-      "created_at": "2026-04-11T19:28:05.958660+00:00"
-    },
-    {
-      "id": "4f6439f35ebd4a22",
-      "content_hash": "4f6439f35ebd4a22482222120653682c10b992eab427e7e1e22712aae60dd470",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5992",
-      "title": "CVE-2026-5992 - A vulnerability was determined in Tenda F451 1.0.0.7. This affects the function ...",
-      "body": "A vulnerability was determined in Tenda F451 1.0.0.7. This affects the function fromP2pListFilter of the file /goform/P2pListFilter. This manipulation of the argument page causes stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5992",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-10T00:16:36.750000",
-      "created_at": "2026-04-10T23:25:32.208586+00:00"
     }
   ]
 }
