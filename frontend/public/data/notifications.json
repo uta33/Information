@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T09:36:21.843945+00:00",
+  "generated_at": "2026-04-12T10:28:52.383674+00:00",
   "items": [
+    {
+      "id": "f64a16a8e2c012d5",
+      "content_hash": "f64a16a8e2c012d56e1a535f7251803256a6f7fbc117f184d2a2b139d9e142b6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6125",
+      "title": "CVE-2026-6125 - A security flaw has been discovered in Dromara warm-flow up to 1.8.4. Impacted i...",
+      "body": "A security flaw has been discovered in Dromara warm-flow up to 1.8.4. Impacted is the function SpelHelper.parseExpression of the file /warm-flow/save-json of the component Workflow Definition Handler. The manipulation of the argument listenerPath/skipCondition/permissionFlag results in code injection. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6125",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-04-12T10:16:01.277000",
+      "created_at": "2026-04-12T10:28:47.410163+00:00"
+    },
     {
       "id": "c8bfdb0423ae90a2",
       "content_hash": "c8bfdb0423ae90a211dc3e4cd909c260074a0fa9adc8f9ec8794d2e1b8cf97a5",
@@ -70,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T08:38:56+00:00",
       "created_at": "2026-04-12T09:36:21.843248+00:00"
+    },
+    {
+      "id": "a6a1a8f1a0b09b12",
+      "content_hash": "a6a1a8f1a0b09b12678e2cbbd937d72958e9b3ee10c031721e0547640c4d241d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://phyphox.org/",
+      "title": "Phyphox – Physical Experiments Using a Smartphone",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47737376\">Comments</a>",
+      "url": "https://phyphox.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T08:38:11+00:00",
+      "created_at": "2026-04-12T10:28:52.383133+00:00"
     },
     {
       "id": "57a2eaf038f6b890",
@@ -6972,34 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-10T00:16:36.750000",
       "created_at": "2026-04-10T23:25:32.208586+00:00"
-    },
-    {
-      "id": "f7c96a7decb7612b",
-      "content_hash": "f7c96a7decb7612baf3f1f47f3e5f5f0f1c55c39f091b3a58e33cfdc789a09ac",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5991",
-      "title": "CVE-2026-5991 - A vulnerability was found in Tenda F451 1.0.0.7. Affected by this issue is the f...",
-      "body": "A vulnerability was found in Tenda F451 1.0.0.7. Affected by this issue is the function formWrlExtraSet of the file /goform/WrlExtraSet. The manipulation of the argument GO results in stack-based buffer overflow. The attack may be launched remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5991",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-10T00:16:36.557000",
-      "created_at": "2026-04-10T23:25:32.208579+00:00"
-    },
-    {
-      "id": "650162a0cdae3e7a",
-      "content_hash": "650162a0cdae3e7aea7e0adb7a77ebb1c52244820553db37e5891f9cfddef770",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5990",
-      "title": "CVE-2026-5990 - A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this vulnerabi...",
-      "body": "A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this vulnerability is the function fromSafeEmailFilter of the file /goform/SafeEmailFilter. The manipulation of the argument page leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5990",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-10T00:16:36.363000",
-      "created_at": "2026-04-10T23:25:32.208571+00:00"
     }
   ]
 }
