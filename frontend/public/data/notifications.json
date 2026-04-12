@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-11T23:22:52.922983+00:00",
+  "generated_at": "2026-04-12T01:23:40.642343+00:00",
   "items": [
+    {
+      "id": "fdd67012cb0edb0c",
+      "content_hash": "fdd67012cb0edb0cec011b148612dac45aeef639332be24b6e2ce05ac0fc7bd2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6108",
+      "title": "CVE-2026-6108 - A vulnerability was found in 1Panel-dev MaxKB up to 2.6.1. The affected element ...",
+      "body": "A vulnerability was found in 1Panel-dev MaxKB up to 2.6.1. The affected element is the function execute of the file apps/application/flow/step_node/mcp_node/impl/base_mcp_node.py of the component Model Context Protocol Node. Performing a manipulation results in os command injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used. You should upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6108",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-04-12T01:16:16.807000",
+      "created_at": "2026-04-12T01:23:35.650863+00:00"
+    },
+    {
+      "id": "3ad43a81a9f6c951",
+      "content_hash": "3ad43a81a9f6c951d612e73355633d0ddd0da17d720ce5987b2edb3e1911f870",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6107",
+      "title": "CVE-2026-6107 - A flaw has been found in 1Panel-dev MaxKB up to 2.6.1. This issue affects some u...",
+      "body": "A flaw has been found in 1Panel-dev MaxKB up to 2.6.1. This issue affects some unknown processing of the file apps/common/middleware/chat_headers_middleware.py of the component ChatHeadersMiddleware. This manipulation of the argument Name causes cross site scripting. Remote exploitation of the attack is possible. Upgrading to version 2.8.0 is capable of addressing this issue. Patch name: 026a2d623e2aa5efa67c4834651e79d5d7cab1da. Upgrading the affected component is advised. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6107",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.5,
+      "published_at": "2026-04-12T01:16:16.583000",
+      "created_at": "2026-04-12T01:23:35.650856+00:00"
+    },
+    {
+      "id": "09d0430d4dd3699d",
+      "content_hash": "09d0430d4dd3699dac87688cb5a28e8764b60af3d6e7b722ab5cede2c4b37343",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/duguyue100/midnight-captain",
+      "title": "Midnight Captain – A midnight commander inspired file manager",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47734912\">Comments</a>",
+      "url": "https://github.com/duguyue100/midnight-captain",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T23:37:43+00:00",
+      "created_at": "2026-04-12T01:23:40.641945+00:00"
+    },
     {
       "id": "076d27b28615d96c",
       "content_hash": "076d27b28615d96ca140dd4f11f2bcd287d2d558c4d79c6b9a7cd55c52c9d67c",
@@ -182,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T18:55:43+00:00",
       "created_at": "2026-04-11T23:22:52.922650+00:00"
+    },
+    {
+      "id": "2338c2e2fb35be86",
+      "content_hash": "2338c2e2fb35be86b3f096a5910d6d241ac82aedf4afb7cf65aab73f2357f185",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://noirlab.edu/public/news/noirlab2611/?nocache=true&lang=en",
+      "title": "New synthesis of astronomical measurements shows Hubble tension is real",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47733066\">Comments</a>",
+      "url": "https://noirlab.edu/public/news/noirlab2611/?nocache=true&lang=en",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T18:55:43+00:00",
+      "created_at": "2026-04-12T01:23:40.641966+00:00"
     },
     {
       "id": "f13ab52f6bad348d",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-09T23:17:01.257000",
       "created_at": "2026-04-10T23:25:32.208476+00:00"
-    },
-    {
-      "id": "e41df4d4cec95b66",
-      "content_hash": "e41df4d4cec95b66b0358283bbc97b6f44cead5cf5b12259480c1b07360f6f8d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5295",
-      "title": "CVE-2026-5295 - A stack buffer overflow exists in wolfSSL's PKCS7 implementation in the wc_PKCS7...",
-      "body": "A stack buffer overflow exists in wolfSSL's PKCS7 implementation in the wc_PKCS7_DecryptOri() function in wolfcrypt/src/pkcs7.c. When processing a CMS EnvelopedData message containing an OtherRecipientInfo (ORI) recipient, the function copies an ASN.1-parsed OID into a fixed 32-byte stack buffer (oriOID[MAX_OID_SZ]) via XMEMCPY without first validating that the parsed OID length does not exceed MAX_OID_SZ. A crafted CMS EnvelopedData message with an ORI recipient containing an OID longer than 32 bytes triggers a stack buffer overflow. Exploitation requires the library to be built with --enable-pkcs7 (disabled by default) and the application to have registered an ORI decrypt callback via wc_PKCS7_SetOriDecryptCb().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5295",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-09T23:17:01.093000",
-      "created_at": "2026-04-10T23:25:32.208446+00:00"
-    },
-    {
-      "id": "819fb944c1ad5d45",
-      "content_hash": "819fb944c1ad5d4561fec0b246d1b445342f2af18e3cfec3b69c2f82eae463bc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34424",
-      "title": "CVE-2026-34424 - Smart Slider 3 Pro version 3.5.1.35 for WordPress and Joomla contains a multi-st...",
-      "body": "Smart Slider 3 Pro version 3.5.1.35 for WordPress and Joomla contains a multi-stage remote access toolkit injected through a compromised update system that allows unauthenticated attackers to execute arbitrary code and commands. Attackers can trigger pre-authentication remote shell execution via HTTP headers, establish authenticated backdoors accepting arbitrary PHP code or OS commands, create hidden administrator accounts, exfiltrate credentials and access keys, and maintain persistence through multiple injection points including must-use plugins and core file modifications.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34424",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-09T23:17:00.540000",
-      "created_at": "2026-04-10T23:25:32.208421+00:00"
-    },
-    {
-      "id": "10007cb839ce95c8",
-      "content_hash": "10007cb839ce95c80ce5b30212e1b283e90fec34c85b78dc92ecd9dfc75a5429",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35645",
-      "title": "CVE-2026-35645 - OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in the g...",
-      "body": "OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in the gateway plugin subagent fallback deleteSession function that uses a synthetic operator.admin runtime scope. Attackers can exploit this by triggering session deletion without a request-scoped client to execute privileged operations with unintended administrative scope.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35645",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-09T22:16:34.050000",
-      "created_at": "2026-04-10T22:25:49.879049+00:00"
-    },
-    {
-      "id": "53e25e6ddd4c5e78",
-      "content_hash": "53e25e6ddd4c5e78f625e254410e2e7634971e4920543517d211433baed64f7d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35644",
-      "title": "CVE-2026-35644 - OpenClaw before 2026.3.22 contains an information disclosure vulnerability that ...",
-      "body": "OpenClaw before 2026.3.22 contains an information disclosure vulnerability that allows attackers with operator.read scope to expose credentials embedded in channel baseUrl and httpUrl fields. Attackers can access gateway snapshots via config.get and channels.status endpoints to retrieve sensitive authentication information from URL userinfo components.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35644",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-09T22:16:33.873000",
-      "created_at": "2026-04-10T22:25:49.879042+00:00"
     }
   ]
 }
