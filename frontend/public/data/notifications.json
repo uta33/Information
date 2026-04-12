@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T21:24:07.730593+00:00",
+  "generated_at": "2026-04-12T22:22:18.210103+00:00",
   "items": [
+    {
+      "id": "45d5e964dfd7c419",
+      "content_hash": "45d5e964dfd7c419a1fc5472c4b2148391e9e62d34b237584e85c9b93505b258",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wsj.com/tech/us-famous-inventions-inventors-wrong-3d5b0a0f",
+      "title": "Inventors Who Didn't Invent What They Are Famous for Inventing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47744598\">Comments</a>",
+      "url": "https://www.wsj.com/tech/us-famous-inventions-inventors-wrong-3d5b0a0f",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T21:16:45+00:00",
+      "created_at": "2026-04-12T22:22:18.209919+00:00"
+    },
     {
       "id": "112c6a9fb3b358f6",
       "content_hash": "112c6a9fb3b358f6839c5d99b865d1c64f8f645ac9a54001d1bea4dbc00bf87e",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T21:14:38+00:00",
       "created_at": "2026-04-12T21:24:07.299155+00:00"
+    },
+    {
+      "id": "3080a04694495cc7",
+      "content_hash": "3080a04694495cc7657af2ec857926572d25d6ade9823f4240bb2d1e53d724fe",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html",
+      "title": "Uncharted island soon to appear on nautical charts",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47744132\">Comments</a>",
+      "url": "https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T20:30:11+00:00",
+      "created_at": "2026-04-12T22:22:18.209780+00:00"
     },
     {
       "id": "bf3fd824b485f327",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T04:04:57+00:00",
       "created_at": "2026-04-10T09:59:20.142808+00:00"
-    },
-    {
-      "id": "70ce60925df99708",
-      "content_hash": "70ce60925df997085dce129f599c0a4f594447be22fd6e9cde592cc747f013bd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "title": "Protected quantum gates using qubit doublons in dynamical optical lattices",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47713495\">Comments</a>",
-      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T04:04:57+00:00",
-      "created_at": "2026-04-10T14:10:10.440473+00:00"
-    },
-    {
-      "id": "654a7ca07df1e598",
-      "content_hash": "654a7ca07df1e59827f5e4a79d21cb662be7735e76e2f57f1d4c865983296671",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "title": "A new trick brings stability to quantum operations",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47713495\">Comments</a>",
-      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T04:04:57+00:00",
-      "created_at": "2026-04-10T15:40:59.169750+00:00"
     }
   ]
 }
