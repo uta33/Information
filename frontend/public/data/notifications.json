@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T15:26:57.847511+00:00",
+  "generated_at": "2026-04-12T16:26:08.135612+00:00",
   "items": [
+    {
+      "id": "2ee2d2551192567b",
+      "content_hash": "2ee2d2551192567b9a12203a86f575d30f5e696b92df7807ef12b4b47dcfce9e",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3111457",
+      "title": "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?",
+      "body": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "url": "https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T16:06:00+00:00",
+      "created_at": "2026-04-12T16:26:07.766087+00:00"
+    },
     {
       "id": "edde6b87c8d3f2ca",
       "content_hash": "edde6b87c8d3f2ca736f7f30dcd6a9345799a4bf44d3cefda0da62151c897fd0",
@@ -392,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T13:15:31+00:00",
       "created_at": "2026-04-12T13:53:15.556339+00:00"
+    },
+    {
+      "id": "ad2baef72286a4cc",
+      "content_hash": "ad2baef72286a4cc624ee439f7a6a00c98e262f55b8e459caf713974062c4256",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/anthropics/claude-code/issues/45756",
+      "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47739260\">Comments</a>",
+      "url": "https://github.com/anthropics/claude-code/issues/45756",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T13:15:31+00:00",
+      "created_at": "2026-04-12T16:26:08.135123+00:00"
     },
     {
       "id": "564c13d0d0db3b5a",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T02:11:00+00:00",
       "created_at": "2026-04-10T04:37:54.027883+00:00"
-    },
-    {
-      "id": "5992ddcba94c32af",
-      "content_hash": "5992ddcba94c32af4e9cbcf6d32d85e47fda195f347d2adcf206e5949f483120",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010567.html",
-      "title": "navicatのNavicat for Oracleにおける未検証のパスワード変更に関する脆弱性",
-      "body": "Navicat for Oracle 12.1.15には、パスワード欄に非常に長い文字列を入力することで、ローカルの攻撃者がアプリケーションをクラッシュさせるサービス拒否の脆弱性があります。攻撃者は、Oracle接続設定時のパスワードパラメータに550文字の繰り返しバッファを貼り付けることで、アプリケーションをクラッシュさせる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010567.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027898+00:00"
-    },
-    {
-      "id": "aba9b11c3255a13f",
-      "content_hash": "aba9b11c3255a13f96587477a824608391ad8a383cacc16af0630548f84ea3c6",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010566.html",
-      "title": "HHD SoftwareのDevice Monitoring Studioにおけるオンチップファブリックアドレスマップによる保護領域と非保護領域の不正な重複の許可に関する脆弱性",
-      "body": "Device Monitoring Studio 8.10.00.8925にはサービス拒否の脆弱性が存在しており、ローカルの攻撃者がサーバー接続ダイアログに非常に長い文字列を入力することでアプリケーションをクラッシュさせることができます。攻撃者は、ツールメニューの「新しいサーバーに接続」インターフェースを通じて、繰り返し文字を含む不正なサーバー名またはアドレスを入力することで、このクラッシュを引き起こすことが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010566.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027915+00:00"
     }
   ]
 }
