@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-12T18:32:33.399774+00:00",
+  "generated_at": "2026-04-12T19:31:45.601682+00:00",
   "items": [
+    {
+      "id": "a40efee1b7f90bd0",
+      "content_hash": "a40efee1b7f90bd08d383dab8ff1fe27f80e25da8979d773d41275d9e7fb9a30",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40393",
+      "title": "CVE-2026-40393 - In Mesa before 25.3.6 and 26 before 26.0.1, out-of-bounds memory access can occu...",
+      "body": "In Mesa before 25.3.6 and 26 before 26.0.1, out-of-bounds memory access can occur in WebGPU because the amount of to-be-allocated data depends on an untrusted party, and is then used for alloca.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40393",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-04-12T19:16:20.797000",
+      "created_at": "2026-04-12T19:31:40.597768+00:00"
+    },
+    {
+      "id": "e91d7963910726a9",
+      "content_hash": "e91d7963910726a94a88218e31dfb6e53804e67b476333162071ca8851fa859e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40386",
+      "title": "CVE-2026-40386 - In libexif through 0.6.25, an integer underflow in size checking for Fuji and Ol...",
+      "body": "In libexif through 0.6.25, an integer underflow in size checking for Fuji and Olympus MakerNote decoding could be used by attackers to crash or leak information out of libexif-using programs.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40386",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.0,
+      "published_at": "2026-04-12T19:16:20.640000",
+      "created_at": "2026-04-12T19:31:40.597762+00:00"
+    },
+    {
+      "id": "fd6cf153bd839034",
+      "content_hash": "fd6cf153bd839034d43ff4f4b6ddde55514f0abad010b470b6f09bd47c00fa5b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40385",
+      "title": "CVE-2026-40385 - In libexif through 0.6.25, an unsigned 32bit integer overflow in Nikon MakerNote...",
+      "body": "In libexif through 0.6.25, an unsigned 32bit integer overflow in Nikon MakerNote handling could be used by local attackers to cause crashes or information leaks. This only affects 32bit systems.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40385",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.0,
+      "published_at": "2026-04-12T19:16:20.480000",
+      "created_at": "2026-04-12T19:31:40.597755+00:00"
+    },
+    {
+      "id": "e4ddab73bfe5382b",
+      "content_hash": "e4ddab73bfe5382b5f557c71974185035354e1e02813d631c9267e7e4e9383a7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tanyaverma.sh/2026/04/10/closing-of-the-frontier.html",
+      "title": "The Closing of the Frontier",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47742790\">Comments</a>",
+      "url": "https://tanyaverma.sh/2026/04/10/closing-of-the-frontier.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T18:30:29+00:00",
+      "created_at": "2026-04-12T19:31:45.600894+00:00"
+    },
     {
       "id": "c8ac2990347ff5aa",
       "content_hash": "c8ac2990347ff5aa8a1addaf9fcb21deab835548362632abe2a5606b18a9ed54",
@@ -100,6 +156,20 @@
       "created_at": "2026-04-12T17:25:46.365560+00:00"
     },
     {
+      "id": "11e6012fbdeb4317",
+      "content_hash": "11e6012fbdeb4317af4d96b67f70a635947f0f804d502c3210c845cbf59108c9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/halfwhey/claudraband",
+      "title": "Show HN: Claudraband – Claude Code for the Power User",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47741889\">Comments</a>",
+      "url": "https://github.com/halfwhey/claudraband",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T16:55:20+00:00",
+      "created_at": "2026-04-12T19:31:45.601065+00:00"
+    },
+    {
       "id": "75eec76c21ba57a9",
       "content_hash": "75eec76c21ba57a903df61566a5df8c2369640f99066c845ce4d4450f198e535",
       "source_name": "Hacker News (Best)",
@@ -142,6 +212,20 @@
       "created_at": "2026-04-12T18:32:33.399527+00:00"
     },
     {
+      "id": "f562be1a3044ada1",
+      "content_hash": "f562be1a3044ada19d2676c62490825e4817ed97468a9404d897a703d271024a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47741527",
+      "title": "Ask HN: What Are You Working On? (April 2026)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47741527\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47741527",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T16:24:43+00:00",
+      "created_at": "2026-04-12T19:31:45.601151+00:00"
+    },
+    {
       "id": "28280db776bc24fd",
       "content_hash": "28280db776bc24fd8c681028e027c46fc29a6a16db551ca6983178b250779651",
       "source_name": "Hacker News (Best)",
@@ -154,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T16:17:59+00:00",
       "created_at": "2026-04-12T18:32:33.399285+00:00"
+    },
+    {
+      "id": "0c3f4c6fb533a396",
+      "content_hash": "0c3f4c6fb533a3966366db8a8e9cc1f9bb7770c5d567eea4a1501f743e34e5df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-e342-6bd4-e053-0100007fdf3b/content",
+      "title": "Textbooks and Methods of Note-Taking in Early Modern Europe (2008)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47741393\">Comments</a>",
+      "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-e342-6bd4-e053-0100007fdf3b/content",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T16:10:51+00:00",
+      "created_at": "2026-04-12T19:31:45.601342+00:00"
     },
     {
       "id": "2ee2d2551192567b",
@@ -1960,6 +2058,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T10:58:36+00:00",
       "created_at": "2026-04-11T13:47:18.761625+00:00"
+    },
+    {
+      "id": "bbf879f535cba895",
+      "content_hash": "bbf879f535cba8952b09738e21acee42166359649842d29e2c5fd7003585ce37",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://wren.wtf/shower-thoughts/marks-magic-multiply/",
+      "title": "Mark's Magic Multiply",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47728879\">Comments</a>",
+      "url": "https://wren.wtf/shower-thoughts/marks-magic-multiply/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T09:03:34+00:00",
+      "created_at": "2026-04-12T19:31:45.601375+00:00"
     },
     {
       "id": "87246e5209b2e067",
@@ -6888,118 +7000,6 @@
       "cvss_score": 4.3,
       "published_at": "2026-04-10T02:16:03.877000",
       "created_at": "2026-04-10T23:25:32.208677+00:00"
-    },
-    {
-      "id": "5b5fec29bfba34d9",
-      "content_hash": "5b5fec29bfba34d9fa3afea251fcf2114897bc1e3994c52bd887312d5cf1fabc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4664",
-      "title": "CVE-2026-4664 - The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authe...",
-      "body": "The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 5.103.0. This is due to the `create_review_permissions_check()` function comparing the user-supplied `key` parameter against the order's `ivole_secret_key` meta value using strict equality (`===`), without verifying that the stored key is non-empty. For orders where no review reminder email has been sent, the `ivole_secret_key` meta is not set, causing `get_meta()` to return an empty string. An attacker can supply `key: \"\"` to match this empty value and bypass the permission check. This makes it possible for unauthenticated attackers to submit, modify, and inject product reviews on any product — including products not associated with the referenced order — via the REST API endpoint `POST /ivole/v1/review`. Reviews are auto-approved by default since `ivole_enable_moderation` defaults to `\"no\"`.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4664",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-10T02:16:03.710000",
-      "created_at": "2026-04-10T23:25:32.208669+00:00"
-    },
-    {
-      "id": "96c0b95c1ba25690",
-      "content_hash": "96c0b95c1ba25690f8b7d3ac90c5bdbdcf010ec846b09e8a19a025df9450bcbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4351",
-      "title": "CVE-2026-4351 - The Perfmatters plugin for WordPress is vulnerable to arbitrary file overwrite v...",
-      "body": "The Perfmatters plugin for WordPress is vulnerable to arbitrary file overwrite via path traversal in all versions up to, and including, 2.5.9. This is due to the `PMCS::action_handler()` method processing the bulk action `activate`/`deactivate` handlers without any authorization check or nonce verification. The `$_GET['snippets'][]` values are passed unsanitized to `Snippet::activate()`/`Snippet::deactivate()` which call `Snippet::update()` then `file_put_contents()` with the traversed path. This makes it possible for authenticated attackers, with Subscriber-level access and above, to overwrite arbitrary files on the server with a fixed PHP docblock content, potentially causing denial of service by corrupting critical files like `.htaccess` or `index.php`.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4351",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-10T02:16:03.553000",
-      "created_at": "2026-04-10T23:25:32.208663+00:00"
-    },
-    {
-      "id": "cd669ed2dd73faa1",
-      "content_hash": "cd669ed2dd73faa164977224f6a02b7a118c32c43a75208a24efdd15782e9e83",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4305",
-      "title": "CVE-2026-4305 - The Royal WordPress Backup & Restore Plugin plugin for WordPress is vulnerable t...",
-      "body": "The Royal WordPress Backup & Restore Plugin plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'wpr_pending_template' parameter in all versions up to, and including, 1.0.16 due to insufficient input validation. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick an administrator into performing an action such as clicking on a link.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4305",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-10T02:16:03.397000",
-      "created_at": "2026-04-10T23:25:32.208655+00:00"
-    },
-    {
-      "id": "39f15dd057372dd3",
-      "content_hash": "39f15dd057372dd378d675e5fbb2abeebc140e6c7ec9d3df7784ec5f767e54ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4057",
-      "title": "CVE-2026-4057 - The Download Manager plugin for WordPress is vulnerable to unauthorized modifica...",
-      "body": "The Download Manager plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the `makeMediaPublic()` and `makeMediaPrivate()` functions in all versions up to, and including, 3.3.51. This is due to the functions only checking for `edit_posts` capability without verifying post ownership via `current_user_can('edit_post', $id)`, and the destructive operations executing before the admin-level check in `mediaAccessControl()`. This makes it possible for authenticated attackers, with Contributor-level access and above, to strip all protection metadata (password, access restrictions, private flag) from any media file they do not own, making admin-protected files publicly accessible via their direct URL.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4057",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-10T02:16:03.240000",
-      "created_at": "2026-04-10T23:25:32.208648+00:00"
-    },
-    {
-      "id": "906ea1902599947d",
-      "content_hash": "906ea1902599947dfa0a623656dbe1437df09aaff8b7ea9862baf955f7ef9d12",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3360",
-      "title": "CVE-2026-3360 - The Tutor LMS – eLearning and online course solution plugin for WordPress is vul...",
-      "body": "The Tutor LMS – eLearning and online course solution plugin for WordPress is vulnerable to an Insecure Direct Object Reference in all versions up to, and including, 3.9.7. This is due to missing authentication and authorization checks in the `pay_incomplete_order()` function. The function accepts an attacker-controlled `order_id` parameter and uses it to look up order data, then writes billing fields to the order owner's profile (`$order_data->user_id`) without verifying the requester's identity or ownership. Because the Tutor nonce (`_tutor_nonce`) is exposed on public frontend pages, this makes it possible for unauthenticated attackers to overwrite the billing profile (name, email, phone, address) of any user who has an incomplete manual order, by sending a crafted POST request with a guessed or enumerated `order_id`.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3360",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-10T02:16:03.073000",
-      "created_at": "2026-04-10T23:25:32.208641+00:00"
-    },
-    {
-      "id": "ba45cac7d36967ad",
-      "content_hash": "ba45cac7d36967ad8672e224609b5a95677fd2b6c3b21255516d79bee6bbb05e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-2712",
-      "title": "CVE-2026-2712 - The WP-Optimize plugin for WordPress is vulnerable to unauthorized access of fun...",
-      "body": "The WP-Optimize plugin for WordPress is vulnerable to unauthorized access of functionality due to missing capability checks in the `receive_heartbeat()` function in `includes/class-wp-optimize-heartbeat.php` in all versions up to, and including, 4.5.0. This is due to the Heartbeat handler directly invoking `Updraft_Smush_Manager_Commands` methods without verifying user capabilities, nonce tokens, or the allowed commands whitelist that the normal AJAX handler (`updraft_smush_ajax`) enforces. This makes it possible for authenticated attackers, with Subscriber-level access and above, to invoke admin-only Smush operations including reading log files (`get_smush_logs`), deleting all backup images (`clean_all_backup_images`), triggering bulk image processing (`process_bulk_smush`), and modifying Smush options (`update_smush_options`).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2712",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-10T02:16:02.913000",
-      "created_at": "2026-04-10T23:25:32.208633+00:00"
-    },
-    {
-      "id": "bda17038fda7c5c3",
-      "content_hash": "bda17038fda7c5c35f0d35b92f670de6b1c7e75e2e5c465127d1736e2eba431d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-25203",
-      "title": "CVE-2026-25203 - Samsung MagicINFO 9 Server Incorrect Default Permissions Local Privilege Escalat...",
-      "body": "Samsung MagicINFO 9 Server Incorrect Default Permissions Local Privilege Escalation Vulnerability\n\n\nThis issue affects MagicINFO 9 Server: less than 21.1091.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25203",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-04-10T02:16:02.767000",
-      "created_at": "2026-04-10T23:25:32.208626+00:00"
-    },
-    {
-      "id": "0055544b42a90f29",
-      "content_hash": "0055544b42a90f29d80510f0e0e92abf59b94ca791159d2d6744d634e16e03bb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-1924",
-      "title": "CVE-2026-1924 - The Aruba HiSpeed Cache plugin for WordPress is vulnerable to Cross-Site Request...",
-      "body": "The Aruba HiSpeed Cache plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.0.4. This is due to missing nonce verification on the `ahsc_ajax_reset_options()` function. This makes it possible for unauthenticated attackers to reset all plugin settings to their default values via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1924",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-10T02:16:02.607000",
-      "created_at": "2026-04-10T23:25:32.208620+00:00"
     }
   ]
 }
