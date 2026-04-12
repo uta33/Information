@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-12T14:33:04.502056+00:00",
+  "generated_at": "2026-04-12T15:26:57.847511+00:00",
   "items": [
+    {
+      "id": "edde6b87c8d3f2ca",
+      "content_hash": "edde6b87c8d3f2ca736f7f30dcd6a9345799a4bf44d3cefda0da62151c897fd0",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=2973217",
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "body": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T15:07:08+00:00",
+      "created_at": "2026-04-12T15:26:57.730980+00:00"
+    },
+    {
+      "id": "6a56f9b912861a35",
+      "content_hash": "6a56f9b912861a350070029a8c3c6488adfd614bd3c45c36996c0d70f0b65ecc",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3111422",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "body": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T15:00:00+00:00",
+      "created_at": "2026-04-12T15:26:57.731009+00:00"
+    },
+    {
+      "id": "1478f8e89a4b3b48",
+      "content_hash": "1478f8e89a4b3b48dda0c8eb739f0ce63d7478676282e8c4f4c768330a3203d4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+      "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47740315\">Comments</a>",
+      "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T14:43:23+00:00",
+      "created_at": "2026-04-12T15:26:57.846928+00:00"
+    },
     {
       "id": "a647b46853051ec2",
       "content_hash": "a647b46853051ec2e2841cf54f60fd17dac038409524808c87a94c46f07a1d26",
@@ -462,6 +504,20 @@
       "cvss_score": 7.3,
       "published_at": "2026-04-12T11:16:16.407000",
       "created_at": "2026-04-12T11:26:14.355585+00:00"
+    },
+    {
+      "id": "7cf8cb0a6200bd24",
+      "content_hash": "7cf8cb0a6200bd2492c749d1cec9ef4d87b2c81e7bebc7aa7213b6bf884839a8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://perthirtysix.com/how-does-gps-work",
+      "title": "The Physics of GPS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738343\">Comments</a>",
+      "url": "https://perthirtysix.com/how-does-gps-work",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T11:10:18+00:00",
+      "created_at": "2026-04-12T15:26:57.847129+00:00"
     },
     {
       "id": "8d36a5c2866a9b03",
@@ -4664,6 +4720,20 @@
       "created_at": "2026-04-10T16:39:39.690461+00:00"
     },
     {
+      "id": "5810826a5c2b7600",
+      "content_hash": "5810826a5c2b76000775bdd5551236f190fe908e440f75f1100721ca3740bd6a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.reversesociety.co/blog/2026/kernel-rw-not-enough-extract-offsets-from-xnu-kernelcaches",
+      "title": "Compute iOS XNU offset from kernel cache",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47719968\">Comments</a>",
+      "url": "https://blog.reversesociety.co/blog/2026/kernel-rw-not-enough-extract-offsets-from-xnu-kernelcaches",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:51:21+00:00",
+      "created_at": "2026-04-12T15:26:57.847089+00:00"
+    },
+    {
       "id": "1a171c2dc39dd393",
       "content_hash": "1a171c2dc39dd393dc3223de23926eab095b14715d53248eb9ec068a867e82cd",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T02:11:00+00:00",
       "created_at": "2026-04-10T04:37:54.027915+00:00"
-    },
-    {
-      "id": "9e4cb74c6c82e1a0",
-      "content_hash": "9e4cb74c6c82e1a09806ab422614e82c779b86646c18668de031a73936f29256",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010565.html",
-      "title": "クアルコムのfastconnect 6900 ファームウェア等の複数製品における解放済みメモリの使用に関する脆弱性",
-      "body": "同時にフェンスの登録解除とシグナル処理が行われることで、解放済みメモリにアクセスしてメモリ破損が発生する。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010565.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027929+00:00"
-    },
-    {
-      "id": "701fe2ddf8c04d40",
-      "content_hash": "701fe2ddf8c04d40199d19990918af210601a70627e8f64c13c6766b97699168",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010564.html",
-      "title": "クアルコムのAR8035 ファームウェア等の複数製品における古典的バッファオーバーフローの脆弱性",
-      "body": "認証レポート生成中に整数オーバーフローが原因でバッファコピー操作が失敗し、メモリが破損する問題です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010564.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027945+00:00"
-    },
-    {
-      "id": "47580117be6d38e5",
-      "content_hash": "47580117be6d38e584c1c954eb408e609d899ac1dd70464fdf1a5f4cceac3e55",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010563.html",
-      "title": "クアルコムのfastconnect 6200 ファームウェア等の複数製品におけるスタックベースのバッファオーバーフローの脆弱性",
-      "body": "ユーザーからのフレームリクエストを処理中に発生するメモリ破損の脆弱性が存在します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010563.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027960+00:00"
-    },
-    {
-      "id": "046bf8a309116217",
-      "content_hash": "046bf8a309116217a5880ef89d1f2f21e899c65ab2ff3584f24325f1ebf9baf7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010562.html",
-      "title": "クアルコムの5g Fixed Wireless Access Platform Firmware等の複数製品における整数オーバーフローの脆弱性",
-      "body": "無効な署名オフセットを持つ破損した衛星データファイルをデコードするときにメモリ破損が発生します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010562.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027975+00:00"
-    },
-    {
-      "id": "bb1ae0b4bb7c0777",
-      "content_hash": "bb1ae0b4bb7c0777958bf58ca860cd094f8f5ee50e2734b017c00aec1518b149",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010561.html",
-      "title": "クアルコムのAR8035 ファームウェア等の複数製品におけるバッファオーバーリードの脆弱性",
-      "body": "初期スキャン時に、範囲外のアクションサイズを持つ非標準のFILSディスカバリフレームを処理すると、一時的なDoSが発生します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010561.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027990+00:00"
     }
   ]
 }
