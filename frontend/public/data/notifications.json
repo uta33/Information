@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-12T13:53:15.557229+00:00",
+  "generated_at": "2026-04-12T14:33:04.502056+00:00",
   "items": [
+    {
+      "id": "a647b46853051ec2",
+      "content_hash": "a647b46853051ec2e2841cf54f60fd17dac038409524808c87a94c46f07a1d26",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "body": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-12T14:20:31+00:00",
+      "created_at": "2026-04-12T14:33:00.296512+00:00"
+    },
+    {
+      "id": "b5947392f80a0fff",
+      "content_hash": "b5947392f80a0fff3438f0e6b430a4c1d5546f549787204f2028ca3be8ed0ea5",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3026383",
+      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
+      "body": "Slate auto burst onto the scene in April 2025. Here is a timeline that covers its origins, backers, product, and other new details.",
+      "url": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T14:00:00+00:00",
+      "created_at": "2026-04-12T14:33:04.327366+00:00"
+    },
     {
       "id": "f82366214b4ef59e",
       "content_hash": "f82366214b4ef59e8c5194e0fe0bbdd6ec9bbb1eba6646fab18e570924af4fbe",
@@ -322,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T13:15:31+00:00",
       "created_at": "2026-04-12T13:53:15.556339+00:00"
+    },
+    {
+      "id": "564c13d0d0db3b5a",
+      "content_hash": "564c13d0d0db3b5ac7e4a05d542daf4f35aeb33941882b0cc513e07528cd2cb2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47739174\">Comments</a>",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T13:06:44+00:00",
+      "created_at": "2026-04-12T14:33:04.501395+00:00"
     },
     {
       "id": "aa989fd43a37cc41",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T02:11:00+00:00",
       "created_at": "2026-04-10T04:37:54.027990+00:00"
-    },
-    {
-      "id": "dfdb978d290021d3",
-      "content_hash": "dfdb978d290021d3390928c33f8161295bea6e5689a3a5f276977055f396584d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010560.html",
-      "title": "クアルコムのAR8035 ファームウェア等の複数製品におけるバッファオーバーリードの脆弱性",
-      "body": "近隣認識ネットワークプロトコルの接続中に、デバイスのマッチング時に過剰な長さのサービスデータフレームを受信すると、一時的にサービス拒否（DOS）が発生します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010560.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.028004+00:00"
-    },
-    {
-      "id": "2aba5c855a89fb92",
-      "content_hash": "2aba5c855a89fb9280508911ec95e464e504a616126217a9654786b7946c78ad",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010559.html",
-      "title": "TheCodingMachineのGotenbergにおける複数の脆弱性",
-      "body": "Gotenbergはドキュメント形式を変換するためのAPIです。特定のバージョンでは、大文字小文字を区別しないURLスキームの処理に問題がありましたが、この問題は最新バージョンで修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010559.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.028020+00:00"
-    },
-    {
-      "id": "ae57e13b5ed82358",
-      "content_hash": "ae57e13b5ed823584b9ad29913bf6312cb14bbeef68a3afc394446baae834990",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010558.html",
-      "title": "InterzenのZenShare Suiteにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Interzen Consulting S.r.lのZenShare Suite v17.0におけるlogin_newpwd.phpエンドポイントには、リフレクト型クロスサイトスクリプティング（XSS）の脆弱性があります。攻撃者はcodice_aziendaパラメータに細工されたURLを注入することで、ユーザーのブラウザのコンテキスト内で任意のJavaScriptを実行できます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010558.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.028035+00:00"
     }
   ]
 }
