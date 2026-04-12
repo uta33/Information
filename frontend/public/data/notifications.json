@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-12T20:23:21.881552+00:00",
+  "generated_at": "2026-04-12T21:24:07.730593+00:00",
   "items": [
+    {
+      "id": "112c6a9fb3b358f6",
+      "content_hash": "112c6a9fb3b358f6839c5d99b865d1c64f8f645ac9a54001d1bea4dbc00bf87e",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3111711",
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "body": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T21:14:38+00:00",
+      "created_at": "2026-04-12T21:24:07.299155+00:00"
+    },
+    {
+      "id": "bf3fd824b485f327",
+      "content_hash": "bf3fd824b485f327ddf1a88c1d4776958d653f11b7c02ab10341163956f8f857",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ecoportal.net/en/solar-panels-are-creating-rain-clouds/19854/",
+      "title": "Solar panels are creating an unexpected effect by forming rainfall clouds",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47744050\">Comments</a>",
+      "url": "https://www.ecoportal.net/en/solar-panels-are-creating-rain-clouds/19854/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T20:21:58+00:00",
+      "created_at": "2026-04-12T21:24:07.730125+00:00"
+    },
     {
       "id": "1931779371232e9a",
       "content_hash": "1931779371232e9a1d90df5b7cc42ca8134a8733cc61178374d0bb997562d92d",
@@ -44,6 +72,20 @@
       "created_at": "2026-04-12T20:23:18.317487+00:00"
     },
     {
+      "id": "c43382e3899f6f0d",
+      "content_hash": "c43382e3899f6f0d959df051f0aefdd1fad8cbed492a823756aa71cb120a4e14",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/world/europe/hungarians-vote-landmark-election-closely-watched-by-eu-russia-us-2026-04-11/",
+      "title": "Hungary's Orban concedes landmark defeat to centre-right opposition",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47743961\">Comments</a>",
+      "url": "https://www.reuters.com/world/europe/hungarians-vote-landmark-election-closely-watched-by-eu-russia-us-2026-04-11/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T20:14:14+00:00",
+      "created_at": "2026-04-12T21:24:07.730181+00:00"
+    },
+    {
       "id": "811754b2be98d91f",
       "content_hash": "811754b2be98d91f0f84c9c87f783156beb8d9bee0f06baa088297a8a2fb0b43",
       "source_name": "TechCrunch",
@@ -72,6 +114,20 @@
       "created_at": "2026-04-12T20:23:21.881100+00:00"
     },
     {
+      "id": "e8fd61bf0bb57093",
+      "content_hash": "e8fd61bf0bb57093dbb5d1e4eed60f45df8dbe4576c2027df25bb1d4ce1bf377",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+      "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47743730\">Comments</a>",
+      "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T19:53:08+00:00",
+      "created_at": "2026-04-12T21:24:07.729886+00:00"
+    },
+    {
       "id": "83958b6902f61965",
       "content_hash": "83958b6902f61965330e9122630f9f790b501a48e224ff12d28cd525d7a30ebf",
       "source_name": "Hacker News (Best)",
@@ -86,6 +142,20 @@
       "created_at": "2026-04-12T20:23:21.880778+00:00"
     },
     {
+      "id": "f32b9b93406848fa",
+      "content_hash": "f32b9b93406848fa56603aa1c747800064140148b591bb97ae565fd5ec41e90b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://europe.mistral.ai/",
+      "title": "European AI. A playbook to own it",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47743700\">Comments</a>",
+      "url": "https://europe.mistral.ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T19:51:06+00:00",
+      "created_at": "2026-04-12T21:24:07.730050+00:00"
+    },
+    {
       "id": "0fef88216adb2544",
       "content_hash": "0fef88216adb25440c6dca220c412848f4ddd6af5a3d7602bc7d997884c49e2f",
       "source_name": "Hacker News (Best)",
@@ -98,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T19:44:40+00:00",
       "created_at": "2026-04-12T20:23:21.880949+00:00"
+    },
+    {
+      "id": "ad0e53ea01c57810",
+      "content_hash": "ad0e53ea01c57810b20071e6a490a2c52d6bcba95f3b0c7275c4db209572058a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+      "title": "The peril of laziness lost",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47743628\">Comments</a>",
+      "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T19:44:40+00:00",
+      "created_at": "2026-04-12T21:24:07.729766+00:00"
     },
     {
       "id": "a40efee1b7f90bd0",
@@ -182,6 +266,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T18:19:02+00:00",
       "created_at": "2026-04-12T18:32:33.398978+00:00"
+    },
+    {
+      "id": "0da4f274cb4df4cf",
+      "content_hash": "0da4f274cb4df4cf3dd8cb1e6a5107c11b1f1e8e2f132c99560d763a1ea924a9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193",
+      "title": "Apple has removed most of the towns and villages in Lebanon from Apple maps?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47742680\">Comments</a>",
+      "url": "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T18:19:02+00:00",
+      "created_at": "2026-04-12T21:24:07.730012+00:00"
     },
     {
       "id": "f63322ab1fe6b931",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T04:04:57+00:00",
       "created_at": "2026-04-10T15:40:59.169750+00:00"
-    },
-    {
-      "id": "d1064f4c3e6c58ce",
-      "content_hash": "d1064f4c3e6c58ce9f73ec7a4cb526cb81bfb66b1772bac55594e8a9ffa1303a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://jcs.org/2026/04/09/openbsd-dm250",
-      "title": "Installing OpenBSD on the Pomera DM250{,XY?}",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47713265\">Comments</a>",
-      "url": "https://jcs.org/2026/04/09/openbsd-dm250",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T03:29:14+00:00",
-      "created_at": "2026-04-10T06:25:47.216234+00:00"
-    },
-    {
-      "id": "bb5e5cf1c6ced784",
-      "content_hash": "bb5e5cf1c6ced78434ad7cff62e80c50add91e2a0c938536bb6b5f183e444bf5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6004",
-      "title": "CVE-2026-6004 - A vulnerability was detected in code-projects Simple IT Discussion Forum 1.0. Im...",
-      "body": "A vulnerability was detected in code-projects Simple IT Discussion Forum 1.0. Impacted is an unknown function of the file /delete-category.php. Performing a manipulation of the argument cat_id results in sql injection. It is possible to initiate the attack remotely. The exploit is now public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6004",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-10T03:16:04.700000",
-      "created_at": "2026-04-10T23:25:32.208731+00:00"
-    },
-    {
-      "id": "6903d1f5fad0b9e0",
-      "content_hash": "6903d1f5fad0b9e0a013a19b185af0c82b967eb928c700379a883ff392fb3bab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6003",
-      "title": "CVE-2026-6003 - A security vulnerability has been detected in code-projects Simple IT Discussion...",
-      "body": "A security vulnerability has been detected in code-projects Simple IT Discussion Forum 1.0. This issue affects some unknown processing of the file /admin/user.php. Such manipulation of the argument fname leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6003",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.4,
-      "published_at": "2026-04-10T03:16:04.497000",
-      "created_at": "2026-04-10T23:25:32.208724+00:00"
-    },
-    {
-      "id": "39f9748392a0e09e",
-      "content_hash": "39f9748392a0e09ea62484e13852bb06548ff784c52683b4416a1c21ce9f9b4c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6000",
-      "title": "CVE-2026-6000 - A vulnerability was found in code-projects Online Library Management System 1.0....",
-      "body": "A vulnerability was found in code-projects Online Library Management System 1.0. Affected is an unknown function of the file /sql/library.sql of the component SQL Database Backup File Handler. Performing a manipulation results in information disclosure. The attack may be initiated remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6000",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-10T03:16:04.270000",
-      "created_at": "2026-04-10T23:25:32.208717+00:00"
-    },
-    {
-      "id": "d04c6421705439ae",
-      "content_hash": "d04c6421705439aeaae200f6dbe2ab14af686963e40973464705b94b84782a40",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5999",
-      "title": "CVE-2026-5999 - A vulnerability has been found in JeecgBoot up to 3.9.1. This impacts an unknown...",
-      "body": "A vulnerability has been found in JeecgBoot up to 3.9.1. This impacts an unknown function of the component SysAnnouncementController. Such manipulation leads to improper authorization. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor confirmed the issue and will provide a fix in the upcoming release.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5999",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-10T03:16:04.053000",
-      "created_at": "2026-04-10T23:25:32.208710+00:00"
-    },
-    {
-      "id": "436fc6f3bea079a3",
-      "content_hash": "436fc6f3bea079a317a500da4dcecb5032f97724ad6010f61e2a24b092a52c63",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33551",
-      "title": "CVE-2026-33551 - An issue was discovered in OpenStack Keystone 14 through 26 before 26.1.1, 27.0....",
-      "body": "An issue was discovered in OpenStack Keystone 14 through 26 before 26.1.1, 27.0.0, 28.0.0, and 29.0.0. Restricted application credentials can create EC2 credentials. By using a restricted application credential to call the EC2 credential creation API, an authenticated user with only a reader role may obtain an EC2/S3 credential that carries the full set of the parent user's S3 permissions, effectively bypassing the role restrictions imposed on the application credential. Only deployments that use restricted application credentials in combination with the EC2/S3 compatibility API (swift3 / s3api) are affected.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33551",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.5,
-      "published_at": "2026-04-10T03:16:02.723000",
-      "created_at": "2026-04-10T23:25:32.208704+00:00"
-    },
-    {
-      "id": "ff5b035adb660ce2",
-      "content_hash": "ff5b035adb660ce2c8ae7ade91727f782408d5a022ec7e895311fb8e9890fd9d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000053.html",
-      "title": "EmoCheckにおけるDLL読み込みに関する脆弱性",
-      "body": "一般社団法人JPCERTコーディネーションセンターが提供するEmoCheckはマルウェア「Emotet」の感染確認ツールです。EmoCheckには、DLLを読み込む際の検索パスに問題があり、同一ディレクトリに存在する特定のDLLを読み込んでしまう可能性があります。\n<ul><li>ファイル検索パスの制御不備（CWE-427）- CVE-2026-28704</li><ul><li>細工されたDLLファイルを危険なファイルと知らずにダウンロードしてEmoCheckと同じディレクトリに置き、その後、EmoCheckを実行した場合に本脆弱性の影響を受けます</li></ul></ul>\nこの脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが組織内で調整を行いました。\n報告者：Ｐｏｗｄｅｒ　Ｋｅｇ　Ｔｅｃｈｎｏｌｏｇｉｅｓ株式会社 島田凌 氏",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000053.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T03:08:00+00:00",
-      "created_at": "2026-04-10T08:15:31.568863+00:00"
     }
   ]
 }
