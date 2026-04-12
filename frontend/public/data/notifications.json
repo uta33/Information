@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T06:18:06.957439+00:00",
+  "generated_at": "2026-04-12T07:57:04.093641+00:00",
   "items": [
+    {
+      "id": "2afb303ed626b0bc",
+      "content_hash": "2afb303ed626b0bcf7656a4bb61291f5073c0bf054fbe2414906ca79fd3fdaf4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.politico.com/news/2026/04/11/pope-leo-xiv-denounces-the-delusion-of-omnipotence-he-says-fuels-the-us-israeli-war-in-iran-00868142",
+      "title": "Pope Leo XIV denounces the 'delusion of omnipotence' he says fuels the Iran war",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47736907\">Comments</a>",
+      "url": "https://www.politico.com/news/2026/04/11/pope-leo-xiv-denounces-the-delusion-of-omnipotence-he-says-fuels-the-us-israeli-war-in-iran-00868142",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T07:13:55+00:00",
+      "created_at": "2026-04-12T07:57:04.093110+00:00"
+    },
     {
       "id": "e8caf325d7e611c4",
       "content_hash": "e8caf325d7e611c49e788b8e902202fd06078fc308c7daeb124321dd332cc342",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T06:16:20.050000",
       "created_at": "2026-04-12T06:18:02.165427+00:00"
+    },
+    {
+      "id": "07220bf8bf74d297",
+      "content_hash": "07220bf8bf74d2973552150cabfe1f9dd4284e0c466aa25596fa93e4830d5165",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+      "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47736555\">Comments</a>",
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T06:00:00+00:00",
+      "created_at": "2026-04-12T07:57:04.092896+00:00"
     },
     {
       "id": "a39b430ea87eb590",
@@ -406,6 +434,20 @@
       "cvss_score": null,
       "published_at": "2026-04-11T23:37:43+00:00",
       "created_at": "2026-04-12T01:23:40.641945+00:00"
+    },
+    {
+      "id": "c4488f4b770c641d",
+      "content_hash": "c4488f4b770c641d0eb3b3c42a2147fc88dcaf9a81c2bbac0bd27bd4462181c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hamy.xyz/blog/2026-01_high-level-rust",
+      "title": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47734878\">Comments</a>",
+      "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-11T23:30:40+00:00",
+      "created_at": "2026-04-12T07:57:04.093265+00:00"
     },
     {
       "id": "076d27b28615d96c",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T00:00:00+00:00",
       "created_at": "2026-04-10T18:38:27.036600+00:00"
-    },
-    {
-      "id": "717f437233e95f03",
-      "content_hash": "717f437233e95f038a24b5f4edba451e0b7c36fba0cd1792bf2bd7dc299645aa",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/skills",
-      "title": "Using skills",
-      "body": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-      "url": "https://openai.com/academy/skills",
-      "category": "ai",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036623+00:00"
-    },
-    {
-      "id": "95544fe02d248cd9",
-      "content_hash": "95544fe02d248cd909614308c25583c1750930c21c187445a0fe7de8ee68b33d",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/data-analysis",
-      "title": "Analyzing data with ChatGPT",
-      "body": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
-      "url": "https://openai.com/academy/data-analysis",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036672+00:00"
-    },
-    {
-      "id": "c63aa01df22668be",
-      "content_hash": "c63aa01df22668becd6a2ae40e3abef0fece980d9f1d226bc7321dc9a68aebde",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/what-is-ai",
-      "title": "AI fundamentals",
-      "body": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-      "url": "https://openai.com/academy/what-is-ai",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036696+00:00"
     }
   ]
 }
