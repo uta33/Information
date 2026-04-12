@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-12T07:57:04.093641+00:00",
+  "generated_at": "2026-04-12T08:40:05.175337+00:00",
   "items": [
+    {
+      "id": "57a2eaf038f6b890",
+      "content_hash": "57a2eaf038f6b890c66e4088e8c082efaeb8a5deefed8356d1a11113f167c084",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6122",
+      "title": "CVE-2026-6122 - A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this issue is ...",
+      "body": "A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this issue is the function frmL7ProtForm of the file /goform/L7Prot of the component httpd. Such manipulation of the argument page leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6122",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-12T08:16:37.700000",
+      "created_at": "2026-04-12T08:40:00.313463+00:00"
+    },
+    {
+      "id": "f0c1dee5db980a05",
+      "content_hash": "f0c1dee5db980a058f5ba6e244fa74fc6d170d1ce2b1496a42ea45d3ac134e0e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6121",
+      "title": "CVE-2026-6121 - A flaw has been found in Tenda F451 1.0.0.7. Affected by this vulnerability is t...",
+      "body": "A flaw has been found in Tenda F451 1.0.0.7. Affected by this vulnerability is the function WrlclientSet of the file /goform/WrlclientSet of the component httpd. This manipulation of the argument GO causes stack-based buffer overflow. The attack may be initiated remotely. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6121",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-12T08:16:36.467000",
+      "created_at": "2026-04-12T08:40:00.313456+00:00"
+    },
     {
       "id": "2afb303ed626b0bc",
       "content_hash": "2afb303ed626b0bcf7656a4bb61291f5073c0bf054fbe2414906ca79fd3fdaf4",
@@ -84,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T05:54:00+00:00",
       "created_at": "2026-04-12T06:18:01.847416+00:00"
+    },
+    {
+      "id": "6521b6fde34c8650",
+      "content_hash": "6521b6fde34c865018b94c84006c13e3ba11f7f29f1d372ac5674182dda667a5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/anthropics/claude-code/issues/46829",
+      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47736476\">Comments</a>",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T05:45:52+00:00",
+      "created_at": "2026-04-12T08:40:05.174814+00:00"
     },
     {
       "id": "5de1d4001149c77c",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T00:16:35.603000",
       "created_at": "2026-04-10T23:25:32.208532+00:00"
-    },
-    {
-      "id": "8e0a769bb54bdecb",
-      "content_hash": "8e0a769bb54bdecbbd563a7085e7e803852d6fa413f101a41b563a482bc46b66",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/financial-services",
-      "title": "Financial services",
-      "body": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "url": "https://openai.com/academy/financial-services",
-      "category": "ai",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036523+00:00"
-    },
-    {
-      "id": "4cd80629e6412b51",
-      "content_hash": "4cd80629e6412b5173a2345171ca76e8d640aedfe3cf6507aaf4af717ade4ce2",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/prompting",
-      "title": "Prompting fundamentals",
-      "body": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "url": "https://openai.com/academy/prompting",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036572+00:00"
-    },
-    {
-      "id": "3809584f76d48a45",
-      "content_hash": "3809584f76d48a457470b45fa8b255bef41736cca4aeebc73567fc2c7e7dbfc3",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/image-generation",
-      "title": "Creating images with ChatGPT",
-      "body": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
-      "url": "https://openai.com/academy/image-generation",
-      "category": "ai",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "created_at": "2026-04-10T18:38:27.036600+00:00"
     }
   ]
 }
