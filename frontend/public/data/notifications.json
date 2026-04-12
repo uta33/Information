@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-12T16:26:08.135612+00:00",
+  "generated_at": "2026-04-12T17:25:46.366240+00:00",
   "items": [
+    {
+      "id": "a19b08691c8271cc",
+      "content_hash": "a19b08691c8271cc8419f98465e554e11806daf1c7a86e0900fb10c0fd2ebe32",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3111704",
+      "title": "X says it’s reducing payments to clickbait accounts",
+      "body": "X is cutting back on payments to accounts that are “flooding the timeline” with clickbait and rapid-fire news aggregation, according to its head of product Nikita Bier",
+      "url": "https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T17:02:20+00:00",
+      "created_at": "2026-04-12T17:25:46.027235+00:00"
+    },
+    {
+      "id": "12dbcbfd6a15bba6",
+      "content_hash": "12dbcbfd6a15bba62e8ceaa03f129ac6dd60e6090f1fce4adc53935ca061c251",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.easypost.com/careers",
+      "title": "EasyPost (YC S13) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47741953\">Comments</a>",
+      "url": "https://www.easypost.com/careers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T17:01:26+00:00",
+      "created_at": "2026-04-12T17:25:46.365560+00:00"
+    },
+    {
+      "id": "45febf93c66b089e",
+      "content_hash": "45febf93c66b089edd9783a5128cbbc62b16fc5b405e84d9e741ac46186ac926",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://eualternative.eu/guides/building-saas-eu-stack/",
+      "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47741634\">Comments</a>",
+      "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T16:33:19+00:00",
+      "created_at": "2026-04-12T17:25:46.365420+00:00"
+    },
     {
       "id": "2ee2d2551192567b",
       "content_hash": "2ee2d2551192567b9a12203a86f575d30f5e696b92df7807ef12b4b47dcfce9e",
@@ -4804,6 +4846,20 @@
       "created_at": "2026-04-10T16:39:39.690325+00:00"
     },
     {
+      "id": "f287473b739be617",
+      "content_hash": "f287473b739be617501aabaa642f4e8905ccc538f85ad5969b8509d0478213d7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.trainjazz.com/",
+      "title": "I gave every train in New York an instrument",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47719490\">Comments</a>",
+      "url": "https://www.trainjazz.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-10T15:21:07+00:00",
+      "created_at": "2026-04-12T17:25:46.365521+00:00"
+    },
+    {
       "id": "c220d7d070026b22",
       "content_hash": "c220d7d070026b22f31c0f42b42ed1f0d0540d79952b1c0e7f00c6a5bfd7d16b",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T02:11:00+00:00",
       "created_at": "2026-04-10T04:37:54.027819+00:00"
-    },
-    {
-      "id": "dede09e237210257",
-      "content_hash": "dede09e23721025777d01cb7417c519fc1bd51e64602ce75775bc0e699ea58dd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010571.html",
-      "title": "Eusing SoftwareのFree IP Switcherにおける境界外書き込みに関する脆弱性",
-      "body": "Free IP Switcher 3.1にはバッファオーバーフローの脆弱性があり、ローカルの攻撃者がComputer Nameフィールドに非常に長い文字列を入力することでアプリケーションをクラッシュさせることができます。攻撃者は悪意のあるペイロードをComputer Name入力フィールドに貼り付けてActivateをクリックすることで、サービス拒否状態を引き起こしアプリケーションをクラッシュさせることが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010571.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027835+00:00"
-    },
-    {
-      "id": "04f6cb6e7ae3468e",
-      "content_hash": "04f6cb6e7ae3468ec17229376d62e121d1746fa542e09254967a0f12ab7edf90",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010570.html",
-      "title": "HeidiSQLにおけるPHP リモートファイルインクルージョンの脆弱性",
-      "body": "HeidiSQL 9.5.0.5196には、ローカル攻撃者がログ設定のファイルパスに過度に長い文字列を入力することでアプリケーションをクラッシュさせるサービス拒否の脆弱性があります。攻撃者は、設定  ロギングのSQLログファイルパスの欄にバッファオーバーフローのペイロードを入力して、アプリケーションをクラッシュさせる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010570.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027850+00:00"
-    },
-    {
-      "id": "f4aa5d61a6597893",
-      "content_hash": "f4aa5d61a6597893dd4a1f5d05312f91d9163893ada1b890d161a223d3cf1cb8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010569.html",
-      "title": "Softros Systems, Inc.のSoftros LAN Messengerにおける入力で指定されたインデックス、位置、またはオフセットの不適切な検証に関する脆弱性",
-      "body": "Softros LAN Messenger 9.2には、ローカル攻撃者がカスタムログファイルの場所フィールドに過度に長い文字列を入力することでアプリケーションをクラッシュさせるサービス拒否（DoS）脆弱性があります。攻撃者は、OKボタンをクリックした際にクラッシュが発生するように、Log Files Locationカスタムパスパラメータに2000文字のバッファを入力できます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010569.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027867+00:00"
-    },
-    {
-      "id": "f1c252cbe282bca1",
-      "content_hash": "f1c252cbe282bca146faebcad3e68aa617d3d31c5e1d77c4baa92f1407683055",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010568.html",
-      "title": "NetworkActivのNetworkActiv Web Serverにおける境界外書き込みに関する脆弱性",
-      "body": "NetworkActiv Web Server 4.0には、ユーザー名フィールドのセキュリティオプションにバッファオーバーフローの脆弱性があります。ローカルの攻撃者は、過度に長い文字列を供給することでアプリケーションをクラッシュさせることが可能です。攻撃者は、Set usernameインターフェースを通じて予想されるバッファサイズを超える細工されたユーザー名の値を入力し、サービス拒否を引き起こすことができます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-010568.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T02:11:00+00:00",
-      "created_at": "2026-04-10T04:37:54.027883+00:00"
     }
   ]
 }
