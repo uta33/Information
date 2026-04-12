@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-12T11:26:19.077529+00:00",
+  "generated_at": "2026-04-12T12:36:03.823823+00:00",
   "items": [
+    {
+      "id": "8f01cf53b3f6ac9f",
+      "content_hash": "8f01cf53b3f6ac9fd476f338bea5c75d9c0e1d8139589571cb54b399d60aabda",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/",
+      "title": "No one owes you supply-chain security",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738595\">Comments</a>",
+      "url": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T11:49:33+00:00",
+      "created_at": "2026-04-12T12:36:03.823473+00:00"
+    },
+    {
+      "id": "7808f28e5fe6d49c",
+      "content_hash": "7808f28e5fe6d49c172e8e0df8ef5398bef58469b8773ab9cc3b71884130c40e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mastodon.social/@netblocks/116384935123261912",
+      "title": "Internet outage in Iran reaches 1,008 hours",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738514\">Comments</a>",
+      "url": "https://mastodon.social/@netblocks/116384935123261912",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T11:38:16+00:00",
+      "created_at": "2026-04-12T12:36:03.823565+00:00"
+    },
     {
       "id": "492119b52da0d1a9",
       "content_hash": "492119b52da0d1a9274ac69ea86158813823704683e494663d43874fd8ac80d1",
@@ -14,6 +42,20 @@
       "cvss_score": 7.3,
       "published_at": "2026-04-12T11:16:16.407000",
       "created_at": "2026-04-12T11:26:14.355585+00:00"
+    },
+    {
+      "id": "8d36a5c2866a9b03",
+      "content_hash": "8d36a5c2866a9b03addb9683100d845736839d75d05fc76c6aca5be93793d813",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thinkingcomplete.com/2017/09/what-have-been-greatest-intellectual.html",
+      "title": "What have been the greatest intellectual achievements? (2017)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738196\">Comments</a>",
+      "url": "https://www.thinkingcomplete.com/2017/09/what-have-been-greatest-intellectual.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T10:46:21+00:00",
+      "created_at": "2026-04-12T12:36:03.823217+00:00"
     },
     {
       "id": "ddd9540b25334dd6",
@@ -6958,48 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-04-10T01:16:42.490000",
       "created_at": "2026-04-10T23:25:32.208606+00:00"
-    },
-    {
-      "id": "b5fe4980adff4429",
-      "content_hash": "b5fe4980adff442999383b06a1d773b2b609ccbdfe38f6a20f29e0926ff6ef82",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5994",
-      "title": "CVE-2026-5994 - A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. Th...",
-      "body": "A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. This issue affects the function setTelnetCfg of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. Performing a manipulation of the argument telnet_enabled results in os command injection. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5994",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-10T01:16:42.280000",
-      "created_at": "2026-04-10T23:25:32.208600+00:00"
-    },
-    {
-      "id": "76e2494785df5b2b",
-      "content_hash": "76e2494785df5b2b4d90e0a4df6cdb6570d3fff66a169de9e2ebe8cda8b445d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5993",
-      "title": "CVE-2026-5993 - A vulnerability was identified in Totolink A7100RU 7.4cu.2313_b20191024. This vu...",
-      "body": "A vulnerability was identified in Totolink A7100RU 7.4cu.2313_b20191024. This vulnerability affects the function setWiFiGuestCfg of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. Such manipulation of the argument wifiOff leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5993",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-10T01:16:41.743000",
-      "created_at": "2026-04-10T23:25:32.208593+00:00"
-    },
-    {
-      "id": "c319da4703fea51d",
-      "content_hash": "c319da4703fea51d061bc2cbd4272500ec1ed7f7f9a578661caf6dcb1d95d4a1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.elevenforum.com/t/microsoft-photodna-scanning-problem-it-is-comical-now.45961/",
-      "title": "Microsoft PhotoDNA scanning problem",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47712340\">Comments</a>",
-      "url": "https://www.elevenforum.com/t/microsoft-photodna-scanning-problem-it-is-comical-now.45961/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T01:09:06+00:00",
-      "created_at": "2026-04-10T04:37:54.221089+00:00"
     }
   ]
 }
