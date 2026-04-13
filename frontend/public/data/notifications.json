@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-13T09:25:56.933162+00:00",
+  "generated_at": "2026-04-13T11:08:22.881752+00:00",
   "items": [
+    {
+      "id": "963ab82e0cdf50ce",
+      "content_hash": "963ab82e0cdf50ceef568ba23e219380e53ade45fc3e854162d9eca6f0e2452f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/brightbeanxyz/brightbean-studio",
+      "title": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47749674\">Comments</a>",
+      "url": "https://github.com/brightbeanxyz/brightbean-studio",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T09:26:56+00:00",
+      "created_at": "2026-04-13T11:08:22.880992+00:00"
+    },
+    {
+      "id": "4012caf826a739e6",
+      "content_hash": "4012caf826a739e6483a53d6be5eed5cbed1af31672b1b448322c4d8acf7e874",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
+      "body": "The North Korean hacking group tracked&nbsp;as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan&nbsp;called RokRAT.\n\"The threat actor used two Facebook",
+      "url": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T09:15:00+00:00",
+      "created_at": "2026-04-13T11:08:17.892211+00:00"
+    },
     {
       "id": "06234eb9c404d2dd",
       "content_hash": "06234eb9c404d2dd8d6e162419942f0b6e390535c27c25a610a18ca85e818ef5",
@@ -798,6 +826,34 @@
       "cvss_score": null,
       "published_at": "2026-04-13T03:22:00+00:00",
       "created_at": "2026-04-13T09:25:56.720552+00:00"
+    },
+    {
+      "id": "bf614779380b911b",
+      "content_hash": "bf614779380b911b72f2a61cedff28a8e56a231c75edb2905c5981842d92e140",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6179",
+      "title": "CVE-2026-6179 - Stored Cross Site Scripting in NightWolf Penetration Testing Platform allows att...",
+      "body": "Stored Cross Site Scripting in NightWolf Penetration Testing Platform allows attack trigger and run malicious script in user's browser",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6179",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T03:16:03.297000",
+      "created_at": "2026-04-13T11:08:19.392020+00:00"
+    },
+    {
+      "id": "26ef28e79f5dbd85",
+      "content_hash": "26ef28e79f5dbd852f18d0f9164b74496456e93d44705669a498bd319dfa66a0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6152",
+      "title": "CVE-2026-6152 - A vulnerability was determined in code-projects Vehicle Showroom Management Syst...",
+      "body": "A vulnerability was determined in code-projects Vehicle Showroom Management System 1.0. This issue affects some unknown processing of the file /util/StaffAddingFunction.php. This manipulation of the argument STAFF_ID causes sql injection. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6152",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-13T03:16:03.097000",
+      "created_at": "2026-04-13T11:08:19.392010+00:00"
     },
     {
       "id": "9d0127bca9fb13a0",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T16:38:43+00:00",
       "created_at": "2026-04-10T16:39:39.343294+00:00"
-    },
-    {
-      "id": "5d69e0f4ef0bc57f",
-      "content_hash": "5d69e0f4ef0bc57f4935dc07dbc4a192f8fd73ff3bf36aa78d5eda66b822c3d7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
-      "title": "Industrial design files for Keychron keyboards and mice",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47720419\">Comments</a>",
-      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T16:22:26+00:00",
-      "created_at": "2026-04-10T16:39:39.690500+00:00"
-    },
-    {
-      "id": "8b67ba62782a2255",
-      "content_hash": "8b67ba62782a22553389da1d304aec66611c6b8213956c66b6cf5b4578a73694",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://twill.ai",
-      "title": "Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47720418\">Comments</a>",
-      "url": "https://twill.ai",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T16:22:13+00:00",
-      "created_at": "2026-04-10T18:38:31.976525+00:00"
-    },
-    {
-      "id": "47bed5443b098cde",
-      "content_hash": "47bed5443b098cdecfd8d86a36b6019d4527ee0693f0c56fa68e098e03fa5534",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40228",
-      "title": "CVE-2026-40228 - In systemd 259, systemd-journald can send ANSI escape sequences to the terminals...",
-      "body": "In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a \"logger -p emerg\" command is executed, if ForwardToWall=yes is set.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40228",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.9,
-      "published_at": "2026-04-10T16:16:33.753000",
-      "created_at": "2026-04-11T10:22:41.756552+00:00"
-    },
-    {
-      "id": "fb095d94f35557a5",
-      "content_hash": "fb095d94f35557a5376e95e7bff4703a85498faa980f9c7d96f4be35882bba96",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40227",
-      "title": "CVE-2026-40227 - In systemd 260 before 261, a local unprivileged user can trigger an assert via a...",
-      "body": "In systemd 260 before 261, a local unprivileged user can trigger an assert via an IPC API call with an array or map that has a null element.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40227",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.2,
-      "published_at": "2026-04-10T16:16:33.607000",
-      "created_at": "2026-04-11T10:22:41.756510+00:00"
     }
   ]
 }
