@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T23:24:10.660511+00:00",
+  "generated_at": "2026-04-13T01:25:45.807015+00:00",
   "items": [
+    {
+      "id": "79ad1048d77c68a5",
+      "content_hash": "79ad1048d77c68a52bef005414ea27fc71d956ce526367e03185f5caf1557050",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+      "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47745284\">Comments</a>",
+      "url": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T22:38:45+00:00",
+      "created_at": "2026-04-13T01:25:45.806219+00:00"
+    },
     {
       "id": "7fabe2f8883671a9",
       "content_hash": "7fabe2f8883671a9b796efd82195d2404c75795587615c3a85ce10ed518f53ce",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T22:30:55+00:00",
       "created_at": "2026-04-12T23:24:10.660069+00:00"
+    },
+    {
+      "id": "c2a7cd55c6c9ee14",
+      "content_hash": "c2a7cd55c6c9ee14debf82d29085554bad56d33f3ec39206a646251a7b2928ac",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6130",
+      "title": "CVE-2026-6130 - A flaw has been found in chatboxai chatbox up to 1.20.0. This impacts the functi...",
+      "body": "A flaw has been found in chatboxai chatbox up to 1.20.0. This impacts the function StdioClientTransport of the file src/main/mcp/ipc-stdio-transport.ts of the component Model Context Protocol Server Management System. Executing a manipulation of the argument args/env can lead to os command injection. The attack can be launched remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6130",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-12T22:16:09.360000",
+      "created_at": "2026-04-13T01:25:42.336564+00:00"
     },
     {
       "id": "95ec6549d4b8b455",
@@ -1024,6 +1052,20 @@
       "created_at": "2026-04-12T13:53:15.556577+00:00"
     },
     {
+      "id": "a85f4cfd34c359c7",
+      "content_hash": "a85f4cfd34c359c78d4dbeed50774e33c4717185239446d4ccaf9cad25560130",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+      "title": "Bring Back Idiomatic Design (2023)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47738827\">Comments</a>",
+      "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T12:21:26+00:00",
+      "created_at": "2026-04-13T01:25:45.806251+00:00"
+    },
+    {
       "id": "8f01cf53b3f6ac9f",
       "content_hash": "8f01cf53b3f6ac9fd476f338bea5c75d9c0e1d8139589571cb54b399d60aabda",
       "source_name": "Hacker News (Best)",
@@ -1232,6 +1274,20 @@
       "cvss_score": null,
       "published_at": "2026-04-12T08:38:11+00:00",
       "created_at": "2026-04-12T10:28:52.383133+00:00"
+    },
+    {
+      "id": "39daa9bd21194a2e",
+      "content_hash": "39daa9bd21194a2eb489983aab61b366491513ddcff37daca076372996626a1e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chessapig.github.io/talks/Big-Small",
+      "title": "Is Math Big or Small?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47737292\">Comments</a>",
+      "url": "https://chessapig.github.io/talks/Big-Small",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-12T08:25:03+00:00",
+      "created_at": "2026-04-13T01:25:45.806588+00:00"
     },
     {
       "id": "57a2eaf038f6b890",
@@ -6944,62 +7000,6 @@
       "cvss_score": 6.3,
       "published_at": "2026-04-10T04:17:23.420000",
       "created_at": "2026-04-10T23:25:32.208784+00:00"
-    },
-    {
-      "id": "6302e0f992d5e35b",
-      "content_hash": "6302e0f992d5e35b027a56b8c1f23420cc4f8ca6202e824a50e47a650305f612",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6005",
-      "title": "CVE-2026-6005 - A flaw has been found in code-projects Patient Record Management System 1.0. The...",
-      "body": "A flaw has been found in code-projects Patient Record Management System 1.0. The affected element is an unknown function of the file /hematology_print.php. Executing a manipulation of the argument hem_id can lead to sql injection. It is possible to launch the attack remotely. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6005",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-10T04:17:17.657000",
-      "created_at": "2026-04-10T23:25:32.208777+00:00"
-    },
-    {
-      "id": "72811a1c18ee1c84",
-      "content_hash": "72811a1c18ee1c84c22d4c2349d6851d2cd96c1c83059490f1128442a24549df",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5501",
-      "title": "CVE-2026-5501 - wolfSSL_X509_verify_cert in the OpenSSL compatibility layer accepts a certificat...",
-      "body": "wolfSSL_X509_verify_cert in the OpenSSL compatibility layer accepts a certificate chain in which the leaf's signature is not checked, if the attacker supplies an untrusted intermediate with Basic Constraints `CA:FALSE` that is legitimately signed by a trusted root. An attacker who obtains any leaf certificate from a trusted CA (e.g. a free DV cert from Let's Encrypt) can forge a certificate for any subject name with any public key and arbitrary signature bytes, and the function returns `WOLFSSL_SUCCESS` / `X509_V_OK`. The native wolfSSL TLS handshake path (`ProcessPeerCerts`) is not susceptible and the issue is limited to applications using the OpenSSL compatibility API directly, which would include integrations of wolfSSL into nginx and haproxy.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5501",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T04:17:17.230000",
-      "created_at": "2026-04-10T23:25:32.208770+00:00"
-    },
-    {
-      "id": "594665f5efacda24",
-      "content_hash": "594665f5efacda242bb4c75007f93f630b77cb6bca4ac6f7c4749b521516484c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5500",
-      "title": "CVE-2026-5500 - wolfSSL's wc_PKCS7_DecodeAuthEnvelopedData() does not properly sanitize the AES-...",
-      "body": "wolfSSL's wc_PKCS7_DecodeAuthEnvelopedData() does not properly sanitize the AES-GCM authentication tag length received and has no lower bounds check. A man-in-the-middle can therefore truncate the mac field from 16 bytes to 1 byte, reducing the tag check from 2⁻¹²⁸ to 2⁻⁸.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5500",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T04:17:17.080000",
-      "created_at": "2026-04-10T23:25:32.208764+00:00"
-    },
-    {
-      "id": "2c6d296dd7af45d2",
-      "content_hash": "2c6d296dd7af45d2eab64d73df60a53b98c8b6a44cb5b09500a59b8fe533e44f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5479",
-      "title": "CVE-2026-5479 - In wolfSSL's EVP layer, the ChaCha20-Poly1305 AEAD decryption path in wolfSSL_EV...",
-      "body": "In wolfSSL's EVP layer, the ChaCha20-Poly1305 AEAD decryption path in wolfSSL_EVP_CipherFinal (and related EVP cipher finalization functions) fails to verify the authentication tag before returning plaintext to the caller. When an application uses the EVP API to perform ChaCha20-Poly1305 decryption, the implementation computes or accepts the tag but does not compare it against the expected value.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5479",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T04:17:16.930000",
-      "created_at": "2026-04-10T23:25:32.208757+00:00"
     }
   ]
 }
