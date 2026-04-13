@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T22:34:29.069499+00:00",
+  "generated_at": "2026-04-13T23:34:10.424906+00:00",
   "items": [
     {
       "id": "aaddc76b6e3d751e",
@@ -84,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-13T20:59:12+00:00",
       "created_at": "2026-04-13T21:38:33.259391+00:00"
+    },
+    {
+      "id": "b41d022b5884edde",
+      "content_hash": "b41d022b5884eddee650f8a6bbc789844d624f42861392fc0da1d82f4c7c5a1a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
+      "title": "Mathematical Minimalism",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47757595\">Comments</a>",
+      "url": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T20:45:39+00:00",
+      "created_at": "2026-04-13T23:34:10.424501+00:00"
     },
     {
       "id": "0e1f3b63d92e3fb3",
@@ -1162,6 +1176,20 @@
       "cvss_score": null,
       "published_at": "2026-04-13T05:39:24+00:00",
       "created_at": "2026-04-13T07:08:06.118089+00:00"
+    },
+    {
+      "id": "6b994112fe6096be",
+      "content_hash": "6b994112fe6096be1e635acb5c9260d93d81bf79018706713b71961ccad30a49",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35553",
+      "title": "CVE-2026-35553 - Bluetooth ACPI Drivers provided by Dynabook Inc. contain a stack-based buffer ov...",
+      "body": "Bluetooth ACPI Drivers provided by Dynabook Inc. contain a stack-based buffer overflow vulnerability. An attacker may execute arbitrary code by modifying certain registry values.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35553",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-13T05:16:04.693000",
+      "created_at": "2026-04-13T23:33:56.509135+00:00"
     },
     {
       "id": "c3ad1e98f102ed5b",
@@ -5896,6 +5924,20 @@
       "created_at": "2026-04-13T21:38:33.363700+00:00"
     },
     {
+      "id": "7e718fccb3c7cc04",
+      "content_hash": "7e718fccb3c7cc04a5e099acb4eda109a1fa8738bd44565c2a2ed5552fbd333c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=E1BLGpE5zH0",
+      "title": "Air Powered Segment Display? [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47729046\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=E1BLGpE5zH0",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T09:32:17+00:00",
+      "created_at": "2026-04-13T23:34:10.424464+00:00"
+    },
+    {
       "id": "bbf879f535cba895",
       "content_hash": "bbf879f535cba8952b09738e21acee42166359649842d29e2c5fd7003585ce37",
       "source_name": "Hacker News (Best)",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-10T20:16:23.890000",
       "created_at": "2026-04-11T18:28:16.954178+00:00"
-    },
-    {
-      "id": "01079514ad5b7842",
-      "content_hash": "01079514ad5b7842fc4061e42375c2f46e4cff63a13ce04265755bfa860f9aa8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40188",
-      "title": "CVE-2026-40188 - goshs is a SimpleHTTPServer written in Go. From 1.0.7 to before 2.0.0-beta.4, th...",
-      "body": "goshs is a SimpleHTTPServer written in Go. From 1.0.7 to before 2.0.0-beta.4, the SFTP command rename sanitizes only the source path and not the destination, so it is possible to write outside of the root directory of the SFTP. This vulnerability is fixed in 2.0.0-beta.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40188",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-04-10T20:16:23.733000",
-      "created_at": "2026-04-11T18:28:16.954171+00:00"
-    },
-    {
-      "id": "368d751cce14d9f2",
-      "content_hash": "368d751cce14d9f2813bf087753a5aaab24295b25e312380bb6c1b3dbf51edee",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40185",
-      "title": "CVE-2026-40185 - TREK is a collaborative travel planner. Prior to 2.7.2, TREK was missing authori...",
-      "body": "TREK is a collaborative travel planner. Prior to 2.7.2, TREK was missing authorization checks on the Immich trip photo management routes. This vulnerability is fixed in 2.7.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40185",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-04-10T20:16:23.573000",
-      "created_at": "2026-04-11T18:28:16.954165+00:00"
-    },
-    {
-      "id": "cf030f2d354761e3",
-      "content_hash": "cf030f2d354761e349d336543ea980bddd75afd027653c35522e8d06c534efae",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40184",
-      "title": "CVE-2026-40184 - TREK is a collaborative travel planner. Prior to 2.7.2, TREK served uploaded pho...",
-      "body": "TREK is a collaborative travel planner. Prior to 2.7.2, TREK served uploaded photos without requiring authentication. This vulnerability is fixed in 2.7.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40184",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-04-10T20:16:23.417000",
-      "created_at": "2026-04-11T18:28:16.954158+00:00"
     }
   ]
 }
