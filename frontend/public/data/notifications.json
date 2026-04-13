@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-13T21:38:33.364235+00:00",
+  "generated_at": "2026-04-13T22:34:29.069499+00:00",
   "items": [
+    {
+      "id": "aaddc76b6e3d751e",
+      "content_hash": "aaddc76b6e3d751eef5a0e8dcd7751eadf49f88232af59f3a9357ca1315a808a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ndaybench.winfunc.com",
+      "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47758347\">Comments</a>",
+      "url": "https://ndaybench.winfunc.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T21:54:03+00:00",
+      "created_at": "2026-04-13T22:34:29.068705+00:00"
+    },
+    {
+      "id": "e4f1684c57a81546",
+      "content_hash": "e4f1684c57a8154666b266c48d1a4cb920acba3d8ecc3286d3268bb76f3bb978",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
+      "body": "Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-13T21:50:01+00:00",
+      "created_at": "2026-04-13T22:34:23.789787+00:00"
+    },
     {
       "id": "f4cdba9670991b7f",
       "content_hash": "f4cdba9670991b7f7a80c6f137a08f00a2a72070c1ef355b7ca3c638efbdde9b",
@@ -30,6 +58,20 @@
       "created_at": "2026-04-13T21:38:33.259359+00:00"
     },
     {
+      "id": "27f8e75ba56e07f9",
+      "content_hash": "27f8e75ba56e07f90cfa23f2c9f5326d87d1c6f777350ceadf96ec169bdc3853",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet",
+      "title": "The tech jobs bust is real. Don't blame AI (yet)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47757775\">Comments</a>",
+      "url": "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T21:02:21+00:00",
+      "created_at": "2026-04-13T22:34:29.069002+00:00"
+    },
+    {
       "id": "e127e258eacfdc53",
       "content_hash": "e127e258eacfdc53bafd0a52dd8da89b8624eb984d31ded54669ae8957faad6d",
       "source_name": "TechCrunch",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-13T20:59:12+00:00",
       "created_at": "2026-04-13T21:38:33.259391+00:00"
+    },
+    {
+      "id": "0e1f3b63d92e3fb3",
+      "content_hash": "0e1f3b63d92e3fb345aeb3c16ab82e0d8b113eac093fa1ea1db9341fa04e24e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/SunAndClouds/ReadMe",
+      "title": "Show HN: Continual Learning with .md",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47757552\">Comments</a>",
+      "url": "https://github.com/SunAndClouds/ReadMe",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-13T20:42:19+00:00",
+      "created_at": "2026-04-13T22:34:29.068919+00:00"
     },
     {
       "id": "e1fdcf630a79a672",
@@ -5854,6 +5910,20 @@
       "created_at": "2026-04-12T19:31:45.601375+00:00"
     },
     {
+      "id": "be5d9a10fa40365b",
+      "content_hash": "be5d9a10fa40365b58312f351e08dac533bdd50f256768c855172aa36ccc2a77",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://encore.dev/blog/rust-runtime",
+      "title": "What We Learned Building a Rust Runtime for TypeScript",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47728823\">Comments</a>",
+      "url": "https://encore.dev/blog/rust-runtime",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-11T08:53:16+00:00",
+      "created_at": "2026-04-13T22:34:29.068746+00:00"
+    },
+    {
       "id": "87246e5209b2e067",
       "content_hash": "87246e5209b2e06706d5bbdea07b4870758c2108d23e47398b7eab707c6b1124",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": 3.7,
       "published_at": "2026-04-10T20:16:23.417000",
       "created_at": "2026-04-11T18:28:16.954158+00:00"
-    },
-    {
-      "id": "227719aff5c7c301",
-      "content_hash": "227719aff5c7c3013f5d1e1a97e0428d1f089ef22dd39299a9798c65a762b756",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40180",
-      "title": "CVE-2026-40180 - Quarkus OpenAPI Generator is Quarkus' extensions for generation of Rest Clients ...",
-      "body": "Quarkus OpenAPI Generator is Quarkus' extensions for generation of Rest Clients and server stubs generation. Prior to 2.16.0 and 2.15.0-lts, the unzip() method in ApicurioCodegenWrapper.java extracts ZIP entries without validating that the resolved file path stays within the intended output directory. At line 101, the destination is constructed as new File(toOutputDir, entry.getName()) and the content is written immediately. A malicious ZIP archive containing entries with path traversal sequences (e.g., ../../malicious.java) would write files outside the target directory. This vulnerability is fixed in 2.16.0 and 2.15.0-lts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40180",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T20:16:23.260000",
-      "created_at": "2026-04-11T18:28:16.954152+00:00"
-    },
-    {
-      "id": "15796ea1c4a280bb",
-      "content_hash": "15796ea1c4a280bb5d24007d6557001e4a4d609ae7c8c0d454932037914aba82",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40178",
-      "title": "CVE-2026-40178 - ajenti.plugin.core defines all necessary core elements to allow Ajenti to run pr...",
-      "body": "ajenti.plugin.core defines all necessary core elements to allow Ajenti to run properly. Prior to 0.112, if the 2FA was activated, it was possible during a short moment after the authentication of an user to bypass its authentication. This vulnerability is fixed in 0.112.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40178",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T20:16:23.117000",
-      "created_at": "2026-04-11T18:28:16.954145+00:00"
-    },
-    {
-      "id": "d8ae125534b18c0e",
-      "content_hash": "d8ae125534b18c0e86adc0071a8c3a7b9c6bd31fff355567d9b969831888206e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40177",
-      "title": "CVE-2026-40177 - ajenti.plugin.core defines all necessary core elements to allow Ajenti to run pr...",
-      "body": "ajenti.plugin.core defines all necessary core elements to allow Ajenti to run properly. Prior to 0.112, if the 2FA was activated, it was possible to bypass the password authentication This vulnerability is fixed in 0.112.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40177",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-10T20:16:22.970000",
-      "created_at": "2026-04-11T18:28:16.954139+00:00"
-    },
-    {
-      "id": "51f3446b1135dcea",
-      "content_hash": "51f3446b1135dcea9affa90d8bbcab214bc3ce9307f0a46e3f48cd70dd8e69f3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40175",
-      "title": "CVE-2026-40175 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0, the Axios library is vulnerable to a specific \"Gadget\" attack chain that allows Prototype Pollution in any third-party dependency to be escalated into Remote Code Execution (RCE) or Full Cloud Compromise (via AWS IMDSv2 bypass). This vulnerability is fixed in 1.15.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40175",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-04-10T20:16:22.800000",
-      "created_at": "2026-04-11T18:28:16.954132+00:00"
-    },
-    {
-      "id": "9dafd53e87944b7d",
-      "content_hash": "9dafd53e87944b7da0f151db3edb3d63fc49d714dde02773077439999ff67ff0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40168",
-      "title": "CVE-2026-40168 - Postiz is an AI social media scheduling tool. Prior to 2.21.5, the /api/public/s...",
-      "body": "Postiz is an AI social media scheduling tool. Prior to 2.21.5, the /api/public/stream endpoint is vulnerable to SSRF. Although the application validates the initially supplied URL and blocks direct private/internal hosts, it does not re-validate the final destination after HTTP redirects. As a result, an attacker can supply a public HTTPS URL that passes validation and then redirects the server-side request to an internal resource.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40168",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-04-10T20:16:22.643000",
-      "created_at": "2026-04-11T18:28:16.954124+00:00"
     }
   ]
 }
