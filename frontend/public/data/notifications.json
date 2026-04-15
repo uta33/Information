@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-15T11:46:29.200362+00:00",
+  "generated_at": "2026-04-15T12:57:45.881721+00:00",
   "items": [
+    {
+      "id": "fbcc4088e62bd144",
+      "content_hash": "fbcc4088e62bd144810e111049cac20138ac69652d6426f7f28cb217a88e9ea7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3112544",
+      "title": "HBO Max comes to India via exclusive JioHotstar deal",
+      "body": "HBO Max will be available to JioHotstar subscribers as an add-on starting at ₹49 (about $0.50) per month, and would feature content from HBO, Max Originals, Warner Bros. Pictures, Warner Bros. Television, and DC Studios.",
+      "url": "https://techcrunch.com/2026/04/15/hbo-max-comes-to-india-via-exclusive-jiohotstar-deal/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-15T12:47:17+00:00",
+      "created_at": "2026-04-15T12:57:45.596937+00:00"
+    },
+    {
+      "id": "3774694611bff42a",
+      "content_hash": "3774694611bff42a3d988fd5383daf367cb275c877f4b3fc3737b722461bb3b7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer",
+      "title": "Proliferate (YC S25) Is Hiring Founding Engineers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47777902\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-15T12:00:44+00:00",
+      "created_at": "2026-04-15T12:57:45.881066+00:00"
+    },
+    {
+      "id": "c6179a1fec91b154",
+      "content_hash": "c6179a1fec91b1545f5ff780688996743e1a5a11037618034ce96d6050307c2b",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3112214",
+      "title": "Fathom adds a bot-less meeting mode in a bid to take on Granola",
+      "body": "Fathom will allow you to choose between video, audio-only, and transcription modes.",
+      "url": "https://techcrunch.com/2026/04/15/fathom-adds-a-bot-less-meeting-mode-in-a-bid-to-take-on-granola/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-15T12:00:00+00:00",
+      "created_at": "2026-04-15T12:57:45.596967+00:00"
+    },
+    {
+      "id": "29d41844505ff906",
+      "content_hash": "29d41844505ff906d27d535e69f92ea9a06a86bc4b1eced54012695554856844",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gothamist.com/news/here-comes-the-sun-new-bill-would-let-new-yorkers-hang-solar-panels-from-windows",
+      "title": "New bill would let New Yorkers hang solar panels from windows",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47777882\">Comments</a>",
+      "url": "https://gothamist.com/news/here-comes-the-sun-new-bill-would-let-new-yorkers-hang-solar-panels-from-windows",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-15T11:58:28+00:00",
+      "created_at": "2026-04-15T12:57:45.881225+00:00"
+    },
     {
       "id": "92a4bcb1ac938b15",
       "content_hash": "92a4bcb1ac938b156c5850fde4c061da3a508b5717fb5de00d9d5bc5354e6806",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-04-15T11:41:35+00:00",
       "created_at": "2026-04-15T11:46:24.047402+00:00"
+    },
+    {
+      "id": "09f04fbb205855fd",
+      "content_hash": "09f04fbb205855fd64b317d5ab0488f05dc54a8a505e4fc2cfe60b049a13437d",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+      "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
+      "body": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across&nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions.&nbsp;Pentera’s AI Security and Exposure Report&nbsp;2026 reflects that&nbsp;momentum: every CISO surveyed",
+      "url": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-15T11:30:00+00:00",
+      "created_at": "2026-04-15T12:57:40.621754+00:00"
     },
     {
       "id": "cdcdfa0358c66952",
@@ -1652,6 +1722,20 @@
       "cvss_score": null,
       "published_at": "2026-04-14T16:16:51+00:00",
       "created_at": "2026-04-14T17:57:14.682882+00:00"
+    },
+    {
+      "id": "5cfc08021d1d18d2",
+      "content_hash": "5cfc08021d1d18d226a24ddf44711fc29d3b44559f5eb3a16650776a38dfaa8f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-22573",
+      "title": "CVE-2026-22573 - An improper limitation of a pathname to a restricted directory ('path traversal'...",
+      "body": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSOAR PaaS 7.6.0 through 7.6.3, FortiSOAR PaaS 7.5 all versions, FortiSOAR PaaS 7.4 all versions, FortiSOAR PaaS 7.3 all versions, FortiSOAR on-premise 7.6.0 through 7.6.3, FortiSOAR on-premise 7.5 all versions, FortiSOAR on-premise 7.4 all versions, FortiSOAR on-premise 7.3 all versions may allow an authenticated remote attacker to perform path traversal attack via File Content Extraction actions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22573",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-14T16:16:36.550000",
+      "created_at": "2026-04-15T12:57:41.273666+00:00"
     },
     {
       "id": "6d2ff032b2f546ce",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-13T14:16:12.070000",
       "created_at": "2026-04-14T06:24:55.062266+00:00"
-    },
-    {
-      "id": "019a17799f3b1729",
-      "content_hash": "019a17799f3b1729f4b6d3a9f1efed1e7d18d5d8c51ba54a08ac95607b8b54df",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31422",
-      "title": "CVE-2026-31422 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: cls_flow: fix NULL pointer dereference on shared blocks\n\nflow_change() calls tcf_block_q() and dereferences q->handle to derive\na default baseclass.  Shared blocks leave block->q NULL, causing a NULL\nderef when a flow filter without a fully qualified baseclass is created\non a shared block.\n\nCheck tcf_block_shared() before accessing block->q and return -EINVAL\nfor shared blocks.  This avoids the null-deref shown below:\n\n=======================================================================\nKASAN: null-ptr-deref in range [0x0000000000000038-0x000000000000003f]\nRIP: 0010:flow_change (net/sched/cls_flow.c:508)\nCall Trace:\n tc_new_tfilter (net/sched/cls_api.c:2432)\n rtnetlink_rcv_msg (net/core/rtnetlink.c:6980)\n [...]\n=======================================================================",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31422",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.907000",
-      "created_at": "2026-04-14T06:24:55.062257+00:00"
-    },
-    {
-      "id": "7181a60934fde546",
-      "content_hash": "7181a60934fde546518ccfc3d567be76de1f6d5b132fe2dc36f3e28ae4316297",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31421",
-      "title": "CVE-2026-31421 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: cls_fw: fix NULL pointer dereference on shared blocks\n\nThe old-method path in fw_classify() calls tcf_block_q() and\ndereferences q->handle.  Shared blocks leave block->q NULL, causing a\nNULL deref when an empty cls_fw filter is attached to a shared block\nand a packet with a nonzero major skb mark is classified.\n\nReject the configuration in fw_change() when the old method (no\nTCA_OPTIONS) is used on a shared block, since fw_classify()'s\nold-method path needs block->q which is NULL for shared blocks.\n\nThe fixed null-ptr-deref calling stack:\n KASAN: null-ptr-deref in range [0x0000000000000038-0x000000000000003f]\n RIP: 0010:fw_classify (net/sched/cls_fw.c:81)\n Call Trace:\n  tcf_classify (./include/net/tc_wrapper.h:197 net/sched/cls_api.c:1764 net/sched/cls_api.c:1860)\n  tc_run (net/core/dev.c:4401)\n  __dev_queue_xmit (net/core/dev.c:4535 net/core/dev.c:4790)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31421",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.740000",
-      "created_at": "2026-04-14T06:24:55.062251+00:00"
-    },
-    {
-      "id": "e31412a33b5a1f58",
-      "content_hash": "e31412a33b5a1f58c2035806693f168f3c200c134a358b1647dc3a08c3ae1363",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31420",
-      "title": "CVE-2026-31420 - In the Linux kernel, the following vulnerability has been resolved:\n\nbridge: mrp...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nbridge: mrp: reject zero test interval to avoid OOM panic\n\nbr_mrp_start_test() and br_mrp_start_in_test() accept the user-supplied\ninterval value from netlink without validation. When interval is 0,\nusecs_to_jiffies(0) yields 0, causing the delayed work\n(br_mrp_test_work_expired / br_mrp_in_test_work_expired) to reschedule\nitself with zero delay. This creates a tight loop on system_percpu_wq\nthat allocates and transmits MRP test frames at maximum rate, exhausting\nall system memory and causing a kernel panic via OOM deadlock.\n\nThe same zero-interval issue applies to br_mrp_start_in_test_parse()\nfor interconnect test frames.\n\nUse NLA_POLICY_MIN(NLA_U32, 1) in the nla_policy tables for both\nIFLA_BRIDGE_MRP_START_TEST_INTERVAL and\nIFLA_BRIDGE_MRP_START_IN_TEST_INTERVAL, so zero is rejected at the\nnetlink attribute parsing layer before the value ever reaches the\nworkqueue scheduling code. This is consistent with how other bridge\nsubsystems (br_fdb, br_mst) enforce range constraints on netlink\nattributes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31420",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.617000",
-      "created_at": "2026-04-14T06:24:55.062245+00:00"
-    },
-    {
-      "id": "cf60b9093d8e2722",
-      "content_hash": "cf60b9093d8e2722f25dde4bc35583f3c41b8c8c04f834c963650a39694bc161",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31419",
-      "title": "CVE-2026-31419 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: bondin...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: bonding: fix use-after-free in bond_xmit_broadcast()\n\nbond_xmit_broadcast() reuses the original skb for the last slave\n(determined by bond_is_last_slave()) and clones it for others.\nConcurrent slave enslave/release can mutate the slave list during\nRCU-protected iteration, changing which slave is \"last\" mid-loop.\nThis causes the original skb to be double-consumed (double-freed).\n\nReplace the racy bond_is_last_slave() check with a simple index\ncomparison (i + 1 == slaves_count) against the pre-snapshot slave\ncount taken via READ_ONCE() before the loop.  This preserves the\nzero-copy optimization for the last slave while making the \"last\"\ndetermination stable against concurrent list mutations.\n\nThe UAF can trigger the following crash:\n\n==================================================================\nBUG: KASAN: slab-use-after-free in skb_clone\nRead of size 8 at addr ffff888100ef8d40 by task exploit/147\n\nCPU: 1 UID: 0 PID: 147 Comm: exploit Not tainted 7.0.0-rc3+ #4 PREEMPTLAZY\nCall Trace:\n <TASK>\n dump_stack_lvl (lib/dump_stack.c:123)\n print_report (mm/kasan/report.c:379 mm/kasan/report.c:482)\n kasan_report (mm/kasan/report.c:597)\n skb_clone (include/linux/skbuff.h:1724 include/linux/skbuff.h:1792 include/linux/skbuff.h:3396 net/core/skbuff.c:2108)\n bond_xmit_broadcast (drivers/net/bonding/bond_main.c:5334)\n bond_start_xmit (drivers/net/bonding/bond_main.c:5567 drivers/net/bonding/bond_main.c:5593)\n dev_hard_start_xmit (include/linux/netdevice.h:5325 include/linux/netdevice.h:5334 net/core/dev.c:3871 net/core/dev.c:3887)\n __dev_queue_xmit (include/linux/netdevice.h:3601 net/core/dev.c:4838)\n ip6_finish_output2 (include/net/neighbour.h:540 include/net/neighbour.h:554 net/ipv6/ip6_output.c:136)\n ip6_finish_output (net/ipv6/ip6_output.c:208 net/ipv6/ip6_output.c:219)\n ip6_output (net/ipv6/ip6_output.c:250)\n ip6_send_skb (net/ipv6/ip6_output.c:1985)\n udp_v6_send_skb (net/ipv6/udp.c:1442)\n udpv6_send",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31419",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.447000",
-      "created_at": "2026-04-14T06:24:55.062238+00:00"
-    },
-    {
-      "id": "5c10f40a24df8e8e",
-      "content_hash": "5c10f40a24df8e8e32f45c2e9493f96b5f5b32d37511988f65a8557d3b30c78d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31418",
-      "title": "CVE-2026-31418 - In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: drop logically empty buckets in mtype_del\n\nmtype_del() counts empty slots below n->pos in k, but it only drops the\nbucket when both n->pos and k are zero. This misses buckets whose live\nentries have all been removed while n->pos still points past deleted slots.\n\nTreat a bucket as empty when all positions below n->pos are unused and\nrelease it directly instead of shrinking it further.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31418",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.267000",
-      "created_at": "2026-04-14T06:24:55.062232+00:00"
-    },
-    {
-      "id": "45101bf8cde99dc2",
-      "content_hash": "45101bf8cde99dc240413e224e1672d774825d0d73879b279e97bb7f1480f3b2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31417",
-      "title": "CVE-2026-31417 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: Fi...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: Fix overflow when accumulating packets\n\nAdd a check to ensure that `x25_sock.fraglen` does not overflow.\n\nThe `fraglen` also needs to be resetted when purging `fragment_queue` in\n`x25_clear_queues()`.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31417",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-13T14:16:11.097000",
-      "created_at": "2026-04-14T06:24:55.062225+00:00"
     }
   ]
 }
