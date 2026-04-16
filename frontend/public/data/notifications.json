@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-16T08:21:43.474224+00:00",
+  "generated_at": "2026-04-16T10:06:39.856203+00:00",
   "items": [
+    {
+      "id": "0599dfdf45f23081",
+      "content_hash": "0599dfdf45f230817afb7ba943b22bafcbe3d1052c5761eb160e2baeb9d4dc00",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
+      "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
+      "body": "Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, including many Fortune 500 firms. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T08:32:13+00:00",
+      "created_at": "2026-04-16T10:06:29.927650+00:00"
+    },
     {
       "id": "38f265dba83442a4",
       "content_hash": "38f265dba83442a477a56041c6b4000752c1c64e52cee26c600d0be0a9e15a51",
@@ -980,6 +994,20 @@
       "cvss_score": null,
       "published_at": "2026-04-16T00:19:40+00:00",
       "created_at": "2026-04-16T04:43:23.037083+00:00"
+    },
+    {
+      "id": "df6e8118010af52d",
+      "content_hash": "df6e8118010af52d9755e040ae4eba65302e5d17e66648bec4c00ea7cef1926e",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "body": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T00:00:00+00:00",
+      "created_at": "2026-04-16T10:06:29.273954+00:00"
     },
     {
       "id": "ee891a9eb5635ac2",
@@ -2030,6 +2058,20 @@
       "cvss_score": null,
       "published_at": "2026-04-15T13:22:10+00:00",
       "created_at": "2026-04-15T14:28:43.738789+00:00"
+    },
+    {
+      "id": "10dec6e4183b9e5b",
+      "content_hash": "10dec6e4183b9e5b50fda01be36b4d8b206021663098c0dd4c0e88a9d6605dcc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4135",
+      "title": "CVE-2026-4135 - During an internal security assessment, a potential vulnerability was discovered...",
+      "body": "During an internal security assessment, a potential vulnerability was discovered in Lenovo Software Fix, that during installation could allow a local authenticated user to perform an arbitrary file write with elevated privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4135",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.6,
+      "published_at": "2026-04-15T13:16:24.660000",
+      "created_at": "2026-04-16T10:06:37.012425+00:00"
     },
     {
       "id": "e7e3b688ed268a46",
@@ -6958,48 +7000,6 @@
       "cvss_score": 6.7,
       "published_at": "2026-04-14T16:16:45.850000",
       "created_at": "2026-04-15T17:02:13.912262+00:00"
-    },
-    {
-      "id": "27136ed541cc0df0",
-      "content_hash": "27136ed541cc0df0751f510930a6dfd912cc526b5cc39191dd8fc9d3111dbe87",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39813",
-      "title": "CVE-2026-39813 - A path traversal: '../filedir' vulnerability in Fortinet FortiSandbox 5.0.0 thro...",
-      "body": "A path traversal: '../filedir' vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8 may allow attacker to escalation of privilege via <insert attack vector here>",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39813",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-14T16:16:45.680000",
-      "created_at": "2026-04-15T17:02:13.912256+00:00"
-    },
-    {
-      "id": "1475603aedcc3177",
-      "content_hash": "1475603aedcc3177132d0aa1b1d6f0e6411cdb4c64bd984f13c8f89699be8a9e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39812",
-      "title": "CVE-2026-39812 - A improper neutralization of input during web page generation ('cross-site scrip...",
-      "body": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiSandbox PaaS 5.0.0 through 5.0.5, FortiSandbox PaaS 4.4.0 through 4.4.8, FortiSandbox PaaS 4.2 all versions may allow attacker to execute unauthorized code or commands via <insert attack vector here>",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39812",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.8,
-      "published_at": "2026-04-14T16:16:45.490000",
-      "created_at": "2026-04-15T17:02:13.912250+00:00"
-    },
-    {
-      "id": "b27db0ccf478b057",
-      "content_hash": "b27db0ccf478b0572f4e1fbe68f3ed2befeecf6810089199e81bae496e63c3d9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39811",
-      "title": "CVE-2026-39811 - A integer overflow or wraparound vulnerability in Fortinet FortiWeb 8.0.0 throug...",
-      "body": "A integer overflow or wraparound vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.3, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4 all versions, FortiWeb 7.2 all versions, FortiWeb 7.0 all versions may allow attacker to denial of service via <insert attack vector here>",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39811",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-04-14T16:16:45.310000",
-      "created_at": "2026-04-15T17:02:13.912243+00:00"
     }
   ]
 }
