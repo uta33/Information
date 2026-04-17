@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-17T11:41:55.693752+00:00",
+  "generated_at": "2026-04-17T12:53:48.179305+00:00",
   "items": [
+    {
+      "id": "589d63143908bcae",
+      "content_hash": "589d63143908bcae803038a3126208c82519ee770148b7143ce43346c3fbf733",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+      "title": "Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery",
+      "body": "Cyberattacks are evolving faster than many MSP and corporate defenses can keep up, with phishing driving much of today's cybercrime. Join our upcoming webinar to learn how to combine security and recovery strategies to reduce risk and maintain business continuity. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T12:20:28+00:00",
+      "created_at": "2026-04-17T12:53:44.356787+00:00"
+    },
+    {
+      "id": "af4689c32e2ecea5",
+      "content_hash": "af4689c32e2ecea5cd53d242a2babf46ef9e87d2ef80381c1f0a86187b94a01b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hex.ooo/library/last_question.html",
+      "title": "Isaac Asimov: The Last Question",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47804965\">Comments</a>",
+      "url": "https://hex.ooo/library/last_question.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T12:01:19+00:00",
+      "created_at": "2026-04-17T12:53:48.178523+00:00"
+    },
+    {
+      "id": "5dfddf8ed213f8c6",
+      "content_hash": "5dfddf8ed213f8c699ecfdd4f0c06092907880fa8468d38ee59b0cf9e880b450",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thenation.com/article/society/ai-silicon-valley-andreesen-thiel-stem/",
+      "title": "How Silicon Valley Is Turning Scientists into Exploited Gig Workers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47804708\">Comments</a>",
+      "url": "https://www.thenation.com/article/society/ai-silicon-valley-andreesen-thiel-stem/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-17T11:22:05+00:00",
+      "created_at": "2026-04-17T12:53:48.178652+00:00"
+    },
+    {
+      "id": "9e156b6b9810c4ce",
+      "content_hash": "9e156b6b9810c4ce9b0a2b6f8c86ef6da02df9c66db78f16a7209ea8d2c9b295",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
+      "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
+      "body": "Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24.9 million accounts in 2025.\nThe new policy updates relate to contact and location permissions in Android, allowing third-party apps to access the contact lists and a user's location in",
+      "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T10:47:00+00:00",
+      "created_at": "2026-04-17T12:53:44.240277+00:00"
+    },
     {
       "id": "5bf3d64308d81b3d",
       "content_hash": "5bf3d64308d81b3d9925c23a23c58b9bc73b6b40213beca20cfeba61b7dcd908",
@@ -1288,6 +1344,20 @@
       "cvss_score": null,
       "published_at": "2026-04-16T20:19:31+00:00",
       "created_at": "2026-04-16T20:42:00.286379+00:00"
+    },
+    {
+      "id": "81f4ababa07b7320",
+      "content_hash": "81f4ababa07b732094d15d7762d7dbec20e77eae9828d2cf1f281b09998a6042",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33122",
+      "title": "CVE-2026-33122 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
+      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the API datasource update process. When a new table definition is added during a datasource update via /de2api/datasource/update, the deTableName field from the user-submitted configuration is passed to DatasourceSyncManage.createEngineTable, where it is substituted into a CREATE TABLE statement template without any sanitization or identifier escaping. An authenticated attacker can inject arbitrary SQL commands by crafting a deTableName that breaks out of identifier quoting, enabling error-based SQL injection that can extract database information. This issue has been fixed in version 2.10.21.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33122",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T20:16:38.640000",
+      "created_at": "2026-04-17T12:53:44.958779+00:00"
     },
     {
       "id": "3ddefccf1eebfd4d",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.1,
       "published_at": "2026-04-15T17:17:01.060000",
       "created_at": "2026-04-16T11:51:11.277520+00:00"
-    },
-    {
-      "id": "9ecfb04b8634c51c",
-      "content_hash": "9ecfb04b8634c51ca14e2de9afe2aa38bb808f90671253af6b04bb614d4003ca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-63029",
-      "title": "CVE-2025-63029 - Improper Neutralization of Special Elements used in an SQL Command ('SQL Injecti...",
-      "body": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WC Lovers WCFM Marketplace allows SQL Injection.This issue affects WCFM Marketplace: from n/a through 3.7.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63029",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.6,
-      "published_at": "2026-04-15T17:17:00.613000",
-      "created_at": "2026-04-16T11:51:11.277513+00:00"
-    },
-    {
-      "id": "a2871ea3dba0bb54",
-      "content_hash": "a2871ea3dba0bb54e4da5223f7490eb414e7768a0b6eb7009783941d799fb0c3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15636",
-      "title": "CVE-2025-15636 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripti...",
-      "body": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Emarket-design YouTube Showcase allows Stored XSS.This issue affects YouTube Showcase: from n/a through 3.5.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15636",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-15T17:17:00.437000",
-      "created_at": "2026-04-16T11:51:11.277506+00:00"
-    },
-    {
-      "id": "01e1ba30ea06bde9",
-      "content_hash": "01e1ba30ea06bde9e8a3a6bdd30761df162f8db6943d418a03241bbed76c9670",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15635",
-      "title": "CVE-2025-15635 - Cross-Site Request Forgery (CSRF) vulnerability in Zaytech Smart Online Order fo...",
-      "body": "Cross-Site Request Forgery (CSRF) vulnerability in Zaytech Smart Online Order for Clover allows Cross Site Request Forgery.This issue affects Smart Online Order for Clover: from n/a through 1.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15635",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-15T17:17:00.277000",
-      "created_at": "2026-04-16T11:51:11.277500+00:00"
-    },
-    {
-      "id": "ce99090af6e45850",
-      "content_hash": "ce99090af6e4585055bf1d785e2dd217bdea05504ec4add831688cdb42283375",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15610",
-      "title": "CVE-2025-15610 - Deserialization of untrusted data vulnerability in OpenText, Inc RightFax on Win...",
-      "body": "Deserialization of untrusted data vulnerability in OpenText, Inc RightFax on Windows, 64 bit, 32 bit allows Object Injection.This issue affects RightFax: through 25.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15610",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T17:17:00.020000",
-      "created_at": "2026-04-16T11:51:11.277493+00:00"
-    },
-    {
-      "id": "e7fb60f7189c9a62",
-      "content_hash": "e7fb60f7189c9a62722def19543e5e7ed5c1abd646a0ce48ab4d76fed39eb452",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
-      "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
-      "body": "Threat actors&nbsp;have been&nbsp;observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated&nbsp;emails.\n\"By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery",
-      "url": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T17:09:00+00:00",
-      "created_at": "2026-04-15T18:59:34.418577+00:00"
     }
   ]
 }
