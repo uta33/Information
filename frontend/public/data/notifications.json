@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-17T21:32:26.520747+00:00",
+  "generated_at": "2026-04-17T22:27:43.518784+00:00",
   "items": [
+    {
+      "id": "bf7773b27f14aa64",
+      "content_hash": "bf7773b27f14aa64d029f5cac4276d17e2ee4b71048df4f9a5545394d0c1cd93",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "title": "A simplified model of Fil-C",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47810872\">Comments</a>",
+      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T21:38:20+00:00",
+      "created_at": "2026-04-17T22:27:43.518142+00:00"
+    },
     {
       "id": "07952784f031de66",
       "content_hash": "07952784f031de667e0a3f1db8fd197837c65912905735bc1b3c94df5bb3c190",
@@ -84,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T19:00:07+00:00",
       "created_at": "2026-04-17T21:32:26.520478+00:00"
+    },
+    {
+      "id": "9747f8848686525d",
+      "content_hash": "9747f8848686525d244f995575ee1b14d7365fb356713e6eebdc647b98f60df7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
+      "title": "Even \"cat readme.txt\" is not safe",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47809190\">Comments</a>",
+      "url": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T18:43:32+00:00",
+      "created_at": "2026-04-17T22:27:43.518514+00:00"
     },
     {
       "id": "c66f6c2e3cc05628",
@@ -350,6 +378,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T15:29:36+00:00",
       "created_at": "2026-04-17T16:41:50.568879+00:00"
+    },
+    {
+      "id": "2727e1cc3150a314",
+      "content_hash": "2727e1cc3150a314cc4426a1b7ffa6c8603fc55d0a81a6f8c02e13d379d1758f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "title": "Measuring Claude 4.7's tokenizer costs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47807006\">Comments</a>",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T15:29:36+00:00",
+      "created_at": "2026-04-17T22:27:43.518159+00:00"
     },
     {
       "id": "bce992f5754bd82d",
@@ -840,6 +882,34 @@
       "cvss_score": null,
       "published_at": "2026-04-17T08:32:54+00:00",
       "created_at": "2026-04-17T11:41:55.693277+00:00"
+    },
+    {
+      "id": "f69a7acdc8f51452",
+      "content_hash": "f69a7acdc8f51452d51072dc902a73228127453309fd7cfe5257dc4537b79157",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40002",
+      "title": "CVE-2026-40002 - Red Magic 11 Pro (NX809J) contains a vulnerability that allows non-privileged ap...",
+      "body": "Red Magic 11 Pro (NX809J) contains a vulnerability that allows non-privileged applications to trigger sensitive operations. The vulnerability stems from the lack of validation for applications accessing the service interface. Exploiting this vulnerability, an attacker can write files to specific partitions and set writable system properties.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40002",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.0,
+      "published_at": "2026-04-17T08:16:18.120000",
+      "created_at": "2026-04-17T22:27:39.440296+00:00"
+    },
+    {
+      "id": "f9188f3b42ef426f",
+      "content_hash": "f9188f3b42ef426f6003acd367cead5911afd36f7ca3282a9d972c1c9f414654",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33392",
+      "title": "CVE-2026-33392 - In JetBrains YouTrack before 2025.3.131383 high privileged user can achieve RCE ...",
+      "body": "In JetBrains YouTrack before 2025.3.131383 high privileged user can achieve RCE via sandbox bypass",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33392",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.2,
+      "published_at": "2026-04-17T08:16:17.877000",
+      "created_at": "2026-04-17T22:27:39.440290+00:00"
     },
     {
       "id": "3101ed5c96f06340",
@@ -3850,6 +3920,20 @@
       "cvss_score": null,
       "published_at": "2026-04-16T15:13:13+00:00",
       "created_at": "2026-04-16T17:02:13.682564+00:00"
+    },
+    {
+      "id": "09dbc0f1c3f58c7a",
+      "content_hash": "09dbc0f1c3f58c7aec8897ed7fa3c44e474b1c291de08a96d2e1e92cfa9f752b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=sZjPQ7vtLNA",
+      "title": "The Unix Executable as a Smalltalk Method [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47794311\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=sZjPQ7vtLNA",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T15:09:07+00:00",
+      "created_at": "2026-04-17T22:27:43.518439+00:00"
     },
     {
       "id": "458161c08f9c71ec",
@@ -6916,90 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-04-15T20:16:43.910000",
       "created_at": "2026-04-16T20:42:00.700038+00:00"
-    },
-    {
-      "id": "6c30573132f76fab",
-      "content_hash": "6c30573132f76fabcb0cdc7a425d4136c5a47d8f3ae7e417651413dba17757ed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6363",
-      "title": "CVE-2026-6363 - Type Confusion in V8 in Google Chrome prior to 147.0.7727.101 allowed a remote a...",
-      "body": "Type Confusion in V8 in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6363",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:43.690000",
-      "created_at": "2026-04-16T20:42:00.700032+00:00"
-    },
-    {
-      "id": "6bd4e4647ec45012",
-      "content_hash": "6bd4e4647ec450124ac6146a57550c6dfd7d087e12e700c2999aaee2aba265fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6362",
-      "title": "CVE-2026-6362 - Use after free in Codecs in Google Chrome prior to 147.0.7727.101 allowed a remo...",
-      "body": "Use after free in Codecs in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to potentially perform out of bounds memory access via a crafted video file. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6362",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-15T20:16:43.557000",
-      "created_at": "2026-04-16T20:42:00.700026+00:00"
-    },
-    {
-      "id": "85e1d5211657a363",
-      "content_hash": "85e1d5211657a363ec1bb9184ec35bd892a8d22ec98d90bca893cc70dbf72599",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6361",
-      "title": "CVE-2026-6361 - Heap buffer overflow in PDFium in Google Chrome on Windows prior to 147.0.7727.1...",
-      "body": "Heap buffer overflow in PDFium in Google Chrome on Windows prior to 147.0.7727.101 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code inside a sandbox via a crafted PDF file. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6361",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-04-15T20:16:43.267000",
-      "created_at": "2026-04-16T20:42:00.700020+00:00"
-    },
-    {
-      "id": "f8b5c31f2621e963",
-      "content_hash": "f8b5c31f2621e9635390d60fe09bdc891bb96156c28a98e6e640968ad161866b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6360",
-      "title": "CVE-2026-6360 - Use after free in FileSystem in Google Chrome prior to 147.0.7727.101 allowed a ...",
-      "body": "Use after free in FileSystem in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to potentially exploit object corruption via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6360",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:42.830000",
-      "created_at": "2026-04-16T20:42:00.700013+00:00"
-    },
-    {
-      "id": "4d0eba11c5df8193",
-      "content_hash": "4d0eba11c5df8193b188ac98783e231b07db39c00123e71d51dd3ccf8a9d7966",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6359",
-      "title": "CVE-2026-6359 - Use after free in Video in Google Chrome on Windows prior to 147.0.7727.101 allo...",
-      "body": "Use after free in Video in Google Chrome on Windows prior to 147.0.7727.101 allowed a remote attacker who had compromised the renderer process to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6359",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:42.597000",
-      "created_at": "2026-04-16T20:42:00.700007+00:00"
-    },
-    {
-      "id": "48cfe500703bc3c4",
-      "content_hash": "48cfe500703bc3c4df4d0eaae63a42440b155a8c7aa0b64b3a7cdcb90a77d03c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6358",
-      "title": "CVE-2026-6358 - Use after free in XR in Google Chrome on Android prior to 147.0.7727.101 allowed...",
-      "body": "Use after free in XR in Google Chrome on Android prior to 147.0.7727.101 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Critical)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6358",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:42.363000",
-      "created_at": "2026-04-16T20:42:00.700001+00:00"
     }
   ]
 }
