@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-17T08:20:44.343432+00:00",
+  "generated_at": "2026-04-17T10:04:06.883355+00:00",
   "items": [
+    {
+      "id": "5bf3d64308d81b3d",
+      "content_hash": "5bf3d64308d81b3d9925c23a23c58b9bc73b6b40213beca20cfeba61b7dcd908",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
+      "body": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-17T09:30:15+00:00",
+      "created_at": "2026-04-17T10:04:02.087053+00:00"
+    },
+    {
+      "id": "02d5678a79dc32ab",
+      "content_hash": "02d5678a79dc32abf29158bcf46e2a3813ca6196af155678d7690025c08fbe21",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.iqiipi.com/the-quiet-colossus.html",
+      "title": "Ada, Its Design, and the Language That Built the Languages",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47803844\">Comments</a>",
+      "url": "https://www.iqiipi.com/the-quiet-colossus.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T08:51:38+00:00",
+      "created_at": "2026-04-17T10:04:06.882591+00:00"
+    },
     {
       "id": "8d262f054128ef0e",
       "content_hash": "8d262f054128ef0ec3db5121dddb107437de7459fc4a96c6f4482d899c30bbd0",
@@ -1386,6 +1414,34 @@
       "cvss_score": null,
       "published_at": "2026-04-16T19:18:31+00:00",
       "created_at": "2026-04-16T23:31:34.193613+00:00"
+    },
+    {
+      "id": "5057d568a0bb3f9b",
+      "content_hash": "5057d568a0bb3f9b94d9d29cbc337270730de429af18ada8aa607d0483d26085",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-43935",
+      "title": "CVE-2025-43935 - Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an improper resource...",
+      "body": "Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an improper resource shutdown or release vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to denial of service.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43935",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.4,
+      "published_at": "2026-04-16T19:16:32.610000",
+      "created_at": "2026-04-17T10:04:02.384983+00:00"
+    },
+    {
+      "id": "e795418afa1b410f",
+      "content_hash": "e795418afa1b410f3b85edd2f00b9b57586dd2659fb6450693ffcd358490a036",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2023-20585",
+      "title": "CVE-2023-20585 - Insufficient checks of the RMP on host buffer access in IOMMU may allow an attac...",
+      "body": "Insufficient checks of the RMP on host buffer access in IOMMU may allow an attacker with privileges and a compromised hypervisor to trigger an out of bounds condition without RMP checks, resulting in a potential loss of confidential guest integrity.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-20585",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T19:16:31.430000",
+      "created_at": "2026-04-17T10:04:02.384976+00:00"
     },
     {
       "id": "c225db3809936f32",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-15T16:20:21+00:00",
       "created_at": "2026-04-15T17:02:11.571405+00:00"
-    },
-    {
-      "id": "2b51a74547d24175",
-      "content_hash": "2b51a74547d2417549413dfffd34ec3ace7aa13e611a18b7cef5a1322ff9f376",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
-      "title": "CRISPR takes important step toward silencing Down syndrome’s extra chromosome",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781286\">Comments</a>",
-      "url": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:19:48+00:00",
-      "created_at": "2026-04-15T23:33:30.703630+00:00"
-    },
-    {
-      "id": "84df373f2fbb3eba",
-      "content_hash": "84df373f2fbb3eba2aebc7bdf5ee60704662b87e9e0588ea494cd456edba6e54",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5387",
-      "title": "CVE-2026-5387 - The vulnerability, if exploited, could allow an unauthenticated miscreant to per...",
-      "body": "The vulnerability, if exploited, could allow an unauthenticated miscreant to perform operations intended only for Simulator Instructor or Simulator Developer (Administrator) roles, resulting in privilege escalation with potential for modification of simulation parameters, training configuration, and training records.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5387",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:16:39.007000",
-      "created_at": "2026-04-16T11:51:11.277486+00:00"
-    },
-    {
-      "id": "022f9c6189540940",
-      "content_hash": "022f9c618954094026854f04177845228c72a79909dd705c9eaebd306eb1d3ae",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-30625",
-      "title": "CVE-2026-30625 - Upsonic 0.71.6 contains a remote code execution vulnerability in its MCP server/...",
-      "body": "Upsonic 0.71.6 contains a remote code execution vulnerability in its MCP server/task creation functionality. The application allows users to define MCP tasks with arbitrary command and args values. Although an allowlist exists, certain allowed commands (npm, npx) accept argument flags that enable execution of arbitrary OS commands. Maliciously crafted MCP tasks may lead to remote code execution with the privileges of the Upsonic process. In version 0.72.0 Upsonic added a warning about using Stdio servers being able to execute commands directly on the machine.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30625",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:16:36.787000",
-      "created_at": "2026-04-16T11:51:11.277480+00:00"
-    },
-    {
-      "id": "c1df32db7e78af6e",
-      "content_hash": "c1df32db7e78af6e006e177b6275e1de53845d715a8a9e7b1a46136d5e4dcb34",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-30624",
-      "title": "CVE-2026-30624 - Agent Zero 0.9.8 contains a remote code execution vulnerability in its External ...",
-      "body": "Agent Zero 0.9.8 contains a remote code execution vulnerability in its External MCP Servers configuration feature. The application allows users to define MCP servers using a JSON configuration containing arbitrary command and args values. These values are executed by the application when the configuration is applied without sufficient validation or restriction. An attacker may supply a malicious MCP configuration to execute arbitrary operating system commands, potentially resulting in remote code execution with the privileges of the Agent Zero process.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30624",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.6,
-      "published_at": "2026-04-15T16:16:36.677000",
-      "created_at": "2026-04-16T11:51:11.277473+00:00"
     }
   ]
 }
