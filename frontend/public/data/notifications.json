@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T10:04:06.883355+00:00",
+  "generated_at": "2026-04-17T11:41:55.693752+00:00",
   "items": [
     {
       "id": "5bf3d64308d81b3d",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T08:51:38+00:00",
       "created_at": "2026-04-17T10:04:06.882591+00:00"
+    },
+    {
+      "id": "898784d5d7b1d299",
+      "content_hash": "898784d5d7b1d299ceefeab2e09204d98309194caf8ea2cc7ee83209521e41fc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint",
+      "title": "How Big Tech wrote secrecy into EU law to hide data centres' environmental toll",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47803745\">Comments</a>",
+      "url": "https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T08:32:54+00:00",
+      "created_at": "2026-04-17T11:41:55.693277+00:00"
     },
     {
       "id": "8d262f054128ef0e",
@@ -1276,6 +1290,20 @@
       "created_at": "2026-04-16T20:42:00.286379+00:00"
     },
     {
+      "id": "3ddefccf1eebfd4d",
+      "content_hash": "3ddefccf1eebfd4d3e67952e6fb5566e32f30cb1bcdee125c7a99eef7b1b87ae",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-54502",
+      "title": "CVE-2025-54502 - Incorrect use of boot service in the AMD Platform Configuration Blob (APCB) SMM ...",
+      "body": "Incorrect use of boot service in the AMD Platform Configuration Blob (APCB) SMM driver could allow a privileged attacker with local access (Ring 0) to achieve privilege escalation potentially resulting in arbitrary code execution.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54502",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T20:16:37.393000",
+      "created_at": "2026-04-17T11:41:50.843770+00:00"
+    },
+    {
       "id": "fdaf09c2c795118b",
       "content_hash": "fdaf09c2c795118ba501605dad9f698ec8d90a79b024bac9b7ebb506fd2e343a",
       "source_name": "Hacker News (Best)",
@@ -1414,6 +1442,76 @@
       "cvss_score": null,
       "published_at": "2026-04-16T19:18:31+00:00",
       "created_at": "2026-04-16T23:31:34.193613+00:00"
+    },
+    {
+      "id": "a764fdda82d54007",
+      "content_hash": "a764fdda82d54007cfa819f126f9ab480ca898b32a9ede09c9f7fb8eb647a7a0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6442",
+      "title": "CVE-2026-6442 - Improper validation of bash commands in Snowflake Cortex Code CLI versions prior...",
+      "body": "Improper validation of bash commands in Snowflake Cortex Code CLI versions prior to 1.0.25 allowed subsequent commands to execute outside the sandbox. An attacker could exploit this by embedding specially crafted commands in untrusted content, such as a malicious repository, causing the CLI agent to execute arbitrary code on the local device without user consent. Exploitation is non-deterministic and model-dependent. The fix is automatically applied upon relaunch with no user action required.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6442",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.3,
+      "published_at": "2026-04-16T19:16:35.560000",
+      "created_at": "2026-04-17T11:41:50.843764+00:00"
+    },
+    {
+      "id": "4c416cddc1d4bd81",
+      "content_hash": "4c416cddc1d4bd8131f8971b4ee12b6f46c2bf6c1cdff682aa5a93f9b9a2f745",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33121",
+      "title": "CVE-2026-33121 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
+      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the API datasource saving process. The deTableName field from the Base64-encoded datasource configuration is used to construct a DDL statement via simple string replacement without any sanitization or escaping of the table name. An authenticated attacker can inject arbitrary SQL commands by crafting a deTableName that breaks out of identifier quoting, enabling error-based SQL injection that can extract database information such as the MySQL version. This issue has been fixed in version 2.10.21.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33121",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T19:16:33.657000",
+      "created_at": "2026-04-17T11:41:50.843758+00:00"
+    },
+    {
+      "id": "6f8f0412d4f58b21",
+      "content_hash": "6f8f0412d4f58b21b959f70358121a92be33054bd9a383f492d67c12654135d9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33084",
+      "title": "CVE-2026-33084 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
+      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the sort parameter of the /de2api/datasetData/enumValueObj endpoint. The DatasetDataManage service layer directly transfers the user-supplied sort value to the sorting metadata DTO, which is passed to Order2SQLObj where it is incorporated into the SQL ORDER BY clause without any whitelist validation, and then executed via CalciteProvider. An authenticated attacker can inject arbitrary SQL commands through the sort parameter, enabling time-based blind SQL injection. This issue has been fixed in version 2.10.21.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33084",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T19:16:33.520000",
+      "created_at": "2026-04-17T11:41:50.843752+00:00"
+    },
+    {
+      "id": "d7fa2d790a2d0bad",
+      "content_hash": "d7fa2d790a2d0badd2a639e6ffe8ec5a1f2985f24d80191ff475a1ea78bba042",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-54510",
+      "title": "CVE-2025-54510 - A missing lock verification in AMD Secure Processor (ASP) firmware may permit a ...",
+      "body": "A missing lock verification in AMD Secure Processor (ASP) firmware may permit a locally authenticated attacker with administrative privileges to alter MMIO routing on some Zen 5-based products, potentially compromising guest system integrity.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54510",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T19:16:32.897000",
+      "created_at": "2026-04-17T11:41:50.843746+00:00"
+    },
+    {
+      "id": "303b4c642b272be9",
+      "content_hash": "303b4c642b272be91cf67a6ab2c8749b416b9cb553f18be953262e42517517e7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-43937",
+      "title": "CVE-2025-43937 - Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an insertion of sens...",
+      "body": "Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an insertion of sensitive information into log file vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to the disclosure of certain user credentials. The attacker may be able to use the exposed credentials to access the vulnerable application with privileges of the compromised account.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43937",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.6,
+      "published_at": "2026-04-16T19:16:32.750000",
+      "created_at": "2026-04-17T11:41:50.843740+00:00"
     },
     {
       "id": "5057d568a0bb3f9b",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-15T17:09:00+00:00",
       "created_at": "2026-04-15T18:59:34.418577+00:00"
-    },
-    {
-      "id": "606dc9a4f5d48e91",
-      "content_hash": "606dc9a4f5d48e91b9bf1386aeda79828f1782579946f2ed44519bd66fbc2097",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://seqpu.com/CPUsArentDead/",
-      "title": "CPUs Aren't Dead. Gemma2B Out Scored GPT-3.5 Turbo on Test That Made It Famous",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781998\">Comments</a>",
-      "url": "https://seqpu.com/CPUsArentDead/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T17:07:36+00:00",
-      "created_at": "2026-04-15T18:59:38.837157+00:00"
-    },
-    {
-      "id": "120f5d0817f00ced",
-      "content_hash": "120f5d0817f00ced7e5883a9839bee9cba01055e65c49c37ecbaa173c40c2ab0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
-      "title": "Adaptional (YC S25) Is Hiring Founding AI Engineers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781912\">Comments</a>",
-      "url": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T17:00:56+00:00",
-      "created_at": "2026-04-15T17:02:18.054218+00:00"
-    },
-    {
-      "id": "4e9443da733f3ae1",
-      "content_hash": "4e9443da733f3ae1a3c9f5b1a4c9fa47f134b952570ce79dfefef52283d523fe",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
-      "title": "Adaptional (YC S25) is hiring AI engineers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781912\">Comments</a>",
-      "url": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T17:00:56+00:00",
-      "created_at": "2026-04-15T21:41:38.263213+00:00"
-    },
-    {
-      "id": "92c17e45765f1914",
-      "content_hash": "92c17e45765f1914e204346d1f61a3b4e658cac2a7449b8d355f683a3ba41260",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://wherethefuckdidmytaxesgo.com/",
-      "title": "Where did my taxes go?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781864\">Comments</a>",
-      "url": "https://wherethefuckdidmytaxesgo.com/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:57:37+00:00",
-      "created_at": "2026-04-15T18:59:38.837544+00:00"
-    },
-    {
-      "id": "fcc4250ec2223325",
-      "content_hash": "fcc4250ec2223325f785a0462d16cd535747709f16759ae78d50b32f64e7de05",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.androidauthority.com/tiny-e-reader-diy-3657661/",
-      "title": "The tiniest e-reader in the world, and you can build one yourself",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47781802\">Comments</a>",
-      "url": "https://www.androidauthority.com/tiny-e-reader-diy-3657661/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:53:16+00:00",
-      "created_at": "2026-04-15T17:02:18.054579+00:00"
-    },
-    {
-      "id": "24b8786cced7e023",
-      "content_hash": "24b8786cced7e02380e2b851fdb9dc356dc378984322c9e3592c9b49339a1094",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3112616",
-      "title": "Anthropic shrugs off VC funding offers valuing it at $800B+, for now",
-      "body": "VCs are frothing at the mouth to write more checks to Anthropic at a valuation that matches or beats OpenAI's.",
-      "url": "https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:21:21+00:00",
-      "created_at": "2026-04-15T17:02:17.790021+00:00"
-    },
-    {
-      "id": "a0708931d78560ef",
-      "content_hash": "a0708931d78560ef1873635998cd130526b973cf43c4dcb1fa1860cebad6824e",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
-      "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
-      "body": "Microsoft has awarded $2.3 million to security researchers after receiving nearly 700 submissions during this year's Zero Day Quest hacking contest. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T16:20:21+00:00",
-      "created_at": "2026-04-15T17:02:11.571405+00:00"
     }
   ]
 }
