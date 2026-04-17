@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-17T20:34:23.111929+00:00",
+  "generated_at": "2026-04-17T21:32:26.520747+00:00",
   "items": [
+    {
+      "id": "07952784f031de66",
+      "content_hash": "07952784f031de667e0a3f1db8fd197837c65912905735bc1b3c94df5bb3c190",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead",
+      "title": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47810507\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T21:00:08+00:00",
+      "created_at": "2026-04-17T21:32:26.520229+00:00"
+    },
+    {
+      "id": "2a3e533f0cccd2d9",
+      "content_hash": "2a3e533f0cccd2d9623bfcb3807e23fd386a5c6320b5640b6f0c9ea76e025021",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3113889",
+      "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed ‘side quests’",
+      "body": "Kevin Weil and Bill Peebles are leaving OpenAI as the company shuts down Sora and folds its science team, signaling a sharp pivot away from consumer moonshots toward enterprise AI.",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T20:38:17+00:00",
+      "created_at": "2026-04-17T21:32:26.431230+00:00"
+    },
     {
       "id": "8f40ef76eb57e858",
       "content_hash": "8f40ef76eb57e858365cf6395ccacae29f213d421482f1a83a74bc77039889b5",
@@ -44,6 +72,20 @@
       "created_at": "2026-04-17T19:50:47.173274+00:00"
     },
     {
+      "id": "31150d77779816e2",
+      "content_hash": "31150d77779816e23beeda29ee1e752a356928811de4609eadee48802ef35cfa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/",
+      "title": "Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47809347\">Comments</a>",
+      "url": "https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T19:00:07+00:00",
+      "created_at": "2026-04-17T21:32:26.520478+00:00"
+    },
+    {
       "id": "c66f6c2e3cc05628",
       "content_hash": "c66f6c2e3cc05628cf83052b962ec30b99c8fdd1407cde028a9f5ee3601bfff7",
       "source_name": "TechCrunch",
@@ -84,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T18:17:01+00:00",
       "created_at": "2026-04-17T18:42:02.909189+00:00"
+    },
+    {
+      "id": "74338a63d5e2d687",
+      "content_hash": "74338a63d5e2d6879731c28649400888f9b010bda00758e5ae40080f3d66d4ce",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+      "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47808913\">Comments</a>",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T18:17:01+00:00",
+      "created_at": "2026-04-17T21:32:26.520170+00:00"
     },
     {
       "id": "81968dd2973d0090",
@@ -210,6 +266,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T16:23:22+00:00",
       "created_at": "2026-04-17T17:39:53.274486+00:00"
+    },
+    {
+      "id": "4a0c3954dcc56bdc",
+      "content_hash": "4a0c3954dcc56bdcde1418817b34a43444a73779d746a68b308c062f27c1ee7a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "title": "I'm spending 3 months coding the old way",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47807583\">Comments</a>",
+      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T16:19:53+00:00",
+      "created_at": "2026-04-17T21:32:26.520185+00:00"
     },
     {
       "id": "5c503b8eb66681c1",
@@ -772,6 +842,20 @@
       "created_at": "2026-04-17T11:41:55.693277+00:00"
     },
     {
+      "id": "3101ed5c96f06340",
+      "content_hash": "3101ed5c96f06340acb4044ce52cac4465609eca7d1d8f597e4dfe64363c24f8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23853",
+      "title": "CVE-2026-23853 - Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Featu...",
+      "body": "Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Feature Release versions 7.7.1.0 through 8.5, LTS2025 release version 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.50, contain a use of weak credentials vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to unauthorized access to the system.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23853",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.4,
+      "published_at": "2026-04-17T08:16:16.900000",
+      "created_at": "2026-04-17T21:32:23.662589+00:00"
+    },
+    {
       "id": "8d262f054128ef0e",
       "content_hash": "8d262f054128ef0ec3db5121dddb107437de7459fc4a96c6f4482d899c30bbd0",
       "source_name": "Bleeping Computer",
@@ -812,6 +896,48 @@
       "cvss_score": null,
       "published_at": "2026-04-17T07:20:46+00:00",
       "created_at": "2026-04-17T08:20:44.342651+00:00"
+    },
+    {
+      "id": "4777300bdf277eb3",
+      "content_hash": "4777300bdf277eb3abf7ab0b6573030ec232757b6e582c25501bc4583ca94d78",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6443",
+      "title": "CVE-2026-6443 - The Accordion and Accordion Slider plugin for WordPress is vulnerable to an inje...",
+      "body": "The Accordion and Accordion Slider plugin for WordPress is vulnerable to an injected backdoor in version 1.4.6. This is due to the plugin being sold to a malicious threat actor that embedded a backdoor in all of the plugin's they acquired. This makes it possible for the threat actor to maintain a persistent backdoor and inject spam into the affected sites.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6443",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-04-17T07:16:03.160000",
+      "created_at": "2026-04-17T21:32:23.662584+00:00"
+    },
+    {
+      "id": "52a80d6bda36a2eb",
+      "content_hash": "52a80d6bda36a2eb174b050e2c4ad67b74269fe796c217da59a355506dac979b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6441",
+      "title": "CVE-2026-6441 - The Canto plugin for WordPress is vulnerable to Missing Authorization in version...",
+      "body": "The Canto plugin for WordPress is vulnerable to Missing Authorization in versions up to and including 3.1.1. This is due to the absence of any capability check or nonce verification in the updateOptions() function, which is exposed via two AJAX hooks: wp_ajax_updateOptions (class-canto.php line 231) and wp_ajax_fbc_updateOptions (class-canto-settings.php line 76). Both hooks are registered exclusively under the wp_ajax_ prefix (requiring only a logged-in user), with no call to current_user_can() or check_ajax_referer(). This makes it possible for authenticated attackers with subscriber-level access and above to arbitrarily modify or delete plugin options controlling cron scheduling behavior (fbc_duplicates, fbc_cron, fbc_schedule, fbc_cron_time_day, fbc_cron_time_hour, fbc_cron_start) and to manipulate or clear the plugin's scheduled WordPress cron event (fbc_scheduled_update).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6441",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-17T07:16:03.020000",
+      "created_at": "2026-04-17T21:32:23.662580+00:00"
+    },
+    {
+      "id": "63a326b8dc6fd3fb",
+      "content_hash": "63a326b8dc6fd3fb39d9d7320101a8a64c6d402cafb6e34cb897b3f68e08975f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4659",
+      "title": "CVE-2026-4659 - The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Arbit...",
+      "body": "The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Arbitrary File Read via the Repeater JSON/CSV URL parameter in versions up to, and including, 2.0.6. This is due to insufficient path traversal sanitization in the URLtoRelative() and urlToPath() functions, combined with the ability to enable debug output in widget settings. The URLtoRelative() function only performs a simple string replacement to remove the site's base URL without sanitizing path traversal sequences (../), and the cleanPath() function only normalizes directory separators without removing traversal components. This allows an attacker to provide a URL like http://site.com/../../../../etc/passwd which, after URLtoRelative() strips the domain, results in /../../../../etc/passwd being concatenated with the base path and ultimately resolved to /etc/passwd. This makes it possible for authenticated attackers with Author-level access and above to read arbitrary local files from the WordPress host, including sensitive files such as wp-config.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4659",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-17T07:16:01.967000",
+      "created_at": "2026-04-17T21:32:23.662575+00:00"
     },
     {
       "id": "e77ad18c8b3c4fe7",
@@ -6874,132 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-15T20:16:42.363000",
       "created_at": "2026-04-16T20:42:00.700001+00:00"
-    },
-    {
-      "id": "036d6004bacdb747",
-      "content_hash": "036d6004bacdb7473fcecf1bf3e704e1f548897493de8725f510509da65d1769",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6319",
-      "title": "CVE-2026-6319 - Use after free in Payments in Google Chrome on Android prior to 147.0.7727.101 a...",
-      "body": "Use after free in Payments in Google Chrome on Android prior to 147.0.7727.101 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6319",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-15T20:16:42.203000",
-      "created_at": "2026-04-16T20:42:00.699995+00:00"
-    },
-    {
-      "id": "632a95afb9b2a8b0",
-      "content_hash": "632a95afb9b2a8b0da0779467adeadb1ada28270ed62c7e5df260c8605c1f0e1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6318",
-      "title": "CVE-2026-6318 - Use after free in Codecs in Google Chrome prior to 147.0.7727.101 allowed a remo...",
-      "body": "Use after free in Codecs in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6318",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:42.020000",
-      "created_at": "2026-04-16T19:56:51.053349+00:00"
-    },
-    {
-      "id": "2e2c1caca989a926",
-      "content_hash": "2e2c1caca989a926b27eca7ae3b75cb2cad37a8727af3a496eb64d8c42c8d0e3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6317",
-      "title": "CVE-2026-6317 - Use after free in Cast in Google Chrome prior to 147.0.7727.101 allowed a remote...",
-      "body": "Use after free in Cast in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6317",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:41.743000",
-      "created_at": "2026-04-16T19:56:51.053342+00:00"
-    },
-    {
-      "id": "6fe91c40ff6b36da",
-      "content_hash": "6fe91c40ff6b36da5c1aa8308de75de8d3e7ef61fc31b28679c5daf5ee8eb64d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6316",
-      "title": "CVE-2026-6316 - Use after free in Forms in Google Chrome prior to 147.0.7727.101 allowed a remot...",
-      "body": "Use after free in Forms in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6316",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:41.580000",
-      "created_at": "2026-04-16T19:56:51.053336+00:00"
-    },
-    {
-      "id": "0a3bffa5e1ef1b72",
-      "content_hash": "0a3bffa5e1ef1b72209caee9baf272cdcd7122a1caa8c39634e7010d146cc5ec",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6315",
-      "title": "CVE-2026-6315 - Use after free in Permissions in Google Chrome on Android prior to 147.0.7727.10...",
-      "body": "Use after free in Permissions in Google Chrome on Android prior to 147.0.7727.101 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6315",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-15T20:16:41.417000",
-      "created_at": "2026-04-16T19:56:51.053329+00:00"
-    },
-    {
-      "id": "9e13d1ad99b1c7a6",
-      "content_hash": "9e13d1ad99b1c7a6f9438eb1b605ed0d46b9d9ce03544a2e0514a1795406d792",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6314",
-      "title": "CVE-2026-6314 - Out of bounds write in GPU in Google Chrome prior to 147.0.7727.101 allowed a re...",
-      "body": "Out of bounds write in GPU in Google Chrome prior to 147.0.7727.101 allowed a remote attacker who had compromised the GPU process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6314",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-04-15T20:16:41.257000",
-      "created_at": "2026-04-16T19:56:51.053322+00:00"
-    },
-    {
-      "id": "08b82523aa682c4b",
-      "content_hash": "08b82523aa682c4be3e993c2b6210bd5cd7cb73f0d274919f0279e106bd2462d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6313",
-      "title": "CVE-2026-6313 - Insufficient policy enforcement in CORS in Google Chrome prior to 147.0.7727.101...",
-      "body": "Insufficient policy enforcement in CORS in Google Chrome prior to 147.0.7727.101 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6313",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-04-15T20:16:41.093000",
-      "created_at": "2026-04-16T19:56:51.053315+00:00"
-    },
-    {
-      "id": "c0c04cb4f0ff5879",
-      "content_hash": "c0c04cb4f0ff5879552c9939c1f2da6d741e255694c23feee44ae415e8924c81",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6312",
-      "title": "CVE-2026-6312 - Insufficient policy enforcement in Passwords in Google Chrome prior to 147.0.772...",
-      "body": "Insufficient policy enforcement in Passwords in Google Chrome prior to 147.0.7727.101 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6312",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-04-15T20:16:40.940000",
-      "created_at": "2026-04-16T18:56:55.048387+00:00"
-    },
-    {
-      "id": "775e3ac45f2d6ddd",
-      "content_hash": "775e3ac45f2d6ddd26ae3ec275350e3489182d2e22f7eb30e5b84f38c2c4d560",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6311",
-      "title": "CVE-2026-6311 - Uninitialized Use in Accessibility in Google Chrome on Windows prior to 147.0.77...",
-      "body": "Uninitialized Use in Accessibility in Google Chrome on Windows prior to 147.0.7727.101 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6311",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-04-15T20:16:40.767000",
-      "created_at": "2026-04-16T18:56:55.048378+00:00"
     }
   ]
 }
