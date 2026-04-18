@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T10:30:31.600341+00:00",
+  "generated_at": "2026-04-18T11:26:27.207543+00:00",
   "items": [
     {
       "id": "f5722fe718dcf391",
@@ -266,6 +266,34 @@
       "cvss_score": null,
       "published_at": "2026-04-17T20:38:17+00:00",
       "created_at": "2026-04-17T21:32:26.431230+00:00"
+    },
+    {
+      "id": "c11b6f6062c045e9",
+      "content_hash": "c11b6f6062c045e98e80abd51037b6459493a3e46b8a070db2785ddf7c2bc87f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-32105",
+      "title": "CVE-2026-32105 - xrdp is an open source RDP server. In versions through 0.10.5, xrdp does not imp...",
+      "body": "xrdp is an open source RDP server. In versions through 0.10.5, xrdp does not implement verification for the Message Authentication Code (MAC) signature of encrypted RDP packets when using the \"Classic RDP Security\" layer. While the sender correctly generates signatures, the receiving logic lacks the necessary implementation to validate the 8-byte integrity signature, causing it to be silently ignored. An unauthenticated attacker with man-in-the-middle (MITM) capabilities can exploit this missing check to modify encrypted traffic in transit without detection. It does not affect connections where the TLS security layer is enforced. This issue has been fixed in version 0.10.6. If users are unable to immediately upgrade, they should configure xrdp.ini to enforce TLS security (security_layer=tls) to ensure end-to-end integrity.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32105",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T20:16:33.517000",
+      "created_at": "2026-04-18T11:26:23.532044+00:00"
+    },
+    {
+      "id": "81bcf41eac0e913e",
+      "content_hash": "81bcf41eac0e913ea465f73c6e22e63a92ad215519f69deb5ee3b4be172edf3e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31927",
+      "title": "CVE-2026-31927 - Anviz CX7 Firmware is vulnerable to an authenticated CSV upload which allows pat...",
+      "body": "Anviz CX7 Firmware is vulnerable to an authenticated CSV upload which allows path traversal \nto overwrite arbitrary files (e.g., /etc/shadow), enabling unauthorized \nSSH access when combined with debug‑setting changes",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31927",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.9,
+      "published_at": "2026-04-17T20:16:33.370000",
+      "created_at": "2026-04-18T11:26:23.532037+00:00"
     },
     {
       "id": "8f40ef76eb57e858",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T01:46:00+00:00",
       "created_at": "2026-04-16T04:43:22.594142+00:00"
-    },
-    {
-      "id": "042635e3d4b7cd6e",
-      "content_hash": "042635e3d4b7cd6eaddd9281d9c2c8c04d97d2a1db0899c2af90a115476df59d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011232.html",
-      "title": "Amazon.com, Inc.のAmazon Athena ODBCにおける制限またはスロットリング無しのリソースの割り当てに関する脆弱性",
-      "body": "Amazon Athena ODBCドライバーのバージョン2.1.0.0以前の解析コンポーネントには、リソースが無制限に割り当てられる問題があります。このため、攻撃者がドライバーの解析処理中に細工された入力を送信し、過剰なリソース消費を引き起こすことでサービス拒否を発生させる可能性があります。この問題を解決するために、ユーザーはバージョン2.1.0.0にアップグレードする必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011232.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594157+00:00"
-    },
-    {
-      "id": "806c13f6e198fdb0",
-      "content_hash": "806c13f6e198fdb0473aed37d08353ff8687fd6d04844f719bc1316d1a596f20",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011231.html",
-      "title": "razormistのBasic Library System Using PHP with Source CodeにおけるSQL インジェクションの脆弱性",
-      "body": "Sourcecodester Basic Library System v1.0の/librarysystem/load_book.phpにはSQLインジェクションの脆弱性が存在します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011231.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594172+00:00"
     }
   ]
 }
