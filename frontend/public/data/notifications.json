@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T08:36:37.896944+00:00",
+  "generated_at": "2026-04-18T09:37:43.147291+00:00",
   "items": [
     {
       "id": "f5722fe718dcf391",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-18T07:59:00+00:00",
       "created_at": "2026-04-18T08:36:34.005078+00:00"
+    },
+    {
+      "id": "89126a37aa01b07f",
+      "content_hash": "89126a37aa01b07fb50fda0c4a2dae00936278a53ea26e855b96332bd107b6d1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://geohot.github.io//blog/jekyll/update/2026/04/18/america-mandate-of-heaven.html",
+      "title": "America Lost the Mandate of Heaven",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47814073\">Comments</a>",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/04/18/america-mandate-of-heaven.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-18T07:56:18+00:00",
+      "created_at": "2026-04-18T09:37:43.146710+00:00"
     },
     {
       "id": "a789f34d84dd3c1f",
@@ -126,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-04-18T04:49:38+00:00",
       "created_at": "2026-04-18T07:53:04.525271+00:00"
+    },
+    {
+      "id": "6e1743bfa8acafb6",
+      "content_hash": "6e1743bfa8acafb6b1e897c747796f5587855a1a3b84aa858c5deeb2b054fb66",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/yapstudios/sfsym",
+      "title": "Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47812964\">Comments</a>",
+      "url": "https://github.com/yapstudios/sfsym",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-18T03:44:54+00:00",
+      "created_at": "2026-04-18T09:37:43.146925+00:00"
     },
     {
       "id": "6fb5579937167486",
@@ -380,6 +408,48 @@
       "created_at": "2026-04-17T21:32:26.520170+00:00"
     },
     {
+      "id": "a1a4bdcf405dc736",
+      "content_hash": "a1a4bdcf405dc736a9df1ce0dba69d03594b5fe9991a69c26f052b6a0afa92dd",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40320",
+      "title": "CVE-2026-40320 - Giskard is an open-source testing framework for AI models. In versions prior to ...",
+      "body": "Giskard is an open-source testing framework for AI models. In versions prior to 1.0.2b1, the ConformityCheck class rendered the rule parameter through Jinja2's default Template() constructor, silently interpreting template expressions at runtime. If check definitions are loaded from an untrusted source, a crafted rule string could achieve arbitrary code execution. Exploitation requires write access to a check definition and subsequent execution of the test suite. This issue has been fixed in giskard-checks version 1.0.2b1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40320",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T18:16:32.203000",
+      "created_at": "2026-04-18T09:37:38.652145+00:00"
+    },
+    {
+      "id": "7698965b9ad9208d",
+      "content_hash": "7698965b9ad9208d8c44941ff816eb7f30aa337723d847153b874fe022a4b614",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40319",
+      "title": "CVE-2026-40319 - Giskard is an open-source testing framework for AI models. In versions prior to ...",
+      "body": "Giskard is an open-source testing framework for AI models. In versions prior to 1.0.2b1, the RegexMatching check passes a user-supplied regular expression pattern directly to Python's re.search() without any timeout or complexity guard. A crafted regex pattern can trigger catastrophic backtracking, causing the process to hang indefinitely. Exploitation requires write access to a check definition and subsequent execution of the test suite. This issue has been fixed in giskard-checks version 1.0.2b1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40319",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T18:16:32.063000",
+      "created_at": "2026-04-18T09:37:38.652139+00:00"
+    },
+    {
+      "id": "57713866b6c16c69",
+      "content_hash": "57713866b6c16c69874bf5cd28f936166f4f7dace244b3afffb02eb318ba8dbe",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-65104",
+      "title": "CVE-2025-65104 - Firebird is an open-source relational database management system. In versions FB...",
+      "body": "Firebird is an open-source relational database management system. In versions FB3 of the client library placed incorrect data length values into XSQLDA fields when communicating with FB4 or higher servers, resulting in an information leak. This issue is fixed by upgrading to the FB4 client or higher.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65104",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.9,
+      "published_at": "2026-04-17T18:16:30.773000",
+      "created_at": "2026-04-18T09:37:38.652133+00:00"
+    },
+    {
       "id": "81968dd2973d0090",
       "content_hash": "81968dd2973d0090559a27d422407caea4ff6f5a27ccfa52fbfd47d86dc8f7bf",
       "source_name": "Hacker News (Best)",
@@ -420,6 +490,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T17:18:58+00:00",
       "created_at": "2026-04-17T18:42:02.909066+00:00"
+    },
+    {
+      "id": "6ac9952c80886787",
+      "content_hash": "6ac9952c808867877d29e7afa766f70f0ece35b6a47a34ea2dd146ae4c7a852d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40518",
+      "title": "CVE-2026-40518 - ByteDance DeerFlow before commit 2176b2b contains a path traversal and arbitrary...",
+      "body": "ByteDance DeerFlow before commit 2176b2b contains a path traversal and arbitrary file write vulnerability in bootstrap-mode custom-agent creation where the agent name validation is bypassed. Attackers can supply traversal-style values or absolute paths as the agent name to influence directory creation and write files outside the intended custom-agent directory, potentially achieving arbitrary file write on the system subject to filesystem permissions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40518",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-04-17T17:17:09.543000",
+      "created_at": "2026-04-18T09:37:38.652127+00:00"
     },
     {
       "id": "bcbea212aff6da46",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T01:45:00+00:00",
       "created_at": "2026-04-16T04:43:22.594308+00:00"
-    },
-    {
-      "id": "db44516830f13675",
-      "content_hash": "db44516830f136752fcd7224dfd85f64af1fe6924701de3252378e8e51c7e6b8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011221.html",
-      "title": "IBMのIBM Tivoli Netcool/Impactにおけるログファイルからの情報漏えいに関する脆弱性",
-      "body": "IBM Tivoli Netcool Impact 7.1.0.0 から 7.1.0.37 までのバージョンは、機密情報をログファイルに保存しており、これがローカルユーザーによって読み取られる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011221.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594323+00:00"
-    },
-    {
-      "id": "bf6af3af373a589c",
-      "content_hash": "bf6af3af373a589cae3d8dedc157ecab4e6de94ca4f8a0d9494b025f90972f40",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011220.html",
-      "title": "libarchive等の複数ベンダの製品における整数オーバーフローの脆弱性",
-      "body": "libarchiveに脆弱性が発見されました。32ビットシステムにおいて、zisofsのブロックポインタ割り当てロジックに整数オーバーフローの脆弱性が存在します。リモートの攻撃者は、特別に細工されたISO9660イメージを提供することでこれを悪用でき、ヒープバッファオーバーフローが発生する可能性があります。これにより、影響を受けるシステム上で任意のコードを実行できる恐れがあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011220.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594367+00:00"
-    },
-    {
-      "id": "5e2b4bd7dedcae6b",
-      "content_hash": "5e2b4bd7dedcae6bf072a6c0b6708e57b6e34912d61d91fcc444220655345c4c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011219.html",
-      "title": "Amazon.com, Inc.のAmazon Athena ODBCにおけるOS コマンドインジェクションの脆弱性",
-      "body": "Amazon Athena ODBCドライバーのバージョン2.0.5.1以前のLinux版におけるブラウザベース認証コンポーネントにOSコマンドインジェクションの脆弱性があります。この脆弱性により、ローカルユーザーが開始する接続時にドライバーが読み込む特別に細工された接続パラメータを使用すると、攻撃者が任意のコードを実行できる可能性があります。本問題を解決するために、ユーザーはバージョン2.0.5.1以降にアップグレードする必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011219.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594386+00:00"
-    },
-    {
-      "id": "4dbec9698b0e17ee",
-      "content_hash": "4dbec9698b0e17eed4b977ecb304d6c8cfb6476589567105ae011020bdfcf59c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011218.html",
-      "title": "goshsにおけるパラメトリックデータ値に対する書き込み保護の欠如に関する脆弱性",
-      "body": "goshsはGoで書かれたSimpleHTTPServerです。バージョン1.0.7から2.0.0-beta.4未満では、SFTPのrenameコマンドがソースパスのみをサニタイズし、宛先パスをサニタイズしません。そのため、SFTPのルートディレクトリ外に書き込みを行うことが可能でした。この脆弱性は2.0.0-beta.4で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011218.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594401+00:00"
-    },
-    {
-      "id": "86ce7237b5f09ce7",
-      "content_hash": "86ce7237b5f09ce725ead67f43e112e92160b259edc1d408012090ef81b34a85",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011217.html",
-      "title": "GoogleのGoogle Chromeにおける制御エージェントとデータエージェント間における割り当てが一貫しないポリシー権限に関する脆弱性",
-      "body": "Google Chromeのバージョン147.0.7727.55以前のPWAにおけるポリシーの不十分な強制により、リモートの攻撃者がレンダラプロセスを侵害し、細工されたHTMLページを介してユーザーの同意なしにPWAをインストールできる可能性がありました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011217.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594417+00:00"
-    },
-    {
-      "id": "f2620dfd123eb916",
-      "content_hash": "f2620dfd123eb91602bb5a3ec3521009e38e511881d60d66884ea7d7f4865f4c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011216.html",
-      "title": "snewscmsのsNewsにおけるクロスサイトリクエストフォージェリの脆弱性",
-      "body": "Snews CMS 1.7にはクロスサイトリクエストフォージェリの脆弱性があり、攻撃者が悪意のあるHTMLフォームを作成することで認証なしに管理者の認証情報を変更できます。攻撃者は認証済みの管理者を騙して、変更アクション（changeup）へPOSTリクエストを送信する隠しフォームを含むページを訪問させ、管理者のユーザー名やパスワードのパラメータを変更して不正アクセスを取得します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-011216.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T01:45:00+00:00",
-      "created_at": "2026-04-16T04:43:22.594432+00:00"
     }
   ]
 }
