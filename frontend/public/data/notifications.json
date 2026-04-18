@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T23:29:52.499064+00:00",
+  "generated_at": "2026-04-18T01:17:14.466837+00:00",
   "items": [
     {
       "id": "59722cea329f73ad",
@@ -352,6 +352,20 @@
       "created_at": "2026-04-17T21:32:26.520185+00:00"
     },
     {
+      "id": "7db588fe2c13be1e",
+      "content_hash": "7db588fe2c13be1ea7a39dc958fdd06a5b7c46a60149a0a2d430de3cd0f473fe",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "title": "Spending 3 months coding by hand",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47807583\">Comments</a>",
+      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T16:19:53+00:00",
+      "created_at": "2026-04-18T01:17:14.466407+00:00"
+    },
+    {
       "id": "5c503b8eb66681c1",
       "content_hash": "5c503b8eb66681c109b1ddf376554916cdd4453c066cd6f14f0c49cdca1db744",
       "source_name": "TechCrunch",
@@ -448,6 +462,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T15:20:45+00:00",
       "created_at": "2026-04-17T16:41:50.569212+00:00"
+    },
+    {
+      "id": "e32a8d25290dae44",
+      "content_hash": "e32a8d25290dae44b552286475775fcf4ff542b22d7d001d1d1061c622c908e9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://awnist.com/slop-cop",
+      "title": "Slop Cop",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47806845\">Comments</a>",
+      "url": "https://awnist.com/slop-cop",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T15:15:24+00:00",
+      "created_at": "2026-04-18T01:17:14.466212+00:00"
     },
     {
       "id": "ef49b23385277f18",
@@ -842,6 +870,76 @@
       "created_at": "2026-04-17T12:53:48.178652+00:00"
     },
     {
+      "id": "251dfae82384705d",
+      "content_hash": "251dfae82384705daf010c8a987571a6713457e7f606c976c0543ec182725e4d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5131",
+      "title": "CVE-2026-5131 - GREENmod uses named pipes for communication between plugins, the web portal, and...",
+      "body": "GREENmod uses named pipes for communication between plugins, the web portal, and the system service, but the access control lists for these pipes are configured incorrectly. This allows an attacker to communicate with the stream and upload any XML or JSON file, which will be processed by the named pipe with the privileges of the user under whose context the service is running. This allows for Server-Side Request Forgery to any Windows system on which the agent is installed and which provides communication via SMB or WebDav.\n\nThis issue was fixed in version 2.8.33.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5131",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T11:16:11",
+      "created_at": "2026-04-18T01:17:10.304199+00:00"
+    },
+    {
+      "id": "05cc5fadd263def8",
+      "content_hash": "05cc5fadd263def858c736078f540aca5c3624e12b1109ed3452aaa7ca7addeb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35153",
+      "title": "CVE-2026-35153 - Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release...",
+      "body": "Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release versions 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.60 contain an improper neutralization of argument delimiters in a command ('argument injection') vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary command execution with root privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35153",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-17T11:16:10.870000",
+      "created_at": "2026-04-18T01:17:10.304193+00:00"
+    },
+    {
+      "id": "66c5ea992363ca64",
+      "content_hash": "66c5ea992363ca647ea5269600ae3918b478d244211e7c2d000fcf86443f292e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35074",
+      "title": "CVE-2026-35074 - Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release...",
+      "body": "Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release versions 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.60 contain an improper neutralization of special elements used in an OS Command Injection vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary command execution with root privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35074",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-17T11:16:10.737000",
+      "created_at": "2026-04-18T01:17:10.304186+00:00"
+    },
+    {
+      "id": "3be8b90e7bcc86cd",
+      "content_hash": "3be8b90e7bcc86cd8857c4ba6271e6ce642d3ffd18d4abaa18612a170dc46cb9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35073",
+      "title": "CVE-2026-35073 - Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release...",
+      "body": "Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release versions 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.60 contain an improper neutralization of special elements used in an OS command injection vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary command execution with root privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35073",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-17T11:16:10.610000",
+      "created_at": "2026-04-18T01:17:10.304175+00:00"
+    },
+    {
+      "id": "c3b2249e2c4fb9b7",
+      "content_hash": "c3b2249e2c4fb9b79121e8583fdd17a06694d27a0170815fabc643d76c7a45f5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35072",
+      "title": "CVE-2026-35072 - Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release...",
+      "body": "Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7.0.0, LTS2025 release versions 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.60 contain an improper neutralization of special elements used in an OS command ('OS command injection') vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to arbitrary command execution with root privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35072",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-17T11:16:10.090000",
+      "created_at": "2026-04-18T01:17:10.304169+00:00"
+    },
+    {
       "id": "9e156b6b9810c4ce",
       "content_hash": "9e156b6b9810c4ce9b0a2b6f8c86ef6da02df9c66db78f16a7209ea8d2c9b295",
       "source_name": "The Hacker News",
@@ -854,6 +952,20 @@
       "cvss_score": null,
       "published_at": "2026-04-17T10:47:00+00:00",
       "created_at": "2026-04-17T12:53:44.240277+00:00"
+    },
+    {
+      "id": "e6f5a815696f9e28",
+      "content_hash": "e6f5a815696f9e28db724279abdb438ebc452e165f218b219a0fd6ea7e913a2e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23779",
+      "title": "CVE-2026-23779 - Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Featu...",
+      "body": "Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Feature Release versions 7.7.1.0 through 8.5, LTS2025 release version 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.50, contain a command injection vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability to gain root-level access.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23779",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.7,
+      "published_at": "2026-04-17T10:16:05.017000",
+      "created_at": "2026-04-18T01:17:10.304162+00:00"
     },
     {
       "id": "c661cfd8b2a93424",
@@ -6888,118 +7000,6 @@
       "cvss_score": 6.8,
       "published_at": "2026-04-15T22:17:22.377000",
       "created_at": "2026-04-16T21:33:48.839682+00:00"
-    },
-    {
-      "id": "9ca6739e98adc6df",
-      "content_hash": "9ca6739e98adc6df4a241d0cf9dd900c876782cbe0fb1bcf3faaffe915f10486",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-1711",
-      "title": "CVE-2026-1711 - Pega Platform versions 8.1.0 through 25.1.1 are affected by a Stored Cross-Site ...",
-      "body": "Pega Platform versions 8.1.0 through 25.1.1 are affected by a Stored Cross-Site Scripting vulnerability in a user interface component. Requires a high privileged user with a developer role.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1711",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T22:16:51.880000",
-      "created_at": "2026-04-16T21:33:48.839675+00:00"
-    },
-    {
-      "id": "6a3dd2dc169fc222",
-      "content_hash": "6a3dd2dc169fc2229b4f8746ec2b884b044a129273127998406d797789f03060",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-1564",
-      "title": "CVE-2026-1564 - Pega Platform versions 8.1.0 through 25.1.1 are affected by an HTML Injection vu...",
-      "body": "Pega Platform versions 8.1.0 through 25.1.1 are affected by an HTML Injection vulnerability in a user interface component. Requires a high privileged user with a developer role.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1564",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T22:16:51.250000",
-      "created_at": "2026-04-16T21:33:48.839668+00:00"
-    },
-    {
-      "id": "4d168b82d73aeec4",
-      "content_hash": "4d168b82d73aeec4e9dd8bc0063f941d9ddc5fccde789f4cc1479a8e53e86a89",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.bbc.com/news/technology-39576394",
-      "title": "Ohio prison inmates 'built computers and hid them in ceiling (2017)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47785948\">Comments</a>",
-      "url": "https://www.bbc.com/news/technology-39576394",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T22:05:44+00:00",
-      "created_at": "2026-04-15T23:33:30.703289+00:00"
-    },
-    {
-      "id": "2527650bc0873b39",
-      "content_hash": "2527650bc0873b391e7648db3da2265740e12bb2fc965a602bae315102b3c177",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.bbc.com/news/technology-39576394",
-      "title": "Ohio prison inmates 'built computers and hid them in ceiling' (2017)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47785948\">Comments</a>",
-      "url": "https://www.bbc.com/news/technology-39576394",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T22:05:44+00:00",
-      "created_at": "2026-04-16T04:43:23.037232+00:00"
-    },
-    {
-      "id": "8c73fdb44845d67f",
-      "content_hash": "8c73fdb44845d67fd0da8f73465c2c484d64f7dbcb9ea0007390c2e699687bf4",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
-      "title": "New AgingFly malware used in attacks on Ukraine govt, hospitals",
-      "body": "A new malware family named 'AgingFly' has been identified in attacks against local governments and hospitals that steal authentication data from Chromium-based browsers and WhatsApp messenger. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T21:57:17+00:00",
-      "created_at": "2026-04-15T22:32:37.407157+00:00"
-    },
-    {
-      "id": "fa4cc1a268713b30",
-      "content_hash": "fa4cc1a268713b30c0085ab1fbb16807355e97c47b4b99a0de0bc53ccd7344e9",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3112976",
-      "title": "Ford EV and tech chief leaving automaker",
-      "body": "Doug Field had stints at Apple and Tesla before joining Ford in 2021.",
-      "url": "https://techcrunch.com/2026/04/15/ford-ev-and-tech-chief-leaving-automaker/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T21:52:05+00:00",
-      "created_at": "2026-04-15T22:32:41.115559+00:00"
-    },
-    {
-      "id": "903e67354f6ca1cf",
-      "content_hash": "903e67354f6ca1cfd6377d21d81200e1f16ccdb3363fe441cc5e955d15b91af8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.mcdonalds.co.jp/en/menu/burger/",
-      "title": "The buns in McDonald's Japan's burger photos are all slightly askew",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47785738\">Comments</a>",
-      "url": "https://www.mcdonalds.co.jp/en/menu/burger/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T21:48:18+00:00",
-      "created_at": "2026-04-15T22:32:41.240614+00:00"
-    },
-    {
-      "id": "5a97fd47a9717a34",
-      "content_hash": "5a97fd47a9717a34100cf11ecd898593bd3a82a03b5a916d625a1508202d5312",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3112945",
-      "title": "Wait, could they still actually break up Live Nation?",
-      "body": "A federal jury found that Live Nation has acted illegally as a monopoly -- but the company just came to a tentative settlement with the DOJ last month.",
-      "url": "https://techcrunch.com/2026/04/15/wait-could-they-still-actually-break-up-live-nation/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-15T21:38:09+00:00",
-      "created_at": "2026-04-15T21:41:38.044764+00:00"
     }
   ]
 }
