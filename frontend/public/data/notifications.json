@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-19T08:00:00.057706+00:00",
+  "generated_at": "2026-04-19T08:57:34.336706+00:00",
   "items": [
+    {
+      "id": "d43af7558293da6c",
+      "content_hash": "d43af7558293da6ccb2cb0cbf3cb9bd8ef7d18e2427086e6d0b9913062cd274f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+      "title": "SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822805\">Comments</a>",
+      "url": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T08:45:48+00:00",
+      "created_at": "2026-04-19T08:57:34.335979+00:00"
+    },
+    {
+      "id": "015bf350bcaeb9de",
+      "content_hash": "015bf350bcaeb9de4173d0c02ef6b592ca684ac358c55e643280aa7df7879f29",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6561",
+      "title": "CVE-2026-6561 - A vulnerability was detected in EyouCMS up to 1.7.1. This issue affects the func...",
+      "body": "A vulnerability was detected in EyouCMS up to 1.7.1. This issue affects the function edit_adminlogo of the file application/admin/controller/Index.php. Performing a manipulation of the argument filename results in unrestricted upload. The attack is possible to be carried out remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6561",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.7,
+      "published_at": "2026-04-19T08:16:26.113000",
+      "created_at": "2026-04-19T08:57:30.682552+00:00"
+    },
     {
       "id": "0a10848c78cd4626",
       "content_hash": "0a10848c78cd46268fdb73236ccdc185e8c098d701ea04008d854f26b287b38f",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T17:12:19+00:00",
       "created_at": "2026-04-16T18:56:59.404936+00:00"
-    },
-    {
-      "id": "431ce97e5f32691a",
-      "content_hash": "431ce97e5f32691ae39c16e3270794b62d1070288dd6b5dc13fe497006b39dfd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://openai.com/index/codex-for-almost-everything/",
-      "title": "Codex for almost everything",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47796469\">Comments</a>",
-      "url": "https://openai.com/index/codex-for-almost-everything/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:12:19+00:00",
-      "created_at": "2026-04-16T19:56:55.138519+00:00"
-    },
-    {
-      "id": "bf2a93bcf16e3c2d",
-      "content_hash": "bf2a93bcf16e3c2d945e60e74e7542dc65f4476be933894dd40e4a4965013c19",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113243",
-      "title": "It’s not just you — Bluesky is (sorta) down",
-      "body": "Bluesky has been experiencing ongoing service disruptions since just before 3 a.m. ET.",
-      "url": "https://techcrunch.com/2026/04/16/its-not-just-you-bluesky-is-sorta-down/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:11:20+00:00",
-      "created_at": "2026-04-16T18:56:59.051387+00:00"
     }
   ]
 }
