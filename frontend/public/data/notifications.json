@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-19T01:26:43.914006+00:00",
+  "generated_at": "2026-04-19T04:42:42.810766+00:00",
   "items": [
+    {
+      "id": "bed6da84f28c957f",
+      "content_hash": "bed6da84f28c957f5f83a193c27392cb697e55336158a6c67cafb23c145929e8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-0868",
+      "title": "CVE-2026-0868 - The EMC – Easily Embed Calendly Scheduling Features plugin for WordPress is vuln...",
+      "body": "The EMC – Easily Embed Calendly Scheduling Features plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's calendly shortcode in all versions up to, and including, 4.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0868",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-04-19T04:16:10.670000",
+      "created_at": "2026-04-19T04:42:39.202621+00:00"
+    },
     {
       "id": "aea0f785b6b87216",
       "content_hash": "aea0f785b6b8721605e00385651b3e8425b188bfd79767f02223b04131005e51",
@@ -1022,6 +1036,20 @@
       "cvss_score": null,
       "published_at": "2026-04-18T03:47:57+00:00",
       "created_at": "2026-04-19T01:26:43.913514+00:00"
+    },
+    {
+      "id": "7aec7e176796757a",
+      "content_hash": "7aec7e176796757ac4eb9d9947fe13c9df71add9276da3cf4d8b872d619ec974",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://medium.com/@mailbox.sq7/a-long-story-about-how-i-dug-into-the-postgresql-source-code-to-write-my-own-wal-receiver-and-what-53fd251d8f25",
+      "title": "I dug into the Postgres sources to write my own WAL receiver",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47812973\">Comments</a>",
+      "url": "https://medium.com/@mailbox.sq7/a-long-story-about-how-i-dug-into-the-postgresql-source-code-to-write-my-own-wal-receiver-and-what-53fd251d8f25",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-18T03:47:57+00:00",
+      "created_at": "2026-04-19T04:42:42.810451+00:00"
     },
     {
       "id": "6e1743bfa8acafb6",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T16:15:00+00:00",
       "created_at": "2026-04-16T17:02:13.319310+00:00"
-    },
-    {
-      "id": "2707b267f66e50ce",
-      "content_hash": "2707b267f66e50cef81dbe6251505304869f8128f9f21cb4a1a824fae62764d2",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113133",
-      "title": "AI traffic to US retailers rose 393% in Q1, and it’s boosting their revenue too",
-      "body": "Adobe says AI traffic to U.S. retail sites also jumped 269% in March, with visitors converting better and generating more revenue than non-AI shoppers.",
-      "url": "https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:14:03+00:00",
-      "created_at": "2026-04-16T17:02:13.319335+00:00"
-    },
-    {
-      "id": "8d908346e0fd6421",
-      "content_hash": "8d908346e0fd6421eb5eda9770653f03586a9426d4886a8061cbfd1230b73696",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/GRVYDEV/marky",
-      "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47795468\">Comments</a>",
-      "url": "https://github.com/GRVYDEV/marky",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:08:05+00:00",
-      "created_at": "2026-04-16T22:29:33.549742+00:00"
     }
   ]
 }
