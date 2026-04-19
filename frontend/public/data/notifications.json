@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-19T04:42:42.810766+00:00",
+  "generated_at": "2026-04-19T06:23:47.138512+00:00",
   "items": [
+    {
+      "id": "03276dcf993a57c5",
+      "content_hash": "03276dcf993a57c549cfa6bed84aa2e9ff421d8ecf54dfea7c5ed72c826d8852",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6559",
+      "title": "CVE-2026-6559 - A weakness has been identified in Wavlink WL-WN579A3 220323. This affects the fu...",
+      "body": "A weakness has been identified in Wavlink WL-WN579A3 220323. This affects the function sub_401F80 of the file /cgi-bin/login.cgi. This manipulation of the argument Hostname causes cross site scripting. Remote exploitation of the attack is possible. Upgrading the affected component is recommended. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6559",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-19T06:16:10.437000",
+      "created_at": "2026-04-19T06:23:42.637818+00:00"
+    },
     {
       "id": "bed6da84f28c957f",
       "content_hash": "bed6da84f28c957f5f83a193c27392cb697e55336158a6c67cafb23c145929e8",
@@ -14,6 +28,20 @@
       "cvss_score": 6.4,
       "published_at": "2026-04-19T04:16:10.670000",
       "created_at": "2026-04-19T04:42:39.202621+00:00"
+    },
+    {
+      "id": "c0fe359bf5a3a170",
+      "content_hash": "c0fe359bf5a3a1707d1de961af4d019ca7452e61bd6e8d1b14feb71294ca766c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://baumgartner.house.gov/2026/04/02/baumgartner-introduces-bipartisan-bill-to-tighten-controls-on-sensitive-chipmaking-equipment/",
+      "title": "Bipartisan Bill to Tighten Controls on Sensitive Chipmaking Equipment",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47821603\">Comments</a>",
+      "url": "https://baumgartner.house.gov/2026/04/02/baumgartner-introduces-bipartisan-bill-to-tighten-controls-on-sensitive-chipmaking-equipment/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T03:33:49+00:00",
+      "created_at": "2026-04-19T06:23:47.138270+00:00"
     },
     {
       "id": "aea0f785b6b87216",
@@ -3642,6 +3670,20 @@
       "created_at": "2026-04-17T14:15:40.958545+00:00"
     },
     {
+      "id": "1b24accf5d8b4dce",
+      "content_hash": "1b24accf5d8b4dce715a75372016ac33be2bf6dad72ccdd245b1887ad9a6d3c0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://antithesis.com/blog/2026/skiptrees/",
+      "title": "What Are Skiplists Good For?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47806021\">Comments</a>",
+      "url": "https://antithesis.com/blog/2026/skiptrees/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T13:57:27+00:00",
+      "created_at": "2026-04-19T06:23:47.137781+00:00"
+    },
+    {
       "id": "99e65b8ef5deb6da",
       "content_hash": "99e65b8ef5deb6da7826351adaf95c16cda059e89583403d327ad09f1f16d414",
       "source_name": "Hacker News (Best)",
@@ -6820,6 +6862,20 @@
       "created_at": "2026-04-17T08:20:41.073471+00:00"
     },
     {
+      "id": "7b8853d758430e42",
+      "content_hash": "7b8853d758430e42efc60f4491b97e36891e5a2b3edf547eedc487a995a7ddd2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/riyaneel/Tachyon/tree/main/docs/adr",
+      "title": "Bypassing the kernel for 56ns cross-language IPC",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47796496\">Comments</a>",
+      "url": "https://github.com/riyaneel/Tachyon/tree/main/docs/adr",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T17:13:50+00:00",
+      "created_at": "2026-04-19T06:23:47.138111+00:00"
+    },
+    {
       "id": "aeab9d64734d6c71",
       "content_hash": "aeab9d64734d6c71548b8707e62e0f317b1a58bb2457e762cdd2f98dfbf5a094",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T16:40:49+00:00",
       "created_at": "2026-04-17T23:29:52.498638+00:00"
-    },
-    {
-      "id": "d9cc484f2687a862",
-      "content_hash": "d9cc484f2687a8626cff3dd43350897477edd3c01769861a8a74237d578c345b",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113172",
-      "title": "Two Americans sentenced for helping North Korea steal $5 million in fake IT worker scheme",
-      "body": "The U.S. Department of Justice announced that two Americans were sentenced to years in prison for helping the North Korean government place fake IT workers in U.S. companies.",
-      "url": "https://techcrunch.com/2026/04/16/two-americans-sentenced-for-helping-north-korea-steal-5-million-in-fake-it-worker-scheme/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:16:51+00:00",
-      "created_at": "2026-04-16T17:02:13.319282+00:00"
-    },
-    {
-      "id": "88f64752e50f45fe",
-      "content_hash": "88f64752e50f45fe22369402e3b8c39843556752a76b0ed5f1d8632280ed33c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5426",
-      "title": "CVE-2026-5426 - Hard-coded ASP.NET/IIS machineKey value in Digital Knowledge KnowledgeDeliver de...",
-      "body": "Hard-coded ASP.NET/IIS machineKey value in Digital Knowledge KnowledgeDeliver deployments prior to February 24, 2026 allows adversaries to circumvent ViewState validation mechanisms and achieve remote code execution via malicious ViewState deserialization attacks",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5426",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:16:17.693000",
-      "created_at": "2026-04-17T08:20:41.073460+00:00"
-    },
-    {
-      "id": "bf40b8582c0ae6ee",
-      "content_hash": "bf40b8582c0ae6ee0bf60966198f9d38a2d52b9190d2c4049ed2339f37f446e0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37100",
-      "title": "CVE-2026-37100 - An issue in the Bluetooth Low Energy (BLE) control interface of the Yamaha SR-B3...",
-      "body": "An issue in the Bluetooth Low Energy (BLE) control interface of the Yamaha SR-B30A sound bar firmware 2.40 (Mobile App: Sound Bar Remote / version: 2.40) allows remote attackers within BLE radio range to connect without authentication via the Sound Bar Remote protocol",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37100",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:16:16.910000",
-      "created_at": "2026-04-17T08:20:41.073414+00:00"
-    },
-    {
-      "id": "56030d24f7cbbba5",
-      "content_hash": "56030d24f7cbbba5b3b2cc0383bdda6f75eb04cdbd2952058da6df752d0f46d5",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113071",
-      "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
-      "body": "According to CEO Helen Gu, the biggest problem facing the industry today is not just monitoring and diagnosing where AI models go wrong, it's diagnosing how the entire tech stack operates now that AI is a part of it.",
-      "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:15:00+00:00",
-      "created_at": "2026-04-16T17:02:13.319310+00:00"
     }
   ]
 }
