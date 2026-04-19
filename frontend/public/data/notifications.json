@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-19T20:25:07.669879+00:00",
+  "generated_at": "2026-04-19T21:25:08.663818+00:00",
   "items": [
+    {
+      "id": "a967650dc90eccb6",
+      "content_hash": "a967650dc90eccb6c14e1a37ad1549f3cb2777eb776deccb7a9f0c8dda61c156",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3114050",
+      "title": "OpenAI’s existential questions",
+      "body": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T21:24:06+00:00",
+      "created_at": "2026-04-19T21:25:08.263388+00:00"
+    },
+    {
+      "id": "c322c0556532b59c",
+      "content_hash": "c322c0556532b59c430c7aa45ee1e2eb13bae2959b7af3e7868b7422bfdf339c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
+      "title": "Swiss authorities want to reduce dependency on Microsoft",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47827383\">Comments</a>",
+      "url": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T20:25:29+00:00",
+      "created_at": "2026-04-19T21:25:08.663141+00:00"
+    },
     {
       "id": "7ad11e1f98185db9",
       "content_hash": "7ad11e1f98185db966ad69e927163576f7d5b074409b73e5e9a9054f0e574221",
@@ -4370,6 +4398,20 @@
       "created_at": "2026-04-17T18:42:02.909086+00:00"
     },
     {
+      "id": "737271ebedc940df",
+      "content_hash": "737271ebedc940dfef78293d3fa7d8a6e2d659d0ccc5c22a86dcda73bad53ce0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2026/eliza",
+      "title": "Eliza a Play by Tom Holloway",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47806270\">Comments</a>",
+      "url": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2026/eliza",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T14:22:18+00:00",
+      "created_at": "2026-04-19T21:25:08.663411+00:00"
+    },
+    {
       "id": "c8f5dd2db5b18c8d",
       "content_hash": "c8f5dd2db5b18c8da180f13e68f5924823bab191feba888238c63a340b1b4f3a",
       "source_name": "CVE (NVD)",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T22:16:38.370000",
       "created_at": "2026-04-17T15:49:12.572605+00:00"
-    },
-    {
-      "id": "8430bb8e8223c2a9",
-      "content_hash": "8430bb8e8223c2a94ec8e16beec5cb241c2ebcba02ac4c0e590f39bbcbd40872",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40170",
-      "title": "CVE-2026-40170 - ngtcp2 is a C implementation of the IETF QUIC protocol. In versions prior to 1.2...",
-      "body": "ngtcp2 is a C implementation of the IETF QUIC protocol. In versions prior to 1.22.1, ngtcp2_qlog_parameters_set_transport_params() serializes peer transport parameters into a fixed 1024-byte stack buffer without bounds checking. When qlog is enabled, a remote peer can send sufficiently large transport parameters during the QUIC handshake to cause writes beyond the buffer boundary, resulting in a stack buffer overflow. This affects deployments that enable the qlog callback and process untrusted peer transport parameters. This issue has been fixed in version 1.22.1. If developers are unable to immediately upgrade, they can disable the qlog on client.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40170",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-16T22:16:38.220000",
-      "created_at": "2026-04-17T15:49:12.572598+00:00"
-    },
-    {
-      "id": "b23470c39329ed7a",
-      "content_hash": "b23470c39329ed7af735fa5e3f226f645284550b5d37d1f901a35e29ec51c731",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39313",
-      "title": "CVE-2026-39313 - mcp-framework is a framework for building Model Context Protocol (MCP) servers. ...",
-      "body": "mcp-framework is a framework for building Model Context Protocol (MCP) servers. In versions 0.2.21 and below, the readRequestBody() function in the HTTP transport concatenates request body chunks into a string with no size limit. Although a maxMessageSize configuration value exists, it is never enforced in readRequestBody(). A remote unauthenticated attacker can crash any mcp-framework HTTP server by sending a single large POST request to /mcp, causing memory exhaustion and denial of service. This issue has been fixed in version 0.2.22.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39313",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:38.073000",
-      "created_at": "2026-04-17T15:49:12.572592+00:00"
-    },
-    {
-      "id": "e85e0e5b7b9c50f5",
-      "content_hash": "e85e0e5b7b9c50f586cd33645679c7cfed96d9a965f4d13fde9ed1af00309671",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35469",
-      "title": "CVE-2026-35469 - spdystream is a Go library for multiplexing streams over SPDY connections. In ve...",
-      "body": "spdystream is a Go library for multiplexing streams over SPDY connections. In versions 0.5.0 and below, the SPDY/3 frame parser does not validate attacker-controlled counts and lengths before allocating memory. Three allocation paths are affected: the SETTINGS frame entry count, the header count in parseHeaderValueBlock, and individual header field sizes — all read as 32-bit integers and used directly as allocation sizes with no bounds checking. Because SPDY header blocks are zlib-compressed, a small on-the-wire payload can decompress into large attacker-controlled values. A remote peer that can send SPDY frames to a service using spdystream can exhaust process memory and cause an out-of-memory crash with a single crafted control frame. This issue has been fixed in version 0.5.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35469",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:37.920000",
-      "created_at": "2026-04-17T15:49:12.572586+00:00"
     }
   ]
 }
