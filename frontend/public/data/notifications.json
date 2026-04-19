@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-19T11:27:02.373944+00:00",
+  "generated_at": "2026-04-19T12:35:34.144119+00:00",
   "items": [
+    {
+      "id": "1e8e897a12439449",
+      "content_hash": "1e8e897a1243944972d9e8d09f27086b07c6fabd61efa2aba919f2ee023e3b5a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6571",
+      "title": "CVE-2026-6571 - A weakness has been identified in kodcloud KodExplorer up to 4.52. Affected by t...",
+      "body": "A weakness has been identified in kodcloud KodExplorer up to 4.52. Affected by this vulnerability is the function roleGroupAction of the file /app/controller/systemRole.class.php. Executing a manipulation of the argument group_role can lead to authorization bypass. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6571",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-04-19T12:16:33.607000",
+      "created_at": "2026-04-19T12:35:31.010131+00:00"
+    },
+    {
+      "id": "91885141c48c4b69",
+      "content_hash": "91885141c48c4b69fd68d62fa37e3821000f06ca8345831d66e22f34536f1833",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6570",
+      "title": "CVE-2026-6570 - A security flaw has been discovered in kodcloud KodExplorer up to 4.52. Affected...",
+      "body": "A security flaw has been discovered in kodcloud KodExplorer up to 4.52. Affected is the function initInstall of the file /app/controller/systemMember.class.php. Performing a manipulation of the argument path results in authorization bypass. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6570",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 2.7,
+      "published_at": "2026-04-19T12:16:32.763000",
+      "created_at": "2026-04-19T12:35:31.010125+00:00"
+    },
+    {
+      "id": "180170bfc3ea25ca",
+      "content_hash": "180170bfc3ea25ca471741326d9ee0086f81fc4188305f886007043fb158240f",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3113991",
+      "title": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
+      "body": "It's a major milestone for the company's new mega-rocket system, putting it in position to challenge SpaceX's dominance of the global launch market.",
+      "url": "https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T11:45:38+00:00",
+      "created_at": "2026-04-19T12:35:34.043306+00:00"
+    },
     {
       "id": "fffa438105bef8b5",
       "content_hash": "fffa438105bef8b5d7da090e08a90efc9729e95bcfc154318fda9f5d83c0f7d5",
@@ -14,6 +56,20 @@
       "cvss_score": 7.3,
       "published_at": "2026-04-19T11:16:14.443000",
       "created_at": "2026-04-19T11:26:58.192891+00:00"
+    },
+    {
+      "id": "e2d025e00f3be579",
+      "content_hash": "e2d025e00f3be57913ff7a493c19ca42cacf4d8146408d5f4e9d2b9373855246",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.xda-developers.com/zip-drives-dominated-90s-vanished-almost-overnight/",
+      "title": "Why Zip drives dominated the 90s, then vanished almost overnight",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47823362\">Comments</a>",
+      "url": "https://www.xda-developers.com/zip-drives-dominated-90s-vanished-almost-overnight/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T10:55:38+00:00",
+      "created_at": "2026-04-19T12:35:34.143544+00:00"
     },
     {
       "id": "db7e82d9d81e04d4",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T18:39:59+00:00",
       "created_at": "2026-04-16T20:42:04.728624+00:00"
-    },
-    {
-      "id": "a3ab71ccc1b2d53f",
-      "content_hash": "a3ab71ccc1b2d53fa86a12e0b181cff32fd08016f4d80189c9626b66e11e8177",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113326",
-      "title": "Anthropic CPO leaves Figma’s board after reports he will offer a competing product",
-      "body": "A herald of the SAASpocalypse?",
-      "url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T18:28:42+00:00",
-      "created_at": "2026-04-16T18:56:59.051362+00:00"
-    },
-    {
-      "id": "1fda91ab1ca32457",
-      "content_hash": "1fda91ab1ca32457b1d7d8a1b295a866ffcf33eeaba4f39db98ff5fb513f9594",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41082",
-      "title": "CVE-2026-41082 - In OCaml opam before 2.5.1, a .install field containing a destination filepath c...",
-      "body": "In OCaml opam before 2.5.1, a .install field containing a destination filepath can use ../ to reach a parent directory.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41082",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-16T18:16:45.980000",
-      "created_at": "2026-04-17T08:20:41.073530+00:00"
-    },
-    {
-      "id": "3ca7b5503f393314",
-      "content_hash": "3ca7b5503f393314b2e0ac7a4d899fc5b16a5511fc07b36aecc20fb798291ad6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33083",
-      "title": "CVE-2026-33083 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the orderDirection parameter used in dataset-related endpoints including /de2api/datasetData/enumValueDs and /de2api/datasetTree/exportDataset. The Order2SQLObj class directly assigns the raw user-supplied orderDirection value into the SQL query without any validation or whitelist enforcement, and the value is rendered into the ORDER BY clause via StringTemplate before being executed against the database. An authenticated attacker can inject arbitrary SQL commands through the sorting direction field, enabling time-based blind data extraction and denial of service. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33083",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T18:16:45.433000",
-      "created_at": "2026-04-17T08:20:41.073523+00:00"
-    },
-    {
-      "id": "a80f9a6411eb238a",
-      "content_hash": "a80f9a6411eb238a537395714c2957aef6ce2df67695ede64be9977b6a57470a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33082",
-      "title": "CVE-2026-33082 - DataEase is an open source data visualization analysis tool. Versions 2.10.20 an...",
-      "body": "DataEase is an open source data visualization analysis tool. Versions 2.10.20 and below contain a SQL injection vulnerability in the dataset export functionality. The expressionTree parameter in POST /de2api/datasetTree/exportDataset is deserialized into a filtering object and passed to WhereTree2Str.transFilterTrees for SQL translation, where user-controlled values in \"like\" filter terms are directly concatenated into SQL fragments without sanitization. An attacker can inject arbitrary SQL commands by escaping the string literal in the filter value, enabling blind SQL injection through techniques such as time-based extraction of database information. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33082",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T18:16:45.283000",
-      "created_at": "2026-04-17T08:20:41.073517+00:00"
     }
   ]
 }
