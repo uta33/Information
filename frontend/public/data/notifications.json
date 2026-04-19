@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-19T13:52:50.390060+00:00",
+  "generated_at": "2026-04-19T14:33:42.191533+00:00",
   "items": [
+    {
+      "id": "8fe5f1f1d8865fc5",
+      "content_hash": "8fe5f1f1d8865fc5b6cf1d5a9ceb9f0d4ff8721dcbc6340416f3efae8488cc1e",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+      "title": "NIST to stop rating non-priority flaws due to volume increase",
+      "body": "The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:17:43+00:00",
+      "created_at": "2026-04-19T14:33:38.427615+00:00"
+    },
+    {
+      "id": "ea45ae6f6a287e6d",
+      "content_hash": "ea45ae6f6a287e6d7b13e7430c04acbc4e63e42e08605faba5da6c01c4f8e997",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6574",
+      "title": "CVE-2026-6574 - A vulnerability has been found in osuuu LightPicture up to 1.2.2. This issue aff...",
+      "body": "A vulnerability has been found in osuuu LightPicture up to 1.2.2. This issue affects some unknown processing of the file /public/install/lp.sql of the component API Upload Endpoint. Such manipulation of the argument key leads to hard-coded credentials. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6574",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-19T14:16:11.593000",
+      "created_at": "2026-04-19T14:33:38.972441+00:00"
+    },
+    {
+      "id": "44535a353cd1c7c5",
+      "content_hash": "44535a353cd1c7c56bb8c0674ac6bfc7d5576683cb23cda3d38f0500435259d2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+      "title": "Vercel April 2026 security incident",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824463\">Comments</a>",
+      "url": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:14:38+00:00",
+      "created_at": "2026-04-19T14:33:42.191001+00:00"
+    },
     {
       "id": "cbc677308347e840",
       "content_hash": "cbc677308347e84021c80ffab2021ef0ea997dbd8f18903210862789cf4dbba8",
@@ -420,6 +462,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T02:50:43+00:00",
       "created_at": "2026-04-19T08:00:00.057251+00:00"
+    },
+    {
+      "id": "50fba71db132198d",
+      "content_hash": "50fba71db132198d810996910a54d32ccc4f32b6d4d008df6d2c719cc89770b6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://apenwarr.ca/log/20170810",
+      "title": "The world in which IPv6 was a good design (2017)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47821429\">Comments</a>",
+      "url": "https://apenwarr.ca/log/20170810",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T02:50:43+00:00",
+      "created_at": "2026-04-19T14:33:42.191149+00:00"
     },
     {
       "id": "aea0f785b6b87216",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T19:18:31+00:00",
       "created_at": "2026-04-16T23:31:34.193613+00:00"
-    },
-    {
-      "id": "a764fdda82d54007",
-      "content_hash": "a764fdda82d54007cfa819f126f9ab480ca898b32a9ede09c9f7fb8eb647a7a0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6442",
-      "title": "CVE-2026-6442 - Improper validation of bash commands in Snowflake Cortex Code CLI versions prior...",
-      "body": "Improper validation of bash commands in Snowflake Cortex Code CLI versions prior to 1.0.25 allowed subsequent commands to execute outside the sandbox. An attacker could exploit this by embedding specially crafted commands in untrusted content, such as a malicious repository, causing the CLI agent to execute arbitrary code on the local device without user consent. Exploitation is non-deterministic and model-dependent. The fix is automatically applied upon relaunch with no user action required.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6442",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-04-16T19:16:35.560000",
-      "created_at": "2026-04-17T11:41:50.843764+00:00"
-    },
-    {
-      "id": "4c416cddc1d4bd81",
-      "content_hash": "4c416cddc1d4bd8131f8971b4ee12b6f46c2bf6c1cdff682aa5a93f9b9a2f745",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33121",
-      "title": "CVE-2026-33121 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the API datasource saving process. The deTableName field from the Base64-encoded datasource configuration is used to construct a DDL statement via simple string replacement without any sanitization or escaping of the table name. An authenticated attacker can inject arbitrary SQL commands by crafting a deTableName that breaks out of identifier quoting, enabling error-based SQL injection that can extract database information such as the MySQL version. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33121",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:16:33.657000",
-      "created_at": "2026-04-17T11:41:50.843758+00:00"
-    },
-    {
-      "id": "6f8f0412d4f58b21",
-      "content_hash": "6f8f0412d4f58b21b959f70358121a92be33054bd9a383f492d67c12654135d9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33084",
-      "title": "CVE-2026-33084 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the sort parameter of the /de2api/datasetData/enumValueObj endpoint. The DatasetDataManage service layer directly transfers the user-supplied sort value to the sorting metadata DTO, which is passed to Order2SQLObj where it is incorporated into the SQL ORDER BY clause without any whitelist validation, and then executed via CalciteProvider. An authenticated attacker can inject arbitrary SQL commands through the sort parameter, enabling time-based blind SQL injection. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33084",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:16:33.520000",
-      "created_at": "2026-04-17T11:41:50.843752+00:00"
-    },
-    {
-      "id": "d7fa2d790a2d0bad",
-      "content_hash": "d7fa2d790a2d0badd2a639e6ffe8ec5a1f2985f24d80191ff475a1ea78bba042",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-54510",
-      "title": "CVE-2025-54510 - A missing lock verification in AMD Secure Processor (ASP) firmware may permit a ...",
-      "body": "A missing lock verification in AMD Secure Processor (ASP) firmware may permit a locally authenticated attacker with administrative privileges to alter MMIO routing on some Zen 5-based products, potentially compromising guest system integrity.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54510",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:16:32.897000",
-      "created_at": "2026-04-17T11:41:50.843746+00:00"
     }
   ]
 }
