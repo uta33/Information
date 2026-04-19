@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-19T10:30:20.279614+00:00",
+  "generated_at": "2026-04-19T11:27:02.373944+00:00",
   "items": [
+    {
+      "id": "fffa438105bef8b5",
+      "content_hash": "fffa438105bef8b5d7da090e08a90efc9729e95bcfc154318fda9f5d83c0f7d5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6569",
+      "title": "CVE-2026-6569 - A vulnerability was identified in kodcloud KodExplorer up to 4.52. This impacts ...",
+      "body": "A vulnerability was identified in kodcloud KodExplorer up to 4.52. This impacts the function fileGet of the file /app/controller/share.class.php of the component fileGet Endpoint. Such manipulation of the argument fileUrl leads to improper authentication. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6569",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-19T11:16:14.443000",
+      "created_at": "2026-04-19T11:26:58.192891+00:00"
+    },
+    {
+      "id": "db7e82d9d81e04d4",
+      "content_hash": "db7e82d9d81e04d4f4337fa8031f473fc168d74de8a1e2e6d00978bc83b5fe30",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47823270\">Comments</a>",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T10:36:29+00:00",
+      "created_at": "2026-04-19T11:27:02.373594+00:00"
+    },
     {
       "id": "2e754455ebf25541",
       "content_hash": "2e754455ebf2554171e297d5aab88b10e96472a766df39f23ad8228ff210e3ec",
@@ -100,6 +128,20 @@
       "created_at": "2026-04-19T09:42:09.055866+00:00"
     },
     {
+      "id": "7e7ac21d9351458f",
+      "content_hash": "7e7ac21d9351458fc5fe45d26edc9e019c80336253d37fc34643405ca3d85987",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd",
+      "title": "Binary GCD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822737\">Comments</a>",
+      "url": "https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T08:33:38+00:00",
+      "created_at": "2026-04-19T11:27:02.373648+00:00"
+    },
+    {
       "id": "015bf350bcaeb9de",
       "content_hash": "015bf350bcaeb9de4173d0c02ef6b592ca684ac358c55e643280aa7df7879f29",
       "source_name": "CVE (NVD)",
@@ -112,6 +154,20 @@
       "cvss_score": 4.7,
       "published_at": "2026-04-19T08:16:26.113000",
       "created_at": "2026-04-19T08:57:30.682552+00:00"
+    },
+    {
+      "id": "d0824b5d522571c2",
+      "content_hash": "d0824b5d522571c2cc7339dc63e454899adf3ad8e60ce85742e15ee286cd39e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://madhadron.com/programming/seven_ur_languages.html",
+      "title": "The seven programming ur-languages",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822486\">Comments</a>",
+      "url": "https://madhadron.com/programming/seven_ur_languages.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T07:38:08+00:00",
+      "created_at": "2026-04-19T11:27:02.373502+00:00"
     },
     {
       "id": "0a10848c78cd4626",
@@ -3782,6 +3838,20 @@
       "created_at": "2026-04-18T06:06:11.440062+00:00"
     },
     {
+      "id": "e924ea9f30a666bd",
+      "content_hash": "e924ea9f30a666bdc5f1c813f2da7bafc2e0c14c7cab6d740ea6702d5ba8a47b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://archive.org/details/byte-magazine-1975-09",
+      "title": "Archive of Byte magazine, starting with issue #1 in 1975",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47806096\">Comments</a>",
+      "url": "https://archive.org/details/byte-magazine-1975-09",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T14:07:28+00:00",
+      "created_at": "2026-04-19T11:27:02.373180+00:00"
+    },
+    {
       "id": "6496f0a9daaf1377",
       "content_hash": "6496f0a9daaf13772cb8350da2a2fdac4fba82c1c09123501be743e1dd00dfe4",
       "source_name": "Bleeping Computer",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T18:16:45.283000",
       "created_at": "2026-04-17T08:20:41.073517+00:00"
-    },
-    {
-      "id": "a61cdb585424f721",
-      "content_hash": "a61cdb585424f7213062aa75417b63ce63c1a5814779e9602be8b8084fcbc059",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-2336",
-      "title": "CVE-2026-2336 - A privilege escalation vulnerability in Microchip IStaX allows an authenticated ...",
-      "body": "A privilege escalation vulnerability in Microchip IStaX allows an authenticated low-privileged user to recover a shared per-device cookie secret from their own webstax_auth session cookie and forge a new cookie with administrative privileges.This issue affects IStaX before 2026.03.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2336",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T18:16:44.927000",
-      "created_at": "2026-04-17T08:20:41.073510+00:00"
-    },
-    {
-      "id": "91fb64fb7778ebcc",
-      "content_hash": "91fb64fb7778ebcc0b7fd2639acf25567ab1870236ab0a07204b9bfcc331f540",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-27820",
-      "title": "CVE-2026-27820 - zlib is a Ruby interface for the zlib compression/decompression library. Version...",
-      "body": "zlib is a Ruby interface for the zlib compression/decompression library. Versions 3.0.0 and below, 3.1.0, 3.1.1, 3.2.0 and 3.2.1 contain a buffer overflow vulnerability in the Zlib::GzipReader. The zstream_buffer_ungets function prepends caller-provided bytes ahead of previously produced output but fails to guarantee the backing Ruby string has enough capacity before the memmove shifts the existing data. This can lead to memory corruption when the buffer length exceeds capacity. This issue has been fixed in versions 3.0.1, 3.1.2 and 3.2.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27820",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T18:16:44.770000",
-      "created_at": "2026-04-17T08:20:41.073503+00:00"
-    },
-    {
-      "id": "fdcb1ca935935428",
-      "content_hash": "fdcb1ca935935428dc8fb886f239b3fc4ca578fe225d3a19a59790372a246dd1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-24749",
-      "title": "CVE-2026-24749 - The Silverstripe Assets Module is a required component of Silverstripe Framework...",
-      "body": "The Silverstripe Assets Module is a required component of Silverstripe Framework. In versions prior to 2.4.5 and 3.0.0-rc1 through 3.1.2, images rendered in templates or otherwise accessed via DBFile::getURL() or DBFile::getSourceURL() incorrectly add an access grant to the current session, which bypasses file permissions. This usually happens when creating an image variant, for example using a manipulation method like ScaleWidth() or Convert(). Note that if developers use DBFile directly in the $db configuration for a DataObject class that doesn't subclass File, and if they were setting the visibility of those files to \"protected\", those files will now need an explicit access grant to be accessed. If developers do not want to explicitly provide access grants for these files in their apps (i.e. they want these files to be accessible by default), they should use the \"public\" visibility. This issue has been fixed in versions 2.4.5 and 3.1.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24749",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-16T18:16:44.610000",
-      "created_at": "2026-04-17T08:20:41.073497+00:00"
-    },
-    {
-      "id": "169bbd6d12b39557",
-      "content_hash": "169bbd6d12b39557afcb42e3629b39d6d7c6c0560ab5e83fc93cfc297bc77cf9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-43883",
-      "title": "CVE-2025-43883 - Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an improper check fo...",
-      "body": "Dell PowerScale OneFS, versions prior to 9.12.0.0, contains an improper check for unusual or exceptional conditions vulnerability. A high privileged attacker with local access could potentially exploit this vulnerability, leading to denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43883",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.1,
-      "published_at": "2026-04-16T18:16:43.667000",
-      "created_at": "2026-04-17T08:20:41.073490+00:00"
-    },
-    {
-      "id": "31c954e7aad76ac6",
-      "content_hash": "31c954e7aad76ac699aee4302fb738d7424b2b67e5235d6a2ff8c93a1473e9fb",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
-      "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
-      "body": "Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet&nbsp;dubbed PowMix since at least December&nbsp;2025.\n\"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos",
-      "url": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:52:00+00:00",
-      "created_at": "2026-04-16T18:56:54.668124+00:00"
     }
   ]
 }
