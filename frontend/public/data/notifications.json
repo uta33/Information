@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-19T06:23:47.138512+00:00",
+  "generated_at": "2026-04-19T08:00:00.057706+00:00",
   "items": [
+    {
+      "id": "0a10848c78cd4626",
+      "content_hash": "0a10848c78cd46268fdb73236ccdc185e8c098d701ea04008d854f26b287b38f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+      "title": "The RAM shortage could last years",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822414\">Comments</a>",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T07:18:44+00:00",
+      "created_at": "2026-04-19T08:00:00.057423+00:00"
+    },
+    {
+      "id": "2e795876e7bc277b",
+      "content_hash": "2e795876e7bc277b599bdfdaa7c89895115e3b0f58ea2a717cf66cb4a6a3db6e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6560",
+      "title": "CVE-2026-6560 - A security vulnerability has been detected in H3C Magic B0 up to 100R002. This v...",
+      "body": "A security vulnerability has been detected in H3C Magic B0 up to 100R002. This vulnerability affects the function Edit_BasicSSID of the file /goform/aspForm. Such manipulation of the argument param leads to buffer overflow. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6560",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-19T07:16:05.973000",
+      "created_at": "2026-04-19T07:59:55.078128+00:00"
+    },
+    {
+      "id": "b31afea383530d33",
+      "content_hash": "b31afea383530d33b097987718abda4713e414f8f3adb7a202a6c83752fc449f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+      "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822356\">Comments</a>",
+      "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T07:05:17+00:00",
+      "created_at": "2026-04-19T08:00:00.057200+00:00"
+    },
     {
       "id": "03276dcf993a57c5",
       "content_hash": "03276dcf993a57c549cfa6bed84aa2e9ff421d8ecf54dfea7c5ed72c826d8852",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T03:33:49+00:00",
       "created_at": "2026-04-19T06:23:47.138270+00:00"
+    },
+    {
+      "id": "92212f6d6656b1d1",
+      "content_hash": "92212f6d6656b1d16e9a7130ad1c50437d87e6df6885935cc4ca3f61108b342a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://apenwarr.ca/log/20170810",
+      "title": "The world in which IPv6 was a good design",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47821429\">Comments</a>",
+      "url": "https://apenwarr.ca/log/20170810",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T02:50:43+00:00",
+      "created_at": "2026-04-19T08:00:00.057251+00:00"
     },
     {
       "id": "aea0f785b6b87216",
@@ -3684,6 +3740,20 @@
       "created_at": "2026-04-19T06:23:47.137781+00:00"
     },
     {
+      "id": "f789176330002927",
+      "content_hash": "f789176330002927c4079b96acffab2627d5ba4f469b88e71e9aca8835b5b083",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://antithesis.com/blog/2026/skiptrees/",
+      "title": "What are skiplists good for?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47806021\">Comments</a>",
+      "url": "https://antithesis.com/blog/2026/skiptrees/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T13:57:27+00:00",
+      "created_at": "2026-04-19T08:00:00.057062+00:00"
+    },
+    {
       "id": "99e65b8ef5deb6da",
       "content_hash": "99e65b8ef5deb6da7826351adaf95c16cda059e89583403d327ad09f1f16d414",
       "source_name": "Hacker News (Best)",
@@ -6638,6 +6708,20 @@
       "created_at": "2026-04-17T10:04:02.384976+00:00"
     },
     {
+      "id": "e9807cc71ad4998d",
+      "content_hash": "e9807cc71ad4998dd77a2e2e63b08b53a4391e4314d65325d170c4ec1ff7398d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://vlad.website/binary-dependencies-identifying-the-hidden-packages-we-all-depend-on/",
+      "title": "Binary Dependencies: Identifying the Hidden Packages We All Depend On",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47797987\">Comments</a>",
+      "url": "https://vlad.website/binary-dependencies-identifying-the-hidden-packages-we-all-depend-on/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-16T19:05:20+00:00",
+      "created_at": "2026-04-19T08:00:00.057351+00:00"
+    },
+    {
       "id": "c225db3809936f32",
       "content_hash": "c225db3809936f323e5834c0dbecadc968c92012e988880dd5d5ce1181424f4c",
       "source_name": "Hacker News (Best)",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T17:11:20+00:00",
       "created_at": "2026-04-16T18:56:59.051387+00:00"
-    },
-    {
-      "id": "1073bb53b636a0bb",
-      "content_hash": "1073bb53b636a0bba67a687f1447b1e6b9919c39e26bb61e9e72d1c6b39b3c96",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113105",
-      "title": "Everything we like is a psyop",
-      "body": "If culture is shaped by TikTok's algorithmic feed, then it's time for us to decide where we draw the line between necessary marketing and inauthentic growth hacking.",
-      "url": "https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:03:18+00:00",
-      "created_at": "2026-04-16T18:56:59.051408+00:00"
-    },
-    {
-      "id": "e028b8f795f48fef",
-      "content_hash": "e028b8f795f48fefecc092c8493845dc29b928fd3536306dbff4651613007c29",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113130",
-      "title": "Google now lets you explore the web side-by-side with AI Mode",
-      "body": "Now, when you're using AI Mode on Chrome desktop, clicking a link will open the webpage side-by-side with AI Mode.",
-      "url": "https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:00:00+00:00",
-      "created_at": "2026-04-16T17:02:13.319251+00:00"
-    },
-    {
-      "id": "e7d6035224a7387c",
-      "content_hash": "e7d6035224a7387c762bf59d6436acb08544f148286da38425a112158be2224c",
-      "source_name": "Google AI Blog",
-      "external_id": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-      "title": "A new way to explore the web with AI Mode in Chrome",
-      "body": "AI Mode in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T17:00:00+00:00",
-      "created_at": "2026-04-16T18:56:54.325770+00:00"
-    },
-    {
-      "id": "3ccd9d7bc343cfa8",
-      "content_hash": "3ccd9d7bc343cfa8c732d8f6502af75b9349f72fe8b05438eb4e38aaead788a5",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
-      "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
-      "body": "Hackers are exploiting a critical vulnerability in Marimo reactive Python notebook to deploy a new variant of NKAbuse malware hosted on Hugging Face Spaces. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:58:06+00:00",
-      "created_at": "2026-04-16T17:02:09.029971+00:00"
-    },
-    {
-      "id": "78e20daa5ab8b981",
-      "content_hash": "78e20daa5ab8b9816510c6aa043d0f700f55024fed35750ebc47e828dd95372e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.japantimes.co.jp/news/2026/04/15/japan/society/jlpt-visa-requirement/",
-      "title": "Japan implements language proficiency requirements for certain visa applicants",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47796197\">Comments</a>",
-      "url": "https://www.japantimes.co.jp/news/2026/04/15/japan/society/jlpt-visa-requirement/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:53:32+00:00",
-      "created_at": "2026-04-16T18:56:59.405295+00:00"
-    },
-    {
-      "id": "73dcd843a64d0dc0",
-      "content_hash": "73dcd843a64d0dc0c8fb743fe960b4d78c0dcc753afcb8638ccafaccacaa6d22",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://art19.com/shows/factually--with-adam-conover/episodes/5154e9af-8885-4149-9721-173c02c46bb7/",
-      "title": "Nintendo's Empire of Secrets with Keza MacDonald – Factually with Adam Conover",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47796016\">Comments</a>",
-      "url": "https://art19.com/shows/factually--with-adam-conover/episodes/5154e9af-8885-4149-9721-173c02c46bb7/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T16:40:49+00:00",
-      "created_at": "2026-04-17T23:29:52.498638+00:00"
     }
   ]
 }
