@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-19T21:25:08.663818+00:00",
+  "generated_at": "2026-04-19T22:23:49.622543+00:00",
   "items": [
+    {
+      "id": "a1c0e69885c6ffd8",
+      "content_hash": "a1c0e69885c6ffd8c564401be778a2ef99958c8970ca8263b127e755ab4e67b4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6579",
+      "title": "CVE-2026-6579 - A weakness has been identified in liangliangyy DjangoBlog up to 2.1.0.0. This im...",
+      "body": "A weakness has been identified in liangliangyy DjangoBlog up to 2.1.0.0. This impacts an unknown function of the file blog/views.py of the component Clean Endpoint. This manipulation causes missing authentication. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6579",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-19T22:16:35.320000",
+      "created_at": "2026-04-19T22:23:44.922200+00:00"
+    },
+    {
+      "id": "b406cc1826e94030",
+      "content_hash": "b406cc1826e9403008cf4c23fbce0d7621f565c4dc1ad4e58aca537f19464129",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6578",
+      "title": "CVE-2026-6578 - A security flaw has been discovered in liangliangyy DjangoBlog up to 2.1.0.0. Th...",
+      "body": "A security flaw has been discovered in liangliangyy DjangoBlog up to 2.1.0.0. This affects an unknown function of the file djangoblog/settings.py of the component Setting Handler. The manipulation of the argument SECRET_KEY results in hard-coded credentials. The attack can be launched remotely. The attack requires a high level of complexity. The exploitability is reported as difficult. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6578",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.6,
+      "published_at": "2026-04-19T22:16:35.133000",
+      "created_at": "2026-04-19T22:23:44.922193+00:00"
+    },
     {
       "id": "a967650dc90eccb6",
       "content_hash": "a967650dc90eccb6c14e1a37ad1549f3cb2777eb776deccb7a9f0c8dda61c156",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T21:24:06+00:00",
       "created_at": "2026-04-19T21:25:08.263388+00:00"
+    },
+    {
+      "id": "7f1b22ec77ac64a6",
+      "content_hash": "7f1b22ec77ac64a658dafe65b7bd332e869389241ffee5b33d1a3233733edda2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/",
+      "title": "C++26: Reflection, Memory Safety, Contracts, and a New Async Model",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47827603\">Comments</a>",
+      "url": "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T21:00:49+00:00",
+      "created_at": "2026-04-19T22:23:49.622311+00:00"
     },
     {
       "id": "c322c0556532b59c",
@@ -140,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T18:44:00+00:00",
       "created_at": "2026-04-19T19:34:04.786605+00:00"
+    },
+    {
+      "id": "8c448f9c6b1d4136",
+      "content_hash": "8c448f9c6b1d41363b51053125fc2c0f3cf6a4a87f5307c5fc695dd8cf58403c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cssence.com/2024/six-levels-of-dark-mode/",
+      "title": "Six Levels of Dark Mode",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47826502\">Comments</a>",
+      "url": "https://cssence.com/2024/six-levels-of-dark-mode/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T18:36:00+00:00",
+      "created_at": "2026-04-19T22:23:49.622053+00:00"
     },
     {
       "id": "c8737b2f350bee64",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T22:16:38.940000",
       "created_at": "2026-04-17T16:41:45.309021+00:00"
-    },
-    {
-      "id": "214b796f2b66b51b",
-      "content_hash": "214b796f2b66b51b34e6d0fefb5ed99d28107aeace74ba38290873a2a0e1b56b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40249",
-      "title": "CVE-2026-40249 - free5GC is an open-source implementation of the 5G core network. In versions 4.2...",
-      "body": "free5GC is an open-source implementation of the 5G core network. In versions 4.2.1 and below of the UDR service, the PUT handler for updating Policy Data notification subscriptions at /nudr-dr/v2/policy-data/subs-to-notify/{subsId} does not return after request body retrieval or deserialization errors. Although HTTP 500 or 400 error responses are sent, execution continues and the processor is invoked with a potentially uninitialized or partially initialized PolicyDataSubscription object. This fail-open behavior may allow unintended modification of existing Policy Data notification subscriptions with invalid or empty input, depending on downstream processor and storage behavior. A patched version was not available at the time of publication.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40249",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:38.793000",
-      "created_at": "2026-04-17T16:41:45.309015+00:00"
-    },
-    {
-      "id": "34d1bc4d64eb9ee7",
-      "content_hash": "34d1bc4d64eb9ee7f0f9b894d2a8cf21259cbdea2b052090a4757f575a248685",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40248",
-      "title": "CVE-2026-40248 - free5GC is an open-source implementation of the 5G core network. In versions 4.2...",
-      "body": "free5GC is an open-source implementation of the 5G core network. In versions 4.2.1 and below of the UDR service, the handler for creating or updating Traffic Influence Subscriptions checks whether the influenceId path segment equals subs-to-notify, but does not return after sending the HTTP 404 response when validation fails. Execution continues and the subscription is created or overwritten regardless. An unauthenticated attacker with access to the 5G Service Based Interface can create or overwrite arbitrary Traffic Influence Subscriptions, including injecting attacker-controlled notificationUri values and arbitrary SUPIs, by supplying any value for the influenceId path segment. A patched version was not available at the time of publication.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40248",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:38.657000",
-      "created_at": "2026-04-17T15:49:12.572617+00:00"
-    },
-    {
-      "id": "b9d2e75e01cd9828",
-      "content_hash": "b9d2e75e01cd9828bed5b9aec6faf29036b21087f84a628e5de3b1595373780b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40247",
-      "title": "CVE-2026-40247 - free5GC is an open-source implementation of the 5G core network. In versions 4.2...",
-      "body": "free5GC is an open-source implementation of the 5G core network. In versions 4.2.1 and below of the UDR service, the handler for reading Traffic Influence Subscriptions checks whether the influenceId path segment equals subs-to-notify, but does not return after sending the HTTP 404 response when validation fails. Execution continues and the subscription data is returned alongside the 404 response. An unauthenticated attacker with access to the 5G Service Based Interface can read arbitrary Traffic Influence Subscriptions, including SUPIs/IMSIs, DNNs, S-NSSAIs, and callback URIs, by supplying any value for the influenceId path segment. A patched version was not available at the time of publication.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40247",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:38.510000",
-      "created_at": "2026-04-17T15:49:12.572611+00:00"
-    },
-    {
-      "id": "f3a06c5fbf715336",
-      "content_hash": "f3a06c5fbf7153368958485e43f1917fdf0828d884af40ef996e4a49130fdec8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40246",
-      "title": "CVE-2026-40246 - free5GC is an open-source implementation of the 5G core network. In versions 1.4...",
-      "body": "free5GC is an open-source implementation of the 5G core network. In versions 1.4.2 and below of the UDR service, the handler for deleting Traffic Influence Subscriptions checks whether the influenceId path segment equals subs-to-notify, but does not return after sending the HTTP 404 response when validation fails. Execution continues and the subscription is deleted regardless. An unauthenticated attacker with access to the 5G Service Based Interface can delete arbitrary Traffic Influence Subscriptions by supplying any value for the influenceId path segment, while the API misleadingly returns a 404 Not Found response. A patched version was not available at the time of publication.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40246",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T22:16:38.370000",
-      "created_at": "2026-04-17T15:49:12.572605+00:00"
     }
   ]
 }
