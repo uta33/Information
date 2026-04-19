@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-19T17:27:20.809282+00:00",
+  "generated_at": "2026-04-19T18:32:51.062007+00:00",
   "items": [
+    {
+      "id": "4436105a318a6a9c",
+      "content_hash": "4436105a318a6a9caf6068b0ae8b50e7fdf78dc1be59b49b44d154eadbf57b85",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.vincentgregoire.com/faceoff/",
+      "title": "Show HN: Faceoff – A terminal UI for following NHL games",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47826104\">Comments</a>",
+      "url": "https://www.vincentgregoire.com/faceoff/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T17:44:44+00:00",
+      "created_at": "2026-04-19T18:32:51.061281+00:00"
+    },
+    {
+      "id": "35a58df44bd825f9",
+      "content_hash": "35a58df44bd825f984c0d516355b8346a0f1ad82b5b1f973d1ef7e853f4ec230",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "title": "Vercel confirms breach as hackers claim to be selling stolen data",
+      "body": "Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-19T17:32:45+00:00",
+      "created_at": "2026-04-19T18:32:46.695962+00:00"
+    },
     {
       "id": "0b27c2d81efec19f",
       "content_hash": "0b27c2d81efec19f9d1382b6305c6fc7a80877adcd13fb5c8c18354ab8f24468",
@@ -1148,6 +1176,20 @@
       "cvss_score": null,
       "published_at": "2026-04-18T14:56:48+00:00",
       "created_at": "2026-04-18T15:28:36.602463+00:00"
+    },
+    {
+      "id": "a886ad4037974a2c",
+      "content_hash": "a886ad4037974a2c71a0c2f0f9b16a850645ac86cf2f314a482d4a6ba097adbb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/coremaze/ME2-Writeup",
+      "title": "Reverse Engineering ME2's USB with a Heat Gun and a Knife",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47816146\">Comments</a>",
+      "url": "https://github.com/coremaze/ME2-Writeup",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-18T14:21:41+00:00",
+      "created_at": "2026-04-19T18:32:51.061428+00:00"
     },
     {
       "id": "d9cf9424ca17846d",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T20:26:44+00:00",
       "created_at": "2026-04-16T20:42:04.463221+00:00"
-    },
-    {
-      "id": "2f5d9494c74c7bd2",
-      "content_hash": "2f5d9494c74c7bd24d740458e3ebdc2b3725f86a9e71dd9e69be927d3d8da197",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
-      "title": "New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges",
-      "body": "A researcher known as \"Chaotic Eclipse\" has published a proof-of-concept exploit for a second Microsoft Defender zero-day, dubbed \"RedSun,\" in the past two weeks, protesting how the company works with cybersecurity researchers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:19:31+00:00",
-      "created_at": "2026-04-16T20:42:00.286379+00:00"
-    },
-    {
-      "id": "8162964cfa7fba75",
-      "content_hash": "8162964cfa7fba755e8d60128c131b64c6e7c13ccb7ec913461d0539ee3cc6cd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40899",
-      "title": "CVE-2026-40899 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a JDBC parameter blocklist bypass vulnerability in the MySQL datasource configuration. The Mysql class uses Lombok's @Data annotation, which auto-generates a public setter for the illegalParameters field that contains the JDBC security blocklist. When a datasource configuration is submitted as JSON, Jackson deserialization calls setIllegalParameters with an attacker-supplied empty list, replacing the blocklist before getJdbc() validation runs. This allows an authenticated attacker to include dangerous JDBC parameters such as allowLoadLocalInfile=true, and by pointing the datasource at a rogue MySQL server, exploit the LOAD DATA LOCAL INFILE protocol feature to read arbitrary files from the DataEase server filesystem, including sensitive environment variables and database credentials. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40899",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:16:38.957000",
-      "created_at": "2026-04-17T14:15:36.278814+00:00"
-    },
-    {
-      "id": "81df1edc94149ab8",
-      "content_hash": "81df1edc94149ab8b264c231dba27636882da37b8d22174206b50fb5d3a20629",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33207",
-      "title": "CVE-2026-33207 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the /datasource/getTableField endpoint. The getTableFiledSql method in CalciteProvider.java incorporates the tableName parameter directly into SQL query strings using String.format without parameterization or sanitization. Although DatasourceServer.java validates that the table name exists in the datasource, an attacker can bypass this by first registering an API datasource with a malicious deTableName, which is then returned by getTables and passes the validation check. An authenticated attacker can execute arbitrary SQL commands, enabling error-based extraction of sensitive database information. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33207",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:16:38.797000",
-      "created_at": "2026-04-17T14:15:36.278808+00:00"
     }
   ]
 }
