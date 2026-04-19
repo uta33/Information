@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-19T14:33:42.191533+00:00",
+  "generated_at": "2026-04-19T15:28:46.886482+00:00",
   "items": [
+    {
+      "id": "4a76fe96c45b7ee8",
+      "content_hash": "4a76fe96c45b7ee8fc3eac1c2e09d159118cd41cf27499910b5800000fd977e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
+      "title": "Notes from the SF Peptide Scene",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824681\">Comments</a>",
+      "url": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:43:07+00:00",
+      "created_at": "2026-04-19T15:28:46.885758+00:00"
+    },
+    {
+      "id": "f96722b4169a1907",
+      "content_hash": "f96722b4169a1907be88c6fb408dab69127c3b3ca684cee075012ee14f2c85da",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://daverupert.com/2026/04/more-talk-less-grok/",
+      "title": "When moving fast, talking is the first thing to break",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824611\">Comments</a>",
+      "url": "https://daverupert.com/2026/04/more-talk-less-grok/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:34:38+00:00",
+      "created_at": "2026-04-19T15:28:46.886083+00:00"
+    },
+    {
+      "id": "b75ed6d9d26d68be",
+      "content_hash": "b75ed6d9d26d68be50d765206d6a7eb59110b23de96a6f23c41f59ad563fde19",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.therepository.email/matt-mullenweg-overrules-core-committers-to-put-akismet-on-wordpress-7-0s-connectors-screen",
+      "title": "Matt Mullenweg Overrules Core Committers; Puts Akismet on WP 7's Connector List",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824531\">Comments</a>",
+      "url": "https://www.therepository.email/matt-mullenweg-overrules-core-committers-to-put-akismet-on-wordpress-7-0s-connectors-screen",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:24:04+00:00",
+      "created_at": "2026-04-19T15:28:46.886137+00:00"
+    },
     {
       "id": "8fe5f1f1d8865fc5",
       "content_hash": "8fe5f1f1d8865fc5b6cf1d5a9ceb9f0d4ff8721dcbc6340416f3efae8488cc1e",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T14:14:38+00:00",
       "created_at": "2026-04-19T14:33:42.191001+00:00"
+    },
+    {
+      "id": "9e304832789982bb",
+      "content_hash": "9e304832789982bb1d9619fbb8c510cee3109300222f8bf59a6dd89df29f7ec0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+      "title": "The creative software industry has declared war on Adobe",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824403\">Comments</a>",
+      "url": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T14:05:49+00:00",
+      "created_at": "2026-04-19T15:28:46.885900+00:00"
     },
     {
       "id": "cbc677308347e840",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T19:24:50+00:00",
       "created_at": "2026-04-16T21:33:52.993319+00:00"
-    },
-    {
-      "id": "a8d0e0eacf35918e",
-      "content_hash": "a8d0e0eacf35918e4feacd8c33795c12750cfc39354c03b63d5f586010751111",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113352",
-      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation",
-      "body": "Five years later the founders, now 24 years old, say their startup has achieved $300 million in annualized revenue.",
-      "url": "https://techcrunch.com/2026/04/16/slash-a-ramp-competitor-founded-by-teenagers-raises-100m-at-1-4b-valuation/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:20:46+00:00",
-      "created_at": "2026-04-16T19:56:54.874612+00:00"
-    },
-    {
-      "id": "ce4a30d2ef9c6a8f",
-      "content_hash": "ce4a30d2ef9c6a8f69774e6dae6780930e4b541481a8d22a52372b516fd66aaa",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113143",
-      "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
-      "body": "OpenAI's agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.",
-      "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:18:41+00:00",
-      "created_at": "2026-04-16T19:56:54.874635+00:00"
-    },
-    {
-      "id": "9bc9e7ab29fef2d7",
-      "content_hash": "9bc9e7ab29fef2d73bd8b8232ccb43c3b3da5fa6ba287b6b06d56b8640e37a71",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.play.date/news/duke-playdate-education/",
-      "title": "A Tiny Yellow Handheld Changed How Duke University Teaches Game Design",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47798176\">Comments</a>",
-      "url": "https://news.play.date/news/duke-playdate-education/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:18:31+00:00",
-      "created_at": "2026-04-16T22:29:33.549881+00:00"
-    },
-    {
-      "id": "cb8df033e75cb0f9",
-      "content_hash": "cb8df033e75cb0f9364cce931f33ad2d11e68fdbb89c63b96e873eb5d06e1ae7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.play.date/news/duke-playdate-education/",
-      "title": "Playdate’s handheld changed how Duke University teaches game design",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47798176\">Comments</a>",
-      "url": "https://news.play.date/news/duke-playdate-education/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T19:18:31+00:00",
-      "created_at": "2026-04-16T23:31:34.193613+00:00"
     }
   ]
 }
