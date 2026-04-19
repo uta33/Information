@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-19T16:27:17.140009+00:00",
+  "generated_at": "2026-04-19T17:27:20.809282+00:00",
   "items": [
+    {
+      "id": "0b27c2d81efec19f",
+      "content_hash": "0b27c2d81efec19f9d1382b6305c6fc7a80877adcd13fb5c8c18354ab8f24468",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3114010",
+      "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
+      "body": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\"",
+      "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T16:30:00+00:00",
+      "created_at": "2026-04-19T17:27:20.644983+00:00"
+    },
     {
       "id": "03f5470912151314",
       "content_hash": "03f5470912151314a7e8782f13fde7e7f9e91e04c1bdddcdccc3495cb3a436e8",
@@ -70,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T15:20:01+00:00",
       "created_at": "2026-04-19T16:27:17.139391+00:00"
+    },
+    {
+      "id": "f95178dc83170ccc",
+      "content_hash": "f95178dc83170ccc097ef9f36279e38e8e341591a229caefaeb5a619fde8aa39",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theins.press/en/inv/291614",
+      "title": "Russia's doping program is run by the same FSB team that poisoned Navalny",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47824874\">Comments</a>",
+      "url": "https://theins.press/en/inv/291614",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T15:09:45+00:00",
+      "created_at": "2026-04-19T17:27:20.808959+00:00"
     },
     {
       "id": "4a76fe96c45b7ee8",
@@ -3572,6 +3600,20 @@
       "created_at": "2026-04-17T17:39:52.898277+00:00"
     },
     {
+      "id": "189bc9912d575b2f",
+      "content_hash": "189bc9912d575b2fb46006064bf761afde2526a5057ec5ad1f53e1a7cf635ae9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kevwe.com/blog/usb-rfid-reader",
+      "title": "Reading Input from an USB RFID Card Reader",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47808231\">Comments</a>",
+      "url": "https://kevwe.com/blog/usb-rfid-reader",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T17:14:46+00:00",
+      "created_at": "2026-04-19T17:27:20.809038+00:00"
+    },
+    {
       "id": "1550c9b0e075ec5a",
       "content_hash": "1550c9b0e075ec5aff468ada2d6661a7de6aa89118db54618a6bba252d9f19dd",
       "source_name": "Hacker News (Best)",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-16T20:16:38.797000",
       "created_at": "2026-04-17T14:15:36.278808+00:00"
-    },
-    {
-      "id": "81f4ababa07b7320",
-      "content_hash": "81f4ababa07b732094d15d7762d7dbec20e77eae9828d2cf1f281b09998a6042",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33122",
-      "title": "CVE-2026-33122 - DataEase is an open-source data visualization and analytics platform. Versions 2...",
-      "body": "DataEase is an open-source data visualization and analytics platform. Versions 2.10.20 and below contain a SQL injection vulnerability in the API datasource update process. When a new table definition is added during a datasource update via /de2api/datasource/update, the deTableName field from the user-submitted configuration is passed to DatasourceSyncManage.createEngineTable, where it is substituted into a CREATE TABLE statement template without any sanitization or identifier escaping. An authenticated attacker can inject arbitrary SQL commands by crafting a deTableName that breaks out of identifier quoting, enabling error-based SQL injection that can extract database information. This issue has been fixed in version 2.10.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33122",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:16:38.640000",
-      "created_at": "2026-04-17T12:53:44.958779+00:00"
-    },
-    {
-      "id": "3ddefccf1eebfd4d",
-      "content_hash": "3ddefccf1eebfd4d3e67952e6fb5566e32f30cb1bcdee125c7a99eef7b1b87ae",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-54502",
-      "title": "CVE-2025-54502 - Incorrect use of boot service in the AMD Platform Configuration Blob (APCB) SMM ...",
-      "body": "Incorrect use of boot service in the AMD Platform Configuration Blob (APCB) SMM driver could allow a privileged attacker with local access (Ring 0) to achieve privilege escalation potentially resulting in arbitrary code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54502",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:16:37.393000",
-      "created_at": "2026-04-17T11:41:50.843770+00:00"
-    },
-    {
-      "id": "fdaf09c2c795118b",
-      "content_hash": "fdaf09c2c795118ba501605dad9f698ec8d90a79b024bac9b7ebb506fd2e343a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2604.12040",
-      "title": "Sir-Bench – benchmark for security incident response agents",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47798875\">Comments</a>",
-      "url": "https://arxiv.org/abs/2604.12040",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-16T20:14:05+00:00",
-      "created_at": "2026-04-16T22:29:33.550102+00:00"
     }
   ]
 }
