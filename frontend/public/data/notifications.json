@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-20T04:49:35.561982+00:00",
+  "generated_at": "2026-04-20T07:09:49.639612+00:00",
   "items": [
+    {
+      "id": "2ef24922a43acea2",
+      "content_hash": "2ef24922a43acea2d43bc242f8be50066dcc39624f1ba6147d03c62f4223ea22",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stripe.dev/blog/payment-api-design",
+      "title": "Stripe's Payment APIs: the first 10 years (2020)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47830575\">Comments</a>",
+      "url": "https://stripe.dev/blog/payment-api-design",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T05:05:43+00:00",
+      "created_at": "2026-04-20T07:09:49.638862+00:00"
+    },
+    {
+      "id": "7c3e3acb6fae4ed2",
+      "content_hash": "7c3e3acb6fae4ed2d67e8d5a67f38d2e32d1d3e2fbdc7dc00dcba7c7655043bb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6601",
+      "title": "CVE-2026-6601 - A vulnerability has been found in Lagom WHMCS Template up to 2.4.2. This impacts...",
+      "body": "A vulnerability has been found in Lagom WHMCS Template up to 2.4.2. This impacts an unknown function of the component Datatables. The manipulation leads to resource consumption. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6601",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-04-20T04:16:56.763000",
+      "created_at": "2026-04-20T07:09:46.615054+00:00"
+    },
     {
       "id": "71561b9c6b89dbe6",
       "content_hash": "71561b9c6b89dbe6b359e1923fd7d8803be9d043d730700c92b4a1e7d4dd8e38",
@@ -210,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-04-20T03:35:00+00:00",
       "created_at": "2026-04-20T04:49:29.704126+00:00"
+    },
+    {
+      "id": "1c0147ea557a2b9c",
+      "content_hash": "1c0147ea557a2b9c7b2c2b01d7714c955dd5469eba284e7d3c2fb95b4ffa3740",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/esutcu/planb-lpm",
+      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47830071\">Comments</a>",
+      "url": "https://github.com/esutcu/planb-lpm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T03:24:21+00:00",
+      "created_at": "2026-04-20T07:09:49.639126+00:00"
     },
     {
       "id": "d1e3710270201802",
@@ -1176,6 +1218,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T23:59:51+00:00",
       "created_at": "2026-04-20T04:49:35.561366+00:00"
+    },
+    {
+      "id": "49b96213a9315c86",
+      "content_hash": "49b96213a9315c861a65144d66bc67597f0374dffffe7ef39cd2c6ee30c39d9d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/microsoft/sudo",
+      "title": "Sudo for Windows (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47828853\">Comments</a>",
+      "url": "https://github.com/microsoft/sudo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T23:59:51+00:00",
+      "created_at": "2026-04-20T07:09:49.639307+00:00"
     },
     {
       "id": "5edfd52570c4fb80",
@@ -2492,6 +2548,20 @@
       "cvss_score": null,
       "published_at": "2026-04-18T20:54:17+00:00",
       "created_at": "2026-04-19T01:26:43.913192+00:00"
+    },
+    {
+      "id": "4834fcced159b359",
+      "content_hash": "4834fcced159b3590207001a8a5386c0dcb6a0d138661fd642fbf695c71a80cb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sdf.org/?ssh",
+      "title": "SDF Public Access Unix System",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47819410\">Comments</a>",
+      "url": "https://sdf.org/?ssh",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-18T20:48:35+00:00",
+      "created_at": "2026-04-20T07:09:49.638806+00:00"
     },
     {
       "id": "c93ae97f882d0c3c",
@@ -6930,76 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-04-17T07:16:03.160000",
       "created_at": "2026-04-17T21:32:23.662584+00:00"
-    },
-    {
-      "id": "52a80d6bda36a2eb",
-      "content_hash": "52a80d6bda36a2eb174b050e2c4ad67b74269fe796c217da59a355506dac979b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6441",
-      "title": "CVE-2026-6441 - The Canto plugin for WordPress is vulnerable to Missing Authorization in version...",
-      "body": "The Canto plugin for WordPress is vulnerable to Missing Authorization in versions up to and including 3.1.1. This is due to the absence of any capability check or nonce verification in the updateOptions() function, which is exposed via two AJAX hooks: wp_ajax_updateOptions (class-canto.php line 231) and wp_ajax_fbc_updateOptions (class-canto-settings.php line 76). Both hooks are registered exclusively under the wp_ajax_ prefix (requiring only a logged-in user), with no call to current_user_can() or check_ajax_referer(). This makes it possible for authenticated attackers with subscriber-level access and above to arbitrarily modify or delete plugin options controlling cron scheduling behavior (fbc_duplicates, fbc_cron, fbc_schedule, fbc_cron_time_day, fbc_cron_time_hour, fbc_cron_start) and to manipulate or clear the plugin's scheduled WordPress cron event (fbc_scheduled_update).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6441",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-17T07:16:03.020000",
-      "created_at": "2026-04-17T21:32:23.662580+00:00"
-    },
-    {
-      "id": "63a326b8dc6fd3fb",
-      "content_hash": "63a326b8dc6fd3fb39d9d7320101a8a64c6d402cafb6e34cb897b3f68e08975f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4659",
-      "title": "CVE-2026-4659 - The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Arbit...",
-      "body": "The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Arbitrary File Read via the Repeater JSON/CSV URL parameter in versions up to, and including, 2.0.6. This is due to insufficient path traversal sanitization in the URLtoRelative() and urlToPath() functions, combined with the ability to enable debug output in widget settings. The URLtoRelative() function only performs a simple string replacement to remove the site's base URL without sanitizing path traversal sequences (../), and the cleanPath() function only normalizes directory separators without removing traversal components. This allows an attacker to provide a URL like http://site.com/../../../../etc/passwd which, after URLtoRelative() strips the domain, results in /../../../../etc/passwd being concatenated with the base path and ultimately resolved to /etc/passwd. This makes it possible for authenticated attackers with Author-level access and above to read arbitrary local files from the WordPress host, including sensitive files such as wp-config.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4659",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-17T07:16:01.967000",
-      "created_at": "2026-04-17T21:32:23.662575+00:00"
-    },
-    {
-      "id": "e77ad18c8b3c4fe7",
-      "content_hash": "e77ad18c8b3c4fe7d4469016eca1b4f1c0706dd65dca18c8c0a4698c1ee96646",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
-      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
-      "body": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich those that fulfil certain conditions owing to an explosion in CVE submissions.\n\"CVEs that do not meet those criteria will still be listed in the NVD but will not",
-      "url": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-17T07:14:00+00:00",
-      "created_at": "2026-04-17T08:20:40.240477+00:00"
-    },
-    {
-      "id": "ed6f597c649d70e8",
-      "content_hash": "ed6f597c649d70e8b70ef44b243e96fd6b5fc73e044c88781c9963e4b703efaa",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
-      "title": "Man gets 30 months for selling thousands of hacked DraftKings accounts",
-      "body": "23-year-old Kamerin Stokes of Memphis, Tennessee, was sentenced to 30 months in prison for selling access to tens of thousands of hacked DraftKings accounts. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T07:10:32+00:00",
-      "created_at": "2026-04-17T08:20:40.356483+00:00"
-    },
-    {
-      "id": "5699fbe4e1f00d90",
-      "content_hash": "5699fbe4e1f00d906fbf0b656f9c6f9d25364fa014bfff877c4248eaa0dd3860",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.schutzwerk.com/en/blog/proboter-01/",
-      "title": "PROBoter – Open-source platform for automated PCB analysis",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47802971\">Comments</a>",
-      "url": "https://www.schutzwerk.com/en/blog/proboter-01/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-17T06:19:45+00:00",
-      "created_at": "2026-04-17T08:20:44.343061+00:00"
     }
   ]
 }
