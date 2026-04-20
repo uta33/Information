@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-20T17:49:45.914902+00:00",
+  "generated_at": "2026-04-20T18:50:43.566775+00:00",
   "items": [
+    {
+      "id": "7922b4fc280fb441",
+      "content_hash": "7922b4fc280fb441a343aa24c6991d0180f620b96afe4444cd1b21910c7fe707",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "title": "Seiko USA website defaced as hacker claims customer data theft",
+      "body": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T18:22:31+00:00",
+      "created_at": "2026-04-20T18:50:34.538137+00:00"
+    },
+    {
+      "id": "c03815877ed9b13f",
+      "content_hash": "c03815877ed9b13fa6eea76897b4b8b7a67f3fa8dd36f72f6df6e36111b75687",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://professorsigmund.com/praxis/palantir-stasi-protocols.html",
+      "title": "The Palantir's Stasi Protocols",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47838178\">Comments</a>",
+      "url": "https://professorsigmund.com/praxis/palantir-stasi-protocols.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T18:01:23+00:00",
+      "created_at": "2026-04-20T18:50:43.566499+00:00"
+    },
+    {
+      "id": "cb13bbbe294e9f05",
+      "content_hash": "cb13bbbe294e9f052e198e6b6959b3024f2b80cc7fa4217cfe45cacf330ae844",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theonion.info/",
+      "title": "At Long Last, InfoWars Is Ours",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47837620\">Comments</a>",
+      "url": "https://theonion.info/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T17:24:45+00:00",
+      "created_at": "2026-04-20T18:50:43.566432+00:00"
+    },
     {
       "id": "6f1391a9142389e0",
       "content_hash": "6f1391a9142389e044c1b98e890ef7fc344ecd0bc8b4fe2507e71a947c3f43f9",
@@ -14,6 +56,34 @@
       "cvss_score": null,
       "published_at": "2026-04-20T17:23:58+00:00",
       "created_at": "2026-04-20T17:49:45.914294+00:00"
+    },
+    {
+      "id": "22c4613e0a4acd25",
+      "content_hash": "22c4613e0a4acd2581de5387b3021749415cca28433bf09e1ceed0c0ec5510b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theonion.com/at-long-last-infowars-is-ours/",
+      "title": "At long last, InfoWars is ours",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47837611\">Comments</a>",
+      "url": "https://theonion.com/at-long-last-infowars-is-ours/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T17:23:58+00:00",
+      "created_at": "2026-04-20T18:50:43.566097+00:00"
+    },
+    {
+      "id": "03b6505c05b1f848",
+      "content_hash": "03b6505c05b1f84841a6d5990e01e620da5a91cb29ff4c035863c969a801b085",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+      "body": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems.\nThe vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code.\nSGLang is a high-performance, open-source serving",
+      "url": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-20T17:14:00+00:00",
+      "created_at": "2026-04-20T18:50:34.287717+00:00"
     },
     {
       "id": "87c89840592807a6",
@@ -70,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-04-20T16:57:10+00:00",
       "created_at": "2026-04-20T17:49:45.914277+00:00"
+    },
+    {
+      "id": "842f73608c8b8d2d",
+      "content_hash": "842f73608c8b8d2d03fa21856fb0720f390abb23af66ae633fe53bee16828082",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.princeton.edu/~pkrugman/interstellar.pdf",
+      "title": "The Theory of Interstellar Trade [pdf] (1978)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47837105\">Comments</a>",
+      "url": "https://www.princeton.edu/~pkrugman/interstellar.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T16:57:10+00:00",
+      "created_at": "2026-04-20T18:50:43.566136+00:00"
     },
     {
       "id": "a0ce8ccf84e74105",
@@ -210,6 +294,20 @@
       "cvss_score": null,
       "published_at": "2026-04-20T15:30:17+00:00",
       "created_at": "2026-04-20T16:53:32.297961+00:00"
+    },
+    {
+      "id": "02e14476adbeab8c",
+      "content_hash": "02e14476adbeab8c48ab52f0e3e6f2fc673d9f4288ad454e222d960e2767404c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.androidauthority.com/amazon-kindle-2026-3657863/",
+      "title": "I'm never buying another Kindle",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47835775\">Comments</a>",
+      "url": "https://www.androidauthority.com/amazon-kindle-2026-3657863/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T15:30:17+00:00",
+      "created_at": "2026-04-20T18:50:43.566483+00:00"
     },
     {
       "id": "a79758c612e46309",
@@ -2536,6 +2634,20 @@
       "created_at": "2026-04-20T15:09:01.380956+00:00"
     },
     {
+      "id": "332529d9fa567b47",
+      "content_hash": "332529d9fa567b47f61f9732eae1a999905ce45f04ad2e583efa0db56a52c652",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mastodon.social/@jdm_/116429380667467307",
+      "title": "10 years ago, someone wrote a test for Servo that included an expiry in 2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47826839\">Comments</a>",
+      "url": "https://mastodon.social/@jdm_/116429380667467307",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T19:19:48+00:00",
+      "created_at": "2026-04-20T18:50:43.566171+00:00"
+    },
+    {
       "id": "2537d2f60e925c6e",
       "content_hash": "2537d2f60e925c6e0884ed0ff2e526362de93de81226f160eb11d53ccb132af7",
       "source_name": "Hacker News (Best)",
@@ -3416,6 +3528,20 @@
       "cvss_score": null,
       "published_at": "2026-04-19T05:42:48+00:00",
       "created_at": "2026-04-20T16:53:32.297896+00:00"
+    },
+    {
+      "id": "32bd5a926df2caa5",
+      "content_hash": "32bd5a926df2caa548ff36d9301f3bd7ed93e14450058ec2addb1f01db9ce492",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c0q92lx8q75o",
+      "title": "Chernobyl's last wedding",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822066\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c0q92lx8q75o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T05:42:48+00:00",
+      "created_at": "2026-04-20T18:50:43.566348+00:00"
     },
     {
       "id": "bed6da84f28c957f",
@@ -5462,6 +5588,20 @@
       "created_at": "2026-04-18T19:33:41.094344+00:00"
     },
     {
+      "id": "cd52560be63732b7",
+      "content_hash": "cd52560be63732b748f702bdad7df4dc8191c16e76bb3f2c018f1cb724891aee",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sr.ht/~jprotopopov/kefir/",
+      "title": "Kefir C17/C23 Compiler",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47811154\">Comments</a>",
+      "url": "https://sr.ht/~jprotopopov/kefir/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T22:12:59+00:00",
+      "created_at": "2026-04-20T18:50:43.566265+00:00"
+    },
+    {
       "id": "bf7773b27f14aa64",
       "content_hash": "bf7773b27f14aa64d029f5cac4276d17e2ee4b71048df4f9a5545394d0c1cd93",
       "source_name": "Hacker News (Best)",
@@ -6860,146 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-17T15:20:45+00:00",
       "created_at": "2026-04-17T16:41:50.569212+00:00"
-    },
-    {
-      "id": "4efe974dfbbc5df0",
-      "content_hash": "4efe974dfbbc5df0b335f7883ed6189a5bdf94f40ff3927bdfe66ee7390a25fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6496",
-      "title": "CVE-2026-6496 - A vulnerability was found in prasathmani TinyFileManager up to 2.6. Affected is ...",
-      "body": "A vulnerability was found in prasathmani TinyFileManager up to 2.6. Affected is an unknown function of the file /filemanager.php of the component POST Parameter Handler. The manipulation of the argument file[] results in path traversal. The attack may be performed from remote. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6496",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-17T15:16:52.480000",
-      "created_at": "2026-04-18T07:53:00.619048+00:00"
-    },
-    {
-      "id": "46aa50880558a322",
-      "content_hash": "46aa50880558a322c74a7a5243486e936ecc5636387080ee51e92775c5cb4255",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6493",
-      "title": "CVE-2026-6493 - A flaw has been found in lukevella rallly up to 4.7.4. This affects an unknown f...",
-      "body": "A flaw has been found in lukevella rallly up to 4.7.4. This affects an unknown function of the file apps/web/src/app/[locale]/(auth)/reset-password/components/reset-password-form.tsx of the component Reset Password Handler. Executing a manipulation of the argument redirectTo can lead to cross site scripting. The attack can be executed remotely. The exploit has been published and may be used. Upgrading to version 4.8.0 mitigates this issue. Upgrading the affected component is advised. The vendor was contacted early about this disclosure.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6493",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.5,
-      "published_at": "2026-04-17T15:16:52.313000",
-      "created_at": "2026-04-18T07:53:00.619043+00:00"
-    },
-    {
-      "id": "c51be3f6ff56e4ef",
-      "content_hash": "c51be3f6ff56e4efaa2ee1bdb72409e6ceaf78fc7a8c39c21dca314bc3f76dfc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41153",
-      "title": "CVE-2026-41153 - In JetBrains Junie before 252.549.29 command execution was possible via maliciou...",
-      "body": "In JetBrains Junie before 252.549.29 command execution was possible via malicious project file",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41153",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-04-17T15:16:51.853000",
-      "created_at": "2026-04-18T07:53:00.619038+00:00"
-    },
-    {
-      "id": "849c93ff189a74f2",
-      "content_hash": "849c93ff189a74f21836be8563fd88fc7c13fb5777da8b1c0706b285867b13b5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37749",
-      "title": "CVE-2026-37749 - A SQL injection vulnerability in CodeAstro Simple Attendance Management System v...",
-      "body": "A SQL injection vulnerability in CodeAstro Simple Attendance Management System v1.0 allows remote unauthenticated attackers to bypass authentication via the username parameter in index.php.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37749",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-17T15:16:51.763000",
-      "created_at": "2026-04-18T07:53:00.619033+00:00"
-    },
-    {
-      "id": "e32a8d25290dae44",
-      "content_hash": "e32a8d25290dae44b552286475775fcf4ff542b22d7d001d1d1061c622c908e9",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://awnist.com/slop-cop",
-      "title": "Slop Cop",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47806845\">Comments</a>",
-      "url": "https://awnist.com/slop-cop",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:15:24+00:00",
-      "created_at": "2026-04-18T01:17:14.466212+00:00"
-    },
-    {
-      "id": "ef49b23385277f18",
-      "content_hash": "ef49b23385277f182d04e8dd4386cb0bb57a261ee091a62a600db337e7e0064f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/",
-      "title": "NIST gives up enriching most CVEs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47806777\">Comments</a>",
-      "url": "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:09:14+00:00",
-      "created_at": "2026-04-17T15:49:17.404441+00:00"
-    },
-    {
-      "id": "0da18129568610c2",
-      "content_hash": "0da18129568610c2a3e6f10daac678964eafef00088a796778c5f55ab357c48d",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
-      "title": "Grinex exchange blames \"Western intelligence\" for $13.7M crypto hack",
-      "body": "Kyrgyzstan-based cryptocurrency exchange Grinex has suspended its operations after suffering a $13.7 million hack attributed to Western intelligence agencies. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:08:53+00:00",
-      "created_at": "2026-04-17T15:49:11.721644+00:00"
-    },
-    {
-      "id": "a8c30e06cedd9463",
-      "content_hash": "a8c30e06cedd9463523efcf13355512e321da08d23532e2378be289d75051ad8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "title": "Claude Design",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47806725\">Comments</a>",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:04:09+00:00",
-      "created_at": "2026-04-17T15:49:17.404247+00:00"
-    },
-    {
-      "id": "490c967cb86a6c1c",
-      "content_hash": "490c967cb86a6c1cb3c80b48ebe48020f07a1c7497e5dd183cc5f5c2ef4a364b",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113679",
-      "title": "Uber will now pick up your returns from your doorstep",
-      "body": "The new returns feature is the company's latest effort to become an everything app.",
-      "url": "https://techcrunch.com/2026/04/17/uber-will-now-pick-up-your-returns-from-your-doorstep/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:02:00+00:00",
-      "created_at": "2026-04-17T15:49:16.964172+00:00"
-    },
-    {
-      "id": "4a1da4d6fb42a118",
-      "content_hash": "4a1da4d6fb42a118ccfce4f91869d17e6a9c0a62a3cd1034d5a6f9384f4bb103",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3113618",
-      "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
-      "body": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:00:00+00:00",
-      "created_at": "2026-04-17T15:49:16.964218+00:00"
     }
   ]
 }
