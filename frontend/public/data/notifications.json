@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-20T09:51:19.682684+00:00",
+  "generated_at": "2026-04-20T11:11:03.750886+00:00",
   "items": [
+    {
+      "id": "44e15bda7c43a075",
+      "content_hash": "44e15bda7c43a075258a3aba62888befdae330660c373b202bf4ce51890e908b",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
+      "body": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain.\n\"This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to",
+      "url": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-20T10:42:00+00:00",
+      "created_at": "2026-04-20T11:10:55.862512+00:00"
+    },
+    {
+      "id": "c2c5aac85ff338f5",
+      "content_hash": "c2c5aac85ff338f5e103d7fdc2d05f134f095464f411635bb608eb16d4c5f9e7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/",
+      "title": "NSA is using Anthropic's Mythos despite blacklist",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47832222\">Comments</a>",
+      "url": "https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T10:00:35+00:00",
+      "created_at": "2026-04-20T11:11:03.750237+00:00"
+    },
     {
       "id": "374a4f66d177440e",
       "content_hash": "374a4f66d177440e8344bb23775edba46c05ded4cc0a92a72804a18ef8837345",
@@ -126,6 +154,34 @@
       "cvss_score": null,
       "published_at": "2026-04-20T07:07:30+00:00",
       "created_at": "2026-04-20T09:51:19.682307+00:00"
+    },
+    {
+      "id": "7f163060eda422ca",
+      "content_hash": "7f163060eda422caf233da8465c3d9ce0e6e767fa5fb991b783479aa0f2d96cb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6606",
+      "title": "CVE-2026-6606 - A weakness has been identified in modelscope agentscope up to 1.0.18. This vulne...",
+      "body": "A weakness has been identified in modelscope agentscope up to 1.0.18. This vulnerability affects the function _process_audio_block of the file src/agentscope/agent/_agent_base.py. Executing a manipulation of the argument url can lead to server-side request forgery. It is possible to launch the attack remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6606",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-20T05:16:15.987000",
+      "created_at": "2026-04-20T11:10:59.051327+00:00"
+    },
+    {
+      "id": "8bc85bc2536a057a",
+      "content_hash": "8bc85bc2536a057a0b771e779c6e6692b0bf1af83785751bed8f7a7066bec1ab",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6605",
+      "title": "CVE-2026-6605 - A security flaw has been discovered in modelscope agentscope up to 1.0.18. This ...",
+      "body": "A security flaw has been discovered in modelscope agentscope up to 1.0.18. This affects the function _get_bytes_from_web_url of the file src/agentscope/_utils/_common.py of the component Internal Service. Performing a manipulation results in server-side request forgery. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6605",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-20T05:16:15.780000",
+      "created_at": "2026-04-20T11:10:59.051320+00:00"
     },
     {
       "id": "26c476b5646da342",
@@ -4874,6 +4930,20 @@
       "created_at": "2026-04-18T20:24:46.578253+00:00"
     },
     {
+      "id": "0930f6dd50d5b1d3",
+      "content_hash": "0930f6dd50d5b1d39fa586ec5f25b186439ac1fd7badcf5374491647ab1e40d4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://newatlas.com/electronics/meta-nfc-focused-microwaves-circuits/",
+      "title": "Focused microwaves allow 3D printers to fuse circuits onto almost anything",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47810531\">Comments</a>",
+      "url": "https://newatlas.com/electronics/meta-nfc-focused-microwaves-circuits/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T21:03:09+00:00",
+      "created_at": "2026-04-20T11:11:03.750331+00:00"
+    },
+    {
       "id": "07952784f031de66",
       "content_hash": "07952784f031de667e0a3f1db8fd197837c65912905735bc1b3c94df5bb3c190",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-17T09:30:15+00:00",
       "created_at": "2026-04-17T10:04:02.087053+00:00"
-    },
-    {
-      "id": "4c0a157c457240cf",
-      "content_hash": "4c0a157c457240cf89fee116a871ca7689d7eb115855ecdf883c508a03a5fb06",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/",
-      "title": "Teddy Roosevelt and Abraham Lincoln in the same photo (2010)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47803992\">Comments</a>",
-      "url": "https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T09:18:16+00:00",
-      "created_at": "2026-04-17T15:49:17.404459+00:00"
-    },
-    {
-      "id": "c1e9560c6cb4acaf",
-      "content_hash": "c1e9560c6cb4acaf8796e4a29688f40d6ea481fdb07fd4fa8933d285c27f540e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6494",
-      "title": "CVE-2026-6494 - A flaw was found in the AAP MCP server. An unauthenticated remote attacker can e...",
-      "body": "A flaw was found in the AAP MCP server. An unauthenticated remote attacker can exploit a log injection vulnerability by sending specially crafted input to the `toolsetroute` parameter. This parameter is not properly sanitized before being written to logs, allowing the attacker to inject control characters such as newlines and ANSI escape sequences. This enables the attacker to obscure legitimate log entries and insert forged ones, which could facilitate social engineering attacks, potentially leading to an operator executing dangerous commands or visiting malicious URLs.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6494",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-17T09:16:05.600000",
-      "created_at": "2026-04-17T23:29:49.356385+00:00"
-    },
-    {
-      "id": "bc56da1e3465cbb2",
-      "content_hash": "bc56da1e3465cbb283353bb76b4bd9db59af98f4c4b004cb8d566d5dd2eaa68d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6439",
-      "title": "CVE-2026-6439 - The VideoZen plugin for WordPress is vulnerable to Stored Cross-Site Scripting i...",
-      "body": "The VideoZen plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to and including 1.0.1. This is due to insufficient input sanitization and output escaping in the videozen_conf() function. The 'lang' POST parameter is stored directly via update_option() without any sanitization, and later echoed inside a <textarea> element without applying esc_textarea() or any equivalent escaping function. This makes it possible for authenticated attackers with Administrator-level access and above to inject arbitrary web scripts into the plugin settings page that will execute whenever any user accesses that page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6439",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "published_at": "2026-04-17T09:16:05.447000",
-      "created_at": "2026-04-17T23:29:49.356378+00:00"
-    },
-    {
-      "id": "2526e6a2ec8ec005",
-      "content_hash": "2526e6a2ec8ec0051fd9465216374fbc7781b4ee261dde4c57f89a74f8d632fd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23778",
-      "title": "CVE-2026-23778 - Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Featu...",
-      "body": "Dell PowerProtect Data Domain with Data Domain Operating System (DD OS) of Feature Release versions 7.7.1.0 through 8.5, LTS2025 release version 8.3.1.0 through 8.3.1.20, LTS2024 release versions 7.13.1.0 through 7.13.1.50, contain a command injection vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability to gain root-level access.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23778",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-04-17T09:16:05.300000",
-      "created_at": "2026-04-17T23:29:49.356371+00:00"
-    },
-    {
-      "id": "19edd1240281b542",
-      "content_hash": "19edd1240281b54286c78c4cfca3a1528b28347109d8be99dee655697d4dea45",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23775",
-      "title": "CVE-2026-23775 - Dell PowerProtect Data Domain appliances with Data Domain Operating System (DD O...",
-      "body": "Dell PowerProtect Data Domain appliances with Data Domain Operating System (DD OS) of Feature Release versions 8.0 through 8.5, LTS2025 release version 8.3.1.0 through 8.3.1.10 contain an insertion of sensitive information into log file vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to credential exposures. Authentication attempts as the compromised user would need to be authorized by a high privileged DD user. This vulnerability only affects systems with retention lock enabled.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23775",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.6,
-      "published_at": "2026-04-17T09:16:05.153000",
-      "created_at": "2026-04-17T23:29:49.356364+00:00"
     }
   ]
 }
