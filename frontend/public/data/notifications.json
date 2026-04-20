@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-20T18:50:43.566775+00:00",
+  "generated_at": "2026-04-20T19:53:54.835152+00:00",
   "items": [
+    {
+      "id": "a59fc112028d6223",
+      "content_hash": "a59fc112028d6223b9e99a8834d89f1f6b24cd84df074b4351eed137dc466d69",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3114155",
+      "title": "It’s not just one thing — it’s another thing",
+      "body": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
+      "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T19:37:07+00:00",
+      "created_at": "2026-04-20T19:53:54.565371+00:00"
+    },
     {
       "id": "7922b4fc280fb441",
       "content_hash": "7922b4fc280fb441a343aa24c6991d0180f620b96afe4444cd1b21910c7fe707",
@@ -154,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-04-20T16:57:10+00:00",
       "created_at": "2026-04-20T18:50:43.566136+00:00"
+    },
+    {
+      "id": "d83f80997f7a574a",
+      "content_hash": "d83f80997f7a574a8e1504b9f9c9e9415ce0f3bcbb3cecc66cc985da279dde59",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://words.filippo.io/128-bits/",
+      "title": "Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47836784\">Comments</a>",
+      "url": "https://words.filippo.io/128-bits/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-20T16:37:48+00:00",
+      "created_at": "2026-04-20T19:53:54.834588+00:00"
     },
     {
       "id": "a0ce8ccf84e74105",
@@ -322,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-04-20T15:28:13+00:00",
       "created_at": "2026-04-20T16:53:32.297849+00:00"
+    },
+    {
+      "id": "d2b6660c869b07de",
+      "content_hash": "d2b6660c869b07de720db69f46e73089070b294b2f12e7d38de43940fa69e40a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.kimi.com/blog/kimi-k2-6",
+      "title": "Kimi K2.6: Advancing open-source coding",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47835735\">Comments</a>",
+      "url": "https://www.kimi.com/blog/kimi-k2-6",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-20T15:28:13+00:00",
+      "created_at": "2026-04-20T19:53:54.834474+00:00"
     },
     {
       "id": "a0980f1e2d9fbda5",
@@ -3430,6 +3472,20 @@
       "cvss_score": 4.7,
       "published_at": "2026-04-19T08:16:26.113000",
       "created_at": "2026-04-19T08:57:30.682552+00:00"
+    },
+    {
+      "id": "0a6449a7b739e241",
+      "content_hash": "0a6449a7b739e241efcda25bd053926cba41752457aa9bbca4ef793730160b50",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://krupitskas.com/posts/modern_culling_techniques/",
+      "title": "Modern Rendering Culling Techniques",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47822549\">Comments</a>",
+      "url": "https://krupitskas.com/posts/modern_culling_techniques/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-19T07:54:11+00:00",
+      "created_at": "2026-04-20T19:53:54.834727+00:00"
     },
     {
       "id": "d0824b5d522571c2",
@@ -6820,6 +6876,20 @@
       "created_at": "2026-04-17T17:39:53.274486+00:00"
     },
     {
+      "id": "765725240e4ca989",
+      "content_hash": "765725240e4ca9899aaca279586bf75dab2543d8c781d93d4f8767a546d2f679",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pmasschelier.github.io/x86_64_strings/",
+      "title": "Writing string.h functions using string instructions in asm x86-64",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47807609\">Comments</a>",
+      "url": "https://pmasschelier.github.io/x86_64_strings/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-17T16:22:36+00:00",
+      "created_at": "2026-04-20T19:53:54.834744+00:00"
+    },
+    {
       "id": "4a0c3954dcc56bdc",
       "content_hash": "4a0c3954dcc56bdcde1418817b34a43444a73779d746a68b308c062f27c1ee7a",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-17T16:15:50+00:00",
       "created_at": "2026-04-17T17:39:52.898339+00:00"
-    },
-    {
-      "id": "672d505a26e7e68d",
-      "content_hash": "672d505a26e7e68df291b0e8d72e7c86cbb61d09bd762e56bb40cf903f9855d2",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://datagirl.xyz/posts/dos_inside_the_box.html",
-      "title": "Detecting DOSBox from Within the Box",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47807503\">Comments</a>",
-      "url": "https://datagirl.xyz/posts/dos_inside_the_box.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T16:13:26+00:00",
-      "created_at": "2026-04-17T18:42:02.909387+00:00"
-    },
-    {
-      "id": "74b05a8fdcfbf08f",
-      "content_hash": "74b05a8fdcfbf08f3f306ecf5be8fc8bd9aff76f14a4fef4439b80ed9bfb4ab4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nasaforce.gov/",
-      "title": "NASA Force",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47807209\">Comments</a>",
-      "url": "https://nasaforce.gov/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:47:41+00:00",
-      "created_at": "2026-04-17T16:41:50.569029+00:00"
-    },
-    {
-      "id": "5b81885bee333ee2",
-      "content_hash": "5b81885bee333ee245c027702c96644e962b9fa4dae88c4dfc4b6a9da10d9ca0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "title": "Claude Opus 4.7 costs 20–30% more per session",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47807006\">Comments</a>",
-      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:29:36+00:00",
-      "created_at": "2026-04-17T16:41:50.568879+00:00"
-    },
-    {
-      "id": "2727e1cc3150a314",
-      "content_hash": "2727e1cc3150a314cc4426a1b7ffa6c8603fc55d0a81a6f8c02e13d379d1758f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "title": "Measuring Claude 4.7's tokenizer costs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47807006\">Comments</a>",
-      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:29:36+00:00",
-      "created_at": "2026-04-17T22:27:43.518159+00:00"
-    },
-    {
-      "id": "bce992f5754bd82d",
-      "content_hash": "bce992f5754bd82d99fb8ced2be8fb381e8e273d819e2718ed37c7e2618f220f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://gregorio-project.github.io/index.html",
-      "title": "The Gregorio project – GPL tools for typesetting Gregorian chant",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47806899\">Comments</a>",
-      "url": "https://gregorio-project.github.io/index.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-17T15:20:45+00:00",
-      "created_at": "2026-04-17T16:41:50.569212+00:00"
     }
   ]
 }
