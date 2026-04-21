@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-21T19:59:21.346070+00:00",
+  "generated_at": "2026-04-21T20:53:08.211115+00:00",
   "items": [
+    {
+      "id": "d11e67aff0ff4981",
+      "content_hash": "d11e67aff0ff49813d06797f99b4c3f1f6c7f430f31124613071ac1839e10448",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3114736",
+      "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
+      "body": "Apple's top job comes with almost unrivaled power and money, but it comes with plenty of baggage, too.",
+      "url": "https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-21T20:23:24+00:00",
+      "created_at": "2026-04-21T20:53:08.119183+00:00"
+    },
     {
       "id": "aef6803a3a4e9106",
       "content_hash": "aef6803a3a4e9106221ff64e663340cf73f260b4b0fa4bc2bbf5972bd9d01bc0",
@@ -1780,6 +1794,34 @@
       "created_at": "2026-04-21T06:28:28.957514+00:00"
     },
     {
+      "id": "408f25f9a9203285",
+      "content_hash": "408f25f9a9203285d9b22c3cca3c01215952de83e01bb88531a7a9636f76bb20",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-39377",
+      "title": "CVE-2026-39377 - The nbconvert tool, jupyter nbconvert, converts Jupyter notebooks to various oth...",
+      "body": "The nbconvert tool, jupyter nbconvert, converts Jupyter notebooks to various other formats via Jinja templates. Versions 6.5 through 7.17.0 allow arbitrary file writes to locations outside the intended output directory when processing notebooks containing crafted cell attachment filenames. The `ExtractAttachmentsPreprocessor` passes attachment filenames directly to the filesystem without sanitization, enabling path traversal attacks. This vulnerability provides complete control over both the destination path and file extension. Version 7.17.1 contains a patch.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39377",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-21T01:16:05.937000",
+      "created_at": "2026-04-21T20:53:05.007841+00:00"
+    },
+    {
+      "id": "aaa2fe42fec22797",
+      "content_hash": "aaa2fe42fec22797a485d0e600d3b496037124ce3f087d0ecb863d327606c135",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-39320",
+      "title": "CVE-2026-39320 - Signal K Server is a server application that runs on a central hub in a boat. Ve...",
+      "body": "Signal K Server is a server application that runs on a central hub in a boat. Versions prior to 2.25.0 are vulnerable to an unauthenticated Regular Expression Denial of Service (ReDoS) attack within the WebSocket subscription handling logic. By injecting unescaped regex metacharacters into the `context` parameter of a stream subscription, an attacker can force the server's Node.js event loop into a catastrophic backtracking loop when evaluating long string identifiers (like the server's self UUID). This results in a total Denial of Service (DoS) where the server CPU spikes to 100% and becomes completely unresponsive to further API or socket requests. Version 2.25.0 contains a fix.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39320",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-04-21T01:16:05.063000",
+      "created_at": "2026-04-21T20:53:05.007835+00:00"
+    },
+    {
       "id": "34cf30eed1d1a43e",
       "content_hash": "34cf30eed1d1a43eb12393715e971d50a856f2e1aaa5dd598add3a0e633c0ee6",
       "source_name": "TechCrunch",
@@ -1820,6 +1862,20 @@
       "cvss_score": null,
       "published_at": "2026-04-21T00:48:07+00:00",
       "created_at": "2026-04-21T04:40:24.260347+00:00"
+    },
+    {
+      "id": "765494c3599c2f1a",
+      "content_hash": "765494c3599c2f1abb0cd798af69421f39f30f600ab55ac274c22a735090be22",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-41331",
+      "title": "CVE-2026-41331 - OpenClaw before 2026.3.31 contains a resource consumption vulnerability in Teleg...",
+      "body": "OpenClaw before 2026.3.31 contains a resource consumption vulnerability in Telegram audio preflight transcription that allows unauthorized group senders to trigger transcription processing. Attackers can exploit insufficient allowlist enforcement to cause resource or billing consumption by initiating audio preflight operations before authorization checks are applied.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41331",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-04-21T00:16:31.740000",
+      "created_at": "2026-04-21T20:53:05.007829+00:00"
     },
     {
       "id": "cb8e494c14de942e",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-19T21:00:49+00:00",
       "created_at": "2026-04-19T22:23:49.622311+00:00"
-    },
-    {
-      "id": "c322c0556532b59c",
-      "content_hash": "c322c0556532b59c430c7aa45ee1e2eb13bae2959b7af3e7868b7422bfdf339c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
-      "title": "Swiss authorities want to reduce dependency on Microsoft",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47827383\">Comments</a>",
-      "url": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-19T20:25:29+00:00",
-      "created_at": "2026-04-19T21:25:08.663141+00:00"
-    },
-    {
-      "id": "7ad11e1f98185db9",
-      "content_hash": "7ad11e1f98185db966ad69e927163576f7d5b074409b73e5e9a9054f0e574221",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6577",
-      "title": "CVE-2026-6577 - A vulnerability was identified in liangliangyy DjangoBlog up to 2.1.0.0. The imp...",
-      "body": "A vulnerability was identified in liangliangyy DjangoBlog up to 2.1.0.0. The impacted element is an unknown function of the file owntracks/views.py of the component logtracks Endpoint. The manipulation leads to missing authentication. The attack can be initiated remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6577",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-19T20:16:28.837000",
-      "created_at": "2026-04-19T20:25:03.305178+00:00"
-    },
-    {
-      "id": "062480189221391c",
-      "content_hash": "062480189221391cff2a5fed302bd7658ba79640d723cc842a1f8fd55e86d37c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
-      "title": "Stop trying to engineer your way out of listening to people",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47827259\">Comments</a>",
-      "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-19T20:09:09+00:00",
-      "created_at": "2026-04-20T04:49:35.561278+00:00"
-    },
-    {
-      "id": "0c56833821f5dcff",
-      "content_hash": "0c56833821f5dcffe031efc211c842dde40ecae1efcd9a048979d5dcd677dc2f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.philosopher.eu/others-writings/a-j-ayer-what-i-saw-when-i-was-dead/",
-      "title": "A. J. Ayer – ‘What I Saw When I Was Dead’ (1988)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47827215\">Comments</a>",
-      "url": "https://www.philosopher.eu/others-writings/a-j-ayer-what-i-saw-when-i-was-dead/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-19T20:04:13+00:00",
-      "created_at": "2026-04-19T20:25:07.669214+00:00"
     }
   ]
 }
