@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T04:37:33.718919+00:00",
+  "generated_at": "2026-04-22T06:29:00.666379+00:00",
   "items": [
     {
       "id": "79bcd4744b3fd2c5",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-04-22T02:49:40+00:00",
       "created_at": "2026-04-22T04:37:33.718392+00:00"
+    },
+    {
+      "id": "84086061109bb320",
+      "content_hash": "84086061109bb320cc3fbd9ea06847b1c258b3d947856c870d6ceeba6f0cdb8e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/justrach/kuri",
+      "title": "Kuri – Zig based agent-browser alternative",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47857964\">Comments</a>",
+      "url": "https://github.com/justrach/kuri",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-22T02:15:38+00:00",
+      "created_at": "2026-04-22T06:29:00.666060+00:00"
     },
     {
       "id": "8c018a098b5905f5",
@@ -280,6 +294,20 @@
       "cvss_score": null,
       "published_at": "2026-04-21T23:53:45+00:00",
       "created_at": "2026-04-22T04:37:33.718267+00:00"
+    },
+    {
+      "id": "f8713dd28d3c4fb7",
+      "content_hash": "f8713dd28d3c4fb7fc01431141546436b752623614bae547857347f354e97163",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "title": "Drunk post: Things I've learned as a senior engineer (2021)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47856535\">Comments</a>",
+      "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-21T23:53:45+00:00",
+      "created_at": "2026-04-22T06:29:00.665754+00:00"
     },
     {
       "id": "d577185332d580c2",
@@ -1148,6 +1176,20 @@
       "cvss_score": null,
       "published_at": "2026-04-21T13:24:34+00:00",
       "created_at": "2026-04-21T14:46:08.576266+00:00"
+    },
+    {
+      "id": "dcb37f400eedf35e",
+      "content_hash": "dcb37f400eedf35e2b6b397c0bfd6aad2af27e5f9d484eedb6e9034f969b96de",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6779",
+      "title": "CVE-2026-6779 - Other issue in the JavaScript Engine component. This vulnerability was fixed in ...",
+      "body": "Other issue in the JavaScript Engine component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6779",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-04-21T13:16:23.600000",
+      "created_at": "2026-04-22T06:28:56.259868+00:00"
     },
     {
       "id": "6e55cdb8bec3dcc5",
@@ -6958,48 +7000,6 @@
       "cvss_score": 3.7,
       "published_at": "2026-04-20T06:16:22.233000",
       "created_at": "2026-04-20T15:08:57.366063+00:00"
-    },
-    {
-      "id": "2823896db512ae16",
-      "content_hash": "2823896db512ae161b057df43ac5f28861521c06aadf588a2813775aefbca546",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6609",
-      "title": "CVE-2026-6609 - A flaw has been found in liangliangyy DjangoBlog up to 2.1.0.0. The affected ele...",
-      "body": "A flaw has been found in liangliangyy DjangoBlog up to 2.1.0.0. The affected element is the function form_valid of the file oauth/views.py. This manipulation of the argument oauthid causes improper authorization. The attack may be initiated remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6609",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-04-20T06:16:22.050000",
-      "created_at": "2026-04-20T13:03:17.448768+00:00"
-    },
-    {
-      "id": "005170f7b6f02ae3",
-      "content_hash": "005170f7b6f02ae382a4d1061229206a81470daef4bfe28c59b063baba754573",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6608",
-      "title": "CVE-2026-6608 - A vulnerability was detected in lm-sys fastchat up to 0.2.36. Impacted is the fu...",
-      "body": "A vulnerability was detected in lm-sys fastchat up to 0.2.36. Impacted is the function add_text of the component Arena Side-by-Side View Handler. The manipulation results in incorrect control flow. The attack can be launched remotely. The exploit is now public and may be used. The root cause was fixed in commit 34eca62 for gradio_block_arena_named.py, but three other files were missed.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6608",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-20T06:16:21.733000",
-      "created_at": "2026-04-20T13:03:17.448760+00:00"
-    },
-    {
-      "id": "994a2fb16e3c4e8c",
-      "content_hash": "994a2fb16e3c4e8cec5c7f64347fec3dabbd5c8f1b2ae3e0ba8f35f7972f6f97",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.simonsfoundation.org/2022/07/05/fields-medal-video-maryna-viazovska/",
-      "title": "Fields Medal Video: Maryna Viazovska",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47830687\">Comments</a>",
-      "url": "https://www.simonsfoundation.org/2022/07/05/fields-medal-video-maryna-viazovska/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-20T05:30:06+00:00",
-      "created_at": "2026-04-21T23:27:05.776213+00:00"
     }
   ]
 }
