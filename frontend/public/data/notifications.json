@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-24T08:58:33.938590+00:00",
+  "generated_at": "2026-04-24T10:19:30.846554+00:00",
   "items": [
+    {
+      "id": "af681405870eb071",
+      "content_hash": "af681405870eb071eeef963d4f5de84a9d1ea68b230fa7f5eb769d64bee26677",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
+      "body": "Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual Studio Code (VS Code) tunnels for remote access.\nZscaler ThreatLabz, which discovered the campaign last month, has attributed it with high confidence to Tropic Trooper (aka",
+      "url": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-24T09:29:00+00:00",
+      "created_at": "2026-04-24T10:19:25.527679+00:00"
+    },
+    {
+      "id": "02480a61dd70dbcc",
+      "content_hash": "02480a61dd70dbcc68a638be727a10c380fa19fdb2aff988a66fafbc178fb66e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47887683\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T09:17:57+00:00",
+      "created_at": "2026-04-24T10:19:30.845763+00:00"
+    },
+    {
+      "id": "8c8239c77771e50d",
+      "content_hash": "8c8239c77771e50d952958ac6d729802fe593bdb4d9bfabb57e7c5618847bdcc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/matz/spinel",
+      "title": "Spinel: Ruby AOT Native Compiler",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47887334\">Comments</a>",
+      "url": "https://github.com/matz/spinel",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T08:28:47+00:00",
+      "created_at": "2026-04-24T10:19:30.845817+00:00"
+    },
     {
       "id": "cacb1653e7d19692",
       "content_hash": "cacb1653e7d196925eae1d472d82bce1489a9e9be2431ff925089103dc10efb7",
@@ -1290,6 +1332,20 @@
       "created_at": "2026-04-23T22:33:19.530058+00:00"
     },
     {
+      "id": "f75c6a5b70d029ae",
+      "content_hash": "f75c6a5b70d029ae5214cecdbdd06e48aabef83e23ca08e602384a33fbe3cd4f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-41909",
+      "title": "CVE-2026-41909 - OpenClaw before 2026.4.20 contains an improper authorization vulnerability in pa...",
+      "body": "OpenClaw before 2026.4.20 contains an improper authorization vulnerability in paired-device pairing management that allows limited-scope sessions to enumerate and act on pairing requests. Attackers with paired-device access can approve or operate on unrelated pending device requests within the same gateway scope.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41909",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-04-23T18:16:29.693000",
+      "created_at": "2026-04-24T10:19:26.014185+00:00"
+    },
+    {
       "id": "51cf40170af32c89",
       "content_hash": "51cf40170af32c896d1576fddec28b7ba99ae2a46fde0b5a322eb8d8f8566245",
       "source_name": "CVE (NVD)",
@@ -1540,6 +1596,20 @@
       "cvss_score": null,
       "published_at": "2026-04-23T18:16:00+00:00",
       "created_at": "2026-04-23T18:53:55.254802+00:00"
+    },
+    {
+      "id": "18ef995f0d0de9ba",
+      "content_hash": "18ef995f0d0de9ba4a7fd1a732c5ea4525e8469e1bd3f800b56db21fdd624b26",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
+      "body": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT help desk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account",
+      "url": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-23T18:16:00+00:00",
+      "created_at": "2026-04-24T10:19:25.527737+00:00"
     },
     {
       "id": "fc0a3d05fbdda916",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-22T14:16:42.633000",
       "created_at": "2026-04-23T15:10:59.517171+00:00"
-    },
-    {
-      "id": "f05bca9eef7d2ba0",
-      "content_hash": "f05bca9eef7d2ba0dbf93bf90207b81c1213a9c43817015db4172ea3e609efcb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31464",
-      "title": "CVE-2026-31464 - In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ibmvf...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ibmvfc: Fix OOB access in ibmvfc_discover_targets_done()\n\nA malicious or compromised VIO server can return a num_written value in the\ndiscover targets MAD response that exceeds max_targets. This value is\nstored directly in vhost->num_targets without validation, and is then used\nas the loop bound in ibmvfc_alloc_targets() to index into disc_buf[], which\nis only allocated for max_targets entries. Indices at or beyond max_targets\naccess kernel memory outside the DMA-coherent allocation.  The\nout-of-bounds data is subsequently embedded in Implicit Logout and PLOGI\nMADs that are sent back to the VIO server, leaking kernel memory.\n\nFix by clamping num_written to max_targets before storing it.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31464",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-22T14:16:42.450000",
-      "created_at": "2026-04-23T11:52:41.395026+00:00"
-    },
-    {
-      "id": "f63e9f70db745d4c",
-      "content_hash": "f63e9f70db745d4cf543445bc6c531d1df87456c2feb4fce95101fec134c5fcf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31463",
-      "title": "CVE-2026-31463 - In the Linux kernel, the following vulnerability has been resolved:\n\niomap: fix ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\niomap: fix invalid folio access when i_blkbits differs from I/O granularity\n\nCommit aa35dd5cbc06 (\"iomap: fix invalid folio access after\nfolio_end_read()\") partially addressed invalid folio access for folios\nwithout an ifs attached, but it did not handle the case where\n1 << inode->i_blkbits matches the folio size but is different from the\ngranularity used for the IO, which means IO can be submitted for less\nthan the full folio for the !ifs case.\n\nIn this case, the condition:\n\n  if (*bytes_submitted == folio_len)\n    ctx->cur_folio = NULL;\n\nin iomap_read_folio_iter() will not invalidate ctx->cur_folio, and\niomap_read_end() will still be called on the folio even though the IO\nhelper owns it and will finish the read on it.\n\nFix this by unconditionally invalidating ctx->cur_folio for the !ifs\ncase.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31463",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-22T14:16:42.323000",
-      "created_at": "2026-04-23T11:52:41.395020+00:00"
-    },
-    {
-      "id": "c9fcd5800b690dc5",
-      "content_hash": "c9fcd5800b690dc5f0dc44f682aaae29fc1abe8a55a0f5a1149a7b8efc1c1447",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31462",
-      "title": "CVE-2026-31462 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: prevent immediate PASID reuse case\n\nPASID resue could cause interrupt issue when process\nimmediately runs into hw state left by previous\nprocess exited with the same PASID, it's possible that\npage faults are still pending in the IH ring buffer when\nthe process exits and frees up its PASID. To prevent the\ncase, it uses idr cyclic allocator same as kernel pid's.\n\n(cherry picked from commit 8f1de51f49be692de137c8525106e0fce2d1912d)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31462",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-22T14:16:41.787000",
-      "created_at": "2026-04-23T11:52:41.395013+00:00"
-    },
-    {
-      "id": "eb9c71d61b23f06c",
-      "content_hash": "eb9c71d61b23f06c50f273228a24e4dab26a70fa5ec9073844a3919559513c4f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31461",
-      "title": "CVE-2026-31461 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/dis...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix drm_edid leak in amdgpu_dm\n\n[WHAT]\nWhen a sink is connected, aconnector->drm_edid was overwritten without\nfreeing the previous allocation, causing a memory leak on resume.\n\n[HOW]\nFree the previous drm_edid before updating it.\n\n(cherry picked from commit 52024a94e7111366141cfc5d888b2ef011f879e5)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31461",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-22T14:16:41.670000",
-      "created_at": "2026-04-23T11:52:41.395006+00:00"
-    },
-    {
-      "id": "7c6d63256f866007",
-      "content_hash": "7c6d63256f8660070217d043be5e5a641e8df9c88686a718542ceefec73779d6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31460",
-      "title": "CVE-2026-31460 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/dis...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: check if ext_caps is valid in BL setup\n\nLVDS connectors don't have extended backlight caps so check\nif the pointer is valid before accessing it.\n\n(cherry picked from commit 3f797396d7f4eb9bb6eded184bbc6f033628a6f6)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31460",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-22T14:16:41.550000",
-      "created_at": "2026-04-23T11:52:41.395000+00:00"
     }
   ]
 }
