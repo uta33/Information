@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-25T12:37:15.514016+00:00",
+  "generated_at": "2026-04-25T13:57:07.140702+00:00",
   "items": [
+    {
+      "id": "dc081a9c2b905c83",
+      "content_hash": "dc081a9c2b905c83d2f4437fe43eed35545efdd78b5f0714c6982436b8f59112",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://victortaelin.github.io/lambench/",
+      "title": "Lambda Calculus Benchmark for AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47900506\">Comments</a>",
+      "url": "https://victortaelin.github.io/lambench/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T11:16:23+00:00",
+      "created_at": "2026-04-25T13:57:07.139967+00:00"
+    },
+    {
+      "id": "154dd2b1f573a838",
+      "content_hash": "154dd2b1f573a838866c1db19fd5a0d830e87a518bf035f5356399c4b0408406",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
+      "title": "Only One Side Will Be the True Successor to MS-DOS – Windows 2.x",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47900451\">Comments</a>",
+      "url": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T11:03:15+00:00",
+      "created_at": "2026-04-25T13:57:07.140269+00:00"
+    },
     {
       "id": "7c60faf8d42f913c",
       "content_hash": "7c60faf8d42f913c24ebf39f321207f38adcf01943a7309eb2a0348f3047589b",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T10:59:29+00:00",
       "created_at": "2026-04-25T12:37:15.513345+00:00"
+    },
+    {
+      "id": "b4fd66e09b3c98f8",
+      "content_hash": "b4fd66e09b3c98f8983b89759d8b0b50e3eb547939ebf480538bdee414e836df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/MartinGalway/C64_music",
+      "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47900398\">Comments</a>",
+      "url": "https://github.com/MartinGalway/C64_music",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-04-25T10:46:14+00:00",
+      "created_at": "2026-04-25T13:57:07.139946+00:00"
     },
     {
       "id": "b83b07baf8fb0186",
@@ -910,6 +952,48 @@
       "cvss_score": null,
       "published_at": "2026-04-24T15:44:03+00:00",
       "created_at": "2026-04-24T17:42:41.842520+00:00"
+    },
+    {
+      "id": "41f33f0fcac8d60e",
+      "content_hash": "41f33f0fcac8d60e123d07f954c90296ee88e8c55fe066ddbb34804cff45cd53",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31573",
+      "title": "CVE-2026-31573 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: veri...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: verisilicon: Fix kernel panic due to __initconst misuse\n\nFix a kernel panic when probing the driver as a module:\n\n  Unable to handle kernel paging request at virtual address\n  ffffd9c18eb05000\n  of_find_matching_node_and_match+0x5c/0x1a0\n  hantro_probe+0x2f4/0x7d0 [hantro_vpu]\n\nThe imx8mq_vpu_shared_resources array is referenced by variant\nstructures through their shared_devices field. When built as a\nmodule, __initconst causes this data to be freed after module\ninit, but it's later accessed during probe, causing a page fault.\n\nThe imx8mq_vpu_shared_resources is referenced from non-init code,\nso keeping __initconst or __initconst_or_module here is wrong.\n\nDrop the __initconst annotation and let it live in the normal .rodata\nsection.\n\nA bug of __initconst called from regular non-init probe code\nleading to bugs during probe deferrals or during unbind-bind cycles.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31573",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.857000",
+      "created_at": "2026-04-25T13:57:03.005060+00:00"
+    },
+    {
+      "id": "7b42a59f4eb2ea96",
+      "content_hash": "7b42a59f4eb2ea96d55b7d2af10ed9606a151a7c91bffc1b33107c5288967194",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31572",
+      "title": "CVE-2026-31572 - In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: design...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: designware: amdisp: Fix resume-probe race condition issue\n\nIdentified resume-probe race condition in kernel v7.0 with the commit\n38fa29b01a6a (\"i2c: designware: Combine the init functions\"),but this\nissue existed from the beginning though not detected.\n\nThe amdisp i2c device requires ISP to be in power-on state for probe\nto succeed. To meet this requirement, this device is added to genpd\nto control ISP power using runtime PM. The pm_runtime_get_sync() called\nbefore i2c_dw_probe() triggers PM resume, which powers on ISP and also\ninvokes the amdisp i2c runtime resume before the probe completes resulting\nin this race condition and a NULL dereferencing issue in v7.0\n\nFix this race condition by using the genpd APIs directly during probe:\n  - Call dev_pm_genpd_resume() to Power ON ISP before probe\n  - Call dev_pm_genpd_suspend() to Power OFF ISP after probe\n  - Set the device to suspended state with pm_runtime_set_suspended()\n  - Enable runtime PM only after the device is fully initialized",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31572",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.757000",
+      "created_at": "2026-04-25T13:57:03.005054+00:00"
+    },
+    {
+      "id": "346bb43c57b2ba79",
+      "content_hash": "346bb43c57b2ba798f4753c7fe7d34f20d2b1e70d68b3872aa46a7f5d9bac449",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31571",
+      "title": "CVE-2026-31571 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: U...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: Unlink NV12 planes earlier\n\nunlink_nv12_plane() will clobber parts of the plane state\npotentially already set up by plane_atomic_check(), so we\nmust make sure not to call the two in the wrong order.\nThe problem happens when a plane previously selected as\na Y plane is now configured as a normal plane by user space.\nplane_atomic_check() will first compute the proper plane\nstate based on the userspace request, and unlink_nv12_plane()\nlater clears some of the state.\n\nThis used to work on account of unlink_nv12_plane() skipping\nthe state clearing based on the plane visibility. But I removed\nthat check, thinking it was an impossible situation. Now when\nthat situation happens unlink_nv12_plane() will just WARN\nand proceed to clobber the state.\n\nRather than reverting to the old way of doing things, I think\nit's more clear if we unlink the NV12 planes before we even\ncompute the new plane state.\n\n(cherry picked from commit 017ecd04985573eeeb0745fa2c23896fb22ee0cc)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31571",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.653000",
+      "created_at": "2026-04-25T13:57:03.005047+00:00"
     },
     {
       "id": "17b804d200a29ade",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T12:12:03+00:00",
       "created_at": "2026-04-23T12:58:18.635550+00:00"
-    },
-    {
-      "id": "f41a34ed2dde204c",
-      "content_hash": "f41a34ed2dde204cc74c82d01852f44200e8fdfa9f25f09d04ea7cc17743aadb",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874814\">Comments</a>",
-      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:12:03+00:00",
-      "created_at": "2026-04-23T15:11:02.772323+00:00"
-    },
-    {
-      "id": "a7b426ad85a07c73",
-      "content_hash": "a7b426ad85a07c730213a2b2c4b95653fc92b2ef6f7fbafc98ecf940746fd5eb",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
-      "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
-      "body": "A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:06:18+00:00",
-      "created_at": "2026-04-23T12:58:14.364359+00:00"
-    },
-    {
-      "id": "6d36ffd1f71aab00",
-      "content_hash": "6d36ffd1f71aab004acca386426102c14b7b7c74f76c1c268bb7094953af8253",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "body": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your",
-      "url": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:03:00+00:00",
-      "created_at": "2026-04-23T12:58:14.174825+00:00"
-    },
-    {
-      "id": "1c4c6c37611e1206",
-      "content_hash": "1c4c6c37611e1206d47fc87de40e236250ae69354a87644c57d88d29afdf344c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://jiga.io/about-us/",
-      "title": "Jiga (YC W21) Is Hiring",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874734\">Comments</a>",
-      "url": "https://jiga.io/about-us/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:02:44+00:00",
-      "created_at": "2026-04-23T12:58:18.635722+00:00"
-    },
-    {
-      "id": "14f8e57ae55d5dce",
-      "content_hash": "14f8e57ae55d5dcebe6e6ed2b3740f7b652d2e4de164671f9a65c33acbec49c1",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3115258",
-      "title": "Surveillance vendors caught abusing access to telcos to track people’s phone locations, researchers say",
-      "body": "The Citizen Lab found two separate surveillance vendors abusing the backbone of cellular networks to spy on several victims across the world.",
-      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:01:00+00:00",
-      "created_at": "2026-04-23T12:58:18.424877+00:00"
-    },
-    {
-      "id": "2c5cb67d6497680e",
-      "content_hash": "2c5cb67d6497680ebf97b356097c4f8bada43542b31d559a705f987b4be6c812",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3115539",
-      "title": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls",
-      "body": "Beehiiv is clearly done being just a newsletter platform based on today's launch of a new webinar feature, customizable paywalls, and more.",
-      "url": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:00:00+00:00",
-      "created_at": "2026-04-23T12:58:18.424909+00:00"
     }
   ]
 }
