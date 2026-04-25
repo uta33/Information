@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T10:33:52.131039+00:00",
+  "generated_at": "2026-04-25T11:31:03.792590+00:00",
   "items": [
     {
       "id": "b83b07baf8fb0186",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T08:53:53+00:00",
       "created_at": "2026-04-25T09:41:32.485731+00:00"
+    },
+    {
+      "id": "d8f1521e4565b1f7",
+      "content_hash": "d8f1521e4565b1f71e0ae1d6ccd5253dc1c8f25dbdf661a95c1192e821b83418",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
+      "title": "Escrow Security for iCloud Keychain",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47899334\">Comments</a>",
+      "url": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T06:56:23+00:00",
+      "created_at": "2026-04-25T11:31:03.792141+00:00"
     },
     {
       "id": "8ed8d970064762ff",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T11:30:00+00:00",
       "created_at": "2026-04-23T12:58:14.174861+00:00"
-    },
-    {
-      "id": "4ae19724a97c35ae",
-      "content_hash": "4ae19724a97c35ae87235f91a276f22c67cfdbac8a6b124ec98e45688d840d5a",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "body": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:05:57+00:00",
-      "created_at": "2026-04-23T11:52:40.649879+00:00"
     }
   ]
 }
