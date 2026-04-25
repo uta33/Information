@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T07:59:10.234112+00:00",
+  "generated_at": "2026-04-25T08:53:01.761431+00:00",
   "items": [
     {
       "id": "8ed8d970064762ff",
@@ -826,6 +826,48 @@
       "cvss_score": null,
       "published_at": "2026-04-24T15:44:03+00:00",
       "created_at": "2026-04-24T17:42:41.842520+00:00"
+    },
+    {
+      "id": "4b0891a0d574323e",
+      "content_hash": "4b0891a0d574323eb6790ac89b10dcae820aa4fa4390e6cfba0f30d8584713da",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31560",
+      "title": "CVE-2026-31560 - In the Linux kernel, the following vulnerability has been resolved:\n\nspi: spi-dw...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: spi-dw-dma: fix print error log when wait finish transaction\n\nIf an error occurs, the device may not have a current message. In this\ncase, the system will crash.\n\nIn this case, it's better to use dev from the struct ctlr (struct spi_controller*).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31560",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:30.403000",
+      "created_at": "2026-04-25T08:52:57.626768+00:00"
+    },
+    {
+      "id": "48d0899ce60a6a4f",
+      "content_hash": "48d0899ce60a6a4f33778a717cc8d32775a206011771c4df93113d4b115870a4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31559",
+      "title": "CVE-2026-31559 - In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: Fix missing NULL checks for kstrdup()\n\n1. Replace \"of_find_node_by_path(\"/\")\" with \"of_root\" to avoid multiple\ncalls to \"of_node_put()\".\n\n2. Fix a potential kernel oops during early boot when memory allocation\nfails while parsing CPU model from device tree.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31559",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:30.300000",
+      "created_at": "2026-04-25T08:52:57.626762+00:00"
+    },
+    {
+      "id": "35091221a491307f",
+      "content_hash": "35091221a491307f3e09197b9111c0edd8c206c47d2d7a0d03d2adc7d01c2fdb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31558",
+      "title": "CVE-2026-31558 - In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: KVM: Make kvm_get_vcpu_by_cpuid() more robust\n\nkvm_get_vcpu_by_cpuid() takes a cpuid parameter whose type is int, so\ncpuid can be negative. Let kvm_get_vcpu_by_cpuid() return NULL for this\ncase so as to make it more robust.\n\nThis fix an out-of-bounds access to kvm_arch::phyid_map::phys_map[].",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31558",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:30.200000",
+      "created_at": "2026-04-25T08:52:57.626755+00:00"
     },
     {
       "id": "149463c9a76f3043",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T10:16:16.610000",
       "created_at": "2026-04-24T01:26:16.560689+00:00"
-    },
-    {
-      "id": "8a96f33e212b6c84",
-      "content_hash": "8a96f33e212b6c848d829a4a078e9af4145c330fdbfa6372255be7cfa79d2cf1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://hisorty.app/",
-      "title": "Show HN: Built a daily game where you sort historical events chronologically",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47873966\">Comments</a>",
-      "url": "https://hisorty.app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T10:14:46+00:00",
-      "created_at": "2026-04-23T12:58:18.636037+00:00"
-    },
-    {
-      "id": "29b762e812a0312e",
-      "content_hash": "29b762e812a0312ed2177c3ef52e0cf940ff0be4886da43b75e660d3a2de49c3",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/codex-settings",
-      "title": "Codex settings",
-      "body": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "url": "https://openai.com/academy/codex-settings",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "created_at": "2026-04-23T20:01:01.950397+00:00"
-    },
-    {
-      "id": "ab9b9467992892a1",
-      "content_hash": "ab9b9467992892a196131a41c8eb53c8619cc6e9f64f91d911b15d1478e92d43",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/working-with-codex",
-      "title": "Working with Codex",
-      "body": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "url": "https://openai.com/academy/working-with-codex",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "created_at": "2026-04-23T20:01:01.950419+00:00"
     }
   ]
 }
