@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T13:57:07.140702+00:00",
+  "generated_at": "2026-04-25T14:38:06.803724+00:00",
   "items": [
     {
       "id": "dc081a9c2b905c83",
@@ -952,6 +952,76 @@
       "cvss_score": null,
       "published_at": "2026-04-24T15:44:03+00:00",
       "created_at": "2026-04-24T17:42:41.842520+00:00"
+    },
+    {
+      "id": "24053de90b196877",
+      "content_hash": "24053de90b196877d83f112d8c4a3e87dc1a8c4a68950153133f37c43e5413f7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31578",
+      "title": "CVE-2026-31578 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: as10...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: as102: fix to not free memory after the device is registered in as102_usb_probe()\n\nIn as102_usb driver, the following race condition occurs:\n```\n\t\tCPU0\t\t\t\t\t\tCPU1\nas102_usb_probe()\n  kzalloc(); // alloc as102_dev_t\n  ....\n  usb_register_dev();\n\t\t\t\t\t\tfd = sys_open(\"/path/to/dev\"); // open as102 fd\n\t\t\t\t\t\t....\n  usb_deregister_dev();\n  ....\n  kfree(); // free as102_dev_t\n  ....\n\t\t\t\t\t\tsys_close(fd);\n\t\t\t\t\t\t  as102_release() // UAF!!\n\t\t\t\t\t\t    as102_usb_release()\n\t\t\t\t\t\t      kfree(); // DFB!!\n```\n\nWhen a USB character device registered with usb_register_dev() is later\nunregistered (via usb_deregister_dev() or disconnect), the device node is\nremoved so new open() calls fail. However, file descriptors that are\nalready open do not go away immediately: they remain valid until the last\nreference is dropped and the driver's .release() is invoked.\n\nIn as102, as102_usb_probe() calls usb_register_dev() and then, on an\nerror path, does usb_deregister_dev() and frees as102_dev_t right away.\nIf userspace raced a successful open() before the deregistration, that\nopen FD will later hit as102_release() --> as102_usb_release() and access\nor free as102_dev_t again, occur a race to use-after-free and\ndouble-free vuln.\n\nThe fix is to never kfree(as102_dev_t) directly once usb_register_dev()\nhas succeeded. After deregistration, defer freeing memory to .release().\n\nIn other words, let release() perform the last kfree when the final open\nFD is closed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31578",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:32.480000",
+      "created_at": "2026-04-25T14:38:02.029366+00:00"
+    },
+    {
+      "id": "f674c22a6392bfa2",
+      "content_hash": "f674c22a6392bfa248125c94a53503aba7085a67e14a7e521a481a95292e4784",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31577",
+      "title": "CVE-2026-31577 - In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix NULL i_assoc_inode dereference in nilfs_mdt_save_to_shadow_map\n\nThe DAT inode's btree node cache (i_assoc_inode) is initialized lazily\nduring btree operations. However, nilfs_mdt_save_to_shadow_map()\nassumes i_assoc_inode is already initialized when copying dirty pages\nto the shadow map during GC.\n\nIf NILFS_IOCTL_CLEAN_SEGMENTS is called immediately after mount before\nany btree operation has occurred on the DAT inode, i_assoc_inode is\nNULL leading to a general protection fault.\n\nFix this by calling nilfs_attach_btree_node_cache() on the DAT inode\nin nilfs_dat_read() at mount time, ensuring i_assoc_inode is always\ninitialized before any GC operation can use it.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31577",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:32.347000",
+      "created_at": "2026-04-25T14:38:02.029359+00:00"
+    },
+    {
+      "id": "ed35e0f7af986e81",
+      "content_hash": "ed35e0f7af986e81576389ca55d95cf63f8ca021e94cd2c542ff9fe87a6f2a6f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31576",
+      "title": "CVE-2026-31576 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: hack...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: hackrf: fix to not free memory after the device is registered in hackrf_probe()\n\nIn hackrf driver, the following race condition occurs:\n```\n\t\tCPU0\t\t\t\t\t\tCPU1\nhackrf_probe()\n  kzalloc(); // alloc hackrf_dev\n  ....\n  v4l2_device_register();\n  ....\n\t\t\t\t\t\tfd = sys_open(\"/path/to/dev\"); // open hackrf fd\n\t\t\t\t\t\t....\n  v4l2_device_unregister();\n  ....\n  kfree(); // free hackrf_dev\n  ....\n\t\t\t\t\t\tsys_ioctl(fd, ...);\n\t\t\t\t\t\t  v4l2_ioctl();\n\t\t\t\t\t\t    video_is_registered() // UAF!!\n\t\t\t\t\t\t....\n\t\t\t\t\t\tsys_close(fd);\n\t\t\t\t\t\t  v4l2_release() // UAF!!\n\t\t\t\t\t\t    hackrf_video_release()\n\t\t\t\t\t\t      kfree(); // DFB!!\n```\n\nWhen a V4L2 or video device is unregistered, the device node is removed so\nnew open() calls are blocked.\n\nHowever, file descriptors that are already open-and any in-flight I/O-do\nnot terminate immediately; they remain valid until the last reference is\ndropped and the driver's release() is invoked.\n\nTherefore, freeing device memory on the error path after hackrf_probe()\nhas registered dev it will lead to a race to use-after-free vuln, since\nthose already-open handles haven't been released yet.\n\nAnd since release() free memory too, race to use-after-free and\ndouble-free vuln occur.\n\nTo prevent this, if device is registered from probe(), it should be\nmodified to free memory only through release() rather than calling\nkfree() directly.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31576",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:32.230000",
+      "created_at": "2026-04-25T14:38:02.029353+00:00"
+    },
+    {
+      "id": "796fdde367476e5d",
+      "content_hash": "796fdde367476e5d49570190cd0ae4c09440757b0b446a54a4ebeb12e0687082",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31575",
+      "title": "CVE-2026-31575 - In the Linux kernel, the following vulnerability has been resolved:\n\nmm/userfaul...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/userfaultfd: fix hugetlb fault mutex hash calculation\n\nIn mfill_atomic_hugetlb(), linear_page_index() is used to calculate the\npage index for hugetlb_fault_mutex_hash().  However, linear_page_index()\nreturns the index in PAGE_SIZE units, while hugetlb_fault_mutex_hash()\nexpects the index in huge page units.  This mismatch means that different\naddresses within the same huge page can produce different hash values,\nleading to the use of different mutexes for the same huge page.  This can\ncause races between faulting threads, which can corrupt the reservation\nmap and trigger the BUG_ON in resv_map_release().\n\nFix this by introducing hugetlb_linear_page_index(), which returns the\npage index in huge page granularity, and using it in place of\nlinear_page_index().",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31575",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:32.123000",
+      "created_at": "2026-04-25T14:38:02.029346+00:00"
+    },
+    {
+      "id": "921c70d0af2ea034",
+      "content_hash": "921c70d0af2ea0345db125d45a5bd18ea3c1bf540503688e683f550450326fad",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31574",
+      "title": "CVE-2026-31574 - In the Linux kernel, the following vulnerability has been resolved:\n\nclockevents...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nclockevents: Add missing resets of the next_event_forced flag\n\nThe prevention mechanism against timer interrupt starvation missed to reset\nthe next_event_forced flag in a couple of places:\n\n    - When the clock event state changes. That can cause the flag to be\n      stale over a shutdown/startup sequence\n\n    - When a non-forced event is armed, which then prevents rearming before\n      that event. If that event is far out in the future this will cause\n      missed timer interrupts.\n\n    - In the suspend wakeup handler.\n\nThat led to stalls which have been reported by several people.\n\nAdd the missing resets, which fixes the problems for the reporters.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31574",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:32.020000",
+      "created_at": "2026-04-25T14:38:02.029340+00:00"
     },
     {
       "id": "41f33f0fcac8d60e",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T12:17:01.820000",
       "created_at": "2026-04-24T01:26:16.560739+00:00"
-    },
-    {
-      "id": "8f49c13ffa385f38",
-      "content_hash": "8f49c13ffa385f389751c6e80fedec3b30937fc56150dd2aadbc21e05948052b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-28040",
-      "title": "CVE-2026-28040 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripti...",
-      "body": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Magepeople inc. Taxi Booking Manager for WooCommerce allows Stored XSS.This issue affects Taxi Booking Manager for WooCommerce: from n/a through 2.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28040",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-23T12:17:01.680000",
-      "created_at": "2026-04-24T01:26:16.560734+00:00"
-    },
-    {
-      "id": "861b357383cd10c1",
-      "content_hash": "861b357383cd10c1dd2e5006519aed696e5c14dfb9dceef9f01d3c2e0964cc1d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-62110",
-      "title": "CVE-2025-62110 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripti...",
-      "body": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Rescue Themes Rescue Shortcodes allows Stored XSS.This issue affects Rescue Shortcodes: from n/a through 3.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62110",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-23T12:17:01.363000",
-      "created_at": "2026-04-24T01:26:16.560729+00:00"
-    },
-    {
-      "id": "d9883c05920f78c2",
-      "content_hash": "d9883c05920f78c29e885e660565818633ea27a5fdc79e0e9f3225ea36328fda",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-62104",
-      "title": "CVE-2025-62104 - Missing Authorization vulnerability in Navneil Naicker ACF Galerie 4 allows Expl...",
-      "body": "Missing Authorization vulnerability in Navneil Naicker ACF Galerie 4 allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects ACF Galerie 4: from n/a through 1.4.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62104",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-23T12:17:01.220000",
-      "created_at": "2026-04-24T01:26:16.560724+00:00"
-    },
-    {
-      "id": "dab8a2f771f73a42",
-      "content_hash": "dab8a2f771f73a4252f513792e8cf85de77f35b933403b98dfda141e7ecc8882",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/raysan5/raylib/releases/tag/6.0",
-      "title": "Raylib v6.0",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874854\">Comments</a>",
-      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:16:16+00:00",
-      "created_at": "2026-04-23T15:11:02.772592+00:00"
-    },
-    {
-      "id": "c56ec4acf335ef74",
-      "content_hash": "c56ec4acf335ef745d0aba8ead0063af0d82e388c8d0d66b66e8ee22a856bb51",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "title": "Surveillance vendors caught abusing access to telcos to track people's locations",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874814\">Comments</a>",
-      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:12:03+00:00",
-      "created_at": "2026-04-23T12:58:18.635550+00:00"
     }
   ]
 }
