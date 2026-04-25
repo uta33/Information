@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-25T11:31:03.792590+00:00",
+  "generated_at": "2026-04-25T12:37:15.514016+00:00",
   "items": [
+    {
+      "id": "7c60faf8d42f913c",
+      "content_hash": "7c60faf8d42f913c24ebf39f321207f38adcf01943a7309eb2a0348f3047589b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/nakagami/grdpwasm",
+      "title": "A web-based RDP client built with Go WebAssembly and grdp",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47900440\">Comments</a>",
+      "url": "https://github.com/nakagami/grdpwasm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T10:59:29+00:00",
+      "created_at": "2026-04-25T12:37:15.513345+00:00"
+    },
     {
       "id": "b83b07baf8fb0186",
       "content_hash": "b83b07baf8fb01868376d0b4522f52837bcc1578899d166055a49278e4095ac2",
@@ -896,6 +910,62 @@
       "cvss_score": null,
       "published_at": "2026-04-24T15:44:03+00:00",
       "created_at": "2026-04-24T17:42:41.842520+00:00"
+    },
+    {
+      "id": "17b804d200a29ade",
+      "content_hash": "17b804d200a29ade07c017d440f2829b001c60b2c16e9ceac1506114b0a87225",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31570",
+      "title": "CVE-2026-31570 - In the Linux kernel, the following vulnerability has been resolved:\n\ncan: gw: fi...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: gw: fix OOB heap access in cgw_csum_crc8_rel()\n\ncgw_csum_crc8_rel() correctly computes bounds-safe indices via calc_idx():\n\n    int from = calc_idx(crc8->from_idx, cf->len);\n    int to   = calc_idx(crc8->to_idx,   cf->len);\n    int res  = calc_idx(crc8->result_idx, cf->len);\n\n    if (from < 0 || to < 0 || res < 0)\n        return;\n\nHowever, the loop and the result write then use the raw s8 fields directly\ninstead of the computed variables:\n\n    for (i = crc8->from_idx; ...)        /* BUG: raw negative index */\n    cf->data[crc8->result_idx] = ...;    /* BUG: raw negative index */\n\nWith from_idx = to_idx = result_idx = -64 on a 64-byte CAN FD frame,\ncalc_idx(-64, 64) = 0 so the guard passes, but the loop iterates with\ni = -64, reading cf->data[-64], and the write goes to cf->data[-64].\nThis write might end up to 56 (7.0-rc) or 40 (<= 6.19) bytes before the\nstart of the canfd_frame on the heap.\n\nThe companion function cgw_csum_xor_rel() uses `from`/`to`/`res`\ncorrectly throughout; fix cgw_csum_crc8_rel() to match.\n\nConfirmed with KASAN on linux-7.0-rc2:\n  BUG: KASAN: slab-out-of-bounds in cgw_csum_crc8_rel+0x515/0x5b0\n  Read of size 1 at addr ffff8880076619c8 by task poc_cgw_oob/62\n\nTo configure the can-gw crc8 checksums CAP_NET_ADMIN is needed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31570",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.520000",
+      "created_at": "2026-04-25T12:37:11.347610+00:00"
+    },
+    {
+      "id": "9fdafb4a0abfeb24",
+      "content_hash": "9fdafb4a0abfeb2471f8ef8278af4297bcaa4d1f8ba5131aeec86a754e5a2713",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31569",
+      "title": "CVE-2026-31569 - In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: KVM: Handle the case that EIOINTC's coremap is empty\n\nEIOINTC's coremap in eiointc_update_sw_coremap() can be empty, currently\nwe get a cpuid with -1 in this case, but we actually need 0 because it's\nsimilar as the case that cpuid >= 4.\n\nThis fix an out-of-bounds access to kvm_arch::phyid_map::phys_map[].",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31569",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.420000",
+      "created_at": "2026-04-25T12:37:11.347604+00:00"
+    },
+    {
+      "id": "8b23d5536bb890b7",
+      "content_hash": "8b23d5536bb890b71561105d4884831da1c055a469ea153466b91540517bb01e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31568",
+      "title": "CVE-2026-31568 - In the Linux kernel, the following vulnerability has been resolved:\n\ns390/mm: Ad...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/mm: Add missing secure storage access fixups for donated memory\n\nThere are special cases where secure storage access exceptions happen\nin a kernel context for pages that don't have the PG_arch_1 bit\nset. That bit is set for non-exported guest secure storage (memory)\nbut is absent on storage donated to the Ultravisor since the kernel\nisn't allowed to export donated pages.\n\nPrior to this patch we would try to export the page by calling\narch_make_folio_accessible() which would instantly return since the\narch bit is absent signifying that the page was already exported and\nno further action is necessary. This leads to secure storage access\nexception loops which can never be resolved.\n\nWith this patch we unconditionally try to export and if that fails we\nfixup.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31568",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.313000",
+      "created_at": "2026-04-25T12:37:11.347597+00:00"
+    },
+    {
+      "id": "633ffae531aeb59c",
+      "content_hash": "633ffae531aeb59c0cc00e41328795f0e3f92e2fc099f1f70baa298682e937ab",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31567",
+      "title": "CVE-2026-31567 - In the Linux kernel, the following vulnerability has been resolved:\n\nPM: sleep: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nPM: sleep: Drop spurious WARN_ON() from pm_restore_gfp_mask()\n\nCommit 35e4a69b2003f (\"PM: sleep: Allow pm_restrict_gfp_mask()\nstacking\") introduced refcount-based GFP mask management that warns\nwhen pm_restore_gfp_mask() is called with saved_gfp_count == 0.\n\nSome hibernation paths call pm_restore_gfp_mask() defensively where\nthe GFP mask may or may not be restricted depending on the execution\npath. For example, the uswsusp interface invokes it in\nSNAPSHOT_CREATE_IMAGE, SNAPSHOT_UNFREEZE, and snapshot_release().\nBefore the stacking change this was a silent no-op; it now triggers\na spurious WARNING.\n\nRemove the WARN_ON() wrapper from the !saved_gfp_count check while\nretaining the check itself, so that defensive calls remain harmless\nwithout producing false warnings.\n\n[ rjw: Subject tweak ]",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31567",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.197000",
+      "created_at": "2026-04-25T12:37:11.347591+00:00"
     },
     {
       "id": "9576bb088efe51ac",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T12:00:00+00:00",
       "created_at": "2026-04-23T12:58:18.424909+00:00"
-    },
-    {
-      "id": "f8cb38be7c020a33",
-      "content_hash": "f8cb38be7c020a33b69a9c70522b3f175927d9a12291005c0fc90b583119fece",
-      "source_name": "Google AI Blog",
-      "external_id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T12:00:00+00:00",
-      "created_at": "2026-04-23T18:53:54.818714+00:00"
-    },
-    {
-      "id": "03f6483055974ad4",
-      "content_hash": "03f6483055974ad47538253b693c2bfbc09fdadf5d9a8b5e4e13e0fb4265c923",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/russellromney/honker",
-      "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874647\">Comments</a>",
-      "url": "https://github.com/russellromney/honker",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:53:11+00:00",
-      "created_at": "2026-04-23T12:58:18.635616+00:00"
-    },
-    {
-      "id": "477223f7f740d291",
-      "content_hash": "477223f7f740d2911bfa6c48ece20aada05e23c30dacd189591600f8a2619473",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "title": "Sneaky spam in conversational replies to blog posts",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874631\">Comments</a>",
-      "url": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:50:25+00:00",
-      "created_at": "2026-04-23T12:58:18.635683+00:00"
-    },
-    {
-      "id": "7ea233309c9ad416",
-      "content_hash": "7ea233309c9ad41635ae919cd25fc653334a9359225ec7a8f6c8d284d7ef69d0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "title": "Spam in conversational replies to blog posts",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47874631\">Comments</a>",
-      "url": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:50:25+00:00",
-      "created_at": "2026-04-23T15:11:02.772636+00:00"
-    },
-    {
-      "id": "6b767f0a80b8e29b",
-      "content_hash": "6b767f0a80b8e29b649385cd82ed5bc44d2ff9bdaca225e1bd2998fe28ee9647",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "body": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found",
-      "url": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:30:00+00:00",
-      "created_at": "2026-04-23T12:58:14.174861+00:00"
     }
   ]
 }
