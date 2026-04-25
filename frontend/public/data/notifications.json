@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T09:41:32.486468+00:00",
+  "generated_at": "2026-04-25T10:33:52.131039+00:00",
   "items": [
     {
       "id": "b83b07baf8fb0186",
@@ -882,6 +882,34 @@
       "cvss_score": null,
       "published_at": "2026-04-24T15:44:03+00:00",
       "created_at": "2026-04-24T17:42:41.842520+00:00"
+    },
+    {
+      "id": "9576bb088efe51ac",
+      "content_hash": "9576bb088efe51ac4eecdc147b9b047d24acbbccc06b5b87b07fea960abba759",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31566",
+      "title": "CVE-2026-31566 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu:...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Fix fence put before wait in amdgpu_amdkfd_submit_ib\n\namdgpu_amdkfd_submit_ib() submits a GPU job and gets a fence\nfrom amdgpu_ib_schedule(). This fence is used to wait for job\ncompletion.\n\nCurrently, the code drops the fence reference using dma_fence_put()\nbefore calling dma_fence_wait().\n\nIf dma_fence_put() releases the last reference, the fence may be\nfreed before dma_fence_wait() is called. This can lead to a\nuse-after-free.\n\nFix this by waiting on the fence first and releasing the reference\nonly after dma_fence_wait() completes.\n\nFixes the below:\ndrivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd.c:697 amdgpu_amdkfd_submit_ib() warn: passing freed memory 'f' (line 696)\n\n(cherry picked from commit 8b9e5259adc385b61a6590a13b82ae0ac2bd3482)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31566",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:31.077000",
+      "created_at": "2026-04-25T10:33:47.553738+00:00"
+    },
+    {
+      "id": "02b3bdc6f0f325cc",
+      "content_hash": "02b3bdc6f0f325ccb18b25053423e31758b26a9885d5093faddaaf0d6c957295",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31565",
+      "title": "CVE-2026-31565 - In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/irdma:...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/irdma: Fix deadlock during netdev reset with active connections\n\nResolve deadlock that occurs when user executes netdev reset while RDMA\napplications (e.g., rping) are active. The netdev reset causes ice\ndriver to remove irdma auxiliary driver, triggering device_delete and\nsubsequent client removal. During client removal, uverbs_client waits\nfor QP reference count to reach zero while cma_client holds the final\nreference, creating circular dependency and indefinite wait in iWARP\nmode. Skip QP reference count wait during device reset to prevent\ndeadlock.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31565",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T15:16:30.950000",
+      "created_at": "2026-04-25T10:33:47.553732+00:00"
     },
     {
       "id": "cfc6f5a70beaafc1",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-23T11:05:57+00:00",
       "created_at": "2026-04-23T11:52:40.649879+00:00"
-    },
-    {
-      "id": "afd106d27d6ff1ec",
-      "content_hash": "afd106d27d6ff1ec86fd2f914be932e36587341ae1316940fd38e6e8c4adc49f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3115459",
-      "title": "Meta will now allow parents to see the topics their child discussed with Meta AI",
-      "body": "Topics can range from \"School,\" \"Entertainment,\" and \"Lifestyle\" to \"Travel,\" \"Writing,\" and \"Health and Wellbeing,\" among others, Meta says.",
-      "url": "https://techcrunch.com/2026/04/23/meta-will-now-allow-parents-to-see-the-topics-their-child-discussed-with-meta-ai/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:00:00+00:00",
-      "created_at": "2026-04-23T11:52:45.479946+00:00"
-    },
-    {
-      "id": "830fca7baf9b037d",
-      "content_hash": "830fca7baf9b037dc3e868089b765a9044af8d408dc40552f26685386495fd88",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/introducing-gpt-5-5",
-      "title": "Introducing GPT-5.5",
-      "body": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T11:00:00+00:00",
-      "created_at": "2026-04-23T18:53:54.540491+00:00"
     }
   ]
 }
