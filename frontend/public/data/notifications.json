@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-25T22:25:11.100375+00:00",
+  "generated_at": "2026-04-25T23:27:42.599205+00:00",
   "items": [
+    {
+      "id": "dbfdcecb278e6ee6",
+      "content_hash": "dbfdcecb278e6ee69564690c28c607122ecd05ce47c3def49adbcf36498bebcb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
+      "title": "Trump fires all 24 members of the U.S. National Science Foundation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47905283\">Comments</a>",
+      "url": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T22:39:33+00:00",
+      "created_at": "2026-04-25T23:27:42.598508+00:00"
+    },
     {
       "id": "3a6806bc66ef362c",
       "content_hash": "3a6806bc66ef362ca5cf0f0240d91fc8b734ffb3fa68ba26e151e796f17cdfd8",
@@ -28,6 +42,20 @@
       "cvss_score": 2.4,
       "published_at": "2026-04-25T22:16:19.647000",
       "created_at": "2026-04-25T22:25:07.275844+00:00"
+    },
+    {
+      "id": "07181ecfd5c51bb6",
+      "content_hash": "07181ecfd5c51bb698abc4165cadeea9ac379e005d04e9b6b6fea2811ab1c21c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fabiensanglard.net/usbcheat/index.html",
+      "title": "USB Cheat Sheet",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47904876\">Comments</a>",
+      "url": "https://fabiensanglard.net/usbcheat/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T21:51:18+00:00",
+      "created_at": "2026-04-25T23:27:42.598390+00:00"
     },
     {
       "id": "9293d1249215b014",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-04-23T21:16:06.640000",
       "created_at": "2026-04-24T19:43:02.261570+00:00"
-    },
-    {
-      "id": "096b2532269e8f4e",
-      "content_hash": "096b2532269e8f4e9c9b260a1ba33362c765eaf6c068c903ad98fbcdfd4fd011",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6376",
-      "title": "CVE-2026-6376 - A weakness in SpiceJet’s public booking retrieval page permits full passenger bo...",
-      "body": "A weakness in SpiceJet’s public booking retrieval page permits full passenger booking details to be accessed using only a PNR and last name, with no authentication or verification mechanisms. This results in exposure of extensive personal, travel, and booking metadata to any unauthenticated user who can obtain or guess those basic inputs. The issue arises from improper access control on a sensitive data retrieval function.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6376",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T21:16:06.507000",
-      "created_at": "2026-04-24T19:43:02.261563+00:00"
-    },
-    {
-      "id": "50b478cd6aae86d6",
-      "content_hash": "50b478cd6aae86d6a56b87154a918f71abc6fda22edd85f920db4fbba80f1d10",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6375",
-      "title": "CVE-2026-6375 - A vulnerability in SpiceJet’s booking API allows unauthenticated users to query ...",
-      "body": "A vulnerability in SpiceJet’s booking API allows unauthenticated users to query passenger name records (PNRs) without any access controls. Because PNR identifiers follow a predictable pattern, an attacker could systematically enumerate valid records and obtain associated passenger names. This flaw stems from missing authorization checks on an endpoint intended for authenticated profile access.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6375",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-23T21:16:06.370000",
-      "created_at": "2026-04-24T19:43:02.261555+00:00"
     }
   ]
 }
