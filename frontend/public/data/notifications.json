@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-26T14:41:03.855458+00:00",
+  "generated_at": "2026-04-26T15:33:33.669967+00:00",
   "items": [
+    {
+      "id": "51774b4af01c7e55",
+      "content_hash": "51774b4af01c7e55380d74d1f0121b065abfab10183e18dd095fa6013cc31761",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3116489",
+      "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+      "body": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+      "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T15:30:00+00:00",
+      "created_at": "2026-04-26T15:33:33.503430+00:00"
+    },
+    {
+      "id": "fdda253583ab51a4",
+      "content_hash": "fdda253583ab51a42b2f82481596a8aaf98bfed8cbfb236dca12a08d9f28a4f5",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3115138",
+      "title": "SpeakOn’s dictation device is a good idea marred by platform limitations",
+      "body": "This $129 device uses MagSafe to stick on the back of an iPhone to power transcription across apps",
+      "url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T15:00:00+00:00",
+      "created_at": "2026-04-26T15:33:33.503466+00:00"
+    },
     {
       "id": "bacf88f6deced849",
       "content_hash": "bacf88f6deced8499a1d73d1af422aac1d91fb388322bc3ab57bf4482394f40c",
@@ -14,6 +42,34 @@
       "cvss_score": null,
       "published_at": "2026-04-26T14:22:34+00:00",
       "created_at": "2026-04-26T14:40:59.183303+00:00"
+    },
+    {
+      "id": "108995205515a997",
+      "content_hash": "108995205515a9978705d5644b1f2ec6a08008befae25b076ac1bdd095a3ee48",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/orgs/community/discussions/192666",
+      "title": "GitHub unwanted UX change: issue links now open in a popup",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47910546\">Comments</a>",
+      "url": "https://github.com/orgs/community/discussions/192666",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T14:18:38+00:00",
+      "created_at": "2026-04-26T15:33:33.669725+00:00"
+    },
+    {
+      "id": "67daa8ad29e97b88",
+      "content_hash": "67daa8ad29e97b88a840fb4d976c01cc0dda515ff5f960125e71fb3d31691d50",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47910388\">Comments</a>",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T13:58:13+00:00",
+      "created_at": "2026-04-26T15:33:33.669152+00:00"
     },
     {
       "id": "0030228e04262a1e",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T12:55:26+00:00",
       "created_at": "2026-04-26T13:58:30.687401+00:00"
+    },
+    {
+      "id": "9714804bb49483e7",
+      "content_hash": "9714804bb49483e76fd5442cac4a2eb69b7afaea5c2210da799ba17704aed94a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7037",
+      "title": "CVE-2026-7037 - A security flaw has been discovered in Totolink A8000RU 7.1cu.643_b20200521. Thi...",
+      "body": "A security flaw has been discovered in Totolink A8000RU 7.1cu.643_b20200521. This issue affects the function setVpnPassCfg of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. The manipulation of the argument pptpPassThru results in os command injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7037",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-04-26T12:16:23.173000",
+      "created_at": "2026-04-26T15:33:30.302304+00:00"
     },
     {
       "id": "84b2a87d07b2c876",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-24T00:57:05+00:00",
       "created_at": "2026-04-24T16:51:13.464733+00:00"
-    },
-    {
-      "id": "db0f8c77444f94fd",
-      "content_hash": "db0f8c77444f94fdf8507cb28b41e1446256b1b890bd3d63d680f7edd99f82ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40630",
-      "title": "CVE-2026-40630 - A vulnerability in \nSenseLive \n\nX3050’s web management interface allows unauthor...",
-      "body": "A vulnerability in \nSenseLive \n\nX3050’s web management interface allows unauthorized access to certain configuration endpoints due to improper access control enforcement. An attacker with network access to the device may be able to bypass the intended authentication mechanism and directly interact with sensitive configuration functions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40630",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-24T00:16:29.040000",
-      "created_at": "2026-04-24T23:31:15.176524+00:00"
-    },
-    {
-      "id": "63c211cf34a9c3fa",
-      "content_hash": "63c211cf34a9c3fadba25c0da5bfb9279ee747b67701b7f613cd5c914b1de1ed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40623",
-      "title": "CVE-2026-40623 - A vulnerability in SenseLive X3050's web management interface allows critical sy...",
-      "body": "A vulnerability in SenseLive X3050's web management interface allows critical system and network configuration parameters to be modified without sufficient validation and safety controls. Due to inadequate enforcement of constraints on sensitive functions, parameters such as IP addressing, watchdog timers, reconnect intervals, and service ports can be set to unsupported or unsafe values. These configuration changes directly affect core device behaviour and recovery mechanisms. The lack of proper validation and safeguards allows critical system functions to be altered in a manner that can destabilize device operation or render the device persistently unavailable.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40623",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-24T00:16:28.860000",
-      "created_at": "2026-04-24T23:31:15.176516+00:00"
-    },
-    {
-      "id": "a47a39b49375c24e",
-      "content_hash": "a47a39b49375c24e109b550749c7994186d7e62cf13aa3c492af26a3600896a3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40620",
-      "title": "CVE-2026-40620 - A vulnerability in SenseLive X3050’s embedded management service allows full adm...",
-      "body": "A vulnerability in SenseLive X3050’s embedded management service allows full administrative control to be established without any form of authentication or authorization on the SenseLive config application. The service accepts management connections from any reachable host, enabling unrestricted modification of critical configuration parameters, operational modes, and device state through a vendor-supplied or compatible client.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40620",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-24T00:16:28.690000",
-      "created_at": "2026-04-24T23:31:15.176508+00:00"
-    },
-    {
-      "id": "83cc8971fa0697a2",
-      "content_hash": "83cc8971fa0697a2ed2db6ab1e4c4115edc3ea4d45b4e3786ce93a3fbf647bc1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40431",
-      "title": "CVE-2026-40431 - A vulnerability exists in SenseLive X3050’s web management interface due to its ...",
-      "body": "A vulnerability exists in SenseLive X3050’s web management interface due to its reliance on unencrypted HTTP for all administrative communication. Because management traffic, including authentication attempts and configuration data, is transmitted in cleartext, an attacker with access to the same network segment could intercept or observe sensitive operational information.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40431",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-24T00:16:28.527000",
-      "created_at": "2026-04-24T23:31:15.176500+00:00"
-    },
-    {
-      "id": "570fc758455176e2",
-      "content_hash": "570fc758455176e2fbc971f9fa51be5e3e641a63e00d68b06283e6d0041d9f87",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39462",
-      "title": "CVE-2026-39462 - A vulnerability exists in SenseLive X3050’s web management interface in which pa...",
-      "body": "A vulnerability exists in SenseLive X3050’s web management interface in which password updates are not reliably applied due to improper handling of credential changes on the backend. After the device undergoes a factory restore using the SenseLive Config 2.0 tool, the interface may indicate that the password update was successful; however, the system may continue to accept the previous or default credentials, demonstrating that the password-change process is not consistently enforced. Even after a factory reset, attempted password changes may fail to propagate correctly.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39462",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-24T00:16:28.333000",
-      "created_at": "2026-04-24T23:31:15.176492+00:00"
     }
   ]
 }
