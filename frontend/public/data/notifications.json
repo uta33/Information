@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-26T06:53:59.367882+00:00",
+  "generated_at": "2026-04-26T08:10:56.366263+00:00",
   "items": [
+    {
+      "id": "81502605fa2651c7",
+      "content_hash": "81502605fa2651c77c7f19daf22ff3e6af7fcd4655891f34cc5c911e8980c8fc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ciechanow.ski/exposing-floating-point/",
+      "title": "Exposing Floating Point – Bartosz Ciechanowski (2019)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908139\">Comments</a>",
+      "url": "https://ciechanow.ski/exposing-floating-point/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:19:20+00:00",
+      "created_at": "2026-04-26T08:10:56.365521+00:00"
+    },
+    {
+      "id": "057d36e6d4a61353",
+      "content_hash": "057d36e6d4a613539c700fcc24d89d7312b216968f36579baff7f05e4a67f21e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+      "title": "Terra API (YC W21) Hiring: Applied AI Strategist(Health Intelligence)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908047\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:00:10+00:00",
+      "created_at": "2026-04-26T08:10:56.365605+00:00"
+    },
     {
       "id": "12380a8f78de929a",
       "content_hash": "12380a8f78de929a7bec42d244114bc2b17e77208f33475bb1f7afcdd3176936",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T06:24:42+00:00",
       "created_at": "2026-04-26T06:53:59.367217+00:00"
+    },
+    {
+      "id": "36172a07f92a9724",
+      "content_hash": "36172a07f92a9724730a75af1ba6471efb139ddb76a91e62bed251aa1cb72363",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7020",
+      "title": "CVE-2026-7020 - A security flaw has been discovered in Ollama up to 0.20.2. This affects the fun...",
+      "body": "A security flaw has been discovered in Ollama up to 0.20.2. This affects the function digestToPath of the file x/imagegen/transfer/transfer.go of the component Tensor Model Transfer Handler. The manipulation of the argument digest results in path traversal. The attack may be performed from remote. This attack is characterized by high complexity. The exploitability is reported as difficult. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7020",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.6,
+      "published_at": "2026-04-26T05:16:02.023000",
+      "created_at": "2026-04-26T08:10:51.860956+00:00"
     },
     {
       "id": "fe36055e37b19764",
@@ -1610,6 +1652,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T04:36:27+00:00",
       "created_at": "2026-04-25T06:14:49.831702+00:00"
+    },
+    {
+      "id": "ccc5f771fbc62905",
+      "content_hash": "ccc5f771fbc629053c26bc3cfcb440a5d73ed7c8f655457c3516606653a0f033",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm",
+      "title": "Quirks of Human Anatomy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47898660\">Comments</a>",
+      "url": "https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T04:31:14+00:00",
+      "created_at": "2026-04-26T08:10:56.365666+00:00"
     },
     {
       "id": "c432c602357d190c",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-23T22:16:41.827000",
       "created_at": "2026-04-24T21:38:03.783039+00:00"
-    },
-    {
-      "id": "7522be2eba350fee",
-      "content_hash": "7522be2eba350feecd439d245756307055a55c1d73c02682471155d4c0a26848",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41348",
-      "title": "CVE-2026-41348 - OpenClaw before 2026.3.31 contains an authorization bypass vulnerability in Disc...",
-      "body": "OpenClaw before 2026.3.31 contains an authorization bypass vulnerability in Discord slash command and autocomplete paths that fail to enforce group DM channel allowlist restrictions. Authorized Discord users can bypass channel restrictions by invoking slash commands, allowing access to restricted group DM channels.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41348",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-23T22:16:41.660000",
-      "created_at": "2026-04-24T21:38:03.783033+00:00"
-    },
-    {
-      "id": "1f398fc658083f54",
-      "content_hash": "1f398fc658083f5415f5bdb0e0df73880c4d065a995bc37c813a13bd1479dfc5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41347",
-      "title": "CVE-2026-41347 - OpenClaw before 2026.3.31 lacks browser-origin validation in HTTP operator endpo...",
-      "body": "OpenClaw before 2026.3.31 lacks browser-origin validation in HTTP operator endpoints when operating in trusted-proxy mode, allowing cross-site request forgery attacks. Attackers can exploit this by sending malicious requests from a browser in trusted-proxy deployments to perform unauthorized actions on HTTP operator endpoints.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41347",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-04-23T22:16:41.483000",
-      "created_at": "2026-04-24T20:35:05.258315+00:00"
-    },
-    {
-      "id": "d8d8e633d562e08d",
-      "content_hash": "d8d8e633d562e08df6f22ada0b73d496d6d1566c666b3030190152e1d9432bf3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41346",
-      "title": "CVE-2026-41346 - OpenClaw 2026.2.26 before 2026.3.31 enforces pending pairing-request caps per ch...",
-      "body": "OpenClaw 2026.2.26 before 2026.3.31 enforces pending pairing-request caps per channel file instead of per account, allowing attackers to exhaust the shared pending window. Remote attackers can submit pairing requests from other accounts to block new pairing challenges on unaffected accounts, causing denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41346",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-23T22:16:41.313000",
-      "created_at": "2026-04-24T20:35:05.258309+00:00"
-    },
-    {
-      "id": "b26eb5f0a22ef7a9",
-      "content_hash": "b26eb5f0a22ef7a9e57341b28ff87af0c429bf1a015dbf1d8059128f06bd90b6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41345",
-      "title": "CVE-2026-41345 - OpenClaw before 2026.3.31 contains a credential exposure vulnerability in media ...",
-      "body": "OpenClaw before 2026.3.31 contains a credential exposure vulnerability in media download functionality that forwards Authorization headers across cross-origin redirects. Attackers can exploit this by crafting malicious cross-origin redirect chains to intercept sensitive authorization credentials intended for legitimate requests.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41345",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-23T22:16:41.147000",
-      "created_at": "2026-04-24T20:35:05.258303+00:00"
     }
   ]
 }
