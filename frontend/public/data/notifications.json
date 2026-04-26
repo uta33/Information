@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-04-26T04:50:57.165794+00:00",
+  "generated_at": "2026-04-26T06:53:59.367882+00:00",
   "items": [
+    {
+      "id": "12380a8f78de929a",
+      "content_hash": "12380a8f78de929a7bec42d244114bc2b17e77208f33475bb1f7afcdd3176936",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+      "title": "The West Forgot How to Make Things. Now It's Forgetting How to Code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47907879\">Comments</a>",
+      "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T06:24:42+00:00",
+      "created_at": "2026-04-26T06:53:59.367217+00:00"
+    },
+    {
+      "id": "fe36055e37b19764",
+      "content_hash": "fe36055e37b1976444cc4459a79ce3f497a2aec31a04ca621e4a1363e2a1bd38",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7019",
+      "title": "CVE-2026-7019 - A vulnerability was identified in Tenda F456 1.0.0.5. The impacted element is th...",
+      "body": "A vulnerability was identified in Tenda F456 1.0.0.5. The impacted element is the function fromP2pListFilter of the file /goform/P2pListFilter. The manipulation of the argument menufacturer/Go leads to buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7019",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-26T05:16:01.330000",
+      "created_at": "2026-04-26T06:53:54.746082+00:00"
+    },
+    {
+      "id": "2615ffe0d4e4f6a7",
+      "content_hash": "2615ffe0d4e4f6a758f821a62c65b8f59b48b25af54b8b18dcc422b055fc7aa6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
+      "title": "AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47907543\">Comments</a>",
+      "url": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T05:06:58+00:00",
+      "created_at": "2026-04-26T06:53:59.367330+00:00"
+    },
+    {
+      "id": "7cc4e602a945b063",
+      "content_hash": "7cc4e602a945b0637b69da9016349fa37ae1adbd149fd0e573d14fba3c180d55",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/agzam/remoto.el",
+      "title": "Show HN: Browse GitHub repos in Emacs without cloning",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47907388\">Comments</a>",
+      "url": "https://github.com/agzam/remoto.el",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T04:36:42+00:00",
+      "created_at": "2026-04-26T06:53:59.367615+00:00"
+    },
     {
       "id": "8fb869d37766b366",
       "content_hash": "8fb869d37766b3662719b6e94a8665a8baffaedca3df8c8256c5682328e3a85b",
@@ -70,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T03:44:28+00:00",
       "created_at": "2026-04-26T04:50:57.164986+00:00"
+    },
+    {
+      "id": "481bb7bde27db490",
+      "content_hash": "481bb7bde27db490c850d61c21c7284aee61bebda42b543edf1fdff5b65f0a7e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+      "title": "GnuPG – post-quantum crypto landing in mainline",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47907018\">Comments</a>",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T03:25:02+00:00",
+      "created_at": "2026-04-26T06:53:59.367156+00:00"
     },
     {
       "id": "0a4387f9f0aa3d76",
@@ -184,6 +254,20 @@
       "created_at": "2026-04-26T01:29:14.604017+00:00"
     },
     {
+      "id": "88b49cd9717c66ff",
+      "content_hash": "88b49cd9717c66ffa354275a2e591d4bf38a6e27300734c8693e70d4a9ccb92e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=47906253",
+      "title": "Tell HN: An app is silently installing itself on my iPhone every day",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47906253\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=47906253",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T00:50:56+00:00",
+      "created_at": "2026-04-26T06:53:59.367111+00:00"
+    },
+    {
       "id": "8c65a1246e76dfbb",
       "content_hash": "8c65a1246e76dfbbe9741e0b4a3bd2684221b976160e84557cc57d2f50fe6a5b",
       "source_name": "Hacker News (Best)",
@@ -196,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T00:38:01+00:00",
       "created_at": "2026-04-26T04:50:57.165376+00:00"
+    },
+    {
+      "id": "c19948844b4fd8ff",
+      "content_hash": "c19948844b4fd8ff0d3b34bf9e7348a9d1fd5013f9cc58d6be865fe273b458ff",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fabiensanglard.net/snes_carts/",
+      "title": "The Super Nintendo Cartridges (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47906161\">Comments</a>",
+      "url": "https://fabiensanglard.net/snes_carts/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T00:38:01+00:00",
+      "created_at": "2026-04-26T06:53:59.367542+00:00"
     },
     {
       "id": "bc38621cc710c5ea",
@@ -6902,104 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-04-23T22:16:41.147000",
       "created_at": "2026-04-24T20:35:05.258303+00:00"
-    },
-    {
-      "id": "f6b55e8857c405bb",
-      "content_hash": "f6b55e8857c405bb7e4552c818e770c65c5bc8ac59592fe08de5ddc21a39a5c2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41344",
-      "title": "CVE-2026-41344 - OpenClaw before 2026.3.28 contains a privilege escalation vulnerability in the c...",
-      "body": "OpenClaw before 2026.3.28 contains a privilege escalation vulnerability in the chat.send endpoint that allows write-scoped gateway callers to persist admin-only verboseLevel session overrides. Attackers can exploit the /verbose parameter to bypass access controls and expose sensitive reasoning or tool output intended to be restricted to administrators.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41344",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-23T22:16:40.970000",
-      "created_at": "2026-04-24T20:35:05.258297+00:00"
-    },
-    {
-      "id": "1ff3ef1c00ed7595",
-      "content_hash": "1ff3ef1c00ed7595291f577f7fe8fb31ac6d98ad7b96b0c9e502575623b75ea5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41343",
-      "title": "CVE-2026-41343 - OpenClaw before 2026.3.31 lacks a shared pre-auth concurrency budget on the publ...",
-      "body": "OpenClaw before 2026.3.31 lacks a shared pre-auth concurrency budget on the public LINE webhook path, allowing attackers to cause transient availability loss. Remote attackers can flood the webhook endpoint with concurrent requests before signature verification to exhaust resources and degrade service availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41343",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-23T22:16:40.803000",
-      "created_at": "2026-04-24T20:35:05.258291+00:00"
-    },
-    {
-      "id": "686f9ff0ecbb4ba5",
-      "content_hash": "686f9ff0ecbb4ba54be173b8a917db07c7672a9d05fdb305515506820e0b5142",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41342",
-      "title": "CVE-2026-41342 - OpenClaw before 2026.3.28 contains an authentication bypass vulnerability in the...",
-      "body": "OpenClaw before 2026.3.28 contains an authentication bypass vulnerability in the remote onboarding component that persists unauthenticated discovery endpoints without explicit trust confirmation. Attackers can spoof discovery endpoints to redirect onboarding toward malicious gateways and capture gateway credentials or traffic.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41342",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-23T22:16:40.640000",
-      "created_at": "2026-04-24T20:35:05.258285+00:00"
-    },
-    {
-      "id": "b8eb24ae7e091551",
-      "content_hash": "b8eb24ae7e091551d10dd87705791d7dfb2107322a0b6ff146e6dad7c6946b45",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41341",
-      "title": "CVE-2026-41341 - OpenClaw before 2026.3.31 contains a logic error in Discord component interactio...",
-      "body": "OpenClaw before 2026.3.31 contains a logic error in Discord component interaction routing that misclassifies group direct messages as direct messages in extensions/discord/src/monitor/agent-components-helpers.ts. Attackers can exploit this misclassification to bypass group DM policy enforcement or trigger incorrect session handling.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41341",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-23T22:16:40.477000",
-      "created_at": "2026-04-24T20:35:05.258278+00:00"
-    },
-    {
-      "id": "9b5af3cd4c92fde2",
-      "content_hash": "9b5af3cd4c92fde2d9b1b77226fcb2d2fa2d441a1d0e14694747a71391c09e1f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41340",
-      "title": "CVE-2026-41340 - OpenClaw before 2026.3.31 contains an authentication boundary vulnerability wher...",
-      "body": "OpenClaw before 2026.3.31 contains an authentication boundary vulnerability where Telegram legacy allowFrom migration incorrectly fans default-account trust into all named accounts. Attackers can exploit this trust propagation to bypass authentication controls and gain unauthorized access to named accounts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41340",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-23T22:16:40.307000",
-      "created_at": "2026-04-24T20:35:05.258270+00:00"
-    },
-    {
-      "id": "ecf754e72c1e9138",
-      "content_hash": "ecf754e72c1e913897f3257b9e07a360b6171095b017f64f733a8435dc96a6a8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41339",
-      "title": "CVE-2026-41339 - OpenClaw before 2026.4.2 exposes configPath and stateDir metadata in Gateway con...",
-      "body": "OpenClaw before 2026.4.2 exposes configPath and stateDir metadata in Gateway connect success snapshots to non-admin authenticated clients. Non-admin clients can recover host-specific filesystem paths and deployment details, enabling host fingerprinting and facilitating chained attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41339",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-23T22:16:40.140000",
-      "created_at": "2026-04-24T20:35:05.258264+00:00"
-    },
-    {
-      "id": "c01224a60f18ba92",
-      "content_hash": "c01224a60f18ba92583fdb86b94f6b57cf4c7b79bb8731014c515fe28d5458ec",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41338",
-      "title": "CVE-2026-41338 - OpenClaw before 2026.3.31 contains a time-of-check-time-of-use vulnerability in ...",
-      "body": "OpenClaw before 2026.3.31 contains a time-of-check-time-of-use vulnerability in sandbox file operations that allows attackers to bypass fd-based defenses. Attackers can exploit check-then-act patterns in apply_patch, remove, and mkdir operations to manipulate files between validation and execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41338",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.0,
-      "published_at": "2026-04-23T22:16:39.957000",
-      "created_at": "2026-04-24T20:35:05.258257+00:00"
     }
   ]
 }
