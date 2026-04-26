@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-26T17:30:23.941499+00:00",
+  "generated_at": "2026-04-26T18:35:49.149265+00:00",
   "items": [
+    {
+      "id": "5bc789a90d221008",
+      "content_hash": "5bc789a90d22100840b637da1d719d4c3978d9fe37562344d3d6507a57ffea75",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dillo-browser.org/release/3.3.0/",
+      "title": "Dillo Browser Release 3.3.0",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911977\">Comments</a>",
+      "url": "https://dillo-browser.org/release/3.3.0/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T17:18:14+00:00",
+      "created_at": "2026-04-26T18:35:49.148602+00:00"
+    },
+    {
+      "id": "ff348a5e10f0199e",
+      "content_hash": "ff348a5e10f0199eeb12516e7e206c4965bbcaecfb6158819fa4d95a49fb55df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "title": "GoDaddy Gave a Domain to a Stranger Without Any Documentation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911780\">Comments</a>",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:57:56+00:00",
+      "created_at": "2026-04-26T18:35:49.148564+00:00"
+    },
+    {
+      "id": "4c0a714f64690376",
+      "content_hash": "4c0a714f64690376377dbb28be37e9ad76628796d1c0a30492ff0dd69778f9c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://eblong.com/infocom/visi/zork1/",
+      "title": "The Visible Zorker: Zork 1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911644\">Comments</a>",
+      "url": "https://eblong.com/infocom/visi/zork1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:42:19+00:00",
+      "created_at": "2026-04-26T18:35:49.148544+00:00"
+    },
     {
       "id": "c85c9e1494e23f13",
       "content_hash": "c85c9e1494e23f13b5bbd91a5f8ee2763ea3eaf5c5a0f2321af6756fdba477a5",
@@ -4986,6 +5028,20 @@
       "created_at": "2026-04-24T15:57:46.421956+00:00"
     },
     {
+      "id": "76969b51bd4c32a0",
+      "content_hash": "76969b51bd4c32a0fa1b224781fc1b5f31a7996eade27da8e63408696795dd3b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.markround.com/blog/2026/04/19/sloppy-copies/",
+      "title": "Sloppy Copies",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47890339\">Comments</a>",
+      "url": "https://www.markround.com/blog/2026/04/19/sloppy-copies/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T13:52:58+00:00",
+      "created_at": "2026-04-26T18:35:49.148723+00:00"
+    },
+    {
       "id": "6b3ab694d3e6f521",
       "content_hash": "6b3ab694d3e6f521d44d4ee6bb2a6eac067a10929ace4b901b46bfb25c33b8ea",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-24T02:42:00+00:00",
       "created_at": "2026-04-24T04:46:20.252466+00:00"
-    },
-    {
-      "id": "7ca13e1ae165ebce",
-      "content_hash": "7ca13e1ae165ebcefa24b8ee7cad523762e24ad24e3d276e46ddb3d0084a8181",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012493.html",
-      "title": "Vimにおけるコードインジェクションの脆弱性",
-      "body": "Vimはオープンソースのコマンドラインテキストエディタです。バージョン9.2.0316以前のVimのnetbeansインターフェースにはコマンドインジェクションの脆弱性が存在し、悪意のあるnetbeansサーバーがdefineAnnoTypeおよびspecialKeysプロトコルメッセージ内の未検証の文字列を介してVimが接続した際に任意のExコマンドを実行できる可能性があります。この脆弱性はバージョン9.2.0316で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012493.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:42:00+00:00",
-      "created_at": "2026-04-24T04:46:20.252478+00:00"
-    },
-    {
-      "id": "ee42a91dbbfa598a",
-      "content_hash": "ee42a91dbbfa598a4c766f67416bbadded3a2a63b31c1bde5189dddbb6b95a59",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-      "title": "Why I Write (1946)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47884768\">Comments</a>",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:26:23+00:00",
-      "created_at": "2026-04-24T04:46:20.497939+00:00"
-    },
-    {
-      "id": "6932820cf6a319c9",
-      "content_hash": "6932820cf6a319c9767c5fd851c0b5f5a0f3b03b09f3b04cc989bb6f2c1b9c00",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.eternal-flame.org/library/oldlibrary/georgebusiness.html",
-      "title": "The George Business, by Roger Zelazny (1980)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47884662\">Comments</a>",
-      "url": "https://www.eternal-flame.org/library/oldlibrary/georgebusiness.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:07:59+00:00",
-      "created_at": "2026-04-26T04:50:57.165302+00:00"
-    },
-    {
-      "id": "ac9afb7cf4b4d17e",
-      "content_hash": "ac9afb7cf4b4d17e8ee9bd11539271e50528c594cc5bc79c7826073d608cc6b9",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
-      "title": "How Hard Is It to Open a File?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47884625\">Comments</a>",
-      "url": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:01:40+00:00",
-      "created_at": "2026-04-25T21:27:01.561335+00:00"
     }
   ]
 }
