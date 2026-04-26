@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-26T13:58:30.688071+00:00",
+  "generated_at": "2026-04-26T14:41:03.855458+00:00",
   "items": [
+    {
+      "id": "bacf88f6deced849",
+      "content_hash": "bacf88f6deced8499a1d73d1af422aac1d91fb388322bc3ab57bf4482394f40c",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "title": "American utility firm Itron discloses breach of internal IT network",
+      "body": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-26T14:22:34+00:00",
+      "created_at": "2026-04-26T14:40:59.183303+00:00"
+    },
+    {
+      "id": "0030228e04262a1e",
+      "content_hash": "0030228e04262a1e114d076328c6643a9a85a3b6bc16ab2745ea1144275457f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
+      "title": "QNX on the Commodore 900 – Raiders of the lost hard drive [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47909945\">Comments</a>",
+      "url": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T12:55:53+00:00",
+      "created_at": "2026-04-26T14:41:03.855071+00:00"
+    },
     {
       "id": "7a7573e7d3bd9384",
       "content_hash": "7a7573e7d3bd9384f08353dc8ae772eab6e82be9c67f47fb94ff5dc1ffba58c7",
@@ -3024,6 +3052,20 @@
       "cvss_score": null,
       "published_at": "2026-04-24T19:00:00+00:00",
       "created_at": "2026-04-24T18:35:54.102056+00:00"
+    },
+    {
+      "id": "9df503a136a56a0a",
+      "content_hash": "9df503a136a56a0ac075a90d61640d88c143fe4243f4bf95b690e7e029ec30ae",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.cynthia.re/post/nintendo-switch-ethernet-switch",
+      "title": "The Nintendo Switch Switch (2019)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47894124\">Comments</a>",
+      "url": "https://blog.cynthia.re/post/nintendo-switch-ethernet-switch",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T18:33:35+00:00",
+      "created_at": "2026-04-26T14:41:03.854778+00:00"
     },
     {
       "id": "c7f9bb86344d89b4",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-04-24T00:16:28.333000",
       "created_at": "2026-04-24T23:31:15.176492+00:00"
-    },
-    {
-      "id": "31404045c92c3944",
-      "content_hash": "31404045c92c3944ac58eeb7f98be65051abb97d2e4566a7f2815e7d08e37c43",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35503",
-      "title": "CVE-2026-35503 - A vulnerability in SenseLive X3050’s web management interface allows authenticat...",
-      "body": "A vulnerability in SenseLive X3050’s web management interface allows authentication logic to be performed entirely on the client side, relying on hardcoded values within browser-executed scripts rather than server-side verification. An attacker with access to the login page could retrieve these exposed parameters and gain unauthorized access to administrative functionality.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35503",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-24T00:16:28.143000",
-      "created_at": "2026-04-24T23:31:15.176484+00:00"
-    },
-    {
-      "id": "4a4da59c2199f854",
-      "content_hash": "4a4da59c2199f854860da4bc4ca2d832151f869380a23a346c22d5cb793b0e16",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-35064",
-      "title": "CVE-2026-35064 - A vulnerability in SenseLive X3050’s management ecosystem allows unauthenticated...",
-      "body": "A vulnerability in SenseLive X3050’s management ecosystem allows unauthenticated discovery of deployed units through the vendor’s management protocol, enabling identification of device presence, identifiers, and management interfaces without requiring credentials. Because discovery functions are exposed by the underlying service rather than gated by authentication, an attacker on the same network segment can rapidly enumerate targeted devices.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35064",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-24T00:16:27.967000",
-      "created_at": "2026-04-24T23:31:15.176476+00:00"
-    },
-    {
-      "id": "f3070e73d3374ca6",
-      "content_hash": "f3070e73d3374ca6f660e45d1c88c5517ee988432ae940a0ee244344febc26ed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31952",
-      "title": "CVE-2026-31952 - Xibo is an open source digital signage platform with a web content management sy...",
-      "body": "Xibo is an open source digital signage platform with a web content management system and Windows display player software. Versions 1.7 through 4.4.0 have an SQL injection vulnerability in the API routes inside the CMS responsible for Filtering DataSets. This allows an authenticated user to to obtain and modify arbitrary data from the Xibo database by injecting specially crafted values in to the API filter parameter. Exploitation of the vulnerability is possible on behalf of an authorized user who has either of the `Access to DataSet Feature` privilege or the `Access to the Layout Feature` privilege. Users should upgrade to version 4.4.1 which fixes this issue. Customers who host their CMS with Xibo Signage have been patched if they are using 4.4, 4.3, 3.3, 2.3 or 1.8. Upgrading to a fixed version is necessary to remediate. Patches are available for earlier versions of Xibo CMS that are out of support, namely 3.3, 2.3, and 1.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31952",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.6,
-      "published_at": "2026-04-24T00:16:27.780000",
-      "created_at": "2026-04-24T22:31:22.520441+00:00"
     }
   ]
 }
