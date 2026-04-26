@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-26T12:39:21.126293+00:00",
+  "generated_at": "2026-04-26T13:58:30.688071+00:00",
   "items": [
+    {
+      "id": "7a7573e7d3bd9384",
+      "content_hash": "7a7573e7d3bd9384f08353dc8ae772eab6e82be9c67f47fb94ff5dc1ffba58c7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cnn.com/2026/04/21/us/deaths-disappearances-scientists-investigation",
+      "title": "At least 10 people tied to sensitive US research have died or disappeared",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47909942\">Comments</a>",
+      "url": "https://www.cnn.com/2026/04/21/us/deaths-disappearances-scientists-investigation",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T12:55:26+00:00",
+      "created_at": "2026-04-26T13:58:30.687401+00:00"
+    },
+    {
+      "id": "84b2a87d07b2c876",
+      "content_hash": "84b2a87d07b2c8763a8dcc7d859c936533285b8da200dde4a172e542b6c8dcc9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7036",
+      "title": "CVE-2026-7036 - A vulnerability was identified in Tenda i9 1.0.0.5(2204). This vulnerability aff...",
+      "body": "A vulnerability was identified in Tenda i9 1.0.0.5(2204). This vulnerability affects the function R7WebsSecurityHandlerfunction of the component HTTP Handler. The manipulation leads to path traversal. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7036",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-26T12:16:22.987000",
+      "created_at": "2026-04-26T13:58:27.415153+00:00"
+    },
+    {
+      "id": "fff8d13f0e3b732e",
+      "content_hash": "fff8d13f0e3b732e293f5b164148e8ca81ae86ed012be5ef33bd33fe2080834c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7035",
+      "title": "CVE-2026-7035 - A vulnerability was determined in Tenda FH1202 1.2.0.14. This affects the functi...",
+      "body": "A vulnerability was determined in Tenda FH1202 1.2.0.14. This affects the function fromWrlclientSet of the file /goform/WrlclientSet of the component httpd. Executing a manipulation of the argument Go can lead to stack-based buffer overflow. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7035",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-26T12:16:22.797000",
+      "created_at": "2026-04-26T13:58:27.415147+00:00"
+    },
     {
       "id": "5604ba9ef172f469",
       "content_hash": "5604ba9ef172f46925077a83008d3805ac43621995745f4dd1aad84583b9f77c",
@@ -3010,6 +3052,20 @@
       "cvss_score": null,
       "published_at": "2026-04-24T18:26:27+00:00",
       "created_at": "2026-04-24T18:35:54.433920+00:00"
+    },
+    {
+      "id": "a3a4eba300520a41",
+      "content_hash": "a3a4eba300520a412f3689a36cf87db55ba8e450b043836c9c875d76bb910182",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://coalton-lang.github.io/20260424-mine/",
+      "title": "Mine, a Coalton and Common Lisp IDE",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47894014\">Comments</a>",
+      "url": "https://coalton-lang.github.io/20260424-mine/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T18:24:42+00:00",
+      "created_at": "2026-04-26T13:58:30.687765+00:00"
     },
     {
       "id": "75c442d607ed5df2",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.6,
       "published_at": "2026-04-24T00:16:27.780000",
       "created_at": "2026-04-24T22:31:22.520441+00:00"
-    },
-    {
-      "id": "d87e8a6237e9402a",
-      "content_hash": "d87e8a6237e9402a3aa42d6f516da7f44786e5627f12999d7f05660c1458b7a4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-29197",
-      "title": "CVE-2026-29197 - In versions <8.4.0, <8.3.2, <8.2.2, <8.1.3, <8.0.4, <7.13.6, <7.12.7, <7.11.7, a...",
-      "body": "In versions <8.4.0, <8.3.2, <8.2.2, <8.1.3, <8.0.4, <7.13.6, <7.12.7, <7.11.7, and <7.10.10, the endpoints /api/apps/logs and /api/apps/:id/logs have a typo in the required permission check, allowing authenticated users without the proper permissions to read apps-engine logs.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29197",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-24T00:16:27.647000",
-      "created_at": "2026-04-24T22:31:22.520434+00:00"
-    },
-    {
-      "id": "2c1f4dfbe8e6c126",
-      "content_hash": "2c1f4dfbe8e6c1268d10c3c722379d40ef0889a59c2d8eb0fbbd9f4658278df3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-29051",
-      "title": "CVE-2026-29051 - melange allows users to build apk packages using declarative pipelines. Starting...",
-      "body": "melange allows users to build apk packages using declarative pipelines. Starting in version 0.32.0 and prior to version 0.43.4, `melange lint --persist-lint-results` (opt-in flag, also usable via `melange build --persist-lint-results`) constructs output file paths by joining `--out-dir` with the `arch` and `pkgname` values read from the `.PKGINFO` control file of the APK being linted. In affected versions these values were not validated for path separators or `..` sequences, so an attacker who can supply an APK to a melange-based lint/build pipeline (e.g. CI that lints third-party APKs, or build-as-a-service) could cause melange to write `lint-<pkgname>-<pkgver>-r<epoch>.json` to an arbitrary `.json` path reachable by the melange process. The written file is a JSON lint report whose content is partially attacker-influenced. There is no direct code-execution path, but the write can clobber other JSON artifacts on the filesystem. The issue only affects deployments that explicitly pass `--persist-lint-results`; the flag is off by default. The issue is fixed in melange v0.43.4 by validating `arch` and `pkgname` for `..`, `/`, and `filepath.Separator` before path construction in `pkg/linter/results.go` (commit 84f3b45). As a workaround, do not pass `--persist-lint-results` when linting or building APKs whose `.PKGINFO` contents are not fully trusted. Running melange as a low-privileged user and confining writes to an isolated directory also limits impact.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29051",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "published_at": "2026-04-24T00:16:27.477000",
-      "created_at": "2026-04-24T22:31:22.520428+00:00"
-    },
-    {
-      "id": "6b454f903909f74a",
-      "content_hash": "6b454f903909f74a302956c30b54b752bfbb71a0f1cd7a22f6ccce3152958327",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-29050",
-      "title": "CVE-2026-29050 - melange allows users to build apk packages using declarative pipelines. Starting...",
-      "body": "melange allows users to build apk packages using declarative pipelines. Starting in version 0.32.0 and prior to version 0.43.4, an attacker who can influence a melange configuration file — for example through pull-request-driven CI or build-as-a-service scenarios — could set `pipeline[].uses` to a value containing `../` sequences or an absolute path. The `(*Compiled).compilePipeline` function in `pkg/build/compile.go` passed `uses` directly to `filepath.Join(pipelineDir, uses + \".yaml\")` without validating the value, so the resolved path could escape each `--pipeline-dir` and read an arbitrary YAML-parseable file visible to the melange process. Because the loaded file is subsequently interpreted as a melange pipeline and its `runs:` block is executed via `/bin/sh -c` in the build sandbox, this additionally allowed shell commands sourced from an out-of-tree file to run during the build, bypassing the review boundary that normally covers the in-tree pipeline definition. The issue is fixed in melange v0.43.4 via commit 5829ca4. The fix rejects `uses` values that are absolute paths or contain `..`, and verifies (via `filepath.Rel` after `filepath.Clean`) that the resolved target remains within the pipeline directory. As a workaround, only run `melange build` against configuration files from trusted sources. In CI systems that build user-supplied melange configs, gate builds behind manual review of `pipeline[].uses` values and reject any containing `..` or leading `/`.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29050",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-04-24T00:16:27.303000",
-      "created_at": "2026-04-24T22:31:22.520422+00:00"
-    },
-    {
-      "id": "a0a3abc10036e55f",
-      "content_hash": "a0a3abc10036e55fe8d52fdfe0fcfc21c8e4015d8beb42aa018d3a086868edd7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-27843",
-      "title": "CVE-2026-27843 - A vulnerability exists in SenseLive X3050's web management interface that allows...",
-      "body": "A vulnerability exists in SenseLive X3050's web management interface that allows critical configuration parameters to be modified without sufficient authentication or server-side validation. By applying unsupported or disruptive values to recovery mechanisms and network settings, an attacker can induce a persistent lockout state. Because the device lacks a physical reset button, recovery requires specialized technical access via the console to perform a factory reset, resulting in a total denial-of-service for the gateway and its connected RS-485 downstream systems.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27843",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-04-24T00:16:27.123000",
-      "created_at": "2026-04-24T22:31:22.520415+00:00"
     }
   ]
 }
