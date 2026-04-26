@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-04-26T18:35:49.149265+00:00",
+  "generated_at": "2026-04-26T19:38:45.297208+00:00",
   "items": [
+    {
+      "id": "5a7bdcafad839c5d",
+      "content_hash": "5a7bdcafad839c5d48723002dd36d44a204844a15aeb7e08f16be949cc11d1b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+      "title": "Waymo says expecting driverless taxis to stay out of bike lanes is unrealistic",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47912645\">Comments</a>",
+      "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T18:34:31+00:00",
+      "created_at": "2026-04-26T19:38:45.296547+00:00"
+    },
+    {
+      "id": "ceef7331103429e7",
+      "content_hash": "ceef7331103429e708f58165a34e99e366271aea3098892e822d3b6786f2f990",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.mit.edu/2026/plants-can-sense-sound-rain-new-study-finds-0422",
+      "title": "Plants can sense the sound of rain, a new study finds",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47912513\">Comments</a>",
+      "url": "https://news.mit.edu/2026/plants-can-sense-sound-rain-new-study-finds-0422",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T18:15:59+00:00",
+      "created_at": "2026-04-26T19:38:45.296762+00:00"
+    },
+    {
+      "id": "4705968da5a6a108",
+      "content_hash": "4705968da5a6a1085f0aaedcd004509590b51d74e1fd2509a34ea2a0f62973ca",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shankwiler.com/posts/button-survival-hypothetical/",
+      "title": "If more than 50% press blue, everyone survives. Red pressers always survive",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47912065\">Comments</a>",
+      "url": "https://shankwiler.com/posts/button-survival-hypothetical/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T17:28:58+00:00",
+      "created_at": "2026-04-26T19:38:45.296604+00:00"
+    },
     {
       "id": "5bc789a90d221008",
       "content_hash": "5bc789a90d22100840b637da1d719d4c3978d9fe37562344d3d6507a57ffea75",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T16:42:19+00:00",
       "created_at": "2026-04-26T18:35:49.148544+00:00"
+    },
+    {
+      "id": "4b1dff210ad0abf4",
+      "content_hash": "4b1dff210ad0abf4f13ad64e246bea4d715f15b7a20dc365fdd6bf3c6ffdcee8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911524\">Comments</a>",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:27:29+00:00",
+      "created_at": "2026-04-26T19:38:45.296526+00:00"
     },
     {
       "id": "c85c9e1494e23f13",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-24T02:42:00+00:00",
       "created_at": "2026-04-24T04:46:20.252423+00:00"
-    },
-    {
-      "id": "4e6220e2a9f17481",
-      "content_hash": "4e6220e2a9f174811a6f2001c2521243d1ee381cd2c2939f9bfa0aa282f749bc",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012497.html",
-      "title": "WWBNのAVideoにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "WWBN AVideoはオープンソースのビデオプラットフォームです。バージョン26.0およびそれ以前のバージョンでは、AVideoのEPG（電子番組表）機能がユーザー制御のURLからXMLを解析し、番組タイトルをサニタイズやエスケープせずに直接HTMLにレンダリングします。アップロード権限を持つユーザーは、ビデオのepg_linkを悪意のあるXMLファイルに設定でき、そのtitle要素にJavaScriptを含めることが可能です。このペイロードは公開EPGページの未認証訪問者のブラウザで実行され、セッションハイジャックやアカウント乗っ取りを引き起こします。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012497.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:42:00+00:00",
-      "created_at": "2026-04-24T04:46:20.252434+00:00"
-    },
-    {
-      "id": "74da5d408d60c5ac",
-      "content_hash": "74da5d408d60c5ac53d0a499da62ac881e49f9209b8d51756b2ea3204b66661a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012496.html",
-      "title": "WWBNのAVideoにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "WWBN AVideoはオープンソースの動画プラットフォームです。バージョン26.0およびそれ以前のバージョンでは、ライブリストリームログのコールバックフローが攻撃者が制御するrestreamer URLを受け入れていました。そのため、サーバー側で保存されたURLを取得でき、認証されたストリーマーに対して保存型SSRF攻撃を可能にしていました。この脆弱なフローにより、ストリーミング権限を持つ低権限ユーザーが任意のコールバックURLを保存でき、リストリームログ機能を通じてサーバー側からのリクエストをループバックや内部HTTPサービスに対してトリガーできました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012496.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:42:00+00:00",
-      "created_at": "2026-04-24T04:46:20.252444+00:00"
-    },
-    {
-      "id": "837be7bbd5e74c29",
-      "content_hash": "837be7bbd5e74c2980cca807291f22d47ad9da252f54dbfc6384608af517ca92",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012495.html",
-      "title": "WWBNのAVideoにおけるパストラバーサルの脆弱性",
-      "body": "WWBN AVideoはオープンソースのビデオプラットフォームです。バージョン26.0およびそれ以前のバージョンにおいて、objects/aVideoEncoderReceiveImage.json.phpは認証されたアップローダーが攻撃者が制御する同一オリジンの/videos/... URLを取得できるようにし、ディレクトリトラバーサルのサニタイズを回避して、GIFポスターのストレージパスを通じてサーバーのローカルファイルを露出させる問題がありました。この脆弱なGIF関連機能は、/etc/passwdやアプリケーションのソースファイルなどのローカルファイルを読み取り、通常の公開GIFメディアURLを介してそれらのバイトを再公開するために悪用される可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012495.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:42:00+00:00",
-      "created_at": "2026-04-24T04:46:20.252455+00:00"
-    },
-    {
-      "id": "d1598bc524862a8f",
-      "content_hash": "d1598bc524862a8f33dfe871a53e22e85942932851dfab5bb93d400e3c4f6dd6",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012494.html",
-      "title": "WWBNのAVideoにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "WWBN AVideoはオープンソースのビデオプラットフォームです。バージョン26.0以前では、objects/aVideoEncoder.json.phpが依然として攻撃者が制御するdownloadURLの値に対して、.mp4、.mp3、.zip、.jpg、.png、.gif、.webmなどの一般的なメディアまたはアーカイブ拡張子を許可しており、SSRF検証を回避できます。サーバーはそのレスポンスを取得し、メディアコンテンツとして保存します。これにより、認証済みアップローダーはURLによるアップロードフローを信頼性の高いSSRFレスポンス漏洩プリミティブへと変えることが可能になります。この脆弱性は不完全な修正が原因で引き起こされています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012494.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T02:42:00+00:00",
-      "created_at": "2026-04-24T04:46:20.252466+00:00"
     }
   ]
 }
