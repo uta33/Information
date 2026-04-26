@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-26T15:33:33.669967+00:00",
+  "generated_at": "2026-04-26T16:30:26.850913+00:00",
   "items": [
+    {
+      "id": "c85c9e1494e23f13",
+      "content_hash": "c85c9e1494e23f13b5bbd91a5f8ee2763ea3eaf5c5a0f2321af6756fdba477a5",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3116367",
+      "title": "TechCrunch Mobility: Elon’s admission",
+      "body": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "url": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:03:00+00:00",
+      "created_at": "2026-04-26T16:30:26.703329+00:00"
+    },
+    {
+      "id": "fdb5c03dc13a8ffb",
+      "content_hash": "fdb5c03dc13a8ffb13b24dfd8c83cb6c0a5886c558cd7df0b7e22abcef8696f2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "title": "Clay PCB Tutorial",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911350\">Comments</a>",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:02:14+00:00",
+      "created_at": "2026-04-26T16:30:26.850071+00:00"
+    },
     {
       "id": "51774b4af01c7e55",
       "content_hash": "51774b4af01c7e55380d74d1f0121b065abfab10183e18dd095fa6013cc31761",
@@ -72,6 +100,20 @@
       "created_at": "2026-04-26T15:33:33.669152+00:00"
     },
     {
+      "id": "c326fd65f4f8739d",
+      "content_hash": "c326fd65f4f8739d6b713063371e73a237080320bd5b78380004e164412d5191",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7039",
+      "title": "CVE-2026-7039 - A security vulnerability has been detected in tufantunc ssh-mcp up to 1.5.0. The...",
+      "body": "A security vulnerability has been detected in tufantunc ssh-mcp up to 1.5.0. The affected element is the function shell.write of the file src/index.ts. Such manipulation of the argument Description leads to command injection. The attack must be carried out locally. The exploit has been disclosed publicly and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7039",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.8,
+      "published_at": "2026-04-26T13:16:00.727000",
+      "created_at": "2026-04-26T16:30:23.454346+00:00"
+    },
+    {
       "id": "0030228e04262a1e",
       "content_hash": "0030228e04262a1e114d076328c6643a9a85a3b6bc16ab2745ea1144275457f3",
       "source_name": "Hacker News (Best)",
@@ -98,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T12:55:26+00:00",
       "created_at": "2026-04-26T13:58:30.687401+00:00"
+    },
+    {
+      "id": "76fc34ab23f50111",
+      "content_hash": "76fc34ab23f501117a8b1162fe47b33a5c2b6a7fbc544e90a58643097c8a29ae",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7038",
+      "title": "CVE-2026-7038 - A weakness has been identified in tufantunc ssh-mcp up to 1.5.0. Impacted is an ...",
+      "body": "A weakness has been identified in tufantunc ssh-mcp up to 1.5.0. Impacted is an unknown function of the file src/index.ts of the component Command Line Handler. This manipulation causes insufficiently protected credentials. The attack is restricted to local execution. The exploit has been made available to the public and could be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7038",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.3,
+      "published_at": "2026-04-26T12:16:23.373000",
+      "created_at": "2026-04-26T16:30:23.454340+00:00"
     },
     {
       "id": "9714804bb49483e7",
@@ -2254,6 +2310,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T00:11:43+00:00",
       "created_at": "2026-04-25T01:19:38.529559+00:00"
+    },
+    {
+      "id": "5dd63b685db428b2",
+      "content_hash": "5dd63b685db428b246e8ef263293f773b88322147828b87d270a95406d1add14",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "title": "Databases Were Not Designed for This",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47897140\">Comments</a>",
+      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T23:41:38+00:00",
+      "created_at": "2026-04-26T16:30:26.850314+00:00"
     },
     {
       "id": "d4c70342446cfce0",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-24T01:16:12.120000",
       "created_at": "2026-04-24T23:31:15.176564+00:00"
-    },
-    {
-      "id": "94a3b30521cbbfb6",
-      "content_hash": "94a3b30521cbbfb60fe159207a96cc6518841429e179cc263866892ed09c65f2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-32870",
-      "title": "CVE-2026-32870 - Kirby is an open-source content management system. Kirby's `Xml::value()` method...",
-      "body": "Kirby is an open-source content management system. Kirby's `Xml::value()` method has special handling for `<![CDATA[ ]]>` blocks. If the input value is already valid `CDATA`, it is not escaped a second time but allowed to pass through. However, prior to versions 4.9.0 and 5.4.0, it was possible to trick this check into allowing values that only contained a valid `CDATA` block but also contained other structured data outside of the `CDATA` block. This structured data would then also be allowed to pass through, circumventing the value protection. The `Xml::value()` method is used in `Xml::tag()`, `Xml::create()` and in the `Xml` data handler (e.g. `Data::encode($string, 'xml')`). Both the vulnerable methods and the data handler are not used in the Kirby core. However they may be used in site or plugin code, e.g. to create XML strings from input data. If those generated files are passed to another implementation that assigns specific meaning to the XML schema, manipulation of this system's behavior is possible. Kirby sites that don't use XML generation in site or plugin code are not affected. The problem has been patched in Kirby 4.9.0 and Kirby 5.4.0. In all of the mentioned releases, Kirby has added additional checks that only allow unchanged `CDATA` passthrough if the entire string is made up of valid `CDATA` blocks and no structured data. This protects all uses of the method against the described vulnerability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32870",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T01:16:11.953000",
-      "created_at": "2026-04-24T23:31:15.176556+00:00"
-    },
-    {
-      "id": "552e677977aa1df1",
-      "content_hash": "552e677977aa1df15d6f0a7fe1cee6841c769a7f936f020da4b29abebbad8af3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31956",
-      "title": "CVE-2026-31956 - Xibo is an open source digital signage platform with a web content management sy...",
-      "body": "Xibo is an open source digital signage platform with a web content management system and Windows display player software. Prior to version 4.4.1, any authenticated user can manually construct a URL to preview campaigns/regions, and export saved reports belonging to other users. Exploitation of the vulnerability is possible on behalf of an authorized user who has any of the following privileges: Page which shows all Layouts that have been created for the purposes of Layout Management; page which shows all Campaigns that have been created for the purposes of Campaign Management; and page which shows all Reports that have been Saved. Users should upgrade to version 4.4.1 which fixes this issue. Upgrading to a fixed version is necessary to remediate.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31956",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-24T01:16:11.773000",
-      "created_at": "2026-04-24T23:31:15.176547+00:00"
-    },
-    {
-      "id": "01a748381c2c953b",
-      "content_hash": "01a748381c2c953b45341686d16f78e949a0d3f7e99b8a6e3b23fb73fa82e154",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31955",
-      "title": "CVE-2026-31955 - Xibo is an open source digital signage platform with a web content management sy...",
-      "body": "Xibo is an open source digital signage platform with a web content management system and Windows display player software. An authenticated Server-Side Request Forgery (SSRF) vulnerability in versions prior to 4.4.1 allows users with DataSet permissions to make arbitrary HTTP requests from the CMS server to internal or external network resources. This can be exploited to scan internal infrastructure, access local cloud metadata endpoints (e.g., AWS IMDS), interact with internal services that lack authentication, or exfiltrate data. Exploitation of the vulnerability is possible on behalf of an authorized user who has both of the following privileges, which are not granted to non-admins as standard: Include \"Add DataSet\" button to allow for additional DataSets to be created independently to Layouts. Users should upgrade to version 4.4.1 which fixes this issue. Upgrading to a fixed version is necessary to remediate. Users unable to upgrade should revoke such privileges from users they do not trust.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31955",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-04-24T01:16:11.623000",
-      "created_at": "2026-04-24T23:31:15.176540+00:00"
-    },
-    {
-      "id": "1a17f7f8061c36c8",
-      "content_hash": "1a17f7f8061c36c837f20e164a1846ce6192ac684c6da7651eda53d90385f2c7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-31953",
-      "title": "CVE-2026-31953 - Xibo is an open source digital signage platform with a web content management sy...",
-      "body": "Xibo is an open source digital signage platform with a web content management system and Windows display player software. A stored Cross-Site Scripting (XSS) vulnerability in versions prior to 4.4.1 allows an authenticated user with notification creation permissions to inject arbitrary JavaScript into the notification body. When the notification is set as an \"interrupt,\" the payload executes automatically in the browser of any targeted user upon login, requiring zero user interaction. Exploitation of the vulnerability is possible on behalf of an authorized user who has both of the following privileges, which are not granted to non-admins as standard: Access to the Notification Centre to view past notifications, and include \"Add Notification\" button to allow for the creation of new notifications. Users should upgrade to version 4.4.1 which fixes this issue. Upgrading to a fixed version is necessary to remediate. Users unable to upgrade should revoke such privileges from users they do not trust.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31953",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-04-24T01:16:11",
-      "created_at": "2026-04-24T23:31:15.176532+00:00"
-    },
-    {
-      "id": "a1d72729cddb9285",
-      "content_hash": "a1d72729cddb92854f6cde4ddf11b5af0eb50fa3bcdff01dcc319cc2fe089c32",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://phys.org/news/2026-04-physicists-revive-1990s-laser-concept.html",
-      "title": "Physicists revive 1990s laser concept to propose a next-generation atomic clock",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47884225\">Comments</a>",
-      "url": "https://phys.org/news/2026-04-physicists-revive-1990s-laser-concept.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T00:57:05+00:00",
-      "created_at": "2026-04-24T16:51:13.464733+00:00"
     }
   ]
 }
