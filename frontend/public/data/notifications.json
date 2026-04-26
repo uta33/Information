@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-26T11:31:54.852536+00:00",
+  "generated_at": "2026-04-26T12:39:21.126293+00:00",
   "items": [
+    {
+      "id": "5604ba9ef172f469",
+      "content_hash": "5604ba9ef172f46925077a83008d3805ac43621995745f4dd1aad84583b9f77c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7034",
+      "title": "CVE-2026-7034 - A vulnerability was found in Tenda FH1202 1.2.0.14(408). Affected by this issue ...",
+      "body": "A vulnerability was found in Tenda FH1202 1.2.0.14(408). Affected by this issue is the function WrlExtraSet of the file /goform/WrlExtraSet of the component httpd. Performing a manipulation of the argument Go results in stack-based buffer overflow. The attack may be initiated remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7034",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-26T12:16:21.570000",
+      "created_at": "2026-04-26T12:39:16.390370+00:00"
+    },
     {
       "id": "72ada0ffd47cc7b9",
       "content_hash": "72ada0ffd47cc7b924cbaebb5da764d4f03e3114b2b486f9fbff91e47bfc61f1",
@@ -30,6 +44,20 @@
       "created_at": "2026-04-26T11:31:51.108048+00:00"
     },
     {
+      "id": "719ed68374e4c986",
+      "content_hash": "719ed68374e4c9867ee534c558e4cc6798c811a65ce4edc5a68ec4b6ba0988d9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://asahilinux.org/2026/04/progress-report-7-0/",
+      "title": "Asahi Linux Progress Linux 7.0",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47909226\">Comments</a>",
+      "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T10:50:32+00:00",
+      "created_at": "2026-04-26T12:39:21.125504+00:00"
+    },
+    {
       "id": "e72505a16fd7fe0c",
       "content_hash": "e72505a16fd7fe0c73cffeb3661ef12258ddbedc4e93f12d0f8e0795b43f5ef1",
       "source_name": "CVE (NVD)",
@@ -56,6 +84,20 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-26T10:16:01.247000",
       "created_at": "2026-04-26T10:35:50.714559+00:00"
+    },
+    {
+      "id": "cf8b31a8394ffaef",
+      "content_hash": "cf8b31a8394ffaefa296cae3fba4a6cd2c31ac613d8a93422d3c17e0d363253d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jumpstartsignal.com/",
+      "title": "Show HN: A free ESG stock screener that publishes its losses and methodology",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908912\">Comments</a>",
+      "url": "https://jumpstartsignal.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T09:50:21+00:00",
+      "created_at": "2026-04-26T12:39:21.125998+00:00"
     },
     {
       "id": "29612939aba6fbb6",
@@ -5448,6 +5490,20 @@
       "created_at": "2026-04-24T23:31:15.176774+00:00"
     },
     {
+      "id": "52014bfe5a23d082",
+      "content_hash": "52014bfe5a23d0828a1bc90f83006b8de3464e61d83ab07abf91fa1e4d9c2410",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shift1w.com/blog/config-of-theseus/",
+      "title": "My .config Ship of Theseus",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47886157\">Comments</a>",
+      "url": "https://shift1w.com/blog/config-of-theseus/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T06:00:14+00:00",
+      "created_at": "2026-04-26T12:39:21.125892+00:00"
+    },
+    {
       "id": "3833bd7972a37854",
       "content_hash": "3833bd7972a3785465107afd7fe498f2d08000f28aa0c01c02f2d2275b44b978",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": 9.1,
       "published_at": "2026-04-24T00:16:27.123000",
       "created_at": "2026-04-24T22:31:22.520415+00:00"
-    },
-    {
-      "id": "cc66b6e8263432c8",
-      "content_hash": "cc66b6e8263432c8559317153bf6e8023653c5dd085d4fc4dfb81eebe12c6041",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-27841",
-      "title": "CVE-2026-27841 - A vulnerability in SenseLive X3050's web management interface allows state-chang...",
-      "body": "A vulnerability in SenseLive X3050's web management interface allows state-changing operations to be triggered without proper Cross-Site Request Forgery (CSRF) protections. Because the application does not enforce server-side validation of request origin or implement CSRF tokens, a malicious external webpage could cause a user's browser to submit unauthorized configuration requests to the device.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27841",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-04-24T00:16:26.933000",
-      "created_at": "2026-04-24T22:31:22.520408+00:00"
-    },
-    {
-      "id": "4eaee6d3eec5377c",
-      "content_hash": "4eaee6d3eec5377cf76973212ef359553f647f59c4b21b4510c7da3abca86810",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-25775",
-      "title": "CVE-2026-25775 - A vulnerability in SenseLive X3050’s remote management service allows firmware r...",
-      "body": "A vulnerability in SenseLive X3050’s remote management service allows firmware retrieval and update operations to be performed without authentication or authorization. The service accepts firmware-related requests from any reachable host and does not verify user privileges, integrity of uploaded images, or the authenticity of provided firmware.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25775",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-04-24T00:16:26.757000",
-      "created_at": "2026-04-24T21:38:03.783146+00:00"
-    },
-    {
-      "id": "05a0cebae57cc311",
-      "content_hash": "05a0cebae57cc31104c5c0200222ce6379215c4ae91f39650a7a1e51e50f2331",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-25720",
-      "title": "CVE-2026-25720 - A vulnerability exists in SenseLive\n\nX3050’s web management interface due to imp...",
-      "body": "A vulnerability exists in SenseLive\n\nX3050’s web management interface due to improper session lifetime enforcement, allowing authenticated sessions to remain active for extended periods without requiring re-authentication. An attacker with access to a previously authenticated session could continue interacting with administrative functions long after legitimate user activity has ceased.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25720",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-04-24T00:16:26.577000",
-      "created_at": "2026-04-24T21:38:03.783139+00:00"
-    },
-    {
-      "id": "55c68feec3eff65b",
-      "content_hash": "55c68feec3eff65b6b473527afdeb9f8b0d2687d0146a7fefb39101d693c40c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-1789",
-      "title": "CVE-2026-1789 - A vulnerability in the browser-based remote management interface may allow an ad...",
-      "body": "A vulnerability in the browser-based remote management interface may allow an administrator to access sensitive information on the device via crafted requests, affecting certain production printers and office/small office multifunction printers.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1789",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-04-24T00:16:26.400000",
-      "created_at": "2026-04-24T21:38:03.783131+00:00"
     }
   ]
 }
