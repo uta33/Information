@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-26T08:10:56.366263+00:00",
+  "generated_at": "2026-04-26T09:43:04.740256+00:00",
   "items": [
+    {
+      "id": "16fb275295705f04",
+      "content_hash": "16fb275295705f042e2cc3a6b2f910c410ef522bf827c7cf8d387c5108831352",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jsoftware.com/papers/perlis78.htm",
+      "title": "APL is more French than English",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908166\">Comments</a>",
+      "url": "https://www.jsoftware.com/papers/perlis78.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:24:07+00:00",
+      "created_at": "2026-04-26T09:43:04.739703+00:00"
+    },
+    {
+      "id": "5bdde6ce73f88440",
+      "content_hash": "5bdde6ce73f884408843fb986c9f65679634ef9da7f4966ec90aa0618ef70f24",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/knight-lang/knight-lang/tree/master",
+      "title": "The Knight Programming Language",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908158\">Comments</a>",
+      "url": "https://github.com/knight-lang/knight-lang/tree/master",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:22:22+00:00",
+      "created_at": "2026-04-26T09:43:04.740004+00:00"
+    },
     {
       "id": "81502605fa2651c7",
       "content_hash": "81502605fa2651c77c7f19daf22ff3e6af7fcd4655891f34cc5c911e8980c8fc",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T07:19:20+00:00",
       "created_at": "2026-04-26T08:10:56.365521+00:00"
+    },
+    {
+      "id": "dc82a9031cdcacc1",
+      "content_hash": "dc82a9031cdcacc1162cd5b0ce02d2cd62f9c06372a587408f10fe769e90d17f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mastodon.catgirl.cloud/@sophie/116467789133733136",
+      "title": "Tip: Web requests should not be measured in Hz [Hertz]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908105\">Comments</a>",
+      "url": "https://mastodon.catgirl.cloud/@sophie/116467789133733136",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:13:08+00:00",
+      "created_at": "2026-04-26T09:43:04.739501+00:00"
     },
     {
       "id": "057d36e6d4a61353",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-23T22:16:42.327000",
       "created_at": "2026-04-24T21:38:03.783058+00:00"
-    },
-    {
-      "id": "11ed7a95adf0b1c5",
-      "content_hash": "11ed7a95adf0b1c5973cee4e3a98e35dc5ae73e682f3e82ea2fad87aaa4b864b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41351",
-      "title": "CVE-2026-41351 - OpenClaw before 2026.3.31 contains a replay detection bypass vulnerability in we...",
-      "body": "OpenClaw before 2026.3.31 contains a replay detection bypass vulnerability in webhook signature handling that treats Base64 and Base64URL encoded signatures as distinct requests. Attackers can re-encode Telnyx webhook signatures to bypass replay detection while maintaining valid signature verification.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41351",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-23T22:16:42.160000",
-      "created_at": "2026-04-24T21:38:03.783051+00:00"
-    },
-    {
-      "id": "cb82ad2fb0f7bfb3",
-      "content_hash": "cb82ad2fb0f7bfb3087dc466e685718f14d5eff44211d8463c2fd86e0ece946b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41350",
-      "title": "CVE-2026-41350 - OpenClaw before 2026.3.31 contains a session visibility bypass vulnerability whe...",
-      "body": "OpenClaw before 2026.3.31 contains a session visibility bypass vulnerability where the session_status function fails to enforce configured tools.sessions.visibility restrictions for unsandboxed invocations. Attackers can invoke session_status without sandbox constraints to bypass session-policy controls and access restricted session information.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41350",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-04-23T22:16:42",
-      "created_at": "2026-04-24T21:38:03.783045+00:00"
-    },
-    {
-      "id": "d8380cf8cfaa3ea6",
-      "content_hash": "d8380cf8cfaa3ea65b1b3419780d2cb7cf66f7ebbe8dbed4524fe0d73839f8f7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41349",
-      "title": "CVE-2026-41349 - OpenClaw before 2026.3.28 contains an agentic consent bypass vulnerability allow...",
-      "body": "OpenClaw before 2026.3.28 contains an agentic consent bypass vulnerability allowing LLM agents to silently disable execution approval via config.patch parameter. Remote attackers can exploit this to bypass security controls and execute unauthorized operations without user consent.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41349",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-04-23T22:16:41.827000",
-      "created_at": "2026-04-24T21:38:03.783039+00:00"
     }
   ]
 }
