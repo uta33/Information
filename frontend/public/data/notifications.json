@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T16:30:26.850913+00:00",
+  "generated_at": "2026-04-26T17:30:23.941499+00:00",
   "items": [
     {
       "id": "c85c9e1494e23f13",
@@ -42,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T15:30:00+00:00",
       "created_at": "2026-04-26T15:33:33.503430+00:00"
+    },
+    {
+      "id": "ebbfde1c38c278fc",
+      "content_hash": "ebbfde1c38c278fc4039c5194fca5e9581350fa8f27034cf5664738c9f957e50",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thermodynamicsbook.com/",
+      "title": "Free Textbook on Engineering Thermodynamics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47911013\">Comments</a>",
+      "url": "https://thermodynamicsbook.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T15:17:34+00:00",
+      "created_at": "2026-04-26T17:30:23.940806+00:00"
     },
     {
       "id": "fdda253583ab51a4",
@@ -98,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T13:58:13+00:00",
       "created_at": "2026-04-26T15:33:33.669152+00:00"
+    },
+    {
+      "id": "8f6bb33e7b9a5edb",
+      "content_hash": "8f6bb33e7b9a5edbc163b8ccd5ad34e09bd33084d741a4ee1826ccdcf5154e0e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7041",
+      "title": "CVE-2026-7041 - A vulnerability was detected in 666ghj MiroFish up to 0.1.2. The impacted elemen...",
+      "body": "A vulnerability was detected in 666ghj MiroFish up to 0.1.2. The impacted element is an unknown function of the file /console of the component Werkzeug Debugger PIN Handler. Performing a manipulation of the argument SECRET results in information disclosure. It is possible to initiate the attack remotely. The attack is considered to have high complexity. The exploitability is regarded as difficult. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7041",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.7,
+      "published_at": "2026-04-26T13:16:01.813000",
+      "created_at": "2026-04-26T17:30:19.256839+00:00"
     },
     {
       "id": "c326fd65f4f8739d",
@@ -6176,6 +6204,20 @@
       "created_at": "2026-04-24T04:46:20.498303+00:00"
     },
     {
+      "id": "bdb9f11b2bf1c2cb",
+      "content_hash": "bdb9f11b2bf1c2cb2225b013ee62e207b248cff19ca9e6351266c5152e5704a4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
+      "title": "Dear friend, you have built a Kubernetes (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47885012\">Comments</a>",
+      "url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-24T03:07:45+00:00",
+      "created_at": "2026-04-26T17:30:23.940984+00:00"
+    },
+    {
       "id": "084b9bdde616da83",
       "content_hash": "084b9bdde616da835b9d8d2315ab2dc0fb0448917295b9607f68491b40c2acbf",
       "source_name": "Hacker News (Best)",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-24T02:01:40+00:00",
       "created_at": "2026-04-25T21:27:01.561335+00:00"
-    },
-    {
-      "id": "c40c62f0eeea030f",
-      "content_hash": "c40c62f0eeea030fe777a437ce155a8ff262e05c399a0beb1070704266a3a7a9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41325",
-      "title": "CVE-2026-41325 - Kirby is an open-source content management system. Kirby's user permissions cont...",
-      "body": "Kirby is an open-source content management system. Kirby's user permissions control which user role is allowed to perform specific actions to content models in the CMS. These permissions are defined for each role in the user blueprint (`site/blueprints/users/...`). It is also possible to customize the permissions for each target model in the model blueprints (such as in `site/blueprints/pages/...`) using the `options` feature. The permissions and options together control the authorization of user actions. Kirby provides the `pages.create`, `files.create` and `users.create` permissions (among others). These permissions can again be set in the user blueprint and/or in the blueprint of the target model via `options`. Prior to versions 4.9.0 and 5.4.0, Kirby allowed to override the `options` during the creation of pages, files and users by injecting custom dynamic blueprint configuration into the model data. The injected `options` could include `'create' => true`, which then caused an override of the permissions and options configured by the site developer in the user and model blueprints. The problem has been patched in Kirby 4.9.0 and Kirby 5.4.0. The patched versions have updated the normalization code that is used during the creation of pages, files and users to include a filter for the `blueprint` property. This prevents the injection of dynamic blueprint configuration into the creation request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41325",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T01:16:12.427000",
-      "created_at": "2026-04-24T23:31:15.176586+00:00"
-    },
-    {
-      "id": "41d97534c35980fe",
-      "content_hash": "41d97534c35980fe2ec7c9140e5eb9bc1437f454463358223e5c4242addf2344",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40099",
-      "title": "CVE-2026-40099 - Kirby is an open-source content management system. Kirby's user permissions cont...",
-      "body": "Kirby is an open-source content management system. Kirby's user permissions control which user role is allowed to perform specific actions to content models in the CMS. These permissions are defined for each role in the user blueprint (`site/blueprints/users/...`). It is also possible to customize the permissions for each target model in the model blueprints (such as in `site/blueprints/pages/...`) using the `options` feature. The permissions and options together control the authorization of user actions. For pages, Kirby provides the `pages.create` and `pages.changeStatus` permissions (among others). Prior to versions 4.9.0 and 5.4.0, Kirby checked these permissions independently and only for the respective action. However the `changeStatus` permission didn't take effect on page creation. New pages are created as drafts by default and need to be published by changing the page status of an existing page draft. This is ensured when the page is created via the Kirby Panel. However the REST API allows to override the `isDraft` flag when creating a new page. This allowed authenticated attackers with the `pages.create` permission to immediately create published pages, bypassing the normal editorial workflow. The problem has been patched in Kirby 4.9.0 and Kirby 5.4.0. Kirby has added a check to the page creation rules that ensures that users without the `pages.changeStatus` permission cannot create published pages, only page drafts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40099",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T01:16:12.273000",
-      "created_at": "2026-04-24T23:31:15.176578+00:00"
-    },
-    {
-      "id": "6dc5d25c9146e60e",
-      "content_hash": "6dc5d25c9146e60edb2715bc4c427951a29406b45eb1d77cd463093b75120947",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-34587",
-      "title": "CVE-2026-34587 - Kirby is an open-source content management system. Prior to versions 4.9.0 and 5...",
-      "body": "Kirby is an open-source content management system. Prior to versions 4.9.0 and 5.4.0, Kirby's user permissions control which user role is allowed to perform specific actions to content models in the CMS. These permissions are defined for each role in the user blueprint (`site/blueprints/users/...`). It is also possible to customize the permissions for each target model in the model blueprints (such as in `site/blueprints/pages/...`) using the `options` feature. The permissions and options together control the authorization of user actions. For pages, Kirby provides the `pages.create` and `pages.changeStatus` permissions (among others). In affected releases, Kirby checked these permissions independently and only for the respective action. However the `changeStatus` permission didn't take effect on page creation. New pages are created as drafts by default and need to be published by changing the page status of an existing page draft. This is ensured when the page is created via the Kirby Panel. However the REST API allows to override the `isDraft` flag when creating a new page. This allowed authenticated attackers with the `pages.create` permission to immediately create published pages, bypassing the normal editorial workflow. The problem has been patched in Kirby 4.9.0 and Kirby 5.4.0. Kirby has updated the `Options` logic to no longer double-resolve queries in option values coming from `OptionsQuery` or `OptionsApi` sources. Kirby now only resolves queries that are directly configured in the blueprints.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34587",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T01:16:12.120000",
-      "created_at": "2026-04-24T23:31:15.176564+00:00"
     }
   ]
 }
