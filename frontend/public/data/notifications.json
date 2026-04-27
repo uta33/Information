@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-27T20:50:54.038789+00:00",
+  "generated_at": "2026-04-27T21:44:45.852634+00:00",
   "items": [
+    {
+      "id": "ebb523ea90059648",
+      "content_hash": "ebb523ea90059648dd125ca18e1279ddc41afcb5e35f272cede90d19b0984ed9",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+      "body": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T21:41:01+00:00",
+      "created_at": "2026-04-27T21:44:40.193248+00:00"
+    },
+    {
+      "id": "004160ffb78723e5",
+      "content_hash": "004160ffb78723e5810769989063814c105443bd3369d7755897f9984c20f103",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tps.ca/media-centre/stories/unprecedented-sms-blaster-arrests/",
+      "title": "Three men are facing 44 charges in Toronto SMS Blaster Arrests",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47927070\">Comments</a>",
+      "url": "https://www.tps.ca/media-centre/stories/unprecedented-sms-blaster-arrests/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T20:44:16+00:00",
+      "created_at": "2026-04-27T21:44:45.851979+00:00"
+    },
     {
       "id": "6873b5821b2b4bc1",
       "content_hash": "6873b5821b2b4bc137c34a12b01faa96b3b3362a2cce2bc990d900300c494226",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-27T20:37:49+00:00",
       "created_at": "2026-04-27T20:50:53.924515+00:00"
+    },
+    {
+      "id": "912328065e59850b",
+      "content_hash": "912328065e59850bc9a128321751f4a490c8fee9bbfa707b67f46bee8ea7f3ea",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ismy.blue/",
+      "title": "Is my blue your blue?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47926861\">Comments</a>",
+      "url": "https://ismy.blue/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T20:24:33+00:00",
+      "created_at": "2026-04-27T21:44:45.851882+00:00"
     },
     {
       "id": "75c35b9186bebb28",
@@ -84,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-04-27T19:09:53+00:00",
       "created_at": "2026-04-27T19:22:40.675981+00:00"
+    },
+    {
+      "id": "d74bdb58a258adeb",
+      "content_hash": "d74bdb58a258adebbbb089742a6d59eced3fc9d93a5ef4fb55d4c21e42b349ea",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3116710",
+      "title": "Consumers lost $2.1B to social media scams in 2025, FTC reports",
+      "body": "The agency reports that losses from social media scams have increased eightfold and that social media scams resulted in higher losses than any other method scammers used to contact consumers.",
+      "url": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-04-27T19:09:53+00:00",
+      "created_at": "2026-04-27T21:44:45.522476+00:00"
     },
     {
       "id": "07a9f86af22c6a69",
@@ -546,6 +602,20 @@
       "cvss_score": null,
       "published_at": "2026-04-27T14:17:59+00:00",
       "created_at": "2026-04-27T14:55:58.326073+00:00"
+    },
+    {
+      "id": "87263340d95cf134",
+      "content_hash": "87263340d95cf13469f378b8240859aa361e873815e64902f399d2e94025a6e3",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "body": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T14:00:00+00:00",
+      "created_at": "2026-04-27T21:44:39.630836+00:00"
     },
     {
       "id": "642758fd7e907561",
@@ -1876,6 +1946,34 @@
       "cvss_score": null,
       "published_at": "2026-04-27T00:34:30+00:00",
       "created_at": "2026-04-27T01:29:52.510889+00:00"
+    },
+    {
+      "id": "eb3a0be0839c7fe5",
+      "content_hash": "eb3a0be0839c7fe55b2a032337386cc3543195151c34ef6090555b9214be9540",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7068",
+      "title": "CVE-2026-7068 - A vulnerability was identified in D-Link DIR-825 3.00b32. This affects the funct...",
+      "body": "A vulnerability was identified in D-Link DIR-825 3.00b32. This affects the function NMBD_process of the file sserver.c of the component nmbd. Such manipulation leads to buffer overflow. The attack can only be initiated within the local network. The exploit is publicly available and might be used. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7068",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-04-27T00:16:21.050000",
+      "created_at": "2026-04-27T21:44:40.338827+00:00"
+    },
+    {
+      "id": "505afdbd18ac8bd7",
+      "content_hash": "505afdbd18ac8bd73fb0ad0921e50035227f2abc6e08e222e428230e1cfc2983",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7067",
+      "title": "CVE-2026-7067 - A vulnerability was determined in D-Link DIR-822 A_101. The impacted element is ...",
+      "body": "A vulnerability was determined in D-Link DIR-822 A_101. The impacted element is the function system of the file /udhcpcd/dhcpd.c of the component udhcpd DHCP Service. This manipulation of the argument Hostname causes command injection. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7067",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-27T00:16:20.870000",
+      "created_at": "2026-04-27T21:44:40.338821+00:00"
     },
     {
       "id": "d343c4bd0c1bcea9",
@@ -4608,6 +4706,20 @@
       "created_at": "2026-04-27T19:22:41.113288+00:00"
     },
     {
+      "id": "ac6a0317d21cd19f",
+      "content_hash": "ac6a0317d21cd19f8b2c3d6bf1a30f36d0d7d09f778c910d7c8f3ecea24c2ebd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/",
+      "title": "The quiet resurgence of RF engineering",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47903439\">Comments</a>",
+      "url": "https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T18:25:54+00:00",
+      "created_at": "2026-04-27T21:44:45.852037+00:00"
+    },
+    {
       "id": "bffbe6350a3294e8",
       "content_hash": "bffbe6350a3294e8aa22792a7bba7a6eb9a0c270bce272932bce9884e74ed646",
       "source_name": "CVE (NVD)",
@@ -6888,118 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-04-24T18:16:30.543000",
       "created_at": "2026-04-25T16:29:43.549013+00:00"
-    },
-    {
-      "id": "c10ab8c37c992295",
-      "content_hash": "c10ab8c37c99229539dda7684b635bcfd5a9b8538a0de979a24832c8c98e93af",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42036",
-      "title": "CVE-2026-42036 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, when responseType: 'stream' is used, Axios returns the response stream without enforcing maxContentLength. This bypasses configured response-size limits and allows unbounded downstream consumption. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42036",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-24T18:16:30.410000",
-      "created_at": "2026-04-25T16:29:43.549006+00:00"
-    },
-    {
-      "id": "1f5ca9e2ec147684",
-      "content_hash": "1f5ca9e2ec1476848c18ee0291c7660c9ffd0c280b06799652a67982720143e6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42035",
-      "title": "CVE-2026-42035 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, a prototype pollution gadget exists in the Axios HTTP adapter (lib/adapters/http.js) that allows an attacker to inject arbitrary HTTP headers into outgoing requests. The vulnerability exploits duck-type checking of the data payload, where if Object.prototype is polluted with getHeaders, append, pipe, on, once, and Symbol.toStringTag, Axios misidentifies any plain object payload as a FormData instance and calls the attacker-controlled getHeaders() function, merging the returned headers into the outgoing request. The vulnerable code resides exclusively in lib/adapters/http.js. The prototype pollution source does not need to originate from Axios itself — any prototype pollution primitive in any dependency in the application's dependency tree is sufficient to trigger this gadget. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42035",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-04-24T18:16:30.273000",
-      "created_at": "2026-04-25T16:29:43.548999+00:00"
-    },
-    {
-      "id": "cc08ebf37229a7c3",
-      "content_hash": "cc08ebf37229a7c390eb209b96609528da357cbf1a1342e3978e1955fff66a82",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42034",
-      "title": "CVE-2026-42034 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, for stream request bodies, maxBodyLength is bypassed when maxRedirects is set to 0 (native http/https transport path). Oversized streamed uploads are sent fully even when the caller sets strict body limits. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42034",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-24T18:16:30.140000",
-      "created_at": "2026-04-25T16:29:43.548992+00:00"
-    },
-    {
-      "id": "01e154de271b4a00",
-      "content_hash": "01e154de271b4a009a374ecb166f2c4be9ebda62be87b68a0e41e542ffd5986b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42033",
-      "title": "CVE-2026-42033 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, when Object.prototype has been polluted by any co-dependency with keys that axios reads without a hasOwnProperty guard, an attacker can (a) silently intercept and modify every JSON response before the application sees it, or (b) fully hijack the underlying HTTP transport, gaining access to request credentials, headers, and body. The precondition is prototype pollution from a separate source in the same process. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42033",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-04-24T18:16:29.993000",
-      "created_at": "2026-04-25T16:29:43.548985+00:00"
-    },
-    {
-      "id": "b50f663a782bdff3",
-      "content_hash": "b50f663a782bdff3d0e19af92fb5217b37f260dbe10ee08ebfa2f68da47a23c1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41898",
-      "title": "CVE-2026-41898 - rust-openssl provides OpenSSL bindings for the Rust programming language.  From ...",
-      "body": "rust-openssl provides OpenSSL bindings for the Rust programming language.  From 0.9.24 to before 0.10.78, the FFI trampolines behind SslContextBuilder::set_psk_client_callback, set_psk_server_callback, set_cookie_generate_cb, and set_stateless_cookie_generate_cb forwarded the user closure's returned usize directly to OpenSSL without checking it against the &mut [u8] that was handed to the closure. This can lead to buffer overflows and other unintended consequences. This vulnerability is fixed in 0.10.78.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41898",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T18:16:29.860000",
-      "created_at": "2026-04-25T16:29:43.548979+00:00"
-    },
-    {
-      "id": "9180f0e31baaa553",
-      "content_hash": "9180f0e31baaa553a4beee68803e9f24708d8f89f5e6a72b2e89f092260f328d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41681",
-      "title": "CVE-2026-41681 - rust-openssl provides OpenSSL bindings for the Rust programming language.  From ...",
-      "body": "rust-openssl provides OpenSSL bindings for the Rust programming language.  From 0.10.39 to before 0.10.78, EVP_DigestFinal() always writes EVP_MD_CTX_size(ctx) to the out buffer. If out is smaller than that, MdCtxRef::digest_final() writes past its end, usually corrupting the stack. This is reachable from safe Rust. This vulnerability is fixed in 0.10.78.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41681",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T18:16:29.717000",
-      "created_at": "2026-04-25T16:29:43.548972+00:00"
-    },
-    {
-      "id": "18c88ac7f1ec5eaa",
-      "content_hash": "18c88ac7f1ec5eaa9f1d53a6277d0bac66a70d18735fec37256f02d14cc4d5c4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41680",
-      "title": "CVE-2026-41680 - Marked is a markdown parser and compiler. From 18.0.0 to 18.0.1, a critical Deni...",
-      "body": "Marked is a markdown parser and compiler. From 18.0.0 to 18.0.1, a critical Denial of Service (DoS) vulnerability exists in marked. By providing a specific 3-byte input sequence a tab, a vertical tab, and a newline (\\x09\\x0b\\n)—an unauthenticated attacker can trigger an infinite recursion loop during parsing. This leads to unbounded memory allocation, causing the host Node.js application to crash via Memory Exhaustion (OOM). This vulnerability is fixed in 18.0.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41680",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T18:16:29.567000",
-      "created_at": "2026-04-25T16:29:43.548966+00:00"
-    },
-    {
-      "id": "75c4067beb81b0d5",
-      "content_hash": "75c4067beb81b0d54b8a51077c175b520a808e29634a98c0a59bdd210b32cb21",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41678",
-      "title": "CVE-2026-41678 - rust-openssl provides OpenSSL bindings for the Rust programming language.  From ...",
-      "body": "rust-openssl provides OpenSSL bindings for the Rust programming language.  From  to before 0.10.78, aes::unwrap_key() contains an incorrect assertion: it checks that out.len() + 8 <= in_.len(), but this condition is reversed. The intended invariant is out.len() >= in_.len() - 8, ensuring the output buffer is large enough. Because of the inverted check, the function only accepts buffers at or below the minimum required size and rejects larger ones. If a smaller buffer is provided the function will write past the end of out by in_.len() - 8 - out.len() bytes, causing an out-of-bounds write from a safe public function. This vulnerability is fixed in 0.10.78.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41678",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T18:16:29.420000",
-      "created_at": "2026-04-25T16:29:43.548959+00:00"
     }
   ]
 }
