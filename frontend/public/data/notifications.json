@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T21:44:45.852634+00:00",
+  "generated_at": "2026-04-27T22:39:33.136229+00:00",
   "items": [
     {
       "id": "ebb523ea90059648",
@@ -16,6 +16,20 @@
       "created_at": "2026-04-27T21:44:40.193248+00:00"
     },
     {
+      "id": "bf58ecc640346de8",
+      "content_hash": "bf58ecc640346de85e214c5446eec9ace4f9bc7f74c2156f660b91535e82b60c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://status.npmjs.org",
+      "title": "NPM Website Is Down",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47927526\">Comments</a>",
+      "url": "https://status.npmjs.org",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T21:26:25+00:00",
+      "created_at": "2026-04-27T22:39:33.135497+00:00"
+    },
+    {
       "id": "004160ffb78723e5",
       "content_hash": "004160ffb78723e5810769989063814c105443bd3369d7755897f9984c20f103",
       "source_name": "Hacker News (Best)",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-04-27T20:44:16+00:00",
       "created_at": "2026-04-27T21:44:45.851979+00:00"
+    },
+    {
+      "id": "9ba7df221b8ce2fb",
+      "content_hash": "9ba7df221b8ce2fb2c41d8304d0702cb007b610c36025f9cff970fe6f2cbd346",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tps.ca/media-centre/stories/unprecedented-sms-blaster-arrests/",
+      "title": "Three men are facing 44 charges in Toronto SMS Blaster arrests",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47927070\">Comments</a>",
+      "url": "https://www.tps.ca/media-centre/stories/unprecedented-sms-blaster-arrests/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T20:44:16+00:00",
+      "created_at": "2026-04-27T22:39:33.135570+00:00"
     },
     {
       "id": "6873b5821b2b4bc1",
@@ -3572,6 +3600,20 @@
       "created_at": "2026-04-26T11:31:51.108048+00:00"
     },
     {
+      "id": "8819700f48235608",
+      "content_hash": "8819700f482356088c0491b4fe9dd4d910076b7be9252fa8d9d51c0c4b0ebf1e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://anniecherkaev.com/the-secret-life-of-nan",
+      "title": "The Secret Life of NaN",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47909252\">Comments</a>",
+      "url": "https://anniecherkaev.com/the-secret-life-of-nan",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T10:56:24+00:00",
+      "created_at": "2026-04-27T22:39:33.135820+00:00"
+    },
+    {
       "id": "719ed68374e4c986",
       "content_hash": "719ed68374e4c9867ee534c558e4cc6798c811a65ce4edc5a68ec4b6ba0988d9",
       "source_name": "Hacker News (Best)",
@@ -4410,6 +4452,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T21:17:02+00:00",
       "created_at": "2026-04-27T19:22:41.113343+00:00"
+    },
+    {
+      "id": "832ce822fd59767b",
+      "content_hash": "832ce822fd59767b6f1bcf761fe7e5b994d350fd679febb50df65b8ad0d1171e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://publicdomainreview.org/essay/magic-by-return-of-post/",
+      "title": "Magic by return of post: How mail order delivered the occult",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47904615\">Comments</a>",
+      "url": "https://publicdomainreview.org/essay/magic-by-return-of-post/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T21:17:02+00:00",
+      "created_at": "2026-04-27T22:39:33.135855+00:00"
     },
     {
       "id": "01ef773cac804883",
@@ -6944,62 +7000,6 @@
       "cvss_score": 4.8,
       "published_at": "2026-04-24T18:16:31.133000",
       "created_at": "2026-04-25T16:29:43.549041+00:00"
-    },
-    {
-      "id": "4bb102d7c1021d33",
-      "content_hash": "4bb102d7c1021d33e71e4e52d138c28e0500790b00c4c5583aa76b8e58c9ec8d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42040",
-      "title": "CVE-2026-42040 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, the encode() function in lib/helpers/AxiosURLSearchParams.js contains a character mapping (charMap) at line 21 that reverses the safe percent-encoding of null bytes. After encodeURIComponent('\\x00') correctly produces the safe sequence %00, the charMap entry '%00': '\\x00' converts it back to a raw null byte. Primary impact is limited because the standard axios request flow is not affected. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42040",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-04-24T18:16:30.960000",
-      "created_at": "2026-04-25T16:29:43.549034+00:00"
-    },
-    {
-      "id": "f4f741a3062821e8",
-      "content_hash": "f4f741a3062821e8bf8ee9d6239ea590e970ae2e31077edcdbbfedae3198ec99",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42039",
-      "title": "CVE-2026-42039 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, toFormData recursively walks nested objects with no depth limit, so a deeply nested value passed as request data crashes the Node.js process with a RangeError. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42039",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T18:16:30.827000",
-      "created_at": "2026-04-25T16:29:43.549027+00:00"
-    },
-    {
-      "id": "f7a01dac517bd66a",
-      "content_hash": "f7a01dac517bd66a949d74c6a80e32b354e79dbfd0ddbcf6111a4c5ed786d840",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42038",
-      "title": "CVE-2026-42038 - Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15....",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.1 and 0.31.1, he fix for no_proxy hostname normalization bypass is incomplete. When no_proxy=localhost is set, requests to 127.0.0.1 and [::1] still route through the proxy instead of bypassing it. The shouldBypassProxy() function does pure string matching — it does not resolve IP aliases or loopback equivalents. This vulnerability is fixed in 1.15.1 and 0.31.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42038",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-04-24T18:16:30.680000",
-      "created_at": "2026-04-25T16:29:43.549020+00:00"
-    },
-    {
-      "id": "7d5a4170b84fb4cd",
-      "content_hash": "7d5a4170b84fb4cd3139a0898f499d6ceec51af901804419dd847055657d4aef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42037",
-      "title": "CVE-2026-42037 - Axios is a promise based HTTP client for the browser and Node.js. From 1.0.0 to ...",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. From 1.0.0 to before 1.15.1, the FormDataPart constructor in lib/helpers/formDataToStream.js interpolates value.type directly into the Content-Type header of each multipart part without sanitizing CRLF (\\r\\n) sequences. An attacker who controls the .type property of a Blob/File-like object (e.g., via a user-uploaded file in a Node.js proxy service) can inject arbitrary MIME part headers into the multipart form-data body. This bypasses Node.js v18+ built-in header protections because the injection targets the multipart body structure, not HTTP request headers. This vulnerability is fixed in 1.15.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42037",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-24T18:16:30.543000",
-      "created_at": "2026-04-25T16:29:43.549013+00:00"
     }
   ]
 }
