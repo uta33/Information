@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-26T23:29:13.296825+00:00",
+  "generated_at": "2026-04-27T01:29:52.511677+00:00",
   "items": [
+    {
+      "id": "448372110f7d7302",
+      "content_hash": "448372110f7d7302606af7712429527f42822d26220b9cafd38cfef641015d49",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47916410\">Comments</a>",
+      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T00:34:30+00:00",
+      "created_at": "2026-04-27T01:29:52.510889+00:00"
+    },
     {
       "id": "a2f39017843f35e9",
       "content_hash": "a2f39017843f35e91044e01a2045ddf9f6491f86fdb18967e7706ef23c4781b9",
@@ -730,6 +744,20 @@
       "created_at": "2026-04-26T23:29:07.615898+00:00"
     },
     {
+      "id": "ead04eef8d40293b",
+      "content_hash": "ead04eef8d40293b0d01301262a816d62cbeb51754e81fe233eb5ed3eb143bbd",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/our-principles",
+      "title": "Our principles",
+      "body": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "url": "https://openai.com/index/our-principles",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T16:00:00+00:00",
+      "created_at": "2026-04-27T01:29:47.249879+00:00"
+    },
+    {
       "id": "51774b4af01c7e55",
       "content_hash": "51774b4af01c7e55380d74d1f0121b065abfab10183e18dd095fa6013cc31761",
       "source_name": "TechCrunch",
@@ -784,6 +812,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T15:00:00+00:00",
       "created_at": "2026-04-26T15:33:33.503466+00:00"
+    },
+    {
+      "id": "da2cd886cf2d0436",
+      "content_hash": "da2cd886cf2d04366edae090463ce36507dc85bf539f3b8831ee0a576bd5ea11",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.alejandro.pe/writing/sail-muddy-lessons",
+      "title": "Lessons from building multiplayer browsers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47910877\">Comments</a>",
+      "url": "https://www.alejandro.pe/writing/sail-muddy-lessons",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T14:59:37+00:00",
+      "created_at": "2026-04-27T01:29:52.510972+00:00"
     },
     {
       "id": "bacf88f6deced849",
@@ -868,6 +910,20 @@
       "cvss_score": 7.8,
       "published_at": "2026-04-26T13:16:00.727000",
       "created_at": "2026-04-26T16:30:23.454346+00:00"
+    },
+    {
+      "id": "e9650c53ed630175",
+      "content_hash": "e9650c53ed630175a7c80fab0be6b63dcbd7ecbb14b7394ee28169312610f4f6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/",
+      "title": "The fastest Linux timestamps",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47909979\">Comments</a>",
+      "url": "https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T13:00:50+00:00",
+      "created_at": "2026-04-27T01:29:52.511054+00:00"
     },
     {
       "id": "0030228e04262a1e",
@@ -1248,6 +1304,20 @@
       "created_at": "2026-04-26T09:43:04.739501+00:00"
     },
     {
+      "id": "efba9a36e6078642",
+      "content_hash": "efba9a36e6078642f51a49b02b02db833a0094b4f0b80ad67477741a6b61f8fb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://interblah.net/self-updating-screenshots",
+      "title": "Self-updating screenshots",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47908051\">Comments</a>",
+      "url": "https://interblah.net/self-updating-screenshots",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T07:00:39+00:00",
+      "created_at": "2026-04-27T01:29:52.510817+00:00"
+    },
+    {
       "id": "057d36e6d4a61353",
       "content_hash": "057d36e6d4a613539c700fcc24d89d7312b216968f36579baff7f05e4a67f21e",
       "source_name": "Hacker News (Best)",
@@ -1554,6 +1624,20 @@
       "cvss_score": null,
       "published_at": "2026-04-26T01:39:32+00:00",
       "created_at": "2026-04-26T04:50:57.165320+00:00"
+    },
+    {
+      "id": "1e281d94793060c6",
+      "content_hash": "1e281d94793060c6c834b271ac1f7fe20725a0a25174167510a36381139e35d0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arun.is/blog/cheap-cool/",
+      "title": "When the cheap one is the cool one",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47906420\">Comments</a>",
+      "url": "https://arun.is/blog/cheap-cool/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-26T01:25:13+00:00",
+      "created_at": "2026-04-27T01:29:52.511094+00:00"
     },
     {
       "id": "31c75992b50230a2",
@@ -1974,6 +2058,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T19:03:01+00:00",
       "created_at": "2026-04-25T20:27:30.728504+00:00"
+    },
+    {
+      "id": "978bbfcc79d5857c",
+      "content_hash": "978bbfcc79d5857c796b48a5ae05cca616842dba6733af1e186da9a637d565e2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jordanlord.co.uk/blog/3-constraints/",
+      "title": "Three constraints before I build anything",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47903541\">Comments</a>",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T18:41:03+00:00",
+      "created_at": "2026-04-27T01:29:52.510867+00:00"
     },
     {
       "id": "fa1d7332961fa5eb",
@@ -2858,6 +2956,20 @@
       "created_at": "2026-04-25T09:41:32.485731+00:00"
     },
     {
+      "id": "6b4385657a22edce",
+      "content_hash": "6b4385657a22edcec7e4051692ee78307684c1dc13c135a3b6ff43f6636080ec",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ianvisits.co.uk/articles/a-garden-built-from-its-own-ruins-opens-in-regents-park-89152/",
+      "title": "The QEII garden – built from its own ruins – opens in Regent's Park",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47899774\">Comments</a>",
+      "url": "https://www.ianvisits.co.uk/articles/a-garden-built-from-its-own-ruins-opens-in-regents-park-89152/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T08:38:47+00:00",
+      "created_at": "2026-04-27T01:29:52.511350+00:00"
+    },
+    {
       "id": "d8f1521e4565b1f7",
       "content_hash": "d8f1521e4565b1f71e0ae1d6ccd5253dc1c8f25dbdf661a95c1192e821b83418",
       "source_name": "Hacker News (Best)",
@@ -2968,6 +3080,20 @@
       "cvss_score": null,
       "published_at": "2026-04-25T03:30:00+00:00",
       "created_at": "2026-04-25T04:27:32.639716+00:00"
+    },
+    {
+      "id": "08a8caa47500ab84",
+      "content_hash": "08a8caa47500ab84f46bfee75916f8cd9456c54cfb68685053d7de5dd5a38c61",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://porticoquarterly.com/book/the-last-of-the-lost-generation/",
+      "title": "The Last of the Lost Generation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47898142\">Comments</a>",
+      "url": "https://porticoquarterly.com/book/the-last-of-the-lost-generation/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-25T02:42:06+00:00",
+      "created_at": "2026-04-27T01:29:52.511391+00:00"
     },
     {
       "id": "eb4dbac165213242",
@@ -6874,132 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-04-24T03:16:11.203000",
       "created_at": "2026-04-24T23:31:15.176641+00:00"
-    },
-    {
-      "id": "ce3d6fcba83563e6",
-      "content_hash": "ce3d6fcba83563e6a6c9fd265bfd507ced7162c3ab8702d69abc3a3e979c80d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33317",
-      "title": "CVE-2026-33317 - OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-s...",
-      "body": "OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. In versions 3.13.0 through 4.10.0, missing checks in `entry_get_attribute_value()`  in `ta/pkcs11/src/object.c` can lead to out-of-bounds read from the PKCS#11 TA heap or a crash. When chained with the OOB read, the PKCS#11 TA function `PKCS11_CMD_GET_ATTRIBUTE_VALUE`  or `entry_get_attribute_value()` can, with a bad template parameter, be tricked into reading at most 7 bytes beyond the end of the template buffer and writing beyond the end of the template buffer with the content of an attribute value of a PKCS#11 object. Commits e031c4e562023fd9f199e39fd2e85797e4cbdca9, 16926d5a46934c46e6656246b4fc18385a246900, and 149e8d7ecc4ef8bb00ab4a37fd2ccede6d79e1ca contain patches and are anticipated to be part of version 4.11.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33317",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.7,
-      "published_at": "2026-04-24T03:16:11.020000",
-      "created_at": "2026-04-24T23:31:15.176633+00:00"
-    },
-    {
-      "id": "02f6bc29f447d738",
-      "content_hash": "02f6bc29f447d738c0256c28807e6118ea9de74234429d785f7ef8367b08091f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33208",
-      "title": "CVE-2026-33208 - Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived se...",
-      "body": "Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived servers. Prior to version 8.2.6.4, the /config/ < service > /find-in-config endpoint in Roxy-WI fails to sanitize the user-supplied words parameter before embedding it into a shell command string that is subsequently executed on a remote managed server via SSH. An authenticated attacker can inject arbitrary shell metacharacters to break out of the intended grep command context and execute arbitrary OS commands with sudo privileges on the target server, resulting in full Remote Code Execution (RCE). Version 8.2.6.4 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33208",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:16:10.863000",
-      "created_at": "2026-04-24T23:31:15.176625+00:00"
-    },
-    {
-      "id": "8fff5f3aa84e1356",
-      "content_hash": "8fff5f3aa84e13565bdedb6714d62e5d77eace2c97ee2a87ebc10133022667cf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33078",
-      "title": "CVE-2026-33078 - Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived se...",
-      "body": "Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived servers. Versions prior to 8.2.6.4 have a SQL injection vulnerability in the haproxy_section_save function in app/routes/config/routes.py. The server_ip parameter, sourced from the URL path, is passed unsanitized through multiple function calls and ultimately interpolated into a SQL query string using Python string formatting, allowing attackers to execute arbitrary SQL commands. Version 8.2.6.4 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33078",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:16:10.657000",
-      "created_at": "2026-04-24T23:31:15.176618+00:00"
-    },
-    {
-      "id": "ffc43659ef393299",
-      "content_hash": "ffc43659ef39329933b7b6f5dc318bd9039223e44c39eb2cd0d3efecbc72e13e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33077",
-      "title": "CVE-2026-33077 - Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived se...",
-      "body": "Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived servers. Prior to version 8.2.6.4, the oldconfig parameter in the haproxy_section_save interface has an arbitrary file read vulnerability. Version 8.2.6.4 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33077",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:16:10.477000",
-      "created_at": "2026-04-24T23:31:15.176610+00:00"
-    },
-    {
-      "id": "7ee2de13daff312a",
-      "content_hash": "7ee2de13daff312a4cd68e7b3248045cfd0368b8c0c7713ea94eadfe013db08a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-33076",
-      "title": "CVE-2026-33076 - Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived se...",
-      "body": "Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived servers. Prior to version 8.2.6.4, the haproxy_section_save interface presents a vulnerability that could lead to remote code execution due to path traversal and writing into scheduled tasks. Version 8.2.6.4 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33076",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:16:10.227000",
-      "created_at": "2026-04-24T23:31:15.176602+00:00"
-    },
-    {
-      "id": "1f064134ef59e5e4",
-      "content_hash": "1f064134ef59e5e46d1baf4fdffe0511fd01bfcb52937b80352b30522dd115f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-32952",
-      "title": "CVE-2026-32952 - go-ntlmssp is a Go package that provides NTLM/Negotiate authentication over HTTP...",
-      "body": "go-ntlmssp is a Go package that provides NTLM/Negotiate authentication over HTTP. Prior to version 0.1.1, a malicious NTLM challenge message can causes an slice out of bounds panic, which can crash any Go process using `ntlmssp.Negotiator` as an HTTP transport. Version 0.1.1 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32952",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-04-24T03:16:07.833000",
-      "created_at": "2026-04-24T23:31:15.176594+00:00"
-    },
-    {
-      "id": "0881deb6b87f4375",
-      "content_hash": "0881deb6b87f43750af14a38b0f0bbf02dc18673a96270dd0cbe525219e433da",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://xark.es/b/mythos-firefox-150",
-      "title": "A quick look at Mythos run on Firefox: too much hype?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47885042\">Comments</a>",
-      "url": "https://xark.es/b/mythos-firefox-150",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:12:30+00:00",
-      "created_at": "2026-04-24T04:46:20.498007+00:00"
-    },
-    {
-      "id": "a2813562742d4fa9",
-      "content_hash": "a2813562742d4fa9f7247f8dc5770cc60bacc61b7aae8f0e56e5158d66f525cc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47885014\">Comments</a>",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:07:54+00:00",
-      "created_at": "2026-04-24T04:46:20.498303+00:00"
-    },
-    {
-      "id": "bdb9f11b2bf1c2cb",
-      "content_hash": "bdb9f11b2bf1c2cb2225b013ee62e207b248cff19ca9e6351266c5152e5704a4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
-      "title": "Dear friend, you have built a Kubernetes (2024)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47885012\">Comments</a>",
-      "url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-24T03:07:45+00:00",
-      "created_at": "2026-04-26T17:30:23.940984+00:00"
     }
   ]
 }
