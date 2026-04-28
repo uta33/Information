@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-28T22:45:12.269674+00:00",
+  "generated_at": "2026-04-28T23:43:52.341232+00:00",
   "items": [
+    {
+      "id": "7a7cbc7afe6a3448",
+      "content_hash": "7a7cbc7afe6a344841cbfe14238e9f38de64321efafab72b8713a35d8693b225",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dustri.org/b/carrot-disclosure-forgejo.html",
+      "title": "Carrot Disclosure: Forgejo",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47941590\">Comments</a>",
+      "url": "https://dustri.org/b/carrot-disclosure-forgejo.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-28T22:14:29+00:00",
+      "created_at": "2026-04-28T23:43:52.340533+00:00"
+    },
     {
       "id": "c1917c907f73bdbf",
       "content_hash": "c1917c907f73bdbf127606f7a1603c70c56113c0ba1a7358ef1556057d27239d",
@@ -1164,6 +1178,20 @@
       "created_at": "2026-04-28T08:04:32.633144+00:00"
     },
     {
+      "id": "2fb3b0bdd85b8745",
+      "content_hash": "2fb3b0bdd85b874513173e129854d8896924c7dd8266edd9518e7c9d418ebf56",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40355",
+      "title": "CVE-2026-40355 - In MIT Kerberos 5 (aka krb5) before 1.22.3, there is a NULL pointer dereference ...",
+      "body": "In MIT Kerberos 5 (aka krb5) before 1.22.3, there is a NULL pointer dereference if an application calls gss_accept_sec_context() on a system with a NegoEx mechanism registered in /etc/gss/mech. An unauthenticated remote attacker can trigger this, causing the process to terminate in parse_nego_message.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40355",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "published_at": "2026-04-28T06:16:03.663000",
+      "created_at": "2026-04-28T23:43:47.311962+00:00"
+    },
+    {
       "id": "9958ac20bfa8f5e1",
       "content_hash": "9958ac20bfa8f5e113140367167c690387e91dea3be97e0ba70625347d5d6b14",
       "source_name": "The Hacker News",
@@ -1218,6 +1246,48 @@
       "cvss_score": null,
       "published_at": "2026-04-28T04:34:29+00:00",
       "created_at": "2026-04-28T08:04:32.633433+00:00"
+    },
+    {
+      "id": "054b8605c4b1f70a",
+      "content_hash": "054b8605c4b1f70a120bdd11d934224389d23ea933f12b98e757a7099b0114e9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7223",
+      "title": "CVE-2026-7223 - A vulnerability was identified in BigSweetPotatoStudio HyperChat up to 2.0.0-alp...",
+      "body": "A vulnerability was identified in BigSweetPotatoStudio HyperChat up to 2.0.0-alpha.63. Affected by this issue is the function fetch of the file packages/core/src/http/aiProxyMiddleware.mts of the component AI Proxy Middleware. Such manipulation of the argument baseurl leads to server-side request forgery. The attack can be launched remotely. The exploit is publicly available and might be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7223",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-28T04:16:29.043000",
+      "created_at": "2026-04-28T23:43:47.311956+00:00"
+    },
+    {
+      "id": "78b9ceeb49dadff5",
+      "content_hash": "78b9ceeb49dadff528238d0aa71a05908b4450324173dd1ee7108dca08f92d8c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7222",
+      "title": "CVE-2026-7222 - A vulnerability was determined in code-projects Coaching Management System 1.0. ...",
+      "body": "A vulnerability was determined in code-projects Coaching Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /cims/modules/student/complaint.php of the component Complaint Form Page. This manipulation of the argument Complaint causes cross site scripting. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7222",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.5,
+      "published_at": "2026-04-28T04:16:28.827000",
+      "created_at": "2026-04-28T23:43:47.311947+00:00"
+    },
+    {
+      "id": "3c0d0c9b013b006d",
+      "content_hash": "3c0d0c9b013b006d0570956d7a60a76cc695769df679bad452ee04179df02062",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7221",
+      "title": "CVE-2026-7221 - A vulnerability was found in TencentCloudBase CloudBase-MCP up to 2.17.0. Affect...",
+      "body": "A vulnerability was found in TencentCloudBase CloudBase-MCP up to 2.17.0. Affected is the function openUrl of the file mcp/src/interactive-server.ts of the component open-url API Endpoint. The manipulation of the argument req.body.url results in server-side request forgery. It is possible to launch the attack remotely. The exploit has been made public and could be used. Upgrading to version 2.17.1 is able to address this issue. The patch is identified as 3f678a1e7bd400cd76469d61024097d4920dc6b5. It is recommended to upgrade the affected component.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7221",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-04-28T04:16:26.880000",
+      "created_at": "2026-04-28T23:43:47.311934+00:00"
     },
     {
       "id": "dc3a3879c82a94ad",
@@ -4678,6 +4748,20 @@
       "created_at": "2026-04-28T21:53:10.406882+00:00"
     },
     {
+      "id": "1d136323a36ebe1f",
+      "content_hash": "1d136323a36ebe1f47e9460130a6c6da6a59ce755c5fb709ed06fc6866d1b3bf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/",
+      "title": "Behavioral timescale synaptic plasticity rewires the brain after an experience",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47921610\">Comments</a>",
+      "url": "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T13:54:47+00:00",
+      "created_at": "2026-04-28T23:43:52.340593+00:00"
+    },
+    {
       "id": "7bfdac4d4f6738e4",
       "content_hash": "7bfdac4d4f6738e4fc54b8d6f63386b4052ad6964ae0d69a8587613ef04d811e",
       "source_name": "Bleeping Computer",
@@ -6302,6 +6386,20 @@
       "created_at": "2026-04-27T04:58:56.178721+00:00"
     },
     {
+      "id": "a1d00f51b18d410b",
+      "content_hash": "a1d00f51b18d410be279665f13dae08b37f85f3f018b02e53e0a4dbb92f81c75",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sites.google.com/view/elizagen-org/blog/parry-parries-again",
+      "title": "Parry Parries Again: Reanimating the Famous Paranoid Chatbot (In a Day)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47917094\">Comments</a>",
+      "url": "https://sites.google.com/view/elizagen-org/blog/parry-parries-again",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-27T02:32:32+00:00",
+      "created_at": "2026-04-28T23:43:52.340690+00:00"
+    },
+    {
       "id": "fe8ad51ee2017a46",
       "content_hash": "fe8ad51ee2017a4672406fba579ee7b67d29a7581ae8ac5e07bd87450ebc0600",
       "source_name": "JVN（日本脆弱性情報）",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-27T02:27:00+00:00",
       "created_at": "2026-04-27T04:58:56.003760+00:00"
-    },
-    {
-      "id": "d84f5a34777ab198",
-      "content_hash": "d84f5a34777ab19869572a0cff065971056c10ad6353c5885505aeeaae9e948d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012948.html",
-      "title": "M1k1oのNekoにおける複数の脆弱性",
-      "body": "NekoはDocker上で動作し、WebRTCを使用するセルフホスト型の仮想ブラウザです。バージョン3.0.0から3.0.10および3.1.0から3.1.1の間には、認証済みの任意のユーザーが即座にNekoインスタンス全体の完全な管理権限（メンバー管理、ルーム設定、放送制御、セッション終了など）を取得できる脆弱性が存在しています。これにより、インスタンスは完全に侵害されます。この脆弱性はv3.0.11およびv3.1.2で修正されています。すぐにアップグレードできない場合は、以下の緩和策によりリスクを軽減できます。信頼できるユーザーのみにアクセスを制限し（信頼できない者にアカウントを付与しないこと）、すべてのユーザーパスワードを強固にし信頼できる人物とのみ共有してください。インスタンスは必要な時のみ稼働させ、常時公開は避けてください。リバースプロキシなどの追加アクセス制御を持つ認証層の背後に配置し、可能であれば/api/profileエンドポイントへのアクセスを無効化または制限してください。また疑わしい特権変更や予期しない管理操作を監視することを推奨します。これらはあくまで一時的な緩和策であり、脆弱性を完全に解消するものではありません。アップグレードを強く推奨します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012948.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003778+00:00"
-    },
-    {
-      "id": "3e3fb69ca6d4f740",
-      "content_hash": "3e3fb69ca6d4f74016009326518e7d2947c7744b4746d7513a05ff9e2390965e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012947.html",
-      "title": "Lawnchairにおけるコマンドインジェクションの脆弱性",
-      "body": "Lawnchairは、Android向けの無料でオープンソースのホームアプリです。コミットfcba413f55dd47f8a3921445252849126c6266b2以前のバージョンでは、release_update.ymlのワークフロードispatch入力におけるコマンドインジェクションにより任意のコードを実行可能でした。この問題はコミットfcba413f55dd47f8a3921445252849126c6266b2で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012947.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003793+00:00"
-    },
-    {
-      "id": "fcac86e8ca71ed73",
-      "content_hash": "fcac86e8ca71ed73ee6ef8c9e98fd2ab89ceea070eb4244685a3cc389d0be3b4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012946.html",
-      "title": "NetFoundryのzrokにおける複数の脆弱性",
-      "body": "zrokはウェブサービス、ファイル、およびネットワークリソースを共有するためのソフトウェアです。バージョン2.0.1以前では、proxyUiテンプレートエンジンがhtml/templateではなくGoのtext/template（HTMLエスケープを行わない）を使用していました。publicProxyおよびdynamicProxyのGitHub OAuthコールバックハンドラーは、time.ParseDurationが失敗した際に攻撃者が制御するrefreshIntervalクエリパラメータをエラーメッセージにそのまま埋め込み、そのエラーをHTMLにエスケープせずにレンダリングします。攻撃者は巧妙に作成したログインURLを被害者に送信でき、被害者がGitHub OAuthフローを完了すると、コールバックページはOAuthサーバのオリジン上で任意のJavaScriptを実行します。この問題はバージョン2.0.1で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012946.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003807+00:00"
-    },
-    {
-      "id": "3e183c597b8f10cc",
-      "content_hash": "3e183c597b8f10cc9a5e9d2e0dc5a846f9012d60a02b64613b9d68add9752f09",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012945.html",
-      "title": "NetFoundryのzrokにおける複数の脆弱性",
-      "body": "zrokは、ウェブサービス、ファイル、およびネットワークリソースを共有するためのソフトウェアです。バージョン2.0.1より前では、endpoints.GetSessionCookieが攻撃者が提供したクッキーチャンクの数を解析し、トークンの検証が行われる前に上限なしでmake([]string, count)を呼び出していました。この関数はOAuth保護されたプロキシ共有へのすべてのリクエストで呼び出されるため、認証されていないリモートの攻撃者が1リクエストごとにギガバイト規模のヒープ割り当てを引き起こし、プロセスレベルでOOM終了やゴルーチンのパニックの繰り返しを起こす可能性があります。publicProxyとdynamicProxyの両方が影響を受けました。バージョン2.0.1でこの問題は修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012945.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003823+00:00"
-    },
-    {
-      "id": "88847ed02b4b4faa",
-      "content_hash": "88847ed02b4b4faa7c81007e99142873816f4e8356fc2a1f5de92e5bb5635a00",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012944.html",
-      "title": "NetFoundryのzrokにおける複数の脆弱性",
-      "body": "zrokはウェブサービス、ファイル、およびネットワークリソースを共有するためのソフトウェアです。バージョン2.0.1以前では、unaccessハンドラー（controller/unaccess.go）に所有権ガードの論理的なエラーがありました。フロントエンドレコードのenvironment_idがNULL（管理者が作成したグローバルフロントエンドのマーカー）の場合、その条件はfalseと評価され、所有権の検証なしに削除が進行してしまいます。グローバルフロントエンドのトークンを知っている非管理者ユーザーは、自身の任意のenvironment IDを使ってDELETE /api/v2/unaccessを呼び出すことで、グローバルフロントエンドを永久に削除でき、それを経由するすべての公開共有の停止を招く可能性があります。バージョン2.0.1でこの問題は修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012944.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003838+00:00"
-    },
-    {
-      "id": "9ad27e49376cbbdb",
-      "content_hash": "9ad27e49376cbbdb5815ed70b22cbdc4771dddda99b7637c00e87e08a1f694d5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012943.html",
-      "title": "HKUDSのOpenHarnessにおける認証の欠如に関する脆弱性",
-      "body": "OpenHarnessはdd1d235のコミット以前のバージョンにおいて、リモートゲートウェイユーザーがチャットアクセス権を持つ場合に、コマンドインジェクションの脆弱性を含んでいます。この脆弱性は、ゲートウェイハンドラ内でローカル専用コマンドとリモートセーフコマンドの区別が不十分であることを悪用しています。攻撃者はリモートチャットセッションを通じて/permissions full_autoなどの管理コマンドを実行し、オペレーターの承認なしに稼働中のOpenHarnessインスタンスの権限モードを変更できます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012943.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003853+00:00"
-    },
-    {
-      "id": "7587b557caec7c0c",
-      "content_hash": "7587b557caec7c0ce51d8439ec38b8158abcc55be67922222f2d6cc802777835",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012942.html",
-      "title": "HKUDSのOpenHarnessにおけるパストラバーサルの脆弱性",
-      "body": "OpenHarnessはdd1d235のコミット以前のバージョンにおいて、リモートゲートウェイユーザーがチャットアクセス権を持つ場合に、/memory show slashコマンドにパストラバーサルシーケンスを供給することで任意のファイルを読み取れるパストラバーサル脆弱性を含んでいます。攻撃者はパスの入力パラメータを操作してプロジェクトのメモリディレクトリから抜け出し、ファイルシステムの制約検証を行わずにOpenHarnessプロセスがアクセス可能な機密ファイルにアクセスできる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-012942.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-27T02:27:00+00:00",
-      "created_at": "2026-04-27T04:58:56.003867+00:00"
     }
   ]
 }
