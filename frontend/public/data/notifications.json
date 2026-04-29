@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-29T20:50:58.880268+00:00",
+  "generated_at": "2026-04-29T21:50:48.885067+00:00",
   "items": [
+    {
+      "id": "f3f7f30aeec6007d",
+      "content_hash": "f3f7f30aeec6007d91a9a720dc3ce8427302cae57df24b1d8b84c3d66836d49c",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3117616",
+      "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
+      "body": "Google added 25M paid subscriptions in Q1, reaching 350M total, as YouTube and Google One grow.",
+      "url": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-29T20:59:00+00:00",
+      "created_at": "2026-04-29T21:50:48.786524+00:00"
+    },
+    {
+      "id": "e2a63ff5b4574fef",
+      "content_hash": "e2a63ff5b4574fef8914852ccf74a65223fe93bba135b8bab1569f23f32d254b",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3117614",
+      "title": "Fusion power startup Zap Energy pulls a partial pivot, adding nuclear fission to the mix",
+      "body": "Surprise! Fusion startup Zap Energy says it will be developing fission reactors alongside its fusion devices.",
+      "url": "https://techcrunch.com/2026/04/29/fusion-power-startup-zap-energy-pulls-a-partial-pivot-adding-nuclear-fission-to-the-mix/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-29T20:53:56+00:00",
+      "created_at": "2026-04-29T21:50:48.786554+00:00"
+    },
     {
       "id": "66d6f152483a4dc0",
       "content_hash": "66d6f152483a4dc0cc297006e738a96367ca59ed168f309523e18b48861c2aaf",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.2,
       "published_at": "2026-04-27T21:16:44.513000",
       "created_at": "2026-04-28T17:28:48.887294+00:00"
-    },
-    {
-      "id": "c9d5060abab72a2d",
-      "content_hash": "c9d5060abab72a2d5392d07d1e945a7983e30f02238c06d4d7b61f1db3aac75c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7158",
-      "title": "CVE-2026-7158 - A vulnerability has been found in dmitryglhf mcp-url-downloader up to 4b8cf2de55...",
-      "body": "A vulnerability has been found in dmitryglhf mcp-url-downloader up to 4b8cf2de55f6e8864a77d108e8a94a5b8e4394c6. Affected by this issue is the function _validate_url_safe of the file src/mcp_url_downloader/server.py. Such manipulation of the argument url leads to server-side request forgery. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7158",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-27T21:16:44.337000",
-      "created_at": "2026-04-28T17:28:48.887287+00:00"
-    },
-    {
-      "id": "5e801b12fcfe032f",
-      "content_hash": "5e801b12fcfe032f7a5ab6d79ad8e07396f19ee04d9f23013af3a70c601e0b66",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7157",
-      "title": "CVE-2026-7157 - A flaw has been found in disler aider-mcp-server up to b2516fa466d0d851932da92ee...",
-      "body": "A flaw has been found in disler aider-mcp-server up to b2516fa466d0d851932da92ee6d0e66946db9efc. Affected by this vulnerability is an unknown functionality of the file src/aider_mcp_server/server.py of the component aider_ai_code. This manipulation of the argument relative_editable_files causes command injection. Remote exploitation of the attack is possible. The exploit has been published and may be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7157",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-04-27T21:16:44.167000",
-      "created_at": "2026-04-28T17:28:48.887281+00:00"
     }
   ]
 }
