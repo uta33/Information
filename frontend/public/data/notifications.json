@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T12:52:54.845169+00:00",
+  "generated_at": "2026-05-01T14:13:03.824840+00:00",
   "items": [
     {
       "id": "71792ee1f6bc5526",
@@ -42,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-01T11:58:11+00:00",
       "created_at": "2026-05-01T12:52:54.844549+00:00"
+    },
+    {
+      "id": "4ff84a33cb4b37bc",
+      "content_hash": "4ff84a33cb4b37bc790f82dc9cd0393b19be08eaa529a377918a7952e8f1ddca",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jsoftware.com/papers/Dijkstra_Letter.htm",
+      "title": "A Letter from Dijkstra on APL",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47973635\">Comments</a>",
+      "url": "https://www.jsoftware.com/papers/Dijkstra_Letter.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T11:42:12+00:00",
+      "created_at": "2026-05-01T14:13:03.824436+00:00"
     },
     {
       "id": "3839acf758d2662b",
@@ -1514,6 +1528,34 @@
       "created_at": "2026-04-30T20:03:58.274283+00:00"
     },
     {
+      "id": "561693c08dc0ab0d",
+      "content_hash": "561693c08dc0ab0d05df7520e4ea439a25062b5adbbc8ea3b4884c49edb032a3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35514",
+      "title": "CVE-2026-35514 - Chartbrew is an open-source web application that can connect directly to databas...",
+      "body": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. In version 4.9.0, the endpoint POST /user/invited does not validate any invite token, authentication header, or session. Any unauthenticated attacker can call this endpoint directly to create a fully active account and receive a valid JWT — even when the instance has existing users and signupRestricted is enabled. This bypass is distinct from the normal registration endpoint (POST /user) which enforces signupRestricted and sets active: false pending verification. This issue has been patched in version 5.0.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35514",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-30T19:16:09.217000",
+      "created_at": "2026-05-01T14:12:59.005387+00:00"
+    },
+    {
+      "id": "461d15ca5f8d7ffb",
+      "content_hash": "461d15ca5f8d7ffba4d0c08dfad242b129a178a1858c2795dc83ad6befe402f7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-32148",
+      "title": "CVE-2026-32148 - Insufficient Verification of Data Authenticity vulnerability in hexpm hex (Hex.R...",
+      "body": "Insufficient Verification of Data Authenticity vulnerability in hexpm hex (Hex.RemoteConverger module) allows dependency integrity bypass via unverified lockfile checksums.\n\nHex stores checksums for dependencies in the mix.lock file to ensure reproducible and integrity-checked builds. However, Hex.RemoteConverger.verify_resolved/2 never executes checksum verification because the lock data returned by Hex.Utils.lock/1 uses string-based dependency names, while the verification logic compares against atom-based names. This type mismatch causes the verification code path to be silently skipped. Checksums are still validated when packages are initially downloaded from the registry, but mismatches between the lockfile and resolved dependencies are not detected.\n\nAn attacker who can influence cached packages (e.g., via local cache poisoning or a compromised registry) can provide modified dependency contents that will be accepted without detection. The mix.lock file is silently rewritten with the checksum values from the registry, erasing evidence of tampering.\n\nThis issue affects hex: from 0.16.0 before 2.4.2.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32148",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-30T19:16:09",
+      "created_at": "2026-05-01T14:12:59.005380+00:00"
+    },
+    {
       "id": "3023e75528d0d2eb",
       "content_hash": "3023e75528d0d2eb53ece9051eeec941becad6647d2e63d8ad4087f779a3f218",
       "source_name": "Bleeping Computer",
@@ -1582,6 +1624,34 @@
       "cvss_score": null,
       "published_at": "2026-04-30T18:20:03+00:00",
       "created_at": "2026-04-30T20:03:58.074556+00:00"
+    },
+    {
+      "id": "221d312fee220f21",
+      "content_hash": "221d312fee220f21fba6e6e447cc614661b0ee28f2d447b041c11f124174b9ed",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-3833",
+      "title": "CVE-2026-3833 - A flaw was found in gnutls. This vulnerability occurs because gnutls performs ca...",
+      "body": "A flaw was found in gnutls. This vulnerability occurs because gnutls performs case-sensitive comparisons of `nameConstraints` labels, specifically for `dNSName` (DNS) or `rfc822Name` (email) constraints within `excludedSubtrees` or `permittedSubtrees`. A remote attacker can exploit this by crafting a leaf certificate with casing differences in the Subject Alternative Name (SAN), leading to a policy bypass where a certificate that should be rejected is instead accepted. This could result in unauthorized access or information disclosure.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3833",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-04-30T18:16:30.577000",
+      "created_at": "2026-05-01T14:12:59.005373+00:00"
+    },
+    {
+      "id": "ca4a88d935317627",
+      "content_hash": "ca4a88d9353176277295bfd078604031b1b280dfa463c170c1454b4c423d2c64",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-3832",
+      "title": "CVE-2026-3832 - A flaw was found in gnutls. A remote attacker could exploit this vulnerability b...",
+      "body": "A flaw was found in gnutls. A remote attacker could exploit this vulnerability by presenting a specially crafted Online Certificate Status Protocol (OCSP) response during a TLS handshake. Due to a logic error in how gnutls processes multi-record OCSP responses, a client with OCSP verification enabled may incorrectly accept a revoked server certificate, potentially leading to a compromise of trust.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3832",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.7,
+      "published_at": "2026-04-30T18:16:30.433000",
+      "created_at": "2026-05-01T14:12:59.005366+00:00"
     },
     {
       "id": "4ddd12c8c367fde1",
@@ -6930,76 +7000,6 @@
       "cvss_score": 4.7,
       "published_at": "2026-04-29T18:16:05.397000",
       "created_at": "2026-04-30T14:58:22.295593+00:00"
-    },
-    {
-      "id": "603db7759e5ad718",
-      "content_hash": "603db7759e5ad718eff1e52de8e548cf3e5d76f8e309a26431094a31bd5c618e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5712",
-      "title": "CVE-2026-5712 - This vulnerability impacts all versions of IdentityIQ and allows an authenticate...",
-      "body": "This vulnerability impacts all versions of IdentityIQ and allows an authenticated identity that is the requestor or assignee of a work item to edit the definition of a role without having an assigned capability that would allow role editing.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5712",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.0,
-      "published_at": "2026-04-29T18:16:05.180000",
-      "created_at": "2026-04-30T14:58:22.295586+00:00"
-    },
-    {
-      "id": "d7eee1e67876840e",
-      "content_hash": "d7eee1e67876840e1dc570c420f5c5302bd5a97f7d6bbeb3c7a9e6560bb53f69",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-26204",
-      "title": "CVE-2026-26204 - Wazuh is a free and open source platform used for threat prevention, detection, ...",
-      "body": "Wazuh is a free and open source platform used for threat prevention, detection, and response. From version 1.0.0 to before version 4.14.4, a heap-based out-of-bounds WRITE occurs in GetAlertData, resulting in writing a NULL byte exactly 1 byte before the start of the buffer allocated by strdup. Due to unsigned integer underflow and pointer arithmetic wrapping, the write lands at offset -1 from the buffer, corrupting heap metadata. A malicious actor can potentially leverage this issue through a compromised agent to cause denial of service or heap corruption by injecting a specially crafted alert into the alerts log file monitored by wazuh-logcollector. This issue has been patched in version 4.14.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26204",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "published_at": "2026-04-29T18:16:04.820000",
-      "created_at": "2026-04-30T14:58:22.295579+00:00"
-    },
-    {
-      "id": "fe684eecfca44fe5",
-      "content_hash": "fe684eecfca44fe5185d186cd68db8b7c35c33cf8d24f9e393e505a16882582b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-26015",
-      "title": "CVE-2026-26015 - DocsGPT is a GPT-powered chat for documentation. From version 0.15.0 to before v...",
-      "body": "DocsGPT is a GPT-powered chat for documentation. From version 0.15.0 to before version 0.16.0, an attacker accessing both the official DocsGPT website or any local and public deployment, can craft a malicious payload bypassing the \"MCP test\" behavior to achieve arbitrary remote code execution (RCE). This issue has been patched in version 0.16.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26015",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-29T18:16:03.817000",
-      "created_at": "2026-04-30T14:58:22.295571+00:00"
-    },
-    {
-      "id": "a49d0aeb7eb8d435",
-      "content_hash": "a49d0aeb7eb8d4358cceded229f33c3868882b693625b87d3f88bc29371aa42c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://copy.fail/",
-      "title": "Copy Fail – CVE-2026-31431",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47952181\">Comments</a>",
-      "url": "https://copy.fail/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-29T18:13:53+00:00",
-      "created_at": "2026-04-29T19:06:55.362464+00:00"
-    },
-    {
-      "id": "deba6ee958535cda",
-      "content_hash": "deba6ee958535cdac3d6218b09fc8ec1bbe6ff1f93fb2c6c463411311a6e3605",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://copy.fail/",
-      "title": "Copy Fail",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47952181\">Comments</a>",
-      "url": "https://copy.fail/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-29T18:13:53+00:00",
-      "created_at": "2026-04-30T05:21:42.990261+00:00"
     }
   ]
 }
