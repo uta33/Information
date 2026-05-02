@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-02T11:36:31.204600+00:00",
+  "generated_at": "2026-05-02T12:43:12.688059+00:00",
   "items": [
+    {
+      "id": "d2b4e7954aa098eb",
+      "content_hash": "d2b4e7954aa098eb37ea5d4c7d978895f109441397c52301e2b716461ca1ac3d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de",
+      "title": "GameStop Preparing Offer for eBay",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47985271\">Comments</a>",
+      "url": "https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T10:55:25+00:00",
+      "created_at": "2026-05-02T12:43:12.687648+00:00"
+    },
     {
       "id": "962b2f96699c8970",
       "content_hash": "962b2f96699c89704a42675231881a589666bde5d85deed77c415f41f2aa0b2e",
@@ -966,6 +980,62 @@
       "cvss_score": null,
       "published_at": "2026-05-01T16:02:36+00:00",
       "created_at": "2026-05-01T16:43:19.146187+00:00"
+    },
+    {
+      "id": "04d1dfac221edfad",
+      "content_hash": "04d1dfac221edfad602a4b56dedc1e3dd6755b0bc421414fc2fe7f023cdc1c32",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31733",
+      "title": "CVE-2026-31733 - In the Linux kernel, the following vulnerability has been resolved:\n\nsched_ext: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched_ext: Fix stale direct dispatch state in ddsp_dsq_id\n\n@p->scx.ddsp_dsq_id can be left set (non-SCX_DSQ_INVALID) triggering a\nspurious warning in mark_direct_dispatch() when the next wakeup's\nops.select_cpu() calls scx_bpf_dsq_insert(), such as:\n\n WARNING: kernel/sched/ext.c:1273 at scx_dsq_insert_commit+0xcd/0x140\n\nThe root cause is that ddsp_dsq_id was only cleared in dispatch_enqueue(),\nwhich is not reached in all paths that consume or cancel a direct dispatch\nverdict.\n\nFix it by clearing it at the right places:\n\n - direct_dispatch(): cache the direct dispatch state in local variables\n   and clear it before dispatch_enqueue() on the synchronous path. For\n   the deferred path, the direct dispatch state must remain set until\n   process_ddsp_deferred_locals() consumes them.\n\n - process_ddsp_deferred_locals(): cache the dispatch state in local\n   variables and clear it before calling dispatch_to_local_dsq(), which\n   may migrate the task to another rq.\n\n - do_enqueue_task(): clear the dispatch state on the enqueue path\n   (local/global/bypass fallbacks), where the direct dispatch verdict is\n   ignored.\n\n - dequeue_task_scx(): clear the dispatch state after dispatch_dequeue()\n   to handle both the deferred dispatch cancellation and the holding_cpu\n   race, covering all cases where a pending direct dispatch is\n   cancelled.\n\n - scx_disable_task(): clear the direct dispatch state when\n   transitioning a task out of the current scheduler. Waking tasks may\n   have had the direct dispatch state set by the outgoing scheduler's\n   ops.select_cpu() and then been queued on a wake_list via\n   ttwu_queue_wakelist(), when SCX_OPS_ALLOW_QUEUED_WAKEUP is set. Such\n   tasks are not on the runqueue and are not iterated by scx_bypass(),\n   so their direct dispatch state won't be cleared. Without this clear,\n   any subsequent SCX scheduler that tries to direct dispatch the task\n   will trigger the WARN_ON_ONCE() i",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31733",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T15:16:35.913000",
+      "created_at": "2026-05-02T12:43:08.378082+00:00"
+    },
+    {
+      "id": "ba288760550a39ba",
+      "content_hash": "ba288760550a39ba728b5287cbc9a59cb721e0d7b7e39f870dc18d27c14c3a7e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31732",
+      "title": "CVE-2026-31732 - In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: Fix r...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: Fix resource leaks on errors in gpiochip_add_data_with_key()\n\nSince commit aab5c6f20023 (\"gpio: set device type for GPIO chips\"),\n`gdev->dev.release` is unset.  As a result, the reference count to\n`gdev->dev` isn't dropped on the error handling paths.\n\nDrop the reference on errors.\n\nAlso reorder the instructions to make the error handling simpler.\nNow gpiochip_add_data_with_key() roughly looks like:\n\n   >>> Some memory allocation.  Go to ERR ZONE 1 on errors.\n   >>> device_initialize().\n\n   gpiodev_release() takes over the responsibility for freeing the\n   resources of `gdev->dev`.  The subsequent error handling paths\n   shouldn't go through ERR ZONE 1 again which leads to double free.\n\n   >>> Some initialization mainly on `gdev`.\n   >>> The rest of initialization.  Go to ERR ZONE 2 on errors.\n   >>> Chip registration success and exit.\n\n   >>> ERR ZONE 2.  gpio_device_put() and exit.\n   >>> ERR ZONE 1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31732",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T15:16:35.807000",
+      "created_at": "2026-05-02T12:43:08.378075+00:00"
+    },
+    {
+      "id": "a08df8a23ec2d449",
+      "content_hash": "a08df8a23ec2d449c18df246b2a915753e075cc02f1c3fb98678c97064a81aac",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31731",
+      "title": "CVE-2026-31731 - In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: co...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: core: Address thermal zone removal races with resume\n\nSince thermal_zone_pm_complete() and thermal_zone_device_resume()\nre-initialize the poll_queue delayed work for the given thermal zone,\nthe cancel_delayed_work_sync() in thermal_zone_device_unregister()\nmay miss some already running work items and the thermal zone may\nbe freed prematurely [1].\n\nThere are two failing scenarios that both start with\nrunning thermal_pm_notify_complete() right before invoking\nthermal_zone_device_unregister() for one of the thermal zones.\n\nIn the first scenario, there is a work item already running for\nthe given thermal zone when thermal_pm_notify_complete() calls\nthermal_zone_pm_complete() for that thermal zone and it continues to\nrun when thermal_zone_device_unregister() starts.  Since the poll_queue\ndelayed work has been re-initialized by thermal_pm_notify_complete(), the\nrunning work item will be missed by the cancel_delayed_work_sync() in\nthermal_zone_device_unregister() and if it continues to run past the\nfreeing of the thermal zone object, a use-after-free will occur.\n\nIn the second scenario, thermal_zone_device_resume() queued up by\nthermal_pm_notify_complete() runs right after the thermal_zone_exit()\ncalled by thermal_zone_device_unregister() has returned.  The poll_queue\ndelayed work is re-initialized by it before cancel_delayed_work_sync() is\ncalled by thermal_zone_device_unregister(), so it may continue to run\nafter the freeing of the thermal zone object, which also leads to a\nuse-after-free.\n\nAddress the first failing scenario by ensuring that no thermal work\nitems will be running when thermal_pm_notify_complete() is called.\nFor this purpose, first move the cancel_delayed_work() call from\nthermal_zone_pm_complete() to thermal_zone_pm_prepare() to prevent\nnew work from entering the workqueue going forward.  Next, switch\nover to using a dedicated workqueue for thermal events and update\nthe code in ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31731",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T15:16:35.683000",
+      "created_at": "2026-05-02T12:43:08.378069+00:00"
+    },
+    {
+      "id": "4b0dc5a669dd45d0",
+      "content_hash": "4b0dc5a669dd45d0f19507c386a2fe0592274213140670fd403ada1b82c190d4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31730",
+      "title": "CVE-2026-31730 - In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: fastr...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: fastrpc: possible double-free of cctx->remote_heap\n\nfastrpc_init_create_static_process() may free cctx->remote_heap on the\nerr_map path but does not clear the pointer. Later, fastrpc_rpmsg_remove()\nfrees cctx->remote_heap again if it is non-NULL, which can lead to a\ndouble-free if the INIT_CREATE_STATIC ioctl hits the error path and the rpmsg\ndevice is subsequently removed/unbound.\nClear cctx->remote_heap after freeing it in the error path to prevent the\nlater cleanup from freeing it again.\n\nThis issue was found by an in-house analysis workflow that extracts AST-based\ninformation and runs static checks, with LLM assistance for triage, and was\nconfirmed by manual code review.\nNo hardware testing was performed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31730",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T15:16:35.577000",
+      "created_at": "2026-05-02T12:43:08.378063+00:00"
     },
     {
       "id": "5b929d2caa6121e9",
@@ -4958,6 +5028,20 @@
       "created_at": "2026-04-30T20:03:58.074574+00:00"
     },
     {
+      "id": "a3963a1551fc5949",
+      "content_hash": "a3963a1551fc59497c1f322e96298d4e0c5779b01bd38acb640c1300fd894f64",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.flysfo.com/passengers/services/gate-explorer",
+      "title": "SFO Gate Explorer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47966084\">Comments</a>",
+      "url": "https://www.flysfo.com/passengers/services/gate-explorer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-04-30T18:01:14+00:00",
+      "created_at": "2026-05-02T12:43:12.687614+00:00"
+    },
+    {
       "id": "94577f1b660d2232",
       "content_hash": "94577f1b660d2232480c42e0f73b1d919e522b941f8733184b95371fd073dcb1",
       "source_name": "TechCrunch",
@@ -6916,90 +7000,6 @@
       "cvss_score": 5.5,
       "published_at": "2026-04-30T07:16:39.637000",
       "created_at": "2026-04-30T21:45:39.681143+00:00"
-    },
-    {
-      "id": "7a1f0e71f5e5ed69",
-      "content_hash": "7a1f0e71f5e5ed69f9bc1c7da591f93258b1d0f3f4114a21ef08c5f9f64c97ca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6523",
-      "title": "CVE-2026-6523 - GNW protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4....",
-      "body": "GNW protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6523",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:39.510000",
-      "created_at": "2026-04-30T21:45:39.681136+00:00"
-    },
-    {
-      "id": "792e66d12019a89a",
-      "content_hash": "792e66d12019a89a80d4b0b49db980456b4effb6aaf717613a7afb629c515b48",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6522",
-      "title": "CVE-2026-6522 - RPKI-Router protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4...",
-      "body": "RPKI-Router protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6522",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:39.390000",
-      "created_at": "2026-04-30T21:45:39.681130+00:00"
-    },
-    {
-      "id": "e1c18a2718443e18",
-      "content_hash": "e1c18a2718443e182f56d9763a8fd2bcd58b3adf79e80bc3b4ee4a08b880fe8a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6521",
-      "title": "CVE-2026-6521 - OpenFlow v5 protocol dissector infinite loops in Wireshark 4.6.0 to 4.6.4 and 4....",
-      "body": "OpenFlow v5 protocol dissector infinite loops in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6521",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:39.273000",
-      "created_at": "2026-04-30T21:45:39.681124+00:00"
-    },
-    {
-      "id": "8cfbd441b30bdd7c",
-      "content_hash": "8cfbd441b30bdd7ca027b168cfebfedcd7da65c97ff739133637fb3f124287d2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6520",
-      "title": "CVE-2026-6520 - OpenFlow v6 protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4...",
-      "body": "OpenFlow v6 protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6520",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:39.153000",
-      "created_at": "2026-04-30T21:45:39.681117+00:00"
-    },
-    {
-      "id": "71325f6f985ec735",
-      "content_hash": "71325f6f985ec735d574ca6f0c3da1da39baef7b2377f2d89ff86c321959cec5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6519",
-      "title": "CVE-2026-6519 - MBIM protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4...",
-      "body": "MBIM protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6519",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:39.030000",
-      "created_at": "2026-04-30T21:45:39.681111+00:00"
-    },
-    {
-      "id": "d67887fb220ce815",
-      "content_hash": "d67887fb220ce81587d5d9392eb53ec8e00bcc80e681a52969ddc8d3cb1e60f9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5657",
-      "title": "CVE-2026-5657 - iLBC codec crash in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial o...",
-      "body": "iLBC codec crash in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5657",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-04-30T07:16:38.907000",
-      "created_at": "2026-04-30T21:45:39.681104+00:00"
     }
   ]
 }
