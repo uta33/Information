@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-02T22:28:59.096601+00:00",
+  "generated_at": "2026-05-02T23:32:47.541085+00:00",
   "items": [
+    {
+      "id": "aac9908c3919a507",
+      "content_hash": "aac9908c3919a507dd31344d38cef4944027ae32f91aae80b01bd9d8699a1a51",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/",
+      "title": "Tesla owner won $10k in court for Tesla's FSD lies. Tesla is still fighting him",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47991350\">Comments</a>",
+      "url": "https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T22:45:23+00:00",
+      "created_at": "2026-05-02T23:32:47.540695+00:00"
+    },
     {
       "id": "f928151fdd2b956e",
       "content_hash": "f928151fdd2b956e5f4a04b0576a974b70f7cf9e04c644c2f70dd2c02ab27a8c",
@@ -548,6 +562,20 @@
       "created_at": "2026-05-02T14:04:22.802748+00:00"
     },
     {
+      "id": "95fca8054bd46af3",
+      "content_hash": "95fca8054bd46af3d6aba2b9a21cc207c1e90a89ab8adfb03251150f3e0a13fd",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4061",
+      "title": "CVE-2026-4061 - The Geo Mashup plugin for WordPress is vulnerable to Time-Based SQL Injection vi...",
+      "body": "The Geo Mashup plugin for WordPress is vulnerable to Time-Based SQL Injection via the 'map_post_type' parameter in all versions up to, and including, 1.13.18. This is due to the `SearchResults` hook explicitly calling `stripslashes_deep($_POST)` which removes WordPress magic quotes protection, followed by the unsanitized `map_post_type` value being concatenated into an `IN(...)` clause without `esc_sql()` or `$wpdb->prepare()`. The 'any' branch of the same code correctly applies `array_map('esc_sql', ...)`, but the else branch does not. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database via a time-based blind approach. Exploitation requires the Geo Search feature to be enabled in plugin settings.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4061",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-05-02T12:16:16.200000",
+      "created_at": "2026-05-02T23:32:42.784864+00:00"
+    },
+    {
       "id": "37f701669cdd46b8",
       "content_hash": "37f701669cdd46b8f4e17de7771f0bb8d66b26ce39ea4c09535ccc678c4fdba8",
       "source_name": "Hacker News (Best)",
@@ -560,6 +588,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T12:16:16+00:00",
       "created_at": "2026-05-02T14:04:22.802424+00:00"
+    },
+    {
+      "id": "76a3ebe1d00630dc",
+      "content_hash": "76a3ebe1d00630dcbc2f25c323a18df169d9c80545e76ea76b4478451e8eb87d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4060",
+      "title": "CVE-2026-4060 - The Geo Mashup plugin for WordPress is vulnerable to Time-Based SQL Injection vi...",
+      "body": "The Geo Mashup plugin for WordPress is vulnerable to Time-Based SQL Injection via the 'sort' parameter in all versions up to, and including, 1.13.18. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. The `esc_sql()` function is applied but is ineffective in the `ORDER BY` context because the value is not enclosed in quotes. Additionally, while a `sanitize_sort_arg()` allowlist-based sanitizer was added in version 1.13.18, it is only applied in the AJAX code path (`sanitize_query_args()`) and not in the `render-map.php` or template tag code paths. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database via a time-based blind approach.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4060",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-05-02T12:16:15.430000",
+      "created_at": "2026-05-02T23:32:42.784857+00:00"
     },
     {
       "id": "7a15acad21261dde",
@@ -588,6 +630,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T11:45:17+00:00",
       "created_at": "2026-05-02T14:04:22.802521+00:00"
+    },
+    {
+      "id": "5facc04ba734852a",
+      "content_hash": "5facc04ba734852a4ff7e0063de8219b9ea43941c0f517af37a5ab5f0e6da1dc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7627",
+      "title": "CVE-2026-7627 - A security vulnerability has been detected in 8nite metatrader-4-mcp 1.0.0. This...",
+      "body": "A security vulnerability has been detected in 8nite metatrader-4-mcp 1.0.0. This vulnerability affects the function CallToolRequestSchema of the file src/index.ts of the component sync_ea_from_file. Such manipulation of the argument ea_name leads to path traversal. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7627",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-05-02T11:15:58.083000",
+      "created_at": "2026-05-02T23:32:42.784849+00:00"
     },
     {
       "id": "d2b4e7954aa098eb",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-30T21:16:33.010000",
       "created_at": "2026-05-01T17:48:04.745524+00:00"
-    },
-    {
-      "id": "aa371165fbf2bcd5",
-      "content_hash": "aa371165fbf2bcd575b6e367fea84d59e0ee475de77c62ec4f70cf6caa646835",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40949",
-      "title": "CVE-2026-40949 - CVE-2026-40949 is a buffer overflow vulnerability in the Secure Access \nWindows ...",
-      "body": "CVE-2026-40949 is a buffer overflow vulnerability in the Secure Access \nWindows client prior to 14.50. Attackers with local control of the \nWindows client can use it to trigger a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40949",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T21:16:32.883000",
-      "created_at": "2026-05-01T17:48:04.745517+00:00"
-    },
-    {
-      "id": "ab90a424ab3b7893",
-      "content_hash": "ab90a424ab3b7893edcfc0fe8c2df264386e42652b8377777c2b6dd22d98339a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40912",
-      "title": "CVE-2026-40912 - Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3...",
-      "body": "Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3.6.14, and 3.7.0-rc.2, there is a high severity authentication bypass vulnerability in Traefik's StripPrefixRegex middleware when used in combination with ForwardAuth, BasicAuth, or DigestAuth. The middleware matches the regex against the decoded URL path but uses the resulting byte length to slice the percent-encoded raw path. When a dot (or multiple dots) appears in the prefix portion of the URL, the raw path after stripping becomes a dot-segment (e.g. /./admin/secret). ForwardAuth receives this dot-segment path in X-Forwarded-Uri, which does not match the protected path patterns and therefore allows the request through. The backend then normalizes the dot-segment to the real path per RFC 3986 and serves the protected content An unauthenticated attacker can exploit this against any backend that performs dot-segment normalization. This issue has been patched in versions 2.11.43, 3.6.14, and 3.7.0-rc.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40912",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-04-30T21:16:32.740000",
-      "created_at": "2026-05-01T17:48:04.745511+00:00"
-    },
-    {
-      "id": "db7bfc23412d0819",
-      "content_hash": "db7bfc23412d08196ab05165019e40a7004330322951d8758279e2cc02bf3766",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3346",
-      "title": "CVE-2026-3346 - IBM Langflow Desktop 1.6.0 through 1.8.4 Lanflow is vulnerable to stored cross-s...",
-      "body": "IBM Langflow Desktop 1.6.0 through 1.8.4 Lanflow is vulnerable to stored cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3346",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-04-30T21:16:32.610000",
-      "created_at": "2026-05-01T17:48:04.745504+00:00"
-    },
-    {
-      "id": "7b176c8c120a9041",
-      "content_hash": "7b176c8c120a90416d861464e5f3a498358f6fea86f43cba2e0a6d081a2b41a7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3340",
-      "title": "CVE-2026-3340 - IBM Langflow Desktop 1.0.0 through 1.8.4 IBM Langflow is vulnerable to server-si...",
-      "body": "IBM Langflow Desktop 1.0.0 through 1.8.4 IBM Langflow is vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3340",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-30T21:16:32.463000",
-      "created_at": "2026-05-01T17:48:04.745497+00:00"
     }
   ]
 }
