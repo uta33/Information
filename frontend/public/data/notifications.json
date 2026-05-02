@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-02T20:30:27.996924+00:00",
+  "generated_at": "2026-05-02T21:30:08.267175+00:00",
   "items": [
+    {
+      "id": "04684a3f30485ce8",
+      "content_hash": "04684a3f30485ce89148457633c567b7d4f42d7247478016c2f4c3598f43139a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
+      "title": "Six Years Perfecting Maps on WatchOS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47990606\">Comments</a>",
+      "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T21:14:29+00:00",
+      "created_at": "2026-05-02T21:30:08.266548+00:00"
+    },
+    {
+      "id": "7123b7d9f28e1303",
+      "content_hash": "7123b7d9f28e13032256c579a83e9cca99c0c47838c5882177d675dc7f7472d8",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3118614",
+      "title": "Farewell, Jeeves: Ask.com shuts down",
+      "body": "Owner IAC says it's discontinuing its search business.",
+      "url": "https://techcrunch.com/2026/05/02/farewell-jeeves-ask-com-shuts-down/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T21:11:28+00:00",
+      "created_at": "2026-05-02T21:30:08.100146+00:00"
+    },
+    {
+      "id": "c2cf9f085e49e748",
+      "content_hash": "c2cf9f085e49e748e5e37a05c5d83dbb47ea65ffa4a2d780a2fa7c917d3f34f9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ladybird.org/newsletter/2026-04-30/",
+      "title": "This Month in Ladybird - April 2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47990318\">Comments</a>",
+      "url": "https://ladybird.org/newsletter/2026-04-30/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T20:46:30+00:00",
+      "created_at": "2026-05-02T21:30:08.266471+00:00"
+    },
+    {
+      "id": "ed260e49a1331639",
+      "content_hash": "ed260e49a133163917dfcccd1badb8087581078cebe6a598f1d496dd29393127",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.universiteitleiden.nl/en/news/2025/07/neanderthals-ran-fat-factories-125000-years-ago",
+      "title": "Neanderthals ran 'fat factories' 125,000 years ago",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47990284\">Comments</a>",
+      "url": "https://www.universiteitleiden.nl/en/news/2025/07/neanderthals-ran-fat-factories-125000-years-ago",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T20:42:20+00:00",
+      "created_at": "2026-05-02T21:30:08.266684+00:00"
+    },
     {
       "id": "0a98632894dec4ea",
       "content_hash": "0a98632894dec4ea1a31cbfefcb13dfd332bb4d95f6d2d7376b595378f490099",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T20:03:08+00:00",
       "created_at": "2026-05-02T20:30:27.996162+00:00"
+    },
+    {
+      "id": "3c298699b11d563a",
+      "content_hash": "3c298699b11d563ad10ab8d56286b0d78f504565727074c4554ecf6e393962b7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/microsoft/vscode/pull/310226",
+      "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47989883\">Comments</a>",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T19:57:26+00:00",
+      "created_at": "2026-05-02T21:30:08.266376+00:00"
     },
     {
       "id": "bd1eac88de662a9c",
@@ -168,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T17:05:41+00:00",
       "created_at": "2026-05-02T17:35:58.853676+00:00"
+    },
+    {
+      "id": "ff87675d60ffc673",
+      "content_hash": "ff87675d60ffc673b02178f35aedc12884017a63f1776ad4bbb4ed140572c093",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/federico-busato/Modern-CPP-Programming",
+      "title": "Modern C++ Programming: Busato",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47987931\">Comments</a>",
+      "url": "https://github.com/federico-busato/Modern-CPP-Programming",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T16:40:29+00:00",
+      "created_at": "2026-05-02T21:30:08.266814+00:00"
     },
     {
       "id": "4157c06982ed99ac",
@@ -492,6 +576,20 @@
       "created_at": "2026-05-02T10:40:46.349379+00:00"
     },
     {
+      "id": "003d8b630b6a1945",
+      "content_hash": "003d8b630b6a1945cd41a7201f0e10b26c7ce04a83727660d83efe453f75fa14",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4024",
+      "title": "CVE-2026-4024 - The Royal Addons for Elementor plugin for WordPress is vulnerable to unauthorize...",
+      "body": "The Royal Addons for Elementor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the `wpr_update_form_action_meta` AJAX action in all versions up to, and including, 1.7.1056. The handler is registered on both `wp_ajax` and `wp_ajax_nopriv` hooks, making it accessible to unauthenticated users. Although a nonce is verified, the nonce (`wpr-addons-js`) is publicly exposed in frontend JavaScript via `WprConfig.nonce` on any page that loads Royal Addons widgets, rendering the protection ineffective. The endpoint also lacks any capability or ownership checks and directly calls `update_post_meta()` with user-controlled input on a whitelisted set of form action meta keys. This makes it possible for unauthenticated attackers to modify form action configuration metadata (email, submissions, Mailchimp, and webhook settings) on any post, potentially leading to webhook/email action tampering and data exfiltration via modified webhook URLs.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4024",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-02T09:16:22.270000",
+      "created_at": "2026-05-02T21:30:04.850840+00:00"
+    },
+    {
       "id": "7321d2f8eedfa1ba",
       "content_hash": "7321d2f8eedfa1ba4d1e8a9d88fd78292e23313b1023c137957a152f0a0acfb2",
       "source_name": "Hacker News (Best)",
@@ -588,6 +686,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T08:18:15+00:00",
       "created_at": "2026-05-02T09:52:32.108080+00:00"
+    },
+    {
+      "id": "0cc3275fc525e725",
+      "content_hash": "0cc3275fc525e725d65ec1a8bf266d591e1f32f8a20a80b3c7da56f3d121dbf7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7649",
+      "title": "CVE-2026-7649 - The ARMember – Membership Plugin, Content Restriction, Member Levels, User Profi...",
+      "body": "The ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup plugin for WordPress is vulnerable to time-based blind SQL Injection via the 'orderby' parameter in all versions up to, and including, 4.0.60 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7649",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-05-02T08:16:28.403000",
+      "created_at": "2026-05-02T21:30:04.850833+00:00"
     },
     {
       "id": "50c4675c1584092e",
@@ -1288,6 +1400,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T00:14:33+00:00",
       "created_at": "2026-05-02T01:43:38.266807+00:00"
+    },
+    {
+      "id": "7143497af264a55f",
+      "content_hash": "7143497af264a55fb1c6ba8bff1d41a1711c1131c30dd1c6601e5c88b2d69db0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://easel.games/blog/2026-rollback-physics",
+      "title": "A Physics Engine with Incremental Rollback for Multiplayer Games",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47981979\">Comments</a>",
+      "url": "https://easel.games/blog/2026-rollback-physics",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T00:12:00+00:00",
+      "created_at": "2026-05-02T21:30:08.266779+00:00"
     },
     {
       "id": "e96b5209d0f7acf4",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-04-30T20:16:23.813000",
       "created_at": "2026-05-01T16:43:15.130511+00:00"
-    },
-    {
-      "id": "837b8f780bf4e411",
-      "content_hash": "837b8f780bf4e4112edf78880b0b91222ba70caa0847b70263014db5d439b256",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-56568",
-      "title": "CVE-2025-56568 - Assertion failure vulnerability in the PCO (Protocol Configuration Options) pars...",
-      "body": "Assertion failure vulnerability in the PCO (Protocol Configuration Options) parser in the SMF (Session Management Function) component of Open5GS before v2.7.5 allows remote attackers to cause denial of service via specially crafted NGAP messages containing malformed length fields in protocol configuration data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56568",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:16:23.220000",
-      "created_at": "2026-05-01T15:44:43.460879+00:00"
-    },
-    {
-      "id": "e244800af8125b57",
-      "content_hash": "e244800af8125b575d2f1d87ebc790c02c7b52e42924e9c93bb17ae07564efd5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-46115",
-      "title": "CVE-2025-46115 - An issue in open5gs v.2.7.3 allows a remote attacker to cause a denial of servic...",
-      "body": "An issue in open5gs v.2.7.3 allows a remote attacker to cause a denial of service via a crafted PDU Session Modification Request",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46115",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:16:23.083000",
-      "created_at": "2026-05-01T15:44:43.460873+00:00"
-    },
-    {
-      "id": "6894095ec6d0295f",
-      "content_hash": "6894095ec6d0295fd7db62337146e239081f37978f558e8ac132bb1b8629db24",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3118182",
-      "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
-      "body": "The two wildly fast-growing rivals have raised massive sums, pushed into each other's home turf and now have dueling ad campaigns.",
-      "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:14:47+00:00",
-      "created_at": "2026-04-30T21:45:43.495550+00:00"
-    },
-    {
-      "id": "df3547bdfbf1445a",
-      "content_hash": "df3547bdfbf1445acc1fc165075b0bc384feedfccf99ee9853f607d43fb19aa7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://theupsellgame.com/",
-      "title": "The upsell game – Vercel upselling tactics revealed",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47967508\">Comments</a>",
-      "url": "https://theupsellgame.com/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:02:35+00:00",
-      "created_at": "2026-04-30T21:45:43.663583+00:00"
-    },
-    {
-      "id": "02da53d8b290ac2e",
-      "content_hash": "02da53d8b290ac2e38390f2c46149047c444cf914cb418b67c6c87c85cd4a306",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://theupsellgame.com/",
-      "title": "Vercel’s pricing page",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47967508\">Comments</a>",
-      "url": "https://theupsellgame.com/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:02:35+00:00",
-      "created_at": "2026-05-01T05:33:54.478172+00:00"
-    },
-    {
-      "id": "af90b1082deabe4c",
-      "content_hash": "af90b1082deabe4c240e3cb9809435f28e811f464e30fea644ae84adaea098a7",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3118153",
-      "title": "Rivian downsizes DOE loan to $4.5B, while boosting capacity of Georgia factory",
-      "body": "Rivian has reworked its loan deal with the Department of Energy and now expects to borrow $4.5 billion to build its new factory in Georgia, down from the original amount of $6.6 billion.",
-      "url": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-while-boosting-capacity-of-georgia-factory/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:02:02+00:00",
-      "created_at": "2026-04-30T20:03:58.074466+00:00"
-    },
-    {
-      "id": "f2250e64ef30ba56",
-      "content_hash": "f2250e64ef30ba563994f75cf863a990adb0cd685c3cc13bea0ea877b5f2e984",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3118153",
-      "title": "Rivian downsizes DOE loan to $4.5B of Georgia factory",
-      "body": "Rivian has reworked its loan deal with the Department of Energy and now expects to borrow $4.5 billion to build its new factory in Georgia, down from the original amount of $6.6 billion.",
-      "url": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-of-georgia-factory/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:02:02+00:00",
-      "created_at": "2026-04-30T23:41:29.547782+00:00"
-    },
-    {
-      "id": "b71613836f53e443",
-      "content_hash": "b71613836f53e4431b11dcd5762f4a6cfa7c2259fdee83f2fdf1f9aec8803bd2",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3118153",
-      "title": "Rivian downsizes DOE loan to $4.5B for Georgia factory",
-      "body": "Rivian has reworked its loan deal with the Department of Energy and now expects to borrow $4.5 billion to build its new factory in Georgia, down from the original amount of $6.6 billion.",
-      "url": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-of-georgia-factory/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T20:02:02+00:00",
-      "created_at": "2026-05-01T01:54:31.408657+00:00"
-    },
-    {
-      "id": "6b23c64f69a8455d",
-      "content_hash": "6b23c64f69a8455d805007a27ff6d9c9b2b1aef9877b40936fae59768d48f00d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
-      "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47967289\">Comments</a>",
-      "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T19:42:33+00:00",
-      "created_at": "2026-04-30T20:03:58.274079+00:00"
     }
   ]
 }
