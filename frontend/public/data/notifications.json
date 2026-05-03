@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-02T23:32:47.541085+00:00",
+  "generated_at": "2026-05-03T01:47:25.103170+00:00",
   "items": [
+    {
+      "id": "f7dfbbf379b70dc7",
+      "content_hash": "f7dfbbf379b70dc70db5566f1d379e7b7ffd16e048be61b0aad21526b896ca7f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban",
+      "title": "Am I the only one who hates delivery robots?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47991995\">Comments</a>",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T00:31:58+00:00",
+      "created_at": "2026-05-03T01:47:25.102916+00:00"
+    },
+    {
+      "id": "1c5362c24c457913",
+      "content_hash": "1c5362c24c45791319dc06b6720305287ae08e961763e4993c1a525313d82c95",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.haskell.org/a-couple-million-lines-of-haskell/",
+      "title": "A Couple Million Lines of Haskell: Production Engineering at Mercury",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47991802\">Comments</a>",
+      "url": "https://blog.haskell.org/a-couple-million-lines-of-haskell/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T00:01:14+00:00",
+      "created_at": "2026-05-03T01:47:25.102430+00:00"
+    },
+    {
+      "id": "b912aafcf42f888f",
+      "content_hash": "b912aafcf42f888f258009f0ace4ffef701fec5930cfc36937a053168fdc95a5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/",
+      "title": "Waymo Drives Off with South Bay Man's Luggage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47991487\">Comments</a>",
+      "url": "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T23:04:42+00:00",
+      "created_at": "2026-05-03T01:47:25.102797+00:00"
+    },
     {
       "id": "aac9908c3919a507",
       "content_hash": "aac9908c3919a507dd31344d38cef4944027ae32f91aae80b01bd9d8699a1a51",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T22:45:23+00:00",
       "created_at": "2026-05-02T23:32:47.540695+00:00"
+    },
+    {
+      "id": "e9e35ad5d84a34d4",
+      "content_hash": "e9e35ad5d84a34d47719b3d24bdbdaa8dfb313bda4e5b839fcd1af9600ae5ff2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/mahimairaja/voiceai",
+      "title": "Voice-AI-for-Beginners – A curated learning path for developers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47991018\">Comments</a>",
+      "url": "https://github.com/mahimairaja/voiceai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T22:03:15+00:00",
+      "created_at": "2026-05-03T01:47:25.102623+00:00"
     },
     {
       "id": "f928151fdd2b956e",
@@ -896,6 +952,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T08:42:45+00:00",
       "created_at": "2026-05-02T10:40:46.349741+00:00"
+    },
+    {
+      "id": "bf3210d2a8e755d3",
+      "content_hash": "bf3210d2a8e755d3d9a464e3faa2daca53e9176c6d6fa5f26c2d9e3c6ecc68fa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://agis.io/post/dabbling-in-erlang-a-minimal-introduction/",
+      "title": "Dabbling in Erlang, part 2: A minimal introduction (2013)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47984589\">Comments</a>",
+      "url": "https://agis.io/post/dabbling-in-erlang-a-minimal-introduction/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T08:37:39+00:00",
+      "created_at": "2026-05-03T01:47:25.102585+00:00"
     },
     {
       "id": "b8322602df363083",
@@ -5238,6 +5308,20 @@
       "created_at": "2026-05-01T20:00:28.894216+00:00"
     },
     {
+      "id": "a420ee85f34f1773",
+      "content_hash": "a420ee85f34f17733c96e346c94479661783e07ec50160f0da5ab4816cb460f4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lwn.net/Articles/1066156/",
+      "title": "A more efficient implementation of Shor's algorithm",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47972114\">Comments</a>",
+      "url": "https://lwn.net/Articles/1066156/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T07:28:55+00:00",
+      "created_at": "2026-05-03T01:47:25.102674+00:00"
+    },
+    {
       "id": "325403dc31b29459",
       "content_hash": "325403dc31b29459f4498393a4453857f32790aad1a2336c4e7ee4414c82dfa0",
       "source_name": "CVE (NVD)",
@@ -6916,90 +7000,6 @@
       "cvss_score": 4.4,
       "published_at": "2026-04-30T21:16:33.820000",
       "created_at": "2026-05-01T17:48:04.745568+00:00"
-    },
-    {
-      "id": "50b0299c8b1415bf",
-      "content_hash": "50b0299c8b1415bf4f7b634d2c5e0427b7e9fec9d8883fce5dd75503c8b7ae80",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4503",
-      "title": "CVE-2026-4503 - IBM Langflow Desktop 1.0.0 through 1.8.4 Langflow could allow an unauthenticated...",
-      "body": "IBM Langflow Desktop 1.0.0 through 1.8.4 Langflow could allow an unauthenticated user to view other users' images due to an indirect object reference through a user-controlled key.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4503",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-04-30T21:16:33.667000",
-      "created_at": "2026-05-01T17:48:04.745561+00:00"
-    },
-    {
-      "id": "5b6f9a2adb858f5a",
-      "content_hash": "5b6f9a2adb858f5af8fb0ace6ee97a0ac933c765b2354991f8fb49a0ababeb75",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4502",
-      "title": "CVE-2026-4502 - IBM Langflow Desktop 1.2.0 through 1.8.4 Langflow could allow an authenticated a...",
-      "body": "IBM Langflow Desktop 1.2.0 through 1.8.4 Langflow could allow an authenticated attacker to traverse directories on the system. An attacker could send a specially crafted URL request containing \"dot dot\" sequences (/../) to write arbitrary files on the system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4502",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-04-30T21:16:33.533000",
-      "created_at": "2026-05-01T17:48:04.745554+00:00"
-    },
-    {
-      "id": "363496b23a13ab55",
-      "content_hash": "363496b23a13ab5587c42f265513d7418af144d38998a7ca9c2d0937a8bf0d3a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41263",
-      "title": "CVE-2026-41263 - Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3...",
-      "body": "Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3.6.14, and 3.7.0-rc.2, there is a timing side-channel vulnerability in Traefik's BasicAuth middleware that allows an attacker to enumerate valid usernames through response-time differences. The variable intended to hold a constant-time fallback secret always resolves to an empty string, causing the constant-time comparison to short-circuit in microseconds rather than performing a full bcrypt evaluation. This restores the original timing oracle and makes it possible to distinguish existing users from non-existing ones by measuring authentication response times. This issue has been patched in versions 2.11.43, 3.6.14, and 3.7.0-rc.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41263",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-04-30T21:16:33.390000",
-      "created_at": "2026-05-01T17:48:04.745547+00:00"
-    },
-    {
-      "id": "629f5ddfc818737b",
-      "content_hash": "629f5ddfc818737bdc8e681ad24e4c2a072801a4b83400c9fdab475160cabd5b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41174",
-      "title": "CVE-2026-41174 - Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3...",
-      "body": "Traefik is an HTTP reverse proxy and load balancer. Prior to versions 2.11.43, 3.6.14, and 3.7.0-rc.2, there is a potential vulnerability in Traefik's Kubernetes CRD provider cross-namespace isolation enforcement. When providers.kubernetesCRD.allowCrossNamespace=false, Traefik correctly rejects direct cross-namespace middleware references from IngressRoute objects, but fails to apply the same restriction to middleware references nested inside a Chain middleware's spec.chain.middlewares[]. An actor with permission to create or update Traefik CRDs in their own namespace can exploit this to cause Traefik to resolve and apply middleware objects from another namespace, bypassing the documented isolation boundary. This issue has been patched in versions 2.11.43, 3.6.14, and 3.7.0-rc.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41174",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-04-30T21:16:33.240000",
-      "created_at": "2026-05-01T17:48:04.745537+00:00"
-    },
-    {
-      "id": "6c1cf4e5642c6a81",
-      "content_hash": "6c1cf4e5642c6a813cbefdc30e46a89b5db296f7f08ba6602756358dceb2d148",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40951",
-      "title": "CVE-2026-40951 - CVE-2026-40951 is a memory corruption vulnerability on Secure Access \nWindows cl...",
-      "body": "CVE-2026-40951 is a memory corruption vulnerability on Secure Access \nWindows clients prior to 14.50. Attackers with local control of the \nWindows client can send malformed data to an API and trigger a denial of\n service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40951",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T21:16:33.127000",
-      "created_at": "2026-05-01T17:48:04.745530+00:00"
-    },
-    {
-      "id": "87cfe7d5cf2de471",
-      "content_hash": "87cfe7d5cf2de471417dc4eed1ebd0977198e03c12532e6bc42ddbccfebb844e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40950",
-      "title": "CVE-2026-40950 - CVE-2026-40950 is a buffer overflow vulnerability in the Secure Access \nserver p...",
-      "body": "CVE-2026-40950 is a buffer overflow vulnerability in the Secure Access \nserver prior to 14.50. Attackers with control of a modified client can \nsend a specially crafted message to the server and cause a denial of \nservice",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40950",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-04-30T21:16:33.010000",
-      "created_at": "2026-05-01T17:48:04.745524+00:00"
     }
   ]
 }
