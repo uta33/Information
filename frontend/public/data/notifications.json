@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-03T21:32:06.569041+00:00",
+  "generated_at": "2026-05-03T22:29:39.208125+00:00",
   "items": [
+    {
+      "id": "32dd895fac5a8da5",
+      "content_hash": "32dd895fac5a8da572248ee8180f5abce2274360b0deb54125a238c0d2f7668b",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "title": "Instructure confirms data breach, ShinyHunters claims attack",
+      "body": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-03T22:16:27+00:00",
+      "created_at": "2026-05-03T22:29:35.511717+00:00"
+    },
     {
       "id": "a66419f7e9a43cde",
       "content_hash": "a66419f7e9a43cdeb3c9b3080a3ff509702ba27db03429dc4f86088c634ee036",
@@ -5896,6 +5910,20 @@
       "created_at": "2026-05-01T15:44:48.384298+00:00"
     },
     {
+      "id": "0904b862b4ca68ee",
+      "content_hash": "0904b862b4ca68ee4525d4dbd55110e29fd42df51999c00d00a536be7caf4fb1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.co.uk/news/articles/cn4pvyw82exo",
+      "title": "How did Banksy erect a statue in Central London?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47975759\">Comments</a>",
+      "url": "https://www.bbc.co.uk/news/articles/cn4pvyw82exo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T15:13:56+00:00",
+      "created_at": "2026-05-03T22:29:39.207450+00:00"
+    },
+    {
       "id": "42db54507f73db3e",
       "content_hash": "42db54507f73db3e9cf6f615e94e6c89f0fc1e52236da9e2557997c1841c3aa9",
       "source_name": "Hacker News (Best)",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-01T09:56:47+00:00",
       "created_at": "2026-05-03T18:41:37.564922+00:00"
-    },
-    {
-      "id": "d07afb8a6da96da4",
-      "content_hash": "d07afb8a6da96da4800dc4b8ff3a587e55f849bf353c81111d12d935983b75f5",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-      "body": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023.\nRyan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023.",
-      "url": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T09:56:00+00:00",
-      "created_at": "2026-05-01T12:52:50.129443+00:00"
-    },
-    {
-      "id": "0a08c4c919a59158",
-      "content_hash": "0a08c4c919a5915800fc7d29f71fbb201783251a58b38c3601ddd8da5a139790",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=47972888",
-      "title": "Show HN: Perfect Bluetooth MIDI for Windows",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47972888\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=47972888",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T09:52:15+00:00",
-      "created_at": "2026-05-01T11:00:36.307139+00:00"
     }
   ]
 }
