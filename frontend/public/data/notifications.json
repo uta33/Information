@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-03T17:37:41.438869+00:00",
+  "generated_at": "2026-05-03T18:41:37.565604+00:00",
   "items": [
+    {
+      "id": "ec99f301433dce28",
+      "content_hash": "ec99f301433dce284798a01f7464dec8ca44f4f428cd4a15433ce669bcb27ca1",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "body": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T18:11:25+00:00",
+      "created_at": "2026-05-03T18:41:32.965853+00:00"
+    },
+    {
+      "id": "bca7c6dd6ae401a6",
+      "content_hash": "bca7c6dd6ae401a66575b91b3c5117faa2da48565a9c8e46d9a4b4f3cb7cbccd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://partyon.xyz/@nullagent/116499715071759135",
+      "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47999636\">Comments</a>",
+      "url": "https://partyon.xyz/@nullagent/116499715071759135",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T18:03:14+00:00",
+      "created_at": "2026-05-03T18:41:37.564833+00:00"
+    },
+    {
+      "id": "9615908c889dfac5",
+      "content_hash": "9615908c889dfac581ee23d512a1c5cc9a5debc0e1ddcfb10ed7a7513e7ee3f3",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3118654",
+      "title": "In Harvard study, AI offered more accurate diagnoses than emergency room doctors",
+      "body": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+      "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T18:00:09+00:00",
+      "created_at": "2026-05-03T18:41:37.247026+00:00"
+    },
+    {
+      "id": "b16aaf0548abc1b6",
+      "content_hash": "b16aaf0548abc1b68a619efd22fddb10aedf0a285e7aa359bcfa9de390f0ed9a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740",
+      "title": "The Oscars Just Banned AI from Winning Acting and Writing Awards",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47999346\">Comments</a>",
+      "url": "https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T17:34:15+00:00",
+      "created_at": "2026-05-03T18:41:37.564978+00:00"
+    },
     {
       "id": "864cf7b9dfec8a05",
       "content_hash": "864cf7b9dfec8a05232932162f657e69e8c3867dad4519697ae8ad0874f11948",
@@ -44,6 +100,20 @@
       "created_at": "2026-05-03T17:37:41.438027+00:00"
     },
     {
+      "id": "011bdc0c91d8c2bb",
+      "content_hash": "011bdc0c91d8c2bb9936c81fefd4f32fc7cbd4dc6153ca97463230bcc215d667",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chromium-drift.pages.dev/",
+      "title": "How far behind is each major Chromium browser?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47999006\">Comments</a>",
+      "url": "https://chromium-drift.pages.dev/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T17:05:58+00:00",
+      "created_at": "2026-05-03T18:41:37.564881+00:00"
+    },
+    {
       "id": "d7c39024cfd68e57",
       "content_hash": "d7c39024cfd68e575e0b1c5f1aef21b67c40f14c928445d212cc3d5464088ba9",
       "source_name": "Hacker News (Best)",
@@ -56,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-05-03T17:02:13+00:00",
       "created_at": "2026-05-03T17:37:41.438191+00:00"
+    },
+    {
+      "id": "f8ad309c9e0cb959",
+      "content_hash": "f8ad309c9e0cb959bc92c792d47ebaea5016544b0d37991556d4cbbfeb36741d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://global.chinadaily.com.cn/a/202604/16/WS69e0ee90a310d6866eb43dd4.html",
+      "title": "Largest electric autonomous container ship begins commercial service",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47998897\">Comments</a>",
+      "url": "https://global.chinadaily.com.cn/a/202604/16/WS69e0ee90a310d6866eb43dd4.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T16:58:14+00:00",
+      "created_at": "2026-05-03T18:41:37.565245+00:00"
     },
     {
       "id": "f45af530ea2b7b4e",
@@ -322,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-05-03T14:02:23+00:00",
       "created_at": "2026-05-03T15:36:52.791170+00:00"
+    },
+    {
+      "id": "46b539a175e56f31",
+      "content_hash": "46b539a175e56f311589dda6b5b6ba26b219b75e3d7e541cb999ca02896d7cd8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://simpleobservability.com/docs/alert-driven-monitoring",
+      "title": "Alert-driven monitoring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47997056\">Comments</a>",
+      "url": "https://simpleobservability.com/docs/alert-driven-monitoring",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T14:02:23+00:00",
+      "created_at": "2026-05-03T18:41:37.564940+00:00"
     },
     {
       "id": "1dfa261271886d88",
@@ -6582,6 +6680,20 @@
       "created_at": "2026-05-03T15:36:52.791384+00:00"
     },
     {
+      "id": "34d7fc3234993bf6",
+      "content_hash": "34d7fc3234993bf6adcf43060265bb1ce70df822d9888abb9246507cb7ee602d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/",
+      "title": "What is Z-Angle Memory and why is Intel developing it?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47972922\">Comments</a>",
+      "url": "https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T09:56:47+00:00",
+      "created_at": "2026-05-03T18:41:37.564922+00:00"
+    },
+    {
       "id": "d07afb8a6da96da4",
       "content_hash": "d07afb8a6da96da4800dc4b8ff3a587e55f849bf353c81111d12d935983b75f5",
       "source_name": "The Hacker News",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-01T06:34:54+00:00",
       "created_at": "2026-05-01T07:59:38.987410+00:00"
-    },
-    {
-      "id": "0fab3fb1a3875b5d",
-      "content_hash": "0fab3fb1a3875b5d6297ede15e3b3c996712924582e6a5f3d78c2bfbf48fef0e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://matduggan.com/if-i-could-make-my-own-github/",
-      "title": "If I Could Make My Own GitHub",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47971771\">Comments</a>",
-      "url": "https://matduggan.com/if-i-could-make-my-own-github/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T06:21:01+00:00",
-      "created_at": "2026-05-01T09:46:43.290510+00:00"
-    },
-    {
-      "id": "e9ac61071ba1178e",
-      "content_hash": "e9ac61071ba1178eb93dc95b5b0702351e039ceb6228cc99bcfcf64fd02c8407",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://matduggan.com/if-i-could-make-my-own-github/",
-      "title": "If I could make my own GitHub",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47971771\">Comments</a>",
-      "url": "https://matduggan.com/if-i-could-make-my-own-github/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T06:21:01+00:00",
-      "created_at": "2026-05-01T11:00:36.307230+00:00"
-    },
-    {
-      "id": "3618e41c8d595736",
-      "content_hash": "3618e41c8d5957364fd4e28916c0714bbdec171200cfd119e16909bc174ef543",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
-      "title": "Apple Says Mac Studio and Mac Mini Will Be in Short Supply for Months",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47971768\">Comments</a>",
-      "url": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T06:20:33+00:00",
-      "created_at": "2026-05-01T07:59:38.987224+00:00"
-    },
-    {
-      "id": "9ced69eb1c9b6c13",
-      "content_hash": "9ced69eb1c9b6c13dc9a2c0c2eabf77c2ca68889f34bd0a95e5e8c7b259f076a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7555",
-      "title": "CVE-2026-7555 - A vulnerability was identified in itsourcecode Electronic Judging System 1.0. Th...",
-      "body": "A vulnerability was identified in itsourcecode Electronic Judging System 1.0. This affects an unknown part of the file /intrams/login.php. Such manipulation of the argument Username leads to sql injection. The attack can be launched remotely. The exploit is publicly available and might be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7555",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-01T06:16:32.670000",
-      "created_at": "2026-05-01T22:39:22.486353+00:00"
-    },
-    {
-      "id": "e5650fcb6d2b2e3e",
-      "content_hash": "e5650fcb6d2b2e3e1eb19a879cda638dc79c78e647b1db5e5d97c04453bcacba",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7554",
-      "title": "CVE-2026-7554 - A vulnerability was determined in D-Link M60 up to 1.20B02. Affected by this iss...",
-      "body": "A vulnerability was determined in D-Link M60 up to 1.20B02. Affected by this issue is some unknown functionality of the file /usr/bin/httpd. This manipulation causes weak password recovery. The attack can be initiated remotely. A high degree of complexity is needed for the attack. The exploitation is known to be difficult. The exploit has been publicly disclosed and may be utilized.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7554",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.6,
-      "published_at": "2026-05-01T06:16:32.420000",
-      "created_at": "2026-05-01T22:39:22.486346+00:00"
-    },
-    {
-      "id": "21e8783ba83deb06",
-      "content_hash": "21e8783ba83deb0621e3ee7a86460066ff0fae323cede9736c3ea4aaa552b1ba",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6127",
-      "title": "CVE-2026-6127 - The Elementor Website Builder plugin for WordPress is vulnerable to Stored Cross...",
-      "body": "The Elementor Website Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the _elementor_data meta field in versions up to, and including, 4.0.4. This is due to insufficient input sanitization when processing form-encoded REST API requests. The plugin registers the _elementor_data meta field with show_in_rest but omits a sanitize_callback, relying instead on a rest_pre_insert_post filter (sanitize_post_data function) that only sanitizes JSON-encoded request bodies. When a contributor sends a form-encoded PATCH request to the WordPress REST API, the json_decode() call on the raw body returns null, causing all sanitization to be skipped. The unsanitized data is then stored via update_post_meta() and later output without escaping through multiple widget sinks including the HTML widget's print_unescaped_setting() function. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6127",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-05-01T06:16:32.233000",
-      "created_at": "2026-05-01T22:39:22.486339+00:00"
-    },
-    {
-      "id": "ea4d0b2914ec91e1",
-      "content_hash": "ea4d0b2914ec91e1e9900b5868f0697b8a4c4b1a67805ecefbfb918357dc3df6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-13362",
-      "title": "CVE-2024-13362 - Multiple plugins and/or themes for WordPress are vulnerable to Reflected Cross-S...",
-      "body": "Multiple plugins and/or themes for WordPress are vulnerable to Reflected Cross-Site Scripting via the url parameter in various versions due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13362",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-01T06:16:30.050000",
-      "created_at": "2026-05-01T22:39:22.486332+00:00"
-    },
-    {
-      "id": "0d6e8acfd1afd804",
-      "content_hash": "0d6e8acfd1afd8042f5b5cfc38f4dd5d25feabd7052e5c10fd6eb68dc460fa05",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013932.html",
-      "title": "IDrive Cloud Backup Client for Windowsにおける権限昇格の脆弱性",
-      "body": "IDriveは、PC、Mac、iPhone、Androidなどの複数のデバイスから取得したデータを暗号化、同期、保存し、1つのクラウドアカウントに集約できるクラウドバックアップサービスです。IDriveのWindowsクライアントユーティリティ id_service.exe は、SYSTEM権限で動作するプロセスとして実行され、 C:\\ProgramData\\IDrive 配下にある複数のファイルを定期的に読み込んでいます。これらの読み込みに利用されるファイルは権限設定が不十分なため、システムにログインしているユーザが任意のスクリプトやexeファイルへのパスを指定したファイルに置き換えることが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013932.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T06:13:00+00:00",
-      "created_at": "2026-05-01T09:46:42.788397+00:00"
     }
   ]
 }
