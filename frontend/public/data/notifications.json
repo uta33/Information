@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-03T07:45:44.850980+00:00",
+  "generated_at": "2026-05-03T09:12:19.187019+00:00",
   "items": [
+    {
+      "id": "e20f5bfdcfe50f57",
+      "content_hash": "e20f5bfdcfe50f573290e9a775a0ab92a979b6227592481b8acfbdbc154a1e00",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.python.org/downloads/release/pymanager-261/",
+      "title": "Executable installer will stop being released with Python 3.16",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47994327\">Comments</a>",
+      "url": "https://www.python.org/downloads/release/pymanager-261/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T07:25:20+00:00",
+      "created_at": "2026-05-03T09:12:19.186662+00:00"
+    },
+    {
+      "id": "ed6a35aba3bbd2e3",
+      "content_hash": "ed6a35aba3bbd2e3df833822689a6533393d3aa4f28d45be2da3d43cbce5509c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c242pzr1zp2o",
+      "title": "Musk's AI told me people were coming to kill me (BBC)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47994150\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c242pzr1zp2o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T06:57:14+00:00",
+      "created_at": "2026-05-03T09:12:19.186731+00:00"
+    },
     {
       "id": "0b2ac813de19d66b",
       "content_hash": "0b2ac813de19d66b98e498dd2c2caca15079a9a472e9df741dd42531d585f30d",
@@ -58,6 +86,20 @@
       "created_at": "2026-05-03T05:21:12.357825+00:00"
     },
     {
+      "id": "a9c3c80ea6bedcf7",
+      "content_hash": "a9c3c80ea6bedcf7f69ffac9b66a35b01590df61763b5ffe594af96fcf38a9ec",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fshot.org/techzone/the-algorithm-knows.php",
+      "title": "AI, Intimacy, and the Data You Never Meant to Share",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47992802\">Comments</a>",
+      "url": "https://fshot.org/techzone/the-algorithm-knows.php",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T02:42:43+00:00",
+      "created_at": "2026-05-03T09:12:19.186644+00:00"
+    },
+    {
       "id": "167613087eb97be6",
       "content_hash": "167613087eb97be6b4fa1ad10a47da3a30a743e0230143c49e56fdc0060a0b08",
       "source_name": "Hacker News (Best)",
@@ -70,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-05-03T02:36:09+00:00",
       "created_at": "2026-05-03T05:21:12.358067+00:00"
+    },
+    {
+      "id": "6503468bc77d35c9",
+      "content_hash": "6503468bc77d35c9ac6692e07cc6d903ecb20761e717b94258469b695391607a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7673",
+      "title": "CVE-2026-7673 - A vulnerability was detected in crmeb_java up to 1.3.4. This vulnerability affec...",
+      "body": "A vulnerability was detected in crmeb_java up to 1.3.4. This vulnerability affects unknown code of the file crmeb/crmeb-service/src/main/java/com/zbkj/service/service/impl/UploadServiceImpl.java of the component Admin Upload. Performing a manipulation of the argument model results in unrestricted upload. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7673",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.7,
+      "published_at": "2026-05-03T02:17:12.537000",
+      "created_at": "2026-05-03T09:12:14.011182+00:00"
     },
     {
       "id": "0dd77a2571ed96d7",
@@ -154,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-05-03T01:22:41+00:00",
       "created_at": "2026-05-03T07:45:44.850657+00:00"
+    },
+    {
+      "id": "a64f9783220e31ee",
+      "content_hash": "a64f9783220e31eec08adf0c0b93e1755130b8f4f223bf559e613e793d76d67d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-40561",
+      "title": "CVE-2026-40561 - Starlet versions through 0.31 for Perl allows HTTP Request Smuggling via Imprope...",
+      "body": "Starlet versions through 0.31 for Perl allows HTTP Request Smuggling via Improper Header Precedence.\n\nStarlet incorrectly prioritizes \"Content-Length\" over \"Transfer-Encoding: chunked\" when both headers are present in an HTTP request. Per RFC 7230 3.3.3, Transfer-Encoding must take precedence.\n\nAn attacker could exploit this to smuggle malicious HTTP requests via a front-end reverse proxy.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40561",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T01:15:58.390000",
+      "created_at": "2026-05-03T09:12:14.011176+00:00"
     },
     {
       "id": "f7dfbbf379b70dc7",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-01T01:47:00+00:00",
       "created_at": "2026-05-01T05:33:54.021983+00:00"
-    },
-    {
-      "id": "7acf90d0827a2c1e",
-      "content_hash": "7acf90d0827a2c1ebfc2dca76f6dc974d0736250715e6f5d1035305a30e3b442",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013883.html",
-      "title": "VMwareのSpring AIにおけるリソースの枯渇に関する脆弱性",
-      "body": "Spring AIにおいて悪意のあるPDFファイルが作成されると、`ForkPDFLayoutTextStripper`で処理される際に不合理な量のメモリが割り当てられる可能性があります。影響を受けるバージョンは以下の通りで、Spring AI 1.0.0から1.0.5（1.0.6で修正）および1.1.0から1.1.4（1.1.5で修正）です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013883.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T01:47:00+00:00",
-      "created_at": "2026-05-01T05:33:54.022001+00:00"
-    },
-    {
-      "id": "f7ff39c378ae3968",
-      "content_hash": "f7ff39c378ae39687bd36f74a753b992684508f53b11de66e2d716d1720ac74c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013882.html",
-      "title": "OpenClawにおける不完全なブラックリストに関する脆弱性",
-      "body": "OpenClawの2026年3月28日以前のバージョンには、環境変数のサニタイズに関する脆弱性が存在し、GIT_TEMPLATE_DIRおよびAWS_CONFIG_FILEがhost-envのブロックリストに含まれていませんでした。攻撃者は承認されたexecリクエストを悪用し、攻撃者が制御する設定ファイルを介してgitやAWS CLIの動作をリダイレクトできました。その結果、信頼されていないコードを実行したり、悪意のある認証情報を読み込んだりすることが可能となっていました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013882.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T01:47:00+00:00",
-      "created_at": "2026-05-01T05:33:54.022017+00:00"
-    },
-    {
-      "id": "06280a59256ff858",
-      "content_hash": "06280a59256ff85886d356d8f737d2924a20e58cecfa1fccff9716b1fa9f8335",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013881.html",
-      "title": "OpenClawにおける認可されていない制御領域への重要情報の漏えいに関する脆弱性",
-      "body": "OpenClaw 2026.4.2以前のバージョンでは、ゲートウェイ接続成功スナップショットにおいてconfigPathおよびstateDirのメタデータが管理者権限のない認証済みクライアントに公開されます。管理者権限のないクライアントはホスト固有のファイルシステムパスやデプロイメントの詳細を取得できるため、ホストのフィンガープリンティングが可能となり、連鎖攻撃を助長します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013881.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T01:47:00+00:00",
-      "created_at": "2026-05-01T05:33:54.022033+00:00"
-    },
-    {
-      "id": "968db7ad30e33edc",
-      "content_hash": "968db7ad30e33edc997bb22f75520a209087a7e6743e438ad8c28faebcd8d62e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7535",
-      "title": "CVE-2026-7535 - A vulnerability was found in Open5GS up to 2.7.7. This affects the function amf_...",
-      "body": "A vulnerability was found in Open5GS up to 2.7.7. This affects the function amf_namf_comm_handle_registration_status_update_request in the library /lib/app/ogs-init.c of the file /namf-comm/v1/ue-contexts/{ueContextId}/transfer-update. Performing a manipulation of the argument ueContextId results in denial of service. The attack can be initiated remotely. The exploit has been made public and could be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7535",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-01T01:16:18.087000",
-      "created_at": "2026-05-01T22:39:22.486258+00:00"
-    },
-    {
-      "id": "24d7cbd23cf02720",
-      "content_hash": "24d7cbd23cf0272051092d28a8218de838c947dd1ff1fb6b1fe5bde8c6f0ae56",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7519",
-      "title": "CVE-2026-7519 - A vulnerability has been found in Fujian Apex LiveBOS up to 2.0. Impacted is an ...",
-      "body": "A vulnerability has been found in Fujian Apex LiveBOS up to 2.0. Impacted is an unknown function of the file /feed/UploadImage.do of the component Endpoint. Such manipulation of the argument filename leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.1 is recommended to address this issue. Upgrading the affected component is advised.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7519",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-01T01:16:17.910000",
-      "created_at": "2026-05-01T22:39:22.486252+00:00"
     }
   ]
 }
