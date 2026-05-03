@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-03T19:44:51.340698+00:00",
+  "generated_at": "2026-05-03T20:31:29.550670+00:00",
   "items": [
+    {
+      "id": "a66419f7e9a43cde",
+      "content_hash": "a66419f7e9a43cdeb3c9b3080a3ff509702ba27db03429dc4f86088c634ee036",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3118660",
+      "title": "‘This is fine’ creator says AI startup stole his art",
+      "body": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T20:16:51+00:00",
+      "created_at": "2026-05-03T20:31:29.168738+00:00"
+    },
+    {
+      "id": "c1a577acd87feb63",
+      "content_hash": "c1a577acd87feb6357f1d0ba8d042179462f914a8ea74335144963c011c3aa1a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ambrook.com/offrange/environment/a-forest-in-your-pocket",
+      "title": "Make Your Own Microforest",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48000507\">Comments</a>",
+      "url": "https://ambrook.com/offrange/environment/a-forest-in-your-pocket",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T19:31:35+00:00",
+      "created_at": "2026-05-03T20:31:29.550350+00:00"
+    },
+    {
+      "id": "dce583ff2e32edfc",
+      "content_hash": "dce583ff2e32edfc19285fa84940596918ed3a89f5ba6463873f5b61a3932b92",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
+      "title": "Statue of a man blinded by a flag put up by Banksy in central London",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48000152\">Comments</a>",
+      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T18:54:28+00:00",
+      "created_at": "2026-05-03T20:31:29.549980+00:00"
+    },
     {
       "id": "24a3e88b638f4a5f",
       "content_hash": "24a3e88b638f4a5f3e7cbb7df3afcf9b2a413b54ea553a5b306cc271f910e56c",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-01T09:52:15+00:00",
       "created_at": "2026-05-01T11:00:36.307139+00:00"
-    },
-    {
-      "id": "1d5609fd074f3138",
-      "content_hash": "1d5609fd074f3138e3c1f44d18cd2afcf080c3b9580bc8007758457656876c6e",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "body": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence.\nThe activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of",
-      "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-01T09:43:00+00:00",
-      "created_at": "2026-05-01T09:46:38.052089+00:00"
-    },
-    {
-      "id": "95cf33a649d6c741",
-      "content_hash": "95cf33a649d6c7414d931b1a4012d3e60210254f3a84c4497d3cbc748b84168c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://skysedge.com/telecom/RUSP/index.html",
-      "title": "The Rotary Un-Smartphone",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47972807\">Comments</a>",
-      "url": "https://skysedge.com/telecom/RUSP/index.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T09:39:07+00:00",
-      "created_at": "2026-05-01T11:00:36.307157+00:00"
-    },
-    {
-      "id": "0cd789eb04c10d6d",
-      "content_hash": "0cd789eb04c10d6d2bc306d941f06a6c39a44f78eb095759c0ed218ab656e1cc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://skysedge.com/telecom/RUSP/index.html",
-      "title": "The Rotary Un-Smartphone (2023)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47972807\">Comments</a>",
-      "url": "https://skysedge.com/telecom/RUSP/index.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T09:39:07+00:00",
-      "created_at": "2026-05-01T12:52:54.844768+00:00"
     }
   ]
 }
