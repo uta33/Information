@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-03T11:34:31.347340+00:00",
+  "generated_at": "2026-05-03T12:42:41.253996+00:00",
   "items": [
+    {
+      "id": "debff332eded53b3",
+      "content_hash": "debff332eded53b380447d65c77a27e59fae0038852dd7b85801e8680cde4830",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7691",
+      "title": "CVE-2026-7691 - A security vulnerability has been detected in Wavlink WL-WN570HA1 R70HA1 V1410_2...",
+      "body": "A security vulnerability has been detected in Wavlink WL-WN570HA1 R70HA1 V1410_221110. Impacted is the function set_sys_cmd of the file /cgi-bin/adm.cgi. Such manipulation of the argument command leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. Once again the vendors acted very professional and confirms, \"that the WN570HA1 firmware version R70HA1 V1410_221110 has been removed from our website.\" This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7691",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-05-03T11:16:13.263000",
+      "created_at": "2026-05-03T12:42:36.632105+00:00"
+    },
     {
       "id": "6dada1b234e09478",
       "content_hash": "6dada1b234e09478633a56726b26ba1971de8edc0b3078d8d6a7da8a8f951972",
@@ -3950,6 +3964,20 @@
       "created_at": "2026-05-02T20:30:27.996638+00:00"
     },
     {
+      "id": "486900ccc9821bb4",
+      "content_hash": "486900ccc9821bb47c834aafb763eb29fd4c56c4c3ae9c99a49f2be2252ef766",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "title": "DeepSeek V4 – almost on the frontier",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47977026\">Comments</a>",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-01T16:52:43+00:00",
+      "created_at": "2026-05-03T12:42:41.253787+00:00"
+    },
+    {
       "id": "91c73a5b48eb7b6c",
       "content_hash": "91c73a5b48eb7b6cf233061a893c7c109b4f3042e35d014b2f48d13d6301d697",
       "source_name": "Hacker News (Best)",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-01T01:48:00+00:00",
       "created_at": "2026-05-01T05:33:54.021471+00:00"
-    },
-    {
-      "id": "e34c19a42db89d96",
-      "content_hash": "e34c19a42db89d969d5befa95093037f436fd524ea476b1754f81c261181c116",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013911.html",
-      "title": "LinuxのLinux Kernelにおけるゼロ除算に関する脆弱性",
-      "body": "Linuxカーネルにおいて、次の脆弱性が修正されました。stagingのsm750fbにおけるps_to_hz()関数でゼロ除算が発生していた問題の修正です。ps_to_hz()はhw_sm750_crtc_set_mode()から呼び出されますが、pixclockがゼロでないことを検証していませんでした。FBIOPUT_VSCREENINFOを介してゼロのpixclockが渡されると、ゼロによる除算が発生します。この問題は、他のフレームバッファドライバと一貫性を持たせるために、lynxfb_ops_check_var()でゼロのpixclockを拒否するよう修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013911.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T01:48:00+00:00",
-      "created_at": "2026-05-01T05:33:54.021486+00:00"
-    },
-    {
-      "id": "95035f33c81a7918",
-      "content_hash": "95035f33c81a79186554c04453cf9e2e6b712cb282cc37df576346d48a51cb9f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013910.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。wifi: rtw88ドライバーのプローブ失敗時に発生するデバイスリークを修正しました。ドライバーコアは、USBインターフェースがドライバーにバインドされている間、そのUSBインターフェースおよび親USBデバイスへの参照を保持します。切断後に構造体が不要な場合は、追加の参照を取得する必要はありません。このドライバーはプローブ中にUSBデバイスへの参照を取得しますが、記述子の解析失敗などすべてのプローブエラー時にそれを解放していませんでした。今回の修正により、不要なデバイス参照を削除してリークを防ぎ、無駄な処理を減らし、追加の参照が必要なドライバーの検出を容易にし、さらなるメモリリークのリスクを軽減しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-013910.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T01:48:00+00:00",
-      "created_at": "2026-05-01T05:33:54.021501+00:00"
     }
   ]
 }
