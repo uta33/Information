@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-04T21:55:36.368273+00:00",
+  "generated_at": "2026-05-04T22:47:34.555042+00:00",
   "items": [
+    {
+      "id": "53c72a38dfc2167b",
+      "content_hash": "53c72a38dfc2167bfe5235a203775e47c5f40e88da613397d94a7a233ef95f68",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3119046",
+      "title": "U.S. government warns of severe CopyFail bug affecting major versions of Linux",
+      "body": "U.S. cybersecurity agency CISA says the CopyFail bug is being actively used in hacking campaigns, and poses a major risk to servers and datacenters that rely on Linux.",
+      "url": "https://techcrunch.com/2026/05/04/u-s-government-warns-of-severe-copyfail-bug-affecting-major-versions-of-linux/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T22:21:32+00:00",
+      "created_at": "2026-05-04T22:47:34.219754+00:00"
+    },
+    {
+      "id": "0d7bbe86d7b74caf",
+      "content_hash": "0d7bbe86d7b74caf09b3879cf35adcd84bf51e50e2f346f9ecfd1254ddf9636c",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "body": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-04T22:12:57+00:00",
+      "created_at": "2026-05-04T22:47:29.838871+00:00"
+    },
+    {
+      "id": "502ee33b606eac90",
+      "content_hash": "502ee33b606eac90ada68c9b2974ed8d27c057b99908c646cef753846749a8f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://rickyyean.com/2026/05/04/what-do-we-lose-when-ai-does-our-work/",
+      "title": "What do we lose when AI does our work?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48015548\">Comments</a>",
+      "url": "https://rickyyean.com/2026/05/04/what-do-we-lose-when-ai-does-our-work/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:57:56+00:00",
+      "created_at": "2026-05-04T22:47:34.554474+00:00"
+    },
     {
       "id": "d9ce9f2baf9f4af5",
       "content_hash": "d9ce9f2baf9f4af542349c796d240be021dfd202a7a93116578aaac732931e37",
@@ -16,6 +58,34 @@
       "created_at": "2026-05-04T21:55:35.992668+00:00"
     },
     {
+      "id": "b8d7fc025ba478b4",
+      "content_hash": "b8d7fc025ba478b4560074959ddf3c4d83e3089b5538377ceb3445f150259194",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://addyosmani.com/blog/agent-skills/",
+      "title": "Agent Skills",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48015397\">Comments</a>",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:40:42+00:00",
+      "created_at": "2026-05-04T22:47:34.554625+00:00"
+    },
+    {
+      "id": "ce8cf5c317e8c20a",
+      "content_hash": "ce8cf5c317e8c20a2a727b0dd92fd21c505710117af3e7e7ddeb9a151f73a99a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/us-news/2026/may/04/new-orleans-sea-levels-relocation-climate-crisis",
+      "title": "'Point of no return': New Orleans relocation must start now due to sea level",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48015218\">Comments</a>",
+      "url": "https://www.theguardian.com/us-news/2026/may/04/new-orleans-sea-levels-relocation-climate-crisis",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:25:55+00:00",
+      "created_at": "2026-05-04T22:47:34.554794+00:00"
+    },
+    {
       "id": "d03f91db6a645a10",
       "content_hash": "d03f91db6a645a1029759ac61a8ad82db2b1b8d7eba2dce0aae4c62724cc89ee",
       "source_name": "Hacker News (Best)",
@@ -28,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T21:19:35+00:00",
       "created_at": "2026-05-04T21:55:36.367694+00:00"
+    },
+    {
+      "id": "7969ec78f349f267",
+      "content_hash": "7969ec78f349f267656962b26e29a9644f93bba9c433391b1a676870c335407d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.pulitzer.org/prize-winners-by-year/2026",
+      "title": "Pulitzer Prize Winners 2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48015097\">Comments</a>",
+      "url": "https://www.pulitzer.org/prize-winners-by-year/2026",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:14:38+00:00",
+      "created_at": "2026-05-04T22:47:34.554360+00:00"
     },
     {
       "id": "147bb4a69f8ee64d",
@@ -2534,6 +2618,20 @@
       "cvss_score": null,
       "published_at": "2026-05-03T15:55:59+00:00",
       "created_at": "2026-05-03T16:35:43.975977+00:00"
+    },
+    {
+      "id": "e858907bd2a4de70",
+      "content_hash": "e858907bd2a4de70c52b62284fc1c6057ef8317be2dbef497e6b75686f886063",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html",
+      "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47998158\">Comments</a>",
+      "url": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-03T15:49:33+00:00",
+      "created_at": "2026-05-04T22:47:34.554379+00:00"
     },
     {
       "id": "4885d03b1530cda3",
@@ -6902,104 +7000,6 @@
       "cvss_score": 10.0,
       "published_at": "2026-05-01T17:16:24.083000",
       "created_at": "2026-05-02T16:35:14.103653+00:00"
-    },
-    {
-      "id": "97293c93ae66b97e",
-      "content_hash": "97293c93ae66b97e2d69680aeab1e7884563de92f786a81a040458287a8af1b2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37540",
-      "title": "CVE-2026-37540 - OpenAMP v2025.10.0 ELF loader contains an integer overflow vulnerability in firm...",
-      "body": "OpenAMP v2025.10.0 ELF loader contains an integer overflow vulnerability in firmware image parsing. In elf_loader.c, it performs multiplication of two attacker-controlled 16-bit values from the ELF header without overflow checking. On 32-bit embedded systems (STM32MP1, Zynq, i.MX), large values can cause the product to wrap around to a small value.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37540",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.4,
-      "published_at": "2026-05-01T17:16:23.933000",
-      "created_at": "2026-05-02T16:35:14.103647+00:00"
-    },
-    {
-      "id": "e09de6a656c8e406",
-      "content_hash": "e09de6a656c8e4065d5ea4af2fade191bebd47661b41d5c0d95acf05dad5adda",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37539",
-      "title": "CVE-2026-37539 - Buffer overflow vulnerability in cannelloni v2.0.0 in CAN frame parsing in parse...",
-      "body": "Buffer overflow vulnerability in cannelloni v2.0.0 in CAN frame parsing in parser.cpp in function parseCANFrame, and decoder.cpp in function decodeFrame allowing remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via crafted CAN FD frames.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37539",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-01T17:16:23.803000",
-      "created_at": "2026-05-02T16:35:14.103640+00:00"
-    },
-    {
-      "id": "cce69648b90499d8",
-      "content_hash": "cce69648b90499d86291a330246746abc3b3b76141ef35a0a08624d3dfc3dc3c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37538",
-      "title": "CVE-2026-37538 - Buffer overflow vulnerability in socketcand 0.4.2 in file socketcand.c in functi...",
-      "body": "Buffer overflow vulnerability in socketcand 0.4.2 in file socketcand.c in function main allows attackers to cause a denial of service or other unspecified impacts via crafted bus_name.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37538",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-01T17:16:23.687000",
-      "created_at": "2026-05-02T16:35:14.103634+00:00"
-    },
-    {
-      "id": "2eb17dfad2f5a3e4",
-      "content_hash": "2eb17dfad2f5a3e415392e494d88666d07993c3f5e033fa67fc6fbe6e7bd594d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37537",
-      "title": "CVE-2026-37537 - collin80/Open-SAE-J1939 thru commit 744024d4306bc387857dfce439558336806acb06 (20...",
-      "body": "collin80/Open-SAE-J1939 thru commit 744024d4306bc387857dfce439558336806acb06 (2023-03-08) contains an integer underflow leading to out-of-bounds write in Transport Protocol Data Transfer handling. At line 23: uint8_t index = data[0] - 1. When data[0] (sequence number from CAN frame) is 0, index underflows to 255. Subsequent write at tp_dt->data[255*7 + i-1] reaches offset 1791, exceeding the MAX_TP_DT buffer (1785 bytes) by 6 bytes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37537",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-01T17:16:23.550000",
-      "created_at": "2026-05-02T16:35:14.103627+00:00"
-    },
-    {
-      "id": "17d91228ac06dd1d",
-      "content_hash": "17d91228ac06dd1d2328d4a9c4ac0ab2889bfcee78c209da92f96d97376a9de6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37536",
-      "title": "CVE-2026-37536 - miaofng/uds-c commit e506334e270d77b20c0bc259ac6c7d8c9b702b7a (2016-10-05) conta...",
-      "body": "miaofng/uds-c commit e506334e270d77b20c0bc259ac6c7d8c9b702b7a (2016-10-05) contains a stack buffer overflow in send_diagnostic_request. A 6-byte stack buffer (MAX_DIAGNOSTIC_PAYLOAD_SIZE=6) receives memcpy at offset 1+pid_length with payload_length bytes. MAX_UDS_REQUEST_PAYLOAD_LENGTH=7, so 1+2+7=10 exceeds buffer by 4 bytes. No bounds check on payload_length before memcpy.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37536",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-01T17:16:23.373000",
-      "created_at": "2026-05-02T16:35:14.103621+00:00"
-    },
-    {
-      "id": "d18f45bed7f8ffd3",
-      "content_hash": "d18f45bed7f8ffd3ace448a5ca8e99ae1f71868dee1dfc340bb3edac52292dbe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37535",
-      "title": "CVE-2026-37535 - openxc/isotp-c thru commit 5a5d19245f65189202719321facd49ce6f5d46ac (2021-08-09)...",
-      "body": "openxc/isotp-c thru commit 5a5d19245f65189202719321facd49ce6f5d46ac (2021-08-09) contains an out-of-bounds read in the ISO-TP Single Frame receive handler, where the 4-bit payload length nibble is used directly as the memcpy size without validating it against the actual CAN data length. A malicious CAN frame with an oversized length nibble can cause memory reads beyond the buffer, allowing attackers to cause a denial of service, or gain sensitive information.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37535",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-01T17:16:23.210000",
-      "created_at": "2026-05-02T16:35:14.103615+00:00"
-    },
-    {
-      "id": "c23546e78ec8b0e7",
-      "content_hash": "c23546e78ec8b0e7c513bb649f7bc81174793cf0f9c81c1e1d8873984b13a595",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37534",
-      "title": "CVE-2026-37534 - Integer underflow vulnerability in Open-SAE-J1939 thru commit b6caf884df46435e53...",
-      "body": "Integer underflow vulnerability in Open-SAE-J1939 thru commit b6caf884df46435e539b1ecbf92b6c29b345bdfe (2025-11-30) in SAE_J1939_Read_Transport_Protocol_Data_Transfer,allows attackers to write to arbitrary memory via crafted sequence number from the CAN frame.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37534",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-01T17:16:23.073000",
-      "created_at": "2026-05-02T16:35:14.103609+00:00"
     }
   ]
 }
