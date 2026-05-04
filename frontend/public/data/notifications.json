@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T22:47:34.555042+00:00",
+  "generated_at": "2026-05-04T23:42:24.258042+00:00",
   "items": [
     {
       "id": "53c72a38dfc2167b",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T22:21:32+00:00",
       "created_at": "2026-05-04T22:47:34.219754+00:00"
+    },
+    {
+      "id": "b0a59bff997f18c1",
+      "content_hash": "b0a59bff997f18c1f7570eb4f3dd43e5bc331e23de3b7671cdafbcdb6fa9f7fa",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3119046",
+      "title": "US government warns of severe CopyFail bug affecting major versions of Linux",
+      "body": "U.S. cybersecurity agency CISA says the CopyFail bug is being actively used in hacking campaigns, and poses a major risk to servers and data centers that rely on Linux.",
+      "url": "https://techcrunch.com/2026/05/04/u-s-government-warns-of-severe-copyfail-bug-affecting-major-versions-of-linux/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T22:21:32+00:00",
+      "created_at": "2026-05-04T23:42:24.147402+00:00"
     },
     {
       "id": "0d7bbe86d7b74caf",
@@ -4020,6 +4034,20 @@
       "created_at": "2026-05-02T21:30:08.266376+00:00"
     },
     {
+      "id": "6a0531f5be532593",
+      "content_hash": "6a0531f5be532593567f01d168283f01d0ec4bb39e7556a9fb5658eebdd35428",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.newyorker.com/culture/the-weekend-essay/jonathan-swifts-last-joke",
+      "title": "Jonathan Swift's Last Joke",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47989594\">Comments</a>",
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/jonathan-swifts-last-joke",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T19:27:30+00:00",
+      "created_at": "2026-05-04T23:42:24.257487+00:00"
+    },
+    {
       "id": "bd1eac88de662a9c",
       "content_hash": "bd1eac88de662a9c13f957c4116c5f5906bfa8ec91c07cd3bd7e53ebb6322f4f",
       "source_name": "Hacker News (Best)",
@@ -6972,34 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-05-01T17:16:25.150000",
       "created_at": "2026-05-02T16:35:14.103666+00:00"
-    },
-    {
-      "id": "ce5e42d0a8541702",
-      "content_hash": "ce5e42d0a8541702edd71dc0357bcee944f9ad9d04a70f75d8f28996244eb68d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42467",
-      "title": "CVE-2026-42467 - An issue was discovered in Open-SAE-J1939 thru commit b6caf884df46435e539b1ecbf9...",
-      "body": "An issue was discovered in Open-SAE-J1939 thru commit b6caf884df46435e539b1ecbf92b6c29b345bdfe (2025-11-30) in SAE_J1939_Read_Binary_Data_Transfer_DM16 causing a denial of service via crafted CAN frame on the J1939 bus.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42467",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-01T17:16:25.027000",
-      "created_at": "2026-05-02T16:35:14.103659+00:00"
-    },
-    {
-      "id": "055621df99cad836",
-      "content_hash": "055621df99cad83623c5054e8b1c2c12d21cebfb92f8b9c3d751ddf154ba3604",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37541",
-      "title": "CVE-2026-37541 - Buffer overflow vulnerability in Open Vehicle Monitoring System 3 (OVMS3) 3.3.00...",
-      "body": "Buffer overflow vulnerability in Open Vehicle Monitoring System 3 (OVMS3) 3.3.005. In canformat_gvret.cpp, the length field in GVRET binary data is not properly validated, allowing remote attackers to cause a denial of service or possibly execute arbitrary code via crafted GVRET frames.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37541",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-05-01T17:16:24.083000",
-      "created_at": "2026-05-02T16:35:14.103653+00:00"
     }
   ]
 }
