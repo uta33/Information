@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-04T20:57:10.851001+00:00",
+  "generated_at": "2026-05-04T21:55:36.368273+00:00",
   "items": [
+    {
+      "id": "d9ce9f2baf9f4af5",
+      "content_hash": "d9ce9f2baf9f4af542349c796d240be021dfd202a7a93116578aaac732931e37",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3118909",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "body": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. It's relationship with OpenAI is deep and rich.",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:53:21+00:00",
+      "created_at": "2026-05-04T21:55:35.992668+00:00"
+    },
+    {
+      "id": "d03f91db6a645a10",
+      "content_hash": "d03f91db6a645a1029759ac61a8ad82db2b1b8d7eba2dce0aae4c62724cc89ee",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607",
+      "title": "Welcome to Gas City",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48015146\">Comments</a>",
+      "url": "https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T21:19:35+00:00",
+      "created_at": "2026-05-04T21:55:36.367694+00:00"
+    },
     {
       "id": "147bb4a69f8ee64d",
       "content_hash": "147bb4a69f8ee64db3c97a104080b683fdcd2a696094fda87940ca1cf44ffcc7",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T20:03:28+00:00",
       "created_at": "2026-05-04T20:57:06.521317+00:00"
+    },
+    {
+      "id": "01fc3f14f226ede2",
+      "content_hash": "01fc3f14f226ede220ec656630e8291ec42de2d60be076d806f898809181d9b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2510.19315",
+      "title": "Transformers Are Inherently Succinct",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48014197\">Comments</a>",
+      "url": "https://arxiv.org/abs/2510.19315",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T20:03:08+00:00",
+      "created_at": "2026-05-04T21:55:36.368029+00:00"
     },
     {
       "id": "228cbef9ff19e53d",
@@ -170,6 +212,20 @@
       "created_at": "2026-05-04T19:12:12.053828+00:00"
     },
     {
+      "id": "ba796107f0b7a3ff",
+      "content_hash": "ba796107f0b7a3ff4f2ceb83f063ef7457ff745a85a5aad245ee013eb76b12d8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48012162\">Comments</a>",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-04T17:46:32+00:00",
+      "created_at": "2026-05-04T21:55:36.367553+00:00"
+    },
+    {
       "id": "d57687b1aa9f0396",
       "content_hash": "d57687b1aa9f03969646946d2203f2bf5ba144d63c88152cf705003af7827bad",
       "source_name": "Hacker News (Best)",
@@ -240,6 +296,20 @@
       "created_at": "2026-05-04T20:57:10.850664+00:00"
     },
     {
+      "id": "25aa8c0d077c3844",
+      "content_hash": "25aa8c0d077c3844f4264b18636c11072a12ccf404d2da2e27031dff6fc8fcdc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.space.com/entertainment/space-games/kitten-space-agency-is-the-spiritual-successor-to-kerbal-space-program-and-they-have-an-ex-spacex-engineer-on-the-team-interview",
+      "title": "“Kitten Space Agency”, a Spiritual Successor to “Kerbal Space Program” (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48011980\">Comments</a>",
+      "url": "https://www.space.com/entertainment/space-games/kitten-space-agency-is-the-spiritual-successor-to-kerbal-space-program-and-they-have-an-ex-spacex-engineer-on-the-team-interview",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T17:33:48+00:00",
+      "created_at": "2026-05-04T21:55:36.367944+00:00"
+    },
+    {
       "id": "4b31e181d983270a",
       "content_hash": "4b31e181d983270a675f0bca0db69aa0586fde393f4bfaec66448815706a45fb",
       "source_name": "Hacker News (Best)",
@@ -252,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T17:29:39+00:00",
       "created_at": "2026-05-04T19:12:12.054095+00:00"
+    },
+    {
+      "id": "d8f671ba0a7ef18b",
+      "content_hash": "d8f671ba0a7ef18bead610a118e7fe803105540e9e6aef980ee67e195de5f6d9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.b-list.org/weblog/2026/apr/09/llms/",
+      "title": "Let's talk about LLMs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48011904\">Comments</a>",
+      "url": "https://www.b-list.org/weblog/2026/apr/09/llms/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T17:29:39+00:00",
+      "created_at": "2026-05-04T21:55:36.367626+00:00"
     },
     {
       "id": "d4f9b4431a8e94c4",
@@ -548,6 +632,20 @@
       "created_at": "2026-05-04T17:20:36.829948+00:00"
     },
     {
+      "id": "d08facfbe390ae1e",
+      "content_hash": "d08facfbe390ae1ee70edb04097a8acd3c64645428d578d1f08d99633a53f685",
+      "source_name": "Google AI Blog",
+      "external_id": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "body": "Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T15:30:00+00:00",
+      "created_at": "2026-05-04T21:55:31.029988+00:00"
+    },
+    {
       "id": "b53038a6f2b82353",
       "content_hash": "b53038a6f2b82353d368bc5237f3ee84bf4a0a49a6129b7df2316087421d1780",
       "source_name": "Hacker News (Best)",
@@ -588,6 +686,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T15:15:21+00:00",
       "created_at": "2026-05-04T19:12:12.053972+00:00"
+    },
+    {
+      "id": "dfbc52f043fe8099",
+      "content_hash": "dfbc52f043fe809986fca507d64f3801a9ae2c65190fa36afea6aa800ff3aa78",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.fuelinsight.co.uk",
+      "title": "UK Fuel Price Intelligence – Market analytics from reporting stations",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48009747\">Comments</a>",
+      "url": "https://www.fuelinsight.co.uk",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T15:15:21+00:00",
+      "created_at": "2026-05-04T21:55:36.367734+00:00"
     },
     {
       "id": "1eae79957a0e939a",
@@ -686,6 +798,20 @@
       "cvss_score": null,
       "published_at": "2026-05-04T14:10:50+00:00",
       "created_at": "2026-05-04T15:02:13.897163+00:00"
+    },
+    {
+      "id": "fb5c9506efd34bad",
+      "content_hash": "fb5c9506efd34bad4a484fec074669aa136bbbccbe232989276806453a71bc9f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+      "title": "How Monero’s proof of work works",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48009020\">Comments</a>",
+      "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-04T14:10:50+00:00",
+      "created_at": "2026-05-04T21:55:36.367753+00:00"
     },
     {
       "id": "2efc3763b0035179",
@@ -3628,6 +3754,20 @@
       "created_at": "2026-05-02T22:28:59.096070+00:00"
     },
     {
+      "id": "34bb059ca69f4ca4",
+      "content_hash": "34bb059ca69f4ca40a72a09cb443e394fcd7ff1325e3ee4ff133ad2ceeb1177f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/stacklok/frizbee",
+      "title": "Frizbee is a tool you may throw a tag at and it comes back with a checksum",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47990695\">Comments</a>",
+      "url": "https://github.com/stacklok/frizbee",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T21:23:11+00:00",
+      "created_at": "2026-05-04T21:55:36.367892+00:00"
+    },
+    {
       "id": "a23a01c2e0ed941c",
       "content_hash": "a23a01c2e0ed941cf0728bf989dbeebdb23528f00361efc9d03d3e03efc3ea71",
       "source_name": "Hacker News (Best)",
@@ -4396,6 +4536,20 @@
       "cvss_score": null,
       "published_at": "2026-05-02T12:48:01+00:00",
       "created_at": "2026-05-04T20:57:10.850581+00:00"
+    },
+    {
+      "id": "bb3c5bc4cd6d57b6",
+      "content_hash": "bb3c5bc4cd6d57b6f59ead81155b6ea5d6048987b5e02693340008e196fc269a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/lsferreira42/nfsdiag",
+      "title": "Show HN: nfsdiag – A NFS diagnostic application",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=47985958\">Comments</a>",
+      "url": "https://github.com/lsferreira42/nfsdiag",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-02T12:48:01+00:00",
+      "created_at": "2026-05-04T21:55:36.367858+00:00"
     },
     {
       "id": "14350e074b2b31b4",
@@ -6846,160 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-05-01T17:16:23.073000",
       "created_at": "2026-05-02T16:35:14.103609+00:00"
-    },
-    {
-      "id": "5e2a86c450d149b2",
-      "content_hash": "5e2a86c450d149b2129bf9ae91c6fd895e7aeabec00e57f03c6cd728e1d49624",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37532",
-      "title": "CVE-2026-37532 - AGL agl-service-can-low-level thru 17.1.12 contains a heap buffer over-read in t...",
-      "body": "AGL agl-service-can-low-level thru 17.1.12 contains a heap buffer over-read in the isotp-c library. In isotp_continue_receive (receive.c:87-89), the payload_length for a Single Frame is extracted from a 4-bit nibble in the CAN frame data, yielding values 0-15. However, a standard CAN frame is only 8 bytes, with payload starting at data[1] (7 bytes available). When payload_length exceeds the available data (e.g., nibble=15 but only 7 payload bytes exist), memcpy(message.payload, &data[1], payload_length) reads up to 8 bytes past the end of the data buffer.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37532",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-01T17:16:22.897000",
-      "created_at": "2026-05-02T16:35:14.103603+00:00"
-    },
-    {
-      "id": "7f0f4cff175ab36f",
-      "content_hash": "7f0f4cff175ab36fac8ba19ac969bf4d7f2a21355e9639428cbdd9aa26be24f7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37531",
-      "title": "CVE-2026-37531 - AGL app-framework-main thru 17.1.12 contains a Zip Slip path traversal vulnerabi...",
-      "body": "AGL app-framework-main thru 17.1.12 contains a Zip Slip path traversal vulnerability (CWE-22) combined with a TOCTOU race condition (CWE-367) in the widget installation flow. The is_valid_filename function in wgtpkg-zip.c validates ZIP entry names but does not check for dot notation directory traversal sequences it only blocks absolute paths. The zread extraction function uses openat(workdirfd, filename, O_CREAT) which resolves dot notation values relative to the work directory, allowing files to be written anywhere on the filesystem. Critically, in function install_widget in file wgtpkg-install.c, extraction via zread occurs BEFORE signature verification via check_all_signatures. Even if signature verification fails, the error cleanup (remove_workdir) only deletes the temporary work directory files written outside via path traversal persist permanently.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37531",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-01T17:16:22.720000",
-      "created_at": "2026-05-02T16:35:14.103596+00:00"
-    },
-    {
-      "id": "4dda15edc0faa079",
-      "content_hash": "4dda15edc0faa079d47723dfb4e445c86b3695a1a993e714a72a0c8e34583a49",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37530",
-      "title": "CVE-2026-37530 - AGL agl-service-can-low-level thru 17.1.12 contains a stack buffer overflow in t...",
-      "body": "AGL agl-service-can-low-level thru 17.1.12 contains a stack buffer overflow in the uds-c library. The send_diagnostic_request function in uds.c allocates a 6-byte stack buffer (MAX_DIAGNOSTIC_PAYLOAD_SIZE=6) but copies up to 7 bytes (MAX_UDS_REQUEST_PAYLOAD_LENGTH=7) via memcpy at an offset of 1+pid_length (2-3 bytes), resulting in 1-4 bytes of controlled stack overflow. The payload_length field (uint8_t) has no bounds check against the destination buffer. On 32-bit ARM automotive ECUs without stack canaries, this can lead to return address overwrite and RCE.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37530",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-01T17:16:22.603000",
-      "created_at": "2026-05-02T16:35:14.103590+00:00"
-    },
-    {
-      "id": "bc0c54b635d8383a",
-      "content_hash": "bc0c54b635d8383a76baefad3cef532bc7cce45a6c24c622be519f4d64ad9224",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37526",
-      "title": "CVE-2026-37526 - AGL app-framework-binder (afb-daemon) through v19.90.0 allows any local process ...",
-      "body": "AGL app-framework-binder (afb-daemon) through v19.90.0 allows any local process to execute privileged supervision commands (Exit, Do, Sclose, Config, Trace, Debug, Token, slist) without authentication via the abstract Unix socket @urn:AGL:afs:supervision:socket. The on_supervision_call function in src/afb-supervision.c dispatches all 8 commands without any credential verification. The abstract socket has no DAC protection, as acknowledged in the official CAUTION comment in src/afs-supervision.h. This allows a low-privileged local process to kill the daemon (DoS via Exit command), execute arbitrary API calls (via Do command), close arbitrary user sessions (via Sclose command), or leak the entire global configuration (via Config command). The vulnerability was introduced in commit b8c9d5de384efcfa53ebdb3f0053d7b3723777e1 on 2017-06-29.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37526",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-01T17:16:22.440000",
-      "created_at": "2026-05-02T16:35:14.103583+00:00"
-    },
-    {
-      "id": "cb439028dad3ab56",
-      "content_hash": "cb439028dad3ab56d30e56b52098646983da015801aba2c35b065729ffddaffa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-37525",
-      "title": "CVE-2026-37525 - AGL app-framework-binder (afb-daemon) through v19.90.0 contains a privilege esca...",
-      "body": "AGL app-framework-binder (afb-daemon) through v19.90.0 contains a privilege escalation vulnerability in the supervision Do command. The on_supervision_call function in src/afb-supervision.c explicitly nullifies the request credentials by calling afb_context_change_cred(&xreq->context, NULL) before dispatching an attacker-controlled API call via xapi->itf->call(xapi->closure, xreq). The NULL propagation chain through afb-context.c:110 (context->credentials = afb_cred_addref(NULL)) and afb-cred.c:163 (returns NULL when cred is NULL) confirms that credentials are zeroed before the target API executes. The attacker controls both api and verb parameters via JSON input, allowing execution of any registered API with a NULL credential context. APIs that rely on context->credentials for authorization decisions may fail open when receiving NULL credentials, enabling privilege escalation. This vulnerability was introduced in commit abbb4599f0b921c6f434b6bd02bcfb277eecf745 on 2018-02-14.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37525",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-01T17:16:22.270000",
-      "created_at": "2026-05-02T16:35:14.103577+00:00"
-    },
-    {
-      "id": "1cb607b9848cb92b",
-      "content_hash": "1cb607b9848cb92b6567784cf608c2da101a255788c0e91d6bb5479755e82125",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "title": "The Gay Jailbreak Technique",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977134\">Comments</a>",
-      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:59:35+00:00",
-      "created_at": "2026-05-01T18:55:30.673864+00:00"
-    },
-    {
-      "id": "dc3a3256dbbf3f42",
-      "content_hash": "dc3a3256dbbf3f42c822fca9c92b38c960835342079d50d725d812f8c4556c82",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "title": "The gay jailbreak technique",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977134\">Comments</a>",
-      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:59:35+00:00",
-      "created_at": "2026-05-01T23:41:16.775031+00:00"
-    },
-    {
-      "id": "df6fb1f06377ad78",
-      "content_hash": "df6fb1f06377ad784fbd13c90c99ebb9ebc5dd68f641ba994586a8b8c7302620",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "title": "The gay jailbreak technique (2025)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977134\">Comments</a>",
-      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:59:35+00:00",
-      "created_at": "2026-05-02T04:51:25.655487+00:00"
-    },
-    {
-      "id": "b9a3e6f9121aab2f",
-      "content_hash": "b9a3e6f9121aab2f36fb4a57c496ab376373dca13d3f21d87d448ecb86b96d24",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "title": "DeepSeek V4–almost on the frontier, a fraction of the price",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977026\">Comments</a>",
-      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:52:43+00:00",
-      "created_at": "2026-05-02T11:36:31.204321+00:00"
-    },
-    {
-      "id": "da26420fff5963d5",
-      "content_hash": "da26420fff5963d5fcb7d65b35a6cba6efe261429ff2584fb0f2eeb180b2eae0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "title": "DeepSeek V4—almost on the frontier",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977026\">Comments</a>",
-      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:52:43+00:00",
-      "created_at": "2026-05-02T20:30:27.996638+00:00"
-    },
-    {
-      "id": "486900ccc9821bb4",
-      "content_hash": "486900ccc9821bb47c834aafb763eb29fd4c56c4c3ae9c99a49f2be2252ef766",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "title": "DeepSeek V4 – almost on the frontier",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=47977026\">Comments</a>",
-      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-01T16:52:43+00:00",
-      "created_at": "2026-05-03T12:42:41.253787+00:00"
     }
   ]
 }
