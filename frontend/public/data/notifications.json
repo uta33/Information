@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-07T23:42:58.979071+00:00",
+  "generated_at": "2026-05-08T01:56:13.285758+00:00",
   "items": [
+    {
+      "id": "4b1e0b33b54cbfee",
+      "content_hash": "4b1e0b33b54cbfeeba098060f76670ba12f188ae275a92535421bb410f5c7242",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://etke.cc/blog/introducing-komai",
+      "title": "Komai: a fine Matrix chat app you can get to love",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056804\">Comments</a>",
+      "url": "https://etke.cc/blog/introducing-komai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T00:10:44+00:00",
+      "created_at": "2026-05-08T01:56:13.285490+00:00"
+    },
+    {
+      "id": "b9f9adf8545ce1fe",
+      "content_hash": "b9f9adf8545ce1fee823ed50268b1a09b4bedc79e360f16524757db557e810ab",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/robertdfrench/ifuncd-up",
+      "title": "GNU IFUNC is the real culprit behind CVE-2024-3094",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056749\">Comments</a>",
+      "url": "https://github.com/robertdfrench/ifuncd-up",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T00:03:38+00:00",
+      "created_at": "2026-05-08T01:56:13.285266+00:00"
+    },
+    {
+      "id": "2d3a0f10ade492ac",
+      "content_hash": "2d3a0f10ade492ac41a23e233e113b84c93d22f349843be0ed23082a87ce3717",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women",
+      "title": "Gambling ads on social media reach more than twice as many men as women: study",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056359\">Comments</a>",
+      "url": "https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T23:17:03+00:00",
+      "created_at": "2026-05-08T01:56:13.285398+00:00"
+    },
     {
       "id": "276b6e87ca134ae4",
       "content_hash": "276b6e87ca134ae48e10db8ae1015540f7d14018905e03f872c65fd28487f9c1",
@@ -16,6 +58,20 @@
       "created_at": "2026-05-07T23:42:58.583560+00:00"
     },
     {
+      "id": "27a8b9614752dbda",
+      "content_hash": "27a8b9614752dbda286eb0ba3fe93570e0a44681110af259716a3e576ad3bdc1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+      "title": "Researchers discover advanced language processing in the unconscious human brain",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056268\">Comments</a>",
+      "url": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T23:06:44+00:00",
+      "created_at": "2026-05-08T01:56:13.285114+00:00"
+    },
+    {
       "id": "6b50e367d320f73a",
       "content_hash": "6b50e367d320f73a75eb72deda84b32a195fef6ed07d2de59c8b28aaa98dd523",
       "source_name": "Hacker News (Best)",
@@ -28,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T23:02:11+00:00",
       "created_at": "2026-05-07T23:42:58.978565+00:00"
+    },
+    {
+      "id": "d9a6b77cf8941441",
+      "content_hash": "d9a6b77cf894144186e434edb73ea819525dfc0cc927470abb37fe3ff27cd657",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants",
+      "title": "Nonprofit hospitals spend billions on consultants with no clear effect",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056158\">Comments</a>",
+      "url": "https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T22:54:34+00:00",
+      "created_at": "2026-05-08T01:56:13.285021+00:00"
     },
     {
       "id": "333889c69f64d08e",
@@ -84,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T22:22:21+00:00",
       "created_at": "2026-05-07T22:51:11.362064+00:00"
+    },
+    {
+      "id": "33dd55e7cfd278aa",
+      "content_hash": "33dd55e7cfd278aad93a49fe3c995e3c08b1b9e45e03e08432c92a18e36f10eb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/",
+      "title": "Hackers deface school login pages after claiming another Instructure hack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48055844\">Comments</a>",
+      "url": "https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T22:14:49+00:00",
+      "created_at": "2026-05-08T01:56:13.285304+00:00"
     },
     {
       "id": "61f76462bd4da6bb",
@@ -1316,6 +1400,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T07:15:11+00:00",
       "created_at": "2026-05-07T10:58:56.230419+00:00"
+    },
+    {
+      "id": "1f728289e56f46dc",
+      "content_hash": "1f728289e56f46dcfdd062ab41217ebdef2d7973a65540d469871432bc87de0e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7252",
+      "title": "CVE-2026-7252 - The WP-Optimize – Cache, Compress images, Minify & Clean database to boost page ...",
+      "body": "The WP-Optimize – Cache, Compress images, Minify & Clean database to boost page speed & performance plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the unscheduled_original_file_deletion function in all versions up to, and including, 4.5.2 This makes it possible for authenticated attackers, with author-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This is possible because 'original-file' is a public (non-protected) meta key — it does not begin with an underscore — allowing Authors to freely create or modify it on their own attachment posts via the standard Edit Media form or the REST API.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7252",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-05-07T06:16:05.567000",
+      "created_at": "2026-05-08T01:56:08.710549+00:00"
     },
     {
       "id": "4c406b040467f002",
@@ -3670,6 +3768,20 @@
       "created_at": "2026-05-07T19:23:56.611108+00:00"
     },
     {
+      "id": "337d8b086f7dd797",
+      "content_hash": "337d8b086f7dd797d56004b7a562cd2468b22a4cfa69dbd19c5522c643c377a4",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/simplex",
+      "title": "Simplex rethinks software development with Codex",
+      "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "url": "https://openai.com/index/simplex",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "created_at": "2026-05-08T01:56:07.741636+00:00"
+    },
+    {
       "id": "7b65bc6ec352fb7e",
       "content_hash": "7b65bc6ec352fb7e06a64fec7a241e839eecba47f3e53dcb114a0055471c5ca0",
       "source_name": "Hacker News (Best)",
@@ -3738,6 +3850,20 @@
       "cvss_score": null,
       "published_at": "2026-05-06T22:38:51+00:00",
       "created_at": "2026-05-06T23:39:43.870001+00:00"
+    },
+    {
+      "id": "c25fbdd320afbeb3",
+      "content_hash": "c25fbdd320afbeb375f00fcdfeca757d666d720481c9a023665dd3109871f055",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://placesjournal.org/article/the-disappearance-of-the-public-bench/",
+      "title": "The Disappearance of the Public Bench",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48042817\">Comments</a>",
+      "url": "https://placesjournal.org/article/the-disappearance-of-the-public-bench/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-06T22:36:17+00:00",
+      "created_at": "2026-05-08T01:56:13.285174+00:00"
     },
     {
       "id": "2c00dbd5265a201e",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-06T12:16:30.617000",
       "created_at": "2026-05-07T12:28:11.900225+00:00"
-    },
-    {
-      "id": "abadb7931988072d",
-      "content_hash": "abadb7931988072d609d2bf9108e459045d1780b6bd65a582c0284a493a09914",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43133",
-      "title": "CVE-2026-43133 - In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: nSVM: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: nSVM: Always use vmcb01 in VMLOAD/VMSAVE emulation\n\nCommit cc3ed80ae69f (\"KVM: nSVM: always use vmcb01 to for vmsave/vmload\nof guest state\") made KVM always use vmcb01 for the fields controlled by\nVMSAVE/VMLOAD, but it missed updating the VMLOAD/VMSAVE emulation code\nto always use vmcb01.\n\nAs a result, if VMSAVE/VMLOAD is executed by an L2 guest and is not\nintercepted by L1, KVM will mistakenly use vmcb02. Always use vmcb01\ninstead of the current VMCB.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43133",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.480000",
-      "created_at": "2026-05-07T12:28:11.900218+00:00"
-    },
-    {
-      "id": "ced3c29efa184be1",
-      "content_hash": "ced3c29efa184be14b7df7f305798920a3c589b79d232131feb53debe9b298ea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43132",
-      "title": "CVE-2026-43132 - In the Linux kernel, the following vulnerability has been resolved:\n\ndm-verity: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm-verity: correctly handle dm_bufio_client_create() failure\n\nIf either of the calls to dm_bufio_client_create() in verity_fec_ctr()\nfails, then dm_bufio_client_destroy() is later called with an ERR_PTR()\nargument.  That causes a crash.  Fix this.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43132",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.357000",
-      "created_at": "2026-05-07T12:28:11.900210+00:00"
-    },
-    {
-      "id": "eab1bcee0490e972",
-      "content_hash": "eab1bcee0490e972dbace6cf36daeca844d77a1cc595e7d5db39ec9e4364a699",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43131",
-      "title": "CVE-2026-43131 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/pm:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/pm: Fix null pointer dereference issue\n\nIf SMU is disabled, during RAS initialization,\nthere will be null pointer dereference issue here.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43131",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.243000",
-      "created_at": "2026-05-07T12:28:11.900203+00:00"
-    },
-    {
-      "id": "422afd33a8b4c3aa",
-      "content_hash": "422afd33a8b4c3aa243f74d8aad331fed4306baf89198a6ae13e1f17a6b086f5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43130",
-      "title": "CVE-2026-43130 - In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d: Flush dev-IOTLB only when PCIe device is accessible in scalable mode\n\nCommit 4fc82cd907ac (\"iommu/vt-d: Don't issue ATS Invalidation\nrequest when device is disconnected\") relies on\npci_dev_is_disconnected() to skip ATS invalidation for\nsafely-removed devices, but it does not cover link-down caused\nby faults, which can still hard-lock the system.\n\nFor example, if a VM fails to connect to the PCIe device,\n\"virsh destroy\" is executed to release resources and isolate\nthe fault, but a hard-lockup occurs while releasing the group fd.\n\nCall Trace:\n qi_submit_sync\n qi_flush_dev_iotlb\n intel_pasid_tear_down_entry\n device_block_translation\n blocking_domain_attach_dev\n __iommu_attach_device\n __iommu_device_set_domain\n __iommu_group_set_domain_internal\n iommu_detach_group\n vfio_iommu_type1_detach_group\n vfio_group_detach_container\n vfio_group_fops_release\n __fput\n\nAlthough pci_device_is_present() is slower than\npci_dev_is_disconnected(), it still takes only ~70 µs on a\nConnectX-5 (8 GT/s, x2) and becomes even faster as PCIe speed\nand width increase.\n\nBesides, devtlb_invalidation_with_pasid() is called only in the\npaths below, which are far less frequent than memory map/unmap.\n\n1. mm-struct release\n2. {attach,release}_dev\n3. set/remove PASID\n4. dirty-tracking setup\n\nThe gain in system stability far outweighs the negligible cost\nof using pci_device_is_present() instead of pci_dev_is_disconnected()\nto decide when to skip ATS invalidation, especially under GDR\nhigh-load conditions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43130",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.083000",
-      "created_at": "2026-05-07T12:28:11.900195+00:00"
-    },
-    {
-      "id": "198dbc46757865f6",
-      "content_hash": "198dbc46757865f6aa8985d7a7f3836e83bd9399fc2b8c9a7b7f2bd3b7999984",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43129",
-      "title": "CVE-2026-43129 - In the Linux kernel, the following vulnerability has been resolved:\n\nima: verify...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nima: verify the previous kernel's IMA buffer lies in addressable RAM\n\nPatch series \"Address page fault in ima_restore_measurement_list()\", v3.\n\nWhen the second-stage kernel is booted via kexec with a limiting command\nline such as \"mem=<size>\" we observe a pafe fault that happens.\n\n    BUG: unable to handle page fault for address: ffff97793ff47000\n    RIP: ima_restore_measurement_list+0xdc/0x45a\n    #PF: error_code(0x0000)  not-present page\n\nThis happens on x86_64 only, as this is already fixed in aarch64 in\ncommit: cbf9c4b9617b (\"of: check previous kernel's ima-kexec-buffer\nagainst memory bounds\")\n\n\nThis patch (of 3):\n\nWhen the second-stage kernel is booted with a limiting command line (e.g. \n\"mem=<size>\"), the IMA measurement buffer handed over from the previous\nkernel may fall outside the addressable RAM of the new kernel.  Accessing\nsuch a buffer can fault during early restore.\n\nIntroduce a small generic helper, ima_validate_range(), which verifies\nthat a physical [start, end] range for the previous-kernel IMA buffer lies\nwithin addressable memory:\n\t- On x86, use pfn_range_is_mapped().\n\t- On OF based architectures, use page_is_ram().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43129",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:29.963000",
-      "created_at": "2026-05-07T12:28:11.900188+00:00"
-    },
-    {
-      "id": "18a42f6d2a53b028",
-      "content_hash": "18a42f6d2a53b028785731ee5e62b02e26eacfd9437290e3b3d4f3499caaa56f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43128",
-      "title": "CVE-2026-43128 - In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/umem: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/umem: Fix double dma_buf_unpin in failure path\n\nIn ib_umem_dmabuf_get_pinned_with_dma_device(), the call to\nib_umem_dmabuf_map_pages() can fail. If this occurs, the dmabuf\nis immediately unpinned but the umem_dmabuf->pinned flag is still\nset. Then, when ib_umem_release() is called, it calls\nib_umem_dmabuf_revoke() which will call dma_buf_unpin() again.\n\nFix this by removing the immediate unpin upon failure and just let\nthe ib_umem_release/revoke path handle it. This also ensures the\nproper unmap-unpin unwind ordering if the dmabuf_map_pages call\nhappened to fail due to dma_resv_wait_timeout (and therefore has\na non-NULL umem_dmabuf->sgt).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43128",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:29.837000",
-      "created_at": "2026-05-07T12:28:11.900180+00:00"
-    },
-    {
-      "id": "553ac26df3c2b41a",
-      "content_hash": "553ac26df3c2b41a6a95973c1587a77f8ac1e4037edb23fead0dd14df35e4c55",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43127",
-      "title": "CVE-2026-43127 - In the Linux kernel, the following vulnerability has been resolved:\n\nntfs3: fix ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs3: fix circular locking dependency in run_unpack_ex\n\nSyzbot reported a circular locking dependency between wnd->rw_lock\n(sbi->used.bitmap) and ni->file.run_lock.\n\nThe deadlock scenario:\n1. ntfs_extend_mft() takes ni->file.run_lock then wnd->rw_lock.\n2. run_unpack_ex() takes wnd->rw_lock then tries to acquire\n   ni->file.run_lock inside ntfs_refresh_zone().\n\nThis creates an AB-BA deadlock.\n\nFix this by using down_read_trylock() instead of down_read() when\nacquiring run_lock in run_unpack_ex(). If the lock is contended,\nskip ntfs_refresh_zone() - the MFT zone will be refreshed on the\nnext MFT operation. This breaks the circular dependency since we\nnever block waiting for run_lock while holding wnd->rw_lock.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43127",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:29.727000",
-      "created_at": "2026-05-07T12:28:11.900172+00:00"
-    },
-    {
-      "id": "be47957b85a95d51",
-      "content_hash": "be47957b85a95d5157474d63aa8e453d637e91b9e9f75a798708d6af5cffefdc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43126",
-      "title": "CVE-2026-43126 - In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: mixer...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: mixer: oss: Add card disconnect checkpoints\n\nALSA OSS mixer layer calls the kcontrol ops rather individually, and\npending calls might be not always caught at disconnecting the device.\n\nFor avoiding the potential UAF scenarios, add sanity checks of the\ncard disconnection at each entry point of OSS mixer accesses.  The\nrwsem is taken just before that check, hence the rest context should\nbe covered by that properly.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43126",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:29.597000",
-      "created_at": "2026-05-07T12:28:11.900165+00:00"
-    },
-    {
-      "id": "575983ce328cdbce",
-      "content_hash": "575983ce328cdbceaa8bd61b13da2fcdb3a410cd518edb470aca708b7da9d580",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43125",
-      "title": "CVE-2026-43125 - In the Linux kernel, the following vulnerability has been resolved:\n\ndlm: valida...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndlm: validate length in dlm_search_rsb_tree\n\nThe len parameter in dlm_dump_rsb_name() is not validated and comes\nfrom network messages. When it exceeds DLM_RESNAME_MAXLEN, it can\ncause out-of-bounds write in dlm_search_rsb_tree().\n\nAdd length validation to prevent potential buffer overflow.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43125",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:29.450000",
-      "created_at": "2026-05-07T12:28:11.900157+00:00"
     }
   ]
 }
