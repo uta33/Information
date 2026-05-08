@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-08T01:56:13.285758+00:00",
+  "generated_at": "2026-05-08T04:48:37.656174+00:00",
   "items": [
+    {
+      "id": "31b588acb6f9f5c6",
+      "content_hash": "31b588acb6f9f5c60c8705cb7b972f9250d792bccbf47415d81fe335004b5be6",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3120662",
+      "title": "The back office problem that explains why specialists never call you back",
+      "body": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
+      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T04:42:29+00:00",
+      "created_at": "2026-05-08T04:48:37.267976+00:00"
+    },
     {
       "id": "4b1e0b33b54cbfee",
       "content_hash": "4b1e0b33b54cbfeeba098060f76670ba12f188ae275a92535421bb410f5c7242",
@@ -70,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T23:06:44+00:00",
       "created_at": "2026-05-08T01:56:13.285114+00:00"
+    },
+    {
+      "id": "6c4e09f1c4c08f7c",
+      "content_hash": "6c4e09f1c4c08f7c3ecb750b7b8a4f359ddcfbe10def4af06462fc928fcf71ad",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+      "title": "Plasticity and language in the anaesthetized human hippocampus",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48056268\">Comments</a>",
+      "url": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T23:06:44+00:00",
+      "created_at": "2026-05-08T04:48:37.655508+00:00"
     },
     {
       "id": "6b50e367d320f73a",
@@ -154,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T22:22:21+00:00",
       "created_at": "2026-05-07T22:51:11.362064+00:00"
+    },
+    {
+      "id": "3b093d955b848bb0",
+      "content_hash": "3b093d955b848bb0b3d75e2c3bf9e8dca344ad3ef10d9636b971e075cfbefb77",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+      "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48055913\">Comments</a>",
+      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T22:22:21+00:00",
+      "created_at": "2026-05-08T04:48:37.655336+00:00"
     },
     {
       "id": "33dd55e7cfd278aa",
@@ -280,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T20:23:37+00:00",
       "created_at": "2026-05-07T20:56:36.995143+00:00"
+    },
+    {
+      "id": "9080f4cfcd50403c",
+      "content_hash": "9080f4cfcd50403cc093277c5b6d86a749621cd53e5f2c11d8fdb66bb993189b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
+      "title": "Cloudflare to cut about 20% workforce",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48054423\">Comments</a>",
+      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-07T20:23:37+00:00",
+      "created_at": "2026-05-08T04:48:37.655422+00:00"
     },
     {
       "id": "a8fa0d5ee883a269",
@@ -604,6 +660,20 @@
       "created_at": "2026-05-07T19:24:00.987960+00:00"
     },
     {
+      "id": "6956bd787c3f5f21",
+      "content_hash": "6956bd787c3f5f218840702dc20eb1752e4986653c09d7f34456541a03c323eb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/",
+      "title": "Brazil's Pix payment system faces pressure from Visa and Mastercard",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48052371\">Comments</a>",
+      "url": "https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T17:42:58+00:00",
+      "created_at": "2026-05-08T04:48:37.655724+00:00"
+    },
+    {
       "id": "c0bfe4921f5b4207",
       "content_hash": "c0bfe4921f5b4207c6fa4ac635f7123e3cd83eb1d14bd97b848bd1b1955ea54b",
       "source_name": "Hacker News (Best)",
@@ -672,6 +742,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T16:05:48+00:00",
       "created_at": "2026-05-07T17:30:55.418145+00:00"
+    },
+    {
+      "id": "213454417b91e48f",
+      "content_hash": "213454417b91e48fdb081d296853a71723176e8e97b4d43d1a5253d0ef736c8f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "title": "Hardening Firefox with Claude Mythos Preview",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48051079\">Comments</a>",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T16:05:33+00:00",
+      "created_at": "2026-05-08T04:48:37.655833+00:00"
     },
     {
       "id": "82d5d0990c6dc6a3",
@@ -1346,6 +1430,34 @@
       "created_at": "2026-05-07T10:58:52.906355+00:00"
     },
     {
+      "id": "f7faa6bd1bf70aab",
+      "content_hash": "f7faa6bd1bf70aab260e7fc441ff85171be01df7ace3efc9d4fa3b3d4d9e07b2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-1978",
+      "title": "CVE-2025-1978 - Remote Code Execution Vulnerability in Hitachi Storage Navigator and the mainten...",
+      "body": "Remote Code Execution Vulnerability in Hitachi Storage Navigator and the maintenance console in Hitachi Virtual Storage Platform G130, G150, G350, G370, G700, G900, F350, F370, F700, F900, Hitachi Virtual Storage Platform E390, E590, E790, E990, E1090, E390H, E590H, E790H, E1090H, Hitachi Virtual Storage Platform One Block 23, One Block 24, One Block 26, One Block 28.\n\nThis issue affects Virtual Storage Platform G130, G150, G350, G370, G700, G900, F350, F370, F700, F900, Hitachi Virtual Storage Platform E390, E590, E790, E990, E1090, E390H, E590H, E790H, E1090H, Hitachi Virtual Storage Platform One Block 23, One Block 24, One Block 26, One Block 28  : before DKCMAIN Ver. 88-08-16-xx/00, SVP Ver. 88-08-18-xx/00, before DKCMAIN Ver. 93-07-26-xx/00, SVP Ver. 93-07-26-xx/00, before DKCMAIN Ver. A3-04-02-xx/00, MPC Ver. A3-04-02-xx/00, before DKCMAIN Ver. A3-03-41-xx/00, MPC Ver. A3-03-41-xx/00, before DKCMAIN Ver. A3-03-03-xx/00, MPC Ver. A3-03-03-xx/00.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1978",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.3,
+      "published_at": "2026-05-07T09:16:26.017000",
+      "created_at": "2026-05-08T04:48:33.342592+00:00"
+    },
+    {
+      "id": "6813ff2ec57960da",
+      "content_hash": "6813ff2ec57960dac3b69d710e16d4297cdf93eb4552291cfe32ecf66f8c5b46",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2024-43384",
+      "title": "CVE-2024-43384 - A low privileged remote attacker can gain the root password due to improper remo...",
+      "body": "A low privileged remote attacker can gain the root password due to improper removal of sensitive information before storage or transfer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43384",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.0,
+      "published_at": "2026-05-07T09:16:24.873000",
+      "created_at": "2026-05-08T04:48:33.342585+00:00"
+    },
+    {
       "id": "0b4b6719b6991354",
       "content_hash": "0b4b6719b6991354662bc2905087375b3fb0afea37e6a0633baf859dd237f212",
       "source_name": "Hacker News (Best)",
@@ -1388,6 +1500,48 @@
       "created_at": "2026-05-07T10:58:56.230605+00:00"
     },
     {
+      "id": "a9ffe8622c524825",
+      "content_hash": "a9ffe8622c524825e5ee3bba7520263b541dd990bc684f09131d83aac2a4dcb5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-4430",
+      "title": "CVE-2026-4430 - Out-of-bounds write vulnerability in The Document Foundation LibreOffice via cra...",
+      "body": "Out-of-bounds write vulnerability in The Document Foundation LibreOffice via crafted OOXML documents with mismatched encryption salt parameters.\n\nThis issue affects LibreOffice: from 26.2 before 26.2.3, from 25.8 before 25.8.7.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4430",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-07T08:16:00.967000",
+      "created_at": "2026-05-08T04:48:33.342578+00:00"
+    },
+    {
+      "id": "3e0ab14dd7994227",
+      "content_hash": "3e0ab14dd799422726680617e36ece00ea94e7a58ae80f303d2f165709f764d4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-44406",
+      "title": "CVE-2026-44406 - ZTE Cloud PC client uSmartView contains a DLL hijacking vulnerability; since uSm...",
+      "body": "ZTE Cloud PC client uSmartView contains a DLL hijacking vulnerability; since uSmartViewServiceAgent.exe runs with SYSTEM privileges, successful hijacking enables local arbitrary code execution, privilege escalation, and memory corruption.contains a DLL hijacking vulnerability; since uSmartViewServiceAgent.exe runs with SYSTEM privileges, successful hijacking enables local arbitrary code execution, privilege escalation, and memory corruption.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44406",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.7,
+      "published_at": "2026-05-07T08:16:00.830000",
+      "created_at": "2026-05-08T04:48:33.342570+00:00"
+    },
+    {
+      "id": "9e6ac923cb007907",
+      "content_hash": "9e6ac923cb00790759c59535c6f3d2004c53a64b9589695f8cfb77f02f0482c8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-9661",
+      "title": "CVE-2025-9661 - OS command injection vulneravility in the management gui (maintenance utility) o...",
+      "body": "OS command injection vulneravility in the management gui (maintenance utility) of Hitachi Virtual Storage Platform One Block 23, 24, 26 and 28.\n\nThis issue affects Hitachi Virtual Storage Platform One Block 23/24/26/28: before DKCMAIN A3-04-21-40/00, ESM A3-04-21/00.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9661",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-05-07T08:16:00.317000",
+      "created_at": "2026-05-08T04:48:33.342562+00:00"
+    },
+    {
       "id": "363adcc039dfb632",
       "content_hash": "363adcc039dfb632b793334a7ce8c157ebd1f03ff39a72326f01f341028e905f",
       "source_name": "Hacker News (Best)",
@@ -1400,6 +1554,20 @@
       "cvss_score": null,
       "published_at": "2026-05-07T07:15:11+00:00",
       "created_at": "2026-05-07T10:58:56.230419+00:00"
+    },
+    {
+      "id": "a34ba709ffd6f52f",
+      "content_hash": "a34ba709ffd6f52fea6ccb22fc357f99902ce02e23f777975125c5da28ff0f94",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8063",
+      "title": "CVE-2026-8063 - An authenticated user can crash mongod when running $rankFusion or $scoreFusion ...",
+      "body": "An authenticated user can crash mongod when running $rankFusion or $scoreFusion with an empty pipeline on a view.\n\nWhen resolving a view, the server inspects the aggregation pipeline to determine whether it begins with an Atlas Search stage. For $rankFusion and $scoreFusion, this inspection reads the first element on each stage’s input pipeline array without first verifying that the array is non-empty. Supplying an empty pipeline causes a null pointer dereference and crashes the server.\n\nThis issue affects MongoDB Server 8.2 versions prior to 8.2.7.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8063",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-05-07T06:16:05.723000",
+      "created_at": "2026-05-08T04:48:33.342534+00:00"
     },
     {
       "id": "1f728289e56f46dc",
@@ -6484,6 +6652,20 @@
       "created_at": "2026-05-06T21:01:42.011685+00:00"
     },
     {
+      "id": "babcc83691bec0fb",
+      "content_hash": "babcc83691bec0fb5e518f63d30f37ee057956345cd1d51fcf95b04bfc356902",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zknill.io/posts/everyone-said-sse-token-streaming-was-easy/",
+      "title": "How to make SSE token streams resumable, cancellable, and multi-device",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48036746\">Comments</a>",
+      "url": "https://zknill.io/posts/everyone-said-sse-token-streaming-was-easy/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-06T14:31:42+00:00",
+      "created_at": "2026-05-08T04:48:37.655771+00:00"
+    },
+    {
       "id": "8c1d5aed9510a7f5",
       "content_hash": "8c1d5aed9510a7f5ccfa8f2d88f9ee2cfead62c51ce91329b1395e5efcb33bbc",
       "source_name": "TechCrunch",
@@ -6510,6 +6692,20 @@
       "cvss_score": null,
       "published_at": "2026-05-06T14:24:33+00:00",
       "created_at": "2026-05-06T22:38:44.465845+00:00"
+    },
+    {
+      "id": "f9ba82d3ee432f42",
+      "content_hash": "f9ba82d3ee432f42b308a4f715177134c00ba890bc01dc74d9dcac5bc0a9f55d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.lanl.gov/media/publications/1663/from-ghost-particle-to-cosmic-messenger",
+      "title": "Los Alamos and the long path to detecting neutrinos",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48036622\">Comments</a>",
+      "url": "https://www.lanl.gov/media/publications/1663/from-ghost-particle-to-cosmic-messenger",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-06T14:21:07+00:00",
+      "created_at": "2026-05-08T04:48:37.655795+00:00"
     },
     {
       "id": "f1140c5c56d15dd2",
@@ -6722,6 +6918,20 @@
       "created_at": "2026-05-06T15:20:42.197485+00:00"
     },
     {
+      "id": "34a18d5bd67ac257",
+      "content_hash": "34a18d5bd67ac257eb9b2fe7ea28e98c9c357934f0af61a0a29e0a790a810716",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://storica.club/blog/pinocchio-in-italian/",
+      "title": "Pinocchio is weirder than you remembered",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48035420\">Comments</a>",
+      "url": "https://storica.club/blog/pinocchio-in-italian/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-06T12:27:07+00:00",
+      "created_at": "2026-05-08T04:48:37.655466+00:00"
+    },
+    {
       "id": "a8b777c3725fae43",
       "content_hash": "a8b777c3725fae43562c398eb5759c5c703e4a60145c168699e8bf0ddaa26d18",
       "source_name": "CVE (NVD)",
@@ -6790,216 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-06T12:16:32.553000",
       "created_at": "2026-05-07T12:28:11.900360+00:00"
-    },
-    {
-      "id": "fa2c300b458e1876",
-      "content_hash": "fa2c300b458e1876c4093400e5373252bac922bd612516a4ca1cd7bc505de2d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43148",
-      "title": "CVE-2026-43148 - In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/smp...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/smp: Add check for kcalloc() failure in parse_thread_groups()\n\nAs kcalloc() may fail, check its return value to avoid a NULL pointer\ndereference when passing it to of_property_read_u32_array().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43148",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:32.417000",
-      "created_at": "2026-05-07T12:28:11.900352+00:00"
-    },
-    {
-      "id": "1802540f3ffceb47",
-      "content_hash": "1802540f3ffceb478527afe71fd695e258a9748b5169f68cb4e74b262fc8d157",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43147",
-      "title": "CVE-2026-43147 - In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"PCI...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"PCI/IOV: Add PCI rescan-remove locking when enabling/disabling SR-IOV\"\n\nThis reverts commit 05703271c3cd (\"PCI/IOV: Add PCI rescan-remove locking\nwhen enabling/disabling SR-IOV\"), which causes a deadlock by recursively\ntaking pci_rescan_remove_lock when sriov_del_vfs() is called as part of\npci_stop_and_remove_bus_device(). For example with the following sequence\nof commands:\n\n  $ echo <NUM> > /sys/bus/pci/devices/<pf>/sriov_numvfs\n  $ echo 1 > /sys/bus/pci/devices/<pf>/remove\n\nA trimmed trace of the deadlock on a mlx5 device is as below:\n\n  zsh/5715 is trying to acquire lock:\n  000002597926ef50 (pci_rescan_remove_lock){+.+.}-{3:3}, at: sriov_disable+0x34/0x140\n\n  but task is already holding lock:\n  000002597926ef50 (pci_rescan_remove_lock){+.+.}-{3:3}, at: pci_stop_and_remove_bus_device_locked+0x24/0x80\n  ...\n  Call Trace:\n   [<00000259778c4f90>] dump_stack_lvl+0xc0/0x110\n   [<00000259779c844e>] print_deadlock_bug+0x31e/0x330\n   [<00000259779c1908>] __lock_acquire+0x16c8/0x32f0\n   [<00000259779bffac>] lock_acquire+0x14c/0x350\n   [<00000259789643a6>] __mutex_lock_common+0xe6/0x1520\n   [<000002597896413c>] mutex_lock_nested+0x3c/0x50\n   [<00000259784a07e4>] sriov_disable+0x34/0x140\n   [<00000258f7d6dd80>] mlx5_sriov_disable+0x50/0x80 [mlx5_core]\n   [<00000258f7d5745e>] remove_one+0x5e/0xf0 [mlx5_core]\n   [<00000259784857fc>] pci_device_remove+0x3c/0xa0\n   [<000002597851012e>] device_release_driver_internal+0x18e/0x280\n   [<000002597847ae22>] pci_stop_bus_device+0x82/0xa0\n   [<000002597847afce>] pci_stop_and_remove_bus_device_locked+0x5e/0x80\n   [<00000259784972c2>] remove_store+0x72/0x90\n   [<0000025977e6661a>] kernfs_fop_write_iter+0x15a/0x200\n   [<0000025977d7241c>] vfs_write+0x24c/0x300\n   [<0000025977d72696>] ksys_write+0x86/0x110\n   [<000002597895b61c>] __do_syscall+0x14c/0x400\n   [<000002597896e0ee>] system_call+0x6e/0x90\n\nThis alone is not a complete fix as it restores the issue the ci",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43147",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:32.240000",
-      "created_at": "2026-05-07T12:28:11.900344+00:00"
-    },
-    {
-      "id": "2d7c6fbd9da40d64",
-      "content_hash": "2d7c6fbd9da40d649108f671ef4a0ac9eab685971e635c8ad2606aabf9c1a1ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43146",
-      "title": "CVE-2026-43146 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris: Add buffer to list only after successful allocation\n\nMove `list_add_tail()` to after `dma_alloc_attrs()` succeeds when creating\ninternal buffers. Previously, the buffer was enqueued in `buffers->list`\nbefore the DMA allocation. If the allocation failed, the function returned\n`-ENOMEM` while leaving a partially initialized buffer in the list, which\ncould lead to inconsistent state and potential leaks.\n\nBy adding the buffer to the list only after `dma_alloc_attrs()` succeeds,\nwe ensure the list contains only valid, fully initialized buffers.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43146",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:32.127000",
-      "created_at": "2026-05-07T12:28:11.900336+00:00"
-    },
-    {
-      "id": "1587f96ae11f90ae",
-      "content_hash": "1587f96ae11f90aefd14c6343ca80bcbb14613eb03825168a2155b7d5ff87a2a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43145",
-      "title": "CVE-2026-43145 - In the Linux kernel, the following vulnerability has been resolved:\n\nremoteproc:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nremoteproc: imx_rproc: Fix invalid loaded resource table detection\n\nimx_rproc_elf_find_loaded_rsc_table() may incorrectly report a loaded\nresource table even when the current firmware does not provide one.\n\nWhen the device tree contains a \"rsc-table\" entry, priv->rsc_table is\nnon-NULL and denotes where a resource table would be located if one is\npresent in memory. However, when the current firmware has no resource\ntable, rproc->table_ptr is NULL. The function still returns\npriv->rsc_table, and the remoteproc core interprets this as a valid loaded\nresource table.\n\nFix this by returning NULL from imx_rproc_elf_find_loaded_rsc_table() when\nthere is no resource table for the current firmware (i.e. when\nrproc->table_ptr is NULL). This aligns the function's semantics with the\nremoteproc core: a loaded resource table is only reported when a valid\ntable_ptr exists.\n\nWith this change, starting firmware without a resource table no longer\ntriggers a crash.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43145",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.983000",
-      "created_at": "2026-05-07T12:28:11.900329+00:00"
-    },
-    {
-      "id": "26a0443fe09888e6",
-      "content_hash": "26a0443fe09888e6d7cf9e8e105b43c183f37d8c34d0bb59ee5a77f821b53171",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43144",
-      "title": "CVE-2026-43144 - In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcmf...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcmfmac: Fix potential kernel oops when probe fails\n\nWhen probe of the sdio brcmfmac device fails for some reasons (i.e.\nmissing firmware), the sdiodev->bus is set to error instead of NULL, thus\nthe cleanup later in brcmf_sdio_remove() tries to free resources via\ninvalid bus pointer. This happens because sdiodev->bus is set 2 times:\nfirst in brcmf_sdio_probe() and second time in brcmf_sdiod_probe(). Fix\nthis by chaning the brcmf_sdio_probe() function to return the error code\nand set sdio->bus only there.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43144",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.870000",
-      "created_at": "2026-05-07T12:28:11.900321+00:00"
-    },
-    {
-      "id": "75cfa1bef39b1608",
-      "content_hash": "75cfa1bef39b16089cece4b0eb3a4c53ddca8b489369debb33ac9b79e006ccb9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43143",
-      "title": "CVE-2026-43143 - In the Linux kernel, the following vulnerability has been resolved:\n\nmfd: core: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmfd: core: Add locking around 'mfd_of_node_list'\n\nManipulating a list in the kernel isn't safe without some sort of\nmutual exclusion. Add a mutex any time we access / modify\n'mfd_of_node_list' to prevent possible crashes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43143",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.747000",
-      "created_at": "2026-05-07T12:28:11.900313+00:00"
-    },
-    {
-      "id": "ee3c6d587777d152",
-      "content_hash": "ee3c6d587777d152611b26f9e5165ef91eae3591dceb04832a431712625bd493",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43142",
-      "title": "CVE-2026-43142 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris: gen1: Destroy internal buffers after FW releases\n\nAfter the firmware releases internal buffers, the driver was not\ndestroying them. This left stale allocations that were no longer used,\nespecially across resolution changes where new buffers are allocated per\nthe updated requirements. As a result, memory was wasted until session\nclose.\n\nDestroy internal buffers once the release response is received from the\nfirmware.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43142",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.633000",
-      "created_at": "2026-05-07T12:28:11.900305+00:00"
-    },
-    {
-      "id": "bf83525f47bfb0c9",
-      "content_hash": "bf83525f47bfb0c989da0c83ab5cffa74fcef9f97bea6b873ee34eb2cdc609f9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43141",
-      "title": "CVE-2026-43141 - In the Linux kernel, the following vulnerability has been resolved:\n\nntb: ntb_hw...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nntb: ntb_hw_switchtec: Fix shift-out-of-bounds for 0 mw lut\n\nNumber of MW LUTs depends on NTB configuration and can be set to zero,\nin such scenario rounddown_pow_of_two will cause undefined behaviour and\nshould not be performed.\nThis patch ensures that rounddown_pow_of_two is called on valid value.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43141",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.493000",
-      "created_at": "2026-05-07T12:28:11.900298+00:00"
-    },
-    {
-      "id": "f0e8c69bbf3cecb6",
-      "content_hash": "f0e8c69bbf3cecb6f84de5c1d2c4e4525002fa51fd1b44169f6585b866cf2f8b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43140",
-      "title": "CVE-2026-43140 - In the Linux kernel, the following vulnerability has been resolved:\n\nHID: magicm...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: magicmouse: Do not crash on missing msc->input\n\nFake USB devices can send their own report descriptors for which the\ninput_mapping() hook does not get called.  In this case, msc->input stays NULL,\nleading to a crash at a later time.\n\nDetect this condition in the input_configured() hook and reject the device.\n\nThis is not supposed to happen with actual magic mouse devices, but can be\nprovoked by imposing as a magic mouse USB device.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43140",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.370000",
-      "created_at": "2026-05-07T12:28:11.900290+00:00"
-    },
-    {
-      "id": "81698589d8790a98",
-      "content_hash": "81698589d8790a981b57dd9b09bcb5977448e7a76c578f0290cf427922befaa1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43139",
-      "title": "CVE-2026-43139 - In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm6: fix ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm6: fix uninitialized saddr in xfrm6_get_saddr()\n\nxfrm6_get_saddr() does not check the return value of\nipv6_dev_get_saddr(). When ipv6_dev_get_saddr() fails to find a suitable\nsource address (returns -EADDRNOTAVAIL), saddr->in6 is left\nuninitialized, but xfrm6_get_saddr() still returns 0 (success).\n\nThis causes the caller xfrm_tmpl_resolve_one() to use the uninitialized\naddress in xfrm_state_find(), triggering KMSAN warning:\n\n=====================================================\nBUG: KMSAN: uninit-value in xfrm_state_find+0x2424/0xa940\n xfrm_state_find+0x2424/0xa940\n xfrm_resolve_and_create_bundle+0x906/0x5a20\n xfrm_lookup_with_ifid+0xcc0/0x3770\n xfrm_lookup_route+0x63/0x2b0\n ip_route_output_flow+0x1ce/0x270\n udp_sendmsg+0x2ce1/0x3400\n inet_sendmsg+0x1ef/0x2a0\n __sock_sendmsg+0x278/0x3d0\n __sys_sendto+0x593/0x720\n __x64_sys_sendto+0x130/0x200\n x64_sys_call+0x332b/0x3e70\n do_syscall_64+0xd3/0xf80\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nLocal variable tmp.i.i created at:\n xfrm_resolve_and_create_bundle+0x3e3/0x5a20\n xfrm_lookup_with_ifid+0xcc0/0x3770\n=====================================================\n\nFix by checking the return value of ipv6_dev_get_saddr() and propagating\nthe error.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43139",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.227000",
-      "created_at": "2026-05-07T12:28:11.900282+00:00"
-    },
-    {
-      "id": "6cb810151a56501f",
-      "content_hash": "6cb810151a56501fb303d31c73e0e2ed4fedd241ea9d937f1e9ffe9b3b3fe7ad",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43138",
-      "title": "CVE-2026-43138 - In the Linux kernel, the following vulnerability has been resolved:\n\nreset: gpio...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nreset: gpio: suppress bind attributes in sysfs\n\nThis is a special device that's created dynamically and is supposed to\nstay in memory forever. We also currently don't have a devlink between\nit and the actual reset consumer. Suppress sysfs bind attributes so that\nuser-space can't unbind the device because - as of now - it will cause a\nuse-after-free splat from any user that puts the reset control handle.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43138",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.117000",
-      "created_at": "2026-05-07T12:28:11.900275+00:00"
-    },
-    {
-      "id": "67d613dacfe34c98",
-      "content_hash": "67d613dacfe34c98415417f0696ee093fc273239e16ca5a8d76947dc85e85535",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43137",
-      "title": "CVE-2026-43137 - In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: SOF: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: SOF: Intel: hda: Fix NULL pointer dereference\n\nIf there's a mismatch between the DAI links in the machine driver and\nthe topology, it is possible that the playback/capture widget is not\nset, especially in the case of loopback capture for echo reference\nwhere we use the dummy DAI link. Return the error when the widget is not\nset to avoid a null pointer dereference like below when the topology is\nbroken.\n\nRIP: 0010:hda_dai_get_ops.isra.0+0x14/0xa0 [snd_sof_intel_hda_common]",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43137",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:31.007000",
-      "created_at": "2026-05-07T12:28:11.900267+00:00"
-    },
-    {
-      "id": "1b09760ac7e7be2e",
-      "content_hash": "1b09760ac7e7be2ead43019aa49df97e4fd653aa0190f56367ddadbcd9862631",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43136",
-      "title": "CVE-2026-43136 - In the Linux kernel, the following vulnerability has been resolved:\n\nHID: logite...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: logitech-hidpp: Check maxfield in hidpp_get_report_length()\n\nDo not crash when a report has no fields.\n\nFake USB gadgets can send their own HID report descriptors and can define report\nstructures without valid fields.  This can be used to crash the kernel over USB.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43136",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.880000",
-      "created_at": "2026-05-07T12:28:11.900259+00:00"
-    },
-    {
-      "id": "1f49d828b4aab226",
-      "content_hash": "1f49d828b4aab226e42b57c5e227922784996309562e40072c985b05e821bf0f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43135",
-      "title": "CVE-2026-43135 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: cx23...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: cx23885: Add missing unmap in snd_cx23885_hw_params()\n\nIn error path, add cx23885_alsa_dma_unmap() to release the\nresource acquired by cx23885_alsa_dma_map().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43135",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.747000",
-      "created_at": "2026-05-07T12:28:11.900251+00:00"
-    },
-    {
-      "id": "c784e4803ab4746b",
-      "content_hash": "c784e4803ab4746b67868ee926d35572962e973751d9ff1859c7034ae179566c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43134",
-      "title": "CVE-2026-43134 - In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Fix missing key size check for L2CAP_LE_CONN_REQ\n\nThis adds a check for encryption key size upon receiving\nL2CAP_LE_CONN_REQ which is required by L2CAP/LE/CFC/BV-15-C which\nexpects L2CAP_CR_LE_BAD_KEY_SIZE.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43134",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-06T12:16:30.617000",
-      "created_at": "2026-05-07T12:28:11.900225+00:00"
     }
   ]
 }
