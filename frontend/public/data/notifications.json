@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-09T21:33:30.334257+00:00",
+  "generated_at": "2026-05-09T22:32:04.344193+00:00",
   "items": [
+    {
+      "id": "6230de17a0d89056",
+      "content_hash": "6230de17a0d8905627616b69b2ef886889aba3b86101e3860f1d8eaaa82da333",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=2973217",
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "body": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T21:45:00+00:00",
+      "created_at": "2026-05-09T22:32:03.982871+00:00"
+    },
+    {
+      "id": "64ff3e0b921b2f04",
+      "content_hash": "64ff3e0b921b2f049d011aa5ebfd99f76772c7d91def304f5761c943651db436",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.himanshuanand.com/2026/05/the-90-day-disclosure-policy-is-dead/",
+      "title": "The 90 Day disclosure policy is dead",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48078538\">Comments</a>",
+      "url": "https://blog.himanshuanand.com/2026/05/the-90-day-disclosure-policy-is-dead/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T21:42:50+00:00",
+      "created_at": "2026-05-09T22:32:04.343732+00:00"
+    },
     {
       "id": "df4ac29ccbabba4a",
       "content_hash": "df4ac29ccbabba4a4b8583417b4d0c1dea46a8350d1c60ca8ac10c500d16805a",
@@ -98,6 +126,34 @@
       "cvss_score": null,
       "published_at": "2026-05-09T18:33:36+00:00",
       "created_at": "2026-05-09T19:49:28.928338+00:00"
+    },
+    {
+      "id": "ca0735a19fb8eeb8",
+      "content_hash": "ca0735a19fb8eeb8213cae69e660545037cbffff44bbf324147ec6410048eee7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "title": "Meta's embrace of A.I. is making its employees miserable",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48077126\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T18:33:36+00:00",
+      "created_at": "2026-05-09T22:32:04.343715+00:00"
+    },
+    {
+      "id": "129977c973b2e37b",
+      "content_hash": "129977c973b2e37ba3d451ee6daa0a1986d0dd034135d4828c153e1a07609ba8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/nooga/let-go",
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48076815\">Comments</a>",
+      "url": "https://github.com/nooga/let-go",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T17:52:13+00:00",
+      "created_at": "2026-05-09T22:32:04.343579+00:00"
     },
     {
       "id": "d8121155b7d5d07e",
@@ -574,6 +630,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T03:21:06+00:00",
       "created_at": "2026-05-09T05:00:15.405031+00:00"
+    },
+    {
+      "id": "cf69e9ac4a39f7c8",
+      "content_hash": "cf69e9ac4a39f7c857474f9d646498f38d545c680ebf36ac1d26b2ed250a4601",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7652",
+      "title": "CVE-2026-7652 - The LatePoint plugin for WordPress is vulnerable to Account Takeover via Weak Pa...",
+      "body": "The LatePoint plugin for WordPress is vulnerable to Account Takeover via Weak Password Recovery Mechanism in the unauthenticated guest booking flow in versions up to, and including, 5.5.0 This is due to the save_connected_wordpress_user() function propagating a LatePoint customer's email address to its linked WordPress user account via wp_update_user() without any ownership verification, combined with the guest booking flow's ability to overwrite an existing customer's email through phone-based merge without authentication. This makes it possible for unauthenticated attackers to overwrite the email address of a non-super-admin WordPress user account that is not yet linked to a LatePoint customer, enabling full account takeover by subsequently triggering the standard WordPress password-reset flow to the attacker-controlled address granted the plugin is configured with WordPress user integration enabled, phone-based contact merging, and customer authentication disabled. Administrator accounts on single-site installs are not affected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7652",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-09T03:16:15.117000",
+      "created_at": "2026-05-09T22:31:59.574777+00:00"
     },
     {
       "id": "c4e74e886e4d4e24",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-07T22:16:36.917000",
       "created_at": "2026-05-08T21:48:01.607933+00:00"
-    },
-    {
-      "id": "64c9619ee870658d",
-      "content_hash": "64c9619ee870658da3e1bb347454a3e68b10dcb2d031333f881e316d590479f0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6736",
-      "title": "CVE-2026-6736 - An authentication bypass vulnerability was identified in GitHub Enterprise Serve...",
-      "body": "An authentication bypass vulnerability was identified in GitHub Enterprise Server that allowed an unauthenticated attacker to create a local user account, bypassing the configured external identity provider. When external authentication was enabled, the signup endpoint did not properly enforce the authentication restriction, allowing account creation and session establishment without identity provider validation. The created account was limited to the default base permissions configured on the instance. Exploitation required network access to a GHES instance configured with an external authentication provider. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.21 and was fixed in versions 3.20.2, 3.19.6, 3.18.9, 3.17.15, and 3.16.18.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6736",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T22:16:36.753000",
-      "created_at": "2026-05-08T21:48:01.607927+00:00"
-    },
-    {
-      "id": "e9b98fb33d468d52",
-      "content_hash": "e9b98fb33d468d52e9098f7c464a23742f95f77f1aad5f139f752a4d25ba03e6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42826",
-      "title": "CVE-2026-42826 - Exposure of sensitive information to an unauthorized actor in Azure DevOps allow...",
-      "body": "Exposure of sensitive information to an unauthorized actor in Azure DevOps allows an unauthorized attacker to disclose information over a network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42826",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-05-07T22:16:35.587000",
-      "created_at": "2026-05-08T21:48:01.607920+00:00"
-    },
-    {
-      "id": "0345f92d58019898",
-      "content_hash": "0345f92d5801989871cdd7c26b8297b6d798c77ba077baa0ed0238d2a77e0ffa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41929",
-      "title": "CVE-2026-41929 - Vvveb before 1.0.8.2 contains an unauthenticated reflected cross-site scripting ...",
-      "body": "Vvveb before 1.0.8.2 contains an unauthenticated reflected cross-site scripting vulnerability in the visual editor preview renderer that allows attackers to execute arbitrary JavaScript by manipulating the r query parameter and _component_ajax POST parameter. Attackers can craft a malicious link or auto-submitted form that causes victims to execute attacker-controlled JavaScript in the context of the Vvveb origin, as the gating function isEditor() performs no session, role, or token verification and the view handler injects raw HTML POST body content without sanitization.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41929",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-07T22:16:35.450000",
-      "created_at": "2026-05-08T21:48:01.607914+00:00"
-    },
-    {
-      "id": "d8c80ae9b010e912",
-      "content_hash": "d8c80ae9b010e91207e71e415680aa731f2cbcf8731d9006d61386a26d6ce0fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41928",
-      "title": "CVE-2026-41928 - Vvveb before 1.0.8.2 contains an information disclosure vulnerability in the cro...",
-      "body": "Vvveb before 1.0.8.2 contains an information disclosure vulnerability in the cron controller that allows unauthenticated attackers to retrieve the application's secret cron key. Attackers can access the cron controller without authentication and retrieve the exposed secret key from the response, enabling them to trigger scheduled task execution outside of the intended schedule.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41928",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-07T22:16:35.313000",
-      "created_at": "2026-05-08T21:48:01.607908+00:00"
-    },
-    {
-      "id": "603ff1559ecef145",
-      "content_hash": "603ff1559ecef145cc41846853f685ec5a33ee5e8b4f911229813f4e25af0cd2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41105",
-      "title": "CVE-2026-41105 - Server-side request forgery (ssrf) in Azure Notification Service allows an autho...",
-      "body": "Server-side request forgery (ssrf) in Azure Notification Service allows an authorized attacker to elevate privileges over a network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41105",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-07T22:16:35.183000",
-      "created_at": "2026-05-08T21:48:01.607902+00:00"
     }
   ]
 }
