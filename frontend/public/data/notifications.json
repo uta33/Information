@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-09T12:51:13.896592+00:00",
+  "generated_at": "2026-05-09T14:12:47.723817+00:00",
   "items": [
+    {
+      "id": "677918873d83404e",
+      "content_hash": "677918873d83404effac1dc811cb136c7797046545202b215c4e02681becb816",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/",
+      "title": "Read Programming as Theory Building",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48074829\">Comments</a>",
+      "url": "https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T13:31:53+00:00",
+      "created_at": "2026-05-09T14:12:47.723602+00:00"
+    },
     {
       "id": "e86d712533d24707",
       "content_hash": "e86d712533d247079817340fc657afe1b764758e124f759f21a05338787c8dd5",
@@ -812,6 +826,48 @@
       "cvss_score": null,
       "published_at": "2026-05-08T14:30:00+00:00",
       "created_at": "2026-05-08T14:46:32.224885+00:00"
+    },
+    {
+      "id": "0361152989b65c61",
+      "content_hash": "0361152989b65c610f92dd830c76da3fae8998e0ff49fb4fea5e5e259fd74090",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43306",
+      "title": "CVE-2026-43306 - In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: crypto...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: crypto: Use the correct destructor kfunc type\n\nWith CONFIG_CFI enabled, the kernel strictly enforces that indirect\nfunction calls use a function pointer type that matches the target\nfunction. I ran into the following type mismatch when running BPF\nself-tests:\n\n  CFI failure at bpf_obj_free_fields+0x190/0x238 (target:\n    bpf_crypto_ctx_release+0x0/0x94; expected type: 0xa488ebfc)\n  Internal error: Oops - CFI: 00000000f2008228 [#1]  SMP\n  ...\n\nAs bpf_crypto_ctx_release() is also used in BPF programs and using\na void pointer as the argument would make the verifier unhappy, add\na simple stub function with the correct type and register it as the\ndestructor kfunc instead.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43306",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.913000",
+      "created_at": "2026-05-09T14:12:42.778907+00:00"
+    },
+    {
+      "id": "2a61bbbfb6276377",
+      "content_hash": "2a61bbbfb62763778dd4fc77bba37e5b7d4b2e92a968b3810ee117f9611ec149",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43305",
+      "title": "CVE-2026-43305 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/dis...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix mismatched unlock for DMUB HW lock in HWSS fast path\n\n[Why]\nThe evaluation for whether we need to use the DMUB HW lock isn't the\nsame as whether we need to unlock which results in a hang when the\nfast path is used for ASIC without FAMS support.\n\n[How]\nStore a flag that indicates whether we should use the lock and use\nthat same flag to specify whether unlocking is needed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43305",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.813000",
+      "created_at": "2026-05-09T14:12:42.778900+00:00"
+    },
+    {
+      "id": "a9559aef455f817c",
+      "content_hash": "a9559aef455f817cf34dc8cf985fc517bea105b8fa89d7ebe2b8ed82f6e5466f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43304",
+      "title": "CVE-2026-43304 - In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: de...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: define and enforce CEPH_MAX_KEY_LEN\n\nWhen decoding the key, verify that the key material would fit into\na fixed-size buffer in process_auth_done() and generally has a sane\nlength.\n\nThe new CEPH_MAX_KEY_LEN check replaces the existing check for a key\nwith no key material which is a) not universal since CEPH_CRYPTO_NONE\nhas to be excluded and b) doesn't provide much value since a smaller\nthan needed key is just as invalid as no key -- this has to be handled\nelsewhere anyway.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43304",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.693000",
+      "created_at": "2026-05-09T14:12:42.778894+00:00"
     },
     {
       "id": "84e0a80cbd38c1a9",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-07T13:30:04+00:00",
       "created_at": "2026-05-07T15:24:56.161301+00:00"
-    },
-    {
-      "id": "793b2eaa2d30b3fe",
-      "content_hash": "793b2eaa2d30b3fe3fcb3ea8742c1c9c83b4581db247722fd4d22cd8122c5b70",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.nature.com/articles/d41586-026-00720-8",
-      "title": "Child marriages plunged when girls stayed in school in Nigeria",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48049208\">Comments</a>",
-      "url": "https://www.nature.com/articles/d41586-026-00720-8",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:30:04+00:00",
-      "created_at": "2026-05-07T19:24:00.987716+00:00"
-    },
-    {
-      "id": "50aa081302a7ae78",
-      "content_hash": "50aa081302a7ae78657e4db98ab9cf181d4c02d369edd2593ede232ede09a58a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48049160\">Comments</a>",
-      "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:25:31+00:00",
-      "created_at": "2026-05-07T19:24:00.987904+00:00"
-    },
-    {
-      "id": "fa8ef7e4fa017490",
-      "content_hash": "fa8ef7e4fa017490e48c054b82141ff522789677e7aaa32d355145d52b6b516b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8094",
-      "title": "CVE-2026-8094 - Other issue in the WebRTC component. This vulnerability was fixed in Firefox ESR...",
-      "body": "Other issue in the WebRTC component. This vulnerability was fixed in Firefox ESR 140.10.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8094",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:16:14.430000",
-      "created_at": "2026-05-08T06:27:01.011254+00:00"
-    },
-    {
-      "id": "400c936113979457",
-      "content_hash": "400c936113979457b6f040b47762af280057e0fa0680582538dfe5761c2af280",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8093",
-      "title": "CVE-2026-8093 - Memory safety bugs present in Firefox 150.0.1. Some of these bugs showed evidenc...",
-      "body": "Memory safety bugs present in Firefox 150.0.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150.0.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8093",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-07T13:16:14.317000",
-      "created_at": "2026-05-08T06:27:01.011247+00:00"
     }
   ]
 }
