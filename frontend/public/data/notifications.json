@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-09T18:42:46.132909+00:00",
+  "generated_at": "2026-05-09T19:49:28.928654+00:00",
   "items": [
+    {
+      "id": "e50bfb064d7fba06",
+      "content_hash": "e50bfb064d7fba068b1f95fbabede101e5a7319c557a3c2677eb0ae1c72cf7f6",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "title": "JDownloader site hacked to replace installers with Python RAT malware",
+      "body": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T19:27:58+00:00",
+      "created_at": "2026-05-09T19:49:23.789929+00:00"
+    },
+    {
+      "id": "ec8fdf56ab6c8f97",
+      "content_hash": "ec8fdf56ab6c8f971e053de8555a78380df095660feee10aacd2af178ebb3669",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3121041",
+      "title": "GM agrees to pay $12.75M in California driver privacy settlement",
+      "body": "General Motors has reached a privacy-related settlement with a group of law enforcement agencies led by California Attorney General Rob Bonta.",
+      "url": "https://techcrunch.com/2026/05/09/gm-agrees-to-pay-12-75m-in-california-driver-privacy-settlement/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-09T19:05:30+00:00",
+      "created_at": "2026-05-09T19:49:28.527726+00:00"
+    },
+    {
+      "id": "c95aa3b3c8dbc52a",
+      "content_hash": "c95aa3b3c8dbc52ae0f8bcbcc0b7cb1a3f07ea865146b69b9ba36291ef785272",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "title": "Meta's Embrace of A.I. Is Making Its Employees Miserable",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48077126\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T18:33:36+00:00",
+      "created_at": "2026-05-09T19:49:28.928338+00:00"
+    },
     {
       "id": "d8121155b7d5d07e",
       "content_hash": "d8121155b7d5d07ef87a58690674e7f410340a84c398a6543e22e86d9770d615",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T16:28:36+00:00",
       "created_at": "2026-05-09T18:42:46.132259+00:00"
+    },
+    {
+      "id": "e1906538c7035002",
+      "content_hash": "e1906538c70350028fedfb7ff89ecc1b312330a2d9233f05c762368b134fa147",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chrismorgan.info/no-query-strings",
+      "title": "I will not add query strings to your URLs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48076173\">Comments</a>",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T16:28:36+00:00",
+      "created_at": "2026-05-09T19:49:28.927921+00:00"
     },
     {
       "id": "c1ed923a0b6e6112",
@@ -128,6 +184,34 @@
       "created_at": "2026-05-09T18:42:46.132345+00:00"
     },
     {
+      "id": "d53b132b342c7a79",
+      "content_hash": "d53b132b342c7a798e3741eeb4b5fc8e71d11108e64640b6a0b02f780426e752",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "title": "Distributing Mac software is increasing my cortisol levels",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48075366\">Comments</a>",
+      "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T14:40:58+00:00",
+      "created_at": "2026-05-09T19:49:28.928059+00:00"
+    },
+    {
+      "id": "ab3c2f4f0212df84",
+      "content_hash": "ab3c2f4f0212df840bb101a5e2a2e27ce04098db9dec9867fefb2190bd23ec29",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://getspace.app/cli",
+      "title": "Show HN: Create flashcards with Space CLI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48075340\">Comments</a>",
+      "url": "https://getspace.app/cli",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T14:38:04+00:00",
+      "created_at": "2026-05-09T19:49:28.928284+00:00"
+    },
+    {
       "id": "100ab04b1d181603",
       "content_hash": "100ab04b1d181603c215ac4f37cabf18e80fbe0f2023008606f9c692c8e14c65",
       "source_name": "Bleeping Computer",
@@ -198,6 +282,20 @@
       "created_at": "2026-05-09T16:39:56.664664+00:00"
     },
     {
+      "id": "46941968d94efb6c",
+      "content_hash": "46941968d94efb6c89c743500ecfbd4d0cc67e9cee120c40b6c5e52d5c7891f1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+      "title": "The hypocrisy of cyberlibertarianism",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48074952\">Comments</a>",
+      "url": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T13:48:32+00:00",
+      "created_at": "2026-05-09T19:49:28.928026+00:00"
+    },
+    {
       "id": "677918873d83404e",
       "content_hash": "677918873d83404effac1dc811cb136c7797046545202b215c4e02681becb816",
       "source_name": "Hacker News (Best)",
@@ -224,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T12:00:30+00:00",
       "created_at": "2026-05-09T12:51:13.895802+00:00"
+    },
+    {
+      "id": "b4fddc7f25438486",
+      "content_hash": "b4fddc7f254384863b8bc2ece8280b27dd5b3ce982c4869745a970ce1cdeae7f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+      "title": "Internet Archive Switzerland",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48074265\">Comments</a>",
+      "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T12:00:30+00:00",
+      "created_at": "2026-05-09T19:49:28.927847+00:00"
     },
     {
       "id": "7abdeb1a09d7d5c8",
@@ -254,6 +366,20 @@
       "created_at": "2026-05-09T11:40:07.061383+00:00"
     },
     {
+      "id": "66a7a5d49020f0b4",
+      "content_hash": "66a7a5d49020f0b4b94b4753a7dc1cf50407eb3894bab16e5dc48b284039a3d4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/jarredsumner/status/2053047748191232310",
+      "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073680\">Comments</a>",
+      "url": "https://twitter.com/jarredsumner/status/2053047748191232310",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T10:12:55+00:00",
+      "created_at": "2026-05-09T19:49:28.927880+00:00"
+    },
+    {
       "id": "5f4f3deecfff3f45",
       "content_hash": "5f4f3deecfff3f457d4f6a067bc63699b0d34f76d7b2aa70195d3c62db514ecb",
       "source_name": "Hacker News (Best)",
@@ -280,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T08:44:34+00:00",
       "created_at": "2026-05-09T12:51:13.896051+00:00"
+    },
+    {
+      "id": "57bc04bd8572c456",
+      "content_hash": "57bc04bd8572c456e226ab38ee88332d15a524e0a0f16196b06b4830386eefa3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2604.15597",
+      "title": "LLMs corrupt your documents when you delegate",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073246\">Comments</a>",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T08:44:34+00:00",
+      "created_at": "2026-05-09T19:49:28.927975+00:00"
     },
     {
       "id": "35482417b8371b92",
@@ -392,6 +532,20 @@
       "cvss_score": null,
       "published_at": "2026-05-08T23:37:55+00:00",
       "created_at": "2026-05-09T01:50:15.597634+00:00"
+    },
+    {
+      "id": "8fe0c471013f9f7a",
+      "content_hash": "8fe0c471013f9f7a425acf04a068297ec80a0453fdd3c55b165434a0610d991e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-42452",
+      "title": "CVE-2026-42452 - Termix is a web-based server management platform with SSH terminal, tunneling, a...",
+      "body": "Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities. Prior to version 2.1.0, /users/login issues a temporary JWT (temp_token) for TOTP-enabled accounts. That token carries a pendingTOTP state and should only be valid for the second-factor flow. However, the auth middleware accepts this token on regular authenticated endpoints. This effectively turns 2FA into single-factor (password) for impacted accounts. This issue has been patched in version 2.1.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42452",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-05-08T23:16:38.827000",
+      "created_at": "2026-05-09T19:49:24.132417+00:00"
     },
     {
       "id": "c3c6538100ae965e",
@@ -6846,160 +7000,6 @@
       "cvss_score": 4.7,
       "published_at": "2026-05-07T21:16:29.717000",
       "created_at": "2026-05-08T18:03:41.116966+00:00"
-    },
-    {
-      "id": "784e003088591434",
-      "content_hash": "784e0030885914340c8089b6cc2b11d2ec61c55c72132f6796cde35a365d5233",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41691",
-      "title": "CVE-2026-41691 - Copilot said: i18nextify is a JavaScript library that adds\ni18nextify is a JavaS...",
-      "body": "Copilot said: i18nextify is a JavaScript library that adds\ni18nextify is a JavaScript library that adds website internationalization via a script tag, without source code changes. Versions prior to 3.0.5 interpolate the lng and ns values directly into the configured loadPath / addPath URL template without any encoding, validation, or path sanitisation. When an application exposes the language-code selection to user-controlled input (the default — i18next-browser-languagedetector reads ?lng= query params, cookies, localStorage, and request headers), an attacker can inject characters that change the structure of the outgoing request URL. This is a single URL-injection vulnerability. The attacker-controlled value is neutralised before it is used as part of an output URL string; the attack shape covers both path traversal and broader URL-structure injection — both are closed by the one interpolateUrl sanitisation fix. This issue has been fixed in version 3.0.5. If users cannot upgrade immediately, they can work around the issue by sanitising lng / ns before they reach i18next (strip .., /, \\, ?, #, %, whitespace, and control characters; cap the length).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41691",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-07T21:16:29.560000",
-      "created_at": "2026-05-08T18:03:41.116959+00:00"
-    },
-    {
-      "id": "59809e9ccad2948a",
-      "content_hash": "59809e9ccad2948af5ac4b86a8257ec5acc520ec81cbc464a6c620057a2d3418",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120264",
-      "title": "Voi founders’ new AI startup Pit has become the latest rising star out of Stockholm",
-      "body": "AI startup Pit is led by the cofounders of European scooter giant Voi and backed by a16z, which is leading the startup’s $16 million seed round.",
-      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T21:02:11+00:00",
-      "created_at": "2026-05-07T21:48:33.934220+00:00"
-    },
-    {
-      "id": "709085d02c120d88",
-      "content_hash": "709085d02c120d88fbbb3d9a664c2789fa4692a1ae938dc0587e9c26a13c0ab9",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120513",
-      "title": "Hackers deface school login pages after claiming another Instructure hack",
-      "body": "The cybercrime group ShinyHunters claimed to have hacked Instructure again, defacing the login pages of several Instructure customer schools with an extortion message.",
-      "url": "https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:59:09+00:00",
-      "created_at": "2026-05-07T21:48:33.934250+00:00"
-    },
-    {
-      "id": "4343e4c4338c39ed",
-      "content_hash": "4343e4c4338c39ed7fee075e2916a89b22c7b1e0e06a1d950c336c883706253c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.abc4.com/news/digital-exclusives/reporter-jj-nursery-utah-senator-jerry-stevenson-box-elder-county-data-center/",
-      "title": "Utah senator smacks ABC reporters phone out of hand amid Data Center controversy",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48054732\">Comments</a>",
-      "url": "https://www.abc4.com/news/digital-exclusives/reporter-jj-nursery-utah-senator-jerry-stevenson-box-elder-county-data-center/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:47:05+00:00",
-      "created_at": "2026-05-07T21:48:34.053843+00:00"
-    },
-    {
-      "id": "c7933842eb93ecf5",
-      "content_hash": "c7933842eb93ecf5b931c3502c7a1f9ba608e90bfcd99ec77b943da24c20b202",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3077698",
-      "title": "Gusto hits $1B revenue, a figure that brings it closer to public markets",
-      "body": "Gusto has shared an impressive milestone on its actual revenue, not an ARR number that estimates future income.",
-      "url": "https://techcrunch.com/2026/05/07/gusto-hits-1b-revenue-a-figure-that-brings-it-closer-to-public-markets/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:41:27+00:00",
-      "created_at": "2026-05-07T20:56:36.648722+00:00"
-    },
-    {
-      "id": "06a252f4587afcab",
-      "content_hash": "06a252f4587afcab3c3d2f9b2c05badd7c9fedf3d144847e3ca7013ae68ab379",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.cloudflare.com/building-for-the-future/",
-      "title": "Building for the Future",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48054423\">Comments</a>",
-      "url": "https://blog.cloudflare.com/building-for-the-future/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:23:37+00:00",
-      "created_at": "2026-05-07T20:56:36.995143+00:00"
-    },
-    {
-      "id": "9080f4cfcd50403c",
-      "content_hash": "9080f4cfcd50403cc093277c5b6d86a749621cd53e5f2c11d8fdb66bb993189b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
-      "title": "Cloudflare to cut about 20% workforce",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48054423\">Comments</a>",
-      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:23:37+00:00",
-      "created_at": "2026-05-08T04:48:37.655422+00:00"
-    },
-    {
-      "id": "a803105bc2bedfbe",
-      "content_hash": "a803105bc2bedfbed8364749a43ebc2ce195af0e9234e544111e62b9144f4acb",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
-      "title": "Cloudflare to cut about 20% of its workforce",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48054423\">Comments</a>",
-      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:23:37+00:00",
-      "created_at": "2026-05-08T18:03:45.078337+00:00"
-    },
-    {
-      "id": "a8fa0d5ee883a269",
-      "content_hash": "a8fa0d5ee883a269e58788a002e257f43763650302d016343482a465deca0521",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120401",
-      "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-      "body": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
-      "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T20:20:20+00:00",
-      "created_at": "2026-05-07T20:56:36.648756+00:00"
-    },
-    {
-      "id": "c02680f461d1ee59",
-      "content_hash": "c02680f461d1ee59bb190705c6826b51752f943f6e5130e691eaa3bf53ecdf61",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8142",
-      "title": "CVE-2026-8142 - VINCE versions 3.0.38 and earlier do not properly verify the From address authen...",
-      "body": "VINCE versions 3.0.38 and earlier do not properly verify the From address authenticity due to encoding confusion and use the from address for automated actions such as Ticket creation or Ticket updates.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8142",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-07T20:16:45.670000",
-      "created_at": "2026-05-08T18:03:41.116952+00:00"
-    },
-    {
-      "id": "408a32f98100a099",
-      "content_hash": "408a32f98100a099f8a767ac9c3b4eb3f42ada08dbec719d1eacdfc29213bf5a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8088",
-      "title": "CVE-2026-8088 - A weakness has been identified in OSGeo gdal up to 3.13.0dev-4. The affected ele...",
-      "body": "A weakness has been identified in OSGeo gdal up to 3.13.0dev-4. The affected element is the function GDfieldinfo of the file frmts/hdf4/hdf-eos/GDapi.c. Executing a manipulation can lead to out-of-bounds read. The attack needs to be launched locally. The exploit has been made available to the public and could be used for attacks. Upgrading to version 3.13.0RC1 is sufficient to fix this issue. This patch is called a791f70f8eaec540974ec989ca6fb00266b7646c. The affected component should be upgraded.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8088",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-05-07T20:16:45.510000",
-      "created_at": "2026-05-08T18:03:41.116945+00:00"
     }
   ]
 }
