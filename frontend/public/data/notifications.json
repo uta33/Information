@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-09T10:45:29.319300+00:00",
+  "generated_at": "2026-05-09T11:40:07.061856+00:00",
   "items": [
+    {
+      "id": "7cdecfcb7703ab1b",
+      "content_hash": "7cdecfcb7703ab1bf6b83b668d7b1cb975d06f8ba5ea9c5c7f8a25fa4f0847d9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.economist.com/by-invitation/2026/05/06/vladimir-putin-is-losing-his-grip-on-russia",
+      "title": "Vladimir Putin is losing his grip on Russia",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073887\">Comments</a>",
+      "url": "https://www.economist.com/by-invitation/2026/05/06/vladimir-putin-is-losing-his-grip-on-russia",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T10:55:09+00:00",
+      "created_at": "2026-05-09T11:40:07.061383+00:00"
+    },
     {
       "id": "35482417b8371b92",
       "content_hash": "35482417b8371b9270f2d101b23c843434ea88a918a6584c87baaec40830b9e0",
@@ -742,6 +756,62 @@
       "cvss_score": null,
       "published_at": "2026-05-08T14:30:00+00:00",
       "created_at": "2026-05-08T14:46:32.224885+00:00"
+    },
+    {
+      "id": "84e0a80cbd38c1a9",
+      "content_hash": "84e0a80cbd38c1a97231d6b4ba59feb5c0e5583175f1c6c0fed25631e39eaba0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43303",
+      "title": "CVE-2026-43303 - In the Linux kernel, the following vulnerability has been resolved:\n\nmm/page_all...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/page_alloc: clear page->private in free_pages_prepare()\n\nSeveral subsystems (slub, shmem, ttm, etc.) use page->private but don't\nclear it before freeing pages.  When these pages are later allocated as\nhigh-order pages and split via split_page(), tail pages retain stale\npage->private values.\n\nThis causes a use-after-free in the swap subsystem.  The swap code uses\npage->private to track swap count continuations, assuming freshly\nallocated pages have page->private == 0.  When stale values are present,\nswap_count_continued() incorrectly assumes the continuation list is valid\nand iterates over uninitialized page->lru containing LIST_POISON values,\ncausing a crash:\n\n  KASAN: maybe wild-memory-access in range [0xdead000000000100-0xdead000000000107]\n  RIP: 0010:__do_sys_swapoff+0x1151/0x1860\n\nFix this by clearing page->private in free_pages_prepare(), ensuring all\nfreed pages have clean state regardless of previous use.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43303",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.583000",
+      "created_at": "2026-05-09T11:40:03.423940+00:00"
+    },
+    {
+      "id": "743ebdb22bd8cf25",
+      "content_hash": "743ebdb22bd8cf251f1a7c5cf62bb1328607062185e98ebe442fc3d0b85e46dc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43302",
+      "title": "CVE-2026-43302 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/v3d: Se...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/v3d: Set DMA segment size to avoid debug warnings\n\nWhen using V3D rendering with CONFIG_DMA_API_DEBUG enabled, the\nkernel occasionally reports a segment size mismatch. This is because\n'max_seg_size' is not set. The kernel defaults to 64K. setting\n'max_seg_size' to the maximum will prevent 'debug_dma_map_sg()'\nfrom complaining about the over-mapping of the V3D segment length.\n\nDMA-API: v3d 1002000000.v3d: mapping sg segment longer than device\n claims to support [len=8290304] [max=65536]\nWARNING: CPU: 0 PID: 493 at kernel/dma/debug.c:1179 debug_dma_map_sg+0x330/0x388\nCPU: 0 UID: 0 PID: 493 Comm: Xorg Not tainted 6.12.53-yocto-standard #1\nHardware name: Raspberry Pi 5 Model B Rev 1.0 (DT)\npstate: 60400009 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\npc : debug_dma_map_sg+0x330/0x388\nlr : debug_dma_map_sg+0x330/0x388\nsp : ffff8000829a3ac0\nx29: ffff8000829a3ac0 x28: 0000000000000001 x27: ffff8000813fe000\nx26: ffffc1ffc0000000 x25: ffff00010fdeb760 x24: 0000000000000000\nx23: ffff8000816a9bf0 x22: 0000000000000001 x21: 0000000000000002\nx20: 0000000000000002 x19: ffff00010185e810 x18: ffffffffffffffff\nx17: 69766564206e6168 x16: 74207265676e6f6c x15: 20746e656d676573\nx14: 20677320676e6970 x13: 5d34303334393134 x12: 0000000000000000\nx11: 00000000000000c0 x10: 00000000000009c0 x9 : ffff8000800e0b7c\nx8 : ffff00010a315ca0 x7 : ffff8000816a5110 x6 : 0000000000000001\nx5 : 000000000000002b x4 : 0000000000000002 x3 : 0000000000000008\nx2 : 0000000000000000 x1 : 0000000000000000 x0 : ffff00010a315280\nCall trace:\n debug_dma_map_sg+0x330/0x388\n __dma_map_sg_attrs+0xc0/0x278\n dma_map_sgtable+0x30/0x58\n drm_gem_shmem_get_pages_sgt+0xb4/0x140\n v3d_bo_create_finish+0x28/0x130 [v3d]\n v3d_create_bo_ioctl+0x54/0x180 [v3d]\n drm_ioctl_kernel+0xc8/0x140\n drm_ioctl+0x2d4/0x4d8",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43302",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.447000",
+      "created_at": "2026-05-09T11:40:03.423934+00:00"
+    },
+    {
+      "id": "603d1f3ee63bdfc4",
+      "content_hash": "603d1f3ee63bdfc4e21411b9f4aadb58702d45ddb1264a23a110e1e13f14f607",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43301",
+      "title": "CVE-2026-43301 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: chip...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: chips-media: wave5: Fix PM runtime usage count underflow\n\nReplace pm_runtime_put_sync() with pm_runtime_dont_use_autosuspend() in\nthe remove path to properly pair with pm_runtime_use_autosuspend() from\nprobe. This allows pm_runtime_disable() to handle reference count cleanup\ncorrectly regardless of current suspend state.\n\nThe driver calls pm_runtime_put_sync() unconditionally in remove, but the\ndevice may already be suspended due to autosuspend configured in probe.\nWhen autosuspend has already suspended the device, the usage count is 0,\nand pm_runtime_put_sync() decrements it to -1.\n\nThis causes the following warning on module unload:\n\n  ------------[ cut here ]------------\n  WARNING: CPU: 1 PID: 963 at kernel/kthread.c:1430\n    kthread_destroy_worker+0x84/0x98\n  ...\n  vdec 30210000.video-codec: Runtime PM usage count underflow!",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43301",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.340000",
+      "created_at": "2026-05-09T11:40:03.423927+00:00"
+    },
+    {
+      "id": "955d01e18238e0b8",
+      "content_hash": "955d01e18238e0b8bac1e78eee7e596133f14ede4b004ff033b798f212187561",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-43300",
+      "title": "CVE-2026-43300 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panel: ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panel: Fix a possible null-pointer dereference in jdi_panel_dsi_remove()\n\nIn jdi_panel_dsi_remove(), jdi is explicitly checked, indicating that it\nmay be NULL:\n\n  if (!jdi)\n    mipi_dsi_detach(dsi);\n\nHowever, when jdi is NULL, the function does not return and continues by\ncalling jdi_panel_disable():\n\n  err = jdi_panel_disable(&jdi->base);\n\nInside jdi_panel_disable(), jdi is dereferenced unconditionally, which can\nlead to a NULL-pointer dereference:\n\n  struct jdi_panel *jdi = to_panel_jdi(panel);\n  backlight_disable(jdi->backlight);\n\nTo prevent such a potential NULL-pointer dereference, return early from\njdi_panel_dsi_remove() when jdi is NULL.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43300",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T14:16:37.223000",
+      "created_at": "2026-05-09T11:40:03.423920+00:00"
     },
     {
       "id": "a0c3b3369705b48e",
@@ -6930,76 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-05-07T13:16:13.773000",
       "created_at": "2026-05-08T06:27:01.011220+00:00"
-    },
-    {
-      "id": "0e82e79c568477ae",
-      "content_hash": "0e82e79c568477ae94563f9ffe37bffe6e988e734ee775013114a00bfebb5b0d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5791",
-      "title": "CVE-2026-5791 - Cross-Site request forgery (CSRF) vulnerability in DivvyDrive Information Techno...",
-      "body": "Cross-Site request forgery (CSRF) vulnerability in DivvyDrive Information Technologies Inc. DivvyDrive allows Cross Site Request Forgery.\n\nThis issue affects DivvyDrive: from 4.8.2.9 before 4.8.3.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5791",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-05-07T13:16:13.647000",
-      "created_at": "2026-05-08T06:27:01.011214+00:00"
-    },
-    {
-      "id": "afc4d9080780e1d0",
-      "content_hash": "afc4d9080780e1d0ca9340cc1ac50e3a1527558c3eb8a1c94950333d91d5596f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5784",
-      "title": "CVE-2026-5784 - Improper neutralization of input during web page generation ('cross-site scripti...",
-      "body": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in DivvyDrive Information Technologies Inc. DivvyDrive allows Stored XSS.\n\nThis issue affects DivvyDrive: from 4.8.2.9 before 4.8.3.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5784",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-07T13:16:13.480000",
-      "created_at": "2026-05-08T06:27:01.011207+00:00"
-    },
-    {
-      "id": "c369cdff2ac03b1b",
-      "content_hash": "c369cdff2ac03b1bd39b692536c8b6d2b362c2129c51a0e363d2ef03ab2dd9df",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything",
-      "title": "Looking at the data behind prediction markets",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48049014\">Comments</a>",
-      "url": "https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:12:39+00:00",
-      "created_at": "2026-05-08T21:48:06.687647+00:00"
-    },
-    {
-      "id": "83ad1d3757b1b08e",
-      "content_hash": "83ad1d3757b1b08eb8e09d4b22ede747420d9019bd2d7f961b99d3d0735fcd05",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120071",
-      "title": "Spotify wants to become the home for AI-generated personal audio",
-      "body": "Users will be able to create a podcast from Codex or Claude Code and import it to Spotify",
-      "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:00:00+00:00",
-      "created_at": "2026-05-07T15:24:55.880127+00:00"
-    },
-    {
-      "id": "9ccfedcc10f6f68b",
-      "content_hash": "9ccfedcc10f6f68bec5e5a2159c99bdbb1c7abdb39a7e48260ebc946badd3a92",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "body": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "category": "ai",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-07T13:00:00+00:00",
-      "created_at": "2026-05-07T21:48:28.930095+00:00"
     }
   ]
 }
