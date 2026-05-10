@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T09:21:13.359924+00:00",
+  "generated_at": "2026-05-10T10:53:38.932152+00:00",
   "items": [
     {
       "id": "19eff8a3ab633b7b",
@@ -16,6 +16,48 @@
       "created_at": "2026-05-10T09:21:13.359105+00:00"
     },
     {
+      "id": "a8d8c0b3e5f77e25",
+      "content_hash": "a8d8c0b3e5f77e25f92c12bfa474851eb4d8f98a88c1dbeeedc63a64e2e5a56c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2605.05419",
+      "title": "LLMorphism: When humans come to see themselves as language models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082021\">Comments</a>",
+      "url": "https://arxiv.org/abs/2605.05419",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T08:22:12+00:00",
+      "created_at": "2026-05-10T10:53:38.931871+00:00"
+    },
+    {
+      "id": "34349746a69bfeea",
+      "content_hash": "34349746a69bfeea826a329dbbe69bcb244a6fe6145e49fdbc9e8a5d11bfd6ba",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.waltonfamilyfoundation.org/about-us/newsroom/gen-z-resentment-toward-ai-grows-as-adoption-stagnates-and-workplace-fears-mount",
+      "title": "Gen Z Resentment Toward AI Grows as Adoption Stagnates and Workplace Fears Mount",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48081942\">Comments</a>",
+      "url": "https://www.waltonfamilyfoundation.org/about-us/newsroom/gen-z-resentment-toward-ai-grows-as-adoption-stagnates-and-workplace-fears-mount",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T08:03:15+00:00",
+      "created_at": "2026-05-10T10:53:38.931569+00:00"
+    },
+    {
+      "id": "f140c45a4f1445d6",
+      "content_hash": "f140c45a4f1445d65d3cf52dda5c767007a15b818167d45f02ab02e32ca931bc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+      "title": "Task Paralysis and AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48081469\">Comments</a>",
+      "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T06:20:50+00:00",
+      "created_at": "2026-05-10T10:53:38.931586+00:00"
+    },
+    {
       "id": "53f253478c630600",
       "content_hash": "53f253478c6306009c78a003549c88e38efaba208e2752d41e2f24576cbaf705",
       "source_name": "Hacker News (Best)",
@@ -28,6 +70,48 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "42e653bbdb5d22cf",
+      "content_hash": "42e653bbdb5d22cf2e198cf4cb68256bddc6ed84fee51fbcf14e2d61c4470cfc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6735",
+      "title": "CVE-2026-6735 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, 8...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, 8.5.* before 8.5.6, due to improper sanitation of user data, it allows an attacker to compose an URL, which will cause the target to execute arbitrary JavaScript code (XSS) on the target's machine when the target is viewing the PHP-FPM status page.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6735",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.213000",
+      "created_at": "2026-05-10T10:53:34.045766+00:00"
+    },
+    {
+      "id": "5d32cbd3ddac3005",
+      "content_hash": "5d32cbd3ddac3005c416c6f228320151a3b75b6205fc233c6300007b80ff2b6a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6722",
+      "title": "CVE-2026-6722 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, the SOAP extension's object deduplication mechanism stores pointers to PHP objects in a global map without incrementing their reference counts. When an apache:Map node contains duplicate keys, processing the second entry overwrites the first in the temporary result map, freeing the original PHP object while its stale pointer remains in the map. A subsequent href reference to the freed node can copy the dangling pointer into the result. As PHP string allocations can reclaim the freed memory region, an attacker with control over the SOAP request body can exploit this use-after-free to achieve remote code execution.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6722",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.070000",
+      "created_at": "2026-05-10T10:53:34.045760+00:00"
+    },
+    {
+      "id": "715ce460ad2903cd",
+      "content_hash": "715ce460ad2903cd86e1df401d0157b2cd048a9cefd92afcdb742a4aeb20e31c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-14179",
+      "title": "CVE-2025-14179 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, the PDO Firebird driver improperly handles NUL bytes when preparing SQL queries. During token-by-token query construction, a string token containing a NUL byte is copied via strncat(), which stops at the NUL byte, dropping the closing quote and causing subsequent SQL tokens to be interpreted as part of the string. This allows SQL injection when attacker-controlled values are quoted via PDO::quote() and embedded in SQL statements.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14179",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:09.853000",
+      "created_at": "2026-05-10T10:53:34.045754+00:00"
     },
     {
       "id": "f04a3110823094ac",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T03:52:14+00:00",
       "created_at": "2026-05-08T06:27:04.086025+00:00"
-    },
-    {
-      "id": "88f4b8294a446c41",
-      "content_hash": "88f4b8294a446c415bf567f728d268946c0480f684e4e738a6307a922a9ca0ae",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lwn.net/Articles/1066418/",
-      "title": "Digging into Drama at the Document Foundation",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058337\">Comments</a>",
-      "url": "https://lwn.net/Articles/1066418/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:51:59+00:00",
-      "created_at": "2026-05-08T06:27:04.086043+00:00"
-    },
-    {
-      "id": "9c93b901fd5dc49b",
-      "content_hash": "9c93b901fd5dc49b24b8c884f145e363c009b9e993618b98b0834c3f5a2265b8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.reuters.com/business/retail-consumer/amazon-cloud-unit-says-data-center-overheating-north-virginia-disrupts-services-2026-05-08/",
-      "title": "AWS says data center overheating in North Virginia disrupts services",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058197\">Comments</a>",
-      "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-unit-says-data-center-overheating-north-virginia-disrupts-services-2026-05-08/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:31:58+00:00",
-      "created_at": "2026-05-08T21:48:06.687716+00:00"
-    },
-    {
-      "id": "f1ce26b44f73bac9",
-      "content_hash": "f1ce26b44f73bac970575a7a8e5006bdc8932b2cc0be48700b55413dee1141cd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.reuters.com/business/retail-consumer/amazon-cloud-unit-says-data-center-overheating-north-virginia-disrupts-services-2026-05-08/",
-      "title": "Amazon cloud outage at North Virginia data center largely resolved",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058197\">Comments</a>",
-      "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-unit-says-data-center-overheating-north-virginia-disrupts-services-2026-05-08/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:31:58+00:00",
-      "created_at": "2026-05-08T23:44:47.767503+00:00"
-    },
-    {
-      "id": "3bdc69eb29eac54e",
-      "content_hash": "3bdc69eb29eac54e24223abaab6e68ef0a90c13298033821fa13438881dc6f85",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
-      "title": "AWS North Virginia data center outage – recovery to take hours",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058197\">Comments</a>",
-      "url": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:31:58+00:00",
-      "created_at": "2026-05-09T01:50:15.597440+00:00"
-    },
-    {
-      "id": "17b212c31d609aaf",
-      "content_hash": "17b212c31d609aaf4ebe3bdc147ca77abd80085cd63bf129a96c76db65cc801e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
-      "title": "AWS North Virginia data center outage – resolved",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058197\">Comments</a>",
-      "url": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:31:58+00:00",
-      "created_at": "2026-05-09T10:45:29.318649+00:00"
-    },
-    {
-      "id": "ba4af346fa7c7caf",
-      "content_hash": "ba4af346fa7c7caf3259139365d60093d1e6842e2509596614a182356df4f151",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-014686.html",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年05月05日）",
-      "body": "2026年05月05日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。\n\n新規：5件<ul><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01\" target=\"_blank\">ICSA-26-125-01 Hitachi Energy PCM600</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02\" target=\"_blank\">ICSA-26-125-02 ABB B&amp;R PVI</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03\" target=\"_blank\">ICSA-26-125-03 ABB B&amp;R Automation Runtime</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04\" target=\"_blank\">ICSA-26-125-04 ABB B&amp;R Automation Studio</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05\" target=\"_blank\">ICSA-26-125-05 Johnson Controls CEM AC2000</a></li></ul>更新：2件<ul><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-23-227-01\" target=\"_blank\">ICSA-23-227-01 Schneider Electric EcoStruxure Control Expert and Modicon M340, Momentum, MC80, M580 and M580 CPU Safety (Update A)</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-24-319-16\" target=\"_blank\">ICSA-24-319-16 Hitachi Energy MSM (Update A)</a></li></ul>",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-014686.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:25:00+00:00",
-      "created_at": "2026-05-08T08:17:18.181788+00:00"
     }
   ]
 }
