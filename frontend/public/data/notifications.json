@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-10T21:37:54.514756+00:00",
+  "generated_at": "2026-05-10T22:35:22.492406+00:00",
   "items": [
+    {
+      "id": "e95b146ffc5e44b7",
+      "content_hash": "e95b146ffc5e44b745ccb02a8e2bc1581de844082c2f8de80db31fa6b314a552",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did-differently-on-baby-sleep",
+      "title": "Why modern parents feel more sleep deprived than our ancestors did",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48088343\">Comments</a>",
+      "url": "https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did-differently-on-baby-sleep",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T21:36:52+00:00",
+      "created_at": "2026-05-10T22:35:22.491696+00:00"
+    },
+    {
+      "id": "2a5bddcc15ccdb07",
+      "content_hash": "2a5bddcc15ccdb07bc6abf2f15b5360654f3d1456e850e90085abdad4239d1ac",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48088151\">Comments</a>",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T21:16:58+00:00",
+      "created_at": "2026-05-10T22:35:22.491757+00:00"
+    },
     {
       "id": "1abaf45c73888432",
       "content_hash": "1abaf45c73888432d014e5f05b386271451127485bd42b8a6b242b671c63f50d",
@@ -448,6 +476,34 @@
       "cvss_score": null,
       "published_at": "2026-05-10T13:42:00+00:00",
       "created_at": "2026-05-10T15:41:39.042632+00:00"
+    },
+    {
+      "id": "1cb1ba46afcecc3a",
+      "content_hash": "1cb1ba46afcecc3ac9d3903a5f11df3dfc835e7f37e300e1beac58413f62e2ff",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2021-47926",
+      "title": "CVE-2021-47926 - Contact Form to Email 1.3.24 contains a stored cross-site scripting vulnerabilit...",
+      "body": "Contact Form to Email 1.3.24 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by creating forms with script tags in the form name field. Attackers can craft form names containing JavaScript code that executes when other logged-in users access the form management page, enabling session hijacking or credential theft.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47926",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-05-10T13:16:28.573000",
+      "created_at": "2026-05-10T22:35:17.499992+00:00"
+    },
+    {
+      "id": "b7bf752180f536af",
+      "content_hash": "b7bf752180f536af5d98a8f1739a0be5b61d23eca5990248fcc24b4fe11a429d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2021-47925",
+      "title": "CVE-2021-47925 - CMDBuild 3.3.2 contains multiple stored cross-site scripting vulnerabilities tha...",
+      "body": "CMDBuild 3.3.2 contains multiple stored cross-site scripting vulnerabilities that allow authenticated attackers to inject arbitrary web script or HTML via crafted input in card creation and file upload endpoints. Attackers can inject XSS payloads through Employee card parameters or SVG file attachments in the classes endpoint, which execute when other users view the affected records or preview attachments.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47925",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-05-10T13:16:28.437000",
+      "created_at": "2026-05-10T22:35:17.499986+00:00"
     },
     {
       "id": "192b1a09363ec9b6",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T08:41:00+00:00",
       "created_at": "2026-05-08T12:03:58.990269+00:00"
-    },
-    {
-      "id": "59acc4de42b01c57",
-      "content_hash": "59acc4de42b01c57754891324b1e5c3ecbe927d7a010966c118fe834cc9f9e27",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44928",
-      "title": "CVE-2026-44928 - In uriparser before 1.0.2, the function family EqualsUri can misclassify two une...",
-      "body": "In uriparser before 1.0.2, the function family EqualsUri can misclassify two unequal URIs as equal.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44928",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.9,
-      "published_at": "2026-05-08T08:16:44.153000",
-      "created_at": "2026-05-09T07:08:42.914864+00:00"
-    },
-    {
-      "id": "22c4c49b11973ab2",
-      "content_hash": "22c4c49b11973ab2d47f0b965bc616b97a0ea92119eb01ef528002b2f6ba62f4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44927",
-      "title": "CVE-2026-44927 - In uriparser before 1.0.2, there is pointer difference truncation to int in vari...",
-      "body": "In uriparser before 1.0.2, there is pointer difference truncation to int in various places.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44927",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.9,
-      "published_at": "2026-05-08T08:16:43.973000",
-      "created_at": "2026-05-09T07:08:42.914858+00:00"
-    },
-    {
-      "id": "cd8691b5ef063026",
-      "content_hash": "cd8691b5ef063026de7f2d5fd329bc20d95f9beb35cd3c95d161d0c2f4d0d85e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43284",
-      "title": "CVE-2026-43284 - In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: esp: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: esp: avoid in-place decrypt on shared skb frags\n\nMSG_SPLICE_PAGES can attach pages from a pipe directly to an skb. TCP\nmarks such skbs with SKBFL_SHARED_FRAG after skb_splice_from_iter(),\nso later paths that may modify packet data can first make a private\ncopy. The IPv4/IPv6 datagram append paths did not set this flag when\nsplicing pages into UDP skbs.\n\nThat leaves an ESP-in-UDP packet made from shared pipe pages looking\nlike an ordinary uncloned nonlinear skb. ESP input then takes the no-COW\nfast path for uncloned skbs without a frag_list and decrypts in place\nover data that is not owned privately by the skb.\n\nMark IPv4/IPv6 datagram splice frags with SKBFL_SHARED_FRAG, matching\nTCP. Also make ESP input fall back to skb_cow_data() when the flag is\npresent, so ESP does not decrypt externally backed frags in place.\nPrivate nonlinear skb frags still use the existing fast path.\n\nThis intentionally does not change ESP output. In esp_output_head(),\nthe path that appends the ESP trailer to existing skb tailroom without\ncalling skb_cow_data() is not reachable for nonlinear skbs:\nskb_tailroom() returns zero when skb->data_len is nonzero, while ESP\ntailen is positive. Thus ESP output will either use the separate\ndestination-frag path or fall back to skb_cow_data().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43284",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-08T08:16:43.827000",
-      "created_at": "2026-05-09T07:08:42.914851+00:00"
-    },
-    {
-      "id": "42c24bd39bae78e5",
-      "content_hash": "42c24bd39bae78e5d45ba8b7959d79f9a1a2066fcb3687ddabee11fa352338cf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2013-10075",
-      "title": "CVE-2013-10075 - Apache::Session versions through 1.94 for Perl re-creates deleted sessions.\n\nThe...",
-      "body": "Apache::Session versions through 1.94 for Perl re-creates deleted sessions.\n\nThe session stores Apache::Session::Store::File and Apache::Session::Store::DB_File will create a session that does not exist.  This can lead to sessions being revived, potentially with data that was to be deleted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-10075",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-05-08T08:16:43.463000",
-      "created_at": "2026-05-09T07:08:42.914842+00:00"
     }
   ]
 }
