@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-10T07:54:32.957696+00:00",
+  "generated_at": "2026-05-10T09:21:13.359924+00:00",
   "items": [
+    {
+      "id": "19eff8a3ab633b7b",
+      "content_hash": "19eff8a3ab633b7b4506776b9d0a964b726ff80f4ff5424bf3b432947550b4c1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theparisreview.org/blog/2026/05/06/rotten-dot-com/",
+      "title": "Rotten Dot Com",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082039\">Comments</a>",
+      "url": "https://www.theparisreview.org/blog/2026/05/06/rotten-dot-com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T08:25:55+00:00",
+      "created_at": "2026-05-10T09:21:13.359105+00:00"
+    },
     {
       "id": "53f253478c630600",
       "content_hash": "53f253478c6306009c78a003549c88e38efaba208e2752d41e2f24576cbaf705",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T03:25:00+00:00",
       "created_at": "2026-05-08T08:17:18.181788+00:00"
-    },
-    {
-      "id": "735035d201dceb53",
-      "content_hash": "735035d201dceb5354153c067f4a060654306d05cab3d205d2b3e5b805409029",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-014685.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。ksmbdにおける再接続時に耐久ハンドルの所有者を検証する機能が追加されました。現状、ksmbdは耐久ハンドルに再接続しようとするユーザーが、元々ファイルを開いたユーザーと同一かどうかを確認していませんでした。これにより、認証済みの任意のユーザーが永続IDを予測またはブルートフォースすることで、孤立した耐久ハンドルを乗っ取ることが可能でした。MS-SMB2に従い、サーバーは再接続要求のSecurityContextが既存のオープンに関連付けられたSecurityContextと一致することを必ず検証しなければなりません。ksmbd_fileにdurable_owner構造体を追加し、元のオープナーのUID、GID、およびアカウント名を格納しています。ファイルハンドルが孤立した場合に所有者情報を取得し、SMB2_CREATE (DHnC)時に要求者の身元を検証するためにksmbd_vfs_compare_durable_owner()を実装しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-014685.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:24:00+00:00",
-      "created_at": "2026-05-08T08:17:18.181813+00:00"
     }
   ]
 }
