@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-10T11:40:57.278096+00:00",
+  "generated_at": "2026-05-10T12:51:59.573815+00:00",
   "items": [
+    {
+      "id": "4fc11f4997e45da0",
+      "content_hash": "4fc11f4997e45da046333fc0219687881545acbc8ba63647b96b1b6555f519a0",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "body": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera.\nOllama is a",
+      "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-10T12:41:00+00:00",
+      "created_at": "2026-05-10T12:51:54.717726+00:00"
+    },
+    {
+      "id": "cb6c2fff70769c96",
+      "content_hash": "cb6c2fff70769c96c5ce324ef827b97ce6926b620e0875ee8b10623b69f05b24",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q",
+      "title": "9 Mothers (YC P26) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48083251\">Comments</a>",
+      "url": "https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T12:00:11+00:00",
+      "created_at": "2026-05-10T12:51:59.573160+00:00"
+    },
     {
       "id": "eb95a66e1f61bb3f",
       "content_hash": "eb95a66e1f61bb3ffd290261415f4aa8f983c1debebfd4c7319ee34c5e9c9162",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T10:33:06+00:00",
       "created_at": "2026-05-10T11:40:57.277809+00:00"
+    },
+    {
+      "id": "5218ab5e64cec0d1",
+      "content_hash": "5218ab5e64cec0d1b34c94a980dcaf043c0f68e1e585da35075982398468ec77",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+      "title": "Think Linear Algebra (2023)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082396\">Comments</a>",
+      "url": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T09:40:33+00:00",
+      "created_at": "2026-05-10T12:51:59.573279+00:00"
     },
     {
       "id": "d2ba2181648774d5",
@@ -112,6 +154,34 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "c197a58cc6987224",
+      "content_hash": "c197a58cc69872246e25532e54fe731ca3159e5e1b8d786ffde020b4a8184688",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7259",
+      "title": "CVE-2026-7259 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, a mismatch between encoding lists in Oniguruma and mbfl leads to  a NULL pointer dereference, resulting in a segmentation fault and denial of service. The vulnerability is exploitable when user-controlled input can influence the encoding passed to mb_regex_encoding().",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7259",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.507000",
+      "created_at": "2026-05-10T12:51:54.988266+00:00"
+    },
+    {
+      "id": "51bb5ee491c468b2",
+      "content_hash": "51bb5ee491c468b288cd0d2e8b08632ce642828841720f1530cb0306e33003fb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7258",
+      "title": "CVE-2026-7258 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, some functions, including urldecode(), pass signed char to ctype functions (like isxdigit()). On the systems with default signed char and optimized table-lookup ctype functions - such as NetBSD - this can lead to accessing array with negative offset, which can trigger a denial of service.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7258",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.360000",
+      "created_at": "2026-05-10T12:51:54.988259+00:00"
     },
     {
       "id": "42e653bbdb5d22cf",
@@ -1596,6 +1666,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T08:44:34+00:00",
       "created_at": "2026-05-09T19:49:28.927975+00:00"
+    },
+    {
+      "id": "25f4a641cc724939",
+      "content_hash": "25f4a641cc72493976d3e9aa1fec029682ccca89b30675a0a36844559b7da5ae",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "title": "I returned to AWS, and was reminded why I left",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073201\">Comments</a>",
+      "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T08:37:41+00:00",
+      "created_at": "2026-05-10T12:51:59.573030+00:00"
     },
     {
       "id": "35482417b8371b92",
@@ -6916,90 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-05-08T04:16:19.923000",
       "created_at": "2026-05-08T23:44:44.290668+00:00"
-    },
-    {
-      "id": "911c05e3e892cea7",
-      "content_hash": "911c05e3e892cea734f4a9d32109276b0a9e55d0cba573b77b771cd79e016aeb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42203",
-      "title": "CVE-2026-42203 - LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) fo...",
-      "body": "LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From version 1.80.5 to before version 1.83.7, the POST /prompts/test endpoint accepted user-supplied prompt templates and rendered them without sandboxing. A crafted template could run arbitrary code inside the LiteLLM Proxy process. The endpoint only checks that the caller presents a valid proxy API key, so any authenticated user could reach it. Depending on how the proxy is deployed, this could expose secrets in the process environment (such as provider API keys or database credentials) and allow commands to be run on the host. This issue has been patched in version 1.83.7.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42203",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T04:16:19.450000",
-      "created_at": "2026-05-08T22:44:01.197742+00:00"
-    },
-    {
-      "id": "41b8a82c74e6eb9d",
-      "content_hash": "41b8a82c74e6eb9d1e42ded1e4b53179832f39a3083bd139315bed3cff972c42",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42150",
-      "title": "CVE-2026-42150 - wlc is a Weblate command-line client using Weblate's REST API. Prior to version ...",
-      "body": "wlc is a Weblate command-line client using Weblate's REST API. Prior to version 2.0.0, the HTML output format in wlc embeds API response data into HTML without escaping, allowing cross-site scripting when the output is rendered in a browser. This issue has been patched in version 2.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42150",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.1,
-      "published_at": "2026-05-08T04:16:18.920000",
-      "created_at": "2026-05-08T22:44:01.197736+00:00"
-    },
-    {
-      "id": "a8c78f3890495cca",
-      "content_hash": "a8c78f3890495ccacfaf253840bbb25b8ff0b2287dc88a8b8262ad89ecbd38d1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41900",
-      "title": "CVE-2026-41900 - OpenLearnX is an open-source, decentralized learning and assessment platform. Pr...",
-      "body": "OpenLearnX is an open-source, decentralized learning and assessment platform. Prior to version 2.0.3, a remote code execution (RCE) vulnerability was identified in the OpenLearnX code execution environment, allowing sandbox escape and arbitrary command execution. This issue has been patched in version 2.0.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41900",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-08T04:16:18.710000",
-      "created_at": "2026-05-08T22:44:01.197729+00:00"
-    },
-    {
-      "id": "5fb73a6d3504784f",
-      "content_hash": "5fb73a6d3504784fd137b5a4e7e3ec4643615a4ae7029bf5d0c94099f01a0f04",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41646",
-      "title": "CVE-2026-41646 - Nuclei is a vulnerability scanner built on a simple YAML-based DSL. From version...",
-      "body": "Nuclei is a vulnerability scanner built on a simple YAML-based DSL. From version 3.0.0 to before version 3.8.0, a vulnerability in Nuclei's JavaScript protocol runtime allows JavaScript templates to read local .js and .json files through the require() function, bypassing the default local file access restriction. This issue has been patched in version 3.8.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41646",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-05-08T04:16:18.383000",
-      "created_at": "2026-05-08T22:44:01.197722+00:00"
-    },
-    {
-      "id": "5818fb7359cc50dc",
-      "content_hash": "5818fb7359cc50dcd579ce2dca5eeae7709e08ed8ffa665baa33a2e52adc3831",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41645",
-      "title": "CVE-2026-41645 - Nuclei is a vulnerability scanner built on a simple YAML-based DSL. From version...",
-      "body": "Nuclei is a vulnerability scanner built on a simple YAML-based DSL. From version 3.0.0 to before version 3.8.0, a vulnerability in Nuclei's expression evaluation engine makes it possible for a malicious target server to inject and execute supported DSL expressions. This happens when HTTP response data containing helper/function syntax gets reused by multi-step templates. If the -env-vars / -ev option is explicitly enabled, this can expose host environment variables. That option is off by default, so standard configurations are not affected by the information disclosure risk. This issue has been patched in version 3.8.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41645",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-08T04:16:18.177000",
-      "created_at": "2026-05-08T22:44:01.197716+00:00"
-    },
-    {
-      "id": "1b2fe5ff935c7001",
-      "content_hash": "1b2fe5ff935c7001b9ff157ae561ba64efde558a18d57035a04828ed359edb59",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41501",
-      "title": "CVE-2026-41501 - electerm is an open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ft...",
-      "body": "electerm is an open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client. Prior to version 3.3.8, a command injection vulnerability exists in github.com/elcterm/electerm/npm/install.js:130. The runLinux() function appends attacker-controlled remote version strings directly into an exec(\"rm -rf ...\") command without validation. This issue has been patched in version 3.3.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41501",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-08T04:16:17.940000",
-      "created_at": "2026-05-08T22:44:01.197709+00:00"
     }
   ]
 }
