@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-10T22:35:22.492406+00:00",
+  "generated_at": "2026-05-10T23:39:58.483809+00:00",
   "items": [
+    {
+      "id": "072c459573c3e05c",
+      "content_hash": "072c459573c3e05c90fe62465a3acca7e3973390c43c9ab9945b2f1c2166d2bc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jola.dev/posts/running-local-models-on-m4",
+      "title": "Running local models on an M4 with 24GB memory",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48089091\">Comments</a>",
+      "url": "https://jola.dev/posts/running-local-models-on-m4",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T23:09:10+00:00",
+      "created_at": "2026-05-10T23:39:58.483160+00:00"
+    },
+    {
+      "id": "2541d132d22712f0",
+      "content_hash": "2541d132d22712f008d90d6cacd4807d6f6aa98cd7d631027e705aa64336d4ea",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "title": "Obsidian plugin was abused to deploy a remote access trojan",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48088576\">Comments</a>",
+      "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T22:02:43+00:00",
+      "created_at": "2026-05-10T23:39:58.483142+00:00"
+    },
+    {
+      "id": "340fe49ab43a12e4",
+      "content_hash": "340fe49ab43a12e40ddc0153e51a7a5dc38b277808ece64b6104255b37a2fbb9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.androidauthority.com/plex-price-hikes-get-jellyfin-3663600/",
+      "title": "Plex's price hikes prove I was right to switch to Jellyfin",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48088459\">Comments</a>",
+      "url": "https://www.androidauthority.com/plex-price-hikes-get-jellyfin-3663600/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T21:49:59+00:00",
+      "created_at": "2026-05-10T23:39:58.483544+00:00"
+    },
     {
       "id": "e95b146ffc5e44b7",
       "content_hash": "e95b146ffc5e44b745ccb02a8e2bc1581de844082c2f8de80db31fa6b314a552",
@@ -476,6 +518,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T13:42:00+00:00",
       "created_at": "2026-05-10T15:41:39.042632+00:00"
+    },
+    {
+      "id": "6cfb58c03ec31c36",
+      "content_hash": "6cfb58c03ec31c368a96614600275cdd640cb1c80af17c5aad0d4e86f6f55b80",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2021-47927",
+      "title": "CVE-2021-47927 - WordPress Plugin WP Symposium Pro 2021.10 contains a stored cross-site scripting...",
+      "body": "WordPress Plugin WP Symposium Pro 2021.10 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by exploiting insufficient sanitization of the forum name parameter. Attackers can submit POST requests to the admin setup page with JavaScript payloads in the wps_admin_forum_add_name parameter, which are stored and executed when the forum is accessed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47927",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-05-10T13:16:28.707000",
+      "created_at": "2026-05-10T23:39:54.340220+00:00"
     },
     {
       "id": "1cb1ba46afcecc3a",
@@ -4174,6 +4230,20 @@
       "created_at": "2026-05-08T21:48:06.687488+00:00"
     },
     {
+      "id": "3f090ae0196f497f",
+      "content_hash": "3f090ae0196f497f61936c93bc545938e6625e0c68c049a45359a7ca5dce100d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/06/business/media/bbc-guy-goma-interview.html",
+      "title": "Guy Goma's Accidental BBC Interview Lives on After 20 Years",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48067698\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/06/business/media/bbc-guy-goma-interview.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T19:36:45+00:00",
+      "created_at": "2026-05-10T23:39:58.483265+00:00"
+    },
+    {
       "id": "c273027011c70b76",
       "content_hash": "c273027011c70b767e5b823189a481555b9084b7b18e22d86256902c7a8e7851",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.4,
       "published_at": "2026-05-08T10:16:28.917000",
       "created_at": "2026-05-09T07:08:42.914883+00:00"
-    },
-    {
-      "id": "088486d1f0f5ca3f",
-      "content_hash": "088486d1f0f5ca3f6099089da88cc12d1d6daa17da04ba3f705d0e068d0f113e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://geojson.org/",
-      "title": "GeoJSON",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48060918\">Comments</a>",
-      "url": "https://geojson.org/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T09:55:37+00:00",
-      "created_at": "2026-05-08T12:04:03.957139+00:00"
-    },
-    {
-      "id": "92bfe75e3807fc8c",
-      "content_hash": "92bfe75e3807fc8ce11eb9ebda304169e44146537fe187e3b319c54d92d3f72e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7330",
-      "title": "CVE-2026-7330 - The Auto Affiliate Links plugin for WordPress is vulnerable to Stored Cross-Site...",
-      "body": "The Auto Affiliate Links plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 6.8.8 This is due to insufficient input sanitization on the 'url' POST parameter in the aal_url_stats_save_action() function and a complete absence of output escaping in aal_display_clicks(), where the stored value is echoed directly into an anchor element's href attribute and inner text without esc_url(), esc_attr(), or esc_html(). This makes it possible for unauthenticated attackers to inject arbitrary web scripts into the admin statistics page that execute in an administrator's browser when the page is visited, leveraging a publicly exposed nonce and an unauthenticated AJAX endpoint registered via the wp_ajax_nopriv_ hook.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7330",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-05-08T09:16:10.100000",
-      "created_at": "2026-05-09T07:08:42.914877+00:00"
-    },
-    {
-      "id": "9cc60078b27861d3",
-      "content_hash": "9cc60078b27861d3c0c954e4a0ef25cd572af4be2443899d8dc53eb147e02e20",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5127",
-      "title": "CVE-2026-5127 - The User Frontend: AI Powered Frontend Posting, User Directory, Profile, Members...",
-      "body": "The User Frontend: AI Powered Frontend Posting, User Directory, Profile, Membership & User Registration plugin for WordPress is vulnerable to Deserialization of Untrusted Data in versions up to, and including, 4.3.1 This is due to insufficient input validation and type checking on the wpuf_files parameter during form submission, combined with unconditional deserialization via maybe_unserialize() when displaying post content. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject arbitrary PHP objects, which can be leveraged to execute arbitrary code, delete arbitrary files, or perform other malicious actions if a POP chain is present on the target system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5127",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-08T09:16:08.803000",
-      "created_at": "2026-05-09T07:08:42.914870+00:00"
-    },
-    {
-      "id": "052da0265e3fdc4a",
-      "content_hash": "052da0265e3fdc4a28084713dfca5e802fedd63a1c9c81593797dded2f6aac26",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "body": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T08:45:04+00:00",
-      "created_at": "2026-05-08T10:16:27.690781+00:00"
-    },
-    {
-      "id": "31b388738d9a5e72",
-      "content_hash": "31b388738d9a5e7222a1d5e31e0658824a7cea602237894177df78ac7280fd4a",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "body": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\"\nThe backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination.",
-      "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-08T08:41:00+00:00",
-      "created_at": "2026-05-08T12:03:58.990269+00:00"
     }
   ]
 }
