@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-10T17:41:34.811314+00:00",
+  "generated_at": "2026-05-10T18:44:03.408962+00:00",
   "items": [
+    {
+      "id": "85043e4ba5fc82a8",
+      "content_hash": "85043e4ba5fc82a8e8aa3854bc467cfb1a8431c88117f93ed058ee5cbc706728",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3121083",
+      "title": "Uber has always wanted to be more than a ride; now it has reason to hurry",
+      "body": "The company has been trying to embed itself inside the AV industry — as a data provider, an investor, and a distribution platform — but the consumer-facing bet may be just as important.",
+      "url": "https://techcrunch.com/2026/05/10/uber-has-always-wanted-to-be-more-than-a-ride-now-it-has-reason-to-hurry/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T18:08:54+00:00",
+      "created_at": "2026-05-10T18:44:03.299137+00:00"
+    },
+    {
+      "id": "9bf4fb40dccc6bde",
+      "content_hash": "9bf4fb40dccc6bde4c36e710754386d3f4bb1f59b3f00a95d71def5eed8631cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+      "title": "Hardware Attestation as Monopoly Enabler",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48086190\">Comments</a>",
+      "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:54:02+00:00",
+      "created_at": "2026-05-10T18:44:03.408108+00:00"
+    },
+    {
+      "id": "545fd596c1fee503",
+      "content_hash": "545fd596c1fee503409e7075ba19050e8140e69a992ea4eec5c494e1ade98ba2",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+      "body": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:52:15+00:00",
+      "created_at": "2026-05-10T18:43:59.120321+00:00"
+    },
+    {
+      "id": "f5b2e5a35c8acd30",
+      "content_hash": "f5b2e5a35c8acd309406ba252b9c96a3e252e86c1e1bac8d643679724b42d9c0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "title": "Incident CVE-2024-Yikes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48086082\">Comments</a>",
+      "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:43:10+00:00",
+      "created_at": "2026-05-10T18:44:03.408141+00:00"
+    },
     {
       "id": "ae6b9171b8c800a5",
       "content_hash": "ae6b9171b8c800a519d1eb39cc37397270a3359131f326fc86be8fbce624249a",
@@ -72,6 +128,20 @@
       "created_at": "2026-05-10T16:40:45.034068+00:00"
     },
     {
+      "id": "0782eb25f36b2dc7",
+      "content_hash": "0782eb25f36b2dc7470658c6541dbb3c99d4f59618e9871d94c31eb40874a397",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dbushell.com/2026/04/29/github-is-sinking/",
+      "title": "GitHub is sinking",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085095\">Comments</a>",
+      "url": "https://dbushell.com/2026/04/29/github-is-sinking/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:07:26+00:00",
+      "created_at": "2026-05-10T18:44:03.408601+00:00"
+    },
+    {
       "id": "2606e5d6a86d87a8",
       "content_hash": "2606e5d6a86d87a8c5b53d39c425dbb9f21ea1b429041daf6aa13e768295938c",
       "source_name": "TechCrunch",
@@ -84,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T16:05:00+00:00",
       "created_at": "2026-05-10T16:40:44.826579+00:00"
+    },
+    {
+      "id": "6352254192cdce6d",
+      "content_hash": "6352254192cdce6d40840e43719b05ff9979e567ede100b73236ec5d878ac3a4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.quarter--mile.com/The-Locals-Dont-Know",
+      "title": "The Locals Don't Know",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085055\">Comments</a>",
+      "url": "https://www.quarter--mile.com/The-Locals-Dont-Know",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:03:37+00:00",
+      "created_at": "2026-05-10T18:44:03.408318+00:00"
     },
     {
       "id": "c14ec64ac4ebd08b",
@@ -154,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T14:47:05+00:00",
       "created_at": "2026-05-10T15:41:39.042556+00:00"
+    },
+    {
+      "id": "5181e5fdf18b8dd1",
+      "content_hash": "5181e5fdf18b8dd122a11b76c91b6bba1845cfcf246e0c3bbe3897084ec32115",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48084432\">Comments</a>",
+      "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T14:47:05+00:00",
+      "created_at": "2026-05-10T18:44:03.408256+00:00"
     },
     {
       "id": "91fd242d076487b6",
@@ -282,6 +380,20 @@
       "created_at": "2026-05-10T14:15:38.094318+00:00"
     },
     {
+      "id": "ffc60d6deff2a668",
+      "content_hash": "ffc60d6deff2a6686bd834303f8c31f19ff8337862612a74946171c90c39b1d2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+      "title": "What's a mathematician to do? (2010)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48083007\">Comments</a>",
+      "url": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T11:26:50+00:00",
+      "created_at": "2026-05-10T18:44:03.408234+00:00"
+    },
+    {
       "id": "eb95a66e1f61bb3f",
       "content_hash": "eb95a66e1f61bb3ffd290261415f4aa8f983c1debebfd4c7319ee34c5e9c9162",
       "source_name": "Hacker News (Best)",
@@ -406,6 +518,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "b97e197c8f850c6c",
+      "content_hash": "b97e197c8f850c6c46ba04b5890dd7a39b1e7548a61884c5b52f2bb8f1c87d54",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8225",
+      "title": "CVE-2026-8225 - A vulnerability was identified in Open5GS up to 2.7.7. This affects the function...",
+      "body": "A vulnerability was identified in Open5GS up to 2.7.7. This affects the function pcf_npcf_smpolicycontrol_handle_delete of the file src/pcf/sm-sm.c of the component delete Endpoint. The manipulation leads to denial of service. The attack can be initiated remotely. The exploit is publicly available and might be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8225",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-10T05:16:12.060000",
+      "created_at": "2026-05-10T18:43:59.725595+00:00"
     },
     {
       "id": "0a2f82f63d5311d1",
@@ -1612,6 +1738,20 @@
       "created_at": "2026-05-10T16:40:45.033805+00:00"
     },
     {
+      "id": "0977fa3ce310eafe",
+      "content_hash": "0977fa3ce310eafe05dd7e1c8ba5c7244f1fb03566337d1ed9ee820dd83b8147",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wsj.com/health/wellness/hearing-loss-walking-speed-iphone-study-c53c482a",
+      "title": "Walking slower? Your ears, not your knees, might be the problem",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48075429\">Comments</a>",
+      "url": "https://www.wsj.com/health/wellness/hearing-loss-walking-speed-iphone-study-c53c482a",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T14:49:48+00:00",
+      "created_at": "2026-05-10T18:44:03.408191+00:00"
+    },
+    {
       "id": "3743ec52f31baa79",
       "content_hash": "3743ec52f31baa7925ebc480cfed6ddfd4b70d32eb4a3e70308a0db0f5274b05",
       "source_name": "TechCrunch",
@@ -1988,6 +2128,20 @@
       "cvss_score": null,
       "published_at": "2026-05-09T08:37:41+00:00",
       "created_at": "2026-05-10T12:51:59.573030+00:00"
+    },
+    {
+      "id": "d9942653e5b3133c",
+      "content_hash": "d9942653e5b3133ccee8a23cf935f92fcc70c15c8f1f3ddbfd4e5b1d8d2f8818",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "title": "I returned to AWS and was reminded why I left",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073201\">Comments</a>",
+      "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T08:37:41+00:00",
+      "created_at": "2026-05-10T18:44:03.408213+00:00"
     },
     {
       "id": "35482417b8371b92",
@@ -6120,6 +6274,20 @@
       "created_at": "2026-05-08T18:03:45.078534+00:00"
     },
     {
+      "id": "d2105e7c70d1c4c9",
+      "content_hash": "d2105e7c70d1c4c9237ce0226de5ce7f92538c528020b0099f264788f3eabaaa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html",
+      "title": "Stop MitM on the first SSH connection, on any VPS or cloud provider",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48061602\">Comments</a>",
+      "url": "https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T11:26:38+00:00",
+      "created_at": "2026-05-10T18:44:03.408360+00:00"
+    },
+    {
       "id": "9b48b53dac6941bc",
       "content_hash": "9b48b53dac6941bc92c42c2aa41e80f18c65b49eb1927a78ad63d429416a58be",
       "source_name": "Hacker News (Best)",
@@ -6832,174 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-05-08T05:16:10.740000",
       "created_at": "2026-05-09T05:00:01.809629+00:00"
-    },
-    {
-      "id": "4699eb52c6247c43",
-      "content_hash": "4699eb52c6247c432c4211b3532644a918696fe8d0b1a4b0ccd530ae97148de1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42276",
-      "title": "CVE-2026-42276 - Onyx is an open-source AI platform. Prior to versions 3.0.9, 3.1.6, and 3.2.6, t...",
-      "body": "Onyx is an open-source AI platform. Prior to versions 3.0.9, 3.1.6, and 3.2.6, the POST /chat/stop-chat-session/{chat_session_id} endpoint lets any authenticated user stop any other user's active chat session. The endpoint checks authentication but never verifies the session belongs to the caller. An attacker who knows a chat session UUID can kill another user's LLM generation mid-stream. This issue has been patched in versions 3.0.9, 3.1.6, and 3.2.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42276",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-08T05:16:10.557000",
-      "created_at": "2026-05-09T01:50:10.828899+00:00"
-    },
-    {
-      "id": "7a4a73997a3a08e5",
-      "content_hash": "7a4a73997a3a08e5804b9b223e328267fbc1a373244177bd1a5d0bf52ac8ddbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-42346",
-      "title": "CVE-2023-42346 - Alkacon OpenCms before 16 allows XXE when the <!DOCTYPE> refers to an external h...",
-      "body": "Alkacon OpenCms before 16 allows XXE when the <!DOCTYPE> refers to an external host.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42346",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T05:16:09.850000",
-      "created_at": "2026-05-09T01:50:10.828892+00:00"
-    },
-    {
-      "id": "80708db051d8f111",
-      "content_hash": "80708db051d8f111abeb0dfd0b1dcad302e168585c2e5a7efd36475d8e40f25b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-42345",
-      "title": "CVE-2023-42345 - A Cross Site Scripting vulnerability in Alkacon OpenCms before 16 exists via upd...",
-      "body": "A Cross Site Scripting vulnerability in Alkacon OpenCms before 16 exists via updateModelGroups.jsp.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42345",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-08T05:16:09.703000",
-      "created_at": "2026-05-09T01:50:10.828886+00:00"
-    },
-    {
-      "id": "08ef605c52486f97",
-      "content_hash": "08ef605c52486f974e91f4fd67ea111a7e9ae0dd482d4901a9c2514c9b33f53a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-42344",
-      "title": "CVE-2023-42344 - Alkacon OpenCms before 10.5.1 allows remote unauthenticated attackers to obtain ...",
-      "body": "Alkacon OpenCms before 10.5.1 allows remote unauthenticated attackers to obtain sensitive information via a cmis-online/query XXE attack on a Chemistry servlet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42344",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T05:16:09.560000",
-      "created_at": "2026-05-09T01:50:10.828878+00:00"
-    },
-    {
-      "id": "48be44f8994977ea",
-      "content_hash": "48be44f8994977ead1a8b93495860288cd2d27762914c67c3bd34b145e150fa3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-42343",
-      "title": "CVE-2023-42343 - A Cross Site Scripting vulnerability in Alkacon OpenCms before 10.5.1 exists via...",
-      "body": "A Cross Site Scripting vulnerability in Alkacon OpenCms before 10.5.1 exists via cmis-online/type.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42343",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-08T05:16:09.420000",
-      "created_at": "2026-05-09T01:50:10.828872+00:00"
-    },
-    {
-      "id": "41f4c84d5f9f123d",
-      "content_hash": "41f4c84d5f9f123de22d3bcd60eed35bd984fcda9e22e097e3a1b793aa1e733f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-45899",
-      "title": "CVE-2022-45899 - Nokia Broadcast Message Center (BMC) before 13.1 allows an unauthenticated remot...",
-      "body": "Nokia Broadcast Message Center (BMC) before 13.1 allows an unauthenticated remote attacker to do OS command injection as root via shell metacharacters in the Log Scanner Search Pattern field.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45899",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-08T05:16:09.183000",
-      "created_at": "2026-05-09T01:50:10.828866+00:00"
-    },
-    {
-      "id": "ab360e40e2352e22",
-      "content_hash": "ab360e40e2352e22c8d22d61fc88b565e8536f6ed0ca04e0eb62c829cc2b0dc9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-26523",
-      "title": "CVE-2022-26523 - The socket connection handler in aswArPot.sys in the Avast and AVG Windows Anti ...",
-      "body": "The socket connection handler in aswArPot.sys in the Avast and AVG Windows Anti Rootkit driver before 22.1 allows local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) due to a double fetch vulnerability at aswArPot+0xbb94.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26523",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-08T05:16:09.033000",
-      "created_at": "2026-05-08T23:44:44.290848+00:00"
-    },
-    {
-      "id": "7d651429dd7da781",
-      "content_hash": "7d651429dd7da7819908fa5431b723f900c78deac30552e948776b0ad4875011",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-26522",
-      "title": "CVE-2022-26522 - The socket connection handler in aswArPot.sys in the Avast and AVG Windows Anti ...",
-      "body": "The socket connection handler in aswArPot.sys in the Avast and AVG Windows Anti Rootkit driver before 22.1 allows local attackers to execute arbitrary code in kernel mode or cause a denial of service (memory corruption and OS crash) due to a double fetch vulnerability at aswArPot+0xc4a3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26522",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-08T05:16:08.893000",
-      "created_at": "2026-05-08T23:44:44.290842+00:00"
-    },
-    {
-      "id": "1eac87561ec353e3",
-      "content_hash": "1eac87561ec353e3cd7061267e8a911328c98601ef5eae68d6e408a535d5dee8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-23961",
-      "title": "CVE-2022-23961 - In Thruk Monitoring through 2.46.3, the login field of the login form is vulnera...",
-      "body": "In Thruk Monitoring through 2.46.3, the login field of the login form is vulnerable to reflected XSS. This vulnerability can be exploited by unauthenticated remote attackers to target users of the monitoring interface.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23961",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-08T05:16:08.700000",
-      "created_at": "2026-05-08T23:44:44.290835+00:00"
-    },
-    {
-      "id": "6538ba08d2296774",
-      "content_hash": "6538ba08d2296774dfc3f3b45f86e9779cddcaeea13d539a0071ab19a4144ebe",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "body": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel.\nDubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers",
-      "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-08T05:12:00+00:00",
-      "created_at": "2026-05-08T08:17:13.819576+00:00"
-    },
-    {
-      "id": "09428119fe893780",
-      "content_hash": "09428119fe893780c56e91693972da4ab0cd022901f8265b8984079be13134ce",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/graemeg/blaise",
-      "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058644\">Comments</a>",
-      "url": "https://github.com/graemeg/blaise",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T04:44:02+00:00",
-      "created_at": "2026-05-08T06:27:04.085663+00:00"
-    },
-    {
-      "id": "31b588acb6f9f5c6",
-      "content_hash": "31b588acb6f9f5c60c8705cb7b972f9250d792bccbf47415d81fe335004b5be6",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120662",
-      "title": "The back office problem that explains why specialists never call you back",
-      "body": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
-      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T04:42:29+00:00",
-      "created_at": "2026-05-08T04:48:37.267976+00:00"
     }
   ]
 }
