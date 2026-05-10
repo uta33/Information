@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T18:44:03.408962+00:00",
+  "generated_at": "2026-05-10T19:51:46.955116+00:00",
   "items": [
     {
       "id": "85043e4ba5fc82a8",
@@ -58,6 +58,48 @@
       "created_at": "2026-05-10T18:44:03.408141+00:00"
     },
     {
+      "id": "eae33a1526658ea8",
+      "content_hash": "eae33a1526658ea8d5bf6cb1bb499b72f45dfc2c55bbe5fa28aecc300ace4de7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "title": "Incident Report: CVE-2024-YIKES",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48086082\">Comments</a>",
+      "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:43:10+00:00",
+      "created_at": "2026-05-10T19:51:46.954317+00:00"
+    },
+    {
+      "id": "551d7dc4ec014b98",
+      "content_hash": "551d7dc4ec014b98e5a04e6b75e68d5ede77cb577ff782874b59ae7793e228e2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=48085993",
+      "title": "Ask HN: What are you working on? (May 2026)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085993\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=48085993",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:34:41+00:00",
+      "created_at": "2026-05-10T19:51:46.954363+00:00"
+    },
+    {
+      "id": "91f06ddec5edadfd",
+      "content_hash": "91f06ddec5edadfd5879fe1834761bfdb6f76896fa1f2093986a0ba5e19f84a5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "title": "Local AI needs to be the norm",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085821\">Comments</a>",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:19:28+00:00",
+      "created_at": "2026-05-10T19:51:46.954655+00:00"
+    },
+    {
       "id": "ae6b9171b8c800a5",
       "content_hash": "ae6b9171b8c800a519d1eb39cc37397270a3359131f326fc86be8fbce624249a",
       "source_name": "Hacker News (Best)",
@@ -70,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T17:15:10+00:00",
       "created_at": "2026-05-10T17:41:34.810611+00:00"
+    },
+    {
+      "id": "915fc689ef720e72",
+      "content_hash": "915fc689ef720e72e886cf7c450915989730d4f4442641c806600cfd2e5447a0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tracesofhumanity.org/hello-world/",
+      "title": "Traces Of Humanity",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085782\">Comments</a>",
+      "url": "https://tracesofhumanity.org/hello-world/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:15:10+00:00",
+      "created_at": "2026-05-10T19:51:46.954342+00:00"
     },
     {
       "id": "79693ed544f0cc18",
@@ -112,6 +168,34 @@
       "cvss_score": null,
       "published_at": "2026-05-10T16:31:51+00:00",
       "created_at": "2026-05-10T17:41:34.811102+00:00"
+    },
+    {
+      "id": "a013d41f6e3e0170",
+      "content_hash": "a013d41f6e3e0170cb3cb54a2c2cf96befd1b32c8a492209e346e145f7f3fd0e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+      "title": "Spain has become one of Europe’s cheapest power markets",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085330\">Comments</a>",
+      "url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:31:51+00:00",
+      "created_at": "2026-05-10T19:51:46.954747+00:00"
+    },
+    {
+      "id": "c824603d1499e6a9",
+      "content_hash": "c824603d1499e6a9aca8096097862b9ebeda3bfcd3559481b02b8fedaa51d84c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ycombinator.fyi/",
+      "title": "YC's Biggest Scandals",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085314\">Comments</a>",
+      "url": "https://ycombinator.fyi/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:30:34+00:00",
+      "created_at": "2026-05-10T19:51:46.954615+00:00"
     },
     {
       "id": "a60b87a6bd1b006c",
@@ -168,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T16:03:37+00:00",
       "created_at": "2026-05-10T18:44:03.408318+00:00"
+    },
+    {
+      "id": "34eab879e014b62d",
+      "content_hash": "34eab879e014b62d7d19822cb9b9b2d075106a12f141fd9e6c9742759444cd80",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.quarter--mile.com/The-Locals-Dont-Know",
+      "title": "The locals don't know",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085055\">Comments</a>",
+      "url": "https://www.quarter--mile.com/The-Locals-Dont-Know",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:03:37+00:00",
+      "created_at": "2026-05-10T19:51:46.954424+00:00"
     },
     {
       "id": "c14ec64ac4ebd08b",
@@ -518,6 +616,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "4e512f9055fef3eb",
+      "content_hash": "4e512f9055fef3eb65d22586fe7544950d161ec498f19e75e2b511d748cdb095",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8226",
+      "title": "CVE-2026-8226 - A security flaw has been discovered in Open5GS up to 2.7.7. This vulnerability a...",
+      "body": "A security flaw has been discovered in Open5GS up to 2.7.7. This vulnerability affects the function ogs_pcc_rule_install_flow_from_media in the library /lib/proto/types.c. The manipulation results in denial of service. The attack can be launched remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8226",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-10T05:16:12.240000",
+      "created_at": "2026-05-10T19:51:43.290659+00:00"
     },
     {
       "id": "b97e197c8f850c6c",
@@ -4426,6 +4538,20 @@
       "created_at": "2026-05-10T17:41:34.810828+00:00"
     },
     {
+      "id": "c84d44ecd2021f95",
+      "content_hash": "c84d44ecd2021f95b0da2cd94385a20b6b94a9764fe129b636ee2c81888dc1d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
+      "title": "Lakebase architecture delivers faster Postgres writes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48064789\">Comments</a>",
+      "url": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T15:46:12+00:00",
+      "created_at": "2026-05-10T19:51:46.954385+00:00"
+    },
+    {
       "id": "42b993cb5d133dcc",
       "content_hash": "42b993cb5d133dcc8fb79d7ff362ac94d90d5dcdfd49ec024f34fff1210bce58",
       "source_name": "CVE (NVD)",
@@ -6874,132 +7000,6 @@
       "cvss_score": 7.3,
       "published_at": "2026-05-08T06:16:09.293000",
       "created_at": "2026-05-09T05:00:01.809686+00:00"
-    },
-    {
-      "id": "0d6b1de5d0ebb2c4",
-      "content_hash": "0d6b1de5d0ebb2c4652374d87a62e9d65286f28ddce48aeae040b9caa433f453",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-30167",
-      "title": "CVE-2024-30167 - /cgi-bin/time.cgi in Atlona AT-OME-MS42 Matrix Switcher 1.1.2 allow remote authe...",
-      "body": "/cgi-bin/time.cgi in Atlona AT-OME-MS42 Matrix Switcher 1.1.2 allow remote authenticated users to execute arbitrary commands as root via a POST request that carries a serverName parameter.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-30167",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-05-08T06:16:09.160000",
-      "created_at": "2026-05-09T05:00:01.809679+00:00"
-    },
-    {
-      "id": "1581606ca2c0e6f9",
-      "content_hash": "1581606ca2c0e6f9c0568061659ef7941ce20a5c9a0f2fa6da71dd92b07c4446",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-27686",
-      "title": "CVE-2024-27686 - Mikrotik RouterOS (x86) 6.40.5 through 6.49.10 (fixed in 7) allows a remote atta...",
-      "body": "Mikrotik RouterOS (x86) 6.40.5 through 6.49.10 (fixed in 7) allows a remote attacker to cause a denial of service (device crash) via crafted packet data to the SMB service on TCP port 445.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27686",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-08T06:16:09.003000",
-      "created_at": "2026-05-09T05:00:01.809673+00:00"
-    },
-    {
-      "id": "d06e5b10c67c6389",
-      "content_hash": "d06e5b10c67c638949cc8baf9ed0808f8c714ca7ea5cebb5c4fd7b59c2a11a82",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-47268",
-      "title": "CVE-2023-47268 - In libslic3r/GCode/PostProcessor.cpp in Prusa PrusaSlicer through 2.6.1, a craft...",
-      "body": "In libslic3r/GCode/PostProcessor.cpp in Prusa PrusaSlicer through 2.6.1, a crafted 3mf project file can execute arbitrary code on a host where the project is sliced and G-code exported.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47268",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-08T06:16:08.667000",
-      "created_at": "2026-05-09T05:00:01.809667+00:00"
-    },
-    {
-      "id": "43a0189d5faf6818",
-      "content_hash": "43a0189d5faf6818b7423d31557c5ee6f5a5110a1254122c9757ea9a9abb3f9f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8148",
-      "title": "CVE-2026-8148 - NAVER MYBOX Explorer for Windows before 3.0.11.160 allows a local attacker to es...",
-      "body": "NAVER MYBOX Explorer for Windows before 3.0.11.160 allows a local attacker to escalate privileges to NT AUTHORITY\\SYSTEM via registry manipulation due to improper privilege checks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8148",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-08T05:16:12.030000",
-      "created_at": "2026-05-09T05:00:01.809661+00:00"
-    },
-    {
-      "id": "5bd88203521f1916",
-      "content_hash": "5bd88203521f191694329273b510e53c996cec2e376899690457f79223ccffe6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8138",
-      "title": "CVE-2026-8138 - A vulnerability was found in Tenda CX12L 16.03.53.12. This issue affects the fun...",
-      "body": "A vulnerability was found in Tenda CX12L 16.03.53.12. This issue affects the function formSetPPTPServer of the file /goform/SetPptpServerCfg”. The manipulation results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8138",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-08T05:16:11.833000",
-      "created_at": "2026-05-09T05:00:01.809654+00:00"
-    },
-    {
-      "id": "defc81d41a8b3cca",
-      "content_hash": "defc81d41a8b3ccafbe98604075f48f686d88419710828bb751b45a1e3e55b13",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8137",
-      "title": "CVE-2026-8137 - A vulnerability has been found in Totolink X5000R 9.1.0u.6369_B20230113. This vu...",
-      "body": "A vulnerability has been found in Totolink X5000R 9.1.0u.6369_B20230113. This vulnerability affects the function sub_458E40 of the file /boafrm/formDdns. The manipulation of the argument submit-url leads to buffer overflow. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8137",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-08T05:16:11.620000",
-      "created_at": "2026-05-09T05:00:01.809648+00:00"
-    },
-    {
-      "id": "2071a55a805ac7e0",
-      "content_hash": "2071a55a805ac7e004e1326b36906e89d099f928350a4191a1609b540678cb78",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42279",
-      "title": "CVE-2026-42279 - solidtime is an open-source time-tracking app. In version 0.12.0, the PUT /api/v...",
-      "body": "solidtime is an open-source time-tracking app. In version 0.12.0, the PUT /api/v1/organizations/{organization}/time-entries/{timeEntry} API accepts a route-bound timeEntry from another organization when the caller has time-entries:update:all in the URL organization, allowing a known foreign time-entry UUID to be modified and rebound to objects in the caller's organization. This issue has been patched in version 0.12.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42279",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-05-08T05:16:11.063000",
-      "created_at": "2026-05-09T05:00:01.809642+00:00"
-    },
-    {
-      "id": "cc4491f4155bfd1b",
-      "content_hash": "cc4491f4155bfd1be60c2859c83b6c2f44978f03688ba64267a118839137c786",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42278",
-      "title": "CVE-2026-42278 - UltraDAG is a minimal DAG-BFT blockchain in Rust. Prior to commit fb6ef59, the U...",
-      "body": "UltraDAG is a minimal DAG-BFT blockchain in Rust. Prior to commit fb6ef59, the UltraDAG StateEngine implementation of SmartTransferTx contains a critical logic flaw in its policy enforcement pipeline. When a transaction originates from a \"Pocket\" (a derived sub-address documented in the protocol as a way to organize funds), the engine fails to resolve the pocket's parent account before checking the spending policy. Because pockets are \"virtual\" addresses that exist only as entries in the pocket_to_parent map and do not have their own SmartAccountConfig entries, the check_spending_policy method defaults to an \"authorized/no policy\" result. This allow any user (or attacker in possession of a parent key) to instantly drain every pocket on an account, even if the parent account has a strict 24-hour vault delay or a 1 UDAG daily limit. This issue has been patched via commit fb6ef59.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42278",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T05:16:10.900000",
-      "created_at": "2026-05-09T05:00:01.809635+00:00"
-    },
-    {
-      "id": "2b85642e4a48416d",
-      "content_hash": "2b85642e4a48416dfe8b1c67b011e28c97629644f237d74322d4c573db945689",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42277",
-      "title": "CVE-2026-42277 - Onyx is an open-source AI platform. Prior to versions 3.0.9, 3.1.6, and 3.2.6, t...",
-      "body": "Onyx is an open-source AI platform. Prior to versions 3.0.9, 3.1.6, and 3.2.6, the GET /chat/file/{file_id} endpoint allows any authenticated user to download any other user's uploaded files by providing the file UUID. The endpoint verifies the caller is authenticated but never checks that the file belongs to them. An attacker who knows or obtains a file UUID can access confidential documents, chat attachments, and other files uploaded by any user in the system. This issue has been patched in versions 3.0.9, 3.1.6, and 3.2.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42277",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-08T05:16:10.740000",
-      "created_at": "2026-05-09T05:00:01.809629+00:00"
     }
   ]
 }
