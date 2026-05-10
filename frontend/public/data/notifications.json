@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-10T19:51:46.955116+00:00",
+  "generated_at": "2026-05-10T20:36:32.047333+00:00",
   "items": [
+    {
+      "id": "611aa70e75e53538",
+      "content_hash": "611aa70e75e5353840f8a29be7a5f13b39e464d9ea326e400cd54b0eb5f4dc9a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cbc.ca/news/science/spacex-data-centre-one-million-satellites-9.7117772",
+      "title": "SpaceX wants to launch a million satellites",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48087261\">Comments</a>",
+      "url": "https://www.cbc.ca/news/science/spacex-data-centre-one-million-satellites-9.7117772",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T19:56:05+00:00",
+      "created_at": "2026-05-10T20:36:32.047093+00:00"
+    },
     {
       "id": "85043e4ba5fc82a8",
       "content_hash": "85043e4ba5fc82a8e8aa3854bc467cfb1a8431c88117f93ed058ee5cbc706728",
@@ -616,6 +630,48 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "6aa2efae22419c4b",
+      "content_hash": "6aa2efae22419c4bbbb369b07a4595ad373b2fb4bc8b49872323f3e15be0b187",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8229",
+      "title": "CVE-2026-8229 - A vulnerability was detected in Wavlink NU516U1 240425. The affected element is ...",
+      "body": "A vulnerability was detected in Wavlink NU516U1 240425. The affected element is the function WifiBasic of the file /cgi-bin/wireless.cgi. Performing a manipulation of the argument AuthMethod/EncrypType results in os command injection. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8229",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-05-10T05:16:12.737000",
+      "created_at": "2026-05-10T20:36:28.493913+00:00"
+    },
+    {
+      "id": "a54fed0962eb8a59",
+      "content_hash": "a54fed0962eb8a59c76de46424009abdf48a291c4207fa237676b69213596aa8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8228",
+      "title": "CVE-2026-8228 - A security vulnerability has been detected in Wavlink NU516U1 240425. Impacted i...",
+      "body": "A security vulnerability has been detected in Wavlink NU516U1 240425. Impacted is the function advance of the file /cgi-bin/wireless.cgi. Such manipulation of the argument wlan_conf/Channel/skiplist/ieee_80211h leads to os command injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8228",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-05-10T05:16:12.573000",
+      "created_at": "2026-05-10T20:36:28.493906+00:00"
+    },
+    {
+      "id": "328d4fae3c49ce4c",
+      "content_hash": "328d4fae3c49ce4c144a6d4afc98744fd56a49d14c4b559965eca55da1bdcbea",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8227",
+      "title": "CVE-2026-8227 - A weakness has been identified in Wavlink NU516U1 240425. This issue affects the...",
+      "body": "A weakness has been identified in Wavlink NU516U1 240425. This issue affects the function wzdapMesh of the file /cgi-bin/adm.cgi. This manipulation causes os command injection. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8227",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-05-10T05:16:12.407000",
+      "created_at": "2026-05-10T20:36:28.493900+00:00"
     },
     {
       "id": "4e512f9055fef3eb",
@@ -6428,6 +6484,20 @@
       "created_at": "2026-05-08T14:46:32.618999+00:00"
     },
     {
+      "id": "e7575b079b299112",
+      "content_hash": "e7575b079b299112aae45c1b1c2ae17191a3c2f85e22a6768bcfdd453d2441c1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thechipletter.substack.com/p/eight-more-8-bit-era-microprocessors",
+      "title": "Eight More 8-bit Era Microprocessors (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48061556\">Comments</a>",
+      "url": "https://thechipletter.substack.com/p/eight-more-8-bit-era-microprocessors",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T11:21:26+00:00",
+      "created_at": "2026-05-10T20:36:32.046868+00:00"
+    },
+    {
       "id": "1b3e8ebc82492f1e",
       "content_hash": "1b3e8ebc82492f1efb00c171a4739a5f56180f17e81b26676f4d167524142f9d",
       "source_name": "The Hacker News",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-05-08T06:16:09.963000",
       "created_at": "2026-05-09T07:08:42.914745+00:00"
-    },
-    {
-      "id": "4c66749cb129b2bd",
-      "content_hash": "4c66749cb129b2bd88886ce6f57434719ffe665e0c4ea7b1334dfdb0484dc10e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-46507",
-      "title": "CVE-2024-46507 - A SSTI (server side template injection) vulnerability in the custom template exp...",
-      "body": "A SSTI (server side template injection) vulnerability in the custom template export function in yeti-platform yeti before 2.1.12 allows attackers to execute code on the application server.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46507",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T06:16:09.840000",
-      "created_at": "2026-05-09T07:08:42.914738+00:00"
-    },
-    {
-      "id": "70936a1f89167f85",
-      "content_hash": "70936a1f89167f85dddb3831da98bb82caba6f15155642af06f4bcb4bcd7c38f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-45257",
-      "title": "CVE-2024-45257 - A Command Injection issue in the payload build page in BYOB (Build Your Own Botn...",
-      "body": "A Command Injection issue in the payload build page in BYOB (Build Your Own Botnet) 2.0 allows attackers to execute arbitrary commands on the server via a crafted build parameter. This occurs in freeze in core/generators.py.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45257",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T06:16:09.687000",
-      "created_at": "2026-05-09T07:08:42.914732+00:00"
-    },
-    {
-      "id": "05f9cb1fbe85eb59",
-      "content_hash": "05f9cb1fbe85eb598adde1b2d5e4df6565e02414855faaea1fa2ea0d9c989a58",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-33724",
-      "title": "CVE-2024-33724 - SOPlanning 1.52.00 is vulnerable to Cross Site Scripting (XSS) via the groupe_id...",
-      "body": "SOPlanning 1.52.00 is vulnerable to Cross Site Scripting (XSS) via the groupe_id parameter to process/groupe_save.php.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-33724",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-05-08T06:16:09.547000",
-      "created_at": "2026-05-09T05:00:01.809698+00:00"
-    },
-    {
-      "id": "8825d44ce0cbab5a",
-      "content_hash": "8825d44ce0cbab5ae8f309877d4fa0ad89226f3f83791cf0350b9575d419461c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-33722",
-      "title": "CVE-2024-33722 - SOPlanning 1.52.00 is vulnerable to SQL Injection by an authenticated user via p...",
-      "body": "SOPlanning 1.52.00 is vulnerable to SQL Injection by an authenticated user via projets.php with statut[].",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-33722",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-05-08T06:16:09.417000",
-      "created_at": "2026-05-09T05:00:01.809692+00:00"
-    },
-    {
-      "id": "759ab2c423089615",
-      "content_hash": "759ab2c423089615f22075590c0d0a2b03c0425d62fc05231ea9e537bfbbbf25",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-33288",
-      "title": "CVE-2024-33288 - Prison Management System Using PHP v1.0 was discovered to contain a SQL injectio...",
-      "body": "Prison Management System Using PHP v1.0 was discovered to contain a SQL injection vulnerability via the username on the Admin login page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-33288",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T06:16:09.293000",
-      "created_at": "2026-05-09T05:00:01.809686+00:00"
     }
   ]
 }
