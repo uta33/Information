@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-10T10:53:38.932152+00:00",
+  "generated_at": "2026-05-10T11:40:57.278096+00:00",
   "items": [
+    {
+      "id": "eb95a66e1f61bb3f",
+      "content_hash": "eb95a66e1f61bb3ffd290261415f4aa8f983c1debebfd4c7319ee34c5e9c9162",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://brennan.io/2026/05/09/pinball-and-escrow/",
+      "title": "Space Cadet Pinball on Linux",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082968\">Comments</a>",
+      "url": "https://brennan.io/2026/05/09/pinball-and-escrow/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T11:22:02+00:00",
+      "created_at": "2026-05-10T11:40:57.277336+00:00"
+    },
+    {
+      "id": "73f9a4c44f4a4997",
+      "content_hash": "73f9a4c44f4a4997f9e505ce0260b7a1c0cf1c3a433e356db141035022ead33e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
+      "title": "Replacing a 3 GB SQLite db with a 10 MB FST (finite state transducer) binary",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082676\">Comments</a>",
+      "url": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T10:33:06+00:00",
+      "created_at": "2026-05-10T11:40:57.277809+00:00"
+    },
+    {
+      "id": "d2ba2181648774d5",
+      "content_hash": "d2ba2181648774d5f9a964423d40cb7ed3687af239e6cae322082f051cd1d6b9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://vez.mrsk.me/freebsd-defaults",
+      "title": "FreeBSD – A Lesson in Poor Defaults",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48082342\">Comments</a>",
+      "url": "https://vez.mrsk.me/freebsd-defaults",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T09:27:11+00:00",
+      "created_at": "2026-05-10T11:40:57.277549+00:00"
+    },
     {
       "id": "19eff8a3ab633b7b",
       "content_hash": "19eff8a3ab633b7b4506776b9d0a964b726ff80f4ff5424bf3b432947550b4c1",
@@ -6958,48 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-05-08T04:16:17.940000",
       "created_at": "2026-05-08T22:44:01.197709+00:00"
-    },
-    {
-      "id": "a5475427bcedbdd0",
-      "content_hash": "a5475427bcedbdd0b3c8f4b697a1bd602507f3818330678cf5e1d7885199734c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41500",
-      "title": "CVE-2026-41500 - electerm is an open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ft...",
-      "body": "electerm is an open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client. Prior to version 3.3.8, a command injection vulnerability exists in github.com/elcterm/electerm/npm/install.js:150. The runMac() function appends attacker-controlled remote releaseInfo.name directly into an exec(\"open ...\") command without validation. This issue has been patched in version 3.3.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41500",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-08T04:16:17.720000",
-      "created_at": "2026-05-08T22:44:01.197702+00:00"
-    },
-    {
-      "id": "3c12c8ebee68b3b1",
-      "content_hash": "3c12c8ebee68b3b1accb1deaa322bd7eabc29e05da37731f076dc5770f34cbe3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41498",
-      "title": "CVE-2026-41498 - Kimai is an open-source time tracking application. Prior to version 2.54.0, the ...",
-      "body": "Kimai is an open-source time tracking application. Prior to version 2.54.0, the Team API endpoints use #[IsGranted('edit_team')] instead of #[IsGranted('edit', 'team')], causing Symfony TeamVoter to abstain from voting. This removes entity-level ownership checks on team operations, allowing any user with the edit_team permission to modify any team, not just teams they are authorized to manage. This issue has been patched in version 2.54.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41498",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-05-08T04:16:14.617000",
-      "created_at": "2026-05-08T21:48:01.608089+00:00"
-    },
-    {
-      "id": "fefe403122ca22ef",
-      "content_hash": "fefe403122ca22ef3064181fd0ca7c3a6df4a44e8403e040eec6725859e830d8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://apnews.com/article/passports-unpaid-child-support-penalty-state-department-42d90cfa8a06ee349bb9145f668919b6",
-      "title": "US will start revoking passports for parents who owe child support",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48058340\">Comments</a>",
-      "url": "https://apnews.com/article/passports-unpaid-child-support-penalty-state-department-42d90cfa8a06ee349bb9145f668919b6",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T03:52:14+00:00",
-      "created_at": "2026-05-08T06:27:04.086025+00:00"
     }
   ]
 }
