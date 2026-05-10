@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-10T12:51:59.573815+00:00",
+  "generated_at": "2026-05-10T14:15:38.095092+00:00",
   "items": [
+    {
+      "id": "342e238a9327a8da",
+      "content_hash": "342e238a9327a8da3d0587af20628489b56c3b2b145551a89a40fbcf3d9bad44",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3120972",
+      "title": "The hottest place for startups to strike a deal? The F1 paddock",
+      "body": "F1 Grands Prix have emerged as a new place to see and be seen if you are a founder or investor.",
+      "url": "https://techcrunch.com/2026/05/10/the-hottest-place-for-startups-to-strike-a-deal-the-f1-paddock/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T13:05:00+00:00",
+      "created_at": "2026-05-10T14:15:37.973270+00:00"
+    },
     {
       "id": "4fc11f4997e45da0",
       "content_hash": "4fc11f4997e45da046333fc0219687881545acbc8ba63647b96b1b6555f519a0",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T12:00:11+00:00",
       "created_at": "2026-05-10T12:51:59.573160+00:00"
+    },
+    {
+      "id": "993e72d962f9e4bc",
+      "content_hash": "993e72d962f9e4bc63e967b039bedc6d6ada6f3763dc2be3ebdefbd06ec8c4f5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+      "title": "What's a Mathematician to Do?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48083007\">Comments</a>",
+      "url": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T11:26:50+00:00",
+      "created_at": "2026-05-10T14:15:38.094318+00:00"
     },
     {
       "id": "eb95a66e1f61bb3f",
@@ -154,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "0d76e52b6e6776b7",
+      "content_hash": "0d76e52b6e6776b76862e669214075093828860981e6e6bb9a9c1438a67bed16",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7261",
+      "title": "CVE-2026-7261 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, when SoapServer is configured with SOAP_PERSISTENCE_SESSION, the handler object is persisted across requests via session storage. However, in the case SOAP requests results in an error, the persistance is handled incorrectly, resulting in freeing the object while keeping a pointer to it, which may lead to use-after-free. This may lead to memory corruption, information disclosure, or process crashes, with confidentiality, integrity, and availability impact on the vulnerable system.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7261",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.640000",
+      "created_at": "2026-05-10T14:15:34.422292+00:00"
     },
     {
       "id": "c197a58cc6987224",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T04:16:20.533000",
       "created_at": "2026-05-08T23:44:44.290710+00:00"
-    },
-    {
-      "id": "84333e6ae8aaa492",
-      "content_hash": "84333e6ae8aaa4929a7804a57ac944edc6abdb884af512eb143952588a2c4def",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42264",
-      "title": "CVE-2026-42264 - Axios is a promise based HTTP client for the browser and Node.js. From version 1...",
-      "body": "Axios is a promise based HTTP client for the browser and Node.js. From version 1.0.0 to before version 1.15.2, fFive config properties (auth, baseURL, socketPath, beforeRedirect, and insecureHTTPParser) in the HTTP adapter are read via direct property access without hasOwnProperty guards, making them exploitable as prototype pollution gadgets. When Object.prototype is polluted by another dependency in the same process, axios silently picks up these polluted values on every outbound HTTP request. This issue has been patched in version 1.15.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42264",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-05-08T04:16:20.313000",
-      "created_at": "2026-05-08T23:44:44.290703+00:00"
-    },
-    {
-      "id": "396d8415084ca46f",
-      "content_hash": "396d8415084ca46fea0466e20ecd63e8c5cf28d12b4dc6ebee82e171ec9e2bbd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42261",
-      "title": "CVE-2026-42261 - PromptHub is an all-in-one AI toolbox for prompt, skill, and agent management. F...",
-      "body": "PromptHub is an all-in-one AI toolbox for prompt, skill, and agent management. From version 0.4.9 to before version 0.5.4, apps/web/src/routes/skills.ts exposes an authenticated endpoint POST /api/skills/fetch-remote that fetches a user-supplied URL server-side and reflects the response body (up to 5 MB) back to the caller. The SSRF protection in apps/web/src/utils/remote-http.ts (isPrivateIPv6) attempts to block private/loopback destinations, but multiple alternate-but-valid IPv6 representations bypass the check. The bypasses reach any IPv4 address (loopback, RFC1918, link-local) via IPv4-mapped IPv6 in hex form, and the canonical ::1 via any representation that isn't the literal string \"::1\". Any authenticated user (role: user or admin) can trigger the SSRF. On deployments configured with ALLOW_REGISTRATION=true — a supported and documented configuration — this means any internet user who can register. This issue has been patched in version 0.5.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42261",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-08T04:16:20.107000",
-      "created_at": "2026-05-08T23:44:44.290693+00:00"
-    },
-    {
-      "id": "2dd6ddc0a9cecc83",
-      "content_hash": "2dd6ddc0a9cecc83455f73762f18a6a315d9022bff352125373987029d6f0722",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42208",
-      "title": "CVE-2026-42208 - LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) fo...",
-      "body": "LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From version 1.81.16 to before version 1.83.7, a database query used during proxy API key checks mixed the caller-supplied key value into the query text instead of passing it as a separate parameter. An unauthenticated attacker could send a specially crafted Authorization header to any LLM API route (for example POST /chat/completions) and reach this query through the proxy's error-handling path. An attacker could read data from the proxy's database and may be able to modify it, leading to unauthorised access to the proxy and the credentials it manages. This issue has been patched in version 1.83.7.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-08T04:16:19.923000",
-      "created_at": "2026-05-08T23:44:44.290668+00:00"
     }
   ]
 }
