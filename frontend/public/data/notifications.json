@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-10T16:40:45.034349+00:00",
+  "generated_at": "2026-05-10T17:41:34.811314+00:00",
   "items": [
+    {
+      "id": "ae6b9171b8c800a5",
+      "content_hash": "ae6b9171b8c800a519d1eb39cc37397270a3359131f326fc86be8fbce624249a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tracesofhumanity.org/hello-world/",
+      "title": "Tracesofhumanity.org by Joanna Rutkowska",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085782\">Comments</a>",
+      "url": "https://tracesofhumanity.org/hello-world/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T17:15:10+00:00",
+      "created_at": "2026-05-10T17:41:34.810611+00:00"
+    },
+    {
+      "id": "79693ed544f0cc18",
+      "content_hash": "79693ed544f0cc183c7543bc35ba792cbe80e9f40ea3c7f0e3b65cd21e91fba2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=48085384",
+      "title": "Remind HN: Today is Mother's Day, call your moms",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085384\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=48085384",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:37:04+00:00",
+      "created_at": "2026-05-10T17:41:34.810535+00:00"
+    },
     {
       "id": "48c0704eb0da9f1e",
       "content_hash": "48c0704eb0da9f1e601026e012bd9f4e9512e5b6c8c0f8c124737c69c6163cdb",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T16:31:53+00:00",
       "created_at": "2026-05-10T16:40:45.033987+00:00"
+    },
+    {
+      "id": "5240323d184d0262",
+      "content_hash": "5240323d184d0262602609d203330ac8240106474cd2666fcbfc4f8fdc67a948",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+      "title": "Spain just became one of Europe's cheapest power markets. Here is how",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48085330\">Comments</a>",
+      "url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T16:31:51+00:00",
+      "created_at": "2026-05-10T17:41:34.811102+00:00"
     },
     {
       "id": "a60b87a6bd1b006c",
@@ -364,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-05-10T05:26:03+00:00",
       "created_at": "2026-05-10T07:54:32.957108+00:00"
+    },
+    {
+      "id": "0a2f82f63d5311d1",
+      "content_hash": "0a2f82f63d5311d139311b3e52a272cc7af6e3d29ac786ad60bfcc247d9ebb03",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7568",
+      "title": "CVE-2026-7568 - In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, a...",
+      "body": "In PHP versions 8.2.* before 8.2.31, 8.3.* before 8.3.31, 8.4.* before 8.4.21, and 8.5.* before 8.5.6, the metaphone() function in ext/standard/metaphone.c uses a signed int variable to track the current position within the input string. If a string longer than 2,147,483,647 bytes is passed, a signed integer overflow occurs, resulting in undefined behavior. This can lead to an out-of-bounds read, causing a segmentation fault or access to unrelated memory, and may affect the availability of the PHP process.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7568",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T05:16:11.920000",
+      "created_at": "2026-05-10T17:41:30.261573+00:00"
     },
     {
       "id": "4734e390c80f108c",
@@ -4202,6 +4258,20 @@
       "created_at": "2026-05-08T16:08:21.965582+00:00"
     },
     {
+      "id": "2d4d825df06dbe70",
+      "content_hash": "2d4d825df06dbe7029feead6b1afdbffa03855c2e007a8b596a31d17c40faeb0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
+      "title": "5x perf increase on writes with FPW disabled in Postgres",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48064789\">Comments</a>",
+      "url": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T15:46:12+00:00",
+      "created_at": "2026-05-10T17:41:34.810828+00:00"
+    },
+    {
       "id": "42b993cb5d133dcc",
       "content_hash": "42b993cb5d133dcc8fb79d7ff362ac94d90d5dcdfd49ec024f34fff1210bce58",
       "source_name": "CVE (NVD)",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T04:42:29+00:00",
       "created_at": "2026-05-08T04:48:37.267976+00:00"
-    },
-    {
-      "id": "b374ba7866092aab",
-      "content_hash": "b374ba7866092aabbeb00addf5e91c5f4de9c8f35817c4ac96309e91eaf5d74e",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120662",
-      "title": "Why you can never get your doctor to call you back",
-      "body": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
-      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T04:42:29+00:00",
-      "created_at": "2026-05-08T06:27:03.968232+00:00"
-    },
-    {
-      "id": "199cc71337a99011",
-      "content_hash": "199cc71337a99011900c206bf2dfb5a2f760315037dddb80bdfdccdb1dd873de",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120662",
-      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
-      "body": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
-      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T04:42:29+00:00",
-      "created_at": "2026-05-08T16:08:21.965744+00:00"
-    },
-    {
-      "id": "003766071456dc5e",
-      "content_hash": "003766071456dc5eced58b5b96fc1668bca8f6720504d6332b20a1f2cb0045b9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8136",
-      "title": "CVE-2026-8136 - A flaw has been found in SourceCodester Pharmacy Sales and Inventory System 1.0....",
-      "body": "A flaw has been found in SourceCodester Pharmacy Sales and Inventory System 1.0. This affects an unknown part of the file /index.php?page=users. Executing a manipulation of the argument Name can lead to cross site scripting. The attack may be launched remotely. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8136",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.4,
-      "published_at": "2026-05-08T04:16:26.940000",
-      "created_at": "2026-05-08T23:44:44.290828+00:00"
-    },
-    {
-      "id": "23158ca9e805e41b",
-      "content_hash": "23158ca9e805e41b64ec518e6fa2224aa505bc24cf150a8e5e54efdf5e9b20b4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8133",
-      "title": "CVE-2026-8133 - A security vulnerability has been detected in zyx0814 FilePress up to 2.2.0. Aff...",
-      "body": "A security vulnerability has been detected in zyx0814 FilePress up to 2.2.0. Affected by this vulnerability is an unknown functionality of the file dzz/shares/admin.php of the component Shares Filelist API. Such manipulation of the argument order leads to sql injection. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. The name of the patch is e20ec58414103f781858f2951d178e19b1736664. A patch should be applied to remediate this issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8133",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T04:16:26.160000",
-      "created_at": "2026-05-08T23:44:44.290821+00:00"
-    },
-    {
-      "id": "3d0593764390c922",
-      "content_hash": "3d0593764390c92210401dcef398600dd68dd1944dc24cc7086b2bba44be2abd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8132",
-      "title": "CVE-2026-8132 - A weakness has been identified in CodeAstro Leave Management System 1.0. Affecte...",
-      "body": "A weakness has been identified in CodeAstro Leave Management System 1.0. Affected is an unknown function of the file /login.php. This manipulation of the argument txt_username causes sql injection. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8132",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-05-08T04:16:25.153000",
-      "created_at": "2026-05-08T23:44:44.290814+00:00"
     }
   ]
 }
