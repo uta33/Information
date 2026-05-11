@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-11T17:48:04.443746+00:00",
+  "generated_at": "2026-05-11T19:26:04.011390+00:00",
   "items": [
+    {
+      "id": "839e6e561b884b48",
+      "content_hash": "839e6e561b884b4866167cf04a8d0f5e065ee91e417b86a4dcb76d662f55fe57",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+      "body": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace.\n\"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend.\nAs of writing, Checkmarx has released",
+      "url": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T18:30:00+00:00",
+      "created_at": "2026-05-11T19:25:58.416440+00:00"
+    },
+    {
+      "id": "7c4b732ca2c89eca",
+      "content_hash": "7c4b732ca2c89eca857e786d3655c6cab7fb11a88d8f282be39c8361305763f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+      "title": "Can Someone Please Explain Whether Cloudflare Blackmailed Canonical?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48098537\">Comments</a>",
+      "url": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T18:12:38+00:00",
+      "created_at": "2026-05-11T19:26:04.010792+00:00"
+    },
+    {
+      "id": "69642cbbeee4ba96",
+      "content_hash": "69642cbbeee4ba969b01bf0d907e8c0974a77c720a1bafc00579bbecf5bc8999",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+      "body": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments.\nThe attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control",
+      "url": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-11T17:54:00+00:00",
+      "created_at": "2026-05-11T19:25:58.416473+00:00"
+    },
     {
       "id": "adfeaa335e560c6a",
       "content_hash": "adfeaa335e560c6a5b4e5fda7e6f7ec41126b428bd96d8aee03f561246ebee09",
@@ -28,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-05-11T17:38:32+00:00",
       "created_at": "2026-05-11T17:48:04.046890+00:00"
+    },
+    {
+      "id": "d697b6c53b9ead15",
+      "content_hash": "d697b6c53b9ead155e9883e9ff5512aa9e4eafa9f8f4ddc55fd96ba2a711bc42",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "title": "Microsoft Israel chief leaves amid ethical controversy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48097796\">Comments</a>",
+      "url": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T17:18:11+00:00",
+      "created_at": "2026-05-11T19:26:04.011101+00:00"
     },
     {
       "id": "97d587481899b9f9",
@@ -5574,6 +5630,20 @@
       "created_at": "2026-05-10T18:44:03.408213+00:00"
     },
     {
+      "id": "6f9dc0f6cca23904",
+      "content_hash": "6f9dc0f6cca23904f9e7e8658cb594daa73ee0c1907b61f6d867d0203faa39e8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://andrealeopardi.com/posts/erlang-counters-and-atomics/",
+      "title": "Counting Fast in Erlang with:counters and:atomics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48073121\">Comments</a>",
+      "url": "https://andrealeopardi.com/posts/erlang-counters-and-atomics/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-09T08:26:57+00:00",
+      "created_at": "2026-05-11T19:26:04.011030+00:00"
+    },
+    {
       "id": "35482417b8371b92",
       "content_hash": "35482417b8371b9270f2d101b23c843434ea88a918a6584c87baaec40830b9e0",
       "source_name": "Hacker News (Best)",
@@ -6568,6 +6638,20 @@
       "created_at": "2026-05-08T23:44:47.657108+00:00"
     },
     {
+      "id": "27ba63d0a34d71f0",
+      "content_hash": "27ba63d0a34d71f05b92194dd5c2d605c4354b5acd9b8f79774ffe3ff17221fb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/",
+      "title": "The Boston Library Where You Still Can Borrow a Giant Puppet",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48069685\">Comments</a>",
+      "url": "https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T22:47:06+00:00",
+      "created_at": "2026-05-11T19:26:04.010811+00:00"
+    },
+    {
       "id": "1aa23e608610ce0a",
       "content_hash": "1aa23e608610ce0a4fd50a0f5efff44f84013cb1414fef1fc1f5e3d8fa79f891",
       "source_name": "TechCrunch",
@@ -6916,90 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-05-08T20:16:32.200000",
       "created_at": "2026-05-09T16:39:52.322908+00:00"
-    },
-    {
-      "id": "b77c79ecef33962d",
-      "content_hash": "b77c79ecef33962ddd82e19b72dd7517b1ab66f7fa988fdcb8fd3de7d802f814",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44694",
-      "title": "CVE-2026-44694 - n8n-MCP is an MCP server that provides AI assistants access to n8n node document...",
-      "body": "n8n-MCP is an MCP server that provides AI assistants access to n8n node documentation, properties, and operations. From version 2.18.7 to before version 2.50.2, there is an authenticated server-side request forgery vulnerability affecting the webhook trigger tools, the n8n API client (N8N_API_URL), and per-request URLs supplied via the x-n8n-url header in multi-tenant HTTP mode. This issue has been patched in version 2.50.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44694",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T20:16:31.917000",
-      "created_at": "2026-05-09T16:39:52.322902+00:00"
-    },
-    {
-      "id": "c2bdb0b0275f3ed3",
-      "content_hash": "c2bdb0b0275f3ed306eec42cd238309e42d878443ebaa2c04d0d945cfff5ba8e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42282",
-      "title": "CVE-2026-42282 - n8n-MCP is an MCP server that provides AI assistants access to n8n node document...",
-      "body": "n8n-MCP is an MCP server that provides AI assistants access to n8n node documentation, properties, and operations. Prior to version 2.47.13, when n8n-mcp runs in HTTP transport mode, authenticated MCP tools/call requests had their full arguments and JSON-RPC params written to server logs by the request dispatcher and several sibling code paths before any redaction. When a tool call carries credential material — most notably n8n_manage_credentials.data — the raw values can be persisted in logs. In deployments where logs are collected, forwarded to external systems, or viewable outside the request trust boundary (shared log storage, SIEM pipelines, support/ops access), this can result in disclosure of: bearer tokens and OAuth credentials sent through n8n_manage_credentials, per-tenant API keys and webhook auth headers embedded in tool arguments, arbitrary secret-bearing payloads passed to any MCP tool. The issue requires authentication (AUTH_TOKEN accepted by the server), so unauthenticated callers cannot trigger it; the runtime exposure is also reduced by an existing console-silencing layer in HTTP mode, but that layer is fragile and the values are still constructed and passed into the logger. This issue has been patched in version 2.47.13.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42282",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-08T20:16:31.717000",
-      "created_at": "2026-05-09T16:39:52.322896+00:00"
-    },
-    {
-      "id": "f6b686966cda946a",
-      "content_hash": "f6b686966cda946a6197ba4e5e7bd974d6aa567cb0c3f4ee1defa5c5ce519065",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42190",
-      "title": "CVE-2026-42190 - RedwoodSDK is a server-first React framework. From version 1.0.0-beta.50 to befo...",
-      "body": "RedwoodSDK is a server-first React framework. From version 1.0.0-beta.50 to before version 1.2.3, server actions in rwsdk apply HTTP method enforcement but no origin validation. A request originating from a different origin that the browser treats as same-site can invoke a server action with the victim's session cookie attached. This issue has been patched in version 1.2.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42190",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-08T20:16:31.580000",
-      "created_at": "2026-05-09T16:39:52.322890+00:00"
-    },
-    {
-      "id": "167fa84ed4445c82",
-      "content_hash": "167fa84ed4445c823dde01683d612de8c2b39847008179f4e9e5ff0bcd009e61",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42189",
-      "title": "CVE-2026-42189 - Russh is a Rust SSH client & server library. Prior to version 0.60.1, a pre-auth...",
-      "body": "Russh is a Rust SSH client & server library. Prior to version 0.60.1, a pre-authentication denial-of-service vulnerability exists in the server's keyboard-interactive authentication handler. A malicious client can crash any russh-based server that implements keyboard-interactive auth (e.g., for 2FA/TOTP) with a single malformed packet, requiring no credentials. This issue has been patched in version 0.60.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42189",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-08T20:16:31.443000",
-      "created_at": "2026-05-09T16:39:52.322884+00:00"
-    },
-    {
-      "id": "59be61a4cd12ac8f",
-      "content_hash": "59be61a4cd12ac8fc149082213feb2b6da174ecb27dd62e1413fbc8b35cc94b7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42185",
-      "title": "CVE-2026-42185 - People is an application to handle users and teams, and distribute permissions a...",
-      "body": "People is an application to handle users and teams, and distribute permissions across La Suite. Prior to version 1.25.0, a user holding the Administrator role on a mail domain could send a crafted invitation request to promote any existing user (including users with no current domain access) to the Owner role. The exploit requires a single authenticated HTTP request and grants full domain ownership immediately, without any acceptance step from the target. This issue has been patched in version 1.25.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42185",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-05-08T20:16:31.290000",
-      "created_at": "2026-05-09T16:39:52.322878+00:00"
-    },
-    {
-      "id": "f5f8505192ee476c",
-      "content_hash": "f5f8505192ee476c652ad700e007b29894104c06dec039a15fcfd72de4ca749f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42181",
-      "title": "CVE-2026-42181 - Lemmy is a link aggregator and forum for the fediverse. Prior to version 0.19.18...",
-      "body": "Lemmy is a link aggregator and forum for the fediverse. Prior to version 0.19.18, Lemmy fetches metadata for user-supplied post URLs and, under the default StoreLinkPreviews image mode, downloads the preview image through local pict-rs. While the top-level page URL is checked against internal IP ranges, the extracted og:image URL is not subject to the same restriction. As a result, an authenticated low-privileged user can submit an attacker-controlled public page whose Open Graph image points to an internal image endpoint. Lemmy will fetch that internal image server-side and store a local thumbnail that can then be served back to users. This issue has been patched in version 0.19.18.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42181",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-08T20:16:31.160000",
-      "created_at": "2026-05-09T16:39:52.322872+00:00"
     }
   ]
 }
