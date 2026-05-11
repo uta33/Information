@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-11T22:44:46.485755+00:00",
+  "generated_at": "2026-05-11T23:45:38.838205+00:00",
   "items": [
+    {
+      "id": "9e3ac0c204ea0ccc",
+      "content_hash": "9e3ac0c204ea0ccceb250be45b44b04f1122f2b7a9ad3402e72d163c758466a9",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3121370",
+      "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+      "body": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
+      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T23:04:10+00:00",
+      "created_at": "2026-05-11T23:45:38.471028+00:00"
+    },
     {
       "id": "e3f2e681cf2f692d",
       "content_hash": "e3f2e681cf2f692d94afbb78b9f1c76645bba767e0ad0a787fdfcfdc84415ad4",
@@ -6986,20 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-05-08T23:16:35.457000",
       "created_at": "2026-05-09T17:40:32.322326+00:00"
-    },
-    {
-      "id": "d1b80221e9fd385c",
-      "content_hash": "d1b80221e9fd385ca1ff0668f6b3a010d046eef2ca7e4e2794511ccf47886157",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120983",
-      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "body": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T22:59:05+00:00",
-      "created_at": "2026-05-08T23:44:47.657108+00:00"
     }
   ]
 }
