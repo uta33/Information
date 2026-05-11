@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-11T19:26:04.011390+00:00",
+  "generated_at": "2026-05-11T21:09:04.442918+00:00",
   "items": [
+    {
+      "id": "0954e224eb437beb",
+      "content_hash": "0954e224eb437bebdf4dd40884eb409993f741fc92c4fd9b090a91b6d2a73ac7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "title": "If AI Writes Your Code, Why Use Python?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48100433\">Comments</a>",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T20:45:55+00:00",
+      "created_at": "2026-05-11T21:09:04.442462+00:00"
+    },
+    {
+      "id": "8a6eedc11a6b2d3d",
+      "content_hash": "8a6eedc11a6b2d3d75e432dd06b3f4317651be67485a36593f6f4e53c80378e0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gilesorr.com/blog/linux-terminal-memory-usage.html",
+      "title": "Linux Terminal Memory Usage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48099790\">Comments</a>",
+      "url": "https://gilesorr.com/blog/linux-terminal-memory-usage.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T19:49:39+00:00",
+      "created_at": "2026-05-11T21:09:04.442429+00:00"
+    },
+    {
+      "id": "aeee1b5158c48c4d",
+      "content_hash": "aeee1b5158c48c4d7f274efaa337847f700ab1eadc4c56fd41cc3a5e940ebd36",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hollywoodreporter.com/music/music-industry-news/wmg-acquired-red-hot-chili-peppers-catalog-for-350-million-1236589567/",
+      "title": "Red Hot Chili Peppers ink $300M deal with Warner Music to sell catalog",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48099665\">Comments</a>",
+      "url": "https://www.hollywoodreporter.com/music/music-industry-news/wmg-acquired-red-hot-chili-peppers-catalog-for-350-million-1236589567/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T19:38:10+00:00",
+      "created_at": "2026-05-11T21:09:04.442664+00:00"
+    },
+    {
+      "id": "b13c5ca6dec7f083",
+      "content_hash": "b13c5ca6dec7f083f49fbfb1af0feeca99bdcf10f2629a3f191b4b02b6d7475a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/mamba-studio/TypedMemory",
+      "title": "Library for fast mapping of Java records to native memory",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48099616\">Comments</a>",
+      "url": "https://github.com/mamba-studio/TypedMemory",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T19:33:31+00:00",
+      "created_at": "2026-05-11T21:09:04.442135+00:00"
+    },
     {
       "id": "839e6e561b884b48",
       "content_hash": "839e6e561b884b4866167cf04a8d0f5e065ee91e417b86a4dcb76d662f55fe57",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-05-11T17:54:00+00:00",
       "created_at": "2026-05-11T19:25:58.416473+00:00"
+    },
+    {
+      "id": "137a0750a892340f",
+      "content_hash": "137a0750a892340fe7c4a5795fdc4022914c26f720c2ce475b7ce9b890b0ca3e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48098261\">Comments</a>",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-11T17:53:08+00:00",
+      "created_at": "2026-05-11T21:09:04.442191+00:00"
     },
     {
       "id": "adfeaa335e560c6a",
@@ -4286,6 +4356,20 @@
       "created_at": "2026-05-10T05:28:33.462111+00:00"
     },
     {
+      "id": "48dd0ea73062211a",
+      "content_hash": "48dd0ea73062211ab03e4df333c8605ec2262f9695d88367485b1b51928a6124",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3121027",
+      "title": "Voice AI in India is hard — Wispr Flow is betting on it anyway",
+      "body": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-10T02:00:00+00:00",
+      "created_at": "2026-05-11T21:09:04.193642+00:00"
+    },
+    {
       "id": "d279e9d75ebe560f",
       "content_hash": "d279e9d75ebe560f97b72746b74a958ee8dbe34ee8fad90a1f0ea32521c012e3",
       "source_name": "Hacker News (Best)",
@@ -6652,6 +6736,20 @@
       "created_at": "2026-05-11T19:26:04.010811+00:00"
     },
     {
+      "id": "ac819410b82421ee",
+      "content_hash": "ac819410b82421ee9f73572c93af90051975bfa6cb95fe3b457e243256ee1297",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/",
+      "title": "The Boston library where you still can borrow a giant puppet",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48069685\">Comments</a>",
+      "url": "https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-08T22:47:06+00:00",
+      "created_at": "2026-05-11T21:09:04.442378+00:00"
+    },
+    {
       "id": "1aa23e608610ce0a",
       "content_hash": "1aa23e608610ce0a4fd50a0f5efff44f84013cb1414fef1fc1f5e3d8fa79f891",
       "source_name": "TechCrunch",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-08T21:37:45+00:00",
       "created_at": "2026-05-08T22:44:05.813727+00:00"
-    },
-    {
-      "id": "df1f54c57b7af3f7",
-      "content_hash": "df1f54c57b7af3f7838001b39c32e15a341de7d99eaea27a4d8566c21cf594bc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://flox.dev/blog/achieving-rapid-cve-remediation-in-an-era-of-escalating-vulnerabilities/",
-      "title": "Non-determinism is an issue with patching CVEs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48068947\">Comments</a>",
-      "url": "https://flox.dev/blog/achieving-rapid-cve-remediation-in-an-era-of-escalating-vulnerabilities/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T21:23:07+00:00",
-      "created_at": "2026-05-08T21:48:06.687613+00:00"
-    },
-    {
-      "id": "0c9d4ef54df011e8",
-      "content_hash": "0c9d4ef54df011e8ed0ffa910cd1166af3669ec6b0a9890272a31b973bce5c21",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44400",
-      "title": "CVE-2026-44400 - MailEnable Enterprise Premium 10.55 and earlier contains an improper authorizati...",
-      "body": "MailEnable Enterprise Premium 10.55 and earlier contains an improper authorization vulnerability in the WebAdmin mobile portal that allows attackers to bypass authentication checks by reusing AuthenticationToken cookies generated for low-privileged users. Attackers can obtain a token from the WebMail login endpoint using the PersistentLogin parameter and replay it against the WebAdmin portal to perform highly privileged administrative actions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44400",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-08T21:16:28.260000",
-      "created_at": "2026-05-09T16:39:52.322915+00:00"
-    },
-    {
-      "id": "6b2d606633407fe7",
-      "content_hash": "6b2d606633407fe7210bd89cfc45a9ed6b6f1f3163f4b3e7a5b3ecdba2dfdf5f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.mux.com/jobs",
-      "title": "Mux (YC W16) Is Hiring",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48068732\">Comments</a>",
-      "url": "https://www.mux.com/jobs",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T21:02:32+00:00",
-      "created_at": "2026-05-08T21:48:06.687579+00:00"
-    },
-    {
-      "id": "53a9727f71d71ff1",
-      "content_hash": "53a9727f71d71ff141eed27aba96bd0b186f8caa6022eb6f5a197d3fa56d8a2e",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3120926",
-      "title": "Prime Video follows Netflix and Disney by adding a TikTok-like ‘Clips’ feed in its app",
-      "body": "The Clips feed aims to enable discovery by offering users a scrollable feed with short snippets of shows and movies.",
-      "url": "https://techcrunch.com/2026/05/08/prime-video-follows-netflix-and-disney-by-adding-a-tiktok-like-clips-feed-in-its-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T20:50:03+00:00",
-      "created_at": "2026-05-08T21:48:06.261021+00:00"
-    },
-    {
-      "id": "90bb38263c50947e",
-      "content_hash": "90bb38263c50947eceba8cb8e86995de88cec20ac661e5e06563a52c3a842c3b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/V4bel/dirtyfrag",
-      "title": "Dirty Frag: Universal Linux LPE",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48068475\">Comments</a>",
-      "url": "https://github.com/V4bel/dirtyfrag",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T20:36:51+00:00",
-      "created_at": "2026-05-08T22:44:05.813452+00:00"
-    },
-    {
-      "id": "df376d9366fb58c9",
-      "content_hash": "df376d9366fb58c961a43b4a07280e324b2dc6ca08271b5f2a0ca23c739ba6bc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://0xkrt26.github.io/math_behind_security/2026/05/08/birthday-problem.html",
-      "title": "When is your birthday? The math behind hash collisions",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48068254\">Comments</a>",
-      "url": "https://0xkrt26.github.io/math_behind_security/2026/05/08/birthday-problem.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-08T20:18:39+00:00",
-      "created_at": "2026-05-09T01:50:15.597512+00:00"
-    },
-    {
-      "id": "d3d1242b2dc7576c",
-      "content_hash": "d3d1242b2dc7576ce46821902f8103d6f2577f40f2eb85eca2474d6f715f355e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7807",
-      "title": "CVE-2026-7807 - SmarterTools SmarterMail builds prior to 9560 contain a local file inclusion vul...",
-      "body": "SmarterTools SmarterMail builds prior to 9560 contain a local file inclusion vulnerability in the /api/v1/report/summary/{type} API endpoint that allows authenticated users to read arbitrary .json files on the system. Attackers can exploit this vulnerability combined with weak encryption algorithms and hardcoded keys to decrypt and access stored passwords and 2FA secrets for all users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7807",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-08T20:16:32.200000",
-      "created_at": "2026-05-09T16:39:52.322908+00:00"
     }
   ]
 }
