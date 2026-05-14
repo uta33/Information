@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T09:25:40.308801+00:00",
+  "generated_at": "2026-05-14T11:42:26.588757+00:00",
   "items": [
     {
       "id": "cc59714cef95e693",
@@ -14,6 +14,62 @@
       "cvss_score": null,
       "published_at": "2026-05-15T00:00:00+00:00",
       "created_at": "2026-05-13T19:29:12.461359+00:00"
+    },
+    {
+      "id": "5d637a302abc79e2",
+      "content_hash": "5d637a302abc79e2124c0995bc2da0e691353598d6ac9aee8459ed0861c905ae",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nateglubish.substack.com/p/they-said-it-would-cost-54-million",
+      "title": "They Said It Would Cost $54M. We Said \"No Thanks.\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48133728\">Comments</a>",
+      "url": "https://nateglubish.substack.com/p/they-said-it-would-cost-54-million",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-14T11:05:05+00:00",
+      "created_at": "2026-05-14T11:42:26.588294+00:00"
+    },
+    {
+      "id": "d06d8e04356a8a5c",
+      "content_hash": "d06d8e04356a8a5ca37fa32090bf3efb0f7365435a6c1dac52068be2d6553f0d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+      "title": "Show HN: Running the second public ODoH relay",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48133561\">Comments</a>",
+      "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-14T10:44:50+00:00",
+      "created_at": "2026-05-14T11:42:26.587978+00:00"
+    },
+    {
+      "id": "3c74e0621b471a55",
+      "content_hash": "3c74e0621b471a555dcdfe9d76cb3c41d209589719f585de7c90c66eeb0277e1",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+      "body": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-14T10:03:39+00:00",
+      "created_at": "2026-05-14T11:42:21.153784+00:00"
+    },
+    {
+      "id": "744dd15bc74f0307",
+      "content_hash": "744dd15bc74f03074e52d11ae1e0e4403443c94418eab255941302cde8363b85",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+      "body": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON).\nThe security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+      "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-14T09:25:50+00:00",
+      "created_at": "2026-05-14T11:42:21.073896+00:00"
     },
     {
       "id": "6e09abcdf7a8af0f",
@@ -1442,6 +1498,20 @@
       "cvss_score": null,
       "published_at": "2026-05-13T16:22:01+00:00",
       "created_at": "2026-05-13T17:06:40.128662+00:00"
+    },
+    {
+      "id": "9d2d5c56bfa7c331",
+      "content_hash": "9d2d5c56bfa7c3314db9fd0fc364ce87a9bf05c6ae9676c84cff0d24205cd8a9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2024-55045",
+      "title": "CVE-2024-55045 - Firmament-Autopilot FMT-Firmware commit de5aec was discovered to contain a buffe...",
+      "body": "Firmament-Autopilot FMT-Firmware commit de5aec was discovered to contain a buffer overflow via the task_mavobc_entry function at /comm/task_comm.c.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55045",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-13T16:16:34.780000",
+      "created_at": "2026-05-14T11:42:21.406599+00:00"
     },
     {
       "id": "bbffdcac13ad6868",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-12T17:00:00+00:00",
       "created_at": "2026-05-12T20:24:28.678389+00:00"
-    },
-    {
-      "id": "bc103f332df18c02",
-      "content_hash": "bc103f332df18c02654b33f6200d40003f2437e327a9c58e4638a767b8c91b4f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3121345",
-      "title": "Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets",
-      "body": "To create a widget, users will be able to describe what they want using natural language. For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order to get a custom dashboard that you can add and resize on your home screen.",
-      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-12T17:00:00+00:00",
-      "created_at": "2026-05-12T22:02:30.671894+00:00"
-    },
-    {
-      "id": "b0658872d2af100d",
-      "content_hash": "b0658872d2af100d38b4ca49e7343c122cc93ba3bb2afece2a1d48fee485637b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.lttlabs.com/articles/2026/05/12/ups-exploration",
-      "title": "Testing UPS Output Waveforms",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48110858\">Comments</a>",
-      "url": "https://www.lttlabs.com/articles/2026/05/12/ups-exploration",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-12T16:50:59+00:00",
-      "created_at": "2026-05-12T18:29:33.570094+00:00"
-    },
-    {
-      "id": "c765306eaca46d95",
-      "content_hash": "c765306eaca46d954d880febfe747eda95d60f02784ed88485d57ca3cf8d111a",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3121631",
-      "title": "Indigo brings the open social web to one app",
-      "body": "Indigo's new social app lets you cross-post to the open social web, including Mastodon and Bluesky, and browse a unified timeline.",
-      "url": "https://techcrunch.com/2026/05/12/indigo-brings-the-open-social-web-to-one-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-12T16:46:03+00:00",
-      "created_at": "2026-05-12T18:29:33.198058+00:00"
-    },
-    {
-      "id": "c131496e36becc73",
-      "content_hash": "c131496e36becc73c3ddb2ae5add82eb51964409e8d23daad52ca7f78e27d895",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-      "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
-      "body": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution.\nExim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email.\nThe vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
-      "url": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-12T16:44:00+00:00",
-      "created_at": "2026-05-12T18:29:27.725392+00:00"
-    },
-    {
-      "id": "556c82519d498ecf",
-      "content_hash": "556c82519d498ecf08ab754ffb47c99a18d724437b0ee2da2abb4bff605c9a09",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3121646",
-      "title": "U.S. bank disclose security lapse after sharing customer data with AI app",
-      "body": "The bank said the security lapse was due to the use of an “unauthorized” AI software app.",
-      "url": "https://techcrunch.com/2026/05/12/u-s-bank-disclose-security-lapse-after-sharing-customer-data-with-ai-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-12T16:36:44+00:00",
-      "created_at": "2026-05-12T18:29:33.198076+00:00"
     }
   ]
 }
