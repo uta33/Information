@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T07:47:12.919972+00:00",
+  "generated_at": "2026-05-16T09:20:05.196288+00:00",
   "items": [
     {
       "id": "0ba3768492acb57a",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T07:01:55+00:00",
       "created_at": "2026-05-16T07:47:12.919170+00:00"
+    },
+    {
+      "id": "871073570fd76914",
+      "content_hash": "871073570fd769145b502bb9c1fecdb60677218c40166f8ae5e7448db4abb472",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "title": "Frontier AI has broken the open CTF format",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48157559\">Comments</a>",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T07:01:55+00:00",
+      "created_at": "2026-05-16T09:20:05.195523+00:00"
     },
     {
       "id": "5ccccafcbc7ebd19",
@@ -366,6 +380,20 @@
       "created_at": "2026-05-15T20:49:20.443672+00:00"
     },
     {
+      "id": "1a5f73bd303f5376",
+      "content_hash": "1a5f73bd303f53765facdc7295a8e442750375ba21d5e367ca0704fec831e313",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
+      "title": "Bill to block publishers from killing online games advances in California",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48152994\">Comments</a>",
+      "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T19:48:48+00:00",
+      "created_at": "2026-05-16T09:20:05.195864+00:00"
+    },
+    {
       "id": "615beeb9f7eb0275",
       "content_hash": "615beeb9f7eb0275eda2ff7df8962cf2d755f24181f78ea2807de576171967f4",
       "source_name": "Hacker News (Best)",
@@ -574,6 +602,62 @@
       "cvss_score": null,
       "published_at": "2026-05-15T17:22:53+00:00",
       "created_at": "2026-05-15T19:14:44.380628+00:00"
+    },
+    {
+      "id": "d42a7b2cbcafd68b",
+      "content_hash": "d42a7b2cbcafd68be7984eb1893c37a29832dd0624a3e6ec79b27b422998a764",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-42458",
+      "title": "CVE-2026-42458 - Magento Long Term Support (LTS) is an unofficial, community-driven project provi...",
+      "body": "Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative to the Magento Community Edition e-commerce platform with a high level of backward compatibility. Prior to 20.18.0, there is a reflected XSS vulnerability under admin panel -> System -> Import/Export -> Dataflow - Profiles. This vulnerability is fixed in 20.18.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42458",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T17:16:46.900000",
+      "created_at": "2026-05-16T09:20:01.542812+00:00"
+    },
+    {
+      "id": "ea6c2accef809b8c",
+      "content_hash": "ea6c2accef809b8ced34639e257e2352aee4479d78aed6a3d3996a0678fcb891",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-42207",
+      "title": "CVE-2026-42207 - Magento Long Term Support (LTS) is an unofficial, community-driven project provi...",
+      "body": "Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative to the Magento Community Edition e-commerce platform with a high level of backward compatibility. Prior to 20.18.0, Mage_ProductAlert_AddController::stockAction() reads the uenc query parameter and passes it directly to $this->_redirectUrl($backUrl) without calling $this->_isUrlInternal(). When the supplied product_id does not match any catalog product, the server issues an unvalidated HTTP 302 redirect to whatever URL was provided as uenc. This vulnerability is fixed in 20.18.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42207",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.1,
+      "published_at": "2026-05-15T17:16:46.757000",
+      "created_at": "2026-05-16T09:20:01.542806+00:00"
+    },
+    {
+      "id": "408ac8bfaca03241",
+      "content_hash": "408ac8bfaca03241cf6463c54d4e2cfbc1545335e37a569536277ff5ecf3469c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-42155",
+      "title": "CVE-2026-42155 - Magento Long Term Support (LTS) is an unofficial, community-driven project provi...",
+      "body": "Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative to the Magento Community Edition e-commerce platform with a high level of backward compatibility. Prior to 20.18.0, the XML-RPC / SOAP API session ID is generated using an outdated, time-based construction rather than a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG). All inputs to the MD5 hash are time-derived and non-secure. Because the resulting digest relies entirely on the timestamp and the PHP internal LCG state, the effective entropy is severely constrained. This violates the OWASP ASVS v4 requirement of ≥ 64 bits of entropy (V3.2.2) and NIST SP 800-63B standards. By narrowing the LCG window (via server state leaks or general predictability) and leveraging the lack of API rate-limiting, an attacker can generate a localized pool of candidate MD5 hashes and execute a high-speed online brute-force attack to hijack active API sessions. This vulnerability is fixed in 20.18.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42155",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T17:16:46.613000",
+      "created_at": "2026-05-16T09:20:01.542800+00:00"
+    },
+    {
+      "id": "bd199d62bc8831d9",
+      "content_hash": "bd199d62bc8831d93d7af0eb3cfd066b531e8ef9ad26d5635118ed6b93c6be27",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-41258",
+      "title": "CVE-2026-41258 - OpenMRS is an open source electronic medical record system platform. From 2.7.0 ...",
+      "body": "OpenMRS is an open source electronic medical record system platform. From 2.7.0 to before 2.7.9 and 2.8.6, the ConceptReferenceRangeUtility.evaluateCriteria() method in OpenMRS Core evaluates database-stored criteria strings as Apache Velocity templates without any sandbox configuration. The VelocityEngine is initialized with only logging properties and noSecureUberspector, leaving the default UberspectImpl in place, which allows unrestricted Java reflection through template expressions. A user with the Manage Concepts privilege can store a malicious Velocity template expression in a concept's reference range criteria field. This payload is then executed automatically whenever a user or API call validates an observation against the affected concept. The Velocity context exposes $patient (the Person / Patient object), $obs (the Obs object), and $fn (the ConceptReferenceRangeUtility instance with access to the full OpenMRS service layer). This vulnerability is fixed in 2.7.9 and 2.8.6.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41258",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.1,
+      "published_at": "2026-05-15T17:16:46.463000",
+      "created_at": "2026-05-16T09:20:01.542794+00:00"
     },
     {
       "id": "924c0f7f2f47ac67",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-14T15:16:47.793000",
       "created_at": "2026-05-15T11:45:50.908121+00:00"
-    },
-    {
-      "id": "6f2271128f97cf08",
-      "content_hash": "6f2271128f97cf080a7ed6490027974b710b8a484a88826baece426bc489e266",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42881",
-      "title": "CVE-2026-42881 - STIGQter is an open-source reimplementation of DISA's STIG Viewer. From 0.1.2 to...",
-      "body": "STIGQter is an open-source reimplementation of DISA's STIG Viewer. From 0.1.2 to before 1.2.7, an attacker can achieve local code execution (LCE) with the privileges of the user running STIGQter. This requires user interaction: the victim must open the malicious .stigqter file and explicitly run the \"Export HTML\" action. This vulnerability is fixed in 1.2.7.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42881",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T15:16:46.887000",
-      "created_at": "2026-05-15T09:37:18.188162+00:00"
-    },
-    {
-      "id": "e8fe1e686812bcf7",
-      "content_hash": "e8fe1e686812bcf71b498ae20275eb8087ccce37ed41894709748444344e5960",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42559",
-      "title": "CVE-2026-42559 - RMCP is an official Rust SDK for the Model Context Protocol. Prior to version 1....",
-      "body": "RMCP is an official Rust SDK for the Model Context Protocol. Prior to version 1.4.0, the rmcp crate's Streamable HTTP server transport (crates/rmcp/src/transport/streamable_http_server/) did not validate the incoming Host header. This allowed a malicious public website, via a DNS rebinding attack, to send authenticated requests to an MCP server running on the victim's loopback or private-network interface. This vulnerability is fixed in 1.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42559",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-14T15:16:46.750000",
-      "created_at": "2026-05-15T09:37:18.188155+00:00"
-    },
-    {
-      "id": "57d71509ccbb68f7",
-      "content_hash": "57d71509ccbb68f7a9abf145a6fa77a8668ef07f02ad4f954dc2f7b6d47c08f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42457",
-      "title": "CVE-2026-42457 - vCluster Platform provides a Kubernetes platform for managing virtual clusters, ...",
-      "body": "vCluster Platform provides a Kubernetes platform for managing virtual clusters, multi-tenancy, and cluster sharing. Prior to 4.4.3, 4.5.5, 4.6.2, 4.7.1, and 4.8.0, there is a Stored XSS attack vulnerability via the name field of a templateRef. This can lead to the execution of arbitrary external scripts within the platform's browser context. In the worst case, a malicious user could potentially create a new Global-Admin user, bypassing other security restrictions. The attacker needs the ability to create namespaces. This vulnerability is fixed in 4.4.3, 4.5.5, 4.6.2, 4.7.1, and 4.8.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42457",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.0,
-      "published_at": "2026-05-14T15:16:46.500000",
-      "created_at": "2026-05-15T09:37:18.188149+00:00"
-    },
-    {
-      "id": "3cebdd80d8c10be2",
-      "content_hash": "3cebdd80d8c10be2feda35f8f6ebe28d9a3781e8acf2a7a9121c1b4701247ab3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42186",
-      "title": "CVE-2026-42186 - OpenBao is an open source identity-based secrets management system. Prior to 2.5...",
-      "body": "OpenBao is an open source identity-based secrets management system. Prior to 2.5.3, when OpenBao's initial namespace deletion fails, subsequent retries fail to properly remove all data before marking the namespace as deleted. This can affect any outstanding leases as well as potentially leaving unrelated storage entries around. This vulnerability is fixed in 2.5.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42186",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T15:16:46.337000",
-      "created_at": "2026-05-15T09:37:18.188142+00:00"
-    },
-    {
-      "id": "0f785d3ca3987a7c",
-      "content_hash": "0f785d3ca3987a7c78ac777a7179b4100687a3e6827710b91fe988f63f718691",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41937",
-      "title": "CVE-2026-41937 - Vvveb before 1.0.8.3 contains an unrestricted file upload vulnerability in the p...",
-      "body": "Vvveb before 1.0.8.3 contains an unrestricted file upload vulnerability in the plugin upload endpoint that allows super_admin users to execute arbitrary PHP code by uploading a malicious plugin ZIP file. Attackers can craft a ZIP containing a plugin.php with a valid Slug header and a public/index.php file with arbitrary PHP code, which executes as the web server user when accessed via unauthenticated HTTP requests to the plugin's public path.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41937",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-05-14T15:16:46.190000",
-      "created_at": "2026-05-15T09:37:18.188136+00:00"
-    },
-    {
-      "id": "d4f17a61751b3b7b",
-      "content_hash": "d4f17a61751b3b7b01c9df6e4e5281dcf87c66d99ce5baf916e0b5c31935022d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41935",
-      "title": "CVE-2026-41935 - Vvveb before 1.0.8.3 contains an uncontrolled recursion vulnerability in the adm...",
-      "body": "Vvveb before 1.0.8.3 contains an uncontrolled recursion vulnerability in the admin controller dispatch cycle where Base::init() repeatedly invokes permission() on error handlers, causing infinite recursion until PHP memory limits are exhausted. Attackers can send sustained requests to forbidden admin URLs from a low-privilege account to exhaust PHP memory on all workers and cause denial of service to legitimate traffic.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41935",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-14T15:16:46.020000",
-      "created_at": "2026-05-15T09:37:18.188129+00:00"
     }
   ]
 }
