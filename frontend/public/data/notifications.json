@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-16T18:46:40.369099+00:00",
+  "generated_at": "2026-05-16T19:55:43.328127+00:00",
   "items": [
+    {
+      "id": "a4c119ca23d763f7",
+      "content_hash": "a4c119ca23d763f71c760a75aaed21de53533a4d2ea3fe21d60cf3d6ecf0f8b7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123174",
+      "title": "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
+      "body": "AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which was created alongside Anthropic.",
+      "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T19:26:14+00:00",
+      "created_at": "2026-05-16T19:55:42.955495+00:00"
+    },
+    {
+      "id": "da09d165e1da3119",
+      "content_hash": "da09d165e1da3119edca755e4fca044d9ccd5aec03030ebc84810556d30d056f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.antipope.org/charlie/old/antipope.html",
+      "title": "Why is this site named Antipope?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48162922\">Comments</a>",
+      "url": "https://www.antipope.org/charlie/old/antipope.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T19:15:40+00:00",
+      "created_at": "2026-05-16T19:55:43.327409+00:00"
+    },
+    {
+      "id": "8e4a62c144eba030",
+      "content_hash": "8e4a62c144eba0308aa349b006d50a38cb3a2d3aef1a50c53de135f5d26b088a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.popsci.com/environment/japan-robot-wolf-army/",
+      "title": "Japan runs out of robot wolves in fight against bears",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48162882\">Comments</a>",
+      "url": "https://www.popsci.com/environment/japan-robot-wolf-army/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T19:10:38+00:00",
+      "created_at": "2026-05-16T19:55:43.327693+00:00"
+    },
+    {
+      "id": "a0c2a6593f648b8c",
+      "content_hash": "a0c2a6593f648b8c3fdf7fe15cf05745f10518b63899d69dbf27984e95592681",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123369",
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "body": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T18:54:28+00:00",
+      "created_at": "2026-05-16T19:55:42.955524+00:00"
+    },
     {
       "id": "d4cced4183fbc451",
       "content_hash": "d4cced4183fbc4514bed214d4bb162176cee145d0f2550c70ef12b454becf83e",
@@ -70,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T16:58:26+00:00",
       "created_at": "2026-05-16T17:45:03.334732+00:00"
+    },
+    {
+      "id": "b928460805dfe1c1",
+      "content_hash": "b928460805dfe1c1efa17dd4ddb265ce8cb77490e5176434d9efc790d9137ac4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/",
+      "title": "HTML Lists",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48161861\">Comments</a>",
+      "url": "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T16:58:26+00:00",
+      "created_at": "2026-05-16T19:55:43.327586+00:00"
     },
     {
       "id": "dadd2b5e08408566",
@@ -392,6 +462,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T09:27:59+00:00",
       "created_at": "2026-05-16T12:55:36.039874+00:00"
+    },
+    {
+      "id": "e08eb69cb62d3806",
+      "content_hash": "e08eb69cb62d3806ec8479564134b43d02815c2b1235a70c3e0afaffc7a96747",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+      "title": "Fecal transplants for autism deliver success in clinical trials (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48158494\">Comments</a>",
+      "url": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T09:27:59+00:00",
+      "created_at": "2026-05-16T19:55:43.327906+00:00"
     },
     {
       "id": "bd3e68e712ebaef8",
@@ -784,6 +868,20 @@
       "cvss_score": null,
       "published_at": "2026-05-15T20:25:35+00:00",
       "created_at": "2026-05-15T20:49:19.943633+00:00"
+    },
+    {
+      "id": "c8cbdd102288ac78",
+      "content_hash": "c8cbdd102288ac785ac71a11d6ad92bb3637aa5b38810735e4c7d2603201e0d8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-44564",
+      "title": "CVE-2026-44564 - Open WebUI is a self-hosted artificial intelligence platform designed to operate...",
+      "body": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to 0.9.0, the ydoc:document:update Socket.IO event handler checks whether the sender is a member of the document's Socket.IO room (line 678) but does not verify that the sender has write permission. Users with read-only access join the document room via ydoc:document:join, which only requires read permission (line 520). Once in the room, the user can emit ydoc:document:update events that modify the in-memory Yjs document state and are broadcast to all other collaborators in real time. This vulnerability is fixed in 0.9.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44564",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-05-15T20:16:48.130000",
+      "created_at": "2026-05-16T19:55:39.141635+00:00"
     },
     {
       "id": "9cf130c9b6527586",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-14T19:16:29.233000",
       "created_at": "2026-05-15T17:20:19.596495+00:00"
-    },
-    {
-      "id": "4585a053aa286152",
-      "content_hash": "4585a053aa28615218fa55e9bb7cd8e8e5f2b1588a09428e3c03e04b314e9e96",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
-      "title": "Germany's Sovereign Tech Fund Backs KDE with €1.3M",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48139912\">Comments</a>",
-      "url": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:16:02+00:00",
-      "created_at": "2026-05-14T20:22:25.342358+00:00"
-    },
-    {
-      "id": "b61b62fc0535080a",
-      "content_hash": "b61b62fc0535080aea47b441796111d1c57e16b9363934574b42ce3f233e957e",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3122744",
-      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
-      "body": "According to Bloomberg, OpenAI has enlisted an outside law firm to work through its options.",
-      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:12:03+00:00",
-      "created_at": "2026-05-14T20:22:25.014957+00:00"
-    },
-    {
-      "id": "ffa9ce1d538a91f1",
-      "content_hash": "ffa9ce1d538a91f1bf31148211cc3bb3e3bd6b861b59469f64f5eda0d3d34411",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "title": "OpenAI confirms security breach in TanStack supply chain attack",
-      "body": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for its applications as a precaution. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:07:24+00:00",
-      "created_at": "2026-05-14T20:22:20.283571+00:00"
-    },
-    {
-      "id": "cad2c3bed41e2145",
-      "content_hash": "cad2c3bed41e21458ff9a315d2ed6d236f6f794fc9037d6f34f6b123fd63aaf6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.nytimes.com/2026/05/14/us/politics/green-cards-immigration-deportation-trump.html",
-      "title": "Green Card Holders Targeted for Deportation by New 'Removal Apparatus'",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48139775\">Comments</a>",
-      "url": "https://www.nytimes.com/2026/05/14/us/politics/green-cards-immigration-deportation-trump.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:07:12+00:00",
-      "created_at": "2026-05-14T20:22:25.342568+00:00"
-    },
-    {
-      "id": "e589f227c8e9954d",
-      "content_hash": "e589f227c8e9954d0568188cbcd37c6f2e13e4917accdedbe58eea997bd8f3b8",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3122671",
-      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-      "body": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
-      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:05:01+00:00",
-      "created_at": "2026-05-14T20:22:25.014981+00:00"
-    },
-    {
-      "id": "f46ef3202a9ce037",
-      "content_hash": "f46ef3202a9ce0376c04b799379ba521e37190c3531af2512a20b41295db4c9f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/microsoft/microsoft-ui-xaml/discussions/11096",
-      "title": "WinUI 3 Performance: A Leap Forward",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48139704\">Comments</a>",
-      "url": "https://github.com/microsoft/microsoft-ui-xaml/discussions/11096",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T19:01:58+00:00",
-      "created_at": "2026-05-14T20:22:25.342205+00:00"
-    },
-    {
-      "id": "74a782f8f72e8948",
-      "content_hash": "74a782f8f72e8948c3c80f8e37ce505331f1ef167ae722a50475574ddc84fce3",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3122693",
-      "title": "YouTube viewers watch 2 billion hours of Shorts on TVs each month",
-      "body": "Short-form video is built for mobile, so it may seem counterintuitive, but it's true: YouTube Shorts are becoming quite popular on the big screen.",
-      "url": "https://techcrunch.com/2026/05/14/youtube-viewers-watch-2-billion-hours-of-shorts-on-tvs-each-month/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T18:56:43+00:00",
-      "created_at": "2026-05-14T20:22:25.015002+00:00"
     }
   ]
 }
