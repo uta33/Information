@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-16T11:42:07.271197+00:00",
+  "generated_at": "2026-05-16T12:55:36.040643+00:00",
   "items": [
+    {
+      "id": "55fc461af870a33a",
+      "content_hash": "55fc461af870a33ac6811a718054662ee1691be134811bef9de3177046bc4ebe",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community",
+      "title": "Kyber (YC W23) Is Hiring a Founding Marketer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48159405\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T12:01:06+00:00",
+      "created_at": "2026-05-16T12:55:36.039979+00:00"
+    },
+    {
+      "id": "20019bd2f28b54a8",
+      "content_hash": "20019bd2f28b54a8e764f90fdbe9f8b0bd42ac47c2289e77b185806671b98176",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735",
+      "title": "Europe built sovereign clouds to escape US control. Forgot about the processors",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48159282\">Comments</a>",
+      "url": "https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T11:43:45+00:00",
+      "created_at": "2026-05-16T12:55:36.039916+00:00"
+    },
+    {
+      "id": "43f7d05f11467969",
+      "content_hash": "43f7d05f114679699604903e277de1fb72e8c9f432dd201f512aa2eabfbbb3c0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+      "title": "Accelerando (2005)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48159241\">Comments</a>",
+      "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T11:36:32+00:00",
+      "created_at": "2026-05-16T12:55:36.039850+00:00"
+    },
+    {
+      "id": "dac6fdacb28949ad",
+      "content_hash": "dac6fdacb28949ada61954a9f9df87c308b706d5ce86801b56a8243cc64b5ad8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/steipete/status/2055346265869721905",
+      "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48159227\">Comments</a>",
+      "url": "https://twitter.com/steipete/status/2055346265869721905",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T11:34:04+00:00",
+      "created_at": "2026-05-16T12:55:36.039960+00:00"
+    },
     {
       "id": "cbcd9125bb5ff649",
       "content_hash": "cbcd9125bb5ff649b0e91ebec45c047547e3cfe6f147d93fec4651213cb5a5a3",
@@ -28,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T09:30:06+00:00",
       "created_at": "2026-05-16T10:53:35.372785+00:00"
+    },
+    {
+      "id": "fcb1a9618aea43b2",
+      "content_hash": "fcb1a9618aea43b25f9ced0e5a682e0648d222b094996a797b99078aee0da4ed",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+      "title": "Fecal transplants for autism deliver success in clinical trials",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48158494\">Comments</a>",
+      "url": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T09:27:59+00:00",
+      "created_at": "2026-05-16T12:55:36.039874+00:00"
     },
     {
       "id": "75a60212b7c9a11f",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-14T16:16:24.380000",
       "created_at": "2026-05-15T15:55:09.007540+00:00"
-    },
-    {
-      "id": "6f1a0c07e6e55a90",
-      "content_hash": "6f1a0c07e6e55a9036b04029b0dca6953cd59a42cb4e947de6c32eccc7c796f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44503",
-      "title": "CVE-2026-44503 - The RedirectHandler middleware in microsoft/kiota-java (com.microsoft.kiota:micr...",
-      "body": "The RedirectHandler middleware in microsoft/kiota-java (com.microsoft.kiota:microsoft-kiota-http-okHttp v1.9.0) and other Kiota libraries fails to strip sensitive HTTP headers when following 3xx redirects to a different host or scheme. Only the Authorization header is removed; Cookie, Proxy-Authorization, and all custom headers are forwarded to the redirect target.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44503",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T16:16:24.223000",
-      "created_at": "2026-05-15T15:55:09.007533+00:00"
-    },
-    {
-      "id": "e395be0cf856b9eb",
-      "content_hash": "e395be0cf856b9eb09db49394a8d0cb7697fb11049ac101fa22a410e7578380c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44501",
-      "title": "CVE-2026-44501 - DataHub is an open-source metadata platform. Prior to 1.5.0.3, The DataHub front...",
-      "body": "DataHub is an open-source metadata platform. Prior to 1.5.0.3, The DataHub frontend (datahub-frontend-react) deserializes attacker-controlled Java objects from the REDIRECT_URL HTTP cookie during the OIDC callback flow, with no integrity protection (no HMAC, no encryption). This is a Deserialization of Untrusted Data vulnerability (CWE-502) affecting the GET /callback/oidc endpoint. Successful exploitation requires a valid user account in the configured OIDC identity provider This vulnerability is fixed in 1.5.0.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44501",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-14T16:16:24.073000",
-      "created_at": "2026-05-15T15:55:09.007527+00:00"
-    },
-    {
-      "id": "dd5a3cd76ad8ba9d",
-      "content_hash": "dd5a3cd76ad8ba9d8cb7e8effb79e23915074a0f00e7e6d1b14333adab814590",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42597",
-      "title": "CVE-2026-42597 - Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, the ...",
-      "body": "Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, the /forms/chromium/convert/url and /forms/chromium/screenshot/url routes accept url=file:///tmp/... from anonymous callers. The default Chromium deny-list intentionally exempts file:///tmp/ so HTML/Markdown routes can load their own request-local assets, and those routes apply a per-request AllowedFilePrefixes guard to scope the read. The URL routes never set AllowedFilePrefixes, so the scope guard silently skips. Alice enumerates /tmp/, walks Gotenberg's per-request working directories, and reads the raw source files of other in-flight conversions as rendered PDF output. This vulnerability is fixed in 8.32.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42597",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-05-14T16:16:23.037000",
-      "created_at": "2026-05-15T15:55:09.007520+00:00"
-    },
-    {
-      "id": "76e676687fe6b357",
-      "content_hash": "76e676687fe6b3570a61182b58d037b955a1320e18ed865ee99cb33aa018eb47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42596",
-      "title": "CVE-2026-42596 - Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.31.0, the ...",
-      "body": "Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.31.0, the default deny-lists used by Gotenberg's downloadFrom feature and webhook feature are bypassable. Because the filter is regex-based and case-sensitive, an unauthenticated attacker can supply URLs such as http://[::ffff:127.0.0.1]:... and reach loopback or private HTTP services that the default deny-list is intended to block. This crosses a real security boundary because an external caller can force the server to make outbound requests to internal-only targets. This vulnerability is fixed in 8.31.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42596",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.4,
-      "published_at": "2026-05-14T16:16:22.893000",
-      "created_at": "2026-05-15T15:55:09.007514+00:00"
-    },
-    {
-      "id": "bf01d7e0110bb640",
-      "content_hash": "bf01d7e0110bb640a990e14d7e441942e5bd0764e7c5b9f54bf67e476139fce1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42595",
-      "title": "CVE-2026-42595 - Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, Gote...",
-      "body": "Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, Gotenberg's Chromium URL-to-PDF endpoint (/forms/chromium/convert/url) has no default protection against HTTP/HTTPS-based SSRF. The default deny-list regex only blocks file:// URIs. An unauthenticated attacker can point Chromium at any internal IP — including loopback, RFC 1918 ranges, and cloud metadata endpoints — and receive the response rendered as a PDF. Additionally, even when operators configure a custom deny-list, the protection is bypassed via HTTP redirects. Gotenberg's Chromium instance follows 302 redirects from an attacker-controlled external URL to internal targets without re-validating the redirect destination against the deny-list. This vulnerability is fixed in 8.32.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42595",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.6,
-      "published_at": "2026-05-14T16:16:22.753000",
-      "created_at": "2026-05-15T15:55:09.007507+00:00"
     }
   ]
 }
