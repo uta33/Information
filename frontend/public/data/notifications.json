@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-17T18:52:12.688153+00:00",
+  "generated_at": "2026-05-17T19:59:15.726626+00:00",
   "items": [
+    {
+      "id": "396ab48cdffc7d9c",
+      "content_hash": "396ab48cdffc7d9c97c64bfaf9b0ec3a340903653f26280c1a2a31ad4f68e9b5",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123393",
+      "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
+      "body": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T19:46:34+00:00",
+      "created_at": "2026-05-17T19:59:15.408041+00:00"
+    },
+    {
+      "id": "a463d6b4f441f1bb",
+      "content_hash": "a463d6b4f441f1bb2a0956739e9bcc8414c1050989557c6fd132cfc0a970dbe8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+      "title": "Scientists \"bottle the sun\" with a liquid battery that stores solar energy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48171906\">Comments</a>",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T18:42:35+00:00",
+      "created_at": "2026-05-17T19:59:15.726274+00:00"
+    },
     {
       "id": "136c705030e27afc",
       "content_hash": "136c705030e27afc3eb7ff773f9dcc27c6bf239b08e5c7cb106734171d032c7c",
@@ -114,6 +142,20 @@
       "created_at": "2026-05-17T17:46:53.389079+00:00"
     },
     {
+      "id": "eaa5c3a1e553fdf2",
+      "content_hash": "eaa5c3a1e553fdf226b5e5dd6bdd582e95ffdc77310ddacc43095a933839c454",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://addyosmani.com/blog/dont-outsource-learning/",
+      "title": "Don't Outsource the Learning",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48170118\">Comments</a>",
+      "url": "https://addyosmani.com/blog/dont-outsource-learning/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-17T16:04:08+00:00",
+      "created_at": "2026-05-17T19:59:15.726194+00:00"
+    },
+    {
       "id": "5bbad79044a69c77",
       "content_hash": "5bbad79044a69c7747a980008f228c133668f21166143f1a6882be00b558df15",
       "source_name": "TechCrunch",
@@ -182,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T13:22:14+00:00",
       "created_at": "2026-05-17T14:20:58.583959+00:00"
+    },
+    {
+      "id": "a0cc8cf937c1421f",
+      "content_hash": "a0cc8cf937c1421fa811c8c575f7223aee3cd1557e77aecaf9785c5dc9dc4656",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
+      "title": "WHO declares Ebola outbreak a global health emergency",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168708\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T13:22:14+00:00",
+      "created_at": "2026-05-17T19:59:15.726309+00:00"
     },
     {
       "id": "7b4e6348d12b9c24",
@@ -2632,6 +2688,20 @@
       "cvss_score": 5.3,
       "published_at": "2026-05-16T03:16:21.007000",
       "created_at": "2026-05-16T21:38:37.548307+00:00"
+    },
+    {
+      "id": "0751d98428e1af81",
+      "content_hash": "0751d98428e1af81ea4c53f1e4f76e128eabb5a5fb6f48c20a959d111050e7f7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+      "title": "Magical Realism: \"Northern Exposure\" 25 Years Later (2015)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48155936\">Comments</a>",
+      "url": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T01:25:29+00:00",
+      "created_at": "2026-05-17T19:59:15.726292+00:00"
     },
     {
       "id": "abf56fbb03ea0dff",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T03:16:21.330000",
       "created_at": "2026-05-15T21:47:50.744409+00:00"
-    },
-    {
-      "id": "1ab6fb3a464c98ef",
-      "content_hash": "1ab6fb3a464c98efab48ea6d994b0451501ddd171a9257247ceda2e98a4ec5be",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-0040",
-      "title": "CVE-2025-0040 - Improper access control between the Joint Test Action Group (JTAG) and Advanced ...",
-      "body": "Improper access control between the Joint Test Action Group (JTAG) and Advanced Extensible Interface (AXI) could allow an attacker with physical access to read or overwrite the contents of cross-chip debug (XCD) registers potentially resulting in loss of data integrity or confidentiality.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0040",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.210000",
-      "created_at": "2026-05-15T21:47:50.744403+00:00"
-    },
-    {
-      "id": "7e15d15e9959f53c",
-      "content_hash": "7e15d15e9959f53c377015be12dfb3b6caf2f9975d89535809c940170a3a735e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-0028",
-      "title": "CVE-2025-0028 - An unchecked return value within the AMD Platform Management Framework (PMF)  co...",
-      "body": "An unchecked return value within the AMD Platform Management Framework (PMF)  could allow an attacker to read or modify an arbitrary address potentially resulting in loss of confidentiality, integrity, or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0028",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.080000",
-      "created_at": "2026-05-15T21:47:50.744397+00:00"
-    },
-    {
-      "id": "05c650d2ec4607ba",
-      "content_hash": "05c650d2ec4607ba96649af88a6805b2f07418760e8d4b2f88eb02dc89ee8011",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-36332",
-      "title": "CVE-2024-36332 - Improper isolation of GPU HW register space could allow a privileged attacker in...",
-      "body": "Improper isolation of GPU HW register space could allow a privileged attacker in malicious Guest Virtual Machine (VM) to perform unauthorized access to specific victim range of GPU MMIO register space, potentially causing the host OS to reboot and creating a Denial of Service (DOS) condition.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36332",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.953000",
-      "created_at": "2026-05-15T21:47:50.744391+00:00"
-    },
-    {
-      "id": "3c8367a83ec3e091",
-      "content_hash": "3c8367a83ec3e091317f1e1b76e56f0c36febbd9a5cafe8bd50ea5289944bb26",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-21962",
-      "title": "CVE-2024-21962 - Improper Input Validation in the AMD RAID driver could allow an attacker to poin...",
-      "body": "Improper Input Validation in the AMD RAID driver could allow an attacker to point to an arbitrary memory location potentially resulting in privilege escalation and arbitrary code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21962",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.803000",
-      "created_at": "2026-05-15T21:47:50.744385+00:00"
-    },
-    {
-      "id": "36fffe2d25499aec",
-      "content_hash": "36fffe2d25499aecd17f4c359708604637f549889e19ce6f04de208bd0deff0b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-31317",
-      "title": "CVE-2023-31317 - Improper restriction of operations within the bounds of a memory buffer in the A...",
-      "body": "Improper restriction of operations within the bounds of a memory buffer in the AMD secure processer (ASP) could allow an attacker to read or write to protected memory potentially resulting in arbitrary code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31317",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.663000",
-      "created_at": "2026-05-15T21:47:50.744379+00:00"
     }
   ]
 }
