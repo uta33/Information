@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-17T11:53:28.384128+00:00",
+  "generated_at": "2026-05-17T12:53:23.137094+00:00",
   "items": [
+    {
+      "id": "78ed7dcf14021b90",
+      "content_hash": "78ed7dcf14021b90a65ab9d275a642c2a1d2485cbe88a063b252d7792ef6b2b7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "title": "I don't think AI will make your processes go faster",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168221\">Comments</a>",
+      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:13:45+00:00",
+      "created_at": "2026-05-17T12:53:23.136260+00:00"
+    },
+    {
+      "id": "4c5aba043ba93561",
+      "content_hash": "4c5aba043ba93561264e8be8852cb8d1d1dd8caae2c17b09a90bf1b336e2baf6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
+      "title": "Apple Silicon costs more than OpenRouter",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168198\">Comments</a>",
+      "url": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:09:23+00:00",
+      "created_at": "2026-05-17T12:53:23.136284+00:00"
+    },
+    {
+      "id": "c806d30dca5334b9",
+      "content_hash": "c806d30dca5334b9ad45607bc91fd57e8b74904daa5072ba0cc8c90c1c79f2ce",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+      "title": "Native all the way, until you need text",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168058\">Comments</a>",
+      "url": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T11:49:46+00:00",
+      "created_at": "2026-05-17T12:53:23.136225+00:00"
+    },
+    {
+      "id": "f6f379c47adaacad",
+      "content_hash": "f6f379c47adaacad82861b3e086e7d244901a5b1902635c1c677e0cad6788d69",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
+      "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168056\">Comments</a>",
+      "url": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T11:49:31+00:00",
+      "created_at": "2026-05-17T12:53:23.136305+00:00"
+    },
     {
       "id": "5a725e1ad13a5ce6",
       "content_hash": "5a725e1ad13a5ce66d9835aac3c4d050511faa1f3f5e4b14c0b3f8ec73a83c54",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T02:02:00+00:00",
       "created_at": "2026-05-15T06:22:25.989727+00:00"
-    },
-    {
-      "id": "21cc629b2d3aed1a",
-      "content_hash": "21cc629b2d3aed1ab8b95d2b0d459614de61440b756d767f3e3d3bfb3a209b2a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015691.html",
-      "title": "アドビのAdobe Substance 3D Designerにおけるパストラバーサルの脆弱性",
-      "body": "Substance3D - Designer バージョン15.1.0およびそれ以前には、制限されたディレクトリへのパス名の不適切な制限（「パストラバーサル」）の脆弱性があります。この脆弱性により、攻撃者が任意のファイルシステムを読み取ることが可能になる場合があります。攻撃者はこの脆弱性を悪用して、本来アクセスすべきでない機密ファイルやディレクトリにアクセスできます。この問題を悪用するにはユーザーの操作が必要で、被害者が悪意のあるファイルを開く必要があります。スコープが変更されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015691.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989741+00:00"
-    },
-    {
-      "id": "3161ebd1c0774811",
-      "content_hash": "3161ebd1c0774811eb71a3d5d2ac5abb8f1873ae795dfee64e0c128b8f2b6cba",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015690.html",
-      "title": "アドビのAdobe Substance 3D Designerにおける境界外書き込みに関する脆弱性",
-      "body": "Substance3D - Designer バージョン15.1.0およびそれ以前のバージョンには、現在のユーザーのコンテキストで任意のコードを実行される可能性がある境界外書き込みの脆弱性が存在します。この問題を悪用するためにはユーザーの操作が必要であり、被害者が悪意のあるファイルを開かなければなりません。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015690.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989779+00:00"
-    },
-    {
-      "id": "1eabbb31efb826dd",
-      "content_hash": "1eabbb31efb826ddbdcc5d57ec8ef1923558c4636d0eaa622393039fb754b350",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://writing.antonleicht.me/p/cut-off",
-      "title": "Access to frontier AI will soon be limited by economic and security constraints",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48143284\">Comments</a>",
-      "url": "https://writing.antonleicht.me/p/cut-off",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T01:08:04+00:00",
-      "created_at": "2026-05-15T06:22:26.441042+00:00"
-    },
-    {
-      "id": "58a560a934e6a949",
-      "content_hash": "58a560a934e6a94983d34ab623067acf83ebc60ab6b041a370520cac4df00470",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theembeddedrustacean.com/uferris",
-      "title": "UFerris a Versatile Learner Board for Rust Embedded Beginners",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48143256\">Comments</a>",
-      "url": "https://www.theembeddedrustacean.com/uferris",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T01:04:13+00:00",
-      "created_at": "2026-05-15T06:22:26.441507+00:00"
     }
   ]
 }
