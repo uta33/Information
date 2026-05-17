@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-17T21:43:50.696787+00:00",
+  "generated_at": "2026-05-17T22:42:07.407105+00:00",
   "items": [
+    {
+      "id": "db81c5511af79e25",
+      "content_hash": "db81c5511af79e250a9b6a50a43b254271d1368bea02b3b12fafd3bbd3cf2f78",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+      "body": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems.  [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-17T22:30:08+00:00",
+      "created_at": "2026-05-17T22:42:03.073226+00:00"
+    },
+    {
+      "id": "9d600eac52d4774a",
+      "content_hash": "9d600eac52d4774a7df7e5b390c5875d28dfa721088623b02ff7b433b8e14e7e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.metalevel.at/prolog/horror",
+      "title": "Prolog Coding Horror",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48173268\">Comments</a>",
+      "url": "https://www.metalevel.at/prolog/horror",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T21:15:51+00:00",
+      "created_at": "2026-05-17T22:42:07.406391+00:00"
+    },
     {
       "id": "22cc7a52be0c6bbe",
       "content_hash": "22cc7a52be0c6bbe50789f35a0825ed8c8137893decf0cb1afc5c2d9fa4e09cd",
@@ -56,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T19:39:10+00:00",
       "created_at": "2026-05-17T21:43:50.696168+00:00"
+    },
+    {
+      "id": "100f92975b702712",
+      "content_hash": "100f92975b7027126982b0469bf47b321fd6f0ae22ae026a16623c6a73c73470",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/payphone-voip",
+      "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48172505\">Comments</a>",
+      "url": "https://spectrum.ieee.org/payphone-voip",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T19:39:10+00:00",
+      "created_at": "2026-05-17T22:42:07.406361+00:00"
     },
     {
       "id": "a463d6b4f441f1bb",
@@ -2870,6 +2912,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T00:35:01+00:00",
       "created_at": "2026-05-16T01:53:21.632230+00:00"
+    },
+    {
+      "id": "2c3e05b44305683c",
+      "content_hash": "2c3e05b44305683c6230946b601d68b7108f66ab2d8fe1bc47bbb42bc0a2d74c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thedrive.com/news/new-nightmare-just-dropped-3d-animated-ads-on-trucks-in-traffic",
+      "title": "New Nightmare Just Dropped: '3D' Animated Ads on Trucks in Traffic",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48155589\">Comments</a>",
+      "url": "https://www.thedrive.com/news/new-nightmare-just-dropped-3d-animated-ads-on-trucks-in-traffic",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T00:21:09+00:00",
+      "created_at": "2026-05-17T22:42:07.406508+00:00"
     },
     {
       "id": "c6421b9d540fd307",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.6,
       "published_at": "2026-05-15T03:16:23.127000",
       "created_at": "2026-05-15T22:42:58.555638+00:00"
-    },
-    {
-      "id": "5d2efcc577bff13c",
-      "content_hash": "5d2efcc577bff13c05d9c720ca002a69eb51ab01b9dec5009e9db1d698d403ba",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-0428",
-      "title": "CVE-2026-0428 - Insufficient parameter sanitization in TEE SOC Driver could allow an attacker to...",
-      "body": "Insufficient parameter sanitization in TEE SOC Driver could allow an attacker to issue a malformed DRV_SOC_CMD_ID_SRIOV_COPY_VF_CHIPLET_REGS to write invalid data to a remote Die, potentially resulting in unexpected behavior.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0428",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:23.003000",
-      "created_at": "2026-05-15T22:42:58.555632+00:00"
-    },
-    {
-      "id": "1842d26748882cc6",
-      "content_hash": "1842d26748882cc6853439214388fe341efd8ad4026782fc44a6fc2421bea10e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-0427",
-      "title": "CVE-2026-0427 - Improper cleanup of shared register resources in GPU firmware could allow an adm...",
-      "body": "Improper cleanup of shared register resources in GPU firmware could allow an admin-privileged attacker from a Guest Virtual machine (VM) to access these shared resources from another Guest VM, potentially resulting in the loss of confidentiality, integrity, or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0427",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.873000",
-      "created_at": "2026-05-15T22:42:58.555625+00:00"
-    },
-    {
-      "id": "161ba374e1e2d56f",
-      "content_hash": "161ba374e1e2d56feb60edc53fcfdcd7915d10f0cd4be70858a5516a9d6766f1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-66664",
-      "title": "CVE-2025-66664 - Insufficient parameter sanitization in AMD Secure Processor (ASP) TEE SOC Driver...",
-      "body": "Insufficient parameter sanitization in AMD Secure Processor (ASP) TEE SOC Driver could allow an attacker to issue a malformed DRV_SOC_CMD_ID_LOAD_GFX_IP_FW SR-IOV command to cause out-of-bounds read, potentially resulting in SOC Driver memory contents exposure or an exception",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66664",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.747000",
-      "created_at": "2026-05-15T22:42:58.555617+00:00"
-    },
-    {
-      "id": "abd71034d59e67a1",
-      "content_hash": "abd71034d59e67a13e96f7a5e265d25aa76b28304e0837cd6603557b80a3dccd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-66660",
-      "title": "CVE-2025-66660 - Insufficient parameter sanitization in TEE SOC Driver could allow an attacker to...",
-      "body": "Insufficient parameter sanitization in TEE SOC Driver could allow an attacker to issue a malformed DRV_SOC_CMD_ID_SRIOV_CHECK_TA_COMPAT to cause incorrect shared memory mapping, potentially resulting in unexpected behavior.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66660",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.617000",
-      "created_at": "2026-05-15T22:42:58.555611+00:00"
     }
   ]
 }
