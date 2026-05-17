@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-17T14:20:58.584688+00:00",
+  "generated_at": "2026-05-17T15:49:27.658733+00:00",
   "items": [
+    {
+      "id": "5bbad79044a69c77",
+      "content_hash": "5bbad79044a69c7747a980008f228c133668f21166143f1a6882be00b558df15",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123351",
+      "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its  physical-world thesis",
+      "body": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
+      "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T15:00:00+00:00",
+      "created_at": "2026-05-17T15:49:27.215861+00:00"
+    },
+    {
+      "id": "93f8139e411bc12b",
+      "content_hash": "93f8139e411bc12b0393134943efb01747c09f9adaf90446aa0d9fc13efbc2b1",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
+      "body": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T14:43:10+00:00",
+      "created_at": "2026-05-17T15:49:22.905479+00:00"
+    },
     {
       "id": "a514fb0f692b7547",
       "content_hash": "a514fb0f692b75479a51a029fca088bbeaff64fd16328539a51194ad81b89b1f",
@@ -30,6 +58,20 @@
       "created_at": "2026-05-17T14:20:58.583959+00:00"
     },
     {
+      "id": "f139db2926aca497",
+      "content_hash": "f139db2926aca497420b499840b91876b7381a9b0aa622b3493fc845eb2f1601",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/tech4bot/rk3562deb",
+      "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168668\">Comments</a>",
+      "url": "https://github.com/tech4bot/rk3562deb",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T13:16:27+00:00",
+      "created_at": "2026-05-17T15:49:27.658036+00:00"
+    },
+    {
       "id": "268bb6b670a6c151",
       "content_hash": "268bb6b670a6c1518fbef9b473e30ae4d7e09d065749738f7555d3520ccd5b62",
       "source_name": "Hacker News (Best)",
@@ -42,6 +84,34 @@
       "cvss_score": null,
       "published_at": "2026-05-17T13:11:20+00:00",
       "created_at": "2026-05-17T14:20:58.584024+00:00"
+    },
+    {
+      "id": "06106e8c6cfba0c6",
+      "content_hash": "06106e8c6cfba0c682638b5e35419220e98c4255910a4a5364509fa0eb2ece97",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/alternbits/awesome-cuda-books",
+      "title": "CUDA Books",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168485\">Comments</a>",
+      "url": "https://github.com/alternbits/awesome-cuda-books",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:52:06+00:00",
+      "created_at": "2026-05-17T15:49:27.658323+00:00"
+    },
+    {
+      "id": "c2cde37e108c60f5",
+      "content_hash": "c2cde37e108c60f521141cd977683bbd67c40d158afefc9b2da95941067e951c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/ShurikenTrade/shuriken-skills",
+      "title": "Agentic Trading with Safe Guardrails",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168426\">Comments</a>",
+      "url": "https://github.com/ShurikenTrade/shuriken-skills",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:44:24+00:00",
+      "created_at": "2026-05-17T15:49:27.658237+00:00"
     },
     {
       "id": "78ed7dcf14021b90",
@@ -84,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T12:03:04+00:00",
       "created_at": "2026-05-17T14:20:58.584149+00:00"
+    },
+    {
+      "id": "9253f7fb38ab5b44",
+      "content_hash": "9253f7fb38ab5b441ccacd42362a456051e81a0b9ab1564c4d6bc23b1fd0f208",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+      "body": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck.\nThe vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
+      "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-17T11:57:53+00:00",
+      "created_at": "2026-05-17T15:49:22.691756+00:00"
     },
     {
       "id": "c806d30dca5334b9",
@@ -168,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T06:17:26+00:00",
       "created_at": "2026-05-17T08:07:58.833006+00:00"
+    },
+    {
+      "id": "4b5ec470c45adbd6",
+      "content_hash": "4b5ec470c45adbd69309160b1b87dd49c71c400786ccddada8910b30398a4c99",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8730",
+      "title": "CVE-2026-8730 - A flaw has been found in Open5GS up to 2.7.6. This impacts the function ogs_sbi_...",
+      "body": "A flaw has been found in Open5GS up to 2.7.6. This impacts the function ogs_sbi_nf_instance_set_id in the library /lib/sbi/context.c of the component NRF. Executing a manipulation of the argument nfInstanceId can lead to denial of service. The attack may be performed from remote. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8730",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-17T05:16:16.570000",
+      "created_at": "2026-05-17T15:49:23.334791+00:00"
     },
     {
       "id": "013ae85b54628f63",
@@ -2618,6 +2716,20 @@
       "cvss_score": 7.3,
       "published_at": "2026-05-15T21:16:36.370000",
       "created_at": "2026-05-16T20:38:07.406808+00:00"
+    },
+    {
+      "id": "a36765e475b6b6e2",
+      "content_hash": "a36765e475b6b6e2f7def69c059a8abd6d4e13bf8d24d0d204dbd910a23a200c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.chicagotribune.com/2026/05/15/sam-sianis-billy-goat-chicago-dies/",
+      "title": "Sam Sianis, Chicago's most famous saloonkeeper, has died",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48153743\">Comments</a>",
+      "url": "https://www.chicagotribune.com/2026/05/15/sam-sianis-billy-goat-chicago-dies/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T20:59:54+00:00",
+      "created_at": "2026-05-17T15:49:27.658339+00:00"
     },
     {
       "id": "b06b17dc1d1937cd",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T02:03:00+00:00",
       "created_at": "2026-05-15T06:22:25.989543+00:00"
-    },
-    {
-      "id": "c150332279471899",
-      "content_hash": "c15033227947189925513ab8c359351846050d45b024c941359f5f813519b834",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015704.html",
-      "title": "The Go ProjectのGo等の複数製品における無限ループに関する脆弱性",
-      "body": "HTTP/2のSETTINGSフレームを処理する際に、SETTINGS_MAX_FRAME_SIZEの値が0の場合、トランスポートがCONTINUATIONフレームの書き込みで無限ループに陥る問題があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015704.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989556+00:00"
-    },
-    {
-      "id": "eda95fe26775ad0c",
-      "content_hash": "eda95fe26775ad0c10ede1130edcb6ca6d2f376cedb75691764b045e4bc25b25",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015703.html",
-      "title": "MediaWikiにおける誤った領域へのリソースの漏えいに関する脆弱性",
-      "body": "Wikimedia FoundationのMediaWikiに存在する脆弱性です。この脆弱性は、includes/Actions/ActionEntryPoint.phpおよびincludes/Request/FauxResponse.phpのプログラムファイルに関連しています。この問題は、MediaWikiのバージョン1.43.7未満および1.44.4、1.45.2に影響を与えます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015703.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989570+00:00"
-    },
-    {
-      "id": "8c97c86564d8a065",
-      "content_hash": "8c97c86564d8a065fbc1545e7e82878a3007dc43f41459c8c4d27a5bad4a546d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015702.html",
-      "title": "Artica STのPandora FMSにおけるSQL インジェクションの脆弱性",
-      "body": "SQLコマンドで使用される特殊要素の不適切な無効化により、graph containerパラメータを介してSQLインジェクションが可能になる脆弱性です。この問題はPandora FMSのバージョン777から800に影響を及ぼします。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015702.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989584+00:00"
-    },
-    {
-      "id": "4cafa94a82259f5f",
-      "content_hash": "4cafa94a82259f5f1b707b126166639f056656ac26a98b94d844d475b7e1487e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015701.html",
-      "title": "アドビのAdobe Premiere Proにおける境界外書き込みに関する脆弱性",
-      "body": "Premiere Proのバージョン26.0.2、25.6.4およびそれ以前のバージョンにはバッファオーバーフローの脆弱性が存在しており、現在のユーザーのコンテキストで任意のコードが実行される可能性があります。この問題を悪用するには、被害者が悪意のあるファイルを開くというユーザーの操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015701.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989598+00:00"
-    },
-    {
-      "id": "609c6f414563f972",
-      "content_hash": "609c6f414563f97286e68600cbea28d85bc65e217e0b8a4e75fab381613bd516",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015700.html",
-      "title": "アドビのAdobe Premiere Proにおける境界外書き込みに関する脆弱性",
-      "body": "Premiere Proのバージョン26.0.2、25.6.4およびそれ以前のバージョンには、現在のユーザーのコンテキストで任意のコードを実行できる境界外書き込みの脆弱性があります。この問題を悪用するには、被害者が悪意のあるファイルを開く操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015700.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989612+00:00"
-    },
-    {
-      "id": "a8ae6b3175b29eac",
-      "content_hash": "a8ae6b3175b29eacd656f0f2fadbce749a343ef0f98c55137ac62e5080a70ab8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015699.html",
-      "title": "アドビのAdobe Premiere Proにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Premiere Proのバージョン26.0.2、25.6.4およびそれ以前のバージョンは、Use After Freeの脆弱性の影響を受けており、これにより現在のユーザーのコンテキストで任意のコードを実行される可能性があります。この問題を悪用するためには、被害者が悪意のあるファイルを開く必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015699.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:03:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989626+00:00"
-    },
-    {
-      "id": "b355c5f98918f817",
-      "content_hash": "b355c5f98918f817623c38f793450376b32c039aea772989ba1b05929ed0210e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015698.html",
-      "title": "アドビのAdobe Media Encoderにおける境界外書き込みに関する脆弱性",
-      "body": "Media Encoder バージョン 26.0.2、25.6.4 およびそれ以前のバージョンは、現在のユーザーのコンテキストで任意のコードを実行される可能性がある境界外書き込みの脆弱性の影響を受けます。この問題を悪用するには、被害者が悪意のあるファイルを開く必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015698.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989640+00:00"
-    },
-    {
-      "id": "7603a31a54000af8",
-      "content_hash": "7603a31a54000af8e9d44bb3b36d614431756ca43c70ae92986549da3492c738",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015697.html",
-      "title": "アドビのAdobe Media Encoderにおける整数オーバーフローの脆弱性",
-      "body": "Media Encoder のバージョン 26.0.2、25.6.4 およびそれ以前のバージョンは、整数オーバーフローまたはラップアラウンドの脆弱性の影響を受けており、これにより現在のユーザーのコンテキストで任意のコードが実行される可能性があります。この問題を悪用するには、被害者が悪意のあるファイルを開き、ユーザーが操作を行う必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015697.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989654+00:00"
     }
   ]
 }
