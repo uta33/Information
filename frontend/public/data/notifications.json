@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-17T17:46:53.389442+00:00",
+  "generated_at": "2026-05-17T18:52:12.688153+00:00",
   "items": [
+    {
+      "id": "136c705030e27afc",
+      "content_hash": "136c705030e27afc3eb7ff773f9dcc27c6bf239b08e5c7cb106734171d032c7c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.osnews.com/story/144943/eu-weighs-restricting-use-of-us-cloud-platforms-to-process-sensitive-government-data/",
+      "title": "EU weighs restricting use of US cloud platforms to process sensitive gov data",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48171015\">Comments</a>",
+      "url": "https://www.osnews.com/story/144943/eu-weighs-restricting-use-of-us-cloud-platforms-to-process-sensitive-government-data/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T17:29:38+00:00",
+      "created_at": "2026-05-17T18:52:12.687491+00:00"
+    },
     {
       "id": "d8a73a989a35c7ca",
       "content_hash": "d8a73a989a35c7cac6b682ed23a98483cf23f2a73866a30520b855cd6d5ee303",
@@ -56,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T16:32:04+00:00",
       "created_at": "2026-05-17T16:43:34.438902+00:00"
+    },
+    {
+      "id": "c67e9262a6cde167",
+      "content_hash": "c67e9262a6cde167a5b0e1daf0a4c434c546f8328c3f2e25c02be93ff1e56e91",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://opencivics-labs.github.io/dontsurveil.me/c22.html",
+      "title": "Dontsurveil.me",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48170247\">Comments</a>",
+      "url": "https://opencivics-labs.github.io/dontsurveil.me/c22.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T16:15:01+00:00",
+      "created_at": "2026-05-17T18:52:12.687765+00:00"
     },
     {
       "id": "cd653fca1cea5882",
@@ -2576,6 +2604,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T03:42:30+00:00",
       "created_at": "2026-05-16T07:47:12.919487+00:00"
+    },
+    {
+      "id": "8825192d1b18aa58",
+      "content_hash": "8825192d1b18aa58fa503b5ba47c5ca4fddb3fffc49b81c9aeba667ab81b5c2d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cp4space.hatsya.com/2026/05/03/schanuels-conjecture-and-the-semantics-of-fpsan/",
+      "title": "Schanuel's Conjecture and the Semantics of Triton's FPSan",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48156596\">Comments</a>",
+      "url": "https://cp4space.hatsya.com/2026/05/03/schanuels-conjecture-and-the-semantics-of-fpsan/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T03:34:26+00:00",
+      "created_at": "2026-05-17T18:52:12.687643+00:00"
     },
     {
       "id": "b00e417c76b13f20",
@@ -5770,6 +5812,20 @@
       "created_at": "2026-05-15T13:25:59.139493+00:00"
     },
     {
+      "id": "9a81039a3046b96d",
+      "content_hash": "9a81039a3046b96d45c6624f806513f17990b87ac67844d01a7a1e9af93d9ac3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/",
+      "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48147351\">Comments</a>",
+      "url": "https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T11:39:13+00:00",
+      "created_at": "2026-05-17T18:52:12.687361+00:00"
+    },
+    {
       "id": "27c0b67742da5712",
       "content_hash": "27c0b67742da57129b6bc87a74d49c566e3f85f590831c28086f024fc3ab0f3a",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T03:16:20.663000",
       "created_at": "2026-05-15T21:47:50.744379+00:00"
-    },
-    {
-      "id": "162c28d2c9284aa7",
-      "content_hash": "162c28d2c9284aa7c44e4559181a76e24588c9ae30bd8a3a740929d9dbebcf53",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-31316",
-      "title": "CVE-2023-31316 - Improperly preserved integrity of hardware configuration state during a power sa...",
-      "body": "Improperly preserved integrity of hardware configuration state during a power save/restore operation in the AMD Secure Processor (ASP) could allow an attacker with the ability to write outside the trusted memory range (TMR) to change the execution flow of the Video Core Next (VCN) firmware potentially impacting confidentiality, integrity, or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31316",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.513000",
-      "created_at": "2026-05-15T21:47:50.744373+00:00"
-    },
-    {
-      "id": "5cff9a3e7efbf951",
-      "content_hash": "5cff9a3e7efbf9519feb97b1da56c08511754238b3731db0ea01316032285933",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-31309",
-      "title": "CVE-2023-31309 - Improper validation in Power Management Firmware (PMFW) may allow an attacker wi...",
-      "body": "Improper validation in Power Management Firmware (PMFW) may allow an attacker with privileges to pass malformed workload arguments when exporting table data from SMU to DRAM potentially resulting in a loss of confidentiality and/or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31309",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.380000",
-      "created_at": "2026-05-15T21:47:50.744366+00:00"
-    },
-    {
-      "id": "3663b00b57c64e5a",
-      "content_hash": "3663b00b57c64e5a48331499e565c4628091c4c5451e7eae5af90ec6e2ff0d90",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-23826",
-      "title": "CVE-2022-23826 - A TOCTOU (Time-Of-Check to Time-Of-Use) in the graphics interface may allow an a...",
-      "body": "A TOCTOU (Time-Of-Check to Time-Of-Use) in the graphics interface may allow an attacker to load registers repeatedly creating a race condition potentially leading to a loss of integrity.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23826",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.220000",
-      "created_at": "2026-05-15T21:47:50.744360+00:00"
-    },
-    {
-      "id": "860c39502558cd9f",
-      "content_hash": "860c39502558cd9fbcd7863efcbe8d621e3d3af6896b5cf5df6962c7311a6a7a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2021-26380",
-      "title": "CVE-2021-26380 - A compromised Trusted OS (TOS) driver could issue a malformed call that could po...",
-      "body": "A compromised Trusted OS (TOS) driver could issue a malformed call that could potentially allow  memory access outside the intended range resulting in loss of integrity.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26380",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:20.030000",
-      "created_at": "2026-05-15T21:47:50.744354+00:00"
     }
   ]
 }
