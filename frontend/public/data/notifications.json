@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-17T19:59:15.726626+00:00",
+  "generated_at": "2026-05-17T20:51:47.683775+00:00",
   "items": [
+    {
+      "id": "d61939f64f1bdea9",
+      "content_hash": "d61939f64f1bdea9a534de77a945abb72704257b7dfafce577b3b975cb9903fb",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123397",
+      "title": "Apple’s Siri revamp could include auto-deleting chats",
+      "body": "Privacy will be a major theme when Apple unveils a new version of Siri.",
+      "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T20:15:00+00:00",
+      "created_at": "2026-05-17T20:51:47.264393+00:00"
+    },
     {
       "id": "396ab48cdffc7d9c",
       "content_hash": "396ab48cdffc7d9c97c64bfaf9b0ec3a340903653f26280c1a2a31ad4f68e9b5",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T18:42:35+00:00",
       "created_at": "2026-05-17T19:59:15.726274+00:00"
+    },
+    {
+      "id": "380c578c4aebeb38",
+      "content_hash": "380c578c4aebeb38ef4067e7dd73323b10a2d469616c05af7b34961738dbc483",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+      "title": "Scientists “bottle the sun” with a liquid battery that stores solar energy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48171906\">Comments</a>",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T18:42:35+00:00",
+      "created_at": "2026-05-17T20:51:47.683330+00:00"
     },
     {
       "id": "136c705030e27afc",
@@ -114,6 +142,20 @@
       "created_at": "2026-05-17T18:52:12.687765+00:00"
     },
     {
+      "id": "b25efeea55d1d2c6",
+      "content_hash": "b25efeea55d1d2c647cd9698f35991adf45da428d4b536ad77bd87a0b80fe89b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://opencivics-labs.github.io/dontsurveil.me/c22.html",
+      "title": "Canada’s Bill C-22 would weaken protections on private messages",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48170247\">Comments</a>",
+      "url": "https://opencivics-labs.github.io/dontsurveil.me/c22.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T16:15:01+00:00",
+      "created_at": "2026-05-17T20:51:47.683311+00:00"
+    },
+    {
       "id": "cd653fca1cea5882",
       "content_hash": "cd653fca1cea588217ffe7580167265ba391b6bf8e87f008b74f59447eaa4429",
       "source_name": "TechCrunch",
@@ -154,6 +196,34 @@
       "cvss_score": null,
       "published_at": "2026-05-17T16:04:08+00:00",
       "created_at": "2026-05-17T19:59:15.726194+00:00"
+    },
+    {
+      "id": "7ba4743e1bf2d54e",
+      "content_hash": "7ba4743e1bf2d54eb882ed496a51a6cf15783556d943c0a97d6f32df6784c12f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://addyosmani.com/blog/dont-outsource-learning/",
+      "title": "Don’t Outsource the Learning",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48170118\">Comments</a>",
+      "url": "https://addyosmani.com/blog/dont-outsource-learning/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-17T16:04:08+00:00",
+      "created_at": "2026-05-17T20:51:47.683275+00:00"
+    },
+    {
+      "id": "f6a3f07754e8cf8b",
+      "content_hash": "f6a3f07754e8cf8b36332a938e6d1618474cb3e3673f64c49b13f2a30f4ea49a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/MinishLab/semble",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48169874\">Comments</a>",
+      "url": "https://github.com/MinishLab/semble",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T15:37:07+00:00",
+      "created_at": "2026-05-17T20:51:47.683256+00:00"
     },
     {
       "id": "5bbad79044a69c77",
@@ -2704,6 +2774,20 @@
       "created_at": "2026-05-17T19:59:15.726292+00:00"
     },
     {
+      "id": "96fd7cdb75b307ac",
+      "content_hash": "96fd7cdb75b307ac300f7a9bf3f3e4bc97a4e99a17c79b2408f052a3e74c5f4d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+      "title": "Magical Realism: “Northern Exposure” 25 Years Later (2015)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48155936\">Comments</a>",
+      "url": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T01:25:29+00:00",
+      "created_at": "2026-05-17T20:51:47.683093+00:00"
+    },
+    {
       "id": "abf56fbb03ea0dff",
       "content_hash": "abf56fbb03ea0dff84fde508170743d487c29418f445ed4beb99a2c445bcfd60",
       "source_name": "Hacker News (Best)",
@@ -2870,6 +2954,20 @@
       "cvss_score": null,
       "published_at": "2026-05-15T23:18:39+00:00",
       "created_at": "2026-05-17T11:53:28.383781+00:00"
+    },
+    {
+      "id": "df679088fb430c06",
+      "content_hash": "df679088fb430c06cef91398588b555f68034de397cc1b555c972f6dd85ce163",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://diamond.jaydip.me/",
+      "title": "How diamonds are made",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48155185\">Comments</a>",
+      "url": "https://diamond.jaydip.me/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T23:18:39+00:00",
+      "created_at": "2026-05-17T20:51:47.683413+00:00"
     },
     {
       "id": "c2aa877d1d71629b",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T03:16:22.197000",
       "created_at": "2026-05-15T21:47:50.744467+00:00"
-    },
-    {
-      "id": "b5d87f762f7df0bf",
-      "content_hash": "b5d87f762f7df0bf252b2d98880af892a5b415da7db587864644121475beefbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-48513",
-      "title": "CVE-2025-48513 - Use of uninitialized resource within the AMD Platform Management Framework (PMF)...",
-      "body": "Use of uninitialized resource within the AMD Platform Management Framework (PMF) could allow an attacker to read a uninitialized kernel memory resulting in loss of confidentiality or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48513",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.077000",
-      "created_at": "2026-05-15T21:47:50.744448+00:00"
-    },
-    {
-      "id": "766b39606764d385",
-      "content_hash": "766b39606764d38562e4cea1e5e51b39c2c1b788b552a3aac40f58323e0f4c16",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-29944",
-      "title": "CVE-2025-29944 - A buffer overflow vulnerability within AMD Sensor Fusion Hub Driver can allow a ...",
-      "body": "A buffer overflow vulnerability within AMD Sensor Fusion Hub Driver can allow a local attacker to write out of bounds, potentially resulting in denial of service or crash",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29944",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.937000",
-      "created_at": "2026-05-15T21:47:50.744442+00:00"
-    },
-    {
-      "id": "68e88f337cc7990b",
-      "content_hash": "68e88f337cc7990b2ddc0fe33a0f541e4962253de3432bd50b9f6d27be894b30",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-29938",
-      "title": "CVE-2025-29938 - An unchecked return value within the AMD Platform Management Framework (PMF) cou...",
-      "body": "An unchecked return value within the AMD Platform Management Framework (PMF) could allow an attacker to write to an arbitrary memory address resulting in denial of service or arbitrary code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29938",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.813000",
-      "created_at": "2026-05-15T21:47:50.744436+00:00"
-    },
-    {
-      "id": "116f486bde4e26dd",
-      "content_hash": "116f486bde4e26ddca789a63365472109b07afb131ee1b23ccf3b836bbf3a2d2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-29937",
-      "title": "CVE-2025-29937 - An out of bounds read within the AMD Platform Management Framework (PMF) could a...",
-      "body": "An out of bounds read within the AMD Platform Management Framework (PMF) could allow an attacker to trigger a read of an arbitrary memory location potentially resulting in loss of availability or confidentiality.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29937",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.697000",
-      "created_at": "2026-05-15T21:47:50.744427+00:00"
-    },
-    {
-      "id": "b9c61e53303700e3",
-      "content_hash": "b9c61e53303700e3d865f045d9abb4eb85593279571bf5ca0fd1e5b113fdba68",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-29936",
-      "title": "CVE-2025-29936 - Improper input validation within the AMD Platform Management Framework (PMF) cou...",
-      "body": "Improper input validation within the AMD Platform Management Framework (PMF) could allow an attacker to unmap arbitrary memory pages potentially impacting integrity and availability, or allowing privilege escalation resulting in loss of confidentiality.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29936",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.577000",
-      "created_at": "2026-05-15T21:47:50.744421+00:00"
-    },
-    {
-      "id": "b235457ce9187ac3",
-      "content_hash": "b235457ce9187ac3ae61ac234e2c5f4ea4afe30db308d9238b6ed310843d14cb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-29935",
-      "title": "CVE-2025-29935 - An out of bounds write within the AMD Platform Management Framework (PMF) could ...",
-      "body": "An out of bounds write within the AMD Platform Management Framework (PMF) could allow an attacker to execute arbitrary code at an elevated privilege level potentially leading to loss of confidentiality integrity, or availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29935",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.453000",
-      "created_at": "2026-05-15T21:47:50.744415+00:00"
-    },
-    {
-      "id": "f869284bb71425f0",
-      "content_hash": "f869284bb71425f02ea6cad5364642b42861157a5147abf42ceb2ebc2d36c38a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-0044",
-      "title": "CVE-2025-0044 - An out-of-bounds read in power management firmware by a malicious local attacker...",
-      "body": "An out-of-bounds read in power management firmware by a malicious local attacker with low privileges could potentially lead to a partial loss of confidentiality and availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0044",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:21.330000",
-      "created_at": "2026-05-15T21:47:50.744409+00:00"
     }
   ]
 }
