@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-17T05:43:25.242549+00:00",
+  "generated_at": "2026-05-17T08:07:58.833795+00:00",
   "items": [
+    {
+      "id": "a63c716620e95b9d",
+      "content_hash": "a63c716620e95b9d2c2b28c4799f893cf581a1f89430da225dcb1336fcccda50",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "body": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.\n\n\n  \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana\n  said\n  in a series of",
+      "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-17T07:13:33+00:00",
+      "created_at": "2026-05-17T08:07:53.533943+00:00"
+    },
+    {
+      "id": "a4e7672ae7e663be",
+      "content_hash": "a4e7672ae7e663beac2a24b969dec5d3af3d96b12a3f2ee5f577bfe7d498e8d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
+      "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48166459\">Comments</a>",
+      "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T06:17:26+00:00",
+      "created_at": "2026-05-17T08:07:58.833006+00:00"
+    },
+    {
+      "id": "e0ce604d80959020",
+      "content_hash": "e0ce604d80959020e0bd01f075fd321ac3f8bb96752b34eea39605f73736f7b6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8728",
+      "title": "CVE-2026-8728 - A security vulnerability has been detected in Open5GS up to 2.7.7. The impacted ...",
+      "body": "A security vulnerability has been detected in Open5GS up to 2.7.7. The impacted element is the function ogs_sbi_discovery_option_parse_plmn_list in the library /lib/sbi/conv.c of the component NRF. Such manipulation of the argument target-plmn-list leads to denial of service. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8728",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-17T04:16:58.710000",
+      "created_at": "2026-05-17T08:07:53.809448+00:00"
+    },
+    {
+      "id": "1944012e153dffe9",
+      "content_hash": "1944012e153dffe91097adae51c858cf5c24b62fffc564c5db877475fc7152d6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8719",
+      "title": "CVE-2026-8719 - The AI Engine – The Chatbot, AI Framework & MCP for WordPress plugin for WordPre...",
+      "body": "The AI Engine – The Chatbot, AI Framework & MCP for WordPress plugin for WordPress is vulnerable to Privilege Escalation in version 3.4.9. This is due to missing WordPress capability enforcement in the MCP OAuth bearer-token authorization path, where any valid OAuth token causes MCP access to be granted without verifying administrator privileges. This makes it possible for authenticated (Subscriber+) attackers to invoke admin-level MCP tools and escalate privileges to Administrator.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8719",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-17T04:16:42.580000",
+      "created_at": "2026-05-17T08:07:53.809441+00:00"
+    },
     {
       "id": "cd679f404c301c22",
       "content_hash": "cd679f404c301c22f092b1933e4ecc2065248bf8d7fd7ed24e0cb845bdd90426",
@@ -196,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T22:13:54+00:00",
       "created_at": "2026-05-16T23:40:10.511398+00:00"
+    },
+    {
+      "id": "512f8043f39155f8",
+      "content_hash": "512f8043f39155f81e44cf4ffd80a50feb5cc7dac26910f0e53f3662bfcd33da",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://publicdomainreview.org/essay/twilight-of-the-velocipede/",
+      "title": "Twilight of the Velocipede: Typesetting Races Before the Age of Linotype",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48163956\">Comments</a>",
+      "url": "https://publicdomainreview.org/essay/twilight-of-the-velocipede/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T21:25:07+00:00",
+      "created_at": "2026-05-17T08:07:58.833450+00:00"
     },
     {
       "id": "ed701b649cdc1c83",
@@ -5112,6 +5182,20 @@
       "created_at": "2026-05-15T11:45:56.821879+00:00"
     },
     {
+      "id": "c918bb25a77044ba",
+      "content_hash": "c918bb25a77044ba5cee41f47c22a08fbae28e2c50bec4fb8248e435d20a4ef8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.citroenet.org.uk/prototypes/metropolis/metropolis1.html",
+      "title": "Citroën metropolis concept car (2010)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48146362\">Comments</a>",
+      "url": "https://www.citroenet.org.uk/prototypes/metropolis/metropolis1.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T09:18:38+00:00",
+      "created_at": "2026-05-17T08:07:58.833354+00:00"
+    },
+    {
       "id": "cd85036034ba4d4c",
       "content_hash": "cd85036034ba4d4c595f201187de41c22b2636270ad335e385804712f40d821f",
       "source_name": "CVE (NVD)",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T00:00:00+00:00",
       "created_at": "2026-05-15T17:20:18.764204+00:00"
-    },
-    {
-      "id": "ad89ab8e9141eaff",
-      "content_hash": "ad89ab8e9141eaffc763d2d26a7d9cf4c811102dd9f753fdb65b22718292669b",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/databricks",
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "body": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "url": "https://openai.com/index/databricks",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-16T01:53:16.139235+00:00"
-    },
-    {
-      "id": "ac869c7b44df5aef",
-      "content_hash": "ac869c7b44df5aef0f436d5d42ccc61ba870c12506095b7cc3f3fd271ad97863",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "title": "How sales teams use Codex",
-      "body": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-16T07:47:07.223238+00:00"
-    },
-    {
-      "id": "fd93cde403d23f41",
-      "content_hash": "fd93cde403d23f41a4ac7db8bd6168ebc533c5f287a45502cf1d6372029207a2",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "title": "How business operations teams use Codex",
-      "body": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-16T07:47:07.223287+00:00"
-    },
-    {
-      "id": "9e6bb8acd7ae2763",
-      "content_hash": "9e6bb8acd7ae2763ad51a2c01e9a53a11e89b9f6a99e3431a7c0d7cf55b72855",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "title": "How data science teams use Codex",
-      "body": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-16T07:47:07.223320+00:00"
-    },
-    {
-      "id": "7fdec9109c7adf9b",
-      "content_hash": "7fdec9109c7adf9b250422f5c157eca57f1aad5b7a556016fab5bf2b8a12d802",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/rust-lang/rust-forge/pull/1040",
-      "title": "LLM Policy for Rust Compiler",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142650\">Comments</a>",
-      "url": "https://github.com/rust-lang/rust-forge/pull/1040",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T23:37:21+00:00",
-      "created_at": "2026-05-15T06:22:26.441349+00:00"
-    },
-    {
-      "id": "798b8c58fa78ab1b",
-      "content_hash": "798b8c58fa78ab1ba7ca719a7d3ec96cc1c43c5cef42ef72c703b8143204c53e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
-      "title": "Have a Coherent AI Policy",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142553\">Comments</a>",
-      "url": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T23:24:45+00:00",
-      "created_at": "2026-05-15T02:00:51.827091+00:00"
     }
   ]
 }
