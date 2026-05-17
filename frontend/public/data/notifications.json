@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-17T10:16:50.338855+00:00",
+  "generated_at": "2026-05-17T11:53:28.384128+00:00",
   "items": [
+    {
+      "id": "5a725e1ad13a5ce6",
+      "content_hash": "5a725e1ad13a5ce66d9835aac3c4d050511faa1f3f5e4b14c0b3f8ec73a83c54",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://klaxon.live/",
+      "title": "Klaxon a livr earthquake map with no back end",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48167823\">Comments</a>",
+      "url": "https://klaxon.live/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T11:06:08+00:00",
+      "created_at": "2026-05-17T11:53:28.383540+00:00"
+    },
     {
       "id": "291177d824ad4213",
       "content_hash": "291177d824ad42130faf585a0e9b077225fedc696d6e1e3a2cb171065dc4efda",
@@ -1834,6 +1848,20 @@
       "cvss_score": null,
       "published_at": "2026-05-15T23:22:30+00:00",
       "created_at": "2026-05-16T05:18:53.233469+00:00"
+    },
+    {
+      "id": "26db872e8c173898",
+      "content_hash": "26db872e8c173898d323a05ff77a2e86f5dbea42507e278d6ef2fdd4f795733d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://diamond.jaydip.me/",
+      "title": "How Diamonds Are Made",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48155185\">Comments</a>",
+      "url": "https://diamond.jaydip.me/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T23:18:39+00:00",
+      "created_at": "2026-05-17T11:53:28.383781+00:00"
     },
     {
       "id": "c2aa877d1d71629b",
@@ -4860,6 +4888,20 @@
       "created_at": "2026-05-15T11:45:55.659305+00:00"
     },
     {
+      "id": "388b9a0ee55c8754",
+      "content_hash": "388b9a0ee55c875436e3b32c201de93db20ef65a0202ddd4c7a14ca6410f3696",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+      "title": "Prolog Basics Explained with Pokémon",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48147091\">Comments</a>",
+      "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-15T11:02:14+00:00",
+      "created_at": "2026-05-17T11:53:28.383615+00:00"
+    },
+    {
       "id": "6b5dac31216bb274",
       "content_hash": "6b5dac31216bb27428ab103f4a150371a4896dc917308bc8231eb5b46b80fcd4",
       "source_name": "The Hacker News",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T01:04:13+00:00",
       "created_at": "2026-05-15T06:22:26.441507+00:00"
-    },
-    {
-      "id": "d980fc6bdbee21bb",
-      "content_hash": "d980fc6bdbee21bbf6c0a1223f4f5316e69defb4ec2663bcfccc4d26a9be0840",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/AliAmmar15/Velonus",
-      "title": "Velonus – Open-source AppSec scanner that deduplicates SAST noise",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48143235\">Comments</a>",
-      "url": "https://github.com/AliAmmar15/Velonus",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-15T01:02:05+00:00",
-      "created_at": "2026-05-15T02:00:51.827387+00:00"
-    },
-    {
-      "id": "07801bb2fc83618e",
-      "content_hash": "07801bb2fc83618e90033f0877b1780dc18cda6bc8253ed25c71398202e98524",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://status.claude.com/incidents/8z7l5zcy0v3b",
-      "title": "Elevated error rates on Opus 4.7",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142964\">Comments</a>",
-      "url": "https://status.claude.com/incidents/8z7l5zcy0v3b",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:22:53+00:00",
-      "created_at": "2026-05-15T02:00:51.827049+00:00"
-    },
-    {
-      "id": "cc59714cef95e693",
-      "content_hash": "cc59714cef95e6936d2ff721559a8cfa703d1bc78ba077f217d0b39ef4f13323",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/building-codex-windows-sandbox",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "body": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-13T19:29:12.461359+00:00"
     }
   ]
 }
