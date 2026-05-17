@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-17T12:53:23.137094+00:00",
+  "generated_at": "2026-05-17T14:20:58.584688+00:00",
   "items": [
+    {
+      "id": "a514fb0f692b7547",
+      "content_hash": "a514fb0f692b75479a51a029fca088bbeaff64fd16328539a51194ad81b89b1f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+      "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168856\">Comments</a>",
+      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-17T13:42:30+00:00",
+      "created_at": "2026-05-17T14:20:58.583983+00:00"
+    },
+    {
+      "id": "4d091d59c097803b",
+      "content_hash": "4d091d59c097803bef447e39560b873d5ce8d17108ad9d6288a7cc1ed40563e0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
+      "title": "WHO Declares Ebola Outbreak a Global Health Emergency",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168708\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T13:22:14+00:00",
+      "created_at": "2026-05-17T14:20:58.583959+00:00"
+    },
+    {
+      "id": "268bb6b670a6c151",
+      "content_hash": "268bb6b670a6c1518fbef9b473e30ae4d7e09d065749738f7555d3520ccd5b62",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "title": "AI is a technology not a product",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168626\">Comments</a>",
+      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T13:11:20+00:00",
+      "created_at": "2026-05-17T14:20:58.584024+00:00"
+    },
     {
       "id": "78ed7dcf14021b90",
       "content_hash": "78ed7dcf14021b90a65ab9d275a642c2a1d2485cbe88a063b252d7792ef6b2b7",
@@ -28,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T12:09:23+00:00",
       "created_at": "2026-05-17T12:53:23.136284+00:00"
+    },
+    {
+      "id": "bddc0e6b2696b043",
+      "content_hash": "bddc0e6b2696b043cee06ef544e6b880169369f1da14ab9eebab043cbfb98630",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "title": "Scientists believe ibogaine can help veterans overcome PTSD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168159\">Comments</a>",
+      "url": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:03:04+00:00",
+      "created_at": "2026-05-17T14:20:58.584149+00:00"
     },
     {
       "id": "c806d30dca5334b9",
@@ -112,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T06:17:26+00:00",
       "created_at": "2026-05-17T08:07:58.833006+00:00"
+    },
+    {
+      "id": "013ae85b54628f63",
+      "content_hash": "013ae85b54628f63a778bae2ea2a9a99f8084d12dc160b5904ee35a233597ae6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8729",
+      "title": "CVE-2026-8729 - A vulnerability was detected in Open5GS up to 2.7.7. This affects an unknown fun...",
+      "body": "A vulnerability was detected in Open5GS up to 2.7.7. This affects an unknown function in the library /lib/sbi/message.c of the component NRF. Performing a manipulation of the argument service-names/snssais results in denial of service. The attack is possible to be carried out remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8729",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-17T05:16:16.370000",
+      "created_at": "2026-05-17T14:20:51.655533+00:00"
     },
     {
       "id": "e0ce604d80959020",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T02:02:00+00:00",
       "created_at": "2026-05-15T06:22:25.989654+00:00"
-    },
-    {
-      "id": "0f72889f33d2a936",
-      "content_hash": "0f72889f33d2a936726520be0653e27cdceab53a6d32a5973547d94c6f9ee9b9",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015696.html",
-      "title": "アドビのAdobe After Effectsにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "After Effects のバージョン 26.0、25.6.4 およびそれ以前のバージョンには、ヒープベースのバッファオーバーフローの脆弱性があります。この脆弱性により、現在のユーザーのコンテキストで任意のコードを実行される可能性があります。この問題を悪用するには、被害者が悪意のあるファイルを開く必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015696.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989669+00:00"
-    },
-    {
-      "id": "388baa12ba4f97bb",
-      "content_hash": "388baa12ba4f97bb8fde029cbb1fb2004e438adc167d904afc97b40ad1fcff91",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015695.html",
-      "title": "アドビのAdobe After Effectsにおける境界外書き込みに関する脆弱性",
-      "body": "After Effectsのバージョン26.0、25.6.4およびそれ以前のバージョンは、境界外書き込みの脆弱性の影響を受けます。この脆弱性により、現在のユーザーのコンテキストで任意のコードを実行される可能性があります。この問題を悪用するためには、被害者が悪意のあるファイルを開くというユーザーの操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015695.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989684+00:00"
-    },
-    {
-      "id": "2afa3059317eaa26",
-      "content_hash": "2afa3059317eaa26c2710ba4fc8a53770f6deb33cfddadf640f758885a099b3e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015694.html",
-      "title": "アドビのAdobe After Effectsにおける整数オーバーフローの脆弱性",
-      "body": "After Effects のバージョン 26.0、25.6.4 およびそれ以前のバージョンには、整数オーバーフローまたはラップアラウンドの脆弱性が存在し、その結果、現在のユーザーのコンテキストで任意のコードが実行される可能性があります。この問題を悪用するためには、被害者が悪意のあるファイルを開くというユーザー操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015694.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989698+00:00"
-    },
-    {
-      "id": "b2012fc8c3ec92e2",
-      "content_hash": "b2012fc8c3ec92e23d30bcc541b8b4a07803d4c886c75c56a73b2b6adcf75d66",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015693.html",
-      "title": "アドビのAdobe Connect Desktop Applicationにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-      "body": "Adobe Connect バージョン 2025.9.15、2025.8.157 およびそれ以前のバージョンは、信頼されていないデータの逆シリアライズに関する脆弱性が存在します。この脆弱性により、現在のユーザーのコンテキストで任意のコードを実行される可能性があります。攻撃者はこの脆弱性を悪用して任意のコードを実行できます。この問題を悪用するにはユーザーの操作が必要であり、被害者が悪意のある URL にアクセスするか、または改ざんされたウェブページとやり取りする必要があります。スコープは変更されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015693.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989712+00:00"
-    },
-    {
-      "id": "e4762729f4966ab5",
-      "content_hash": "e4762729f4966ab57a6ee517537f24ce5aa8afdd7ca6aa225ec01f9db1715b70",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015692.html",
-      "title": "アドビのAdobe Connect Desktop Applicationにおける不正な認証に関する脆弱性",
-      "body": "Adobe Connectのバージョン2025.9.15、2025.8.157およびそれ以前のバージョンは、不適切な認可の脆弱性の影響を受けており、これにより現在のユーザーのコンテキストで任意のコードを実行される可能性があります。攻撃者はこの脆弱性を悪用して、ウェブページに悪意のあるスクリプトを注入し、被害者のアカウントやセッションに対して昇格したアクセス権や制御を得ることが可能です。この問題を悪用するためには、被害者が悪意のあるURLを訪問するか、改ざんされたウェブページとやり取りをするなど、ユーザーの操作が必要です。影響範囲が変更されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-015692.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T02:02:00+00:00",
-      "created_at": "2026-05-15T06:22:25.989727+00:00"
     }
   ]
 }
