@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-17T08:07:58.833795+00:00",
+  "generated_at": "2026-05-17T10:16:50.338855+00:00",
   "items": [
+    {
+      "id": "291177d824ad4213",
+      "content_hash": "291177d824ad42130faf585a0e9b077225fedc696d6e1e3a2cb171065dc4efda",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/",
+      "title": "Playing Atari ST Music on the Amiga with Zero CPU",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48166920\">Comments</a>",
+      "url": "https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T08:00:04+00:00",
+      "created_at": "2026-05-17T10:16:50.338183+00:00"
+    },
     {
       "id": "a63c716620e95b9d",
       "content_hash": "a63c716620e95b9d2c2b28c4799f893cf581a1f89430da225dcb1336fcccda50",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T00:00:00+00:00",
       "created_at": "2026-05-13T19:29:12.461359+00:00"
-    },
-    {
-      "id": "08726aeaeb5f27dc",
-      "content_hash": "08726aeaeb5f27dc38e92c5527a44e42e528e48596f1008f2414738df539de30",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/personal-finance-chatgpt",
-      "title": "A new personal finance experience in ChatGPT",
-      "body": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "created_at": "2026-05-15T17:20:18.764204+00:00"
     }
   ]
 }
