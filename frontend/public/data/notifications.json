@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-17T20:51:47.683775+00:00",
+  "generated_at": "2026-05-17T21:43:50.696787+00:00",
   "items": [
+    {
+      "id": "22cc7a52be0c6bbe",
+      "content_hash": "22cc7a52be0c6bbe50789f35a0825ed8c8137893decf0cb1afc5c2d9fa4e09cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openclaw.ai/blog/where-openclaw-security-is-heading",
+      "title": "Where OpenClaw Security Is Heading",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48172952\">Comments</a>",
+      "url": "https://openclaw.ai/blog/where-openclaw-security-is-heading",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T20:32:21+00:00",
+      "created_at": "2026-05-17T21:43:50.696324+00:00"
+    },
     {
       "id": "d61939f64f1bdea9",
       "content_hash": "d61939f64f1bdea9a534de77a945abb72704257b7dfafce577b3b975cb9903fb",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T19:46:34+00:00",
       "created_at": "2026-05-17T19:59:15.408041+00:00"
+    },
+    {
+      "id": "f24729a1fb19ed82",
+      "content_hash": "f24729a1fb19ed82aea8acf77217b46f4f675e56e3f774cccdb3a4e0de115520",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/payphone-voip",
+      "title": "VoIP brings back old-fashioned pay phones to rural Vermont",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48172505\">Comments</a>",
+      "url": "https://spectrum.ieee.org/payphone-voip",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T19:39:10+00:00",
+      "created_at": "2026-05-17T21:43:50.696168+00:00"
     },
     {
       "id": "a463d6b4f441f1bb",
@@ -756,6 +784,20 @@
       "cvss_score": null,
       "published_at": "2026-05-17T12:03:04+00:00",
       "created_at": "2026-05-17T14:20:58.584149+00:00"
+    },
+    {
+      "id": "282f09b0d4e29a23",
+      "content_hash": "282f09b0d4e29a23adb069c6301b1ca0437da06e8ef3c7c685a210bcbcd67ef8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "title": "Trials on veterans suggest ibogaine could provide a new treatment for PTSD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48168159\">Comments</a>",
+      "url": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-17T12:03:04+00:00",
+      "created_at": "2026-05-17T21:43:50.696384+00:00"
     },
     {
       "id": "9253f7fb38ab5b44",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-15T03:16:22.617000",
       "created_at": "2026-05-15T22:42:58.555611+00:00"
-    },
-    {
-      "id": "8ac865aeb3b433cc",
-      "content_hash": "8ac865aeb3b433cc6ca817b35b4059f5b609fc56fa2800eb26554de392694e74",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-54517",
-      "title": "CVE-2025-54517 - Out of bounds write in AMD AMDGV_CMD_GET_DIAG_DATA ioctl handler could allow a l...",
-      "body": "Out of bounds write in AMD AMDGV_CMD_GET_DIAG_DATA ioctl handler could allow a local user to escalate privileges via remote code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54517",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.493000",
-      "created_at": "2026-05-15T21:47:50.744480+00:00"
-    },
-    {
-      "id": "4f4d09f5f6f48b2b",
-      "content_hash": "4f4d09f5f6f48b2b4f923b28aa0bbc612321897346c367ea6439b783b32316da",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-54511",
-      "title": "CVE-2025-54511 - Improper handling of insufficient privileges in the AMD Secure Processor (ASP) c...",
-      "body": "Improper handling of insufficient privileges in the AMD Secure Processor (ASP) could allow an attacker to provide an input value to a function without sufficient privileges and successfully write data, potentially resulting in loss of integrity of availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54511",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.370000",
-      "created_at": "2026-05-15T21:47:50.744474+00:00"
-    },
-    {
-      "id": "f3cee8b085e51ef5",
-      "content_hash": "f3cee8b085e51ef545745b14f535a26cb336dd29f06b9be7f9a69f3bf9d27ab3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-48516",
-      "title": "CVE-2025-48516 - Insecure default configuration state of DDR5 memory module by AGESA Bootloader F...",
-      "body": "Insecure default configuration state of DDR5 memory module by AGESA Bootloader Firmware could allow an attacker with local user privilege to abuse the unprotected PMIC interface to create a permanent denial of service condition or affect the integrity of the memory module.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48516",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T03:16:22.197000",
-      "created_at": "2026-05-15T21:47:50.744467+00:00"
     }
   ]
 }
