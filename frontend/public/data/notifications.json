@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-16T23:40:10.511962+00:00",
+  "generated_at": "2026-05-17T01:56:46.618744+00:00",
   "items": [
+    {
+      "id": "ed1c5684e8cdb9e8",
+      "content_hash": "ed1c5684e8cdb9e84cacbe44e3fe9dee70b43c19385ae978cf93060b7c0e3b4a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8723",
+      "title": "CVE-2026-8723 - ### Summary\n\n\n\n`qs.stringify` throws `TypeError` when called with `arrayFormat: ...",
+      "body": "### Summary\n\n\n\n`qs.stringify` throws `TypeError` when called with `arrayFormat: 'comma'` and `encodeValuesOnly: true` on an array containing `null` or `undefined`. The throw is synchronous and not handled by any of qs's null-related options (`skipNulls`, `strictNullHandling`).\n\n\n\n### Details\n\n\n\nIn the comma + `encodeValuesOnly` branch, `lib/stringify.js:145` mapped the array through the raw encoder before joining:\n\n\n\n```js\n\n\n\nobj = utils.maybeMap(obj, encoder);\n\n\n\n```\n\n\n\n`utils.encode` (`lib/utils.js:195`) reads `str.length` with no null guard, so a `null` or `undefined` element throws `TypeError`. `skipNulls` and `strictNullHandling` are both checked in the per-element loop below this line and never get a chance to run.\n\n\n\nSame class of bug as the filter-array path fixed in 0c180a4. The vulnerable shape of the comma + `encodeValuesOnly` branch was introduced in 4c4b23d (\"encode comma values more consistently\", PR #463, 2023-01-19), first released in v6.11.1.\n\n\n\n#### PoC\n\n\n\n```js\n\n\n\nconst qs = require('qs');\n\n\n\nqs.stringify({ a: [null, 'b'] },      { arrayFormat: 'comma', encodeValuesOnly: true });\n\n\n\nqs.stringify({ a: [undefined, 'b'] }, { arrayFormat: 'comma', encodeValuesOnly: true });\n\n\n\nqs.stringify({ a: [null] },           { arrayFormat: 'comma', encodeValuesOnly: true });\n\n\n\n// TypeError: Cannot read properties of null (reading 'length')\n\n\n\n//     at encode (lib/utils.js:195:13)\n\n\n\n//     at Object.maybeMap (lib/utils.js:322:37)\n\n\n\n//     at stringify (lib/stringify.js:145:25)\n\n\n\n```\n\n\n\n#### Fix\n\n\n\n`lib/stringify.js:145`, applied in 21f80b3 on `main` and released as v6.15.2:\n\n\n\n```diff\n\n\n\n- obj = utils.maybeMap(obj, encoder);\n\n\n\n+ obj = utils.maybeMap(obj, function (v) {\n\n\n\n+     return v == null ? v : encoder(v);\n\n\n\n+ });\n\n\n\n```\n\n\n\n`null` and `undefined` now pass through `maybeMap` unchanged and reach the `join(',')` step as-is. For `{ a: [null, 'b'] }` this produces `a=,b`, matching the non-`encodeValuesOnly` comma path (which already joins before encoding ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8723",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-17T00:16:21.233000",
+      "created_at": "2026-05-17T01:56:41.834161+00:00"
+    },
+    {
+      "id": "fe9da74964f62c0f",
+      "content_hash": "fe9da74964f62c0feb856bf35015f84fcf39d93c6a0cc6a7b0768208d8aa3a90",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/",
+      "title": "Fisker went bankrupt and owners built an open source car company from the ashes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48164891\">Comments</a>",
+      "url": "https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-16T23:59:47+00:00",
+      "created_at": "2026-05-17T01:56:46.618061+00:00"
+    },
     {
       "id": "29b7c0aa32b0c37d",
       "content_hash": "29b7c0aa32b0c37de95870a9cbc65d81c6dad93c7ffbaba3dea49c89e1b91063",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T23:16:50.577000",
       "created_at": "2026-05-16T23:40:06.817810+00:00"
+    },
+    {
+      "id": "5ab90498236864e7",
+      "content_hash": "5ab90498236864e7d9ec93fe19f74262c82257d8f5c0244fff76afbdf5a18b86",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+      "title": "A nicer voltmeter clock",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48164432\">Comments</a>",
+      "url": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T22:45:16+00:00",
+      "created_at": "2026-05-17T01:56:46.617922+00:00"
     },
     {
       "id": "0af1e8758913ce3e",
@@ -112,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T20:14:06+00:00",
       "created_at": "2026-05-16T20:38:11.152414+00:00"
+    },
+    {
+      "id": "2bdf210ea2aec6c9",
+      "content_hash": "2bdf210ea2aec6c99d124fb82b919127c7308d775698259542870721dfa82f6e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48163392\">Comments</a>",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T20:14:06+00:00",
+      "created_at": "2026-05-17T01:56:46.618140+00:00"
     },
     {
       "id": "a4c119ca23d763f7",
@@ -1248,6 +1304,20 @@
       "created_at": "2026-05-16T20:38:11.152705+00:00"
     },
     {
+      "id": "6435e0c10a8fccb4",
+      "content_hash": "6435e0c10a8fccb49f8cf4f2b32ac3064dcc2df77b00aee31fc64a69aa3ab7a2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://futhark-lang.org/examples.html",
+      "title": "Futhark by example (2020)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48158606\">Comments</a>",
+      "url": "https://futhark-lang.org/examples.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T09:50:10+00:00",
+      "created_at": "2026-05-17T01:56:46.618394+00:00"
+    },
+    {
       "id": "96993dff08cec273",
       "content_hash": "96993dff08cec27347a505ef00901395a98d1b05fcd58621ce0f82e5bec243fe",
       "source_name": "Hacker News (Best)",
@@ -1260,6 +1330,20 @@
       "cvss_score": null,
       "published_at": "2026-05-16T09:30:06+00:00",
       "created_at": "2026-05-16T10:53:35.372785+00:00"
+    },
+    {
+      "id": "d13e6840debb6581",
+      "content_hash": "d13e6840debb658175e8f4ce216fe128316d0d49e7e1ef12956a415d8e6afc66",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2605.12357",
+      "title": "δ-mem: Efficient Online Memory for Large Language Models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48158506\">Comments</a>",
+      "url": "https://arxiv.org/abs/2605.12357",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-16T09:30:06+00:00",
+      "created_at": "2026-05-17T01:56:46.618200+00:00"
     },
     {
       "id": "fcb1a9618aea43b2",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-14T22:38:18+00:00",
       "created_at": "2026-05-15T02:00:51.827247+00:00"
-    },
-    {
-      "id": "3092ecc9999c8e06",
-      "content_hash": "3092ecc9999c8e0665365bcdb366ad4569d2f23c9ae028d4bee5d5f4d45c2c80",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142188\">Comments</a>",
-      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T22:37:40+00:00",
-      "created_at": "2026-05-14T23:54:43.508748+00:00"
-    },
-    {
-      "id": "54c272eb21762c0c",
-      "content_hash": "54c272eb21762c0c59c4c6b6f35e8ca85dfb1fd909fe54b02dbc1db026f809b5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://antirez.com/news/165",
-      "title": "A Few Words on DS4",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142108\">Comments</a>",
-      "url": "https://antirez.com/news/165",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T22:29:12+00:00",
-      "created_at": "2026-05-14T22:58:06.659852+00:00"
-    },
-    {
-      "id": "062acdc37dce6de0",
-      "content_hash": "062acdc37dce6de00c947930303e57026e6ab64b4df14f089ac056301935ecb7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://antirez.com/news/165",
-      "title": "A few words on DS4",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48142108\">Comments</a>",
-      "url": "https://antirez.com/news/165",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-14T22:29:12+00:00",
-      "created_at": "2026-05-14T23:54:43.508493+00:00"
-    },
-    {
-      "id": "8cf9a591d6cfac65",
-      "content_hash": "8cf9a591d6cfac65b1a4a8f34704294c224637cb0008483b20cb20560a5814e1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6811",
-      "title": "CVE-2026-6811 - Stack exhaustion vulnerability in the MongoDB PHP driver can cause application c...",
-      "body": "Stack exhaustion vulnerability in the MongoDB PHP driver can cause application crashes when processing deeply nested BSON documents in unusual circumstances when the source of these BSON documents is not MongoDB Server.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6811",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-05-14T22:16:45.137000",
-      "created_at": "2026-05-15T21:47:50.744280+00:00"
-    },
-    {
-      "id": "8fc22b13088c1580",
-      "content_hash": "8fc22b13088c1580796f17eb676920fc80bd20f6806cd1bf0a7b7d68a3a00690",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45248",
-      "title": "CVE-2026-45248 - Hedera Guardian through 3.5.1 contains an authentication bypass vulnerability in...",
-      "body": "Hedera Guardian through 3.5.1 contains an authentication bypass vulnerability in the GET /api/v1/demo/registered-users endpoint that allows unauthenticated attackers to retrieve sensitive user information. Attackers can access the endpoint without providing authentication credentials to obtain usernames, Hedera DIDs, parent registry DIDs, system roles, and policy role assignments for all registered users in the system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45248",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-14T22:16:45",
-      "created_at": "2026-05-15T21:47:50.744273+00:00"
-    },
-    {
-      "id": "0f5a6ed953408700",
-      "content_hash": "0f5a6ed95340870073058edd8f23557712a280d2be01e7cadbd746c66259f8f6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44671",
-      "title": "CVE-2026-44671 - ZITADEL is an open source identity management platform. From 2.71.11 to before 3...",
-      "body": "ZITADEL is an open source identity management platform. From 2.71.11 to before 3.4.10 and 4.15.0, a vulnerability was discovered in Zitadel's LDAP identity provider implementation, which fails to properly escape user-provided usernames before incorporating them into LDAP search filters. This allows unauthenticated attackers to perform LDAP Filter Injection during the login process. While this vulnerability does not allow for a full authentication bypass, an attacker can use LDAP metacharacters (such as *, (, )) to perform blind LDAP injection. By observing the different failure (or success) responses, an attacker can systematically enumerate valid usernames and extract sensitive attribute data from the connected LDAP directory. This vulnerability is fixed in 3.4.10 and 4.15.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44671",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-14T22:16:44.850000",
-      "created_at": "2026-05-15T21:47:50.744267+00:00"
     }
   ]
 }
