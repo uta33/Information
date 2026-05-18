@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-18T22:46:16.164430+00:00",
+  "generated_at": "2026-05-18T23:54:52.387231+00:00",
   "items": [
+    {
+      "id": "e173fce259f5db04",
+      "content_hash": "e173fce259f5db0480b1c94a8b8881a08bf0b016b8857a48e870b9d92d4d4c0f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://clickclickclick.click/",
+      "title": "Click",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48187054\">Comments</a>",
+      "url": "https://clickclickclick.click/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-18T23:03:02+00:00",
+      "created_at": "2026-05-18T23:54:52.386430+00:00"
+    },
     {
       "id": "6baf864bf631b33f",
       "content_hash": "6baf864bf631b33fc3864be842588038d57330a5c0921bc400858ef4dfe7e0ec",
@@ -238,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-05-18T18:44:03+00:00",
       "created_at": "2026-05-18T21:01:09.446100+00:00"
+    },
+    {
+      "id": "fb5cdd1115591bc1",
+      "content_hash": "fb5cdd1115591bc16394389cc2823a2f4c1a080c0a6a7e68e1db33ffebe0182c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://loopmaster.xyz/",
+      "title": "Loopmaster – Livecoding Music IDE",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48183757\">Comments</a>",
+      "url": "https://loopmaster.xyz/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-18T18:44:03+00:00",
+      "created_at": "2026-05-18T23:54:52.386903+00:00"
     },
     {
       "id": "2c5755433cadb58c",
@@ -1010,6 +1038,20 @@
       "created_at": "2026-05-18T17:24:05.148615+00:00"
     },
     {
+      "id": "8501cad6bd021360",
+      "content_hash": "8501cad6bd021360f8d273a6ae2c27371edf0af82cc3dff232dc6c0ba1871f1b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-7498",
+      "title": "CVE-2026-7498 - Improper neutralization of input during web page generation ('cross-site scripti...",
+      "body": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Basamak Information Technology Consulting and Organization Trade Ltd. Co. DernekWeb allows Stored XSS.\n\nThis issue affects DernekWeb: through 30122025.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7498",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-18T09:16:24.460000",
+      "created_at": "2026-05-18T23:54:47.850049+00:00"
+    },
+    {
       "id": "3c7a0ea2bab86388",
       "content_hash": "3c7a0ea2bab8638882a00c37bf348d9f52d3b2c379cdfb4f415e39e3c8e45d12",
       "source_name": "CVE (NVD)",
@@ -1232,6 +1274,20 @@
       "cvss_score": null,
       "published_at": "2026-05-18T08:57:26+00:00",
       "created_at": "2026-05-18T10:55:51.113724+00:00"
+    },
+    {
+      "id": "d29ea9960834cb6e",
+      "content_hash": "d29ea9960834cb6e09592bb2e501944d2bfffdcbda58ad985fc0d8980774ac4c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thescientificdrop.com/2026/05/earths-radio-bubble-every-signal-weve.html",
+      "title": "Earth's Radio Bubble: Every signal we've ever sent into space",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48176873\">Comments</a>",
+      "url": "https://www.thescientificdrop.com/2026/05/earths-radio-bubble-every-signal-weve.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-18T08:36:42+00:00",
+      "created_at": "2026-05-18T23:54:52.386834+00:00"
     },
     {
       "id": "289b92aac1faaa4e",
@@ -6944,62 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-05-15T22:16:55.590000",
       "created_at": "2026-05-16T21:38:37.548265+00:00"
-    },
-    {
-      "id": "0b6257814c7f68da",
-      "content_hash": "0b6257814c7f68da789c26258f4b1bcd3c22de41913c6cdf5e0f46ef27b6a5d0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45351",
-      "title": "CVE-2026-45351 - Open WebUI is a self-hosted artificial intelligence platform designed to operate...",
-      "body": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to 0.8.9, when a regular user [non-admin] logs into the application, a http://IP:8080/api/models? web request is initiated by the application and in response, it reveals the system prompt of available models set by admin on models pages in workspace affecting the confidentiality of application. This vulnerability is fixed in 0.8.9.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45351",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-15T22:16:55.453000",
-      "created_at": "2026-05-16T21:38:37.548258+00:00"
-    },
-    {
-      "id": "bfc0f6c2f0cc6247",
-      "content_hash": "bfc0f6c2f0cc6247378cfeb7589acf83a03f2f508c630445c3fd64593dc67175",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45350",
-      "title": "CVE-2026-45350 - Open WebUI is a self-hosted artificial intelligence platform designed to operate...",
-      "body": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to 0.8.6, there is a vulnerability in chat completion API, which allows attackers to bypass tool restrictions, potentially enabling unauthorized actions or access. In the chat_completion API, the parameters tool_ids and tool_servers are supplied by the user. These parameters are used to create a tools_dict by the middleware. This is then used by get_tool_by_id to retrieve the appropriate tool. However, there is no checks in that ensures the user that uses the API has permission to use the tool, meaning that a user can invoke any server tool by supplying the correct tool_id or tool_servers parameters via the chat completion API. Moreover, the authentication token stored in the server would be used when invoking the tool, so the tool will be invoked with the server privilege. This vulnerability is fixed in 0.8.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45350",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-15T22:16:55.323000",
-      "created_at": "2026-05-16T21:38:37.548251+00:00"
-    },
-    {
-      "id": "03ec0175a2a6b9df",
-      "content_hash": "03ec0175a2a6b9dff7d7417c56d53c6c7a8081ad3f2ff75bfb6630e9d2efa339",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45347",
-      "title": "CVE-2026-45347 - Open WebUI is a self-hosted artificial intelligence platform designed to operate...",
-      "body": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to 0.5.11, there is a blind server side request forgery (SSRF) via the PDF generate function. In the PDF export, user inputs are interpreted as HTML and embedded into the PDF. According to tests, scripts and some potentially dangerous tags (iFrame, Object, etc.) are blocked, preventing server-side content from being read through this vulnerability. However, an image tag can be used to force a server-side request (SSRF), as shown in the following below. This vulnerability is fixed in 0.5.11.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45347",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-15T22:16:55.190000",
-      "created_at": "2026-05-16T21:38:37.548244+00:00"
-    },
-    {
-      "id": "f91cbd7692dff39f",
-      "content_hash": "f91cbd7692dff39f01fb53226deb479a9c2ae6b18ddd34e2d98f19398a098aef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45346",
-      "title": "CVE-2026-45346 - Open WebUI is a self-hosted artificial intelligence platform designed to operate...",
-      "body": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to 0.6.31, there is a Cross-Site Scripting vulnerability in Open WebUI SVG renderer implementation. This vulnerability is fixed in 0.6.31.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45346",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-15T22:16:55.063000",
-      "created_at": "2026-05-16T21:38:37.548237+00:00"
     }
   ]
 }
