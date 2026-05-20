@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-19T23:53:05.741254+00:00",
+  "generated_at": "2026-05-20T02:05:52.888135+00:00",
   "items": [
+    {
+      "id": "9706fde4f31c0ea8",
+      "content_hash": "9706fde4f31c0ea838af1314fb5de7de2a0d77eea42b433a6f67da7e4b843e12",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://status.railway.com/?date=20260519",
+      "title": "Railway Blocked by Google Cloud",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48201484\">Comments</a>",
+      "url": "https://status.railway.com/?date=20260519",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-20T00:23:54+00:00",
+      "created_at": "2026-05-20T02:05:52.887363+00:00"
+    },
+    {
+      "id": "8c83ff2e4ddde217",
+      "content_hash": "8c83ff2e4ddde217465f7cecbed54fea5bc66a29f6e03768ec2440130f63b1f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/github/status/2056884788179726685",
+      "title": "GitHub is investigating unauthorized access to their internal repositories",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48201316\">Comments</a>",
+      "url": "https://twitter.com/github/status/2056884788179726685",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-20T00:01:18+00:00",
+      "created_at": "2026-05-20T02:05:52.887577+00:00"
+    },
     {
       "id": "a55bb0dae8344e88",
       "content_hash": "a55bb0dae8344e88f7ca7259a526924379d670ac8ad5431d540ef24cd4f4ee8d",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-19T22:30:31+00:00",
       "created_at": "2026-05-19T23:53:05.740610+00:00"
+    },
+    {
+      "id": "0b631f8b2e1dff83",
+      "content_hash": "0b631f8b2e1dff837f40093b696aaa939e62feafd022cb1217aca0e456bd14a1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "title": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48200569\">Comments</a>",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-19T22:30:31+00:00",
+      "created_at": "2026-05-20T02:05:52.887465+00:00"
     },
     {
       "id": "be77b66a5d32be3a",
@@ -268,6 +310,20 @@
       "created_at": "2026-05-19T20:23:17.110247+00:00"
     },
     {
+      "id": "4a901b1c547d36b6",
+      "content_hash": "4a901b1c547d36b654390dbf4d7ed6b9f37468597c7fa403e34f7c4026fa4291",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "title": "Dumb ways for an open source project to die",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48198127\">Comments</a>",
+      "url": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-19T19:22:56+00:00",
+      "created_at": "2026-05-20T02:05:52.887629+00:00"
+    },
+    {
       "id": "9276d22322824fb9",
       "content_hash": "9276d22322824fb953f8144cef1e7bd242960ae149f012b52daa5357c12bef56",
       "source_name": "TechCrunch",
@@ -308,6 +364,20 @@
       "cvss_score": null,
       "published_at": "2026-05-19T19:14:12+00:00",
       "created_at": "2026-05-19T20:23:17.110218+00:00"
+    },
+    {
+      "id": "a5ca0215f33b0256",
+      "content_hash": "a5ca0215f33b02561166f97ad9ed1b3ab7445ed13cf4ba0044746fbf043a77db",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "title": "Mistral AI acquires Emmi AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48197995\">Comments</a>",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-19T19:14:12+00:00",
+      "created_at": "2026-05-20T02:05:52.887523+00:00"
     },
     {
       "id": "c541e39fe294c839",
@@ -364,6 +434,20 @@
       "cvss_score": null,
       "published_at": "2026-05-19T18:34:27+00:00",
       "created_at": "2026-05-19T20:23:17.110203+00:00"
+    },
+    {
+      "id": "6e7d367d4624aff5",
+      "content_hash": "6e7d367d4624aff563bdc479e031c325fefa2a108e848956502a553ef84da94f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+      "title": "Gemini CLI will stop working from June 18, 2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48196867\">Comments</a>",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-19T18:03:10+00:00",
+      "created_at": "2026-05-20T02:05:52.887816+00:00"
     },
     {
       "id": "6895124b5851d3af",
@@ -1428,6 +1512,48 @@
       "cvss_score": null,
       "published_at": "2026-05-19T10:38:47+00:00",
       "created_at": "2026-05-19T20:23:17.110317+00:00"
+    },
+    {
+      "id": "1cdc59dc4fa8d195",
+      "content_hash": "1cdc59dc4fa8d195c4849ac91ebfb355e7d25774f0e84d40a9956e696b5926dd",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35086",
+      "title": "CVE-2026-35086 - Improper Control of Generation of Code ('Code Injection') vulnerability in email...",
+      "body": "Improper Control of Generation of Code ('Code Injection') vulnerability in email services of Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 24.09.06.\n\nUsers are recommended to upgrade to version 24.09.06, which fixes the issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35086",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-05-19T10:16:24.263000",
+      "created_at": "2026-05-20T02:05:47.974427+00:00"
+    },
+    {
+      "id": "7033e7b549a089be",
+      "content_hash": "7033e7b549a089be3588ba6bbacf71999dadd1ebc84ba77ed87c60467114aece",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31986",
+      "title": "CVE-2026-31986 - Use of Hard-coded Cryptographic Key vulnerability in Apache OFBiz.\n\nThis issue a...",
+      "body": "Use of Hard-coded Cryptographic Key vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 24.09.06.\n\nUsers are recommended to upgrade to version 24.09.06, which fixes the issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31986",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.1,
+      "published_at": "2026-05-19T10:16:24.143000",
+      "created_at": "2026-05-20T02:05:47.974421+00:00"
+    },
+    {
+      "id": "3fb9e3eb12f310c0",
+      "content_hash": "3fb9e3eb12f310c05618c1ad09be0f1088739b032e157f14f9053eb949cad755",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-31910",
+      "title": "CVE-2026-31910 - Server-Side Request Forgery (SSRF) vulnerability in Apache OFBiz.\n\nThis issue af...",
+      "body": "Server-Side Request Forgery (SSRF) vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 24.09.06.\n\nUsers are recommended to upgrade to version 24.09.06, which fixes the issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31910",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-05-19T10:16:24.037000",
+      "created_at": "2026-05-20T02:05:47.974414+00:00"
     },
     {
       "id": "e6fd87e504053400",
@@ -3894,6 +4020,20 @@
       "created_at": "2026-05-18T14:26:01.262258+00:00"
     },
     {
+      "id": "84b523babb55f8e0",
+      "content_hash": "84b523babb55f8e0cc0949d89be1aa3ed23912418d19ccb298475369e3d5d7cb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jeremykun.com/shortform/2026-04-13-0700/",
+      "title": "Unusual uses of OEIS sequences on GitHub",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48179172\">Comments</a>",
+      "url": "https://www.jeremykun.com/shortform/2026-04-13-0700/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-18T13:00:24+00:00",
+      "created_at": "2026-05-20T02:05:52.887733+00:00"
+    },
+    {
       "id": "2e54404e8676e335",
       "content_hash": "2e54404e8676e335fdfa53f1815232eac202c1c8629691f64aa251e670c5b4e6",
       "source_name": "The Hacker News",
@@ -4858,6 +4998,20 @@
       "cvss_score": null,
       "published_at": "2026-05-18T07:16:12.020000",
       "created_at": "2026-05-18T14:25:57.792565+00:00"
+    },
+    {
+      "id": "2a8f17fe7dc76e04",
+      "content_hash": "2a8f17fe7dc76e04e71027288f867e5629762565dbe6a4bc4e7069c927155217",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/Mercury-Language/mercury",
+      "title": "The Mercury logic programming system",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48176384\">Comments</a>",
+      "url": "https://github.com/Mercury-Language/mercury",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-18T07:12:40+00:00",
+      "created_at": "2026-05-20T02:05:52.887540+00:00"
     },
     {
       "id": "1850977f14bff0dc",
@@ -6846,160 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-17T20:15:00+00:00",
       "created_at": "2026-05-17T20:51:47.264393+00:00"
-    },
-    {
-      "id": "396ab48cdffc7d9c",
-      "content_hash": "396ab48cdffc7d9c97c64bfaf9b0ec3a340903653f26280c1a2a31ad4f68e9b5",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3123393",
-      "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
-      "body": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
-      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:46:34+00:00",
-      "created_at": "2026-05-17T19:59:15.408041+00:00"
-    },
-    {
-      "id": "f24729a1fb19ed82",
-      "content_hash": "f24729a1fb19ed82aea8acf77217b46f4f675e56e3f774cccdb3a4e0de115520",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://spectrum.ieee.org/payphone-voip",
-      "title": "VoIP brings back old-fashioned pay phones to rural Vermont",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48172505\">Comments</a>",
-      "url": "https://spectrum.ieee.org/payphone-voip",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:39:10+00:00",
-      "created_at": "2026-05-17T21:43:50.696168+00:00"
-    },
-    {
-      "id": "100f92975b702712",
-      "content_hash": "100f92975b7027126982b0469bf47b321fd6f0ae22ae026a16623c6a73c73470",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://spectrum.ieee.org/payphone-voip",
-      "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48172505\">Comments</a>",
-      "url": "https://spectrum.ieee.org/payphone-voip",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:39:10+00:00",
-      "created_at": "2026-05-17T22:42:07.406361+00:00"
-    },
-    {
-      "id": "20a68da38ae25c59",
-      "content_hash": "20a68da38ae25c59097f27bb65548f405e1e672f1099a0fb93e954594874e81a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://distill.pub/2020/growing-ca/",
-      "title": "Growing Neural Cellular Automata",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48172320\">Comments</a>",
-      "url": "https://distill.pub/2020/growing-ca/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:21:09+00:00",
-      "created_at": "2026-05-19T20:23:17.110471+00:00"
-    },
-    {
-      "id": "66e23afb1ebb0b69",
-      "content_hash": "66e23afb1ebb0b6905fc8c827fcb3f75bff88fdb15c36dca46d0f8f3135759ca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8721",
-      "title": "CVE-2026-8721 - Crypt::OpenSSL::PKCS12 versions through 1.94 for Perl truncates passwords with e...",
-      "body": "Crypt::OpenSSL::PKCS12 versions through 1.94 for Perl truncates passwords with embedded NULLs.\n\nPassword parameters in PKCS12.xs are declared char *, which routes through Perl's default typemap to SvPV_nolen.  The Perl length is discarded.\n\nThe C code (or OpenSSL internally) calls strlen() on the buffer.  Any password byte at or after the first NULL is silently dropped. Binary / KDF-derived / HMAC-derived passwords lose entropy without any warnings.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8721",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:16:25.310000",
-      "created_at": "2026-05-18T06:43:12.474158+00:00"
-    },
-    {
-      "id": "80362e267389016f",
-      "content_hash": "80362e267389016fc471d8e1092c9fe4c26dee376aaf413b00bf79742f2f2f24",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8507",
-      "title": "CVE-2026-8507 - Crypt::OpenSSL::PKCS12 versions through 1.94 for Perl have out-of-bounds (OOB) w...",
-      "body": "Crypt::OpenSSL::PKCS12 versions through 1.94 for Perl have out-of-bounds (OOB) write flaws.\n\nWhen parsing a PKCS12 file, with a >= 1 GiB OCTET STRING (or BIT STRING) attribute on a SAFEBAG, via info() or info_as_hash(), a heap out-of-bounds write would be triggered with remote-code-execution potential (RCE) due to a signed integer overflow in the size calculation passed to Renew().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8507",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:16:24.590000",
-      "created_at": "2026-05-18T06:43:12.474152+00:00"
-    },
-    {
-      "id": "8249271799c6994c",
-      "content_hash": "8249271799c6994c41a2d7c577e74d1b88c487cff73215cb9e3347f091f89bf5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.thesmallbow.com/p/consider-the-sister-2b94",
-      "title": "Consider the Sister",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48172253\">Comments</a>",
-      "url": "https://www.thesmallbow.com/p/consider-the-sister-2b94",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:13:21+00:00",
-      "created_at": "2026-05-19T10:30:48.427683+00:00"
-    },
-    {
-      "id": "ec18e4062d4bd428",
-      "content_hash": "ec18e4062d4bd428867a18bf57a265da47d5d8516f763b5da5d6256fb1a18546",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://runrepeat.com/guides/energy-return-in-running-shoes",
-      "title": "Energy return in running shoes explained (2025)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48172234\">Comments</a>",
-      "url": "https://runrepeat.com/guides/energy-return-in-running-shoes",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T19:12:15+00:00",
-      "created_at": "2026-05-19T10:30:48.427477+00:00"
-    },
-    {
-      "id": "a463d6b4f441f1bb",
-      "content_hash": "a463d6b4f441f1bb2a0956739e9bcc8414c1050989557c6fd132cfc0a970dbe8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
-      "title": "Scientists \"bottle the sun\" with a liquid battery that stores solar energy",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48171906\">Comments</a>",
-      "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T18:42:35+00:00",
-      "created_at": "2026-05-17T19:59:15.726274+00:00"
-    },
-    {
-      "id": "380c578c4aebeb38",
-      "content_hash": "380c578c4aebeb38ef4067e7dd73323b10a2d469616c05af7b34961738dbc483",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
-      "title": "Scientists “bottle the sun” with a liquid battery that stores solar energy",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48171906\">Comments</a>",
-      "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T18:42:35+00:00",
-      "created_at": "2026-05-17T20:51:47.683330+00:00"
-    },
-    {
-      "id": "e22472c47bf79dc4",
-      "content_hash": "e22472c47bf79dc47a840b50d460796e1bac31554b4f6fd12df8cdef04b525e2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46720",
-      "title": "CVE-2026-46720 - Net::Statsd::Tiny versions before 0.3.8 for Perl allowed metric injections.\n\nThe...",
-      "body": "Net::Statsd::Tiny versions before 0.3.8 for Perl allowed metric injections.\n\nThe metric names and set values were not checked for newlines, colons or pipes. Metrics generated from untrusted sources could inject additional statsd metrics.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46720",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-17T18:16:27.397000",
-      "created_at": "2026-05-18T06:43:12.474144+00:00"
     }
   ]
 }
