@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-23T20:00:27.903212+00:00",
+  "generated_at": "2026-05-23T20:56:18.924681+00:00",
   "items": [
+    {
+      "id": "8a9b80629c0caa95",
+      "content_hash": "8a9b80629c0caa95d91c03e36bae6514389a226b9d37b160bfe88c206fbefda9",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "body": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T20:48:23+00:00",
+      "created_at": "2026-05-23T20:56:12.988731+00:00"
+    },
+    {
+      "id": "0194d83a0c7b36dc",
+      "content_hash": "0194d83a0c7b36dcebde08980ab3ab244e4c4beeab185937295289b31368dbd8",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3125780",
+      "title": "SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest",
+      "body": "SolarSquare could be valued at up to $500 million in the financing expected to close next month.",
+      "url": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T20:03:13+00:00",
+      "created_at": "2026-05-23T20:56:18.595053+00:00"
+    },
     {
       "id": "4af799919d8cc882",
       "content_hash": "4af799919d8cc8824a1ed6da145cd3d7726517fa7d0ed8a64774e6f15870ab19",
@@ -1526,6 +1554,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T12:36:37+00:00",
       "created_at": "2026-05-22T13:22:15.017732+00:00"
+    },
+    {
+      "id": "9d3aa546a7eb8b4e",
+      "content_hash": "9d3aa546a7eb8b4ec95f9b617bb616b9395ac4f663b4e304666684bdeb68197b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "title": "dotNET (OK, C#) gets union types",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48234954\">Comments</a>",
+      "url": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T12:28:50+00:00",
+      "created_at": "2026-05-23T20:56:18.924259+00:00"
     },
     {
       "id": "ff149cc8359e7105",
@@ -6958,48 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-05-21T08:16:22.253000",
       "created_at": "2026-05-21T22:09:37.565935+00:00"
-    },
-    {
-      "id": "422a045c2676e271",
-      "content_hash": "422a045c2676e27134df3b2d8c20b8ac8417db9192426763e2ec02b66010de3b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44065",
-      "title": "CVE-2026-44065 - An off-by-two error in lp_write() in papd in Netatalk 2.0.0 through 4.4.2 allows...",
-      "body": "An off-by-two error in lp_write() in papd in Netatalk 2.0.0 through 4.4.2 allows an adjacent network attacker to modify limited data or cause a minor service disruption via crafted print data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44065",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.2,
-      "published_at": "2026-05-21T08:16:22.143000",
-      "created_at": "2026-05-21T22:09:37.565929+00:00"
-    },
-    {
-      "id": "0aaa95b650736447",
-      "content_hash": "0aaa95b650736447592ef8ff0b7e1b9d070efee9d22469f2df44e45059cd2c1e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44064",
-      "title": "CVE-2026-44064 - An out-of-bounds read in ASP session ID handling in Netatalk 1.3 through 4.4.2 a...",
-      "body": "An out-of-bounds read in ASP session ID handling in Netatalk 1.3 through 4.4.2 allows an adjacent network attacker to obtain limited information or cause a denial of service via a crafted ASP request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44064",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T08:16:22.020000",
-      "created_at": "2026-05-21T22:09:37.565923+00:00"
-    },
-    {
-      "id": "b20bd9ccf245c93d",
-      "content_hash": "b20bd9ccf245c93da6f640ce0dd1733e7a61681bcf11b7e04b565cfc831c1a45",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44063",
-      "title": "CVE-2026-44063 - An LDAP injection vulnerability in Netatalk 2.1.0 through 4.4.2 allows a remote ...",
-      "body": "An LDAP injection vulnerability in Netatalk 2.1.0 through 4.4.2 allows a remote authenticated attacker to manipulate LDAP queries and obtain limited information or modify LDAP entries via crafted filter input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44063",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.2,
-      "published_at": "2026-05-21T08:16:21.907000",
-      "created_at": "2026-05-21T22:09:37.565916+00:00"
     }
   ]
 }
