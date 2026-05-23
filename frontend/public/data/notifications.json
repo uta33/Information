@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-23T22:46:10.510892+00:00",
+  "generated_at": "2026-05-23T23:46:30.922327+00:00",
   "items": [
+    {
+      "id": "bbf91b36d0c7858b",
+      "content_hash": "bbf91b36d0c7858bac3dc3884244c9ec348e74fb98b69a9a9be99e449ac16eea",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://khz.ac/software/i3-integration.html",
+      "title": "My I3-Emacs Integration",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48252535\">Comments</a>",
+      "url": "https://khz.ac/software/i3-integration.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T23:13:42+00:00",
+      "created_at": "2026-05-23T23:46:30.921718+00:00"
+    },
+    {
+      "id": "1346e2888d7d8992",
+      "content_hash": "1346e2888d7d8992b07576b9814dc52da9b70725779bee145bcacdb518dfb8ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bun.com/docs/runtime/image",
+      "title": "Bun.Image",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48252442\">Comments</a>",
+      "url": "https://bun.com/docs/runtime/image",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T22:57:51+00:00",
+      "created_at": "2026-05-23T23:46:30.921835+00:00"
+    },
     {
       "id": "d214ad4df83ad7c6",
       "content_hash": "d214ad4df83ad7c63d6b8976faef8a06e7bff974b9cfaf878ec7fbcbb77a4259",
@@ -30,6 +58,20 @@
       "created_at": "2026-05-23T22:46:10.510367+00:00"
     },
     {
+      "id": "4d634f3cfb047ca0",
+      "content_hash": "4d634f3cfb047ca0b3dfab1ac1dec252cfada7abf710604878fd21dfac5b216c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.c82.net/euclid/",
+      "title": "Byrne's Euclid",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48252146\">Comments</a>",
+      "url": "https://www.c82.net/euclid/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T22:19:36+00:00",
+      "created_at": "2026-05-23T23:46:30.921802+00:00"
+    },
+    {
       "id": "990b41e6482e964f",
       "content_hash": "990b41e6482e964f19de566801577b872ee880ff77cc1046e048a44026ad8f0e",
       "source_name": "Hacker News (Best)",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T22:09:05+00:00",
       "created_at": "2026-05-23T22:46:10.510132+00:00"
+    },
+    {
+      "id": "8e5e2e29a154d9f3",
+      "content_hash": "8e5e2e29a154d9f3e24c8261c5f1ce2da957f5f4fcfe543e34b449f46b29a0aa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c3w2l249j8go",
+      "title": "Toxic chemical leak at a manufacturing facility in Orange County",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48252060\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c3w2l249j8go",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T22:09:05+00:00",
+      "created_at": "2026-05-23T23:46:30.921752+00:00"
     },
     {
       "id": "123790cdb34f85db",
@@ -464,6 +520,34 @@
       "created_at": "2026-05-23T12:56:39.071143+00:00"
     },
     {
+      "id": "0899f9f692b0ecfe",
+      "content_hash": "0899f9f692b0ecfeffe9143e4d4464cd6fce2b021ab4cc0f42a1a00aca823706",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reenigne.org/blog/80386-microcode-disassembled/",
+      "title": "80386 microcode disassembled",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48247004\">Comments</a>",
+      "url": "https://www.reenigne.org/blog/80386-microcode-disassembled/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T12:11:43+00:00",
+      "created_at": "2026-05-23T23:46:30.921786+00:00"
+    },
+    {
+      "id": "b2d55232a22e7012",
+      "content_hash": "b2d55232a22e7012a0d6c23c2cb80a6df486611f057c3fa17bbc51ab8c2de8c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.realclearpolitics.com/articles/2026/05/22/judsons_last_ride_154150.html",
+      "title": "Judson's Last Ride",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246993\">Comments</a>",
+      "url": "https://www.realclearpolitics.com/articles/2026/05/22/judsons_last_ride_154150.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T12:09:05+00:00",
+      "created_at": "2026-05-23T23:46:30.921886+00:00"
+    },
+    {
       "id": "813074d1056ec1d9",
       "content_hash": "813074d1056ec1d93c3a215b3da8df7710fbd8d68d5db37f7dcb4ac2fbed96e8",
       "source_name": "The Hacker News",
@@ -532,6 +616,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T11:50:22+00:00",
       "created_at": "2026-05-23T20:00:27.902699+00:00"
+    },
+    {
+      "id": "a754536fd5c8d28b",
+      "content_hash": "a754536fd5c8d28b0c896eded24243d91b0ef70e68e7fe52cd92054f14822ff9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://horace.io/brrr_intro.html",
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246889\">Comments</a>",
+      "url": "https://horace.io/brrr_intro.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T11:50:22+00:00",
+      "created_at": "2026-05-23T23:46:30.921869+00:00"
     },
     {
       "id": "dd7cbb99bc707bc1",
@@ -980,6 +1078,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T20:39:42+00:00",
       "created_at": "2026-05-23T17:53:22.804075+00:00"
+    },
+    {
+      "id": "8a2d44c7cc0e03ae",
+      "content_hash": "8a2d44c7cc0e03ae5be0c1eff3334a89faf904b0b7d651e8c51ac7919e6233dc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://victoriaritvo.com/blog/hengefinder/",
+      "title": "Hengefinder: Finding when the sun aligns with your street",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48241335\">Comments</a>",
+      "url": "https://victoriaritvo.com/blog/hengefinder/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T20:39:42+00:00",
+      "created_at": "2026-05-23T23:46:30.921683+00:00"
     },
     {
       "id": "006eefc447da742e",
@@ -1710,6 +1822,20 @@
       "created_at": "2026-05-23T22:46:10.510108+00:00"
     },
     {
+      "id": "ed0bbd87901c991e",
+      "content_hash": "ed0bbd87901c991e9e01d16a98142585fa815e3efa173d4be6d3de977d5d1bf0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "title": ".NET (OK, C#) finally gets union types",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48234954\">Comments</a>",
+      "url": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T12:28:50+00:00",
+      "created_at": "2026-05-23T23:46:30.921664+00:00"
+    },
+    {
       "id": "ff149cc8359e7105",
       "content_hash": "ff149cc8359e7105d480f84d234deab8aee1690531e8cffce0984bb9aee71408",
       "source_name": "Hacker News (Best)",
@@ -2184,6 +2310,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T06:41:28+00:00",
       "created_at": "2026-05-22T18:27:22.153966+00:00"
+    },
+    {
+      "id": "256a4cf2ef527c11",
+      "content_hash": "256a4cf2ef527c11318f87b36e2cca56e07647746f7e0ee20e1f162e0e4fd8f7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sales-and-dungeons.app/",
+      "title": "Sales and Dungeons: Thermal printer TTRPG utility",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48232721\">Comments</a>",
+      "url": "https://sales-and-dungeons.app/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T06:36:56+00:00",
+      "created_at": "2026-05-23T23:46:30.921629+00:00"
     },
     {
       "id": "af4190be67992467",
@@ -6860,146 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-05-21T09:16:30.010000",
       "created_at": "2026-05-21T23:49:49.408492+00:00"
-    },
-    {
-      "id": "646c4101f072abca",
-      "content_hash": "646c4101f072abcae80ab86ca0a9ce6e7d02c4d1a611f5b795e253bee99fc638",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44075",
-      "title": "CVE-2026-44075 - A missing break statement in DSI OpenSession processing in Netatalk 1.5.0 throug...",
-      "body": "A missing break statement in DSI OpenSession processing in Netatalk 1.5.0 through 4.4.2 causes a DSIOPT_ATTNQUANT switch case to fall through into DSIOPT_SERVQUANT, resulting in unintended session option handling that may allow a remote attacker to cause a minor service disruption via crafted DSI session options.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44075",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-05-21T09:16:29.770000",
-      "created_at": "2026-05-21T23:49:49.408486+00:00"
-    },
-    {
-      "id": "312ee7965aaa426f",
-      "content_hash": "312ee7965aaa426ff194c40e87b9069336ac7ca7b182b20cde5794ff68596ea9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44074",
-      "title": "CVE-2026-44074 - Netatalk 2.1.0 through 4.4.2 combines multiple errno values using bitwise OR, re...",
-      "body": "Netatalk 2.1.0 through 4.4.2 combines multiple errno values using bitwise OR, resulting in incorrect error codes when multiple error conditions occur simultaneously, which may allow a remote attacker to cause a minor service disruption via conditions that trigger incorrect error-handling paths.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44074",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-05-21T09:16:29.650000",
-      "created_at": "2026-05-21T23:49:49.408480+00:00"
-    },
-    {
-      "id": "2d3a7b55b4457607",
-      "content_hash": "2d3a7b55b44576070e267a92911142972cd56ebedcf26c93b55246790d3da2f5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44071",
-      "title": "CVE-2026-44071 - Netatalk 3.1.2 through 4.4.2 is compiled without FORTIFY_SOURCE, which disables ...",
-      "body": "Netatalk 3.1.2 through 4.4.2 is compiled without FORTIFY_SOURCE, which disables built-in buffer overflow detection at runtime, potentially allowing a remote attacker to cause a minor denial of service via memory errors that would otherwise be caught and safely terminated by runtime protection.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44071",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-05-21T09:16:29.340000",
-      "created_at": "2026-05-21T23:49:49.408473+00:00"
-    },
-    {
-      "id": "a69b4292681f1ab5",
-      "content_hash": "a69b4292681f1ab502d157f7d0b231df7213fc43605260c95a6257863640c22c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44057",
-      "title": "CVE-2026-44057 - A dead bounds check in the Spotlight RPC unmarshaller in Netatalk 3.0.0 through ...",
-      "body": "A dead bounds check in the Spotlight RPC unmarshaller in Netatalk 3.0.0 through 4.4.2 results in an unreachable code path that provides no effective bounds protection, which may allow a remote authenticated attacker to obtain limited information via crafted Spotlight RPC requests.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44057",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-05-21T09:16:27.930000",
-      "created_at": "2026-05-21T23:49:49.408467+00:00"
-    },
-    {
-      "id": "7e5e92e16b469b6b",
-      "content_hash": "7e5e92e16b469b6bf6f56d402448d5ec199600cf92cb5754f0a515caa794a068",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-27393",
-      "title": "CVE-2026-27393 - Missing Authorization vulnerability in Tobias CF7 WOW Styler allows Exploiting I...",
-      "body": "Missing Authorization vulnerability in Tobias CF7 WOW Styler allows Exploiting Incorrectly Configured Access Control Security Levels.\n\nThis issue affects CF7 WOW Styler: from n/a through 1.7.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27393",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-05-21T09:16:26.780000",
-      "created_at": "2026-05-21T23:49:49.408461+00:00"
-    },
-    {
-      "id": "22e3d9b5df3c50a4",
-      "content_hash": "22e3d9b5df3c50a46ad5b0fa519339a22332d0c24067413b169689af5dfc2087",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-27349",
-      "title": "CVE-2026-27349 - Exposure of Sensitive System Information to an Unauthorized Control Sphere vulne...",
-      "body": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in WPFunnels Team Mail Mint allows Retrieve Embedded Sensitive Data.\n\nThis issue affects Mail Mint: from n/a through 1.19.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27349",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-05-21T09:16:26.647000",
-      "created_at": "2026-05-21T23:49:49.408452+00:00"
-    },
-    {
-      "id": "5f2557ab40f46264",
-      "content_hash": "5f2557ab40f4626449ebd9bc2ff5d7c93f1cad50607f37f938d47a178cb1c144",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-22880",
-      "title": "CVE-2026-22880 - Mattermost Mobile Apps versions <=2.37 11.4 2.0.37 11.0.4 11.1.3 11.3.2 10.11.11...",
-      "body": "Mattermost Mobile Apps versions <=2.37 11.4 2.0.37 11.0.4 11.1.3 11.3.2 10.11.11.0 fail to properly validate the SSO authentication callback origin which allows an attacker controlling a malicious Mattermost server to steal user credentials for a legitimate Mattermost server via relaying the SSO code exchange flow through the mobile application. Mattermost Advisory ID: MMSA-2025-00564",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22880",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-05-21T09:16:26.510000",
-      "created_at": "2026-05-21T22:09:37.566007+00:00"
-    },
-    {
-      "id": "992c8c1e06d88ce3",
-      "content_hash": "992c8c1e06d88ce3e0eaf8650187ee04f7974fe25a3fa17d5c34b1d612f69fdc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://aiengineeringfromscratch.com",
-      "title": "AI Engineering from Scratch",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48219853\">Comments</a>",
-      "url": "https://aiengineeringfromscratch.com",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T09:14:13+00:00",
-      "created_at": "2026-05-23T17:53:22.804180+00:00"
-    },
-    {
-      "id": "d0c44cdaf2db478a",
-      "content_hash": "d0c44cdaf2db478a711093245ed56ce4338576aacd5bd9907d15debd2bbf0266",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
-      "title": "The famous O3 \"GeoGuessr\" prompt did not work",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48219682\">Comments</a>",
-      "url": "https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T08:52:45+00:00",
-      "created_at": "2026-05-21T10:29:27.611493+00:00"
-    },
-    {
-      "id": "0e11c0681c7a6f2b",
-      "content_hash": "0e11c0681c7a6f2b330da2dd9d17ec1bb16520cb5fd20571419a39848d32643a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7836",
-      "title": "CVE-2026-7836 - An incorrect calculation in the hextoint macro in Netatalk 2.0.0 through 4.4.2 d...",
-      "body": "An incorrect calculation in the hextoint macro in Netatalk 2.0.0 through 4.4.2 due to improper uppercase character handling allows a remote authenticated attacker to cause limited data modification via crafted hexadecimal input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7836",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-05-21T08:16:23.403000",
-      "created_at": "2026-05-21T22:09:37.566000+00:00"
     }
   ]
 }
