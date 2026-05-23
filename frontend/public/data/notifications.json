@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T20:56:18.924681+00:00",
+  "generated_at": "2026-05-23T21:45:19.418247+00:00",
   "items": [
     {
       "id": "8a9b80629c0caa95",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T20:48:23+00:00",
       "created_at": "2026-05-23T20:56:12.988731+00:00"
+    },
+    {
+      "id": "cb24d9e3e31a708f",
+      "content_hash": "cb24d9e3e31a708f6959e111ac2d27d03a0303a91f8e1e012b05b9e84d0ff66a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "title": "Pardon MIE?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48251229\">Comments</a>",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T20:36:42+00:00",
+      "created_at": "2026-05-23T21:45:19.417548+00:00"
     },
     {
       "id": "0194d83a0c7b36dc",
@@ -6986,20 +7000,6 @@
       "cvss_score": 4.2,
       "published_at": "2026-05-21T08:16:22.363000",
       "created_at": "2026-05-21T22:09:37.565941+00:00"
-    },
-    {
-      "id": "294cef2aedc4af60",
-      "content_hash": "294cef2aedc4af607360eaae695881533845319fbc3971793a386189bbc13c59",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44066",
-      "title": "CVE-2026-44066 - Multiple heap out-of-bounds reads in the Spotlight RPC unmarshalling code in Net...",
-      "body": "Multiple heap out-of-bounds reads in the Spotlight RPC unmarshalling code in Netatalk 3.1.0 through 4.4.2 allow a remote authenticated attacker to obtain sensitive information or cause a minor service disruption.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44066",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T08:16:22.253000",
-      "created_at": "2026-05-21T22:09:37.565935+00:00"
     }
   ]
 }
