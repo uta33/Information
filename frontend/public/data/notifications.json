@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-23T17:53:22.804704+00:00",
+  "generated_at": "2026-05-23T20:00:27.903212+00:00",
   "items": [
+    {
+      "id": "4af799919d8cc882",
+      "content_hash": "4af799919d8cc8824a1ed6da145cd3d7726517fa7d0ed8a64774e6f15870ab19",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://veronicaexplains.net/my-first-writerdeck/",
+      "title": "It's time to talk about my writerdeck",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T18:45:37+00:00",
+      "created_at": "2026-05-23T20:00:27.902451+00:00"
+    },
+    {
+      "id": "827d9690d934fade",
+      "content_hash": "827d9690d934fade932c4cf6e397d7ce5de420a97a66477064ea11d172737439",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
+      "title": "Texas woman arrested for Facebook post about town water quality",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48249747\">Comments</a>",
+      "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T18:02:42+00:00",
+      "created_at": "2026-05-23T20:00:27.902503+00:00"
+    },
     {
       "id": "4d60749a0413564a",
       "content_hash": "4d60749a0413564af98089b31a720c7b9377894335bfab43fd141de68b83e904",
@@ -240,6 +268,20 @@
       "created_at": "2026-05-23T14:26:08.714014+00:00"
     },
     {
+      "id": "e557bfb2ebd30e7a",
+      "content_hash": "e557bfb2ebd30e7ab6c57f529df53d7f65b042d382c7e269379fb5ea8706227a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://benmyers.dev/blog/on-the-dl/",
+      "title": "On The <dl> (2021)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48247325\">Comments</a>",
+      "url": "https://benmyers.dev/blog/on-the-dl/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T13:03:43+00:00",
+      "created_at": "2026-05-23T20:00:27.902481+00:00"
+    },
+    {
       "id": "789f12e20f6b9eb0",
       "content_hash": "789f12e20f6b9eb00344080ecd78480a4a343af0d0a89f0b789f64dc930c99e9",
       "source_name": "TechCrunch",
@@ -324,6 +366,20 @@
       "created_at": "2026-05-23T14:26:08.714306+00:00"
     },
     {
+      "id": "b8921747b8789181",
+      "content_hash": "b8921747b878918138ecc3f583fdda0351effb9f0794e02059eead5d97a92d48",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/i/status/2058064720553222567",
+      "title": "Electrobun 2.0 will be decoupled from Bun due to the Rust rewrite",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246917\">Comments</a>",
+      "url": "https://twitter.com/i/status/2058064720553222567",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T11:54:39+00:00",
+      "created_at": "2026-05-23T20:00:27.902932+00:00"
+    },
+    {
       "id": "37b3a479c84efc8d",
       "content_hash": "37b3a479c84efc8d73be250ef86fded0dc8eb34a287270c7b1c8bae27e9cbdae",
       "source_name": "Hacker News (Best)",
@@ -336,6 +392,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T11:50:22+00:00",
       "created_at": "2026-05-23T12:56:39.071166+00:00"
+    },
+    {
+      "id": "9121ed3e8800c7dc",
+      "content_hash": "9121ed3e8800c7dcf1da605d474d43548a221e702295f05ef92804e6cfe3af04",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://horace.io/brrr_intro.html",
+      "title": "Making Deep Learning Go Brrrr from First Principles (2022)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246889\">Comments</a>",
+      "url": "https://horace.io/brrr_intro.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T11:50:22+00:00",
+      "created_at": "2026-05-23T20:00:27.902699+00:00"
     },
     {
       "id": "dd7cbb99bc707bc1",
@@ -548,6 +618,20 @@
       "created_at": "2026-05-23T02:24:53.495137+00:00"
     },
     {
+      "id": "046f2f78721e14f2",
+      "content_hash": "046f2f78721e14f2d62a2300a789eb9822df7e2a32969d61a5cb0b82817c2c3d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight",
+      "title": "SpaceX launches Starship v3 rocket",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48242959\">Comments</a>",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T23:41:55+00:00",
+      "created_at": "2026-05-23T20:00:27.902683+00:00"
+    },
+    {
       "id": "6ceae8e2c8591fcc",
       "content_hash": "6ceae8e2c8591fcc4b21b78af6c4c2639340d8e2e1eb90f28de630811d1880f1",
       "source_name": "TechCrunch",
@@ -644,6 +728,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T21:36:55+00:00",
       "created_at": "2026-05-23T02:24:53.494976+00:00"
+    },
+    {
+      "id": "32e4c7fc0320a2eb",
+      "content_hash": "32e4c7fc0320a2eb5b22ae72ca9a87e8e7fdf7250ee57fabbb9a9c39b7f39282",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+      "title": "Green card seekers must leave U.S. to apply, Trump administration says",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48241890\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T21:27:12+00:00",
+      "created_at": "2026-05-23T20:00:27.902597+00:00"
     },
     {
       "id": "8b70549ccf04d2ff",
@@ -5042,6 +5140,20 @@
       "created_at": "2026-05-21T18:51:34.572106+00:00"
     },
     {
+      "id": "ed0283c63a480417",
+      "content_hash": "ed0283c63a480417d7a3cc3601f86d516b9cd36c289554e7f6ad3a8fee6fe42e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.counting-stuff.com/reflections-on-building-forum-software/",
+      "title": "Reflections on Building Forum Software",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48224623\">Comments</a>",
+      "url": "https://www.counting-stuff.com/reflections-on-building-forum-software/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T15:41:18+00:00",
+      "created_at": "2026-05-23T20:00:27.902783+00:00"
+    },
+    {
       "id": "280b232c21597dfb",
       "content_hash": "280b232c21597dfbebcee36f0feba6fe4311f842c1aa5987c8f22de278e67ff0",
       "source_name": "TechCrunch",
@@ -6888,118 +7000,6 @@
       "cvss_score": 4.2,
       "published_at": "2026-05-21T08:16:21.907000",
       "created_at": "2026-05-21T22:09:37.565916+00:00"
-    },
-    {
-      "id": "8bd847d7377c5a92",
-      "content_hash": "8bd847d7377c5a92335f1b94d62b3e02ed569bc29288123772d3e738efea738f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44062",
-      "title": "CVE-2026-44062 - A missing output length bounds check in pull_charset_flags() in Netatalk 2.0.4 t...",
-      "body": "A missing output length bounds check in pull_charset_flags() in Netatalk 2.0.4 through 4.4.2 allows a remote authenticated attacker to execute arbitrary code or cause a denial of service via crafted character set data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44062",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T08:16:21.797000",
-      "created_at": "2026-05-21T22:09:37.565909+00:00"
-    },
-    {
-      "id": "1e842a5838667c30",
-      "content_hash": "1e842a5838667c309431e744b13343ab13057b3daaaf97c63267214aa1f94655",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44061",
-      "title": "CVE-2026-44061 - Netatalk 1.5.0 through 4.4.2 uses DES-ECB for authentication with a timing side ...",
-      "body": "Netatalk 1.5.0 through 4.4.2 uses DES-ECB for authentication with a timing side channel, which allows a remote attacker to recover authentication credentials via timing analysis.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44061",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-05-21T08:16:21.687000",
-      "created_at": "2026-05-21T22:09:37.565889+00:00"
-    },
-    {
-      "id": "06c0c38be4ca425f",
-      "content_hash": "06c0c38be4ca425f404013ea74b1d9241bd5cac85c1518510f22bb3d19a5bf1c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44060",
-      "title": "CVE-2026-44060 - An integer underflow in dsi_writeinit() in Netatalk 1.5.0 through 4.4.2 allows a...",
-      "body": "An integer underflow in dsi_writeinit() in Netatalk 1.5.0 through 4.4.2 allows a remote unauthenticated attacker to cause a denial of service via a crafted DSI write request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44060",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T08:16:21.577000",
-      "created_at": "2026-05-21T22:09:37.565882+00:00"
-    },
-    {
-      "id": "5647d0fde071a5a3",
-      "content_hash": "5647d0fde071a5a3fc743a4dd2971f04896131e8a339af88559accd71b093138",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44059",
-      "title": "CVE-2026-44059 - A race condition in the privilege toggle mechanism in Netatalk 2.2.5 through 4.4...",
-      "body": "A race condition in the privilege toggle mechanism in Netatalk 2.2.5 through 4.4.2 allows a local attacker to obtain limited information, modify limited data, or cause a minor service disruption.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44059",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.5,
-      "published_at": "2026-05-21T08:16:21.467000",
-      "created_at": "2026-05-21T22:09:37.565876+00:00"
-    },
-    {
-      "id": "0ec7b599609694a3",
-      "content_hash": "0ec7b599609694a3f11a89e8fb8a2107269f78890b0fca727fb8ad153f62170b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44058",
-      "title": "CVE-2026-44058 - An authentication bypass vulnerability in Netatalk 2.2.2 through 4.4.2 allows a ...",
-      "body": "An authentication bypass vulnerability in Netatalk 2.2.2 through 4.4.2 allows a remote privileged user to authenticate as an arbitrary user via the admin auth user mechanism.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44058",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-05-21T08:16:21.353000",
-      "created_at": "2026-05-21T22:09:37.565870+00:00"
-    },
-    {
-      "id": "c6fad28b58467dbd",
-      "content_hash": "c6fad28b58467dbd17911d2b4b9dfbfe71ce5fa59b69fb6570fd5ee6f48ed888",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44056",
-      "title": "CVE-2026-44056 - A stack-based buffer overflow in desktop.c in Netatalk 1.3 through 4.2.2 allows ...",
-      "body": "A stack-based buffer overflow in desktop.c in Netatalk 1.3 through 4.2.2 allows a remote authenticated attacker to cause a denial of service, obtain limited information, or modify limited data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44056",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-05-21T08:16:21.247000",
-      "created_at": "2026-05-21T22:09:37.565864+00:00"
-    },
-    {
-      "id": "e3598b39560fa04e",
-      "content_hash": "e3598b39560fa04ea0bfb2cbb73ec5dfd33dfc1d2aa2aa0c3a1e152995416713",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44055",
-      "title": "CVE-2026-44055 - A logic error involving bitwise OR operations in Netatalk 3.1.4 through 4.4.2 al...",
-      "body": "A logic error involving bitwise OR operations in Netatalk 3.1.4 through 4.4.2 allows a remote authenticated attacker to inject OS commands and execute arbitrary code.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44055",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T08:16:21.137000",
-      "created_at": "2026-05-21T22:09:37.565857+00:00"
-    },
-    {
-      "id": "e32bd149c179d3e7",
-      "content_hash": "e32bd149c179d3e7528af9ab5c221bdd1aa9cb4dbd9c5960fa6227c3f045f9c3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44054",
-      "title": "CVE-2026-44054 - Netatalk 2.0.0 through 4.4.2 generates AFP session tokens derived from predictab...",
-      "body": "Netatalk 2.0.0 through 4.4.2 generates AFP session tokens derived from predictable process IDs, which allows a remote authenticated attacker to cause a denial of service by exploiting the reconnect mechanism.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44054",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-21T08:16:21.017000",
-      "created_at": "2026-05-21T22:09:37.565850+00:00"
     }
   ]
 }
