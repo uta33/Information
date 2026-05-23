@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-23T12:56:39.071912+00:00",
+  "generated_at": "2026-05-23T14:26:08.714784+00:00",
   "items": [
+    {
+      "id": "385cc0646024b9b5",
+      "content_hash": "385cc0646024b9b5765eb030ef281049f1d49d2d02dd91efca64cf2c703580d0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://benmyers.dev/blog/on-the-dl/",
+      "title": "On The <dl>",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48247325\">Comments</a>",
+      "url": "https://benmyers.dev/blog/on-the-dl/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T13:03:43+00:00",
+      "created_at": "2026-05-23T14:26:08.714014+00:00"
+    },
+    {
+      "id": "789f12e20f6b9eb0",
+      "content_hash": "789f12e20f6b9eb00344080ecd78480a4a343af0d0a89f0b789f64dc930c99e9",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3125279",
+      "title": "Elon Musk has given up on solar power (on Earth)",
+      "body": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T13:00:00+00:00",
+      "created_at": "2026-05-23T14:26:08.317904+00:00"
+    },
     {
       "id": "cbb4b69ae35d4599",
       "content_hash": "cbb4b69ae35d4599aff1137d37e676307aeefebf8402b78e934692d10cdbc356",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T11:55:35+00:00",
       "created_at": "2026-05-23T12:56:33.752539+00:00"
+    },
+    {
+      "id": "ca5d791208c9a67c",
+      "content_hash": "ca5d791208c9a67c9f0ffe18efd949154d8080824e6ea995d7426817f08bcaf2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/i/status/2058064720553222567",
+      "title": "Electrobun 2.0 will be decoupled from Bun due to the rust rewrite",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246917\">Comments</a>",
+      "url": "https://twitter.com/i/status/2058064720553222567",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T11:54:39+00:00",
+      "created_at": "2026-05-23T14:26:08.714306+00:00"
     },
     {
       "id": "37b3a479c84efc8d",
@@ -6958,48 +7000,6 @@
       "cvss_score": 4.9,
       "published_at": "2026-05-21T04:16:31.133000",
       "created_at": "2026-05-21T22:09:37.565775+00:00"
-    },
-    {
-      "id": "369e15c6f5d654a4",
-      "content_hash": "369e15c6f5d654a4bf25a5edaec32e4c98e1976664a699bbe0734a04d7ee3351",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3123774",
-      "title": "Imperagen raises £5 million to use quantum physics, AI on enzyme engineering",
-      "body": "Biotech company Imperagen announced on Thursday a £5 million ($6.7 million) seed round led by PXN Ventures, with participation from IQ Capital and Northern Gritstone.",
-      "url": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T04:00:00+00:00",
-      "created_at": "2026-05-21T06:41:09.877697+00:00"
-    },
-    {
-      "id": "b7dfc49f2053b2c5",
-      "content_hash": "b7dfc49f2053b2c521743fcdecaceb1c7592ea17e686f3381d81c6fe2a1dfb94",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-      "body": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure.\nThe vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is",
-      "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-21T03:44:11+00:00",
-      "created_at": "2026-05-21T06:41:04.655885+00:00"
-    },
-    {
-      "id": "9c8f198491fe1cd6",
-      "content_hash": "9c8f198491fe1cd6b80beebc39781d5e7b34cd0853fa0a1d50225c3cd5ec2308",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
-      "title": "OpenAI to confidentially file for IPO as soon as Friday",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48217052\">Comments</a>",
-      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T02:24:35+00:00",
-      "created_at": "2026-05-21T06:41:10.222434+00:00"
     }
   ]
 }
