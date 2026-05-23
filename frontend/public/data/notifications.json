@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-23T10:20:34.604033+00:00",
+  "generated_at": "2026-05-23T11:53:34.971992+00:00",
   "items": [
+    {
+      "id": "5e3219ea207b5ac9",
+      "content_hash": "5e3219ea207b5ac95011f46b39e8f704d3c469a4b9670f3ba0d28cb3058ae782",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/",
+      "title": "US tech firms share Dutch regulator officials' names with Senate",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246614\">Comments</a>",
+      "url": "https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T10:57:14+00:00",
+      "created_at": "2026-05-23T11:53:34.971296+00:00"
+    },
     {
       "id": "e519cda0c9bc2242",
       "content_hash": "e519cda0c9bc2242a3413b2312773ab87541a2845d0c0cbe0506bd356398fc8b",
@@ -4482,6 +4496,20 @@
       "created_at": "2026-05-21T20:29:34.865801+00:00"
     },
     {
+      "id": "a4b62800a0e4e6dc",
+      "content_hash": "a4b62800a0e4e6dc0ebc48cd20ddf617b0c050fb445620110dff91bd6318d85e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
+      "title": "Improving C# Memory Safety",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48225782\">Comments</a>",
+      "url": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T16:54:48+00:00",
+      "created_at": "2026-05-23T11:53:34.971575+00:00"
+    },
+    {
       "id": "65bbded788c54f30",
       "content_hash": "65bbded788c54f3006e0e436dd63bcc84a54b521dd1b389c50f9b1990a77f791",
       "source_name": "Hacker News (Best)",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T01:55:00+00:00",
       "created_at": "2026-05-21T06:41:09.721589+00:00"
-    },
-    {
-      "id": "2bf3dea653ced3ad",
-      "content_hash": "2bf3dea653ced3ad917d981a717cb6aa8c926a0bf356a8413b6720728bdfe607",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016623.html",
-      "title": "Northern.techのcfengineにおけるアクセス制御に関する脆弱性",
-      "body": "Northern.tech CFEngine Enterprise のバージョン 3.21.8、3.24.3、および 3.27.0 より前のバージョンには、不適切なアクセス制御の脆弱性が存在します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016623.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:55:00+00:00",
-      "created_at": "2026-05-21T06:41:09.721622+00:00"
-    },
-    {
-      "id": "eb33d53c2ef9e6ff",
-      "content_hash": "eb33d53c2ef9e6ff4654460524af23cad1d4ed7a0b5c1c85b58fd17737416467",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016622.html",
-      "title": "Northern.techのcfengineにおけるコマンドインジェクションの脆弱性",
-      "body": "Northern.techのCFEngine EnterpriseおよびCommunityのバージョン3.21.8、3.24.3、および3.27.0以前には、コマンドインジェクションの脆弱性が存在します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016622.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:55:00+00:00",
-      "created_at": "2026-05-21T06:41:09.721642+00:00"
     }
   ]
 }
