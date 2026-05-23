@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-23T08:12:23.483259+00:00",
+  "generated_at": "2026-05-23T10:20:34.604033+00:00",
   "items": [
+    {
+      "id": "e519cda0c9bc2242",
+      "content_hash": "e519cda0c9bc2242a3413b2312773ab87541a2845d0c0cbe0506bd356398fc8b",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+      "body": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealing framework.\n\nThe affected packages include -\n\n\n  laravel-lang/lang\n  laravel-lang/http-statuses\n  laravel-lang/attributes\n  laravel-lang/actions\n\n\"The timing and pattern of the newly published tags",
+      "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T09:51:13+00:00",
+      "created_at": "2026-05-23T10:20:27.998556+00:00"
+    },
+    {
+      "id": "bc178d0884f29878",
+      "content_hash": "bc178d0884f298780551fe2b1db6b02778fe947ba697ca1043f5f75406b65f82",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://xcancel.com/josefprusa/status/2054602354851254330",
+      "title": "BambuStudio has been violating PrusaSlicer AGPL license since their fork",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48245862\">Comments</a>",
+      "url": "https://xcancel.com/josefprusa/status/2054602354851254330",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T08:24:57+00:00",
+      "created_at": "2026-05-23T10:20:34.603413+00:00"
+    },
     {
       "id": "20f71ae7506f6670",
       "content_hash": "20f71ae7506f6670582ae00482b56b65bd9837a5a2066d92f091689b448dbb07",
@@ -70,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T06:54:49+00:00",
       "created_at": "2026-05-23T08:12:23.482780+00:00"
+    },
+    {
+      "id": "bb18588c3542c697",
+      "content_hash": "bb18588c3542c69799932009d45a792a324cfa7354cb5993cad90c19aa821ea4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/amatsuda/rubish",
+      "title": "Rubish: A Unix shell written in pure Ruby",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48245262\">Comments</a>",
+      "url": "https://github.com/amatsuda/rubish",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T06:32:00+00:00",
+      "created_at": "2026-05-23T10:20:34.603270+00:00"
     },
     {
       "id": "66416325cd9f3b33",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T01:55:00+00:00",
       "created_at": "2026-05-21T06:41:09.721642+00:00"
-    },
-    {
-      "id": "b8be3b7de69c8fc4",
-      "content_hash": "b8be3b7de69c8fc4bb477f2b71976b96a64e42a09990589fb2f55aef74813953",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016621.html",
-      "title": "Open JS FoundationのWebdriverIOにおけるOS コマンドインジェクションの脆弱性",
-      "body": "WebdriverIOは、WebDriver、WebDriver BiDi、およびAppiumを使用したユニットテスト、エンドツーエンドテスト、コンポーネントテストのためのテスト自動化フレームワークです。バージョン9.24.0未満には、テストオーケストレーションにおいてリモートコード実行（RCE）につながるコマンドインジェクションの脆弱性があります。Gitはシェルのメタ文字を含むブランチ名を許可しており、getGitMetadataForAISelection()はこれらの名前をサニタイズせずに直接execSync()呼び出しに挿入します。攻撃者は悪意のあるリポジトリ（testOrchestrationOptions.runSmartSelection.source経由、もしくは未設定の場合は現在のディレクトリ）を提供し、そのブランチ名にペイロードを含めることでシェル上で任意のコードを実行させることが可能です。これによりCI/CDサーバーや開発者マシン上でリモートコード実行が可能となり、認証情報や秘密情報の漏洩、ソースコードおよびSSHキーの持ち出し、システムの乗っ取り、改ざんされたビルド成果物を用いたサプライチェーン攻撃を招きます。本問題はバージョン9.24.0で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016621.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:55:00+00:00",
-      "created_at": "2026-05-21T06:41:09.721661+00:00"
-    },
-    {
-      "id": "f60eae3afc5e3372",
-      "content_hash": "f60eae3afc5e33722652f30759c541849ea6a89cb8e417dde23ff22a86a8c3a3",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016620.html",
-      "title": "マイクロソフトのPower Automate for Desktopにおける情報漏えいに関する脆弱性",
-      "body": "Power Automateにおいて、機密情報が不正なアクターに露出することで、認可された攻撃者がネットワーク上で情報を開示できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016620.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:55:00+00:00",
-      "created_at": "2026-05-21T06:41:09.721678+00:00"
-    },
-    {
-      "id": "906f31ef921d7e2e",
-      "content_hash": "906f31ef921d7e2ecec070af6a52cca93df93fed341ea626f7500b77f20282dd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016619.html",
-      "title": "protobufjs projectのprotobufjs-cliにおけるOS コマンドインジェクションの脆弱性",
-      "body": "protobufjs-cli は protobuf.js のコマンドラインアドオンです。バージョン 1.2.1 および 2.0.2 より前では、pbts が入力ファイルパスからシェルコマンド文字列を構築し、それを child_process.exec を通じて実行することで JSDoc を呼び出していました。そのため、シェルのメタキャラクターを含むファイルパスがシェルによって解釈され、JSDoc にプレーンな引数として正しく渡されない可能性がありました。この脆弱性はバージョン 1.2.1 および 2.0.2 で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016619.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:55:00+00:00",
-      "created_at": "2026-05-21T06:41:09.721695+00:00"
     }
   ]
 }
