@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-23T15:54:11.662116+00:00",
+  "generated_at": "2026-05-23T16:48:12.212939+00:00",
   "items": [
+    {
+      "id": "ce2906e5e7cf2e6a",
+      "content_hash": "ce2906e5e7cf2e6a1b422080d9122b23d2d067254fec5bb4ae2a8ba517ed6918",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48248954\">Comments</a>",
+      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:24:50+00:00",
+      "created_at": "2026-05-23T16:48:12.212272+00:00"
+    },
+    {
+      "id": "ab926fbbd0edda86",
+      "content_hash": "ab926fbbd0edda86db1eeeba0d857b47f9fa49215e53291f334c718ddd412422",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
+      "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48248775\">Comments</a>",
+      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:02:43+00:00",
+      "created_at": "2026-05-23T16:48:12.212463+00:00"
+    },
+    {
+      "id": "57a2005a0226733e",
+      "content_hash": "57a2005a0226733e097c21c09c035a5fce71feaa8b56313424870ccb3147abb8",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3123789",
+      "title": "These special phone and app features can help protect you from spyware",
+      "body": "Apple, Meta, and Google offer special security modes that provide your devices more secure against targeted spyware attacks. Here are how those modes work, what they do, and how to switch them on.",
+      "url": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:00:00+00:00",
+      "created_at": "2026-05-23T16:48:11.829983+00:00"
+    },
+    {
+      "id": "2d4b39bb8c15cd05",
+      "content_hash": "2d4b39bb8c15cd05e6ace48bf7e8e1e9e90fb61028f391c5077cdb8f6f906c9c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
+      "title": "Ebola Outbreak Now Third Largest Recorded and \"Spreading Rapidly\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48248659\">Comments</a>",
+      "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T15:47:38+00:00",
+      "created_at": "2026-05-23T16:48:12.212620+00:00"
+    },
     {
       "id": "762eaa7d25ac8965",
       "content_hash": "762eaa7d25ac896559ce604c9a3888abb29949b2dda103104b39c7f2ab7862f0",
@@ -84,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T14:09:57+00:00",
       "created_at": "2026-05-23T15:54:11.661356+00:00"
+    },
+    {
+      "id": "939ca3521e897ee1",
+      "content_hash": "939ca3521e897ee17102d83dca7f63f3502a121486cea356f0f8e323c4be6033",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/",
+      "title": "Oura says it gets government demands for user data",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48247876\">Comments</a>",
+      "url": "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T14:09:57+00:00",
+      "created_at": "2026-05-23T16:48:12.212211+00:00"
     },
     {
       "id": "9c94ba30d3440c8e",
@@ -266,6 +336,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T09:37:16+00:00",
       "created_at": "2026-05-23T15:54:11.661821+00:00"
+    },
+    {
+      "id": "aa93585bc22ec296",
+      "content_hash": "aa93585bc22ec296760f6217c6c0f74d1d284cd62ab2aef7005f5116b0356599",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://olano.dev/blog/dangerously-skip/",
+      "title": "- -dangerously-skip-reading-code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48246232\">Comments</a>",
+      "url": "https://olano.dev/blog/dangerously-skip/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T09:37:16+00:00",
+      "created_at": "2026-05-23T16:48:12.212635+00:00"
     },
     {
       "id": "bc178d0884f29878",
@@ -6916,90 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-05-21T08:16:20.360000",
       "created_at": "2026-05-21T22:09:37.565810+00:00"
-    },
-    {
-      "id": "ca24371322292e4b",
-      "content_hash": "ca24371322292e4b40ba4428fd2b930286d95eac52f428fb31be90a311a17f2c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44047",
-      "title": "CVE-2026-44047 - An SQL injection vulnerability in the MySQL CNID backend in Netatalk 3.1.0 throu...",
-      "body": "An SQL injection vulnerability in the MySQL CNID backend in Netatalk 3.1.0 through 4.4.2 allows a remote authenticated attacker to obtain unauthorized access to data, modify data, or cause a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44047",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-21T08:16:20.173000",
-      "created_at": "2026-05-21T22:09:37.565803+00:00"
-    },
-    {
-      "id": "b83b87badef32ce3",
-      "content_hash": "b83b87badef32ce368b913cd0969050281af90622cb81bf6cb559eb37c4e7372",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer",
-      "title": "Typewise (YC S22) Is Hiring an AI Growth Engineer (Zurich or Remote)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48219340\">Comments</a>",
-      "url": "https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T08:01:53+00:00",
-      "created_at": "2026-05-21T10:29:27.611171+00:00"
-    },
-    {
-      "id": "35e5f40e8ca3c83c",
-      "content_hash": "35e5f40e8ca3c83c92da625e58df6f7f598c587e3f99b76126073be912f87cbd",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
-      "title": "Microsoft warns of new Defender zero-days exploited in attacks",
-      "body": "On Wednesday, Microsoft started rolling out security patches for two Defender vulnerabilities that have been exploited in zero-day attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-21T07:49:48+00:00",
-      "created_at": "2026-05-21T10:29:23.149612+00:00"
-    },
-    {
-      "id": "203529d80ada1635",
-      "content_hash": "203529d80ada1635788626fd51ad63a4ae5ac222035263f2eb8c1506e4fdaa0d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016626.html",
-      "title": "Androidアプリ「パスワード管理 ロボフォーム」のintent処理における検証不備の脆弱性",
-      "body": "Siber Systems, Inc.が提供するAndroidアプリ「パスワード管理 ロボフォーム」には、他のアプリからintent経由でログインページなどのURLを受け取り内蔵ブラウザでオープンする機能がありますが、危険なURLかどうかの検証や当該URLからファイルをダウンロードする際のユーザへの確認といった機能が欠如しています。<a href=\"https://cwe.mitre.org/data/definitions/357.html\" target=\"_blank\"></a><ul><li>危険な動作に関するユーザインタフェースでの表示が不十分（CWE-357） - CVE-2026-47782</li><li>上記のCVSS評価では、被害者ユーザが悪意あるアプリをインストールするよう誘導され、そのアプリがRoboFormにintentを送って何らかのファイルをユーザに知らせずにダウンロードさせる状況を想定しています</li></ul>この脆弱性情報は、下記の方がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。\n報告者：Johan Francsics 氏",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016626.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T07:37:00+00:00",
-      "created_at": "2026-05-21T10:29:27.192145+00:00"
-    },
-    {
-      "id": "1484a76a165f7924",
-      "content_hash": "1484a76a165f79246e633e05b77a1f1303c732e510987e8e6463c4cd28c4060d",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
-      "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
-      "body": "Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years.\n\nThe vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major",
-      "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-21T07:35:53+00:00",
-      "created_at": "2026-05-21T10:29:22.997364+00:00"
-    },
-    {
-      "id": "17ab112db7fd2f30",
-      "content_hash": "17ab112db7fd2f307f12f01cf439229f5b6816560d03d1a9572528cc9c32d6ff",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://vivaldi.com/blog/vivaldi-on-desktop-8-0/",
-      "title": "Vivaldi 8.0",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48219060\">Comments</a>",
-      "url": "https://vivaldi.com/blog/vivaldi-on-desktop-8-0/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T07:21:55+00:00",
-      "created_at": "2026-05-21T10:29:27.611075+00:00"
     }
   ]
 }
