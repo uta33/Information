@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-23T16:48:12.212939+00:00",
+  "generated_at": "2026-05-23T17:53:22.804704+00:00",
   "items": [
+    {
+      "id": "4d60749a0413564a",
+      "content_hash": "4d60749a0413564af98089b31a720c7b9377894335bfab43fd141de68b83e904",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+      "body": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation.\n\nCalled staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+      "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:35:10+00:00",
+      "created_at": "2026-05-23T17:53:17.253858+00:00"
+    },
     {
       "id": "ce2906e5e7cf2e6a",
       "content_hash": "ce2906e5e7cf2e6a1b422080d9122b23d2d067254fec5bb4ae2a8ba517ed6918",
@@ -14,6 +28,48 @@
       "cvss_score": null,
       "published_at": "2026-05-23T16:24:50+00:00",
       "created_at": "2026-05-23T16:48:12.212272+00:00"
+    },
+    {
+      "id": "0a34552f23476aaa",
+      "content_hash": "0a34552f23476aaaf7f9bcab52592eb899acaa349558a7ba4b5ae927dab575ba",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chipsandcheese.com/p/evaluating-spec-cpu2026",
+      "title": "Evaluating Spec CPU2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48248861\">Comments</a>",
+      "url": "https://chipsandcheese.com/p/evaluating-spec-cpu2026",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:13:22+00:00",
+      "created_at": "2026-05-23T17:53:22.804416+00:00"
+    },
+    {
+      "id": "c64a99c36b584ae3",
+      "content_hash": "c64a99c36b584ae37db87b4159090bfbdbc3d8fd6d38767fed3081b5782b7595",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+      "body": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.\n\n\"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
+      "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:07:51+00:00",
+      "created_at": "2026-05-23T17:53:17.253893+00:00"
+    },
+    {
+      "id": "625963d410c1f803",
+      "content_hash": "625963d410c1f803d4d6e8111159b403428e863ac46491f0d352ab103e690266",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=48248801",
+      "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48248801\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=48248801",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T16:06:25+00:00",
+      "created_at": "2026-05-23T17:53:22.804258+00:00"
     },
     {
       "id": "ab926fbbd0edda86",
@@ -658,6 +714,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T20:40:48+00:00",
       "created_at": "2026-05-22T22:51:30.784785+00:00"
+    },
+    {
+      "id": "4593e63db454b781",
+      "content_hash": "4593e63db454b781e451de9cf46bbb3cde4ec53020d54a63dd296a77863358c1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://victoriaritvo.com/blog/hengefinder/",
+      "title": "Hengefinder: Finding When the Sun Aligns with Your Street",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48241335\">Comments</a>",
+      "url": "https://victoriaritvo.com/blog/hengefinder/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T20:39:42+00:00",
+      "created_at": "2026-05-23T17:53:22.804075+00:00"
     },
     {
       "id": "006eefc447da742e",
@@ -6596,6 +6666,20 @@
       "created_at": "2026-05-21T22:09:37.566007+00:00"
     },
     {
+      "id": "992c8c1e06d88ce3",
+      "content_hash": "992c8c1e06d88ce3e0eaf8650187ee04f7974fe25a3fa17d5c34b1d612f69fdc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://aiengineeringfromscratch.com",
+      "title": "AI Engineering from Scratch",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48219853\">Comments</a>",
+      "url": "https://aiengineeringfromscratch.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T09:14:13+00:00",
+      "created_at": "2026-05-23T17:53:22.804180+00:00"
+    },
+    {
       "id": "d0c44cdaf2db478a",
       "content_hash": "d0c44cdaf2db478a711093245ed56ce4338576aacd5bd9907d15debd2bbf0266",
       "source_name": "Hacker News (Best)",
@@ -6916,90 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-05-21T08:16:21.017000",
       "created_at": "2026-05-21T22:09:37.565850+00:00"
-    },
-    {
-      "id": "eb2595b3c050445c",
-      "content_hash": "eb2595b3c050445c91c0daeb7995eb6d3fcdeccedc3e3b8286832b0ddac7cd9c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44053",
-      "title": "CVE-2026-44053 - Netatalk 1.5.0 through 4.2.2 uses a broken cryptographic algorithm in the DHCAST...",
-      "body": "Netatalk 1.5.0 through 4.2.2 uses a broken cryptographic algorithm in the DHCAST128 UAM, which allows a remote attacker to obtain authentication credentials or impersonate a user via cryptanalytic attack.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44053",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-05-21T08:16:20.910000",
-      "created_at": "2026-05-21T22:09:37.565843+00:00"
-    },
-    {
-      "id": "a08788f5f3da180d",
-      "content_hash": "a08788f5f3da180d4b966c88ab84065587cb63f58ecc19e04410409a757c1033",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44052",
-      "title": "CVE-2026-44052 - Netatalk 2.1.0 through 4.4.2 inserts LDAP simple-bind passwords into log output ...",
-      "body": "Netatalk 2.1.0 through 4.4.2 inserts LDAP simple-bind passwords into log output in cleartext, which allows an attacker with access to the log files to obtain LDAP credentials.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44052",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T08:16:20.800000",
-      "created_at": "2026-05-21T22:09:37.565836+00:00"
-    },
-    {
-      "id": "06be2b5e0295ab3c",
-      "content_hash": "06be2b5e0295ab3c5d82090ff393130ec6ae43c72d8ecf60b96f8cc8d02feb72",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44051",
-      "title": "CVE-2026-44051 - An improper link resolution vulnerability in Netatalk 3.0.2 through 4.4.2 allows...",
-      "body": "An improper link resolution vulnerability in Netatalk 3.0.2 through 4.4.2 allows a remote authenticated attacker to read arbitrary files or overwrite arbitrary files via attacker-controlled symlink creation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44051",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-21T08:16:20.690000",
-      "created_at": "2026-05-21T22:09:37.565829+00:00"
-    },
-    {
-      "id": "970fc2382388c113",
-      "content_hash": "970fc2382388c113c7da50102c1e561b42b6903796daf12006935792268ec14d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44050",
-      "title": "CVE-2026-44050 - A heap-based buffer overflow in the CNID daemon comm_rcv() function in Netatalk ...",
-      "body": "A heap-based buffer overflow in the CNID daemon comm_rcv() function in Netatalk 2.0.0 through 4.4.2 allows a remote authenticated attacker to execute arbitrary code with escalated privileges or cause a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44050",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-05-21T08:16:20.580000",
-      "created_at": "2026-05-21T22:09:37.565822+00:00"
-    },
-    {
-      "id": "c601c1ff0ceae283",
-      "content_hash": "c601c1ff0ceae2834df77052d79234f2d77d2bee7484b8a40f5acf78e9b60f3f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44049",
-      "title": "CVE-2026-44049 - An out-of-bounds write due to improper null termination in convert_charset() in ...",
-      "body": "An out-of-bounds write due to improper null termination in convert_charset() in Netatalk 2.0.4 through 4.4.2 allows a remote authenticated attacker to execute arbitrary code or cause a denial of service via crafted character data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44049",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T08:16:20.473000",
-      "created_at": "2026-05-21T22:09:37.565816+00:00"
-    },
-    {
-      "id": "1ac9f8380d6b8bd7",
-      "content_hash": "1ac9f8380d6b8bd76fbb1eda10e01e43ecf1cb3ae3c151a8db340d84f3e95be0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44048",
-      "title": "CVE-2026-44048 - A stack-based buffer overflow via UCS-2 type confusion in convert_charset() in N...",
-      "body": "A stack-based buffer overflow via UCS-2 type confusion in convert_charset() in Netatalk 2.0.4 through 4.4.2 allows a remote authenticated attacker to execute arbitrary code or cause a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44048",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-21T08:16:20.360000",
-      "created_at": "2026-05-21T22:09:37.565810+00:00"
     }
   ]
 }
