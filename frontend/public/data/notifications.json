@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-22T23:56:38.805158+00:00",
+  "generated_at": "2026-05-23T02:24:53.495713+00:00",
   "items": [
+    {
+      "id": "f183479954a057fe",
+      "content_hash": "f183479954a057fe222f7774dea61aac18b5f2cece7a3ed7b59be65b1ebd1a41",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48243293\">Comments</a>",
+      "url": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T00:34:25+00:00",
+      "created_at": "2026-05-23T02:24:53.495211+00:00"
+    },
+    {
+      "id": "c3807aca35855639",
+      "content_hash": "c3807aca3585563939b24c770a277e792c81a531447a2ae1c6e2bb44f39f4b24",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505",
+      "title": "SpaceX launches Starship v3 rocket",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48242959\">Comments</a>",
+      "url": "https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T23:41:55+00:00",
+      "created_at": "2026-05-23T02:24:53.495137+00:00"
+    },
     {
       "id": "6ceae8e2c8591fcc",
       "content_hash": "6ceae8e2c8591fcc4b21b78af6c4c2639340d8e2e1eb90f28de630811d1880f1",
@@ -84,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T21:36:55+00:00",
       "created_at": "2026-05-22T22:51:31.083813+00:00"
+    },
+    {
+      "id": "730c4820c47114fa",
+      "content_hash": "730c4820c47114fa5dc30bd1f75aa0da8de1090ec3937970e16c58eb931e4254",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
+      "title": "Shipping a laptop to a refugee camp in Uganda",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48241997\">Comments</a>",
+      "url": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T21:36:55+00:00",
+      "created_at": "2026-05-23T02:24:53.494976+00:00"
     },
     {
       "id": "8b70549ccf04d2ff",
@@ -408,6 +450,20 @@
       "created_at": "2026-05-22T20:27:04.954951+00:00"
     },
     {
+      "id": "86f648dafecfe3db",
+      "content_hash": "86f648dafecfe3db9a626223f5a5be5426a68fa81da978b4198d8399716a057c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "title": "CISA tries to contain data leak",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48238429\">Comments</a>",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T16:54:31+00:00",
+      "created_at": "2026-05-23T02:24:53.495154+00:00"
+    },
+    {
       "id": "88ab061cf7efe86e",
       "content_hash": "88ab061cf7efe86ee70c0b30777f41c775ced31be44ba5316522120e4038ded4",
       "source_name": "TechCrunch",
@@ -630,6 +686,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T14:36:27+00:00",
       "created_at": "2026-05-22T23:56:38.804572+00:00"
+    },
+    {
+      "id": "7fa3086488f7f169",
+      "content_hash": "7fa3086488f7f169936e785dc4b2ef4322e6a13df2ded04f2725cbb0bb2477f5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cringely.com/2026/05/21/im-writing-again/",
+      "title": "I’m writing again",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48236501\">Comments</a>",
+      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T14:36:27+00:00",
+      "created_at": "2026-05-23T02:24:53.495174+00:00"
     },
     {
       "id": "510d0ad467c15688",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T01:54:00+00:00",
       "created_at": "2026-05-21T06:41:09.722014+00:00"
-    },
-    {
-      "id": "c9def072d98efc9e",
-      "content_hash": "c9def072d98efc9ea831d814a184ca09493c142de14831c46ef36be50e829eb4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016598.html",
-      "title": "Nozomi Networks Inc.のCMC等の複数製品におけるクロスサイトスクリプティングの脆弱性",
-      "body": "Smart Polling機能において、入力パラメータの不適切な検証により蓄積型HTMLインジェクションの脆弱性が発見されました。権限の制限された認証済みユーザーは、同期を通じてHTMLタグを含む悪意のあるリモート戦略をプッシュすることが可能です。被害者がSmart Polling機能内の影響を受けたリモート戦略を閲覧すると、注入されたHTMLがブラウザ上で表示され、フィッシングや場合によってはオープンリダイレクト攻撃を引き起こす可能性があります。既存の入力検証およびコンテンツセキュリティポリシーの設定により、完全なクロスサイトスクリプティング（XSS）攻撃および直接的な情報漏洩は防止されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016598.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:54:00+00:00",
-      "created_at": "2026-05-21T06:41:09.722051+00:00"
-    },
-    {
-      "id": "04698a5174805636",
-      "content_hash": "04698a51748056361f2f200feaf362110d0215ef6033a15e800133bebf1fe0a6",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016597.html",
-      "title": "アクシスコミュニケーションズのAXIS OSにおける重要なリソースに対する不適切なパーミッションの割り当てに関する脆弱性",
-      "body": "インストールプロセス中の不適切な入力検証により、ACAPアプリケーションが昇格した特権を取得する可能性があり、特権の昇格を引き起こします。この脆弱性は、Axisデバイスが署名されていないACAPアプリケーションのインストールを許可するように設定されている場合にのみ悪用でき、攻撃者が被害者に悪意のあるACAPアプリケーションをインストールさせる必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016597.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:54:00+00:00",
-      "created_at": "2026-05-21T06:41:09.722072+00:00"
-    },
-    {
-      "id": "eb19d6aeffb48396",
-      "content_hash": "eb19d6aeffb4839654177351d39c6c15d1d48f57929b997398aa4e1a68c8fd10",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016596.html",
-      "title": "アクシスコミュニケーションズのAXIS OSにおける指定されたタイプの入力に対する不適切な検証に関する脆弱性",
-      "body": "ACAP構成ファイルには十分な入力検証が欠如しており、これによりコマンドインジェクションが可能となり、特権昇格につながる恐れがあります。この脆弱性は、Axisデバイスが署名されていないACAPアプリケーションのインストールを許可する設定になっている場合にのみ悪用されます。攻撃者は被害者に悪意のあるACAPアプリケーションをインストールさせる必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016596.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:54:00+00:00",
-      "created_at": "2026-05-21T06:41:09.722088+00:00"
-    },
-    {
-      "id": "35f83b0eb3689f44",
-      "content_hash": "35f83b0eb3689f442b40b3075c06207db94f29a036baf0b5989ec8074ced6c83",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016595.html",
-      "title": "アクシスコミュニケーションズのAXIS OSにおけるパストラバーサルの脆弱性",
-      "body": "ACAP構成ファイルに十分な入力検証が欠如しているため、パストラバーサル攻撃を許し、潜在的に権限昇格を引き起こす可能性があります。この脆弱性は、Axisデバイスが署名されていないACAPアプリケーションのインストールを許可するように設定されており、攻撃者が被害者に悪意のあるACAPアプリケーションをインストールさせた場合にのみ悪用可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016595.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:54:00+00:00",
-      "created_at": "2026-05-21T06:41:09.722104+00:00"
-    },
-    {
-      "id": "54089f890e438a21",
-      "content_hash": "54089f890e438a21c99d2a1d5ad152e5bbc206e28a89de5cfe25e0cf96ac84fd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016594.html",
-      "title": "アクシスコミュニケーションズのAXIS OSにおける重要なリソースに対する不適切なパーミッションの割り当てに関する脆弱性",
-      "body": "ローカルファイルシステム上の設定ファイルに不適切な入力検証が存在し、コードの実行を許可して特権昇格につながる可能性があります。この脆弱性は、攻撃者がSSHを使用してAxisデバイスにログインできる場合にのみ悪用されます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-016594.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T01:54:00+00:00",
-      "created_at": "2026-05-21T06:41:09.722119+00:00"
     }
   ]
 }
