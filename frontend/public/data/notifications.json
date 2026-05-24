@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-24T14:21:45.897410+00:00",
+  "generated_at": "2026-05-24T15:53:43.380730+00:00",
   "items": [
+    {
+      "id": "d03c1e368cf90ba3",
+      "content_hash": "d03c1e368cf90ba37e98d5b2789b7234420be170de3dbc0356ef84e177aeba79",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3122419",
+      "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "body": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T15:00:00+00:00",
+      "created_at": "2026-05-24T15:53:43.038219+00:00"
+    },
+    {
+      "id": "85513eae59c54b1f",
+      "content_hash": "85513eae59c54b1fea00b0155bd800edbeba94acea341f0b4a3b3335b22c07d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
+      "title": "The seed oil panic is hurting my cardiac patients",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48257532\">Comments</a>",
+      "url": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T14:27:26+00:00",
+      "created_at": "2026-05-24T15:53:43.380275+00:00"
+    },
     {
       "id": "6a9e0cb1728cad5b",
       "content_hash": "6a9e0cb1728cad5bf137f66f339a1cc7c03a0c94e4d890ae2fbcfa674d6e4680",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T14:12:32+00:00",
       "created_at": "2026-05-24T14:21:40.779624+00:00"
+    },
+    {
+      "id": "1070c6a298dd61fe",
+      "content_hash": "1070c6a298dd61fe6856ec8bf101dd19e647bf569c5284782b867944c3aa6220",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48257410\">Comments</a>",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T14:09:33+00:00",
+      "created_at": "2026-05-24T15:53:43.380065+00:00"
     },
     {
       "id": "f61ffba57743a34e",
@@ -30,6 +72,34 @@
       "created_at": "2026-05-24T14:21:45.897075+00:00"
     },
     {
+      "id": "f9c6adce979ee990",
+      "content_hash": "f9c6adce979ee990fbb757987ae8ccb0d169a949a0342a957c9042afe8f6a83c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://opensource.microsoft.com/blog/2025/09/03/microsoft-open-source-historic-6502-basic/",
+      "title": "Microsoft's 6502 BASIC is now Open Source (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48257058\">Comments</a>",
+      "url": "https://opensource.microsoft.com/blog/2025/09/03/microsoft-open-source-historic-6502-basic/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T13:16:33+00:00",
+      "created_at": "2026-05-24T15:53:43.380414+00:00"
+    },
+    {
+      "id": "42994a61809bf6fa",
+      "content_hash": "42994a61809bf6fa555552cc9279af5606b8fe5cf5ff6bb98f22b8fce0beeb04",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256953\">Comments</a>",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-24T13:02:06+00:00",
+      "created_at": "2026-05-24T15:53:43.379899+00:00"
+    },
+    {
       "id": "af291e2d837b98f5",
       "content_hash": "af291e2d837b98f5a84ab5e7589dbc71ba92da1c41cf3a4d346b0c42b166dbec",
       "source_name": "TechCrunch",
@@ -42,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T13:00:00+00:00",
       "created_at": "2026-05-24T14:21:45.498281+00:00"
+    },
+    {
+      "id": "7df706cbb9f91a88",
+      "content_hash": "7df706cbb9f91a88ecb6e8f6720072db0f3530920cc7031262391634051d20f9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2605.06445",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256912\">Comments</a>",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T12:55:53+00:00",
+      "created_at": "2026-05-24T15:53:43.379976+00:00"
     },
     {
       "id": "9682453e5417cdbe",
@@ -112,6 +196,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T08:29:38+00:00",
       "created_at": "2026-05-24T11:06:04.534691+00:00"
+    },
+    {
+      "id": "0e04dee054330263",
+      "content_hash": "0e04dee054330263c74b8b8a05f73d9c8de20f5dfbf08ee1c1c3843447a5bc02",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+      "title": "Greg Brockman interview [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48255593\">Comments</a>",
+      "url": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T08:29:38+00:00",
+      "created_at": "2026-05-24T15:53:43.380220+00:00"
     },
     {
       "id": "3e43af8556c98a60",
@@ -2156,6 +2254,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T12:28:50+00:00",
       "created_at": "2026-05-23T23:46:30.921664+00:00"
+    },
+    {
+      "id": "76afe01dbe439df5",
+      "content_hash": "76afe01dbe439df5676d8999968b4848c5060b4e0a3e8b4a69167e5a1cc9b710",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.salmonfinder.com/2026/05/13/bristol-bay-kodiak-predictions-2026",
+      "title": "Predicting the 2026 Bristol Bay and Kodiak Salmon Runs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48234793\">Comments</a>",
+      "url": "https://www.salmonfinder.com/2026/05/13/bristol-bay-kodiak-predictions-2026",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T12:13:21+00:00",
+      "created_at": "2026-05-24T15:53:43.380168+00:00"
     },
     {
       "id": "ff149cc8359e7105",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T12:00:00+00:00",
       "created_at": "2026-05-21T18:51:30.054430+00:00"
-    },
-    {
-      "id": "7e3a6bb16e77d424",
-      "content_hash": "7e3a6bb16e77d424416ff9d88aa3a17fc28ed3031a4fe43fd97e92ece48a7798",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-      "body": "This week starts small.\n\nA token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust.\n\nThat is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:52:14+00:00",
-      "created_at": "2026-05-21T13:53:32.737221+00:00"
-    },
-    {
-      "id": "07af199666d55b28",
-      "content_hash": "07af199666d55b28f3de936caeec1b0d086251880363039ed02b3b220334741b",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3124768",
-      "title": "Scammers are abusing an internal Microsoft account to send spam links",
-      "body": "The loophole allows spammers and scammers to send emails from a legitimate Microsoft email address typically used for sending genuine account alerts.",
-      "url": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:42:57+00:00",
-      "created_at": "2026-05-21T13:53:37.227375+00:00"
-    },
-    {
-      "id": "d0ab643c0a2f9370",
-      "content_hash": "d0ab643c0a2f93700cde4f2b02632583c63b7b7578c439fd935a37cdf88dcf52",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ivan.codes/blog/let-it-cook",
-      "title": "Let the AI Cook",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48220710\">Comments</a>",
-      "url": "https://www.ivan.codes/blog/let-it-cook",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:11:15+00:00",
-      "created_at": "2026-05-23T05:58:06.267197+00:00"
-    },
-    {
-      "id": "9cebaef584f9e130",
-      "content_hash": "9cebaef584f9e1300d4e178724139b3cbe3afc49bea5f5c0f55ce5e1206a79b4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
-      "title": "Python 3.15: features that didn't make the headlines",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48220696\">Comments</a>",
-      "url": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:10:11+00:00",
-      "created_at": "2026-05-21T13:53:37.344054+00:00"
-    },
-    {
-      "id": "4f93f1ffe3f877b8",
-      "content_hash": "4f93f1ffe3f877b8019a672b9139f672229faa438e6122571c8b43cd4d6df021",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.flipper.net/flipper-one-we-need-your-help/",
-      "title": "Flipper One – we need your help",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48220647\">Comments</a>",
-      "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:03:38+00:00",
-      "created_at": "2026-05-21T13:53:37.344022+00:00"
-    },
-    {
-      "id": "deeccb6d88e28509",
-      "content_hash": "deeccb6d88e28509d847a8417f5c8c341df00b1912350dc11d501e24b897537b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://spectrum.ieee.org/trinity-nuclear-test",
-      "title": "Lost Images from the 1945 Trinity Nuclear Test Restored",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48220639\">Comments</a>",
-      "url": "https://spectrum.ieee.org/trinity-nuclear-test",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:02:26+00:00",
-      "created_at": "2026-05-21T13:53:37.344141+00:00"
-    },
-    {
-      "id": "f21d21c9be3c4b20",
-      "content_hash": "f21d21c9be3c4b20c410700843b130227556c5c479e31b833261745bb3d531a0",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
-      "title": "Flipper One project needs community help to build open Linux platform",
-      "body": "Flipper Devices, the maker of the Flipper Zero pentesting tool, is asking the community to help build Flipper One, an open Linux platform for connected devices. [...]",
-      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:00:00+00:00",
-      "created_at": "2026-05-21T13:53:32.792442+00:00"
-    },
-    {
-      "id": "4bdbf702672ee4e2",
-      "content_hash": "4bdbf702672ee4e2db5d8fd32ff90aa5f934d4011f671a7f089f7befecfb54e4",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3124502",
-      "title": "Beauty booking startup Fresha hits $1 billion valuation with KKR backing",
-      "body": "Beauty and wellness booking marketplace Fresha says it has raised $80 million investment from KKR’s Next Generation Technology Growth fund, KKR's growth equity arm.",
-      "url": "https://techcrunch.com/2026/05/21/booking-platform-fresha-announces-80m-investment-unicorn-valuation/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:00:00+00:00",
-      "created_at": "2026-05-21T13:53:37.227398+00:00"
     }
   ]
 }
