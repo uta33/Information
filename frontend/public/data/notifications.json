@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-23T23:46:30.922327+00:00",
+  "generated_at": "2026-05-24T02:03:48.255730+00:00",
   "items": [
+    {
+      "id": "424a70d7a4d4be7e",
+      "content_hash": "424a70d7a4d4be7e12d81074236ed6c3b4ea56535a1386f3c1db8e9ff863f7ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48253386\">Comments</a>",
+      "url": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T01:21:13+00:00",
+      "created_at": "2026-05-24T02:03:48.254957+00:00"
+    },
+    {
+      "id": "da1b2c31053462b5",
+      "content_hash": "da1b2c31053462b5f184036625df98611c4e22b0c918d58d8384a74e749f3050",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
+      "title": "Scammers are abusing an internal Microsoft account to send spam links",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48253186\">Comments</a>",
+      "url": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T00:51:32+00:00",
+      "created_at": "2026-05-24T02:03:48.255015+00:00"
+    },
+    {
+      "id": "889ef26e2efd7669",
+      "content_hash": "889ef26e2efd7669ab1433fd6997345dead5b141f096b5f126e5f27bc2f5c50d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
+      "title": "Wake up! 16b",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48253060\">Comments</a>",
+      "url": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T00:30:50+00:00",
+      "created_at": "2026-05-24T02:03:48.254990+00:00"
+    },
+    {
+      "id": "ae19b1d3f707a5d4",
+      "content_hash": "ae19b1d3f707a5d46244a2fc2cc96dac3cd915d1c5380b89b061fcaf95593c27",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning",
+      "title": "ICE Awards $25M Iris-Scanning Contract to Bi2 Technologies",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48252720\">Comments</a>",
+      "url": "https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T23:39:43+00:00",
+      "created_at": "2026-05-24T02:03:48.255372+00:00"
+    },
     {
       "id": "bbf91b36d0c7858b",
       "content_hash": "bbf91b36d0c7858bac3dc3884244c9ec348e74fb98b69a9a9be99e449ac16eea",
@@ -170,6 +226,20 @@
       "created_at": "2026-05-23T20:56:18.595053+00:00"
     },
     {
+      "id": "b5de895e6c71f51c",
+      "content_hash": "b5de895e6c71f51cb403ab1e6644449be46e9d6173882751b4eff27affe5dac5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/DamRsn/NeuralNote",
+      "title": "NeuralNote",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48250198\">Comments</a>",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T18:51:01+00:00",
+      "created_at": "2026-05-24T02:03:48.255443+00:00"
+    },
+    {
       "id": "4af799919d8cc882",
       "content_hash": "4af799919d8cc8824a1ed6da145cd3d7726517fa7d0ed8a64774e6f15870ab19",
       "source_name": "Hacker News (Best)",
@@ -182,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T18:45:37+00:00",
       "created_at": "2026-05-23T20:00:27.902451+00:00"
+    },
+    {
+      "id": "6d55a4e9fa1e0cb6",
+      "content_hash": "6d55a4e9fa1e0cb6ee9b2bba5549744e4cef5e1cc4584bbcf7fa0750538b8b21",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://veronicaexplains.net/my-first-writerdeck/",
+      "title": "Time to talk about my writerdeck",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T18:45:37+00:00",
+      "created_at": "2026-05-24T02:03:48.255039+00:00"
     },
     {
       "id": "827d9690d934fade",
@@ -4454,6 +4538,20 @@
       "created_at": "2026-05-22T16:13:26.094399+00:00"
     },
     {
+      "id": "d0e6a9a2ba8abbb0",
+      "content_hash": "d0e6a9a2ba8abbb0e374082466a19af01466a966dc46d6cedc7ffa5b2ad997ed",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://uvic-aurora.github.io/acav-manual/index.html",
+      "title": "Show HN: Anyone interested in a tool helps to explore C++ ASTs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48228106\">Comments</a>",
+      "url": "https://uvic-aurora.github.io/acav-manual/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T19:53:51+00:00",
+      "created_at": "2026-05-24T02:03:48.255194+00:00"
+    },
+    {
       "id": "2fe8b535926681d9",
       "content_hash": "2fe8b535926681d959334a13f8f4c26eef6a92962511f78b5cb57ac675c2cc1f",
       "source_name": "TechCrunch",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T09:31:15+00:00",
       "created_at": "2026-05-21T22:09:42.154350+00:00"
-    },
-    {
-      "id": "cd77491376a7baf1",
-      "content_hash": "cd77491376a7baf1ca6852b04c07f08b63daa7bc189e5fccae121e28813eaf66",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/helvesec/rmux",
-      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48219918\">Comments</a>",
-      "url": "https://github.com/helvesec/rmux",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T09:22:00+00:00",
-      "created_at": "2026-05-21T10:29:27.610982+00:00"
-    },
-    {
-      "id": "3b35acc30230b6c6",
-      "content_hash": "3b35acc30230b6c6889baf7708ed9b8262d04ddd88d3de8209f903ff741dbdb8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9157",
-      "title": "CVE-2026-9157 - Improper input validation, Unrestricted upload of file with dangerous type vulne...",
-      "body": "Improper input validation, Unrestricted upload of file with dangerous type vulnerability in Gmission Web Fax allows Remote Code Inclusion.\n\nThis issue affects Web Fax: from 3.0 before 3.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9157",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.4,
-      "published_at": "2026-05-21T09:16:30.930000",
-      "created_at": "2026-05-22T02:07:05.839379+00:00"
-    },
-    {
-      "id": "e7a60d6878fe4006",
-      "content_hash": "e7a60d6878fe400646baa11eab7d95261c2bda10aa4adb2a866706e62fbc8ed3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7837",
-      "title": "CVE-2026-7837 - A time-of-check time-of-use (TOCTOU) condition in the ad_flush function in Netat...",
-      "body": "A time-of-check time-of-use (TOCTOU) condition in the ad_flush function in Netatalk 3.0.0 through 4.4.2 involves root-privileged file operations, which may allow a remote attacker to cause limited data modification under specific race conditions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7837",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-05-21T09:16:30.803000",
-      "created_at": "2026-05-22T02:07:05.839373+00:00"
-    },
-    {
-      "id": "5cd7699c0f45793a",
-      "content_hash": "5cd7699c0f45793a5021bb9fbf87bee01081860f1278ad49495bb1df92c2ebea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5434",
-      "title": "CVE-2026-5434 - Honeywell Control\nNetwork Module (CNM) contains\ninsertion of sensitive informati...",
-      "body": "Honeywell Control\nNetwork Module (CNM) contains\ninsertion of sensitive information into an unintended directory. An attacker could exploit this vulnerability through probing\nsystem files, potentially resulting in unintended\naccess to protected data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5434",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-05-21T09:16:30.410000",
-      "created_at": "2026-05-22T02:07:05.839367+00:00"
-    },
-    {
-      "id": "af224bb6eedd71b1",
-      "content_hash": "af224bb6eedd71b114de2aff676921203ae5841eb8c10059e3fe0e5c568bfc15",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5433",
-      "title": "CVE-2026-5433 - Honeywell Control\nNetwork Module (CNM) contains command injection vulnerability\n...",
-      "body": "Honeywell Control\nNetwork Module (CNM) contains command injection vulnerability\nin the web interface. An attacker could exploit this vulnerability via command\ndelimiters, potentially resulting in Remote Code Execution (RCE).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5433",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-05-21T09:16:30.270000",
-      "created_at": "2026-05-22T02:07:05.839360+00:00"
-    },
-    {
-      "id": "5e22c268267cdd00",
-      "content_hash": "5e22c268267cdd00c5781be889c3f34645a99883140cf671189d9eba8d1cd7d0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4858",
-      "title": "CVE-2026-4858 - Mattermost versions 11.6.x <= 11.6.0, 11.5.x <= 11.5.3, 11.4.x <= 11.4.4, 10.11....",
-      "body": "Mattermost versions 11.6.x <= 11.6.0, 11.5.x <= 11.5.3, 11.4.x <= 11.4.4, 10.11.x <= 10.11.14 fail to check integration URL for path traversal which allows an malicious authenticated user  to call an arbitrary API via system admin Mattermost auth token using via path traversal in integration action URL.. Mattermost Advisory ID: MMSA-2026-00640",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4858",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.0,
-      "published_at": "2026-05-21T09:16:30.143000",
-      "created_at": "2026-05-21T23:49:49.408498+00:00"
-    },
-    {
-      "id": "752c2f0b21e3341f",
-      "content_hash": "752c2f0b21e3341f768e839b0d7c9c1b39312e6b3cacd58d5dd9305880df38ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45250",
-      "title": "CVE-2026-45250 - The setcred(2) system call is only available to privileged users.  However, befo...",
-      "body": "The setcred(2) system call is only available to privileged users.  However, before the privilege level of the caller is checked, the user-supplied list of supplementary groups is copied into a fixed-size kernel stack buffer without first validating its length.  If the supplied list exceeds the capacity of that buffer, a stack buffer overflow occurs.\n\nBecause the bounds check on the supplementary groups list occurs after the kernel stack buffer has already been written, an unprivileged local user may trigger the overflow without holding any special privilege.  Successful exploitation may allow an attacker to execute arbitrary code in the context of the kernel, allowing an unprivileged local user to gain elevated privileges on the affected system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45250",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-21T09:16:30.010000",
-      "created_at": "2026-05-21T23:49:49.408492+00:00"
     }
   ]
 }
