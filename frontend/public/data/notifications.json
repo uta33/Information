@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T22:45:43.710618+00:00",
+  "generated_at": "2026-05-24T23:50:20.372288+00:00",
   "items": [
     {
       "id": "e33f539f213a393c",
@@ -630,6 +630,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T01:21:13+00:00",
       "created_at": "2026-05-24T02:03:48.254957+00:00"
+    },
+    {
+      "id": "e3e6705ff78228e9",
+      "content_hash": "e3e6705ff78228e990c54788b447c28cd337becbf3c957d8f5fa4d48a4365c04",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "title": "Microsoft open-sources “the earliest DOS source code discovered to date”",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48253386\">Comments</a>",
+      "url": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T01:21:13+00:00",
+      "created_at": "2026-05-24T23:50:20.371796+00:00"
     },
     {
       "id": "da1b2c31053462b5",
@@ -5994,6 +6008,20 @@
       "created_at": "2026-05-21T18:51:34.572023+00:00"
     },
     {
+      "id": "53f041b59422058f",
+      "content_hash": "53f041b59422058f66ad089e7657d28b7f61d90e30b08b374e92de6fdf9cbe45",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://82mhz.net/posts/2026/05/getting-an-old-computer-online-with-android-ethernet-tethering/",
+      "title": "Getting an old Computer online with Android Ethernet tethering",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48226697\">Comments</a>",
+      "url": "https://82mhz.net/posts/2026/05/getting-an-old-computer-online-with-android-ethernet-tethering/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T18:03:50+00:00",
+      "created_at": "2026-05-24T23:50:20.371847+00:00"
+    },
+    {
       "id": "9ad20a75f3a3f8bd",
       "content_hash": "9ad20a75f3a3f8bd0785a115497037d9993cb7eb0cf344e9b6cf4947d644d446",
       "source_name": "Hacker News (Best)",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T13:50:59+00:00",
       "created_at": "2026-05-21T20:29:34.865870+00:00"
-    },
-    {
-      "id": "e5f6fd1eb20234ff",
-      "content_hash": "e5f6fd1eb20234ff327c1095d98b812b54357b7a6020e6f32167ba04070fc71e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://jola.dev/posts/highest-random-weight-in-elixir",
-      "title": "Highest Random Weight in Elixir",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48222492\">Comments</a>",
-      "url": "https://jola.dev/posts/highest-random-weight-in-elixir",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:48:29+00:00",
-      "created_at": "2026-05-23T15:54:11.661489+00:00"
-    },
-    {
-      "id": "f58df30002441e5f",
-      "content_hash": "f58df30002441e5f08a012f85d51f9c6a587c88c67ffa55bbe0f716ee53ad9d4",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3124969",
-      "title": "Wayve’s self-driving tech is headed to US cars made by Stellantis",
-      "body": "Wayve's self-driving tech will show up in Stellantis vehicles in 2028.",
-      "url": "https://techcrunch.com/2026/05/21/wayves-self-driving-tech-is-headed-to-us-cars-made-by-stellantis/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:46:07+00:00",
-      "created_at": "2026-05-21T13:53:37.227307+00:00"
     }
   ]
 }
