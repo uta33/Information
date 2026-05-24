@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-24T16:50:27.944394+00:00",
+  "generated_at": "2026-05-24T17:50:43.541562+00:00",
   "items": [
+    {
+      "id": "21666f89177faa98",
+      "content_hash": "21666f89177faa98bbdd99524c67c06e0ae38162f13d8317bc09fb946914c6e3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
+      "title": "Flick (YC F25) Is Hiring Front End Engineer to Build Figma for AI Filmmaking",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48258995\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T17:00:46+00:00",
+      "created_at": "2026-05-24T17:50:43.540951+00:00"
+    },
+    {
+      "id": "379a14715981ea47",
+      "content_hash": "379a14715981ea47d9c40826429892479dc8ffc2e56bedcb62f9bf86b3b7a6bd",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3120725",
+      "title": "6 kitchen gadgets that make adulting feel easier",
+      "body": "From a robot stirring your soup to a bread machine that kneads your dough, here are 6 gadgets that may make you feel like you’ve won adulthood.",
+      "url": "https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T17:00:00+00:00",
+      "created_at": "2026-05-24T17:50:43.100628+00:00"
+    },
+    {
+      "id": "6949781001a2d178",
+      "content_hash": "6949781001a2d178e681235389518dbec4c2f8a00e956602b219452aee9494eb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.phoronix.com/news/FreeBSD-On-Laptop-Driver",
+      "title": "FreeBSD Foundation Executive Director Tries Daily Driving FreeBSD on Laptop",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48258736\">Comments</a>",
+      "url": "https://www.phoronix.com/news/FreeBSD-On-Laptop-Driver",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T16:36:26+00:00",
+      "created_at": "2026-05-24T17:50:43.541073+00:00"
+    },
+    {
+      "id": "a2e7ef6040d7029c",
+      "content_hash": "a2e7ef6040d7029cdf80d24f6df5c4d1de15ff9ee33f54a01eb596fb012b812a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48258684\">Comments</a>",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T16:31:29+00:00",
+      "created_at": "2026-05-24T17:50:43.540801+00:00"
+    },
     {
       "id": "0acbb1e6e821aafc",
       "content_hash": "0acbb1e6e821aafcfd8e7b73052327e4d962986c6ff2e7658f688dfc1566d381",
@@ -3304,6 +3360,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T04:16:21.497000",
       "created_at": "2026-05-22T22:51:25.982756+00:00"
+    },
+    {
+      "id": "38c349bd75d31962",
+      "content_hash": "38c349bd75d31962d26befec5d856375688db42a2634efd29579a11e663f197a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.firefox.com/en-US/landing/adafruit/",
+      "title": "Build Adafruit projects right from Firefox",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48231547\">Comments</a>",
+      "url": "https://www.firefox.com/en-US/landing/adafruit/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T03:13:07+00:00",
+      "created_at": "2026-05-24T17:50:43.541055+00:00"
     },
     {
       "id": "d93fdc4b4aa0461a",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T13:13:36+00:00",
       "created_at": "2026-05-21T16:33:42.259107+00:00"
-    },
-    {
-      "id": "7185e39a586c31d3",
-      "content_hash": "7185e39a586c31d31c48d11f2fdcf8f3330f9248a1c7bd95fa57ef4c04f5de0e",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
-      "body": "A virtual private network service called 'First VPN,' used in ransomware and data theft attacks, has been taken offline in a joint international law enforcement operation. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:09:51+00:00",
-      "created_at": "2026-05-21T13:53:32.792409+00:00"
-    },
-    {
-      "id": "dfb19fe6ff895a86",
-      "content_hash": "dfb19fe6ff895a86811f11caf19a9de08dbf12beb501ca8f93c3c63d667a1f64",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
-      "title": "Gemini randomly dumped its system prompt",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48221976\">Comments</a>",
-      "url": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:04:21+00:00",
-      "created_at": "2026-05-21T13:53:37.344079+00:00"
-    },
-    {
-      "id": "010fb78e8c984697",
-      "content_hash": "010fb78e8c984697c367b5e353c0c032c10ba7306fb40a7e4978e5942f98d0f1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/",
-      "title": "A Bipartisan Amendment Would End Police License Plate Tracking Nationwide",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48221915\">Comments</a>",
-      "url": "https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T12:58:18+00:00",
-      "created_at": "2026-05-21T16:33:42.259159+00:00"
-    },
-    {
-      "id": "dcd55e47e69fa17e",
-      "content_hash": "dcd55e47e69fa17e7cd368c9174c16f2c384cd2d50d1d2ed12cb7630de402b26",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=48221896",
-      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48221896\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=48221896",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T12:56:37+00:00",
-      "created_at": "2026-05-21T16:33:42.259125+00:00"
-    },
-    {
-      "id": "5b294680c9ffcfbb",
-      "content_hash": "5b294680c9ffcfbb60a14efd009f5cb3a83a25f5b5bd8b237177849ec2cf3c74",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
-      "title": "Who Wins and Who Loses in Prediction Markets? Evidence from Polymarket",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48221877\">Comments</a>",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T12:55:16+00:00",
-      "created_at": "2026-05-21T16:33:42.258949+00:00"
     }
   ]
 }
