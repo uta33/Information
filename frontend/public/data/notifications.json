@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-24T09:12:42.502547+00:00",
+  "generated_at": "2026-05-24T11:06:04.535426+00:00",
   "items": [
+    {
+      "id": "c887743a281e78f2",
+      "content_hash": "c887743a281e78f2afd9a8ca72f44b465b3fc8bd596e87157d33f2fa82607f1a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ludic.mataroa.blog/blog/the-worlds-left-to-conquer/",
+      "title": "The Worlds Left to Conquer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256192\">Comments</a>",
+      "url": "https://ludic.mataroa.blog/blog/the-worlds-left-to-conquer/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T10:48:48+00:00",
+      "created_at": "2026-05-24T11:06:04.535151+00:00"
+    },
+    {
+      "id": "d7b2dbb09645710b",
+      "content_hash": "d7b2dbb09645710bb7a7f216d43342fa480fc78feab5881f9135b097ea72b25e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+      "title": "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48255593\">Comments</a>",
+      "url": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T08:29:38+00:00",
+      "created_at": "2026-05-24T11:06:04.534691+00:00"
+    },
+    {
+      "id": "3e43af8556c98a60",
+      "content_hash": "3e43af8556c98a60d8e1a3ad40ae18193308d3bfd9a3ac68dc022f7c68b7c8b0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lakesare.brick.do/all-lean-books-and-where-to-find-them-x2nYwjM3AwBQ",
+      "title": "All Lean Books and Where to Find Them",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48255501\">Comments</a>",
+      "url": "https://lakesare.brick.do/all-lean-books-and-where-to-find-them-x2nYwjM3AwBQ",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T08:13:32+00:00",
+      "created_at": "2026-05-24T11:06:04.534998+00:00"
+    },
     {
       "id": "12144584fb5ed9ac",
       "content_hash": "12144584fb5ed9ac7d6a401ef07bb7434c2f0d5819d94100edee63ff451e00df",
@@ -5826,6 +5868,20 @@
       "created_at": "2026-05-21T16:33:37.009164+00:00"
     },
     {
+      "id": "4750423646aae78c",
+      "content_hash": "4750423646aae78c726b9e72a8cc995787af98448dc8eac2fe2073225f06557f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html",
+      "title": "I spent 50 hours drawing a line graph",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48223997\">Comments</a>",
+      "url": "https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-21T15:05:28+00:00",
+      "created_at": "2026-05-24T11:06:04.534712+00:00"
+    },
+    {
       "id": "e806d7be3955b686",
       "content_hash": "e806d7be3955b686a75a08870183e400621d3e1b3b493f54ae83709e9f53b933",
       "source_name": "TechCrunch",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.4,
       "published_at": "2026-05-21T10:16:26.270000",
       "created_at": "2026-05-22T10:14:22.968033+00:00"
-    },
-    {
-      "id": "cb3ac0243d4f0c84",
-      "content_hash": "cb3ac0243d4f0c845b8e3907b7f4fdc7c1c05326f6abca5f8442802e0e02cf32",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45252",
-      "title": "CVE-2026-45252 - When a fusefs file system implements extended attributes, the kernel may send a ...",
-      "body": "When a fusefs file system implements extended attributes, the kernel may send a FUSE_LISTXATTR message to the userspace daemon to retrieve the list of extended attributes for a given file.  The FUSE protocol requires the daemon to return a packed list of NUL-terminated strings.  The fusefs kernel module calls strlen() on this daemon-supplied buffer without first verifying that the entire list is NUL-terminated.\n\nIf a malicious daemon sends a non-NUL-terminated list, the fusefs kernel module may read beyond the end of one heap-allocated buffer and potentially write beyond the end of a second buffer.  A malicious daemon could disclose up to 253 bytes of kernel heap memory, or it could inject up to 250 attacker-controlled bytes into unallocated kernel heap space.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45252",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-05-21T10:16:26.157000",
-      "created_at": "2026-05-22T10:14:22.968027+00:00"
-    },
-    {
-      "id": "62e42ad34975ff7e",
-      "content_hash": "62e42ad34975ff7efb71e41cc22aa75ba0c3bf1f273f7c7d9a3947cb705e0bea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45251",
-      "title": "CVE-2026-45251 - A file descriptor can be closed while a thread is blocked in a poll(2) or select...",
-      "body": "A file descriptor can be closed while a thread is blocked in a poll(2) or select(2) call waiting for that descriptor.  Because the blocked thread does not hold a reference to the underlying object, this closure may result in the object being freed while the thread remains blocked.  In this situation, the kernel must remove the blocked thread from the per-object wait queue prior to freeing the object.\n\nIn the case of some file descriptor types, the kernel failed to unlink blocked threads from the object before freeing it.  When the blocked thread is subsequently woken, it accesses memory that has already been freed resulting in a use-after-free vulnerability.\n\nThe use-after-free vulnerability may be triggered by an unprivileged local user and can be exploited to obtain superuser privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45251",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-05-21T10:16:26.043000",
-      "created_at": "2026-05-22T06:38:04.549273+00:00"
-    },
-    {
-      "id": "7af9fa531d0c4d4d",
-      "content_hash": "7af9fa531d0c4d4ddb1c53f0d6ebddaa343a732e3e06a74e5cfa0455f8810b08",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42396",
-      "title": "CVE-2026-42396 - Insufficient Validation of Member Zone Data May Cause Catalog Zone Transfer to F...",
-      "body": "Insufficient Validation of Member Zone Data May Cause Catalog Zone Transfer to Fail",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42396",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-05-21T10:16:25.927000",
-      "created_at": "2026-05-22T06:38:04.549266+00:00"
-    },
-    {
-      "id": "e90c71f3040e8465",
-      "content_hash": "e90c71f3040e8465c78a5f983dbf50287eae3a583a2fedd2f154049d797ecca5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42002",
-      "title": "CVE-2026-42002 - Concurrency and locking defects in GSS-TSIG",
-      "body": "Concurrency and locking defects in GSS-TSIG",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42002",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-05-21T10:16:25.800000",
-      "created_at": "2026-05-22T06:38:04.549260+00:00"
     }
   ]
 }
