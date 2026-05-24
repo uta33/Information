@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-24T11:06:04.535426+00:00",
+  "generated_at": "2026-05-24T12:57:06.645870+00:00",
   "items": [
+    {
+      "id": "9682453e5417cdbe",
+      "content_hash": "9682453e5417cdbed68235aa129ccb6fa3a4ceb63399e849ad5baa5432dd678f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://susam.net/childhood-computing.html",
+      "title": "Childhood Computing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256597\">Comments</a>",
+      "url": "https://susam.net/childhood-computing.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T12:07:34+00:00",
+      "created_at": "2026-05-24T12:57:06.645260+00:00"
+    },
+    {
+      "id": "1ce9a8d35c51c309",
+      "content_hash": "1ce9a8d35c51c30922f1b8d250af241460b3638c30a59dcd7a9fbc8ec606f73a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mastering.dyalog.com/README.html",
+      "title": "Mastering Dyalog APL",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256475\">Comments</a>",
+      "url": "https://mastering.dyalog.com/README.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T11:42:15+00:00",
+      "created_at": "2026-05-24T12:57:06.645154+00:00"
+    },
     {
       "id": "c887743a281e78f2",
       "content_hash": "c887743a281e78f2afd9a8ca72f44b465b3fc8bd596e87157d33f2fa82607f1a",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-05-21T10:16:26.497000",
       "created_at": "2026-05-22T10:14:22.968046+00:00"
-    },
-    {
-      "id": "4aeb9690783ad5c6",
-      "content_hash": "4aeb9690783ad5c6f7e378cee224274ebcbfee11edec785f03565d260d6570e2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45254",
-      "title": "CVE-2026-45254 - In the case of the cap_net service, when a key present in the old limit was omit...",
-      "body": "In the case of the cap_net service, when a key present in the old limit was omitted from the new limit, the missing key was treated as \"allow any\" instead of being rejected.\n\nIn certain scenarios, an application that had previously restricted a subset of network operations could ask for a new limit that extended the permissions of the process.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45254",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-21T10:16:26.380000",
-      "created_at": "2026-05-22T10:14:22.968040+00:00"
-    },
-    {
-      "id": "c956d084008ff54d",
-      "content_hash": "c956d084008ff54dae534efe32d505c6d58268589027b42f9c524a7d9c99bada",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45253",
-      "title": "CVE-2026-45253 - ptrace(PT_SC_REMOTE) failed to properly validate parameters for the syscall(2) a...",
-      "body": "ptrace(PT_SC_REMOTE) failed to properly validate parameters for the syscall(2) and __syscall(2) meta-system calls.  As a result, a user with the ability to debug a process may trigger arbitrary code execution in the kernel, even if the target process has no special privileges.\n\nThe missing validation allows an unprivileged local user to escalate privileges, potentially gaining full control of the affected system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45253",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.4,
-      "published_at": "2026-05-21T10:16:26.270000",
-      "created_at": "2026-05-22T10:14:22.968033+00:00"
     }
   ]
 }
