@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-24T20:04:55.981745+00:00",
+  "generated_at": "2026-05-24T21:44:22.730026+00:00",
   "items": [
+    {
+      "id": "e33f539f213a393c",
+      "content_hash": "e33f539f213a393c49dfa1be55b96acc3e6c3c2ac00959bac86c880ff245122f",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3125822",
+      "title": "Everyone is navigating AI security in real time — even Google",
+      "body": "We're in the transition period -- all of us.",
+      "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T21:39:21+00:00",
+      "created_at": "2026-05-24T21:44:22.606044+00:00"
+    },
+    {
+      "id": "c109fc44e028cee9",
+      "content_hash": "c109fc44e028cee933fa5d525d6114d51c3639f1e24b9c3ce7346c487030c90e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
+      "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48260140\">Comments</a>",
+      "url": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T19:12:46+00:00",
+      "created_at": "2026-05-24T21:44:22.728834+00:00"
+    },
     {
       "id": "6592e78435731ff2",
       "content_hash": "6592e78435731ff2287003116209b970f752acfb14d21e707d4999f050b158ea",
@@ -16,6 +44,48 @@
       "created_at": "2026-05-24T20:04:55.612528+00:00"
     },
     {
+      "id": "b0b0318e48206557",
+      "content_hash": "b0b0318e4820655739ac9310f2553053077a2bd910061c15c8d347a52a0f956a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+      "title": "Australia Four-Day Work Week Study Data Shows Boosted Productivity",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48259990\">Comments</a>",
+      "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T18:56:09+00:00",
+      "created_at": "2026-05-24T21:44:22.728902+00:00"
+    },
+    {
+      "id": "7ba42d9f46cbda9a",
+      "content_hash": "7ba42d9f46cbda9aca20242846f3ae089f59f78264b9519f47aa9e759a2ab68d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+      "title": "Defeating Git Rigour Fatigue with Jujutsu",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48259861\">Comments</a>",
+      "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T18:39:10+00:00",
+      "created_at": "2026-05-24T21:44:22.728961+00:00"
+    },
+    {
+      "id": "bb8bdfd8663bc327",
+      "content_hash": "bb8bdfd8663bc327683b614e5bf3ac9b2779403d3659652b88f830b4e198a7aa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "title": "Migrating from Go to Rust",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48259808\">Comments</a>",
+      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T18:31:42+00:00",
+      "created_at": "2026-05-24T21:44:22.728792+00:00"
+    },
+    {
       "id": "7d5dfdb8dac0cd0e",
       "content_hash": "7d5dfdb8dac0cd0e4698df84df207db2ee62398242a75426066722b1286bf006",
       "source_name": "Hacker News (Best)",
@@ -28,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T18:28:11+00:00",
       "created_at": "2026-05-24T20:04:55.981035+00:00"
+    },
+    {
+      "id": "43baaa696f26936c",
+      "content_hash": "43baaa696f26936c5c96ed1dd32f23dd82bf78cf6497725c3433a43f304ada2a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "title": "Claude is not your architect. Stop letting it pretend",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48259784\">Comments</a>",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T18:28:11+00:00",
+      "created_at": "2026-05-24T21:44:22.729120+00:00"
     },
     {
       "id": "4a7f8b80080cfc8e",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T13:36:06+00:00",
       "created_at": "2026-05-21T13:53:37.344100+00:00"
-    },
-    {
-      "id": "8e3e7aef31912ffc",
-      "content_hash": "8e3e7aef31912ffc2d00cc3f32371300cacb9bce492245245d40a289c4297cb7",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3125001",
-      "title": "Flipper unveils a Linux-powered networking gadget built for hackers and tinkerers",
-      "body": "Flipper Devices said that the new gadget is in development and the base model will cost under $350",
-      "url": "https://techcrunch.com/2026/05/21/flipper-unveils-a-linux-powered-networking-gadget-built-for-hackers-and-tinkerers/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:25:37+00:00",
-      "created_at": "2026-05-21T13:53:37.227353+00:00"
-    },
-    {
-      "id": "1f1073eb45c4687b",
-      "content_hash": "1f1073eb45c4687b0d5121e3e0edc536534eb663deb1b3d070c6ec518024866c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-6841",
-      "title": "CVE-2026-6841 - Request Tracker is vulnerable to a reflected cross-site scripting (XSS) vulnerab...",
-      "body": "Request Tracker is vulnerable to a reflected cross-site scripting (XSS) vulnerability via the \"Page\" parameter in GET requests. An attacker can craft a URL that, when opened, results in arbitrary JavaScript execution in the victim’s browser.\n\nThis vulnerability affects versions from 5.0.4 up to 5.0.9 and from 6.0.0 up to 6.0.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6841",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:16:20.273000",
-      "created_at": "2026-05-22T10:14:22.968122+00:00"
-    },
-    {
-      "id": "6cbed929ebe4e8ea",
-      "content_hash": "6cbed929ebe4e8ea22ad442190149f0a3317f7d67b94453d6302b4877ced13ee",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5118",
-      "title": "CVE-2026-5118 - The Divi Form Builder plugin for WordPress is vulnerable to privilege escalation...",
-      "body": "The Divi Form Builder plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 5.1.2. This is due to the plugin accepting a user-controlled 'role' parameter from POST data during user registration without validating it against the form's configured default_user_role setting. This makes it possible for unauthenticated attackers to create administrator accounts by tampering with the role parameter during registration.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5118",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-05-21T13:16:20.013000",
-      "created_at": "2026-05-22T10:14:22.968116+00:00"
-    },
-    {
-      "id": "d0b03dce1963f8b4",
-      "content_hash": "d0b03dce1963f8b4a29d89cc272382f72b7bd5d688f4c2a4b2956c5e66f61df8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45760",
-      "title": "CVE-2026-45760 - (Externally Controlled Reference to a Resource in Another Sphere), (Authorizatio...",
-      "body": "(Externally Controlled Reference to a Resource in Another Sphere), (Authorization Bypass Through User-Controlled Key) vulnerability in Apache Camel K. Authorized users in a Kubernetes namespace can create a Build resource, controlling the Pod generation in a namespace of their choice, including the operator namespace.\n\nThis issue affects Apache Camel K: from 2.0.0 before 2.8.1, from 2.9.0 before 2.9.2, from 2.10.0 before 2.10.1.\n\nUsers are recommended to upgrade to version 2.10.1 (or 2.8.1 or 2.9.2), which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45760",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:16:19.840000",
-      "created_at": "2026-05-22T10:14:22.968109+00:00"
-    },
-    {
-      "id": "2b9c990a3dad4925",
-      "content_hash": "2b9c990a3dad4925835e01ab879eac3b6e0516c7982f510cd239a964b661ebfe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43502",
-      "title": "CVE-2026-43502 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/rds: ha...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/rds: handle zerocopy send cleanup before the message is queued\n\nA zerocopy send can fail after user pages have been pinned but before\nthe message is attached to the sending socket.\n\nThe purge path currently infers zerocopy state from rm->m_rs, so an\nunqueued message can be cleaned up as if it owned normal payload pages.\nHowever, zerocopy ownership is really determined by the presence of\nop_mmp_znotifier, regardless of whether the message has reached the\nsocket queue.\n\nCapture op_mmp_znotifier up front in rds_message_purge() and use it as\nthe cleanup discriminator. If the message is already associated with a\nsocket, keep the existing completion path. Otherwise, drop the pinned\npage accounting directly and release the notifier before putting the\npayload pages.\n\nThis keeps early send failure cleanup consistent with the zerocopy\nlifetime rules without changing the normal queued completion path.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43502",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:16:19.520000",
-      "created_at": "2026-05-22T10:14:22.968103+00:00"
-    },
-    {
-      "id": "6adcff2a46ff2e6d",
-      "content_hash": "6adcff2a46ff2e6db863f5809f1e342b055f022dbc53d81f2e2d19a8d0c2a366",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-43501",
-      "title": "CVE-2026-43501 - In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: rpl: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: rpl: reserve mac_len headroom when recompressed SRH grows\n\nipv6_rpl_srh_rcv() decompresses an RFC 6554 Source Routing Header, swaps\nthe next segment into ipv6_hdr->daddr, recompresses, then pulls the old\nheader and pushes the new one plus the IPv6 header back.  The\nrecompressed header can be larger than the received one when the swap\nreduces the common-prefix length the segments share with daddr (CmprI=0,\nCmprE>0, seg[0][0] != daddr[0] gives the maximum +8 bytes).\n\npskb_expand_head() was gated on segments_left == 0, so on earlier\nsegments the push consumed unchecked headroom.  Once skb_push() leaves\nfewer than skb->mac_len bytes in front of data,\nskb_mac_header_rebuild()'s call to:\n\n\tskb_set_mac_header(skb, -skb->mac_len);\n\nwill store (data - head) - mac_len into the u16 mac_header field, which\nwraps to ~65530, and the following memmove() writes mac_len bytes ~64KiB\npast skb->head.\n\nA single AF_INET6/SOCK_RAW/IPV6_HDRINCL packet over lo with a two\nsegment type-3 SRH (CmprI=0, CmprE=15) reaches headroom 8 after one\npass; KASAN reports a 14-byte OOB write in ipv6_rthdr_rcv.\n\nFix this by expanding the head whenever the remaining room is less than\nthe push size plus mac_len, and request that much extra so the rebuilt\nMAC header fits afterwards.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43501",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:16:19.410000",
-      "created_at": "2026-05-22T10:14:22.968097+00:00"
     }
   ]
 }
