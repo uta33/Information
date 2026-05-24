@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T21:44:22.730026+00:00",
+  "generated_at": "2026-05-24T22:45:43.710618+00:00",
   "items": [
     {
       "id": "e33f539f213a393c",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T19:12:46+00:00",
       "created_at": "2026-05-24T21:44:22.728834+00:00"
+    },
+    {
+      "id": "3f826b2d0c0d38b1",
+      "content_hash": "3f826b2d0c0d38b1d6224f2dce431283714beaadba18175fd59f732811cca345",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "title": "A fundamental principle of aeronautical engineering has been overturned",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48260117\">Comments</a>",
+      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T19:10:26+00:00",
+      "created_at": "2026-05-24T22:45:43.710079+00:00"
     },
     {
       "id": "6592e78435731ff2",
@@ -252,6 +266,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T15:43:00+00:00",
       "created_at": "2026-05-24T16:50:27.943559+00:00"
+    },
+    {
+      "id": "33ce03b86ff8cdda",
+      "content_hash": "33ce03b86ff8cdda5b77cf9cc1fa9b375341db487e28138f4b915e5a214ff451",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://audiomass.co/?multitrack=1",
+      "title": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48258015\">Comments</a>",
+      "url": "https://audiomass.co/?multitrack=1",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T15:25:43+00:00",
+      "created_at": "2026-05-24T22:45:43.709878+00:00"
     },
     {
       "id": "59f549b42aa65b42",
@@ -2548,6 +2576,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T12:28:50+00:00",
       "created_at": "2026-05-23T23:46:30.921664+00:00"
+    },
+    {
+      "id": "e1044c8e88178af5",
+      "content_hash": "e1044c8e88178af5883baa899016de1fd0392857aee5b509532052ab6efd6ece",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.york.ac.uk/news-and-events/news/2026/research/200-year-old-puzzle-tobacco-plants-nicotine/",
+      "title": "Scientists solve 200-year-old puzzle of how tobacco plants make nicotine",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48234831\">Comments</a>",
+      "url": "https://www.york.ac.uk/news-and-events/news/2026/research/200-year-old-puzzle-tobacco-plants-nicotine/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T12:16:56+00:00",
+      "created_at": "2026-05-24T22:45:43.710201+00:00"
     },
     {
       "id": "76afe01dbe439df5",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T13:46:07+00:00",
       "created_at": "2026-05-21T13:53:37.227307+00:00"
-    },
-    {
-      "id": "e56eddf15e3a9edb",
-      "content_hash": "e56eddf15e3a9edb7bbefa6b14f734a9b625daf75a58b6cba07bff0e0c8ac1cf",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3125045",
-      "title": "With aluminum prices up 20%, recycling startups bet on AI to cash in",
-      "body": "Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal.",
-      "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:38:42+00:00",
-      "created_at": "2026-05-21T13:53:37.227332+00:00"
-    },
-    {
-      "id": "8a00466ea0d592c5",
-      "content_hash": "8a00466ea0d592c595f8272c3edd3ceb1cfd28d7e43e9c413d71ff777080fef4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
-      "title": "AI is just unauthorised plagiarism at a bigger scale",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48222383\">Comments</a>",
-      "url": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:38:12+00:00",
-      "created_at": "2026-05-21T13:53:37.344312+00:00"
-    },
-    {
-      "id": "260bad5fba7aca7a",
-      "content_hash": "260bad5fba7aca7a72356a637267025b3c63ce7cd0795b2c9845904a571c2175",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
-      "title": "Hating AI Is Good",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48222366\">Comments</a>",
-      "url": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:36:06+00:00",
-      "created_at": "2026-05-21T13:53:37.344100+00:00"
     }
   ]
 }
