@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-24T12:57:06.645870+00:00",
+  "generated_at": "2026-05-24T14:21:45.897410+00:00",
   "items": [
+    {
+      "id": "6a9e0cb1728cad5b",
+      "content_hash": "6a9e0cb1728cad5bf137f66f339a1cc7c03a0c94e4d890ae2fbcfa674d6e4680",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "body": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T14:12:32+00:00",
+      "created_at": "2026-05-24T14:21:40.779624+00:00"
+    },
+    {
+      "id": "f61ffba57743a34e",
+      "content_hash": "f61ffba57743a34ef26ea1bbfa9ed268e31184b2c47799df2174e2942222988c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://commsrisk.com/did-a-british-sms-honeypot-discover-election-fraud-in-the-us-midterms/",
+      "title": "Did a British SMS Honeypot Discover Election Fraud in the US Midterms?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48257188\">Comments</a>",
+      "url": "https://commsrisk.com/did-a-british-sms-honeypot-discover-election-fraud-in-the-us-midterms/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T13:35:57+00:00",
+      "created_at": "2026-05-24T14:21:45.897075+00:00"
+    },
+    {
+      "id": "af291e2d837b98f5",
+      "content_hash": "af291e2d837b98f5a84ab5e7589dbc71ba92da1c41cf3a4d346b0c42b166dbec",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3125528",
+      "title": "The Dreamie alarm clock got me to stop using my phone in bed",
+      "body": "What sets Dreamie apart from all of the other fancy alarm clocks is laughably simple: It can play podcasts.",
+      "url": "https://techcrunch.com/2026/05/24/the-dreamie-alarm-clock-got-me-to-stop-using-my-phone-in-bed/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-24T13:00:00+00:00",
+      "created_at": "2026-05-24T14:21:45.498281+00:00"
+    },
     {
       "id": "9682453e5417cdbe",
       "content_hash": "9682453e5417cdbed68235aa129ccb6fa3a4ceb63399e849ad5baa5432dd678f",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-24T12:07:34+00:00",
       "created_at": "2026-05-24T12:57:06.645260+00:00"
+    },
+    {
+      "id": "a9fed1c5e62e55c4",
+      "content_hash": "a9fed1c5e62e55c4b7fbda6929f90ffbf6c4b6922810d1db5dd6774ceb27e14e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://apple.github.io/ml-pico/",
+      "title": "Perceptual Image Codec: What Matters in Practical Learned Image Compression",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48256565\">Comments</a>",
+      "url": "https://apple.github.io/ml-pico/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-05-24T12:01:24+00:00",
+      "created_at": "2026-05-24T14:21:45.896913+00:00"
     },
     {
       "id": "1ce9a8d35c51c309",
@@ -2534,6 +2590,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T08:50:18+00:00",
       "created_at": "2026-05-22T10:14:22.619172+00:00"
+    },
+    {
+      "id": "9c75a067ecac4754",
+      "content_hash": "9c75a067ecac4754d88accf942bccd595605ced8e25e8a7c9b4c643eae80163f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sicpers.info/2026/05/i-keep-bouncing-off-the-scheme-language/",
+      "title": "I keep bouncing off the Scheme language",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48233398\">Comments</a>",
+      "url": "https://www.sicpers.info/2026/05/i-keep-bouncing-off-the-scheme-language/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T08:32:39+00:00",
+      "created_at": "2026-05-24T14:21:45.896863+00:00"
     },
     {
       "id": "74a63268ddb1978b",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T11:00:00+00:00",
       "created_at": "2026-05-21T13:53:37.227398+00:00"
-    },
-    {
-      "id": "609f72c57679b79f",
-      "content_hash": "609f72c57679b79fa7c00ac4311dcf3c710e655a87e02bc260d1c09dcb890522",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3124502",
-      "title": "Beauty booking startup Fresha hits $1B valuation with KKR backing",
-      "body": "Beauty and wellness booking marketplace Fresha says it has raised $80 million investment from KKR’s Next Generation Technology Growth fund, KKR's growth equity arm.",
-      "url": "https://techcrunch.com/2026/05/21/booking-platform-fresha-announces-80m-investment-unicorn-valuation/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T11:00:00+00:00",
-      "created_at": "2026-05-21T16:33:41.841095+00:00"
-    },
-    {
-      "id": "a7ac6e04c9d992a1",
-      "content_hash": "a7ac6e04c9d992a19e8ffb44f7b11aad33c0d8e2c1d293c7a071c59dd7d55727",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-      "body": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.\n\nThe former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges.\n\n\"Improper link resolution before file access ('link following') in Microsoft Defender",
-      "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-05-21T10:55:57+00:00",
-      "created_at": "2026-05-21T13:53:32.737293+00:00"
-    },
-    {
-      "id": "121a7cf0f1e45144",
-      "content_hash": "121a7cf0f1e45144f6733261addc2cd114e8d68f13e5b79343036b7a9dad1925",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://spectrum.ieee.org/semiconductor-fabrication",
-      "title": "IBM invented semiconductor manufacturing automation",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48220446\">Comments</a>",
-      "url": "https://spectrum.ieee.org/semiconductor-fabrication",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T10:39:48+00:00",
-      "created_at": "2026-05-21T13:53:37.344486+00:00"
-    },
-    {
-      "id": "b4ce2300ebed3992",
-      "content_hash": "b4ce2300ebed39920c1fd26c591f37bcc04a21d8087d66d189431a98cc2895f3",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "title": "When Identity is the Attack Path",
-      "body": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
-      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T10:30:00+00:00",
-      "created_at": "2026-05-21T13:53:32.737328+00:00"
-    },
-    {
-      "id": "fbd647773fa6b3fc",
-      "content_hash": "fbd647773fa6b3fc85fe910a4066e74ab64288fae833c763e8ef3336f9439339",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45255",
-      "title": "CVE-2026-45255 - When bsdinstall or bsdconfig are prompted to scan for nearby Wi-Fi networks, the...",
-      "body": "When bsdinstall or bsdconfig are prompted to scan for nearby Wi-Fi networks, they build up a list of network names and use bsddialog(1) to prompt the user to select a network.  This is implemented using a shell script, and the code which handled network names was not careful to prevent expansion by the shell.  As a result, a suitably crafted network name can be used to execute commands via a subshell.\n\nThe problem can be exploited to execute code as root on the system running bsdinstall or bsdconfig.  The attacker would need to create an access point with a specially crafted name and be within range of a Wi-Fi scan.  Note that bsdinstall and bsdconfig are vulnerable as soon as the user prompts them to scan for nearby networks; they do not need to actually select the malicious network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45255",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T10:16:26.497000",
-      "created_at": "2026-05-22T10:14:22.968046+00:00"
     }
   ]
 }
