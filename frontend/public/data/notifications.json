@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-25T16:57:53.617222+00:00",
+  "generated_at": "2026-05-25T18:23:24.272449+00:00",
   "items": [
+    {
+      "id": "f0009285d0916294",
+      "content_hash": "f0009285d0916294eea8343405c9a0e5b4c4571bd33ef251fd60726269ba0217",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jobs.ashbyhq.com/workweave",
+      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48269937\">Comments</a>",
+      "url": "https://jobs.ashbyhq.com/workweave",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T18:18:26+00:00",
+      "created_at": "2026-05-25T18:23:24.271814+00:00"
+    },
+    {
+      "id": "717299f9be66425e",
+      "content_hash": "717299f9be66425e703116295a5d7a050d0be80d359dd34b8859eae9d5901b81",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hackyexperiments.com/blog/the-revenge-of-the-measurers",
+      "title": "The Coming Layoffs and the Revenge of the Measurers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48269457\">Comments</a>",
+      "url": "https://www.hackyexperiments.com/blog/the-revenge-of-the-measurers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T17:35:34+00:00",
+      "created_at": "2026-05-25T18:23:24.271904+00:00"
+    },
+    {
+      "id": "1704ff218f03abd0",
+      "content_hash": "1704ff218f03abd030453f8dec9e4c4743281f53d25f944bd02d7aa092e381a1",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
+      "body": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T17:07:33+00:00",
+      "created_at": "2026-05-25T18:23:15.558366+00:00"
+    },
     {
       "id": "85ced8de630b5dee",
       "content_hash": "85ced8de630b5dee3db6dfa5af0037b48e407588e0ce9ad00b0281ba6760d4ae",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-25T16:44:49+00:00",
       "created_at": "2026-05-25T16:57:53.616846+00:00"
+    },
+    {
+      "id": "f61b2e8196c7385b",
+      "content_hash": "f61b2e8196c7385b88c581ce95b25f1b77e4f4c9401f61f153a856e6f5cf0737",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+      "title": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48268871\">Comments</a>",
+      "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T16:44:49+00:00",
+      "created_at": "2026-05-25T18:23:24.272164+00:00"
     },
     {
       "id": "a36b888df1fd90d3",
@@ -1204,6 +1260,20 @@
       "cvss_score": null,
       "published_at": "2026-05-25T01:23:00+00:00",
       "created_at": "2026-05-25T07:01:03.029777+00:00"
+    },
+    {
+      "id": "e9afe87215edb31b",
+      "content_hash": "e9afe87215edb31bb97072abf1ea41d0b8089951fc82faa30fc59b41dacab220",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "body": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T00:00:00+00:00",
+      "created_at": "2026-05-25T18:23:14.758645+00:00"
     },
     {
       "id": "e33f539f213a393c",
@@ -2800,6 +2870,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T06:32:00+00:00",
       "created_at": "2026-05-23T10:20:34.603270+00:00"
+    },
+    {
+      "id": "9f55a4274bab31a2",
+      "content_hash": "9f55a4274bab31a2f38368742ab3c01e15da64f1b53c6bbc68dcb741087cf66d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.analogmuseum.org/english/library.html",
+      "title": "The analog computer museum's online library",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48244547\">Comments</a>",
+      "url": "https://www.analogmuseum.org/english/library.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T04:04:12+00:00",
+      "created_at": "2026-05-25T18:23:24.271939+00:00"
     },
     {
       "id": "66416325cd9f3b33",
@@ -6916,90 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-05-21T18:16:21.380000",
       "created_at": "2026-05-22T16:13:26.094347+00:00"
-    },
-    {
-      "id": "af55a1ed0457d23d",
-      "content_hash": "af55a1ed0457d23d434783d0f6ebd6185a958bc5a22c41b6e28b452b412468ea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48242",
-      "title": "CVE-2026-48242 - Open ISES Tickets before 3.44.2 contains hardcoded MySQL database connection cre...",
-      "body": "Open ISES Tickets before 3.44.2 contains hardcoded MySQL database connection credentials (host, username, password, database name) in import_mdb.php. The credentials are embedded in source code committed to the public repository, allowing any reader of the source to obtain valid configuration values that may match deployed installations.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48242",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-21T18:16:21.220000",
-      "created_at": "2026-05-22T16:13:26.094340+00:00"
-    },
-    {
-      "id": "da1168d2782e9a8c",
-      "content_hash": "da1168d2782e9a8c85f945289af13120f3aca3bc0dd0fc5157e7525fabc3a0a6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48241",
-      "title": "CVE-2026-48241 - Open ISES Tickets before 3.44.2 contains hardcoded MySQL database credentials in...",
-      "body": "Open ISES Tickets before 3.44.2 contains hardcoded MySQL database credentials in loader.php (a public-facing database utility) that are committed to the source repository. Any actor with access to the public source tree (or an unauthenticated attacker with read access to the file on a deployed installation) can read the username, password, and database name and use them to connect to the database if it is reachable from their network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48241",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-05-21T18:16:21.070000",
-      "created_at": "2026-05-22T16:13:26.094334+00:00"
-    },
-    {
-      "id": "fac7dfdcf6c12e97",
-      "content_hash": "fac7dfdcf6c12e97336b51eb60537fc420dbbe52a04404ebddaff5df3d91827f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48240",
-      "title": "CVE-2026-48240 - Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/s...",
-      "body": "Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/statistics.php where the tick_id and f_tick_id POST parameters are concatenated into WHERE clauses of SELECT statements in the statistics rollup queries without sanitization. Authenticated attackers can craft requests that alter query semantics to read, modify, or destroy database contents.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48240",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T18:16:20.943000",
-      "created_at": "2026-05-22T16:13:26.094327+00:00"
-    },
-    {
-      "id": "343cebca74060ed0",
-      "content_hash": "343cebca74060ed04ebf7e1bb12dfbb54f1202fe84c59f009d765d05a74a372c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48239",
-      "title": "CVE-2026-48239 - Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/r...",
-      "body": "Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/reports.php where the tick_id POST parameter is concatenated into the WHERE clause of SELECT statements in the incidents summary report without sanitization. Authenticated attackers can craft requests that alter query semantics to read, modify, or destroy database contents.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48239",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T18:16:20.820000",
-      "created_at": "2026-05-22T16:13:26.094321+00:00"
-    },
-    {
-      "id": "4b1b70983710ba1d",
-      "content_hash": "4b1b70983710ba1ddb058e6743629d8334ce62f169d9d70b135c0da1e759b80e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48238",
-      "title": "CVE-2026-48238 - Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/m...",
-      "body": "Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in ajax/mobile_main.php where the id GET parameter is concatenated into the WHERE clause of a SELECT statement used as a ticket-existence sanity check without sanitization. Authenticated attackers can craft requests that alter query semantics to read, modify, or destroy database contents.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48238",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T18:16:20.697000",
-      "created_at": "2026-05-22T16:13:26.094314+00:00"
-    },
-    {
-      "id": "75d49760234dabe9",
-      "content_hash": "75d49760234dabe9994c9f4ca7f384427025714a3f5513aaa3a49f6fa8c65490",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48237",
-      "title": "CVE-2026-48237 - Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in messag...",
-      "body": "Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in message.php where the frm_ticket_id and frm_resp_id POST parameters are concatenated into WHERE clauses of SELECT/UPDATE statements without sanitization. Authenticated attackers can craft requests that alter query semantics to read, modify, or destroy database contents.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48237",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-05-21T18:16:20.570000",
-      "created_at": "2026-05-22T16:13:26.094308+00:00"
     }
   ]
 }
