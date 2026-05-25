@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T23:50:20.372288+00:00",
+  "generated_at": "2026-05-25T02:12:19.182332+00:00",
   "items": [
     {
       "id": "e33f539f213a393c",
@@ -1442,6 +1442,20 @@
       "cvss_score": null,
       "published_at": "2026-05-23T09:37:16+00:00",
       "created_at": "2026-05-23T22:46:10.510526+00:00"
+    },
+    {
+      "id": "a5b7bfa2a99f4865",
+      "content_hash": "a5b7bfa2a99f486536a7abb23daca1b0eafce6869cccbee36d530678e2b3cb46",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ohwr.org/projects/white-rabbit/",
+      "title": "White Rabbit – sub-nanosecond synchronization for large distributed systems",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48245916\">Comments</a>",
+      "url": "https://ohwr.org/projects/white-rabbit/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-23T08:38:44+00:00",
+      "created_at": "2026-05-25T02:12:19.181934+00:00"
     },
     {
       "id": "bc178d0884f29878",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T13:50:59+00:00",
       "created_at": "2026-05-21T16:33:42.258931+00:00"
-    },
-    {
-      "id": "6db90290e321fbb6",
-      "content_hash": "6db90290e321fbb602360617040fefc7d4239e7d25f83575ada9bc342453e246",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "title": "Google's Antigravity bait and switch",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48222529\">Comments</a>",
-      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T13:50:59+00:00",
-      "created_at": "2026-05-21T20:29:34.865870+00:00"
     }
   ]
 }
