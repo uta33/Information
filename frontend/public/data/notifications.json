@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-25T20:18:16.186385+00:00",
+  "generated_at": "2026-05-25T22:00:43.914081+00:00",
   "items": [
+    {
+      "id": "80e3ea50e7a85e4c",
+      "content_hash": "80e3ea50e7a85e4c443bb99b83ef41bffa2c6e0daaa63cca823637fc5fbdeba6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car",
+      "title": "Ferrari Luce, Maranello's first ever electric car",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48271933\">Comments</a>",
+      "url": "https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T21:34:40+00:00",
+      "created_at": "2026-05-25T22:00:43.913754+00:00"
+    },
+    {
+      "id": "9a4772ce88ba058f",
+      "content_hash": "9a4772ce88ba058f76220bd2d5a66e9191aaaee01c41b1a1d45947b4a7925422",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://techxplore.com/news/2026-05-online-age-pointless-privacy.html",
+      "title": "Yoti age checks share facial photos and device fingerprints with third parties",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48271327\">Comments</a>",
+      "url": "https://techxplore.com/news/2026-05-online-age-pointless-privacy.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T20:30:25+00:00",
+      "created_at": "2026-05-25T22:00:43.913647+00:00"
+    },
     {
       "id": "8bde1eb50327be8c",
       "content_hash": "8bde1eb50327be8cb510581c64b4c8ca578b54a467fb64b745dd8cb2c7a01f99",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-05-25T19:43:45+00:00",
       "created_at": "2026-05-25T20:18:16.185801+00:00"
+    },
+    {
+      "id": "8f2aceaf2740c894",
+      "content_hash": "8f2aceaf2740c8944ee96f4c0a197f7b3179972ce8ae69a3bb36d4b604dc2b8c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48270770\">Comments</a>",
+      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T19:37:57+00:00",
+      "created_at": "2026-05-25T22:00:43.913391+00:00"
     },
     {
       "id": "039f46231f72cc4a",
@@ -168,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-05-25T16:20:36+00:00",
       "created_at": "2026-05-25T20:18:16.185748+00:00"
+    },
+    {
+      "id": "a2740edae54f7d4c",
+      "content_hash": "a2740edae54f7d4c479db3b8ae1e709cbba738f4985fb6d9ab05d6bec8620649",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.referenceforbusiness.com/biography/S-Z/Suzuki-Toshifumi-1932.html",
+      "title": "Toshifumi Suzuki, founder of Seven-Eleven Japan, has died",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48268609\">Comments</a>",
+      "url": "https://www.referenceforbusiness.com/biography/S-Z/Suzuki-Toshifumi-1932.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-25T16:20:36+00:00",
+      "created_at": "2026-05-25T22:00:43.913484+00:00"
     },
     {
       "id": "a36b888df1fd90d3",
@@ -3360,6 +3416,20 @@
       "cvss_score": null,
       "published_at": "2026-05-22T19:31:45+00:00",
       "created_at": "2026-05-22T20:27:04.954679+00:00"
+    },
+    {
+      "id": "a3964a9286560096",
+      "content_hash": "a3964a9286560096f0595eb24af81f7ed419881c12491046bf9a50297d1ac8f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence",
+      "title": "Jensen–Shannon Divergence",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48240356\">Comments</a>",
+      "url": "https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-22T19:27:27+00:00",
+      "created_at": "2026-05-25T22:00:43.913540+00:00"
     },
     {
       "id": "4b557ee63624cfa2",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-21T19:32:35+00:00",
       "created_at": "2026-05-24T06:26:40.849918+00:00"
-    },
-    {
-      "id": "2b956ed6e7a7d46f",
-      "content_hash": "2b956ed6e7a7d46ff409461a68c583a6b0f6f116cbbd450de767b149aaff731c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
-      "title": "Using Kagi Search with Low Vision",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48227860\">Comments</a>",
-      "url": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T19:32:16+00:00",
-      "created_at": "2026-05-21T20:29:34.865974+00:00"
-    },
-    {
-      "id": "39ce0b31ae5e6f72",
-      "content_hash": "39ce0b31ae5e6f723b371a354b49214d6315f64c97037b565c0d094b2696729e",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3124506",
-      "title": "Six search engines worth trying now that Google isn’t really Google anymore",
-      "body": "Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming.",
-      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T19:19:05+00:00",
-      "created_at": "2026-05-21T20:29:34.755371+00:00"
-    },
-    {
-      "id": "96f1bdf8cb3759d2",
-      "content_hash": "96f1bdf8cb3759d2ba381d785bb398422e194ed090200329b152c1475e286e27",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46473",
-      "title": "CVE-2026-46473 - Authen::TOTP versions before 0.1.1 for Perl generate secrets using rand.\n\nSecret...",
-      "body": "Authen::TOTP versions before 0.1.1 for Perl generate secrets using rand.\n\nSecrets were generated using Perl's built-in rand function, which is predictable and unsuitable for security usage.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46473",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-05-21T19:16:53.510000",
-      "created_at": "2026-05-22T16:13:26.094392+00:00"
-    },
-    {
-      "id": "b76a6748faea7ac4",
-      "content_hash": "b76a6748faea7ac477fcd3d3ed4d92ac76f55f2c88b7aaf5338d684f75773c54",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
-      "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48227397\">Comments</a>",
-      "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T18:54:55+00:00",
-      "created_at": "2026-05-21T20:29:34.865785+00:00"
-    },
-    {
-      "id": "e9676920d2028d3f",
-      "content_hash": "e9676920d2028d3fa09699850ce35e3362c1192d5880c2f2b23e5b39d01520a3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf",
-      "title": "Serving Netflix Video Traffic at 400Gb/S and Beyond (2022) [pdf]",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48227068\">Comments</a>",
-      "url": "https://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-21T18:29:35+00:00",
-      "created_at": "2026-05-21T18:51:34.572163+00:00"
     }
   ]
 }
