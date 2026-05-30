@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-30T05:44:10.230764+00:00",
+  "generated_at": "2026-05-30T08:14:25.035532+00:00",
   "items": [
+    {
+      "id": "519f1487aaf53d18",
+      "content_hash": "519f1487aaf53d18e8110fc1cf54dc5c4e0bf2a0012c20ab7b499ed364b20230",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+      "body": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections.\n\n\"Authentication bypass vulnerabilities in the",
+      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-05-30T06:41:26+00:00",
+      "created_at": "2026-05-30T08:14:19.793400+00:00"
+    },
+    {
+      "id": "d27b08ce6be75a12",
+      "content_hash": "d27b08ce6be75a121778ebb3e14b66294156b18a44f3975b6ddb089b3799f647",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openrct2.io/blog/2026/05/openrct2-v0.5.1-released",
+      "title": "OpenRCT2 v0.5.1 \"Swamp Castle\" released Last version to support Windows 7",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48333096\">Comments</a>",
+      "url": "https://openrct2.io/blog/2026/05/openrct2-v0.5.1-released",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T06:00:32+00:00",
+      "created_at": "2026-05-30T08:14:25.035118+00:00"
+    },
     {
       "id": "d829c37f7cc6a60a",
       "content_hash": "d829c37f7cc6a60a039699d7bfc58f15934e32ec7d480e9c024ef1bfdb4ba791",
@@ -1038,6 +1066,20 @@
       "created_at": "2026-05-29T16:33:49.453288+00:00"
     },
     {
+      "id": "faadc87752069df4",
+      "content_hash": "faadc87752069df400df846cf1775bd47abfce87f8313678a241add7fc3bc07b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-9559",
+      "title": "CVE-2026-9559 - A path traversal vulnerability exists in the campaign import feature of Mautic 7...",
+      "body": "A path traversal vulnerability exists in the campaign import feature of Mautic 7. When extracting uploaded ZIP files during campaign imports, a flaw in the validation logic allows file paths to escape the intended temporary directories. An authenticated user with campaign import privileges (campaign:imports:create) can write arbitrary PHP files to sensitive system directories. An attacker can exploit this to overwrite critical internal configuration or cache components, resulting in Remote Code Execution (RCE) under the context of the web server user.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9559",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.9,
+      "published_at": "2026-05-29T12:16:26.680000",
+      "created_at": "2026-05-30T08:14:20.134664+00:00"
+    },
+    {
       "id": "be2a9f23a0eec048",
       "content_hash": "be2a9f23a0eec048bc01ae54d8d859491e6a1ef87e61a818eb7d4de737f65ca2",
       "source_name": "CVE (NVD)",
@@ -1414,6 +1456,20 @@
       "cvss_score": null,
       "published_at": "2026-05-29T11:31:59+00:00",
       "created_at": "2026-05-29T12:39:16.283500+00:00"
+    },
+    {
+      "id": "ae8e46b00d8d1757",
+      "content_hash": "ae8e46b00d8d17576489b6daf999c46c16b3f64e3fa53a0eee1c5dbc6cd2f6c6",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "body": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025.\n\nGREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to",
+      "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-29T11:31:59+00:00",
+      "created_at": "2026-05-30T08:14:19.793485+00:00"
     },
     {
       "id": "89a532197b3560a4",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-28T14:00:00+00:00",
       "created_at": "2026-05-28T14:26:55.794015+00:00"
-    },
-    {
-      "id": "1cea1da037701814",
-      "content_hash": "1cea1da0377018149373b2287a1e475be668aa5130d08178a9ec73620c5d1211",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "body": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed.\n\nThe development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
-      "url": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-05-28T13:53:52+00:00",
-      "created_at": "2026-05-28T14:26:51.221805+00:00"
-    },
-    {
-      "id": "8efa69498fe753e8",
-      "content_hash": "8efa69498fe753e80b5ee087c86f9cbd0e23f2b02f7f5751a08991faf817408b",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "body": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, and enough exposed infrastructure to make you wonder if prod is just a public beta now - meanwhile some researcher casually drops a technique that turns a \"minor\" foothold into total account",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T13:33:16+00:00",
-      "created_at": "2026-05-28T14:26:51.221843+00:00"
-    },
-    {
-      "id": "a2de0a650c769275",
-      "content_hash": "a2de0a650c769275e412b4f453de19ecda6bd80e7aacdb315b069f0b0f47a610",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9818",
-      "title": "CVE-2026-9818 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9818",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T13:16:25.440000",
-      "created_at": "2026-05-29T12:39:16.555668+00:00"
-    },
-    {
-      "id": "d35457909766d028",
-      "content_hash": "d35457909766d028ec7193167aafda22154622e215496f8a41b97ccc7ef6db47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9658",
-      "title": "CVE-2026-9658 - Plack::Middleware::Security::Common versions before 0.13.1 for Perl did not bloc...",
-      "body": "Plack::Middleware::Security::Common versions before 0.13.1 for Perl did not block header injections in request paths.\n\nThe header injection rule was ineffective at blocking header injections in the request paths unless they were double-encoded, for example,\n\n  GET /path\\r\\nHTTP/1.1\\r\\nHost: secret.example.com\n\nNote that it is unclear whether request paths with CRLF followed by additional headers would be blocked by reverse proxies, or how they would be processed by Plack-based servers.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9658",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T13:16:25.067000",
-      "created_at": "2026-05-29T12:39:16.555657+00:00"
     }
   ]
 }
