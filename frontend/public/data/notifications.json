@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-30T21:49:45.829246+00:00",
+  "generated_at": "2026-05-30T22:45:14.097421+00:00",
   "items": [
+    {
+      "id": "618205301f07b5d6",
+      "content_hash": "618205301f07b5d667df46650cae96f8c3d9cfd3a53b9b8a730697e87931f874",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10153",
+      "title": "CVE-2026-10153 - A flaw has been found in westboy CicadasCMS up to 2431154dac8d0735e04f1fd2a3c355...",
+      "body": "A flaw has been found in westboy CicadasCMS up to 2431154dac8d0735e04f1fd2a3c3556668fc8dab. Impacted is the function Search of the file org/springframework/cache/support/AbstractCacheManager.java. This manipulation of the argument s causes cross site scripting. Remote exploitation of the attack is possible. The exploit has been published and may be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10153",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-30T22:16:14.523000",
+      "created_at": "2026-05-30T22:45:10.388386+00:00"
+    },
     {
       "id": "0e29204fce9e66f2",
       "content_hash": "0e29204fce9e66f21d73d77377e51517963f71f430da21e914c36700cc913402",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T20:54:22+00:00",
       "created_at": "2026-05-30T21:49:45.828779+00:00"
+    },
+    {
+      "id": "6697344be7704750",
+      "content_hash": "6697344be7704750da071c4ed2b06929673845d58dba1ffe5f20967ff9af48d9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://interfaces.dev/",
+      "title": "Design Engineering Magazine",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48340448\">Comments</a>",
+      "url": "https://interfaces.dev/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T20:46:54+00:00",
+      "created_at": "2026-05-30T22:45:14.096846+00:00"
     },
     {
       "id": "776f23a3594f3b48",
@@ -896,6 +924,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T14:41:26+00:00",
       "created_at": "2026-05-30T15:57:54.757736+00:00"
+    },
+    {
+      "id": "0b4f44946d2a2ae9",
+      "content_hash": "0b4f44946d2a2ae9500fc016f2c7b36018e01bc81fc08c749b5bfa5aa7e822ab",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jackmaguire.org/blog/ai-job-grief/",
+      "title": "AI job grief: A psychological crisis hitting tech workers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48336760\">Comments</a>",
+      "url": "https://jackmaguire.org/blog/ai-job-grief/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T14:41:26+00:00",
+      "created_at": "2026-05-30T22:45:14.097186+00:00"
     },
     {
       "id": "f859da4731f49cf7",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T02:16:17.380000",
       "created_at": "2026-05-30T01:57:23.835844+00:00"
-    },
-    {
-      "id": "f776b224ace2e010",
-      "content_hash": "f776b224ace2e010f241ab45640fbfd542321e5597942e5e4c1898553a2b1ccb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-7480",
-      "title": "CVE-2026-7480 - An Incorrect Permission Assignment for Critical Resource vulnerability in ASUS S...",
-      "body": "An Incorrect Permission Assignment for Critical Resource vulnerability in ASUS System Control Interface allows a local user to elevate privileges to SYSTEM and execute arbitrary code via a crafted RPC call that bypass the validation mechanism.\nRefer to the 'Security Update for ASUS System Control Interface' section on the ASUS Security Advisory for more information.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7480",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:16:17.223000",
-      "created_at": "2026-05-30T01:57:23.835820+00:00"
-    },
-    {
-      "id": "53cdc6da6c8dfcc5",
-      "content_hash": "53cdc6da6c8dfcc5124727c3b1c38e01a9e006e40e1ed0a1140b7e02eb9e8ac5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
-      "title": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48318174\">Comments</a>",
-      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:13:20+00:00",
-      "created_at": "2026-05-29T09:32:06.143733+00:00"
-    },
-    {
-      "id": "ce69b8d0bd9498c3",
-      "content_hash": "ce69b8d0bd9498c3aac6096d3470c233aa7b606f270f1ebf266c6141f6d3efac",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3127620",
-      "title": "Blue Origin’s New Glenn rocket explodes during testing in Florida",
-      "body": "The explosion is likely a major setback for Jeff Bezos' spaceflight company, and its attempt to compete with SpaceX.",
-      "url": "https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T01:22:16+00:00",
-      "created_at": "2026-05-29T05:03:51.073084+00:00"
     }
   ]
 }
