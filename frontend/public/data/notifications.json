@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-30T10:42:59.411197+00:00",
+  "generated_at": "2026-05-30T12:00:38.721664+00:00",
   "items": [
+    {
+      "id": "b1511b0ebfda00e0",
+      "content_hash": "b1511b0ebfda00e0ac38c2163657b91a18ebd4b11ea1d6dc66cc2daf526e8531",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
+      "title": "Proposed new US funding rules: We can cancel any grant at any time",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48335135\">Comments</a>",
+      "url": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T11:41:29+00:00",
+      "created_at": "2026-05-30T12:00:38.720966+00:00"
+    },
+    {
+      "id": "14cbd19a0b65f2c7",
+      "content_hash": "14cbd19a0b65f2c749934e17bd75fe161f55a03cd6d7ea974e85a7f35917b4b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://helios.southlondonscientific.com/",
+      "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48334949\">Comments</a>",
+      "url": "https://helios.southlondonscientific.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T11:08:37+00:00",
+      "created_at": "2026-05-30T12:00:38.721009+00:00"
+    },
+    {
+      "id": "7e81fe6797839c47",
+      "content_hash": "7e81fe6797839c47e6ef4a30e907bbe97ac74017340269614002139592abca93",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pandoc-templates.org/",
+      "title": "Pandoc Templates",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48334515\">Comments</a>",
+      "url": "https://pandoc-templates.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T09:56:42+00:00",
+      "created_at": "2026-05-30T12:00:38.720849+00:00"
+    },
     {
       "id": "c5f986a549693ae2",
       "content_hash": "c5f986a549693ae2df5f1bb2956e86b18503f58d506f578130b2550cbad26dc3",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-05-28T16:16:21.530000",
       "created_at": "2026-05-29T12:39:16.555751+00:00"
-    },
-    {
-      "id": "9b16486ca935935d",
-      "content_hash": "9b16486ca935935dbf6574008dbf6aa40e32a18c8690fa1d31e3ed87c32d9d96",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3127112",
-      "title": "How long is Anthropic’s lease with SpaceX? Opinions vary.",
-      "body": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
-      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T15:36:00+00:00",
-      "created_at": "2026-05-28T17:54:56.801503+00:00"
-    },
-    {
-      "id": "39d01f99f8dfb8b8",
-      "content_hash": "39d01f99f8dfb8b8c147dc16d170cb60c845f2c7c5a104d0b72e5e20814a9683",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3127112",
-      "title": "How long is Anthropic’s lease with SpaceX? Opinions vary",
-      "body": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
-      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T15:36:00+00:00",
-      "created_at": "2026-05-28T22:25:15.264677+00:00"
-    },
-    {
-      "id": "8427959c80c0b98a",
-      "content_hash": "8427959c80c0b98a64924a8c54ed3e6bff0a67f61f065b236d6acf19fdc86f79",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3127110",
-      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
-      "body": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
-      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-28T15:35:43+00:00",
-      "created_at": "2026-05-28T17:54:56.801524+00:00"
     }
   ]
 }
