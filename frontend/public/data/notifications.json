@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-30T22:45:14.097421+00:00",
+  "generated_at": "2026-05-30T23:51:09.653409+00:00",
   "items": [
+    {
+      "id": "70d1959b5c25263f",
+      "content_hash": "70d1959b5c25263f5854dea00a804a58d99050599715d6cced424497fed847a8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "title": "Microsoft degrades functionality of perpetually-licensed offline products",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341578\">Comments</a>",
+      "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T23:26:13+00:00",
+      "created_at": "2026-05-30T23:51:09.652923+00:00"
+    },
+    {
+      "id": "974eb2a4645ab7f2",
+      "content_hash": "974eb2a4645ab7f243b9a46106feedc5238c36af0578da7fe4985ffb7cf8a6ce",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tristonarmstrong.com/blog/custom-errors-are-non-negotiable-in-my-rust-applications",
+      "title": "Custom Errors Are Non-Negotiable in My Rust Applications",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341505\">Comments</a>",
+      "url": "https://tristonarmstrong.com/blog/custom-errors-are-non-negotiable-in-my-rust-applications",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T23:14:18+00:00",
+      "created_at": "2026-05-30T23:51:09.652975+00:00"
+    },
+    {
+      "id": "f914ae849455c55d",
+      "content_hash": "f914ae849455c55d95a964ebb5ca9ec490e6e4df52425b6caa6095eddeb4c432",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://brie.gay/cheese-paper/",
+      "title": "Cheese Paper: a text editor specifically designed for writing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341407\">Comments</a>",
+      "url": "https://brie.gay/cheese-paper/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T22:58:41+00:00",
+      "created_at": "2026-05-30T23:51:09.653028+00:00"
+    },
     {
       "id": "618205301f07b5d6",
       "content_hash": "618205301f07b5d667df46650cae96f8c3d9cfd3a53b9b8a730697e87931f874",
@@ -14,6 +56,34 @@
       "cvss_score": 4.3,
       "published_at": "2026-05-30T22:16:14.523000",
       "created_at": "2026-05-30T22:45:10.388386+00:00"
+    },
+    {
+      "id": "80d950ac08aded5c",
+      "content_hash": "80d950ac08aded5c6780e04b2dfecc33f1d72454ff0752622c43fad3651efa95",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shantellsans.com/process",
+      "title": "Shantell Sans",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341062\">Comments</a>",
+      "url": "https://shantellsans.com/process",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T22:06:38+00:00",
+      "created_at": "2026-05-30T23:51:09.653097+00:00"
+    },
+    {
+      "id": "896c965fc44203df",
+      "content_hash": "896c965fc44203dfce7698ed75db5746ecbbc447fbfd6f45e6161523e6ee7834",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.llmcap.io/aws-budgets-has-an-8-hour-delay-your-bedrock-bill-doesn-t",
+      "title": "AWS Budgets Has an 8-Hour Delay. Your Bedrock Bill Doesn't",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48340958\">Comments</a>",
+      "url": "https://blog.llmcap.io/aws-budgets-has-an-8-hour-delay-your-bedrock-bill-doesn-t",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T21:52:30+00:00",
+      "created_at": "2026-05-30T23:51:09.653162+00:00"
     },
     {
       "id": "0e29204fce9e66f2",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T02:18:00+00:00",
       "created_at": "2026-05-29T05:03:50.945449+00:00"
-    },
-    {
-      "id": "7194b16ac790fe74",
-      "content_hash": "7194b16ac790fe743b40530233e777e2566fac104dc0261693425bbc31e8c11a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017272.html",
-      "title": "LinuxのLinux Kernelにおける再帰制御に関する脆弱性",
-      "body": "Linuxカーネルのscsi: target: __configfs_open_file()には再帰的なロックの問題がありました。flush_write_buffer関数で取得されたセマフォが、target_core_item_dbroot_store()関数内でfilp_open()呼び出しにより同じファイルに対して再度取得され、再帰的なロックが発生する可能性がありました。この問題を解決するため、target_core_item_dbroot_store()関数はfilp_open()の代わりにkern_path()を使用してファイルの再オープンを避けるように修正しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017272.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945462+00:00"
-    },
-    {
-      "id": "fcffcf9f14d4e5d1",
-      "content_hash": "fcffcf9f14d4e5d111636a3c7b4716acc85e991cf94b40a53da2370e3793395a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017271.html",
-      "title": "マイクロソフトのMicrosoft Power Pagesにおけるコマンドインジェクションの脆弱性",
-      "body": "Microsoft Power Pagesにおけるコマンドで使用される特殊要素が適切に無害化されていない（「コマンドインジェクション」）ため、認可されていない攻撃者がネットワーク経由でコードを実行する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017271.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945476+00:00"
-    },
-    {
-      "id": "d69d939318bd6df5",
-      "content_hash": "d69d939318bd6df516b7022f7cb17d1b8c0a48da668c6e9ba26d1a9372ceeba0",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017270.html",
-      "title": "lfprojectsのmlflowにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "MLflowのバージョン3.9.0より前のバージョンには、サーバーサイドリクエストフォージェリ（SSRF）脆弱性が存在します。`mlflow/server/handlers.py`の`_create_webhook()`関数は検証なしにユーザー制御の`url`パラメータを受け入れ、`mlflow/webhooks/delivery.py`の`_send_webhook_request()`関数は攻撃者が制御するURLにHTTP POSTリクエストを送信します。これにより、認証された攻撃者がMLflowのバックエンドに対して内部サービス、クラウドメタデータエンドポイント、または任意の外部サーバーへHTTPリクエストを強制的に送信させることが可能になります。ウェブフックURLに対して入力のサニタイズ、URLスキームのフィルタリング、ホワイトリストの検証が行われていないため、クラウド認証情報が窃取されたり、内部ネットワークへアクセスされたり、データが流出したりする被害が発生する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017270.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945491+00:00"
-    },
-    {
-      "id": "286c2ae8cc554009",
-      "content_hash": "286c2ae8cc554009842d0e585063c55ffac5e5907a598bba12282740b5c2e1e3",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017269.html",
-      "title": "NVIDIAのgpu display driverにおける競合状態に関する脆弱性",
-      "body": "NVIDIAのLinux向けディスプレイドライバーには、カーネルモジュールに脆弱性があり、ユーザーがコンパイラーまたはプロセッサのメモリ命令の順序を入れ替えることで競合状態を引き起こす可能性があります。この脆弱性が悪用されると、サービス拒否（DoS）を引き起こします。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017269.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945505+00:00"
-    },
-    {
-      "id": "7da20bb4a542cb30",
-      "content_hash": "7da20bb4a542cb3081dffd4b0f85ef6f37704bc0c7786d7a8a60032cd014bf40",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8070",
-      "title": "CVE-2026-8070 - Incorrect permission assignment for a critical resource in Armoury Crate allows ...",
-      "body": "Incorrect permission assignment for a critical resource in Armoury Crate allows a local user to bypass the driver’s validation mechanism, resulting in unauthorized read and write access to physical memory.Refer to the ' \nSecurity Update for Armoury Crate App   ' section on the ASUS Security Advisory for more information.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8070",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:16:17.380000",
-      "created_at": "2026-05-30T01:57:23.835844+00:00"
     }
   ]
 }
