@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-30T23:51:09.653409+00:00",
+  "generated_at": "2026-05-31T02:12:26.158206+00:00",
   "items": [
+    {
+      "id": "c9bab3f71352e2f6",
+      "content_hash": "c9bab3f71352e2f6a82a71a761529293146cbc63f786ddd017930402e36d7a1a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://claudefolio.com/blog/anyone-can-build-a-platform-now-almost-nobody-can-get-people-to-find-it",
+      "title": "Anyone can build a platform now. Almost nobody can get people to find it",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48342097\">Comments</a>",
+      "url": "https://claudefolio.com/blog/anyone-can-build-a-platform-now-almost-nobody-can-get-people-to-find-it",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T00:55:17+00:00",
+      "created_at": "2026-05-31T02:12:26.157489+00:00"
+    },
+    {
+      "id": "59074068dbf8bb59",
+      "content_hash": "59074068dbf8bb598aeb1f8d6bf3b7ea7c3847a8f9d6bf99bbe8fbdc885cf4ee",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10155",
+      "title": "CVE-2026-10155 - A vulnerability was found in Bdtask Multi-Store Inventory Management System 1.0....",
+      "body": "A vulnerability was found in Bdtask Multi-Store Inventory Management System 1.0. The impacted element is the function accounts_report_search of the file application/modules/accounts/controllers/Accounts.php of the component Accounts Report Handler. Performing a manipulation of the argument dtpToDate results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10155",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.7,
+      "published_at": "2026-05-31T00:16:33.740000",
+      "created_at": "2026-05-31T02:12:21.212139+00:00"
+    },
+    {
+      "id": "1f16a1767f79970b",
+      "content_hash": "1f16a1767f79970b7100b69a11e76c153f096b7e577f52aede64b043ea8aeffb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10154",
+      "title": "CVE-2026-10154 - A vulnerability has been found in Dolibarr ERP CRM 23.0.0/23.0.1/23.0.2. The aff...",
+      "body": "A vulnerability has been found in Dolibarr ERP CRM 23.0.0/23.0.1/23.0.2. The affected element is an unknown function of the file htdocs/user/messaging.php. Such manipulation of the argument ID leads to authorization bypass. The attack can be executed remotely. Upgrading to version 23.0.3 is sufficient to fix this issue. The name of the patch is 119b3606c7a701747a57a1f18b1a9e7666f678e2. It is suggested to upgrade the affected component.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10154",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-31T00:16:33.527000",
+      "created_at": "2026-05-31T02:12:21.212131+00:00"
+    },
     {
       "id": "70d1959b5c25263f",
       "content_hash": "70d1959b5c25263f5854dea00a804a58d99050599715d6cced424497fed847a8",
@@ -112,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T21:12:37+00:00",
       "created_at": "2026-05-30T21:49:45.670222+00:00"
+    },
+    {
+      "id": "bf4ffbeeb8f821b6",
+      "content_hash": "bf4ffbeeb8f821b66860d4180c73cd30fef0da0d8534323d73949f41d7324989",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2605.29135",
+      "title": "Rotary GPU: Exploring Local Execution for Large MoE Models Under Limited VRAM",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48340616\">Comments</a>",
+      "url": "https://arxiv.org/abs/2605.29135",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T21:05:40+00:00",
+      "created_at": "2026-05-31T02:12:26.157859+00:00"
     },
     {
       "id": "b9d924696fd09d48",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T02:18:00+00:00",
       "created_at": "2026-05-29T05:03:50.945393+00:00"
-    },
-    {
-      "id": "2bf2d70d3c20439c",
-      "content_hash": "2bf2d70d3c20439cdf4132c3631544379772d865597223ea97b546cc10b16274",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017276.html",
-      "title": "WSO2のWSO2 API Control Plane等の複数製品におけるインジェクションに関する脆弱性",
-      "body": "Webhook APIの呼び出しにおいて、コンポーネントはHTTPリクエストヘッダーに対するユーザーからの入力を十分に検証やサニタイズを行わずに受け入れるため、これらのヘッダーがHTTPレスポンスに注入される可能性があります。この脆弱性を悪用することで、悪意のある攻撃者は任意のHTTPレスポンスヘッダーを注入または上書きできます。これにより、ブラウザのキャッシュ操作、セキュリティ関連ヘッダーの改変、クッキー値などの機密情報の注入を含む様々な悪影響が発生し、セッションハイジャックやその他の悪意のある活動が可能になります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017276.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945407+00:00"
-    },
-    {
-      "id": "138095d3e0254190",
-      "content_hash": "138095d3e0254190401a89b970d0c1eba7e6a1d4e5da282452193c65750198c5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017275.html",
-      "title": "WSO2のWSO2 API Control Plane等の複数製品におけるパーミッションの不適切な保持に関する脆弱性",
-      "body": "このソフトウェアは、特定のゲートウェイAPI呼び出しに対してロールベースのアクセス制御を適切に適用していません。『Internal/Everyone』ロールを持つユーザーは、意図された権限チェックを回避してこれらのAPIを呼び出すことが可能です。同じ脆弱性は内部サービスAPIにも影響を与え、WSO2 APIM 3.xバージョンでこれらのAPIが露出する可能性があります。脆弱な環境に有効なユーザーアカウントを持つ悪意のある攻撃者は、実際のロールや権限に関係なくゲートウェイREST APIに対して機密操作を実行できる可能性があります。これにより、特に本番環境において想定外の動作や悪用が発生する恐れがあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017275.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945421+00:00"
-    },
-    {
-      "id": "91df6b361509f228",
-      "content_hash": "91df6b361509f22850c38d27acdf0d152cee86fbb03ea9bc9f57f4107fd473f1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017274.html",
-      "title": "WSO2のWSO2 Identity Serverにおける複数の脆弱性",
-      "body": "適応認証フローを実行する際に組織コンテキストの検証を行わないため、WSO2 Identity Serverは意図しない組織で適応認証ロジックをトリガーすることを許可してしまいます。一つの組織内で適応認証の設定権限を持つ悪意ある攻撃者は、この機能を悪用して他の組織およびサブ組織で認証ロジックを実行できます。この脆弱性により組織間の認可境界が回避され、他組織の重要な操作やユーザーアカウントへの不正アクセスが引き起こされます。マルチ組織展開において適応認証が有効になっている場合、一つの組織で適応認証の設定権限を持つ悪意ある攻撃者がこの機能を悪用し、他の組織で権限のない重要な操作を実行する可能性があります。これにより権限昇格、不正なリソースアクセス、および組織を越えたアカウント乗っ取りのリスクが生じます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017274.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945435+00:00"
-    },
-    {
-      "id": "cffbf8be347a6c60",
-      "content_hash": "cffbf8be347a6c60d6e4846a9f6219d2fde984246b84a5cab2eadc422f9c2fc7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017273.html",
-      "title": "GitLab.orgのGitLabにおける制限またはスロットリング無しのリソースの割り当てに関する脆弱性",
-      "body": "GitLabは、GitLab CE/EEのバージョン17.1から18.10.7未満、18.11から18.11.4未満、および19.0から19.0.1未満のすべてのバージョンに影響する問題を修正しました。特定の条件下で、認証されたユーザーが不十分な検証によりサービス拒否を引き起こす可能性がありました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017273.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945449+00:00"
     }
   ]
 }
