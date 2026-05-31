@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T09:40:56.483005+00:00",
+  "generated_at": "2026-05-31T11:25:38.051236+00:00",
   "items": [
     {
       "id": "e1abd47cc4519fe5",
@@ -128,6 +128,34 @@
       "created_at": "2026-05-31T06:46:36.394529+00:00"
     },
     {
+      "id": "b8a5fade1526f0ee",
+      "content_hash": "b8a5fade1526f0ee9c3294ed93d4118408d708baa32b449e82b7696356f96e05",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10164",
+      "title": "CVE-2026-10164 - A vulnerability was found in Edimax BR-6478AC 1.23. Impacted is the function for...",
+      "body": "A vulnerability was found in Edimax BR-6478AC 1.23. Impacted is the function formUSBFolder of the file /goform/formUSBFolder of the component POST Request Handler. The manipulation of the argument ShareName/SelectName results in buffer overflow. The attack can be executed remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10164",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-31T04:16:19.333000",
+      "created_at": "2026-05-31T11:25:32.525301+00:00"
+    },
+    {
+      "id": "c55497cf1ffb6df9",
+      "content_hash": "c55497cf1ffb6df976f860880195a3dfc8c7da37ce58d23f0ea60f3994c08de1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10163",
+      "title": "CVE-2026-10163 - A vulnerability has been found in Edimax BR-6478AC 1.23. This issue affects the ...",
+      "body": "A vulnerability has been found in Edimax BR-6478AC 1.23. This issue affects the function formUSBAccount of the file /goform/formUSBAccount of the component POST Request Handler. The manipulation of the argument UserName/Password leads to buffer overflow. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10163",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-31T04:16:15.553000",
+      "created_at": "2026-05-31T11:25:32.525295+00:00"
+    },
+    {
       "id": "4f7e4a48fd1b4d53",
       "content_hash": "4f7e4a48fd1b4d534447c38785fe78b7104c39bc1329137d87d3bee94b01f16e",
       "source_name": "Hacker News (Best)",
@@ -140,6 +168,34 @@
       "cvss_score": null,
       "published_at": "2026-05-31T03:16:48+00:00",
       "created_at": "2026-05-31T09:40:56.482550+00:00"
+    },
+    {
+      "id": "e7402020f8a25c4a",
+      "content_hash": "e7402020f8a25c4adccdaca280c17d1c67a880327db8bf3721bfaed36e9ccac2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10162",
+      "title": "CVE-2026-10162 - A flaw has been found in TRENDnet TEW-432BRP 3.10B20. This vulnerability affects...",
+      "body": "A flaw has been found in TRENDnet TEW-432BRP 3.10B20. This vulnerability affects the function formSetPassword of the file /goform/formSetPassword. Executing a manipulation of the argument webpage can lead to stack-based buffer overflow. The attack may be launched remotely. The exploit has been published and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10162",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-31T03:16:15.660000",
+      "created_at": "2026-05-31T11:25:32.525289+00:00"
+    },
+    {
+      "id": "081463839742f0cc",
+      "content_hash": "081463839742f0cc5c55b8887a3fdcd6d2186ac5edce505b5f3dd2ad820c1f67",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10161",
+      "title": "CVE-2026-10161 - A vulnerability was detected in TRENDnet TEW-432BRP 3.10B20. This affects the fu...",
+      "body": "A vulnerability was detected in TRENDnet TEW-432BRP 3.10B20. This affects the function formResetStatistic of the file /goform/formResetStatistic. Performing a manipulation of the argument status_statistic results in stack-based buffer overflow. The attack may be initiated remotely. The exploit is now public and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10161",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-05-31T03:16:15.503000",
+      "created_at": "2026-05-31T11:25:32.525283+00:00"
     },
     {
       "id": "60132fe9d520ac13",
@@ -6036,6 +6092,20 @@
       "created_at": "2026-05-29T12:39:16.386830+00:00"
     },
     {
+      "id": "e3e346bd06bd7fa4",
+      "content_hash": "e3e346bd06bd7fa46ea97f96f0730cd04ba5262edd6c9ff80930b815f53a6798",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://secret-archive.org/",
+      "title": "Security Envelope Pattern collection – S.E.C.R.E.T",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48321089\">Comments</a>",
+      "url": "https://secret-archive.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-29T09:49:13+00:00",
+      "created_at": "2026-05-31T11:25:38.050532+00:00"
+    },
+    {
       "id": "54f0c6eca610f6d2",
       "content_hash": "54f0c6eca610f6d249cc977f9f7a6957e5967daacbc6848ca1109cd23ce5fda3",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T02:19:00+00:00",
       "created_at": "2026-05-29T05:03:50.944979+00:00"
-    },
-    {
-      "id": "e39d5ef764cc65b2",
-      "content_hash": "e39d5ef764cc65b2f7c941fc1bc4595c11c2829f2729ad71bf9c420e2952f0ee",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017305.html",
-      "title": "WorkivaのArelleにおける重要な機能に対する認証の欠如に関する脆弱性",
-      "body": "Arelle 2.39.10未満のバージョンには、認証なしでリモートコード実行が可能となる脆弱性があります。この脆弱性は/rest/configure RESTエンドポイントに存在し、このエンドポイントはpluginsクエリパラメータを受け取って認証や認可なしにプラグインマネージャに転送します。攻撃者はpluginsパラメータを通じて悪意のあるPythonファイルのURLを提供でき、それによってArelleのウェブサーバは攻撃者が制御するコードをダウンロードして実行し、Arelleプロセスの権限でコードが実行されます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017305.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:19:00+00:00",
-      "created_at": "2026-05-29T05:03:50.944994+00:00"
-    },
-    {
-      "id": "83224b4852db9466",
-      "content_hash": "83224b4852db9466ef3db5d4ca83a57b832c2ba6a8bd45023bd1108a3d25bc79",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017304.html",
-      "title": "Grav CMSのGrav-plugin-apiにおける不正な認証に関する脆弱性",
-      "body": "Grav APIプラグインは、Grav CMSのためのRESTful APIであり、サイトのコンテンツ、メディア、設定、ユーザー、およびシステム管理へ完全なヘッドレスアクセスを提供します。1.0.0-beta.15より前のバージョンでは、Grav APIプラグインのUsersController::updateにおける安全でない直接オブジェクト参照およびロジックの欠陥により、基本的なAPIアクセス権（api.access）を持つ認証済みユーザーが自身の権限設定を変更できてしまいます。攻撃者はこれを悪用して権限をスーパ管理者（admin.superおよびapi.super）に昇格させることができ、システム全体を侵害し潜在的なリモートコード実行（RCE）を引き起こす可能性があります。この脆弱性は1.0.0-beta.15で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017304.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:19:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945008+00:00"
-    },
-    {
-      "id": "005498fd43e8577a",
-      "content_hash": "005498fd43e8577a4e75ae557be0423c1430e2fbea3f28e90526e9206741b681",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017303.html",
-      "title": "Babelにおける複数の脆弱性",
-      "body": "Babelは次世代のJavaScriptを記述するためのコンパイラです。バージョン7.12.0から7.29.4未満および8.0.0-alpha.13において、攻撃者が特別に細工したコードをBabelでコンパイルすると、Babelが任意のコードを実行する出力コードを生成する可能性があります。この脆弱性はバージョン7.29.4および8.0.0-alpha.13で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017303.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:19:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945021+00:00"
-    },
-    {
-      "id": "adde6905f2fc01b2",
-      "content_hash": "adde6905f2fc01b2c1f35db47906a5b35b3d368391cd4b6e4632161b5511c73a",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017302.html",
-      "title": "benoitcのhackneyにおける無限ループに関する脆弱性",
-      "body": "benoitc hackneyにおける到達不能な終了条件を持つループ（いわゆる「無限ループ」）の脆弱性により、過剰なメモリ割り当てが発生します。src/hackney_altsvc.erl内のAlt-Svcレスポンスヘッダパーサは前方進行を保証しません。parse_token/2はトークンでも空白文字でもカンマでもないバイト（例：!, @, =, ;）を受け取ると、入力を変更せずにそのまま返します。skip_comma/1も最初のバイトがカンマでない場合にはバッファを変更せずに返します。その結果、parse_entries/2は同一データで再帰呼び出しを行い、CPUを100％使用し続ける密な無限テール再帰ループを生成します。呼び出し元のプロセスは決して戻りません。エントリポイントであるparse_and_cache/3は接続プロセス内で同期的に呼び出され、HTTPレスポンスごとに実行されます。1バイトのAlt-Svc: !レスポンスヘッダがハングを引き起こすのに十分であり、このヘッダはクライアントが接続する任意のHTTPオリジンにより完全に制御されています。この問題はhackneyの2.0.0-beta.1から4.0.1未満のバージョンに影響を与えます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017302.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:19:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945035+00:00"
-    },
-    {
-      "id": "28d040e5b9554545",
-      "content_hash": "28d040e5b9554545833247980915c413e068a93f4adcb36dbc3ff425fef6da44",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017301.html",
-      "title": "benoitcのhackneyにおける制限またはスロットリング無しのリソースの割り当てに関する脆弱性",
-      "body": "benoitc hackneyにおけるリソースの制限やスロットリングなしに割り当てる脆弱性により、フラッディング攻撃が可能です。src/hackney_url.erlのURLパーサーは、認識されないURLスキームをすべてbinary_to_atom/2を使って恒久的なBEAMアトムに変換します。BEAMアトムはガベージコレクションされず、アトムテーブルのデフォルトの最大数は1,048,576エントリです。攻撃者は、攻撃者が選択したスキームプレフィックスを持つURLをリクエストターゲットとして直接設定したり、Webhook URLとして設定したり、またはリダイレクト時にLocationヘッダー経由で供給したりすることで、アトムテーブルを枯渇させ、システム制限によりBEAM VM全体をクラッシュさせることができます。この問題はhackney 2.0.0以降4.0.1未満に影響を与えます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017301.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:19:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945050+00:00"
     }
   ]
 }
