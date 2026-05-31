@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-31T17:53:08.124145+00:00",
+  "generated_at": "2026-05-31T19:00:38.351963+00:00",
   "items": [
+    {
+      "id": "48b91facf7b8f519",
+      "content_hash": "48b91facf7b8f519086ba634373ef287ef7382a1c66631e0182974e8829ec35a",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3128066",
+      "title": "‘This is fine’ artist KC Green reaches agreement with AI startup Artisan",
+      "body": "The startup has apparently taken down the ads using KC Green's \"This is fine\" meme.",
+      "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T18:28:17+00:00",
+      "created_at": "2026-05-31T19:00:38.132184+00:00"
+    },
+    {
+      "id": "baa30ba661296397",
+      "content_hash": "baa30ba6612963976bf749d72c7f1778e40bfb9414d15a3b484d62e8437064e9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lwn.net/Articles/104185/",
+      "title": "Re: [PATCH] OOM_pardon, a.k.a. don't kill my xlock",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48347961\">Comments</a>",
+      "url": "https://lwn.net/Articles/104185/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T17:58:15+00:00",
+      "created_at": "2026-05-31T19:00:38.351413+00:00"
+    },
     {
       "id": "b237ca020e1371e0",
       "content_hash": "b237ca020e1371e05306523cbdce45ef650ff3b317575c06dba41df440c9d2e0",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T10:30:00+00:00",
       "created_at": "2026-05-29T12:39:16.283534+00:00"
-    },
-    {
-      "id": "5b74279493f75e6c",
-      "content_hash": "5b74279493f75e6c0a558b7bd89e6e439315030aedb647fa215599b5006d300b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://jamiehurst.co.uk/2026-05-24_ai-sustainable",
-      "title": "Is This Sustainable?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48321264\">Comments</a>",
-      "url": "https://jamiehurst.co.uk/2026-05-24_ai-sustainable",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T10:14:43+00:00",
-      "created_at": "2026-05-29T12:39:21.635041+00:00"
-    },
-    {
-      "id": "f5816af794bbd45d",
-      "content_hash": "f5816af794bbd45db433c5bbc71cda3a073126c20f89ff177ab3637b00773f3b",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-      "title": "US charges Google security engineer with Polymarket insider trading",
-      "body": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction market. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T10:11:44+00:00",
-      "created_at": "2026-05-29T12:39:16.386830+00:00"
     }
   ]
 }
