@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-31T02:12:26.158206+00:00",
+  "generated_at": "2026-05-31T06:46:36.394944+00:00",
   "items": [
+    {
+      "id": "1e157c68b4a4473b",
+      "content_hash": "1e157c68b4a4473b7f54d8b5277d363183fd3478ff31f0d56d07183cba6ada16",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/kurikomi-labs/komi-learn",
+      "title": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48343216\">Comments</a>",
+      "url": "https://github.com/kurikomi-labs/komi-learn",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T05:11:40+00:00",
+      "created_at": "2026-05-31T06:46:36.394552+00:00"
+    },
+    {
+      "id": "859d76a893064cf7",
+      "content_hash": "859d76a893064cf7df0ede1182cff4b3efb2dcf7d2e400a91e4695093a1570f0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://oldvcr.blogspot.com/2026/05/ahoy-decmate-ii-little-pdp-8-that-could.html",
+      "title": "Ahoy, DECmate II the little PDP-8 that could",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48343078\">Comments</a>",
+      "url": "http://oldvcr.blogspot.com/2026/05/ahoy-decmate-ii-little-pdp-8-that-could.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T04:42:14+00:00",
+      "created_at": "2026-05-31T06:46:36.394237+00:00"
+    },
+    {
+      "id": "727e2ae45e028a3e",
+      "content_hash": "727e2ae45e028a3e0f8cc1aa6a52209210be7279bc2062a31e8ec30197d087c7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://labyrinthanalyticsconsulting.com/blog/building-first-langgraph-pipeline",
+      "title": "Building a LangGraph pipeline for production data engineering",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48343061\">Comments</a>",
+      "url": "https://labyrinthanalyticsconsulting.com/blog/building-first-langgraph-pipeline",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T04:38:25+00:00",
+      "created_at": "2026-05-31T06:46:36.394529+00:00"
+    },
     {
       "id": "c9bab3f71352e2f6",
       "content_hash": "c9bab3f71352e2f6a82a71a761529293146cbc63f786ddd017930402e36d7a1a",
@@ -14,6 +56,34 @@
       "cvss_score": null,
       "published_at": "2026-05-31T00:55:17+00:00",
       "created_at": "2026-05-31T02:12:26.157489+00:00"
+    },
+    {
+      "id": "bcd2194ce9587dbb",
+      "content_hash": "bcd2194ce9587dbb8a593d6c29545025b2a922b01e3746dc3f8e577656b71784",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mechanical-pencil.com/",
+      "title": "Mechanical Pencin: A website about the hidden engineering in everyday objects",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341932\">Comments</a>",
+      "url": "https://mechanical-pencil.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T00:25:12+00:00",
+      "created_at": "2026-05-31T06:46:36.394478+00:00"
+    },
+    {
+      "id": "9681defa18bc9698",
+      "content_hash": "9681defa18bc9698af98bf166eeb6dcda8b4d0885a5a5e8c67466115ef7be287",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10156",
+      "title": "CVE-2026-10156 - A vulnerability was determined in Open5GS up to 2.7.7. This affects the function...",
+      "body": "A vulnerability was determined in Open5GS up to 2.7.7. This affects the function handle_amf_info in the library /lib/sbi/nnrf-handler.c of the component nf-instances Endpoint. Executing a manipulation of the argument nf_info_pool can lead to resource consumption. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. Applying a patch is advised to resolve this issue. The issue report is flagged as already-fixed.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10156",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-05-31T00:16:33.910000",
+      "created_at": "2026-05-31T06:46:31.894560+00:00"
     },
     {
       "id": "59074068dbf8bb59",
@@ -56,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T23:26:13+00:00",
       "created_at": "2026-05-30T23:51:09.652923+00:00"
+    },
+    {
+      "id": "fb8465c9270cd513",
+      "content_hash": "fb8465c9270cd51384ecd5142bc1f39a6f2ddd416b38a326239595a9540eb8ab",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341578\">Comments</a>",
+      "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T23:26:13+00:00",
+      "created_at": "2026-05-31T06:46:36.394311+00:00"
     },
     {
       "id": "974eb2a4645ab7f2",
@@ -114,6 +198,20 @@
       "created_at": "2026-05-30T23:51:09.653097+00:00"
     },
     {
+      "id": "2b2e3f160dd8f709",
+      "content_hash": "2b2e3f160dd8f7093e6f4d6fcbb765d9a9fd265c35b54747bf58d2fe3de1a56e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shantellsans.com/process",
+      "title": "Shantell Sans (2023)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341062\">Comments</a>",
+      "url": "https://shantellsans.com/process",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T22:06:38+00:00",
+      "created_at": "2026-05-31T06:46:36.394255+00:00"
+    },
+    {
       "id": "896c965fc44203df",
       "content_hash": "896c965fc44203dfce7698ed75db5746ecbbc447fbfd6f45e6161523e6ee7834",
       "source_name": "Hacker News (Best)",
@@ -126,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T21:52:30+00:00",
       "created_at": "2026-05-30T23:51:09.653162+00:00"
+    },
+    {
+      "id": "11f1b2009f559c12",
+      "content_hash": "11f1b2009f559c123e0cbe55666c1d5a2bf7f4d5ff13d3e794b3247ea0adc343",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://av2.aomedia.org",
+      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48340910\">Comments</a>",
+      "url": "https://av2.aomedia.org",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T21:46:18+00:00",
+      "created_at": "2026-05-31T06:46:36.394345+00:00"
     },
     {
       "id": "0e29204fce9e66f2",
@@ -6316,6 +6428,20 @@
       "created_at": "2026-05-29T05:03:51.441173+00:00"
     },
     {
+      "id": "e98f86b60992445c",
+      "content_hash": "e98f86b60992445c32b269fecd93b0188d6dcc656c335ff4c2247bba361652cb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
+      "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48318624\">Comments</a>",
+      "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-29T03:22:19+00:00",
+      "created_at": "2026-05-31T06:46:36.394216+00:00"
+    },
+    {
       "id": "a978a19935816387",
       "content_hash": "a978a19935816387058def69f3c6717f5564c17998105f717c90cf730de772cb",
       "source_name": "Hacker News (Best)",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T02:19:00+00:00",
       "created_at": "2026-05-29T05:03:50.945267+00:00"
-    },
-    {
-      "id": "7456e5fde2ec5c29",
-      "content_hash": "7456e5fde2ec5c2999e741fbca4bb72b031e3ed2a98e89e5fc381fcc3f1eef32",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017285.html",
-      "title": "WSO2のWSO2 Identity Serverにおける不正な認証に関する脆弱性",
-      "body": "認証時にユーザーアカウントの状態を十分に検証していないため、ロックされたユーザーアカウントがMagic LinkまたはPass Keyの方法で正常に認証される可能性があります。これは、ロックされたアカウントへのアクセスを防止するはずのセキュリティ制御が意図せず回避されている状態です。この脆弱性により、アカウントロック機構によって制限されるべきアカウントに関連するアプリケーションや機密データへの不正アクセスが許される可能性があります。また、追加のログイン試行を防止するためのアカウントロック機能の有効性も損なわれます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017285.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945282+00:00"
-    },
-    {
-      "id": "45509be0d112a62a",
-      "content_hash": "45509be0d112a62ad7ef9a9c29251e2830e086daf642469e63085b611c4c15ea",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017284.html",
-      "title": "IBMのIBM DB2におけるログファイルからの情報漏えいに関する脆弱性",
-      "body": "IBM Db2 11.5.0から11.5.9、および12.1.0から12.1.4までのLinux、UNIX、Windows用（DB2 Connect Serverを含む）には、ローカルユーザーが読み取る可能性のあるログファイルに潜在的に機密性の高い情報が保存される脆弱性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017284.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945295+00:00"
-    },
-    {
-      "id": "7bd6a53cf26c76a4",
-      "content_hash": "7bd6a53cf26c76a49a9c98d989afd2e8a25f3a89a369dbf6f33747e45b1d8169",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017283.html",
-      "title": "アップルのmacOSにおける認可に関する脆弱性",
-      "body": "検証の改善により論理的な問題が対処されました。この問題はmacOS Sequoia 15.7、macOS Sonoma 14.8、macOS Tahoe 26で修正されています。悪意のあるアプリが機密ユーザーデータにアクセスする可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017283.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945310+00:00"
-    },
-    {
-      "id": "d4670c6e9d0cbc20",
-      "content_hash": "d4670c6e9d0cbc206107f683d8230492dc0521335ed5106528591b0c13099e34",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017282.html",
-      "title": "アップルのmacOSにおける重要なリソースに対する不適切なパーミッションの割り当てに関する脆弱性",
-      "body": "追加の制限により権限の問題が対処されました。この問題はmacOS Sequoia 15.7、macOS Sonoma 14.8、macOS Tahoe 26で修正されています。アプリがファイルシステムの保護された部分を変更できる可能性がありましたが、その問題は修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017282.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945324+00:00"
-    },
-    {
-      "id": "2d885d574ca5faa8",
-      "content_hash": "2d885d574ca5faa88744697e6e7d6669e86b1ebb445ffb94ce9b4c738942ecda",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017281.html",
-      "title": "アップルのmacOSにおける権限管理に関する脆弱性",
-      "body": "論理的な問題は改善されたチェックによって対処されました。この問題はmacOS Sequoia 15.7、macOS Sonoma 14.8、macOS Tahoe 26で修正されています。悪意のあるアプリがルート権限を取得する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017281.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945338+00:00"
-    },
-    {
-      "id": "3e973b3ebdf94f8f",
-      "content_hash": "3e973b3ebdf94f8f271dd3d8cf0c4bae748e7d72937648930664f28d788ef530",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017280.html",
-      "title": "アップルのmacOSにおけるアクセス制御に関する脆弱性",
-      "body": "権限の問題は脆弱なコードを削除することで対処されました。この問題はmacOS Tahoe 26で修正されました。アプリが機密ユーザーデータにアクセスできる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017280.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945351+00:00"
-    },
-    {
-      "id": "2cdfd81f7aed9b64",
-      "content_hash": "2cdfd81f7aed9b64a4b3fa322561d43e0204a2ff97d77b40d7a14d1bb1efdec6",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017279.html",
-      "title": "アップルのmacOSにおける境界外読み取りに関する脆弱性",
-      "body": "境界外読み取りの問題は、境界チェックの改善によって対処されました。この問題は macOS Tahoe 26 で修正されています。アプリケーションは予期しないシステム終了を引き起こす可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017279.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945365+00:00"
-    },
-    {
-      "id": "eec5dc4d1c1a339d",
-      "content_hash": "eec5dc4d1c1a339d841ade40441147940de296ca3517cc0a5603684294d0a693",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017278.html",
-      "title": "アップルのmacOSにおける競合状態に関する脆弱性",
-      "body": "競合状態は追加の検証によって対処されました。この問題はmacOS Sequoia 15.7およびmacOS Tahoe 26で修正されています。アプリはroot権限を取得できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017278.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945379+00:00"
-    },
-    {
-      "id": "3550ba2d33ba2c0b",
-      "content_hash": "3550ba2d33ba2c0b1ac34bee9f635b09772f50c0ecd73b0c05b0128a38213b14",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017277.html",
-      "title": "アップルのmacOSにおけるアクセス制御に関する脆弱性",
-      "body": "改善された制限によりロジック上の問題が修正されました。この問題はmacOS Tahoe 26で解決されています。この問題により、アプリが機密ユーザーデータにアクセスできる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-017277.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T02:18:00+00:00",
-      "created_at": "2026-05-29T05:03:50.945393+00:00"
     }
   ]
 }
