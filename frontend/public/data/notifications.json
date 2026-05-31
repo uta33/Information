@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-05-31T22:46:49.569781+00:00",
+  "generated_at": "2026-05-31T23:55:41.162275+00:00",
   "items": [
+    {
+      "id": "0d49fa5bc2a4c030",
+      "content_hash": "0d49fa5bc2a4c030103c0b797e12825a3c01416a3965bcf3db64b68aa4825559",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10200",
+      "title": "CVE-2026-10200 - A vulnerability was found in Assimp up to 6.0.4. This affects the function glTFC...",
+      "body": "A vulnerability was found in Assimp up to 6.0.4. This affects the function glTFCommon::CopyValue in the library glTFCommon.h of the component 4x4 Matrix Parser. Performing a manipulation results in heap-based buffer overflow. The attack must be initiated from a local position. The exploit has been made public and could be used. The project tagged the reported issue as bug.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10200",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-05-31T23:16:42.623000",
+      "created_at": "2026-05-31T23:55:36.940824+00:00"
+    },
+    {
+      "id": "2e0034d43c280198",
+      "content_hash": "2e0034d43c280198d4a82df77d8b2523f63ca185cb7d693a61ff0071135caa1c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10199",
+      "title": "CVE-2026-10199 - A vulnerability has been found in Assimp up to 6.0.4. Affected by this issue is ...",
+      "body": "A vulnerability has been found in Assimp up to 6.0.4. Affected by this issue is the function glTF2::LazyDict in the library glTF2Asset.h. Such manipulation of the argument operator[] leads to null pointer dereference. The attack must be carried out locally. The exploit has been disclosed to the public and may be used. The name of the patch is d24b85319bd70c65883a2b96613e07e23fb95981. It is best practice to apply a patch to resolve this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10199",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.3,
+      "published_at": "2026-05-31T23:16:42.413000",
+      "created_at": "2026-05-31T23:55:36.940818+00:00"
+    },
+    {
+      "id": "223f5c99f626ebda",
+      "content_hash": "223f5c99f626ebdaa8e82da3688e9b7da0299c6d6002882bc91fd3f5c7cb574d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10198",
+      "title": "CVE-2026-10198 - A flaw has been found in Assimp up to 6.0.4. Affected by this vulnerability is t...",
+      "body": "A flaw has been found in Assimp up to 6.0.4. Affected by this vulnerability is the function Assimp::glTFImporter::ImportMeshes of the file glTFImporter.cpp of the component glTFImporter. This manipulation causes null pointer dereference. The attack is restricted to local execution. The exploit has been published and may be used. The project tagged the reported issue as bug.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10198",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.3,
+      "published_at": "2026-05-31T23:16:41.760000",
+      "created_at": "2026-05-31T23:55:36.940812+00:00"
+    },
+    {
+      "id": "9fa9e148b63c04c9",
+      "content_hash": "9fa9e148b63c04c9830a23f92b3769c474a34ec489f42e55dcfd73ec712eb7de",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/",
+      "title": "Chuwi Minibook X: the netbook we deserve",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48350598\">Comments</a>",
+      "url": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T22:59:50+00:00",
+      "created_at": "2026-05-31T23:55:41.161491+00:00"
+    },
     {
       "id": "736833dd28dc6850",
       "content_hash": "736833dd28dc6850d2b281350285a99ef9947aebeaccca017a1a2d614393dd83",
@@ -114,6 +170,20 @@
       "created_at": "2026-05-31T21:46:33.550116+00:00"
     },
     {
+      "id": "e9c5ed994568bac4",
+      "content_hash": "e9c5ed994568bac4ffcf43b0cdee9c7274618ef0034657121375fd77058ba4f2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "title": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48349487\">Comments</a>",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T20:35:38+00:00",
+      "created_at": "2026-05-31T23:55:41.161834+00:00"
+    },
+    {
       "id": "8c5937abc3d6a0cb",
       "content_hash": "8c5937abc3d6a0cbdc70d3145b0abe6edcbb2fd52ee0a0771c12ce564037d9e6",
       "source_name": "CVE (NVD)",
@@ -140,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-05-31T19:27:44+00:00",
       "created_at": "2026-05-31T20:46:13.946133+00:00"
+    },
+    {
+      "id": "b5a5165176c8a1d1",
+      "content_hash": "b5a5165176c8a1d1dce8dc5b9dcd55db1c5d896861b6d2e15b9934fbd0a92a38",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dirkdeklein.net/2026/02/03/the-fascinating-history-of-prisencolinensinainciusol-the-nonsense-song-that-became-a-global-hit/",
+      "title": "The History of \"Prisencolinensinainciusol\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48348737\">Comments</a>",
+      "url": "https://dirkdeklein.net/2026/02/03/the-fascinating-history-of-prisencolinensinainciusol-the-nonsense-song-that-became-a-global-hit/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T19:14:23+00:00",
+      "created_at": "2026-05-31T23:55:41.161884+00:00"
     },
     {
       "id": "99a27cff69876dd7",
@@ -5532,6 +5616,20 @@
       "created_at": "2026-05-29T16:33:49.453205+00:00"
     },
     {
+      "id": "6650ac01a8a2cc82",
+      "content_hash": "6650ac01a8a2cc8236f563edc45200bb0e50c36aaf2295b31a52a0c91c33deb9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://groups.google.com/g/comp.unix.wizards/c/QX_dxElrVNs",
+      "title": "Unix in East Germany (GDR) (1990)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48324288\">Comments</a>",
+      "url": "https://groups.google.com/g/comp.unix.wizards/c/QX_dxElrVNs",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-29T15:21:42+00:00",
+      "created_at": "2026-05-31T23:55:41.161783+00:00"
+    },
+    {
       "id": "b7db618bb765c444",
       "content_hash": "b7db618bb765c44408c3ac75c64803f3c8299cb2b5e7207f8dabe6160d5c0fab",
       "source_name": "CVE (NVD)",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T12:16:21.743000",
       "created_at": "2026-05-30T01:57:23.836085+00:00"
-    },
-    {
-      "id": "4ae12bb3fb098be7",
-      "content_hash": "4ae12bb3fb098be7e3c6c6378d5942dfab461b1297f336f91f6aef8a56d66f96",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
-      "title": "We should be more tired than the model",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48322118\">Comments</a>",
-      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:12:16+00:00",
-      "created_at": "2026-05-29T12:39:21.635020+00:00"
-    },
-    {
-      "id": "a413ec5438d6546c",
-      "content_hash": "a413ec5438d6546c4e56f32b593300465c9206d133664e174b05bf10466b9464",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "body": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:08:08+00:00",
-      "created_at": "2026-05-29T12:39:16.386709+00:00"
-    },
-    {
-      "id": "6614747adc774a7b",
-      "content_hash": "6614747adc774a7bbd6e7a098931ef99d311d4921be9742b0a905f884428de5a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ycombinator.com/companies/cedana/jobs/d1vYocG-forward-deployed-engineer-ai-hpc",
-      "title": "Cedana (YC S23) Is Hiring",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48322030\">Comments</a>",
-      "url": "https://www.ycombinator.com/companies/cedana/jobs/d1vYocG-forward-deployed-engineer-ai-hpc",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:01:00+00:00",
-      "created_at": "2026-05-29T12:39:21.635081+00:00"
-    },
-    {
-      "id": "a4eeef95202d92b3",
-      "content_hash": "a4eeef95202d92b30958a1a33a8b8d72c048feffdf005c6251a8936871543295",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://thecretefleet.com/blog/f/testing-the-wwi-concrete-ships-and-wwii-concrete-barges",
-      "title": "Testing the WWI concrete ships and WWII concrete barges",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48322025\">Comments</a>",
-      "url": "https://thecretefleet.com/blog/f/testing-the-wwi-concrete-ships-and-wwii-concrete-barges",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:00:24+00:00",
-      "created_at": "2026-05-30T15:57:54.757794+00:00"
-    },
-    {
-      "id": "f2938e05782f43dd",
-      "content_hash": "f2938e05782f43ddd76ff16678cf5032ccffd0d290cc72bb38a84e478720fd3f",
-      "source_name": "Google AI Blog",
-      "external_id": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "created_at": "2026-05-29T12:39:16.047622+00:00"
-    },
-    {
-      "id": "ddd6f2c623578b5b",
-      "content_hash": "ddd6f2c623578b5b52ffab1c02d42f54c087e70ff1217c50ad004d924c236616",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3127051",
-      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
-      "body": "South Korean chip startup Xcena is betting that AI's real bottleneck is not compute, but memory.",
-      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "created_at": "2026-05-29T12:39:21.273459+00:00"
-    },
-    {
-      "id": "5878e1d40d64e6e1",
-      "content_hash": "5878e1d40d64e6e1c81dd5fe898be21bbb7fc0ced1e1e4c3afb971f6aef442aa",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/boston-childrens-hospital",
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "body": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "url": "https://openai.com/index/boston-childrens-hospital",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "created_at": "2026-05-29T16:33:44.293044+00:00"
     }
   ]
 }
