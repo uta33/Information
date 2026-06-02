@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-01T22:29:05.091739+00:00",
+  "generated_at": "2026-06-02T00:05:20.064452+00:00",
   "items": [
+    {
+      "id": "5e83bace7101ea3f",
+      "content_hash": "5e83bace7101ea3ffa2a4401b474586c57447da111edd0f247da145252943fb7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://plato.stanford.edu/entries/frame-problem/",
+      "title": "The Frame Problem",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48363903\">Comments</a>",
+      "url": "https://plato.stanford.edu/entries/frame-problem/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T23:25:39+00:00",
+      "created_at": "2026-06-02T00:05:20.063912+00:00"
+    },
+    {
+      "id": "7b06c0a97e506555",
+      "content_hash": "7b06c0a97e5065554c6e571a4f329cf99e283cb4c6811ebc574118d347931a7f",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3110945",
+      "title": "How to make the Startup Battlefield Top 20 — and what every company gets regardless",
+      "body": "Every founder who applies to Startup Battlefield wants the same thing: the Disrupt Main Stage. Here’s how to get there and why the opportunity starts well before the main stage.",
+      "url": "https://techcrunch.com/2026/06/01/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T23:20:52+00:00",
+      "created_at": "2026-06-02T00:05:19.734296+00:00"
+    },
+    {
+      "id": "47ecd701e7931ec8",
+      "content_hash": "47ecd701e7931ec867e30d383c7827423afaeab91e430c7a33ce3119b38ae082",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3128500",
+      "title": "Alphabet plans to raise $80B to pay for AI buildout",
+      "body": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.",
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T22:55:09+00:00",
+      "created_at": "2026-06-02T00:05:19.734329+00:00"
+    },
     {
       "id": "86eccb1235921ba4",
       "content_hash": "86eccb1235921ba4d6a3b9734e69c8e56704c031713af659490447005494fc56",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-06-01T22:14:19+00:00",
       "created_at": "2026-06-01T22:29:00.700700+00:00"
+    },
+    {
+      "id": "f8de0018aec6e693",
+      "content_hash": "f8de0018aec6e6938b276d6c6801201ed96733ba25c3ae257825ef2f297f4282",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48363132\">Comments</a>",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T21:50:02+00:00",
+      "created_at": "2026-06-02T00:05:20.063731+00:00"
     },
     {
       "id": "7bfb54989fb9a9ad",
@@ -308,6 +364,20 @@
       "cvss_score": null,
       "published_at": "2026-06-01T17:04:16+00:00",
       "created_at": "2026-06-01T19:50:38.530047+00:00"
+    },
+    {
+      "id": "759b04777e15f34c",
+      "content_hash": "759b04777e15f34cc5051f10f78e46b80c229eccb49393d1091bee71b23e60e3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/arnica/depsguard",
+      "title": "Show HN: DepsGuard – one command to harden NPM/pnpm/yarn/bun/uv configs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48359478\">Comments</a>",
+      "url": "https://github.com/arnica/depsguard",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T16:58:52+00:00",
+      "created_at": "2026-06-02T00:05:20.064086+00:00"
     },
     {
       "id": "028779ed078abaf1",
@@ -994,6 +1064,34 @@
       "cvss_score": null,
       "published_at": "2026-06-01T08:45:29+00:00",
       "created_at": "2026-06-01T14:47:57.552204+00:00"
+    },
+    {
+      "id": "9f411b68ebc78c86",
+      "content_hash": "9f411b68ebc78c8637389602cb62ae3e8a372414acb6c0e9ad17b46613ea8dd3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-35563",
+      "title": "CVE-2026-35563 - It was identified that the LDAP client implementation in version 2.1.7 does not ...",
+      "body": "It was identified that the LDAP client implementation in version 2.1.7 does not verify if the server certificate matches the intended LDAP \nhostname. While the underlying code validates the certificate chain \nagainst a trusted authority, the absence of endpoint identification \nallows a valid certificate issued for an entirely unrelated host to be \nimproperly accepted. This oversight leaves the connection highly \nvulnerable to server impersonation and complete connection compromise.\n\n\nThe\n root cause of this vulnerability lies in the incomplete TLS server \nidentity verification within the LDAP client implementation.\n\n\n\n\nThe attacker requires MITM capability on the network to exploit this vulnerability. This attacker must be able to present a certificate trusted by the client's configured trust store.\n\n\n\n\nThe hostname verification has been enforced in the new version of the LDAP API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35563",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-01T08:16:20.307000",
+      "created_at": "2026-06-02T00:05:09.130991+00:00"
+    },
+    {
+      "id": "4c464d7bf1d5c1e1",
+      "content_hash": "4c464d7bf1d5c1e1101480c90b0b15e622e397696b553f2964bb1939480636d9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10235",
+      "title": "CVE-2026-10235 - A flaw has been found in CodeAstro Ingredients Stock Management System 1.0. This...",
+      "body": "A flaw has been found in CodeAstro Ingredients Stock Management System 1.0. This vulnerability affects unknown code of the file /Ingredients-Stock/stock_manager.php. This manipulation of the argument txt_search_category causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10235",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-01T08:16:20.107000",
+      "created_at": "2026-06-02T00:05:09.130984+00:00"
     },
     {
       "id": "4c638bf821cfed56",
@@ -2466,6 +2564,20 @@
       "created_at": "2026-05-31T17:53:03.070193+00:00"
     },
     {
+      "id": "97a13ad2b04b8f4b",
+      "content_hash": "97a13ad2b04b8f4ba83802af6592116b950d6a5df2c5ded862a004862c4eb5b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jasonfantl.com/posts/Multiple-Access-Protocols/",
+      "title": "Medium Access Control Protocols",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48346354\">Comments</a>",
+      "url": "https://jasonfantl.com/posts/Multiple-Access-Protocols/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-31T15:14:20+00:00",
+      "created_at": "2026-06-02T00:05:20.064205+00:00"
+    },
+    {
       "id": "88f0ecd868aa6f1b",
       "content_hash": "88f0ecd868aa6f1b1e3b53b09120c3b395f64634a0abe06a08dbc364c9d68e05",
       "source_name": "Hacker News (Best)",
@@ -3488,6 +3600,20 @@
       "created_at": "2026-05-30T23:51:09.653028+00:00"
     },
     {
+      "id": "802f96776fbe453e",
+      "content_hash": "802f96776fbe453ee42db4c14f9034a3477164b796b0f5281f5d882935bd9931",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://john.mercouris.online/webcam-mount.html",
+      "title": "Building a custom mount for a telescoping webcam",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48341377\">Comments</a>",
+      "url": "https://john.mercouris.online/webcam-mount.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T22:54:13+00:00",
+      "created_at": "2026-06-02T00:05:20.064222+00:00"
+    },
+    {
       "id": "618205301f07b5d6",
       "content_hash": "618205301f07b5d667df46650cae96f8c3d9cfd3a53b9b8a730697e87931f874",
       "source_name": "CVE (NVD)",
@@ -3962,6 +4088,20 @@
       "cvss_score": null,
       "published_at": "2026-05-30T16:40:34+00:00",
       "created_at": "2026-06-01T22:29:05.091257+00:00"
+    },
+    {
+      "id": "44dd6cb056318333",
+      "content_hash": "44dd6cb0563183332aa7c74ab3ccd718b62aa1740de3523d3cbbbd5393fbee83",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/thongor77/nmlinux",
+      "title": "Show HN: A free Linux adaptation of NETworkManager by BornToBeRoot",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48338145\">Comments</a>",
+      "url": "https://github.com/thongor77/nmlinux",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-05-30T16:40:34+00:00",
+      "created_at": "2026-06-02T00:05:20.064138+00:00"
     },
     {
       "id": "6ebe9f364e7a103d",
@@ -6860,146 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-05-29T16:39:09+00:00",
       "created_at": "2026-05-29T19:25:43.703932+00:00"
-    },
-    {
-      "id": "b8086b86b4e0915d",
-      "content_hash": "b8086b86b4e0915d84d4062cc1f7dc7b76b52eb51be70a7c83182c835e9bacfa",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "title": "Notes from the Mistral AI Now Summit in Paris",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48325340\">Comments</a>",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T16:22:01+00:00",
-      "created_at": "2026-05-29T19:25:43.703810+00:00"
-    },
-    {
-      "id": "e9a3e026292414a7",
-      "content_hash": "e9a3e026292414a718d3e07ea3154020cc929b9490a8845df697a0c88888b866",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "title": "Notes from the Mistral AI Now Summit",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48325340\">Comments</a>",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T16:22:01+00:00",
-      "created_at": "2026-05-29T23:02:12.887987+00:00"
-    },
-    {
-      "id": "2b0d651bf6f3f9c1",
-      "content_hash": "2b0d651bf6f3f9c1de29791dae5902a3a9392990216935cceea4e999e685a29b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48325306\">Comments</a>",
-      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T16:19:54+00:00",
-      "created_at": "2026-05-29T19:25:43.703964+00:00"
-    },
-    {
-      "id": "4ccb691a6886fd2c",
-      "content_hash": "4ccb691a6886fd2c0dc7dfdb18897aebe8c545bc25417e814cb1574cec560592",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9194",
-      "title": "CVE-2026-9194 - Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This can...",
-      "body": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9194",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-05-29T16:16:32.827000",
-      "created_at": "2026-05-30T16:58:23.985573+00:00"
-    },
-    {
-      "id": "a1cd5bdd60e3cf8a",
-      "content_hash": "a1cd5bdd60e3cf8a20944df7bd9bcd62414c0f3c34a6c261fb1387d965f77d2b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48501",
-      "title": "CVE-2026-48501 - GitHub CLI (gh) is GitHub’s official command line tool. Prior to 2.93.0, GitHub ...",
-      "body": "GitHub CLI (gh) is GitHub’s official command line tool. Prior to 2.93.0, GitHub CLI incorrectly includes authorization header in API requests to TUF repository mirrors via gh attestation, gh release verify, and gh release verify-asset commands. The CLI uses a shared HTTP client with an authentication layer that automatically attaches tokens to outgoing requests. This layer lacks accurate host detection and can incorrectly attribute the target host, providing it with a token it should never receive. Specifically, the host normalization logic collapses any *.github.com subdomain to github.com, so a request to tuf-repo.github.com (a GitHub Pages site, not a GitHub API endpoint) is treated as a request to github.com and receives the user's github.com token. For hosts that don't match github.com or a known GHES instance at all, the resolver falls back to GH_ENTERPRISE_TOKEN if set. The gh attestation, gh release verify and gh release verify-asset commands fetch data from several external hosts as part of their normal operation (TUF metadata from tuf-repo.github.com and tuf-repo-cdn.sigstore.dev, artifact bundles from Azure Blob Storage). Because these requests go through the same authenticated HTTP client, the token is sent to all of them. This vulnerability is fixed in 2.93.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48501",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-05-29T16:16:31.497000",
-      "created_at": "2026-05-30T16:58:23.985567+00:00"
-    },
-    {
-      "id": "d305e81b3f01f54c",
-      "content_hash": "d305e81b3f01f54c546a0f7b40313f20d65c0fcfc1cc2c94af46954f2fab8603",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45663",
-      "title": "CVE-2026-45663 - Dokploy is a free, self-hostable Platform as a Service (PaaS). In 0.29.1 and ear...",
-      "body": "Dokploy is a free, self-hostable Platform as a Service (PaaS). In 0.29.1 and earlier, a command injection vulnerability exists in the Docker file upload functionality. When an authenticated user uploads a file to a container, the destinationPath parameter is not properly sanitized and is directly interpolated into a shell command string. By including shell metacharacters such as ; or \", an attacker can escape the intended docker cp command and execute arbitrary OS commands on the Dokploy host.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45663",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-05-29T16:16:28.347000",
-      "created_at": "2026-05-30T16:58:23.985559+00:00"
-    },
-    {
-      "id": "325ac1e18f18fba7",
-      "content_hash": "325ac1e18f18fba7a4225a34a35268b45f9201823cd5674a1abc8b271badb03f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45662",
-      "title": "CVE-2026-45662 - Dokploy is a free, self-hostable Platform as a Service (PaaS). In 0.29.0 and ear...",
-      "body": "Dokploy is a free, self-hostable Platform as a Service (PaaS). In 0.29.0 and earlier, the deleteRegistry function in Dokploy (packages/server/src/services/registry.ts) executes docker logout ${response.registryUrl} without shell escaping. In the same file, the docker login command correctly uses shEscape() to prevent command injection. This inconsistency creates a command injection vulnerability when deleting a registry with a crafted registryUrl.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45662",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-05-29T16:16:28.213000",
-      "created_at": "2026-05-30T16:58:23.985553+00:00"
-    },
-    {
-      "id": "734dcc2e5d539c4d",
-      "content_hash": "734dcc2e5d539c4d11d8626871c58b6b4a8f225b6fee05e35982cc7abe2d6a6d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44962",
-      "title": "CVE-2026-44962 - Plesk contains an XPath injection vulnerability in the APS Application Catalog s...",
-      "body": "Plesk contains an XPath injection vulnerability in the APS Application Catalog search functionality, where user-supplied input is interpolated into XPath queries without proper sanitization. This allows an authenticated, low-privileged user to execute arbitrary operating system commands on the server, resulting in local privilege escalation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44962",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-05-29T16:16:27.567000",
-      "created_at": "2026-05-30T16:58:23.985546+00:00"
-    },
-    {
-      "id": "7ff325ace7c920f4",
-      "content_hash": "7ff325ace7c920f44849b83823ca10483450bbc9796390dca97be01759a9be9b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39276",
-      "title": "CVE-2026-39276 - The template upload feature in Emlog Pro v2.6.9 has a path traversal vulnerabili...",
-      "body": "The template upload feature in Emlog Pro v2.6.9 has a path traversal vulnerability, allowing authenticated administrators to execute arbitrary PHP code. By uploading a malicious ZIP archive containing directory traversal sequences in filenames, an attacker can overwrite default template files or directly include malicious code files in the current template.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39276",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-05-29T16:16:26.833000",
-      "created_at": "2026-05-30T15:57:50.261406+00:00"
-    },
-    {
-      "id": "010acdd5182c414e",
-      "content_hash": "010acdd5182c414e9a57649cb21c63f721e16f033c469c1e5afad36e338a4373",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39229",
-      "title": "CVE-2026-39229 - Bolt CMS through 3.7.0 allows SQL Injection in the 'order' parameter of the cont...",
-      "body": "Bolt CMS through 3.7.0 allows SQL Injection in the 'order' parameter of the content listing pages. An authenticated attacker with low-level privileges can exploit this through the OrderDirective component. This allows for the extraction of sensitive information",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39229",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-05-29T16:16:26.723000",
-      "created_at": "2026-05-30T15:57:50.261400+00:00"
     }
   ]
 }
