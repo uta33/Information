@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-06T22:53:54.559180+00:00",
+  "generated_at": "2026-06-06T23:55:34.475903+00:00",
   "items": [
+    {
+      "id": "694ab7a143fb42d8",
+      "content_hash": "694ab7a143fb42d820b8adbcce0f39769bc624e2fcb04f7c54f41ea05330c8f5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list",
+      "title": "DoD Officially Drops 180 Faiths from Military's Recognized Religion List",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48430212\">Comments</a>",
+      "url": "https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T23:37:20+00:00",
+      "created_at": "2026-06-06T23:55:34.475388+00:00"
+    },
     {
       "id": "01747db3709d5153",
       "content_hash": "01747db3709d51530c0b8fac538a649efaf8c89d1940fb91f81398de81f1c15a",
@@ -184,6 +198,20 @@
       "created_at": "2026-06-06T16:57:44.503220+00:00"
     },
     {
+      "id": "5a99bf99ff779bc4",
+      "content_hash": "5a99bf99ff779bc400494c97ab7f2e7d7804e44d327a5864592bda6a79512cb3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11435",
+      "title": "CVE-2026-11435 - A security vulnerability has been detected in Jinher OA 1.0. This affects an unk...",
+      "body": "A security vulnerability has been detected in Jinher OA 1.0. This affects an unknown function of the file nextselectplan.aspx. Such manipulation of the argument httpOID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11435",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-06-06T16:16:54.550000",
+      "created_at": "2026-06-06T23:55:28.964502+00:00"
+    },
+    {
       "id": "da11c9b5424e1311",
       "content_hash": "da11c9b5424e13110d8003fa804de49d35aabbce7b4722aa50a4c21a64e495c8",
       "source_name": "Hacker News (Best)",
@@ -224,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T15:30:09+00:00",
       "created_at": "2026-06-06T16:57:44.674395+00:00"
+    },
+    {
+      "id": "ee0459abc1a39b16",
+      "content_hash": "ee0459abc1a39b16426428a220bba00b99870e10063bba12763e2675e7a62fd9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11434",
+      "title": "CVE-2026-11434 - A weakness has been identified in FluentCMS 0.0.5. The impacted element is an un...",
+      "body": "A weakness has been identified in FluentCMS 0.0.5. The impacted element is an unknown function of the file /admin/blocks of the component Blocks Plugin. This manipulation causes cross site scripting. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11434",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 2.4,
+      "published_at": "2026-06-06T15:16:27.713000",
+      "created_at": "2026-06-06T23:55:28.964495+00:00"
     },
     {
       "id": "f684c6b1402f1e0e",
@@ -280,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T14:34:20+00:00",
       "created_at": "2026-06-06T15:04:37.570973+00:00"
+    },
+    {
+      "id": "eac39bdc75ac5200",
+      "content_hash": "eac39bdc75ac5200d135415cc32811b38e576fcfbfefb1dd23b49756cfdf6473",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11413",
+      "title": "CVE-2026-11413 - A security vulnerability has been detected in JingDong JD Cloud Box AX6600 4.5.3...",
+      "body": "A security vulnerability has been detected in JingDong JD Cloud Box AX6600 4.5.3.r4546. The impacted element is the function set_macfilter of the file /sbin/jdcweb_rpc. The manipulation leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11413",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-06-06T14:16:20.060000",
+      "created_at": "2026-06-06T23:55:28.964489+00:00"
     },
     {
       "id": "fe0daa5c2b76c3f0",
@@ -434,6 +490,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T11:46:15+00:00",
       "created_at": "2026-06-06T13:04:58.189287+00:00"
+    },
+    {
+      "id": "1d5e3c9ccdea8a2a",
+      "content_hash": "1d5e3c9ccdea8a2a68dbeea69dd3cc12748868984db32a9079b57c4bf3b22ba3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11412",
+      "title": "CVE-2026-11412 - A weakness has been identified in Jinher OA C6. The affected element is an unkno...",
+      "body": "A weakness has been identified in Jinher OA C6. The affected element is an unknown function of the file /C6/JHSoft.Web.ModuleCount/GetFormSn.aspx. Executing a manipulation of the argument queryID can lead to sql injection. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11412",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-06T11:16:49.273000",
+      "created_at": "2026-06-06T23:55:28.964483+00:00"
     },
     {
       "id": "6dd6ed5c500ac001",
@@ -3640,6 +3710,20 @@
       "cvss_score": 3.6,
       "published_at": "2026-06-05T14:16:35.457000",
       "created_at": "2026-06-06T04:44:53.021973+00:00"
+    },
+    {
+      "id": "3e3425063380654a",
+      "content_hash": "3e3425063380654a8bcfaf52804856e13018726e3ed549769f1a010113e1ef22",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.kernel.sh/blog/firecracker-faster",
+      "title": "How to make firecracker faster to start Chromium in < 20ms",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48412708\">Comments</a>",
+      "url": "https://www.kernel.sh/blog/firecracker-faster",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-05T14:01:57+00:00",
+      "created_at": "2026-06-06T23:55:34.475679+00:00"
     },
     {
       "id": "e278b964d3e8b99d",
@@ -6916,90 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-06-04T19:16:27.170000",
       "created_at": "2026-06-05T17:45:49.198317+00:00"
-    },
-    {
-      "id": "a111ca1ba066019e",
-      "content_hash": "a111ca1ba066019ee529a0dda8994704e3051c8113b5a6aea38ee04c4e22f7c9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-65640",
-      "title": "CVE-2025-65640 - Cross Site Scripting (XSS) vulnerability in the \"Task in Progress / Recent\" page...",
-      "body": "Cross Site Scripting (XSS) vulnerability in the \"Task in Progress / Recent\" page in Arket Globe Document Intelligence 5.0.0.559 due to improper sanitization of user input in text fields when creating a new document. Specifically, when an authenticated attacker submits data containing JavaScript code within these fields, the application fails to properly sanitize or escape the content. As a result, the injected script is executed when the page is rendered, allowing the attacker to execute arbitrary JavaScript in the context of other users' browsers who view the affected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65640",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-06-04T19:16:25.620000",
-      "created_at": "2026-06-05T17:45:49.198311+00:00"
-    },
-    {
-      "id": "3058bfe5c21bda89",
-      "content_hash": "3058bfe5c21bda89f196732fceaf6d0e9f21471129eb21312450f83513cf818d",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3129682",
-      "title": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft",
-      "body": "Fusion startup Helion is racing to complete a power plant for Microsoft by 2028. A fresh infusion of cash should help with that.",
-      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T18:54:08+00:00",
-      "created_at": "2026-06-04T19:11:53.774963+00:00"
-    },
-    {
-      "id": "183f82eaf94b885d",
-      "content_hash": "183f82eaf94b885de5d760f47b4eea59c2a0976d9e474483a4ceb999b0ad3e12",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
-      "body": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts.  [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-06-04T18:36:27+00:00",
-      "created_at": "2026-06-04T19:11:48.834443+00:00"
-    },
-    {
-      "id": "b058b71b56102665",
-      "content_hash": "b058b71b56102665c8018fb31650676562143774b362eb8b780192a58ed00061",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arnorhs.dev/posts/2026-06-04/maybe-later-was-a-feature/",
-      "title": "\"Maybe later\" was a feature",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48402744\">Comments</a>",
-      "url": "https://arnorhs.dev/posts/2026-06-04/maybe-later-was-a-feature/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T18:31:55+00:00",
-      "created_at": "2026-06-05T19:29:40.638681+00:00"
-    },
-    {
-      "id": "06de695829229ce5",
-      "content_hash": "06de695829229ce5201f68871a4c1561d11a0e13e4bba2aff3ee2138c7695969",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50292",
-      "title": "CVE-2026-50292 - In libinput before 1.30.4 and 1.31.x before 1.31.3, libinput-device-group unesca...",
-      "body": "In libinput before 1.30.4 and 1.31.x before 1.31.3, libinput-device-group unescaped phys output can inject udev properties leading to arbitrary root code execution",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50292",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-06-04T18:16:32.530000",
-      "created_at": "2026-06-05T17:45:49.198304+00:00"
-    },
-    {
-      "id": "b6d434b7e919b06b",
-      "content_hash": "b6d434b7e919b06b7bcc78f71c4007fc6cf34eed6ab365a40895d668977e3c33",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48040",
-      "title": "CVE-2026-48040 - The netty incubator codec.bhttp is a java language binary http parser. The libra...",
-      "body": "The netty incubator codec.bhttp is a java language binary http parser. The library implements Oblivious HTTP (RFC 9458) using BoringSSL's HPKE C library via JNI. When deriving native memory addresses for cryptographic operations versions prior to 0.0.22.Final provide a fallback path for direct ByteBufs that do not expose their memory address through `hasMemoryAddress()`. This fallback occurs when `sun.misc.Unsafe` is unavailable to Netty — for example, when the JVM is started with `-Dio.netty.noUnsafe=true`, when a SecurityManager restricts Unsafe access, or when running on non-HotSpot JVMs. In these configurations, Netty's default `PooledByteBufAllocator` returns `PooledDirectByteBuf` instances for which `hasMemoryAddress()` returns false.  Under the enabling JVM configuration, an unauthenticated network attacker can cause the OHTTP gateway to corrupt memory belonging to other concurrent connections and disclose the contents of adjacent pooled direct buffers by triggering cryptographic operations with crafted OHTTP requests. The corruption occurs regardless of whether the AEAD tag verification succeeds, as BoringSSL zeroizes the output buffer on failure. The information disclosure path provides the attacker with the encryption key needed to extract the leaked data. This violates the confidentiality and integrity of all connections sharing the same Netty buffer arena. Version 0.0.22.Final fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48040",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T18:16:31.220000",
-      "created_at": "2026-06-05T15:47:16.394725+00:00"
     }
   ]
 }
