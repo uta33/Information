@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T21:54:53.251357+00:00",
+  "generated_at": "2026-06-06T22:53:54.559180+00:00",
   "items": [
     {
       "id": "01747db3709d5153",
@@ -58,6 +58,34 @@
       "created_at": "2026-06-06T21:54:53.250673+00:00"
     },
     {
+      "id": "4712eeeaf03324cf",
+      "content_hash": "4712eeeaf03324cf611c009945b0b89e78130f4de64261870fca6f8b7e452d8e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48428647\">Comments</a>",
+      "url": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T20:24:29+00:00",
+      "created_at": "2026-06-06T22:53:54.558544+00:00"
+    },
+    {
+      "id": "2f2ac52341e602a9",
+      "content_hash": "2f2ac52341e602a95b452d6bc168778483f374c039689b8d8554157f5f19f8b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ataraxy-labs.github.io/sem/",
+      "title": "Sem: New primitive for code understanding – not LSPs, but entities on top of Git",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48428475\">Comments</a>",
+      "url": "https://ataraxy-labs.github.io/sem/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T20:03:55+00:00",
+      "created_at": "2026-06-06T22:53:54.558672+00:00"
+    },
+    {
       "id": "f214d38cf292ad4a",
       "content_hash": "f214d38cf292ad4aed100591a702d89e3a5c198db8fa53d66f86125f6b0a4376",
       "source_name": "Hacker News (Best)",
@@ -112,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T18:21:06+00:00",
       "created_at": "2026-06-06T20:02:51.630251+00:00"
+    },
+    {
+      "id": "a41ec9aca6699d55",
+      "content_hash": "a41ec9aca6699d55d609635bd280581fc13a36c230c41a77580bf1cfa446d8fb",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3129597",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "body": "Apple's WWDC nears: Here's what you can look forward to.",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-06-06T18:13:36+00:00",
+      "created_at": "2026-06-06T22:53:54.241047+00:00"
     },
     {
       "id": "f860b6f973446cfe",
@@ -210,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T14:59:43+00:00",
       "created_at": "2026-06-06T16:57:44.673930+00:00"
+    },
+    {
+      "id": "6f14a458d1576b91",
+      "content_hash": "6f14a458d1576b910bf8b93a563a39824954075c6ba1d6440d003a4a6552154e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down",
+      "title": "Motorola effectively bricked its entire line of WiFi routers without explanation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48425611\">Comments</a>",
+      "url": "https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T14:43:53+00:00",
+      "created_at": "2026-06-06T22:53:54.558908+00:00"
     },
     {
       "id": "81f8270cf122f33c",
@@ -380,6 +436,34 @@
       "created_at": "2026-06-06T13:04:58.189287+00:00"
     },
     {
+      "id": "6dd6ed5c500ac001",
+      "content_hash": "6dd6ed5c500ac0014359ebd541d5d67e4e63ff6dea91a64630512d0161bdd8c1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11411",
+      "title": "CVE-2026-11411 - A security flaw has been discovered in iAI Lab PDF AI App 4.21.0 on Android. Imp...",
+      "body": "A security flaw has been discovered in iAI Lab PDF AI App 4.21.0 on Android. Impacted is the function getExternalCacheDir of the component chatpdf.pro. Performing a manipulation of the argument _display_name results in path traversal. The attack requires a local approach. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11411",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.4,
+      "published_at": "2026-06-06T11:16:49.110000",
+      "created_at": "2026-06-06T22:53:49.023670+00:00"
+    },
+    {
+      "id": "55901f41bb4df8d6",
+      "content_hash": "55901f41bb4df8d6b484e3901006e1a80b20dcf5ebddbd75964442296fbd1b42",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11408",
+      "title": "CVE-2026-11408 - A vulnerability was identified in vertex-app vertex up to 2026.02.12. This issue...",
+      "body": "A vulnerability was identified in vertex-app vertex up to 2026.02.12. This issue affects some unknown processing of the file app/model/LogMod.js of the component Log Viewer Endpoint. Such manipulation of the argument req.query leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used. The name of the patch is 805d82e7100d49b79b3beb1b9420e8e458987198. It is best practice to apply a patch to resolve this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11408",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-06T11:16:48.347000",
+      "created_at": "2026-06-06T22:53:49.023661+00:00"
+    },
+    {
       "id": "2293761a124d09c4",
       "content_hash": "2293761a124d09c43bb051c4ce96bd110b4620dba47ab0627c8ca0d421df249b",
       "source_name": "Hacker News (Best)",
@@ -420,6 +504,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T10:42:09+00:00",
       "created_at": "2026-06-06T13:04:58.189791+00:00"
+    },
+    {
+      "id": "086dd83c59540a92",
+      "content_hash": "086dd83c59540a922a25286a3c51cdc4ea067f46362edd075a7eac8343b2613e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11406",
+      "title": "CVE-2026-11406 - A vulnerability was determined in GL.iNet MT3000 up to 4.4.5. This vulnerability...",
+      "body": "A vulnerability was determined in GL.iNet MT3000 up to 4.4.5. This vulnerability affects unknown code of the file ovpnclient.sh of the component OpenVPN Client Import Workflow. This manipulation causes command injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized. Upgrading to version 4.9.0_beta3-1012-0513-1778656146 is able to resolve this issue. You should upgrade the affected component. The vendor confirms: \"This issue has been addressed by implementing malicious checks on OpenVPN configuration files to prevent command injection attacks carried through malicious configuration files.\"",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11406",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-06T10:16:27.017000",
+      "created_at": "2026-06-06T22:53:49.023655+00:00"
     },
     {
       "id": "ee7e3bdab8c34b47",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-04T18:16:31.220000",
       "created_at": "2026-06-05T15:47:16.394725+00:00"
-    },
-    {
-      "id": "2f30116bdc275e74",
-      "content_hash": "2f30116bdc275e74085df12f27f602f8373c03267ffe8924fd079147fbeee645",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-41207",
-      "title": "CVE-2026-41207 - The netty incubator codec.bhttp is a java language binary http parser. Prior to ...",
-      "body": "The netty incubator codec.bhttp is a java language binary http parser. Prior to version 0.0.21.Final, HKDF_expand returns non-NULL on failure. The byte[] is filled with zeros and has no way to distinguish success from failure. Since this output is used as HKDF key material for the response AEAD, a  failure silently produces an all-zero key. When EVP_HPKE_CTX_export fails it also returns an empty byte[] array filled with zeros. This byte[] feeds directly into OHttpCrypto.createResponseAEAD(...).  A silent all-zero export secret would produce a deterministic, attacker-predictable AEAD key. Version 0.0.21.Final patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41207",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T18:16:30.433000",
-      "created_at": "2026-06-05T15:47:16.394718+00:00"
-    },
-    {
-      "id": "d463185dad7fcad3",
-      "content_hash": "d463185dad7fcad342a2dc9e742b51c7842efc6696efc53f53867119047ef1d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-25551",
-      "title": "CVE-2026-25551 - Seagull Software BarTender 2021 R1 through 12.0.1 contains an insecure deseriali...",
-      "body": "Seagull Software BarTender 2021 R1 through 12.0.1 contains an insecure deserialization vulnerability that allows low-privileged local users to escalate privileges. The DataServiceSingleton .NET Remoting endpoint is bound to localhost on TCP port 7375 via BtSystem.Service.exe, limiting the attack surface to local access only. The endpoint is configured with BinaryServerFormatterSinkProvider and TypeFilterLevel set to Full. A low-privileged local attacker can send YSoSerial.NET-generated BinaryFormatter payloads to the localhost-bound endpoint to achieve code execution as NT AUTHORITY\\\\SYSTEM.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25551",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-06-04T18:16:28.923000",
-      "created_at": "2026-06-05T15:47:16.394712+00:00"
-    },
-    {
-      "id": "249a063083069623",
-      "content_hash": "249a063083069623e26d917493bdf9f7e49bfd4abac95624e5ba5488710eae01",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-25550",
-      "title": "CVE-2026-25550 - Seagull Software BarTender 2010, 2016, and 2019 contain an unauthenticated remot...",
-      "body": "Seagull Software BarTender 2010, 2016, and 2019 contain an unauthenticated remote code execution vulnerability in the .NET Remoting service exposed on TCP port 7375 via BtSystem.Service.exe. The service registers an unauthenticated singleton endpoint — BarTenderSystem for BarTender 2016 <= R9, and DataServiceSingleton for BarTender 2019 <= R10 — configured with BinaryServerFormatterSinkProvider and TypeFilterLevel set to Full. An unauthenticated remote attacker can exploit .NET Remoting object unmarshalling to read or write arbitrary files on the server using the .NET WebClient class, or coerce NTLMv2 authentication by supplying a UNC path to an attacker-controlled server, enabling sensitive credential disclosure, remote code execution, or lateral movement depending on service account privileges and network environment. The service runs in the context of NT AUTHORITY\\SYSTEM.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25550",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-06-04T18:16:28.747000",
-      "created_at": "2026-06-05T15:47:16.394704+00:00"
-    },
-    {
-      "id": "a97999632a30ff3b",
-      "content_hash": "a97999632a30ff3bdc8199396e5a795cb80a30928b5a7ff73534f87c1946ecd2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10880",
-      "title": "CVE-2026-10880 - OSNexus QuantaStor SDS Manager is vulnerable to SQL injection in the login endpo...",
-      "body": "OSNexus QuantaStor SDS Manager is vulnerable to SQL injection in the login endpoint. The username field is not properly sanitized before being incorporated into a SQL query, allowing an unauthenticated remote attacker to bypass authentication and log in as an administrator without supplying a valid password.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10880",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-06-04T18:16:28.587000",
-      "created_at": "2026-06-05T15:47:16.394698+00:00"
-    },
-    {
-      "id": "679239919f1550be",
-      "content_hash": "679239919f1550be77f4853a56b2f77a0f039d1472c63d3c48ceb24843d9b7e5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10796",
-      "title": "CVE-2026-10796 - nvm (Node Version Manager) through 0.40.4 executes arbitrary commands from versi...",
-      "body": "nvm (Node Version Manager) through 0.40.4 executes arbitrary commands from version strings supplied by the configured Node.js/io.js mirror. Commands such as `nvm install` read the available versions from the mirror's index.tab and use the selected version, without sanitization, to build download URLs and shell/awk commands. Two sinks are affected by the same untrusted input: nvm_download() built a curl/wget command string and ran it with `eval`, so a version field containing command substitution (for example $(id)) was executed by the local shell; and nvm_get_checksum() interpolated the version-derived download slug into an awk program, so a crafted version could execute arbitrary commands via awk's system(). An attacker who controls the configured mirror, supplies mirror content to a user or CI on a non-default mirror, or machine-in-the-middles a non-TLS mirror can ∴ run arbitrary commands with the privileges of the user running nvm. The default mirror (https://nodejs.org over TLS) is not affected. Fixed on master (pending the next tagged release) by passing every argument as a literal argv element instead of using eval, by passing the value to awk as data via -v instead of interpolating it into the program, and by rejecting any version outside the Node.js/io.js version grammar before it is used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10796",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-04T18:16:28.150000",
-      "created_at": "2026-06-05T15:47:16.394693+00:00"
-    },
-    {
-      "id": "40bc3fb94834f29c",
-      "content_hash": "40bc3fb94834f29c2e409ce48935d01a7a137fadd3f6b56f00c4559a79403d4f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-69755",
-      "title": "CVE-2025-69755 - An issue in Neterbit NW-431F Router vNW-431F-20241014-IR03 allows a remote attac...",
-      "body": "An issue in Neterbit NW-431F Router vNW-431F-20241014-IR03 allows a remote attacker to obtain sensitive information and execute arbitrary code via a crafted command to the at_command.asp interface",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69755",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-06-04T18:16:28.003000",
-      "created_at": "2026-06-05T15:47:16.394686+00:00"
-    },
-    {
-      "id": "dd445665f42c7dfb",
-      "content_hash": "dd445665f42c7dfb8ec2a31ff3b780966cb439ff58d26ee7fa088bff9dcfdfcd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-67448",
-      "title": "CVE-2025-67448 - The SMS module in Neterbit NW-431F Router 20241014-IR03 and before is vulnerable...",
-      "body": "The SMS module in Neterbit NW-431F Router 20241014-IR03 and before is vulnerable to stored XSS. The application does not properly sanitize user input in SMS messages before storing and displaying them. An attacker can send an SMS containing a malicious XSS payload, which will be executed in the context of the victim's browser when the message is viewed.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67448",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-06-04T18:16:27.853000",
-      "created_at": "2026-06-05T15:47:16.394680+00:00"
     }
   ]
 }
