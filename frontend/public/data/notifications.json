@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-06T04:44:56.831902+00:00",
+  "generated_at": "2026-06-06T07:39:28.766206+00:00",
   "items": [
+    {
+      "id": "f82cb8719bc1ee2c",
+      "content_hash": "f82cb8719bc1ee2cb870776e01f1fd3c2f71603d791bec20ae1566eb4b0bea75",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48421442\">Comments</a>",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T04:38:36+00:00",
+      "created_at": "2026-06-06T07:39:28.765535+00:00"
+    },
+    {
+      "id": "82e06b0137712f15",
+      "content_hash": "82e06b0137712f15d98d0a1eb79e9a1f28e70dd498ce63bad944c2aac36000a3",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+      "body": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types -\n\n\n  On-Prem Deployment\n  Cisco SD-WAN Cloud-Pro\n  Cisco SD-WAN Cloud (Cisco Managed)\n  Cisco SD-WAN for Government (FedRAMP)\n\n\"A",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-06-06T04:19:28+00:00",
+      "created_at": "2026-06-06T07:39:22.870212+00:00"
+    },
     {
       "id": "a2d77b43fc345231",
       "content_hash": "a2d77b43fc345231854574bf94b7123e805ab0f959b9fe951a617431e60dfee6",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T03:23:47+00:00",
       "created_at": "2026-06-06T04:44:56.831494+00:00"
+    },
+    {
+      "id": "ea7cb44b1a094c50",
+      "content_hash": "ea7cb44b1a094c5040225469bdc567239c055da4bcb8404f8d87c92b565c30cb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
+      "title": "The back cover of C++: The Language raises questions not answered by front cover",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48421079\">Comments</a>",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T03:23:47+00:00",
+      "created_at": "2026-06-06T07:39:28.765659+00:00"
     },
     {
       "id": "cf4388d9f75f60d8",
@@ -910,6 +952,20 @@
       "cvss_score": null,
       "published_at": "2026-06-05T14:30:50+00:00",
       "created_at": "2026-06-05T15:47:21.391491+00:00"
+    },
+    {
+      "id": "7e0a01bde92bb7d5",
+      "content_hash": "7e0a01bde92bb7d5e5999d251c9d51a9308c0e24d7835c8e4cb261c0d8fff0f7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-50234",
+      "title": "CVE-2026-50234 - Lyrion Music Server 9.2.0 contains a path traversal vulnerability that allows un...",
+      "body": "Lyrion Music Server 9.2.0 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting directory traversal in the web server context. Attackers can manipulate file path parameters to access sensitive files outside the intended directory structure.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50234",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-06-05T14:16:36.720000",
+      "created_at": "2026-06-06T07:39:23.089952+00:00"
     },
     {
       "id": "beb5cf3b9d394221",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-04T07:45:00+00:00",
       "created_at": "2026-06-04T09:41:14.785932+00:00"
-    },
-    {
-      "id": "6120fc9c538d2f4b",
-      "content_hash": "6120fc9c538d2f4b799bb92ed30b6f5b1d45ade929657eee418f158839b3f516",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018094.html",
-      "title": "DevolutionsのDevolutions Serverにおけるアクセス制御に関する脆弱性",
-      "body": "Devolutions Server 2026.1.19およびそれ以前のバージョンにおいて、権限検証コンポーネントのアクセス制御に不備があり、エントリ編集権限を持つ認証ユーザーが必要な権限なしで資産情報を変更できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018094.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T07:45:00+00:00",
-      "created_at": "2026-06-04T09:41:14.785947+00:00"
-    },
-    {
-      "id": "7dd809fe73122a48",
-      "content_hash": "7dd809fe73122a48ae732b523d68f34e834cc14e3eca2e8774a3667384da20ff",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018093.html",
-      "title": "Dalibo SARL SCOPのPostgreSQL AnonymizerにおけるSQL インジェクションの脆弱性",
-      "body": "PostgreSQL Anonymizerには脆弱性が存在し、ユーザーがテーブルを作成し、列識別子内に悪意のあるコードを配置することでスーパーユーザー権限を取得できる可能性があります。スーパーユーザーがk-匿名性関数を呼び出すと、その悪意のあるコードがスーパーユーザー権限で実行されます。このリスクはPostgreSQL 14およびPostgreSQL 14以前からアップグレードされたインスタンスで特に高くなります。PostgreSQL 15以降ではデフォルトでpublicスキーマの作成権限が取り消されており、この攻撃は明示的にCREATE TABLE権限が付与されたユーザーのみが実行可能です。この問題はPostgreSQL Anonymizer 3.1.0およびそれ以降のバージョンで修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018093.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T07:45:00+00:00",
-      "created_at": "2026-06-04T09:41:14.785964+00:00"
-    },
-    {
-      "id": "f58634e0c74c6d80",
-      "content_hash": "f58634e0c74c6d80037149ef4b7e4ef77f737bc2a5074cb92fe22995dcc94d8f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018092.html",
-      "title": "WiresharkにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Wireshark 4.6.0から4.6.5および4.4.0から4.4.15におけるROHCプロトコルディセクタがクラッシュすることで、サービス拒否が発生します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018092.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T07:44:00+00:00",
-      "created_at": "2026-06-04T09:41:14.785979+00:00"
-    },
-    {
-      "id": "c4f5fda57f6ec4c6",
-      "content_hash": "c4f5fda57f6ec4c6a518aa900fc8bb27cf7259688c75e344c5722057b409b6f2",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018091.html",
-      "title": "GoogleのGoogle Chromeにおける境界外書き込みに関する脆弱性",
-      "body": "AndroidのGoogle Chrome 148.0.7778.216以前のバージョンにおいて、GPUの境界外書き込みの脆弱性により、リモートの攻撃者が細工されたHTMLページを利用してサンドボックスを回避できる可能性がありました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-018091.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T07:44:00+00:00",
-      "created_at": "2026-06-04T09:41:14.785993+00:00"
     }
   ]
 }
