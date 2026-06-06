@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T09:51:50.672606+00:00",
+  "generated_at": "2026-06-06T11:15:07.486645+00:00",
   "items": [
     {
       "id": "a4dd9b2f7fde97a9",
@@ -826,6 +826,48 @@
       "cvss_score": null,
       "published_at": "2026-06-05T15:39:38+00:00",
       "created_at": "2026-06-05T19:29:40.638362+00:00"
+    },
+    {
+      "id": "8df8f4e3e633351d",
+      "content_hash": "8df8f4e3e633351de3e4940249d8124acbede05a1c8404a415d5e221bed9df26",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-38579",
+      "title": "CVE-2026-38579 - Multiple reflected Cross-Site Scripting (XSS) vulnerabilities in damasac thaipal...",
+      "body": "Multiple reflected Cross-Site Scripting (XSS) vulnerabilities in damasac thaipalliative_lte through version 3.0 allow remote attackers to inject arbitrary web script or HTML via the idFormMain parameter (line 24), the id parameter (lines 25, 75), and the ptid_key parameter (lines 26, 42) in /substudy/ezform.php. User input is echoed into HTML attributes and JavaScript contexts without encoding.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38579",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-05T15:16:52.850000",
+      "created_at": "2026-06-06T11:15:03.416220+00:00"
+    },
+    {
+      "id": "7a1bb318260e63b7",
+      "content_hash": "7a1bb318260e63b7b32df3a67bc561206a83c90f70a61438237ea7915b7a06dc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-37737",
+      "title": "CVE-2026-37737 - sanic-cors version 2.2.0 and prior contains an improper regular expression in th...",
+      "body": "sanic-cors version 2.2.0 and prior contains an improper regular expression in the try_match() function in sanic_cors/core.py that uses re.match without end-anchoring. This allows an attacker to bypass CORS origin allowlists by registering a domain that begins with a trusted origin string, to gain unauthorized access to cross-origin requests for authenticated resources.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37737",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-06-05T15:16:51.720000",
+      "created_at": "2026-06-06T11:15:03.416214+00:00"
+    },
+    {
+      "id": "e22672b8b02eb06d",
+      "content_hash": "e22672b8b02eb06d476a8c8e92db2f14148ba7cb60a81b8476aaed43280c29c9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11335",
+      "title": "CVE-2026-11335 - A flaw has been found in tittuvarghese CollegeManagementSystem 3e476335cfbfb9a04...",
+      "body": "A flaw has been found in tittuvarghese CollegeManagementSystem 3e476335cfbfb9a049e09f474c7ec885f69a9df3/a38852979f7e27ae67b610dce5979500ef8ebe01. This impacts the function session_start of the file /login-form.php. Executing a manipulation of the argument UserAuthData can lead to session fixiation. The attack can be launched remotely. The exploit has been published and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11335",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-05T15:16:51.540000",
+      "created_at": "2026-06-06T11:15:03.416207+00:00"
     },
     {
       "id": "725f775367e0cc89",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-04T09:51:28+00:00",
       "created_at": "2026-06-04T12:36:49.578488+00:00"
-    },
-    {
-      "id": "3baa0091136360de",
-      "content_hash": "3baa0091136360debb6a8d9eb9fc636e3cf1821a7a51c950d8d85c0939341c14",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
-      "body": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity.\n\nSymantec and Carbon Black's Threat Hunter Team reported the campaign this week. This points to espionage, not a money grab:",
-      "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T09:33:57+00:00",
-      "created_at": "2026-06-04T12:36:49.578508+00:00"
-    },
-    {
-      "id": "9a6fe76973949eca",
-      "content_hash": "9a6fe76973949eca2dc74bc94d0753af02b64273305014a7c517b542466bf13a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50213",
-      "title": "CVE-2026-50213 - The account validation endpoint /v1/User/validate returns comprehensive user pro...",
-      "body": "The account validation endpoint /v1/User/validate returns comprehensive user profile data sheets, which can be crawled by iterating predictable identification strings.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50213",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-04T09:16:29.987000",
-      "created_at": "2026-06-04T21:21:50.338412+00:00"
-    },
-    {
-      "id": "facc82bc007f8bf3",
-      "content_hash": "facc82bc007f8bf3c577e80e9154e72a81159408dd21d9316e0c03fe9f04294b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50212",
-      "title": "CVE-2026-50212 - Weak validation logic within device dissociation API routines allows a remote en...",
-      "body": "Weak validation logic within device dissociation API routines allows a remote entity to forcefully unbind unrelated user endpoints, causing severe denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50212",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-04T09:16:29.847000",
-      "created_at": "2026-06-04T21:21:50.338407+00:00"
     }
   ]
 }
