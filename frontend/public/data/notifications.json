@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-06T16:57:44.674647+00:00",
+  "generated_at": "2026-06-06T18:02:52.856923+00:00",
   "items": [
+    {
+      "id": "f860b6f973446cfe",
+      "content_hash": "f860b6f973446cfe12476ad52a9d7886c7aa99deccb29d2e635931074e57f1d1",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3130269",
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "body": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T17:42:15+00:00",
+      "created_at": "2026-06-06T18:02:52.434975+00:00"
+    },
     {
       "id": "f0ec0262ddf87abf",
       "content_hash": "f0ec0262ddf87abfdb97985f449fb4ad9fa89ac512ea00f3bfbda8247ef0b8d7",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-06-06T16:17:21+00:00",
       "created_at": "2026-06-06T16:57:44.503220+00:00"
+    },
+    {
+      "id": "da11c9b5424e1311",
+      "content_hash": "da11c9b5424e13110d8003fa804de49d35aabbce7b4722aa50a4c21a64e495c8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://magazine.atavist.com/2026/mccann-cocaine-fugitives",
+      "title": "You Can Run",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48426202\">Comments</a>",
+      "url": "https://magazine.atavist.com/2026/mccann-cocaine-fugitives",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-06T15:55:46+00:00",
+      "created_at": "2026-06-06T18:02:52.856271+00:00"
     },
     {
       "id": "2fd31983fc027242",
@@ -674,6 +702,48 @@
       "created_at": "2026-06-05T21:15:33.198732+00:00"
     },
     {
+      "id": "4e68a337f004d0cd",
+      "content_hash": "4e68a337f004d0cd04b47a6c49814e8e4b4a69f0c4e89b073c6b31afd1b60205",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11414",
+      "title": "CVE-2026-11414 - A hard-coded cryptographic key is used by Altium Enterprise Server to sign file ...",
+      "body": "A hard-coded cryptographic key is used by Altium Enterprise Server to sign file download URLs in the Vault service. Because the key is identical across all installations, an unauthenticated network attacker who can reach the server can forge valid download signatures and retrieve files from the Vault storage area without any authentication, session, or credentials.\n\n\nA separate path traversal vulnerability in the same download endpoint allows the configured storage root to be escaped, enabling reads of arbitrary files on the server filesystem. Combined, these issues allow an unauthenticated attacker to obtain sensitive server configuration and key material, which can lead to full server compromise. The vulnerability can be chained with CVE-2026-9152 to enumerate and bulk-download stored content. Altium 365 cloud deployments are not impacted in practice, as file storage uses object storage rather than the local filesystem.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11414",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-05T20:17:29.033000",
+      "created_at": "2026-06-06T18:02:34.136798+00:00"
+    },
+    {
+      "id": "dea5ca4684531300",
+      "content_hash": "dea5ca4684531300fbf62db8f23537de06b5ee91ad32a44b087572fa2dec77e6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11401",
+      "title": "CVE-2026-11401 - An untrusted search path issue in the GlobalDatabasePlugin in the AWS Advanced G...",
+      "body": "An untrusted search path issue in the GlobalDatabasePlugin in the AWS Advanced Go Wrapper for Amazon Aurora PostgreSQL will allow a remote authenticated low-privilege actor to escalate privileges to those of another Amazon RDS user, including rds_superuser, via a crafted function created by the actor that runs when that user connects to the cluster through the affected wrapper.\n\n\n\nTo remediate this issue, users should upgrade to the AWS Advanced Go Wrapper release 2026-05-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11401",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.0,
+      "published_at": "2026-06-05T20:17:28.883000",
+      "created_at": "2026-06-06T18:02:34.136792+00:00"
+    },
+    {
+      "id": "943b1de659f372fe",
+      "content_hash": "943b1de659f372fe8ee0c60508100d71d212ed0d5b15909b344ff730e77e9b8e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11400",
+      "title": "CVE-2026-11400 - An untrusted search path issue in the GlobalDatabasePlugin in the AWS Advanced J...",
+      "body": "An untrusted search path issue in the GlobalDatabasePlugin in the AWS Advanced JDBC Wrapper for Amazon Aurora PostgreSQL will allow a remote authenticated low-privilege actor to escalate privileges to those of another Amazon RDS user, including rds_superuser, via a crafted function created by the actor that runs when that user connects to the cluster through an affected wrapper.\n\n\n\nTo remediate this issue, users should upgrade to AWS Advanced JDBC Wrapper version 4.0.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11400",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.0,
+      "published_at": "2026-06-05T20:17:28.733000",
+      "created_at": "2026-06-06T18:02:34.136786+00:00"
+    },
+    {
       "id": "91f72d06e3ce3039",
       "content_hash": "91f72d06e3ce30394796009a47ad994715d2e6ed258fca25736110ce5b941f17",
       "source_name": "Hacker News (Best)",
@@ -700,6 +770,34 @@
       "cvss_score": null,
       "published_at": "2026-06-05T20:00:00+00:00",
       "created_at": "2026-06-05T21:15:33.198757+00:00"
+    },
+    {
+      "id": "47192cdc2bf1dc97",
+      "content_hash": "47192cdc2bf1dc976cb47c15f325e296bdceaa70a17d3a9b75fd059b717fa6c9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5415",
+      "title": "CVE-2026-5415 - The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin,...",
+      "body": "The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin, both have the same slug) plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 5.38. This is due to the ajax_run_tool() AJAX handler relying solely on a nonce check (check_ajax_referer) for security without performing any capability check, combined with the create_temporary_link tool allowing the generation of passwordless login links for arbitrary users, and the handle_temporary_links() function authenticating visitors via these links without any additional authorization validation. The required nonce is exposed to all authenticated backend users (including Subscribers) via wp_localize_script() on all non-settings admin pages when the plugin's welcome pointer has not been dismissed. This makes it possible for authenticated attackers, with Subscriber-level access and above, to bypass normal authentication and log in as any user, including Administrators, resulting in complete account takeover.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5415",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-06-05T19:16:35.070000",
+      "created_at": "2026-06-06T18:02:34.136780+00:00"
+    },
+    {
+      "id": "5759171c899f5bdf",
+      "content_hash": "5759171c899f5bdf95dedcd68fc15bbc69c416b1b47f86dd215a8ee2cc7cf9a7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-5411",
+      "title": "CVE-2026-5411 - The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin,...",
+      "body": "The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin, both have the same slug) plugin for WordPress is vulnerable to arbitrary file upload in all versions up to, and including, 5.38. This is due to a capability check in the save_ajax() function of the licensing module, combined with unrestricted file extraction in sync_cloud_protection(). This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files including PHP webshells to the server by injecting a malicious cloud_protection_url into the license meta, which the plugin then downloads and extracts without file type validation into a web-accessible uploads directory. This can be used for remote code execution. Note: The vulnerability can only be exploited with a remote URL if \"allow_url_fopen\" is enabled in the php.ini config.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5411",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-06-05T19:16:34.860000",
+      "created_at": "2026-06-06T18:02:34.136773+00:00"
     },
     {
       "id": "6d84b56c0a28296d",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-04T14:16:38.090000",
       "created_at": "2026-06-05T12:30:19.128564+00:00"
-    },
-    {
-      "id": "25c653df02f62f0a",
-      "content_hash": "25c653df02f62f0aeeae86d6b5e456a1ba9055a77d370d33889f5d14e4b69061",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10856",
-      "title": "CVE-2026-10856 - A URL validation flaw in the MISP dashboard button widget allowed a crafted rela...",
-      "body": "A URL validation flaw in the MISP dashboard button widget allowed a crafted relative-looking URL to be accepted as a local path while being interpreted by browsers as an external URL. The validation rejected URLs containing an explicit scheme, host, or user component, but did not reject paths beginning with a slash followed by a backslash, such as /\\example.com. Some browsers normalize backslashes in URLs as forward slashes, which can turn this into a scheme-relative external navigation target. In addition, the generated href concatenated the reconstructed URL with the original URL, increasing the possibility of unsafe or malformed link generation.\n\n\n\n\nAn attacker able to configure or influence a dashboard button URL could craft a button that appears to point inside the application but redirects users to an attacker-controlled site when clicked. This could be used for phishing, credential theft, or social engineering. The patch fixes the issue by rejecting empty paths and paths starting with /\\, and by emitting only the reconstructed validated URL in the anchor href.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10856",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T14:16:37.947000",
-      "created_at": "2026-06-05T12:30:19.128557+00:00"
-    },
-    {
-      "id": "0f67ab4d4b3f57cc",
-      "content_hash": "0f67ab4d4b3f57cc3ad315f36096a96b466fc7ee33de5d0dbe9e7e7c59f49341",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10855",
-      "title": "CVE-2026-10855 - An authorization flaw existed in the MISP Event Template Importer overwrite work...",
-      "body": "An authorization flaw existed in the MISP Event Template Importer overwrite workflow. When importing an event template in overwrite mode, the application checked whether a matching template already existed but did not verify that the importing user belonged to the organization that owned the existing template. As a result, an authenticated user with access to the template import functionality could forcibly overwrite an event template owned by another organization.\n\n\n\nSuccessful exploitation could allow unauthorized modification of another organization’s event template, potentially altering template structure, attributes, or metadata used for subsequent event creation or sharing workflows. Site administrators are not affected by this restriction, as they are explicitly allowed to overwrite templates across organizations.\n\n\n\nThe issue was fixed by enforcing an ownership check before overwrite: non-site-admin users may only overwrite templates owned by their own organization.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10855",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T14:16:37.797000",
-      "created_at": "2026-06-05T12:30:19.128551+00:00"
-    },
-    {
-      "id": "175dc7e369c35808",
-      "content_hash": "175dc7e369c35808228c2f687ee5847504d8aeee425b1d4adb0ad24eb56686c3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10854",
-      "title": "CVE-2026-10854 - A visibility control issue in the event template creation workflow allowed non-s...",
-      "body": "A visibility control issue in the event template creation workflow allowed non-site-admin users to access private galaxies belonging to other organisations. The event template builder loaded all enabled galaxies without applying organisation or distribution-based access restrictions, potentially exposing private galaxy metadata such as galaxy type and description to users who should not have visibility.\n\n\n\nThe issue has been fixed by restricting galaxy queries for non-site-admin users to galaxies owned by the user’s organisation or galaxies with a non-private distribution setting. Site administrators retain visibility of all enabled galaxies.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10854",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T14:16:37.630000",
-      "created_at": "2026-06-05T12:30:19.128545+00:00"
-    },
-    {
-      "id": "a13c7b0ab15af0b0",
-      "content_hash": "a13c7b0ab15af0b046bde95f9d4e0ce3356ec13a1cb89f21cbd6cd7f35799836",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10810",
-      "title": "CVE-2026-10810 - A weakness has been identified in itsourcecode Fees Management System up to 1.0....",
-      "body": "A weakness has been identified in itsourcecode Fees Management System up to 1.0. Affected is an unknown function of the file /navbar.php. This manipulation of the argument page causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10810",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-06-04T14:16:37.400000",
-      "created_at": "2026-06-05T12:30:19.128538+00:00"
-    },
-    {
-      "id": "ce1e6d3f5670adbf",
-      "content_hash": "ce1e6d3f5670adbfaa082a802bed92b42d8dbf075d67c6ddb0ae5f02addda2aa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10809",
-      "title": "CVE-2026-10809 - A security flaw has been discovered in itsourcecode Fees Management System 1.0. ...",
-      "body": "A security flaw has been discovered in itsourcecode Fees Management System 1.0. This impacts an unknown function of the file /manage_user.php. The manipulation of the argument ID results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10809",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-06-04T14:16:37.203000",
-      "created_at": "2026-06-05T12:30:19.128532+00:00"
-    },
-    {
-      "id": "078bf487fdbbf466",
-      "content_hash": "078bf487fdbbf466c519fa11e39614d10d2b2d8bab867bcbdec7d95578194ed2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10808",
-      "title": "CVE-2026-10808 - A vulnerability was identified in itsourcecode Fees Management System 1.0. This ...",
-      "body": "A vulnerability was identified in itsourcecode Fees Management System 1.0. This affects an unknown function of the file /manage_student.php. The manipulation of the argument ID leads to sql injection. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10808",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-06-04T14:16:37.003000",
-      "created_at": "2026-06-05T12:30:19.128525+00:00"
-    },
-    {
-      "id": "fa2e22818796bada",
-      "content_hash": "fa2e22818796bada494c33704e7c6f45b5525b75f9f72f3e9b7804b0609d4ba5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10807",
-      "title": "CVE-2026-10807 - A vulnerability was determined in mjperpinosa stumasy. The impacted element is a...",
-      "body": "A vulnerability was determined in mjperpinosa stumasy. The impacted element is an unknown function of the file application/PHP/objects/profiles/change_profile_image.php. Executing a manipulation of the argument pr_profile_image can lead to unrestricted upload. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized. This product operates on a rolling release basis, ensuring continuous delivery. Consequently, there are no version details for either affected or updated releases. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10807",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-06-04T14:16:36.790000",
-      "created_at": "2026-06-05T12:30:19.128519+00:00"
     }
   ]
 }
