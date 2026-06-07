@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-07T06:57:13.437759+00:00",
+  "generated_at": "2026-06-07T09:57:01.999115+00:00",
   "items": [
+    {
+      "id": "9fc984946279eb45",
+      "content_hash": "9fc984946279eb457218d567adf3d913f998879bb90fc951b9b5bc19334fd546",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11458",
+      "title": "CVE-2026-11458 - A weakness has been identified in erzhongxmu JeeWMS up to 141740afb2ba14d441c82a...",
+      "body": "A weakness has been identified in erzhongxmu JeeWMS up to 141740afb2ba14d441c82a833d0a418d07ca2d69. This issue affects some unknown processing of the file /base-boot/actuator of the component Boot Actuator Endpoint. Executing a manipulation can lead to information disclosure. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11458",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-06-07T09:16:22.050000",
+      "created_at": "2026-06-07T09:56:56.501539+00:00"
+    },
+    {
+      "id": "5eb93d203c0828a3",
+      "content_hash": "5eb93d203c0828a3c516e217037b4927542b4d03bbbc5b03310dbc577bb68063",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11457",
+      "title": "CVE-2026-11457 - A security flaw has been discovered in erzhongxmu JeeWMS up to 141740afb2ba14d44...",
+      "body": "A security flaw has been discovered in erzhongxmu JeeWMS up to 141740afb2ba14d441c82a833d0a418d07ca2d69. This vulnerability affects unknown code of the file /base-boot/jmreport/testConnection of the component JimuReport test-connection Endpoint. Performing a manipulation of the argument dbType/dbDriver/dbUrl/dbUsername/dbPassword results in injection. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11457",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-06-07T09:16:21.843000",
+      "created_at": "2026-06-07T09:56:56.501532+00:00"
+    },
+    {
+      "id": "86a8b4fa452a9559",
+      "content_hash": "86a8b4fa452a95596f9364ccbc209928efe74a4b928d8874b9429688c7a3acbf",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11456",
+      "title": "CVE-2026-11456 - A vulnerability was identified in Chanjet CRM 1.0. This affects an unknown part ...",
+      "body": "A vulnerability was identified in Chanjet CRM 1.0. This affects an unknown part of the file /tools/jxf_dump_systable.php of the component HTTP GET Request Handler. Such manipulation of the argument gblOrgID leads to sql injection. The attack may be launched remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11456",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-06-07T09:16:21.673000",
+      "created_at": "2026-06-07T09:56:56.501526+00:00"
+    },
+    {
+      "id": "b952d2bc2664585c",
+      "content_hash": "b952d2bc2664585c4127a750f041566ea88d7f744edec388ac2128b7b176cd5d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11455",
+      "title": "CVE-2026-11455 - A vulnerability was determined in FoundationAgents MetaGPT up to 0.8.2. Affected...",
+      "body": "A vulnerability was determined in FoundationAgents MetaGPT up to 0.8.2. Affected by this issue is the function check_cmd_exists of the file metagpt/utils/common.py. This manipulation of the argument mermaid.path causes command injection. The attack may be initiated remotely. A high degree of complexity is needed for the attack. The exploitation is known to be difficult. The exploit has been publicly disclosed and may be utilized. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11455",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.0,
+      "published_at": "2026-06-07T09:16:20.403000",
+      "created_at": "2026-06-07T09:56:56.501520+00:00"
+    },
     {
       "id": "d0fe2b2c6aec04b3",
       "content_hash": "d0fe2b2c6aec04b335f721efc71ba10a8c2b14d82f6f2b2367237321fa5b90df",
@@ -4510,6 +4566,20 @@
       "created_at": "2026-06-05T12:30:18.704805+00:00"
     },
     {
+      "id": "3be9c72162d4f8e5",
+      "content_hash": "3be9c72162d4f8e56c44d97839ebaab086f4bfb8a384a0c255c76f70946adba5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://www.os2museum.com/wp/win16-memory-management/",
+      "title": "Win16 Memory Management",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48410844\">Comments</a>",
+      "url": "http://www.os2museum.com/wp/win16-memory-management/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-05T11:16:47+00:00",
+      "created_at": "2026-06-07T09:57:01.998456+00:00"
+    },
+    {
       "id": "ffd098a89a19524b",
       "content_hash": "ffd098a89a19524ba736af8c1dcff59e4fec5bb351cfe0157417700b520e9323",
       "source_name": "CVE (NVD)",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-06-04T22:16:53.370000",
       "created_at": "2026-06-05T17:45:49.198443+00:00"
-    },
-    {
-      "id": "023b8c24dd9bad93",
-      "content_hash": "023b8c24dd9bad93204807532c8c2c837f351440e1312570fb04f7f2ba7ec7a5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11322",
-      "title": "CVE-2026-11322 - Hermes WebUI prior to v0.51.221 contains a path traversal vulnerability that all...",
-      "body": "Hermes WebUI prior to v0.51.221 contains a path traversal vulnerability that allows attackers to escape the workspace boundary by supplying symlinks that resolve to files or directories outside the designated workspace root. Attackers can exploit the workspace file and listing APIs, which resolve symlink targets without enforcing that the final path remains within the workspace, to read external host files accessible to the server process and disclose sensitive data such as SSH keys, cloud credentials, or application tokens.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11322",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-04T22:16:52.283000",
-      "created_at": "2026-06-05T17:45:49.198436+00:00"
-    },
-    {
-      "id": "e30f61e707e26720",
-      "content_hash": "e30f61e707e267204d94b0dcf21662312a30c05c7025f1a0dca71f93af763683",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10871",
-      "title": "CVE-2026-10871 - A vulnerability has been found in Shibby Tomato 1.28.0000. This vulnerability af...",
-      "body": "A vulnerability has been found in Shibby Tomato 1.28.0000. This vulnerability affects the function start_6rd_tunnel of the file /sbin/rc of the component Web UI. Such manipulation of the argument ipv6_6rd_borderrelay leads to os command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This project is superseded by FreshTomato.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10871",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-06-04T22:16:52.063000",
-      "created_at": "2026-06-05T17:45:49.198430+00:00"
-    },
-    {
-      "id": "b825a95cee17fb18",
-      "content_hash": "b825a95cee17fb18325f0c87891b28b01b0f8df17c6b77c1b4b7ff5e92b29ada",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-6858",
-      "title": "CVE-2024-6858 - In Arista’s EOS when in 802.1X mode, multi-auth unauthenticated hosts might be a...",
-      "body": "In Arista’s EOS when in 802.1X mode, multi-auth unauthenticated hosts might be allowed access to a switch port if there exists an EAPOL capable device in the fallback VLAN.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6858",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:16:51.843000",
-      "created_at": "2026-06-05T17:45:49.198424+00:00"
-    },
-    {
-      "id": "fccc3b4cb1577b92",
-      "content_hash": "fccc3b4cb1577b92f8ec36f00fc37b865636af6c2707d8ca3e223d7778d0259b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/schildep/verified-polygon-intersection",
-      "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48405264\">Comments</a>",
-      "url": "https://github.com/schildep/verified-polygon-intersection",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:06:18+00:00",
-      "created_at": "2026-06-04T23:00:01.048692+00:00"
-    },
-    {
-      "id": "a8470fddb1c5b43f",
-      "content_hash": "a8470fddb1c5b43fccc2e06cd4f6a14772039da0371cc42981ddd0d87b907f49",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3129720",
-      "title": "Filtr is a new privacy tool that blocks ads in almost every iPhone and Mac app",
-      "body": "This popular ad blocker app for iPhones, iPads, and Macs can now block ads from loading inside apps, including web browsers, thanks to a new feature in the latest Apple software.",
-      "url": "https://techcrunch.com/2026/06/04/filtr-is-a-new-privacy-tool-that-blocks-ads-in-almost-every-iphone-and-mac-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T21:44:09+00:00",
-      "created_at": "2026-06-04T23:00:00.700839+00:00"
     }
   ]
 }
