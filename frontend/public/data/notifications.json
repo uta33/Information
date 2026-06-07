@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-07T11:44:03.554752+00:00",
+  "generated_at": "2026-06-07T13:17:29.551866+00:00",
   "items": [
+    {
+      "id": "dd3351f02937ab88",
+      "content_hash": "dd3351f02937ab883efda02df51b3155cfe5ca3893ece0f0235f647284c8cc48",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49494",
+      "title": "CVE-2026-49494 - Comodo Internet Security's firewall driver Inspect.sys contains an integer under...",
+      "body": "Comodo Internet Security's firewall driver Inspect.sys contains an integer underflow in its IPv6 packet parser. The parser decrements an unsigned 64-bit payload-length value (taken from the IPv6 fixed header's payload length field) by the size of each IPv6 extension header without validating it, so a packet whose declared payload length is smaller than the sum of its extension-header lengths underflows the value to a near-maximal 64-bit integer. Because IPv6 parsing occurs before firewall rule enforcement, a remote, unauthenticated attacker can send a single crafted IPv6 packet - even to a host with all ports blocked - to trigger an out-of-bounds read (and, on a separate code path, an oversized memcpy) in the Windows kernel at DISPATCH_LEVEL, crashing the system (BSOD).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49494",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-06-07T13:16:20.927000",
+      "created_at": "2026-06-07T13:17:24.003012+00:00"
+    },
+    {
+      "id": "053baa303a9d8341",
+      "content_hash": "053baa303a9d8341a3622d98acc957ac1f63ab8dbbdda004baaa615acc926977",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48434312\">Comments</a>",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-07T12:49:29+00:00",
+      "created_at": "2026-06-07T13:17:29.551080+00:00"
+    },
+    {
+      "id": "e661fe82bd8d7fd8",
+      "content_hash": "e661fe82bd8d7fd8f16bbc1ae7dbabf32172e5ec3d9ad1040491215e3ffc45ac",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://9mothers.com/careers",
+      "title": "9 Mothers (YC P26) Is Hiring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48433987\">Comments</a>",
+      "url": "https://9mothers.com/careers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-07T12:00:40+00:00",
+      "created_at": "2026-06-07T13:17:29.551237+00:00"
+    },
     {
       "id": "3b78b0f4b02d18bd",
       "content_hash": "3b78b0f4b02d18bdc16b345ec0e605b146286ff7411599dde7485b2df679d26c",
@@ -98,6 +140,20 @@
       "cvss_score": 5.0,
       "published_at": "2026-06-07T09:16:20.403000",
       "created_at": "2026-06-07T09:56:56.501520+00:00"
+    },
+    {
+      "id": "f81d9342ac85bc15",
+      "content_hash": "f81d9342ac85bc15a31bd160d1f7511fe5170350bda67ea4c6adf02f4385629e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kyushu.dev/",
+      "title": "Show HN: Kyushu – A self-hostable WASM sandbox for JavaScript workers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48432722\">Comments</a>",
+      "url": "https://kyushu.dev/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-07T07:35:02+00:00",
+      "created_at": "2026-06-07T13:17:29.551307+00:00"
     },
     {
       "id": "d0fe2b2c6aec04b3",
@@ -6134,6 +6190,20 @@
       "created_at": "2026-06-05T05:08:29.728614+00:00"
     },
     {
+      "id": "b494aba4f4f8e4ed",
+      "content_hash": "b494aba4f4f8e4edaaa266ac9d7673de069314e1deea918cbbe4677d51f00fac",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://yon-lang.org/",
+      "title": "Yon – a topos-oriented language with a content-addressed lattice heap",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48406530\">Comments</a>",
+      "url": "https://yon-lang.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-05T00:28:17+00:00",
+      "created_at": "2026-06-07T13:17:29.551159+00:00"
+    },
+    {
       "id": "95dc29c221b28f41",
       "content_hash": "95dc29c221b28f4171110f6f020e1a17d7ac4aec87b4d0bdcb930bc460448328",
       "source_name": "TechCrunch",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-04T23:01:40+00:00",
       "created_at": "2026-06-05T00:10:00.890398+00:00"
-    },
-    {
-      "id": "7ab493fdf5910810",
-      "content_hash": "7ab493fdf5910810e01b48e10870f714c58b20723f4f412452da9572220dfe49",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06",
-      "title": "Introducing Boron Buckyballs: Theory that B80 cages can’t be made is disproved",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48405815\">Comments</a>",
-      "url": "https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:58:48+00:00",
-      "created_at": "2026-06-07T02:33:09.694451+00:00"
-    },
-    {
-      "id": "5f142300a0f0f9f9",
-      "content_hash": "5f142300a0f0f9f9d7844736f804dc479416f81314b7e4500d43f2e54be8e28f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48405718\">Comments</a>",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:48:19+00:00",
-      "created_at": "2026-06-05T05:08:29.728869+00:00"
-    },
-    {
-      "id": "2f75aa198546db6e",
-      "content_hash": "2f75aa198546db6e046f8fb86a50a3ec431acf6ada6c7d71634c3fcd60442b31",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3129760",
-      "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
-      "body": "The AI giant's co-founder explained why the company may tap the public market for capital and why tokenmaxxing pushback isn't a concern.",
-      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:43:26+00:00",
-      "created_at": "2026-06-04T23:00:00.700781+00:00"
-    },
-    {
-      "id": "26f57bad3bee8326",
-      "content_hash": "26f57bad3bee83260959cc659026621dd600a66612b6a6a9f4793aa9f13ef4e1",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3129805",
-      "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
-      "body": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
-      "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-04T22:29:50+00:00",
-      "created_at": "2026-06-04T23:00:00.700815+00:00"
-    },
-    {
-      "id": "9d922b45bd9accd2",
-      "content_hash": "9d922b45bd9accd2598c5f0e8d0874b991f1dd9c3e8c8829fde1e79d971bea8d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42547",
-      "title": "CVE-2026-42547 - IRIS is a web collaborative platform that helps incident responders share techni...",
-      "body": "IRIS is a web collaborative platform that helps incident responders share technical details during investigations. In versions prior to 2.4.28, users can create alerts for customers that are not assigned to them. This can be abused to falsely attribute fake alerts to customers. In combination with Cross-Site Scripting, this can also be used to exfiltrate alerts from other customers. Version 2.4.28 contains a patch.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42547",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-06-04T22:16:53.917000",
-      "created_at": "2026-06-05T17:45:49.198465+00:00"
     }
   ]
 }
