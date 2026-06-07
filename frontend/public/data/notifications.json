@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-07T09:57:01.999115+00:00",
+  "generated_at": "2026-06-07T11:44:03.554752+00:00",
   "items": [
+    {
+      "id": "3b78b0f4b02d18bd",
+      "content_hash": "3b78b0f4b02d18bdc16b345ec0e605b146286ff7411599dde7485b2df679d26c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11459",
+      "title": "CVE-2026-11459 - A security vulnerability has been detected in SecureAge CatchPulse up to 10.9.1....",
+      "body": "A security vulnerability has been detected in SecureAge CatchPulse up to 10.9.1. Impacted is an unknown function in the library saappctl.sys of the component IOCTL Handler. The manipulation leads to information disclosure. Local access is required to approach this attack. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11459",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.3,
+      "published_at": "2026-06-07T10:16:21.863000",
+      "created_at": "2026-06-07T11:43:59.275864+00:00"
+    },
+    {
+      "id": "c979f4998f22fd59",
+      "content_hash": "c979f4998f22fd59b6b90600a6613e02d155f634acd6e9d6f9345779d42e35e7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints/",
+      "title": "Scientists ejected from diabetes conference for distributing journal reprints",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48433410\">Comments</a>",
+      "url": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-07T10:10:33+00:00",
+      "created_at": "2026-06-07T11:44:03.554097+00:00"
+    },
+    {
+      "id": "29936176e173020e",
+      "content_hash": "29936176e173020edc021959c6f07c97295cbf0ffa311ad87c6ee7715d9971f6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2606.04299",
+      "title": "Efficient and Training-Free Single-Image Diffusion Models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48433305\">Comments</a>",
+      "url": "https://arxiv.org/abs/2606.04299",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-07T09:43:45+00:00",
+      "created_at": "2026-06-07T11:44:03.554272+00:00"
+    },
     {
       "id": "9fc984946279eb45",
       "content_hash": "9fc984946279eb457218d567adf3d913f998879bb90fc951b9b5bc19334fd546",
@@ -6958,48 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-06-04T22:16:53.917000",
       "created_at": "2026-06-05T17:45:49.198465+00:00"
-    },
-    {
-      "id": "aa54a9faead24734",
-      "content_hash": "aa54a9faead24734fcd2e082579d0191c2be2b1ea31e1c595f6054250a424423",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42543",
-      "title": "CVE-2026-42543 - IRIS is a web collaborative platform that helps incident responders share techni...",
-      "body": "IRIS is a web collaborative platform that helps incident responders share technical details during investigations. Versions prior to 2.4.28 are vulnerable to a cross-site request forgery attack, because they use the HTTP method `GET` to change state on the server. Version 2.4.28 contains a patch.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42543",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-06-04T22:16:53.737000",
-      "created_at": "2026-06-05T17:45:49.198459+00:00"
-    },
-    {
-      "id": "0e3d425755853a16",
-      "content_hash": "0e3d425755853a16a7e5347e67253879a81dfe3945f066ca077005efeca9e6b3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42540",
-      "title": "CVE-2026-42540 - IRIS is a web collaborative platform that helps incident responders share techni...",
-      "body": "IRIS is a web collaborative platform that helps incident responders share technical details during investigations. Versions prior to 2.4.28 allow a user to alter values in the database via manipulated API requests. Version 2.4.28 contains a patch.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42540",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-06-04T22:16:53.550000",
-      "created_at": "2026-06-05T17:45:49.198449+00:00"
-    },
-    {
-      "id": "a4534934a212c061",
-      "content_hash": "a4534934a212c061cb62319151e1e10fe80f9a90670d5a584bdb5029dafa222b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-42539",
-      "title": "CVE-2026-42539 - IRIS is a web collaborative platform that helps incident responders share techni...",
-      "body": "IRIS is a web collaborative platform that helps incident responders share technical details during investigations. Versions prior to 2.4.28 return sensitive data to the user which are not required for the client’s operation. Version 2.4.28 contains a patch.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42539",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-04T22:16:53.370000",
-      "created_at": "2026-06-05T17:45:49.198443+00:00"
     }
   ]
 }
