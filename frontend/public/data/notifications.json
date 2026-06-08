@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-08T21:41:44.903210+00:00",
+  "generated_at": "2026-06-08T23:06:24.875767+00:00",
   "items": [
+    {
+      "id": "8d6af95185affab1",
+      "content_hash": "8d6af95185affab13814c2524bdf8616035eafb907d151cf2a89b9bd89f8a8e1",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3130875",
+      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+      "body": "Tools for Humanity, Sam Altman's identify verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-08T22:41:45+00:00",
+      "created_at": "2026-06-08T23:06:24.629825+00:00"
+    },
+    {
+      "id": "68f8b2c766b88d4e",
+      "content_hash": "68f8b2c766b88d4e4be92b18d358ca8ec67f632aed35fb30140aa5e3b0b18bc1",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3130680",
+      "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+      "body": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-08T22:39:57+00:00",
+      "created_at": "2026-06-08T23:06:24.629861+00:00"
+    },
+    {
+      "id": "fb7e2fd215e4b18d",
+      "content_hash": "fb7e2fd215e4b18df55dad666983e88c3108d5de056fbf25b59c06d1cad90c84",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+      "body": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-08T22:11:58+00:00",
+      "created_at": "2026-06-08T23:06:21.401903+00:00"
+    },
+    {
+      "id": "e605299626edf726",
+      "content_hash": "e605299626edf7263dd9d610e907c362eec852c85b72d73eef9e4f55dfb41d44",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+      "body": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-06-08T21:55:46+00:00",
+      "created_at": "2026-06-08T23:06:21.401939+00:00"
+    },
     {
       "id": "6d1a7d4ff7275ed9",
       "content_hash": "6d1a7d4ff7275ed92af1f0ac2812632bd360266fbb93463038ef0f8988c3594e",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-06-08T21:29:57+00:00",
       "created_at": "2026-06-08T21:41:44.447372+00:00"
+    },
+    {
+      "id": "dfbd56471a4b8813",
+      "content_hash": "dfbd56471a4b881306b18d3bef9f2b82c6e4706b99542b0dc10589bf7c5c54f6",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3129100",
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "body": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-08T21:29:57+00:00",
+      "created_at": "2026-06-08T23:06:24.629887+00:00"
     },
     {
       "id": "9e9a329438e39a42",
@@ -224,6 +294,20 @@
       "cvss_score": null,
       "published_at": "2026-06-08T18:57:49+00:00",
       "created_at": "2026-06-08T19:14:14.026114+00:00"
+    },
+    {
+      "id": "f79f4afe07ce9a45",
+      "content_hash": "f79f4afe07ce9a453f3d1bfea540887d69b39299f9b8a72cf1ebecb70ffab96b",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3130519",
+      "title": "Pentagon says Alibaba, Baidu, BYD, and Unitree support China’s military",
+      "body": "The Trump administration released the updated version of the list four months ago and then quickly pulled it without explaining why",
+      "url": "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-08T18:57:49+00:00",
+      "created_at": "2026-06-08T23:06:24.630017+00:00"
     },
     {
       "id": "3078fcd1cc21ecc7",
@@ -602,6 +686,20 @@
       "cvss_score": null,
       "published_at": "2026-06-08T17:01:43+00:00",
       "created_at": "2026-06-08T19:14:14.331058+00:00"
+    },
+    {
+      "id": "65d598773c60cfbf",
+      "content_hash": "65d598773c60cfbfe0bcffe28306557aad8632509f1e922e36550adbef6899b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gitdot.io/",
+      "title": "Show HN: Gitdot – a better GitHub. Open-source, written in Rust",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48447806\">Comments</a>",
+      "url": "https://gitdot.io/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-06-08T16:52:11+00:00",
+      "created_at": "2026-06-08T23:06:24.875174+00:00"
     },
     {
       "id": "e7cb56a1d143ea5e",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-05T20:00:00+00:00",
       "created_at": "2026-06-05T21:15:33.198757+00:00"
-    },
-    {
-      "id": "47192cdc2bf1dc97",
-      "content_hash": "47192cdc2bf1dc976cb47c15f325e296bdceaa70a17d3a9b75fd059b717fa6c9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5415",
-      "title": "CVE-2026-5415 - The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin,...",
-      "body": "The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin, both have the same slug) plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 5.38. This is due to the ajax_run_tool() AJAX handler relying solely on a nonce check (check_ajax_referer) for security without performing any capability check, combined with the create_temporary_link tool allowing the generation of passwordless login links for arbitrary users, and the handle_temporary_links() function authenticating visitors via these links without any additional authorization validation. The required nonce is exposed to all authenticated backend users (including Subscribers) via wp_localize_script() on all non-settings admin pages when the plugin's welcome pointer has not been dismissed. This makes it possible for authenticated attackers, with Subscriber-level access and above, to bypass normal authentication and log in as any user, including Administrators, resulting in complete account takeover.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5415",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-06-05T19:16:35.070000",
-      "created_at": "2026-06-06T18:02:34.136780+00:00"
-    },
-    {
-      "id": "5759171c899f5bdf",
-      "content_hash": "5759171c899f5bdf95dedcd68fc15bbc69c416b1b47f86dd215a8ee2cc7cf9a7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5411",
-      "title": "CVE-2026-5411 - The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin,...",
-      "body": "The WP Captcha PRO (the premium version of the Advanced Google reCAPTCHA plugin, both have the same slug) plugin for WordPress is vulnerable to arbitrary file upload in all versions up to, and including, 5.38. This is due to a capability check in the save_ajax() function of the licensing module, combined with unrestricted file extraction in sync_cloud_protection(). This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files including PHP webshells to the server by injecting a malicious cloud_protection_url into the license meta, which the plugin then downloads and extracts without file type validation into a web-accessible uploads directory. This can be used for remote code execution. Note: The vulnerability can only be exploited with a remote URL if \"allow_url_fopen\" is enabled in the php.ini config.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5411",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-06-05T19:16:34.860000",
-      "created_at": "2026-06-06T18:02:34.136773+00:00"
-    },
-    {
-      "id": "6d84b56c0a28296d",
-      "content_hash": "6d84b56c0a28296dfcd5a7d092d65a0cf8d30fc5a0105dd243438185f6be0814",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46511",
-      "title": "CVE-2026-46511 - HAX CMS helps manage microsite universe with PHP or NodeJs backends. Prior to ve...",
-      "body": "HAX CMS helps manage microsite universe with PHP or NodeJs backends. Prior to version 26.0.0, an attack chain utilizing Stored XSS alongside dynamic token exposure in the `/system/api/connectionSettings` endpoint allows an authenticated attacker to perform a complete cross-tenant account takeover. The API dynamically leaks the active session's authentication tokens (including the `jwt`, `user_token`, `site_token`, and `appstore_token`) into a global JavaScript variable (`window.appSettings`). An attacker can exploit the XSS vulnerability to force a victim's browser to silently fetch their specific connection settings, extract the tokens, and exfiltrate them to an attacker-controlled webhook. Version 26.0.0 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46511",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-05T19:16:34.267000",
-      "created_at": "2026-06-06T16:57:35.921110+00:00"
-    },
-    {
-      "id": "5e4b0ba56f8df395",
-      "content_hash": "5e4b0ba56f8df3954c1ae31830ddb44cb249c69164679ae5d608230708dd4586",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46496",
-      "title": "CVE-2026-46496 - HAX CMS helps manage microsite universe with PHP or NodeJs backends. A stored cr...",
-      "body": "HAX CMS helps manage microsite universe with PHP or NodeJs backends. A stored cross-site scripting (XSS) vulnerability exists in versions prior to 26.0.0 due to improper sanitization of the `<video-player>` component. The component allows `javascript:` URIs in the `source` attribute, which are executed when the page is viewed. This enables attackers to execute arbitrary JavaScript in the context of the victim’s browser and access sensitive data such as JWT tokens and more. Version 26.0.0 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46496",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-05T19:16:34.113000",
-      "created_at": "2026-06-06T16:57:35.921103+00:00"
-    },
-    {
-      "id": "5ae8e2436b4d1a1b",
-      "content_hash": "5ae8e2436b4d1a1b750d6855db6d4f79428805ea328113270ead4b4142d0d9bb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46399",
-      "title": "CVE-2026-46399 - HAX CMS helps manage microsite universe with PHP or NodeJs backends. The PHP ver...",
-      "body": "HAX CMS helps manage microsite universe with PHP or NodeJs backends. The PHP version of HAX CMS prior to version 26.0.0 has an authenticated file overwrite vulnerability. An attacker can exploit this vulnerability to configure malicious Git filter commands and achieve code execution on the HAX CMS server. Version 26.0.0 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46399",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-05T19:16:33.960000",
-      "created_at": "2026-06-06T16:57:35.921097+00:00"
-    },
-    {
-      "id": "500966fc606c5018",
-      "content_hash": "500966fc606c50181f2b0eb4bc34d1117a009eb0a16f451925353bf1f3b05a18",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46396",
-      "title": "CVE-2026-46396 - HAX CMS helps manage microsite universe with PHP or NodeJs backends. A stored cr...",
-      "body": "HAX CMS helps manage microsite universe with PHP or NodeJs backends. A stored cross-site scripting (XSS) vulnerability exists in versions prior to 26.0.0 due to improper sanitization of `<iframe>` elements. The application allows `javascript:` URIs in the `src` attribute, which are executed when a malicious page is viewed. This enables attackers to execute arbitrary JavaScript in the context of the victim’s browser and access sensitive data exposed to client-side scripts. Version 26.0.0 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46396",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-05T19:16:33.750000",
-      "created_at": "2026-06-06T16:57:35.921091+00:00"
-    },
-    {
-      "id": "d6fd2a322724e9ed",
-      "content_hash": "d6fd2a322724e9edd446510d7b650b03d247aed48725ac9b45ffb8767e2dec0a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46395",
-      "title": "CVE-2026-46395 - HAX CMS helps manage microsite universe with PHP or NodeJs backends. Prior to ve...",
-      "body": "HAX CMS helps manage microsite universe with PHP or NodeJs backends. Prior to version 26.0.0, the `hmacBase64()` function in the HAXcms Node.js backend contains two critical cryptographic implementation errors that together allow any unauthenticated attacker to extract the system’s private signing key and forge arbitrary admin-level JSON Web Tokens (JWTs) allowing them to get full admin access with a single HTTP request. First, the function passes the literal string \"0\" as the HMAC signing key instead of the key parameter, making every HAXcms instance compute identical HMACs for the same input. Then, after computing the HMAC, the function concatenates the real key parameter which is \"this.privateKey + this.salt\", the system’s master signing secret is directly onto the output. The combined buffer is base64-encoded and returned as the token. Every base64url token produced has the same structure: 32 bytes HMAC keyed with \"0\" and N bytes of `privateKey+salt`. An attacker base64-decodes any token, discards the first 32 bytes, and reads the private key directly. The `/system/api/connectionSettings` endpoint is unauthenticated and returns multiple tokens generated by this function. A single GET request to this endpoint exposes the private key. The PHP backend implements this function correctly with the actual key and returns only the hash. The PHP version produces 44-character tokens whereas the broken Node.js version produces 139+ character tokens. Version 26.0.0 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46395",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-05T19:16:33.593000",
-      "created_at": "2026-06-06T16:57:35.921082+00:00"
     }
   ]
 }
