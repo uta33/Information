@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-14T10:43:11.628333+00:00",
+  "generated_at": "2026-06-14T12:56:24.091583+00:00",
   "items": [
+    {
+      "id": "563826fde76e4bf3",
+      "content_hash": "563826fde76e4bf38590b694a5e38425b7a74203935fd53c9d432baaca0d09ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+      "title": "The Birth and Death of JavaScript (2014)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48526661\">Comments</a>",
+      "url": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T12:38:31+00:00",
+      "created_at": "2026-06-14T12:56:24.090800+00:00"
+    },
+    {
+      "id": "dc91efaa8f4e8745",
+      "content_hash": "dc91efaa8f4e8745d0567f04f40ba654ae6bcb7ec4f67e3272721a2d9e5abbcb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11527",
+      "title": "CVE-2026-11527 - Config::IniFiles versions before 3.001000 for Perl allow OS command injection an...",
+      "body": "Config::IniFiles versions before 3.001000 for Perl allow OS command injection and file overwrite via a 2-arg open() of the -file argument in _make_filehandle.\n\nConfig::IniFiles::_make_filehandle opens a filename argument with Perl's 2-arg open(), so a filename that begins or ends with a pipe (\"| cmd\", \"cmd |\") or begins with a redirect (\"> path\", \">> path\") is run as a command or redirect rather than opened as a file. The helper is the open path behind the documented -file argument: new(-file => $thing) reaches it through ReadConfig. An in-memory scalar reference (-file => \\$text) does not open a path and is unaffected.\n\nAny caller that forwards untrusted input to the -file argument can run an arbitrary command or truncate a file under the process UID.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11527",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T12:16:23.357000",
+      "created_at": "2026-06-14T12:56:19.135567+00:00"
+    },
+    {
+      "id": "2989300f249cfefb",
+      "content_hash": "2989300f249cfefb00a2c103f872e8a866d3ca7fc5aade78c07724f92d635363",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-11526",
+      "title": "CVE-2026-11526 - GD versions before 2.86 for Perl allow OS command injection and file overwrite v...",
+      "body": "GD versions before 2.86 for Perl allow OS command injection and file overwrite via a 2-arg open() of filename arguments in _make_filehandle.\n\nGD::Image::_make_filehandle opens a filename argument with Perl's 2-arg open(), so a filename that begins or ends with a pipe (\"| cmd\", \"cmd |\") or begins with a redirect (\"> path\", \">> path\") is run as a command or redirect rather than opened as a file. _make_filehandle is the single open path behind every filename-accepting constructor (new, newFromPng, newFromJpeg, and the rest); the in-memory *Data variants do not open a path and are unaffected.\n\nAny caller that forwards untrusted input to one of these constructors as a pathname can run an arbitrary command or truncate a file under the process UID.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11526",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T12:16:22.403000",
+      "created_at": "2026-06-14T12:56:19.135560+00:00"
+    },
     {
       "id": "84d914b57a7deced",
       "content_hash": "84d914b57a7deced378ce2fca650c77797c97fbe6a880e4953efa629486c8af7",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-12T05:52:00+00:00",
       "created_at": "2026-06-12T11:33:00.786352+00:00"
-    },
-    {
-      "id": "1dbf296579c00aec",
-      "content_hash": "1dbf296579c00aec4b7a9ea1da926e14d5449adb0bbd7e0ea8417f15093b36b1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019579.html",
-      "title": "マイクロソフトのMicrosoft Windows 10 21h2等の複数製品におけるバッファサイズの計算の誤りに関する脆弱性",
-      "body": "WindowsのTCP/IPにおけるバッファサイズの誤った計算により、認証された攻撃者が隣接するネットワーク上でサービス拒否攻撃を引き起こす可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019579.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:52:00+00:00",
-      "created_at": "2026-06-12T11:33:00.786365+00:00"
-    },
-    {
-      "id": "52625830d3f42a31",
-      "content_hash": "52625830d3f42a314362b55e726e7147d4b8691205e8dada94d3f8ff1aeaa7ad",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019578.html",
-      "title": "マイクロソフトのMicrosoft Windows 10 1607等の複数製品における整数オーバーフローの脆弱性",
-      "body": "Windows NT OSカーネルにおける整数アンダーフロー（ラップまたはラップアラウンド）が原因で、認可された攻撃者がローカルで権限を昇格させることが可能になります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019578.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:52:00+00:00",
-      "created_at": "2026-06-12T11:33:00.786378+00:00"
-    },
-    {
-      "id": "b0bc70fe424c03cf",
-      "content_hash": "b0bc70fe424c03cf84c8b5ca3df50bfa1d49646179058128b1f8757f8d22e98c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019577.html",
-      "title": "マイクロソフトのMicrosoft Windows 10 1607等の複数製品における境界外読み取りに関する脆弱性",
-      "body": "Windows Telephony Serviceにおける範囲外読み取りの脆弱性により、権限を持つ攻撃者がローカルで情報を開示する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019577.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:52:00+00:00",
-      "created_at": "2026-06-12T11:33:00.786392+00:00"
     }
   ]
 }
