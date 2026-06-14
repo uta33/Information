@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-14T20:58:18.781984+00:00",
+  "generated_at": "2026-06-14T22:06:16.411761+00:00",
   "items": [
+    {
+      "id": "716086519649debf",
+      "content_hash": "716086519649debf2c58dab683b99ec65f303fdc832431cbc7c07f58be5f4247",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3132756",
+      "title": "Startup CEO Charlie Javice is reportedly angling for a Trump pardon",
+      "body": "JPMorgan can't be pleased by any of this.",
+      "url": "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T21:55:34+00:00",
+      "created_at": "2026-06-14T22:06:16.045876+00:00"
+    },
+    {
+      "id": "17e0fb6948875c47",
+      "content_hash": "17e0fb6948875c4700e99f9be37f3eba2a217dbdc93958c9a1536c0f6fa74861",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-12186",
+      "title": "CVE-2026-12186 - A weakness has been identified in GL.iNet GL-MT3000 up to 4.4.5. Affected is the...",
+      "body": "A weakness has been identified in GL.iNet GL-MT3000 up to 4.4.5. Affected is the function replace_country in the library /usr/lib/oui-httpd/rpc/tor of the component Tor Proxy Service Configuration Handler. This manipulation causes command injection. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 4.7 is able to address this issue. It is recommended to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12186",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-06-14T21:16:18.483000",
+      "created_at": "2026-06-14T22:06:11.390740+00:00"
+    },
+    {
+      "id": "1232e93fece4ee72",
+      "content_hash": "1232e93fece4ee726fd4116b4046249c08417980dda7bd5aec56ce9ace269210",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.wikipedia.org/wiki/Abu_Fanous",
+      "title": "Abu Fanous",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48532722\">Comments</a>",
+      "url": "https://en.wikipedia.org/wiki/Abu_Fanous",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T21:06:41+00:00",
+      "created_at": "2026-06-14T22:06:16.411380+00:00"
+    },
+    {
+      "id": "7d1748f29f84c71e",
+      "content_hash": "7d1748f29f84c71e6fa009a54f428fff8e0e9c53623a79fc57e514780707db2d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zinnia-os.org/",
+      "title": "Zinnia: A modular 64-bit Unix-like kernel written in Rust",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48532705\">Comments</a>",
+      "url": "https://zinnia-os.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T21:04:46+00:00",
+      "created_at": "2026-06-14T22:06:16.411025+00:00"
+    },
     {
       "id": "397d12a1ce638755",
       "content_hash": "397d12a1ce6387550b09a182256d775dd7d039dbc734c25f774d9cc885be30d9",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-06-14T20:17:00+00:00",
       "created_at": "2026-06-14T20:58:18.553759+00:00"
+    },
+    {
+      "id": "034f0b155694c29f",
+      "content_hash": "034f0b155694c29faceed38996d004694d83acef0a8229ee2ec9e26726d83e82",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://yusufaytas.com/vibe-coder-vs-software-engineer",
+      "title": "Vibe Coder vs. Software Engineer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48532116\">Comments</a>",
+      "url": "https://yusufaytas.com/vibe-coder-vs-software-engineer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T20:12:42+00:00",
+      "created_at": "2026-06-14T22:06:16.411462+00:00"
     },
     {
       "id": "b82116f5282e14a0",
@@ -6834,6 +6904,20 @@
       "created_at": "2026-06-12T11:32:56.665191+00:00"
     },
     {
+      "id": "2fd7b31bc4d52d5d",
+      "content_hash": "2fd7b31bc4d52d5ddd8a13536c10b36ac8799813cbe7c77e34435c35f23036a9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://luckyrobots.com/",
+      "title": "The first game engine for robotics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48502053\">Comments</a>",
+      "url": "https://luckyrobots.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-12T10:02:21+00:00",
+      "created_at": "2026-06-14T22:06:16.411330+00:00"
+    },
+    {
       "id": "c3c9dd32290f3186",
       "content_hash": "c3c9dd32290f3186bad50e0f7eb3ccc5b83d3df30bbd2d422dcc3a7fb467efdf",
       "source_name": "OpenAI News",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-12T08:26:55+00:00",
       "created_at": "2026-06-12T11:32:56.665224+00:00"
-    },
-    {
-      "id": "9b795b0c931c8be1",
-      "content_hash": "9b795b0c931c8be1d683255e478ca6e87f905fbb3118bf68d6b56aa27ceac6e9",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://sseh.uchicago.edu/doc/roauss.htm",
-      "title": "Report on an Unidentified Space Station",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48501012\">Comments</a>",
-      "url": "https://sseh.uchicago.edu/doc/roauss.htm",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T07:35:46+00:00",
-      "created_at": "2026-06-12T11:33:01.283238+00:00"
-    },
-    {
-      "id": "a571bb9e685321a5",
-      "content_hash": "a571bb9e685321a5e6f91d736c65c44da8f19afb66af7cb9bfdd8a10dd1c1c30",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9271",
-      "title": "CVE-2026-9271 - Vulnerability Title",
-      "body": "Vulnerability Title",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9271",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-06-12T07:16:21.360000",
-      "created_at": "2026-06-13T02:08:40.846643+00:00"
-    },
-    {
-      "id": "b3bf1aab2796c9ba",
-      "content_hash": "b3bf1aab2796c9bafa6824cbda00cbcc03c1b791c9484475a1cb7a62aa24d043",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9269",
-      "title": "CVE-2026-9269 - The Secure Copy Content Protection and Content Locking WordPress plugin before 5...",
-      "body": "The Secure Copy Content Protection and Content Locking WordPress plugin before 5.1.5 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9269",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.5,
-      "published_at": "2026-06-12T07:16:21.237000",
-      "created_at": "2026-06-13T02:08:40.846638+00:00"
-    },
-    {
-      "id": "3e77c11a6ff5a389",
-      "content_hash": "3e77c11a6ff5a389f902adc009a7ed549a4194cf8bd2a57b0d907dad08d4abfa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12060",
-      "title": "CVE-2026-12060 - Heptabase developed by Hepta Platforms has a Exposed Dangerous Method or Functio...",
-      "body": "Heptabase developed by Hepta Platforms has a Exposed Dangerous Method or Function vulnerability, allowing unauthenticated remote attackers to leverage social engineering techniques to trick a victim into opening or loading a malicious webpage within the Heptabase application, thereby gaining unauthorized access to camera and microphone permissions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12060",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-12T07:16:21.090000",
-      "created_at": "2026-06-13T02:08:40.846633+00:00"
-    },
-    {
-      "id": "4e7267c2b1b91754",
-      "content_hash": "4e7267c2b1b91754b9abf82e31e627e91126d434e4c24c317ec0ee0c9d7b95ef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12059",
-      "title": "CVE-2026-12059 - The SSH service of CelloOS developed by Cellopoint has an Improper Access Contro...",
-      "body": "The SSH service of CelloOS developed by Cellopoint has an Improper Access Control vulnerability, allowing authenticated remote attackers to bypass the enforced command restrictions and execute operating system commands outside the originally authorized scope.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12059",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-06-12T07:16:19.780000",
-      "created_at": "2026-06-13T02:08:40.846628+00:00"
-    },
-    {
-      "id": "8b58b917a8f45285",
-      "content_hash": "8b58b917a8f45285440d9010f8dc78856deca87c55687fba3a79b13fd031427b",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "title": "Tchap data breach affects over 73,000 French govt employees",
-      "body": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-06-12T07:09:11+00:00",
-      "created_at": "2026-06-12T07:10:31.068494+00:00"
     }
   ]
 }
