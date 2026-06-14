@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-14T19:06:27.490272+00:00",
+  "generated_at": "2026-06-14T20:58:18.781984+00:00",
   "items": [
+    {
+      "id": "397d12a1ce638755",
+      "content_hash": "397d12a1ce6387550b09a182256d775dd7d039dbc734c25f774d9cc885be30d9",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3132750",
+      "title": "UK may ban social media for children under 16",
+      "body": "The U.K. seems to be following Australia's lead in banning a wide swath of social media for teens.",
+      "url": "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T20:17:00+00:00",
+      "created_at": "2026-06-14T20:58:18.553759+00:00"
+    },
+    {
+      "id": "b82116f5282e14a0",
+      "content_hash": "b82116f5282e14a0db68f06602c0a2a74204eed68d196df32672783c85f6ce7a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "title": "Chaosnet (1981)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48531449\">Comments</a>",
+      "url": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T19:14:21+00:00",
+      "created_at": "2026-06-14T20:58:18.781227+00:00"
+    },
+    {
+      "id": "df02844fe61165fa",
+      "content_hash": "df02844fe61165fa0ff05c440628faa99a380526ef3318e575dfd011858f8321",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/joske/yserver",
+      "title": "Yserver: A modern X11 server written in Rust",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48531394\">Comments</a>",
+      "url": "https://github.com/joske/yserver",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T19:10:35+00:00",
+      "created_at": "2026-06-14T20:58:18.781291+00:00"
+    },
     {
       "id": "fa2435608cb9a76c",
       "content_hash": "fa2435608cb9a76c6f29f1ebba71e642bde1c1cf7fcf901ab0f2977cd8b43879",
@@ -70,6 +112,20 @@
       "cvss_score": 8.6,
       "published_at": "2026-06-14T18:17:20.330000",
       "created_at": "2026-06-14T19:06:23.039780+00:00"
+    },
+    {
+      "id": "eee45ed58e0f33f2",
+      "content_hash": "eee45ed58e0f33f25e84e840b0732891f92eca0e63d80609d5270b4bf125a2a0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.orangecrumbs.com/",
+      "title": "Show HN: Discover Wikipedia articles popular on Hacker News",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48530382\">Comments</a>",
+      "url": "https://www.orangecrumbs.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T17:54:17+00:00",
+      "created_at": "2026-06-14T20:58:18.781782+00:00"
     },
     {
       "id": "8789f0a65b2aa509",
@@ -226,6 +282,20 @@
       "created_at": "2026-06-14T17:06:50.910891+00:00"
     },
     {
+      "id": "7e8616bc1dbfcd71",
+      "content_hash": "7e8616bc1dbfcd71400cc662a4cd672782a5e4d4be4d62e8ff93288d216642cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cs.yale.edu/homes/perlis-alan/quotes.html",
+      "title": "Perlisisms (1982)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48527820\">Comments</a>",
+      "url": "https://www.cs.yale.edu/homes/perlis-alan/quotes.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T14:56:56+00:00",
+      "created_at": "2026-06-14T20:58:18.781441+00:00"
+    },
+    {
       "id": "faa1b1ab6b4d601b",
       "content_hash": "faa1b1ab6b4d601b4083cb831ba1c12dcc66e7a93b86bfcd04f1d48f9c68d878",
       "source_name": "Hacker News (Best)",
@@ -280,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-06-14T14:44:29+00:00",
       "created_at": "2026-06-14T17:06:50.910855+00:00"
+    },
+    {
+      "id": "c4b7b2f5054edadc",
+      "content_hash": "c4b7b2f5054edadc9ebd9e6a19efb2fae1acc5eb255e1cc4740305e89ab10173",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "title": "Not everyone is using AI for everything",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48527700\">Comments</a>",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T14:44:29+00:00",
+      "created_at": "2026-06-14T20:58:18.781602+00:00"
     },
     {
       "id": "7ddfc608df15ec7f",
@@ -492,6 +576,20 @@
       "created_at": "2026-06-14T15:04:47.214978+00:00"
     },
     {
+      "id": "dac06b6fba6f67e2",
+      "content_hash": "dac06b6fba6f67e294567cc47bca8306f09ee5914f60b0c703cdd04853c39da2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
+      "title": "Formal methods and the future of programming",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48526633\">Comments</a>",
+      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T12:35:27+00:00",
+      "created_at": "2026-06-14T20:58:18.781470+00:00"
+    },
+    {
       "id": "dc91efaa8f4e8745",
       "content_hash": "dc91efaa8f4e8745d0567f04f40ba654ae6bcb7ec4f67e3272721a2d9e5abbcb",
       "source_name": "CVE (NVD)",
@@ -532,6 +630,20 @@
       "cvss_score": null,
       "published_at": "2026-06-14T11:50:48+00:00",
       "created_at": "2026-06-14T15:04:47.215039+00:00"
+    },
+    {
+      "id": "5285c9ed5af9beb5",
+      "content_hash": "5285c9ed5af9beb560ee62f6eadb2231b56713661a55fa4bc72a4a3247d14fb3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://paulgraham.com/earn.html",
+      "title": "How to earn a billion dollars",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48526360\">Comments</a>",
+      "url": "https://paulgraham.com/earn.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T11:50:48+00:00",
+      "created_at": "2026-06-14T20:58:18.781687+00:00"
     },
     {
       "id": "84d914b57a7deced",
@@ -966,6 +1078,20 @@
       "cvss_score": null,
       "published_at": "2026-06-13T20:42:31+00:00",
       "created_at": "2026-06-13T21:00:30.314247+00:00"
+    },
+    {
+      "id": "39ff31e5cf573e81",
+      "content_hash": "39ff31e5cf573e815241bc6280ed171e956e006d946ec5f47d3382f7c33004f5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://traceapp.info",
+      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48521236\">Comments</a>",
+      "url": "https://traceapp.info",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-13T20:41:58+00:00",
+      "created_at": "2026-06-14T20:58:18.781355+00:00"
     },
     {
       "id": "c256fffa15f85acf",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-12T07:09:11+00:00",
       "created_at": "2026-06-12T07:10:31.068494+00:00"
-    },
-    {
-      "id": "70a99b8236267397",
-      "content_hash": "70a99b8236267397ab53eda2b7666faf987be3a2584aa10bd3d78dc5df98778c",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
-      "body": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-06-12T07:09:11+00:00",
-      "created_at": "2026-06-12T11:32:56.665250+00:00"
-    },
-    {
-      "id": "f33598fb07d2259a",
-      "content_hash": "f33598fb07d2259aa7185930bfa52d868e15eec5a39b0765a5b8d3729f7214f8",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-      "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
-      "body": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks.\n\nEuropol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is estimated to have been used to launder more than €336 million (~$389 million) since the",
-      "url": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T06:38:41+00:00",
-      "created_at": "2026-06-12T11:32:56.507932+00:00"
-    },
-    {
-      "id": "1095f1c87871f3ac",
-      "content_hash": "1095f1c87871f3ac3a39f3890973ce05f91f1a281aa076521d86c85ec161e18d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
-      "title": "AUR Packages Compromised with Infostealer and Rootkit",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48500447\">Comments</a>",
-      "url": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:59:39+00:00",
-      "created_at": "2026-06-12T11:33:01.283255+00:00"
-    },
-    {
-      "id": "464e2a8bbc7d171b",
-      "content_hash": "464e2a8bbc7d171b320f2a1c83b4a42cd86900a23ba676ee26756b59fdf03082",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
-      "title": "AUR packages compromised with Infostealer and Rootkit",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48500447\">Comments</a>",
-      "url": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:59:39+00:00",
-      "created_at": "2026-06-12T17:29:49.361046+00:00"
-    },
-    {
-      "id": "b52f46234a725a6c",
-      "content_hash": "b52f46234a725a6cb1ed321cf89e55213e7b531f846db49e9c4899e27cabbf07",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019620.html",
-      "title": "Apache Software Foundationのanswerにおける複数の脆弱性",
-      "body": "Apache AnswerにおけるWebページ内のスクリプト関連HTMLタグの不適切な無害化（基本的なXSSの脆弱性）に関する問題です。この問題はApache Answerのバージョン2.0.0までに影響します。ユーザーが提供したコンテンツが適切にエスケープされずに通知メールに含まれていたため、認証済みユーザーは他のユーザーに送信されるメールに任意のHTMLを注入可能でした。ユーザーはこの問題を修正したバージョン2.0.1へアップグレードすることが推奨されます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019620.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:54:00+00:00",
-      "created_at": "2026-06-12T11:33:00.785756+00:00"
-    },
-    {
-      "id": "831a07bc346e834c",
-      "content_hash": "831a07bc346e834c294e2178d480c6438a68652fd8506871e7f807fb35a98f43",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019619.html",
-      "title": "アドビのAdobe Experience Managerにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Adobe Experience Manager Forms JEEバージョンLTS SP1、6.5.24.0およびそれ以前のバージョンには、保存型クロスサイトスクリプティング（XSS）脆弱性があります。この脆弱性は攻撃者によって悪用され、脆弱なフォームフィールドに悪意のあるスクリプトを注入される可能性があります。被害者が脆弱なフィールドを含むページを閲覧すると、悪意のあるJavaScriptが実行され、その結果、被害者のアカウントやセッションに対して権限昇格や制御を攻撃者が得る可能性があります。スコープが変更されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019619.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:54:00+00:00",
-      "created_at": "2026-06-12T11:33:00.785787+00:00"
-    },
-    {
-      "id": "8cc01c99b3100969",
-      "content_hash": "8cc01c99b3100969dbfbb283f5108d4f4660d19e9a3853703ae94331951953d4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019618.html",
-      "title": "アドビのAdobe Experience Managerにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Adobe Experience Manager バージョン 6.5.24、LTS SP1、2026.04 およびそれ以前のバージョンは、DOM ベースのクロスサイトスクリプティング（XSS）脆弱性の影響を受けます。攻撃者は、この問題を悪用して被害者のブラウザのコンテキスト内で悪意のあるJavaScriptを実行するためにDOM環境を操作することが可能です。この問題を悪用するには、被害者が細工されたウェブページを訪問する必要があります。影響範囲が変更されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019618.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:54:00+00:00",
-      "created_at": "2026-06-12T11:33:00.785804+00:00"
-    },
-    {
-      "id": "d7a72c98c24127b1",
-      "content_hash": "d7a72c98c24127b1bb1ebf1bc1a443488f689d94460d60e3f84a56f96bf5b0e0",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019617.html",
-      "title": "アドビのAdobe Experience Managerにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Adobe Experience Manager Forms JEEのLTS SP1、6.5.24.0およびそれ以前のバージョンには、反射型クロスサイトスクリプティング（XSS）の脆弱性があります。攻撃者はこの脆弱性を悪用して悪意のあるスクリプトをウェブページに注入し、被害者のアカウントやセッションに対して権限昇格や制御を取得する可能性があります。攻撃の成功は攻撃者の制御外の条件に依存します。この問題を悪用するためには、被害者が悪意のあるURLを訪問するか、改ざんされたウェブページとやり取りする必要があり、ユーザーの操作が求められます。スコープが変更されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019617.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:54:00+00:00",
-      "created_at": "2026-06-12T11:33:00.785820+00:00"
-    },
-    {
-      "id": "24d374c668a35ee6",
-      "content_hash": "24d374c668a35ee620c0fc980a20508dae62c4e8c83c797b86b480add4935729",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019616.html",
-      "title": "アドビのAdobe Experience Managerにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Adobe Experience Manager Forms JEEのLTS SP1、バージョン6.5.24.0およびそれ以前のバージョンには、格納型クロスサイトスクリプティング（XSS）脆弱性があります。この脆弱性は、高権限の攻撃者が悪意のあるスクリプトを脆弱なフォームフィールドに注入するために悪用する可能性があります。被害者のブラウザは、脆弱なフィールドを含むページを閲覧した際に悪意のあるJavaScriptを実行することがあります。影響範囲が変更されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019616.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:54:00+00:00",
-      "created_at": "2026-06-12T11:33:00.785835+00:00"
     }
   ]
 }
