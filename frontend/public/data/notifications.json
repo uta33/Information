@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-14T07:14:34.564123+00:00",
+  "generated_at": "2026-06-14T10:43:11.628333+00:00",
   "items": [
+    {
+      "id": "84d914b57a7deced",
+      "content_hash": "84d914b57a7deced378ce2fca650c77797c97fbe6a880e4953efa629486c8af7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-15546",
+      "title": "CVE-2025-15546 - The Iptanus File Upload WordPress plugin before 5.1.7 does not implement proper ...",
+      "body": "The Iptanus File Upload WordPress plugin before 5.1.7 does not implement proper file handling when the duplicatepolicy setting is configured to \"maintain both.\" Due to a Time-of-Check to Time-of-Use (TOCTOU) race condition between the file existence check and the actual file write operation, an authenticated attacker can overwrite files uploaded by other users.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15546",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T08:16:17.040000",
+      "created_at": "2026-06-14T10:43:07.272575+00:00"
+    },
     {
       "id": "57a07fdd26f7eeee",
       "content_hash": "57a07fdd26f7eeee482e553a5100834ce2438d6b64db2525454f98ab629b1467",
@@ -56,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-06-14T04:53:51+00:00",
       "created_at": "2026-06-14T07:14:34.563292+00:00"
+    },
+    {
+      "id": "ae3932d9b727b796",
+      "content_hash": "ae3932d9b727b7964d6e5f228c751021abbc29473b84c75cbcc19104b1540ba7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
+      "title": "Phoenix LiveView 1.2",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48524293\">Comments</a>",
+      "url": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-14T04:53:51+00:00",
+      "created_at": "2026-06-14T10:43:11.627861+00:00"
     },
     {
       "id": "4e211504665d5aba",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-12T05:52:00+00:00",
       "created_at": "2026-06-12T11:33:00.786392+00:00"
-    },
-    {
-      "id": "48627c3764ded150",
-      "content_hash": "48627c3764ded150b5fedbedd3cf22a899cc9bc4be5d4273f013a977f0244bbc",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019576.html",
-      "title": "マイクロソフトのMicrosoft Windows 10 1607等の複数製品における初期化されていないリソースの使用に関する脆弱性",
-      "body": "Windowsプッシュ通知において、初期化されていないリソースが使用されるため、認可された攻撃者がローカルで情報を開示できる脆弱性です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019576.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:52:00+00:00",
-      "created_at": "2026-06-12T11:33:00.786407+00:00"
-    },
-    {
-      "id": "2d56b3864a85b288",
-      "content_hash": "2d56b3864a85b288b7be45bda03a424d61771892ebf130c9bc682f38568a736e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019575.html",
-      "title": "マイクロソフトのMicrosoft Windows 10 1607等の複数製品における情報漏えいに関する脆弱性",
-      "body": "Windowsプッシュ通知における初期化されていないリソースの使用により、認可された攻撃者がローカルで情報を開示できるようになる。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-019575.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-12T05:52:00+00:00",
-      "created_at": "2026-06-12T11:33:00.786420+00:00"
     }
   ]
 }
