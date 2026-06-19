@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-18T22:50:24.785519+00:00",
+  "generated_at": "2026-06-19T00:19:30.195369+00:00",
   "items": [
+    {
+      "id": "f9f3119cf0d01396",
+      "content_hash": "f9f3119cf0d0139663c4e11207cf738c907ba8e5bb4e9c0517bc9ccd9e022437",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nsf.gov/news/update-ocean-observatories-initiative",
+      "title": "Update on Ocean Observatories Initiative",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48593093\">Comments</a>",
+      "url": "https://www.nsf.gov/news/update-ocean-observatories-initiative",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-18T23:41:48+00:00",
+      "created_at": "2026-06-19T00:19:30.194703+00:00"
+    },
+    {
+      "id": "1737c1d23ae6674e",
+      "content_hash": "1737c1d23ae6674ea31acb7bd7496726775bad6203186fc1af51e0ae7b65b6a3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "title": "The AirPods Effect",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48592832\">Comments</a>",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-18T23:08:35+00:00",
+      "created_at": "2026-06-19T00:19:30.194662+00:00"
+    },
     {
       "id": "a7857ba908eb420a",
       "content_hash": "a7857ba908eb420a8430a0bd59e01f5db0a7ab0455ede24810e6fa87b2f12746",
@@ -168,6 +196,20 @@
       "cvss_score": null,
       "published_at": "2026-06-18T18:51:46+00:00",
       "created_at": "2026-06-18T20:08:44.248995+00:00"
+    },
+    {
+      "id": "73a2735b0a170489",
+      "content_hash": "73a2735b0a170489f4db1a471f360f0b03a87426da546884dbcc4849cea81413",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3134243",
+      "title": "Almost half of US singles feel negatively about AI in dating, Match says",
+      "body": "About 47% of singles look negatively at the use of AI in dating -- but many dating app users are open to AI helping with profile punch-ups and conversation starters.",
+      "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-18T18:51:46+00:00",
+      "created_at": "2026-06-19T00:19:29.790711+00:00"
     },
     {
       "id": "9a8a90ba38a149a8",
@@ -6958,48 +7000,6 @@
       "cvss_score": 6.4,
       "published_at": "2026-06-16T08:16:23.727000",
       "created_at": "2026-06-16T22:46:40.858519+00:00"
-    },
-    {
-      "id": "81287c0f2794724f",
-      "content_hash": "81287c0f2794724f276722750d210df49fc90b1bc87fd701fe4086a754543fdf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-9912",
-      "title": "CVE-2025-9912 - Nokia SR Linux is vulnerable to a local privilege escalation vulnerability. Succ...",
-      "body": "Nokia SR Linux is vulnerable to a local privilege escalation vulnerability. Successful exploitation of this vulnerability may allow an authenticated user to execute arbitrary commands with superuser privilege.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9912",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-06-16T08:16:23.627000",
-      "created_at": "2026-06-16T22:46:40.858511+00:00"
-    },
-    {
-      "id": "49f1090c71d972de",
-      "content_hash": "49f1090c71d972debb31a9e5544cd529d143e4ab2cd6bf85dcc62806f2185dd8",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-      "body": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT.\n\n\"The attack email contained a message impersonating an MS account security alert,\" the Genians Security Center (GSC) said. \"It was designed to create concern over possible",
-      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-16T08:14:55+00:00",
-      "created_at": "2026-06-16T12:01:28.107182+00:00"
-    },
-    {
-      "id": "e68de11c52b3ba48",
-      "content_hash": "e68de11c52b3ba48adcae53eed209dfb4116d6d1284657800bb0ca8f6313a062",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415",
-      "title": "Understanding the rationale behind a rule when trying to circumvent it",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48551876\">Comments</a>",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-16T07:35:27+00:00",
-      "created_at": "2026-06-16T12:01:37.327883+00:00"
     }
   ]
 }
