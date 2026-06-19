@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-19T20:59:49.882220+00:00",
+  "generated_at": "2026-06-19T22:04:41.524208+00:00",
   "items": [
+    {
+      "id": "20a399250a1d396d",
+      "content_hash": "20a399250a1d396dd4a25a88bb63aa1b5b9478cc2d5c199277b8d22dd7022a40",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.wikipedia.org/wiki/Zenzizenzizenzic",
+      "title": "Zenzizenzizenzic",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48603664\">Comments</a>",
+      "url": "https://en.wikipedia.org/wiki/Zenzizenzizenzic",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T21:49:44+00:00",
+      "created_at": "2026-06-19T22:04:41.523946+00:00"
+    },
+    {
+      "id": "eae2bc0f9690b2b4",
+      "content_hash": "eae2bc0f9690b2b4361eabca277228000f59ea420868b49856c2a595f2730dec",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3133212",
+      "title": "Go eyes robotaxis and acquisitions after Japan’s biggest IPO of 2026. Here’s why it matters",
+      "body": "Go&#8217;s IPO — Japan&#8217;s biggest so far this year — has done more than provide a much-needed boost to the country&#8217;s languishing listing season. It has also supplied the taxi-hailing app with the capital required to address an existential issue: Japan&#8217;s shortage of drivers. Go, which went public Tuesday, plans to use the ¥88.6 billion [&#8230;]",
+      "url": "https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T21:45:00+00:00",
+      "created_at": "2026-06-19T22:04:41.223438+00:00"
+    },
+    {
+      "id": "f841a9cae887bb2d",
+      "content_hash": "f841a9cae887bb2ddc560ed18ba18e8aa149086c28b7e270180e8f5076bf4844",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3134402",
+      "title": "Aura’s impressive e-ink photo frame doesn’t even look digital",
+      "body": "What&#8217;s the most cliche possible gift you can give a relative? A digital photo frame, displaying a rotating slideshow of family photos. Now Aura has completely refreshed this product space with its gorgeous Aura Ink frame, which uses e-ink to create a display that doesn&#8217;t even look digital. Digital frames have always been so popular [&#8230;]",
+      "url": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T21:00:34+00:00",
+      "created_at": "2026-06-19T22:04:41.223475+00:00"
+    },
     {
       "id": "549db890ca8456a0",
       "content_hash": "549db890ca8456a034ba73ce95aae6036a96950211e27a82ee7a64a269fe7f45",
@@ -44,6 +86,20 @@
       "created_at": "2026-06-19T20:59:49.881802+00:00"
     },
     {
+      "id": "5ddd2bd3607d3df0",
+      "content_hash": "5ddd2bd3607d3df072093be3b03220c6131765061a48a1132f554b024b42509a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "title": "Companies rein in AI usage as costs strain budgets",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48602571\">Comments</a>",
+      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T19:57:18+00:00",
+      "created_at": "2026-06-19T22:04:41.523792+00:00"
+    },
+    {
       "id": "99922d7cc65743ed",
       "content_hash": "99922d7cc65743edaa2446512a05870626c493e3d00b0f6c4d192e795dbb356c",
       "source_name": "The Hacker News",
@@ -84,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-06-19T18:14:11+00:00",
       "created_at": "2026-06-19T19:23:49.634225+00:00"
+    },
+    {
+      "id": "c2724f843c1d0794",
+      "content_hash": "c2724f843c1d07945c9f4abc438582e979b8808596d3e455fcc6ce7de0a43695",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bigbananacar.com/",
+      "title": "Big Banana Car",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48601420\">Comments</a>",
+      "url": "https://bigbananacar.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T18:14:11+00:00",
+      "created_at": "2026-06-19T22:04:41.523736+00:00"
     },
     {
       "id": "c827e47e8775bcb6",
@@ -238,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-06-19T16:04:42+00:00",
       "created_at": "2026-06-19T20:59:49.881338+00:00"
+    },
+    {
+      "id": "20d03414ea82bb5d",
+      "content_hash": "20d03414ea82bb5dc5e4c18a89d84160634d5f7a13c67b6b270aa06e5bf08182",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "title": "Norway imposes near ban on AI in elementary school",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48600093\">Comments</a>",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T16:03:15+00:00",
+      "created_at": "2026-06-19T22:04:41.523389+00:00"
     },
     {
       "id": "3e06312dc699b4a8",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-17T06:44:00+00:00",
       "created_at": "2026-06-17T10:49:07.477453+00:00"
-    },
-    {
-      "id": "d0bfa907da02ae6d",
-      "content_hash": "d0bfa907da02ae6d377b701fb6f329b3c3064500bd885644cf68deec80109750",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020128.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。gfs2_fill_superのエラーパスにおけるメモリリークが修正されました。ファイルシステムを読み書きモードに切り替える際に失敗した場合のgfs2_fill_super()のエラー処理パスにおいて、2つのメモリリークを修正しました。1つ目のリークはkthreadオブジェクト（thread_struct、task_structなど）に関するものです。init_threads()が成功した後にgfs2_freeze_lock_shared()が失敗すると、生成されたカーネルスレッド（logdおよびquotad）が破棄されません。これはfail_per_nodeラベルがgfs2_destroy_threads()を呼び出さないために発生します。2つ目のリークはクオータビットマップバッファ（8192バイト）です。gfs2_quota_init()が成功した後にgfs2_make_fs_rw()が失敗し、その後の処理が完了する前に割り当てられたクオータビットマップが解放されません。この修正により、スレッドのクリーンアップをfail_per_nodeラベルに移動し、すべてのエラーパスを統一的に処理するようにしました。gfs2_destroy_threads()はNULLポインタをチェックするため、無条件に呼び出しても安全です。クオータのクリーンアップは、クオータ初期化が成功したがファイルシステムが撤回された場合を適切に処理するために、gfs2_make_fs_rw()に追加しました。スレッドリークのバックトレース（gfs2_freeze_lock_shared失敗時）は次の通りです。未参照オブジェクト0xffff88801d7bca80（サイズ4480）：copy_process+0x3a1/0x4670 kernel/fork.c:2422、kernel_clone+0xf3/0x6e0 kernel/fork.c:2779、kthread_create_on_node+0x100/0x150 kernel/kthread.c:478、init_threads+0xab/0x350 fs/gfs2/ops_fstype.c:611、gfs2_fill_super+0xe5c/0x1240 fs/gfs2/ops_fstype.c:1265。クオータリークのバックトレース（gfs2_make_fs_rw失敗時）は次の通りです。未参照オブジェクト0xffff88812de7c000（サイズ8192）：gfs2_quota_init+0xe5/0x820 fs/gfs2/quota.c:1409、gfs2_make_fs_rw+0x7a/0xe0 fs/gfs2/super.c:149、gfs2_fill_super+0xfbb/0x1240 fs/gfs2/ops_fstype.c:1275。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020128.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477467+00:00"
-    },
-    {
-      "id": "62c42d367adfc1ef",
-      "content_hash": "62c42d367adfc1ef8a9c672a424a9a63d6b9f5553ceffcd3b989d4e2ef59d830",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020127.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。ublkはcmdにアクセスする前にSQE128フラグを検証します。ublk_ctrl_cmd_dump()はIO_URING_F_SQE128フラグのチェック前に(header *)sqe-cmdにアクセスしており、これにより境界外のメモリアクセスが発生する可能性がありました。そこで、ublk_ctrl_uring_cmd()内でSQE128フラグのチェックを早期に実施し、フラグが設定されていない場合はすぐに-EINVALを返すようにしました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020127.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477480+00:00"
-    },
-    {
-      "id": "4bf8c4efeda55cba",
-      "content_hash": "4bf8c4efeda55cbad6901f06f5bc1c1e14de4e025c875122c1c474362beca567",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020126.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、ASoCのnau8821コンポーネント削除時に遅延作業（jdet_work）を適切にキャンセルしなかったため、ジャック検出作業が保留中のままドライバがアンロードされ、カーネルクラッシュが発生する脆弱性が修正されました。これにより、未スケジュールの作業を削除前にキャンセルし、または完了を待機する処理が追加されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020126.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477494+00:00"
-    },
-    {
-      "id": "6cf5d5fd145b3bed",
-      "content_hash": "6cf5d5fd145b3bedd383df298c8a884944e838501bdec288f50a8bd79c400416",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020125.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。SUNRPCのgss_alloc_msgのエラーパスで発生するgss_authのkrefリークを修正しました。コミット5940d1cf9f42（\"SUNRPC: Rebalance a kref in auth_gss.c\"）では、gss_release_msg()内で呼ばれるgss_put_auth()とバランスを取るためにkref_get(&amp;gss_auth-kref)が追加されましたが、kstrdup_const()が失敗した場合のエラーパスに対応するkref_put()の追加が忘れられていました。service_nameがNULLでなくkstrdup_const()が失敗した場合、関数はerr_put_pipe_versionにジャンプし、put_pipe_version()とkfree(gss_msg)を呼び出しますが、gss_authの参照が解放されません。このため、gss_auth構造体の参照カウントが減らず、krefリークが発生します。これを修正するために、gss_free_callback()の前方宣言を追加し、err_put_pipe_versionのエラーパスでkref_put()を呼び出して、先に取得した参照を適切に解放するようにしました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020125.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477509+00:00"
-    },
-    {
-      "id": "7e5db8b3fa2f81ef",
-      "content_hash": "7e5db8b3fa2f81ef1ca91800dc010577bd6f9b4ea7522e6763aca7537030f646",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020124.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。apparmorにおいて、export_binaryが無効のときにrawdataの無効なデリファレンスが発生する問題を修正しました。実行時にexport_binaryパラメータが無効の場合、それ以前にロードされたプロファイルはapparmorfs内にrawdataを保持し続け、ポリシーディレクトリのrawdataへのシンボリックリンクが存在します。これらのプロファイルのいずれかが置き換えられると、rawdataはNULLに設定されますが、そのプロファイルのrawdataへのシンボリックリンクを解決しようとすると、profile-rawdataがNULLであるにもかかわらずprofile-rawdata-nameをデリファレンスしようとして、カーネルのoopsが発生します。本修正では、rawdataが設定されているかどうかをチェックすることで、この問題を防止しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020124.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477523+00:00"
-    },
-    {
-      "id": "de95289fe90630a3",
-      "content_hash": "de95289fe90630a395c20abf6e23aff898dc049be9a66f6ccef9ff1a5ff3a9a7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020123.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "LinuxカーネルにおいてAppArmorの__unix_needs_revalidation関数にNULLポインタ参照の脆弱性が存在していました。この脆弱性は、SCM_RIGHTS経由で受け取ったファイルディスクリプタを処理する際にsockやsock-skがNULLになる可能性があり、適切なNULLチェックがなかったためにクラッシュを引き起こしていました。そのため、カーネルの安定性が損なわれる問題が発生していました。この問題はsockおよびsock-skのNULLチェックを追加することで修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020123.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-17T06:44:00+00:00",
-      "created_at": "2026-06-17T10:49:07.477536+00:00"
     }
   ]
 }
