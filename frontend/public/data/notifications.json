@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-21T07:23:52.121498+00:00",
+  "generated_at": "2026-06-21T10:58:19.765666+00:00",
   "items": [
+    {
+      "id": "40bcfd7ada5668f6",
+      "content_hash": "40bcfd7ada5668f6789f2f078dbf61a86fa45dc77515d521648ce9d25370acf4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shiftmag.dev/ctos-agree-cognitive-debt-is-the-new-technical-debt-10229/",
+      "title": "CTOs Agree: Cognitive Debt Is the New Technical Debt",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48617323\">Comments</a>",
+      "url": "https://shiftmag.dev/ctos-agree-cognitive-debt-is-the-new-technical-debt-10229/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T09:53:57+00:00",
+      "created_at": "2026-06-21T10:58:19.765347+00:00"
+    },
+    {
+      "id": "059e697d5313f60f",
+      "content_hash": "059e697d5313f60fab755fed28471fb570da895e36071c1c6e3122ad8305686e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
+      "title": "Google Hits 50% IPv6",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48616800\">Comments</a>",
+      "url": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T08:21:22+00:00",
+      "created_at": "2026-06-21T10:58:19.764952+00:00"
+    },
+    {
+      "id": "9c229d57872fba53",
+      "content_hash": "9c229d57872fba537562015a13bd90118e06554c1613dad90ba5b15a55d28773",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/namgyaaal/avoxelgame",
+      "title": "A 3D voxel game engine written in APL",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48616713\">Comments</a>",
+      "url": "https://github.com/namgyaaal/avoxelgame",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T08:04:54+00:00",
+      "created_at": "2026-06-21T10:58:19.764982+00:00"
+    },
+    {
+      "id": "a9d5929a5bf25136",
+      "content_hash": "a9d5929a5bf2513670d55c063ca740f7765fb19689de1782317d5b7ddeb4c570",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
+      "title": "Windows UI evolution: Clicking an unassociated file",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48616173\">Comments</a>",
+      "url": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T06:24:52+00:00",
+      "created_at": "2026-06-21T10:58:19.765132+00:00"
+    },
     {
       "id": "1a8ff19f568af8eb",
       "content_hash": "1a8ff19f568af8eb5d897e1962b954157756adac82e4e54e1e09d48ee1ab99c2",
@@ -2368,6 +2424,20 @@
       "created_at": "2026-06-19T19:23:49.633938+00:00"
     },
     {
+      "id": "001eb8d71c214d17",
+      "content_hash": "001eb8d71c214d176ef3d89e6c1a704750829618fe8485220cb1d877b91781b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.wikipedia.org/wiki/PID_controller",
+      "title": "Proportional-Integral-Derivative Controllers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48600311\">Comments</a>",
+      "url": "https://en.wikipedia.org/wiki/PID_controller",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T16:28:19+00:00",
+      "created_at": "2026-06-21T10:58:19.765315+00:00"
+    },
+    {
       "id": "c23fa42994ab6713",
       "content_hash": "c23fa42994ab6713c0d583b75e841c09653409850bbeb6472e61f1757b7fcf95",
       "source_name": "Bleeping Computer",
@@ -2856,6 +2926,20 @@
       "cvss_score": 7.8,
       "published_at": "2026-06-19T15:16:31.260000",
       "created_at": "2026-06-20T07:41:06.077897+00:00"
+    },
+    {
+      "id": "d6d28cdeb6098f2b",
+      "content_hash": "d6d28cdeb6098f2be539178157277273999ecf8a3ed6681432a402ce46557409",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://taoofmac.com/space/blog/2026/06/18/1845",
+      "title": "Running MicroVMs in Proxmox VE, the Easy Way",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48599555\">Comments</a>",
+      "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T15:13:11+00:00",
+      "created_at": "2026-06-21T10:58:19.765064+00:00"
     },
     {
       "id": "ab69f14a297538f2",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-18T11:41:21+00:00",
       "created_at": "2026-06-18T14:42:47.624889+00:00"
-    },
-    {
-      "id": "8dc972b17340cbbb",
-      "content_hash": "8dc972b17340cbbbe6bed38e9a23cb5f10960663710611831d49fb4bb66975b2",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
-      "body": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:33:00+00:00",
-      "created_at": "2026-06-18T11:43:16.740049+00:00"
-    },
-    {
-      "id": "b523a83f0babde91",
-      "content_hash": "b523a83f0babde91ff608a176ceced063221b4a30843e005483609482ddc378c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48583703\">Comments</a>",
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:20:18+00:00",
-      "created_at": "2026-06-18T14:42:47.624923+00:00"
-    },
-    {
-      "id": "5363bce171d62532",
-      "content_hash": "5363bce171d62532a777200505eadbb2ffa1dbc10b0ad492639be7a4130f3868",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
-      "title": "Advanced Compilers: The Self-Guided Online Course",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48583606\">Comments</a>",
-      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:04:31+00:00",
-      "created_at": "2026-06-18T14:42:47.624838+00:00"
-    },
-    {
-      "id": "4196152ed54c6c19",
-      "content_hash": "4196152ed54c6c19641aa961295df86644a009870b7ccf7f9c2328ec33701815",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
-      "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48583606\">Comments</a>",
-      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:04:31+00:00",
-      "created_at": "2026-06-18T20:08:44.563006+00:00"
-    },
-    {
-      "id": "2214c4039b48aca7",
-      "content_hash": "2214c4039b48aca77dc95df64af903fec2070c4603b50b819c219087cad9f7cf",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-      "body": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →\n\nWhen a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned",
-      "url": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:00:00+00:00",
-      "created_at": "2026-06-18T11:43:16.660914+00:00"
-    },
-    {
-      "id": "a19718bf2befe1e4",
-      "content_hash": "a19718bf2befe1e4420a64aa49176cd92269e2ea2620234e094209d9079477a0",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "title": "Improving health intelligence in ChatGPT",
-      "body": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T11:00:00+00:00",
-      "created_at": "2026-06-18T20:08:09.166224+00:00"
     }
   ]
 }
