@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-21T17:16:52.928863+00:00",
+  "generated_at": "2026-06-21T19:12:41.527276+00:00",
   "items": [
+    {
+      "id": "4fe162efc8ef8536",
+      "content_hash": "4fe162efc8ef85365e5b0a5ae80c7197794f988bb1260c9ae871a386e8c836c4",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3134746",
+      "title": "Ubisoft co-founder Claude Guillemot dies in plane crash",
+      "body": "Claude Guillemot, who founded Ubisoft with his four brothers, has died at the age of 69.",
+      "url": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T18:34:31+00:00",
+      "created_at": "2026-06-21T19:12:41.150686+00:00"
+    },
     {
       "id": "4ed5a35b00f991f3",
       "content_hash": "4ed5a35b00f991f3a9faec772abf53bdfcc66198c4b98e2214b3fb4674d0ba63",
@@ -16,6 +30,20 @@
       "created_at": "2026-06-21T17:16:52.928168+00:00"
     },
     {
+      "id": "ba346960850187c6",
+      "content_hash": "ba346960850187c6f66e9f6968d9c3c6bf3df1bdb3c7647c7a823324ca926a0e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer",
+      "title": "Wildcard (YC W25) is hiring an applied ML engineer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48620504\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T17:00:28+00:00",
+      "created_at": "2026-06-21T19:12:41.526667+00:00"
+    },
+    {
       "id": "cd31a38f5fb18eb3",
       "content_hash": "cd31a38f5fb18eb300980d5675679b83edd3fb329326cc020ca7b5586942e25f",
       "source_name": "Hacker News (Best)",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-06-21T17:00:26+00:00",
       "created_at": "2026-06-21T17:16:52.928144+00:00"
+    },
+    {
+      "id": "3c32714ce3d7ad1a",
+      "content_hash": "3c32714ce3d7ad1a6af3395ff10ca3f54274d4522b3606a3a909acc5cf223183",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "title": "Burnout Is Real in the OSS World, Says John-David Dalton, Creator of Lodash",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48620462\">Comments</a>",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T16:56:18+00:00",
+      "created_at": "2026-06-21T19:12:41.526476+00:00"
     },
     {
       "id": "8cd117710a6b6b7d",
@@ -72,6 +114,20 @@
       "created_at": "2026-06-21T17:16:52.928248+00:00"
     },
     {
+      "id": "72f6c8b9ee186c04",
+      "content_hash": "72f6c8b9ee186c041e89caf9b6ebbedfff5741da4756030145f0bbd558e1ead1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "title": "The early hiring funnel is now breaking on both ends",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48620142\">Comments</a>",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T16:14:54+00:00",
+      "created_at": "2026-06-21T19:12:41.526906+00:00"
+    },
+    {
       "id": "07269989f1f9c348",
       "content_hash": "07269989f1f9c3487de80b4027186a520b97dcb4472cbbe2b2a62fe817d4d346",
       "source_name": "Hacker News (Best)",
@@ -84,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-06-21T16:08:23+00:00",
       "created_at": "2026-06-21T17:16:52.928024+00:00"
+    },
+    {
+      "id": "50dafabfcacf2938",
+      "content_hash": "50dafabfcacf29381fd562a925f3b56f9981251cb2709d44b4b93fd4f1bce650",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "title": "Prefer duplication over the wrong abstraction (2016)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48620090\">Comments</a>",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T16:08:23+00:00",
+      "created_at": "2026-06-21T19:12:41.526507+00:00"
     },
     {
       "id": "704d3f47caf798a4",
@@ -210,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-06-21T12:44:13+00:00",
       "created_at": "2026-06-21T13:03:25.800553+00:00"
+    },
+    {
+      "id": "88b452bf1d5aed00",
+      "content_hash": "88b452bf1d5aed00dd33c1fca5010a040f1e767438eab5a770b68d6e3bed08bb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "title": "Identity verification on Claude",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48618455\">Comments</a>",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T12:44:13+00:00",
+      "created_at": "2026-06-21T19:12:41.526592+00:00"
     },
     {
       "id": "8fbf834ba9193214",
@@ -632,6 +716,20 @@
       "created_at": "2026-06-21T07:23:52.120785+00:00"
     },
     {
+      "id": "c5af3609ef71c5f9",
+      "content_hash": "c5af3609ef71c5f97cd38e6e5fd0c89f80ab38d9f8b8646419e6d14c470e9c03",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "title": "The 100k whys of AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48616017\">Comments</a>",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T05:45:21+00:00",
+      "created_at": "2026-06-21T19:12:41.527048+00:00"
+    },
+    {
       "id": "9cf17a2b3a0dc70d",
       "content_hash": "9cf17a2b3a0dc70d36b26eb8b92de8622266af95a27dd72071a3fc85d7ed8efc",
       "source_name": "Hacker News (Best)",
@@ -714,6 +812,20 @@
       "cvss_score": null,
       "published_at": "2026-06-21T04:02:08+00:00",
       "created_at": "2026-06-21T07:23:52.120883+00:00"
+    },
+    {
+      "id": "3f072aa17592324e",
+      "content_hash": "3f072aa17592324e054a3cb497fe1c9aca88173fb6196786f075cb78a9b036fc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "title": "The brain was not designed for this much bad news",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48615569\">Comments</a>",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T04:02:08+00:00",
+      "created_at": "2026-06-21T19:12:41.526977+00:00"
     },
     {
       "id": "8245af91e99b8f73",
@@ -1022,6 +1134,20 @@
       "cvss_score": null,
       "published_at": "2026-06-20T20:48:04+00:00",
       "created_at": "2026-06-20T21:58:49.075397+00:00"
+    },
+    {
+      "id": "1aa6c18a00d6fc8d",
+      "content_hash": "1aa6c18a00d6fc8d1feb3af919297f336dc36302a012678e04047ad38e67cc4b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/nikitadoudikov/claude-pulse",
+      "title": "Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48612844\">Comments</a>",
+      "url": "https://github.com/nikitadoudikov/claude-pulse",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-20T20:46:50+00:00",
+      "created_at": "2026-06-21T19:12:41.526791+00:00"
     },
     {
       "id": "f0f5a8927f6c298d",
@@ -4846,6 +4972,20 @@
       "created_at": "2026-06-21T02:34:36.781969+00:00"
     },
     {
+      "id": "54da83542e1df6e7",
+      "content_hash": "54da83542e1df6e74cce341bdafdf0724149673be86d0ca746791479a8a3e80c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/w84death/floppinux",
+      "title": "An Embedded Linux on a Single Floppy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48594090\">Comments</a>",
+      "url": "https://github.com/w84death/floppinux",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-19T02:10:16+00:00",
+      "created_at": "2026-06-21T19:12:41.526647+00:00"
+    },
+    {
       "id": "4034affb85e4d37a",
       "content_hash": "4034affb85e4d37a06f887402d097181effb2f97aadfa23e2c511479c3b67d5a",
       "source_name": "JVN（日本脆弱性情報）",
@@ -6694,6 +6834,20 @@
       "created_at": "2026-06-21T15:44:40.240933+00:00"
     },
     {
+      "id": "09434156b7b9cb43",
+      "content_hash": "09434156b7b9cb4354c7b38d6c0fb112d6ee9306e9927096e1f0c81a19786cd6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wired.me/story/commodore-made-a-digital-detox-phone-that-isnt-dumb",
+      "title": "The Commodore Callback 8020 smart flip phone",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48587619\">Comments</a>",
+      "url": "https://www.wired.me/story/commodore-made-a-digital-detox-phone-that-isnt-dumb",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-18T16:12:21+00:00",
+      "created_at": "2026-06-21T19:12:41.526629+00:00"
+    },
+    {
       "id": "ec6ef0e1a8b358ad",
       "content_hash": "ec6ef0e1a8b358ad58f4f657d33660352a982d3b826fc3af9e121be7ab3bd8c3",
       "source_name": "Hacker News (Best)",
@@ -6846,160 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-18T15:13:26+00:00",
       "created_at": "2026-06-18T20:08:44.563360+00:00"
-    },
-    {
-      "id": "59d9da8750b5f701",
-      "content_hash": "59d9da8750b5f7019627584969f24a19431e9595643088424071bddbbb1f0e6f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3134145",
-      "title": "A tech worker-backed PAC is bringing a $5M knife to Big Tech’s $100M gunfight",
-      "body": "Guardrails positions itself as a populist political movement that runs on small donations from people in the trenches of the AI boom.",
-      "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T15:13:21+00:00",
-      "created_at": "2026-06-18T17:53:18.062551+00:00"
-    },
-    {
-      "id": "0a7518840068f846",
-      "content_hash": "0a7518840068f84672ab59eb980a5e44c3afdff85623b5e7c16dd82cec8c5d2b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.submission.directory/",
-      "title": "A website that lists websites to submit your website to",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48586631\">Comments</a>",
-      "url": "https://www.submission.directory/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T15:12:43+00:00",
-      "created_at": "2026-06-18T17:53:18.363516+00:00"
-    },
-    {
-      "id": "2f79a539e6b9e2f1",
-      "content_hash": "2f79a539e6b9e2f1265b489cef2cb9d1f318edbc2c1bf4aa2375a8145c6f47f2",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://dfdxlabs.com/research/2026/robotics-setup/",
-      "title": "Building a robotics research setup that lives next to my desk",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48586329\">Comments</a>",
-      "url": "https://dfdxlabs.com/research/2026/robotics-setup/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:51:53+00:00",
-      "created_at": "2026-06-19T06:07:00.155016+00:00"
-    },
-    {
-      "id": "e5c5bda33075fa01",
-      "content_hash": "e5c5bda33075fa0192b995ea96a3097347affd42dac7a1b1917b2b209f1c48c2",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://tester.army",
-      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48586299\">Comments</a>",
-      "url": "https://tester.army",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:49:44+00:00",
-      "created_at": "2026-06-18T17:53:18.363602+00:00"
-    },
-    {
-      "id": "ada30dba5ae0c6ce",
-      "content_hash": "ada30dba5ae0c6ce7ae5fa3e2f3dcd38d7f99c12aae065a0f0d3cbfb8beea92c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
-      "title": "Migrate from OpenClaw",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48586005\">Comments</a>",
-      "url": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:32:13+00:00",
-      "created_at": "2026-06-18T14:42:47.624939+00:00"
-    },
-    {
-      "id": "b1626ff12b9cb9d2",
-      "content_hash": "b1626ff12b9cb9d214d778e43842576a677425171a1cf18e598b30ea234da13e",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
-      "body": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.\n\n\"The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 [command-and-control] server,\" the Microsoft Defender Security Research Team said in an analysis published Tuesday. \"It",
-      "url": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:30:42+00:00",
-      "created_at": "2026-06-18T17:53:13.516925+00:00"
-    },
-    {
-      "id": "7990f2f98e5f9e4c",
-      "content_hash": "7990f2f98e5f9e4ca1a40d3db91295060ee4c823eb548ab5e4403630fd4162ff",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48585866\">Comments</a>",
-      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:24:30+00:00",
-      "created_at": "2026-06-18T17:53:18.363625+00:00"
-    },
-    {
-      "id": "841625ac4f525626",
-      "content_hash": "841625ac4f525626682f00f149c52b4bed10da7acc6b68c39297e41601358474",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-      "body": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:19:50+00:00",
-      "created_at": "2026-06-18T14:42:43.267743+00:00"
-    },
-    {
-      "id": "1070c7d910d05e42",
-      "content_hash": "1070c7d910d05e42594a2ac55638ce54a2bb81864dc19c9d40dd614dfee18822",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54219",
-      "title": "CVE-2026-54219 - UBB.threads is vulnerable to Stored XSS via user posts and user profile fields. ...",
-      "body": "UBB.threads is vulnerable to Stored XSS via user posts and user profile fields. The application fails to properly sanitize user input, allowing low privileged attackers to inject arbitrary JavaScript that executes in a victim's browser upon viewing.\n\nBecause vendor contact attempts were unsuccessful, the vulnerability has only been confirmed in version 7.7.5 but may also affect other versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54219",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:17:30.380000",
-      "created_at": "2026-06-19T06:06:56.517304+00:00"
-    },
-    {
-      "id": "ea8b87a164a2762d",
-      "content_hash": "ea8b87a164a2762daff6896c650867a1024444acc74c6ec865c74ee075b10149",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50141",
-      "title": "CVE-2026-50141 - Woodpecker is a CI/CD engine. Starting in version 3.0.0 and prior to version 3.1...",
-      "body": "Woodpecker is a CI/CD engine. Starting in version 3.0.0 and prior to version 3.14.1, a vulnerability in Woodpecker CI's gRPC layer allowed any authenticated agent to impersonate any other agent on the same server by injecting a forged `agent_id` value into outgoing gRPC metadata. The server correctly verified the JWT token but then discarded the verified agent identity in favor of the client-supplied value. Version 3.14.1 patches the issue. As a workaround, disable org agents (`WOODPECKER_DISABLE_USER_AGENT_REGISTRATION=true`) and delete existing ones.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50141",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-18T14:17:29.400000",
-      "created_at": "2026-06-19T06:06:56.517295+00:00"
-    },
-    {
-      "id": "7d53a6fce1c89cad",
-      "content_hash": "7d53a6fce1c89caddc360a3e175923734403e9cb7ea0266cfe5b81dfe97f0f1e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44942",
-      "title": "CVE-2026-44942 - A path traversal in handling the \"path\" component of .repo files processed by li...",
-      "body": "A path traversal in handling the \"path\" component of .repo files processed by libzypp before 17.38.13 in the 17.x series, or before 16.22.19 could be used by attackers to fill directories on the system outside of the zypp cache with content.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44942",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-18T14:17:25.903000",
-      "created_at": "2026-06-19T06:06:56.517235+00:00"
     }
   ]
 }
