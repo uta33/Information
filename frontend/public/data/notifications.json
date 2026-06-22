@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-21T22:59:03.154920+00:00",
+  "generated_at": "2026-06-22T00:10:53.697846+00:00",
   "items": [
+    {
+      "id": "d2565b451c2a1da9",
+      "content_hash": "d2565b451c2a1da96c2d2f8f3bf82226a1f18026dec0d6f66083c48837d844f4",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "body": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T23:00:00+00:00",
+      "created_at": "2026-06-22T00:10:17.783313+00:00"
+    },
+    {
+      "id": "6348a57949848427",
+      "content_hash": "6348a57949848427a4a7420629d12e85bdd69946180fbe29aea100741cc1ad0b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://underreacted.leaflet.pub/3mmevu6woys27",
+      "title": "Simple hard way to conjugate Japanese verbs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48623419\">Comments</a>",
+      "url": "https://underreacted.leaflet.pub/3mmevu6woys27",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T22:53:50+00:00",
+      "created_at": "2026-06-22T00:10:53.697303+00:00"
+    },
+    {
+      "id": "18fb0e7f781eac2a",
+      "content_hash": "18fb0e7f781eac2afa41d06a9c3b42c751028b0f7f3cdf11c4d5f1bbba315617",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
+      "title": "I Gave an AI a Civilization to Run. It Built a Nuke – Launching CivBench",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48623159\">Comments</a>",
+      "url": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T22:16:17+00:00",
+      "created_at": "2026-06-22T00:10:53.697283+00:00"
+    },
     {
       "id": "afae8e4367958c97",
       "content_hash": "afae8e4367958c97ee9485355c7aec2b64f284058f6b911adbffdd22120244f0",
@@ -86,6 +128,20 @@
       "created_at": "2026-06-21T22:59:03.154292+00:00"
     },
     {
+      "id": "898c2f63de3d55e5",
+      "content_hash": "898c2f63de3d55e57c191a52924b3832646b48d34c02d5353816ae3f506fae67",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+      "title": "Everything is logarithms",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48622626\">Comments</a>",
+      "url": "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T21:10:32+00:00",
+      "created_at": "2026-06-22T00:10:53.697114+00:00"
+    },
+    {
       "id": "c649319f95d5f6e8",
       "content_hash": "c649319f95d5f6e80bac6d2b01bb079b504db56f74e13dd3fd9ba6f1a4265b2e",
       "source_name": "Hacker News (Best)",
@@ -98,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-06-21T21:05:37+00:00",
       "created_at": "2026-06-21T22:59:03.154354+00:00"
+    },
+    {
+      "id": "be8a8c5d552ab997",
+      "content_hash": "be8a8c5d552ab9979827d5a4de8fad19dbfebe3be1b8e75f6ecb154c4eb366dc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.marble.onl/posts/cancel_claude.html",
+      "title": "There is minimal downside to switching to open models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48622518\">Comments</a>",
+      "url": "https://www.marble.onl/posts/cancel_claude.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-21T20:56:01+00:00",
+      "created_at": "2026-06-22T00:10:53.697450+00:00"
     },
     {
       "id": "ae23ee5e76b31cf6",
@@ -6638,6 +6708,20 @@
       "created_at": "2026-06-19T00:19:29.790711+00:00"
     },
     {
+      "id": "99f6c24bbfe79ff8",
+      "content_hash": "99f6c24bbfe79ff81e5965558c5a650f612b919feeb9ead1e43c073fd22ba654",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
+      "title": "I Play Video Games with Spinal Muscular Atrophy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48589687\">Comments</a>",
+      "url": "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-18T18:45:03+00:00",
+      "created_at": "2026-06-22T00:10:53.697432+00:00"
+    },
+    {
       "id": "9a8a90ba38a149a8",
       "content_hash": "9a8a90ba38a149a86da10389223368785b28b635b8df824fb1ceb3212286580e",
       "source_name": "Bleeping Computer",
@@ -6916,90 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-06-18T17:16:34.373000",
       "created_at": "2026-06-19T17:10:28.064339+00:00"
-    },
-    {
-      "id": "4295340ac0010170",
-      "content_hash": "4295340ac0010170f23f37afa1abc1a5ad7d1be66ad31f6ff357dcc607820b7e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54106",
-      "title": "CVE-2026-54106 - The U.S. Government Accountability Office (GAO) Electronic Protest Docketing Sys...",
-      "body": "The U.S. Government Accountability Office (GAO) Electronic Protest Docketing System (EPDS) and Civilian Board of Contract Appeals (CBCA) Electronic Docketing System (EDS) do not validate X-Forwarded-For HTTP headers, allowing a remote attacker with compromised administrator credentials to bypass network access controls and log in.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54106",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.7,
-      "published_at": "2026-06-18T17:16:33.847000",
-      "created_at": "2026-06-19T17:10:28.064332+00:00"
-    },
-    {
-      "id": "71b62f8e4f4701be",
-      "content_hash": "71b62f8e4f4701be57b34e55a6da442a639bc4039f105450ca0f97ff914386a9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54105",
-      "title": "CVE-2026-54105 - The U.S. Government Accountability Office (GAO) Electronic Protest Docketing Sys...",
-      "body": "The U.S. Government Accountability Office (GAO) Electronic Protest Docketing System (EPDS) and Civilian Board of Contract Appeals (CBCA) Electronic Docketing System (EDS) expose sensitive account information through the 'update-profile/' API endpoint. A remote, unauthenticated attacker can submit a request containing an arbitrary 'user_id' parameter and receive a JSON response containing account-specific information, including the associated email address.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54105",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-06-18T17:16:33.710000",
-      "created_at": "2026-06-19T17:10:28.064326+00:00"
-    },
-    {
-      "id": "6257a401fe761eb8",
-      "content_hash": "6257a401fe761eb8bd29bd89ab70db006a5f6b65c4cf51bdcec20dc78a3e7dcf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54104",
-      "title": "CVE-2026-54104 - The U.S. Government Accountability Office (GAO) Electronic Protest Docketing Sys...",
-      "body": "The U.S. Government Accountability Office (GAO) Electronic Protest Docketing System (EPDS) and Civilian Board of Contract Appeals (CBCA) Electronic Docketing System (EDS) trusts client-provided values for the 'epds_role_id' parameter without verification, allowing a remote, authenticated attacker to escalate their own privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54104",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-06-18T17:16:33.567000",
-      "created_at": "2026-06-19T17:10:28.064320+00:00"
-    },
-    {
-      "id": "5c3fff16a8bf5a55",
-      "content_hash": "5c3fff16a8bf5a55eeefc8567136d893e5a1afe0900f0390a8a25026297adee4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54103",
-      "title": "CVE-2026-54103 - The U.S. Government Accountability Office (GAO) Electronic Protest Docketing Sys...",
-      "body": "The U.S. Government Accountability Office (GAO) Electronic Protest Docketing System (EPDS) and Civilian Board of Contract Appeals (CBCA) Electronic Docketing System (EDS) does not authenticate password change requests to the '/update-profile/N' API endpoint. A remote, unauthenticated attacker could change an arbitrary user's password.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54103",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-06-18T17:16:33.387000",
-      "created_at": "2026-06-19T17:10:28.064313+00:00"
-    },
-    {
-      "id": "6964687f0647ee7c",
-      "content_hash": "6964687f0647ee7c127b8f4664e9efd1f7a612aefee1cdf19a7dac17d549116c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48617",
-      "title": "CVE-2026-48617 - A flaw in Node.js Permission Model enforcement allows Bypass via `process.report...",
-      "body": "A flaw in Node.js Permission Model enforcement allows Bypass via `process.report.writeReport()` Path Misvalidation. This can lead to confidentiality impact or bypass of the intended security boundary under affected configurations. This vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48617",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 1.8,
-      "published_at": "2026-06-18T17:16:31.460000",
-      "created_at": "2026-06-19T17:10:28.064307+00:00"
-    },
-    {
-      "id": "42d619a818b6872a",
-      "content_hash": "42d619a818b6872a2399d45408dba7ea6f27abecdd547aa04a01481e0ad3da1d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-38718",
-      "title": "CVE-2026-38718 - InHand Networks IR912 V1.0.0.r20042 and IR915 V1.0.0.r20042 (including earlier v...",
-      "body": "InHand Networks IR912 V1.0.0.r20042 and IR915 V1.0.0.r20042 (including earlier versions) were discovered to contain a buffer overflow vulnerability in the device registration function. This vulnerability could allow an attacker to cause a denial of service attack on the remote target device.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38718",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-18T17:16:30.523000",
-      "created_at": "2026-06-19T17:10:28.064300+00:00"
     }
   ]
 }
