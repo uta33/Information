@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:54:09.586423+00:00",
+  "generated_at": "2026-06-27T19:01:31.802594+00:00",
   "items": [
     {
       "id": "805768c2eedd9312",
@@ -16,6 +16,20 @@
       "created_at": "2026-06-27T17:54:05.076636+00:00"
     },
     {
+      "id": "54ff7b60127bc5a4",
+      "content_hash": "54ff7b60127bc5a452f01a11927ba25e37c86a2ae8622ee300dc0fd21829c9be",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cauenapier.com/blog/townsquare_release/",
+      "title": "Turn your site into a place people can bump into each other",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48699928\">Comments</a>",
+      "url": "https://cauenapier.com/blog/townsquare_release/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T17:11:20+00:00",
+      "created_at": "2026-06-27T19:01:31.802070+00:00"
+    },
+    {
       "id": "96b0ddc386fdd8ee",
       "content_hash": "96b0ddc386fdd8eeb4ea5d10d73a6c7294930b5e4ceefced4399b0a3a64ec2d4",
       "source_name": "Hacker News (Best)",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-06-27T17:00:15+00:00",
       "created_at": "2026-06-27T17:54:09.585777+00:00"
+    },
+    {
+      "id": "80b18334c303ba01",
+      "content_hash": "80b18334c303ba0104310caaf0d7463cd6ed9ade73f935f6687d3eceeb74397c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/society/2026/jun/27/screen-time-damage-under-twos-development-study",
+      "title": "Screen time can damage under-twos' development, landmark study suggests",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48699778\">Comments</a>",
+      "url": "https://www.theguardian.com/society/2026/jun/27/screen-time-damage-under-twos-development-study",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T16:51:09+00:00",
+      "created_at": "2026-06-27T19:01:31.802314+00:00"
     },
     {
       "id": "d286c8034ebc5310",
@@ -6972,34 +7000,6 @@
       "cvss_score": 9.1,
       "published_at": "2026-06-25T19:16:40.827000",
       "created_at": "2026-06-26T18:21:08.037687+00:00"
-    },
-    {
-      "id": "26e8b020dd72b636",
-      "content_hash": "26e8b020dd72b6367515f52bf51646ddc3fafc8b28e28b63ae272e844c55fc19",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54088",
-      "title": "CVE-2026-54088 - File Browser is a file managing interface for uploading, deleting, previewing, r...",
-      "body": "File Browser is a file managing interface for uploading, deleting, previewing, renaming, and editing files within a specified directory. Prior to 2.63.6, the Hook Authentication feature in File Browser allows administrators to delegate login verification to an external shell command. User-supplied credentials (username and password) are interpolated into this command string using os.Expand without sanitization. An unauthenticated remote attacker can inject shell metacharacters in the username or password field at the login screen, causing the server to execute arbitrary OS commands before any authentication takes place. This is a critical pre-authentication RCE. This vulnerability is fixed in 2.63.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54088",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-25T19:16:40.687000",
-      "created_at": "2026-06-26T18:21:08.037681+00:00"
-    },
-    {
-      "id": "66039e073ee4fe41",
-      "content_hash": "66039e073ee4fe41c263b056d3c51234741d28ce5d47a116410a8297eaadb7c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53925",
-      "title": "CVE-2026-53925 - Glances is an open-source system cross-platform monitoring tool. From 4.0.8 unti...",
-      "body": "Glances is an open-source system cross-platform monitoring tool. From 4.0.8 until 4.5.5, the secure_popen() function in glances/secure.py interprets > (file redirection), | (pipe), and && (command chaining) operators in command strings. These operators are applied without any validation on the target file path, piped command, or chained command. When Application Monitoring Process (AMP) modules load their command or service_cmd configuration values from glances.conf, those values are passed directly to secure_popen() with no sanitization. This allows an attacker who can modify the Glances configuration file to write arbitrary content to arbitrary filesystem paths (via >), chain arbitrary commands (via &&), or pipe command output to arbitrary programs (via |). This vulnerability is fixed in 4.5.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53925",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-06-25T19:16:40.017000",
-      "created_at": "2026-06-26T18:21:08.037675+00:00"
     }
   ]
 }
