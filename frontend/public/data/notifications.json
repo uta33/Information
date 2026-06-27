@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-27T02:03:28.381834+00:00",
+  "generated_at": "2026-06-27T06:20:07.819506+00:00",
   "items": [
+    {
+      "id": "e663575b3a3746c1",
+      "content_hash": "e663575b3a3746c1410bd461e81a0d6cdf0b30c2e1bf45fcb73dd710053c8d2d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/schlae/IBM_MCGA",
+      "title": "IBM MCGA Gate Array Reverse Engineering",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48695363\">Comments</a>",
+      "url": "https://github.com/schlae/IBM_MCGA",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T05:17:08+00:00",
+      "created_at": "2026-06-27T06:20:07.818734+00:00"
+    },
+    {
+      "id": "a9ee12b9faa061a0",
+      "content_hash": "a9ee12b9faa061a09b7f8aee063f15d441a5bfa957b79b77511ac56127eff310",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1",
+      "title": "OpenTTD 16.0-Beta1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48695149\">Comments</a>",
+      "url": "https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T04:31:06+00:00",
+      "created_at": "2026-06-27T06:20:07.818688+00:00"
+    },
+    {
+      "id": "476021f5d17cedf9",
+      "content_hash": "476021f5d17cedf9025fc9eb516a40cfc19e239788c55dc532378b7ff645240a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sfwriter.com/wordstar.htm",
+      "title": "WordStar: A Writer's Word Processor (1996)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48694853\">Comments</a>",
+      "url": "https://www.sfwriter.com/wordstar.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T03:30:01+00:00",
+      "created_at": "2026-06-27T06:20:07.818712+00:00"
+    },
+    {
+      "id": "b1608cd68a90265b",
+      "content_hash": "b1608cd68a90265b82f8fda24e7dbb2d51ccdd1ce60f45673c34d0e6448fb1d7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48694631\">Comments</a>",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T02:41:53+00:00",
+      "created_at": "2026-06-27T06:20:07.819092+00:00"
+    },
     {
       "id": "9a7a4f7b27dca793",
       "content_hash": "9a7a4f7b27dca7933380cffbbf3026e46f8c525ac0d8f77e0dab93eae8e387a9",
@@ -16,6 +72,20 @@
       "created_at": "2026-06-27T02:03:28.037344+00:00"
     },
     {
+      "id": "109becc5927f8896",
+      "content_hash": "109becc5927f8896ee2033120ba403ff3cfe4e04df46e29e3aa8710421967c9a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://popflame.quickish.space/hn-flipboard/",
+      "title": "Show HN: Hacker News on a train station-style flip board",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48693912\">Comments</a>",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T00:43:39+00:00",
+      "created_at": "2026-06-27T06:20:07.818909+00:00"
+    },
+    {
       "id": "f05a932fadda78a4",
       "content_hash": "f05a932fadda78a425409cca8a2cb6c1799ce07d83929432c6b1fdc3e85abd65",
       "source_name": "TechCrunch",
@@ -28,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-06-27T00:38:34+00:00",
       "created_at": "2026-06-27T02:03:28.037373+00:00"
+    },
+    {
+      "id": "cb1f1f47df977ac8",
+      "content_hash": "cb1f1f47df977ac84f960be4096c5290b6a1658f89c0f5c850fcf20f87dba4ce",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/",
+      "title": "Foreign funds help make housing unaffordable: research",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48693420\">Comments</a>",
+      "url": "https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T23:36:30+00:00",
+      "created_at": "2026-06-27T06:20:07.819010+00:00"
     },
     {
       "id": "29b783fbd71beeaa",
@@ -56,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-06-26T22:48:28+00:00",
       "created_at": "2026-06-26T23:53:07.717890+00:00"
+    },
+    {
+      "id": "849cdc3a7990750a",
+      "content_hash": "849cdc3a7990750a7a2d709cd7d4297fcca1dd955ee1fc85929e71e417318750",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48692995\">Comments</a>",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T22:48:28+00:00",
+      "created_at": "2026-06-27T06:20:07.818801+00:00"
     },
     {
       "id": "a9f88ef946fa882d",
@@ -6902,104 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-06-25T14:16:41.243000",
       "created_at": "2026-06-26T11:37:32.926518+00:00"
-    },
-    {
-      "id": "9574063b058e4454",
-      "content_hash": "9574063b058e4454fc09f19f3e344e5c6ec1151713b01099eec25ca77a3e5c20",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47150",
-      "title": "CVE-2026-47150 - In EmberZNet v9.0.2 and earlier, malformed IAS Zone enrollment messages can trig...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed IAS Zone enrollment messages can trigger an out-of-bounds state-table write and terminate the process. The size and location of this write is limited. These messages must come from a device that has already joined the network. Only devices supporting the IAS Zone cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47150",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-06-25T14:16:41.137000",
-      "created_at": "2026-06-26T11:37:32.926511+00:00"
-    },
-    {
-      "id": "ac45a5c6eac2c58b",
-      "content_hash": "ac45a5c6eac2c58b8212b51333b256e2c5f1b41f44ee283a2d67389d9b3c60e4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47149",
-      "title": "CVE-2026-47149 - In EmberZNet v9.0.2 and earlier, malformed or out-of-range Door Lock user identi...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed or out-of-range Door Lock user identifiers can trigger out-of-bounds table reads and terminate the process. These messages must come from a device that has already joined the network, and no information leakage back to the sender was observed. Only devices supporting the Door Lock cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47149",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-25T14:16:41.027000",
-      "created_at": "2026-06-26T11:37:32.926505+00:00"
-    },
-    {
-      "id": "488a94ecb19f4428",
-      "content_hash": "488a94ecb19f44289983f6d8859359c0031abc730e14080defb942b3897a835b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47148",
-      "title": "CVE-2026-47148 - In EmberZNet v9.0.2 and earlier, malformed GetGroupMembership commands can trigg...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed GetGroupMembership commands can trigger repeated reads past the end of the message payload and terminate the process. These messages must come from a device that has already joined the network, and no information leakage back to the sender was observed. Only devices supporting the Groups cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47148",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-25T14:16:40.920000",
-      "created_at": "2026-06-26T11:37:32.926498+00:00"
-    },
-    {
-      "id": "73c6572023e3622b",
-      "content_hash": "73c6572023e3622ba32de6df3ff18b177e508af15b712ee80dfae8cb2b2d0aed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47147",
-      "title": "CVE-2026-47147 - In EmberZNet v9.0.2 and earlier, malformed OTA requests can drive the OTA server...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed OTA requests can drive the OTA server parser into out-of-bounds reads. A limited amount of data from RAM is read back to the requester. The size and location of this data is limited. These requests must come from a device that has already joined the network. Only devices supporting the OTA Server cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47147",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-06-25T14:16:40.810000",
-      "created_at": "2026-06-26T11:37:32.926491+00:00"
-    },
-    {
-      "id": "1bba6f3f9d57ef59",
-      "content_hash": "1bba6f3f9d57ef592f66bdc5fab18215caf90918d69f36493505e514c0dc0e3f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47146",
-      "title": "CVE-2026-47146 - In EmberZNet v9.0.2 and earlier, malformed Color Control messages can lead to as...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed Color Control messages can lead to asserts that terminate the process. These messages must come from a device that has already joined the network. Only devices supporting the Color Control cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47146",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-25T14:16:40.700000",
-      "created_at": "2026-06-26T11:37:32.926484+00:00"
-    },
-    {
-      "id": "52b6f9562978ae8d",
-      "content_hash": "52b6f9562978ae8dde3e2df728b991da3d15241c59da89f11c55903a72a24af5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47145",
-      "title": "CVE-2026-47145 - In EmberZNet v9.0.2 and earlier, malformed Color Control messages can lead to as...",
-      "body": "In EmberZNet v9.0.2 and earlier, malformed Color Control messages can lead to asserts that terminate the process. These messages must come from a device that has already joined the network. Only devices supporting the Color Control cluster may be impacted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47145",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-25T14:16:40.587000",
-      "created_at": "2026-06-26T11:37:32.926477+00:00"
-    },
-    {
-      "id": "319c787b2e713f7b",
-      "content_hash": "319c787b2e713f7b2223a17ea0f621dbcdbc490709514b54152f78242e98789c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46734",
-      "title": "CVE-2026-46734 - Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3, contain a...",
-      "body": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3, contain an Improper Certificate Validation vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Protection mechanism bypass.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46734",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-06-25T14:16:40.470000",
-      "created_at": "2026-06-26T11:37:32.926471+00:00"
     }
   ]
 }
