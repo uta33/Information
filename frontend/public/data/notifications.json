@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T22:52:48.570017+00:00",
+  "generated_at": "2026-06-28T23:59:37.473417+00:00",
   "items": [
     {
       "id": "a26afdeac57ea6fb",
@@ -14,6 +14,34 @@
       "cvss_score": null,
       "published_at": "2026-06-28T22:32:04+00:00",
       "created_at": "2026-06-28T22:52:48.569428+00:00"
+    },
+    {
+      "id": "12b160e27e2c5ba0",
+      "content_hash": "12b160e27e2c5ba07c097238a54d85bf27335c3304a3540f2d2f094b7cd72b4f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://qsoe.net",
+      "title": "A QNX-inspired operating system with selectable kernels",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48712338\">Comments</a>",
+      "url": "https://qsoe.net",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T22:21:51+00:00",
+      "created_at": "2026-06-28T23:59:37.472627+00:00"
+    },
+    {
+      "id": "44b359779c407799",
+      "content_hash": "44b359779c407799639724231d9bdaa704141adc85adb7f0c65dbf2d16a88044",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://xonaly.com/",
+      "title": "Xonaly – Canada's Independent Search Engine",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48712324\">Comments</a>",
+      "url": "https://xonaly.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T22:20:56+00:00",
+      "created_at": "2026-06-28T23:59:37.472601+00:00"
     },
     {
       "id": "30756833e5f6cefc",
@@ -70,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T21:34:14+00:00",
       "created_at": "2026-06-28T21:52:40.889062+00:00"
+    },
+    {
+      "id": "89b4f9de81598512",
+      "content_hash": "89b4f9de81598512753fb2a7cca61c27fc21706104eaa430fd35c23fba921d29",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html",
+      "title": "POSIX Is Not a Shell",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48711403\">Comments</a>",
+      "url": "https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T20:39:50+00:00",
+      "created_at": "2026-06-28T23:59:37.472909+00:00"
     },
     {
       "id": "edb1f5f2bf573574",
@@ -224,6 +266,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T18:56:46+00:00",
       "created_at": "2026-06-28T21:52:41.233307+00:00"
+    },
+    {
+      "id": "864ef01852a7cbf8",
+      "content_hash": "864ef01852a7cbf8c263df1a1b29378e33abf341b3c19e4cba4c15022b481162",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+      "title": "British Origami: the 1955 exhibition by Akira Yoshizawa (2005)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710325\">Comments</a>",
+      "url": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T18:56:46+00:00",
+      "created_at": "2026-06-28T23:59:37.473049+00:00"
     },
     {
       "id": "6fcda5d96ba48c0a",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-06-26T08:16:24.457000",
       "created_at": "2026-06-26T23:53:04.242987+00:00"
-    },
-    {
-      "id": "74b3c0f5a7e20844",
-      "content_hash": "74b3c0f5a7e20844c84210b5cf682e6fbaceb309a0a6fe8cc432b53bc479ab34",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57874",
-      "title": "CVE-2026-57874 - An unauthenticated\nbuffer overflow vulnerability exists in IEEE8021x_upload.cgi ...",
-      "body": "An unauthenticated\nbuffer overflow vulnerability exists in IEEE8021x_upload.cgi in GeoVision\nGV-LPC2011 and GV-LPC2211 V1.12 and earlier. The vulnerability is caused by\ninsufficient bounds checking when parsing filename values in multipart upload\ndata. A remote attacker may exploit this vulnerability by sending a crafted\nupload request with overly long input, causing memory corruption and resulting\nin a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57874",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T08:16:24.350000",
-      "created_at": "2026-06-26T23:53:04.242981+00:00"
-    },
-    {
-      "id": "2990cf0d2534e374",
-      "content_hash": "2990cf0d2534e3747d4442f57a68c03f66fd937f93832973cc579fbf660561a8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57873",
-      "title": "CVE-2026-57873 - An unauthenticated\nNULL pointer dereference vulnerability exists in IEEE8021x_up...",
-      "body": "An unauthenticated\nNULL pointer dereference vulnerability exists in IEEE8021x_upload.cgi in GeoVision\nGV-LPC2011 and GV-LPC2211 V1.12 and earlier. The vulnerability is caused by\nimproper validation of multipart upload headers when processing\ncertificate-related upload fields. A remote attacker may exploit this\nvulnerability by sending a malformed multipart request, causing the affected\nCGI process to crash and resulting in a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57873",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T08:16:24.243000",
-      "created_at": "2026-06-26T23:53:04.242974+00:00"
-    },
-    {
-      "id": "ab12cea19364ff01",
-      "content_hash": "ab12cea19364ff0169e616a3744f0308b5de367f1c1444b52d5f8644bccd3cb2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57872",
-      "title": "CVE-2026-57872 - An unauthenticated\ndirectory traversal vulnerability exists in get_fcont.cgi in ...",
-      "body": "An unauthenticated\ndirectory traversal vulnerability exists in get_fcont.cgi in GeoVision\nGV-LPC2011 and GV-LPC2211 V1.12 and earlier. The vulnerability is caused by\ninsufficient validation of user-supplied file path input before the requested\nfile is accessed by the CGI component. A remote attacker may exploit this\nvulnerability by sending a crafted request to read arbitrary files accessible\nto the affected process, resulting in information disclosure.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57872",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T08:16:24.123000",
-      "created_at": "2026-06-26T23:53:04.242968+00:00"
-    },
-    {
-      "id": "e4230cdf276e6a30",
-      "content_hash": "e4230cdf276e6a30f9fd46507eaf8adb6875766d53400aa1a1ae995294cfedf7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49486",
-      "title": "CVE-2026-49486 - The Apache Airflow FTP provider's `FTPSHook.get_conn()` created an `ftplib.FTP_T...",
-      "body": "The Apache Airflow FTP provider's `FTPSHook.get_conn()` created an `ftplib.FTP_TLS` connection but never called `prot_p()`, so although the control channel was TLS-protected the data channel was transmitted in cleartext. Any deployment using `FTPSHook` or `FTPSFileTransmitOperator` to move files over FTPS exposed file contents and credentials-in-transit to a network attacker able to observe the data connection. Upgrade apache-airflow-providers-ftp to `3.15.1` or later, which issues `PROT P` to encrypt the data channel.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49486",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T08:16:23.830000",
-      "created_at": "2026-06-26T23:53:04.242961+00:00"
     }
   ]
 }
