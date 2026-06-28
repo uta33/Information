@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-28T18:00:23.070616+00:00",
+  "generated_at": "2026-06-28T19:22:26.534775+00:00",
   "items": [
+    {
+      "id": "2a41e46124660a9a",
+      "content_hash": "2a41e46124660a9a448f6747a85a63588993464b6712db2cbe2c34272bc1368c",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3137021",
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "body": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-06-28T19:05:39+00:00",
+      "created_at": "2026-06-28T19:22:26.252066+00:00"
+    },
+    {
+      "id": "a17768d94887b5ac",
+      "content_hash": "a17768d94887b5ac5d64a27890b5aa8a4ee2c0580f7b4deac910f144cf788010",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dam.stanford.edu/memory-prices.html",
+      "title": "Historical memory prices 1960-2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710092\">Comments</a>",
+      "url": "https://dam.stanford.edu/memory-prices.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T18:32:53+00:00",
+      "created_at": "2026-06-28T19:22:26.534317+00:00"
+    },
+    {
+      "id": "5876af913a0465d3",
+      "content_hash": "5876af913a0465d3db49dc189eb75196051d1fd1a3e94a6d8f8cd34171594038",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "title": "The cost YAGNI was never about",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710082\">Comments</a>",
+      "url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T18:31:54+00:00",
+      "created_at": "2026-06-28T19:22:26.534028+00:00"
+    },
     {
       "id": "97f1287b0bcad642",
       "content_hash": "97f1287b0bcad642f4c4e583937fff1173e942b961cdedb6303ef70838d2bbc7",
@@ -86,6 +128,20 @@
       "created_at": "2026-06-28T18:00:23.069953+00:00"
     },
     {
+      "id": "1421d16c37cbcb16",
+      "content_hash": "1421d16c37cbcb160af6619e28162aea919fc3f7a59198cdba0ab191cbcdc0e8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.openculture.com/2020/10/daisugi.html",
+      "title": "Daisugi, the Japanese technique of growing trees out of other trees (2020)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708859\">Comments</a>",
+      "url": "https://www.openculture.com/2020/10/daisugi.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:28:50+00:00",
+      "created_at": "2026-06-28T19:22:26.534167+00:00"
+    },
+    {
       "id": "9d788346f497ca1f",
       "content_hash": "9d788346f497ca1f7f58b9544f85ce95090f56d29a90b803e4437371752f2c71",
       "source_name": "Hacker News (Best)",
@@ -100,6 +156,20 @@
       "created_at": "2026-06-28T16:56:36.139237+00:00"
     },
     {
+      "id": "034b8b8b38eb6d66",
+      "content_hash": "034b8b8b38eb6d66de6aa212c326509e2f0f6a54bf1da5f1fedc83757cd73799",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing",
+      "title": "Tokenmaxxing is dead, long live tokenmaxxing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708795\">Comments</a>",
+      "url": "https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:24:10+00:00",
+      "created_at": "2026-06-28T19:22:26.534150+00:00"
+    },
+    {
       "id": "0d5c7b23c8ba78ae",
       "content_hash": "0d5c7b23c8ba78aeee45b1bdc824c1f44d8809acd30f1e828c8345af384f57b3",
       "source_name": "Hacker News (Best)",
@@ -112,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T16:17:38+00:00",
       "created_at": "2026-06-28T18:00:23.070040+00:00"
+    },
+    {
+      "id": "d40cc9436b4af595",
+      "content_hash": "d40cc9436b4af595c3050bb3117105d66f3cf8c8fae9ae211f2f2ba3c646eab3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "title": "Reflections on software engineering in the age of AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708721\">Comments</a>",
+      "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:17:38+00:00",
+      "created_at": "2026-06-28T19:22:26.534417+00:00"
     },
     {
       "id": "1e60c24f7079a55b",
@@ -646,6 +730,20 @@
       "created_at": "2026-06-28T13:11:29.941707+00:00"
     },
     {
+      "id": "c6776b5884a948e6",
+      "content_hash": "c6776b5884a948e639c5ab0f8e318f7ec5df47e6103ae119b90f167cb7d5e637",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
+      "title": "The KIDS Act would require age checks to get online",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48706560\">Comments</a>",
+      "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T11:56:16+00:00",
+      "created_at": "2026-06-28T19:22:26.534334+00:00"
+    },
+    {
       "id": "d271292d258a076f",
       "content_hash": "d271292d258a076f45ea2ea6c9c3bb1e180213feb27392f25ca097c16e4c1698",
       "source_name": "Hacker News (Best)",
@@ -658,6 +756,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T11:55:08+00:00",
       "created_at": "2026-06-28T13:11:29.941811+00:00"
+    },
+    {
+      "id": "342d591daada61b8",
+      "content_hash": "342d591daada61b88ee3fa3f39ffbf44c8e3e7474c2a6c00f3874c42a1320a45",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
+      "title": "More evidence is consistent with possible ancient life on Mars (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48706554\">Comments</a>",
+      "url": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T11:55:08+00:00",
+      "created_at": "2026-06-28T19:22:26.534284+00:00"
     },
     {
       "id": "8312acdc4269de8b",
@@ -6680,6 +6792,20 @@
       "created_at": "2026-06-26T08:48:14.965928+00:00"
     },
     {
+      "id": "a04200ebede3be41",
+      "content_hash": "a04200ebede3be41344b2ffc1cc0b4540eb9e930143efc54a665acc9248fb4cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://smist08.wordpress.com/2026/06/25/linux-kills-strncpy/",
+      "title": "Linux Kills Strncpy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48682979\">Comments</a>",
+      "url": "https://smist08.wordpress.com/2026/06/25/linux-kills-strncpy/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T06:19:39+00:00",
+      "created_at": "2026-06-28T19:22:26.534368+00:00"
+    },
+    {
       "id": "56fbf4678de280a0",
       "content_hash": "56fbf4678de280a0e2bb6e525b7b2c3367f7e0ee2315776012b025e286c13ddf",
       "source_name": "Hacker News (Best)",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-26T03:00:00+00:00",
       "created_at": "2026-06-26T08:48:14.592308+00:00"
-    },
-    {
-      "id": "75587e2da992783c",
-      "content_hash": "75587e2da992783ca0cd5535874f5b304961f08712c2ae1a46ca1ade776aaed4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021082.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、次の脆弱性が修正されました：pinctrl: single: pcs_add_gpio_func()での参照カウントリークの修正です。of_parse_phandle_with_args()は、gpiospec.np内で参照カウントが増加したdevice_nodeポインタを返します。ループはすべてのphandleを反復処理しますが、参照を解放しなかったため、各反復で参照カウントリークが発生していました。必要な引数を抽出した後およびdevm_kzalloc()が失敗したエラー経路で参照を解放するために、of_node_put()呼び出しを追加しました。このバグは静的解析ツールによって検出され、コードレビューで検証されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021082.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592323+00:00"
-    },
-    {
-      "id": "b02ec4272f4134cb",
-      "content_hash": "b02ec4272f4134cb098864a6c45b2cfe464a6c05a984b64e8c17221944613d84",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021081.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。power_supply: wm97xxのpower_supply_changed()関数におけるNULLポインタデリファレンスの問題が解決されました。probe()関数内で、power_supplyハンドルの割り当ておよび登録前にrequest_irq()が呼び出されていました。request_irq()の呼び出しとpower_supply_register()の間に割り込みが発生すると、割り込みハンドラから呼び出されるwm97xx_bat_update()内のpower_supply_changed()で、初期化されていないpower_supplyハンドルが使用されてしまいます。このためNULLポインタデリファレンスが発生していました。この競合状態によるNULLポインタデリファレンスは、IRQ要求をpower_supplyハンドル登録後に行うよう変更することで修正されました。現在ではprobe()関数においてIRQが最後に要求されるため、IRQ解放用のエラーパスは削除され、代わりにIRQ要求失敗時にpower_supplyハンドルの登録解除を行う処理が追加されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021081.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592342+00:00"
-    },
-    {
-      "id": "e53af2f487af0f37",
-      "content_hash": "e53af2f487af0f37b112074631ea0af2aa8186c9f149d596265b35fb16a2a416",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021080.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。SUNRPCのauth_gssで、XDRデコードエラー経路においてメモリリークが発生していた問題を修正しました。gssx_dec_ctx()、gssx_dec_status()、およびgssx_dec_name()関数はgssx_dec_buffer()を介してメモリを割り当てており、この関数はkmemdup()を呼び出します。後続のデコード操作が失敗すると、これらの関数は割り当て済みのバッファを解放せずにすぐに戻ってしまうため、メモリリークが発生していました。特にgssx_dec_ctx()でのリークは重要であり、呼び出し元であるgssp_accept_sec_context_upcallがいくつかのバッファ長フィールドを0以外の値に初期化し、メモリ割り当てを引き起こしていました。たとえば、src_nameに対してgssx_dec_name()が成功し、targ_nameで失敗した場合、exported_context_token、mech、およびsrc_name.display_nameに割り当てられたメモリが参照されず回収不能になる事態が発生していました。エラー発生時に以前に割り当てたバッファを解放するために、gotoベースのクリーンアップ処理を追加しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021080.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592358+00:00"
-    },
-    {
-      "id": "f2c8d0bac3afc0e1",
-      "content_hash": "f2c8d0bac3afc0e1c7893ce140703891c401683e4261a613edce9c61c1564362",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021079.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。tpm: st33zp24 における get_burstcount() のエラー時のクリーンアップ不足を修正しました。get_burstcount() はタイムアウト時に -EBUSY を返すことがあります。この場合、st33zp24_send() は先に取得したローカリティを解放せずに直接戻ってしまう問題がありました。get_burstcount() が失敗した際に適切なクリーンアップを行うために、goto out_err を使用するように変更しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021079.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592373+00:00"
-    },
-    {
-      "id": "826468daa4eb6d3c",
-      "content_hash": "826468daa4eb6d3c0247d49552068ac5f8e1885d9fe4f048d21732a7e16bfee9",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021078.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルのscsi: smartpqiモジュールにおいて、pqi_report_phys_luns()関数がサポートされていないデータ形式に遭遇した場合や割り当てに失敗した場合にrpl_listバッファを適切に解放しない問題があり、これによりメモリリークが発生していました。この問題は修正されており、エラーハンドリングが改善されてメモリリークの発生を防止しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021078.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592387+00:00"
-    },
-    {
-      "id": "d98295e413b4dbdc",
-      "content_hash": "d98295e413b4dbdcb7c736e414b336ee8e9f1b427fd579e009ce65e18ea0c192",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021077.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。netfilterのnft_set_rbtreeにおける匿名セットの部分的な重複をチェックします。ユーザー空間では、区間が連続している場合に最適化された表現が提供されており、終端要素が省略されます。このため、既存の部分的重複検出ロジックは開始要素に対する匿名セットのチェックをスキップしていました。しかし、同じ開始要素を持つ区間、例としてA-BとA-C（ただしC  B）など、重複する区間をこの匿名セットに追加できます。重複する開始要素のチェックを復元し、重複を正しく報告するように修正しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021077.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592402+00:00"
-    },
-    {
-      "id": "03c7b383f7077944",
-      "content_hash": "03c7b383f7077944d0941fa2a81fe31f39e837f8654e5508b052d28572d8e1ba",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021076.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：phy: freescale: imx8qm-hsioにおけるNULLポインタ参照の問題です。プローブ中にdevicetreeノードに'fsl,refclk-pad-mode'プロパティが定義されていない場合、refclk_padポインタはNULLに設定されます。しかし、imx_hsio_configure_clk_pad()関数内でこのポインタが無条件に使用されていたため、NULLポインタ参照が発生する可能性がありました。したがって、使用する前にポインタをチェックするように修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021076.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592416+00:00"
-    },
-    {
-      "id": "792be8b61e0b3405",
-      "content_hash": "792be8b61e0b34057146eb21ea7ce13c65ae025e2213d63ed79738737cdaa269",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021075.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルのmfd: arizonaドライバーに存在するwm5102_clear_write_sequencer()関数で、失敗時にレギュレータリソースがリークする問題が修正されました。wm5102_clear_write_sequencer()がエラーを返す際に適切なクリーンアップが行われず、レギュレータが無効化されずに残ってリソースリークが発生していました。この問題は、エラー時に処理をerr_resetラベルへジャンプさせることで、正しくリソースを解放するように改修されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021075.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592431+00:00"
-    },
-    {
-      "id": "7fbe9f6a742aad0e",
-      "content_hash": "7fbe9f6a742aad0e699b3a12f01bd67f9fc8b3cb51b9a2856c03e1bd4135f94c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021074.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。arm64/gcsのarch_set_shadow_stack_status()関数におけるエラー処理が修正されました。alloc_gcs()は失敗した場合にNULLではなく、do_mmap()からのエラーをエンコードしたポインタを返します。現在のNULLチェックではエラーを検出できず、無効なGCSアドレスを使用する可能性があります。そのため、gcs_alloc_thread_stack()でのチェックと一貫性を持たせるために、エラー検出にはIS_ERR_VALUE()を使用します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021074.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592445+00:00"
     }
   ]
 }
