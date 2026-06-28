@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-28T16:56:36.139729+00:00",
+  "generated_at": "2026-06-28T18:00:23.070616+00:00",
   "items": [
+    {
+      "id": "97f1287b0bcad642",
+      "content_hash": "97f1287b0bcad642f4c4e583937fff1173e942b961cdedb6303ef70838d2bbc7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3137006",
+      "title": "Writer Ian Bogost says ‘The Small Stuff’ can help us reclaim our lives from dematerialization",
+      "body": "Has Silicon Valley been building the wrong things?",
+      "url": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T17:03:16+00:00",
+      "created_at": "2026-06-28T18:00:22.960363+00:00"
+    },
+    {
+      "id": "ea0327df1c46a4b9",
+      "content_hash": "ea0327df1c46a4b93987d00b7fa7ce01d8b35a45ad2bc6cbcc19f0b8eb82f8a8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48709187\">Comments</a>",
+      "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:58:59+00:00",
+      "created_at": "2026-06-28T18:00:23.069934+00:00"
+    },
+    {
+      "id": "4481a89cf608ee57",
+      "content_hash": "4481a89cf608ee57e2e4caf770584ef1ac374faf1cc932da9afd711e192e0f73",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
+      "title": "Show HN: DRM-Free Books",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48709186\">Comments</a>",
+      "url": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:58:56+00:00",
+      "created_at": "2026-06-28T18:00:23.070109+00:00"
+    },
     {
       "id": "623cebac4ca0547c",
       "content_hash": "623cebac4ca0547c1b0ba7f16215529c4d4fb62dc51636313d84b2ba59c83b0b",
@@ -30,6 +72,20 @@
       "created_at": "2026-06-28T16:56:36.139035+00:00"
     },
     {
+      "id": "fdf825be920c95f7",
+      "content_hash": "fdf825be920c95f7326da5249f5e3a0ed39ddeb043c8dfe031686877cc108e95",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.openculture.com/2020/10/daisugi.html",
+      "title": "Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood (2020)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708859\">Comments</a>",
+      "url": "https://www.openculture.com/2020/10/daisugi.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:28:50+00:00",
+      "created_at": "2026-06-28T18:00:23.069953+00:00"
+    },
+    {
       "id": "9d788346f497ca1f",
       "content_hash": "9d788346f497ca1f7f58b9544f85ce95090f56d29a90b803e4437371752f2c71",
       "source_name": "Hacker News (Best)",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T16:24:10+00:00",
       "created_at": "2026-06-28T16:56:36.139237+00:00"
+    },
+    {
+      "id": "0d5c7b23c8ba78ae",
+      "content_hash": "0d5c7b23c8ba78aeee45b1bdc824c1f44d8809acd30f1e828c8345af384f57b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "title": "Reflections on Software Engineering in the Age of AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708721\">Comments</a>",
+      "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:17:38+00:00",
+      "created_at": "2026-06-28T18:00:23.070040+00:00"
     },
     {
       "id": "1e60c24f7079a55b",
@@ -98,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T16:05:00+00:00",
       "created_at": "2026-06-28T16:56:36.034754+00:00"
+    },
+    {
+      "id": "5ab1cdd73e108872",
+      "content_hash": "5ab1cdd73e108872364f21215eed4235d5d6e76c7967bd2bc7d0b373f18b3fbf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2606.25313",
+      "title": "Programmable Probabilistic Computer with 1M p-bits",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708496\">Comments</a>",
+      "url": "https://arxiv.org/abs/2606.25313",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T15:55:31+00:00",
+      "created_at": "2026-06-28T18:00:23.070174+00:00"
     },
     {
       "id": "79db25d5a6649714",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-26T03:00:00+00:00",
       "created_at": "2026-06-26T08:48:14.592445+00:00"
-    },
-    {
-      "id": "33a4a0f36bcf365b",
-      "content_hash": "33a4a0f36bcf365bc74ddcde1954b8df87735f1953c4ef125a407c3ed6faa2ed",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021073.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。HID: intel-ish-hidのishtp_bus_remove_all_clients関数におけるNULLポインタ参照の問題です。ウォームリセットのフロー中に、クライアントがまだ列挙されている場合、cl-deviceポインタがNULLになる可能性がありました。NULLチェックを行わずにcl-device-reference_countへアクセスするとカーネルパニックが発生します。この問題は複数ユニットのウォームリブートストレスサイクル中に検出されました。厳しいテスト条件下での安定性を確保するために、cl-deviceに対して防御的なNULLチェックを追加しました。KASAN警告ではレンジ[0000000000000000-0000000000000007]におけるNULLポインタ参照が報告されました。ワークキュー：ish_fw_update_wqのfw_reset_work_fnで発生しています。コールトレースはishtp_bus_remove_all_clients+0xbe/0x130 [intel_ishtp]、ishtp_reset_handler+0x85/0x1a0 [intel_ishtp]、fw_reset_work_fn+0x8a/0xc0 [intel_ish_ipc]です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021073.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592459+00:00"
-    },
-    {
-      "id": "5ae6acaa7c03bbd8",
-      "content_hash": "5ae6acaa7c03bbd8ccad2755ce7e7985ed1ecb93141a3ca0ed7b120ded380d4c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021072.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。drm/amdkfd の debug address watch v2 における watch_id の範囲チェックが改善されました。アドレスウォッチのクリアコードは watch_id を符号なし値（u32）として受け取りますが、一部の補助関数が符号付き int を使用し、watch_id のシフトによるビットチェックを行っていました。非常に大きな watch_id がユーザースペースから渡された場合、それが負の値に変換され、不正なシフトが発生し、watch_points 配列の範囲外メモリにアクセスする可能性がありました。修正内容としては、watch_id を使用する前に MAX_WATCH_ADDRESSES 内にあることをチェックし、ビットのテストとクリアには BIT(watch_id) を用いて安全に処理するようにしました。これにより、有効な watch ID では動作が変更されず、不正な ID に対する未定義動作を回避できます。問題の修正対象は、drivers/gpu/drm/amd/amdgpu/../amdkfd/kfd_debug.c の kfd_dbg_trap_clear_dev_address_watch() 関数（448行目）で発生していたバッファオーバーフローです。kfd_dbg_owns_dev_watch_id() は負の値をチェックしなかったため、watch_id が INT_MAX を超えるとバッファオーバーフローが発生しました（負のシフトは未定義動作となります）。v2 では Jonathan Kim による修正として、セットパスに早期の watch_id = MAX_WATCH_ADDRESSES バリデーションを追加し、クリアパスと一致させました。また、kfd_dbg_owns_dev_watch_id() 内の冗長な範囲チェックを削除しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021072.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592475+00:00"
-    },
-    {
-      "id": "1dfc7977c2cfb375",
-      "content_hash": "1dfc7977c2cfb3753d3507c901c229e630dd02fe0cb1564a590124f2dfb43f06",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021071.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。power: supply: bq25980に関するpower_supply_changed()内のuse-after-freeの問題を修正しました。IRQを要求するための`devm_`バリアントを、`power_supply`ハンドルを割り当て・登録するための`devm_`バリアントの前に使用すると、`power_supply`ハンドルが割り当て解除・登録解除される前に割り込みハンドラが実行されてしまいます（`devm_`は自然に割り当ての逆順で解放します）。これにより削除処理中に、`power_supply`ハンドルが解放された直後かつ対応するIRQハンドラの登録解除処理が実行される前に割り込みが発生する競合状態が生じます。その結果、IRQハンドラは解放済みの`power_supply`ハンドルを使用して`power_supply_changed()`を呼び出し、通常はシステムクラッシュやメモリの不正な破損を引き起こします。なお、`probe()`中にも類似の状況が発生する可能性があり、その場合は`power_supply`ハンドルが登録される前に割り込みが発生します。この場合、初期化されていない`power_supply`ハンドルを`power_supply_changed()`で使用するという深刻な問題となります。この競合によるuse-after-freeを修正するため、IRQの要求を`power_supply`ハンドルの登録後に行うようにしました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021071.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592490+00:00"
-    },
-    {
-      "id": "5117da6e0314803a",
-      "content_hash": "5117da6e0314803a29a7f2a09b5060202491e26ee41217a155759b5ed6da2c45",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021070.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。PCI/P2PDMAにおいて、vm_insert_page()が失敗した場合にper-CPUのpgmap参照を適切に解放します。p2pmem_alloc_mmap()内でvm_insert_page()が失敗すると、p2pmem_alloc_mmap()はgen_pool_alloc_owner()で取得したpgmapのper-CPU参照を解放するためのpercpu_ref_put()を呼び出しませんでした。その結果、memunmap_pages()がPCIデバイスの削除時に永久にハングする問題が発生していました。この問題は、欠落していたpercpu_ref_put()を追加することで修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021070.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592504+00:00"
-    },
-    {
-      "id": "91eb743be8bf909e",
-      "content_hash": "91eb743be8bf909eb8d56e90864d036bb586d3efa783f826cc14f4f47edb3fc9",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021069.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、soc:mediatek:svs:svs_enable_debug_write()内のメモリリークの脆弱性が修正されました。この関数ではmemdup_user_nul()によって割り当てられたbufがkstrtoint()の失敗時に解放されずリークしていましたが、__free(kfree)の自動解放機能によりメモリリークを防止しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021069.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592518+00:00"
-    },
-    {
-      "id": "3aaf3ee23da908e6",
-      "content_hash": "3aaf3ee23da908e60f66fcf478dcab11f710d17507762fd337074641fee5f25f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021068.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、power_supply_changed()関数のuse-after-free脆弱性が修正されました。この問題は、割り込みハンドラが解放されたpower_supplyハンドルを使用することで引き起こされ、システムがクラッシュしたりメモリが破損したりする可能性があります。この競合状態は、IRQのリクエストをpower_supplyハンドルの登録後に行うことで解決されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-021068.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T03:00:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592532+00:00"
     }
   ]
 }
