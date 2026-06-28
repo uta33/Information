@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-28T21:52:41.233627+00:00",
+  "generated_at": "2026-06-28T22:52:48.570017+00:00",
   "items": [
+    {
+      "id": "a26afdeac57ea6fb",
+      "content_hash": "a26afdeac57ea6fba705377f473934a0b3f74e55e237bfdfb756735977bef8fc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2401.07013",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48712420\">Comments</a>",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T22:32:04+00:00",
+      "created_at": "2026-06-28T22:52:48.569428+00:00"
+    },
+    {
+      "id": "30756833e5f6cefc",
+      "content_hash": "30756833e5f6cefc3b32e149535c7b759a7a4fb2b15858ad9304ff310afda6fe",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13509",
+      "title": "CVE-2026-13509 - A vulnerability has been found in RAGapp up to 0.1.5. Affected is the function F...",
+      "body": "A vulnerability has been found in RAGapp up to 0.1.5. Affected is the function FileHandler.upload_file/FileHandler.remove_file of the file src/ragapp/backend/controllers/files.py of the component Knowledge File Handler. Such manipulation leads to path traversal. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13509",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-06-28T22:16:48.480000",
+      "created_at": "2026-06-28T22:52:41.324364+00:00"
+    },
+    {
+      "id": "9f6cb96aec3eec7a",
+      "content_hash": "9f6cb96aec3eec7aab3a69431d6bb37074224d73280b970bed9e9f83dffb61f2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13508",
+      "title": "CVE-2026-13508 - A flaw has been found in khoj-ai khoj up to 2.0.0-beta.28. This impacts an unkno...",
+      "body": "A flaw has been found in khoj-ai khoj up to 2.0.0-beta.28. This impacts an unknown function of the file src/khoj/routers/api_chat.py of the component Conversation Sharing Handler. This manipulation of the argument conversation.agent causes incorrect authorization. Remote exploitation of the attack is possible. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13508",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.5,
+      "published_at": "2026-06-28T22:16:48.303000",
+      "created_at": "2026-06-28T22:52:41.324358+00:00"
+    },
+    {
+      "id": "a01489999362b53a",
+      "content_hash": "a01489999362b53af69c47fac5fd87c03c87ab336efc26d1d6ba0f8cea7bc5ce",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13507",
+      "title": "CVE-2026-13507 - A vulnerability was detected in volcengine OpenViking up to 0.3.21. This affects...",
+      "body": "A vulnerability was detected in volcengine OpenViking up to 0.3.21. This affects the function str_to_uint64 of the file openviking/storage/vectordb/utils/str_to_uint64.py of the component Local VectorDB Primary-key Label Handler. The manipulation of the argument ID results in insufficient verification of data authenticity. The attack may be launched remotely. Attacks of this nature are highly complex. The exploitability is reported as difficult. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13507",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.0,
+      "published_at": "2026-06-28T22:16:47.293000",
+      "created_at": "2026-06-28T22:52:41.324351+00:00"
+    },
     {
       "id": "e029f581c5589f62",
       "content_hash": "e029f581c5589f6218aeec4a0e98341d79ab45594b6412772312675adc230faf",
@@ -6092,6 +6148,20 @@
       "created_at": "2026-06-26T18:21:13.014513+00:00"
     },
     {
+      "id": "a0553c82a80093d8",
+      "content_hash": "a0553c82a80093d860bd4d3e0fd041804ca2e06f5217d005ac87760920d8f425",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://atomsfrontier.substack.com/p/the-excavator-that-digs-to-a-line",
+      "title": "The Excavator That Digs to a Line It Cannot See – Mobility and Field Robotics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48687106\">Comments</a>",
+      "url": "https://atomsfrontier.substack.com/p/the-excavator-that-digs-to-a-line",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T14:32:57+00:00",
+      "created_at": "2026-06-28T22:52:48.569827+00:00"
+    },
+    {
       "id": "266553a8e7c99d83",
       "content_hash": "266553a8e7c99d83362426323c6a614eb555677ab782b5c98b312c04fc187397",
       "source_name": "CVE (NVD)",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-06-26T08:16:23.830000",
       "created_at": "2026-06-26T23:53:04.242961+00:00"
-    },
-    {
-      "id": "4cc1fe41468756ae",
-      "content_hash": "4cc1fe41468756ae3996941bb69a7ef98814ae49c9799f719565980b982f6079",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-2053",
-      "title": "CVE-2026-2053 - The WSO2 API Manager's message flow component, when processing WS-Addressing hea...",
-      "body": "The WSO2 API Manager's message flow component, when processing WS-Addressing headers, does not sufficiently validate or restrict user-controlled input within these headers. This omission allows an attacker to manipulate WS-Addressing headers to specify arbitrary destinations for server-initiated requests.\n\nSuccessful exploitation allows an unauthenticated attacker to control the destination of server-initiated requests originating from the WSO2 API Manager. This direct control can enable unauthorized access to internal network resources or services that would typically be inaccessible from external networks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2053",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-06-26T08:16:21.603000",
-      "created_at": "2026-06-26T23:53:04.242954+00:00"
-    },
-    {
-      "id": "2ba99e8a5430d19d",
-      "content_hash": "2ba99e8a5430d19d42b48c54bc7cb20620c9b3cf730b4bd7464f61769aa113aa",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "title": "Why current LLM costs are not sustainable",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48683588\">Comments</a>",
-      "url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T07:44:11+00:00",
-      "created_at": "2026-06-26T08:48:14.965641+00:00"
-    },
-    {
-      "id": "fee382f7941e42ec",
-      "content_hash": "fee382f7941e42ecae10b49e5e360cdec730e66e9053d605cec4c9eeebcc5887",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8380",
-      "title": "CVE-2026-8380 - The Frontend File Manager Plugin WordPress plugin through 23.6 does not properly...",
-      "body": "The Frontend File Manager Plugin WordPress plugin through 23.6 does not properly verify ownership of every targeted post before permanent deletion, allowing authenticated users with author-level access and above to permanently delete arbitrary posts and pages. When the Frontend File Manager Plugin WordPress plugin through 23.6's \"Allow guest uploads\" setting is enabled by an administrator, the same deletion primitive becomes reachable by unauthenticated users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8380",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-26T07:16:22.383000",
-      "created_at": "2026-06-26T23:53:04.242947+00:00"
-    },
-    {
-      "id": "b8534a43c94717b2",
-      "content_hash": "b8534a43c94717b27333b2e6ef15796fa02bcb0096633c3c88f31429d4d4a701",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10835",
-      "title": "CVE-2026-10835 - The SALESmanago & Leadoo WordPress plugin before 3.11.3 does not properly saniti...",
-      "body": "The SALESmanago & Leadoo WordPress plugin before 3.11.3 does not properly sanitise and escape a parameter passed to one of its AJAX actions before using it in a SQL statement, and fails to enforce authorisation on that action, allowing authenticated users with minimal permissions, such as subscribers, to perform SQL injection attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10835",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-06-26T07:16:22.120000",
-      "created_at": "2026-06-26T23:53:04.242941+00:00"
-    },
-    {
-      "id": "d76994540761f55c",
-      "content_hash": "d76994540761f55cec3ab1bf1478a23f06f2d5d87db4bda6d00c17aca33d2081",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10823",
-      "title": "CVE-2026-10823 - The YMC Filter WordPress plugin before 3.11.3 does not properly authorize access...",
-      "body": "The YMC Filter WordPress plugin before 3.11.3 does not properly authorize access to one of its REST API endpoints and does not validate a user-supplied query parameter, allowing unauthenticated attackers to retrieve the titles and content of private, draft, and other non-public posts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10823",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T07:16:22.017000",
-      "created_at": "2026-06-26T23:53:04.242934+00:00"
     }
   ]
 }
