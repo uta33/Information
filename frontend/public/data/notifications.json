@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-28T06:52:59.459287+00:00",
+  "generated_at": "2026-06-28T09:51:24.087273+00:00",
   "items": [
+    {
+      "id": "4ec321f0ecafadbe",
+      "content_hash": "4ec321f0ecafadbe5d18337a962f17c42956524a41644e272a9f5561461e6330",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13484",
+      "title": "CVE-2026-13484 - A vulnerability has been found in MLflow up to 4666cffc7912ea606d592fc38d6a75e29...",
+      "body": "A vulnerability has been found in MLflow up to 4666cffc7912ea606d592fc38d6a75e2935f65e7. The impacted element is an unknown function of the component Experiment-scoped Label Schema CRUD API. Such manipulation leads to missing authorization. It is possible to launch the attack remotely. A high complexity level is associated with this attack. The exploitability is regarded as difficult. The exploit has been disclosed to the public and may be used. A reply to the GitHub issue explains, that \"[t]he labeling schema PR has not been merged yet. The auth handlers will be added before the release.\"",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13484",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.0,
+      "published_at": "2026-06-28T09:16:27.027000",
+      "created_at": "2026-06-28T09:51:20.608578+00:00"
+    },
+    {
+      "id": "92a5c1343dc6d741",
+      "content_hash": "92a5c1343dc6d74131566d2fb60bb170ccc49ff141537c0fd29227622715a7fe",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nikkei.shorthandstories.com/can-china-build-its-own-asml/",
+      "title": "Can China build its own ASML?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48705276\">Comments</a>",
+      "url": "https://nikkei.shorthandstories.com/can-china-build-its-own-asml/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T07:45:23+00:00",
+      "created_at": "2026-06-28T09:51:24.086765+00:00"
+    },
+    {
+      "id": "2d2d20618a553567",
+      "content_hash": "2d2d20618a553567d64b1e0bc77d2c0c3bc2d07296b7e7e3626a39ca6b02a74c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13483",
+      "title": "CVE-2026-13483 - A flaw has been found in arc53 DocsGPT up to 0.18.0. The affected element is the...",
+      "body": "A flaw has been found in arc53 DocsGPT up to 0.18.0. The affected element is the function encrypt_credentials of the file application/security/encryption.py of the component Credential Storage. This manipulation causes insufficient verification of data authenticity. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is described as difficult. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13483",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "published_at": "2026-06-28T07:16:21.417000",
+      "created_at": "2026-06-28T09:51:20.608572+00:00"
+    },
     {
       "id": "4320afaacc297b6f",
       "content_hash": "4320afaacc297b6f53a8934f73d4f3e1d98da11988115bc52d60a97c3dcafdbb",
@@ -296,6 +338,20 @@
       "created_at": "2026-06-28T02:14:12.021439+00:00"
     },
     {
+      "id": "af3fd2bfe514720f",
+      "content_hash": "af3fd2bfe514720f9b4728af98dde125d66a467581f2c9d94e77cf78d4b222a9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jayacunzo.com/blog/your-move-chief",
+      "title": "The best response to AI slop and online noise is from Robin Williams",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48703452\">Comments</a>",
+      "url": "https://jayacunzo.com/blog/your-move-chief",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T01:28:10+00:00",
+      "created_at": "2026-06-28T09:51:24.086933+00:00"
+    },
+    {
       "id": "11baa98526399bb6",
       "content_hash": "11baa98526399bb6172928b6beddbf7f7602df4a7315fe6202266a4b2a5d108b",
       "source_name": "Hacker News (Best)",
@@ -308,6 +364,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T01:22:30+00:00",
       "created_at": "2026-06-28T06:52:59.458946+00:00"
+    },
+    {
+      "id": "9d059e75ccc2d235",
+      "content_hash": "9d059e75ccc2d2352e91d0e29967d059fa2a37069df6003fedfaff13326621b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/",
+      "title": "Turning music into a chore is how I became a musician (2022)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48703418\">Comments</a>",
+      "url": "https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T01:22:30+00:00",
+      "created_at": "2026-06-28T09:51:24.086868+00:00"
     },
     {
       "id": "934fe41a7cac1fe1",
@@ -476,6 +546,20 @@
       "cvss_score": null,
       "published_at": "2026-06-27T21:27:36+00:00",
       "created_at": "2026-06-27T22:52:54.472960+00:00"
+    },
+    {
+      "id": "970ad173152c4916",
+      "content_hash": "970ad173152c491623865746b862fcffaa946f47ea48b02924b7eb0d7dd794f4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+      "title": "Enhancing X11 Application Security with LXC (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48701936\">Comments</a>",
+      "url": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T21:27:36+00:00",
+      "created_at": "2026-06-28T09:51:24.086951+00:00"
     },
     {
       "id": "583d8045860e6dee",
@@ -5014,6 +5098,20 @@
       "created_at": "2026-06-26T18:21:13.014346+00:00"
     },
     {
+      "id": "633b4e1c98504ac3",
+      "content_hash": "633b4e1c98504ac3f25899bcce9e2b567ed7465284e319c7defc275f16f7f3b4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://magnusross.github.io/posts/reflecting-to-optimise/",
+      "title": "Reflecting to optimise",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48686804\">Comments</a>",
+      "url": "https://magnusross.github.io/posts/reflecting-to-optimise/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T14:07:41+00:00",
+      "created_at": "2026-06-28T09:51:24.086628+00:00"
+    },
+    {
       "id": "baf0ad457ff3f1f9",
       "content_hash": "baf0ad457ff3f1f9ef8051bdc56f50100610e1b729ba835946df1724f5ce4683",
       "source_name": "Bleeping Computer",
@@ -5194,6 +5292,20 @@
       "cvss_score": null,
       "published_at": "2026-06-26T12:41:31+00:00",
       "created_at": "2026-06-28T06:52:59.458878+00:00"
+    },
+    {
+      "id": "33739644467f3035",
+      "content_hash": "33739644467f3035d3d8e7dd250fcbac80300e9cc9c06b01eb17f05b2ddea129",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition",
+      "title": "Engineering for Bounded Cognition",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48685967\">Comments</a>",
+      "url": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-26T12:41:31+00:00",
+      "created_at": "2026-06-28T09:51:24.086648+00:00"
     },
     {
       "id": "eb96dfce2a860eae",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-06-26T02:49:00+00:00",
       "created_at": "2026-06-26T05:02:28.827418+00:00"
-    },
-    {
-      "id": "f10bc119a6c7d14f",
-      "content_hash": "f10bc119a6c7d14f303cbdc2e2f862470395d9287efcd767bd5f304c5c3d41e8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020865.html",
-      "title": "デルのDell Peripheral Managerにおける制御されていない検索パスの要素に関する脆弱性",
-      "body": "Dell Peripheral Managerのバージョン1.5.1から1.7.2には、制御されていない検索パス要素の脆弱性が含まれています。この脆弱性を悪用することで、攻撃者は悪意のある実行可能ファイルをプリロードし、任意のコードを実行する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020865.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827433+00:00"
-    },
-    {
-      "id": "dd77e153c988deba",
-      "content_hash": "dd77e153c988debabc468bac3178b429e5c18cb3a93046fbddfa28bbed5d7ba3",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2024/JVNDB-2024-030119.html",
-      "title": "HarfBuzz projectのHarfBuzzにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "HarfBuzzはテキストシェーピングエンジンです。バージョン8.5.0から10.0.1までにおいて、hb_cairo_glyphs_from_buffer関数にヒープベースのバッファオーバーフローの脆弱性が存在します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2024/JVNDB-2024-030119.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827450+00:00"
-    },
-    {
-      "id": "2426e0f983b76209",
-      "content_hash": "2426e0f983b76209d0206970530088e486aa529a1105c1c54233a850f94d3c51",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020864.html",
-      "title": "Apache Software FoundationのApache Atlasにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "認証されたユーザーがXSSを実行できる可能性があります。この問題はApache Atlasのバージョン2.4.0およびそれ以前のバージョンに影響します。ユーザーには、この問題を修正したバージョン2.5.0にアップグレードすることを推奨します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020864.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827465+00:00"
-    },
-    {
-      "id": "39642bdddb9aa360",
-      "content_hash": "39642bdddb9aa360df9480aa87405a94e79e03d0e1c35f68aba7705d932851b8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020863.html",
-      "title": "LinuxのLinux Kernelにおける競合状態に関する脆弱性",
-      "body": "Linuxカーネルにおいて、accel/amdxdna の rpm_on チェック時に発生する競合状態の脆弱性が修正されました。この脆弱性は、オートサスペンドがトリガーされる際に rpm_on フラグが誤って処理され、デバイスのレジュームが正しく行われないため、ユーザー空間のアプリケーションが不正なコマンドを送信できる可能性がある問題です。修正では、rpm_on フラグの使用を廃止し、デバイスを明示的にレジュームしてからセットアップを行う新しい関数 aie2_pm_set_dpm() を導入して、この問題を解決しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020863.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827480+00:00"
-    },
-    {
-      "id": "0b7aee71d1ee6876",
-      "content_hash": "0b7aee71d1ee6876a47fa4eeff52a62bb86a96d03178d79e0dc5383a5bf84ad2",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020862.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルで修正された脆弱性は、Smackの/smack/doiに過去に使用した値を再度書き込むと、非アンビエントトラベルのネットワーキング機能が無効になる問題です。この問題は、Smackが古いDOIを保持し続けて再追加に失敗し、defaultドメインマップの追加を拒否することが原因です。修正により、廃止されたDOI定義をクリアし、DOIの更新処理を正しく直列化するようにしました。また、未設定の/smack/doiを許容し、古いマップの削除前に新しいDOIを追加することで、失敗時に問題が発生しないようにしています。この修正によってネットワークのラベル付けの信頼性が向上します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020862.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827496+00:00"
-    },
-    {
-      "id": "8ae25cbe65be0f2d",
-      "content_hash": "8ae25cbe65be0f2df74de56aa88c2c57716e4148934fd0f499b35da320e286aa",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020861.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルのdrm/display/dp_mstにおいて、vcpiが0になる場合の保護が追加されました。DP 2.1対応モニターの切断後に遅延破棄作業が実行されると、vcpiが0となりペイロードマスクの計算時に負のシフト演算が発生してオーバーフローが起こる可能性がありました。この問題を修正し、vcpiが0の場合はペイロードマスクの変更をスキップするようにしています。これにより、カーネルの不安定な挙動を防止します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020861.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827511+00:00"
-    },
-    {
-      "id": "7a017655cdbbf864",
-      "content_hash": "7a017655cdbbf864d63434d26b59910d42a1d079b4e9409e5f4b9f940ca12da0",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020860.html",
-      "title": "LinuxのLinux Kernelにおける境界外読み取りに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。ima: is_bprm_creds_for_exec()内のスタック境界外アクセスの修正です。KASANはis_bprm_creds_for_execからima_appraise_measurementにおけるスタック境界外アクセスを報告しました。具体的には、BUG: KASAN: ima_appraise_measurement+0x12dc/0x16a0でサイズ1のスタック境界外アクセス読み取りがアドレスffffc9000160f940でタスクsudo/550によって実行されました。問題のあるアドレスはタスクsudo/550のスタックに属し、次のフレームのオフセット24に存在します：ima_appraise_measurement+0x0/0x16a0。このフレームには2つのオブジェクトがあります。[48, 56) 'file'と[80, 148) 'hash'です。これは*fileポインタに対してcontainer_ofを使用したことが原因で、このオフセット計算がスタック境界外エラーを引き起こしました。この問題を修正するために、process_measurementの呼び出し方法に応じて設定可能なbprm_is_checkというブール値を渡すようにしました。呼び出し元がlinux_binprmポインタを持ち、関数がBPRM_CHECKの場合はis_checkを判断して設定します。それ以外の場合はfalseに設定します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020860.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827527+00:00"
-    },
-    {
-      "id": "6b96fd74f0ac7690",
-      "content_hash": "6b96fd74f0ac7690833f5566732f7617d9dd09565829f89a87ead3aaff76fa2f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020859.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：drm/panthorのpanthor_fw_unplugで発生するNULLポインタ参照の問題です。このパッチは、panthor_fw_unplug()内でのMCUの停止および停止待機手順を削除します。なぜなら、MCUは様々な状態にある可能性があり、ファームウェアがロードされていなかったり初期化されていなかったりすることがあり、それがNULLポインタ参照を引き起こす可能性があるためです。MCUが停止できない場合もあるため、アンプラグ時には停止を待たずにMCUを無効化することが安全だと考えられています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-020859.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T02:49:00+00:00",
-      "created_at": "2026-06-26T05:02:28.827543+00:00"
     }
   ]
 }
