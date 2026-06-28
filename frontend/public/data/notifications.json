@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-28T20:50:38.735155+00:00",
+  "generated_at": "2026-06-28T21:52:41.233627+00:00",
   "items": [
+    {
+      "id": "e029f581c5589f62",
+      "content_hash": "e029f581c5589f6218aeec4a0e98341d79ab45594b6412772312675adc230faf",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3137041",
+      "title": "California law targeting loud streaming ads takes effect on July 1",
+      "body": "Streaming ads might be getting a lot quieter.",
+      "url": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T21:34:14+00:00",
+      "created_at": "2026-06-28T21:52:40.889062+00:00"
+    },
     {
       "id": "edb1f5f2bf573574",
       "content_hash": "edb1f5f2bf573574b7a0e5c29ee23710f4c91035ba92d3687ce0c12238626c10",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T19:38:00+00:00",
       "created_at": "2026-06-28T20:50:38.734464+00:00"
+    },
+    {
+      "id": "2820fdeca72decd4",
+      "content_hash": "2820fdeca72decd46449eb6dc3f6748fe2761c11060eacbbce640616a6a4f3a6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
+      "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710775\">Comments</a>",
+      "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T19:38:00+00:00",
+      "created_at": "2026-06-28T21:52:41.232961+00:00"
     },
     {
       "id": "266ab6dd12fe18d8",
@@ -86,6 +114,20 @@
       "created_at": "2026-06-28T20:50:38.734709+00:00"
     },
     {
+      "id": "9703c80ec3da968c",
+      "content_hash": "9703c80ec3da968c381b49498d30062986d93a960cdae1000802c74d10542f71",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
+      "title": "Do LLMs pass the mirror test?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710414\">Comments</a>",
+      "url": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T19:06:07+00:00",
+      "created_at": "2026-06-28T21:52:41.233221+00:00"
+    },
+    {
       "id": "2a41e46124660a9a",
       "content_hash": "2a41e46124660a9a448f6747a85a63588993464b6712db2cbe2c34272bc1368c",
       "source_name": "TechCrunch",
@@ -114,6 +156,20 @@
       "created_at": "2026-06-28T20:50:38.734624+00:00"
     },
     {
+      "id": "4776bc13cc8502c7",
+      "content_hash": "4776bc13cc8502c72846444c264cf49daa3eadaefedb892fad2068e95991f9bd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+      "title": "British Origami: the 1955 exhibition by Akira Yoshizawa",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710325\">Comments</a>",
+      "url": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T18:56:46+00:00",
+      "created_at": "2026-06-28T21:52:41.233307+00:00"
+    },
+    {
       "id": "6fcda5d96ba48c0a",
       "content_hash": "6fcda5d96ba48c0a295eaae08b91eab97b9147913f60ce574efa4f5b2b1daa92",
       "source_name": "Hacker News (Best)",
@@ -126,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T18:48:53+00:00",
       "created_at": "2026-06-28T20:50:38.734367+00:00"
+    },
+    {
+      "id": "9dc199df2ed8a4bb",
+      "content_hash": "9dc199df2ed8a4bbf3bd42a5f3cfd61ab202e6bcb2657f1c1a1532aaf3c52996",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/librepods-org/librepods",
+      "title": "Librepods: AirPods liberated",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48710232\">Comments</a>",
+      "url": "https://github.com/librepods-org/librepods",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T18:48:53+00:00",
+      "created_at": "2026-06-28T21:52:41.232978+00:00"
     },
     {
       "id": "a17768d94887b5ac",
@@ -168,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T17:50:47+00:00",
       "created_at": "2026-06-28T20:50:38.734443+00:00"
+    },
+    {
+      "id": "6228859f0d79b957",
+      "content_hash": "6228859f0d79b95764086e493fdcfecf2e28e1bc7a03af9d2e3d90c082182762",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48709670\">Comments</a>",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T17:50:47+00:00",
+      "created_at": "2026-06-28T21:52:41.232861+00:00"
     },
     {
       "id": "97f1287b0bcad642",
@@ -224,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T16:58:56+00:00",
       "created_at": "2026-06-28T18:00:23.070109+00:00"
+    },
+    {
+      "id": "2e3eb107efd753e9",
+      "content_hash": "2e3eb107efd753e9baad048f4110371de747b1d046e4c578e2773a2b60708b05",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48708991\">Comments</a>",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T16:41:12+00:00",
+      "created_at": "2026-06-28T21:52:41.233070+00:00"
     },
     {
       "id": "623cebac4ca0547c",
@@ -6902,104 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-06-26T07:16:22.017000",
       "created_at": "2026-06-26T23:53:04.242934+00:00"
-    },
-    {
-      "id": "4168daa73b77e043",
-      "content_hash": "4168daa73b77e043fe44d935bd881c9c89d9a1a6c1d06d766ffabdeecf7050c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-10268",
-      "title": "CVE-2025-10268 - The Printcart Web to Print Product Designer for WooCommerce WordPress plugin thr...",
-      "body": "The Printcart Web to Print Product Designer for WooCommerce WordPress plugin through 2.4.8 is vulnerable to path traversal which makes it possible for the attacker to retrieve the directory listing for arbitrary directories on the server.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10268",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-06-26T07:16:21.750000",
-      "created_at": "2026-06-26T23:53:04.242927+00:00"
-    },
-    {
-      "id": "3581e9eb70b51f74",
-      "content_hash": "3581e9eb70b51f741d09923006fd86634806b0f708ca91c3dd062fd0468d714d",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "body": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organizations in Ukraine, and entities that have an interest in Italian foreign policy.\n\nDescribing the Windows backdoor as continually developed by the hacking group, Google Threat Intelligence Group (",
-      "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T07:15:46+00:00",
-      "created_at": "2026-06-26T08:47:47.513835+00:00"
-    },
-    {
-      "id": "d851a9610df52706",
-      "content_hash": "d851a9610df5270603ea4b0e7094c0468148109c0dd9daa5be0e2be8aa91a95e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854",
-      "title": "Micron locks in historically high memory prices for five years",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48683041\">Comments</a>",
-      "url": "https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-06-26T06:27:25+00:00",
-      "created_at": "2026-06-26T08:48:14.965928+00:00"
-    },
-    {
-      "id": "a04200ebede3be41",
-      "content_hash": "a04200ebede3be41344b2ffc1cc0b4540eb9e930143efc54a665acc9248fb4cd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://smist08.wordpress.com/2026/06/25/linux-kills-strncpy/",
-      "title": "Linux Kills Strncpy",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48682979\">Comments</a>",
-      "url": "https://smist08.wordpress.com/2026/06/25/linux-kills-strncpy/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T06:19:39+00:00",
-      "created_at": "2026-06-28T19:22:26.534368+00:00"
-    },
-    {
-      "id": "56fbf4678de280a0",
-      "content_hash": "56fbf4678de280a0e2bb6e525b7b2c3367f7e0ee2315776012b025e286c13ddf",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://akrites.org/letter/",
-      "title": "We All Depend on Open Source. We Will Defend It Together",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48682737\">Comments</a>",
-      "url": "https://akrites.org/letter/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-06-26T05:40:36+00:00",
-      "created_at": "2026-06-26T08:48:14.965736+00:00"
-    },
-    {
-      "id": "8f0976c7f3614f11",
-      "content_hash": "8f0976c7f3614f115dab9119f236eba648ffb619c4e66e39a4823246e8939977",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://akrites.org/letter/",
-      "title": "We all depend on open source. We will defend it together",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48682737\">Comments</a>",
-      "url": "https://akrites.org/letter/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-06-26T05:40:36+00:00",
-      "created_at": "2026-06-26T13:59:42.846707+00:00"
-    },
-    {
-      "id": "dfc82a02b1880227",
-      "content_hash": "dfc82a02b1880227173f1e5a02555cc686f3ef47ab5ac6c53533a185fe985ada",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000088.html",
-      "title": "ExpressUpdate Agent for Windowsにおける名前付きパイプに対するアクセス制御不備の脆弱性",
-      "body": "日本電気株式会社が提供するExpressUpdate Agent for Windowsは、同社製サーバ製品の更新管理エージェントです。\nExpressUpdate Agent for Windowsには、次の脆弱性が存在します。\n<ul><li>IOCTLに対するアクセス制御不備（CWE-782) - CVE-2026-8797</li></ul>\nこの脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。\n報告者：株式会社ラック 飯田 雅裕 氏",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000088.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T05:17:00+00:00",
-      "created_at": "2026-06-26T08:48:14.592151+00:00"
     }
   ]
 }
