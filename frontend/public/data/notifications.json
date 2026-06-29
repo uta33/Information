@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-29T22:02:47.974380+00:00",
+  "generated_at": "2026-06-29T23:52:00.340341+00:00",
   "items": [
+    {
+      "id": "4450a9404d15ede2",
+      "content_hash": "4450a9404d15ede2808b879322e9dde92cb1dbf00372fcd4dbe6bc45ebb83c92",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48726102\">Comments</a>",
+      "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T22:21:00+00:00",
+      "created_at": "2026-06-29T23:52:00.339689+00:00"
+    },
+    {
+      "id": "f2a5d806a951900a",
+      "content_hash": "f2a5d806a951900a4660909ee25bdd6c9a571d3040b95ee72d5e3105a7c64b3b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+      "title": "Scientists find molecular-level evidence for two structures in liquid water",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48726073\">Comments</a>",
+      "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T22:18:26+00:00",
+      "created_at": "2026-06-29T23:52:00.339580+00:00"
+    },
     {
       "id": "94d54eb46ac7c359",
       "content_hash": "94d54eb46ac7c3591a1312ebdddb4e5974be99c89793f131a2434f1ff0cb2f0d",
@@ -562,6 +590,20 @@
       "created_at": "2026-06-29T18:57:04.266164+00:00"
     },
     {
+      "id": "0288429e4290e99e",
+      "content_hash": "0288429e4290e99eec31e34628ff6320d7cef7946b7f46f246ffbfa07c3fdebf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://queue.acm.org/detail.cfm?id=3819084",
+      "title": "What can you confidently guarantee about your software?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48719521\">Comments</a>",
+      "url": "https://queue.acm.org/detail.cfm?id=3819084",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T14:12:05+00:00",
+      "created_at": "2026-06-29T23:52:00.340006+00:00"
+    },
+    {
       "id": "27bf6c5c3016537d",
       "content_hash": "27bf6c5c3016537de36aec56e17956095a0110081b5cb6b1d0dec14ea242c0f2",
       "source_name": "Hacker News (Best)",
@@ -924,6 +966,48 @@
       "cvss_score": null,
       "published_at": "2026-06-29T09:28:08+00:00",
       "created_at": "2026-06-29T16:33:29.040867+00:00"
+    },
+    {
+      "id": "5653b9757f162563",
+      "content_hash": "5653b9757f1625630b845c2072e7db82066c0c1d042b0b81455c46d9491412b4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-22078",
+      "title": "CVE-2026-22078 - Because O+ Connect's IPC service does not authenticate clients, external applica...",
+      "body": "Because O+ Connect's IPC service does not authenticate clients, external applications can escalate privileges and perform sensitive actions through the IPC channel.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22078",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-06-29T09:16:28.440000",
+      "created_at": "2026-06-29T23:51:55.366648+00:00"
+    },
+    {
+      "id": "1a820392858fa576",
+      "content_hash": "1a820392858fa576ce00f73e65999dfecb149f767e1787d4b77a946cb5be75bb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13595",
+      "title": "CVE-2026-13595 - A flaw was found in the libblkid library of util-linux. During nested partition ...",
+      "body": "A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13595",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.8,
+      "published_at": "2026-06-29T09:16:28.303000",
+      "created_at": "2026-06-29T23:51:55.366634+00:00"
+    },
+    {
+      "id": "0966cbf6252ec8a9",
+      "content_hash": "0966cbf6252ec8a90287dec79433cbb726c8ec726096dde8e36bfdf25b4372d6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13551",
+      "title": "CVE-2026-13551 - A security vulnerability has been detected in itsourcecode Baptism Information M...",
+      "body": "A security vulnerability has been detected in itsourcecode Baptism Information Management System 1.0. This affects an unknown function of the file /editBaptism.php. Such manipulation of the argument ID leads to sql injection. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13551",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-06-29T09:16:28.160000",
+      "created_at": "2026-06-29T23:51:55.366627+00:00"
     },
     {
       "id": "7529865e2d31c522",
@@ -1386,6 +1470,20 @@
       "cvss_score": null,
       "published_at": "2026-06-29T05:05:35+00:00",
       "created_at": "2026-06-29T22:02:47.974042+00:00"
+    },
+    {
+      "id": "56c7b266967a5e71",
+      "content_hash": "56c7b266967a5e71c78e59b28c33315ff293ffbf2a6490876a124402f3dde5c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/",
+      "title": "Is sunscreen the new margarine? (2019)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48715020\">Comments</a>",
+      "url": "https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T05:05:35+00:00",
+      "created_at": "2026-06-29T23:52:00.340063+00:00"
     },
     {
       "id": "10b5936a93053c3d",
@@ -4608,6 +4706,20 @@
       "created_at": "2026-06-27T16:54:28.188171+00:00"
     },
     {
+      "id": "11213132d08750a4",
+      "content_hash": "11213132d08750a41534b69b20a4268bd0b82ebd179ac793909449b31745a091",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "title": "Free the Icons",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48698908\">Comments</a>",
+      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T15:05:17+00:00",
+      "created_at": "2026-06-29T23:52:00.339557+00:00"
+    },
+    {
       "id": "0c1da8b6dd965ad6",
       "content_hash": "0c1da8b6dd965ad69041738986ea72e54247e4985f66220954f897dfe0de089b",
       "source_name": "Hacker News (Best)",
@@ -4816,6 +4928,20 @@
       "cvss_score": null,
       "published_at": "2026-06-27T12:19:37+00:00",
       "created_at": "2026-06-27T13:05:32.054060+00:00"
+    },
+    {
+      "id": "26c2e14c3c22ff14",
+      "content_hash": "26c2e14c3c22ff14af5c0f17c167b897cb2851880b0194a77a89c35fea853a87",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/mat-mgm/kb-prolog",
+      "title": "Kb – Prolog Knowledge Base",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48697599\">Comments</a>",
+      "url": "https://github.com/mat-mgm/kb-prolog",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T12:16:27+00:00",
+      "created_at": "2026-06-29T23:52:00.339824+00:00"
     },
     {
       "id": "efc759ae83afbaa1",
@@ -6874,132 +7000,6 @@
       "cvss_score": 9.9,
       "published_at": "2026-06-26T20:17:13.380000",
       "created_at": "2026-06-27T17:54:05.965429+00:00"
-    },
-    {
-      "id": "4ba8b90edf56ee8e",
-      "content_hash": "4ba8b90edf56ee8e4943c7175b005a8c1829dd5c6f95d790a638ec964eb0baeb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44736",
-      "title": "CVE-2026-44736 - OpenProject is open-source, web-based project management software. Prior to 17.4...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.4.0, the GET /api/v3/relations endpoint allows any authenticated user to retrieve relations — and the subject (title) of work packages they have no permission to view — by supplying an arbitrary work package ID in the involved, fromId, or toId filter. This bypasses the Relation.visible scope due to a flawed performance optimization in RelationQuery. This vulnerability is fixed in 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44736",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-26T20:17:03.657000",
-      "created_at": "2026-06-27T17:54:05.965422+00:00"
-    },
-    {
-      "id": "ca2c8470adc6467d",
-      "content_hash": "ca2c8470adc6467d8387cbe495864243011cda89277026bc71b0ec392fa692a5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44735",
-      "title": "CVE-2026-44735 - OpenProject is open-source, web-based project management software. Prior to 17.3...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.3.2 and 17.4.0, the GET /api/v3/shares endpoint returns share details for ALL work packages in a project to any user with the view_shared_work_packages permission. The authorization check operates at the project level only — it does not verify the requesting user can actually view each individual shared work package. This allows a regular project member to discover work package IDs and subjects (including confidential titles), which users have been granted shared access, what role level was assigned (Editor, Commenter, Viewer). This vulnerability is fixed in 17.3.2 and 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44735",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-26T20:17:03.520000",
-      "created_at": "2026-06-27T17:54:05.965415+00:00"
-    },
-    {
-      "id": "ff7af250660b25d9",
-      "content_hash": "ff7af250660b25d95200852e7d9ffa5f179a07fae9904d55efd38398deff2ea6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44734",
-      "title": "CVE-2026-44734 - OpenProject is open-source, web-based project management software. Prior to 17.3...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.3.2 and 17.4.0, a Missing Authorization vulnerability exists in OpenProject's CostReportsController. The rename and update actions allow any authenticated user to modify the name, filters, and grouping of any Public cost report in the system without verifying ownership or permission level. An attacker who discovers or guesses a public report's numeric ID can rename or overwrite its filter configuration without any warning to the report's owner. This vulnerability is fixed in 17.3.2 and 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44734",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-06-26T20:17:03.377000",
-      "created_at": "2026-06-27T17:54:05.965409+00:00"
-    },
-    {
-      "id": "62f03a5b4d7a97ed",
-      "content_hash": "62f03a5b4d7a97ed4313ad1f9e6b5aea11b16b8c4817105c6506aee6cf0a3967",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44733",
-      "title": "CVE-2026-44733 - OpenProject is open-source, web-based project management software. Prior to 17.3...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.3.2 and 17.4.0, Business Logic Error on OpenProject through PATCH request to /api/v3/users/me permits to bypass password requirements. A password validation flaw in the change password behavior allows attackers to change a user's password only with an active session takeover. This vulnerability is fixed in 17.3.2 and 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44733",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-06-26T20:17:03.240000",
-      "created_at": "2026-06-27T17:54:05.965402+00:00"
-    },
-    {
-      "id": "fda915c0534ccbbb",
-      "content_hash": "fda915c0534ccbbbb025b2d5437f5dc86f73cecaa3d790a7f4ed50523d2d9bf0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44732",
-      "title": "CVE-2026-44732 - OpenProject is open-source, web-based project management software. Prior to 17.3...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.3.2 and 17.4.0, OpenProject exposes a document update endpoint used to modify existing documents. The target document is loaded with visibility checks and then updated. During update, attacker-controlled attributes are applied to the persisted record before authorization is enforced. As a result, a user without :manage_documents in the source project can move and modify foreign project documents by setting project_id in a single PATCH request. This vulnerability is fixed in 17.3.2 and 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44732",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-06-26T20:17:03.093000",
-      "created_at": "2026-06-27T17:54:05.965395+00:00"
-    },
-    {
-      "id": "1ec5f11452096519",
-      "content_hash": "1ec5f11452096519200d6ad456da1c47f12e60f52e73d70891cb47d2b3959fbe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44731",
-      "title": "CVE-2026-44731 - OpenProject is open-source, web-based project management software. Prior to 17.3...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.3.2 and 17.4.0, the web application's meetings filter feature leaks whether a given user ID corresponds to a valid account and discloses the user's full name, allowing an attacker to enumerate all existing user accounts by probing user IDs and observing differences in the server response. This vulnerability is fixed in 17.3.2 and 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44731",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-06-26T20:17:02.943000",
-      "created_at": "2026-06-27T17:54:05.965388+00:00"
-    },
-    {
-      "id": "c34d2a677dc544d6",
-      "content_hash": "c34d2a677dc544d65977c087c3cdc05f44dfc5de648632cdab52be3be358dd3f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44696",
-      "title": "CVE-2026-44696 - OpenProject is open-source, web-based project management software. Prior to 17.4...",
-      "body": "OpenProject is open-source, web-based project management software. Prior to 17.4.0, OpenProject's rich text (markdown) rendering pipeline uses Sanitize::Config::RELAXED[:css] for inline style sanitization. This configuration permits essentially all CSS properties in style attributes on permitted HTML elements (figure, img, table, th, tr, td). This allows any authenticated user with write access to formattable text fields (work package descriptions, comments, project descriptions, news) to inject CSS This vulnerability is fixed in 17.4.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44696",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.7,
-      "published_at": "2026-06-26T20:17:02.793000",
-      "created_at": "2026-06-27T17:54:05.965381+00:00"
-    },
-    {
-      "id": "c1f256c7f669d87d",
-      "content_hash": "c1f256c7f669d87de0595526f91d4f27ee5cf25d0426c1bf423c90d32bf8eb08",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-32833",
-      "title": "CVE-2026-32833 - Cudy LT300 3.0 running firmware prior to version 2.5.12 contains an OS command i...",
-      "body": "Cudy LT300 3.0 running firmware prior to version 2.5.12 contains an OS command injection vulnerability that allows authenticated attackers to execute arbitrary commands by injecting shell metacharacters into the cbid.system.ntp.current POST parameter in the system time configuration interface. Attackers can submit malicious payloads through the NTP settings endpoint to achieve remote code execution on the underlying system.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32833",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-06-26T20:16:54.583000",
-      "created_at": "2026-06-27T17:54:05.965374+00:00"
-    },
-    {
-      "id": "030a8f12e69b51f3",
-      "content_hash": "030a8f12e69b51f377d8e7a483e4e4400bb504d485e529f720e065c76fa303dc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-29509",
-      "title": "CVE-2026-29509 - Patool before 4.0.5 contains a path traversal vulnerability in the safe_extract(...",
-      "body": "Patool before 4.0.5 contains a path traversal vulnerability in the safe_extract() function in patoolib/programs/py_tarfile.py when running on Python before 3.12, where the is_within_directory() helper uses os.path.commonprefix() for character-level string comparison instead of path-level comparison, allowing a crafted archive member path to bypass the containment check. Attackers can supply a malicious archive with specially crafted member paths to write arbitrary files.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29509",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-06-26T20:16:54.093000",
-      "created_at": "2026-06-27T17:54:05.965367+00:00"
     }
   ]
 }
