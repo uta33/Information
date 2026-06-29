@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-29T20:47:21.538105+00:00",
+  "generated_at": "2026-06-29T22:02:47.974380+00:00",
   "items": [
+    {
+      "id": "94d54eb46ac7c359",
+      "content_hash": "94d54eb46ac7c3591a1312ebdddb4e5974be99c89793f131a2434f1ff0cb2f0d",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3137388",
+      "title": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+      "body": "VCs remain thirsty to fund AI coding startups. This one, founded by investor Chamath Palihapitiya, is no exception.",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T20:55:50+00:00",
+      "created_at": "2026-06-29T22:02:47.670577+00:00"
+    },
+    {
+      "id": "88261ea0be52c5cf",
+      "content_hash": "88261ea0be52c5cf9dc233d90448f4ec4bfcbadbf1e00ec237f2853dc9e01501",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "body": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the ShinyHunters extortion group. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-06-29T20:40:44+00:00",
+      "created_at": "2026-06-29T22:02:41.058906+00:00"
+    },
     {
       "id": "c09d56b20f37f04c",
       "content_hash": "c09d56b20f37f04cab6d9fdc8fabc87c693fd4ae0cd835c1c8c9212cdfcefa8b",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-06-29T19:49:28+00:00",
       "created_at": "2026-06-29T20:47:21.537297+00:00"
+    },
+    {
+      "id": "4ed3938e506455fc",
+      "content_hash": "4ed3938e506455fceb2be0e500bea6256ce33e71b7449f653a6b697f08d6a003",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48724230\">Comments</a>",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T19:49:28+00:00",
+      "created_at": "2026-06-29T22:02:47.973662+00:00"
     },
     {
       "id": "d57cb913558f5112",
@@ -462,6 +504,20 @@
       "cvss_score": null,
       "published_at": "2026-06-29T15:02:00+00:00",
       "created_at": "2026-06-29T16:33:29.040547+00:00"
+    },
+    {
+      "id": "3bc92067fe6580f0",
+      "content_hash": "3bc92067fe6580f0daa1b589884538b7c9d26b335d9ec35e4f0e5951ecb19214",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://htmx.org/essays/working-with-ai/",
+      "title": "Working With AI: A concrete example",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48720064\">Comments</a>",
+      "url": "https://htmx.org/essays/working-with-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T14:53:41+00:00",
+      "created_at": "2026-06-29T22:02:47.973845+00:00"
     },
     {
       "id": "1491f3d6e652d15b",
@@ -1316,6 +1372,20 @@
       "cvss_score": null,
       "published_at": "2026-06-29T05:36:06+00:00",
       "created_at": "2026-06-29T08:48:12.063435+00:00"
+    },
+    {
+      "id": "9b6918845ecb033c",
+      "content_hash": "9b6918845ecb033c518d3110836e35a2f2d4bf6ae84e9135e582ad9283a58a6b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/",
+      "title": "Is sunscreen the new margarine? (2021)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48715020\">Comments</a>",
+      "url": "https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-29T05:05:35+00:00",
+      "created_at": "2026-06-29T22:02:47.974042+00:00"
     },
     {
       "id": "10b5936a93053c3d",
@@ -2564,6 +2634,20 @@
       "created_at": "2026-06-28T22:52:41.324351+00:00"
     },
     {
+      "id": "a6c1dc4abd500bbb",
+      "content_hash": "a6c1dc4abd500bbb7b05374c92776776bb521f99cacc3336167c78d5d395a9d4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
+      "title": "30-year sentence for transporting zines is a five-alarm fire for free speech",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48711981\">Comments</a>",
+      "url": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T21:42:39+00:00",
+      "created_at": "2026-06-29T22:02:47.974010+00:00"
+    },
+    {
       "id": "e029f581c5589f62",
       "content_hash": "e029f581c5589f6218aeec4a0e98341d79ab45594b6412772312675adc230faf",
       "source_name": "TechCrunch",
@@ -2814,6 +2898,20 @@
       "cvss_score": null,
       "published_at": "2026-06-28T18:31:54+00:00",
       "created_at": "2026-06-28T19:22:26.534028+00:00"
+    },
+    {
+      "id": "756a7b4ce1e05a03",
+      "content_hash": "756a7b4ce1e05a0351ffee4643188b9063fd368f8c39fee30fdc4e2d56a4e9e9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://deep-reinforce.com/ornith_1_0.html",
+      "title": "Ornith-1.0: Self-scaffolding LLMs for agentic coding",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48709744\">Comments</a>",
+      "url": "https://deep-reinforce.com/ornith_1_0.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T17:58:04+00:00",
+      "created_at": "2026-06-29T22:02:47.973879+00:00"
     },
     {
       "id": "2f27248dc5a481b6",
@@ -3642,6 +3740,20 @@
       "created_at": "2026-06-28T19:22:26.534284+00:00"
     },
     {
+      "id": "6fe7fa43438d8adb",
+      "content_hash": "6fe7fa43438d8adb7098751f165b455f5cbf04ab19c38f7fc4bb694ad2e59bf6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cambridgeanalytica.org/data-breaches-scandals/passports-driver-licenses-exposed-public-internet-2026-51096/",
+      "title": "One million passports leaked online",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48706389\">Comments</a>",
+      "url": "https://cambridgeanalytica.org/data-breaches-scandals/passports-driver-licenses-exposed-public-internet-2026-51096/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-28T11:22:49+00:00",
+      "created_at": "2026-06-29T22:02:47.973993+00:00"
+    },
+    {
       "id": "8312acdc4269de8b",
       "content_hash": "8312acdc4269de8bcf34ac4c98af71b815aa5fdc3a9f3a3c67e789d219718bc8",
       "source_name": "CVE (NVD)",
@@ -4186,6 +4298,20 @@
       "cvss_score": null,
       "published_at": "2026-06-27T23:32:58+00:00",
       "created_at": "2026-06-28T06:52:59.458865+00:00"
+    },
+    {
+      "id": "ea286765e0c394a2",
+      "content_hash": "ea286765e0c394a24ec71763cf1393eaa57cfd78031a80624f24f76b6df57ce0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2606.22283",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48702825\">Comments</a>",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T23:30:14+00:00",
+      "created_at": "2026-06-29T22:02:47.973862+00:00"
     },
     {
       "id": "a923d27327930927",
@@ -5334,6 +5460,20 @@
       "cvss_score": 7.7,
       "published_at": "2026-06-27T02:16:27.603000",
       "created_at": "2026-06-27T21:52:31.302353+00:00"
+    },
+    {
+      "id": "e52a4f8c67ca96bd",
+      "content_hash": "e52a4f8c67ca96bd7bba3ada623c1e80ea9c140f45a052f79c7fd587d85f78d7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cringely.com/2026/05/28/the-permission-slip/",
+      "title": "The Permission Slip",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48694267\">Comments</a>",
+      "url": "https://www.cringely.com/2026/05/28/the-permission-slip/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-06-27T01:29:43+00:00",
+      "created_at": "2026-06-29T22:02:47.973977+00:00"
     },
     {
       "id": "9a7a4f7b27dca793",
@@ -6860,146 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-06-26T20:16:54.093000",
       "created_at": "2026-06-27T17:54:05.965367+00:00"
-    },
-    {
-      "id": "22e42c931c80aacb",
-      "content_hash": "22e42c931c80aacbcd68cc4b53eaef9fab75675a8fde0dbd8c4075ab7a53b098",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
-      "title": "PlayStation Is Deleting 551 Movies from Customers' Accounts",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48691346\">Comments</a>",
-      "url": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T20:07:18+00:00",
-      "created_at": "2026-06-26T22:01:05.081797+00:00"
-    },
-    {
-      "id": "f16ade1a0a179145",
-      "content_hash": "f16ade1a0a17914583bb47546553bfc119bb2ecdb9dd0fa8927e60c396fb5700",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://theintercept.com/2026/06/18/israel-facebook-censor-content-moderation-iran-war/",
-      "title": "Israel Asked Facebook to Censor Iran War Content, Internal Documents Show",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48691255\">Comments</a>",
-      "url": "https://theintercept.com/2026/06/18/israel-facebook-censor-content-moderation-iran-war/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T19:59:32+00:00",
-      "created_at": "2026-06-26T20:25:45.884047+00:00"
-    },
-    {
-      "id": "1b8c620aaee00187",
-      "content_hash": "1b8c620aaee00187cef05c40faea9c1e7fc6ec5b462c97673aa9a27d8faf3e3c",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-06-26T19:43:06+00:00",
-      "created_at": "2026-06-26T20:25:34.293637+00:00"
-    },
-    {
-      "id": "55c77b0ee8ac9f1c",
-      "content_hash": "55c77b0ee8ac9f1cc0e1c7a1ef2cded5ff888673a8921ea6570976369af44390",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "body": "The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key.\n\nHand it over once, and the attacker can restore the account's backup, read the private and group message history, and take over the account. Worse, the key keeps working.",
-      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T19:38:29+00:00",
-      "created_at": "2026-06-26T20:25:34.233641+00:00"
-    },
-    {
-      "id": "3652e481af0882ca",
-      "content_hash": "3652e481af0882ca55f5b2009c47b7d5e88012cf972a5bf3b29e045ea1638c6f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54753",
-      "title": "CVE-2026-54753 - Nx is a monorepo solution for TypeScript and polyglot codebases. From 17.0.4 unt...",
-      "body": "Nx is a monorepo solution for TypeScript and polyglot codebases. From 17.0.4 until 22.7.2 and 23.0.0-beta.2, the local HTTP server started by nx graph sent Access-Control-Allow-Origin: * on every response, letting any website a developer visited read the server's responses cross-origin — including the full project graph and the output of the /help endpoint, which runs a target's configured help command. The practical impact is typically cross-origin information disclosure, but can be arbitrary command injection in rare cases. This vulnerability is fixed in 22.7.2 and 23.0.0-beta.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54753",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-06-26T19:16:43.937000",
-      "created_at": "2026-06-27T17:54:05.965361+00:00"
-    },
-    {
-      "id": "3357ec5ca4e51db1",
-      "content_hash": "3357ec5ca4e51db13ae6d99a461375d7ace21fcc2a17ca751404a64da0680896",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48090",
-      "title": "CVE-2026-48090 - Envoy is an open source edge and service proxy designed for cloud-native applica...",
-      "body": "Envoy is an open source edge and service proxy designed for cloud-native applications. From 1.37.0 until 1.37.5 and 1.38.3, the HTTP OAuth2 filter (envoy.filters.http.oauth2) can leave an in-flight async token exchange attached to a downstream stream that has already been torn down. A late AsyncClient completion can still invoke OAuth2Filter methods that use StreamDecoderFilterCallbacks after that object’s lifetime has ended, causing undefined behavior, worker crashes (availability loss), and use-after-free / invalid-vptr failures under AddressSanitizer. This is a memory-safety / lifetime issue in the data plane, not a trivial config bug. Remote code execution is not claimed here; the primary demonstrated impact is DoS via crash and UB; any further impact would be deployment- and allocator-dependent.  This vulnerability is fixed in 1.37.5 and 1.38.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48090",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-06-26T19:16:41.590000",
-      "created_at": "2026-06-27T17:54:05.965354+00:00"
-    },
-    {
-      "id": "0a2fcdc232adb007",
-      "content_hash": "0a2fcdc232adb0076d4edb16344839d00ff1c78cefcc092e830c88530177aebb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47220",
-      "title": "CVE-2026-47220 - Envoy is an open source edge and service proxy designed for cloud-native applica...",
-      "body": "Envoy is an open source edge and service proxy designed for cloud-native applications. From 1.37.0 until 1.37.5 and 1.38.3, when the %REQUESTED_SERVER_NAME(X:Y)% is used in log format and host related options is specified, like HOST_FIRST, SNI_FIRST, it's possible to crash Envoy when the specified host header is missing in the request headers. This vulnerability is fixed in 1.37.5 and 1.38.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47220",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-06-26T19:16:41.173000",
-      "created_at": "2026-06-27T17:54:05.965347+00:00"
-    },
-    {
-      "id": "db4e982687490b10",
-      "content_hash": "db4e982687490b10c03e05798e46489085ea6d64c49babb2444f6f6f0fc4744d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47205",
-      "title": "CVE-2026-47205 - Envoy is an open source edge and service proxy designed for cloud-native applica...",
-      "body": "Envoy is an open source edge and service proxy designed for cloud-native applications. From 1.36.0 until 1.36.9, 1.37.5, and 1.38.3, a Use-After-Free (UAF) vulnerability leading to a sudden segmentation fault exists in Envoy's ext_authz HTTP filter when processing per-route authorization overrides concurrently with rapid downstream client disconnects. During standard request lifecycles, Envoy instantiates the ext_authz filter with a foundational authorization client object (client_). If a matched route dictates a dynamic per-route HTTP or gRPC authorization service override, the filter generates a localized client. In the vulnerable implementation, this transient client aggressively overwrote the default client_ unique pointer by executing client_ = std::move(per_route_client). When a client rapidly establishes and subsequently tears down a stream (such as rapidly refreshing a protected WebSocket endpoint), the downstream triggers the ConnectionManagerImpl::doDeferredStreamDestroy() -> ActiveStream::onResetStream() lifecycle. Envoy immediately sequences Filter::onDestroy() in an attempt to securely abort dispatched asynchronous authorization check transactions via client_->cancel(). By destructing the default client abruptly during initiateCall, a memory lifecycle misalignment occurs within the async client manager. The stream teardown fails to reliably track and cancel the dynamically bound asynchronous authorization tasks, orchestrating a sequence where a late asynchronous callback from the network evaluates against a heavily destroyed ActiveStream validation span, generating a UAF process crash. This vulnerability is fixed in 1.36.9, 1.37.5, and 1.38.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47205",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-06-26T19:16:40.853000",
-      "created_at": "2026-06-27T16:54:24.168598+00:00"
-    },
-    {
-      "id": "7dda8d5000b29c67",
-      "content_hash": "7dda8d5000b29c67e0c4f74806268ffa7029180689916b73918e537e04b1dc41",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13372",
-      "title": "CVE-2026-13372 - Incorrect link resolution by display name in the custom PowerShell VPN editor in...",
-      "body": "Incorrect link resolution by display name in the custom PowerShell VPN editor in Devolutions Remote Desktop Manager 2026.2.5 through 2026.2.11 allows an authenticated attacker with write access to a shared workspace to execute a PowerShell script in another user's context via a display name collision with an existing VPN script link.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13372",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-06-26T19:16:39.897000",
-      "created_at": "2026-06-27T16:54:24.168591+00:00"
-    },
-    {
-      "id": "3978cfcf3c57bdf3",
-      "content_hash": "3978cfcf3c57bdf31a135ebfa71527c92d426ae4c22ff2b2f3c4f40abab9596d",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3136777",
-      "title": "Novak Djokovic has a new job —  advisor to private equity firm General Atlantic",
-      "body": "General Atlantic has tapped tennis legend Novak Djokovic to serve as a global strategic advisor.",
-      "url": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-06-26T19:13:40+00:00",
-      "created_at": "2026-06-26T20:25:45.577361+00:00"
     }
   ]
 }
