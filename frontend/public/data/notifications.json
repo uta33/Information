@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-03T18:58:59.757782+00:00",
+  "generated_at": "2026-07-03T20:13:16.980017+00:00",
   "items": [
+    {
+      "id": "13bf17e4b3867b61",
+      "content_hash": "13bf17e4b3867b616520ebcc37bc3cfece77a82f37075379df8b35e80cebc6fa",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "body": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out.\n\nBad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug.\n\nThe AI caught one flaw and missed",
+      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T19:40:01+00:00",
+      "created_at": "2026-07-03T20:13:13.192054+00:00"
+    },
+    {
+      "id": "175de1cf070c38a3",
+      "content_hash": "175de1cf070c38a3761c19e8b8a591578313785cbad7df77f6cbeb91685eb44c",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "body": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one",
+      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T18:55:24+00:00",
+      "created_at": "2026-07-03T20:13:13.192088+00:00"
+    },
     {
       "id": "7ada4f0f74d5a094",
       "content_hash": "7ada4f0f74d5a094d5ef826623d07fb2e19bfed68a19af086fdaf63d24502789",
@@ -30,6 +58,34 @@
       "created_at": "2026-07-03T18:58:59.457657+00:00"
     },
     {
+      "id": "6a3a13e2c898f453",
+      "content_hash": "6a3a13e2c898f453aa839f92feab5575a640fd39160410c764e084e1751ae9cc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1",
+      "title": "A Cali. farmer is giving away tons of nectarines that he's not allowed to sell",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48778031\">Comments</a>",
+      "url": "https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T18:11:32+00:00",
+      "created_at": "2026-07-03T20:13:16.979088+00:00"
+    },
+    {
+      "id": "1232545c49d9db06",
+      "content_hash": "1232545c49d9db06f73f8eb4d0e2f6d9cc8b219af16c1cf4cd4696218bd291ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://xkcd.com/3266/large/",
+      "title": "Holes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48777832\">Comments</a>",
+      "url": "https://xkcd.com/3266/large/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T17:54:25+00:00",
+      "created_at": "2026-07-03T20:13:16.979588+00:00"
+    },
+    {
       "id": "9f06410726d1ee08",
       "content_hash": "9f06410726d1ee083431078c20edc2c5daefc839ab70c46060d1fd604577214b",
       "source_name": "Bleeping Computer",
@@ -56,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T17:46:10+00:00",
       "created_at": "2026-07-03T18:58:59.757425+00:00"
+    },
+    {
+      "id": "48e5683672630254",
+      "content_hash": "48e56836726302546443f852c0c0842df6024d0e141ae1f8f51c26e0e28ed9d5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
+      "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48777728\">Comments</a>",
+      "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T17:46:10+00:00",
+      "created_at": "2026-07-03T20:13:16.979642+00:00"
     },
     {
       "id": "6aebe4efd684cd00",
@@ -198,6 +268,20 @@
       "created_at": "2026-07-03T18:58:59.757239+00:00"
     },
     {
+      "id": "fe257a1f2af33ab5",
+      "content_hash": "fe257a1f2af33ab520def1aa1746ec61e888007130e282b3b7610a86a4ea43bb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://phenomenalworld.org/analysis/the-anti-amazon/",
+      "title": "Costco is the anti-Amazon",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48776044\">Comments</a>",
+      "url": "https://phenomenalworld.org/analysis/the-anti-amazon/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T15:14:55+00:00",
+      "created_at": "2026-07-03T20:13:16.979122+00:00"
+    },
+    {
       "id": "3dfa16f767b0c181",
       "content_hash": "3dfa16f767b0c1819a69b5ac2aef50a1fa787e65e9ddf6ef576b27afe3b00a2c",
       "source_name": "Hacker News (Best)",
@@ -240,6 +324,20 @@
       "created_at": "2026-07-03T17:10:45.834140+00:00"
     },
     {
+      "id": "4dee42d61f8d675f",
+      "content_hash": "4dee42d61f8d675f6af06cbf958a3ee76dfa724810b8a21983ced9091f641faf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.derekthompson.org/p/america-1926-an-absurdly-deep-dive",
+      "title": "America, 1926: A forgotten 100-year-old report",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48775979\">Comments</a>",
+      "url": "https://www.derekthompson.org/p/america-1926-an-absurdly-deep-dive",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T15:08:56+00:00",
+      "created_at": "2026-07-03T20:13:16.979624+00:00"
+    },
+    {
       "id": "e594c41ee90a7e11",
       "content_hash": "e594c41ee90a7e11c3a5fa27cc5e1236ed5f939301cf3603be49da572e488fc9",
       "source_name": "Hacker News (Best)",
@@ -252,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T15:06:44+00:00",
       "created_at": "2026-07-03T17:10:45.834408+00:00"
+    },
+    {
+      "id": "fc60d8e3e42e3e9b",
+      "content_hash": "fc60d8e3e42e3e9b60ad5b651db5332e7ab6b5afe5fb93e48973204176701f09",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dannorth.net/blog/best-simple-system-for-now/",
+      "title": "Best Simple System for Now (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48775949\">Comments</a>",
+      "url": "https://dannorth.net/blog/best-simple-system-for-now/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T15:06:44+00:00",
+      "created_at": "2026-07-03T20:13:16.979493+00:00"
     },
     {
       "id": "9aed31a73ed4fd4a",
@@ -280,6 +392,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T14:49:44+00:00",
       "created_at": "2026-07-03T17:10:45.834346+00:00"
+    },
+    {
+      "id": "570f3e5d2996c286",
+      "content_hash": "570f3e5d2996c286b08d2273f029a7adab2856c561bb5af9e44fec5d785eba6a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+      "title": "Instead of banning AI, I made a classroom contract with my students",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48775499\">Comments</a>",
+      "url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T14:28:33+00:00",
+      "created_at": "2026-07-03T20:13:16.979374+00:00"
     },
     {
       "id": "9a92fa8440bbe48b",
@@ -350,6 +476,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T13:01:49+00:00",
       "created_at": "2026-07-03T15:00:32.228252+00:00"
+    },
+    {
+      "id": "eb0c367ed670aaff",
+      "content_hash": "eb0c367ed670aaff5d50c664a406d2e5f4cd37e7535ebdb618475f5f31919457",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/",
+      "title": "Valve open-source the Steam Machine e-ink screen so you can make your own",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48774518\">Comments</a>",
+      "url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-03T13:01:49+00:00",
+      "created_at": "2026-07-03T20:13:16.979396+00:00"
     },
     {
       "id": "6086f674e902504c",
@@ -504,6 +644,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T08:50:47+00:00",
       "created_at": "2026-07-03T10:25:09.953772+00:00"
+    },
+    {
+      "id": "5ba1ae47615edafa",
+      "content_hash": "5ba1ae47615edafab64b292257466e6a8f9596c8e2da38ba5469c0d4c312c6a8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://wordgard.net/",
+      "title": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48772573\">Comments</a>",
+      "url": "https://wordgard.net/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T08:50:47+00:00",
+      "created_at": "2026-07-03T20:13:16.979416+00:00"
     },
     {
       "id": "9591a50cc2eb0cc1",
@@ -2296,6 +2450,20 @@
       "cvss_score": null,
       "published_at": "2026-07-02T19:33:55+00:00",
       "created_at": "2026-07-03T12:51:26.159363+00:00"
+    },
+    {
+      "id": "27418b9fe4abdb4e",
+      "content_hash": "27418b9fe4abdb4ea840ffb6da86fe091d967f683e1008aa7f04a636932d1aa7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/flythenimbus/bramble",
+      "title": "Show HN: Bramble – Local-first password manager",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48766242\">Comments</a>",
+      "url": "https://github.com/flythenimbus/bramble",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-02T19:29:58+00:00",
+      "created_at": "2026-07-03T20:13:16.979724+00:00"
     },
     {
       "id": "6228f9d94f560d6d",
@@ -6832,174 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-07-01T23:16:49.367000",
       "created_at": "2026-07-02T22:59:40.745144+00:00"
-    },
-    {
-      "id": "4ba4c9346a81a509",
-      "content_hash": "4ba4c9346a81a5098661f288525a13d9dfd00e132c198129efc307c6195a8bb5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14408",
-      "title": "CVE-2026-14408 - Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remo...",
-      "body": "Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14408",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-01T23:16:49.260000",
-      "created_at": "2026-07-02T22:59:40.745137+00:00"
-    },
-    {
-      "id": "d7e0c8d59d74bf4f",
-      "content_hash": "d7e0c8d59d74bf4f31e6eddbd9f9b50b4954a9e7845065269bb188789b46f556",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14407",
-      "title": "CVE-2026-14407 - Inappropriate implementation in V8 in Google Chrome prior to 150.0.7871.46 allow...",
-      "body": "Inappropriate implementation in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14407",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-01T23:16:49.167000",
-      "created_at": "2026-07-02T22:59:40.745130+00:00"
-    },
-    {
-      "id": "f5e2f3b14f1d27eb",
-      "content_hash": "f5e2f3b14f1d27ebfa5215f0fe609a78e76e6ae36a20907c03beaf2ee3890885",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14406",
-      "title": "CVE-2026-14406 - Out of bounds read in V8 in Google Chrome prior to 150.0.7871.46 allowed an atta...",
-      "body": "Out of bounds read in V8 in Google Chrome prior to 150.0.7871.46 allowed an attacker who convinced a user to install a malicious extension to obtain potentially sensitive information from process memory via a crafted Chrome Extension. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14406",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-07-01T23:16:49.060000",
-      "created_at": "2026-07-02T22:59:40.745123+00:00"
-    },
-    {
-      "id": "7e7248a50874445c",
-      "content_hash": "7e7248a50874445c7a0dfb909efcc94143b3a61ded2fdd119999dbaec2d6d401",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14405",
-      "title": "CVE-2026-14405 - Uninitialized Use in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote...",
-      "body": "Uninitialized Use in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: Low)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14405",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-07-01T23:16:48.947000",
-      "created_at": "2026-07-02T22:59:40.745116+00:00"
-    },
-    {
-      "id": "481a1897b3930f8d",
-      "content_hash": "481a1897b3930f8d2cc3627b4f6db0596ef58f66e3388bcd3a457c397f6af384",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14404",
-      "title": "CVE-2026-14404 - Inappropriate implementation in PDFium in Google Chrome prior to 150.0.7871.46 a...",
-      "body": "Inappropriate implementation in PDFium in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to perform UI spoofing via a crafted PDF file. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14404",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-01T23:16:48.840000",
-      "created_at": "2026-07-02T22:59:40.745109+00:00"
-    },
-    {
-      "id": "d57f6013fab0c982",
-      "content_hash": "d57f6013fab0c982e9d517e58e98e34255c9bb7c53e3e1a5d1bb6237b3307b78",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14403",
-      "title": "CVE-2026-14403 - Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote at...",
-      "body": "Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: Low)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14403",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-01T23:16:48.723000",
-      "created_at": "2026-07-02T21:57:35.133727+00:00"
-    },
-    {
-      "id": "1d0e87892c12fbce",
-      "content_hash": "1d0e87892c12fbceea0969a848c32aeadd665b4c79a5b00cce88a924cb1d7fee",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14402",
-      "title": "CVE-2026-14402 - Uninitialized Use in ANGLE in Google Chrome on Windows prior to 150.0.7871.46 al...",
-      "body": "Uninitialized Use in ANGLE in Google Chrome on Windows prior to 150.0.7871.46 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14402",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-01T23:16:48.620000",
-      "created_at": "2026-07-02T21:57:35.133721+00:00"
-    },
-    {
-      "id": "c410c305c53c7673",
-      "content_hash": "c410c305c53c767396533d6028b7849d3dde31a33fe66893235dc622db9e2768",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14401",
-      "title": "CVE-2026-14401 - Insufficient validation of untrusted input in ANGLE in Google Chrome on Android ...",
-      "body": "Insufficient validation of untrusted input in ANGLE in Google Chrome on Android prior to 150.0.7871.46 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14401",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-07-01T23:16:48.523000",
-      "created_at": "2026-07-02T21:57:35.133714+00:00"
-    },
-    {
-      "id": "70e635ac5c2e87a9",
-      "content_hash": "70e635ac5c2e87a911d4fdc810d45a73ca7d45da311a2800a242ec9d3bf23110",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14400",
-      "title": "CVE-2026-14400 - Out of bounds write in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a r...",
-      "body": "Out of bounds write in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14400",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-07-01T23:16:48.420000",
-      "created_at": "2026-07-02T21:57:35.133707+00:00"
-    },
-    {
-      "id": "aeaeb4db9c047e9b",
-      "content_hash": "aeaeb4db9c047e9b8bd04db2324d3dff01a35e5b68526b43ab3b1ec7ada291a6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14399",
-      "title": "CVE-2026-14399 - Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remo...",
-      "body": "Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14399",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-01T23:16:48.323000",
-      "created_at": "2026-07-02T21:57:35.133700+00:00"
-    },
-    {
-      "id": "c8546adc2648e212",
-      "content_hash": "c8546adc2648e212704cbd05ecfab3aeb406a2687e69c93f7a227c335eecd47c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14398",
-      "title": "CVE-2026-14398 - Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote...",
-      "body": "Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14398",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-07-01T23:16:48.223000",
-      "created_at": "2026-07-02T21:57:35.133694+00:00"
-    },
-    {
-      "id": "6d42ff2accd54950",
-      "content_hash": "6d42ff2accd549501418ee2e5168b3be5a0766316f95b52691dfd4d9d468a892",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14397",
-      "title": "CVE-2026-14397 - Out of bounds write in ANGLE in Google Chrome on Mac prior to 150.0.7871.46 allo...",
-      "body": "Out of bounds write in ANGLE in Google Chrome on Mac prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Medium)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14397",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-07-01T23:16:48.127000",
-      "created_at": "2026-07-02T21:57:35.133687+00:00"
     }
   ]
 }
