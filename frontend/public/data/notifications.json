@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-04T22:45:10.007929+00:00",
+  "generated_at": "2026-07-04T23:51:54.103026+00:00",
   "items": [
+    {
+      "id": "ff117d8de7b84f81",
+      "content_hash": "ff117d8de7b84f812628da9f639ef5b112ecc5cf38ff287bbe95abd355c2e0aa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/",
+      "title": "Scientists reverse brain aging, with a nasal spray",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48790066\">Comments</a>",
+      "url": "https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-04T23:41:10+00:00",
+      "created_at": "2026-07-04T23:51:54.102443+00:00"
+    },
     {
       "id": "1e94fbcbe554e33b",
       "content_hash": "1e94fbcbe554e33b6f6eec6cc80dfecc70a8d61aebe8c425a50515266e1b7382",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-04T21:51:09+00:00",
       "created_at": "2026-07-04T22:45:10.007041+00:00"
+    },
+    {
+      "id": "c64dc72287d19593",
+      "content_hash": "c64dc72287d19593c110372327f12642c249df3e390c7c7033e7b0e58dc667f7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it/",
+      "title": "My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48789325\">Comments</a>",
+      "url": "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-04T21:35:30+00:00",
+      "created_at": "2026-07-04T23:51:54.102732+00:00"
     },
     {
       "id": "8ec836a1051aa5ad",
@@ -112,6 +140,34 @@
       "cvss_score": null,
       "published_at": "2026-07-04T18:42:24+00:00",
       "created_at": "2026-07-04T20:03:40.671875+00:00"
+    },
+    {
+      "id": "6f56238dec7f8021",
+      "content_hash": "6f56238dec7f8021b775fcce598fa3212cf650d45328493096e85ab85645090c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14638",
+      "title": "CVE-2026-14638 - A flaw has been found in itsourcecode Hospital Management System 1.0. This affec...",
+      "body": "A flaw has been found in itsourcecode Hospital Management System 1.0. This affects an unknown function of the file /patient.php. This manipulation of the argument editid causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14638",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-04T18:16:28.550000",
+      "created_at": "2026-07-04T23:51:50.699443+00:00"
+    },
+    {
+      "id": "3c3697a576cdd411",
+      "content_hash": "3c3697a576cdd4119f788d5765acb50ce4502b602c26bb1439b87cbec6525413",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14637",
+      "title": "CVE-2026-14637 - A security vulnerability has been detected in kirilkirkov Ecommerce-CodeIgniter-...",
+      "body": "A security vulnerability has been detected in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 13fd582aaf49aeab7438acc0fc3eb973a1f5e6a7. The affected element is the function getCartItems in the library application/libraries/ShoppingCart.php. The manipulation of the argument shopping_cart leads to deserialization. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The identifier of the patch is 49b20f53de2b7ec34e920b11c863f1491d911a04. It is recommended to apply a patch to fix this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14637",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "published_at": "2026-07-04T18:16:28.357000",
+      "created_at": "2026-07-04T23:51:50.699438+00:00"
     },
     {
       "id": "06c97eacfc2a20c8",
@@ -3276,6 +3332,20 @@
       "cvss_score": null,
       "published_at": "2026-07-03T14:27:21+00:00",
       "created_at": "2026-07-03T17:10:45.834648+00:00"
+    },
+    {
+      "id": "30e399dc828da453",
+      "content_hash": "30e399dc828da453cb4380e0e7d8763ad35fd42af35a35bafda4284d1ccbc81c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.owlposting.com/p/heuristics-for-lab-robotics-and-where",
+      "title": "Heuristics for lab robotics, and where its future may go",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48775412\">Comments</a>",
+      "url": "https://www.owlposting.com/p/heuristics-for-lab-robotics-and-where",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T14:20:39+00:00",
+      "created_at": "2026-07-04T23:51:54.102605+00:00"
     },
     {
       "id": "6bcf411449441374",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-02T17:17:02.570000",
       "created_at": "2026-07-03T15:00:29.044032+00:00"
-    },
-    {
-      "id": "10a09364c1a9c40b",
-      "content_hash": "10a09364c1a9c40ba93e81e1f10a2c93ca6a1160134a6d87c63b12c8b295eb9f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54886",
-      "title": "CVE-2026-54886 - Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Erlang O...",
-      "body": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Erlang OTP ssh (ssh_sftpd module) allows an authenticated SFTP user to render an SFTP channel permanently unresponsive.\n\nThe handle_data/4 function in ssh_sftpd contains a catch-all clause that accepts channel data of any type. When channel data with a non-zero type code (SSH_MSG_CHANNEL_EXTENDED_DATA) arrives with an empty pending buffer and a payload at or below the SFTP packet size limit, the clause tail-calls itself with identical arguments, creating an infinite loop.\n\nThe SFTP protocol operates exclusively on normal channel data (type 0). Extended data (non-zero type) is meaningless for SFTP and is never sent by conforming clients. However, the SSH protocol permits any channel participant to send extended data on an open channel, so an authenticated SFTP client can trigger the loop by sending SSH_MSG_CHANNEL_EXTENDED_DATA with any data_type_code and any non-empty payload at or below the size limit.\n\nThe targeted ssh_sftpd process enters an infinite tail-recursive loop. It never processes another message, its message queue grows without bound, and it can only be stopped by killing the process. BEAM's reduction-based scheduler preemption continues to function, so other processes on the node are not starved, but each stuck channel process consumes its full CPU time share continuously and accumulates unbounded message queue memory. Opening many channels amplifies the CPU and memory impact.\n\nErlang/OTP SSH configurations using the default max_channels setting (infinity) allow an authenticated user to open unlimited channels per connection, amplifying the attack without requiring multiple TCP connections or authentications.\n\nNo file contents, credentials, or write access are obtainable through this issue. The impact is limited to denial of service on targeted SFTP channels, with secondary CPU degradation and memory growth.\n\nThis vulnerability is associated with program file lib/ssh/src/ssh_sftpd.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54886",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T17:17:02.387000",
-      "created_at": "2026-07-03T15:00:29.044021+00:00"
-    },
-    {
-      "id": "97629fc4b9c3bafb",
-      "content_hash": "97629fc4b9c3bafb1b844876921d704b222b4449bc31f58eff9c08c6d45f9663",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53422",
-      "title": "CVE-2026-53422 - Observable Response Discrepancy vulnerability in Erlang OTP ssh (ssh_sftpd modul...",
-      "body": "Observable Response Discrepancy vulnerability in Erlang OTP ssh (ssh_sftpd module) allows an authenticated SFTP user to enumerate the existence of files and directories outside the configured root directory.\n\nThe SSH_FXP_REALPATH handler in ssh_sftpd calls relate_file_name/3 with Canonicalize=false, unlike every other SFTP operation handler. This allows .. components in the requested path to bypass the is_within_root/2 check without being resolved. The un-canonicalized path then enters resolve_symlinks/2, which walks up the directory tree above the configured root and issues read_link() syscalls on arbitrary filesystem paths.\n\nAn authenticated SFTP client can exploit this by sending a REALPATH request with a crafted traversal path. The server response differs depending on whether the target path exists on the host filesystem (SSH_FXP_NAME when the path resolves successfully, SSH_FX_NO_SUCH_FILE when it does not). This creates a path-existence oracle that an attacker can use to enumerate the filesystem structure outside the configured root, including the existence of sensitive files, directories, and mount points.\n\nThe vulnerability leaks only the existence of paths. No file contents, credentials, or write access are obtainable through this issue alone. The information gained may assist further attacks when combined with other vulnerabilities.\n\nThis vulnerability is associated with program files lib/ssh/src/ssh_sftpd.erl and program routine ssh_sftpd:handle_op/4.\n\nThis issue affects OTP from OTP 17.0 until OTP 29.0.3, 28.5.0.3, and 27.3.4.14 corresponding to ssh from 3.0.1 until 6.0.2, 5.5.2.2, and 5.2.11.9.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53422",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T17:17:01.473000",
-      "created_at": "2026-07-03T15:00:29.044010+00:00"
-    },
-    {
-      "id": "4fa370b7791c515a",
-      "content_hash": "4fa370b7791c515a0cda0e7f21525acb0b118282180bc291301bcfefad0ff3dc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50282",
-      "title": "CVE-2026-50282 - Craft CMS is a content management system (CMS). Versions 5.0.0-RC1 and above, pr...",
-      "body": "Craft CMS is a content management system (CMS). Versions 5.0.0-RC1 and above, prior to 5.9.21 and versions 4.0.0-RC1 and above prior to 4.17.14 contain an authorization issue where a forced folder move can delete a conflicting destination folder without destination delete permission. Function craft\\\\controllers\\\\AssetsController::actionMoveFolder() supports moving an asset folder into a destination parent folder. If a folder with the same name already exists at the destination, the action can be called with force=true to overwrite the destination. This issue has been resolved in versions 5.9.21 and 4.17.14.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50282",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T17:17:01.070000",
-      "created_at": "2026-07-03T15:00:29.044000+00:00"
-    },
-    {
-      "id": "24b0cff4a08edd69",
-      "content_hash": "24b0cff4a08edd6990a7b76f7586a7687a40a195827cbcdbcf84671a6ab4199a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50281",
-      "title": "CVE-2026-50281 - Craft CMS is a content management system (CMS). Versions 5.7.0 and above, prior ...",
-      "body": "Craft CMS is a content management system (CMS). Versions 5.7.0 and above, prior to 5.9.21 contain a mass-assignment flaw in the bulk-duplicate element action. An attacker who is only able to duplicate their own entires can submit an arbitrary id through the newAttributes request parameter. The duplication routine overrides its own id = null reset with that value and writes the attacker's attributes into the victim's existing entry row. ElementsController::beforeAction() pulls the request body into $this->_attributes and rejects requests that ship an id or canonicalId key at the top level, actionBulkDuplicate(), reads a separate newAttributes array and passes it straight through to the service layer. Elements::duplicateElement() clones the source element, sets id to null, and then hands the attacker's array to Craft::configure(), which  overwrites the reset id with any numeric value inside $newAttributes. PHP Yii's saveElement() then performs an UPDATE against the row with that primary key instead of an INSERT. The attackers's title, slug, authorId, postDate, and UID land on the victim's entry. safeAttributes() on Entry includes id because the base element model exposes it, so the Collection::only() filter does not strip it. This issue has been fixed in version 5.9.21.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50281",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T17:17:00",
-      "created_at": "2026-07-03T15:00:29.043989+00:00"
-    },
-    {
-      "id": "bc9bd06ef6fb262e",
-      "content_hash": "bc9bd06ef6fb262e749f6c7024b37a7131f5b5c6563582053051e72eeabff1ce",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-44935",
-      "title": "CVE-2026-44935 - Missing validation of \"valuesFrom\" references in Helm Deployer of SUSE Rancher F...",
-      "body": "Missing validation of \"valuesFrom\" references in Helm Deployer of SUSE Rancher Fleet 0.15 before 0.15.2, 0.14 before 0.14.6, 0.13 before 0.13.11 and 0.12 before 0.12.15 could be used by owners of one tenant to access fleet credentials of other tenants.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44935",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-07-02T17:16:59.667000",
-      "created_at": "2026-07-03T15:00:29.043978+00:00"
     }
   ]
 }
