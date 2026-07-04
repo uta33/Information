@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-04T10:47:35.513418+00:00",
+  "generated_at": "2026-07-04T12:00:28.253758+00:00",
   "items": [
+    {
+      "id": "ef73fcabffeecf5a",
+      "content_hash": "ef73fcabffeecf5a927c7e3097b7b92640de9c11e54d6d36e2091103c982d557",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+      "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+      "body": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider.\n\n\"The campaign remains active, and new malicious packages are likely to continue appearing as threat actors compromise maintainer accounts,",
+      "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-04T11:17:24+00:00",
+      "created_at": "2026-07-04T12:00:21.503832+00:00"
+    },
     {
       "id": "e6b8b2a046b52611",
       "content_hash": "e6b8b2a046b5261182fdbd8caef7709a75562fd9f21df94143a4155776f1e8ec",
@@ -434,6 +448,48 @@
       "cvss_score": null,
       "published_at": "2026-07-03T21:20:00+00:00",
       "created_at": "2026-07-03T21:55:04.946623+00:00"
+    },
+    {
+      "id": "13504e136675523b",
+      "content_hash": "13504e136675523b2e56bd480a23f4e6f1e42d893482b15943a1c41c68c1a4ba",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-22874",
+      "title": "CVE-2026-22874 - Gitea versions up to and including 1.26.2 have incomplete SSRF protection in web...",
+      "body": "Gitea versions up to and including 1.26.2 have incomplete SSRF protection in webhook and migration allow-list filtering.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22874",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.6,
+      "published_at": "2026-07-03T21:16:57.157000",
+      "created_at": "2026-07-04T12:00:22.184951+00:00"
+    },
+    {
+      "id": "a44fcd502ead1f27",
+      "content_hash": "a44fcd502ead1f27753ba5dbaed35568635c3018ab398c7bba22f3431eec9dec",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-22555",
+      "title": "CVE-2026-22555 - Gitea versions before 1.26.0 allow API users to fork a repository into an organi...",
+      "body": "Gitea versions before 1.26.0 allow API users to fork a repository into an organization without first passing the CanCreateOrgRepo check, which can expose organization secrets.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22555",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-07-03T21:16:57.023000",
+      "created_at": "2026-07-04T12:00:22.184944+00:00"
+    },
+    {
+      "id": "c29798bbe623ff7a",
+      "content_hash": "c29798bbe623ff7a3570adbb96e1630038ed17f943315a82e3d867ba5f8a33c4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-22547",
+      "title": "CVE-2026-22547 - Gitea versions before 1.25.5 lack validation constraints for repository creation...",
+      "body": "Gitea versions before 1.25.5 lack validation constraints for repository creation fields, including length-limited template fields and trust model or object format values.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22547",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T21:16:56.890000",
+      "created_at": "2026-07-04T12:00:22.184938+00:00"
     },
     {
       "id": "811b82d13bf7c3b3",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-02T12:15:47+00:00",
       "created_at": "2026-07-02T15:03:48.775789+00:00"
-    },
-    {
-      "id": "a1c7710a0614a1af",
-      "content_hash": "a1c7710a0614a1aff516325f1462426ca084d3772f7c11d75777f6297446c2b0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2607.01232",
-      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48760201\">Comments</a>",
-      "url": "https://arxiv.org/abs/2607.01232",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T12:10:24+00:00",
-      "created_at": "2026-07-02T15:03:54.196229+00:00"
-    },
-    {
-      "id": "2e172c2f253b0cf7",
-      "content_hash": "2e172c2f253b0cf70ddf8fffa10ee5c3abf1829565b783eaf4a677ba8aafb9a3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.nber.org/system/files/working_papers/w35310/w35310.pdf",
-      "title": "Is the iPhone birth control? Causal evidence from AT&T's 2007-2011 monopoly [pdf]",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48760106\">Comments</a>",
-      "url": "https://www.nber.org/system/files/working_papers/w35310/w35310.pdf",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T12:02:47+00:00",
-      "created_at": "2026-07-03T04:34:50.699233+00:00"
-    },
-    {
-      "id": "508c5c3bb1337471",
-      "content_hash": "508c5c3bb1337471bfab7bcd6e8bdc8dd779576cad8b3767682eb4d77a796fd4",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3137764",
-      "title": "Yep, we’re using OpenClaw to date now",
-      "body": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
-      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T12:00:00+00:00",
-      "created_at": "2026-07-02T12:01:01.880486+00:00"
-    },
-    {
-      "id": "d45799f7e7688358",
-      "content_hash": "d45799f7e76883589f83452923e83dd73762c26ac82b9ae9c3040259fdc30e43",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "title": "Many people misunderstand the purpose of code review",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48759870\">Comments</a>",
-      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-02T11:41:27+00:00",
-      "created_at": "2026-07-02T15:03:54.196277+00:00"
     }
   ]
 }
