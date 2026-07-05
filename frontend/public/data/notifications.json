@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-05T05:54:16.271471+00:00",
+  "generated_at": "2026-07-05T08:38:24.692919+00:00",
   "items": [
+    {
+      "id": "6046db115f42199e",
+      "content_hash": "6046db115f42199ecccb63efc0bfadc17c9b01b73f5b587b03ee3a1b8d380c12",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "title": "Is The Economist Always Wrong?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48791799\">Comments</a>",
+      "url": "https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T06:40:05+00:00",
+      "created_at": "2026-07-05T08:38:24.692307+00:00"
+    },
+    {
+      "id": "5814a123d0204abe",
+      "content_hash": "5814a123d0204abe2659e345d87ce509005e7bc1e1864439c4b48725a3b124c7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13",
+      "title": "EV Batteries Are Defying Expectations After Miles",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48791755\">Comments</a>",
+      "url": "https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T06:30:40+00:00",
+      "created_at": "2026-07-05T08:38:24.692453+00:00"
+    },
+    {
+      "id": "863b8d656d5dfa0c",
+      "content_hash": "863b8d656d5dfa0ccf7ccb0bd5c18bb8b6e5da3899390a5dff783ee8653e0238",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48791708\">Comments</a>",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T06:19:34+00:00",
+      "created_at": "2026-07-05T08:38:24.692094+00:00"
+    },
+    {
+      "id": "cba4fc340b16243e",
+      "content_hash": "cba4fc340b16243ef94902e57056ae4ea1f91422c8104be200f193992297a019",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://computer.rip/2026-07-04-microwave-and-power.html",
+      "title": "Megawatts by Microwave",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48791591\">Comments</a>",
+      "url": "https://computer.rip/2026-07-04-microwave-and-power.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T05:56:03+00:00",
+      "created_at": "2026-07-05T08:38:24.692181+00:00"
+    },
     {
       "id": "bfc8c7b10a608952",
       "content_hash": "bfc8c7b10a60895261d752487e210ced1843e7cc3c605e185745386d7bb7ec92",
@@ -98,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T03:44:54+00:00",
       "created_at": "2026-07-05T05:54:16.271073+00:00"
+    },
+    {
+      "id": "4a2bee2f3fbfbf44",
+      "content_hash": "4a2bee2f3fbfbf4454fca5a9273c41464addb20c12b6e889f63cf07c9547832f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gutsgatesguards.wordpress.com/2026/06/23/the-preemptive-draw-and-preemptive-grip-in-the-cash-in-transit-sector-part-1/",
+      "title": "The Preemptive Draw and Preemptive Grip in the Cash-in-Transit Sector",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48790990\">Comments</a>",
+      "url": "https://gutsgatesguards.wordpress.com/2026/06/23/the-preemptive-draw-and-preemptive-grip-in-the-cash-in-transit-sector-part-1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T03:20:46+00:00",
+      "created_at": "2026-07-05T08:38:24.692630+00:00"
     },
     {
       "id": "3e82aad5f4e526ee",
@@ -280,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-07-04T23:22:15+00:00",
       "created_at": "2026-07-05T01:55:12.913197+00:00"
+    },
+    {
+      "id": "7dcc231a25e71d7a",
+      "content_hash": "7dcc231a25e71d7ab5003e31d797628e6b23340a3afa65c4718a40d329947652",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14683",
+      "title": "CVE-2026-14683 - A vulnerability was detected in HdrHistogram up to 2.2.2. Affected by this issue...",
+      "body": "A vulnerability was detected in HdrHistogram up to 2.2.2. Affected by this issue is the function org.HdrHistogram.AbstractHistogram.decodeFromCompressedByteBuffer of the file src/main/java/org/HdrHistogram/AbstractHistogram.java. The manipulation of the argument lengthOfCompressedContents results in uncontrolled memory allocation. The attack needs to be approached locally. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14683",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.3,
+      "published_at": "2026-07-04T23:16:55.590000",
+      "created_at": "2026-07-05T08:38:20.275939+00:00"
     },
     {
       "id": "b119f573d8ac1bc3",
@@ -4426,6 +4510,20 @@
       "created_at": "2026-07-04T05:35:56.780060+00:00"
     },
     {
+      "id": "a06bda874b6b237e",
+      "content_hash": "a06bda874b6b237efa76db062e69112a3f19b5e9a881f23d2ad4da70d4787921",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pandoc.org/lua-filters.html",
+      "title": "Pandoc Lua Filters",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48773079\">Comments</a>",
+      "url": "https://pandoc.org/lua-filters.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T09:52:51+00:00",
+      "created_at": "2026-07-05T08:38:24.692139+00:00"
+    },
+    {
       "id": "7ca9f00b8cd074ab",
       "content_hash": "7ca9f00b8cd074ab8a0a36242c5aa98576be513d923556c7f37fbfbcb670e24d",
       "source_name": "CVE (NVD)",
@@ -6902,104 +7000,6 @@
       "cvss_score": 7.7,
       "published_at": "2026-07-02T20:17:07.673000",
       "created_at": "2026-07-03T17:10:42.270780+00:00"
-    },
-    {
-      "id": "c0c4acd7292048cc",
-      "content_hash": "c0c4acd7292048ccc005ef887f71be2c38bc62b5f4bc817d175b5b21a9865224",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59094",
-      "title": "CVE-2026-59094 - Pathway through 0.31.1, fixed in commit d09722e, document store applies a caller...",
-      "body": "Pathway through 0.31.1, fixed in commit d09722e, document store applies a caller-supplied glob pattern to indexed document paths using a hand-written recursive matcher that branches two ways on each ** token without memoization, giving exponential worst-case complexity. The filepath_globpattern value is taken from the body of the unauthenticated HTTP endpoints /v1/retrieve, /v1/inputs and /v2/answer and compiled into a filter evaluated once per indexed document, with no length or **-count limit. A remote unauthenticated attacker can submit a short pattern containing many ** tokens to consume CPU for tens of seconds per request, and a small number of requests denies service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59094",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-02T20:17:07.540000",
-      "created_at": "2026-07-03T17:10:42.270773+00:00"
-    },
-    {
-      "id": "10b496b070733f10",
-      "content_hash": "10b496b070733f1028eba5a13ca655d41855e000ae3b833b4584fe50b166cc46",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59093",
-      "title": "CVE-2026-59093 - Weaviate before 1.38.0 does not verify that a principal performing an RBAC role ...",
-      "body": "Weaviate before 1.38.0 does not verify that a principal performing an RBAC role assignment holds the permissions granted by the assigned role. The assignRoleToUser and assignRoleToGroup handlers (POST /authz/users/{id}/assign and /authz/groups/{id}/assign) authorize only that the caller may assign roles to the target user or group, not the permissions contained in the assigned roles, unlike role creation which enforces that a user can only create roles with permissions less than or equal to its own. A user holding only the delegated assign_and_revoke_users or assign_and_revoke_groups permission can assign the built-in admin role, or any high-privilege custom role, to itself or others, escalating to full administrative control of the database.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59093",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-02T20:17:07.410000",
-      "created_at": "2026-07-03T17:10:42.270767+00:00"
-    },
-    {
-      "id": "288cda8c17238cfb",
-      "content_hash": "288cda8c17238cfb07e429097c8d58d245baedb74ece8ed7ff3a63983ed2e6c8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59092",
-      "title": "CVE-2026-59092 - JuiceFS through 1.3.1, fixed in commit a46979c, contains an authentication bypas...",
-      "body": "JuiceFS through 1.3.1, fixed in commit a46979c, contains an authentication bypass vulnerability that allows unauthenticated remote attackers to access sensitive debug and metrics endpoints by exploiting improper handler registration on the shared http.DefaultServeMux. Attackers can request the /debug/pprof/cmdline endpoint to obtain the process command line containing metadata engine connection strings with database credentials, granting full read/write access to filesystem metadata, while other pprof handlers leak internal state and profiling handlers enable denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59092",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-07-02T20:17:07.270000",
-      "created_at": "2026-07-03T17:10:42.270761+00:00"
-    },
-    {
-      "id": "cf8643f814059f47",
-      "content_hash": "cf8643f814059f47dbd5a178bd68a8cde0af4212fbed3569fe409e2bd7e3f5e2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58580",
-      "title": "CVE-2026-58580 - LobeChat through 2.2.9 server-database deployments are vulnerable to broken obje...",
-      "body": "LobeChat through 2.2.9 server-database deployments are vulnerable to broken object-level authorization in MessageModel. The updateMessagePlugin, updatePluginState, updatePluginError, updateTTS and updateTranslate methods filter target rows by message id alone, omitting the userId scope that sibling methods apply, and findMessagePlugin reads back by id alone. Reachable via the corresponding tRPC message procedures, an authenticated user who knows another user's message identifier can overwrite that victim's plugin tool-call metadata, plugin state/error, text-to-speech and translation records on the same instance, and the tampered content is served back to the victim. Exploitation requires knowledge of the victim's non-enumerable message identifier.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58580",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-07-02T20:17:07.133000",
-      "created_at": "2026-07-03T17:10:42.270754+00:00"
-    },
-    {
-      "id": "7dad031143e27ddf",
-      "content_hash": "7dad031143e27ddfaedb77c49ebeb00c746f704efae524ca6157dc014fbd3da0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58579",
-      "title": "CVE-2026-58579 - RAGFlow before 0.26.3 stores an agent pipeline (DSL) node name without sanitizat...",
-      "body": "RAGFlow before 0.26.3 stores an agent pipeline (DSL) node name without sanitization: the agent update endpoint normalizes the submitted DSL via normalize_dsl, which only performs JSON serialization validation and preserves the node name verbatim. The dataflow-result web UI then renders that name into the \"Rerun from current step\" confirmation modal via dangerouslySetInnerHTML, and the i18next configuration sets escapeValue:false, so the value is inserted into the DOM without HTML encoding. An authenticated workspace user who can create or edit an agent can inject arbitrary JavaScript that executes in the session of another workspace member who opens the dataflow result and clicks rerun, enabling session/token theft and account takeover across the user trust boundary.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58579",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-07-02T20:17:07.003000",
-      "created_at": "2026-07-03T17:10:42.270748+00:00"
-    },
-    {
-      "id": "b0534f30c83ee62c",
-      "content_hash": "b0534f30c83ee62ccd395fbedcd5476fc704c12b4562328abad26cbb9f3b2064",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58578",
-      "title": "CVE-2026-58578 - LobeChat before version 2.2.10-canary.15 contains a regular expression denial of...",
-      "body": "LobeChat before version 2.2.10-canary.15 contains a regular expression denial of service (ReDoS) vulnerability that allows authenticated attackers to block the Node.js event loop by supplying a catastrophic-backtracking pattern in a GitHub repository URL path during skill import. Attackers can craft a malicious basePath value containing unescaped regex metacharacters such as catastrophic-backtracking patterns, which are injected into a dynamically constructed regular expression in the findSkillMd function and executed synchronously against archive entries, denying service to all concurrent users for tens of seconds per request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58578",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-02T20:17:06.870000",
-      "created_at": "2026-07-03T17:10:42.270741+00:00"
-    },
-    {
-      "id": "70844d359a9bed81",
-      "content_hash": "70844d359a9bed81d10b4945b80bf324898d80c81450cacc519155aee01e0549",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58467",
-      "title": "CVE-2026-58467 - Cockpit CMS before release 364 contains a path traversal and local file inclusio...",
-      "body": "Cockpit CMS before release 364 contains a path traversal and local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files or execute PHP files by including unvalidated PATH_INFO derived from REQUEST_URI in filesystem path construction without containment checks. Attackers can inject dot-dot sequences into the URL to traverse outside the designated spaces directory, and when the resolved path ends with a .php extension, the application passes it to include(), enabling local file inclusion on deployments using the PHP built-in server or certain non-default Nginx configurations.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58467",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-02T20:17:06.733000",
-      "created_at": "2026-07-03T17:10:42.270735+00:00"
     }
   ]
 }
