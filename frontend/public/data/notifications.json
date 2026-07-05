@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-05T15:59:32.515116+00:00",
+  "generated_at": "2026-07-05T17:11:10.652931+00:00",
   "items": [
+    {
+      "id": "efda400929591f8d",
+      "content_hash": "efda400929591f8df40f8c64e6eca2b3b3d83f368733b15c556de46d3fa148b9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mceglowski.substack.com/p/the-plight-of-the-martian-farmer",
+      "title": "The Plight of the Martian Farmer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48795303\">Comments</a>",
+      "url": "https://mceglowski.substack.com/p/the-plight-of-the-martian-farmer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T16:04:23+00:00",
+      "created_at": "2026-07-05T17:11:10.652138+00:00"
+    },
+    {
+      "id": "2d71e8d6551dde34",
+      "content_hash": "2d71e8d6551dde34dfc8b7d4d4efda1a005fb978b2f7878498c2c3fb94383e0a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026/",
+      "title": "Autonomous flying umbrella follows and shields users from rain and sunlight",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48795174\">Comments</a>",
+      "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T15:49:18+00:00",
+      "created_at": "2026-07-05T17:11:10.652449+00:00"
+    },
     {
       "id": "f1d728bd3527f7dc",
       "content_hash": "f1d728bd3527f7dcf5c290dd58cde6fbc532ff92a47eb70febbc0daf4d78e166",
@@ -30,6 +58,20 @@
       "created_at": "2026-07-05T15:59:32.514401+00:00"
     },
     {
+      "id": "a070ba82f4067654",
+      "content_hash": "a070ba82f4067654154748449285307842c1eebe23519b12fa9b6f97b688a394",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
+      "title": "Why DMARC's new \"NP\" tag can fail with DNSSEC",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48794788\">Comments</a>",
+      "url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T15:00:21+00:00",
+      "created_at": "2026-07-05T17:11:10.652305+00:00"
+    },
+    {
       "id": "403b9d2a56e6ccf4",
       "content_hash": "403b9d2a56e6ccf474248e7ed88365365dda354761c0f03017aeb8ae7434e3b7",
       "source_name": "TechCrunch",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T15:00:00+00:00",
       "created_at": "2026-07-05T15:59:32.194834+00:00"
+    },
+    {
+      "id": "741ee6e950049fbf",
+      "content_hash": "741ee6e950049fbfabb76c33207902371d209799dd88ebb2d954a637ec0a3706",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://popcar.bearblog.dev/its-about-ownership/",
+      "title": "It's not about physical vs. digital games, it's about ownership",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48794750\">Comments</a>",
+      "url": "https://popcar.bearblog.dev/its-about-ownership/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T14:56:15+00:00",
+      "created_at": "2026-07-05T17:11:10.652530+00:00"
     },
     {
       "id": "352cea3227bec4e9",
@@ -170,6 +226,20 @@
       "created_at": "2026-07-05T14:24:05.931917+00:00"
     },
     {
+      "id": "b8578413ba780ed1",
+      "content_hash": "b8578413ba780ed1c74952266e9db557d7d82bdfaa2f039b8ff4e88e89b4af0a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+      "title": "Cannabis users face substantially higher risk of heart attack (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48793492\">Comments</a>",
+      "url": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-07-05T11:59:27+00:00",
+      "created_at": "2026-07-05T17:11:10.652510+00:00"
+    },
+    {
       "id": "c209fec6db03e1a1",
       "content_hash": "c209fec6db03e1a1b1c49f01534b3dbd77d20b65f15316e2833e9dd598b02919",
       "source_name": "Hacker News (Best)",
@@ -210,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T10:50:53+00:00",
       "created_at": "2026-07-05T12:12:18.158446+00:00"
+    },
+    {
+      "id": "b532c562c97f1df5",
+      "content_hash": "b532c562c97f1df5c6e822a509e5334410c30845957a743fe6e715af3ab547eb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mihai.page/pi-square-is-10/",
+      "title": "Pi squared is nearly 10",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48793073\">Comments</a>",
+      "url": "https://mihai.page/pi-square-is-10/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T10:50:53+00:00",
+      "created_at": "2026-07-05T17:11:10.652490+00:00"
     },
     {
       "id": "b759fc996acd7cdf",
@@ -420,6 +504,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T06:19:34+00:00",
       "created_at": "2026-07-05T08:38:24.692094+00:00"
+    },
+    {
+      "id": "3ea560b011496c17",
+      "content_hash": "3ea560b011496c174e5f2673ba43c667bc91232abf1b6f5eb55e62fa77f3ada7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14705",
+      "title": "CVE-2026-14705 - A vulnerability was determined in code-projects Online Examination 1.0. Affected...",
+      "body": "A vulnerability was determined in code-projects Online Examination 1.0. Affected by this issue is some unknown functionality of the file head.php. Executing a manipulation of the argument uname/password can lead to sql injection. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14705",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T06:16:29.607000",
+      "created_at": "2026-07-05T17:11:07.139392+00:00"
     },
     {
       "id": "675bb8cf3367eef7",
@@ -6902,104 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-07-03T00:16:52.607000",
       "created_at": "2026-07-03T21:55:00.881944+00:00"
-    },
-    {
-      "id": "8ce0c6621613fd7c",
-      "content_hash": "8ce0c6621613fd7cb35be28c4a59ed7f30818dfa2384ee816b334c45c24b948e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54477",
-      "title": "CVE-2026-54477 - The admin panel lacks standard security headers, enabling clickjacking and cross...",
-      "body": "The admin panel lacks standard security headers, enabling clickjacking and cross-site scripting attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54477",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-07-03T00:16:52.440000",
-      "created_at": "2026-07-03T21:55:00.881938+00:00"
-    },
-    {
-      "id": "0c15057b248007d9",
-      "content_hash": "0c15057b248007d9ccc5479918f6f8d322858599d10ac220a2521384319fbaba",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13768",
-      "title": "CVE-2026-13768 - Gardyn devices expose a privileged iothubowner key. Access to this key will allo...",
-      "body": "Gardyn devices expose a privileged iothubowner key. Access to this key will allow a malicious user to invoke an IoTHub Registry Manager function which returns connection information for all Gardyn Home Kit and Studio devices. Access to this key also allows a malicious user to execute arbitrary commands on a specific connected device and may allow the malicious user to pivot to other devices on the user's network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13768",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-07-03T00:16:52.270000",
-      "created_at": "2026-07-03T21:55:00.881931+00:00"
-    },
-    {
-      "id": "bf69da22563ea968",
-      "content_hash": "bf69da22563ea968619d9b23cef7da18c3712d1ff85b0ad6cae6e60d36d696eb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13728",
-      "title": "CVE-2026-13728 - In exception circumstances, WatchGuard Fireware OS on a FireCluster may use a ha...",
-      "body": "In exception circumstances, WatchGuard Fireware OS on a FireCluster may use a hard-coded encryption key to encrypt saved credentials for Access Portal resources.\n\nThis vulnerability affects Fireware OS 12.1 up to and including 12.12 and 2025.1 up to and including 2026.2. This vulnerability does not affect devices that do not support the Access Portal feature or standalone Fireboxes not deployed in a FireCluster.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13728",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T00:16:52.147000",
-      "created_at": "2026-07-03T21:55:00.881925+00:00"
-    },
-    {
-      "id": "314188ff0ea3dec6",
-      "content_hash": "314188ff0ea3dec6de36ead2bf04881a9069f737fff0af0649ab6db3f158d229",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13722",
-      "title": "CVE-2026-13722 - WatchGuard Fireware OS contains a firmware validation bypass when processing a b...",
-      "body": "WatchGuard Fireware OS contains a firmware validation bypass when processing a backup image via the backup/restore feature. An authenticated administrator can exploit this vulnerability to install a tampered firmware image.This vulnerability affects Fireware OS 11.0 up to and including 11.12.4_Update1, 12.0 up to and including 12.12 and 2025.1 up to and including 2025.6.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13722",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T00:16:52.010000",
-      "created_at": "2026-07-03T21:55:00.881919+00:00"
-    },
-    {
-      "id": "efd2e4270eabf1e8",
-      "content_hash": "efd2e4270eabf1e84051a94caf755ac348bed033ac2ce480d022fba4496da355",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13384",
-      "title": "CVE-2026-13384 - An Out-of-bounds Write vulnerability in WatchGuard Fireware OS wgagent process c...",
-      "body": "An Out-of-bounds Write vulnerability in WatchGuard Fireware OS wgagent process could allow an authenticated privileged user to execute arbitrary code via a specially crafted requests to the Management Web UI.This vulnerability affects Fireware OS 12.1 up to and including 12.12 and 2025.1 up to and including 2026.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13384",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T00:16:51.893000",
-      "created_at": "2026-07-03T21:55:00.881913+00:00"
-    },
-    {
-      "id": "ea1a0ac9ef100045",
-      "content_hash": "ea1a0ac9ef100045f41f1af0b4dad20e0136e1f4df4c8369c67e281db9d98122",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13383",
-      "title": "CVE-2026-13383 - An Out-of-bounds Write vulnerability in WatchGuard Fireware OS ikestubd process ...",
-      "body": "An Out-of-bounds Write vulnerability in WatchGuard Fireware OS ikestubd process could allow an authenticated privileged user to execute arbitrary code via a specially crafted requests to the Management Web UI.This vulnerability affects Fireware OS 12.1 up to and including 12.12 and 2025.1 up to and including 2026.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13383",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T00:16:51.773000",
-      "created_at": "2026-07-03T21:55:00.881907+00:00"
-    },
-    {
-      "id": "60e3636e1acb6317",
-      "content_hash": "60e3636e1acb6317c5fdb21f2891070a7322f45dcb67b9c72c7d977520613271",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13377",
-      "title": "CVE-2026-13377 - Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site ...",
-      "body": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WatchGuard Fireware OS SIP Proxy module allows Stored XSS. This vulnerability is an additional unmitigated attack path for CVE-2025-6947.\n\nThis issue affects Fireware OS 12.0 up to and including 12.12, 12.5 up to and including 12.5.18, and 2025.1 up to and including 2026.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13377",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T00:16:51.643000",
-      "created_at": "2026-07-03T21:55:00.881901+00:00"
     }
   ]
 }
