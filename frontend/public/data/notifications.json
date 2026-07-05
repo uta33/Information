@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-05T22:49:38.183267+00:00",
+  "generated_at": "2026-07-05T23:55:01.544013+00:00",
   "items": [
+    {
+      "id": "759c687147fba12c",
+      "content_hash": "759c687147fba12c0cdc3d7fc635557a6845fe091a8eeb4edc8be825f6748339",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
+      "title": "Connections in Math: the two kinds of random",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48799026\">Comments</a>",
+      "url": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T23:31:30+00:00",
+      "created_at": "2026-07-05T23:55:01.543499+00:00"
+    },
     {
       "id": "8e3f9415380b9750",
       "content_hash": "8e3f9415380b9750116e4a39653d294929cf46617d54a155090cbe90dbcecd74",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T21:55:53+00:00",
       "created_at": "2026-07-05T22:49:38.182657+00:00"
+    },
+    {
+      "id": "0e5be78c51df4bc2",
+      "content_hash": "0e5be78c51df4bc2b6cbdf74f189b120cae1e7399ec47cfb3f73a58ce406c5b0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nicole.express/2026/phase-altering-by-line.html",
+      "title": "Composite Video on the NES: Why's it so wobbly?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48798247\">Comments</a>",
+      "url": "https://nicole.express/2026/phase-altering-by-line.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T21:45:17+00:00",
+      "created_at": "2026-07-05T23:55:01.543413+00:00"
     },
     {
       "id": "6a56946e38167167",
@@ -672,6 +700,48 @@
       "cvss_score": null,
       "published_at": "2026-07-05T12:47:39+00:00",
       "created_at": "2026-07-05T14:24:05.819452+00:00"
+    },
+    {
+      "id": "1dbd8882edd724fe",
+      "content_hash": "1dbd8882edd724fe7c2bcc513781152b159b6a422f2aa12b70f57e09a5700d65",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14746",
+      "title": "CVE-2026-14746 - A security vulnerability has been detected in code-projects Real State Services ...",
+      "body": "A security vulnerability has been detected in code-projects Real State Services 1.0. Affected is an unknown function of the file /addprojectrent.php. The manipulation of the argument amen leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14746",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T12:17:13.160000",
+      "created_at": "2026-07-05T23:54:57.559623+00:00"
+    },
+    {
+      "id": "8bc5f52ca32354a7",
+      "content_hash": "8bc5f52ca32354a78b1492d54fa0fae5ec7c8a79a1976c2f956bb750564c12e5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14745",
+      "title": "CVE-2026-14745 - A weakness has been identified in code-projects Real State Services 1.0. This im...",
+      "body": "A weakness has been identified in code-projects Real State Services 1.0. This impacts an unknown function of the file /single-list_rent.php. Executing a manipulation of the argument ID can lead to sql injection. It is possible to launch the attack remotely. The exploit has been made available to the public and could be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14745",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T12:17:13.007000",
+      "created_at": "2026-07-05T23:54:57.559616+00:00"
+    },
+    {
+      "id": "6d5bb78f2e0653f8",
+      "content_hash": "6d5bb78f2e0653f8c7bb41258c6222962a2aaa9d578939cd3b2e8f532900c0f8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14744",
+      "title": "CVE-2026-14744 - A security flaw has been discovered in code-projects Real State Services 1.0. Th...",
+      "body": "A security flaw has been discovered in code-projects Real State Services 1.0. This affects an unknown function of the file /normalHomeRent.php. Performing a manipulation of the argument loc results in sql injection. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14744",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T12:17:12.853000",
+      "created_at": "2026-07-05T23:54:57.559610+00:00"
     },
     {
       "id": "512227c1bf9bd4d2",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-03T03:16:23.490000",
       "created_at": "2026-07-03T21:55:00.882003+00:00"
-    },
-    {
-      "id": "43c63e8d71189a34",
-      "content_hash": "43c63e8d71189a344f79391239f0452558c8ae7588314c648d957c1d7cf25ce4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-4990",
-      "title": "CVE-2022-4990 - ** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Inp...",
-      "body": "** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Input in the ASUS AI Suite 3 driver allows a local user to bypass security validation and access restricted memory blocks via crafted IOCTL requests, leading to privilege escalation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4990",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T03:16:23.087000",
-      "created_at": "2026-07-03T21:55:00.881997+00:00"
-    },
-    {
-      "id": "da6e687b1423381a",
-      "content_hash": "da6e687b1423381a526a33026ac719f4ea10a7d95327b190e8dfcbcc1ed1eef5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-4989",
-      "title": "CVE-2022-4989 - ** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Inp...",
-      "body": "** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Input in the ASUS AI Suite 3 driver allows a local user to access unintended memory regions via crafted IOCTL requests, leading to privilege escalation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4989",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T03:16:22.100000",
-      "created_at": "2026-07-03T21:55:00.881991+00:00"
-    },
-    {
-      "id": "03194331491a574a",
-      "content_hash": "03194331491a574ab0598d1c7b25f09a163a7a8784aa775b70fbe52f34f04991",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
-      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48770291\">Comments</a>",
-      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T03:13:53+00:00",
-      "created_at": "2026-07-05T20:12:38.902244+00:00"
-    },
-    {
-      "id": "afb69ba6036b29e9",
-      "content_hash": "afb69ba6036b29e9ea4b0b3fff9a82773e7a3a928ef3d39c2952575a9389a025",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14327",
-      "title": "CVE-2026-14327 - The AR for WordPress plugin for WordPress is vulnerable to Directory Traversal i...",
-      "body": "The AR for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 8.40 via the 'file' parameter parameter. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. Exploitation requires an attacker to first obtain a valid nonce and secure nonce via the publicly accessible ar_get_fresh_nonce and ar_process_user_image nopriv AJAX handlers, and to reproduce the encryption key locally — both steps are fully achievable by an unauthenticated attacker on any default free or unlicensed installation where ar_licence_key is unset.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14327",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-03T02:16:23.470000",
-      "created_at": "2026-07-03T21:55:00.881984+00:00"
-    },
-    {
-      "id": "bc8cecb0004306a4",
-      "content_hash": "bc8cecb0004306a474e0c52fa794b7999c66dcfc142ef6a384367f27fb6e0ed8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12920",
-      "title": "CVE-2026-12920 - The Cookie Banner for GDPR / CCPA – WPLP Cookie Consent plugin for WordPress is ...",
-      "body": "The Cookie Banner for GDPR / CCPA – WPLP Cookie Consent plugin for WordPress is vulnerable to generic SQL Injection via the 's' parameter in all versions up to, and including, 4.3.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12920",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-07-03T02:16:23.343000",
-      "created_at": "2026-07-03T21:55:00.881977+00:00"
     }
   ]
 }
