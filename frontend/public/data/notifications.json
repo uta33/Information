@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-05T21:49:52.103353+00:00",
+  "generated_at": "2026-07-05T22:49:38.183267+00:00",
   "items": [
+    {
+      "id": "8e3f9415380b9750",
+      "content_hash": "8e3f9415380b9750116e4a39653d294929cf46617d54a155090cbe90dbcecd74",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/514-labs/dnsglobe",
+      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48798313\">Comments</a>",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T21:55:53+00:00",
+      "created_at": "2026-07-05T22:49:38.182657+00:00"
+    },
     {
       "id": "6a56946e38167167",
       "content_hash": "6a56946e381671679246e5c05c8da77e15b805bf9d292e42d67de634b0e9a60a",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T21:39:05+00:00",
       "created_at": "2026-07-05T21:49:52.102896+00:00"
+    },
+    {
+      "id": "4ed1a1c24e1283d8",
+      "content_hash": "4ed1a1c24e1283d8a2005976b88cdfd08f6a8b9714fa5626fc2f9c8eb5db1102",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/electronicsleep/rust-vim",
+      "title": "Had an idea for a Rust editor with simple Vim mode for learning",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48798187\">Comments</a>",
+      "url": "https://github.com/electronicsleep/rust-vim",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T21:36:28+00:00",
+      "created_at": "2026-07-05T22:49:38.182852+00:00"
     },
     {
       "id": "a08f80f73ffacc7f",
@@ -156,6 +184,20 @@
       "created_at": "2026-07-05T21:49:52.102882+00:00"
     },
     {
+      "id": "7209e0330291c30c",
+      "content_hash": "7209e0330291c30c87ff714399f0bc466b41f3385feb4306a5291c8f6a2fba2b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://segflow.github.io/post/zero-copy-sendfile-splice/",
+      "title": "Zero-copy in Go: sendfile, splice, and the cost of io.Copy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48797655\">Comments</a>",
+      "url": "https://segflow.github.io/post/zero-copy-sendfile-splice/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T20:24:31+00:00",
+      "created_at": "2026-07-05T22:49:38.182332+00:00"
+    },
+    {
       "id": "14ad2353f9f9b750",
       "content_hash": "14ad2353f9f9b7502efbc3d31148d443de392d6bf7125aa87ac1a63fbde655c0",
       "source_name": "Hacker News (Best)",
@@ -182,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T19:31:22+00:00",
       "created_at": "2026-07-05T21:49:52.103105+00:00"
+    },
+    {
+      "id": "01b4e40f4d350393",
+      "content_hash": "01b4e40f4d350393f951d6fd9cddf2b29c40a92994c91b14d85a7f733f67a0e7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/",
+      "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48797141\">Comments</a>",
+      "url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-05T19:22:51+00:00",
+      "created_at": "2026-07-05T22:49:38.182747+00:00"
     },
     {
       "id": "b5191d8e5171cb7d",
@@ -618,6 +674,20 @@
       "created_at": "2026-07-05T14:24:05.819452+00:00"
     },
     {
+      "id": "512227c1bf9bd4d2",
+      "content_hash": "512227c1bf9bd4d29bec57c746650c33991aff155bafb1d192e3e4c002bf31e1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14743",
+      "title": "CVE-2026-14743 - A vulnerability was identified in code-projects Real State Services 1.0. The imp...",
+      "body": "A vulnerability was identified in code-projects Real State Services 1.0. The impacted element is an unknown function of the file /normalHomeSale.php. Such manipulation of the argument loc leads to sql injection. The attack may be performed from remote. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14743",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T12:17:12.037000",
+      "created_at": "2026-07-05T22:49:35.057801+00:00"
+    },
+    {
       "id": "59de3a2b1cbf924c",
       "content_hash": "59de3a2b1cbf924c280cafecea86bd393b47c95108ad846e3381bafbded8869f",
       "source_name": "Hacker News (Best)",
@@ -702,6 +772,48 @@
       "created_at": "2026-07-05T15:59:32.514840+00:00"
     },
     {
+      "id": "79af4f86cd6eca06",
+      "content_hash": "79af4f86cd6eca0635775542194bc3beb7fb07661a71b63db493086fe199d953",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14742",
+      "title": "CVE-2026-14742 - A vulnerability was determined in langchain-ai langgraph up to 1.2.4. The affect...",
+      "body": "A vulnerability was determined in langchain-ai langgraph up to 1.2.4. The affected element is the function _freeze of the file libs/langgraph/langgraph/_internal/_cache.py of the component Task Result Cache. This manipulation of the argument default_cache_key causes use of weak hash. The attack is possible to be carried out remotely. The complexity of an attack is rather high. The exploitability is described as difficult. The exploit has been publicly disclosed and may be utilized. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14742",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "published_at": "2026-07-05T11:16:27.390000",
+      "created_at": "2026-07-05T22:49:35.057795+00:00"
+    },
+    {
+      "id": "7426f6d7be498fd6",
+      "content_hash": "7426f6d7be498fd6727a5bddf97fb4ba9714a4842b7816163c44b3d964aa7742",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14738",
+      "title": "CVE-2026-14738 - A security flaw has been discovered in exo-explore exo up to 1.0.71. Affected is...",
+      "body": "A security flaw has been discovered in exo-explore exo up to 1.0.71. Affected is the function _image_cache_key of the file src/exo/worker/engines/mlx/vision.py of the component Vision Feature Cache. The manipulation results in use of weak hash. It is possible to launch the attack remotely. A high complexity level is associated with this attack. The exploitability is told to be difficult. The exploit has been released to the public and may be used for attacks. The pull request to fix this issue awaits acceptance.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14738",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.7,
+      "published_at": "2026-07-05T11:16:27.197000",
+      "created_at": "2026-07-05T22:49:35.057788+00:00"
+    },
+    {
+      "id": "7038ae189a0c830d",
+      "content_hash": "7038ae189a0c830d734a6f996aca2b5e9762775dae2d7e6575f677725b267f1d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14737",
+      "title": "CVE-2026-14737 - A vulnerability was identified in Hanwang e-Face General Management Platform 6.3...",
+      "body": "A vulnerability was identified in Hanwang e-Face General Management Platform 6.3.5.4. This impacts an unknown function of the file /sysAuthStr/querySysAuthStr.do. The manipulation of the argument order leads to sql injection. It is possible to initiate the attack remotely. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14737",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T11:16:26.553000",
+      "created_at": "2026-07-05T22:49:35.057782+00:00"
+    },
+    {
       "id": "61b73478c3208c1a",
       "content_hash": "61b73478c3208c1ae949d1dbd84fd42599ae410bade32c26f29599fc7ac1055e",
       "source_name": "Hacker News (Best)",
@@ -728,6 +840,20 @@
       "cvss_score": null,
       "published_at": "2026-07-05T10:50:53+00:00",
       "created_at": "2026-07-05T17:11:10.652490+00:00"
+    },
+    {
+      "id": "c76a25c0c5abaa38",
+      "content_hash": "c76a25c0c5abaa38fe795412c571083e0066b1e8cd72fdf4e88e2ea9220843bc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14736",
+      "title": "CVE-2026-14736 - A vulnerability was found in Ruijie RG-UAC up to 1.0-R1.8.2.p5. The impacted ele...",
+      "body": "A vulnerability was found in Ruijie RG-UAC up to 1.0-R1.8.2.p5. The impacted element is an unknown function of the file user_auth_commit.php. Performing a manipulation of the argument upload_image results in unrestricted upload. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14736",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-05T10:16:30.117000",
+      "created_at": "2026-07-05T22:49:35.057775+00:00"
     },
     {
       "id": "9f053fcaada87380",
@@ -5070,6 +5196,20 @@
       "created_at": "2026-07-03T18:58:59.757384+00:00"
     },
     {
+      "id": "fec8993ae5084b95",
+      "content_hash": "fec8993ae5084b959e0e52c613b51e2755453fc353404433655eff46aa0a21c3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.wikipedia.org/wiki/Johnson_thermoelectric_energy_converter",
+      "title": "Johnson Thermoelectric Energy Converter",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48776956\">Comments</a>",
+      "url": "https://en.wikipedia.org/wiki/Johnson_thermoelectric_energy_converter",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-03T16:37:26+00:00",
+      "created_at": "2026-07-05T22:49:38.182613+00:00"
+    },
+    {
       "id": "871ee1611fc8645e",
       "content_hash": "871ee1611fc8645e77be0507c213f8dff34a130705ed056914bf215e17842d7c",
       "source_name": "TechCrunch",
@@ -6860,146 +7000,6 @@
       "cvss_score": 4.9,
       "published_at": "2026-07-03T02:16:23.343000",
       "created_at": "2026-07-03T21:55:00.881977+00:00"
-    },
-    {
-      "id": "252bad61b519fb3c",
-      "content_hash": "252bad61b519fb3c9f1a31bd7dc7ed741eac9f5eccd1ffff34a8ce144390c2ae",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12734",
-      "title": "CVE-2026-12734 - The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot pl...",
-      "body": "The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'connectorWidth' Block Attribute in all versions up to, and including, 2.3.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12734",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-07-03T02:16:23.223000",
-      "created_at": "2026-07-03T21:55:00.881970+00:00"
-    },
-    {
-      "id": "4a1a39d9f74387a5",
-      "content_hash": "4a1a39d9f74387a5403fdc87b60fb55c3e9f244dfe7eee7d8e07180478bd1ea6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12731",
-      "title": "CVE-2026-12731 - The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot pl...",
-      "body": "The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'sectionTitleTag' and 'articleTitleTag' Block Attributes in all versions up to, and including, 2.3.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12731",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-07-03T02:16:23.100000",
-      "created_at": "2026-07-03T21:55:00.881963+00:00"
-    },
-    {
-      "id": "2075bfcdbe0825ab",
-      "content_hash": "2075bfcdbe0825ab02c3b8234810188f4baeda06abd6cb8f68c39cf7811e00f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12729",
-      "title": "CVE-2026-12729 - The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot pl...",
-      "body": "The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Missing Authorization in versions up to and including 2.3.0. This is due to a missing capability check on the do_migration() function registered as the wedocs_migrate_betterdocs_to_wedocs AJAX action, which performs no nonce verification via check_ajax_referer() and no capability check via current_user_can() before executing sensitive operations. This makes it possible for authenticated attackers, with Subscriber-level access and above, to trigger a full BetterDocs-to-weDocs data migration, creating and modifying 'docs' custom post type entries with attacker-controlled titles, updating site options, and deactivating the BetterDocs and BetterDocs Pro plugins via deactivate_plugins().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12729",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-03T02:16:22.740000",
-      "created_at": "2026-07-03T21:55:00.881957+00:00"
-    },
-    {
-      "id": "c788dd53d8ff7032",
-      "content_hash": "c788dd53d8ff70320968fad136ec81b348819270d83ba7b54733bccab83aad7e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
-      "title": "The Safari MCP server for web developers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48769639\">Comments</a>",
-      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:37:11+00:00",
-      "created_at": "2026-07-03T07:54:02.658136+00:00"
-    },
-    {
-      "id": "29ab38a8462756dd",
-      "content_hash": "29ab38a8462756dd15b6c7e196f5a773ff9762930902c0585804026e317a0db0",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-      "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
-      "body": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:37:09+00:00",
-      "created_at": "2026-07-03T04:34:45.829729+00:00"
-    },
-    {
-      "id": "eb726a52bd4a325a",
-      "content_hash": "eb726a52bd4a325ae4c773e86797f116344b7bb45176a2d5ae989fb0fa352124",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022122.html",
-      "title": "GoogleのMCP Toolbox for Databasesにおけるパストラバーサルの脆弱性",
-      "body": "googleapis/mcp-toolboxのHTTPツールのURLビルダーにはパストラバーサル脆弱性が存在します。ダウンストリームのAPIリクエストを作成する際、URLビルダーはユーザーが制御するpathParamsを設定されたツールパスに置き換え、その結果の文字列を相対URLとして解析します。入力がスキーム、ホスト、またはユーザー情報を変更しないことは確認しますが、最終的なURL解決にはResolveReferenceに依存しています。この解決ステップ中にドットセグメント（../）が正規化されるため、攻撃者はディレクトリトラバーサルシーケンスを含むパスパラメータを供給し、オペレーターが設定したパスの範囲から逃れることが可能です。これにより、クライアントはツールボックスに同じターゲットホスト上の意図しないエンドポイントへリクエストを強制的に送らせることができ、ツールボックスの設定された認証情報（例：/api/v1/users/{{.id}}のような制限パスをバイパスして/admin/secretsにアクセスする）を転送させることが可能となります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022122.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:24:00+00:00",
-      "created_at": "2026-07-03T04:34:50.502384+00:00"
-    },
-    {
-      "id": "2dc974babf3eb171",
-      "content_hash": "2dc974babf3eb1719471ba563797019d022b6bb3680b7fea2bf0fd48e7ce8dd5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022121.html",
-      "title": "Amazon.com, Inc.のAmazon CloudFrontにおけるHTTP リクエストスマグリングに関する脆弱性",
-      "body": "AWS WAF を有効にした Amazon CloudFront における HTTP/2 リクエストの解釈の不整合により、リクエストボディをフレーム間で断片化してボディの一部しか検査されないように細工された HTTP/2 リクエストを用いて、リモートの攻撃者が AWS WAF マネージドルールによるボディ検査を回避できる可能性があります。この問題はサーバー側で修正されました。お客様による対応は不要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022121.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:24:00+00:00",
-      "created_at": "2026-07-03T04:34:50.502417+00:00"
-    },
-    {
-      "id": "81da2c79af11bcdd",
-      "content_hash": "81da2c79af11bcddefcbec1a568fc7d133c70255560bc9a5201cec288e6b2bbc",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022120.html",
-      "title": "Amazon.com, Inc.のApplication Load BalancerにおけるHTTP リクエストスマグリングに関する脆弱性",
-      "body": "AWS WAFが有効なAWSアプリケーションロードバランサー（ALB）において、HTTP/2リクエストの解釈が一貫していないため、リモート攻撃者がリクエストボディを複数のフレームに分割した改ざんされたHTTP/2リクエストを使用し、一部のボディのみが検査される状況を作り出すことで、AWS WAFの管理ルールによるボディ検査を回避できる可能性があります。この問題はHTTP/2のALBターゲットグループにのみ影響します。問題を解決するために、顧客はALBロードバランサーに関連付けられているターゲットグループの設定で「十分なデータを検査してから検査する（Inspect after sufficient data）」を有効にしなければなりません。詳細は以下をご参照ください。 (https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html#waf-http2-inspection)",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022120.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:23:00+00:00",
-      "created_at": "2026-07-03T04:34:50.502465+00:00"
-    },
-    {
-      "id": "38d9c16ff56b00d7",
-      "content_hash": "38d9c16ff56b00d7568d5bf1f4e4ef8fc8d373ecec0477d470eb04100148e868",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022119.html",
-      "title": "RTK-AIのRTK (Rust Token Killer)における複数の脆弱性",
-      "body": "rtkは、コマンド出力がLLMコンテキストに到達する前にそれらをフィルタリングおよび圧縮します。バージョン0.32.0以前のRTK（Rust Token Killer）は、プロジェクトローカルの設定ファイルを不適切に信頼していました。RTKは、作業ディレクトリからユーザーへの通知なく、最高優先度で自動的に.rtk/filters.tomlを読み込みます。攻撃者はリポジトリ内に悪意のあるフィルタファイルを配置し、正規表現ベースの変更（例：strip_lines_matching）をシェルコマンドの出力に適用することで、LLMに表示される前に出力を改ざんでき、出力が変更されたことを示す痕跡を残しません。これにより、攻撃者はコマンド出力（ファイル内容、差分、セキュリティスキャン結果を含む）を選択的に抑制または変更でき、AI支援の開発やレビュー時に悪意あるコードを隠蔽することが可能になります。この脆弱性はバージョン0.32.0で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022119.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:23:00+00:00",
-      "created_at": "2026-07-03T04:34:50.502486+00:00"
-    },
-    {
-      "id": "3e3d38bb8f3972ec",
-      "content_hash": "3e3d38bb8f3972ece82b3fd84badd0ee3ea3efbc7fd4e173487e43804646b05c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022118.html",
-      "title": "RTK-AIのrtk-rewriteにおけるOS コマンドインジェクションの脆弱性",
-      "body": "@rtk-ai/rtk-rewrite は、OpenClaw の exec ツールを介して実行されるシェルコマンドを、その RTK 等価物に透過的に書き換えます。バージョン 1.0.0 では、@rtk-ai/rtk-rewrite OpenClaw プラグインが攻撃者に制御された入力を、シェル安全なエスケープ処理を行わずにシェルバックの execSync() テンプレート文字列に直接渡します。JSON.stringify() は値を二重引用符で囲み、内部の二重引用符やバックスラッシュをエスケープしますが、$() およびバックティックのシェルのメタ文字はそのままにします。execSync は実行を /bin/sh -c に委譲するため、シェルは二重引用符で囲まれた文字列内でも $(...) サブスティテューションを展開し、注入されたサブコマンドが rtk が呼び出される前に実行されます。exec ツールのコマンドパラメータ（例：LLM エージェントのプロンプトやゲートウェイ／ツール呼び出し入力）を操作できる攻撃者は、プラグインやゲートウェイプロセスの権限で任意の OS コマンドを実行できます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022118.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-03T01:23:00+00:00",
-      "created_at": "2026-07-03T04:34:50.502504+00:00"
     }
   ]
 }
