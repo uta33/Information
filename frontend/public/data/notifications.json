@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-08T01:27:15.731183+00:00",
+  "generated_at": "2026-07-08T04:57:07.782028+00:00",
   "items": [
+    {
+      "id": "8408ff7e1cb702b0",
+      "content_hash": "8408ff7e1cb702b00d5a2fe12475371f75c73103ddbe0213d1704506dc1be026",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48827325\">Comments</a>",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-08T03:59:35+00:00",
+      "created_at": "2026-07-08T04:57:07.781165+00:00"
+    },
+    {
+      "id": "45cced4b8fce26c0",
+      "content_hash": "45cced4b8fce26c0070a70b75108047153c26c5152d1aa6839ab798aab50bf57",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.digipres.org/the-floppy-guide/",
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48827092\">Comments</a>",
+      "url": "https://www.digipres.org/the-floppy-guide/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-08T03:22:31+00:00",
+      "created_at": "2026-07-08T04:57:07.781453+00:00"
+    },
+    {
+      "id": "7dbf3274ab60dedf",
+      "content_hash": "7dbf3274ab60dedf3c511f01d7c3e9334130f1078851206df2e2f892347edfff",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "title": "Is The Economist Always Wrong?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48826703\">Comments</a>",
+      "url": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-08T02:17:01+00:00",
+      "created_at": "2026-07-08T04:57:07.781199+00:00"
+    },
+    {
+      "id": "b87a7732bf6ca8ef",
+      "content_hash": "b87a7732bf6ca8ef75d2f3ed261a79bd1342c02eb33a02fe19b7b577927d8675",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stats.lineageos.org",
+      "title": "LineageOS Statistics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48826329\">Comments</a>",
+      "url": "https://stats.lineageos.org",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-08T01:27:39+00:00",
+      "created_at": "2026-07-08T04:57:07.781492+00:00"
+    },
     {
       "id": "b2b811655bcd2c7a",
       "content_hash": "b2b811655bcd2c7ab3fc7620606e2c5412c7872971d4078955a83cb591ebd8bb",
@@ -28,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-07-08T00:18:39+00:00",
       "created_at": "2026-07-08T01:27:15.730495+00:00"
+    },
+    {
+      "id": "f81c42f455c57685",
+      "content_hash": "f81c42f455c576852289cc478163799aeebe0cdf3d560fe58c3875b7b29e939e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kb.cert.org/vuls/id/213560",
+      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48825749\">Comments</a>",
+      "url": "https://kb.cert.org/vuls/id/213560",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-08T00:08:51+00:00",
+      "created_at": "2026-07-08T04:57:07.781225+00:00"
     },
     {
       "id": "b99d38027eb278d5",
@@ -70,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-07-07T23:57:29+00:00",
       "created_at": "2026-07-08T01:27:15.730582+00:00"
+    },
+    {
+      "id": "50e374aaa33e8504",
+      "content_hash": "50e374aaa33e85049994dc95602f0b768ea8d6c24ef5b3fd04d79e5993b9fc54",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48825664\">Comments</a>",
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-07T23:57:29+00:00",
+      "created_at": "2026-07-08T04:57:07.781276+00:00"
     },
     {
       "id": "5c120f52368ce5c2",
@@ -406,6 +490,20 @@
       "cvss_score": null,
       "published_at": "2026-07-07T18:08:29+00:00",
       "created_at": "2026-07-07T20:44:35.800804+00:00"
+    },
+    {
+      "id": "7506e55c38662c08",
+      "content_hash": "7506e55c38662c089afe8bee36adad075a0138f55a6d25a7b25e3edff204407e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/claudeai/status/2074548242386178258",
+      "title": "We're extending access to Fable 5 on all paid plans through July 12",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48821102\">Comments</a>",
+      "url": "https://twitter.com/claudeai/status/2074548242386178258",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-07T17:44:50+00:00",
+      "created_at": "2026-07-08T04:57:07.781573+00:00"
     },
     {
       "id": "45fa3dd64893d1d8",
@@ -1134,6 +1232,20 @@
       "cvss_score": null,
       "published_at": "2026-07-07T10:42:59+00:00",
       "created_at": "2026-07-07T18:53:48.876496+00:00"
+    },
+    {
+      "id": "5cb29e68a8cbd285",
+      "content_hash": "5cb29e68a8cbd2859abf80582a0ffb528ecf87f3a81c70fe810a8dd83e85ad20",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-48828",
+      "title": "CVE-2026-48828 - The Bulk Variables API in Apache Airflow called the redactor without passing the...",
+      "body": "The Bulk Variables API in Apache Airflow called the redactor without passing the variable's key, so the key-based `should_hide_value_for_key` check (which triggers on secret-suffixed key names like `*_password` / `*_token` / `*_secret`) could not fire for JSON-decodable variable values. An authenticated UI/API user with bulk Variable read permission could retrieve plaintext values from JSON variables whose key would otherwise trigger redaction. Affects deployments that store sensitive values in JSON-typed Airflow Variables under secret-suffixed key names. Users are advised to upgrade to `apache-airflow` 3.3.0 or later (the fix landed on `main` after 3.2.2; no 3.2.x backport).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48828",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-07-07T10:16:41.260000",
+      "created_at": "2026-07-08T04:57:01.528237+00:00"
     },
     {
       "id": "d227e270f263df91",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-06T02:43:00+00:00",
       "created_at": "2026-07-06T06:59:40.622978+00:00"
-    },
-    {
-      "id": "8674108522511530",
-      "content_hash": "86741085225115309c85cacae649f7f53a34cb20b9a8d6ceec202aaa1a69c76f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022455.html",
-      "title": "GoogleのGoogle Chromeにおける保護メカニズムの不具合に関する脆弱性",
-      "body": "Google Chrome 150.0.7871.47より前のバージョンのParserにおけるポリシー適用が不十分だったため、リモートの攻撃者が細工されたHTMLページを介してコンテンツセキュリティポリシーを回避できる可能性がありました。（Chromiumセキュリティの重大度は低です）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022455.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.622996+00:00"
-    },
-    {
-      "id": "b4bc0f87f3362cd2",
-      "content_hash": "b4bc0f87f3362cd2f4aabc0f3a65dbbd0e8625d5d939bb76c94e4bc5b30fe749",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022454.html",
-      "title": "GoogleのGoogle Chromeにおける情報漏えいに関する脆弱性",
-      "body": "150.0.7871.47より前のChromeOS上のGoogle ChromeのViewsにおける不適切な実装により、攻撃者が悪意のある拡張機能をインストールするようユーザーを騙し、その悪意のあるChrome拡張機能を介してプロセスメモリから潜在的に機密性の高い情報を取得できる可能性がありました。（Chromiumのセキュリティ深刻度は低です）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022454.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623012+00:00"
-    },
-    {
-      "id": "6ba755b3d2493903",
-      "content_hash": "6ba755b3d24939039587208ccdf2836dd99531784753eabcdd8070496522b2a3",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022453.html",
-      "title": "GoogleのGoogle Chromeにおけるユーザインターフェースにおける重要情報の誤った表示に関する脆弱性",
-      "body": "Google Chrome 150.0.7871.47 未満の SplitView の不適切な実装により、リモートの攻撃者が細工された HTML ページを介して UI に対するなりすましを行うことが可能でした。（Chromium セキュリティの深刻度は低いです）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022453.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623030+00:00"
-    },
-    {
-      "id": "792e19da5a227d55",
-      "content_hash": "792e19da5a227d5510f42f42eecfb3bc4b5225eb50917a0a83e583eb0c9354b0",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022452.html",
-      "title": "GoogleのGoogle Chromeにおける複数の脆弱性",
-      "body": "150.0.7871.47より前のWindows版Google ChromeのWebNNにおけるヒープバッファオーバーフローにより、リモート攻撃者がレンダラープロセスを侵害し、細工されたHTMLページを介してヒープの破損を悪用する可能性がありました。（Chromiumセキュリティの重大度は低です）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022452.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623047+00:00"
-    },
-    {
-      "id": "788495375e0e2e00",
-      "content_hash": "788495375e0e2e00cb5399e6b083e45ce5fc2bdfa98a8afc569ff07d169b1db9",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022451.html",
-      "title": "GoogleのGoogle Chromeにおける初期化されていない変数の使用に関する脆弱性",
-      "body": "Android版Google Chromeのバージョン150.0.7871.47より前において、Canvasの未初期化使用によりリモートの攻撃者が細工されたHTMLページを介してプロセスメモリから潜在的に機密性の高い情報を取得できる可能性がありました。この問題はChromiumのセキュリティ評価で重大度が低いとされています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022451.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623063+00:00"
-    },
-    {
-      "id": "72a7a7a43eb0bde2",
-      "content_hash": "72a7a7a43eb0bde27843a1112f84b2c0c7e4e627402a6e508f1bfa55b55524ec",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022450.html",
-      "title": "GoogleのGoogle Chromeにおける入力確認に関する脆弱性",
-      "body": "Google Chrome 150.0.7871.47以前のPopupBlockerには信頼されていない入力の検証不足があり、そのためリモート攻撃者が細工されたHTMLページを介してレンダラープロセスを侵害し、UIスプーフィングを行うことが可能でした。（Chromiumのセキュリティ重大度は低と評価されています）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022450.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623081+00:00"
-    },
-    {
-      "id": "0566867ba1668e7d",
-      "content_hash": "0566867ba1668e7dd691a50e0e3a83466f6071696d446808c894f8e37cc322b1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022449.html",
-      "title": "GoogleのGoogle Chromeにおける境界外読み取りに関する脆弱性",
-      "body": "Chrome OS上のGoogle Chromeバージョン150.0.7871.47以前のCameraCaptureにおける信頼されていない入力の不十分な検証により、リモート攻撃者が細工されたHTMLページを通じて境界外のメモリを読み取ることが可能でした。（Chromiumセキュリティ重大度：低）",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022449.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623096+00:00"
-    },
-    {
-      "id": "0344d18eefbc120f",
-      "content_hash": "0344d18eefbc120f3736c33b56e7834e41e450ce07c8d9d26a6a1ca0b5f21591",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022448.html",
-      "title": "GoogleのGoogle Chromeにおける複数の脆弱性",
-      "body": "MacのGoogle Chromeバージョン150.0.7871.47以前のSandboxにおけるポリシー適用が不十分だったため、レンダラープロセスを侵害したリモート攻撃者が細工されたHTMLページを介してサンドボックスから脱出する可能性がありました。（Chromiumセキュリティの深刻度は低いです）」",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022448.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-06T02:43:00+00:00",
-      "created_at": "2026-07-06T06:59:40.623112+00:00"
     }
   ]
 }
