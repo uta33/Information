@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-09T19:19:17.536674+00:00",
+  "generated_at": "2026-07-09T21:10:41.683561+00:00",
   "items": [
+    {
+      "id": "2b7ccee312b3d415",
+      "content_hash": "2b7ccee312b3d415df85df9f88a09ec35c03fd63527bade9ba2b27d8b1cf47b7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://randofont.alesh.com",
+      "title": "Show HN: RandoFont, a browser for Google Fonts",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48852144\">Comments</a>",
+      "url": "https://randofont.alesh.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T20:46:38+00:00",
+      "created_at": "2026-07-09T21:10:41.683277+00:00"
+    },
+    {
+      "id": "552ebb80b8ee298f",
+      "content_hash": "552ebb80b8ee298fe3acfecd33cc09ee4b70442cb7f53e29bfdce577cbf6008d",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+      "body": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T20:10:00+00:00",
+      "created_at": "2026-07-09T21:10:36.070575+00:00"
+    },
+    {
+      "id": "7a81bddce468d07b",
+      "content_hash": "7a81bddce468d07bd60991338ed1dd0b6678c4e235a5f9aa840f4dd989ed2b09",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3140525",
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "body": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T19:40:45+00:00",
+      "created_at": "2026-07-09T21:10:41.393729+00:00"
+    },
+    {
+      "id": "014b200dd373328f",
+      "content_hash": "014b200dd373328f8127912c7cdd0fc5068cdbe837e24852eb65d687bd5feca7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3140677",
+      "title": "Charles Hudson shares the common mistakes he’s seen after investing in 500+ startups",
+      "body": "In this week’s episode of Build Mode,  Isabelle Johannessen talks with Precursor Ventures' Charles Hudson about the headwinds facing early-stage founders today and the most common mistakes founders should avoid in order to get funded.",
+      "url": "https://techcrunch.com/2026/07/09/charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T19:26:31+00:00",
+      "created_at": "2026-07-09T21:10:41.393766+00:00"
+    },
     {
       "id": "43dc4e78b8e45384",
       "content_hash": "43dc4e78b8e453840ff8165abb757ee8a68c109a6b1ecc98878c46a5b462847b",
@@ -168,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-07-09T17:56:47+00:00",
       "created_at": "2026-07-09T19:19:17.440187+00:00"
+    },
+    {
+      "id": "7affbd927a103da7",
+      "content_hash": "7affbd927a103da75fc8ca80d72047fead4e2f2b2899c68e8fc6fccc39d83ec0",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3140527",
+      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+      "body": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T17:56:47+00:00",
+      "created_at": "2026-07-09T21:10:41.393926+00:00"
     },
     {
       "id": "0da0435d4c5a90ae",
@@ -520,6 +590,20 @@
       "created_at": "2026-07-09T17:10:53.158491+00:00"
     },
     {
+      "id": "57f26d24f1b25de9",
+      "content_hash": "57f26d24f1b25de9445724c52a82c3d839e51e2e57b669fd202001e9532d8451",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+      "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48846842\">Comments</a>",
+      "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T14:50:01+00:00",
+      "created_at": "2026-07-09T21:10:41.683152+00:00"
+    },
+    {
       "id": "648b2a7bc3a94362",
       "content_hash": "648b2a7bc3a943624fb7e65eeb67d7fef5930242109e372f700924a5fa8ceb80",
       "source_name": "Hacker News (Best)",
@@ -772,6 +856,20 @@
       "created_at": "2026-07-09T14:27:30.982311+00:00"
     },
     {
+      "id": "816c10f9ac91f3fa",
+      "content_hash": "816c10f9ac91f3faa6861fac2d2a8364cdc866c048b4aaa839aa457801187ff1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://scotto.me/blog/2026-07-09-why-lisp/",
+      "title": "A road to Lisp: Why Lisp",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48845209\">Comments</a>",
+      "url": "https://scotto.me/blog/2026-07-09-why-lisp/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T13:06:04+00:00",
+      "created_at": "2026-07-09T21:10:41.683034+00:00"
+    },
+    {
       "id": "d83c89b984561fa4",
       "content_hash": "d83c89b984561fa4d1645384326e4a5759219790fe0169aa5a344d2b5f4f52a0",
       "source_name": "TechCrunch",
@@ -798,6 +896,20 @@
       "cvss_score": null,
       "published_at": "2026-07-09T13:00:00+00:00",
       "created_at": "2026-07-09T14:27:30.855982+00:00"
+    },
+    {
+      "id": "f9ee803d2d99526a",
+      "content_hash": "f9ee803d2d99526ae2dfd24a1d2b8aab57892df55ca381411bb31b16fa272351",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "body": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "category": "ai",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "created_at": "2026-07-09T21:10:35.393157+00:00"
     },
     {
       "id": "5e0fb0e40fe2c7b0",
@@ -1064,6 +1176,20 @@
       "cvss_score": null,
       "published_at": "2026-07-09T08:22:52+00:00",
       "created_at": "2026-07-09T11:48:43.595262+00:00"
+    },
+    {
+      "id": "4745c4be2a90e0b1",
+      "content_hash": "4745c4be2a90e0b13ebeba64205230c16aa671cb8fbfc3ab437b75e545a6cc93",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/JustVugg/colibri",
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48842459\">Comments</a>",
+      "url": "https://github.com/JustVugg/colibri",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-09T08:05:04+00:00",
+      "created_at": "2026-07-09T21:10:41.682857+00:00"
     },
     {
       "id": "768dca57dd5e5cb5",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-08T03:10:00+00:00",
       "created_at": "2026-07-08T10:05:17.799602+00:00"
-    },
-    {
-      "id": "29bbeb3f21dc31a2",
-      "content_hash": "29bbeb3f21dc31a20719857f380639786df965553be9f6cd5a93b523ff1122f5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022662.html",
-      "title": "Zephyr ProjectのZephyrにおける境界外読み取りに関する脆弱性",
-      "body": "Zephyr Bluetooth HostのISO受信パスにおける長さの検証不足は、不正な形式のHCI ISOデータによりトリガーされる可能性があります。bt_iso_recv()（subsys/bluetooth/host/iso.c）では、PB=START/SINGLEフラグメントを処理する際に、buf-＞lenが少なくとも必要なバイト数を含んでいるかを事前に検証せずに、TS SDUヘッダー（8バイト、ts=1）または非TS SDUヘッダー（4バイト、ts=0）を取り出します。hci_iso()内の外側のHCI ISO長さチェックはペイロード長の整合性を検証しますが、内部SDUヘッダーの最小サイズは検証しないため、ペイロード長1のパケットがhci_iso()を通過し、その後net_buf_pull_mem()に到達します。ここでbuf-＞len ＞= lenのアサートが発生します。その結果、不正なISOトラフィックはアサート有効ビルドで決定的にカーネルのアサート（サービス拒否）を引き起こします。アサート無効ビルドでは同じ経路がサイズ不足のバッファで進行し、境界外読み取りの動作を引き起こす可能性があります。この問題は、CONFIG_BT_ISO_RXが有効なZephyr Hostを使用する製品に影響します。特に悪意のあるまたは乗っ取られたコントローラや、不正に転送されたISOトラフィックによって着信HCIデータが操作される環境において問題となります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022662.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:10:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799614+00:00"
-    },
-    {
-      "id": "49e63f50eb8de1e8",
-      "content_hash": "49e63f50eb8de1e8449a26da9f4ea3e5ed9c3e2b47b25990aeb1ed48eec0201b",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022661.html",
-      "title": "Gstreamer等の複数ベンダの製品における境界外読み取りに関する脆弱性",
-      "body": "GStreamerのgst-plugins-badパッケージに脆弱性が発見されました。特別に細工された異常なMVCまたはSVC拡張スライスNALユニットを含むH.264ビデオファイルを処理する際に、解析中に1バイトのヒープ境界外読み取りが発生する可能性があります。これは、解析器がスライス境界情報を確認しようとするときに、まずNALユニットに拡張ヘッダー以降の十分なデータが含まれているかどうかを検証しないことが原因です。攻撃者はユーザーを騙して悪意のあるH.264ビデオファイルを開かせることで、この脆弱性を悪用し、アプリケーションをクラッシュさせたり、ヒープメモリから1バイトの情報を漏えいさせたりする可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022661.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799627+00:00"
-    },
-    {
-      "id": "8d5a6d2068f7c45d",
-      "content_hash": "8d5a6d2068f7c45da5178940fade36255d38d782e9409a2bdb8762af4cb37ea5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022660.html",
-      "title": "KubeVirt等の複数ベンダの製品におけるUNIX Symbolic Link のフォローに関する脆弱性",
-      "body": "KubeVirtのvirt-handlerが使用するsafepathパッケージに脆弱性が見つかりました。OpenAtNoFollow関数はO_PATH|O_NOFOLLOWを使ってパスの末端要素へのファイルディスクリプタを取得しますが、その後の処理で/proc/self/fd/N経由でリンク追従システムコールを使いパスを解決します。末端要素がシンボリックリンクの場合、カーネルがこれを参照解除してしまい、意図されたリンク追従禁止の保護が無効化されます。virt-launcherポッドにアクセス可能な攻撃者はこれを悪用して、virt-handlerのIPCソケット接続（VMドメインのライフサイクルイベントに使われる通知ソケットを含む）をリダイレクトできます。このソケットを乗っ取ることで、攻撃者は任意のドメインイベントをvirt-handlerに注入できるため、誤ったライフサイクル操作を行わせたり、Kubernetes API上のVM状態を破損させたり、クラッシュを引き起こしたりして、影響を受けたノード上の全仮想マシンに対する継続的な管理サービス拒否をもたらします。さらに、同じシンボリックリンク追従の脆弱性により、virt-handlerが意図しないホストパスにファイルの所有権や権限変更を適用する可能性もあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022660.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799639+00:00"
-    },
-    {
-      "id": "d175bd07d48968bc",
-      "content_hash": "d175bd07d48968bc59e1b2e7604f928e0b727f53138865a6a3d289ea59ce9e0d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022659.html",
-      "title": "KubeVirt等の複数ベンダの製品における認証に関する脆弱性",
-      "body": "KubeVirtのvirt-handlerドメイン通知サーバに脆弱性が発見されました。HandleDomainEventおよびHandleK8SEventのgRPCハンドラは、接続元の検証を行わずにリクエストボディの情報からのみVMIの識別情報（namespace/name）を取得しています。各virt-launcherポッドはVMIごとのパイプソケットを通じて接続していますが、パイプパスからサーバハンドラへ識別タグが伝達されていません。これにより、侵害されたvirt-launcherプロセスが同一ノード上の他の任意のVMIに対して偽装されたドメインライフサイクルイベントを送信でき、virt-handlerは誤って該当VMIの状態を更新してライフサイクル管理を阻害する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022659.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799651+00:00"
-    },
-    {
-      "id": "cc26c6e87ba443d7",
-      "content_hash": "cc26c6e87ba443d77b43248df6a49f50fa236f0179d7fd516a7b66618ef5442e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022658.html",
-      "title": "KubeVirt等の複数ベンダの製品におけるUNIX Symbolic Link のフォローに関する脆弱性",
-      "body": "KubeVirtのvirt-handlerのネットワークキャッシュ処理に脆弱性が見つかりました。WriteToCachedFile関数は、symlink保護なしにos.WriteFileおよびos.Chownを使用してlauncherルートパスにデータを書き込みます。virt-launcherコンテナへのアクセス権を持つユーザーは、キャッシュファイルのパスにシンボリックリンクを設置でき、その結果、virt-handlerがそれを辿って任意のホストファイルをJSONコンテンツで上書きし、所有権を変更してしまう可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022658.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799664+00:00"
-    },
-    {
-      "id": "3b6a49b384272296",
-      "content_hash": "3b6a49b384272296b2c64307c6363b3d7c05b0c0b999f9805724ee01bd7d79ca",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022657.html",
-      "title": "レッドハット等の複数ベンダの製品におけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "foremanのhttp_proxies_controllerおよびhttp_proxyファイルにおいて、HTTPパラメータが改変される脆弱性が発見されました。攻撃者はこの脆弱性を利用してSSRF攻撃を実行し、foremanコンポーネントを通じてAWS、GCP、Azure環境のクラウドメタデータサービスを窃取する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022657.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799676+00:00"
-    },
-    {
-      "id": "6d6aafbb47dcce4c",
-      "content_hash": "6d6aafbb47dcce4cca4f7161fdb2272e6822fd470c2d99f1be357f5ca8026297",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022656.html",
-      "title": "KubeVirt等の複数ベンダの製品におけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "KubeVirtのvirt-apiのポートフォワードハンドラにサーバーサイドリクエストフォージェリ（SSRF）の脆弱性が発見されました。virt-apiはVirtualMachineInstance（VMI）へのポートフォワードリクエストを処理する際、vmi.Status.Interfaces[0].IPからターゲットIPを読み取り、検証せずに直接net.Dial()に渡します。ブリッジまたはセカンダリーオンリーネットワークバインディングを使用するVMIの場合、このIPはVM内で動作するQEMUゲストエージェントによって報告され、そのIPはVM所有者によって完全に制御可能です。kubevirt.io:edit権限を持つ攻撃者は、任意のIPアドレスを報告する修正されたゲストエージェントを持つVMを作成できます。その後、ポートフォワードを要求し、virt-apiのクラスター内部ネットワークの位置から任意のルーティング可能な宛先への双方向TCPトンネルを確立することで、NetworkPolicyの隔離を回避することが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022656.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799688+00:00"
-    },
-    {
-      "id": "dc627a3293cff767",
-      "content_hash": "dc627a3293cff7673a0ff579b132e54b100fd1b35a2f50b2a4775a933d4a700e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022655.html",
-      "title": "KubeVirt等の複数ベンダの製品における制限またはスロットリング無しのリソースの割り当てに関する脆弱性",
-      "body": "KubeVirtの下りメトリクス用virtio-serialサーバーに脆弱性が発見されました。このサーバーは、textproto.Reader.ReadLine()を使用してゲストからの要求を読み取りますが、改行文字が受信されるまで入力を無期限にバッファリングし、長さの制限や読み取りのタイムアウトが設定されていません。下りメトリクス用のvirtio-serialデバイスが構成されたVMゲストにアクセスできるユーザーは、このデバイスに連続したバイトストリームを書き込むことができ、その結果virt-handlerプロセス内で無制限のメモリ割り当てが発生し、最終的にOOMキルされてしまいます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022655.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799700+00:00"
-    },
-    {
-      "id": "953046318a006359",
-      "content_hash": "953046318a0063596f7423c12116abd568528356bb329a5f4ab5865751e5c4c1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022654.html",
-      "title": "Eclipse FoundationのEclipse Open VSXにおけるクロスサイトスクリプティングの脆弱性",
-      "body": "Open VSX Registry 1.0.2より前のバージョンでは、/vscode/unpkg/ エンドポイントがユーザー提供のHTMLファイルを Content-Type: text/html として、また Content-Security-Policy や Content-Disposition: attachment のレスポンスヘッダーなしで配信していました。認証なしの攻撃者はパブリッシャーアカウントを登録し、細工されたHTMLペイロードを含むVSIXファイルをアップロードし、認証済みユーザーをその生成されたURLに誘導することが可能です。ブラウザはopen-vsx.orgのオリジンコンテキスト内でファイルをインライン表示し、セッショントークンの漏洩や永続的なパーソナルアクセストークン（PAT）の生成、不正な拡張機能バージョンの公開を引き起こします。Open VSX拡張機能はVS Code、VSCodium、Cursor、Windsurf、その他の互換エディターに配布されているため、拡張機能の更新が侵害されると、すべての下流ユーザーに対するサプライチェーン攻撃となります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-022654.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-08T03:09:00+00:00",
-      "created_at": "2026-07-08T10:05:17.799715+00:00"
     }
   ]
 }
