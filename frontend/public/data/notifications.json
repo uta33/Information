@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-11T14:17:01.879838+00:00",
+  "generated_at": "2026-07-11T15:43:12.411958+00:00",
   "items": [
+    {
+      "id": "47141bd903d5a708",
+      "content_hash": "47141bd903d5a70837bdba73067c86ec1bc708ed5d0430cd08332040507709ec",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "title": "We scaled PgBouncer to 4x throughput",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48872874\">Comments</a>",
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T15:28:02+00:00",
+      "created_at": "2026-07-11T15:43:12.411109+00:00"
+    },
+    {
+      "id": "7f507d23732c4d4e",
+      "content_hash": "7f507d23732c4d4e94ba0a1176196b9e2619c9f074403e5e0fa822ae4bd3a1af",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+      "body": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-07-11T14:18:23+00:00",
+      "created_at": "2026-07-11T15:43:06.190027+00:00"
+    },
     {
       "id": "c47da7b11554f5ef",
       "content_hash": "c47da7b11554f5ef7448b0a4a5cac4da2018eac1c66683fe953fb5641bc6d7a9",
@@ -58,6 +86,20 @@
       "created_at": "2026-07-11T14:17:01.879322+00:00"
     },
     {
+      "id": "a9b4657fac09b30c",
+      "content_hash": "a9b4657fac09b30ca56ef268860c7eb9a2f0af11ce2921ba04037b239c31f877",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482",
+      "title": "FCC approves test of space mirror to light night sky",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48871367\">Comments</a>",
+      "url": "https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T12:12:34+00:00",
+      "created_at": "2026-07-11T15:43:12.411318+00:00"
+    },
+    {
       "id": "db2c7ee47cccadac",
       "content_hash": "db2c7ee47cccadac2db74a196e1aa4e6928075cfb2e19a3525f8ee5654a1d95b",
       "source_name": "Hacker News (Best)",
@@ -70,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-07-11T10:50:10+00:00",
       "created_at": "2026-07-11T12:51:29.361329+00:00"
+    },
+    {
+      "id": "2a420c4936410b6e",
+      "content_hash": "2a420c4936410b6eea36e6be5357ac9ae8a2181751698ff45fc9db735871cf6d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://anti-forbes-list.vercel.app",
+      "title": "Show HN: Richest people in the world by wealth creation instead of ownership",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48870472\">Comments</a>",
+      "url": "https://anti-forbes-list.vercel.app",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T09:54:14+00:00",
+      "created_at": "2026-07-11T15:43:12.411735+00:00"
     },
     {
       "id": "efc32d428daaf550",
@@ -86,6 +142,20 @@
       "created_at": "2026-07-11T10:52:50.491203+00:00"
     },
     {
+      "id": "40337ab8fd0b153a",
+      "content_hash": "40337ab8fd0b153af079256f64ff3c96f1875f90bd25a9d85e5a31577da4dfd4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.mixfont.com/ghost-font",
+      "title": "Ghost Font: A font that humans can read but AI cannot",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48870381\">Comments</a>",
+      "url": "https://www.mixfont.com/ghost-font",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T09:36:53+00:00",
+      "created_at": "2026-07-11T15:43:12.411435+00:00"
+    },
+    {
       "id": "accfddb0b9e4c769",
       "content_hash": "accfddb0b9e4c769990c956329058a14981624ffa07121db9086cbf366659002",
       "source_name": "Hacker News (Best)",
@@ -98,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-07-11T09:16:10+00:00",
       "created_at": "2026-07-11T10:52:50.491166+00:00"
+    },
+    {
+      "id": "14aeae0c27fc5f21",
+      "content_hash": "14aeae0c27fc5f217b8c96068e18845133f8d0ae712af0b14c8de8cd50dd93b9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves",
+      "title": "Why it's so difficult to produce American-made medical gloves",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48870258\">Comments</a>",
+      "url": "https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T09:16:10+00:00",
+      "created_at": "2026-07-11T15:43:12.411456+00:00"
     },
     {
       "id": "f562cb1aa6d6d988",
@@ -854,6 +938,48 @@
       "cvss_score": null,
       "published_at": "2026-07-10T16:24:20+00:00",
       "created_at": "2026-07-10T20:11:54.260248+00:00"
+    },
+    {
+      "id": "6242ccc462b29a8e",
+      "content_hash": "6242ccc462b29a8ea83da6da37af6ff76780b26bd0ef61bcf8e22be6f07a7491",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-8595",
+      "title": "CVE-2026-8595 - A user with Editor permissions can craft a dashboard whose table (TableNG) panel...",
+      "body": "A user with Editor permissions can craft a dashboard whose table (TableNG) panel contains a malicious field name that executes as a script in the browser of any user who views the dashboard (stored cross-site scripting).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8595",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.8,
+      "published_at": "2026-07-10T16:16:39.400000",
+      "created_at": "2026-07-11T15:43:06.342765+00:00"
+    },
+    {
+      "id": "ee10f84ac6a93aa5",
+      "content_hash": "ee10f84ac6a93aa5d0ce6bffc2aabaf6bbbed9ee0edadc5a839ffba0b70dc7e5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-56676",
+      "title": "CVE-2026-56676 - 9Router is an AI router & token saver. Prior to 0.5.2, 9router validates image U...",
+      "body": "9Router is an AI router & token saver. Prior to 0.5.2, 9router validates image URLs by resolving the host before fetching, but open-sse/translator/concerns/image.js performs the later server-side image fetch with a separate DNS resolution. An authenticated attacker with access to the LLM proxy can use a vision-capable model and an attacker-controlled DNS name that first resolves to a public IP and then rebinds to an internal address, allowing server-side requests to internal-only HTTP services. This issue is fixed in version 0.5.2.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56676",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.4,
+      "published_at": "2026-07-10T16:16:34.923000",
+      "created_at": "2026-07-11T15:43:06.342758+00:00"
+    },
+    {
+      "id": "d363d8c3fb23b78d",
+      "content_hash": "d363d8c3fb23b78da510ac826feec5b7803b77dae1b5856981eb35223e9332c2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-55501",
+      "title": "CVE-2026-55501 - 9Router is an AI router & token saver. Prior to 0.4.80, the dashboard login rate...",
+      "body": "9Router is an AI router & token saver. Prior to 0.4.80, the dashboard login rate limiter in src/lib/auth/loginLimiter.js derives the client identity from the attacker-controlled X-Forwarded-For HTTP header, and src/app/api/auth/login/route.js uses that spoofable value for checkLock and recordFail. A remote attacker can rotate the X-Forwarded-For value on each login attempt to receive a fresh rate-limit bucket, bypass the 5-attempt threshold and progressive lockout durations, and perform unlimited brute-force attempts against the dashboard password. This issue is fixed in version 0.4.80.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55501",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-10T16:16:33.493000",
+      "created_at": "2026-07-11T15:43:06.342750+00:00"
     },
     {
       "id": "a3f82c8ff0ed0033",
@@ -6874,132 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-07-09T17:17:02.877000",
       "created_at": "2026-07-10T18:15:48.523698+00:00"
-    },
-    {
-      "id": "515de70745ced484",
-      "content_hash": "515de70745ced4841756fe254de1b48ddf0b79c2ff5bdd461cda0845ea5a7ccf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59218",
-      "title": "CVE-2026-59218 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.10.0, the /api/v1/auths/signin endpoint looked users up by email and only ran bcrypt password verification when a credential existed, making registered-account attempts measurably slower than missing-email attempts and allowing unauthenticated account enumeration. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59218",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-09T17:17:02.750000",
-      "created_at": "2026-07-10T18:15:48.523692+00:00"
-    },
-    {
-      "id": "06310e3fd1dfa69c",
-      "content_hash": "06310e3fd1dfa69cf0b8da6d1bfba63c0a8c4971b3b7b48d902da7af8e29baca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59217",
-      "title": "CVE-2026-59217 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.10.0, the file upload path accepted metadata.knowledge_id and auto-linked uploaded files to a target knowledge base without applying the write-access check used by /api/v1/knowledge//file/add, allowing read-only knowledge-base users to add arbitrary files. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59217",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-09T17:17:02.613000",
-      "created_at": "2026-07-10T18:15:48.523685+00:00"
-    },
-    {
-      "id": "73882082f4d79d6c",
-      "content_hash": "73882082f4d79d6c3827809530d1b92ac3b59f2d4c891fca5a8b052e95cca570",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59216",
-      "title": "CVE-2026-59216 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.10.0, get_event_call delivered execute:python and execute:tool Socket.IO events to a client-supplied session_id after checking only that the session was connected, allowing authenticated users who learned another socket ID through ydoc:document:join to run code interpreter Python or tools in that user session. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59216",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-07-09T17:17:02.467000",
-      "created_at": "2026-07-10T18:15:48.523679+00:00"
-    },
-    {
-      "id": "c8e0ebeb91050ad3",
-      "content_hash": "c8e0ebeb91050ad32f11e5556eaf252a6ed52e003b8650e3c7ad2eaced0dd297",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59215",
-      "title": "CVE-2026-59215 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.10.0, channel thread parent and reply handling did not bind parent_id to the channel in the URL, allowing an authenticated user to reference a message from another private or DM channel and disclose thread context across channels. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59215",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-07-09T17:17:02.340000",
-      "created_at": "2026-07-10T18:15:48.523672+00:00"
-    },
-    {
-      "id": "c7ad90fb8d606466",
-      "content_hash": "c7ad90fb8d606466dd8225e8edaa6a207520190221a0734a7da9e7993e8575d2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59214",
-      "title": "CVE-2026-59214 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.10.0, Open WebUI runs client-side Python with Pyodide in a same-origin web worker, allowing stored chat payloads that use pyodide.http.pyfetch or the js module fetch and XMLHttpRequest APIs to issue authenticated same-origin requests when a victim clicks Run, which can reach admin-only endpoints and execute server-side code through configured tools. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59214",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-07-09T17:17:02.177000",
-      "created_at": "2026-07-10T18:15:48.523665+00:00"
-    },
-    {
-      "id": "06987555f7b1a11f",
-      "content_hash": "06987555f7b1a11f118f1bf53de8c78fd5a62c69cc5d739edc3e229c5c14eef8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59213",
-      "title": "CVE-2026-59213 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. From 0.6.27 before 0.10.0, get_all_models handlers in routers/openai.py and routers/ollama.py passed a lambda to aiocache key instead of key_builder, causing permission-filtered per-user model lists to share a static cache entry and exposing one user’s model list to another caller during the TTL window. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59213",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.5,
-      "published_at": "2026-07-09T17:17:02.030000",
-      "created_at": "2026-07-10T18:15:48.523658+00:00"
-    },
-    {
-      "id": "45f04284bb716dc4",
-      "content_hash": "45f04284bb716dc4b098325e78ed58e1f61597e9041da7c9d0d3fc78c7b3ad02",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59212",
-      "title": "CVE-2026-59212 - Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat...",
-      "body": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. From 0.9.6 before 0.10.0, _verify_knowledge_file_access only checked read access while file write and delete routes later trusted object-derived access through writable model meta.knowledge entries, allowing a user with read-only knowledge file access to upgrade to file write or delete operations. This issue is fixed in version 0.10.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59212",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-07-09T17:17:01.903000",
-      "created_at": "2026-07-10T16:12:54.269775+00:00"
-    },
-    {
-      "id": "a40a610ad1bf3a4d",
-      "content_hash": "a40a610ad1bf3a4d7a9b1f6e79c55bc38ec1ea6b6c8af9827eee4b54cbc808fe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59209",
-      "title": "CVE-2026-59209 - n8n is an open source workflow automation platform. Prior to 1.123.61, 2.27.4, a...",
-      "body": "n8n is an open source workflow automation platform. Prior to 1.123.61, 2.27.4, and, 2.28.1, an authenticated member with use-only editor access to a shared workflow could read credential-populated headers exposed via the $request object inside an HTTP Request node's pagination expression and exfiltrate the secret through item data. This issue is fixed in versions 1.123.61, 2.27.4, and 2.28.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59209",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-09T17:17:01.780000",
-      "created_at": "2026-07-10T16:12:54.269769+00:00"
-    },
-    {
-      "id": "168dc9e8c7cd1c18",
-      "content_hash": "168dc9e8c7cd1c18e4e6e101caf9df95cdfe9f0891fb64ffbe81ddcda6c5a504",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58459",
-      "title": "CVE-2026-58459 - gpsd through release-3.27.5, fixed at commit 4c06658, contains a command injecti...",
-      "body": "gpsd through release-3.27.5, fixed at commit 4c06658, contains a command injection vulnerability in gpsprof that allows attackers who control the GPS device subtype value to execute arbitrary shell commands by embedding backtick payloads in the gnuplot plot title without proper escaping. The subtype field sourced from a DEVICES JSON log entry or NMEA PGRMT sentence is written into a generated gnuplot program via a set title statement with only double-quote characters escaped, enabling arbitrary shell command execution as the user running gnuplot when the victim renders the generated plot through the gpsprof and gnuplot workflow.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58459",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-07-09T17:17:01.493000",
-      "created_at": "2026-07-10T16:12:54.269763+00:00"
     }
   ]
 }
