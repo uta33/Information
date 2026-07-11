@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-11T11:42:39.556967+00:00",
+  "generated_at": "2026-07-11T12:51:29.361872+00:00",
   "items": [
+    {
+      "id": "0496f91edd900444",
+      "content_hash": "0496f91edd9004443280a63047fca07abbe92c0d22dc9623b279705a7d8db8d0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fazamhd.com/mental-models/networking/",
+      "title": "Networking and the Internet, from First Principles",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48871470\">Comments</a>",
+      "url": "https://fazamhd.com/mental-models/networking/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T12:30:40+00:00",
+      "created_at": "2026-07-11T12:51:29.361095+00:00"
+    },
+    {
+      "id": "db2c7ee47cccadac",
+      "content_hash": "db2c7ee47cccadac2db74a196e1aa4e6928075cfb2e19a3525f8ee5654a1d95b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tiki.li/blog/lucky_code.html",
+      "title": "Your code is fast – if you're lucky",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48870799\">Comments</a>",
+      "url": "https://tiki.li/blog/lucky_code.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T10:50:10+00:00",
+      "created_at": "2026-07-11T12:51:29.361329+00:00"
+    },
     {
       "id": "efc32d428daaf550",
       "content_hash": "efc32d428daaf5503cb4a094c496adf7a24a510b5a8714abfad5bbabd6e0dfe8",
@@ -786,6 +814,20 @@
       "created_at": "2026-07-10T20:11:54.260248+00:00"
     },
     {
+      "id": "75d3bc2bea520243",
+      "content_hash": "75d3bc2bea5202437ac43d167111bfad70810d66a540f946ab39eed58ea98989",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15143",
+      "title": "CVE-2026-15143 - A flaw was found in the file_type content detector of guardrails-detectors. This...",
+      "body": "A flaw was found in the file_type content detector of guardrails-detectors. This vulnerability allows a remote attacker to supply an arbitrary XML Schema Definition (XSD) string, which is processed without proper restrictions. This can lead to server-side requests to arbitrary URLs or local file reads, potentially resulting in sensitive information disclosure, such as cloud provider credentials or access to internal network services.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15143",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.3,
+      "published_at": "2026-07-10T16:16:25.680000",
+      "created_at": "2026-07-11T12:51:23.244524+00:00"
+    },
+    {
       "id": "df97acd22785836a",
       "content_hash": "df97acd22785836afd9c2c37d95dd62805e1f984fec008b43420af44dd36958f",
       "source_name": "TechCrunch",
@@ -938,6 +980,20 @@
       "cvss_score": null,
       "published_at": "2026-07-10T15:23:42+00:00",
       "created_at": "2026-07-10T21:50:03.636226+00:00"
+    },
+    {
+      "id": "b7ecc5aa30867b22",
+      "content_hash": "b7ecc5aa30867b220a6fb3f7c9af9cd35a5f4087d4e7d21e935936928087012e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-61492",
+      "title": "CVE-2026-61492 - In JetBrains YouTrack before 2026.2.17394 stored XSS via article titles in diges...",
+      "body": "In JetBrains YouTrack before 2026.2.17394 stored XSS via article titles in digest emails was possible",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61492",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.5,
+      "published_at": "2026-07-10T15:16:51.153000",
+      "created_at": "2026-07-11T12:51:23.244518+00:00"
     },
     {
       "id": "ee061b9474c43bae",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-09T17:16:58.260000",
       "created_at": "2026-07-10T13:54:05.708323+00:00"
-    },
-    {
-      "id": "d4f92e48ac86d6ca",
-      "content_hash": "d4f92e48ac86d6ca90a62cce7933f3baf321d5374ffec13cb52790fa64c0d09c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15194",
-      "title": "CVE-2026-15194 - A security flaw has been discovered in Open5GS 2.7.7. This affects the function ...",
-      "body": "A security flaw has been discovered in Open5GS 2.7.7. This affects the function amf_context_final of the file src/amf/context.c of the component AMF. Performing a manipulation results in use after free. The attack is only possible with local access. The exploit has been released to the public and may be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15194",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-07-09T17:16:58.097000",
-      "created_at": "2026-07-10T13:54:05.708317+00:00"
-    },
-    {
-      "id": "a12c8116ddca82c7",
-      "content_hash": "a12c8116ddca82c708cc7263dec908bffa2c41f5984df8d84115e7f5fa132347",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15193",
-      "title": "CVE-2026-15193 - A vulnerability was determined in AidanPark openclaw-android up to 0.4.0. The af...",
-      "body": "A vulnerability was determined in AidanPark openclaw-android up to 0.4.0. The affected element is an unknown function of the file android/app/src/main/java/com/openclaw/android/JsBridge.kt of the component Android WebView Bridge. This manipulation causes os command injection. The attack can only be executed locally. The exploit has been publicly disclosed and may be utilized. The pull request to fix this issue awaits acceptance.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15193",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-09T17:16:57.947000",
-      "created_at": "2026-07-10T13:54:05.708310+00:00"
-    },
-    {
-      "id": "fad7ab0354ed4590",
-      "content_hash": "fad7ab0354ed4590c693252eff8f9b2ba2cd04e3ff7726c6d17d224e0dcab5fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15192",
-      "title": "CVE-2026-15192 - A vulnerability has been found in mettle sendportal up to 3.0.1. This issue affe...",
-      "body": "A vulnerability has been found in mettle sendportal up to 3.0.1. This issue affects the function sendgrid/postmark/postal/mailjet of the component APIv1 Webhooks. The manipulation leads to missing authentication. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15192",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-09T17:16:57.783000",
-      "created_at": "2026-07-10T13:54:05.708304+00:00"
-    },
-    {
-      "id": "525d17916c0b0466",
-      "content_hash": "525d17916c0b046677b82170ef84ff4be084eb8317b61fb0994db2d4c5695f2f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15191",
-      "title": "CVE-2026-15191 - A flaw has been found in mettle sendportal up to 3.0.1. This vulnerability affec...",
-      "body": "A flaw has been found in mettle sendportal up to 3.0.1. This vulnerability affects unknown code of the file vendor/mettle/sendportal-core/src/Http/Requests/CampaignStoreRequest.php of the component Campaign Creation Endpoint. Executing a manipulation can lead to authorization bypass. The attack can be executed remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15191",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-09T17:16:57.620000",
-      "created_at": "2026-07-10T13:54:05.708298+00:00"
     }
   ]
 }
