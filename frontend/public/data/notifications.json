@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T01:26:41.160871+00:00",
+  "generated_at": "2026-07-11T04:52:07.366177+00:00",
   "items": [
     {
       "id": "79559b6faba12dc1",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-07-11T01:01:28+00:00",
       "created_at": "2026-07-11T01:26:40.816112+00:00"
+    },
+    {
+      "id": "2a15f7f0d7744970",
+      "content_hash": "2a15f7f0d7744970236946f0526032878683f9429ab96d6af229a9623d339646",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3141180",
+      "title": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
+      "body": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed passwords stored in a publicly accessible GitHub repository, which an employee of a CISA contractor had uploaded.",
+      "url": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-11T01:01:28+00:00",
+      "created_at": "2026-07-11T04:52:07.062827+00:00"
     },
     {
       "id": "11904f972118bdfe",
@@ -378,6 +392,20 @@
       "cvss_score": null,
       "published_at": "2026-07-10T18:26:24+00:00",
       "created_at": "2026-07-10T23:46:03.438335+00:00"
+    },
+    {
+      "id": "720f5e42bc8d94c0",
+      "content_hash": "720f5e42bc8d94c0bb91906afa05d5aabfcf94884f8e1f9d91ab5b6b24a0f5c1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "title": "New York City to ban deceptive subscription practices",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48863464\">Comments</a>",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-10T18:26:24+00:00",
+      "created_at": "2026-07-11T04:52:07.365684+00:00"
     },
     {
       "id": "03a2f1d1cbe3e4b2",
@@ -1372,6 +1400,48 @@
       "cvss_score": null,
       "published_at": "2026-07-10T07:00:00+00:00",
       "created_at": "2026-07-10T11:49:47.579351+00:00"
+    },
+    {
+      "id": "c500c705b385d88a",
+      "content_hash": "c500c705b385d88a01ea5e7b78e26ff1ebead76db599cbbc78cdaff0bb60c606",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-21056",
+      "title": "CVE-2026-21056 - Improper authorization in Samsung Health prior to version 7.00.0.107 allows loca...",
+      "body": "Improper authorization in Samsung Health prior to version 7.00.0.107 allows local attackers to access connected device information.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21056",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-10T05:16:36.330000",
+      "created_at": "2026-07-11T04:52:01.193741+00:00"
+    },
+    {
+      "id": "8cee10346654418b",
+      "content_hash": "8cee10346654418b61fcf013947312b73c04e9d8090813e64b59be488402ba90",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-21055",
+      "title": "CVE-2026-21055 - Improper export of android application components in Bixby prior to version 4.0....",
+      "body": "Improper export of android application components in Bixby prior to version 4.0.70.8 allows local attackers to execute arbitrary commands with Bixby privilege.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21055",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-10T05:16:36.217000",
+      "created_at": "2026-07-11T04:52:01.193735+00:00"
+    },
+    {
+      "id": "3e72ae6d350932f4",
+      "content_hash": "3e72ae6d350932f44d1ae3a89a57d66a01c88a2ae270c04c1e175f9f01fdcc6b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-21054",
+      "title": "CVE-2026-21054 - Improper export of android application components in InputSharing prior to versi...",
+      "body": "Improper export of android application components in InputSharing prior to version 2.7.01.4 allows local attackers to access sharing data.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21054",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-10T05:16:36.100000",
+      "created_at": "2026-07-11T04:52:01.193729+00:00"
     },
     {
       "id": "51df6228508c44f0",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-09T12:20:41+00:00",
       "created_at": "2026-07-09T14:27:30.982183+00:00"
-    },
-    {
-      "id": "6fc867e919086cbe",
-      "content_hash": "6fc867e919086cbebfcc83e41590747e2714df7a2bb6470c4fe47831429f11f0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9253",
-      "title": "CVE-2026-9253 - The WP Cost Estimation & Payment Forms Builder (E&P Forms) plugin for WordPress ...",
-      "body": "The WP Cost Estimation & Payment Forms Builder (E&P Forms) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'customerInfos' parameter in all versions up to, and including, 10.5.97 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9253",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-07-09T12:16:25.630000",
-      "created_at": "2026-07-10T11:49:48.549573+00:00"
-    },
-    {
-      "id": "d1bbbbecfe59f439",
-      "content_hash": "d1bbbbecfe59f439f48e4df067cee61a1bd3f179c45e0811629fc2d928b697c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15182",
-      "title": "CVE-2026-15182 - A vulnerability has been found in GNU LibreDWG up to 0.13.4. The affected elemen...",
-      "body": "A vulnerability has been found in GNU LibreDWG up to 0.13.4. The affected element is the function dwg_bmp of the file src/dwg.c of the component BMP Image Handler. Such manipulation leads to heap-based buffer overflow. The attack must be carried out locally. The exploit has been disclosed to the public and may be used. Upgrading to version 0.14 is sufficient to fix this issue. The name of the patch is 18fd542bb4d5ccedf9de12052bf50068b2b26f06. It is suggested to upgrade the affected component.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15182",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-09T12:16:25.407000",
-      "created_at": "2026-07-10T11:49:48.549566+00:00"
-    },
-    {
-      "id": "c39302353dc25e17",
-      "content_hash": "c39302353dc25e17acbefeac94208278781746168975a85141fedeac85d4bb94",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://news.ycombinator.com/item?id=48844517",
-      "title": "TrueBiz (YC S22) – Senior Software Engineer – Remote (US) – Full-Time",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48844517\">Comments</a>",
-      "url": "https://news.ycombinator.com/item?id=48844517",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-09T12:01:17+00:00",
-      "created_at": "2026-07-09T14:27:30.982227+00:00"
-    },
-    {
-      "id": "a71be734b23b58a7",
-      "content_hash": "a71be734b23b58a741ba1316d4a11ec194fe91ced416097c7abd6eda58f7ccc9",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3140101",
-      "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
-      "body": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
-      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-09T12:00:00+00:00",
-      "created_at": "2026-07-09T14:27:30.856008+00:00"
-    },
-    {
-      "id": "af995cdc51d55594",
-      "content_hash": "af995cdc51d5559402c24fbdbd33fc7bab7417be6026328ce98667aa68f3e018",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9240",
-      "title": "CVE-2026-9240 - The Colissimo Officiel : Méthodes de livraison pour WooCommerce plugin for WordP...",
-      "body": "The Colissimo Officiel : Méthodes de livraison pour WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the updateShippingMethod() function (registered to the wp_ajax_lpc_order_affect AJAX action) in versions up to, and including, 2.9.0. This is due to the handler performing no current_user_can() capability check and no nonce verification before reading an attacker-supplied order_id and modifying that order's shipping method, pickup-point meta, and shipping address. This makes it possible for authenticated attackers, with Subscriber-level access and above, to create or modify the shipment information (shipping method, pickup relay data, and shipping address) of arbitrary WooCommerce orders, including orders placed by other users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9240",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-09T11:16:42.483000",
-      "created_at": "2026-07-10T11:49:48.549559+00:00"
     }
   ]
 }
