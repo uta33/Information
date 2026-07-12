@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-12T20:50:25.049310+00:00",
+  "generated_at": "2026-07-12T21:38:01.306238+00:00",
   "items": [
+    {
+      "id": "a968b7a8b1d05d1e",
+      "content_hash": "a968b7a8b1d05d1effaa12944e55004bc3896fd02426fdac4fb1912e35cddb7e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "title": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884853\">Comments</a>",
+      "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T21:12:11+00:00",
+      "created_at": "2026-07-12T21:38:01.305398+00:00"
+    },
+    {
+      "id": "f74c49c051fb86a8",
+      "content_hash": "f74c49c051fb86a8184ff2672d5bd9ea788057b4f803c095fa3d0064542feac7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+      "title": "The State of MCP Security [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884647\">Comments</a>",
+      "url": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T20:49:46+00:00",
+      "created_at": "2026-07-12T21:38:01.305823+00:00"
+    },
+    {
+      "id": "4987bee359a606ad",
+      "content_hash": "4987bee359a606adc5b7585b9de710302dca936c99a851cfc85cdebe97e2d9ee",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nanduruganesh.github.io/flash-msa/",
+      "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884618\">Comments</a>",
+      "url": "https://nanduruganesh.github.io/flash-msa/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T20:46:43+00:00",
+      "created_at": "2026-07-12T21:38:01.305844+00:00"
+    },
     {
       "id": "a55db4adfee58fa5",
       "content_hash": "a55db4adfee58fa572612ce80b515ac2451b059e3082364ccc5103dfe6da2ab0",
@@ -6958,48 +7000,6 @@
       "cvss_score": 4.3,
       "published_at": "2026-07-10T16:16:26.667000",
       "created_at": "2026-07-11T14:16:57.625856+00:00"
-    },
-    {
-      "id": "46e52877215f9db9",
-      "content_hash": "46e52877215f9db97da04b67ac6033be937db22aa3a4a15410ef88143c26bd8f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15374",
-      "title": "CVE-2026-15374 - A flaw has been found in Eleveo Call Recording Software 9.7.0. This affects an u...",
-      "body": "A flaw has been found in Eleveo Call Recording Software 9.7.0. This affects an unknown function of the file /callrec/roleAddAction.do of the component Group Interface. Executing a manipulation can lead to improper authorization. It is possible to launch the attack remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15374",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-10T16:16:26.517000",
-      "created_at": "2026-07-11T14:16:57.625851+00:00"
-    },
-    {
-      "id": "60ccb55a9ecee681",
-      "content_hash": "60ccb55a9ecee6819b1c2a36f5851a33f717d4b4698691869ba603ed3cce250f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15373",
-      "title": "CVE-2026-15373 - A vulnerability was detected in Eleveo Call Recording Software 9.7.0. The impact...",
-      "body": "A vulnerability was detected in Eleveo Call Recording Software 9.7.0. The impacted element is an unknown function of the file /callrec/userAddAction.do. Performing a manipulation of the argument role results in improper authorization. It is possible to initiate the attack remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15373",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-10T16:16:26.357000",
-      "created_at": "2026-07-11T14:16:57.625846+00:00"
-    },
-    {
-      "id": "75d3bc2bea520243",
-      "content_hash": "75d3bc2bea5202437ac43d167111bfad70810d66a540f946ab39eed58ea98989",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15143",
-      "title": "CVE-2026-15143 - A flaw was found in the file_type content detector of guardrails-detectors. This...",
-      "body": "A flaw was found in the file_type content detector of guardrails-detectors. This vulnerability allows a remote attacker to supply an arbitrary XML Schema Definition (XSD) string, which is processed without proper restrictions. This can lead to server-side requests to arbitrary URLs or local file reads, potentially resulting in sensitive information disclosure, such as cloud provider credentials or access to internal network services.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15143",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-07-10T16:16:25.680000",
-      "created_at": "2026-07-11T12:51:23.244524+00:00"
     }
   ]
 }
