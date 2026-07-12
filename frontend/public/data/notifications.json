@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-12T19:59:49.303892+00:00",
+  "generated_at": "2026-07-12T20:50:25.049310+00:00",
   "items": [
+    {
+      "id": "a55db4adfee58fa5",
+      "content_hash": "a55db4adfee58fa572612ce80b515ac2451b059e3082364ccc5103dfe6da2ab0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://floooh.github.io/tiny8bit-preview/index.html",
+      "title": "Tiny Emulators",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884395\">Comments</a>",
+      "url": "https://floooh.github.io/tiny8bit-preview/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T20:23:05+00:00",
+      "created_at": "2026-07-12T20:50:25.048420+00:00"
+    },
+    {
+      "id": "627543789fedc8b8",
+      "content_hash": "627543789fedc8b894cc96048bd3fa8b46cbc406025da218258b323ac898ad02",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "title": "Irish datacenters now guzzle 23% of the country's electricity",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884322\">Comments</a>",
+      "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T20:16:12+00:00",
+      "created_at": "2026-07-12T20:50:25.048869+00:00"
+    },
+    {
+      "id": "caf32e01178faa8a",
+      "content_hash": "caf32e01178faa8aadbbbc6a771e7a2e13fc324d359afe51ea73724066ad8d3c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://docs.jax.dev/en/latest/hijax_types.html",
+      "title": "Defining new Jax types with hijax",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884100\">Comments</a>",
+      "url": "https://docs.jax.dev/en/latest/hijax_types.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T19:54:30+00:00",
+      "created_at": "2026-07-12T20:50:25.048749+00:00"
+    },
+    {
+      "id": "0f93a58d3ae724ba",
+      "content_hash": "0f93a58d3ae724ba8d6ddbf5ff97b67ea9dde3bc6d8186fe9811b902ba12cf60",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://neocities.org/",
+      "title": "Neocities: Create your own free website",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48884052\">Comments</a>",
+      "url": "https://neocities.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T19:49:53+00:00",
+      "created_at": "2026-07-12T20:50:25.048723+00:00"
+    },
     {
       "id": "f008634fa23de5e7",
       "content_hash": "f008634fa23de5e760ed2f4568aa5e5e1384cc6ebf28f0d4ac6c49db31801939",
@@ -252,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T15:47:16+00:00",
       "created_at": "2026-07-12T16:43:32.810533+00:00"
+    },
+    {
+      "id": "dbc38af88adb899a",
+      "content_hash": "dbc38af88adb899af7c8aefac426600450a2d3b7dfa7466e9a537243888a3dcb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+      "title": "How to read more books",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48882056\">Comments</a>",
+      "url": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T15:47:16+00:00",
+      "created_at": "2026-07-12T20:50:25.048788+00:00"
     },
     {
       "id": "30b9282ff149e583",
@@ -770,6 +840,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T12:08:07+00:00",
       "created_at": "2026-07-12T12:52:36.087461+00:00"
+    },
+    {
+      "id": "f0f738a801ee0d06",
+      "content_hash": "f0f738a801ee0d06ac9496285f878889cf9634dce8f28ee52f6ef2f7d91bfd8f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://odinbook.com/",
+      "title": "Understanding the Odin programming language",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48880499\">Comments</a>",
+      "url": "https://odinbook.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T12:08:07+00:00",
+      "created_at": "2026-07-12T20:50:25.048926+00:00"
     },
     {
       "id": "ea850d2eb471ff50",
@@ -6916,90 +7000,6 @@
       "cvss_score": 9.3,
       "published_at": "2026-07-10T16:16:25.680000",
       "created_at": "2026-07-11T12:51:23.244524+00:00"
-    },
-    {
-      "id": "3f3ee463163a5dd6",
-      "content_hash": "3f3ee463163a5dd6c6499bd4ded99a240d1ed771a1592fbe834394c01ed45040",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://softwaredoug.com/blog/2026/07/09/write-code",
-      "title": "Why write code in 2026",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48861923\">Comments</a>",
-      "url": "https://softwaredoug.com/blog/2026/07/09/write-code",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T16:12:52+00:00",
-      "created_at": "2026-07-12T18:47:10.530096+00:00"
-    },
-    {
-      "id": "df97acd22785836a",
-      "content_hash": "df97acd22785836afd9c2c37d95dd62805e1f984fec008b43420af44dd36958f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3141021",
-      "title": "Dumb Co dared me to trade my iPhone for a hacked flip phone",
-      "body": "Dumb Co sells flip phones that sync to your smartphone, bridging the infinite connectivity of the iPhone and the unrealistic limitations of an early 2000s relic.",
-      "url": "https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T16:06:49+00:00",
-      "created_at": "2026-07-10T16:13:06.786893+00:00"
-    },
-    {
-      "id": "27b93035770bc53c",
-      "content_hash": "27b93035770bc53c339a544bd898122ad81b6dbebb8ec06d318340092bc01647",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
-      "title": "Hands-On with the AMD Ryzen AI Halo",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48861833\">Comments</a>",
-      "url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T16:06:38+00:00",
-      "created_at": "2026-07-10T18:15:53.220443+00:00"
-    },
-    {
-      "id": "d4ff346ce1fc29bc",
-      "content_hash": "d4ff346ce1fc29bc48e626d809a4ce1b1dc82f59b434e8292fef2514e034f077",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
-      "title": "QuadRF can spot drones and see WiFi through my wall",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48861717\">Comments</a>",
-      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T15:59:53+00:00",
-      "created_at": "2026-07-10T16:13:07.034834+00:00"
-    },
-    {
-      "id": "cb4cc51d053ebc5e",
-      "content_hash": "cb4cc51d053ebc5e8bea7781be58085b724891ea1497dcab954360a8c12b56a2",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-      "body": "Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside data-center servers.\n\nFour of the bugs can crash a device. The other two could let an attacker who slips a malicious image in front of the bootloader run their own code, before the device",
-      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T15:57:14+00:00",
-      "created_at": "2026-07-10T18:15:47.129433+00:00"
-    },
-    {
-      "id": "b9f6e4663a2fd034",
-      "content_hash": "b9f6e4663a2fd03432fd55943b0feae8d8b21d16bdb190886d8e092f3bed25c9",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "body": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-07-10T15:48:38+00:00",
-      "created_at": "2026-07-10T16:12:54.077701+00:00"
     }
   ]
 }
