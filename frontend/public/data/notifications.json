@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-12T12:52:36.088015+00:00",
+  "generated_at": "2026-07-12T14:21:39.273073+00:00",
   "items": [
+    {
+      "id": "5ebb9ba03db5da96",
+      "content_hash": "5ebb9ba03db5da96f12459472070873bf725c9aca2d917f28738331a64e02a9f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "title": "AI Boosts Research Careers but Flattens Scientific Discovery",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48881043\">Comments</a>",
+      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T13:26:13+00:00",
+      "created_at": "2026-07-12T14:21:39.272356+00:00"
+    },
+    {
+      "id": "5ff326252ae52f40",
+      "content_hash": "5ff326252ae52f405127c89ada4719aed40c3e4d43f25a75dbc9bc58e0b6d534",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/",
+      "title": "Making Crash Bandicoot (2011)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48880987\">Comments</a>",
+      "url": "https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T13:18:36+00:00",
+      "created_at": "2026-07-12T14:21:39.272571+00:00"
+    },
     {
       "id": "c9f3a3be103dc649",
       "content_hash": "c9f3a3be103dc64989c35e0362fff8d305cd4a8dc6517f109c6b4dd0daf48220",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T12:08:07+00:00",
       "created_at": "2026-07-12T12:52:36.087461+00:00"
+    },
+    {
+      "id": "ea850d2eb471ff50",
+      "content_hash": "ea850d2eb471ff50363e2c4394659d59544094889a027bd0b06dcc8601be20de",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mrbruh.com/motorola/",
+      "title": "Unauthenticated RCE in Motorola's MR2600 Router",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48880406\">Comments</a>",
+      "url": "https://mrbruh.com/motorola/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-12T11:52:21+00:00",
+      "created_at": "2026-07-12T14:21:39.272310+00:00"
     },
     {
       "id": "269f84352506f86c",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-10T13:45:05+00:00",
       "created_at": "2026-07-10T18:15:53.220603+00:00"
-    },
-    {
-      "id": "97c10dc697509696",
-      "content_hash": "97c10dc697509696635256b09178dfb2eb072be95cadb3a4cc9fb6d54174839d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.rte.ie/news/2026/0710/1582735-world-ryanair/",
-      "title": "Man nearly sucked out of 'detached' window on Ryanair flight",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48859788\">Comments</a>",
-      "url": "https://www.rte.ie/news/2026/0710/1582735-world-ryanair/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T13:40:31+00:00",
-      "created_at": "2026-07-10T13:54:11.419506+00:00"
-    },
-    {
-      "id": "1b84cd194831b7eb",
-      "content_hash": "1b84cd194831b7eb9bf26902d05cab08bbce5dc711b012921e83ffd07cb2c948",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://berjon.com/ap-at/",
-      "title": "ActivityPub over ATProto",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48859784\">Comments</a>",
-      "url": "https://berjon.com/ap-at/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T13:40:01+00:00",
-      "created_at": "2026-07-10T16:13:07.035158+00:00"
-    },
-    {
-      "id": "3d5b686d564c862a",
-      "content_hash": "3d5b686d564c862a5ffccc52441ea8d7e8f65b417b24edc1f907cd4d02e950d3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
-      "title": "Offline tool to stabilize TV volume using IR control and spike detection",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48859781\">Comments</a>",
-      "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T13:39:49+00:00",
-      "created_at": "2026-07-10T13:54:11.418999+00:00"
     }
   ]
 }
