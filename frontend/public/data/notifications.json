@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-12T09:43:54.721571+00:00",
+  "generated_at": "2026-07-12T11:03:15.163031+00:00",
   "items": [
+    {
+      "id": "0cf559d218948857",
+      "content_hash": "0cf559d21894885712732360b70410137d64fa10d520710d6757c77f0b0f3522",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
+      "title": "Datacentres drive up big tech's carbon emissions to a third of those of France",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48879950\">Comments</a>",
+      "url": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T10:23:25+00:00",
+      "created_at": "2026-07-12T11:03:15.162788+00:00"
+    },
+    {
+      "id": "2287d5baa94d557b",
+      "content_hash": "2287d5baa94d557bf4869e94cb408302cb5091c54f642a9c484a3ac99bbea3a6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15491",
+      "title": "CVE-2026-15491 - A weakness has been identified in RafyMrX TOKO-ONLINE-ROTI up to ddfe1cd587be0a0...",
+      "body": "A weakness has been identified in RafyMrX TOKO-ONLINE-ROTI up to ddfe1cd587be0a0b5135d8b6e85cce2ec3aece99. This affects an unknown part. This manipulation causes missing authentication. The attack is possible to be carried out remotely. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15491",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-12T10:16:18.257000",
+      "created_at": "2026-07-12T11:03:10.935167+00:00"
+    },
+    {
+      "id": "c480b7e13fc92547",
+      "content_hash": "c480b7e13fc925473b88e74571b0a2fc98bfbc374a24a358a8271dab616575bb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15490",
+      "title": "CVE-2026-15490 - A security flaw has been discovered in RafyMrX TOKO-ONLINE-ROTI up to ddfe1cd587...",
+      "body": "A security flaw has been discovered in RafyMrX TOKO-ONLINE-ROTI up to ddfe1cd587be0a0b5135d8b6e85cce2ec3aece99. Affected by this issue is some unknown functionality of the file proses/add.php. The manipulation of the argument kode_produk/kd_cs results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15490",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-07-12T10:16:16.577000",
+      "created_at": "2026-07-12T11:03:10.935162+00:00"
+    },
+    {
+      "id": "1170b0141dd56661",
+      "content_hash": "1170b0141dd56661baf3e7cbd9518735864bba1ec623358461f4e1aae9dac0df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+      "title": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48879902\">Comments</a>",
+      "url": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T10:14:40+00:00",
+      "created_at": "2026-07-12T11:03:15.162726+00:00"
+    },
     {
       "id": "b4bb41efc4a1f7d1",
       "content_hash": "b4bb41efc4a1f7d11982528f1ac7f6d5f55fd0f30c10c3700669a2fa7bc76fc0",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-10T13:11:30+00:00",
       "created_at": "2026-07-10T13:54:11.419276+00:00"
-    },
-    {
-      "id": "6e7f10fe0272cc13",
-      "content_hash": "6e7f10fe0272cc13fdd6e08db0161037d6219e2331bcfb7a8cc9e4466c462200",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/robertsdotpm/runloom",
-      "title": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48859387\">Comments</a>",
-      "url": "https://github.com/robertsdotpm/runloom",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T13:07:38+00:00",
-      "created_at": "2026-07-10T16:13:07.034974+00:00"
-    },
-    {
-      "id": "c85d60122317e6ac",
-      "content_hash": "c85d60122317e6ac9175c222f3da64439759076bfd4cd017aff237240124d8ea",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/",
-      "title": "Ryanair Passenger Sucked Toward Broken Window After Midair Engine Failure",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48858997\">Comments</a>",
-      "url": "https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T12:31:50+00:00",
-      "created_at": "2026-07-10T13:54:11.419423+00:00"
-    },
-    {
-      "id": "20e106a06116f44e",
-      "content_hash": "20e106a06116f44e4856d70da4d255c01939e3d6af1e5546dbfd4455f8894407",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-56814",
-      "title": "CVE-2026-56814 - Plug.Parsers.MULTIPART, the multipart request-body parser used to handle file up...",
-      "body": "Plug.Parsers.MULTIPART, the multipart request-body parser used to handle file uploads and multipart forms, does not enforce its :length budget against all consumed resources, allowing an unauthenticated remote attacker to cause denial of service. The parser charges the :length limit only for part body bytes; part header bytes are never counted, and a part with an empty body costs zero.\n\nBecause every part whose Content-Disposition carries a non-empty filename creates a fresh temporary file (via Plug.Upload) and retains a Plug.Upload struct for the duration of the request, an attacker can send a single request composed of many empty-body file parts. Such a request stays well under the configured :length limit (8,000,000 bytes by default) while creating one temporary file per part, leading to inode and disk exhaustion and unbounded memory growth. Any application using Plug.Parsers with the :multipart parser is affected, and no authentication is required, only reachability of a multipart endpoint over HTTP.\n\nThis vulnerability is associated with program files lib/plug/parsers/multipart.ex and program routines Plug.Parsers.MULTIPART.parse_multipart/2, Plug.Parsers.MULTIPART.parse_multipart_headers/5, Plug.Parsers.MULTIPART.parse_multipart_body/4, and Plug.Parsers.MULTIPART.parse_multipart_file/4.\n\nThis issue affects plug: from 1.4.0 before 1.16.6, from 1.17.0 before 1.17.4, from 1.18.0 before 1.18.5, from 1.19.0 before 1.19.5, and from 1.20.0 before 1.20.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56814",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T12:17:24.837000",
-      "created_at": "2026-07-11T07:04:30.653325+00:00"
-    },
-    {
-      "id": "013cf84d3dd951e0",
-      "content_hash": "013cf84d3dd951e0b0f677ae85bdf6c977d1d5c84651ef40d1f3f60a3ae3ecc0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-56690",
-      "title": "CVE-2026-56690 - Dell PowerFlex Manager, Version prior to 5.1.0.1, contain(s) an Improper Neutral...",
-      "body": "Dell PowerFlex Manager, Version prior to 5.1.0.1, contain(s) an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure, Information exposure, and Unauthorized access.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56690",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.5,
-      "published_at": "2026-07-10T12:17:23.700000",
-      "created_at": "2026-07-11T07:04:30.653320+00:00"
     }
   ]
 }
