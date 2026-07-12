@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-12T17:49:25.468036+00:00",
+  "generated_at": "2026-07-12T18:47:10.530669+00:00",
   "items": [
+    {
+      "id": "1b070259fe2febfa",
+      "content_hash": "1b070259fe2febfa36a9d6f65c21ca5ce4734e17274fa5fea9f32c2852930077",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.motivenotes.ai/p/against-usefulness",
+      "title": "Against Usefulness",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48882956\">Comments</a>",
+      "url": "https://www.motivenotes.ai/p/against-usefulness",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T17:47:07+00:00",
+      "created_at": "2026-07-12T18:47:10.529900+00:00"
+    },
+    {
+      "id": "ac44d8098c26b36c",
+      "content_hash": "ac44d8098c26b36c9bb7c9978d4f718e48b9ea376905228cb5d9454b26091fa6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-10663",
+      "title": "CVE-2026-10663 - In Zephyr's experimental USB host stack (CONFIG_USB_HOST_STACK), usbh_device_dis...",
+      "body": "In Zephyr's experimental USB host stack (CONFIG_USB_HOST_STACK), usbh_device_disconnect() (subsys/usb/host/usbh_device.c) freed the root usb_device slab object without clearing the cached pointer ctx->root. The bus removal handler dev_removed_handler() (subsys/usb/host/usbh_core.c) decides what to tear down solely from ctx->root, checking only that it is non-NULL.\n\nBecause UHC controller drivers (e.g. uhc_max3421e, uhc_mcux_common) synthesize UHC_EVT_DEV_REMOVED directly from physical bus line state with no debounce or state guard, an attacker with physical USB access (or a rogue device that bounces its connection) can deliver a second device-removed event after a root device disconnect. The handler then re-enters usbh_device_disconnect() with the dangling pointer, locking a mutex inside the freed object (use-after-free), removing the freed node from the device list, and calling k_mem_slab_free() on the already-freed block (double-free). If the slab block has been reissued to a newly attached device in between, this corrupts a live object.\n\nImpact is denial of service (crash) and memory corruption; the attack vector is physical/local. The flaw was introduced in v4.4.0 by the connect/disconnect refactor and is fixed by clearing ctx->root in usbh_device_disconnect() before freeing.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10663",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.1,
+      "published_at": "2026-07-12T17:16:23.120000",
+      "created_at": "2026-07-12T18:47:04.878129+00:00"
+    },
+    {
+      "id": "8029034f46b86d72",
+      "content_hash": "8029034f46b86d72f16b45db4716194ae995a98fc31efeb66d5ce7d14384d609",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.larp.website/",
+      "title": "LARP – Revenue infrastructure for serious founders",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48882569\">Comments</a>",
+      "url": "https://www.larp.website/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T16:56:41+00:00",
+      "created_at": "2026-07-12T18:47:10.530015+00:00"
+    },
     {
       "id": "2c980f8a4564c046",
       "content_hash": "2c980f8a4564c0460d2cdcbc0cb5995442c43301dc42f435ab9075b307282679",
@@ -142,6 +184,20 @@
       "created_at": "2026-07-12T16:43:32.810603+00:00"
     },
     {
+      "id": "17b1bae243bbae48",
+      "content_hash": "17b1bae243bbae480150e180f91d5adffc5e8646dbf865ba6e12bea13a35120a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
+      "title": "The shingles vaccine may reduce the risk of dementia",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48881874\">Comments</a>",
+      "url": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T15:23:59+00:00",
+      "created_at": "2026-07-12T18:47:10.529836+00:00"
+    },
+    {
       "id": "a8dc39c9874e6195",
       "content_hash": "a8dc39c9874e6195ad4a3add89081c713d5e45050453b5fb2e4cdff7b50d0689",
       "source_name": "Hacker News (Best)",
@@ -154,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T15:17:20+00:00",
       "created_at": "2026-07-12T16:43:32.810624+00:00"
+    },
+    {
+      "id": "ab279ee4e6b83597",
+      "content_hash": "ab279ee4e6b83597966668a334d4efcf8711246dc9bfe6a579df32088f630aa7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fabiensanglard.net/extinct/index.html",
+      "title": "Don't you mean extinct?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48881830\">Comments</a>",
+      "url": "https://fabiensanglard.net/extinct/index.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T15:17:20+00:00",
+      "created_at": "2026-07-12T18:47:10.529811+00:00"
     },
     {
       "id": "5b180b345d78a4a4",
@@ -238,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T13:26:13+00:00",
       "created_at": "2026-07-12T14:21:39.272356+00:00"
+    },
+    {
+      "id": "76940fb5bc5b9776",
+      "content_hash": "76940fb5bc5b9776637a56b4d545adfded75c4ff015f97b1099a1e1264a68158",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "title": "AI boosts research careers but narrow the span of ideas explored: study",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48881043\">Comments</a>",
+      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T13:26:13+00:00",
+      "created_at": "2026-07-12T18:47:10.530219+00:00"
     },
     {
       "id": "5ff326252ae52f40",
@@ -702,6 +786,20 @@
       "created_at": "2026-07-12T12:52:36.087354+00:00"
     },
     {
+      "id": "32a981681e757b88",
+      "content_hash": "32a981681e757b886c6bbbacd6af887d167b6e5b98f0ad2ee084a9dcbd68df3e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "title": "Old and new apps, via modern coding agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48880170\">Comments</a>",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T11:09:42+00:00",
+      "created_at": "2026-07-12T18:47:10.529777+00:00"
+    },
+    {
       "id": "0cf559d218948857",
       "content_hash": "0cf559d21894885712732360b70410137d64fa10d520710d6757c77f0b0f3522",
       "source_name": "Hacker News (Best)",
@@ -1148,6 +1246,20 @@
       "cvss_score": null,
       "published_at": "2026-07-12T01:09:50+00:00",
       "created_at": "2026-07-12T05:14:47.383349+00:00"
+    },
+    {
+      "id": "bba0e972d1f24c7d",
+      "content_hash": "bba0e972d1f24c7d52fa26aaca40e334f1aa09abdc12f98dd1b1fdd432c7c161",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48877371\">Comments</a>",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-12T01:09:50+00:00",
+      "created_at": "2026-07-12T18:47:10.530158+00:00"
     },
     {
       "id": "c94611f322edeeac",
@@ -6694,6 +6806,20 @@
       "created_at": "2026-07-11T12:51:23.244524+00:00"
     },
     {
+      "id": "3f3ee463163a5dd6",
+      "content_hash": "3f3ee463163a5dd6c6499bd4ded99a240d1ed771a1592fbe834394c01ed45040",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://softwaredoug.com/blog/2026/07/09/write-code",
+      "title": "Why write code in 2026",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48861923\">Comments</a>",
+      "url": "https://softwaredoug.com/blog/2026/07/09/write-code",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-10T16:12:52+00:00",
+      "created_at": "2026-07-12T18:47:10.530096+00:00"
+    },
+    {
       "id": "df97acd22785836a",
       "content_hash": "df97acd22785836afd9c2c37d95dd62805e1f984fec008b43420af44dd36958f",
       "source_name": "TechCrunch",
@@ -6874,132 +7000,6 @@
       "cvss_score": 4.6,
       "published_at": "2026-07-10T15:16:51.023000",
       "created_at": "2026-07-11T11:42:33.420536+00:00"
-    },
-    {
-      "id": "7c70565f4b4168f3",
-      "content_hash": "7c70565f4b4168f30856c6209f3860b4ad8b621d5d3259d1ccc8296e68adc15c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61455",
-      "title": "CVE-2026-61455 - Grav before 2.0.1 contains a decompression bomb vulnerability in ZipArchiver::ex...",
-      "body": "Grav before 2.0.1 contains a decompression bomb vulnerability in ZipArchiver::extract() that lacks limits on uncompressed size, file count, and nesting depth. Attackers can supply a crafted ZIP archive that expands to fill available disk space, causing denial of service by exhausting storage resources.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61455",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-10T15:16:50.877000",
-      "created_at": "2026-07-11T11:42:33.420530+00:00"
-    },
-    {
-      "id": "b4e72296dea3a403",
-      "content_hash": "b4e72296dea3a403d824952e1197864d3a0da45762e6225c9c19cba89d6ca49d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61450",
-      "title": "CVE-2026-61450 - Grav before 2.0.2 contains a Twig sandbox bypass that allows a page author (any ...",
-      "body": "Grav before 2.0.2 contains a Twig sandbox bypass that allows a page author (any admin.pages user, or anyone able to write to user/pages) to exfiltrate configuration secrets. Although the sandbox replaces the 'config' variable with a redacted facade and strips Config::get/toArray from the method allowlist, the raw container remains accessible via the allow-listed grav.offsetGet('config'), which returns the real Config object. Allow-listed object-dumping filters (json_encode, print_r, yaml_encode) then serialize that object at the PHP level without invoking the sandbox method gate, exposing the full config tree including plugin secrets such as SMTP credentials, API keys, and plugin DB credentials. This is an incomplete fix for GHSA-j274-39qw-32c9.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61450",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-10T15:16:50.740000",
-      "created_at": "2026-07-11T11:42:33.420523+00:00"
-    },
-    {
-      "id": "a9691a2fec5b48a6",
-      "content_hash": "a9691a2fec5b48a634e5d6ce923e3461adf244add0a2c79e400409f39a9e999f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61444",
-      "title": "CVE-2026-61444 - PraisonAI versions before 4.6.78 contain a code injection vulnerability in deplo...",
-      "body": "PraisonAI versions before 4.6.78 contain a code injection vulnerability in deploy/api.py where the agents_file parameter is directly interpolated into an f-string without sanitization. Attackers can inject arbitrary Python code that executes when the generated server code runs via subprocess.Popen().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61444",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-07-10T15:16:50.610000",
-      "created_at": "2026-07-11T11:42:33.420516+00:00"
-    },
-    {
-      "id": "c924bfed99dad3af",
-      "content_hash": "c924bfed99dad3afb5acb11dc455fbc75236387f8c1d7fa3d3c570b4fbec2d01",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61441",
-      "title": "CVE-2026-61441 - PraisonAI Platform (praisonai-platform) before 0.1.9 improperly authorizes delet...",
-      "body": "PraisonAI Platform (praisonai-platform) before 0.1.9 improperly authorizes deletion of issue dependencies. The DELETE dependency route accepts either endpoint of a dependency edge and checks delete permission only against the caller-selected URL issue. A workspace member who cannot delete a dependency through an owner-created issue endpoint (which returns 403) can delete the same dependency edge by targeting a related member-owned issue endpoint, because permission is validated against the member-owned issue's owner. This allows members to bypass owner/admin authorization and remove owner-created issue dependencies.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61441",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-10T15:16:50.480000",
-      "created_at": "2026-07-11T11:42:33.420509+00:00"
-    },
-    {
-      "id": "e47ac65500ff071b",
-      "content_hash": "e47ac65500ff071b1a012e22d416d29474ff59df54b320d5e50a6d2131f14f6b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61437",
-      "title": "CVE-2026-61437 - PraisonAI (pip package praisonaiagents) before 1.6.78 contains an unsafe dynamic...",
-      "body": "PraisonAI (pip package praisonaiagents) before 1.6.78 contains an unsafe dynamic module loading vulnerability in AgentFlow._resolve_pydantic_class (src/praisonai-agents/praisonaiagents/workflows/workflows.py). When a workflow step uses a string output_pydantic reference, the framework locates and imports a sibling tools.py from the workflow file's directory via importlib exec_module without sandboxing, ignoring the PRAISONAI_ALLOW_*_TOOLS environment variables. An attacker who controls a workflow file and its sibling tools.py can execute arbitrary Python code with the workflow runner's privileges when the workflow is executed via WorkflowManager or after load_yaml.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61437",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-07-10T15:16:50.350000",
-      "created_at": "2026-07-11T11:42:33.420502+00:00"
-    },
-    {
-      "id": "36a690ba614629c9",
-      "content_hash": "36a690ba614629c978947d9ea4e9008f32e920ca3dbd524ce1a9153a06546d69",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61434",
-      "title": "CVE-2026-61434 - PraisonAI versions before 4.6.78 contain an allowlist bypass vulnerability in sh...",
-      "body": "PraisonAI versions before 4.6.78 contain an allowlist bypass vulnerability in shell command execution that allows attackers to execute restricted commands via find's built-in -exec, -execdir, and -delete actions. Attackers can craft find commands with these built-in actions to read blocked files, delete files, or execute non-allowlisted binaries without triggering shell metacharacter filters.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61434",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-10T15:16:50.213000",
-      "created_at": "2026-07-11T11:42:33.420496+00:00"
-    },
-    {
-      "id": "960f7893fcaa5d56",
-      "content_hash": "960f7893fcaa5d564b1e0db3456b528d5ec77447dbd906d2f046773c53488117",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61432",
-      "title": "CVE-2026-61432 - PraisonAI (praisonaiagents) before 1.6.78 contains a path traversal vulnerabilit...",
-      "body": "PraisonAI (praisonaiagents) before 1.6.78 contains a path traversal vulnerability in the FastContext feature (praisonaiagents.context.fast). FastContextAgent.execute_tool() prepends the configured workspace_path only for relative paths and neither rejects absolute paths nor canonicalizes joined paths before enforcing workspace containment. As a result, tool arguments or model-generated function calls to grep_search, glob_search, read_file, or list_directory can supply absolute paths or '../' traversal sequences to read, search, and enumerate files outside the intended workspace directory, with file contents returned to the caller or injected into the model's tool-result context.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61432",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.7,
-      "published_at": "2026-07-10T15:16:50.077000",
-      "created_at": "2026-07-11T11:42:33.420489+00:00"
-    },
-    {
-      "id": "f4b5aa960babc250",
-      "content_hash": "f4b5aa960babc2506bfeddbc9689a8ac36afcf5992e139c733c43185404695f7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61431",
-      "title": "CVE-2026-61431 - PraisonAI before 4.6.78 contains a path traversal vulnerability in ContextGather...",
-      "body": "PraisonAI before 4.6.78 contains a path traversal vulnerability in ContextGatherer that fails to validate include paths in .praisoncontext and .praisoninclude files. Attackers can supply absolute paths or parent directory traversal sequences to read arbitrary files outside the workspace and include their contents in the generated context bundle.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61431",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-07-10T15:16:49.947000",
-      "created_at": "2026-07-11T11:42:33.420482+00:00"
-    },
-    {
-      "id": "65554a71414c7dec",
-      "content_hash": "65554a71414c7deccda5d79a819f8ed3fc2d5fee6c7874c8f05b8e4fdf115fd8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-60091",
-      "title": "CVE-2026-60091 - PraisonAI before 4.6.78 contains an unauthenticated server-side request forgery ...",
-      "body": "PraisonAI before 4.6.78 contains an unauthenticated server-side request forgery vulnerability in the Jobs API /api/v1/runs endpoint. The webhook_url parameter is validated at request time but re-resolved at connection time, allowing attackers to use DNS rebinding to reach internal services with a blind SSRF attack.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60091",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-07-10T15:16:49.700000",
-      "created_at": "2026-07-11T11:42:33.420474+00:00"
     }
   ]
 }
