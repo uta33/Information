@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T21:43:03.855474+00:00",
+  "generated_at": "2026-07-13T22:43:22.605488+00:00",
   "items": [
     {
       "id": "e90e14c45bd6e550",
@@ -98,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-07-13T20:01:43+00:00",
       "created_at": "2026-07-13T21:43:03.854679+00:00"
+    },
+    {
+      "id": "f253935db7bc828d",
+      "content_hash": "f253935db7bc828d6b988c75318c610771560687f18ddfb83bf3c645e89e68a1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://neow.in/cWsyMTV3",
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48897991\">Comments</a>",
+      "url": "https://neow.in/cWsyMTV3",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-13T20:01:43+00:00",
+      "created_at": "2026-07-13T22:43:22.604856+00:00"
     },
     {
       "id": "37c65183d2ec6c09",
@@ -210,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-07-13T19:04:02+00:00",
       "created_at": "2026-07-13T20:06:30.395594+00:00"
+    },
+    {
+      "id": "4bcb046d5e387eb4",
+      "content_hash": "4bcb046d5e387eb40c71918ca5e192f141e528382f879ec1089725c28bf04e2c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php",
+      "title": "The infinite scroll may become endangered if controversial Calif. law passes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48897104\">Comments</a>",
+      "url": "https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-13T18:53:53+00:00",
+      "created_at": "2026-07-13T22:43:22.605074+00:00"
     },
     {
       "id": "6c104077fc577c46",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-10T22:16:43.250000",
       "created_at": "2026-07-11T22:35:41.423091+00:00"
-    },
-    {
-      "id": "0348b2badd998a99",
-      "content_hash": "0348b2badd998a9958e1bbbad902eb0d7f8075522906704a9c519a3032f73ed8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55187",
-      "title": "CVE-2026-55187 - Mailpit is an email testing tool and API for developers. Prior to 1.30.2, the re...",
-      "body": "Mailpit is an email testing tool and API for developers. Prior to 1.30.2, the remediation shipped for CVE-2026-27808 is incomplete because the tools.IsInternalIP deny-list in internal/tools/net.go relies on Go's standard library classification helpers and does not block IPv6 transition mechanisms or prefixes such as NAT64, 6to4, IPv4-compatible IPv6, ISATAP, fec0::/10, and 2001:db8::/32. An attacker who can deliver email and invoke POST /api/v1/message/{ID}/link-check can coerce the Link Check API's safeDialContext path into dialing internal destinations and can use status-code and error feedback to map internal service reachability, including cloud metadata endpoints. This issue is fixed in version 1.30.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55187",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-07-10T22:16:43.110000",
-      "created_at": "2026-07-11T22:35:41.423085+00:00"
-    },
-    {
-      "id": "db9f45e0d7069d3c",
-      "content_hash": "db9f45e0d7069d3c89dab2fc1f44016f9e84a1aa3b4c379516075cf586d99a81",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54736",
-      "title": "CVE-2026-54736 - Phalcon is a high-performance, full-stack PHP framework. Prior to 5.14.1, Phalco...",
-      "body": "Phalcon is a high-performance, full-stack PHP framework. Prior to 5.14.1, Phalcon\\Encryption\\Crypt::decrypt compares the attacker-supplied HMAC tag against the freshly computed HMAC using PHP/Zephir identity comparison, which lowers to a byte-wise comparison that returns early on the first differing byte. This observable timing discrepancy can allow an attacker to recover a valid tag byte-by-byte and attach it to a chosen IV and ciphertext so that decrypt() accepts tampered encrypted content as authentic. This issue is fixed in version 5.14.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54736",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-10T22:16:42.970000",
-      "created_at": "2026-07-11T22:35:41.423078+00:00"
     }
   ]
 }
