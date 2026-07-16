@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-16T04:48:50.606572+00:00",
+  "generated_at": "2026-07-16T07:13:43.259901+00:00",
   "items": [
+    {
+      "id": "8fdfec81bb2f3b24",
+      "content_hash": "8fdfec81bb2f3b24dae09466740004165c5059b9a0b4de5df2a7ea411a249043",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cr.yp.to/proto/netstrings.txt",
+      "title": "Netstrings (1997)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48930713\">Comments</a>",
+      "url": "https://cr.yp.to/proto/netstrings.txt",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T05:33:50+00:00",
+      "created_at": "2026-07-16T07:13:43.259447+00:00"
+    },
+    {
+      "id": "41eb23c285dd3471",
+      "content_hash": "41eb23c285dd347138a4bacfd1dc6d82b8d14a81de1e4316be193c5c24add51c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "title": "The lost joy of music piracy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48930454\">Comments</a>",
+      "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T04:46:21+00:00",
+      "created_at": "2026-07-16T07:13:43.258970+00:00"
+    },
+    {
+      "id": "e234d96dbda1b20f",
+      "content_hash": "e234d96dbda1b20f60ba5cd5617b3a7b54bc1fdf09e8448ca200c27ab2832f89",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+      "title": "Stop saying that AI is just a tool and it only matters how it is used",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48930363\">Comments</a>",
+      "url": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T04:31:01+00:00",
+      "created_at": "2026-07-16T07:13:43.259149+00:00"
+    },
     {
       "id": "13555b38dd923e71",
       "content_hash": "13555b38dd923e71abb98cd51eccf10dd8cc6eaed9a7fa6a4e609cca1e23a0c0",
@@ -28,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-07-16T04:00:00+00:00",
       "created_at": "2026-07-16T04:48:50.519077+00:00"
+    },
+    {
+      "id": "937316cfd8f8f930",
+      "content_hash": "937316cfd8f8f9300658e90c90976ac8b42ffac854f3322c3e8b25511d4ca602",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3142193",
+      "title": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
+      "body": "Syntetica, a French startup that has developed a novel approach to recycling nylon, has already obtained big-name partners and investors.",
+      "url": "https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T04:00:00+00:00",
+      "created_at": "2026-07-16T07:13:43.172192+00:00"
     },
     {
       "id": "8841d02f79880280",
@@ -112,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-07-16T02:57:30+00:00",
       "created_at": "2026-07-16T04:48:50.606264+00:00"
+    },
+    {
+      "id": "a5cb0ac57d2d74ab",
+      "content_hash": "a5cb0ac57d2d74ab2ce1befb5aad7ac2d62e86f39128455e3400a70eeb0cf458",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2607.11859",
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48929660\">Comments</a>",
+      "url": "https://arxiv.org/abs/2607.11859",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T02:17:31+00:00",
+      "created_at": "2026-07-16T07:13:43.259236+00:00"
     },
     {
       "id": "ef64fc4daa8af57d",
@@ -5182,6 +5252,20 @@
       "created_at": "2026-07-14T21:44:58.761766+00:00"
     },
     {
+      "id": "60e9ec3cc52bc401",
+      "content_hash": "60e9ec3cc52bc4013faebd87d0097cefe691084fdfb29b178893d955c950894f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.brt.fyi/posts/mac-book-filing/",
+      "title": "I also filed the corners off my MacBook",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48911803\">Comments</a>",
+      "url": "https://www.brt.fyi/posts/mac-book-filing/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-14T19:25:41+00:00",
+      "created_at": "2026-07-16T07:13:43.259362+00:00"
+    },
+    {
       "id": "2aa778e12e949438",
       "content_hash": "2aa778e12e9494386979cb20c9252c33f7853b9f8a7b237179c30825d4ad1f35",
       "source_name": "CVE (NVD)",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-14T16:17:01.600000",
       "created_at": "2026-07-15T17:03:00.941344+00:00"
-    },
-    {
-      "id": "26e008aa2a4c8d94",
-      "content_hash": "26e008aa2a4c8d949a4995e083e39bd0dfde33d092c4442b1d762dcdf6badc11",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55954",
-      "title": "CVE-2026-55954 - Authentication Bypass by Spoofing vulnerability in ueberauth ueberauth_apple all...",
-      "body": "Authentication Bypass by Spoofing vulnerability in ueberauth ueberauth_apple allows account takeover via unvalidated ID token claims.\n\nThe Ueberauth.Strategy.Apple.Token.payload/2 function verifies the JWT signature of the callback id_token against Apple's JWKS but does not validate any registered claims. The iss, aud, exp, and iat claims are read from the token and passed on to Ueberauth.Strategy.Apple.handle_callback!/1, which derives the logged-in user's uid and email directly from the unvalidated sub claim.\n\nAn attacker who obtains any Apple-signed ID token bearing the victim's sub (via a captured expired token, or via an ID token issued to a sibling client in the same Apple developer team) can replay it against the vulnerable callback and be authenticated as the victim. The absent exp check makes stolen tokens usable indefinitely, and the absent aud check enables cross-application account takeover across clients that share an Apple developer team.\n\nThis issue affects ueberauth_apple: from 0.1.0 before 0.6.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55954",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-14T16:17:01.093000",
-      "created_at": "2026-07-15T17:03:00.941337+00:00"
-    },
-    {
-      "id": "35cecebc2afbcc4d",
-      "content_hash": "35cecebc2afbcc4d34705495161000d911945c06c166f830691dfa649789b7ac",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55651",
-      "title": "CVE-2026-55651 - Easy!Appointments is a self hosted appointment scheduler. In version 1.5.2, an E...",
-      "body": "Easy!Appointments is a self hosted appointment scheduler. In version 1.5.2, an Excessive Data Exposure vulnerability in the customers search endpoint allows an authenticated user to obtain appointment hashes belonging to other users.\nUsing these hashes, an attacker can modify or delete appointments of other providers, resulting in an Appointments Takeover. Version 1.6.0 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55651",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-07-14T16:17:00.937000",
-      "created_at": "2026-07-15T15:16:26.377713+00:00"
-    },
-    {
-      "id": "bea3a82cf483d81c",
-      "content_hash": "bea3a82cf483d81ce08f252891bd3abdbcac223ac99f01eec081808c4fe5db08",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52841",
-      "title": "CVE-2026-52841 - Easy!Appointments is a self hosted appointment scheduler. In versions prior to 1...",
-      "body": "Easy!Appointments is a self hosted appointment scheduler. In versions prior to 1.6.0, `Google::oauth` at `application/controllers/Google.php:278` stores its URL-supplied `provider_id` in the session, and `oauth_callback` saves the issued Google OAuth token against that row without checking the caller owns the provider. Any logged-in backend user (admin, provider, or secretary) rebinds a peer provider's Google sync to a Google account they control. The peer's appointments then sync into the attacker's calendar with each customer's name and email attached as attendee data. Version 1.6.0 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52841",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-07-14T16:17:00.800000",
-      "created_at": "2026-07-15T15:16:26.377706+00:00"
-    },
-    {
-      "id": "7ee0c18240968f70",
-      "content_hash": "7ee0c18240968f70bb8af4dd8ed7fc072e4460b430304c54db45e9075b959ff0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52840",
-      "title": "CVE-2026-52840 - Easy!Appointments is a self hosted appointment scheduler. In versions prior to 1...",
-      "body": "Easy!Appointments is a self hosted appointment scheduler. In versions prior to 1.6.0, `Caldav::connect_to_server` at `application/controllers/Caldav.php:60` hands the request's `caldav_url` to a Guzzle `REPORT` call without scheme or host validation. A logged-in backend user (admin, provider, or secretary) reaches loopback, RFC1918, and link-local hosts on the deployment's network. The Guzzle exception path returns the upstream status code plus ~120 bytes of response body in the JSON `message` field (`Caldav.php:74-78`), so the SSRF is semi-blind. Version 1.6.0 contains a patch.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52840",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.7,
-      "published_at": "2026-07-14T16:17:00.670000",
-      "created_at": "2026-07-15T15:16:26.377693+00:00"
-    },
-    {
-      "id": "0956eded4271756e",
-      "content_hash": "0956eded4271756ea658a5b49bfa266c3003fb53f954a75acbdc3f2d39dd4b9e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52839",
-      "title": "CVE-2026-52839 - Easy!Appointments is a self hosted appointment scheduler. Versions prior to 1.6....",
-      "body": "Easy!Appointments is a self hosted appointment scheduler. Versions prior to 1.6.0 correctly filter provider-scoped appointments in the `appointments/search` response, proving that provider isolation is an intended security boundary. However, the direct mutation endpoints `appointments/store` and `appointments/update` only check generic appointment privileges and never verify that the submitted `id_users_provider` belongs to the current session. A normal authenticated provider can inject new appointments into another provider's schedule via `store`, or reassign existing appointments into a foreign provider's calendar via `update`. The `store` path contains an additional write-before-crash bug: the unauthorized row is committed to the database before the controller crashes on a type error, so the attacker receives an error response while the foreign appointment is already persisted. Version 1.6.0 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52839",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-07-14T16:17:00.540000",
-      "created_at": "2026-07-15T15:16:26.377686+00:00"
-    },
-    {
-      "id": "dac4d830da0552c7",
-      "content_hash": "dac4d830da0552c71eb0e9019b108a78e786e8e6325878b441fec06daa976661",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52838",
-      "title": "CVE-2026-52838 - Easy!Appointments is a self hosted appointment scheduler. Versions prior to 1.6....",
-      "body": "Easy!Appointments is a self hosted appointment scheduler. Versions prior to 1.6.0 allow administrators to define a custom \"booking disabled\" message through the booking settings page. That value is stored in the `disable_booking_message` setting via a rich-text editor and later passed directly to the public `booking_message` view without escaping or sanitization. An authenticated administrator can store HTML or JavaScript in this field, enable disabled-booking mode, and trigger stored XSS in every unauthenticated visitor who opens the public booking page. Version 1.6.0 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52838",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.6,
-      "published_at": "2026-07-14T16:17:00.410000",
-      "created_at": "2026-07-15T15:16:26.377679+00:00"
     }
   ]
 }
