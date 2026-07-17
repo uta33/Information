@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-16T23:46:59.320420+00:00",
+  "generated_at": "2026-07-17T01:28:20.740352+00:00",
   "items": [
+    {
+      "id": "505345edde657a7c",
+      "content_hash": "505345edde657a7cd7f9a9f5bd8e8f3ff967a34dfe7f67795a05d5093c331ea4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive",
+      "title": "M 3.9 Experimental Explosion – 147 Km ENE of Ponce Inlet, Florida",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48942125\">Comments</a>",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-17T00:45:05+00:00",
+      "created_at": "2026-07-17T01:28:20.739686+00:00"
+    },
     {
       "id": "a0255acf1acc946b",
       "content_hash": "a0255acf1acc946b4625cfe456ffff620d6d34ea486e88b12f5ac2f1474dea34",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-07-16T22:29:44+00:00",
       "created_at": "2026-07-16T22:46:24.064654+00:00"
+    },
+    {
+      "id": "bc832b263180ee79",
+      "content_hash": "bc832b263180ee799de777eed0b948256aefe62ca18b9dced6797c7f129f0223",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+      "title": "My car’s OTA update broke Android Auto",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48941129\">Comments</a>",
+      "url": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-16T22:29:44+00:00",
+      "created_at": "2026-07-17T01:28:20.739992+00:00"
     },
     {
       "id": "1e67d37b78892492",
@@ -1610,6 +1638,20 @@
       "cvss_score": null,
       "published_at": "2026-07-16T09:23:19+00:00",
       "created_at": "2026-07-16T11:25:19.310195+00:00"
+    },
+    {
+      "id": "3f1ac867f4da618d",
+      "content_hash": "3f1ac867f4da618d6547d918a18d6e75368a402d8c8e64c808ca93a513d0692f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15651",
+      "title": "CVE-2026-15651 - The WP TripAdvisor Review Slider plugin for WordPress is vulnerable to generic S...",
+      "body": "The WP TripAdvisor Review Slider plugin for WordPress is vulnerable to generic SQL Injection via the 'filtersource' parameter in all versions up to, and including, 14.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15651",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.9,
+      "published_at": "2026-07-16T09:16:18.393000",
+      "created_at": "2026-07-17T01:28:15.811489+00:00"
     },
     {
       "id": "8dcc3cc4cfa52de0",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-15T14:39:52+00:00",
       "created_at": "2026-07-15T15:16:29.895740+00:00"
-    },
-    {
-      "id": "09ead2174b476da2",
-      "content_hash": "09ead2174b476da297a9701148c5aa5a7dabc76bf4d6c3119e037d3523c9cdab",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
-      "title": "OpenAI loses trademark dispute at EU court",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48921461\">Comments</a>",
-      "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-15T14:32:36+00:00",
-      "created_at": "2026-07-15T17:03:11.312658+00:00"
-    },
-    {
-      "id": "3fc174d8286131f4",
-      "content_hash": "3fc174d8286131f406c81bd4c5d3628f5ad65e448d740bf03539396722e335b0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/",
-      "title": "My Midlife Crisis Corolla Is Fast, Furious, and Modded",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48921303\">Comments</a>",
-      "url": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-15T14:23:44+00:00",
-      "created_at": "2026-07-15T15:16:30.025632+00:00"
-    },
-    {
-      "id": "b22e3f434916bae0",
-      "content_hash": "b22e3f434916bae0a4a5976e7170f9c1dce99f9624dbceeb0dab16f4ab705971",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/",
-      "title": "My midlife crisis Corolla is fast, furious, and modded",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48921303\">Comments</a>",
-      "url": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-15T14:23:44+00:00",
-      "created_at": "2026-07-15T17:03:11.312606+00:00"
     }
   ]
 }
