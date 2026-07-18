@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-18T12:46:40.590186+00:00",
+  "generated_at": "2026-07-18T14:14:15.920243+00:00",
   "items": [
+    {
+      "id": "dc211c23156941fd",
+      "content_hash": "dc211c23156941fdc6213eb955844923de10d1abe2d5ab9de6351f12df37f6de",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+      "body": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-18T13:15:24+00:00",
+      "created_at": "2026-07-18T14:14:12.035311+00:00"
+    },
+    {
+      "id": "c2b6309edd7fc09d",
+      "content_hash": "c2b6309edd7fc09db6ba19e9160765aa9651aaddbf3f17f5d75fc66a82f5cc75",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48957779\">Comments</a>",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-18T13:00:52+00:00",
+      "created_at": "2026-07-18T14:14:15.919658+00:00"
+    },
     {
       "id": "6c351239d0e51671",
       "content_hash": "6c351239d0e516714e4eea44bfc07d84320d49597efa38f094e862fb8d88786d",
@@ -868,6 +896,48 @@
       "cvss_score": null,
       "published_at": "2026-07-17T16:18:09+00:00",
       "created_at": "2026-07-17T17:56:32.665638+00:00"
+    },
+    {
+      "id": "105c72f842e870ea",
+      "content_hash": "105c72f842e870ea3b042cfd52a1da493374dd083e40ecc5092c81811eba8a6c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63099",
+      "title": "CVE-2026-63099 - TheHive through 4.1.24 contains a broken object-level authorization vulnerabilit...",
+      "body": "TheHive through 4.1.24 contains a broken object-level authorization vulnerability in the attachment download endpoints that allows any authenticated user to access attachments belonging to other organizations by supplying a content-hash identifier. Attackers can exploit the missing organization-scoped authorization check in AttachmentSrv.visible, which is implemented as a pass-through traversal, to download arbitrary attachments.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63099",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-07-17T16:17:17.107000",
+      "created_at": "2026-07-18T14:14:12.447741+00:00"
+    },
+    {
+      "id": "0a511b40108cd6f4",
+      "content_hash": "0a511b40108cd6f4ba1315278fb3be09b41aa19979f52951fcf71b604d2cbab9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63098",
+      "title": "CVE-2026-63098 - TheHive through 4.1.24 contains an unauthenticated information disclosure vulner...",
+      "body": "TheHive through 4.1.24 contains an unauthenticated information disclosure vulnerability that allows unauthenticated attackers to retrieve sensitive configuration data by sending a GET request to the /api/status endpoint, which lacks authentication enforcement in the StatusCtrl.scala handler. Attackers can obtain the datastore attachment protection password, configured authentication providers, SSO settings, MFA capabilities, and clustered node addresses and roles without any credentials.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63098",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-07-17T16:17:16.947000",
+      "created_at": "2026-07-18T14:14:12.447736+00:00"
+    },
+    {
+      "id": "4313752d4d801ec3",
+      "content_hash": "4313752d4d801ec3de6bfbca6e9a713052ad940e28706e608da554c992214005",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63097",
+      "title": "CVE-2026-63097 - Dendrite through 0.13.8 contains an improper access control vulnerability in the...",
+      "body": "Dendrite through 0.13.8 contains an improper access control vulnerability in the syncapi /context endpoint (syncapi/routing/context.go) that allows authenticated local users to access post-leave room state events by exploiting a flawed membership check that evaluates only the RoomExists field while ignoring IsInRoom, HasBeenInRoom, and Membership fields. Attackers who have left a room can call the rooms context API endpoint for a previously permitted event and receive unfiltered current room state that the /messages and /sync endpoints correctly withhold.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63097",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-17T16:17:16.783000",
+      "created_at": "2026-07-18T14:14:12.447731+00:00"
     },
     {
       "id": "54eaa79a707df8f1",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-16T16:41:37+00:00",
       "created_at": "2026-07-16T17:01:24.100616+00:00"
-    },
-    {
-      "id": "78c2d74cf001b976",
-      "content_hash": "78c2d74cf001b97688078fb28da2f1ff4cc1f3c4fe63ed27a8510f143592ea31",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48936880\">Comments</a>",
-      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-16T16:41:37+00:00",
-      "created_at": "2026-07-16T18:53:30.467630+00:00"
-    },
-    {
-      "id": "17fef077d9ccab0b",
-      "content_hash": "17fef077d9ccab0bc209904e0c7242b201dda863486e55bf10d210e491fa2890",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3143347",
-      "title": "X cracks down on creators who steal content",
-      "body": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait.",
-      "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-16T16:40:36+00:00",
-      "created_at": "2026-07-16T17:01:23.884010+00:00"
-    },
-    {
-      "id": "b8c6288baf98b1a1",
-      "content_hash": "b8c6288baf98b1a14df3e65b253802aa3deee4001ff117124e1f104de199ada2",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/cmk/connections",
-      "title": "Show HN: Galois connections for composable numeric casts in Rust",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48936803\">Comments</a>",
-      "url": "https://github.com/cmk/connections",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-16T16:36:17+00:00",
-      "created_at": "2026-07-16T19:54:50.781560+00:00"
-    },
-    {
-      "id": "f88bdd2a834004c2",
-      "content_hash": "f88bdd2a834004c26e9c82a584d8b4b63f13ceb64db79991c092032baf02a9da",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://betlang.dev/about/",
-      "title": "56,000 lines of DOOM, in a language I made up",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48936657\">Comments</a>",
-      "url": "https://betlang.dev/about/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-16T16:24:50+00:00",
-      "created_at": "2026-07-16T17:01:24.100707+00:00"
-    },
-    {
-      "id": "7d0fc5aded65f00b",
-      "content_hash": "7d0fc5aded65f00bdb0211fd9eb79710fc7f1c689e272f3c8f5483f72c4ffd0b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.gapminder.org/dollar-street",
-      "title": "Photos of items from families in different countries with different incomes",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48936654\">Comments</a>",
-      "url": "https://www.gapminder.org/dollar-street",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-16T16:24:33+00:00",
-      "created_at": "2026-07-16T17:01:24.100961+00:00"
     }
   ]
 }
