@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-19T07:26:04.888959+00:00",
+  "generated_at": "2026-07-19T09:42:49.431542+00:00",
   "items": [
+    {
+      "id": "ba87dbb197c13c19",
+      "content_hash": "ba87dbb197c13c19798ad622453861bcbb8336f2953d87a7a74f6a4d2ca4c786",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.msn.com/en-us/health/other/boys-adhd-symptoms-linked-to-addictive-social-media-use-in-new-study/ar-AA287LY0",
+      "title": "Boys' ADHD symptoms linked to addictive social media use in new study",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48966131\">Comments</a>",
+      "url": "https://www.msn.com/en-us/health/other/boys-adhd-symptoms-linked-to-addictive-social-media-use-in-new-study/ar-AA287LY0",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T08:47:15+00:00",
+      "created_at": "2026-07-19T09:42:49.431116+00:00"
+    },
+    {
+      "id": "c1988f4683bc80d5",
+      "content_hash": "c1988f4683bc80d5e7493b56214d01b7a5a4f899a7a787f6de84617d0c8d8509",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48966120\">Comments</a>",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T08:44:57+00:00",
+      "created_at": "2026-07-19T09:42:49.430796+00:00"
+    },
+    {
+      "id": "d259455b43ad1a58",
+      "content_hash": "d259455b43ad1a58ff7a32a32c313ac2e9eab318e0731e45ac14aecefa13273b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48965886\">Comments</a>",
+      "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-19T08:00:24+00:00",
+      "created_at": "2026-07-19T09:42:49.430837+00:00"
+    },
     {
       "id": "940ea4d8277fff63",
       "content_hash": "940ea4d8277fff6317e68a12fd0f55542e0679edb31cae310b4cb07b07384f51",
@@ -168,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-07-18T22:13:39+00:00",
       "created_at": "2026-07-18T23:41:02.009866+00:00"
+    },
+    {
+      "id": "fab26bd8ee26c18f",
+      "content_hash": "fab26bd8ee26c18fa24f9c847af5e601f4b7d32ce1a67032574f9dcdfa3143c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48962983\">Comments</a>",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-18T22:13:39+00:00",
+      "created_at": "2026-07-19T09:42:49.431197+00:00"
     },
     {
       "id": "e0bcb93036434f33",
@@ -574,6 +630,34 @@
       "cvss_score": null,
       "published_at": "2026-07-18T15:32:04+00:00",
       "created_at": "2026-07-18T16:42:23.133658+00:00"
+    },
+    {
+      "id": "56c37ad6b7cac370",
+      "content_hash": "56c37ad6b7cac370cfe7cd1ec016ca0070ea5f75d08f16ea73f28914767572f7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16122",
+      "title": "CVE-2026-16122 - A security flaw has been discovered in nextlevelbuilder GoClaw up to 3.13.2. Aff...",
+      "body": "A security flaw has been discovered in nextlevelbuilder GoClaw up to 3.13.2. Affected by this vulnerability is the function extractBin/RequestApproval/matchesAllowlist of the file internal/tools/exec_approval.go. The manipulation results in incorrect authorization. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16122",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-18T15:17:33.743000",
+      "created_at": "2026-07-19T09:42:44.921468+00:00"
+    },
+    {
+      "id": "6895fd6d6f3521f4",
+      "content_hash": "6895fd6d6f3521f487b2b92fabf9e3b35e69dd1437fafa4ed351f0942c764ae1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16121",
+      "title": "CVE-2026-16121 - A vulnerability was identified in nextlevelbuilder GoClaw up to 3.13.2. Affected...",
+      "body": "A vulnerability was identified in nextlevelbuilder GoClaw up to 3.13.2. Affected is the function isSafeBin of the file internal/tools/exec_approval.go. The manipulation leads to improper authorization. It is possible to initiate the attack remotely. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16121",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-18T15:17:32.987000",
+      "created_at": "2026-07-19T09:42:44.921461+00:00"
     },
     {
       "id": "c1aed7e79f999df2",
@@ -6916,90 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-07-17T02:18:09.603000",
       "created_at": "2026-07-17T23:41:08.742829+00:00"
-    },
-    {
-      "id": "c55e6e2cdc590492",
-      "content_hash": "c55e6e2cdc59049281e700fae47b320fa5f749a13a88899b334210fcb7b7e13e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62223",
-      "title": "CVE-2026-62223 - OpenClaw before 2026.5.18 contain an authorization bypass vulnerability in the d...",
-      "body": "OpenClaw before 2026.5.18 contain an authorization bypass vulnerability in the device-pair approval feature that allows lower-trust callers to execute actions beyond their intended authorization. Attackers can exploit misconfigured input paths to execute or persist unauthorized actions when the affected feature is enabled and reachable.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62223",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-17T02:18:09.440000",
-      "created_at": "2026-07-17T23:41:08.742824+00:00"
-    },
-    {
-      "id": "ef2dae64346a7517",
-      "content_hash": "ef2dae64346a7517ef6568cd24bf70dc4efc532df22639c76f0a6ede99d4d63f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62222",
-      "title": "CVE-2026-62222 - OpenClaw before 2026.5.22 contain a vulnerability in setup-mode discovery that a...",
-      "body": "OpenClaw before 2026.5.22 contain a vulnerability in setup-mode discovery that allows loading of untrusted workspace plugins. Attackers with lower-trust caller access or control over configured input paths can execute or persist actions beyond their intended authorization level.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62222",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-07-17T02:18:09.273000",
-      "created_at": "2026-07-17T23:41:08.742818+00:00"
-    },
-    {
-      "id": "bb70222a7c18cef6",
-      "content_hash": "bb70222a7c18cef6c8a18318b84858ba875fc8a8cbb4b526eab5a9090ff333d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62221",
-      "title": "CVE-2026-62221 - OpenClaw 2026.5.12 before 2026.5.26 contain an incorrect authorization vulnerabi...",
-      "body": "OpenClaw 2026.5.12 before 2026.5.26 contain an incorrect authorization vulnerability in the ClickClack allowFrom feature. When the affected feature is enabled and reachable, a lower-trust caller or configured input path could execute or persist actions beyond the caller's intended authorization, including running non-allowlisted commands.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62221",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-07-17T02:18:09.133000",
-      "created_at": "2026-07-17T23:41:08.742812+00:00"
-    },
-    {
-      "id": "b580635c09e871e5",
-      "content_hash": "b580635c09e871e565b6a2a05ad9ed6cf37a43187326365c4e58a244822a1a57",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62220",
-      "title": "CVE-2026-62220 - OpenClaw 2026.2.25 before 2026.5.26 allow a lower-trust caller or configured inp...",
-      "body": "OpenClaw 2026.2.25 before 2026.5.26 allow a lower-trust caller or configured input path to bypass non-browser rate limits on WebSocket authentication attempts. When the affected feature is enabled and reachable by lower-trust input, this can consume gateway resources and reduce service availability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62220",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-17T02:18:08.990000",
-      "created_at": "2026-07-17T23:41:08.742805+00:00"
-    },
-    {
-      "id": "cff240f4f70dd60a",
-      "content_hash": "cff240f4f70dd60a8cfc57d856cdd6da530080c26eefe4e134dab0a23ddc3299",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62219",
-      "title": "CVE-2026-62219 - OpenClaw 2026.2.12 before 2026.5.26 contain an authorization bypass vulnerabilit...",
-      "body": "OpenClaw 2026.2.12 before 2026.5.26 contain an authorization bypass vulnerability in the hooks allowedAgentIds validation. A lower-trust caller or configured input path can bypass agent ID restrictions by submitting blank agent IDs, allowing actions that should require stronger authorization or policy checks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62219",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-07-17T02:18:08.847000",
-      "created_at": "2026-07-17T23:41:08.742799+00:00"
-    },
-    {
-      "id": "ea24a963efb77b4b",
-      "content_hash": "ea24a963efb77b4b2d9e594c880bb6f53f6a50ee396fcbb7b5e3d495702dd487",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62218",
-      "title": "CVE-2026-62218 - OpenClaw 2026.1.20 before 2026.5.27 contain an authorization bypass vulnerabilit...",
-      "body": "OpenClaw 2026.1.20 before 2026.5.27 contain an authorization bypass vulnerability in the device.pair.approve feature that allows lower-trust callers to bypass role-management checks. Attackers can perform actions requiring stronger authorization by reaching the affected feature through configured input paths.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62218",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-17T02:18:08.693000",
-      "created_at": "2026-07-17T23:41:08.742793+00:00"
     }
   ]
 }
