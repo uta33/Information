@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-19T04:59:17.247102+00:00",
+  "generated_at": "2026-07-19T07:26:04.888959+00:00",
   "items": [
+    {
+      "id": "940ea4d8277fff63",
+      "content_hash": "940ea4d8277fff6317e68a12fd0f55542e0679edb31cae310b4cb07b07384f51",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+      "title": "Scrying the AMD GFX1250 LLVM Tea Leaves",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48965161\">Comments</a>",
+      "url": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T05:07:08+00:00",
+      "created_at": "2026-07-19T07:26:04.888434+00:00"
+    },
     {
       "id": "db01ad70b4b6a017",
       "content_hash": "db01ad70b4b6a01782ce2e792a4025cf75c36f02a11a8f5f5adb8727a03d8232",
@@ -616,6 +630,48 @@
       "cvss_score": null,
       "published_at": "2026-07-18T14:17:19+00:00",
       "created_at": "2026-07-18T15:42:56.876129+00:00"
+    },
+    {
+      "id": "9e9f387b38a808c1",
+      "content_hash": "9e9f387b38a808c1388b67bed0d6eb4a63dd0257c48052f687d180ded1859a27",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-9323",
+      "title": "CVE-2026-9323 - The urwid web display backend (urwid/display/web.py) generates web session ident...",
+      "body": "The urwid web display backend (urwid/display/web.py) generates web session identifiers (urwid_id) in Screen.start() by concatenating two random.randrange(10**9) calls that use Python's Mersenne Twister PRNG, which is not cryptographically secure. Each call consumes approximately 30 bits of PRNG state, and the Mersenne Twister internal state is approximately 19,937 bits, so an attacker who observes approximately 334 session IDs (for example via the X-Urwid-ID HTTP response header) can fully reconstruct the internal state and predict all past and future session IDs (Path B). The same identifier is also used as the filename of a FIFO created in the world-listable /tmp directory (for example /tmp/urwid375487765176907690.in), so any local user on the host can list /tmp to enumerate active session tokens directly (Path A). With a valid session ID, an attacker can read the victim's terminal screen via the polling endpoint, inject keystrokes into the victim's session (yielding OS-level code execution with the session owner's privileges if the session runs a shell), and inject exit sequences or flood the FIFO to terminate or crash the session. A prior Bandit S311 warning on this usage was suppressed with # noqa: S311 rather than fixed",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9323",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-07-18T14:17:12.170000",
+      "created_at": "2026-07-19T07:25:59.995411+00:00"
+    },
+    {
+      "id": "ffd60559b0b5d567",
+      "content_hash": "ffd60559b0b5d56786fe8b4ae8e7fae4e904309861ecf2c1cf9405a064f09769",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16120",
+      "title": "CVE-2026-16120 - A vulnerability was determined in nextlevelbuilder GoClaw up to 3.13.3-beta.3. T...",
+      "body": "A vulnerability was determined in nextlevelbuilder GoClaw up to 3.13.3-beta.3. This impacts the function matchesAllowlist/extractBin of the file internal/tools/exec_approval.go. Executing a manipulation can lead to incorrectly-resolved name. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16120",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-18T14:17:11.907000",
+      "created_at": "2026-07-19T07:25:59.995405+00:00"
+    },
+    {
+      "id": "603f72b887d18fa9",
+      "content_hash": "603f72b887d18fa987c0a232286344ea8d87f07e362e981f89d4f43b70aa8424",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16119",
+      "title": "CVE-2026-16119 - A vulnerability was found in nextlevelbuilder GoClaw up to 3.13.2. This affects ...",
+      "body": "A vulnerability was found in nextlevelbuilder GoClaw up to 3.13.2. This affects the function RequestApproval of the file internal/tools/exec_approval.go of the component WebSocket Approval Endpoint. Performing a manipulation results in incorrect authorization. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16119",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-18T14:17:11.740000",
+      "created_at": "2026-07-19T07:25:59.995398+00:00"
     },
     {
       "id": "63e3e1bc2fbd1e51",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-07-17T02:18:08.693000",
       "created_at": "2026-07-17T23:41:08.742793+00:00"
-    },
-    {
-      "id": "67707734eb787be6",
-      "content_hash": "67707734eb787be6726d9835fa9bcb6183352bbaa13f9880e6976c4cdb1affdb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62217",
-      "title": "CVE-2026-62217 - OpenClaw 2026.5.14-beta.1 before 2026.5.27 contain an authorization flaw in the ...",
-      "body": "OpenClaw 2026.5.14-beta.1 before 2026.5.27 contain an authorization flaw in the QQBot exec approvals feature. When the feature is enabled and reachable, a lower-trust caller or configured input path could execute or persist actions beyond the caller's intended authorization, allowing non-allowlisted senders to perform unauthorized operations.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62217",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-17T02:18:08.553000",
-      "created_at": "2026-07-17T23:41:08.742787+00:00"
-    },
-    {
-      "id": "b94b69e885446e3e",
-      "content_hash": "b94b69e885446e3e051184ce555a0855271dd548d8a0dd6676a36d0dfaf83c6c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62216",
-      "title": "CVE-2026-62216 - OpenClaw 2026.4.20 before 2026.5.28 contain a policy bypass in the QQBot media u...",
-      "body": "OpenClaw 2026.4.20 before 2026.5.28 contain a policy bypass in the QQBot media upload feature. A lower-trust caller or configured input path could cause the media upload to reach network destinations that should have been blocked by OpenClaw policy (server-side request forgery). The practical impact depends on the operator's configuration and whether lower-trust input can reach that path.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62216",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.0,
-      "published_at": "2026-07-17T02:18:08.420000",
-      "created_at": "2026-07-17T23:41:08.742781+00:00"
-    },
-    {
-      "id": "c32e5178a0bbceed",
-      "content_hash": "c32e5178a0bbceed60e016ce668000c4f21d238ed0f1b9f1ea0c7fe6d20759bc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62215",
-      "title": "CVE-2026-62215 - OpenClaw versions before 2026.6.5 contain an authentication bypass vulnerability...",
-      "body": "OpenClaw versions before 2026.6.5 contain an authentication bypass vulnerability in HTTP Canvas responses that allows lower-trust callers to forge trusted A2UI actions. Attackers can perform actions requiring stronger authorization by submitting crafted requests through configured input paths, bypassing intended policy checks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62215",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.0,
-      "published_at": "2026-07-17T02:18:08.243000",
-      "created_at": "2026-07-17T23:41:08.742775+00:00"
-    },
-    {
-      "id": "47afd16abf37d5c3",
-      "content_hash": "47afd16abf37d5c31802fc1390f6d0c29af0acbf7901d91e8efbf866c4b2392c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62214",
-      "title": "CVE-2026-62214 - OpenClaw versions before 2026.5.28 Bot Framework contains an improper input vali...",
-      "body": "OpenClaw versions before 2026.5.28 Bot Framework contains an improper input validation vulnerability that allows lower-trust callers to expose bot tokens and credentials by failing to properly validate serviceUrl parameters. Attackers can supply malicious serviceUrl values through configured input paths to retrieve sensitive authentication data outside the trusted boundary.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62214",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-17T02:18:08.097000",
-      "created_at": "2026-07-17T23:41:08.742769+00:00"
     }
   ]
 }
