@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-19T15:44:19.834289+00:00",
+  "generated_at": "2026-07-19T16:42:27.961508+00:00",
   "items": [
+    {
+      "id": "0bc446b9977fe7dc",
+      "content_hash": "0bc446b9977fe7dcca9dc179c1c0f81441a175c32749c12245f4994d375c3cab",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3143973",
+      "title": "TechCrunch Mobility: The battle over robotaxi rules",
+      "body": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "url": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T16:05:00+00:00",
+      "created_at": "2026-07-19T16:42:27.662622+00:00"
+    },
+    {
+      "id": "ab6f8d84efd6310b",
+      "content_hash": "ab6f8d84efd6310b3d3f6d2b87242bb61b47fb1d609d83f16a0cf79a9389001d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+      "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48968949\">Comments</a>",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T15:20:22+00:00",
+      "created_at": "2026-07-19T16:42:27.960989+00:00"
+    },
     {
       "id": "4c3892811e9f051d",
       "content_hash": "4c3892811e9f051dedd84489240683291828de555a598577e6f214775341cba1",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T14:52:08+00:00",
       "created_at": "2026-07-19T15:44:19.729260+00:00"
+    },
+    {
+      "id": "3a383d2768916fa6",
+      "content_hash": "3a383d2768916fa66ed7e368e9ab894d6f97abd4665e94d153e7ed09e94ff607",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip",
+      "title": "Terence McKenna's Mega Bad Trip",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48968515\">Comments</a>",
+      "url": "https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T14:30:31+00:00",
+      "created_at": "2026-07-19T16:42:27.961154+00:00"
     },
     {
       "id": "2173dd99ca558da5",
@@ -198,6 +240,20 @@
       "created_at": "2026-07-19T11:02:39.761573+00:00"
     },
     {
+      "id": "0a8d423a3e5db268",
+      "content_hash": "0a8d423a3e5db268fbae968f4b0db09136394a8c3decd3d9afe2bdce76f93238",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16224",
+      "title": "CVE-2026-16224 - A vulnerability was identified in jxxghp MoviePilot up to 2.13.5. The affected e...",
+      "body": "A vulnerability was identified in jxxghp MoviePilot up to 2.13.5. The affected element is an unknown function of the file /jxxghp/MoviePilot of the component Application API. The manipulation leads to improper authorization. Remote exploitation of the attack is possible. The identifier of the patch is dc2b6910a423b3bfadeffaa303e1ba75cfb33900. Applying a patch is the recommended action to fix this issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16224",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-19T09:17:01.250000",
+      "created_at": "2026-07-19T16:42:22.777794+00:00"
+    },
+    {
       "id": "5093066c1e7ed9e0",
       "content_hash": "5093066c1e7ed9e05d45257c10b5236a4430254f78215c8805c02677dc58f985",
       "source_name": "Hacker News (Best)",
@@ -280,6 +336,34 @@
       "cvss_score": null,
       "published_at": "2026-07-19T08:21:28+00:00",
       "created_at": "2026-07-19T11:02:39.762192+00:00"
+    },
+    {
+      "id": "d41ac54140f291e0",
+      "content_hash": "d41ac54140f291e01354fb234f679102d124a3cad5454a3423ac1b7b9acf9975",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16223",
+      "title": "CVE-2026-16223 - A vulnerability was determined in 1Panel-dev CordysCRM up to 1.4.1. Impacted is ...",
+      "body": "A vulnerability was determined in 1Panel-dev CordysCRM up to 1.4.1. Impacted is the function getSqlBotSrc of the file backend/crm/src/main/java/cn/cordys/crm/system/service/IntegrationConfigService.java of the component Third Party Edit Endpoint. Executing a manipulation of the argument appSecret can lead to server-side request forgery. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16223",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-19T08:16:43.647000",
+      "created_at": "2026-07-19T16:42:22.777787+00:00"
+    },
+    {
+      "id": "2a41f87b7715631a",
+      "content_hash": "2a41f87b7715631af75700b76d615f9ac6e9beb4da28249c4f62509dfb9d3ac6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16222",
+      "title": "CVE-2026-16222 - A vulnerability was found in 1Panel-dev CordysCRM up to 1.4.1. This issue affect...",
+      "body": "A vulnerability was found in 1Panel-dev CordysCRM up to 1.4.1. This issue affects some unknown processing of the file backend/crm/src/main/java/cn/cordys/crm/integration/sso/service/TokenService.java of the component Third Party Endpoint. Performing a manipulation of the argument mkAddress results in server-side request forgery. The attack may be initiated remotely. The exploit has been made public and could be used. The project closed the issue report, stating that this is not the official way to report a security vulnerability.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16222",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-07-19T08:16:42.620000",
+      "created_at": "2026-07-19T16:42:22.777779+00:00"
     },
     {
       "id": "70eb673dc0834cc8",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-17T09:42:05+00:00",
       "created_at": "2026-07-17T14:44:21.650113+00:00"
-    },
-    {
-      "id": "3e62166c8b29a8ae",
-      "content_hash": "3e62166c8b29a8aeeecf760a6ef8f02963082a3457353713ebd0467215d1133c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62764",
-      "title": "CVE-2026-62764 - Improper Handling of Insufficient Privileges vulnerability in Apache Accumulo.\nA...",
-      "body": "Improper Handling of Insufficient Privileges vulnerability in Apache Accumulo.\nAn authenticated, but low-privileged user without system permissions may\nissue a remote command to gracefully shutdown system components\n(compaction-coordinator, compactor, gc, manager, monitor, tserver, or sserver),\nleading to a denial of service.\n\nThis issue affects Apache Accumulo 2.1.4 and 2.1.5.\n\nUsers are recommended to upgrade to version 2.1.6, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62764",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T09:16:41.853000",
-      "created_at": "2026-07-18T04:37:03.560398+00:00"
-    },
-    {
-      "id": "cbccd0cdcb86ff56",
-      "content_hash": "cbccd0cdcb86ff56967383c1f897986d17ef8d8818fefcc48b32a72a9d0c3165",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-      "body": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T09:10:15+00:00",
-      "created_at": "2026-07-17T09:44:39.549082+00:00"
-    },
-    {
-      "id": "b1002bb1c3e4c06c",
-      "content_hash": "b1002bb1c3e4c06cbec7e95dcf8b7d96c2987cbbe3631a8bbe376f8fe3e602dd",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "body": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders.\n\nIt gets in because someone pasted a command into a Run box and pressed Enter. Microsoft laid out two of the delivery chains on Thursday. Its Defender Experts team, the",
-      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T08:56:39+00:00",
-      "created_at": "2026-07-17T11:13:00.123630+00:00"
-    },
-    {
-      "id": "64410e6d10d26539",
-      "content_hash": "64410e6d10d26539187e5d8a0bbc49a48fa6653e48f2d744e362033458344c81",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-      "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-      "body": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering.\n\nRussian cybersecurity company Kaspersky, which uncovered the activity in February 2026, said it was aimed at government and diplomatic entities in",
-      "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T08:46:45+00:00",
-      "created_at": "2026-07-17T11:13:00.123667+00:00"
-    },
-    {
-      "id": "1128ea237f8ac32a",
-      "content_hash": "1128ea237f8ac32af34ec78cc6142de55fb9613f13e9dc92676447e252f5e0ee",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9656",
-      "title": "CVE-2026-9656 - The HubSpot All-In-One Marketing – Forms, Popups, Live Chat plugin for WordPress...",
-      "body": "The HubSpot All-In-One Marketing – Forms, Popups, Live Chat plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 11.3.62 via the wp_localize_script() / window.leadinConfig JavaScript object. This makes it possible for authenticated attackers, with contributor-level access and above, to extract the site's plaintext HubSpot OAuth refresh token exposed via the window.leadinConfig JavaScript object, which can then be used to access or modify data in the connected HubSpot tenant. Although the refresh token is stored at rest with AES-256-CTR encryption, decryption occurs server-side before the plaintext value is passed to wp_localize_script(), rendering the at-rest encryption ineffective against this exposure path.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9656",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-17T08:16:59.043000",
-      "created_at": "2026-07-18T04:37:03.560390+00:00"
-    },
-    {
-      "id": "7f01351037e2ca45",
-      "content_hash": "7f01351037e2ca4557498ed7ad2aea7027696faab3eec7707b4f5368a1f01606",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15380",
-      "title": "CVE-2026-15380 - A non-administrator interactive user can obtain full SYSTEM code execution throu...",
-      "body": "A non-administrator interactive user can obtain full SYSTEM code execution through a DCOM/task scheduler logic chain — no network access, no memory corruption required (ITMS 8.7.3)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15380",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T08:16:58.913000",
-      "created_at": "2026-07-18T04:37:03.560380+00:00"
     }
   ]
 }
