@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-19T18:47:07.397421+00:00",
+  "generated_at": "2026-07-19T20:01:00.194152+00:00",
   "items": [
+    {
+      "id": "6672ee1ce5b67cb7",
+      "content_hash": "6672ee1ce5b67cb70dbc2aed8dcaa70c5692e90674730acda8e55cbc564f148d",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3144101",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "body": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T19:24:45+00:00",
+      "created_at": "2026-07-19T20:00:59.925531+00:00"
+    },
+    {
+      "id": "04b6486688bddf71",
+      "content_hash": "04b6486688bddf71ec5a3b977bc117ca52b49b79be47794f43ecf7e48f31c8b5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48970772\">Comments</a>",
+      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T18:57:01+00:00",
+      "created_at": "2026-07-19T20:01:00.193523+00:00"
+    },
     {
       "id": "b0e04a31ba365c49",
       "content_hash": "b0e04a31ba365c496cd7e8ef602d95a63d7960de235ec9f28a660ed1e50ea2ef",
@@ -336,6 +364,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T10:03:23+00:00",
       "created_at": "2026-07-19T11:02:39.761573+00:00"
+    },
+    {
+      "id": "8d1ef5fcfa05c6bf",
+      "content_hash": "8d1ef5fcfa05c6bf5814214ce7119a0b83ebd38c0140ad1909e66c9e273e938d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53371",
+      "title": "CVE-2026-53371 - In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/ionic:...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/ionic: bound node_desc sysfs read with %.64s\n\nnode_desc[64] in struct ib_device is not guaranteed to be NUL-\nterminated. The core IB sysfs handler uses \"%.64s\" for exactly this\nreason (drivers/infiniband/core/sysfs.c:1307), since node_desc_store()\nperforms a raw memcpy of up to IB_DEVICE_NODE_DESC_MAX bytes with no NUL\ntermination:\n\n  memcpy(desc.node_desc, buf, min_t(int, count, IB_DEVICE_NODE_DESC_MAX));\n\nIf exactly 64 bytes are written via the node_desc sysfs file, the array\ncontains no NUL byte. The ionic hca_type_show() handler uses unbounded\n\"%s\" and will read past the end of node_desc into adjacent fields of\nstruct ib_device until it encounters a NUL.\n\nionic supports IB_DEVICE_MODIFY_NODE_DESC, so this is triggerable by\nuserspace.\n\nMatch the core handler and bound the format specifier.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53371",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T09:17:02.260000",
+      "created_at": "2026-07-19T20:00:42.622320+00:00"
     },
     {
       "id": "024b1d9f2405206f",
@@ -5952,6 +5994,20 @@
       "created_at": "2026-07-17T17:56:32.665663+00:00"
     },
     {
+      "id": "41a5400bed8ea472",
+      "content_hash": "41a5400bed8ea472e119c420c2055e543da7ff89c9f8516d2b53872d60690da2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.collabora.com/news-and-blog/news-and-events/building-an-arch-linux-aarch64-port-for-holo-core.html",
+      "title": "Building an Arch Linux Aarch64 Port for Holo Core",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48948800\">Comments</a>",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/building-an-arch-linux-aarch64-port-for-holo-core.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-17T15:50:25+00:00",
+      "created_at": "2026-07-19T20:01:00.193712+00:00"
+    },
+    {
       "id": "a7f4c087f252e07e",
       "content_hash": "a7f4c087f252e07ec1f46763c3b18425449aaad7f910a996ac0da2393866fb06",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-17T12:00:00+00:00",
       "created_at": "2026-07-17T13:00:12.828152+00:00"
-    },
-    {
-      "id": "2123e813e4e4ead8",
-      "content_hash": "2123e813e4e4ead84289770807d1415cc39bf090acb487a06bd7fe9e8e05189a",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "body": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing.\n\nGoogle has to ship it in the next major release, Android 18, and by 1 August 2027 at",
-      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:44:41+00:00",
-      "created_at": "2026-07-17T13:00:00.403928+00:00"
-    },
-    {
-      "id": "dabf6c947f4818c4",
-      "content_hash": "dabf6c947f4818c446e1c56eb708202f6e7ad3d9a82374fb2b4654fb8a4d54ca",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "body": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move from concept to operational deployment at commercial speed.\n\nNow the focus shifts to the trusted",
-      "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:30:00+00:00",
-      "created_at": "2026-07-17T13:00:00.403963+00:00"
-    },
-    {
-      "id": "e9f42680b5e431b2",
-      "content_hash": "e9f42680b5e431b24d307a0ce898250011110a6b0ceae74846019b5168a49723",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
-      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48946010\">Comments</a>",
-      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:30:00+00:00",
-      "created_at": "2026-07-17T13:00:12.999269+00:00"
-    },
-    {
-      "id": "bf5e07df18f6fed0",
-      "content_hash": "bf5e07df18f6fed06a8260fe89ff8a621cc0c9ff21f32e98589ec4bc7b961d72",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
-      "title": "Evidence of inconsistencies in evaluation process and selection of winners",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48946010\">Comments</a>",
-      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:30:00+00:00",
-      "created_at": "2026-07-17T14:44:21.650295+00:00"
     }
   ]
 }
