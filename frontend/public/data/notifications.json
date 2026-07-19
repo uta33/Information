@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-19T17:46:41.600409+00:00",
+  "generated_at": "2026-07-19T18:47:07.397421+00:00",
   "items": [
+    {
+      "id": "b0e04a31ba365c49",
+      "content_hash": "b0e04a31ba365c496cd7e8ef602d95a63d7960de235ec9f28a660ed1e50ea2ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
+      "title": "Less Is More: Why Audio on SoundCloud Looks Different",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48970372\">Comments</a>",
+      "url": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T18:10:12+00:00",
+      "created_at": "2026-07-19T18:47:07.397174+00:00"
+    },
+    {
+      "id": "c8521b1b3c11a007",
+      "content_hash": "c8521b1b3c11a007aab46437df9c83ea85801e727f8612c580ce933676858f2f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sebsite.pw/w/20260708-badstdcxx.html",
+      "title": "Neither GCC nor Clang are compliant with standard C++",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48970039\">Comments</a>",
+      "url": "https://sebsite.pw/w/20260708-badstdcxx.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T17:32:41+00:00",
+      "created_at": "2026-07-19T18:47:07.397085+00:00"
+    },
     {
       "id": "b3d07c59e12c0844",
       "content_hash": "b3d07c59e12c08446b4c1bd99fd891fe5c47e40a11b8c011891c440d5e148988",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T16:45:17+00:00",
       "created_at": "2026-07-19T17:46:41.600036+00:00"
+    },
+    {
+      "id": "865db57eff6252f4",
+      "content_hash": "865db57eff6252f48d64495139dd2972ce0e0f74b9dd10713e0b099cb8d3abb0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+      "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48969582\">Comments</a>",
+      "url": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T16:38:36+00:00",
+      "created_at": "2026-07-19T18:47:07.397162+00:00"
     },
     {
       "id": "0bc446b9977fe7dc",
@@ -84,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T14:52:08+00:00",
       "created_at": "2026-07-19T15:44:19.729260+00:00"
+    },
+    {
+      "id": "799dc9d7e49f9d80",
+      "content_hash": "799dc9d7e49f9d80c0a20fe6010842c948cc7020e9c82675e619abee3e58cda5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=48968606",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48968606\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T14:41:16+00:00",
+      "created_at": "2026-07-19T18:47:07.396855+00:00"
     },
     {
       "id": "3a383d2768916fa6",
@@ -280,6 +336,34 @@
       "cvss_score": null,
       "published_at": "2026-07-19T10:03:23+00:00",
       "created_at": "2026-07-19T11:02:39.761573+00:00"
+    },
+    {
+      "id": "024b1d9f2405206f",
+      "content_hash": "024b1d9f2405206f091a202df467e04d4afed1aaba071bd1d276a56a61d6101a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53370",
+      "title": "CVE-2026-53370 - In the Linux kernel, the following vulnerability has been resolved:\n\nperf/x86/in...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nperf/x86/intel: Improve validation and configuration of ACR masks\n\nCurrently there are several issues on the user space ACR mask validation\nand configuration.\n- The validation for user space ACR mask (attr.config2) is incomplete,\n  e.g., the ACR mask could include the index which belongs to another\n  ACR events group, but it's not validated.\n- An early return on an invalid ACR mask caused all subsequent ACR groups\n  to be skipped.\n- The stale hardware ACR mask (hw.config1) is not cleared before setting\n  new hardware ACR mask.\n\nThe following changes address all of the above issues.\n- Figure out the event index group of an ACR group. Any bits in the\n  user-space mask not present in the index group are now dropped.\n- Instead of an early return on invalid bits, drop only the invalid\n  portions and continue iterating through all ACR events to ensure full\n  configuration.\n- Explicitly clear the stale hardware ACR mask for each event prior to\n  writing the new configuration.\n\nBesides, a non-leader event member of ACR group could be disabled in\ntheory. This could cause bit-shifting errors in the acr_mask of remaining\ngroup members. But since ACR sampling requires all events to be active,\nthis should not be a big concern in real use case. Add a \"FIXME\" comment\nto notice this risk.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53370",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T09:17:02.153000",
+      "created_at": "2026-07-19T18:47:03.982222+00:00"
+    },
+    {
+      "id": "b7aa314e16c699f9",
+      "content_hash": "b7aa314e16c699f9bfb073e16f774de5bf5c0223787c5547e77b3982b425a8e4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53369",
+      "title": "CVE-2026-53369 - In the Linux kernel, the following vulnerability has been resolved:\n\nudf: reject...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nudf: reject descriptors with oversized CRC length\n\nudf_read_tagged() skips CRC verification when descCRCLength +\nsizeof(struct tag) exceeds the block size.  A crafted UDF image can\nset descCRCLength to an oversized value to bypass CRC validation\nentirely; the descriptor is then accepted based solely on the 8-bit\ntag checksum, which is trivially recomputable.\n\nReject such descriptors instead of silently accepting them.  A\nlegitimate single-block descriptor should never have a CRC length that\nexceeds the block.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53369",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T09:17:02.017000",
+      "created_at": "2026-07-19T18:47:03.982218+00:00"
     },
     {
       "id": "37298436139fb601",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-17T11:30:00+00:00",
       "created_at": "2026-07-17T14:44:21.650295+00:00"
-    },
-    {
-      "id": "e2d1ea0c789af442",
-      "content_hash": "e2d1ea0c789af4426ecc5e0bd7d304a4925592303ce1a2c73d68161465dea1a3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9602",
-      "title": "CVE-2026-9602 - Mattermost Desktop App versions <=6.2 6.0.2 5.6.13.0 fail to validate payloads s...",
-      "body": "Mattermost Desktop App versions <=6.2 6.0.2 5.6.13.0 fail to validate payloads sent from the Mattermost Web App to the Desktop App which allows a malicious server owner to crash the Mattermost Desktop App via changing the payload of a method to a malformed one. Mattermost Advisory ID: MMSA-2026-00678",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9602",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-17T11:17:15.297000",
-      "created_at": "2026-07-18T04:37:03.560454+00:00"
-    },
-    {
-      "id": "87d3891ef4fcd9e7",
-      "content_hash": "87d3891ef4fcd9e7160602d72d2bdc2c2ca9d74093379771af2f79fa1b650c2e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8075",
-      "title": "CVE-2026-8075 - Mattermost Desktop App versions <=6.2 5.5.13 6.0.2.0 fail to properly null check...",
-      "body": "Mattermost Desktop App versions <=6.2 5.5.13 6.0.2.0 fail to properly null check when checking for headers in the Mattermost Desktop App which allows any user to crash another channel members Desktop App via posting a malicious link with an embedded image that misses one of those headers. Mattermost Advisory ID: MMSA-2026-00668",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8075",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-17T11:17:15.180000",
-      "created_at": "2026-07-18T04:37:03.560446+00:00"
-    },
-    {
-      "id": "47d37f1530cc24f9",
-      "content_hash": "47d37f1530cc24f91ac8ae5db336e815075f498bd7b5d0708ba7bbcf3e3ffa42",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59695",
-      "title": "CVE-2026-59695 - Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unau...",
-      "body": "Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote client to drain the fee-payer wallet in a single request by naming an arbitrarily high gas price.\n\nWhen the mpp Elixir library is configured as fee payer (fee_payer: true), MPP.Tempo.Transaction.cosign_fee_payer/3 re-signs the client-supplied base fields of the 0x76 AASigned envelope verbatim, including max_fee_per_gas and max_priority_fee_per_gas, without validating that they are within reasonable bounds. A malicious client embeds arbitrarily large values for these fields in the signed envelope. The server co-signs and broadcasts the transaction. The effective_gas_price billed against the fee-payer wallet is derived from the attacker-supplied ceilings, so the server pays those inflated per-gas rates out of its own wallet. A single crafted request can drain the wallet entirely, after which the server can no longer sponsor gas for legitimate payment requests.\n\nThis issue affects mpp: from 0.2.0 before 0.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59695",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:17:14.117000",
-      "created_at": "2026-07-18T04:37:03.560438+00:00"
-    },
-    {
-      "id": "3c3813f9d9359a55",
-      "content_hash": "3c3813f9d9359a55c6e0da4ec7e452bb5f63ad2c2a5319cfafccdfded5d91ebc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59694",
-      "title": "CVE-2026-59694 - Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unau...",
-      "body": "Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote client to inflate the fee-payer's gas cost per payment by a large multiplier, degrading the sponsor's operating margin.\n\nWhen the mpp Elixir library is configured as fee payer (fee_payer: true), MPP.Tempo.Transaction.cosign_fee_payer/3 re-signs the client-supplied base fields of the 0x76 AASigned envelope verbatim, including the EIP-2930 access list, without validating its length or contents. EIP-2930 access list entries incur intrinsic gas (~2,400 gas per address, plus 1,900 gas per storage key) charged before any opcode executes, regardless of whether the listed addresses are ever touched. A malicious client submits a valid transferWithMemo call alongside a large number of fabricated access-list entries. The server co-signs and broadcasts the transaction. The intended transfer executes normally, but the fee-payer wallet pays a large multiple of the expected gas cost with no corresponding on-chain work.\n\nAt the maintainer's default of 137 access-list entries (fitting within Bandit's 10,000-byte per-header-field limit) and 100 Gwei max_fee_per_gas, per-payment gas cost rises from ~51,287 to ~380,087 gas, a 7.4x multiplier. Sustained abuse destroys the sponsor's operating margin on low-cost payments and, over time, drains the fee-payer wallet.\n\nThis issue affects mpp: from 0.2.0 before 0.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59694",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:17:13.960000",
-      "created_at": "2026-07-18T04:37:03.560430+00:00"
-    },
-    {
-      "id": "46c39fe2c03126cc",
-      "content_hash": "46c39fe2c03126cc33361054046da5a9f6632222cb4373d037f43e9de9db1602",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59252",
-      "title": "CVE-2026-59252 - Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unau...",
-      "body": "Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote client to drain the fee-payer wallet, resulting in denial of service for legitimate clients.\n\nWhen the mpp Elixir library is configured as fee payer (fee_payer: true), the MPP.Methods.Tempo payment method co-signs and broadcasts a client-supplied EVM transaction without first validating that the client-supplied gas_limit is sufficient to complete the intended call. A malicious client can submit a signed transferWithMemo transaction with gas_limit deliberately set just below the amount required for successful execution. The server co-signs the transaction and broadcasts it via rpc_broadcast_sync. The transaction runs out of gas during EVM execution and reverts, but the fee-payer wallet is still charged for the burned gas while the client pays nothing and receives no resource. Repeated requests from one or more malicious clients drain the fee-payer wallet at near-zero cost to the attacker, ultimately preventing the server from sponsoring gas for legitimate payment requests.\n\nThe wait_for_confirmation = false (optimistic) path is also affected: it invokes simulate_payment_call via eth_call, but that simulation omits the gas parameter and therefore does not catch out-of-gas conditions.\n\nThis issue affects mpp: from 0.2.0 before 0.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59252",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T11:17:13.803000",
-      "created_at": "2026-07-18T04:37:03.560422+00:00"
-    },
-    {
-      "id": "583e117c80ee3d35",
-      "content_hash": "583e117c80ee3d353b4865e101deef76e38f004ba50d5a3132a657ffeb2966f4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16008",
-      "title": "CVE-2026-16008 - A security vulnerability has been detected in sagold json-schema-library 11.5.0/...",
-      "body": "A security vulnerability has been detected in sagold json-schema-library 11.5.0/11.5.1. This impacts the function parsePropertyDependencies of the file src/keywords/propertyDependencies.ts. The manipulation leads to improperly controlled modification of object prototype attributes. The attack can be initiated remotely. Upgrading to version 11.6.0 will fix this issue. The identifier of the patch is 432287ee6f68a02ce6f015354618486ec427a32d. It is advisable to upgrade the affected component.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16008",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-17T11:17:13.080000",
-      "created_at": "2026-07-18T04:37:03.560414+00:00"
     }
   ]
 }
