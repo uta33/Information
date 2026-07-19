@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T22:39:57.031165+00:00",
+  "generated_at": "2026-07-19T23:45:16.018920+00:00",
   "items": [
     {
       "id": "cda28fd18bf9ceba",
@@ -42,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T21:45:00+00:00",
       "created_at": "2026-07-19T22:39:56.933280+00:00"
+    },
+    {
+      "id": "7d5e4776462292cd",
+      "content_hash": "7d5e4776462292cd223049ee172b28a0ded62c87093faa32c0f6318d60a1fd84",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48971938\">Comments</a>",
+      "url": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T21:42:12+00:00",
+      "created_at": "2026-07-19T23:45:16.018408+00:00"
     },
     {
       "id": "5934cfa5c9f2f59a",
@@ -112,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T20:50:42+00:00",
       "created_at": "2026-07-19T21:40:00.576622+00:00"
+    },
+    {
+      "id": "61aa9ff17269952c",
+      "content_hash": "61aa9ff17269952c8ba4e7d3677799b42a0fcdbd09f4d37d67167794c0f93f45",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/",
+      "title": "Americans are angry about data centers. Politicians are feeling the pressure",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48971561\">Comments</a>",
+      "url": "https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T20:50:07+00:00",
+      "created_at": "2026-07-19T23:45:16.018563+00:00"
     },
     {
       "id": "762b293e1c73ca47",
@@ -464,6 +492,20 @@
       "created_at": "2026-07-19T14:18:38.349828+00:00"
     },
     {
+      "id": "3699b1d9babd1633",
+      "content_hash": "3699b1d9babd1633a487420afd87f097ce406150fcde54295f879a5eef3718ab",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53381",
+      "title": "CVE-2026-53381 - In the Linux kernel, the following vulnerability has been resolved:\n\nvirtiofs: f...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtiofs: fix UAF on submount umount\n\niput() called from fuse_release_end() can Oops if the super block has\nalready been destroyed.  Normally this is prevented by waiting for\nnum_waiting to go down to zero before commencing with super block shutdown.\n\nThis only works, however, for the last submount instance, as the wait\ncounter is per connection, not per superblock.\n\nRevert to using synchronous release requests for the auto_submounts case,\nwhich is virtiofs only at this time.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53381",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T12:16:48.807000",
+      "created_at": "2026-07-19T23:45:02.236227+00:00"
+    },
+    {
       "id": "ac715590161f4fad",
       "content_hash": "ac715590161f4fadd5646703b7ff8df3a787a8415f83502838913bf676a38e88",
       "source_name": "Hacker News (Best)",
@@ -490,6 +532,20 @@
       "cvss_score": null,
       "published_at": "2026-07-19T11:48:18+00:00",
       "created_at": "2026-07-19T14:18:44.036196+00:00"
+    },
+    {
+      "id": "a1a8cec9c3032f25",
+      "content_hash": "a1a8cec9c3032f2555e76befa114f2940b14e254c3cfc91e292572f5c118cf41",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53380",
+      "title": "CVE-2026-53380 - In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: rzv2...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: rzv2h-ivc: Fix concurrent buffer list access\n\nThe list of buffers (`rzv2h_ivc::buffers.queue`) is protected by a\nspinlock (`rzv2h_ivc::buffers.lock`). However, in\n`rzv2h_ivc_transfer_buffer()`, which runs in a separate workqueue, the\n`list_del()` call is executed without holding the spinlock, which makes\nit possible for the list to be concurrently modified\n\nFix that by removing a buffer from the list in the lock protected section.\n\n[assign ivc->buffers.curr in critical section as reported by Barnabas]",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53380",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-19T11:16:39.173000",
+      "created_at": "2026-07-19T23:45:02.236221+00:00"
     },
     {
       "id": "326007fe70f1664d",
@@ -6944,62 +7000,6 @@
       "cvss_score": 4.3,
       "published_at": "2026-07-17T14:17:16.877000",
       "created_at": "2026-07-18T04:37:03.560552+00:00"
-    },
-    {
-      "id": "7bdb3f0040ad8263",
-      "content_hash": "7bdb3f0040ad82632ce1b622fb62f777719b1dfca36fc69d11340c03d2028ef0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-23566",
-      "title": "CVE-2024-23566 - HCL Aftermarket EPC is vulnerable to brute force attacks since application doesn...",
-      "body": "HCL Aftermarket EPC is vulnerable to brute force attacks since application doesn’t have captcha implemented. It can lead to various security issues like brute force , automated attacks & account enumeration",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23566",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-17T14:17:16.760000",
-      "created_at": "2026-07-18T04:37:03.560544+00:00"
-    },
-    {
-      "id": "836b7654e2006127",
-      "content_hash": "836b7654e2006127001721fc5df6dbf46dfb20b8e548cc432f3bdf43d3bc9a3b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-23565",
-      "title": "CVE-2024-23565 - HCL Aftermarket EPC is vulnerable to email flooding as the application does not ...",
-      "body": "HCL Aftermarket EPC is vulnerable to email flooding as the application does not have a proper mail limitation mechanism at Forget Password functionality. The actor could b e a human or an automated process such as a virus or bot. This could be used to cause a denial of service, compromise program logic or other consequences.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23565",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-17T14:17:16.647000",
-      "created_at": "2026-07-18T04:37:03.560536+00:00"
-    },
-    {
-      "id": "bb6210e28750d9cf",
-      "content_hash": "bb6210e28750d9cf28fe4018c7aeeb41dc01e2d5774fe5013a1b391d953209d7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-23564",
-      "title": "CVE-2024-23564 - HCL Aftermarket EPC is affected by Business Logic Vulnerability using which a no...",
-      "body": "HCL Aftermarket EPC is affected by Business Logic Vulnerability using which a non valid user of the application can obtain passwords from the server and redirect them to their own email address by manipulating the server's response. The application includes checks in the initial requests to verify the validity of the provided UserId, but similar validation is not applied to Email requests when sending passwords to user emails.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23564",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-07-17T14:17:16.513000",
-      "created_at": "2026-07-18T04:37:03.560529+00:00"
-    },
-    {
-      "id": "703ffdd87b813d95",
-      "content_hash": "703ffdd87b813d95f9ca5cef7e7e493ef0816deafd5aac40d5a4a2d1e4fe0e92",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3143652",
-      "title": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
-      "body": "The recall comes as the top automotive safety regulator in the U.S. has warned AV companies about their vehicles interfering with first responders.",
-      "url": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-17T14:12:02+00:00",
-      "created_at": "2026-07-17T14:44:21.571237+00:00"
     }
   ]
 }
