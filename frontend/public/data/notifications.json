@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-20T22:58:00.817764+00:00",
+  "generated_at": "2026-07-20T23:54:34.857934+00:00",
   "items": [
+    {
+      "id": "da7123b9350f6157",
+      "content_hash": "da7123b9350f61572a70caf01caf0e1583957ff2b094cc427b22c64580117dac",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3144524",
+      "title": "Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation",
+      "body": "The de-extinction startup is looking to double or triple its previous valuation, according to the report.",
+      "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-20T23:39:35+00:00",
+      "created_at": "2026-07-20T23:54:34.622586+00:00"
+    },
     {
       "id": "4d589a575be04577",
       "content_hash": "4d589a575be045772fbd18913879a185935b82705d7285d1a059bdbad59cc291",
@@ -966,6 +980,20 @@
       "cvss_score": null,
       "published_at": "2026-07-20T14:01:11+00:00",
       "created_at": "2026-07-20T15:43:18.740800+00:00"
+    },
+    {
+      "id": "72b469aebfe98b62",
+      "content_hash": "72b469aebfe98b62bc0cfc3e3d243f87c1491d4d99cc3dc4c97826262554c8a3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shipstacks.tech",
+      "title": "Show HN: OTP Inspired actor supervisor based full stack templates",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48978841\">Comments</a>",
+      "url": "https://shipstacks.tech",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-20T13:47:29+00:00",
+      "created_at": "2026-07-20T23:54:34.857593+00:00"
     },
     {
       "id": "3ed593993175fa7b",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-18T04:13:00+00:00",
       "created_at": "2026-07-18T04:37:08.068591+00:00"
-    },
-    {
-      "id": "bb555db2904c1a8e",
-      "content_hash": "bb555db2904c1a8eec30a559d70abdf6a635d57a08fede18158161aba8512d3b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://ikea.greg.technology/",
-      "title": "Show HN: IKEA Complexity Index",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48955042\">Comments</a>",
-      "url": "https://ikea.greg.technology/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T03:51:42+00:00",
-      "created_at": "2026-07-18T08:40:53.252095+00:00"
-    },
-    {
-      "id": "ef476cc8ceb0b84c",
-      "content_hash": "ef476cc8ceb0b84c88fc737ae0bc0a8585c377fcc58c2ed6f148a16a13913b58",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://maurycyz.com/projects/bad_jpeg/",
-      "title": "Regressive JPEGs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48954851\">Comments</a>",
-      "url": "https://maurycyz.com/projects/bad_jpeg/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T03:14:20+00:00",
-      "created_at": "2026-07-18T06:52:00.711758+00:00"
     }
   ]
 }
