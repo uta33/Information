@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-20T23:54:34.857934+00:00",
+  "generated_at": "2026-07-21T01:26:15.820807+00:00",
   "items": [
+    {
+      "id": "65ef24e7e21ac061",
+      "content_hash": "65ef24e7e21ac061265b6703929e9cb88388c1c88d4d5d0a3651e604e625c446",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://esigna.app",
+      "title": "Show HN: I made email signatures less boring",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48986912\">Comments</a>",
+      "url": "https://esigna.app",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-21T01:06:20+00:00",
+      "created_at": "2026-07-21T01:26:15.820140+00:00"
+    },
+    {
+      "id": "e7c26b0736823410",
+      "content_hash": "e7c26b0736823410987abbc510f19bad24c2d830ce7672de47a14ab3d9592de0",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3144516",
+      "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+      "body": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-21T00:12:24+00:00",
+      "created_at": "2026-07-21T01:26:15.735765+00:00"
+    },
     {
       "id": "da7123b9350f6157",
       "content_hash": "da7123b9350f61572a70caf01caf0e1583957ff2b094cc427b22c64580117dac",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-07-20T23:39:35+00:00",
       "created_at": "2026-07-20T23:54:34.622586+00:00"
+    },
+    {
+      "id": "14fc035884845c20",
+      "content_hash": "14fc035884845c2004f4832d65ae32c4bc61bf4e74f86d3201c40afe219a9ce9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://forum.jellyfin.org/t-project-leadership-changes",
+      "title": "Jellyfin founder Andrew leaves team",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48986091\">Comments</a>",
+      "url": "https://forum.jellyfin.org/t-project-leadership-changes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-20T23:15:41+00:00",
+      "created_at": "2026-07-21T01:26:15.820180+00:00"
     },
     {
       "id": "4d589a575be04577",
@@ -1192,6 +1234,48 @@
       "created_at": "2026-07-20T13:44:54.567192+00:00"
     },
     {
+      "id": "6be5c60540c6c121",
+      "content_hash": "6be5c60540c6c121838ae092d65fb80334ea7ab873566d9c1a260a62838a1cf3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63753",
+      "title": "CVE-2026-63753 - SurrealDB before 3.1.0 fails to refresh authentication state in LIVE SELECT subs...",
+      "body": "SurrealDB before 3.1.0 fails to refresh authentication state in LIVE SELECT subscriptions when session state changes. Attackers can continue receiving real-time notifications under revoked or expired session credentials until the connection closes.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63753",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-20T12:19:45.150000",
+      "created_at": "2026-07-21T01:26:12.202843+00:00"
+    },
+    {
+      "id": "7b4b2ee3e97b6e06",
+      "content_hash": "7b4b2ee3e97b6e061422a9a3bdfd6f0d8d24296e06a67f46f02505d0ac973e9f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63752",
+      "title": "CVE-2026-63752 - SurrealDB before 3.1.0 contains an authorization bypass vulnerability in the REL...",
+      "body": "SurrealDB before 3.1.0 contains an authorization bypass vulnerability in the RELATE statement that allows authenticated users with CREATE permission to overwrite existing edge records without UPDATE permission. Attackers can issue a RELATE statement with a SET id clause pointing to an existing edge id, causing the storage layer to silently overwrite the target record instead of rejecting the operation.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63752",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-20T12:19:45.007000",
+      "created_at": "2026-07-21T01:26:12.202837+00:00"
+    },
+    {
+      "id": "1ca1324b111d584f",
+      "content_hash": "1ca1324b111d584f7c4e5ce96982362a8b8eb32a79b938738a5f9dd432777742",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-63751",
+      "title": "CVE-2026-63751 - SurrealDB versions before 3.1.0 contain a field-level permission bypass vulnerab...",
+      "body": "SurrealDB versions before 3.1.0 contain a field-level permission bypass vulnerability in JSON Patch operations that allows authenticated users to read protected fields. Attackers can use UPDATE PATCH with an empty from pointer in copy or move operations to duplicate all record fields, including those restricted by field-level SELECT permissions, into attacker-chosen destination fields.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63751",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-07-20T12:19:44.873000",
+      "created_at": "2026-07-21T01:26:12.202830+00:00"
+    },
+    {
       "id": "d181ad95a908350e",
       "content_hash": "d181ad95a908350e3aaaca34b693a8bd2f0dc47b5e943a6dbd00124d10b8ab01",
       "source_name": "CVE (NVD)",
@@ -1596,6 +1680,20 @@
       "cvss_score": null,
       "published_at": "2026-07-20T11:05:58+00:00",
       "created_at": "2026-07-20T21:58:33.468225+00:00"
+    },
+    {
+      "id": "f7635bc68bc5c261",
+      "content_hash": "f7635bc68bc5c26145d578a43aa3b559d257793677612dab60745a2547e38864",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "title": "Who's afraid of Chinese models?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48977128\">Comments</a>",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-20T11:05:58+00:00",
+      "created_at": "2026-07-21T01:26:15.819937+00:00"
     },
     {
       "id": "85eb8428bf8dfaca",
@@ -6902,104 +7000,6 @@
       "cvss_score": 4.3,
       "published_at": "2026-07-18T08:16:35.130000",
       "created_at": "2026-07-18T21:38:57.977529+00:00"
-    },
-    {
-      "id": "7820c45bd1fb768d",
-      "content_hash": "7820c45bd1fb768dcd095296b471a0b0f55abd9e36f1b786e7d78c35e487a588",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16077",
-      "title": "CVE-2026-16077 - A vulnerability was found in AstrBotDevs AstrBot up to 4.25.5. Impacted is the f...",
-      "body": "A vulnerability was found in AstrBotDevs AstrBot up to 4.25.5. Impacted is the function _normalize_rw_path of the file astrbot/core/tools/computer_tools/fs.py of the component Filesystem Computer-Use Tool. Performing a manipulation results in link following. The attack is only possible with local access. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16077",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-07-18T07:16:39.290000",
-      "created_at": "2026-07-18T21:38:57.977522+00:00"
-    },
-    {
-      "id": "e06a8b0d6c265d39",
-      "content_hash": "e06a8b0d6c265d3903d5887f6a5f432fd4964a24c42b5dfb02db5832c3530e31",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/skorotkiewicz/signal-in-the-dark",
-      "title": "Show HN: Find someone in the dark – light them or light yourself? (Three.js)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48955740\">Comments</a>",
-      "url": "https://github.com/skorotkiewicz/signal-in-the-dark",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T06:32:24+00:00",
-      "created_at": "2026-07-18T10:07:44.524231+00:00"
-    },
-    {
-      "id": "ede92a37121f89cf",
-      "content_hash": "ede92a37121f89cffc95a3bfa2b6a581b7844ba49ca36343cb37f0955a4772d9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16076",
-      "title": "CVE-2026-16076 - A vulnerability has been found in AstrBotDevs AstrBot up to 4.25.5. This issue a...",
-      "body": "A vulnerability has been found in AstrBotDevs AstrBot up to 4.25.5. This issue affects the function OpenApiRoute.chat_send of the file astrbot/dashboard/routes/open_api.py of the component API. Such manipulation of the argument Username leads to authentication bypass by spoofing. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16076",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-18T06:16:35.203000",
-      "created_at": "2026-07-18T21:38:57.977515+00:00"
-    },
-    {
-      "id": "8b903ac2e889e5b4",
-      "content_hash": "8b903ac2e889e5b4cf7a01810561e5dc8b41fcec876c8caf4330f706e3998820",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9734",
-      "title": "CVE-2026-9734 - The W3SC Elementor to Zoho CRM plugin for WordPress is vulnerable to Cross-Site ...",
-      "body": "The W3SC Elementor to Zoho CRM plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.2.0. This is due to missing or incorrect nonce validation on the storeInfo function. This makes it possible for unauthenticated attackers to modify the plugin's Zoho CRM integration settings, replacing the configured data center, client ID, client secret, and user email credentials with attacker-controlled values via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9734",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-18T05:16:56.570000",
-      "created_at": "2026-07-18T21:38:57.977509+00:00"
-    },
-    {
-      "id": "e3b415d438065321",
-      "content_hash": "e3b415d4380653210117d8e3d4cc95bc8fb49f7d7035767ff1030095bf43cccf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16075",
-      "title": "CVE-2026-16075 - A flaw has been found in AstrBotDevs AstrBot up to 4.25.5. This vulnerability af...",
-      "body": "A flaw has been found in AstrBotDevs AstrBot up to 4.25.5. This vulnerability affects the function OpenApiRoute.get_chat_sessions of the file astrbot/dashboard/routes/open_api.py of the component session-listing Endpoint. This manipulation of the argument Username causes authorization bypass. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16075",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-07-18T05:16:52.490000",
-      "created_at": "2026-07-18T21:38:57.977502+00:00"
-    },
-    {
-      "id": "08e8176b3172512a",
-      "content_hash": "08e8176b3172512a3f79df2b23e3c3d8e34a30f1681e1664433ff2287e4a9656",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3144034",
-      "title": "Neil Rimer thinks the AI money is coming back out",
-      "body": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
-      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T04:47:25+00:00",
-      "created_at": "2026-07-18T06:52:00.426028+00:00"
-    },
-    {
-      "id": "dbc634de11a3f082",
-      "content_hash": "dbc634de11a3f08291368a84498f3fd9cd315c26e73c18748ac05e06743346b6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.macworld.com/article/3189951/apples-latest-game-porting-toolkit-beta-changed-how-i-think-about-mac-gaming.html",
-      "title": "Mac gaming is finally getting the overpowered upgrade it deserves",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48955159\">Comments</a>",
-      "url": "https://www.macworld.com/article/3189951/apples-latest-game-porting-toolkit-beta-changed-how-i-think-about-mac-gaming.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T04:13:00+00:00",
-      "created_at": "2026-07-18T04:37:08.068591+00:00"
     }
   ]
 }
