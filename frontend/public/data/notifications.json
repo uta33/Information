@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-21T04:57:06.209500+00:00",
+  "generated_at": "2026-07-21T07:28:47.764617+00:00",
   "items": [
+    {
+      "id": "d646f34f6b286517",
+      "content_hash": "d646f34f6b286517e7cfb34b4b163dd2d6ee19f0cdda749df1f517c69ecbeab8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48988793\">Comments</a>",
+      "url": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-21T06:29:22+00:00",
+      "created_at": "2026-07-21T07:28:47.764123+00:00"
+    },
     {
       "id": "db0d649981e01152",
       "content_hash": "db0d649981e01152e3136acbe4e126e711a07a744aad0e7741fa41b0fd694641",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-21T04:48:32+00:00",
       "created_at": "2026-07-21T04:57:06.208823+00:00"
+    },
+    {
+      "id": "8828669607388e20",
+      "content_hash": "8828669607388e20a8892b54e6960a8fff6bceb203b85b4d2db855ad48889d48",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://exsitu.app/map",
+      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48988158\">Comments</a>",
+      "url": "https://exsitu.app/map",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-21T04:48:32+00:00",
+      "created_at": "2026-07-21T07:28:47.764023+00:00"
     },
     {
       "id": "c904194b19065dc8",
@@ -70,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-07-21T03:50:53+00:00",
       "created_at": "2026-07-21T04:57:06.208676+00:00"
+    },
+    {
+      "id": "9d26b4334b91d333",
+      "content_hash": "9d26b4334b91d3335e81fa4f663fded91d868f8453f6e71eb7dfff611d90b218",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/janestreet/incremental",
+      "title": "Incremental – A library for incremental computations",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=48987822\">Comments</a>",
+      "url": "https://github.com/janestreet/incremental",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-21T03:50:53+00:00",
+      "created_at": "2026-07-21T07:28:47.763804+00:00"
     },
     {
       "id": "8f4f8f0749b5d626",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-07-18T14:17:12.170000",
       "created_at": "2026-07-19T07:25:59.995411+00:00"
-    },
-    {
-      "id": "ffd60559b0b5d567",
-      "content_hash": "ffd60559b0b5d56786fe8b4ae8e7fae4e904309861ecf2c1cf9405a064f09769",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16120",
-      "title": "CVE-2026-16120 - A vulnerability was determined in nextlevelbuilder GoClaw up to 3.13.3-beta.3. T...",
-      "body": "A vulnerability was determined in nextlevelbuilder GoClaw up to 3.13.3-beta.3. This impacts the function matchesAllowlist/extractBin of the file internal/tools/exec_approval.go. Executing a manipulation can lead to incorrectly-resolved name. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16120",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-18T14:17:11.907000",
-      "created_at": "2026-07-19T07:25:59.995405+00:00"
-    },
-    {
-      "id": "603f72b887d18fa9",
-      "content_hash": "603f72b887d18fa987c0a232286344ea8d87f07e362e981f89d4f43b70aa8424",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16119",
-      "title": "CVE-2026-16119 - A vulnerability was found in nextlevelbuilder GoClaw up to 3.13.2. This affects ...",
-      "body": "A vulnerability was found in nextlevelbuilder GoClaw up to 3.13.2. This affects the function RequestApproval of the file internal/tools/exec_approval.go of the component WebSocket Approval Endpoint. Performing a manipulation results in incorrect authorization. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16119",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-07-18T14:17:11.740000",
-      "created_at": "2026-07-19T07:25:59.995398+00:00"
-    },
-    {
-      "id": "63e3e1bc2fbd1e51",
-      "content_hash": "63e3e1bc2fbd1e51db046f2fe48f9ff856759d4de77cc51a2942fda5713117f1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16117",
-      "title": "CVE-2026-16117 - Impact: @fastify/http-proxy versions up to and including 11.5.0 fail to rewrite ...",
-      "body": "Impact: @fastify/http-proxy versions up to and including 11.5.0 fail to rewrite the request prefix when the prefix segment is URL-encoded. Fastify's router URL-decodes paths for route matching, but request.url retains the original encoded form, and the prefix-rewrite step uses a literal string replace against the decoded prefix. A request that encodes one or more characters of the configured prefix therefore matches the route but skips the rewrite, so the raw encoded path is forwarded to the upstream unchanged. The upstream then decodes the path and serves it, letting an attacker reach upstream paths that the proxy was configured to hide via rewritePrefix, including internal or administrative endpoints.\n\nPatches: upgrade to @fastify/http-proxy 11.6.0.\n\nWorkarounds: none.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16117",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-07-18T14:17:11.620000",
-      "created_at": "2026-07-18T23:40:58.222295+00:00"
     }
   ]
 }
