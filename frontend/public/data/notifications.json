@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-21T10:12:46.128477+00:00",
+  "generated_at": "2026-07-21T12:17:52.632742+00:00",
   "items": [
+    {
+      "id": "1ee915df6ec019be",
+      "content_hash": "1ee915df6ec019be5e3d57c6e41132d90e6f6b5f1661d25a94197f3a5f4062d2",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
+      "body": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-21T11:07:07+00:00",
+      "created_at": "2026-07-21T12:17:48.288580+00:00"
+    },
+    {
+      "id": "1b039d81b1ce15db",
+      "content_hash": "1b039d81b1ce15db44480995cd2842793b155ee9cc7bbfd4db3d42ce0c41c470",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "body": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-21T10:12:24+00:00",
+      "created_at": "2026-07-21T12:17:48.288613+00:00"
+    },
     {
       "id": "5bd3aedbdd1860c4",
       "content_hash": "5bd3aedbdd1860c45de2fb16def8935689a964b176cbe7fa1716f79b3237ca0a",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-18T20:13:56+00:00",
       "created_at": "2026-07-18T21:39:01.621198+00:00"
-    },
-    {
-      "id": "87f0a48bae5b9bd0",
-      "content_hash": "87f0a48bae5b9bd09a5f221e766752b56ffdf68d187479633ef409622f0eb26e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://haxxorwpm.0s.is/",
-      "title": "Typing Speed Test, but for Developers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=48961504\">Comments</a>",
-      "url": "https://haxxorwpm.0s.is/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-18T19:38:21+00:00",
-      "created_at": "2026-07-18T20:41:20.086997+00:00"
-    },
-    {
-      "id": "0bdb1435ef71dd6d",
-      "content_hash": "0bdb1435ef71dd6dd8ce6d1314bfb196888ec5829a6f7fcb73f956fe05bd3551",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-      "body": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-07-18T19:32:02+00:00",
-      "created_at": "2026-07-18T19:57:53.901492+00:00"
     }
   ]
 }
