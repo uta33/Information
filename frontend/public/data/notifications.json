@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-23T22:44:59.662885+00:00",
+  "generated_at": "2026-07-23T23:49:23.125093+00:00",
   "items": [
+    {
+      "id": "51dae0d6875bc8aa",
+      "content_hash": "51dae0d6875bc8aa2823a3f51726e1702da022a7a5194b2cba1b9000635af4dc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2507.09369",
+      "title": "A Taxonomy of Omnicidal Futures Involving Artificial Intelligence",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49029133\">Comments</a>",
+      "url": "https://arxiv.org/abs/2507.09369",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-23T22:51:13+00:00",
+      "created_at": "2026-07-23T23:49:23.124426+00:00"
+    },
     {
       "id": "b5b6377c9f30d5ed",
       "content_hash": "b5b6377c9f30d5edd8b28c4a374dd4b1a73a5ecbc70f9ba90723fca907e8f79f",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-23T22:40:08+00:00",
       "created_at": "2026-07-23T22:44:59.315815+00:00"
+    },
+    {
+      "id": "4e0483fce13435d8",
+      "content_hash": "4e0483fce13435d8ed5e2e12f5bfaa2ca71ae8c4e8fdaf93649742bfcc224d15",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jdan.github.io/98.css/#status-bar",
+      "title": "98.css",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49028927\">Comments</a>",
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-23T22:30:29+00:00",
+      "created_at": "2026-07-23T23:49:23.124284+00:00"
     },
     {
       "id": "765b83bf26ab71a8",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-07-23T21:05:29+00:00",
       "created_at": "2026-07-23T21:55:14.032948+00:00"
+    },
+    {
+      "id": "4b9d011e1ad335a0",
+      "content_hash": "4b9d011e1ad335a0eee584fe97ceb3aaec71d164f7a63c0fab23810c3cdb2716",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49028037",
+      "title": "Tell HN: Namecheap gave my account to an unverified third party",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49028037\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49028037",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-23T21:05:29+00:00",
+      "created_at": "2026-07-23T23:49:23.124760+00:00"
     },
     {
       "id": "991f24646a3eacd8",
@@ -336,6 +378,20 @@
       "cvss_score": null,
       "published_at": "2026-07-23T17:06:22+00:00",
       "created_at": "2026-07-23T18:06:07.406662+00:00"
+    },
+    {
+      "id": "8633a74a3bdbf03a",
+      "content_hash": "8633a74a3bdbf03ac5448e897d0a9f90c2244ffc7567bcedf9e95bfecd0af034",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/izeigerman/claude-thermos",
+      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49024882\">Comments</a>",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-23T17:06:22+00:00",
+      "created_at": "2026-07-23T23:49:23.124839+00:00"
     },
     {
       "id": "b91ce146adbc633c",
@@ -1274,6 +1330,34 @@
       "cvss_score": null,
       "published_at": "2026-07-23T11:00:00+00:00",
       "created_at": "2026-07-23T12:21:32.125531+00:00"
+    },
+    {
+      "id": "d250f3245679cda2",
+      "content_hash": "d250f3245679cda2f2378a4b97ff10de8eca5d34d608eebb772d73c4b02a1162",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15015",
+      "title": "CVE-2026-15015 - The MountDev AI MCP Connector for WordPress plugin for WordPress is vulnerable t...",
+      "body": "The MountDev AI MCP Connector for WordPress plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.6.1. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to obtain an administrator-bound OAuth Bearer token via a self-registered client, granting full administrator-equivalent access to the plugin's MCP tool surface and all exposed WordPress content, users, and options. This is exploitable by combining the publicly accessible Dynamic Client Registration endpoint, which allows unauthenticated callers to register arbitrary OAuth clients with an attacker-controlled redirect_uri, with the unprotected authorization endpoint to complete the full OAuth flow without any administrator interaction.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15015",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-07-23T10:16:50.047000",
+      "created_at": "2026-07-23T23:49:19.488775+00:00"
+    },
+    {
+      "id": "ec1a1ea4352278e1",
+      "content_hash": "ec1a1ea4352278e1229e61d08b9ed5cc6e4f29cb906b5ee119ac306093382c03",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15011",
+      "title": "CVE-2026-15011 - The Customer Support Ticket System & Helpdesk plugin for WordPress is vulnerable...",
+      "body": "The Customer Support Ticket System & Helpdesk plugin for WordPress is vulnerable to Code Injection via the 'path' parameter in all versions up to, and including, 6.0.5 due to the use of dynamic function invocation on an attacker-controlled value with insufficient validation. This makes it possible for unauthenticated attackers to invoke arbitrary parameterless PHP functions, which can be used to disrupt site functionality or expose sensitive information. The required nonce is publicly emitted via wp_localize_script whenever the plugin's [emd_form] shortcode is rendered on any public-facing page, making the endpoint reachable by unauthenticated visitors without any prior authentication or privilege.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15011",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-07-23T10:16:49.917000",
+      "created_at": "2026-07-23T23:49:19.488768+00:00"
     },
     {
       "id": "4bcfc3a3f9ed2261",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-22T05:18:08+00:00",
       "created_at": "2026-07-22T07:30:20.053219+00:00"
-    },
-    {
-      "id": "8aa7f8c6885f3f2f",
-      "content_hash": "8aa7f8c6885f3f2f267820948caa0529cbb01909d23e5c43d026297347fc9174",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15802",
-      "title": "CVE-2026-15802 - The WP Foodbakery plugin for WordPress is vulnerable to arbitrary file deletion ...",
-      "body": "The WP Foodbakery plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'delete_locations_backup_file_callback' function in all versions up to, and including, 4.9. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15802",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-07-22T05:17:08.820000",
-      "created_at": "2026-07-22T23:53:12.469442+00:00"
-    },
-    {
-      "id": "f0b29ba72a54917b",
-      "content_hash": "f0b29ba72a54917ba02403bdd493e7274810e1734eb11e0d8554886752ca6066",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-      "body": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had",
-      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-22T04:57:52+00:00",
-      "created_at": "2026-07-22T07:30:09.999675+00:00"
-    },
-    {
-      "id": "fe70fc0ad8f4fa6c",
-      "content_hash": "fe70fc0ad8f4fa6cf56380bfa8bbb5b2f282b140e8149b5d9ef2e50e347a8d52",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-      "body": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week.\n\nThe AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
-      "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-22T04:18:33+00:00",
-      "created_at": "2026-07-22T07:30:09.999698+00:00"
-    },
-    {
-      "id": "229341647bd8311b",
-      "content_hash": "229341647bd8311b0e89ad36af0c744951e9624cbb293291522db50dbcf9f528",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://dark.ronacher.eu/2026/7/21/never-enough/",
-      "title": "Never Enough",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49001472\">Comments</a>",
-      "url": "https://dark.ronacher.eu/2026/7/21/never-enough/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-22T03:24:36+00:00",
-      "created_at": "2026-07-22T12:20:16.527639+00:00"
-    },
-    {
-      "id": "df03269ad060a318",
-      "content_hash": "df03269ad060a31833e63dc07eb866589b8bb4ebc2e1cc3f1885850c12d2f3bb",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3145006",
-      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-      "body": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
-      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-22T03:20:57+00:00",
-      "created_at": "2026-07-22T04:56:28.932727+00:00"
-    },
-    {
-      "id": "1237b528a2a11352",
-      "content_hash": "1237b528a2a11352f6d667d925e07264dc4c90feae262c05050cb11c9ed441f0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://late.sh/",
-      "title": "Late.sh – a command-line Clubhouse for computer people",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49001127\">Comments</a>",
-      "url": "https://late.sh/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-22T02:32:30+00:00",
-      "created_at": "2026-07-22T04:56:29.247757+00:00"
     }
   ]
 }
