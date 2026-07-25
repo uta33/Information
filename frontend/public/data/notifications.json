@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-25T14:25:57.404937+00:00",
+  "generated_at": "2026-07-25T15:56:10.823736+00:00",
   "items": [
+    {
+      "id": "4e1a3e89f419686e",
+      "content_hash": "4e1a3e89f419686eb2bf89eafb496a25ca54a7da1b357e9dc082184949d7d232",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "title": "Malicious sites use JavaScript to build malware in browser memory",
+      "body": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T15:21:09+00:00",
+      "created_at": "2026-07-25T15:56:05.408495+00:00"
+    },
     {
       "id": "8c26e4a742c15210",
       "content_hash": "8c26e4a742c152109e01f058051000b5edc9ff9d94acf1644b6d1d6d49e43de3",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-07-25T13:33:03+00:00",
       "created_at": "2026-07-25T14:25:57.404503+00:00"
+    },
+    {
+      "id": "3f5ccbe5672c900c",
+      "content_hash": "3f5ccbe5672c900c85bdc43e608b52679979efef63b5e0e3aaae9a19492cb093",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+      "title": "Bitchat Is Now on Radicle",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49047365\">Comments</a>",
+      "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T13:18:49+00:00",
+      "created_at": "2026-07-25T15:56:10.822967+00:00"
     },
     {
       "id": "1ce2a1d5d484d82d",
@@ -938,6 +966,20 @@
       "cvss_score": null,
       "published_at": "2026-07-24T16:27:58+00:00",
       "created_at": "2026-07-24T18:09:30.207808+00:00"
+    },
+    {
+      "id": "1e57b921dc2838c4",
+      "content_hash": "1e57b921dc2838c47a2616e059d812fabee171d6e6f9972dab4f26922d4d7d4b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-64229",
+      "title": "CVE-2026-64229 - In the Linux kernel, the following vulnerability has been resolved:\n\nx86/mm: Dis...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/mm: Disable broadcast TLB flush when PCID is disabled\n\nBooting with \"nopcid\" clears X86_FEATURE_PCID and keeps CR4.PCIDE from being\nset to one. On AMD CPUs that support INVLPGB, broadcast TLB flushing remains\nenabled.\n\nThere are two checks that decide whether the global ASID code runs,\nmm_global_asid() and consider_global_asid(), that key off of the\nX86_FEATURE_INVLPGB feature. Once an mm becomes active on more than three\nCPUs, consider_global_asid() assigns it a global ASID, after which\nflush_tlb_mm_range() takes the broadcast_tlb_flush() path using a non-zero\nPCID. Issuing an INVLPGB with a non-zero PCID while CR4.PCIDE is not set\nresults in a #GP:\n\n  Oops: general protection fault, kernel NULL pointer dereference 0x1: 0000 [#1] SMP NOPTI\n  CPU: 158 UID: 0 PID: 3119 Comm: snap Not tainted 7.1.0-rc3 #1 PREEMPT(full)\n  Hardware name: ...\n  RIP: 0010:broadcast_tlb_flush\n  Code: ... 89 da 48 83 c8 07 <0f> 01 fe eb 08 cc cc cc ...\n  Call Trace:\n   <TASK>\n   flush_tlb_mm_range\n   ptep_clear_flush\n   wp_page_copy\n   ? _raw_spin_unlock\n   __handle_mm_fault\n   handle_mm_fault\n   do_user_addr_fault\n   exc_page_fault\n   asm_exc_page_fault\n\nAll processors that support broadcast TLB invalidation also have PCID support,\nso it is only the \"nopcid\" scenario that is of concern. In this situation just\ndisable the broadcast TLB support using the CPUID dependency support by making\nX86_FEATURE_INVLPGB dependent on X86_FEATURE_PCID.\n\n  [ bp: Massage commit message. ]",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64229",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-24T16:16:52.023000",
+      "created_at": "2026-07-25T15:56:05.652862+00:00"
     },
     {
       "id": "9a024685fa983247",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-23T16:32:35+00:00",
       "created_at": "2026-07-23T18:06:01.811171+00:00"
-    },
-    {
-      "id": "2b661840d525c0f6",
-      "content_hash": "2b661840d525c0f65785a59db0f5b5b3bb20ab53603afef14137f86ef40fc9c1",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3145732",
-      "title": "Tesla’s robotaxis are moving in reverse",
-      "body": "The number of paid robotaxi miles traveled fell 36% in the second quarter, despite expanding to new cities, according to Tesla's own figures.",
-      "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-23T16:29:59+00:00",
-      "created_at": "2026-07-23T18:06:07.104270+00:00"
-    },
-    {
-      "id": "fd9a14a38165b37e",
-      "content_hash": "fd9a14a38165b37ecf0b89f62e95050ad596db483753c413465c852d577c50c2",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3145730",
-      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
-      "body": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
-      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-23T16:28:50+00:00",
-      "created_at": "2026-07-23T18:06:07.104293+00:00"
-    },
-    {
-      "id": "222b52656c5ee14e",
-      "content_hash": "222b52656c5ee14eadf0b2b7d14bd844083f544651b79a165ffb55c5043b7c1a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65917",
-      "title": "CVE-2026-65917 - CyberPanel through 1.9.1, fixed in commit b198460, contains an insecure direct o...",
-      "body": "CyberPanel through 1.9.1, fixed in commit b198460, contains an insecure direct object reference (IDOR) vulnerability in the IncBackups application's incremental-backup handlers (deleteBackup, fetchRestorePoints, and restorePoint) that allows authenticated panel users to access or manipulate other tenants' backup resources by supplying an attacker-controlled globally sequential IncJob integer ID that is never re-scoped to the authorized domain. Attackers can enumerate sequential backup IDs to read another tenant's backup metadata, irrecoverably delete another tenant's backup snapshots, or trigger unauthorized restoration of another tenant's backup job with root privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65917",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-23T16:17:55.020000",
-      "created_at": "2026-07-24T14:42:38.298163+00:00"
     }
   ]
 }
