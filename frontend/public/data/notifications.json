@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-25T21:42:36.861514+00:00",
+  "generated_at": "2026-07-25T22:41:50.406881+00:00",
   "items": [
+    {
+      "id": "04c5f08ed756c4e8",
+      "content_hash": "04c5f08ed756c4e84aaee916471280d4c31512437f72f7f2b66eac07c922ccc0",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+      "body": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T22:37:47+00:00",
+      "created_at": "2026-07-25T22:41:45.698548+00:00"
+    },
+    {
+      "id": "9f057c8ad287f49c",
+      "content_hash": "9f057c8ad287f49c16152ea46b82741e90b51851781b60bbcc264b1a3e97f6db",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://windows-xp.kimi.site/",
+      "title": "Kimi K3 built a Windows XP in browser",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49052074\">Comments</a>",
+      "url": "https://windows-xp.kimi.site/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T22:03:22+00:00",
+      "created_at": "2026-07-25T22:41:50.406203+00:00"
+    },
+    {
+      "id": "acc3c8e962910173",
+      "content_hash": "acc3c8e9629101730321a339de54bb99396038e69462704f4037e1fe66935a2c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://singularityforge.space/2026/07/26/illusion-of-control/",
+      "title": "Digital Intelligence: Why Humanity Created What It Does Not Understand",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49052025\">Comments</a>",
+      "url": "https://singularityforge.space/2026/07/26/illusion-of-control/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T21:58:14+00:00",
+      "created_at": "2026-07-25T22:41:50.406386+00:00"
+    },
+    {
+      "id": "db484bca192dbdff",
+      "content_hash": "db484bca192dbdff1895e2d309bc6dcac757154bed1326a3450f4168f925cea7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49051947\">Comments</a>",
+      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T21:48:22+00:00",
+      "created_at": "2026-07-25T22:41:50.406015+00:00"
+    },
     {
       "id": "145df7878a4f7a8d",
       "content_hash": "145df7878a4f7a8d4a67680558bd74aca79eb4e8a8b6d8374b01fc33f5845bca",
@@ -14,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-07-25T21:18:06+00:00",
       "created_at": "2026-07-25T21:42:36.861091+00:00"
+    },
+    {
+      "id": "58c82b08632079e3",
+      "content_hash": "58c82b08632079e3e31dea86d2148e11ceba19e648b9b3ba743a2bda83bf8b2c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://fzakaria.com/2026/07/09/who-does-anubis-actually-stop",
+      "title": "Who does Anubis actually stop?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49051505\">Comments</a>",
+      "url": "https://fzakaria.com/2026/07/09/who-does-anubis-actually-stop",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T20:59:24+00:00",
+      "created_at": "2026-07-25T22:41:50.406280+00:00"
     },
     {
       "id": "3fa5a31ee6d62069",
@@ -114,6 +184,20 @@
       "created_at": "2026-07-25T21:42:36.860893+00:00"
     },
     {
+      "id": "97513b4c6634107a",
+      "content_hash": "97513b4c6634107a38bb96291cae25f4fddb8d2dea3064ea869c9e985a63fe5e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.debian.org/vote/2026/vote_002",
+      "title": "General Resolution: LLM Usage in Debian",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49050859\">Comments</a>",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T19:44:39+00:00",
+      "created_at": "2026-07-25T22:41:50.406545+00:00"
+    },
+    {
       "id": "e3cd531a93a258d3",
       "content_hash": "e3cd531a93a258d3c96a394a87bfedf1dda28ee881bf780d3b35fbe739285d9b",
       "source_name": "Hacker News (Best)",
@@ -126,6 +210,20 @@
       "cvss_score": null,
       "published_at": "2026-07-25T19:41:07+00:00",
       "created_at": "2026-07-25T20:04:07.526652+00:00"
+    },
+    {
+      "id": "229676b59a93b623",
+      "content_hash": "229676b59a93b623c285da5285289be71586bef38bdb23a1663b81cabdae98e2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
+      "title": "Show HN: Minesweeper Raycasted",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49050803\">Comments</a>",
+      "url": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T19:39:12+00:00",
+      "created_at": "2026-07-25T22:41:50.406452+00:00"
     },
     {
       "id": "b87ded5400e782cb",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T01:07:00+00:00",
       "created_at": "2026-07-24T04:58:42.024090+00:00"
-    },
-    {
-      "id": "4f11c43a7f12e78b",
-      "content_hash": "4f11c43a7f12e78bde5adbed2f1d58d60d3afe3691d43b3317770fd9e2b20f46",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024944.html",
-      "title": "SurrealDBにおける重要な機能に対する認証の欠如に関する脆弱性",
-      "body": "SurrealDBのバージョン3.1.0未満にはセッションハイジャックの脆弱性が存在します。この脆弱性は、HTTPの/rpc sessionsメソッドが認証なしに関連付けられたセッションUUIDを返し、所有権の確認なしに任意のセッションフィールドを受け入れてしまうことにあります。認証されていない攻撃者はセッションUUIDを列挙して認証済みセッションになりすまし、データの読み取り、書き込み、削除や権限昇格を行うことが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024944.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024105+00:00"
-    },
-    {
-      "id": "12078c0bc605caec",
-      "content_hash": "12078c0bc605caec3994ffc922d8b218e18e4fb6dcda72f900919413ea91aa37",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024943.html",
-      "title": "SurrealDBにおける認証の欠如に関する脆弱性",
-      "body": "SurrealDBのバージョン3.1.0以前には、KILLステートメントに認可回避の脆弱性が存在し、認証済みのデータベースユーザーが他のユーザーのLIVE SELECT購読を終了させることができました。攻撃者はターゲットとなるライブクエリのUUIDを指定したKILLステートメントを発行することで、所有権の検証を行わずに他のユーザーのリアルタイムデータ購読を妨害することが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024943.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024138+00:00"
-    },
-    {
-      "id": "6d48c7b1d33b07aa",
-      "content_hash": "6d48c7b1d33b07aad85fc02c6129e15b3257e95d67969bdb46f0bfa1f173ced8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024942.html",
-      "title": "SurrealDBにおける再帰制御に関する脆弱性",
-      "body": "SurrealDB 3.1.0以前のバージョンでは、ネストされた型注釈を処理する際に、タイプ／種類パーサーでの再帰深度制限が適切に強制されていません。認証された攻撃者は、深くネストされた型注釈を含むクエリを送信することで、サーバーのメモリを枯渇させてプロセスをクラッシュさせることが可能です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024942.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024155+00:00"
-    },
-    {
-      "id": "eb9ce27fb2edf6dc",
-      "content_hash": "eb9ce27fb2edf6dc7a05bd340f99197c1e7df948bc206dfbc3687a894c53545b",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024941.html",
-      "title": "SurrealDBにおける再帰制御に関する脆弱性",
-      "body": "SurrealDB 3.1.0より前のバージョンでは、ネストされた中括弧、角括弧、または丸括弧を処理する際に、値およびJSONパーサーで設定された再帰深度制限が適切に適用されません。認証されていない攻撃者は、WebSocketの/rpcエンドポイントに非常に深くネストされたJSONペイロードを送信することで、サーバーのメモリを枯渇させ、プロセスをクラッシュさせる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024941.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024175+00:00"
-    },
-    {
-      "id": "f1c6088f11e5aaad",
-      "content_hash": "f1c6088f11e5aaad07a82000bba5ff0a09b0747d29da5adcb58332daccbab36c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024940.html",
-      "title": "SurrealDBにおける暗号アルゴリズムの使用に関する脆弱性",
-      "body": "SurrealDB 3.1.0 未満のバージョンでは、JWT アクセスメソッドが ALGORITHM ES512（DEFINE ACCESS ... TYPE JWT ALGORITHM ES512）で設定されている場合に、ES384 アルゴリズムに静かに置き換わります。これは、基盤となる jsonwebtoken クレート（v10.x）に ES512 バリアントが存在せず、マッピングがエラー、警告、ログメッセージなしにデフォルトで ES384 に設定されるためです。ES512 用の正しい P-521 キーを提供したユーザーは、ES384（P-384 を期待）との曲線不一致により認証ハンドシェイクに失敗し、また外部システムも本物の ES512 署名を期待しているため、トークンは拒否されます。この脆弱性を悪用してトークンを偽造したり、データの機密性や完全性を侵害したりすることはできません。なぜなら、ES384 は依然として暗号学的に強力であるためです。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024940.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024193+00:00"
-    },
-    {
-      "id": "faa77a9df294344b",
-      "content_hash": "faa77a9df294344bde7db7d0d463fa5b47eb223da388c60d6a7623cc60f842c5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024939.html",
-      "title": "SurrealDBにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "SurrealDBのv2.6.1以前（およびv3.0.0-beta.3以前）には、組み込みのJavaScriptスクリプトエンジンにサービス拒否の脆弱性が存在します。このエンジンは、デフォルトで無効化されている--allow-scripting機能によって有効化されます。任意のクエリを実行できるユーザーは、--allow-guestsが有効な場合には認証されていないゲストも含めて、組み込みの文字列関数を使用して大きな文字列を作成し、それをJavaScript実行環境に渡してコンパイルさせることで、基盤となるQuickJS-NGエンジンのヌルポインタ参照を引き起こすことができます。これにより、サーバープロセスはグレースフルシャットダウンなしに即座に終了し、手動で再起動しなければなりません。この問題は、rquickjsの依存関係をv0.9.0からv0.11.0に更新することで修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024939.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024210+00:00"
-    },
-    {
-      "id": "35fab25b0f3cad41",
-      "content_hash": "35fab25b0f3cad41f70fc80d5f7d02bec6587ced72e634b03b6ed4a821a1f63e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024938.html",
-      "title": "SurrealDBにおけるユーザ制御の鍵による認証回避に関する脆弱性",
-      "body": "SurrealDBのバージョン2.5.0より前および3.0.0-beta.3より前には、混乱した代理権限昇格の脆弱性が存在しています。権限のないユーザー（たとえば、データベース編集者ロールを持つユーザー）は、futures、関数、またはクロージャを含むフィールドを作成または変更することが可能です。これらは作成者ではなく、呼び出し/クエリを行うユーザーのコンテキストで実行されるため、攻撃者は影響を受けるレコードを読み書きする際に、より高い権限を持つユーザーの権限で実行される悪意のあるロジックを仕込むことができます。これにより、root所有者が作成される、またはサーバーが乗っ取られるなど、完全な権限昇格につながる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024938.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T01:07:00+00:00",
-      "created_at": "2026-07-24T04:58:42.024225+00:00"
     }
   ]
 }
