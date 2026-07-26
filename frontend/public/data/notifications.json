@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-26T21:47:14.083166+00:00",
+  "generated_at": "2026-07-26T22:48:08.502719+00:00",
   "items": [
+    {
+      "id": "e0dc52e9b522c317",
+      "content_hash": "e0dc52e9b522c317abba9c87c6b8eeb9c6dfe119fed1c571760e03416c91279b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gracefulliberty.com/articles/teaching-kids-forth/",
+      "title": "Teaching Kids Forth – Anna Liberty",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49062700\">Comments</a>",
+      "url": "https://gracefulliberty.com/articles/teaching-kids-forth/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T21:39:17+00:00",
+      "created_at": "2026-07-26T22:48:08.502038+00:00"
+    },
     {
       "id": "3d84f928fc382b18",
       "content_hash": "3d84f928fc382b186eac440b154e513527d037d44c8f6122daa554a796bc6732",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T08:24:00+00:00",
       "created_at": "2026-07-25T04:54:32.835139+00:00"
-    },
-    {
-      "id": "2552bc248e244e1a",
-      "content_hash": "2552bc248e244e1a282588a1f26b03e8ecb87c4967e290b32dead34281205111",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025019.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：wifi: mt76: mt7925: mt7925_mac_write_txwiにおけるNULL vifの参照を防止するため、`ieee80211_vif_is_mld(vif)`にアクセスする前に`vif`がNULLでないことを確認し、`vif`が初期化されていない可能性があるシナリオでカーネルパニックが発生するのを防止しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025019.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:24:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835153+00:00"
     }
   ]
 }
