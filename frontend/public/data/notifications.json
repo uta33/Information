@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-26T05:19:27.325378+00:00",
+  "generated_at": "2026-07-26T08:04:37.746590+00:00",
   "items": [
+    {
+      "id": "337101bbd5531454",
+      "content_hash": "337101bbd55314542b7a65c43bce5ffee1bae2f2af75cf498b5fc7ee9ad161f9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49055169\">Comments</a>",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T05:57:22+00:00",
+      "created_at": "2026-07-26T08:04:37.746167+00:00"
+    },
+    {
+      "id": "b8feb1f6fb330a4e",
+      "content_hash": "b8feb1f6fb330a4e30d158c41243f1a987c9113e92ef18381b8c6d66957cd3c0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/mulfyx/w4me-station",
+      "title": "W4ME Station – a WASM-4 runtime for Java ME phones",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49054697\">Comments</a>",
+      "url": "https://github.com/mulfyx/w4me-station",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T04:19:59+00:00",
+      "created_at": "2026-07-26T08:04:37.746128+00:00"
+    },
     {
       "id": "7dadcbe0d2d83e8b",
       "content_hash": "7dadcbe0d2d83e8bda117c2744fe360fc62be24107073b3c76d37cb9928d31e6",
@@ -112,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T01:13:19+00:00",
       "created_at": "2026-07-26T01:42:43.408195+00:00"
+    },
+    {
+      "id": "7611f297c7ddf79b",
+      "content_hash": "7611f297c7ddf79b332310b15af8a025a412b8b02e91d930208278217e07bbc7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cachebag.sh/journal/interactive-rebasing/",
+      "title": "Git rebase -I is not that scary",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49053385\">Comments</a>",
+      "url": "https://cachebag.sh/journal/interactive-rebasing/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T00:37:54+00:00",
+      "created_at": "2026-07-26T08:04:37.746106+00:00"
     },
     {
       "id": "8df7f9ea70056ae7",
@@ -616,6 +658,20 @@
       "cvss_score": null,
       "published_at": "2026-07-25T18:08:52+00:00",
       "created_at": "2026-07-25T21:42:36.860946+00:00"
+    },
+    {
+      "id": "46e64e20cbffb379",
+      "content_hash": "46e64e20cbffb379efc0338a08762495aca6935c4295e12cdee475de3eb40f7d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://itsallaboutthebit.com/memory-safety-absolutists/",
+      "title": "Memory safety absolutists",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49050058\">Comments</a>",
+      "url": "https://itsallaboutthebit.com/memory-safety-absolutists/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T18:08:52+00:00",
+      "created_at": "2026-07-26T08:04:37.746337+00:00"
     },
     {
       "id": "a2eb877ee840b6ae",
@@ -6944,62 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-07-24T04:16:51.030000",
       "created_at": "2026-07-24T22:51:17.814732+00:00"
-    },
-    {
-      "id": "36546bda5c4e771e",
-      "content_hash": "36546bda5c4e771ef0fb231b83bd74bb9990a74284fa46b15bcfbb032a45908b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-9205",
-      "title": "CVE-2025-9205 - The MapSVG plugin for WordPress is vulnerable to Stored Cross-Site Scripting in ...",
-      "body": "The MapSVG plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 8.14.0. This is due to insufficient input sanitization and output escaping on user supplied attributes within the map options. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9205",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-07-24T04:16:50.297000",
-      "created_at": "2026-07-24T22:51:17.814726+00:00"
-    },
-    {
-      "id": "01ef16bbde5818d8",
-      "content_hash": "01ef16bbde5818d82ab632ae946f854a42a29a5b4644eeb9ae353c07231f754d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607",
-      "title": "Police Removed Prominent Scientists from the ADA Meeting. Researchers Respond",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49030474\">Comments</a>",
-      "url": "https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T02:06:31+00:00",
-      "created_at": "2026-07-24T04:58:42.372331+00:00"
-    },
-    {
-      "id": "3f029c0318731f9c",
-      "content_hash": "3f029c0318731f9c7d8dbfaa9cecb069ec368f407a408bc1862efd687b77c2b7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62825",
-      "title": "CVE-2026-62825 - Improper authentication in Azure Key Vault allows an unauthorized attacker to el...",
-      "body": "Improper authentication in Azure Key Vault allows an unauthorized attacker to elevate privileges over a network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62825",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-07-24T01:17:47.030000",
-      "created_at": "2026-07-24T22:51:17.814719+00:00"
-    },
-    {
-      "id": "c20d094b602e1cf8",
-      "content_hash": "c20d094b602e1cf8198cb5bf09c4e571fcd61bfcdd40e2b99ea213ade0d872ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58275",
-      "title": "CVE-2026-58275 - Missing authorization in Azure DNS allows an unauthorized attacker to elevate pr...",
-      "body": "Missing authorization in Azure DNS allows an unauthorized attacker to elevate privileges over a network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58275",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-07-24T01:17:40.863000",
-      "created_at": "2026-07-24T22:51:17.814713+00:00"
     }
   ]
 }
