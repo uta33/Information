@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-26T16:44:33.517409+00:00",
+  "generated_at": "2026-07-26T17:53:56.867688+00:00",
   "items": [
+    {
+      "id": "92ba2be1b7b7de57",
+      "content_hash": "92ba2be1b7b7de577f5634c1e4d93104061b2fd9b2d7e79967033902f3117300",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+      "title": "How to Write English Prose",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49060295\">Comments</a>",
+      "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T17:29:35+00:00",
+      "created_at": "2026-07-26T17:53:56.867291+00:00"
+    },
+    {
+      "id": "26c7da518e4a6e41",
+      "content_hash": "26c7da518e4a6e414f1d8265b219545d3f260167f3efd6bddeb8d92cfce50e69",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3146052",
+      "title": "Inside one London founder house rewriting the founder-house rules",
+      "body": "How one founder house is betting work-life balance can beat burnout .",
+      "url": "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T17:03:19+00:00",
+      "created_at": "2026-07-26T17:53:56.615908+00:00"
+    },
     {
       "id": "10cae74b8a1bcc17",
       "content_hash": "10cae74b8a1bcc17347c1b3839aaaa608aa2d88cf441c99bcc6b54889941b212",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T16:33:13+00:00",
       "created_at": "2026-07-26T16:44:33.266477+00:00"
+    },
+    {
+      "id": "871605ed159a76f9",
+      "content_hash": "871605ed159a76f9db013877308cd92cf4322902dcfb211a8328b0782f9242b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.agrillo.it/EvasionEn.html",
+      "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49059660\">Comments</a>",
+      "url": "https://www.agrillo.it/EvasionEn.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T16:23:56+00:00",
+      "created_at": "2026-07-26T17:53:56.867258+00:00"
     },
     {
       "id": "5b0e234d8face29e",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T08:22:00+00:00",
       "created_at": "2026-07-25T04:54:32.835610+00:00"
-    },
-    {
-      "id": "5788251af00abd67",
-      "content_hash": "5788251af00abd67574ba1aad03375edef0fa2709e8046a9ef96eeabeebd8b19",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024989.html",
-      "title": "LinuxのLinux Kernelにおける不特定の脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。mm/mincore: !CONFIG_SWAP ガードの前に、スワップされていないエントリを処理する mincore_swap() は、マイグレーションおよびハードウェアポイズンエントリ（および shmem スワップインエラーエントリ）も処理します。これらは CONFIG_MIGRATION または CONFIG_MEMORY_FAILURE が有効で、なおかつ !CONFIG_SWAP ビルド時に存在する可能性があります。非スワップエントリの早期リターンの前に !IS_ENABLED(CONFIG_SWAP) ガードが実行されていたため、mincore_pte_range() は !CONFIG_SWAP カーネル上で誤って WARN を発し、これらのページを非在住であると報告してしまうことがありました。このガードを非スワップエントリのチェックの後ろに移動し、真のスワップエントリのみが WARN を引き起こすように変更しました。また、マイグレーションおよびハードウェアポイズンエントリは既存の「アップトゥデート / 非 shmem」パスを通るようにしています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024989.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:22:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835625+00:00"
-    },
-    {
-      "id": "edfab7ef91f0a47a",
-      "content_hash": "edfab7ef91f0a47a50affa6afc29a19845d0be0ec4dbff1cd199620fe23704bd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024988.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が解決されました。mm/damon/reclaim: ctx割り当て失敗の処理パッチシリーズ「mm/damon/{reclaim,lru_sort}: ctx割り当て失敗の処理」では、DAMON_RECLAIMおよびDAMON_LRU_SORTがdamon_ctxオブジェクトの割り当てに失敗した場合にNULLポインタを逆参照する可能性がありました。これらのバグは、割り当てサイズが一般的な環境では小さすぎて失敗しにくいため、発生頻度は低いと予想されます。しかし、理論的には発生しうる問題であり、その影響は重大です。これらの問題を修正しました。この問題はSashikoによって発見されました[1]。このパッチ（全2件のうちの1件）では、DAMON_RECLAIMが初期化関数内でkdamond用のdamon_ctxオブジェクトを割り当てます。damon_reclaim_enabled_store()は、一度割り当てを試みれば成功すると誤って仮定しています。そのため、damon_ctxの割り当てに失敗すると、'ctx'がNULLのままdamon_commit_ctx()が実行され、NULLポインタの逆参照が発生します。'ctx'がNULLの場合は-ENOMEMを返すことでNULL参照を回避します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024988.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:22:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835640+00:00"
-    },
-    {
-      "id": "aee73c1641453cbb",
-      "content_hash": "aee73c1641453cbb86960d7f1c6dd0920ae4d99c3fc75c5419d1bd26f9bc92b5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024987.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：mm/damon/lru_sortにおいて、ctxの割り当て失敗を処理するDAMON_LRU_SORTは、そのkdamondのためにinit関数内でdamon_ctxオブジェクトを割り当てます。damon_lru_sort_enabled_store()は、割り当てが一度試みられたら常に成功すると誤って想定しています。したがって、もしdamon_ctxの割り当てに失敗した場合、コードはNULLのままの'ctx'を渡してdamon_commit_ctx()に到達します。その結果、NULLの'ctx'ポインタが逆参照される可能性があります。'ctx'がNULLの場合は-ENOMEMを返してNULL逆参照を回避します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-024987.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:22:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835655+00:00"
     }
   ]
 }
