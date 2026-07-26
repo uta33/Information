@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-26T18:53:34.512825+00:00",
+  "generated_at": "2026-07-26T20:03:08.735559+00:00",
   "items": [
+    {
+      "id": "87ab3cf5517bcee1",
+      "content_hash": "87ab3cf5517bcee1b4f15d3489ab810f8c0aba2e276427030f3032cdc27e42b3",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3146794",
+      "title": "Making sense of the panic over Chinese AI",
+      "body": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T19:40:57+00:00",
+      "created_at": "2026-07-26T20:03:08.560466+00:00"
+    },
+    {
+      "id": "6a28cd97b2098bc8",
+      "content_hash": "6a28cd97b2098bc8451b13c1382f98aee459911fe1531f7953bc9c623ed555bd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/hertz-ai/HARTOS",
+      "title": "Show HN: HART OS – an open-source AI OS built so frontier AI needs no datacenter",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49061015\">Comments</a>",
+      "url": "https://github.com/hertz-ai/HARTOS",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-07-26T18:40:08+00:00",
+      "created_at": "2026-07-26T20:03:08.734850+00:00"
+    },
     {
       "id": "8b47504025693867",
       "content_hash": "8b475040256938673e8302fa81e62df010f595ad52df7383f07667abbcd01f2b",
@@ -56,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T18:23:06+00:00",
       "created_at": "2026-07-26T18:53:34.512410+00:00"
+    },
+    {
+      "id": "e4a1dee9d5118db0",
+      "content_hash": "e4a1dee9d5118db046fb97cb15b7d544c91007d6799e00b605a04d4e5e8e6834",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://beyondloom.com/decker/",
+      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49060856\">Comments</a>",
+      "url": "https://beyondloom.com/decker/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T18:23:06+00:00",
+      "created_at": "2026-07-26T20:03:08.734676+00:00"
     },
     {
       "id": "9cccb4fa4a5b27db",
@@ -198,6 +240,20 @@
       "created_at": "2026-07-26T17:53:56.615908+00:00"
     },
     {
+      "id": "94b980aabc8589d7",
+      "content_hash": "94b980aabc8589d7805e432bf522caefb808e5db155873b6e7242e5af2721f25",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://grego.site/blog/thinkphone",
+      "title": "Using ThinkPad T480 as a mobile phone",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49059977\">Comments</a>",
+      "url": "https://grego.site/blog/thinkphone",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T16:56:06+00:00",
+      "created_at": "2026-07-26T20:03:08.735121+00:00"
+    },
+    {
       "id": "10cae74b8a1bcc17",
       "content_hash": "10cae74b8a1bcc17347c1b3839aaaa608aa2d88cf441c99bcc6b54889941b212",
       "source_name": "TechCrunch",
@@ -296,6 +352,20 @@
       "created_at": "2026-07-26T16:44:33.516859+00:00"
     },
     {
+      "id": "c985a5879581f3db",
+      "content_hash": "c985a5879581f3dbff1b4037ff892fdb5128055f9afef80e6769bda1bcb9bcd5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stephango.com/design-is-compromise",
+      "title": "Design is compromise",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49059367\">Comments</a>",
+      "url": "https://stephango.com/design-is-compromise",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T15:51:12+00:00",
+      "created_at": "2026-07-26T20:03:08.734733+00:00"
+    },
+    {
       "id": "5ffad153e29126bc",
       "content_hash": "5ffad153e29126bcbbac32aca9522ce770778523cbab37dbc8656d8f71a68054",
       "source_name": "Hacker News (Best)",
@@ -308,6 +378,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T15:17:06+00:00",
       "created_at": "2026-07-26T15:53:25.225169+00:00"
+    },
+    {
+      "id": "cc79036cdb80982a",
+      "content_hash": "cc79036cdb80982afb12175df6a59defb6aede0a3dad3ed5a361fdfd4541a63e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://vectoral.com/blog/token-relay-market",
+      "title": "The relay market powering token resellers and fraud",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49058993\">Comments</a>",
+      "url": "https://vectoral.com/blog/token-relay-market",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T15:17:06+00:00",
+      "created_at": "2026-07-26T20:03:08.734894+00:00"
     },
     {
       "id": "841cae1e6c74909c",
@@ -352,6 +436,20 @@
       "created_at": "2026-07-26T15:53:25.224895+00:00"
     },
     {
+      "id": "4c4396fc2019d46f",
+      "content_hash": "4c4396fc2019d46f0b18a0887ecd97321e987c5570a23f311b4a39639788cf85",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "title": "London Gatwick has launched a robotic airport parking service",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49058669\">Comments</a>",
+      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T14:40:27+00:00",
+      "created_at": "2026-07-26T20:03:08.734709+00:00"
+    },
+    {
       "id": "660b69903e86fceb",
       "content_hash": "660b69903e86fcebc1e546c11004b695629b4e3b13dcea820844944552b14a39",
       "source_name": "Bleeping Computer",
@@ -364,6 +462,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T14:13:39+00:00",
       "created_at": "2026-07-26T15:53:19.448266+00:00"
+    },
+    {
+      "id": "b2ec0319124eaa0e",
+      "content_hash": "b2ec0319124eaa0ef9d6bd91e45031a0f4dcfab83ebeb0eebfb3480214565e00",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
+      "body": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T14:13:39+00:00",
+      "created_at": "2026-07-26T20:02:59.338946+00:00"
     },
     {
       "id": "1bb913abd3b51fd6",
@@ -6888,118 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T08:23:00+00:00",
       "created_at": "2026-07-25T04:54:32.835288+00:00"
-    },
-    {
-      "id": "032ad5cc85c39948",
-      "content_hash": "032ad5cc85c3994831ee7a3d540742d75c2e956dbad1ecd638470c89906d79eb",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025009.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。bus: fsl-mcにおいて、汎用のdriver_overrideインフラストラクチャを使用し、__driver_attach()を通じてドライバがプローブされる際に、busのmatch()コールバックがデバイスロックを保持せずに呼び出されるため、ロックなしでdriver_overrideフィールドにアクセスし、Use-After-Free（UAF）を引き起こす可能性がありました。これを修正するために、driver-coreのdriver_overrideインフラストラクチャを使用し、内部で適切なロック管理を行うようにしました。なお、__driver_attach()からデバイスロックを保持せずにmatch()を呼び出すのは意図された動作です。［1］",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025009.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835304+00:00"
-    },
-    {
-      "id": "439f9efd9430ac93",
-      "content_hash": "439f9efd9430ac93a6651db6a3ba4cd071f9eb3c64061ed5d5d26f0f876f16ec",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025008.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：s390/ap: 汎用のdriver_overrideインフラストラクチャを使用\\n\\napmask_store()またはaqmask_store()を介してAPマスクが更新されると、ap_attr_mutexが解放された後にap_bus_revise_bindings()が呼び出されます。これにより__ap_revise_reserved()が呼び出されますが、この関数はロックを保持せずにdriver_overrideフィールドへアクセスし、同時にdriver_override_store()が古い文字列を解放する可能性があるため、競合条件が発生しうるUAF（Use-After-Free）を引き起こす可能性があります。この問題は内部スピンロックで全てのアクセスを保護するdriver-coreのdriver_overrideインフラストラクチャを使用することで修正されました。なお、ほとんどの他のバスとは異なり、APバスはmatch()コールバック内でdriver_overrideをチェックしません。代わりに、オーバーライドはap_device_probe()および__ap_revise_reserved()内でチェックされます。また、struct bus_typeのdriver_override機能は有効化していません。なぜならAPバスは他の多くのバスと異なり、driver_overrideポインタがNULLの場合にsysfs_emit()へ空文字列（\"\"）を渡すため、\"(null)\\n\"ではなく\"\\n\"を出力するためです。さらに、APには対応するカスタムdriver_override_store()内で変更されるカスタムカウンタがあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025008.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835318+00:00"
-    },
-    {
-      "id": "d4ddc90c50b641de",
-      "content_hash": "d4ddc90c50b641de9e2b6e468acc60f816cf4d7001a853bb673445127832681e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025007.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：s390/cioにおいて、ジェネリックなdriver_overrideインフラストラクチャを使用するドライバーが__driver_attach()を通じてプローブされる際に、busのmatch()コールバックがデバイスロックを保持せずに呼び出されるため、driver_overrideフィールドにロックなしでアクセスしてしまい、Use-After-Free（UAF）を引き起こす可能性があります。この問題は、driver-coreのdriver_overrideインフラストラクチャを使用し、内部で適切なロックを行うことで修正されました。なお、__driver_attach()からデバイスロックを保持せずにmatch()を呼び出すことは意図的な設計です。 [1]",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025007.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835333+00:00"
-    },
-    {
-      "id": "415332d438c7816a",
-      "content_hash": "415332d438c7816a48d1c5a6ad987b9ba3252cd97c68f3e2b35603001894b966",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025006.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：vdpaでは、ジェネリックなdriver_overrideインフラストラクチャを使用し、__driver_attach()を介してドライバがプローブされる際に、デバイスロックが保持されていない状態でバスのmatch()コールバックが呼び出されます。そのため、ロックなしでdriver_overrideフィールドにアクセスしてしまい、Use-After-Free（UAF）が発生する可能性がありました。この問題は、driver-coreのdriver_overrideインフラストラクチャを使用し、内部で適切なロック管理を行うことで修正されています。なお、__driver_attach()からデバイスロックが保持されていない状態でmatch()を呼び出すことは、意図的な挙動となっています。[1]",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025006.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835347+00:00"
-    },
-    {
-      "id": "ee6ba395ccd47400",
-      "content_hash": "ee6ba395ccd4740059b08ab170f13efc0d80f052ca42a093c73169f989247029",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025005.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。platform/wmi: ジェネリックな driver_override インフラストラクチャを使用するドライバーが __driver_attach() を通じてプローブされる際、デバイスロックを保持せずにバスの match() コールバックが呼び出されます。そのため、ロックなしで driver_override フィールドにアクセスしてしまい、Use-After-Free（UAF）が発生する可能性がありました。この問題は、driver-core の driver_override インフラストラクチャを使用し、内部で適切なロック管理を行うことで修正されました。なお、デバイスロックを保持しない状態で __driver_attach() から match() を呼び出すことは意図的な動作です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025005.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835365+00:00"
-    },
-    {
-      "id": "5906fb259bf7a9b5",
-      "content_hash": "5906fb259bf7a9b5d286fa41da9d68c1c6ae21cd572e00d2b8ea63b73f0f9c96",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025004.html",
-      "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性",
-      "body": "Linuxカーネルにおいて、次の脆弱性が修正されました。PCIのジェネリックなdriver_overrideインフラストラクチャに関して、__driver_attach()を通じてドライバーがプローブされる際に、デバイスロックを保持せずにバスのmatch()コールバックが呼ばれます。これにより、ロックなしでdriver_overrideフィールドにアクセスし、UAF（Use After Free）が発生する可能性がありました。この問題は、driver-coreのdriver_overrideインフラストラクチャが内部で適切なロック管理を行うことで修正されています。なお、デバイスロックを保持せずに__driver_attach()からmatch()を呼び出す動作は意図的なものです。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025004.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835379+00:00"
-    },
-    {
-      "id": "b9539f696a264e8d",
-      "content_hash": "b9539f696a264e8dd8995a60aefd7d79ebbb48f829da75d4dbeadb0b9b4b55be",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025003.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。amd-pstateのamd_pstate_epp_cpu_init()関数におけるメモリリークの修正です。eppの設定に失敗した場合、関数amd_pstate_epp_cpu_init()は、関数の冒頭で割り当てられたcpudataオブジェクトを解放せずにエラーコードを返していました。関数から戻る前に必ずcpudataオブジェクトが解放されるように修正されています。このメモリリークは、Claude Opus 4.6がChris MasonのAIレビュー・プロンプト（https://github.com/masoncl/review-prompts/tree/main/kernel）の助けを借りて発見されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025003.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835393+00:00"
-    },
-    {
-      "id": "dc347abcb0d8948d",
-      "content_hash": "dc347abcb0d8948de8d8f203e4e27ae806b9d492300c71b31b42616f8f24365b",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025002.html",
-      "title": "LinuxのLinux Kernelにおけるリソースのロックに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。btrfsのflushoncommit使用時に発生するreflinkとトランザクションコミット間のデッドロックの問題です。flushoncommitマウントオプションを使用すると、トランザクションコミットと、インラインエクステントをコピーして宛先ノードの現在のi_sizeを超えるオフセットに配置するreflink操作の間でデッドロックが発生する可能性があります。デッドロックの発生は以下のように進行します。1) タスクAがinode Xからinode Yの現在のi_sizeを超えるオフセットにインラインエクステントをクローンします。これは、copy_inline_to_page()を使用してEOFを超えるinode Yのフォリオにインラインエクステントのデータをコピーしたことを意味します。2) タスクBがトランザクションのコミットを開始し、delallocのフラッシュのためにbtrfs_start_delalloc_flush()を呼び出します。3) delallocフラッシュはinode Yの新しいダーティフォリオを検出し、それをフラッシュしようとするとextent_writepage()に入ります。この時、フォリオのオフセットがinode Yのi_sizeを超えていることを検知し、folio_invalidate()を呼び出してフォリオの無効化を試みます。これはbtrfsのfolio無効化コールバックであるbtrfs_invalidate_folio()につながります。そこでinode Yのextent ioツリーのフォリオ範囲のロックを試みますが、これはタスクAによって既にロックされているためブロックされます。reflink中はすべてのdelallocをフラッシュし、ordered extentの完了を待った後に、inodeおよび元の範囲と宛先範囲をロックします。この時点で範囲内のダーティフォリオは存在しない想定ですが、宛先オフセットがゼロでない場合はインラインエクステントのデータをコピーする必要がある例外が存在します。4) タスクAはinodeアイテムを更新するためにトランザクションを開始しようとしますが、現在のトランザクションがTRANS_STATE_COMMIT_STARTの状態であるためブロックされます。よってタスクAは現在のトランザクションがアンブロック状態（state ＞= TRANS_STATE_UNBLOCKED）になるのを待機しなければなりません。つまり、タスクAはタスクBによるトランザクションコミットの完了を待っており、一方でタスクBはタスクAが保持するinode Yのextentロックを待っている状態であり、これがデッドロックを引き起こします。この問題はSyzbotによって最近、以下のスタックトレース付きで報告されました。INFO: task kworker/u8:7:1053が143秒以上ブロックされています。タスク: kworker/u8:7 状態:D スタック:23520 PID:1053 Tgid:1053 親PID:2 Workqueue: writeback wb_workfn (flush-btrfs-46)(省略)。この問題により、flushoncommit使用時のreflink処理中にトランザクションコミットとデータフラッシュの相互待機によるデッドロックが発生するため、該当部分の修正が行われました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025002.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:23:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835424+00:00"
     }
   ]
 }
