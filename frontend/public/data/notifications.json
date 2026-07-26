@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-26T22:48:08.502719+00:00",
+  "generated_at": "2026-07-26T23:50:56.040313+00:00",
   "items": [
+    {
+      "id": "6f86b39bfc821e5f",
+      "content_hash": "6f86b39bfc821e5fee8dec6d388cb7b9d530fda617f7400d9e56b975336d6b79",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/experientiallabs/world-model-optimizer",
+      "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49063454\">Comments</a>",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T23:35:15+00:00",
+      "created_at": "2026-07-26T23:50:56.039641+00:00"
+    },
+    {
+      "id": "401aa7cefe75acf1",
+      "content_hash": "401aa7cefe75acf137c27a9e8ef55110eb068ef8c5fc3a5d976f4fc4160718cc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/sport/football/articles/c3r087181ndo",
+      "title": "Japan legend Miura, 59, scores first goal since 2022",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49063266\">Comments</a>",
+      "url": "https://www.bbc.com/sport/football/articles/c3r087181ndo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T23:03:35+00:00",
+      "created_at": "2026-07-26T23:50:56.039502+00:00"
+    },
+    {
+      "id": "22d7a484c500a831",
+      "content_hash": "22d7a484c500a831311523db026331aaaec1c9e948c73833f61c2a86222fd372",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/hkc5/cursor-bridge",
+      "title": "Cursor Bridge – Run Unlimited Claude Code on Your Cursor Subscription",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49063186\">Comments</a>",
+      "url": "https://github.com/hkc5/cursor-bridge",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T22:48:09+00:00",
+      "created_at": "2026-07-26T23:50:56.039619+00:00"
+    },
     {
       "id": "e0dc52e9b522c317",
       "content_hash": "e0dc52e9b522c317abba9c87c6b8eeb9c6dfe119fed1c571760e03416c91279b",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-07-26T21:39:17+00:00",
       "created_at": "2026-07-26T22:48:08.502038+00:00"
+    },
+    {
+      "id": "928abe7b66cbcef4",
+      "content_hash": "928abe7b66cbcef45941d49cc85a0ca6f3bd64e921cced9151b4cb2acfdb3cdf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gracefulliberty.com/articles/teaching-kids-forth/",
+      "title": "Teaching Kids Forth",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49062700\">Comments</a>",
+      "url": "https://gracefulliberty.com/articles/teaching-kids-forth/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-26T21:39:17+00:00",
+      "created_at": "2026-07-26T23:50:56.039528+00:00"
     },
     {
       "id": "3d84f928fc382b18",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T08:24:00+00:00",
       "created_at": "2026-07-25T04:54:32.835083+00:00"
-    },
-    {
-      "id": "2b23d329e435895e",
-      "content_hash": "2b23d329e435895e59071ccb06f493ec7258e5f5cc178bab33000f136d2ab891",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025023.html",
-      "title": "LinuxのLinux Kernelにおけるバッファサイズの計算の誤りに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。net: qdisc_pkt_len_segs_init()でヘッダーをプルする処理について、ほとんどのndo_start_xmit()メソッドはgsoパケットのヘッダーが既にskb-＞headに存在していることを前提としています。特にnet/core/tso.cの利用者はリスクが高いです。なぜならtso_build_hdr()がmemcpy(hdr, skb-＞data, hdr_len)を実行しているためです。qdisc_pkt_len_segs_init()は既にgsoパケットの分解を行っています。skb_header_pointer()の代わりにpskb_may_pull()を使用し、ドライバーがこれを再実装する必要がないようにしてください。悪意のあるパケットが送り込まれる可能性があるため、それらを検出して新しいSKB_DROP_REASON_SKB_BAD_GSOのdrop_reasonでより早くドロップできるようにしました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025023.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:24:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835097+00:00"
-    },
-    {
-      "id": "bdd2cebecf110105",
-      "content_hash": "bdd2cebecf11010519e5f974dec02f41b112833ff49d1c291d3a76abad02c36f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025022.html",
-      "title": "LinuxのLinux Kernelにおける誤ったステータスコードの戻りに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました：bpfにおけるsrc_reg == dst_regの場合のリンクされたレジスタデルタ追跡の修正についてです。adjust_reg_min_max_vals()内で、src_regとdst_regが同じbpf_reg_stateを指すrX += rXのケースを考慮しました。後者は最初にdst_regをインプレースで変更し、その後のデルタ追跡において、is_reg_const(src_reg)やreg_const_value(src_reg)の呼び出しが元のソースではなく、{add,sub}処理後の値を読み取ってしまいます。これにより誤ったデルタが設定され、sync_linked_regs()がそのデルタをリンクされたレジスタに伝搬させるため、検証器と実行時の不整合を生じさせる問題がありました。このコーナーケースを単にスキップすることで修正を行いました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025022.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:24:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835111+00:00"
-    },
-    {
-      "id": "2d54e0f4418d8791",
-      "content_hash": "2d54e0f4418d87915d350bd8acb472716b31d5021f2c85b04685aa00a498aeaa",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025021.html",
-      "title": "LinuxのLinux KernelにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。:wifi: brcmfmacに関するエラーポインタ参照の問題です。関数brcmf_chip_add_core()はエラーポインタを返す可能性がありましたが、そのチェックが行われていませんでした。今回、エラーポインタに対するチェックを追加しました。Smatchによって以下の箇所で検出されました。drivers/net/wireless/broadcom/brcm80211/brcmfmac/chip.cの1010行目から1022行目のbrcmf_chip_recognition()関数内において、'core'がERR_PTR()である可能性のある参照が存在していました。なお、wifi:の接頭辞が不足していたため、追加しました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025021.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:24:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835126+00:00"
-    },
-    {
-      "id": "f38e9bda5df25104",
-      "content_hash": "f38e9bda5df25104650baa13e94f3202b2dd5819372e2fff84a808bf0dbaca33",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025020.html",
-      "title": "LinuxのLinux Kernelにおける有効期限後のメモリの解放の欠如に関する脆弱性",
-      "body": "Linuxカーネルにおいて、以下の脆弱性が修正されました。wifi: mt76のデバイス破棄時に発生していたメモリリークを修正しました。すべてのMT76受信キューには、NAPIに関連付けられていない場合でも（例：WEDが有効なときのWED RROキュー）、関連するpage_poolが存在します。モジュールアンロード時にはmt76_dma_cleanupルーチンを実行してpage_poolを破棄します。さらに、WED RROキューに対してWEDが有効でない場合は、ページをpage_poolに返す処理を行います。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-025020.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T08:24:00+00:00",
-      "created_at": "2026-07-25T04:54:32.835139+00:00"
     }
   ]
 }
