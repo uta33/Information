@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-27T21:00:24.969680+00:00",
+  "generated_at": "2026-07-27T22:09:55.322747+00:00",
   "items": [
+    {
+      "id": "a70cdc9bf27be1d7",
+      "content_hash": "a70cdc9bf27be1d7e8d38816119fc97bbf0aae6ce7a5b70fe3ed41d9e6262f6a",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3147049",
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+      "body": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T21:17:11+00:00",
+      "created_at": "2026-07-27T22:09:55.032491+00:00"
+    },
+    {
+      "id": "8b9426e4563e9636",
+      "content_hash": "8b9426e4563e9636b3480f4aefe57b03b9b15373567bafc8f0fe4f40b03bb823",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+      "body": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T21:08:15+00:00",
+      "created_at": "2026-07-27T22:09:50.358192+00:00"
+    },
+    {
+      "id": "290ff47c579cc0c8",
+      "content_hash": "290ff47c579cc0c84ea12db9f50393fe43c2dbf4465ac61a9c55fed13b28c096",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
+      "body": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-07-27T21:00:25+00:00",
+      "created_at": "2026-07-27T22:09:50.358226+00:00"
+    },
     {
       "id": "f2ae7119c345b082",
       "content_hash": "f2ae7119c345b082704c554ea67fbaf89ecae57ba99aeb63725723f57bdfa34c",
@@ -44,6 +86,20 @@
       "created_at": "2026-07-27T21:00:24.714408+00:00"
     },
     {
+      "id": "c242e43e5b56740e",
+      "content_hash": "c242e43e5b56740e57f5cd9657f822961c1f3cd979878a2e7bba8f1b2ac4e496",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://xkcd.com/3277/",
+      "title": "Forth",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49074991\">Comments</a>",
+      "url": "https://xkcd.com/3277/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T20:15:50+00:00",
+      "created_at": "2026-07-27T22:09:55.322407+00:00"
+    },
+    {
       "id": "02ab02e1f7d6918f",
       "content_hash": "02ab02e1f7d6918fb39233889acb8d36a3df183876fea1eea4f0a66f9d79e8dd",
       "source_name": "Hacker News (Best)",
@@ -56,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-07-27T19:58:22+00:00",
       "created_at": "2026-07-27T21:00:24.969060+00:00"
+    },
+    {
+      "id": "e7d70c17f5117b09",
+      "content_hash": "e7d70c17f5117b09f16eb2fd2ffa90c442507517601e98b639a3f0c8cf570a33",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49074693",
+      "title": "The Author of Clean Code No Longer Reviews AI-Generated Code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49074693\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49074693",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T19:47:06+00:00",
+      "created_at": "2026-07-27T22:09:55.322305+00:00"
     },
     {
       "id": "42ef8d4daa9e078c",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-24T16:52:33+00:00",
       "created_at": "2026-07-24T20:08:50.672992+00:00"
-    },
-    {
-      "id": "d8fa61c0b39f6874",
-      "content_hash": "d8fa61c0b39f68741e18f80b78b52942345c3f35a730898e035aa280895128e2",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?post_type=tc_video&p=3146454",
-      "title": "OpenAI’s own model went rogue before Kimi had Wall Street sweating",
-      "body": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real&#160;security breach at Hugging Face&#160;— a reminder [&#8230;]",
-      "url": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-07-24T16:50:08+00:00",
-      "created_at": "2026-07-24T18:09:29.966422+00:00"
-    },
-    {
-      "id": "562b59cd9af21b7b",
-      "content_hash": "562b59cd9af21b7bda6db364f80b48fbe19af55cb33a33239da5b31dda8a7611",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
-      "title": "Don't Take the Black Pill [video]",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49038298\">Comments</a>",
-      "url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T16:48:57+00:00",
-      "created_at": "2026-07-24T20:08:50.672707+00:00"
-    },
-    {
-      "id": "478d6ccb9bb1cd14",
-      "content_hash": "478d6ccb9bb1cd14d68f58a350f342379bcd782eb60f29e84f44db442d11d46f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://hopl.info/",
-      "title": "Online Historical Encyclopaedia of Programming Languages",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49038276\">Comments</a>",
-      "url": "https://hopl.info/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T16:47:23+00:00",
-      "created_at": "2026-07-24T18:09:30.207980+00:00"
-    },
-    {
-      "id": "d8f0cbc27853e498",
-      "content_hash": "d8f0cbc27853e4989966f54733126619fcc7b10a0474ee4994a6e4619a7da11f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://wisedayplanner.com/blog/apple-wont-let-me-show-my-app/",
-      "title": "Apple won't let me show my app",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49038187\">Comments</a>",
-      "url": "https://wisedayplanner.com/blog/apple-wont-let-me-show-my-app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T16:41:16+00:00",
-      "created_at": "2026-07-24T18:09:30.207916+00:00"
-    },
-    {
-      "id": "47964fdcade83cda",
-      "content_hash": "47964fdcade83cda40f2d56ffdc67df1497fa0b5fab222dcb84c22e42ab3072f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.science.org/doi/10.1126/science.adx4343",
-      "title": "The rise and fall of language diversity through the Holocene",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49038181\">Comments</a>",
-      "url": "https://www.science.org/doi/10.1126/science.adx4343",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-24T16:40:49+00:00",
-      "created_at": "2026-07-24T18:09:30.207850+00:00"
     }
   ]
 }
