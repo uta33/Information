@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-27T23:53:36.121998+00:00",
+  "generated_at": "2026-07-28T01:24:20.000081+00:00",
   "items": [
+    {
+      "id": "6f14fd8a252a1150",
+      "content_hash": "6f14fd8a252a11507f22ce407d4b24f10fe543aab4271dad9e3fe0345c9b6f64",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3147197",
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "body": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-28T00:13:33+00:00",
+      "created_at": "2026-07-28T01:24:19.836701+00:00"
+    },
     {
       "id": "a03e219492b460d1",
       "content_hash": "a03e219492b460d1c4ea412e40749d0b2291f6450958b09c34a0a777c1caaf41",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-07-27T23:49:44+00:00",
       "created_at": "2026-07-27T23:53:31.075237+00:00"
+    },
+    {
+      "id": "8020145aef43c52d",
+      "content_hash": "8020145aef43c52de30b4f280f092de91f288c1455a9af447f5c290634c2f5a1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2607.05283",
+      "title": "The Burau representation of the braid group is faithful for n = 4",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49077209\">Comments</a>",
+      "url": "https://arxiv.org/abs/2607.05283",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T23:46:15+00:00",
+      "created_at": "2026-07-28T01:24:19.999410+00:00"
     },
     {
       "id": "676c5e5be4b80057",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-07-27T23:21:37+00:00",
       "created_at": "2026-07-27T23:53:36.121623+00:00"
+    },
+    {
+      "id": "3ecc5352ab95e5ab",
+      "content_hash": "3ecc5352ab95e5ab897d35412df24d6883e4a01d29ac4a20d959577b6a57b25f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+      "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49076900\">Comments</a>",
+      "url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-27T23:19:19+00:00",
+      "created_at": "2026-07-28T01:24:19.999295+00:00"
     },
     {
       "id": "cb7c19846457d993",
@@ -4580,6 +4622,20 @@
       "created_at": "2026-07-26T08:04:37.746337+00:00"
     },
     {
+      "id": "ccbe6d9d268942ca",
+      "content_hash": "ccbe6d9d268942ca919c727f65f9fc58668a55ca3cb9731008967f5e630c3f15",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://trevoraleo.substack.com/p/three-theses-on-the-literacy-crisis",
+      "title": "Three Theses on the Literacy Crisis",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49050021\">Comments</a>",
+      "url": "https://trevoraleo.substack.com/p/three-theses-on-the-literacy-crisis",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-25T18:05:59+00:00",
+      "created_at": "2026-07-28T01:24:19.999502+00:00"
+    },
+    {
       "id": "a2eb877ee840b6ae",
       "content_hash": "a2eb877ee840b6ae90b3ba5bf4201d618162b1087114a686fda9d6ba1681ed5b",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-07-24T17:17:35.263000",
       "created_at": "2026-07-25T17:47:59.468834+00:00"
-    },
-    {
-      "id": "6826f76359395fdb",
-      "content_hash": "6826f76359395fdb55001388210f25cf99f24de481336eaa8d152fdee2b48708",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66032",
-      "title": "CVE-2026-66032 - libssh2 through 1.11.1, fixed in commit 5e47761, contains a double-free vulnerab...",
-      "body": "libssh2 through 1.11.1, fixed in commit 5e47761, contains a double-free vulnerability in the sftp_open() function in src/sftp.c that allows a malicious SSH server to corrupt the heap of any authenticated client opening an SFTP session. When a server responds to SSH_FXP_OPEN with SSH_FXP_STATUS containing FX_OK, the response data buffer is freed, and if a subsequent sftp_packet_require() call returns a specific error such as LIBSSH2_ERROR_CHANNEL_PACKET_EXCEEDED, the same pointer is freed a second time, enabling tcache dup conditions on glibc systems that allow overlapping allocations and function pointer overwrites.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66032",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-07-24T17:17:35.120000",
-      "created_at": "2026-07-25T17:47:59.468827+00:00"
-    },
-    {
-      "id": "60f7609fe86ad8ec",
-      "content_hash": "60f7609fe86ad8ecc567edc354109f9c85706c9355dc936741d31c4f6646b261",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65711",
-      "title": "CVE-2026-65711 - sysPass through version 3.2.11 contains an OS command injection vulnerability th...",
-      "body": "sysPass through version 3.2.11 contains an OS command injection vulnerability that allows authenticated administrators to execute arbitrary commands as the web server process user by setting a malicious backup path and triggering a backup. The FileBackupService builds a tar shell command via string concatenation, inserting the admin-configurable siteBackupPath setting without escapeshellarg() or equivalent sanitization before passing it to exec(), causing injected commands to persist and execute on every subsequent backup trigger.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65711",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-07-24T17:17:34.857000",
-      "created_at": "2026-07-25T17:47:59.468820+00:00"
-    },
-    {
-      "id": "8513b0077e19e94a",
-      "content_hash": "8513b0077e19e94aa6cddea65fc033941ae3f612d07094ae7e31a81aebcd7280",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65710",
-      "title": "CVE-2026-65710 - sysPass through version 3.2.11 contains a missing authorization vulnerability th...",
-      "body": "sysPass through version 3.2.11 contains a missing authorization vulnerability that allows authenticated users with the PUBLICLINK_CREATE profile flag to trigger unauthorized decryption and persistent storage of any vault account's password by exploiting the absence of AccountAcl checks in the public link creation flow. Attackers can invoke the saveCreateFromAccountAction endpoint to cause AccountService::getDataForLink to load arbitrary target accounts without AccountFilterUser restrictions, decrypt credentials using the session master key, and serialize cleartext passwords into Vault storage on the PublicLink database row, enabling subsequent unauthenticated retrieval if the generated link hash is recovered.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65710",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-07-24T17:17:34.713000",
-      "created_at": "2026-07-25T17:47:59.468812+00:00"
-    },
-    {
-      "id": "468ee106fa49a538",
-      "content_hash": "468ee106fa49a538ec907dba2a64de78f58024f9a3a7b175cb4c07b17b6c2df2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65709",
-      "title": "CVE-2026-65709 - sysPass through version 3.2.11 contains a missing object-level authorization vul...",
-      "body": "sysPass through version 3.2.11 contains a missing object-level authorization vulnerability in the JSON-RPC API that allows API token holders to enumerate account metadata, overwrite passwords, and delete accounts across the entire vault without per-account access control. Attackers can invoke AccountController methods such as viewAction, editAction, deleteAction, and editPassAction without AccountFilterUser checks to modify or delete accounts beyond the scope of their assigned token permissions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65709",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-07-24T17:17:34.573000",
-      "created_at": "2026-07-25T17:47:59.468805+00:00"
     }
   ]
 }
