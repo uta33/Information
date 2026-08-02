@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:51:26.956522+00:00",
+  "generated_at": "2026-08-02T18:52:06.253978+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "d9a3fb7a64e500ed",
+      "content_hash": "d9a3fb7a64e500ed39af545db46e0425e551332ff5d682431f1370fb4b474a47",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
+      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49146605\">Comments</a>",
+      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T17:45:51+00:00",
+      "created_at": "2026-08-02T18:52:06.253221+00:00"
     },
     {
       "id": "87977b302cbb91cb",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-31T13:37:36+00:00",
       "created_at": "2026-07-31T15:11:41.589171+00:00"
-    },
-    {
-      "id": "d776d5ebe6a04307",
-      "content_hash": "d776d5ebe6a043072827daae85a1b0d31df4e3da86d074b5a3d98e02047e084b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "title": "Situational Awareness down 67% in July in AI stock rout",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49122994\">Comments</a>",
-      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:37:36+00:00",
-      "created_at": "2026-07-31T17:16:53.012153+00:00"
     }
   ]
 }
