@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:22:21.863241+00:00",
+  "generated_at": "2026-08-02T15:51:13.733084+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,34 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "fcbdab01d12767cc",
+      "content_hash": "fcbdab01d12767cc1a87262d36f41e3d0341fa76423ec1a87822b65d883e2cd3",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3146922",
+      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+      "body": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
+      "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T15:23:19+00:00",
+      "created_at": "2026-08-02T15:51:13.646444+00:00"
+    },
+    {
+      "id": "309ff15beb640c8a",
+      "content_hash": "309ff15beb640c8a731597c5bae2df8efedf26c6c3ce1477f80ec543e7becfc3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ursulakleguin.com/a-rant-about-technology",
+      "title": "A Rant About “Technology” (2005)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49145201\">Comments</a>",
+      "url": "https://www.ursulakleguin.com/a-rant-about-technology",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T14:51:18+00:00",
+      "created_at": "2026-08-02T15:51:13.732395+00:00"
     },
     {
       "id": "43545e3dd2f10318",
@@ -308,6 +336,20 @@
       "cvss_score": null,
       "published_at": "2026-08-02T10:45:11+00:00",
       "created_at": "2026-08-02T12:54:41.755743+00:00"
+    },
+    {
+      "id": "c292e587923aee61",
+      "content_hash": "c292e587923aee61e0e625025137835b445338c215c5c80cd824362030d91a9d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/",
+      "title": "Rust All Hands 2026 Retrospective",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49143096\">Comments</a>",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T10:33:26+00:00",
+      "created_at": "2026-08-02T15:51:13.732640+00:00"
     },
     {
       "id": "f47000a46e5cfd4b",
@@ -6958,48 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-07-31T13:17:19.730000",
       "created_at": "2026-08-01T10:02:32.882237+00:00"
-    },
-    {
-      "id": "944004f5cf3b88ac",
-      "content_hash": "944004f5cf3b88ac3e623ddd8c7edc791d1e384f3210bba1ef0301bd6de41b5f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15227",
-      "title": "CVE-2026-15227 - Missing authorization in Checkmk <2.5.0p10, <2.4.0p35, <2.3.0p49, and 2.2.0 (EOL...",
-      "body": "Missing authorization in Checkmk <2.5.0p10, <2.4.0p35, <2.3.0p49, and 2.2.0 (EOL) allows an authenticated user lacking the \"Edit foreign Reports\" permission to modify reports owned by other users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15227",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:17:19.593000",
-      "created_at": "2026-08-01T10:02:32.882230+00:00"
-    },
-    {
-      "id": "94315df4ccabd46c",
-      "content_hash": "94315df4ccabd46c094f26b226c3cb2d09b753541385a5d821969d969e17e3f3",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
-      "body": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined.\n\nBoth versions were released last month. In its latest patch for Chrome 151, released Wednesday, the tech giant resolved 370 flaws, out of which 349 were reported by Google itself. Seven of the",
-      "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T12:51:52+00:00",
-      "created_at": "2026-07-31T15:11:36.316583+00:00"
-    },
-    {
-      "id": "375c3bf7b51a6983",
-      "content_hash": "375c3bf7b51a6983eceb02c1f0c298f224f66c51d39f862efc08aae467154a2d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46594",
-      "title": "CVE-2026-46594 - A reflected cross-site scripting (XSS) vulnerability has been identified in the ...",
-      "body": "A reflected cross-site scripting (XSS) vulnerability has been identified in the PHP Jabbers - PHP Poll Script. A malicious attacker can craft a specially crafted URL that, when opened, results in arbitrary JavaScript execution in the victim's browser.\nThis issue was fixed in version 4.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46594",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T12:16:50.653000",
-      "created_at": "2026-08-01T10:02:32.882223+00:00"
     }
   ]
 }
