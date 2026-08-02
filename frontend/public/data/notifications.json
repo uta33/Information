@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T05:15:11.653135+00:00",
+  "generated_at": "2026-08-02T08:02:20.461485+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "7c7a620874737f60",
+      "content_hash": "7c7a620874737f60a44bdc942d70faa0770a32958c90cab75797507b88648104",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/legal/litigation/australia-defends-teen-social-media-ban-after-study-shows-most-still-online-2026-08-01/",
+      "title": "Australia's social media ban has failed",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49141877\">Comments</a>",
+      "url": "https://www.reuters.com/legal/litigation/australia-defends-teen-social-media-ban-after-study-shows-most-still-online-2026-08-01/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T07:06:18+00:00",
+      "created_at": "2026-08-02T08:02:20.461078+00:00"
     },
     {
       "id": "e32a2534ebadbf8e",
@@ -1064,6 +1078,20 @@
       "cvss_score": null,
       "published_at": "2026-08-01T11:59:45+00:00",
       "created_at": "2026-08-01T14:20:29.870599+00:00"
+    },
+    {
+      "id": "d66e16650226ff97",
+      "content_hash": "d66e16650226ff97f994b2d23d68be21211565080bfb0b215894a2f82fdeddf9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16090",
+      "title": "CVE-2026-16090 - The GamiPress – Gamification plugin to reward points, achievements, badges & ran...",
+      "body": "The GamiPress – Gamification plugin to reward points, achievements, badges & ranks in WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'heading_size' Shortcode Attribute in 'gamipress_achievement' in all versions up to, and including, 7.9.9.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. WordPress save-time wp_kses_post does not neutralize this payload because the injected value is stored inside a shortcode attribute rather than as a raw HTML tag, and is only emitted into HTML at render time without escaping.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16090",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-08-01T09:17:00.423000",
+      "created_at": "2026-08-02T08:02:16.531642+00:00"
     },
     {
       "id": "10755a9cf85422a2",
@@ -4636,6 +4664,20 @@
       "created_at": "2026-07-31T17:16:52.859808+00:00"
     },
     {
+      "id": "63990ab5d67bfdb5",
+      "content_hash": "63990ab5d67bfdb59acd50ef90d7426cd9346169dad95adb883e4f0c6f9c119b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+      "title": "A big win for Android interoperability",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49124051\">Comments</a>",
+      "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-31T15:01:07+00:00",
+      "created_at": "2026-08-02T08:02:20.461143+00:00"
+    },
+    {
       "id": "dc39e5f18378ba98",
       "content_hash": "dc39e5f18378ba98f06a23d95d60e734fd033b80f49ca319984035b93c019320",
       "source_name": "Hacker News (Best)",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-31T06:01:00+00:00",
       "created_at": "2026-07-31T10:26:37.599888+00:00"
-    },
-    {
-      "id": "b9e803f8f5e060f0",
-      "content_hash": "b9e803f8f5e060f065da9c10d87156b431b709b6c5c2c5937268a5ac83c9e725",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026213.html",
-      "title": "facelessuserのPyMdown Extensionsにおけるパストラバーサルの脆弱性",
-      "body": "PyMdown ExtensionsはPython-Markdownマークダウンプロジェクトのための拡張セットです。バージョン10.0.1から10.21.3までの間、pymdownx/snippets.pyのSnippetPreprocessor.get_snippet_path()において、`restrict_base_path: True`が設定されている場合にpymdownx.snippetsが文字列の接頭辞包含チェックを使用していました。その結果、docsやdocs_internalのように同じbase_pathプレフィックスを共有する兄弟パスから、マークダウンのスニペットディレクティブでファイルを読み取ることが可能となっていました。これはCVE-2023-32309のリグレッション（再発）です。この問題はバージョン10.21.3で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026213.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T06:00:00+00:00",
-      "created_at": "2026-07-31T10:26:37.599903+00:00"
-    },
-    {
-      "id": "697219bfbf1b0e89",
-      "content_hash": "697219bfbf1b0e8989b1a8f5a0b68ca21e8c287478e2ec1f973b587fb0a9c2b7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026212.html",
-      "title": "Tabbyにおける複数の脆弱性",
-      "body": "Tabby（旧Terminus）は高度にカスタマイズ可能な端末エミュレーターです。バージョン1.0.234以前では、tabby-electron/src/pathDrop.tsからドロップされたファイルパスを、$(…)や`…`といったコマンド置換のメタ文字を無効化せずにアクティブなシェルに挿入していたため、不完全なCVE-2026-45038の制御文字の修正でも、被害者がEnterキーを押すと依然としてコード実行が可能でした。この問題はバージョン1.0.234で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026212.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T06:00:00+00:00",
-      "created_at": "2026-07-31T10:26:37.599918+00:00"
-    },
-    {
-      "id": "4fab49cd7de0660c",
-      "content_hash": "4fab49cd7de0660c7c0a60f9bb24dcea0882a1321c020967122d04133e1d4c5c",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026211.html",
-      "title": "オラクルのCost Managementにおけるアクセス制御に関する脆弱性",
-      "body": "Oracle E-Business Suite の Oracle Cost Management 製品（コンポーネント：Cost Maintenance）における脆弱性があります。影響を受けるサポート対象バージョンは 12.2.3 から 12.2.15 までとなっています。悪用が困難な脆弱性ですが、HTTP 経由でネットワークアクセス可能な低権限の攻撃者によって Oracle Cost Management が侵害される可能性があります。この脆弱性を悪用した攻撃が成功すると、Oracle Cost Management の乗っ取りにつながる恐れがあります。CVSS 3.1 基本スコアは 7.5（機密性、完全性、可用性に影響を与えます）。CVSS ベクターは（CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H）です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026211.html",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-07-31T06:00:00+00:00",
-      "created_at": "2026-07-31T10:26:37.599940+00:00"
     }
   ]
 }
