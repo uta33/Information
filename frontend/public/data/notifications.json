@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T22:43:35.551347+00:00",
+  "generated_at": "2026-08-02T23:48:04.508471+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -16,6 +16,48 @@
       "created_at": "2026-07-31T17:16:48.102377+00:00"
     },
     {
+      "id": "52384ce5afea4003",
+      "content_hash": "52384ce5afea4003f2698f2b19c9e31d82018a012d697cf4544c163a8110be51",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/pg83/shitty",
+      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49149326\">Comments</a>",
+      "url": "https://github.com/pg83/shitty",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T23:05:41+00:00",
+      "created_at": "2026-08-02T23:48:04.507796+00:00"
+    },
+    {
+      "id": "f908e5e2a82efcad",
+      "content_hash": "f908e5e2a82efcadb5f12df319775e4dd4ba213503aa43a307f6d6ed5fabb148",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "title": "AI poster wins Ohio State Fair contest",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49149188\">Comments</a>",
+      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T22:43:47+00:00",
+      "created_at": "2026-08-02T23:48:04.507633+00:00"
+    },
+    {
+      "id": "a72d614f0529ec5d",
+      "content_hash": "a72d614f0529ec5d03672847fe3fd02437811f87d5892cf64f979ae0b2872b67",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://plato.stanford.edu/entries/computational-mind/",
+      "title": "The Computational Theory of Mind (2015)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49149125\">Comments</a>",
+      "url": "https://plato.stanford.edu/entries/computational-mind/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T22:35:35+00:00",
+      "created_at": "2026-08-02T23:48:04.507911+00:00"
+    },
+    {
       "id": "0307cc69c18dd22b",
       "content_hash": "0307cc69c18dd22b78a92306f6da11164a5a1c4759dfd13bd2a2d6f522158c86",
       "source_name": "Bleeping Computer",
@@ -28,6 +70,34 @@
       "cvss_score": null,
       "published_at": "2026-08-02T22:31:41+00:00",
       "created_at": "2026-08-02T22:43:30.261899+00:00"
+    },
+    {
+      "id": "bae2c8e9fb27577c",
+      "content_hash": "bae2c8e9fb27577c623f607173b13c0db5913813302f4037ee43040c4b52e245",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
+      "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49148987\">Comments</a>",
+      "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-02T22:16:34+00:00",
+      "created_at": "2026-08-02T23:48:04.507856+00:00"
+    },
+    {
+      "id": "16facfdacbd24557",
+      "content_hash": "16facfdacbd24557cb6e9aa10139cc04abe1606a810f048cfa142fbc67b978cb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/micro/mu",
+      "title": "Show HN: Mu – Tools for Agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49148899\">Comments</a>",
+      "url": "https://github.com/micro/mu",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T22:06:34+00:00",
+      "created_at": "2026-08-02T23:48:04.508000+00:00"
     },
     {
       "id": "949681f12a793c9a",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-31T15:16:28.340000",
       "created_at": "2026-08-01T10:02:32.882371+00:00"
-    },
-    {
-      "id": "69d7a71b2a0771ac",
-      "content_hash": "69d7a71b2a0771ac7000a529bb3fc2bcee6e842d71e57f6cc9767e60f6b686f3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-51231",
-      "title": "CVE-2026-51231 - Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This reco...",
-      "body": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51231",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:16:28.280000",
-      "created_at": "2026-08-01T10:02:32.882365+00:00"
-    },
-    {
-      "id": "d23881ca8f7a10b7",
-      "content_hash": "d23881ca8f7a10b72a29b481dee819ca55a41714d82fe3aa1077ca51f6fa3a6d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-51230",
-      "title": "CVE-2026-51230 - Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This reco...",
-      "body": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51230",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:16:28.213000",
-      "created_at": "2026-08-01T10:02:32.882358+00:00"
-    },
-    {
-      "id": "12a1d180a7b5affe",
-      "content_hash": "12a1d180a7b5affe50106e318b05fe78b021b6b1756e3740de952da91a43e38a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-51229",
-      "title": "CVE-2026-51229 - Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This reco...",
-      "body": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51229",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:16:28.130000",
-      "created_at": "2026-08-01T10:02:32.882352+00:00"
-    },
-    {
-      "id": "42370f6b7419c378",
-      "content_hash": "42370f6b7419c378734b6c3bda639646bdf6ad10a54de55b76a4a51ff5afb92c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18446",
-      "title": "CVE-2026-18446 - fast-uri before 4.1.2, 3.1.5, and 2.4.4 requires a literal double forward slash ...",
-      "body": "fast-uri before 4.1.2, 3.1.5, and 2.4.4 requires a literal double forward slash to recognize a URI authority, so a reference that uses a backslash based introducer in place of it (backslash backslash, forward slash backslash, or backslash forward slash) is parsed with no authority and folds into the path. Node's native WHATWG URL parser instead treats a backslash as interchangeable with a forward slash for special schemes, so the two parsers extract different hosts from the same input. Applications that use fast-uri to enforce host based policy such as allowlists, SSRF filtering, or redirect validation before passing the same URL into Node's URL or fetch consumers can be steered to an unintended host. Upgrade to fast-uri 4.1.2, 3.1.5, or 2.4.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18446",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-31T15:16:27.983000",
-      "created_at": "2026-08-01T10:02:32.882345+00:00"
-    },
-    {
-      "id": "a0cf98b9a6581906",
-      "content_hash": "a0cf98b9a6581906fed75345ba152a4897fd7f2b28329f26d8f2752af2a7c0bc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-10685",
-      "title": "CVE-2026-10685 - The Zephyr Bluetooth GATT client CCC-write response handler gatt_write_ccc_rsp()...",
-      "body": "The Zephyr Bluetooth GATT client CCC-write response handler gatt_write_ccc_rsp() in subsys/bluetooth/host/gatt.c invoked the application's params->subscribe() callback after it had already called params->notify(conn, params, NULL, 0).\n\nPer the public GATT API, a notify callback with NULL data is the documented signal that the subscription has terminated and the bt_gatt_subscribe_params struct may be freed or reused by the application; calling subscribe() on the struct afterwards is a use-after-free, including an indirect call through the freed params->subscribe function pointer.\n\nThe error branch is remotely (adjacent) reachable: a Zephyr device acting as a GATT client that calls bt_gatt_subscribe() can be driven into this ordering when a connected GATT server peer answers the CCC write with an ATT Error Response (the peer-supplied error code flows through att_error_rsp -> att_handle_rsp into gatt_write_ccc_rsp).\n\nFor applications that free or recycle subscription parameters in their notification-termination handler, this results in memory corruption, a crash (denial of service), or potentially attacker-influenced control flow. The fix reorders the handler so the subscribe() callback runs before the terminating notify(NULL) in both the error and unsubscribe paths.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10685",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.6,
-      "published_at": "2026-07-31T15:16:27.433000",
-      "created_at": "2026-08-01T10:02:32.882338+00:00"
     }
   ]
 }
