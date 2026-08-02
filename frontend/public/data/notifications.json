@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:23:56.899208+00:00",
+  "generated_at": "2026-08-02T11:52:22.587287+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,62 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "07a4f2905c5f4606",
+      "content_hash": "07a4f2905c5f460655b57e28af49bf1d4112f930da70fe253cf0dba97a8f0df7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2607.20349",
+      "title": "Generative AI floods and dilutes the market for books",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49143289\">Comments</a>",
+      "url": "https://arxiv.org/abs/2607.20349",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T11:06:07+00:00",
+      "created_at": "2026-08-02T11:52:22.586504+00:00"
+    },
+    {
+      "id": "a207804db1088c81",
+      "content_hash": "a207804db1088c81fd270a2411c39069f8e531daf63f2a5c53840fcca30cf6df",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8",
+      "title": "US Treasury undertakes historic intervention in yen market",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49143188\">Comments</a>",
+      "url": "https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T10:46:28+00:00",
+      "created_at": "2026-08-02T11:52:22.587078+00:00"
+    },
+    {
+      "id": "f47000a46e5cfd4b",
+      "content_hash": "f47000a46e5cfd4bb9c23229c78ba735ddbdf68c17acc73c848a649d7771cedf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html",
+      "title": "Is the Industrial Revolution a good precedent for explosive growth today?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49143053\">Comments</a>",
+      "url": "https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T10:25:25+00:00",
+      "created_at": "2026-08-02T11:52:22.586440+00:00"
+    },
+    {
+      "id": "1e3e58e321541c1c",
+      "content_hash": "1e3e58e321541c1c699376fba881a2a102507db071e1a0a20d1f3a9e25d2f122",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://publicdomainreview.org/essay/ars-notoria/",
+      "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49143001\">Comments</a>",
+      "url": "https://publicdomainreview.org/essay/ars-notoria/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T10:18:24+00:00",
+      "created_at": "2026-08-02T11:52:22.586527+00:00"
     },
     {
       "id": "0ee1a1b9edff8dc0",
@@ -5546,6 +5602,20 @@
       "created_at": "2026-07-31T17:16:53.012093+00:00"
     },
     {
+      "id": "0979a62a05595dac",
+      "content_hash": "0979a62a05595daca4e8a2246d8ae5e4d68e11c76c692c9ea17ac102b7b85713",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://maze.toys",
+      "title": "Maze Toys",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49123984\">Comments</a>",
+      "url": "https://maze.toys",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-31T14:55:51+00:00",
+      "created_at": "2026-08-02T11:52:22.586817+00:00"
+    },
+    {
       "id": "f2071a0e1ed6414a",
       "content_hash": "f2071a0e1ed6414a0d929343c7ef062b21200e6715a87743fce395947621b35e",
       "source_name": "TechCrunch",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.8,
       "published_at": "2026-07-31T07:16:25.207000",
       "created_at": "2026-08-01T01:46:45.030698+00:00"
-    },
-    {
-      "id": "615180c8095d2d82",
-      "content_hash": "615180c8095d2d824bf65c923849cc463ed2e689e33698132ab1da4e15b924bf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14830",
-      "title": "CVE-2026-14830 - The FlxWoo WordPress plugin before 3.1.1 does not verify with the payment proces...",
-      "body": "The FlxWoo WordPress plugin before 3.1.1 does not verify with the payment processor that a checkout session was actually paid before marking the associated order as paid, allowing unauthenticated attackers to complete WooCommerce orders without paying.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14830",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-31T07:16:25.097000",
-      "created_at": "2026-08-01T01:46:45.030692+00:00"
-    },
-    {
-      "id": "cce523e4d56945ae",
-      "content_hash": "cce523e4d56945ae5ad612f53604bc0c7eb06df3ba05df27334420af56c84859",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14554",
-      "title": "CVE-2026-14554 - The Check & Log Email  WordPress plugin before 2.0.15 does not properly sanitize...",
-      "body": "The Check & Log Email  WordPress plugin before 2.0.15 does not properly sanitize and escape parameters before using them in SQL queries, allowing users with administrator privileges to perform SQL injection attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14554",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-07-31T07:16:24.987000",
-      "created_at": "2026-08-01T01:46:45.030685+00:00"
-    },
-    {
-      "id": "53c83518d107d935",
-      "content_hash": "53c83518d107d93550502d968a293de142bd7ea2b62385fec623b9f9ea632294",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14483",
-      "title": "CVE-2026-14483 - The Realtyna Organic IDX plugin + WPL Real Estate plugin for WordPress is vulner...",
-      "body": "The Realtyna Organic IDX plugin + WPL Real Estate plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 5.2.0 via the upload function. This is due to missing file type validation in the upload function, combined with a publicly accessible I/O endpoint authenticated solely by static, plugin-seeded API credentials that are identical across all installations. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The WPL I/O service endpoint is registered on the public WordPress init hook with no WordPress capability check, and the required api_key and api_secret values are static defaults seeded by the plugin's own SQL migration files, meaning any unauthenticated attacker who knows these publicly documented defaults can reach and exploit the vulnerable upload path.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14483",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-07-31T07:16:24.803000",
-      "created_at": "2026-08-01T01:46:45.030679+00:00"
-    },
-    {
-      "id": "26d34cd000f49ba3",
-      "content_hash": "26d34cd000f49ba33056afbbb8ae0a5fd316ebbe7b4d7981deadc2b9c34a80be",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14333",
-      "title": "CVE-2026-14333 - The Demi  WordPress plugin before 0.0.7 stores its full-site backup archives in ...",
-      "body": "The Demi  WordPress plugin before 0.0.7 stores its full-site backup archives in a publicly accessible location under a predictable filename and without access protection, allowing unauthenticated attackers to download complete backups including the site database and its user password hashes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14333",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-31T07:16:24.703000",
-      "created_at": "2026-08-01T01:46:45.030672+00:00"
-    },
-    {
-      "id": "037221c2116f9489",
-      "content_hash": "037221c2116f94897c4e1d946b4ce00ed8855d05e273079ee5fda0f7ef14bee5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14319",
-      "title": "CVE-2026-14319 - The GiveWP  WordPress plugin before 4.16.3 does not properly restrict access to ...",
-      "body": "The GiveWP  WordPress plugin before 4.16.3 does not properly restrict access to a REST API endpoint that returns recurring-donation records, allowing unauthenticated users to retrieve information about anonymous recurring donors, including their name and subscription details.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14319",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-31T07:16:24.593000",
-      "created_at": "2026-08-01T01:46:45.030663+00:00"
     }
   ]
 }
