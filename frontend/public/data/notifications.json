@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T15:51:13.733084+00:00",
+  "generated_at": "2026-08-02T16:44:27.186524+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,34 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "2166a536101db1bd",
+      "content_hash": "2166a536101db1bd8ddbe3520c0eb16fb36ca6400cbb1da451c72edf4e106eb7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3148962",
+      "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
+      "body": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T16:05:00+00:00",
+      "created_at": "2026-08-02T16:44:26.985152+00:00"
+    },
+    {
+      "id": "5039869827f6ffa7",
+      "content_hash": "5039869827f6ffa70eddf8372b69e2e54a280970d3207600df4b2cb987796352",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pudding.cool/2026/07/essential-words/",
+      "title": "How the words we teach English language learners changed",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49145590\">Comments</a>",
+      "url": "https://pudding.cool/2026/07/essential-words/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T15:41:08+00:00",
+      "created_at": "2026-08-02T16:44:27.185805+00:00"
     },
     {
       "id": "fcbdab01d12767cc",
@@ -1008,6 +1036,20 @@
       "cvss_score": null,
       "published_at": "2026-08-02T04:07:46+00:00",
       "created_at": "2026-08-02T05:15:11.652435+00:00"
+    },
+    {
+      "id": "7eb73f627248da34",
+      "content_hash": "7eb73f627248da340fb1b505db21977de1d266c342acce599a597c87781fad58",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/karpathy/status/2083749667410727319",
+      "title": "Karpathy’s Pelican",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49140998\">Comments</a>",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T04:05:56+00:00",
+      "created_at": "2026-08-02T16:44:27.185875+00:00"
     },
     {
       "id": "3d8d31e1495ae5bb",
@@ -6806,6 +6848,20 @@
       "created_at": "2026-07-31T15:11:41.420171+00:00"
     },
     {
+      "id": "c0f92a155e08a79f",
+      "content_hash": "c0f92a155e08a79fe11897aea236cb6999ec0cbd2c3620ec282e44563647fb42",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://letterformarchive.org/news/milwaukee-transit-passes/",
+      "title": "When transit passes were designed by hand",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49123003\">Comments</a>",
+      "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-07-31T13:38:04+00:00",
+      "created_at": "2026-08-02T16:44:27.186101+00:00"
+    },
+    {
       "id": "4c32db3267af6fa3",
       "content_hash": "4c32db3267af6fa3e8d5da1578118995d42b2fe43c1d7ea6788da04f717b29cb",
       "source_name": "Hacker News (Best)",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-31T13:18:46.437000",
       "created_at": "2026-08-01T10:02:32.882289+00:00"
-    },
-    {
-      "id": "024deefedde359bb",
-      "content_hash": "024deefedde359bb4f5ff8f498b84c1bed1611e18bce5c9af7c151adf7bc816d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-68574",
-      "title": "CVE-2026-68574 - Rejected reason: Reserved via standalone CLI outside the OSIM flaw workflow; rel...",
-      "body": "Rejected reason: Reserved via standalone CLI outside the OSIM flaw workflow; releasing so the CVE ID can be properly reserved and linked through OSIM when the flaw is worked.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68574",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:18:46.343000",
-      "created_at": "2026-08-01T10:02:32.882281+00:00"
-    },
-    {
-      "id": "050df8916c658223",
-      "content_hash": "050df8916c658223d2c8c4534eaf55f3db82dced41496677a029ee5d15cb3510",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18358",
-      "title": "CVE-2026-18358 - A flaw was found in gnome-remote-desktop as shipped in Red Hat Enterprise Linux....",
-      "body": "A flaw was found in gnome-remote-desktop as shipped in Red Hat Enterprise Linux. When the daemon is running in system mode with RDP enabled, the incoming connection handler bypasses the connection throttler, allowing an unauthenticated remote attacker to open many parallel pre-authentication connections to the RDP listener. This can accumulate accepted sockets and pending routing-token operations until timeout, exhausting resources and preventing legitimate users from establishing RDP sessions. This issue does not affect the upstream version.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18358",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-07-31T13:17:19.933000",
-      "created_at": "2026-08-01T10:02:32.882254+00:00"
-    },
-    {
-      "id": "a1a0ebc74682490a",
-      "content_hash": "a1a0ebc74682490a36e306044747d24b9ee04c8e197e8e4f16fddbea82be73fe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-17592",
-      "title": "CVE-2026-17592 - Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This can...",
-      "body": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17592",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:17:19.863000",
-      "created_at": "2026-08-01T10:02:32.882247+00:00"
-    },
-    {
-      "id": "7c6820efb980c8e0",
-      "content_hash": "7c6820efb980c8e005181b0038d52efe17435b0b8bab38ab3dad3cf642c13494",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-17561",
-      "title": "CVE-2026-17561 - Improper Control of Generation of Code ('Code Injection') vulnerability in Innot...",
-      "body": "Improper Control of Generation of Code ('Code Injection') vulnerability in Innotim Software, Telecommunications and Consulting Trade Ltd. Co. Logsign SIEM allows Code Injection.\n\nThis issue affects Logsign SIEM: before 6.4.108.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17561",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-07-31T13:17:19.730000",
-      "created_at": "2026-08-01T10:02:32.882237+00:00"
     }
   ]
 }
