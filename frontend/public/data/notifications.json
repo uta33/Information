@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T21:43:17.225982+00:00",
+  "generated_at": "2026-08-02T22:43:35.551347+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "0307cc69c18dd22b",
+      "content_hash": "0307cc69c18dd22b78a92306f6da11164a5a1c4759dfd13bd2a2d6f522158c86",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+      "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
+      "body": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T22:31:41+00:00",
+      "created_at": "2026-08-02T22:43:30.261899+00:00"
     },
     {
       "id": "949681f12a793c9a",
@@ -128,6 +142,20 @@
       "created_at": "2026-08-02T21:43:17.225277+00:00"
     },
     {
+      "id": "808de6379e526114",
+      "content_hash": "808de6379e526114577d1585750f7924dd9151a9175c7beda46694b3909ebb55",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.semenzin.com/let-the-machines-in/",
+      "title": "Let the machines in",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147890\">Comments</a>",
+      "url": "https://blog.semenzin.com/let-the-machines-in/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T20:17:16+00:00",
+      "created_at": "2026-08-02T22:43:35.551011+00:00"
+    },
+    {
       "id": "a4889e73d8372ce2",
       "content_hash": "a4889e73d8372ce268e57ca805d8fc8a1d1e4e9f1180a0dee62e245c1e035055",
       "source_name": "Hacker News (Best)",
@@ -140,6 +168,34 @@
       "cvss_score": null,
       "published_at": "2026-08-02T20:12:39+00:00",
       "created_at": "2026-08-02T21:43:17.225593+00:00"
+    },
+    {
+      "id": "fc651c3871b96f3e",
+      "content_hash": "fc651c3871b96f3ed1b4f6bac8d57d6291de2aeae75d10e0820b9cdc5da79c3a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/paoloanzn/microcodex",
+      "title": "Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147842\">Comments</a>",
+      "url": "https://github.com/paoloanzn/microcodex",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T20:11:35+00:00",
+      "created_at": "2026-08-02T22:43:35.551050+00:00"
+    },
+    {
+      "id": "fe547d74912ba034",
+      "content_hash": "fe547d74912ba0347488483720cb69ab269f6aadffabb7a2895123dbe8867f2a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/",
+      "title": "TinyNES Review – A Super Niche NES Console",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147760\">Comments</a>",
+      "url": "https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T20:01:37+00:00",
+      "created_at": "2026-08-02T22:43:35.550791+00:00"
     },
     {
       "id": "d90c7e811f5a2529",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.6,
       "published_at": "2026-07-31T15:16:27.433000",
       "created_at": "2026-08-01T10:02:32.882338+00:00"
-    },
-    {
-      "id": "72bdb3ea65e6a760",
-      "content_hash": "72bdb3ea65e6a760481e45233e1c98d6259652a7e91e7b49b8d3e9dd6c969ff5",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3148699",
-      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
-      "body": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
-      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:16:17+00:00",
-      "created_at": "2026-07-31T17:16:52.859808+00:00"
-    },
-    {
-      "id": "63990ab5d67bfdb5",
-      "content_hash": "63990ab5d67bfdb59acd50ef90d7426cd9346169dad95adb883e4f0c6f9c119b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
-      "title": "A big win for Android interoperability",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49124051\">Comments</a>",
-      "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:01:07+00:00",
-      "created_at": "2026-08-02T08:02:20.461143+00:00"
-    },
-    {
-      "id": "dc39e5f18378ba98",
-      "content_hash": "dc39e5f18378ba98f06a23d95d60e734fd033b80f49ca319984035b93c019320",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://signoregalilei.com/2026/07/26/the-most-official-water-costs-120000-a-gallon/",
-      "title": "The most official water costs $120k a gallon",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49124042\">Comments</a>",
-      "url": "https://signoregalilei.com/2026/07/26/the-most-official-water-costs-120000-a-gallon/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:00:15+00:00",
-      "created_at": "2026-07-31T17:16:53.012227+00:00"
-    },
-    {
-      "id": "4085cc3aac42ad26",
-      "content_hash": "4085cc3aac42ad26c2884854dc65012121f8c2cca96dc08a6ca5bbd23dc87fb7",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "title": "Advancing responsible AI across Europe",
-      "body": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T15:00:00+00:00",
-      "created_at": "2026-07-31T10:26:31.813507+00:00"
     }
   ]
 }
