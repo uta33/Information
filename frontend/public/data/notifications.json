@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T18:52:06.253978+00:00",
+  "generated_at": "2026-08-02T20:04:02.283623+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,76 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "95b4f4e41221c22e",
+      "content_hash": "95b4f4e41221c22e43c73d9f31bc1a9d80672cad6847dad546896da7a65e6b6d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+      "title": "EU rules on AI models become enforceable. What's going to change?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147606\">Comments</a>",
+      "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-02T19:40:19+00:00",
+      "created_at": "2026-08-02T20:04:02.283332+00:00"
+    },
+    {
+      "id": "45f2fa1ffd963d02",
+      "content_hash": "45f2fa1ffd963d0252f4a01dbe7dd1ce563d7c4aacbb4463c775aa45a2f97ccf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/e345d51f-11f7-4d4d-8f09-86dd3a225597",
+      "title": "German carmakers flood jobs market with managers after wielding axe",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147478\">Comments</a>",
+      "url": "https://www.ft.com/content/e345d51f-11f7-4d4d-8f09-86dd3a225597",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T19:24:18+00:00",
+      "created_at": "2026-08-02T20:04:02.283390+00:00"
+    },
+    {
+      "id": "ceb8120646fe32e7",
+      "content_hash": "ceb8120646fe32e78cb72859023586f6046b0642671770c0304348ea946fe84a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147435\">Comments</a>",
+      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T19:19:24+00:00",
+      "created_at": "2026-08-02T20:04:02.283376+00:00"
+    },
+    {
+      "id": "071fe943095593e1",
+      "content_hash": "071fe943095593e16b4c41fc4fb15a15c6de6119444307c9769f56dd39899e8f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "title": "SwiftUI After 7 Years: A Story of Mediocrity",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147263\">Comments</a>",
+      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T18:59:05+00:00",
+      "created_at": "2026-08-02T20:04:02.282921+00:00"
+    },
+    {
+      "id": "a1455153370e8a1b",
+      "content_hash": "a1455153370e8a1bb20c56c3abb3862f8e1ddb5409328110f688f3257962fe24",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "title": "Microsoft raises Xbox prices by up to 43%",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49147209\">Comments</a>",
+      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T18:52:22+00:00",
+      "created_at": "2026-08-02T20:04:02.283404+00:00"
     },
     {
       "id": "d9a3fb7a64e500ed",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-07-31T13:56:31+00:00",
       "created_at": "2026-07-31T17:16:53.011893+00:00"
-    },
-    {
-      "id": "4de69992a3de142b",
-      "content_hash": "4de69992a3de142b223a833cb073b2e00883cc3893d3fe47ce5ec11ee58da1f1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://c-faq.com/decl/spiral.anderson.html",
-      "title": "Clockwise/Spiral Rule (1994)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49123199\">Comments</a>",
-      "url": "https://c-faq.com/decl/spiral.anderson.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:56:31+00:00",
-      "created_at": "2026-07-31T20:51:31.348333+00:00"
-    },
-    {
-      "id": "1632ecdec2c974c1",
-      "content_hash": "1632ecdec2c974c17e8a383543c33ed25b1beab75222ac3696282d376401ea68",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3148675",
-      "title": "Tesla reportedly might sell its China business ahead of a SpaceX merger",
-      "body": "Tesla had already reportedly prepped for the idea in the event that Beijing invades Taiwan.",
-      "url": "https://techcrunch.com/2026/07/31/tesla-reportedly-might-sell-its-china-business-ahead-of-a-spacex-merger/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:45:53+00:00",
-      "created_at": "2026-07-31T15:11:41.420171+00:00"
-    },
-    {
-      "id": "c0f92a155e08a79f",
-      "content_hash": "c0f92a155e08a79fe11897aea236cb6999ec0cbd2c3620ec282e44563647fb42",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://letterformarchive.org/news/milwaukee-transit-passes/",
-      "title": "When transit passes were designed by hand",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49123003\">Comments</a>",
-      "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:38:04+00:00",
-      "created_at": "2026-08-02T16:44:27.186101+00:00"
-    },
-    {
-      "id": "08d76e44fba2c46b",
-      "content_hash": "08d76e44fba2c46b25c3b5f16b2e9ba9a7b6ab75a2690d452ac2adac7db2a119",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://letterformarchive.org/news/milwaukee-transit-passes/",
-      "title": "When transit passes were designed by hand (2022)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49123003\">Comments</a>",
-      "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:38:04+00:00",
-      "created_at": "2026-08-02T17:51:26.955927+00:00"
-    },
-    {
-      "id": "4c32db3267af6fa3",
-      "content_hash": "4c32db3267af6fa3e8d5da1578118995d42b2fe43c1d7ea6788da04f717b29cb",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "title": "Situational Awareness Down 67% in July in AI Stock Rout",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49122994\">Comments</a>",
-      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-07-31T13:37:36+00:00",
-      "created_at": "2026-07-31T15:11:41.589171+00:00"
     }
   ]
 }
