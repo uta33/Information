@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:54:10.728979+00:00",
+  "generated_at": "2026-08-03T23:58:23.401096+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,34 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "b79a35a6443de3a7",
+      "content_hash": "b79a35a6443de3a7b17778ec830c03ca6a506863e4cf4690ed9aa6e999274cd3",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+      "body": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract passkey private keys. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T23:58:01+00:00",
+      "created_at": "2026-08-03T23:58:18.085737+00:00"
+    },
+    {
+      "id": "738aa0ce18ba347b",
+      "content_hash": "738aa0ce18ba347b7313e72e109035b2fe584b5651cec243a04100d4d5bd15f2",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3149421",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "body": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T23:19:50+00:00",
+      "created_at": "2026-08-03T23:58:23.097272+00:00"
     },
     {
       "id": "ecf67bd7486ab7a9",
@@ -56,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-03T21:39:12+00:00",
       "created_at": "2026-08-03T22:54:10.728391+00:00"
+    },
+    {
+      "id": "7882e973a68f9c36",
+      "content_hash": "7882e973a68f9c3640e65678160028fac3fe1aaff8f7e2b52e8613bd2c9cb9a4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/",
+      "title": "ZX Spectrum System Tour: Text Mode",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49161801\">Comments</a>",
+      "url": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T21:39:12+00:00",
+      "created_at": "2026-08-03T23:58:23.400623+00:00"
     },
     {
       "id": "37a934416dd2c566",
@@ -616,6 +658,34 @@
       "cvss_score": null,
       "published_at": "2026-08-03T15:04:39+00:00",
       "created_at": "2026-08-03T15:35:37.570709+00:00"
+    },
+    {
+      "id": "edae9dc9f9447d6b",
+      "content_hash": "edae9dc9f9447d6b6e976663d8a73098fc00a6895b399ad2cb1332934485a721",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49156683",
+      "title": "Ask HN: Who is hiring? (August 2026)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49156683\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49156683",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T15:00:54+00:00",
+      "created_at": "2026-08-03T23:58:23.400377+00:00"
+    },
+    {
+      "id": "222febd02f4f5655",
+      "content_hash": "222febd02f4f5655bccd6fe978a8c3120fff1f28792d00565a8bd9dad0e8c856",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49156682",
+      "title": "Ask HN: Who wants to be hired? (August 2026)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49156682\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49156682",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T15:00:54+00:00",
+      "created_at": "2026-08-03T23:58:23.400418+00:00"
     },
     {
       "id": "4bc15e69578c9920",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-01T07:16:30.307000",
       "created_at": "2026-08-01T21:42:41.368345+00:00"
-    },
-    {
-      "id": "584cd5dba1b933d4",
-      "content_hash": "584cd5dba1b933d43556f4663637a1b36899632c09cffe0e6614afec17f0bf53",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14309",
-      "title": "CVE-2026-14309 - The Chat On Desk Order Notifications  WordPress plugin before 1.0.9 does not ver...",
-      "body": "The Chat On Desk Order Notifications  WordPress plugin before 1.0.9 does not verify that the one-time password has been validated before processing a password-reset request, allowing unauthenticated attackers to reset the password of arbitrary users, including administrators, and take over their accounts when SMS one-time-password password reset is enabled.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14309",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.207000",
-      "created_at": "2026-08-01T21:42:41.368339+00:00"
-    },
-    {
-      "id": "4abdd0935421d39b",
-      "content_hash": "4abdd0935421d39b69e7d266eec6aee45cb12a71111b23cce68e283137df6e8b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14292",
-      "title": "CVE-2026-14292 - The Download Manager WordPress plugin before 3.3.66 does not properly escape a p...",
-      "body": "The Download Manager WordPress plugin before 3.3.66 does not properly escape a package's title before outputting it in the front-end package templates, allowing users with the Author role or above to store a title that results in arbitrary JavaScript execution in the browser of any user, including unauthenticated visitors, who views a page displaying the package.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14292",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.097000",
-      "created_at": "2026-08-01T21:42:41.368332+00:00"
-    },
-    {
-      "id": "e9422b28b52a2e03",
-      "content_hash": "e9422b28b52a2e03fdcb244637a56bfad842af7fce45795524a28c18e871d94e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14214",
-      "title": "CVE-2026-14214 - The Booking for Appointments and Events Calendar  WordPress plugin before 2.4.4 ...",
-      "body": "The Booking for Appointments and Events Calendar  WordPress plugin before 2.4.4 does not restrict which fields can be written through its customer import, allowing a user with the Amelia Manager role to modify arbitrary columns of any stored user record by supplying them in the import request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14214",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.990000",
-      "created_at": "2026-08-01T21:42:41.368326+00:00"
-    },
-    {
-      "id": "b9f3ddb87b7f66b3",
-      "content_hash": "b9f3ddb87b7f66b33992cf7a1d7ad1a96a2667c238f9e813af3bd732c98b038a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14197",
-      "title": "CVE-2026-14197 - The Fluent Support  WordPress plugin before 2.3.1 does not perform a per-ticket ...",
-      "body": "The Fluent Support  WordPress plugin before 2.3.1 does not perform a per-ticket access check before reassigning a ticket's customer, allowing a restricted support agent to change the assigned customer of any ticket in the system, including tickets outside their granted scope.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14197",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.883000",
-      "created_at": "2026-08-01T21:42:41.368320+00:00"
-    },
-    {
-      "id": "f6ac426ff390b8b4",
-      "content_hash": "f6ac426ff390b8b48e4b3a13d65c6e1612d6c67bd7fd9e9abbb327318cf8937e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14195",
-      "title": "CVE-2026-14195 - The Brizy  WordPress plugin before 2.8.18 does not properly verify authorization...",
-      "body": "The Brizy  WordPress plugin before 2.8.18 does not properly verify authorization on a request handler before returning post content, allowing users with the Contributor role or higher to read the content of arbitrary posts, including other users' private, pending, and draft posts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14195",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.763000",
-      "created_at": "2026-08-01T21:42:41.368314+00:00"
     }
   ]
 }
