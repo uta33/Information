@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:56:44.895917+00:00",
+  "generated_at": "2026-08-03T22:54:10.728979+00:00",
   "items": [
     {
       "id": "3dfc5c75c504b501",
@@ -14,6 +14,48 @@
       "cvss_score": null,
       "published_at": "2026-08-04T00:00:00+00:00",
       "created_at": "2026-07-31T17:16:48.102377+00:00"
+    },
+    {
+      "id": "ecf67bd7486ab7a9",
+      "content_hash": "ecf67bd7486ab7a954d6d647d40b3715b57c109f38f456b549afdcdc75ad17ed",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3149431",
+      "title": "Snap CEO sidesteps Specs preorder questions on Q2 earnings call",
+      "body": "When asked about product-market fit, Spiegel said he believes mass-market consumer adoption won't occur until the end of the decade.",
+      "url": "https://techcrunch.com/2026/08/03/snap-ceo-sidesteps-specs-pre-order-questions-on-q2-earnings-call/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T22:10:58+00:00",
+      "created_at": "2026-08-03T22:54:10.421209+00:00"
+    },
+    {
+      "id": "eac2c7c4f0c9f0ca",
+      "content_hash": "eac2c7c4f0c9f0ca3e07971485b8e894d3a995adf4469aab2e428bc05f38fdcb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
+      "title": "Windows XP 2002 for the Itanium: Unbridled rage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49162086\">Comments</a>",
+      "url": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T22:04:49+00:00",
+      "created_at": "2026-08-03T22:54:10.728237+00:00"
+    },
+    {
+      "id": "4ce2ff2879892b3a",
+      "content_hash": "4ce2ff2879892b3aafef5fec2905d20ffabdd9fcf5a503c847b9e219558eddd7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/",
+      "title": "ZX Spectrum System Tour: Text Mode – Bumbershoot Software",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49161801\">Comments</a>",
+      "url": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T21:39:12+00:00",
+      "created_at": "2026-08-03T22:54:10.728391+00:00"
     },
     {
       "id": "37a934416dd2c566",
@@ -546,6 +588,20 @@
       "cvss_score": null,
       "published_at": "2026-08-03T15:31:32+00:00",
       "created_at": "2026-08-03T17:45:10.127826+00:00"
+    },
+    {
+      "id": "90aae3415d164b42",
+      "content_hash": "90aae3415d164b429c12623c3f612cb7bdea2b5fd6a1b0688186bf1cf15d979b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pandoc.org/twenty-years-of-pandoc.html",
+      "title": "Twenty Years of Pandoc",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49156750\">Comments</a>",
+      "url": "https://pandoc.org/twenty-years-of-pandoc.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T15:04:53+00:00",
+      "created_at": "2026-08-03T22:54:10.728644+00:00"
     },
     {
       "id": "4d95743578e2e14a",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-01T07:16:29.763000",
       "created_at": "2026-08-01T21:42:41.368314+00:00"
-    },
-    {
-      "id": "9a16d239ffcda8ae",
-      "content_hash": "9a16d239ffcda8ae92a03cdab5d5373cb8e048fa05678d7a3f2cffcd2bc2b3ad",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13729",
-      "title": "CVE-2026-13729 - The Podlove Podcast Publisher WordPress plugin before 4.5.3 does not perform non...",
-      "body": "The Podlove Podcast Publisher WordPress plugin before 4.5.3 does not perform nonce validation on some of its administrative create and delete actions, allowing attackers to create rogue records or delete legitimate ones via a forged request (CSRF) when a logged-in administrator is tricked into visiting a crafted page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13729",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.667000",
-      "created_at": "2026-08-01T21:42:41.368308+00:00"
-    },
-    {
-      "id": "ff5387c6cb9fc734",
-      "content_hash": "ff5387c6cb9fc7344ff4f5b06643c174c23d64b2f088b61b929d46bc952ef669",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13725",
-      "title": "CVE-2026-13725 - The Dynamic Pricing With Discount Rules for WooCommerce WordPress plugin before ...",
-      "body": "The Dynamic Pricing With Discount Rules for WooCommerce WordPress plugin before 5.0.0 does not validate a nonce or user capabilities on one of its AJAX actions and reflects unsanitised user input in the response, allowing unauthenticated attackers to perform Reflected Cross-Site Scripting against a victim who is induced to send a crafted request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13725",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.560000",
-      "created_at": "2026-08-01T21:42:41.368302+00:00"
-    },
-    {
-      "id": "aed8c3be051ac784",
-      "content_hash": "aed8c3be051ac784f9e50badb5e752028879223070c448f48ab29342775e930c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13604",
-      "title": "CVE-2026-13604 - The Pixelavo  WordPress plugin before 1.5.4 registers an unauthenticated AJAX ac...",
-      "body": "The Pixelavo  WordPress plugin before 1.5.4 registers an unauthenticated AJAX action, gated only by a nonce that it emits publicly on every front-end page, that forwards client-supplied event data to the configured Facebook Conversions API using the administrator's stored access token. This allows an unauthenticated visitor to inject arbitrary conversion events into the administrator's Facebook ads account and exhaust the configured API quota.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13604",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.457000",
-      "created_at": "2026-08-01T21:42:41.368296+00:00"
-    },
-    {
-      "id": "9ce2382e947d258c",
-      "content_hash": "9ce2382e947d258c9d1c51902c03fe0709c70bd6cb313647a0036c4396647c97",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13596",
-      "title": "CVE-2026-13596 - The Participants Database WordPress plugin before 2.7.8.4 does not properly sani...",
-      "body": "The Participants Database WordPress plugin before 2.7.8.4 does not properly sanitize and escape a user-supplied parameter before using it in a SQL query, allowing unauthenticated attackers to perform SQL injection attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13596",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:29.347000",
-      "created_at": "2026-08-01T21:42:41.368290+00:00"
     }
   ]
 }
