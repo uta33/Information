@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-03T23:58:23.401096+00:00",
+  "generated_at": "2026-08-04T02:13:07.927120+00:00",
   "items": [
+    {
+      "id": "df6b541336c4b6ef",
+      "content_hash": "df6b541336c4b6ef1154022f14342f2f63998d0acbac21e28b81aa59a33613d7",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
+      "body": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-04T00:17:15+00:00",
+      "created_at": "2026-08-04T02:13:03.683158+00:00"
+    },
     {
       "id": "3dfc5c75c504b501",
       "content_hash": "3dfc5c75c504b501e007a2b91732f9d7e71398d4ae2c68be763b587ae71e7d09",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-03T23:58:01+00:00",
       "created_at": "2026-08-03T23:58:18.085737+00:00"
+    },
+    {
+      "id": "094396db39d24de5",
+      "content_hash": "094396db39d24de5f2cae63f9fd293b5514195b6fd119a786c7244de6e833267",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49162653\">Comments</a>",
+      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T23:24:53+00:00",
+      "created_at": "2026-08-04T02:13:07.926541+00:00"
     },
     {
       "id": "738aa0ce18ba347b",
@@ -842,6 +870,20 @@
       "created_at": "2026-08-03T15:35:43.840541+00:00"
     },
     {
+      "id": "ba57facae467d2a9",
+      "content_hash": "ba57facae467d2a90ae6b13c842907df9b7c68e15cde2c106cb72e10007ddbd6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://leoaido.com/how-llms-watch-video/",
+      "title": "Frame selection is the whole game: notes on making LLMs watch video",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49155555\">Comments</a>",
+      "url": "https://leoaido.com/how-llms-watch-video/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T13:28:10+00:00",
+      "created_at": "2026-08-04T02:13:07.926761+00:00"
+    },
+    {
       "id": "952acbdc37ea463f",
       "content_hash": "952acbdc37ea463fedcfe4403bbf9fceba307b4afe8f7a9bfc2a970d177acc8a",
       "source_name": "Hacker News (Best)",
@@ -1316,6 +1358,34 @@
       "cvss_score": null,
       "published_at": "2026-08-03T03:25:00+00:00",
       "created_at": "2026-08-03T08:59:20.347259+00:00"
+    },
+    {
+      "id": "81edb2515a156e2a",
+      "content_hash": "81edb2515a156e2ad64a28569a173ca78f00877d1858c34f963f932935b01af8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-20493",
+      "title": "CVE-2026-20493 - In wifi, there is a possible out of bounds write due to a missing bounds check. ...",
+      "body": "In wifi, there is a possible out of bounds write due to a missing bounds check. This could lead to local denial of service if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: BORA00154903; Issue ID: MSV-7575.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20493",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.4,
+      "published_at": "2026-08-03T03:16:44.443000",
+      "created_at": "2026-08-04T02:13:04.570960+00:00"
+    },
+    {
+      "id": "50c2209f382a0807",
+      "content_hash": "50c2209f382a0807ef3e92ceefe8356adfc6e8f1ef841f21e74282c4c0442d6b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-20492",
+      "title": "CVE-2026-20492 - In Audio HAL, there is a possible system becoming unresponsive due to a race con...",
+      "body": "In Audio HAL, there is a possible system becoming unresponsive due to a race condition. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS10960026 (Note: For MT6880, MT6890, MT6990, MT6988) / AUTO00851250 (Note: For MT2735, MT2737); Issue ID: MSV-7583.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20492",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.5,
+      "published_at": "2026-08-03T03:16:44.330000",
+      "created_at": "2026-08-04T02:13:04.570954+00:00"
     },
     {
       "id": "50bd30ecbdf8c13d",
@@ -2828,6 +2898,20 @@
       "cvss_score": null,
       "published_at": "2026-08-03T00:12:16+00:00",
       "created_at": "2026-08-03T01:44:55.838468+00:00"
+    },
+    {
+      "id": "7a2c61d4ce67c84c",
+      "content_hash": "7a2c61d4ce67c84ce308d439a4e003f062e27a31cfba9c6d86fc31b80f7a674e",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/circles",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "body": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "url": "https://openai.com/index/circles",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "created_at": "2026-08-04T02:13:02.920077+00:00"
     },
     {
       "id": "5da761572259fffa",
@@ -4634,6 +4718,20 @@
       "cvss_score": null,
       "published_at": "2026-08-02T02:07:09+00:00",
       "created_at": "2026-08-02T05:15:11.652395+00:00"
+    },
+    {
+      "id": "7204a0274a7f1c24",
+      "content_hash": "7204a0274a7f1c246dd3d11ef6ed00f6178294f555ef10b4a58858191e312c30",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/",
+      "title": "Living in the Math World Means Threading the Needle",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49140370\">Comments</a>",
+      "url": "https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-02T02:03:02+00:00",
+      "created_at": "2026-08-04T02:13:07.926743+00:00"
     },
     {
       "id": "68fd918639986d24",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-01T07:16:31.060000",
       "created_at": "2026-08-01T22:42:34.003670+00:00"
-    },
-    {
-      "id": "1b96e411c4c8ac64",
-      "content_hash": "1b96e411c4c8ac64c53e9a40d4166af7b3a830ead32115be2f449e870549fb0a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14839",
-      "title": "CVE-2026-14839 - The Mapster WP Maps WordPress plugin before 1.24.0 does not perform any authoriz...",
-      "body": "The Mapster WP Maps WordPress plugin before 1.24.0 does not perform any authorization or post-status check on a public REST endpoint, allowing unauthenticated users to retrieve the title and full content of any post regardless of its status, including unpublished (draft, pending, private, and trashed) posts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14839",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.947000",
-      "created_at": "2026-08-01T22:42:34.003664+00:00"
-    },
-    {
-      "id": "996bdf80df3e4fff",
-      "content_hash": "996bdf80df3e4fffd6ebdcaff802588b8929fbfb1b2a840ece7883d4eb736bd6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14836",
-      "title": "CVE-2026-14836 - The Login & Register Forms  WordPress plugin before 3.2.5 does not properly enfo...",
-      "body": "The Login & Register Forms  WordPress plugin before 3.2.5 does not properly enforce the rate limit on its password-reset verification-code flow, keying both the verification code and the per-source attempt counter on an unauthenticated, client-controlled value, allowing unauthenticated attackers to reset the limit at will and brute-force the code to take over any account, including administrators, when the verification-code reset mode is enabled.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14836",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.827000",
-      "created_at": "2026-08-01T22:42:34.003657+00:00"
-    },
-    {
-      "id": "fb02149c6f512882",
-      "content_hash": "fb02149c6f512882df9b5689527fea4612326968d7cd75dd1e53a87a6678ef77",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14823",
-      "title": "CVE-2026-14823 - The Event Tickets and Registration WordPress plugin before 5.29.0.1 does not pro...",
-      "body": "The Event Tickets and Registration WordPress plugin before 5.29.0.1 does not properly verify authorization on some of its seating actions, allowing users with contributor-level access and above to overwrite the seating layout, ticket inventory, and attendee seat assignments of events they do not own.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14823",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.730000",
-      "created_at": "2026-08-01T22:42:34.003650+00:00"
-    },
-    {
-      "id": "92bc0e74f2943de3",
-      "content_hash": "92bc0e74f2943de3846015edf96395f1c55c514a141819bd457a1a50638d1a09",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14822",
-      "title": "CVE-2026-14822 - The Event Tickets and Registration WordPress plugin before 5.29.0.1 does not per...",
-      "body": "The Event Tickets and Registration WordPress plugin before 5.29.0.1 does not perform any authorization check on one of its order-management REST endpoints, allowing unauthenticated users to change the status of existing orders.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14822",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.623000",
-      "created_at": "2026-08-01T22:42:34.003643+00:00"
-    },
-    {
-      "id": "fa74481a95b8789b",
-      "content_hash": "fa74481a95b8789b6e42ec37c290f5d62604c1fd7e890f7e736a2bb9270ba767",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14596",
-      "title": "CVE-2026-14596 - The DynamicKit for Elementor WordPress plugin before 1.0.3 does not validate the...",
-      "body": "The DynamicKit for Elementor WordPress plugin before 1.0.3 does not validate the host of a user-supplied URL used as the base of the password-reset link it emails, allowing unauthenticated attackers to send a target user a legitimately-formatted reset email whose link points to an attacker-controlled host and carries a valid reset key, leading to account takeover when the victim clicks it.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14596",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.517000",
-      "created_at": "2026-08-01T22:42:34.003637+00:00"
-    },
-    {
-      "id": "499b8186531250c3",
-      "content_hash": "499b8186531250c33ac1e591bbd26d2122075b9c61f0edf742c58fa29196bb98",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14561",
-      "title": "CVE-2026-14561 - The Authora : Easy login with mobile number WordPress plugin before 1.7.7 does n...",
-      "body": "The Authora : Easy login with mobile number WordPress plugin before 1.7.7 does not keep its one-time login code confidential, returning the code and a valid verification token in the response of an unauthenticated action, allowing unauthenticated attackers to log in as any user whose registered mobile number they know (including administrators) or to create arbitrary accounts.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14561",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.410000",
-      "created_at": "2026-08-01T21:42:41.368352+00:00"
-    },
-    {
-      "id": "563cdb0ca758aab9",
-      "content_hash": "563cdb0ca758aab915e609d97a12de19922dbe9e626ca50af11a54e787413a5c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14315",
-      "title": "CVE-2026-14315 - The Pixel Tag Manager for WooCommerce  WordPress plugin before 2.2.1 does not pe...",
-      "body": "The Pixel Tag Manager for WooCommerce  WordPress plugin before 2.2.1 does not perform an authorization check on one of its AJAX actions, allowing unauthenticated users to submit forged e-commerce conversion events to the site's configured server-side advertising conversion APIs using the site's stored credentials.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14315",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-01T07:16:30.307000",
-      "created_at": "2026-08-01T21:42:41.368345+00:00"
     }
   ]
 }
