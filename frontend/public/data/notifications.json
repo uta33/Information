@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-07T04:45:49.746976+00:00",
+  "generated_at": "2026-08-07T06:03:22.784057+00:00",
   "items": [
+    {
+      "id": "61f8243d0740aa15",
+      "content_hash": "61f8243d0740aa15894a853804a8d1319c8b52bbd4c8e8f9c3cde203d114bf35",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+      "title": "Framework discloses data breach via Metabase 0-day",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49206130\">Comments</a>",
+      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-07T05:17:57+00:00",
+      "created_at": "2026-08-07T06:03:22.783737+00:00"
+    },
+    {
+      "id": "46b783729301aeb9",
+      "content_hash": "46b783729301aeb90a4d7d409bc3acdedc9ea25886676edffe1eb8924fe7cc65",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+      "title": "Anthropic CEO reportedly worried new hires only care about money",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49206115\">Comments</a>",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T05:15:27+00:00",
+      "created_at": "2026-08-07T06:03:22.783361+00:00"
+    },
     {
       "id": "dcc4642f070804ca",
       "content_hash": "dcc4642f070804ca4ed9f6a9c5aa4e30769b85ad0f9a20770ab30d1c7f4e6829",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-05T07:41:00+00:00",
       "created_at": "2026-08-05T10:22:54.369924+00:00"
-    },
-    {
-      "id": "6c002c09d1b819bf",
-      "content_hash": "6c002c09d1b819bf4be6120709cf8e01743a419bb87a0b5b0da1a175bc16a808",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026939.html",
-      "title": "langflowにおけるユーザ制御の鍵による認証回避に関する脆弱性",
-      "body": "IBM Langflow OSS バージョン 1.0.0 から 1.10.1 では、認証済みユーザーがログ取得および認証不要のビルドエンドポイントにおける不適切なアクセス制御を通じて、他のユーザーのビルドジョブにアクセスし、操作を行うことが可能となっています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026939.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T07:41:00+00:00",
-      "created_at": "2026-08-05T10:22:54.369939+00:00"
-    },
-    {
-      "id": "c0967cd23a7ff589",
-      "content_hash": "c0967cd23a7ff5894151512d27d60f395eaa1b662c89e837dea07e0b640dfcd0",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026938.html",
-      "title": "langflowにおけるコードインジェクションの脆弱性",
-      "body": "IBM Langflow OSS バージョン 1.0.0 から 1.10.0 までにおいて、ユーザー入力コードの不適切な制御が原因で、リモートの攻撃者がシステム上に任意のコードを注入できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-026938.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T07:41:00+00:00",
-      "created_at": "2026-08-05T10:22:54.369954+00:00"
     }
   ]
 }
