@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-07T19:42:37.799103+00:00",
+  "generated_at": "2026-08-07T20:27:23.242619+00:00",
   "items": [
+    {
+      "id": "855280375be38cfc",
+      "content_hash": "855280375be38cfc602dcfbf8cbed122e23856e7b713cb79fcd05f46458a60d6",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "body": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-07T20:14:46+00:00",
+      "created_at": "2026-08-07T20:27:19.185648+00:00"
+    },
     {
       "id": "82aa52828476aba6",
       "content_hash": "82aa52828476aba693693c3d299393d505e58633a7d8681fe412edfafce77d04",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T18:59:08+00:00",
       "created_at": "2026-08-07T19:42:37.798577+00:00"
+    },
+    {
+      "id": "43b7bef355adf53d",
+      "content_hash": "43b7bef355adf53d6ced09abd7eb3799de542c32002054b434e61b2cebd0ebcd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/xoreaxeaxeax/repsych",
+      "title": "Psychological Warfare in Reverse Engineering",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49214775\">Comments</a>",
+      "url": "https://github.com/xoreaxeaxeax/repsych",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T18:51:45+00:00",
+      "created_at": "2026-08-07T20:27:23.242009+00:00"
     },
     {
       "id": "26794541bdde5419",
@@ -154,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T17:56:20+00:00",
       "created_at": "2026-08-07T18:37:11.403822+00:00"
+    },
+    {
+      "id": "c9a8aabf17128356",
+      "content_hash": "c9a8aabf1712835642cea1572845de153b10fec8674701830a6e42f90d6a2827",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theclaudyssey.com/",
+      "title": "The Claudyssey: A line-for-line translation of Homer's Odyssey by Claude Fable 5",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49213985\">Comments</a>",
+      "url": "https://theclaudyssey.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T17:55:14+00:00",
+      "created_at": "2026-08-07T20:27:23.242080+00:00"
     },
     {
       "id": "2bc31b644b57aa1f",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-05T19:30:19+00:00",
       "created_at": "2026-08-05T20:55:15.198360+00:00"
-    },
-    {
-      "id": "97281c79eb862693",
-      "content_hash": "97281c79eb862693d8310e65516114335ce0cd6a2f9199bc5f0b6af425b7a90c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "title": "Muse Code and Muse Spark 1.2",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49187575\">Comments</a>",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T19:15:52+00:00",
-      "created_at": "2026-08-05T20:55:15.487470+00:00"
-    },
-    {
-      "id": "98a99208ee9617e2",
-      "content_hash": "98a99208ee9617e22a0b0f805edaed74e26391807edd29e42b9616872bb10cc4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://sagredo.dev/projects/sula/",
-      "title": "Sula: A Gemini protocol server written in Scryer Prolog",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49187259\">Comments</a>",
-      "url": "https://sagredo.dev/projects/sula/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T18:52:58+00:00",
-      "created_at": "2026-08-05T20:55:15.487203+00:00"
-    },
-    {
-      "id": "467babafb7ccc14a",
-      "content_hash": "467babafb7ccc14ad1e0494b3459efa69ab54a89482f4f02542fc43e4ad12512",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://zed.dev/deltadb",
-      "title": "Zed DeltaDB",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49187256\">Comments</a>",
-      "url": "https://zed.dev/deltadb",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T18:52:54+00:00",
-      "created_at": "2026-08-05T19:11:09.054843+00:00"
     }
   ]
 }
