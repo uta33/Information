@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-07T21:26:43.504266+00:00",
+  "generated_at": "2026-08-07T22:23:22.122836+00:00",
   "items": [
+    {
+      "id": "5caaa5df7c05b290",
+      "content_hash": "5caaa5df7c05b2903003b023c125678b601918af618c6934fcc19ade5944973d",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151218",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "body": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T21:30:11+00:00",
+      "created_at": "2026-08-07T22:23:21.921509+00:00"
+    },
     {
       "id": "31c7cfe83358bac8",
       "content_hash": "31c7cfe83358bac848618b46f844da39002dc8199d96c48e2f3085f264e29782",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T21:20:00+00:00",
       "created_at": "2026-08-07T21:26:43.398882+00:00"
+    },
+    {
+      "id": "1d0ef92cde18fe8c",
+      "content_hash": "1d0ef92cde18fe8c1ba4e14b9cfadcedea58d8e221721d94b07a7d8cc5841baa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49216362\">Comments</a>",
+      "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T21:19:57+00:00",
+      "created_at": "2026-08-07T22:23:22.122202+00:00"
     },
     {
       "id": "dab23b2c3d5332b0",
@@ -112,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T18:51:45+00:00",
       "created_at": "2026-08-07T20:27:23.242009+00:00"
+    },
+    {
+      "id": "04d6328009718f70",
+      "content_hash": "04d6328009718f702f861c315f7f2568fe5fad1da6f7f74b0cb2936309e8bd08",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/xoreaxeaxeax/repsych",
+      "title": "Psychological Warfare in Reverse Engineering (2015)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49214775\">Comments</a>",
+      "url": "https://github.com/xoreaxeaxeax/repsych",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T18:51:45+00:00",
+      "created_at": "2026-08-07T22:23:22.122252+00:00"
     },
     {
       "id": "26794541bdde5419",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-05T20:48:56+00:00",
       "created_at": "2026-08-05T20:55:15.198275+00:00"
-    },
-    {
-      "id": "23b3767a24a6122f",
-      "content_hash": "23b3767a24a6122f6e802fa17a4d01d920efe47994454ef28ecb9561f7c3ce25",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150270",
-      "title": "How Lightspeed found its newest hire … via Instagram DM",
-      "body": "Lightspeed partners Josh Machiz and Claire Zau stopped by the Equity studio to talk about the strategies behind their growing social media presence and their podcast, Lightwork.",
-      "url": "https://techcrunch.com/2026/08/05/how-lightspeed-found-its-newest-hire-via-instagram-dm/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T20:48:56+00:00",
-      "created_at": "2026-08-05T22:04:25.553285+00:00"
-    },
-    {
-      "id": "eadfcd4b21dc6c31",
-      "content_hash": "eadfcd4b21dc6c314fa355ea612cae76842170140fc1072d41760a0282d356c0",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?post_type=tc_video&p=3150410",
-      "title": "Why Lightspeed is going all-in on creator-led venture capital",
-      "body": "Venture firms are turning to creators to build trust with the next generation of founders before a check is ever written.&#160;It&#8217;s&#160;a trend&#160;that&#8217;s&#160;been building with&#160;a16z&#8217;s acquisition&#160;of Erik Torenberg’s Turpentine podcast and&#160;OpenAI&#8217;s acquisition&#160;of TBPN.&#160;Lightspeed Venture Partners&#160;just made its own notable hire in that vein, bringing on&#160;Claire Zau, a seed investor with a major following on Instagram and [&#8230;]",
-      "url": "https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T20:48:54+00:00",
-      "created_at": "2026-08-05T20:55:15.198304+00:00"
-    },
-    {
-      "id": "fd9cba6d57a293b7",
-      "content_hash": "fd9cba6d57a293b72987e81e2e464f1ec23565189c11e6ddd67a46b71c797fa5",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150282",
-      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-      "body": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
-      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-08-05T20:05:00+00:00",
-      "created_at": "2026-08-05T20:55:15.198326+00:00"
     }
   ]
 }
