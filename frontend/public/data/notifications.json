@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-07T20:27:23.242619+00:00",
+  "generated_at": "2026-08-07T21:26:43.504266+00:00",
   "items": [
+    {
+      "id": "31c7cfe83358bac8",
+      "content_hash": "31c7cfe83358bac848618b46f844da39002dc8199d96c48e2f3085f264e29782",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3149296",
+      "title": "Wacom’s Movinkpad 11 is a fun and mid-priced entry point for digital artists",
+      "body": "The Movinkpad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
+      "url": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T21:20:00+00:00",
+      "created_at": "2026-08-07T21:26:43.398882+00:00"
+    },
+    {
+      "id": "dab23b2c3d5332b0",
+      "content_hash": "dab23b2c3d5332b0c59b039d86079ef6805bab01d94d3eebb1c912a011110c30",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151288",
+      "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
+      "body": "Researchers found common points of failure, like software used to organize and display web content, could have allowed hackers to run riot through government websites.",
+      "url": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T21:00:08+00:00",
+      "created_at": "2026-08-07T21:26:43.398916+00:00"
+    },
+    {
+      "id": "e7c6802ac4e3c530",
+      "content_hash": "e7c6802ac4e3c530d24a14ec0cdfc7259dee52a22464e12e93ad4f8d70a2371d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://chasa.io/",
+      "title": "Chasa",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49215762\">Comments</a>",
+      "url": "https://chasa.io/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T20:23:26+00:00",
+      "created_at": "2026-08-07T21:26:43.503686+00:00"
+    },
     {
       "id": "855280375be38cfc",
       "content_hash": "855280375be38cfc602dcfbf8cbed122e23856e7b713cb79fcd05f46458a60d6",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T20:14:46+00:00",
       "created_at": "2026-08-07T20:27:19.185648+00:00"
+    },
+    {
+      "id": "62a0610a8276a56a",
+      "content_hash": "62a0610a8276a56ae41e5c00340ceeca05db14be6bc34d8bef63d9c5362e63b8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.uawire.org/former-ukrainian-defense-minister-mykhailo-fedorov-reveals-struggles-to-secure-patriot-missiles-and-western-support",
+      "title": "Mykhailo Fedorov reveals struggle to secure Patriot missiles and Western support",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49215292\">Comments</a>",
+      "url": "https://www.uawire.org/former-ukrainian-defense-minister-mykhailo-fedorov-reveals-struggles-to-secure-patriot-missiles-and-western-support",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T19:38:05+00:00",
+      "created_at": "2026-08-07T21:26:43.504011+00:00"
     },
     {
       "id": "82aa52828476aba6",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-05T20:05:00+00:00",
       "created_at": "2026-08-05T20:55:15.198326+00:00"
-    },
-    {
-      "id": "75135ed543185dfc",
-      "content_hash": "75135ed543185dfc0ecdd6f9ce200dff440964edd66121a8785ef104d32ede84",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
-      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
-      "body": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-05T19:55:25+00:00",
-      "created_at": "2026-08-05T20:55:11.054081+00:00"
-    },
-    {
-      "id": "600765f508df0133",
-      "content_hash": "600765f508df0133ae5e8807071236d49cfc4d48a6428d1665000b2bff3eae75",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://runarcn.no/android-to-linux/",
-      "title": "I'm switching my phone from Android to Linux",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49188022\">Comments</a>",
-      "url": "https://runarcn.no/android-to-linux/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T19:50:13+00:00",
-      "created_at": "2026-08-05T20:55:15.487186+00:00"
-    },
-    {
-      "id": "aa5466c00c0745be",
-      "content_hash": "aa5466c00c0745be58296b993342c617174b7ba97107fdc9edbee88d8c71610b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49187977\">Comments</a>",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T19:47:26+00:00",
-      "created_at": "2026-08-05T20:55:15.487237+00:00"
-    },
-    {
-      "id": "7256c5e007f60fce",
-      "content_hash": "7256c5e007f60fce186d2febf1c16bace6b89a4003c0989275c81fa63e7069fc",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150299",
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "body": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
-      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-05T19:30:19+00:00",
-      "created_at": "2026-08-05T20:55:15.198360+00:00"
     }
   ]
 }
