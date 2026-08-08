@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-08T02:48:29.315346+00:00",
+  "generated_at": "2026-08-08T04:02:24.621862+00:00",
   "items": [
+    {
+      "id": "a9e6b499d0ebcee6",
+      "content_hash": "a9e6b499d0ebcee6932bedc5cd3f080740041d7fb7c67a38cb8a6ba8d35d0bf9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "title": "Mythos social engineering AISI INC-2026-07-28-01",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49218707\">Comments</a>",
+      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T03:41:56+00:00",
+      "created_at": "2026-08-08T04:02:24.621470+00:00"
+    },
     {
       "id": "d4982ca86bfca613",
       "content_hash": "d4982ca86bfca61369b5bddfe11d0bc69a071d96b17c7aee1e56f228e8a8ffee",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T05:37:00+00:00",
       "created_at": "2026-08-06T10:25:10.803379+00:00"
-    },
-    {
-      "id": "29a23f71a113012e",
-      "content_hash": "29a23f71a113012efb5d8b52e8a1bf7b6b847fcbc5554b536d3b2d2f74467fdc",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027093.html",
-      "title": "MongoDB Inc.のMongoDBにおける型の取り違えに関する脆弱性",
-      "body": "MongoDBのサーバーサイドJavaScriptエンジンにおけるBSONシリアライズ時のDBPointerオブジェクトの不適切な処理により、内部プロセスメモリの内容がクライアントに返されるデータに含まれてしまう可能性があります。これは、サーバーサイドJavaScriptを使用する環境に影響を与え、意図しない情報漏えいを引き起こします。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027093.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:36:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803394+00:00"
     }
   ]
 }
