@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:25:31.177954+00:00",
+  "generated_at": "2026-08-08T10:19:17.085646+00:00",
   "items": [
     {
       "id": "fbb7ce9078a1a532",
@@ -548,6 +548,34 @@
       "created_at": "2026-08-07T18:37:11.403789+00:00"
     },
     {
+      "id": "13db7e9fb3eaac30",
+      "content_hash": "13db7e9fb3eaac308a980f79eb75316eeae89bb37b942b7c7b88b3f011469fe8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17593",
+      "title": "CVE-2026-17593 - An account holding the nexus:settings:update permission in Nexus Repository 3 (o...",
+      "body": "An account holding the nexus:settings:update permission in Nexus Repository 3 (or the equivalent nexus:settings permission in the legacy Nexus Repository 2) could submit arbitrary values as realm identifiers through an internal configuration API that did not validate them against the set of registered realms. Because unrecognized entries were persisted and re-evaluated on every realm load via a legacy code path, this could result in unintended code executing inside the Nexus Repository process, and in some cases a persistent authentication lockout that was not visible through the administrative UI.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17593",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T17:16:59.167000",
+      "created_at": "2026-08-08T10:19:14.186199+00:00"
+    },
+    {
+      "id": "2cfe18207d59aa2e",
+      "content_hash": "2cfe18207d59aa2ee6c53e5fa00744a71482c99d7898b1ce9d2597118273aa67",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14644",
+      "title": "CVE-2026-14644 - Nexus Repository 3 contained a privilege escalation vulnerability in the REST pr...",
+      "body": "Nexus Repository 3 contained a privilege escalation vulnerability in the REST privileges API. An authenticated user with permission to manage privileges could, under certain role configurations, escalate their own access to full administrator by exploiting a type-confusion flaw in the privilege update endpoint.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14644",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T17:16:57.030000",
+      "created_at": "2026-08-08T10:19:14.186194+00:00"
+    },
+    {
       "id": "59566940aa7a8ce7",
       "content_hash": "59566940aa7a8ce799cebe91838ab4c6dc102834e07fa8bc621cd0ec1ea17422",
       "source_name": "Hacker News (Best)",
@@ -574,6 +602,62 @@
       "cvss_score": null,
       "published_at": "2026-08-07T16:39:36+00:00",
       "created_at": "2026-08-07T17:38:45.793463+00:00"
+    },
+    {
+      "id": "7c228a7f32511f8a",
+      "content_hash": "7c228a7f32511f8a7990c11200d8767fcf88f0d27a4dce2b880d83e01e425dfb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66059",
+      "title": "CVE-2026-66059 - Frappe is a full-stack web application framework. Prior to 16.20.0 and 15.112.0,...",
+      "body": "Frappe is a full-stack web application framework. Prior to 16.20.0 and 15.112.0, a field-level permissions bypass exposes restricted DocType fields. This issue is fixed in versions 16.23.0 and 15.112.0.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66059",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T16:17:26.513000",
+      "created_at": "2026-08-08T10:19:14.186189+00:00"
+    },
+    {
+      "id": "7d5807714cf4a17c",
+      "content_hash": "7d5807714cf4a17c91b3c45618676ab89efec380f945550243f472bebaf8b8e4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-62996",
+      "title": "CVE-2026-62996 - Smarty is a template engine for PHP, facilitating the separation of presentation...",
+      "body": "Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. From 5.0.0 until 5.8.4, Smarty's stream: resource-name handling does not adequately restrict which PHP stream wrappers and filter chains can be referenced from a template, allowing a php://filter-wrapped resource name to be used to read the contents of arbitrary local files accessible to the PHP process. An attacker able to author or influence a template's resource reference could exploit this to disclose sensitive file contents outside the intended template/config scope. This issue is fixed in version 5.8.4.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62996",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T16:17:26",
+      "created_at": "2026-08-08T10:19:14.186184+00:00"
+    },
+    {
+      "id": "64f422f528c0844b",
+      "content_hash": "64f422f528c0844bdc06a60b1df24ea4e2ed91bbd1d059cb883b31ced222721e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-62992",
+      "title": "CVE-2026-62992 - Smarty is a template engine for PHP, facilitating the separation of presentation...",
+      "body": "Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. Prior to 5.8.2 (and 4.5.7 on the 4.x line), Security::_checkDir() does not fully resolve symbolic links before validating that a requested path lies within a configured secure directory. An attacker able to place or reference a symlink within a directory Smarty treats as trusted (e.g., a template or config directory) could use it to point outside the intended secure directory, bypassing the containment check and reading arbitrary files accessible to the PHP process. This issue is fixed in versions 5.8.2 and 4.5.7.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62992",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T16:17:25.833000",
+      "created_at": "2026-08-08T10:19:14.186180+00:00"
+    },
+    {
+      "id": "75edd06b3bcb9af2",
+      "content_hash": "75edd06b3bcb9af21d60da3661f42fc2c9dca5ffff69b86ebbb7f7a1187180d8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-48093",
+      "title": "CVE-2026-48093 - The Code Embed WordPress plugin prior to version 2.6.1 is vulnerable to stored C...",
+      "body": "The Code Embed WordPress plugin prior to version 2.6.1 is vulnerable to stored Cross-Site Scripting (XSS) through the external URL embed feature in post content. The vulnerable code scans rendered content for URL embed tokens, fetches the remote URL, and inserts the remote response body into the page without output sanitization or an `unfiltered_html` capability check. This allows a Contributor attacker to submit a pending post containing an inert-looking URL token that executes attacker-controlled JavaScript when an Administrator or Editor previews or reviews the post. This is distinct from CVE-2026-2512, which affected custom field meta values up to version 2.5.1. This vector affects version 2.6 and uses the documented external URL embed feature in post content. This particular issue is patched in version 2.6.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48093",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-08-07T16:17:24.893000",
+      "created_at": "2026-08-08T10:19:14.186175+00:00"
     },
     {
       "id": "339ed2d7720039ba",
@@ -6916,90 +7000,6 @@
       "cvss_score": 9.1,
       "published_at": "2026-08-06T07:16:26.990000",
       "created_at": "2026-08-07T02:02:04.576199+00:00"
-    },
-    {
-      "id": "3ab7f469c2ad4286",
-      "content_hash": "3ab7f469c2ad428620b8bb362260e02d00727f01df4d3329195b97b73baa7788",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11588",
-      "title": "CVE-2026-11588 - The EONSR AEO Agent WordPress plugin through 3.7.9 does not perform any authoris...",
-      "body": "The EONSR AEO Agent WordPress plugin through 3.7.9 does not perform any authorisation check on one of its REST API routes and disables HTML sanitisation before saving the post, allowing unauthenticated attackers to create administrator-attributed published posts containing arbitrary web scripts that execute in the browser of any visitor, including administrators (Stored XSS).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11588",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-08-06T07:16:26.873000",
-      "created_at": "2026-08-07T02:02:04.576194+00:00"
-    },
-    {
-      "id": "fbc9819bb95a6bc3",
-      "content_hash": "fbc9819bb95a6bc3847cf49482c4a67ef9e59180a030e095d9e49f78aaf09b7d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15678",
-      "title": "CVE-2025-15678 - The Nexter Blocks  WordPress plugin before 5.0.2 does not sanitize uploaded SVG ...",
-      "body": "The Nexter Blocks  WordPress plugin before 5.0.2 does not sanitize uploaded SVG files and allows SVG uploads for any user able to upload files (Author by default), allowing them to upload a file containing malicious JavaScript that executes when the file is accessed, leading to Stored Cross-Site Scripting.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15678",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-08-06T07:16:26.660000",
-      "created_at": "2026-08-07T02:02:04.576190+00:00"
-    },
-    {
-      "id": "90df26493427c635",
-      "content_hash": "90df26493427c6350f1617387fe3eb12dc71a6d45b6183c4aac1941a7d0645d9",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-      "body": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",
-      "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-08-06T06:51:43+00:00",
-      "created_at": "2026-08-06T10:25:05.219484+00:00"
-    },
-    {
-      "id": "5090f359af018b41",
-      "content_hash": "5090f359af018b41894e6c0d0dbbe2c956566401ef1246e089abd0d4e3ead551",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/",
-      "title": "Let's all meet up in the Y2K",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49193314\">Comments</a>",
-      "url": "https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T06:43:38+00:00",
-      "created_at": "2026-08-06T10:25:11.134739+00:00"
-    },
-    {
-      "id": "25a45f9bf014aa6f",
-      "content_hash": "25a45f9bf014aa6f7aec10d28366aa8e892ede14d90255fcf0788faa414fe2ee",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
-      "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49193173\">Comments</a>",
-      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T06:24:42+00:00",
-      "created_at": "2026-08-06T12:49:07.296606+00:00"
-    },
-    {
-      "id": "ee224c4082adb71c",
-      "content_hash": "ee224c4082adb71c5209495259ff7e4cd6a30cc8857d34aded435e50e9364b19",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19000",
-      "title": "CVE-2026-19000 - A vulnerability was identified in JeecgBoot up to 3.9.2. The affected element is...",
-      "body": "A vulnerability was identified in JeecgBoot up to 3.9.2. The affected element is an unknown function of the file /airag/chat/send of the component Anonymous Chat Attachment Parser. The manipulation leads to server-side request forgery. The attack can be initiated remotely. The exploit is publicly available and might be used. A fix is planned for the upcoming release.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19000",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-08-06T06:16:32.993000",
-      "created_at": "2026-08-07T02:02:04.576185+00:00"
     }
   ]
 }
