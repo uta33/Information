@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-08T21:18:08.490834+00:00",
+  "generated_at": "2026-08-08T22:15:55.245941+00:00",
   "items": [
+    {
+      "id": "f20d2dd59f86ace7",
+      "content_hash": "f20d2dd59f86ace7da572394486b98621ecee81605f5fc8aa71c70fce397df03",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151379",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "body": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-08T21:24:02+00:00",
+      "created_at": "2026-08-08T22:15:55.149642+00:00"
+    },
+    {
+      "id": "07460be82cd36a7a",
+      "content_hash": "07460be82cd36a7a8c838797eeabea47772c9e5da02f7f501a0c4d92d8c8edac",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
+      "title": "Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49225918\">Comments</a>",
+      "url": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T21:07:10+00:00",
+      "created_at": "2026-08-08T22:15:55.245137+00:00"
+    },
+    {
+      "id": "5674102e354eba8f",
+      "content_hash": "5674102e354eba8f54bd3141d12ec6d6780ee4af630efeb531dea76994501c09",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf",
+      "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49225676\">Comments</a>",
+      "url": "https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T20:37:24+00:00",
+      "created_at": "2026-08-08T22:15:55.245524+00:00"
+    },
     {
       "id": "4e3c397d0c6186b8",
       "content_hash": "4e3c397d0c6186b84fcab7297564d38a17a0d1a5095a40e26f6be0a65206ff96",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-08-06T15:17:15.983000",
       "created_at": "2026-08-07T15:42:15.266868+00:00"
-    },
-    {
-      "id": "709a9692019aff62",
-      "content_hash": "709a9692019aff6275d2e45c76df4439938d02a843f2a54b0c0710c377e6543a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65541",
-      "title": "CVE-2026-65541 - Unauthenticated Broken Access Control in Staff Training <= 1.0.7 versions.",
-      "body": "Unauthenticated Broken Access Control in Staff Training <= 1.0.7 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65541",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-08-06T15:17:15.857000",
-      "created_at": "2026-08-07T15:42:15.266861+00:00"
-    },
-    {
-      "id": "8390e91ff21f4187",
-      "content_hash": "8390e91ff21f4187b5b0dac9128a4521ffdf9db2bb9555dc0402a307fa6faa80",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65523",
-      "title": "CVE-2026-65523 - Unauthenticated Insecure Direct Object References (IDOR) in Formidable Forms Sig...",
-      "body": "Unauthenticated Insecure Direct Object References (IDOR) in Formidable Forms Signature Online Contract Automation <= 2.0.1 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65523",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-06T15:17:15.737000",
-      "created_at": "2026-08-07T15:42:15.266855+00:00"
-    },
-    {
-      "id": "6020c5d054b7a974",
-      "content_hash": "6020c5d054b7a974b0d7acc9329c3612110bdc5f35378e1476662cc025280090",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65520",
-      "title": "CVE-2026-65520 - Unauthenticated SQL Injection in WP OAuth Server <= 6.2.0 versions.",
-      "body": "Unauthenticated SQL Injection in WP OAuth Server <= 6.2.0 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65520",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-08-06T15:17:15.607000",
-      "created_at": "2026-08-07T15:42:15.266846+00:00"
     }
   ]
 }
