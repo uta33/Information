@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-08T19:20:12.022208+00:00",
+  "generated_at": "2026-08-08T20:15:31.622698+00:00",
   "items": [
+    {
+      "id": "4e3c397d0c6186b8",
+      "content_hash": "4e3c397d0c6186b84fcab7297564d38a17a0d1a5095a40e26f6be0a65206ff96",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151377",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "body": "NextSlide says its team members are now working on ChatGPT.",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T19:41:13+00:00",
+      "created_at": "2026-08-08T20:15:31.324738+00:00"
+    },
     {
       "id": "ca84780e56839657",
       "content_hash": "ca84780e56839657b62f20238c3b644d58970092aba2736cd8f887a985f5b280",
@@ -140,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T15:55:45+00:00",
       "created_at": "2026-08-08T17:19:15.163307+00:00"
+    },
+    {
+      "id": "3090fbff0abf25d2",
+      "content_hash": "3090fbff0abf25d2f725cc996957257b4d97681b2a0ed1a3eea5477d5610d7aa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://code.claude.com/docs/en/cross-session-messaging",
+      "title": "Message your other Claude Code sessions",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49222824\">Comments</a>",
+      "url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T15:34:49+00:00",
+      "created_at": "2026-08-08T20:15:31.622458+00:00"
     },
     {
       "id": "d46f5783a0bb369c",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T15:10:32+00:00",
       "created_at": "2026-08-06T23:47:31.115942+00:00"
-    },
-    {
-      "id": "b05b047e32e76312",
-      "content_hash": "b05b047e32e7631296110be13ed9798dfc27298a3b137b0ed74845723789cc7a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://abovethelaw.com/2026/08/former-federal-prosecutors-to-senate-stop-confirming-election-deniers-to-the-federal-bench/",
-      "title": "Former Federal Prosecutors to Senate: Stop Confirming Election Deniers as Judges",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49197127\">Comments</a>",
-      "url": "https://abovethelaw.com/2026/08/former-federal-prosecutors-to-senate-stop-confirming-election-deniers-to-the-federal-bench/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T14:25:07+00:00",
-      "created_at": "2026-08-06T15:04:52.613794+00:00"
-    },
-    {
-      "id": "7585cfc9a523c6c7",
-      "content_hash": "7585cfc9a523c6c7f332750a09d6e0218bf69beea142ad4395a5713d2b662779",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://jaapgrolleman.com/degrees-of-wealth/",
-      "title": "Degrees of Wealth",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49197109\">Comments</a>",
-      "url": "https://jaapgrolleman.com/degrees-of-wealth/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T14:23:57+00:00",
-      "created_at": "2026-08-06T15:04:52.613607+00:00"
     }
   ]
 }
