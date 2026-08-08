@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-07T23:23:28.503660+00:00",
+  "generated_at": "2026-08-08T00:45:17.620394+00:00",
   "items": [
+    {
+      "id": "4f9b6ab079d318b9",
+      "content_hash": "4f9b6ab079d318b9c320fd8c5b65c6055e28e6c9fcbb458757884d4d0386cb8b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "title": "Should AI labs be treated like the owners of dangerous animals?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49217629\">Comments</a>",
+      "url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T00:03:31+00:00",
+      "created_at": "2026-08-08T00:45:17.619678+00:00"
+    },
     {
       "id": "0f3f55900f08b9fa",
       "content_hash": "0f3f55900f08b9fa472005f790a6b0fad6285b89dc1ffd0d193e3639674f8794",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T22:48:24+00:00",
       "created_at": "2026-08-07T23:23:28.193595+00:00"
+    },
+    {
+      "id": "c535bdda217e7554",
+      "content_hash": "c535bdda217e7554e949b429d1541676c8e4aba5c5349795dfdeb0461275a7e6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://genesisopenmodels.anl.gov/",
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49216946\">Comments</a>",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T22:24:27+00:00",
+      "created_at": "2026-08-08T00:45:17.619557+00:00"
     },
     {
       "id": "5caaa5df7c05b290",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T21:20:00+00:00",
       "created_at": "2026-08-07T21:26:43.398882+00:00"
+    },
+    {
+      "id": "adfa1bb928f6e132",
+      "content_hash": "adfa1bb928f6e132346032e549dc67ed2c7b3c4de05f8a2d3f854663f3f3becf",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3149296",
+      "title": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists",
+      "body": "The MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
+      "url": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T21:20:00+00:00",
+      "created_at": "2026-08-08T00:45:17.476549+00:00"
     },
     {
       "id": "1d0ef92cde18fe8c",
@@ -238,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T18:25:17+00:00",
       "created_at": "2026-08-07T19:42:37.798383+00:00"
+    },
+    {
+      "id": "b09fd3721d9e6139",
+      "content_hash": "b09fd3721d9e613978d10a1ef412df24eb6349307fc6b9f6f9e8bbd04ab003ff",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "title": "Managing AI Coding Costs at Scale",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49214468\">Comments</a>",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T18:25:17+00:00",
+      "created_at": "2026-08-08T00:45:17.619657+00:00"
     },
     {
       "id": "0eb58255e484206d",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T01:54:00+00:00",
       "created_at": "2026-08-06T04:53:39.547018+00:00"
-    },
-    {
-      "id": "db6ad5afe792b744",
-      "content_hash": "db6ad5afe792b7448315deaca886b2065c3323db47c7817b16859fa80a193935",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.realtor.com/news/real-estate-news/virginia-data-center-electric-infrastructure-spanberger/",
-      "title": "Virginia Orders Data Centers to Pay for Dedicated New Electric Infrastructure",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49191455\">Comments</a>",
-      "url": "https://www.realtor.com/news/real-estate-news/virginia-data-center-electric-infrastructure-spanberger/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T01:50:18+00:00",
-      "created_at": "2026-08-06T07:31:10.292827+00:00"
-    },
-    {
-      "id": "9ca10460274c160a",
-      "content_hash": "9ca10460274c160adfc2cb7e3682ba235677535538f3de15854bbcfcb4181376",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "title": "LLMs won't break symmetric crypto",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49191365\">Comments</a>",
-      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T01:39:06+00:00",
-      "created_at": "2026-08-06T04:53:39.767593+00:00"
-    },
-    {
-      "id": "b6a59ae5f9adcfc9",
-      "content_hash": "b6a59ae5f9adcfc956824792eae666f6c44314428440c06b0068c0a180b84539",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18974",
-      "title": "CVE-2026-18974 - A vulnerability was found in heshengtao super-agent-party up to 0.4.1. This affe...",
-      "body": "A vulnerability was found in heshengtao super-agent-party up to 0.4.1. This affects the function get_file_content of the file server.py of the component execute_tool_manually Endpoint. The manipulation of the argument tool_name/tool_params results in information disclosure. The attack can be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18974",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T01:16:29.587000",
-      "created_at": "2026-08-06T23:47:27.089138+00:00"
-    },
-    {
-      "id": "d8d16938844291a0",
-      "content_hash": "d8d16938844291a02ff00a134f3da5427408542a09bdbb4bdbe3727ddccd2d47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18973",
-      "title": "CVE-2026-18973 - A vulnerability has been found in heshengtao super-agent-party up to 0.4.1. The ...",
-      "body": "A vulnerability has been found in heshengtao super-agent-party up to 0.4.1. The impacted element is the function sanitize_proxy_url of the file server.py of the component extension_proxy Route. The manipulation of the argument url leads to server-side request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18973",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-08-06T01:16:29.410000",
-      "created_at": "2026-08-06T23:47:27.089131+00:00"
     }
   ]
 }
