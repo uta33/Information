@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-08T11:18:46.175128+00:00",
+  "generated_at": "2026-08-08T12:22:56.004989+00:00",
   "items": [
+    {
+      "id": "2d6c07b4e8bcc6a5",
+      "content_hash": "2d6c07b4e8bcc6a5652b1765258cbde66b5ca74c631084d259aa651952d07237",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html",
+      "title": "The USSR in 100 Photographs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49221041\">Comments</a>",
+      "url": "https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T12:07:25+00:00",
+      "created_at": "2026-08-08T12:22:56.004128+00:00"
+    },
+    {
+      "id": "fdc20eec85e5fabc",
+      "content_hash": "fdc20eec85e5fabc930ee03dca7e596ad676296ef4f5d2913689db71731b50b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49220609\">Comments</a>",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T10:57:44+00:00",
+      "created_at": "2026-08-08T12:22:56.004094+00:00"
+    },
     {
       "id": "7b4396968d102416",
       "content_hash": "7b4396968d102416be2ce608fc6fea7008895337e0e2d2bdc43046f107ddb38e",
@@ -56,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T09:58:41+00:00",
       "created_at": "2026-08-08T11:18:46.174385+00:00"
+    },
+    {
+      "id": "d4fbeb408cf61076",
+      "content_hash": "d4fbeb408cf610766663f535315d13ac4cc380ee658f5a954c18fd84ce150fdd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49220126\">Comments</a>",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T09:18:50+00:00",
+      "created_at": "2026-08-08T12:22:56.004178+00:00"
     },
     {
       "id": "fbb7ce9078a1a532",
@@ -504,6 +546,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T18:25:17+00:00",
       "created_at": "2026-08-08T00:45:17.619657+00:00"
+    },
+    {
+      "id": "a087b55288454c45",
+      "content_hash": "a087b55288454c45f5aeb6241536df60b1d8cbfef899aaf69648324cc37c2732",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19229",
+      "title": "CVE-2026-19229 - A vulnerability was determined in SourceCodester Online Clothing Store. Affected...",
+      "body": "A vulnerability was determined in SourceCodester Online Clothing Store. Affected by this issue is some unknown functionality of the file /_notes/ of the component Dreamweaver Metadata Files. Executing a manipulation can lead to file and directory information exposure. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19229",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-07T18:17:13.223000",
+      "created_at": "2026-08-08T12:22:52.196156+00:00"
     },
     {
       "id": "e34a6bef1a85e0b1",
@@ -6944,62 +7000,6 @@
       "cvss_score": 4.9,
       "published_at": "2026-08-06T08:16:27.687000",
       "created_at": "2026-08-07T04:45:46.674677+00:00"
-    },
-    {
-      "id": "451407ed40387466",
-      "content_hash": "451407ed40387466e52fa3196951186540033369b3ecc97a244d43e841bd24a0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-6832",
-      "title": "CVE-2024-6832 - The account locking mechanism fails to trigger when secondary user stores are in...",
-      "body": "The account locking mechanism fails to trigger when secondary user stores are inaccessible. The software does not maintain a consistent state for account locking if it cannot reach all configured user stores, allowing an attacker to repeatedly attempt authentication with invalid credentials without triggering the lockout mechanism for users within active stores.\n\nWhen the account locking mechanism is bypassed due to the inaccessibility of secondary user stores, users in accessible user stores are left vulnerable to brute force attacks. A malicious actor can exploit this by attempting numerous invalid password combinations against a user account without the expected account lockout consequence.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6832",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-08-06T08:16:27.533000",
-      "created_at": "2026-08-07T02:02:04.576344+00:00"
-    },
-    {
-      "id": "2295814b49e060a3",
-      "content_hash": "2295814b49e060a3ada76d0181cf6bd50aa92e5e88cd8721bb116310f25b4d95",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-10302",
-      "title": "CVE-2024-10302 - The user self-signup flow in multiple WSO2 products fails to adequately validate...",
-      "body": "The user self-signup flow in multiple WSO2 products fails to adequately validate user-supplied input. This weakness allows arbitrary unvalidated data to be included within user claims, which are then used by downstream processes.\n\nAllowing unvalidated input into user claims can lead to various security risks. Malicious or malformed data injected during signup could be processed by other parts of the application, potentially enabling attacks such as content manipulation, redirection, user interface inconsistencies, unauthorized actions, and data exposure. The actual impact depends on how the compromised data is consumed and the privileges associated with the affected users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10302",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.0,
-      "published_at": "2026-08-06T08:16:26.920000",
-      "created_at": "2026-08-07T02:02:04.576338+00:00"
-    },
-    {
-      "id": "3a6f2a568b4bf43b",
-      "content_hash": "3a6f2a568b4bf43b7758c84c4fa854d0528989d473ab8bb4d1060ca88b52fdfe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7355",
-      "title": "CVE-2023-7355 - Rejected reason: Erroneously reserved under wrong year by automation defect; nev...",
-      "body": "Rejected reason: Erroneously reserved under wrong year by automation defect; never assigned.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7355",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T08:16:26.850000",
-      "created_at": "2026-08-07T02:02:04.576334+00:00"
-    },
-    {
-      "id": "e0041bdf9a4a4bc9",
-      "content_hash": "e0041bdf9a4a4bc9e94fd0cc1128e4fc7ae4d807282c3196d1eddf2cfe1e7cd7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7354",
-      "title": "CVE-2023-7354 - Rejected reason: Erroneously reserved under wrong year by automation defect; nev...",
-      "body": "Rejected reason: Erroneously reserved under wrong year by automation defect; never assigned.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7354",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T08:16:26.793000",
-      "created_at": "2026-08-07T02:02:04.576329+00:00"
     }
   ]
 }
