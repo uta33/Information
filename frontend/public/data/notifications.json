@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:02:24.621862+00:00",
+  "generated_at": "2026-08-08T05:34:24.661903+00:00",
   "items": [
     {
       "id": "a9e6b499d0ebcee6",
@@ -70,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T22:48:24+00:00",
       "created_at": "2026-08-07T23:23:28.193595+00:00"
+    },
+    {
+      "id": "21181eb31020a3d3",
+      "content_hash": "21181eb31020a3d37796a59dd2ef98bd7c6bdba31af042af656419dec0d096d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "title": "Working on Economics with Fable 5",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49217001\">Comments</a>",
+      "url": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T22:29:57+00:00",
+      "created_at": "2026-08-08T05:34:24.661738+00:00"
     },
     {
       "id": "c535bdda217e7554",
@@ -1064,6 +1078,76 @@
       "cvss_score": null,
       "published_at": "2026-08-07T10:28:55+00:00",
       "created_at": "2026-08-07T11:36:23.947867+00:00"
+    },
+    {
+      "id": "83871cef63df6246",
+      "content_hash": "83871cef63df624673e2614b4a088a8b398bc2dc22fc98eb12ca98676ed56577",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-54204",
+      "title": "CVE-2026-54204 - Tobit Laboratories AG TeamDavid's Webbox 's search functionality accepts a “path...",
+      "body": "Tobit Laboratories AG TeamDavid's Webbox 's search functionality accepts a “pathnameroot” \nparameter, which can be set to network locations using UNC paths (e.g., \n“\\\\Server\\Share”). The server processes these paths without validation, \nresulting in outbound connection attempts to attacker-controlled SMB \nservers. This enables unauthenticated attackers to trigger the server to\n authenticate to arbitrary SMB endpoints, potentially exposing NTLM \nauthentication information (such as NTLM hashes). If outbound \nconnections to port 445 (SMB) are permitted, attackers can use this to \nconduct SMB relay or credential theft attacks. Exploitation of the \n“pathnameroot” parameter is possible without authentication.\n\nThis issue affects TeamDavid through Rollout 524.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54204",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T10:16:57.207000",
+      "created_at": "2026-08-08T05:34:21.697707+00:00"
+    },
+    {
+      "id": "63dbc5899a70a521",
+      "content_hash": "63dbc5899a70a5210adc5d2e89a0d93e77f9e81ceef0e1881efe48c7d1753252",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-54203",
+      "title": "CVE-2026-54203 - Memory Leak to an Unauthorized Actor vulnerability in Tobit Laboratories AG Team...",
+      "body": "Memory Leak to an Unauthorized Actor vulnerability in Tobit Laboratories AG TeamDavid's Webbox allows reading of sensitive information. When accessing the URL “/.well-known/mta-sts.”, the application responds\n with memory. By repeatedly \nrequesting this endpoint, an attacker can access sensitive \ninformation, including user passwords. Exploitation does not require \nauthentication. This issue affects TeamDavid through Rollout 524.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54203",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T10:16:57.070000",
+      "created_at": "2026-08-08T05:34:21.697702+00:00"
+    },
+    {
+      "id": "2ff16b79cb8a061e",
+      "content_hash": "2ff16b79cb8a061eddcbb276b643cdd8172f9fa24def687e2eef3740b68b55c1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-54202",
+      "title": "CVE-2026-54202 - Tobit Laboratories AG TeamDavid's Webbox  is vulnerable to a path traversal vuln...",
+      "body": "Tobit Laboratories AG TeamDavid's Webbox  is vulnerable to a path traversal vulnerability in the \narchive creation functionality. Because the archive path is \nuser-controlled and insufficiently validated, an attacker can manipulate\n the input to traverse directories. This allows the creation of folders \nin arbitrary locations, including sensitive directories such as \nC:\\Windows or for different users. This issue affects TeamDavid through Rollout 524.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54202",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T10:16:56.927000",
+      "created_at": "2026-08-08T05:34:21.697697+00:00"
+    },
+    {
+      "id": "aa55eb81dc62d845",
+      "content_hash": "aa55eb81dc62d8451d869054abcdff2b4e3362b85b63f35b8ed9ce59f3bf7c6c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-54201",
+      "title": "CVE-2026-54201 - Tobit Laboratories AG TeamDavid's Webbox  does not enforce authentication or aut...",
+      "body": "Tobit Laboratories AG TeamDavid's Webbox  does not enforce authentication or authorization checks\n when serving these log files. As a result, attackers can obtain \nsensitive error information or internal application details, potentially\n aiding in further attacks. This issue affects TeamDavid through Rollout 524.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54201",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T10:16:56.790000",
+      "created_at": "2026-08-08T05:34:21.697693+00:00"
+    },
+    {
+      "id": "4ecd4be1ca143c59",
+      "content_hash": "4ecd4be1ca143c59be33c5486ed68ac002e09e410fb991952a64e65e69421d7f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-54200",
+      "title": "CVE-2026-54200 - Tobit Laboratories AG TeamDavid's Webbox  is vulnerable to a local file inclusio...",
+      "body": "Tobit Laboratories AG TeamDavid's Webbox  is vulnerable to a local file inclusion vulnerability in\n the send email, fax, SMS, etc. functionality. By specifying an '@@attach' command in the form field 'scjob', files can be attached to a message, \nwhich can then be downloaded by an authenticated user. A filter is in \nplace that restricts access to the David con-fig folder and the user \nfolder. However, this filter can be bypassed by specifying an alternate \ndata stream, allowing the download of sensitive files such as other \nusers' access files containing their passwords or the server's private \nkey. This issue affects TeamDavid through Rollout 524.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54200",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T10:16:56.640000",
+      "created_at": "2026-08-08T05:34:21.697688+00:00"
     },
     {
       "id": "b342c3d219d99182",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T05:37:00+00:00",
       "created_at": "2026-08-06T10:25:10.803288+00:00"
-    },
-    {
-      "id": "ba243f6cf1e4f7fe",
-      "content_hash": "ba243f6cf1e4f7fe1a558c8c2cf973ed3f413ce1de8380870cb18824c93c90ed",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027099.html",
-      "title": "MongoDB Inc.のMongoDBにおける不正な認証に関する脆弱性",
-      "body": "認証済みのユーザーで限定的な読み取り権限を持つ者が、$graphLookup集約ステージが認可時と実行時で評価される方法の不整合により、権限のないコレクションのドキュメントにアクセスできる可能性があります。影響を受けるシナリオは、既存のビューのパイプライン定義で参照されているコレクションに関係しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027099.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803304+00:00"
-    },
-    {
-      "id": "920ac88c1feab7a3",
-      "content_hash": "920ac88c1feab7a3c5abf84ee4cb7437d87a0f3417cb8de77313915d6f0ff309",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027098.html",
-      "title": "MongoDB Inc.のMongoDBにおける不正な認証に関する脆弱性",
-      "body": "認証されたユーザーは、$listSessions集約ステージを通じてシステム上の他のユーザーに属するセッションメタデータを閲覧できる可能性があります。通常、この情報はクラスターレベルの管理権限を持つユーザーに限定されており、アクティブなセッション識別子、関連付けられたユーザー名、および活動のタイムスタンプを含みます。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027098.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803320+00:00"
-    },
-    {
-      "id": "603dfa3a57358e58",
-      "content_hash": "603dfa3a57358e5878ce4d1b05391fb431ffe09f90830054d5b75d1e94980ea4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027097.html",
-      "title": "MongoDB Inc.のMongoDBにおけるフィルタリングの回避に関する脆弱性",
-      "body": "クエリ可能暗号化が有効なコレクションに対して書き込み権限を持つ認証ユーザーは、シャードクラスタ上のmongosルーターを通じて細工された書き込みコマンドを送信することにより、サーバー側で制御されることを意図した内部暗号化メタデータフィールドを変更できる可能性があります。これにより、暗号化されたクエリの正確性が損なわれる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027097.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803335+00:00"
-    },
-    {
-      "id": "87b0713b7a359e02",
-      "content_hash": "87b0713b7a359e02966ef33a6c9bd046a5927b9373098e49ef8d74099fd82bbd",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027096.html",
-      "title": "MongoDB Inc.のMongoDBにおける整数オーバーフローの脆弱性",
-      "body": "標準の読み取り／書き込み権限を持つ認証済みユーザーが細工された集約コマンドを送信すると、メモリ不足の状態でmongodプロセスが終了する可能性があります。MongoDBのlibmongocryptライブラリはペイロードで提供された値を十分に検証しておらず、その結果として過剰に大きなメモリ割り当てが発生することがあります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027096.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803350+00:00"
-    },
-    {
-      "id": "b64d78ad2c5cc41e",
-      "content_hash": "b64d78ad2c5cc41edc0703918a873a45680a74e0b7cc5b476406d8000dcc7729",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027095.html",
-      "title": "MongoDB Inc.のMongoDBにおけるアルゴリズムの複雑さに関する脆弱性",
-      "body": "深くネストされた $jsonSchema 構造を含む特定のクエリ操作は、影響を受ける MongoDB 展開において過剰なCPU消費を引き起こす可能性があり、その結果リソースが枯渇する恐れがあります。このCPUに依存した操作は、標準の管理制御を通じて中断することができません。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027095.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803365+00:00"
-    },
-    {
-      "id": "a5dafaba6be87df0",
-      "content_hash": "a5dafaba6be87df0bd9c13fefb587038fde10d1c1167cd44341ed71f358e107d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027094.html",
-      "title": "MongoDB Inc.のMongoDBにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "読み取り専用権限を持つユーザーが、特定の sortBy 式タイプを使用した $linearFill ウィンドウ関数オペレーターを用いて集約パイプラインを作成すると、mongod プロセスを異常終了させ、サービス拒否を引き起こす可能性があります。この問題は、実行時にソート仕様の検証が不足していることに起因しています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027094.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:37:00+00:00",
-      "created_at": "2026-08-06T10:25:10.803379+00:00"
     }
   ]
 }
