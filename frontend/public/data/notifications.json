@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-08T15:18:06.507155+00:00",
+  "generated_at": "2026-08-08T16:18:24.043757+00:00",
   "items": [
+    {
+      "id": "09e8c1850941b810",
+      "content_hash": "09e8c1850941b8100dff1fdb8d4724702f642019aff6c640a68cd68b77ab878c",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151237",
+      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have",
+      "body": "While the device is pretty and lightweight, it’s not something the everyday person needs due to its hefty price tag and size.",
+      "url": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T16:00:00+00:00",
+      "created_at": "2026-08-08T16:18:23.722577+00:00"
+    },
     {
       "id": "d46f5783a0bb369c",
       "content_hash": "d46f5783a0bb369c98ce9a9492723bbc4f77be8392ab0d56d77b5f592ae7da7d",
@@ -70,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T13:55:42+00:00",
       "created_at": "2026-08-08T14:21:27.770251+00:00"
+    },
+    {
+      "id": "867adf95a8537046",
+      "content_hash": "867adf95a8537046e0cba6c3119c5ae9e5b73a73d1442b2a599a27b465fbed59",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/",
+      "title": "Triton: DirectX 11 Driver for QEMU",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49221711\">Comments</a>",
+      "url": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T13:33:06+00:00",
+      "created_at": "2026-08-08T16:18:24.043233+00:00"
     },
     {
       "id": "0ad23ca39e87abc2",
@@ -588,6 +616,62 @@
       "cvss_score": null,
       "published_at": "2026-08-07T19:30:41+00:00",
       "created_at": "2026-08-07T19:42:33.393342+00:00"
+    },
+    {
+      "id": "8653d442f561f5c2",
+      "content_hash": "8653d442f561f5c233544ebdcd3551a780da93ecea7c6237ccfc7e5b208b0b96",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-71411",
+      "title": "CVE-2025-71411 - Broadcast control frames can disconnect multiple aircraft simultaneously leading...",
+      "body": "Broadcast control frames can disconnect multiple aircraft simultaneously leading to delayed clearances and air traffic controller overload. This type of attack can be carried out remotely over radio frequency.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71411",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-07T19:17:34.047000",
+      "created_at": "2026-08-08T16:18:19.649903+00:00"
+    },
+    {
+      "id": "c183b7f3802db5f0",
+      "content_hash": "c183b7f3802db5f027c2329f8a3cd8502facd2b4a95cb82596251c8992ee4491",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-71410",
+      "title": "CVE-2025-71410 - Unnumbered Disconnect (U DISC) and malformed Aviation Very High Frequency Link C...",
+      "body": "Unnumbered Disconnect (U DISC) and malformed Aviation Very High Frequency Link Control frames can terminate sessions and lead to a loss of CPDLC functions requiring a reversion to voice communication and increased controller workload. This type of attack can be carried out remotely over radio frequency.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71410",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-07T19:17:33.893000",
+      "created_at": "2026-08-08T16:18:19.649896+00:00"
+    },
+    {
+      "id": "29fe69a946c083b5",
+      "content_hash": "29fe69a946c083b5fc582ff74e9879e666d9b1f420de8c94d6ad80a315eb758a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-71409",
+      "title": "CVE-2025-71409 - Lack of authentication for Very High Frequency Data Link messages allows rogue g...",
+      "body": "Lack of authentication for Very High Frequency Data Link messages allows rogue ground stations to inject CPDLC messages leading to unexpected or misleading clearances and potential pilot confusion. This type of attack can be carried out remotely over radio frequency.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71409",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-07T19:17:33.720000",
+      "created_at": "2026-08-08T16:18:19.649890+00:00"
+    },
+    {
+      "id": "dcb40dd3fd0d51c8",
+      "content_hash": "dcb40dd3fd0d51c88f7f107cd5073f8315746437f462830ca5b8a700c0eae09c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-63235",
+      "title": "CVE-2025-63235 - In sol commit 373d848 (2024-12-12), the broker does not fully release resources ...",
+      "body": "In sol commit 373d848 (2024-12-12), the broker does not fully release resources when handling malformed or duplicate CONNECT packets. When clients send invalid CONNECT packets - either due to repeated attempts or failed authentication - the server may silently drop the connection or send a CONNACK but fail to close the session or deallocate internal resources. This behavior allows an attacker to create numerous half-open connections that consume memory and file descriptors indefinitely, potentially triggering the Linux OOM killer and causing a denial of service.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63235",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-07T19:17:33.580000",
+      "created_at": "2026-08-08T16:18:19.649884+00:00"
     },
     {
       "id": "875e5fadab9c8624",
@@ -6916,90 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-08-06T11:16:30.120000",
       "created_at": "2026-08-07T09:48:36.619074+00:00"
-    },
-    {
-      "id": "ccef115b02ebac9a",
-      "content_hash": "ccef115b02ebac9a8e22669acb1838b536fbdfe30217842ff15a0ee64a86ce1e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54225",
-      "title": "CVE-2026-54225 - Apache CXF allows to control the maximum attachment size via the \"attachment-max...",
-      "body": "Apache CXF allows to control the maximum attachment size via the \"attachment-max-size\". Prior to Apache CXF 4.2.3 and 4.1.8 and 3.6.12, there was no default placed on this size, meaning that a denial of service attack is possible if the user doesn't explicitly set the limit. Users should update to Apache CXF 4.2.3 or 4.1.8 or 3.6.12 which fixes this problem by imposing a default attachment size limit of 50mb.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54225",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-06T11:16:30.003000",
-      "created_at": "2026-08-07T09:48:36.619065+00:00"
-    },
-    {
-      "id": "79f0fac439f62a1a",
-      "content_hash": "79f0fac439f62a1ab976b34f249cf3e5f5699e69e5541cd6d5af898d02b7f6e1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19034",
-      "title": "CVE-2026-19034 - A vulnerability was determined in Shibby Tomato 1.28.0000. Affected by this vuln...",
-      "body": "A vulnerability was determined in Shibby Tomato 1.28.0000. Affected by this vulnerability is the function new_qoslimit_stop of the file /tmp/qoslimittc_stop.sh. Executing a manipulation of the argument wan_iface can lead to os command injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. This project is superseded by FreshTomato.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19034",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-08-06T11:16:29.777000",
-      "created_at": "2026-08-07T09:48:36.619058+00:00"
-    },
-    {
-      "id": "9956e244966632de",
-      "content_hash": "9956e244966632de7bb24c5356024bcf299277a981c2ff83f0c1b006e28a2e59",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55980",
-      "title": "CVE-2026-55980 - A denial-of-service vulnerability in CatchPulse could allow an attacker to condu...",
-      "body": "A denial-of-service vulnerability in CatchPulse could allow an attacker to conduct a stack buffer overrun attack, leading to a denial-of-service condition.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55980",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-08-06T10:16:44.247000",
-      "created_at": "2026-08-07T09:48:36.619051+00:00"
-    },
-    {
-      "id": "e3baca9c94654c5a",
-      "content_hash": "e3baca9c94654c5a0f4ec6d67c2f2ebe070dc46159d4609e7d6d6899756cd592",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55979",
-      "title": "CVE-2026-55979 - An improper access control check in CatchPulse's named pipe communication interf...",
-      "body": "An improper access control check in CatchPulse's named pipe communication interface could allow an attacker to invoke CatchPulse functions. This is limited to operations that enforce more restrictive security policies.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55979",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.2,
-      "published_at": "2026-08-06T10:16:44.127000",
-      "created_at": "2026-08-07T09:48:36.619044+00:00"
-    },
-    {
-      "id": "bf270e21c9dcd561",
-      "content_hash": "bf270e21c9dcd5611aa8121895b80c1443dc7e5327b5ffe028a1d3b4d2987a44",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55978",
-      "title": "CVE-2026-55978 - An improper access control vulnerability in CatchPulse could allow a non-adminis...",
-      "body": "An improper access control vulnerability in CatchPulse could allow a non-administrative local attacker to connect to an unrestricted kernel filter communication port and bypass CatchPulse's security policy enforcement.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55978",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.4,
-      "published_at": "2026-08-06T10:16:43.910000",
-      "created_at": "2026-08-07T09:48:36.619036+00:00"
-    },
-    {
-      "id": "658263667c3de770",
-      "content_hash": "658263667c3de77047d1d0246f8111da963cc4092488f6b658c82139e99f41ee",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "body": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T10:00:00+00:00",
-      "created_at": "2026-08-06T23:47:26.220325+00:00"
     }
   ]
 }
