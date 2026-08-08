@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-08T07:39:27.155524+00:00",
+  "generated_at": "2026-08-08T08:26:03.799768+00:00",
   "items": [
+    {
+      "id": "3c06c7579d04b9a8",
+      "content_hash": "3c06c7579d04b9a80d569d5feb52d99ef221f0de22038ce24634f16e73fb055b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "title": "Hardware backdoors in some x86 CPUs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49219508\">Comments</a>",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T07:04:51+00:00",
+      "created_at": "2026-08-08T08:26:03.799238+00:00"
+    },
+    {
+      "id": "660cb553e71c0dc7",
+      "content_hash": "660cb553e71c0dc725b933dc1e8c7565f50c2744bce1ef03570598d7c9aaa249",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "body": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
+      "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-08T06:58:31+00:00",
+      "created_at": "2026-08-08T08:25:59.774374+00:00"
+    },
+    {
+      "id": "5a44e791a28c45b9",
+      "content_hash": "5a44e791a28c45b9a261df051628cf87b04f20d53e2599afa525c1fb84484f16",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "body": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said.\n\n\"This is not a duplicate of our",
+      "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-08T06:57:43+00:00",
+      "created_at": "2026-08-08T08:25:59.774406+00:00"
+    },
+    {
+      "id": "3f7cef1a64c9dd71",
+      "content_hash": "3f7cef1a64c9dd7178d953af3f968f0f94575fee9b95f81352b3c2d8bf381712",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
+      "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-08T06:52:16+00:00",
+      "created_at": "2026-08-08T08:25:59.774422+00:00"
+    },
     {
       "id": "a9e6b499d0ebcee6",
       "content_hash": "a9e6b499d0ebcee6932bedc5cd3f080740041d7fb7c67a38cb8a6ba8d35d0bf9",
@@ -770,6 +826,20 @@
       "cvss_score": null,
       "published_at": "2026-08-07T14:22:49+00:00",
       "created_at": "2026-08-07T15:42:19.061902+00:00"
+    },
+    {
+      "id": "13c5a4116f8823e5",
+      "content_hash": "13c5a4116f8823e58799e41f12356043275015202f37bbfc44b20debc1e987fa",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66914",
+      "title": "CVE-2026-66914 - Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD < 3.30....",
+      "body": "Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD < 3.30.0, < 4.7.0, < 6.0.1 - An unauthenticated attacker could download files from both inside and outside the webroot.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66914",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-07T14:17:00.397000",
+      "created_at": "2026-08-08T08:26:00.294098+00:00"
     },
     {
       "id": "302e260b9121bf1f",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T05:39:00+00:00",
       "created_at": "2026-08-06T10:25:10.802680+00:00"
-    },
-    {
-      "id": "c55450d817d25fdc",
-      "content_hash": "c55450d817d25fdc0bc243f01d598551ecfe5774cf747ecd65400c3f64727c71",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027133.html",
-      "title": "fastifyのfastify/reply-fromにおけるフィルタリングの回避に関する脆弱性",
-      "body": "影響：@fastify/reply-from バージョン 8.3.1 から 12.6.4（12.6.4 は含まない）までは、内部のURLキャッシュキーを宛先パスとソースパスを区切り文字なしで連結して生成しています。そのため、異なる宛先とソースの組み合わせが同じキーを生成し、異なる上流URLに解決されることがあります。getUpstream がリクエストデータから上流を選択する際に、ある上流用にキャッシュされたURLが別の上流用のリクエストに再利用される可能性があり、これによって異なる上流間でのデータアクセスや変更が発生する恐れがあります。デフォルトの設定が影響を受けます。disableCache を true に設定することで、この挙動を防止できます。修正方法：@fastify/reply-from を 12.6.4 にアップグレードしてください。回避策：プラグイン登録時に disableCache: true を指定してください。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027133.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:39:00+00:00",
-      "created_at": "2026-08-06T10:25:10.802698+00:00"
-    },
-    {
-      "id": "f41eeee7ff195637",
-      "content_hash": "f41eeee7ff1956371c6ff6ed736ec1887a4ec9321dc393c4da1d905f01fedcc5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027132.html",
-      "title": "fastifyのfastify/forwardedにおける複数の脆弱性",
-      "body": "@fastify/forwardedはX-Forwarded-Forヘッダーからクライアントのアドレスを解決します。バージョン3.0.2より前では、ヘッダーに2つ以上のカンマ区切りのエントリが含まれている場合、パーサーはスペース文字のみをトリムし、水平方向のタブは削除しませんでした。これはRFC 7230がオプショナルな空白としてスペースとタブの両方を定義しているにもかかわらずです。その結果、タブでパディングされたエントリは解決されたアドレス文字列にそのままタブを保持していました。解決されたクライアントIPに対して正確な文字列一致でセキュリティ判断を行うアプリケーション（例：許可リスト、ブロックリスト、IPごとのレート制限キー、監査ログ相関など）は、このタブで破損した文字列のために期待される値と一致せず、回避される可能性があります。ただし、この問題は信頼境界を越えるものではなく、タブで破損した文字列は有効なIPアドレスとは認められず、信頼されたプロキシと誤認されることはありません。この問題は@fastify/forwardedのバージョン3.0.2で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027132.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:39:00+00:00",
-      "created_at": "2026-08-06T10:25:10.802716+00:00"
-    },
-    {
-      "id": "d5378631e0205eb8",
-      "content_hash": "d5378631e0205eb8a8f41e8de490196e6b5c7b2f3d8b22c7dd50532bd1eedc85",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027131.html",
-      "title": "Project JupyterのEnterprise Gatewayにおける入力確認に関する脆弱性",
-      "body": "Jupyter Enterprise Gatewayは、Apache Spark、Kubernetes、Docker Swarmなどの分散クラスターにわたってリモートのJupyter Notebookカーネルを起動します。バージョン2.0.0rc1以上3.3.0未満のバージョンには、UIDまたはGIDが0（root）でカーネルを起動することをデフォルトで禁止するUIDおよびGID制限機能がありますが、この制限は特別に細工されたKERNEL_UIDまたはKERNEL_GID値を使用することで回避できます。この入力検証の脆弱性により、Jupyterカーネルをrootとして実行することが可能になり、攻撃対象範囲が拡大するため危険です。これによりコンテナの脱出（コンテナエスケープ）が発生し、ワーカーノードおよびその上で稼働するすべてのワークロードが危険にさらされる可能性があります。繰り返し悪用されると全ワーカーノード、ひいてはKubernetesクラスタ全体が危殆化します。ボリュームマウントを指定できるため、コンテナエスケープの一手段としてhostPathの読み書き可能なボリュームマウントを利用し、このUID/GIDバイパスでrootとして実行し、さらにマウントされたホストファイルシステム上にcronタブエントリを作成して基盤となるワーカーノード上でコードを実行することが可能です。この問題はバージョン3.0.0で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027131.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:39:00+00:00",
-      "created_at": "2026-08-06T10:25:10.802733+00:00"
-    },
-    {
-      "id": "f55091434e402624",
-      "content_hash": "f55091434e402624da8f3dac0ec089a796791d35e20e2eda8ce79e4c29625cb2",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027130.html",
-      "title": "Project JupyterのEnterprise Gatewayにおけるテンプレートエンジンで使用される特殊な要素の不適切な無効化に関する脆弱性",
-      "body": "Jupyter Enterprise Gatewayは、Apache Spark、Kubernetes、Docker Swarmなどの分散クラスター上でリモートのJupyter Notebookカーネルを起動します。バージョン2.0.0rc2から3.3.0未満では、Kubernetesマニフェストのレンダリング時に使用される環境変数（KERNEL_XXX）がサーバーサイドテンプレートインジェクション（SSTI）の脆弱性を持っています。Jinja2のテンプレート式を含めることで、Enterprise Gatewayサービス内でPythonコードやOSコマンドを実行できます。このコードにより、Kubernetesのサービスアカウントトークンを使用または盗用でき、Kubernetesのシークレットを盗み出し、特権付きポッドやhostPathボリュームマウントを持つポッドをスケジューリングすることで、Kubernetesクラスターを完全に乗っ取ることが可能です。この問題はバージョン3.3.0で修正されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027130.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:38:00+00:00",
-      "created_at": "2026-08-06T10:25:10.802749+00:00"
-    },
-    {
-      "id": "af7743b7899f0fe9",
-      "content_hash": "af7743b7899f0fe96c146001d4f948de2989ef81fc633df572e24178f7cecc7e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027129.html",
-      "title": "Project JupyterのEnterprise Gatewayにおけるインジェクションに関する脆弱性",
-      "body": "Jupyter Enterprise Gatewayは、Apache Spark、Kubernetes、Docker Swarmなどの分散クラスター上でリモートJupyter Notebookカーネルを起動します。バージョン3.3.0未満では、サーバーが信頼されていない環境変数（例：KERNEL_XXX）をKubernetesマニフェストにYAML対応のエスケープ処理をせずに挿入してしまうため、YAMLインジェクション攻撃を許してしまいます。攻撃者は新しいフィールドの注入、重要フィールドの上書き（例：最後のものが優先されるsecurityContextキーの重複）、およびドキュメント区切り（---は新ドキュメント、...はドキュメント終了）を注入して複数のリソースを生成し、特権付きポッドなど任意のタイプを作成する可能性があります。KubernetesマニフェストのJinja2テンプレートにはkernel_working_dirなど複数のkernel_xxx変数が含まれており、それらはマニフェストのレンダリング時に用いられ、すべてYAMLインジェクションのベクターとなっています。この問題はバージョン3.3.0で修正されています。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-027129.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T05:38:00+00:00",
-      "created_at": "2026-08-06T10:25:10.802765+00:00"
     }
   ]
 }
