@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T02:55:43.239876+00:00",
+  "generated_at": "2026-08-09T04:10:01.673848+00:00",
   "items": [
+    {
+      "id": "38e3feba0c3e8f27",
+      "content_hash": "38e3feba0c3e8f271882783745791023294dce5f21271e5dd6e2da183393a1b3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228166\">Comments</a>",
+      "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T03:26:00+00:00",
+      "created_at": "2026-08-09T04:10:01.673587+00:00"
+    },
+    {
+      "id": "45802ccad23cff75",
+      "content_hash": "45802ccad23cff75a7d3406ce4b372a2bbcf234cd9f915484a8c6a7665e8a374",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+      "title": "ChatGPT starts blocking direct requests to copy an author's style",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227718\">Comments</a>",
+      "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T02:01:38+00:00",
+      "created_at": "2026-08-09T04:10:01.673425+00:00"
+    },
     {
       "id": "0b61c471ee020bed",
       "content_hash": "0b61c471ee020bed3111de103794c9bc136fc975aef3af500643dde446046b2f",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T01:55:53+00:00",
       "created_at": "2026-08-09T02:55:43.239146+00:00"
+    },
+    {
+      "id": "5a05d6625364661f",
+      "content_hash": "5a05d6625364661f509ce2770a48c5e3616c5b56d345a5aecc8a4bf769c804da",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theoremdb.org/",
+      "title": "TheoremDB · A public workspace for machine mathematics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227505\">Comments</a>",
+      "url": "https://theoremdb.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:23:36+00:00",
+      "created_at": "2026-08-09T04:10:01.673252+00:00"
     },
     {
       "id": "287c09f9ec307211",
@@ -182,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T19:38:08+00:00",
       "created_at": "2026-08-08T21:18:08.490150+00:00"
+    },
+    {
+      "id": "dda943d7667c1a87",
+      "content_hash": "dda943d7667c1a8747b987ff5d9bb4e88aa787c987ce53eba08431dd42ea7369",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-71958",
+      "title": "CVE-2026-71958 - D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_2...",
+      "body": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the quicksetup.cgi interface. A remote attacker can write overly long strings to the test4, ssid2, and username fields and execute arbitrary commands by crafting a specific payload, or cause the device to crash.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71958",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-08T18:16:56.783000",
+      "created_at": "2026-08-09T04:09:57.676434+00:00"
     },
     {
       "id": "8402d56b73aa3525",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T20:21:19+00:00",
       "created_at": "2026-08-06T23:47:31.506318+00:00"
-    },
-    {
-      "id": "f34ace0ea6f0df8b",
-      "content_hash": "f34ace0ea6f0df8bd89bcea5f261569fd0623e8fb77c051b9191bb973a0943f7",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-      "body": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T20:07:24+00:00",
-      "created_at": "2026-08-06T23:47:26.923804+00:00"
-    },
-    {
-      "id": "fca749ef0dad57c6",
-      "content_hash": "fca749ef0dad57c608aede9b489e66c8d050c736d58948c4ea7cc5fd45759a83",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150918",
-      "title": "Google says hackers are calling financial firm employees to hack and extort victims",
-      "body": "Groups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report.",
-      "url": "https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T19:40:46+00:00",
-      "created_at": "2026-08-06T23:47:31.115687+00:00"
-    },
-    {
-      "id": "131821a4fa09d326",
-      "content_hash": "131821a4fa09d32634198daf4bf40683a0f47c457f797a29c3fbc7273e406b21",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150927",
-      "title": "China-linked LightSpy spyware caught targeting victims in 13 countries, including the US",
-      "body": "Researchers linked the latest malicious activity to a Chinese company, after one of the spyware's operators placed an order with KFC using their real name and office address.",
-      "url": "https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T19:22:30+00:00",
-      "created_at": "2026-08-06T23:47:31.115708+00:00"
-    },
-    {
-      "id": "8b1cdf78af8a8ede",
-      "content_hash": "8b1cdf78af8a8ede1e855b159e51f5234df7c153455980f196fc0a304e3590b5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
-      "title": "Herdr is joining Y Combinator. The runtime stays open",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49201003\">Comments</a>",
-      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T19:14:21+00:00",
-      "created_at": "2026-08-06T23:47:31.506113+00:00"
     }
   ]
 }
