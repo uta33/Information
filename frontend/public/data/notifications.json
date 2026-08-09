@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-09T12:24:57.520424+00:00",
+  "generated_at": "2026-08-09T13:39:55.766263+00:00",
   "items": [
+    {
+      "id": "fe39ebcf5a4e3a55",
+      "content_hash": "fe39ebcf5a4e3a550a3588b79545add9df9f96334b7414b63b0a25330e0ad314",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/06/professor-israel-gaza-university-of-minnesota",
+      "title": "An Israeli professor lost a prestigious US job offer after speaking out on Gaza",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49231260\">Comments</a>",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/06/professor-israel-gaza-university-of-minnesota",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T13:31:56+00:00",
+      "created_at": "2026-08-09T13:39:55.765886+00:00"
+    },
+    {
+      "id": "a725b46a1ad5bd8f",
+      "content_hash": "a725b46a1ad5bd8fcd0086468b1a7940cc8c11d44b93be96f9d665d590d4bad3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+      "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49231022\">Comments</a>",
+      "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T13:03:49+00:00",
+      "created_at": "2026-08-09T13:39:55.765500+00:00"
+    },
+    {
+      "id": "33392f04722add6b",
+      "content_hash": "33392f04722add6b06db1c39423a3d2ec1d201f3c4a969af9db1c2d29ebf0410",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3149757",
+      "title": "This former notorious red-light district is now one of the world’s top AI hubs",
+      "body": "More than 20 years ago, King's Cross was one of the seediest area's in London. Now it's sprouting something new.",
+      "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T13:00:00+00:00",
+      "created_at": "2026-08-09T13:39:55.458704+00:00"
+    },
+    {
+      "id": "f8819bc6ced3fab2",
+      "content_hash": "f8819bc6ced3fab23a64b95e3970ccf3f728796b451a90a12fe93090bdc5f47d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "title": "Amazon circumvents Gilroy community vote for AI data center",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230954\">Comments</a>",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T12:52:10+00:00",
+      "created_at": "2026-08-09T13:39:55.765583+00:00"
+    },
     {
       "id": "b82abc6f8092bdb6",
       "content_hash": "b82abc6f8092bdb6f9382f633aba26f269652c4b183eddf1cfbbc0541bf73b1a",
@@ -98,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T07:19:58+00:00",
       "created_at": "2026-08-09T09:27:31.717689+00:00"
+    },
+    {
+      "id": "344f73e35bcc0a41",
+      "content_hash": "344f73e35bcc0a41f26ca59bc92ceb462e5914d8c3208010ca2ca4c08150e838",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15038",
+      "title": "CVE-2026-15038 - The InfiniteWP Client WordPress plugin before 1.13.6 does not properly verify th...",
+      "body": "The InfiniteWP Client WordPress plugin before 1.13.6 does not properly verify the site-connection state and the authenticity of requests to its remote-management endpoint on WordPress Multisite installations, allowing unauthenticated attackers to bind their own key, hijack an administrator session, and take over the entire network, leading to remote code execution.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15038",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T06:17:16.393000",
+      "created_at": "2026-08-09T13:39:51.909146+00:00"
     },
     {
       "id": "bbd2e07c6cbd08d1",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.3,
       "published_at": "2026-08-06T22:16:53.430000",
       "created_at": "2026-08-07T17:38:42.124119+00:00"
-    },
-    {
-      "id": "0e0e306a0b550957",
-      "content_hash": "0e0e306a0b550957c2d878cd952bfd4e4af31b5f755329958787fe29858f7fab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19061",
-      "title": "CVE-2026-19061 - A flaw has been found in Insta InstaKNXServiceApp 1.2.3.1469. Affected by this i...",
-      "body": "A flaw has been found in Insta InstaKNXServiceApp 1.2.3.1469. Affected by this issue is the function CreateWebClientAndDownloadFileList of the component Firmware Update Handler. Executing a manipulation can lead to insufficient verification of data authenticity. It is possible to launch the attack remotely. Attacks of this nature are highly complex. The exploitation is known to be difficult. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19061",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-08-06T22:16:53.253000",
-      "created_at": "2026-08-07T17:38:42.124114+00:00"
-    },
-    {
-      "id": "1cc8acb637a0197d",
-      "content_hash": "1cc8acb637a0197d882a3176c9334785c6667ee8cb0643b5d01cd45924b18b90",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19060",
-      "title": "CVE-2026-19060 - A vulnerability was identified in FoundationAgents MetaGPT up to 0.8.2. This imp...",
-      "body": "A vulnerability was identified in FoundationAgents MetaGPT up to 0.8.2. This impacts an unknown function. Such manipulation leads to code injection. The attack needs to be performed locally. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19060",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:53.070000",
-      "created_at": "2026-08-07T17:38:42.124110+00:00"
-    },
-    {
-      "id": "aab98f6041831bc5",
-      "content_hash": "aab98f6041831bc527d57c5893d61850c659ce881e4d9d23ed62dfc5481f3e87",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19059",
-      "title": "CVE-2026-19059 - A vulnerability was determined in FoundationAgents MetaGPT up to 0.8.2. This aff...",
-      "body": "A vulnerability was determined in FoundationAgents MetaGPT up to 0.8.2. This affects the function read of the file metagpt/tools/libs/editor.py. This manipulation causes path traversal. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19059",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.3,
-      "published_at": "2026-08-06T22:16:52.903000",
-      "created_at": "2026-08-07T17:38:42.124105+00:00"
-    },
-    {
-      "id": "a65493fb9a35d62f",
-      "content_hash": "a65493fb9a35d62f954a60e87a48f4d8b0fd7040f3c12079ad08a35ba3b19a3b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19058",
-      "title": "CVE-2026-19058 - A vulnerability was found in FoundationAgents MetaGPT up to 0.8.2. The impacted ...",
-      "body": "A vulnerability was found in FoundationAgents MetaGPT up to 0.8.2. The impacted element is the function DataInterpreter of the file metagpt/roles/di/data_interpreter.py. The manipulation results in code injection. The attack must be initiated from a local position. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19058",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:52.730000",
-      "created_at": "2026-08-07T17:38:42.124100+00:00"
-    },
-    {
-      "id": "58b89fa50fcec67d",
-      "content_hash": "58b89fa50fcec67d68db4ae2a2f7af95177a9526e62af39014843b4b452a3fe3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19054",
-      "title": "CVE-2026-19054 - A vulnerability was detected in Lspace-io lspace-server up to 79f02fe5aa8970b210...",
-      "body": "A vulnerability was detected in Lspace-io lspace-server up to 79f02fe5aa8970b210a6a05cf097155f8d9ffd71. This issue affects the function fileExists/readFile/writeFile/deleteFile of the file src/core/repository.ts of the component Repositories File API. Performing a manipulation of the argument filePath results in path traversal. The attack is only possible with local access. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19054",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:52.560000",
-      "created_at": "2026-08-07T17:38:42.124095+00:00"
     }
   ]
 }
