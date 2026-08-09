@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:20:12.551057+00:00",
+  "generated_at": "2026-08-09T22:17:40.605965+00:00",
   "items": [
     {
       "id": "9601a61b33a00780",
@@ -16,6 +16,20 @@
       "created_at": "2026-08-09T21:20:12.550491+00:00"
     },
     {
+      "id": "1e0b4179fffe4f23",
+      "content_hash": "1e0b4179fffe4f2369d6f7768a3b5507027a984b0073be0535da3341257b2e7a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tuxedono2.com",
+      "title": "Tuxedo No. 2 – Cocktail recipes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49235697\">Comments</a>",
+      "url": "https://tuxedono2.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T20:48:46+00:00",
+      "created_at": "2026-08-09T22:17:40.605333+00:00"
+    },
+    {
       "id": "b787dd4bd133840d",
       "content_hash": "b787dd4bd133840d1621d4229e5dc15e222eca27fdcc8f3d37d3894c547be5c7",
       "source_name": "Hacker News (Best)",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T20:42:29+00:00",
       "created_at": "2026-08-09T21:20:12.550588+00:00"
+    },
+    {
+      "id": "9931675f3f543307",
+      "content_hash": "9931675f3f543307a15cda9ef687e667efe95b2b5846ab8d74f56a8c5588cb08",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.science.org/doi/10.1126/science.adv5441",
+      "title": "The climate benefits of retiring an operational combustion engine vehicle",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49235572\">Comments</a>",
+      "url": "https://www.science.org/doi/10.1126/science.adv5441",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T20:35:48+00:00",
+      "created_at": "2026-08-09T22:17:40.605766+00:00"
     },
     {
       "id": "03128a9159b0aac4",
@@ -142,6 +170,20 @@
       "created_at": "2026-08-09T21:20:12.550535+00:00"
     },
     {
+      "id": "26ee8c57f57bbc70",
+      "content_hash": "26ee8c57f57bbc70ee82c8a4efb2c519703ca73f355d06551fe1f6d0774e82cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.raed.dev/posts/motocycle/",
+      "title": "Two wheels, a few tradeoffs, and gas prices",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49234980\">Comments</a>",
+      "url": "https://blog.raed.dev/posts/motocycle/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T19:41:23+00:00",
+      "created_at": "2026-08-09T22:17:40.605670+00:00"
+    },
+    {
       "id": "d0730f95c11e0865",
       "content_hash": "d0730f95c11e0865c270a3202208b3a5f06e4e2244026f5d55b0552e05a5ed25",
       "source_name": "Hacker News (Best)",
@@ -252,6 +294,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T18:41:35+00:00",
       "created_at": "2026-08-09T21:20:12.550833+00:00"
+    },
+    {
+      "id": "da590767503ac233",
+      "content_hash": "da590767503ac23399bd48e8202f4bd61c3ea0c5349f9f609a17d61d6945f8e0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mynoise.net/vlog.php?ep=20260803",
+      "title": "I made tinnitus my friend, then it disappeared [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49234271\">Comments</a>",
+      "url": "https://mynoise.net/vlog.php?ep=20260803",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T18:41:35+00:00",
+      "created_at": "2026-08-09T22:17:40.605447+00:00"
     },
     {
       "id": "da7d31a1f5eff058",
@@ -6944,62 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-07T08:16:45.897000",
       "created_at": "2026-08-08T02:48:25.535314+00:00"
-    },
-    {
-      "id": "98f77a9f69cd43eb",
-      "content_hash": "98f77a9f69cd43eb916481969471eb76ccede980dc25c0a3f45e1c64b9534bf1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15211",
-      "title": "CVE-2026-15211 - The Subscriptions for WooCommerce WordPress plugin before 2.0.1 does not validat...",
-      "body": "The Subscriptions for WooCommerce WordPress plugin before 2.0.1 does not validate the payment amount or bind the PayPal order token to the order being completed on the WooCommerce order-received flow: it captures a client-supplied token and marks the order paid whenever the capture status is COMPLETED, without comparing the captured amount to the order total. This allows an attacker (unauthenticated where guest checkout is enabled) to substitute an approved, uncaptured PayPal order token and have an expensive order marked paid without paying its price.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15211",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-08-07T08:16:45.780000",
-      "created_at": "2026-08-08T02:48:25.535309+00:00"
-    },
-    {
-      "id": "f705f4e1a9c1b0f4",
-      "content_hash": "f705f4e1a9c1b0f4148db18b4f10c358754cce4dbfbcfbd4f7fd8d9d543dfe37",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15148",
-      "title": "CVE-2026-15148 - The WP Events Manager WordPress plugin before 2.2.5 does not verify that an inco...",
-      "body": "The WP Events Manager WordPress plugin before 2.2.5 does not verify that an incoming payment notification originates from the site's configured merchant account, nor that the paid amount matches the booking total, allowing unauthenticated users to mark any booking as paid without a legitimate payment reaching the merchant, including other users' bookings.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15148",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T08:16:45.647000",
-      "created_at": "2026-08-08T02:48:25.535304+00:00"
-    },
-    {
-      "id": "65190b6cee295017",
-      "content_hash": "65190b6cee295017c1e19dd76ec37fee5976bc2148ba0f5d19680f2c9fbaae27",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "title": "2027 memory capacity is reportedly sold out",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49207236\">Comments</a>",
-      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T07:58:24+00:00",
-      "created_at": "2026-08-07T09:48:40.316859+00:00"
-    },
-    {
-      "id": "590429b1c2335dcf",
-      "content_hash": "590429b1c2335dcff9a516180d78119773798fbdbb5cce7f6f03be25162a16ac",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12261",
-      "title": "CVE-2026-12261 - A vulnerability in `nltk.downloader` in nltk/nltk versions <= 3.9.4 allows for c...",
-      "body": "A vulnerability in `nltk.downloader` in nltk/nltk versions <= 3.9.4 allows for cross-package resource and model poisoning. The downloader extracts package archives into shared namespaces such as `corpora/` and `taggers/` instead of package-isolated roots, and validates package integrity only after the archive has been written and extracted. This design flaw enables one package to overwrite another package's trusted resources within the same namespace, making the changes immediately active through ordinary NLTK APIs. This issue persists across fresh interpreter restarts and can affect downstream workflows, including machine learning pipelines and reproducibility-sensitive environments.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12261",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T07:16:26.377000",
-      "created_at": "2026-08-08T02:48:25.535299+00:00"
     }
   ]
 }
