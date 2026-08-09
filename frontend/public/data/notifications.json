@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T14:22:57.890628+00:00",
+  "generated_at": "2026-08-09T15:19:44.013950+00:00",
   "items": [
+    {
+      "id": "e893b96e3488a63d",
+      "content_hash": "e893b96e3488a63d99fc41be76c442da0b6d94321ec75b547c18beebdcb1d3c4",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151401",
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "body": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T15:00:00+00:00",
+      "created_at": "2026-08-09T15:19:43.636581+00:00"
+    },
+    {
+      "id": "068f82ecfe84a680",
+      "content_hash": "068f82ecfe84a680fb8b63a2ada4bc3fabadb09eeca6898bb42680ae56d08fc7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151324",
+      "title": "The AI safety test is becoming a safety risk",
+      "body": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T14:30:00+00:00",
+      "created_at": "2026-08-09T15:19:43.636614+00:00"
+    },
     {
       "id": "35e70ccac32a7d5a",
       "content_hash": "35e70ccac32a7d5aca35dac1727b1077473c6a6009128a17cf7fd43626e47b51",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T14:00:00+00:00",
       "created_at": "2026-08-09T14:22:57.649732+00:00"
+    },
+    {
+      "id": "fb0f8f5ce7ab18c2",
+      "content_hash": "fb0f8f5ce7ab18c2bad9383a97915eee2e9074b3833633c6b4a4d5cce8a229c3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kibotronics.net/unlisted/lilly-machines/",
+      "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49231397\">Comments</a>",
+      "url": "https://kibotronics.net/unlisted/lilly-machines/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T13:47:36+00:00",
+      "created_at": "2026-08-09T15:19:44.013156+00:00"
     },
     {
       "id": "fe39ebcf5a4e3a55",
@@ -114,6 +156,20 @@
       "created_at": "2026-08-09T14:22:57.889761+00:00"
     },
     {
+      "id": "e658c2ebb9427c24",
+      "content_hash": "e658c2ebb9427c2403e329e6510b7340ee44337e0fefd388a6e3e332d0a73a47",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=68X8yEatepQ",
+      "title": "70% of AI revenue comes from OpenAI and Anthropic",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230605\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=68X8yEatepQ",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T11:56:16+00:00",
+      "created_at": "2026-08-09T15:19:44.013691+00:00"
+    },
+    {
       "id": "b82abc6f8092bdb6",
       "content_hash": "b82abc6f8092bdb6f9382f633aba26f269652c4b183eddf1cfbbc0541bf73b1a",
       "source_name": "Hacker News (Best)",
@@ -140,6 +196,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T11:30:48+00:00",
       "created_at": "2026-08-09T12:24:57.519833+00:00"
+    },
+    {
+      "id": "8077d1c474989dd0",
+      "content_hash": "8077d1c474989dd08abc2d63c8ea6c71fa17016457f5fe4730df0c483a5b9a30",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.stanford.edu/stories/2025/12/gas-propane-stoves-nitrogen-dioxide-exposure-health-risks-switching-electric",
+      "title": "Switching to electric stoves can dramatically cut indoor air pollution",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230424\">Comments</a>",
+      "url": "https://news.stanford.edu/stories/2025/12/gas-propane-stoves-nitrogen-dioxide-exposure-health-risks-switching-electric",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T11:19:31+00:00",
+      "created_at": "2026-08-09T15:19:44.013553+00:00"
     },
     {
       "id": "b9a01f5628745146",
@@ -210,6 +280,34 @@
       "cvss_score": null,
       "published_at": "2026-08-09T07:19:58+00:00",
       "created_at": "2026-08-09T09:27:31.717689+00:00"
+    },
+    {
+      "id": "1aa60070d4229f18",
+      "content_hash": "1aa60070d4229f1866abf3f4db1d4ebea8e481ddcdf2e1cea21a06cc8a0c6384",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16992",
+      "title": "CVE-2026-16992 - The Create WordPress plugin before 2.5.4 does not perform an authorization check...",
+      "body": "The Create WordPress plugin before 2.5.4 does not perform an authorization check before returning content over one of its REST API routes, and that route additionally publishes the requested content as a side effect, allowing unauthenticated attackers to read unpublished content and to make it publicly available.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16992",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T06:18:10.060000",
+      "created_at": "2026-08-09T15:19:39.326956+00:00"
+    },
+    {
+      "id": "9c35f261ee4ca82f",
+      "content_hash": "9c35f261ee4ca82f27103a7288cb2cf54f7931ace64d06b7c5cc09d91cc0cd8b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16988",
+      "title": "CVE-2026-16988 - The GeoDirectory  WordPress plugin before 2.8.169 does not perform any authoriza...",
+      "body": "The GeoDirectory  WordPress plugin before 2.8.169 does not perform any authorization check when returning map marker data for a single requested listing, allowing unauthenticated users to disclose the title and exact geographic coordinates of non-public (pending or draft) listings.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16988",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T06:17:55.887000",
+      "created_at": "2026-08-09T15:19:39.326949+00:00"
     },
     {
       "id": "716d98ebbc2c6d3f",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-07T00:06:28+00:00",
       "created_at": "2026-08-07T08:04:44.608015+00:00"
-    },
-    {
-      "id": "93d10ee233ba12a8",
-      "content_hash": "93d10ee233ba12a8fcd0cee05d3f26a196a9486b54ebf62f3a09fe0f17c23650",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
-      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49204060\">Comments</a>",
-      "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T23:30:03+00:00",
-      "created_at": "2026-08-07T04:45:49.746382+00:00"
-    },
-    {
-      "id": "299ef8fce13d43ef",
-      "content_hash": "299ef8fce13d43ef9cc52ed42f4d7effd40752ed27afc919a780af109fc03bb1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://zenodo.org/records/21359923",
-      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49203707\">Comments</a>",
-      "url": "https://zenodo.org/records/21359923",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:50:09+00:00",
-      "created_at": "2026-08-06T23:47:31.506548+00:00"
-    },
-    {
-      "id": "2963cc1ae9b6d3c5",
-      "content_hash": "2963cc1ae9b6d3c54bdb2e16682311f8b8af390fa40b3682696fa7f2ec1a3425",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-      "body": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:48:22+00:00",
-      "created_at": "2026-08-06T23:47:26.923741+00:00"
-    },
-    {
-      "id": "c0f94b98baca906f",
-      "content_hash": "c0f94b98baca906fc4acaa7a613c9f8b4cc106e49e5c2e37bbf7111bd259b94b",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3151017",
-      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-      "body": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
-      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:43:53+00:00",
-      "created_at": "2026-08-06T23:47:31.115573+00:00"
-    },
-    {
-      "id": "072d49d7c235997b",
-      "content_hash": "072d49d7c235997bbcf2dccbf00b753d5bce89aee846411d1d876e0f469167f2",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-      "body": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:37:17+00:00",
-      "created_at": "2026-08-06T23:47:26.923775+00:00"
-    },
-    {
-      "id": "d46698d81212a0dd",
-      "content_hash": "d46698d81212a0ddc327699d4559b9498be97668019fafd6aea04cc90d27abfd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19071",
-      "title": "CVE-2026-19071 - A flaw has been found in itsourcecode Hospital Management System 1.0. Affected i...",
-      "body": "A flaw has been found in itsourcecode Hospital Management System 1.0. Affected is an unknown function of the file /viewappointment.php. This manipulation of the argument delid causes sql injection. It is possible to initiate the attack remotely. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19071",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-06T22:16:54.883000",
-      "created_at": "2026-08-07T17:38:42.124158+00:00"
-    },
-    {
-      "id": "8fce31169d60659f",
-      "content_hash": "8fce31169d60659f48028dc3d2ea2814a30eeffffd6da8670e159091c2ad6f0d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19070",
-      "title": "CVE-2026-19070 - A vulnerability was detected in itsourcecode Hospital Management System 1.0. Thi...",
-      "body": "A vulnerability was detected in itsourcecode Hospital Management System 1.0. This impacts an unknown function of the file /viewadmin.php. The manipulation of the argument delid results in sql injection. The attack may be performed from remote. The exploit is now public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19070",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-06T22:16:54.693000",
-      "created_at": "2026-08-07T17:38:42.124154+00:00"
     }
   ]
 }
