@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T08:28:30.334662+00:00",
+  "generated_at": "2026-08-09T09:27:31.718565+00:00",
   "items": [
+    {
+      "id": "ad70359e064b65be",
+      "content_hash": "ad70359e064b65bec239f1efa8999e38728d1eb7486b9b6d8b1d2f61f2f1a8cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+      "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI's Soaring Cost",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49229412\">Comments</a>",
+      "url": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T08:00:51+00:00",
+      "created_at": "2026-08-09T09:27:31.718335+00:00"
+    },
+    {
+      "id": "c1c52e5ec0b1c5dd",
+      "content_hash": "c1c52e5ec0b1c5ddc13bcbf6ba6b893f1bd01dd1275506fea698c3b69793e6f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+      "title": "There Are Magic Hexagons of Every Order",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49229174\">Comments</a>",
+      "url": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T07:19:58+00:00",
+      "created_at": "2026-08-09T09:27:31.717689+00:00"
+    },
     {
       "id": "bbd2e07c6cbd08d1",
       "content_hash": "bbd2e07c6cbd08d152282721475e2051a48cae3591b515329280b67fd4cf8f6e",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T05:23:41+00:00",
       "created_at": "2026-08-09T06:35:46.331157+00:00"
+    },
+    {
+      "id": "ff32917b4d8a99d9",
+      "content_hash": "ff32917b4d8a99d9bfdc291a36269e3b39c5c1bf25082d39c47197f96bf7e209",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19331",
+      "title": "CVE-2026-19331 - A vulnerability was identified in bazylhorsey obsidian-mcp-server 1.0.0. This af...",
+      "body": "A vulnerability was identified in bazylhorsey obsidian-mcp-server 1.0.0. This affects the function readCanvas/writeCanvas of the file src/services/CanvasService.ts. Such manipulation leads to path traversal. An attack has to be approached locally. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19331",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T05:16:50.810000",
+      "created_at": "2026-08-09T09:27:27.571271+00:00"
     },
     {
       "id": "f81fac5cfe7a6217",
@@ -42,6 +84,34 @@
       "cvss_score": null,
       "published_at": "2026-08-09T04:30:26+00:00",
       "created_at": "2026-08-09T06:35:46.330946+00:00"
+    },
+    {
+      "id": "5c86e3e48dffda25",
+      "content_hash": "5c86e3e48dffda257983ca8cb8b437ab0abf1f918b3ca5d15a8e2351aad06b76",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19330",
+      "title": "CVE-2026-19330 - A vulnerability was determined in angrysky56 advanced-reasoning-mcp 1.0.0. The i...",
+      "body": "A vulnerability was determined in angrysky56 advanced-reasoning-mcp 1.0.0. The impacted element is the function create_system_json/create_library to get_system_json/switch_memory_library of the file src/index.ts. This manipulation causes path traversal. The attack requires local access. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19330",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T04:17:42.917000",
+      "created_at": "2026-08-09T09:27:27.571265+00:00"
+    },
+    {
+      "id": "06a3454f17599358",
+      "content_hash": "06a3454f17599358c559c8896226eae305cf7f9a3ad9baf156ff0c345fdc4e54",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19329",
+      "title": "CVE-2026-19329 - A vulnerability was found in andreahaku codex_mcp up to 1ff521cc6cc57cfe56ddef94...",
+      "body": "A vulnerability was found in andreahaku codex_mcp up to 1ff521cc6cc57cfe56ddef946c644b8534771390. The affected element is an unknown function of the file src/codex-process-simple.ts of the component ask MCP Tool. The manipulation of the argument model results in command injection. The attack requires a local approach. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19329",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T04:17:37.780000",
+      "created_at": "2026-08-09T09:27:27.571256+00:00"
     },
     {
       "id": "f756a97305300a96",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T22:16:48.300000",
       "created_at": "2026-08-07T16:39:40.808057+00:00"
-    },
-    {
-      "id": "62be59383db4d15c",
-      "content_hash": "62be59383db4d15c81dd78b99f9b2ba0bdeb7e38f66dfc18552f080531bb7fcb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15256",
-      "title": "CVE-2026-15256 - The Ninja Forms WordPress plugin before 3.14.10 does not prevent user-supplied q...",
-      "body": "The Ninja Forms WordPress plugin before 3.14.10 does not prevent user-supplied query-string input, used to pre-populate a form field's default value, from being processed as a shortcode, allowing unauthenticated attackers to execute arbitrary shortcodes registered on the site when a form so configured is embedded on a public page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15256",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.8,
-      "published_at": "2026-08-06T22:16:48.040000",
-      "created_at": "2026-08-07T16:39:40.808050+00:00"
-    },
-    {
-      "id": "f595396a1712b410",
-      "content_hash": "f595396a1712b410ea688ee5548f41031f0441c38360dcf737ba3c705207fa34",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15208",
-      "title": "CVE-2026-15208 - The RegistrationMagic WordPress plugin before 6.0.9.5 does not compare the verif...",
-      "body": "The RegistrationMagic WordPress plugin before 6.0.9.5 does not compare the verified PayPal capture's amount, currency, payee, or prior use against the registration it is finalising: its server-side check only confirms the capture status is COMPLETED. An unauthenticated attacker can therefore finalise an expensive paid registration with any genuinely-completed low-value capture, and replay a single capture across unlimited registrations because captures are not de-duplicated.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15208",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:47.800000",
-      "created_at": "2026-08-07T16:39:40.808044+00:00"
-    },
-    {
-      "id": "0200643d5c550fb6",
-      "content_hash": "0200643d5c550fb690a9e5219d642b438eda65eea4433829631d6fc9cd2a04f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15152",
-      "title": "CVE-2026-15152 - The WP Hotel Booking WordPress plugin before 2.3.2 does not verify that a paymen...",
-      "body": "The WP Hotel Booking WordPress plugin before 2.3.2 does not verify that a payment notification corresponds to a payment made to the site's own merchant account, nor that the paid amount matches the booking total, allowing unauthenticated users to have their bookings marked as fully paid without any payment reaching the site owner.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15152",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:47.687000",
-      "created_at": "2026-08-07T16:39:40.808038+00:00"
-    },
-    {
-      "id": "b8addf548fb7a3d2",
-      "content_hash": "b8addf548fb7a3d2c2b3b9a62bd8633e3ff900dfade73a35c838045595e3261e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15149",
-      "title": "CVE-2026-15149 - The WP Hotel Booking WordPress plugin before 2.3.3 does not ensure that room qua...",
-      "body": "The WP Hotel Booking WordPress plugin before 2.3.3 does not ensure that room quantities and the resulting order total are non-negative when placing a booking, and relies on client-controlled cart data, allowing unauthenticated users to create confirmed reservations for free or at an arbitrarily reduced price.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15149",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:47.567000",
-      "created_at": "2026-08-07T16:39:40.808032+00:00"
-    },
-    {
-      "id": "2d45ff05aa73c543",
-      "content_hash": "2d45ff05aa73c543dade2a0662a8ef30dc73eb02dddc45a8e2b63fc00630ba71",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15147",
-      "title": "CVE-2026-15147 - The Five Star Restaurant Reservations WordPress plugin before 2.7.23 does not ve...",
-      "body": "The Five Star Restaurant Reservations WordPress plugin before 2.7.23 does not verify the authenticity of incoming payment notifications, failing to validate the payment recipient, amount, and status or to bind the notification to the intended booking, allowing unauthenticated attackers to mark arbitrary pending reservations as paid and confirmed.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15147",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:47.450000",
-      "created_at": "2026-08-07T16:39:40.808025+00:00"
     }
   ]
 }
