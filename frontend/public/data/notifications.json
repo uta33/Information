@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T11:19:11.204479+00:00",
+  "generated_at": "2026-08-09T12:24:57.520424+00:00",
   "items": [
+    {
+      "id": "b82abc6f8092bdb6",
+      "content_hash": "b82abc6f8092bdb6f9382f633aba26f269652c4b183eddf1cfbbc0541bf73b1a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+      "title": "Reviving a four year old reMarkable 2",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230514\">Comments</a>",
+      "url": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T11:39:25+00:00",
+      "created_at": "2026-08-09T12:24:57.519642+00:00"
+    },
+    {
+      "id": "5023e4d9a7f9baba",
+      "content_hash": "5023e4d9a7f9baba3b81ea85a20d744ef3834a229bbec2fadb7860b5dd847aae",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+      "title": "Everything You Do Is Being Recorded",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230477\">Comments</a>",
+      "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T11:30:48+00:00",
+      "created_at": "2026-08-09T12:24:57.519833+00:00"
+    },
     {
       "id": "b9a01f5628745146",
       "content_hash": "b9a01f5628745146c2fa52d8cc833f980011b24378cfc9bc16580a2ab99f1494",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T10:06:37+00:00",
       "created_at": "2026-08-09T11:19:11.203878+00:00"
+    },
+    {
+      "id": "84d4387942f0d6fe",
+      "content_hash": "84d4387942f0d6fecd6f54ac148fff8eb4b87782ff428fdf69cbd8c130b3ba98",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://airy.so",
+      "title": "Show HN: Airy – Free, fast, and simple voice content creation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49229848\">Comments</a>",
+      "url": "https://airy.so",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T09:29:32+00:00",
+      "created_at": "2026-08-09T12:24:57.520162+00:00"
     },
     {
       "id": "ad70359e064b65be",
@@ -70,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T05:23:41+00:00",
       "created_at": "2026-08-09T06:35:46.331157+00:00"
+    },
+    {
+      "id": "a2fe32c9d68b2fbe",
+      "content_hash": "a2fe32c9d68b2fbec8ae1333c5f75dff9e9ba2bb7bea77ade638a0e0e6a20c3a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19334",
+      "title": "CVE-2026-19334 - A flaw has been found in NightTrek Ollama-mcp up to 80cf2e17cfc144963a475b619093...",
+      "body": "A flaw has been found in NightTrek Ollama-mcp up to 80cf2e17cfc144963a475b619093a2d13c13dbc9. This affects an unknown part of the file src/index.ts. This manipulation of the argument name/modelfile/source/destination causes command injection. The attack can only be executed locally. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19334",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T05:16:51.397000",
+      "created_at": "2026-08-09T12:24:54.389198+00:00"
     },
     {
       "id": "e8eb7f8d7e4c5604",
@@ -6944,62 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-06T22:16:52.560000",
       "created_at": "2026-08-07T17:38:42.124095+00:00"
-    },
-    {
-      "id": "89ceae8b539e217d",
-      "content_hash": "89ceae8b539e217dc351333b675791a71ed4e4fb8da2b6334bfa3337d8638997",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18487",
-      "title": "CVE-2026-18487 - A flaw was found in Epiphany. An issue in how the browser reads web addresses al...",
-      "body": "A flaw was found in Epiphany. An issue in how the browser reads web addresses allows attackers to fake the domain name shown in the address bar. If a user clicks a specially crafted link containing a colon (for example, [https://trusted.com:80@attacker.com/](https://trusted.com:80@attacker.com/)), the address bar and security menus will display the safe website (trusted.com) but it will actually load the attacker website (attacker.com) on the screen. This allows attackers to create convincing phishing pages to trick users into trusting a malicious site.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18487",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-06T22:16:50.250000",
-      "created_at": "2026-08-07T17:38:42.124088+00:00"
-    },
-    {
-      "id": "578a10e13a520275",
-      "content_hash": "578a10e13a520275ea9f3a7a5d1a997b2edc57e69586534cb313d9211228d1ea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18367",
-      "title": "CVE-2026-18367 - A privilege escalation vulnerability allows local users to execute arbitrary cod...",
-      "body": "A privilege escalation vulnerability allows local users to execute arbitrary code as root via Sophos Endpoint for macOS older than version 2026.1.1 and Sophos Home for macOS older than version 10.11.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18367",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-08-06T22:16:50.010000",
-      "created_at": "2026-08-07T17:38:42.124083+00:00"
-    },
-    {
-      "id": "519ad74a0979be16",
-      "content_hash": "519ad74a0979be1647e3337dde575279b5e1e331a08df691821338bac8aadeda",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-17032",
-      "title": "CVE-2026-17032 - Multiple Supsystic Pro plugins were distributed with malicious code through the ...",
-      "body": "Multiple Supsystic Pro plugins were distributed with malicious code through the vendor's compromised update server, allowing unauthenticated attackers to deploy a second-stage payload that exfiltrates credentials and other sensitive data and grants full control of affected sites.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17032",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-08-06T22:16:49.237000",
-      "created_at": "2026-08-07T17:38:42.124078+00:00"
-    },
-    {
-      "id": "9c3bdd0df457221d",
-      "content_hash": "9c3bdd0df457221d46b1bd29c5520dff609f33d917d4696df5dfad7f3d62445f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16620",
-      "title": "CVE-2026-16620 - The WPC Name Your Price for WooCommerce WordPress plugin before 2.2.5 does not e...",
-      "body": "The WPC Name Your Price for WooCommerce WordPress plugin before 2.2.5 does not enforce its server-side price allowlist for products configured in \"Select\" price mode, allowing an unauthenticated visitor to add such a product to the cart at an arbitrary value below the merchant-defined allowed prices and commit a real order at that price (revenue loss / underpriced orders). This is a distinct, unfixed vector from CVE-2025-12115, whose 2.2.0 fix only addressed applying a custom price to products where Name Your Price is disabled and left the Select-mode allowlist unenforced through 2.2.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16620",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-06T22:16:49.120000",
-      "created_at": "2026-08-07T17:38:42.124073+00:00"
     }
   ]
 }
