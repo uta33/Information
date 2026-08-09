@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-09T05:39:36.615673+00:00",
+  "generated_at": "2026-08-09T06:35:46.331830+00:00",
   "items": [
+    {
+      "id": "bbd2e07c6cbd08d1",
+      "content_hash": "bbd2e07c6cbd08d152282721475e2051a48cae3591b515329280b67fd4cf8f6e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/jmarshall23/msword",
+      "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228663\">Comments</a>",
+      "url": "https://github.com/jmarshall23/msword",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T05:23:41+00:00",
+      "created_at": "2026-08-09T06:35:46.331157+00:00"
+    },
     {
       "id": "f81fac5cfe7a6217",
       "content_hash": "f81fac5cfe7a6217098500d99779f84f50da49a000d7d33baf075256b64c599e",
@@ -16,6 +30,20 @@
       "created_at": "2026-08-09T05:39:36.614497+00:00"
     },
     {
+      "id": "572e0dac17225b25",
+      "content_hash": "572e0dac17225b2553a1ba767b22e0b98761157000bbbbdb073e086dff41d703",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://longbets.org/601/",
+      "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228458\">Comments</a>",
+      "url": "http://longbets.org/601/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T04:30:26+00:00",
+      "created_at": "2026-08-09T06:35:46.330946+00:00"
+    },
+    {
       "id": "b567720094f14ef5",
       "content_hash": "b567720094f14ef5d78f5bf63d106579d6d9d674b056fee6e6b6773982cc6f1e",
       "source_name": "Hacker News (Best)",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T04:03:59+00:00",
       "created_at": "2026-08-09T05:39:36.615031+00:00"
+    },
+    {
+      "id": "d31e22d8cd85f1eb",
+      "content_hash": "d31e22d8cd85f1eb06a988cd056485f7b5b54b5563d0e8d3b4fef2897a3f78ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "title": "Illinois just told every operating system to start reporting your kid's age",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228350\">Comments</a>",
+      "url": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T04:03:59+00:00",
+      "created_at": "2026-08-09T06:35:46.331229+00:00"
     },
     {
       "id": "38e3feba0c3e8f27",
@@ -86,6 +128,20 @@
       "created_at": "2026-08-09T02:55:43.239146+00:00"
     },
     {
+      "id": "75ac32c606074c21",
+      "content_hash": "75ac32c606074c2125b5ab5dcca4d6b96f789695ce45cd4b3480c03f1386ab58",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.mastykarz.nl/coding-is-solved-misses-the-point/",
+      "title": "\"Coding is solved\" misses the point",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227655\">Comments</a>",
+      "url": "https://blog.mastykarz.nl/coding-is-solved-misses-the-point/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:50:08+00:00",
+      "created_at": "2026-08-09T06:35:46.331513+00:00"
+    },
+    {
       "id": "ec12de40c72d464d",
       "content_hash": "ec12de40c72d464d2e3a6fb8c3cd7f9fec91c0357ab67ee330fd72158ee89caf",
       "source_name": "Hacker News (Best)",
@@ -100,6 +156,20 @@
       "created_at": "2026-08-09T05:39:36.614813+00:00"
     },
     {
+      "id": "4ead26e819e712b2",
+      "content_hash": "4ead26e819e712b2204afe70f7d3cd1080d612bdadaa235d33c09421dd2c930d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "title": "Incentives are for losers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227652\">Comments</a>",
+      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:49:48+00:00",
+      "created_at": "2026-08-09T06:35:46.331136+00:00"
+    },
+    {
       "id": "5a05d6625364661f",
       "content_hash": "5a05d6625364661f509ce2770a48c5e3616c5b56d345a5aecc8a4bf769c804da",
       "source_name": "Hacker News (Best)",
@@ -112,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T01:23:36+00:00",
       "created_at": "2026-08-09T04:10:01.673252+00:00"
+    },
+    {
+      "id": "8c4b377329ae0539",
+      "content_hash": "8c4b377329ae0539405ef849a5055951a4d9c0b235c46c26da4690b9f6d7e858",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theoremdb.org/",
+      "title": "TheoremDB – A public workspace for machine mathematics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227505\">Comments</a>",
+      "url": "https://theoremdb.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:23:36+00:00",
+      "created_at": "2026-08-09T06:35:46.331333+00:00"
     },
     {
       "id": "fcd9b6daffcc51a4",
@@ -224,6 +308,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T22:32:50+00:00",
       "created_at": "2026-08-09T02:55:43.239172+00:00"
+    },
+    {
+      "id": "99f59fb83e5b4b17",
+      "content_hash": "99f59fb83e5b4b17abe0be448de173a6e8996679662f28f35897c5e5644248cb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-71502",
+      "title": "CVE-2026-71502 - CTI-Transmute contains a stored cross-site scripting vulnerability caused by ins...",
+      "body": "CTI-Transmute contains a stored cross-site scripting vulnerability caused by insufficient neutralization of Vue template expression delimiters in server-rendered user-controlled data.\n\nAn unauthenticated attacker can create a public conversion whose name or description contains a malicious Vue expression using the application's configured [[ ... ]] delimiters. User profile names may provide an additional injection vector. Although Jinja HTML escaping is applied, the resulting value is subsequently included in a DOM region compiled by Vue.\n\nVue interprets the attacker-controlled value as a template expression rather than ordinary text. By accessing the JavaScript Function constructor from within the expression, an attacker can execute arbitrary JavaScript in the security context of the CTI-Transmute origin. The application's nonce-based Content Security Policy does not prevent exploitation because the Vue runtime compiler requires the unsafe-eval policy exception.\n\nThe malicious payload is stored by the application and executed whenever another user opens an affected page, such as the public conversion detail page. The victim may be a normal user or an administrator. Successful exploitation could allow the attacker to:\n\n  *  Access data available to the victim through the application.\n  *  Extract API keys, tokens, or other sensitive information exposed to the page.\n  *  Perform authenticated actions using the victim's session.\n  *  Modify conversions or other application data.\n  *  Escalate the impact by targeting an administrator.\n\n\nA demonstrated payload can use [].constructor.constructor(...) to obtain the JavaScript Function constructor and execute arbitrary code. The regression tests also show that a short first-stage payload could retrieve an uncapped conversion description and evaluate a larger second-stage payload.\n\nThe patch addresses the vulnerability by registering a global Jinja finalize hook that inserts a zero-width Unicode word joiner inside every Vue",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71502",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T22:16:34.360000",
+      "created_at": "2026-08-09T06:35:42.216936+00:00"
     },
     {
       "id": "f20d2dd59f86ace7",
@@ -6902,104 +7000,6 @@
       "cvss_score": 6.8,
       "published_at": "2026-08-06T22:16:40.557000",
       "created_at": "2026-08-07T16:39:40.807888+00:00"
-    },
-    {
-      "id": "7d973c4a868d9ca0",
-      "content_hash": "7d973c4a868d9ca0938da202db01d9c039afd7116e774a941b0f0fa0e264fed9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2024-39024",
-      "title": "CVE-2024-39024 - In Packetfence 13.2.0, the WebGui interface setting allows authenticated remote ...",
-      "body": "In Packetfence 13.2.0, the WebGui interface setting allows authenticated remote code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39024",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-06T22:16:40.020000",
-      "created_at": "2026-08-07T16:39:40.807881+00:00"
-    },
-    {
-      "id": "132a25e881bfa3e8",
-      "content_hash": "132a25e881bfa3e8b7acdd8266efecd73d9142d5f94c693c5bf8b13fe959d9b9",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150489",
-      "title": "Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands",
-      "body": "Not everyone needs a keynote slot to make noise at TechCrunch Disrupt 2026. Sometimes the best way to meet investors, customers, and partners is by exhibiting directly on the Expo Hall floor at San Francisco&#8217;s Moscone West from October 13-15. That&#8217;s exactly what our Exhibit Program offers, and it’s still open to showcase your startup.  Here&#8217;s&#160;what $12,500&#160;buys&#160;you:&#160; Joining fellow exhibitors is the fastest, lowest-lift way for a [&#8230;]",
-      "url": "https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:00:00+00:00",
-      "created_at": "2026-08-06T23:47:31.115614+00:00"
-    },
-    {
-      "id": "4bf5cd1b508635c0",
-      "content_hash": "4bf5cd1b508635c04a392eeece98ddf6b9e81f974eeaf9ac9c0649d72f326d2d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49203105\">Comments</a>",
-      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:52:16+00:00",
-      "created_at": "2026-08-06T23:47:31.506070+00:00"
-    },
-    {
-      "id": "e483ab52e9fc2a45",
-      "content_hash": "e483ab52e9fc2a4563df9704b0966a1b096970d97c3f838c53c3534618b7c0b0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/mattdeeds/pokeemerald-rp2350",
-      "title": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49203059\">Comments</a>",
-      "url": "https://github.com/mattdeeds/pokeemerald-rp2350",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:49:07+00:00",
-      "created_at": "2026-08-06T23:47:31.506289+00:00"
-    },
-    {
-      "id": "d1c4b2252f002182",
-      "content_hash": "d1c4b2252f0021829e306b9c4b770853a168e7072ca07a04e456880c8bd697f6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.aleksagordic.com/blog/vllm",
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49202852\">Comments</a>",
-      "url": "https://www.aleksagordic.com/blog/vllm",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:30:21+00:00",
-      "created_at": "2026-08-06T23:47:31.506157+00:00"
-    },
-    {
-      "id": "5016a17224bbdb9c",
-      "content_hash": "5016a17224bbdb9ccad744dea2709228fa243586590b02ca14ad413126184a64",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150875",
-      "title": "Vogue just gave another nod of approval to the tech world",
-      "body": "Vogue World is coming to San Francisco next year — perhaps another indication that tech bros are now part of the fashion zeitgeist.",
-      "url": "https://techcrunch.com/2026/08/06/vogue-just-gave-another-nod-of-approval-to-the-tech-world/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:24:47+00:00",
-      "created_at": "2026-08-06T23:47:31.115640+00:00"
-    },
-    {
-      "id": "1bb062f1d0cfc509",
-      "content_hash": "1bb062f1d0cfc5099055664be49f43c17ee199ae2d5473c860d381624ed921ab",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3149365",
-      "title": "Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow",
-      "body": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
-      "url": "https://techcrunch.com/2026/08/06/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:20:00+00:00",
-      "created_at": "2026-08-06T23:47:31.115663+00:00"
     }
   ]
 }
