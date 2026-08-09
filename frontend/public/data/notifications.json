@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-09T00:49:43.103472+00:00",
+  "generated_at": "2026-08-09T02:55:43.239876+00:00",
   "items": [
+    {
+      "id": "0b61c471ee020bed",
+      "content_hash": "0b61c471ee020bed3111de103794c9bc136fc975aef3af500643dde446046b2f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
+      "title": "The phone book that led us to Assad's spy chief in hiding",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227686\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:55:53+00:00",
+      "created_at": "2026-08-09T02:55:43.239146+00:00"
+    },
+    {
+      "id": "287c09f9ec307211",
+      "content_hash": "287c09f9ec307211c00c537b966403890eab4d89eeb0c1a9314880bfa066eda8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://os8088.com/",
+      "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49226923\">Comments</a>",
+      "url": "https://os8088.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T23:37:27+00:00",
+      "created_at": "2026-08-09T02:55:43.239051+00:00"
+    },
+    {
+      "id": "3897a4f35492c030",
+      "content_hash": "3897a4f35492c0304e6bffe2e31d56df3f11d4a29d65d2684c8d034dc16efe1f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nyujll.com/volume-14/title-vii-disparate-impact-liability-makes-almost-everything-presumptively-illegal",
+      "title": "Title 7 Disparate Impact Liability Makes Almost Everything Presumptively Illegal",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49226827\">Comments</a>",
+      "url": "https://www.nyujll.com/volume-14/title-vii-disparate-impact-liability-makes-almost-everything-presumptively-illegal",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T23:19:44+00:00",
+      "created_at": "2026-08-09T02:55:43.239578+00:00"
+    },
     {
       "id": "e10e21a5cb542539",
       "content_hash": "e10e21a5cb5425392b2f1f05e93d4b7b7dd16ea87cfe32a29d70516ef8aa64b1",
@@ -16,6 +58,20 @@
       "created_at": "2026-08-09T00:49:43.103160+00:00"
     },
     {
+      "id": "ae680ac1c4ce6363",
+      "content_hash": "ae680ac1c4ce6363503d036d961239b4b8a8573e084e5666d2c08e81e7a143f4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.andrewt.net/dithered-qr-codes/wtf/",
+      "title": "Dithered QR Codes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49226742\">Comments</a>",
+      "url": "https://www.andrewt.net/dithered-qr-codes/wtf/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T23:05:24+00:00",
+      "created_at": "2026-08-09T02:55:43.239193+00:00"
+    },
+    {
       "id": "ba44eab2e9aa0e65",
       "content_hash": "ba44eab2e9aa0e651d97fe33d4703e912864f1ff2c65e591a10c1c3e0daf11cc",
       "source_name": "Hacker News (Best)",
@@ -28,6 +84,34 @@
       "cvss_score": null,
       "published_at": "2026-08-08T22:49:23+00:00",
       "created_at": "2026-08-09T00:49:43.102598+00:00"
+    },
+    {
+      "id": "3a703341830f8c45",
+      "content_hash": "3a703341830f8c452b42c38874e05f030b2dc384dd0e68dc48739cf41c19701f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles",
+      "title": "Should you stop cracking your knuckles?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49226563\">Comments</a>",
+      "url": "https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T22:36:25+00:00",
+      "created_at": "2026-08-09T02:55:43.239391+00:00"
+    },
+    {
+      "id": "8efc509555f124ca",
+      "content_hash": "8efc509555f124cae13cf3c6020d42d86c7723e6564553069889907cb03099f1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://shopify.engineering/scaling-inventory-reservations",
+      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49226536\">Comments</a>",
+      "url": "https://shopify.engineering/scaling-inventory-reservations",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T22:32:50+00:00",
+      "created_at": "2026-08-09T02:55:43.239172+00:00"
     },
     {
       "id": "f20d2dd59f86ace7",
@@ -98,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-08-08T19:38:08+00:00",
       "created_at": "2026-08-08T21:18:08.490150+00:00"
+    },
+    {
+      "id": "8402d56b73aa3525",
+      "content_hash": "8402d56b73aa352516c1c951fa7f59dba54f0b0706c90f989de507220ebb8a0a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-71957",
+      "title": "CVE-2026-71957 - D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_2...",
+      "body": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the app.cgi interface. A remote attacker can write an overly long string to the netAcc.addlist[].name field and execute arbitrary commands by crafting a specific payload, or cause the device to crash.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71957",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-08T18:16:56.647000",
+      "created_at": "2026-08-09T02:55:39.830144+00:00"
     },
     {
       "id": "4b17e7b99890d631",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T19:14:21+00:00",
       "created_at": "2026-08-06T23:47:31.506113+00:00"
-    },
-    {
-      "id": "08f4a2b6b4a96a51",
-      "content_hash": "08f4a2b6b4a96a51824559efa31c5d1c20386b468daf58310b4dfca9871c3f99",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
-      "title": "Can you reverse engineer an ASIC?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49200933\">Comments</a>",
-      "url": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T19:07:33+00:00",
-      "created_at": "2026-08-06T23:47:31.506386+00:00"
-    },
-    {
-      "id": "e391ea776d4b2c74",
-      "content_hash": "e391ea776d4b2c744c3e2ec70ebc3bd0c8749aa47d651f80f3cbd81e222017c6",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3150866",
-      "title": "Defense tech Hadrian raises $1.37B at $8B valuation",
-      "body": "Hadrian is building automated factories to mass-produce parts for defense vehicles like submarines. It's backed by a long list of well-known investors.",
-      "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T19:02:57+00:00",
-      "created_at": "2026-08-06T23:47:31.115728+00:00"
-    },
-    {
-      "id": "da998eb2f997d132",
-      "content_hash": "da998eb2f997d132c9895b1b4bac73d7c5bf78dda23b00c87a29ff12e3abe62b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49200652\">Comments</a>",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T18:44:49+00:00",
-      "created_at": "2026-08-06T23:47:31.506587+00:00"
-    },
-    {
-      "id": "fac77f8b59aeb188",
-      "content_hash": "fac77f8b59aeb1886478cfde94c30cee42fe9e7a4f4fb69d54e0c46476b4ce6f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://mastodon.gamedev.place/@rygorous/117047697255584965",
-      "title": "My phone detects going on a run as “someone snatching my phone and running off”",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49200439\">Comments</a>",
-      "url": "https://mastodon.gamedev.place/@rygorous/117047697255584965",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T18:26:08+00:00",
-      "created_at": "2026-08-06T23:47:31.506344+00:00"
-    },
-    {
-      "id": "ef3533ef91a29699",
-      "content_hash": "ef3533ef91a29699bab8145bda58a94276a8a452eb4d99a9f5ed129df6fd2e78",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
-      "title": "Federal Communications Commission scraps limit on broadcast TV ownership",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49200390\">Comments</a>",
-      "url": "https://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T18:22:16+00:00",
-      "created_at": "2026-08-06T23:47:31.506681+00:00"
-    },
-    {
-      "id": "c6aa4f6d546fac9e",
-      "content_hash": "c6aa4f6d546fac9e8e4bc9df9a0322b6a91464ce0c094e4ffb81a3ffb66f3a72",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-      "title": "Swiss government SharePoint breach compromised 200 accounts",
-      "body": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-06T18:14:19+00:00",
-      "created_at": "2026-08-06T23:47:26.923829+00:00"
-    },
-    {
-      "id": "8c70f7e11a6d32dd",
-      "content_hash": "8c70f7e11a6d32ddccb1683df5f2a47f5679cc53ef63739e37578176fc5edd13",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-      "body": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-06T18:03:45+00:00",
-      "created_at": "2026-08-06T23:47:26.923855+00:00"
     }
   ]
 }
