@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T10:20:51.205150+00:00",
+  "generated_at": "2026-08-09T11:19:11.204479+00:00",
   "items": [
+    {
+      "id": "b9a01f5628745146",
+      "content_hash": "b9a01f5628745146c2fa52d8cc833f980011b24378cfc9bc16580a2ab99f1494",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "title": "CSS: The bomb inside your inbox",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230066\">Comments</a>",
+      "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T10:17:52+00:00",
+      "created_at": "2026-08-09T11:19:11.204002+00:00"
+    },
+    {
+      "id": "4717af57021fcdc9",
+      "content_hash": "4717af57021fcdc9659a017a9ed1f16ec27d73f27221e6d466e79e32da48d19c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://halfhill.com/byte/1998-12_alpha.html",
+      "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49230022\">Comments</a>",
+      "url": "https://halfhill.com/byte/1998-12_alpha.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T10:06:37+00:00",
+      "created_at": "2026-08-09T11:19:11.203878+00:00"
+    },
     {
       "id": "ad70359e064b65be",
       "content_hash": "ad70359e064b65bec239f1efa8999e38728d1eb7486b9b6d8b1d2f61f2f1a8cd",
@@ -42,6 +70,34 @@
       "cvss_score": null,
       "published_at": "2026-08-09T05:23:41+00:00",
       "created_at": "2026-08-09T06:35:46.331157+00:00"
+    },
+    {
+      "id": "e8eb7f8d7e4c5604",
+      "content_hash": "e8eb7f8d7e4c56040b798d6d9f4151f1e5351ffec6b8ebe290cffb12131621ad",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19333",
+      "title": "CVE-2026-19333 - A vulnerability was detected in NightTrek Supabase-MCP cc994ab2d2a36b0af6ee7c7f3...",
+      "body": "A vulnerability was detected in NightTrek Supabase-MCP cc994ab2d2a36b0af6ee7c7f3e6ce8e08cda2170/db03237d92f7dc2f0da0d70a87dba84ebcde5b66. Affected by this issue is some unknown functionality of the component generate_types. The manipulation of the argument schema results in command injection. The attack needs to be approached locally. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19333",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T05:16:51.207000",
+      "created_at": "2026-08-09T11:19:06.906292+00:00"
+    },
+    {
+      "id": "8d8aea58908c71b9",
+      "content_hash": "8d8aea58908c71b9dd13d0dfb8df98fadb46babde5da6d60728174815073aae2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19332",
+      "title": "CVE-2026-19332 - A security vulnerability has been detected in NellyW8 MCP4EDA 1.0.0. Affected by...",
+      "body": "A security vulnerability has been detected in NellyW8 MCP4EDA 1.0.0. Affected by this vulnerability is an unknown functionality of the component run_openlane/view_waveform. The manipulation of the argument design_name/vcd_file leads to command injection. Local access is required to approach this attack. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19332",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T05:16:51.030000",
+      "created_at": "2026-08-09T11:19:06.906285+00:00"
     },
     {
       "id": "ff32917b4d8a99d9",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-06T22:16:49.120000",
       "created_at": "2026-08-07T17:38:42.124073+00:00"
-    },
-    {
-      "id": "d7391ff910a5045a",
-      "content_hash": "d7391ff910a5045ae38010bd99fc798e89f7e8f2a2d18c6ee2fb42689cf5826d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16619",
-      "title": "CVE-2026-16619 - The miniOrange 2FA WordPress plugin before 6.2.8 does not correctly limit the nu...",
-      "body": "The miniOrange 2FA WordPress plugin before 6.2.8 does not correctly limit the number of second-factor verification attempts, tracking them against a client-supplied identifier that is reissued on every login, allowing an attacker who already knows a user's password to guess the one-time code without limit and take over the account.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16619",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-06T22:16:49.007000",
-      "created_at": "2026-08-07T17:38:42.124068+00:00"
-    },
-    {
-      "id": "baa969e73591233c",
-      "content_hash": "baa969e73591233cf5dc7262e61cb8954ea3d7221fbaf0207fab6d919402cc79",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16067",
-      "title": "CVE-2026-16067 - The Event Booking Manager for WooCommerce (Pro) WordPress plugin before 5.0.3 do...",
-      "body": "The Event Booking Manager for WooCommerce (Pro) WordPress plugin before 5.0.3 does not validate the ticket price on the server during its native (non-WooCommerce) checkout, trusting the per-ticket price supplied by the client instead of re-deriving the event's configured price. This allows unauthenticated users to book paid event tickets for free, obtaining completed bookings and valid tickets at no cost.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16067",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-06T22:16:48.887000",
-      "created_at": "2026-08-07T16:39:40.808076+00:00"
-    },
-    {
-      "id": "f1ea8f35e0cd92f8",
-      "content_hash": "f1ea8f35e0cd92f8c1eecdab2bd94b057dfeb4914f053d78aee515380207bb90",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15734",
-      "title": "CVE-2026-15734 - A Server-Side Template Injection (SSTI) vulnerability in WGDashboard version 4.3...",
-      "body": "A Server-Side Template Injection (SSTI) vulnerability in WGDashboard version 4.3.2 and earlier, allows authenticated attackers to execute arbitrary code as root.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15734",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:16:48.513000",
-      "created_at": "2026-08-07T16:39:40.808070+00:00"
-    },
-    {
-      "id": "3ff9c196621ab349",
-      "content_hash": "3ff9c196621ab349270bd994871e4de55d17c895c70fcaf7f2c82745ca2fc02a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15733",
-      "title": "CVE-2026-15733 - A Remote Code Execution (RCE) vulnerability exist in WGDashboard version 4.2.3 a...",
-      "body": "A Remote Code Execution (RCE) vulnerability exist in WGDashboard version 4.2.3 and earlier. Multiple OS command injection allows authenticated attackers to execute arbitrary commands as root.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15733",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:16:48.410000",
-      "created_at": "2026-08-07T16:39:40.808064+00:00"
     }
   ]
 }
