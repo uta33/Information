@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T22:17:40.605965+00:00",
+  "generated_at": "2026-08-09T23:18:42.331212+00:00",
   "items": [
+    {
+      "id": "577fa8445ba7aaf7",
+      "content_hash": "577fa8445ba7aaf752c416f2079dcc05eecdbfdb1f5da2381dadb55ed0f11cb5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html",
+      "title": "To Recruit Teachers, School Districts Are Building Homes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49236541\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T22:00:36+00:00",
+      "created_at": "2026-08-09T23:18:42.331000+00:00"
+    },
+    {
+      "id": "edbde321be69b4df",
+      "content_hash": "edbde321be69b4df71d7bd0f308a311e098c14779543b58b92295bfe34a2a557",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/",
+      "title": "Georgia police officers fired after Flock camera misuse",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49236033\">Comments</a>",
+      "url": "https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T21:20:24+00:00",
+      "created_at": "2026-08-09T23:18:42.330857+00:00"
+    },
     {
       "id": "9601a61b33a00780",
       "content_hash": "9601a61b33a0078061a85c74d2f95ed2bca6b21e2eb4359e086f090af26a2147",
@@ -112,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T20:15:52+00:00",
       "created_at": "2026-08-09T21:20:12.550725+00:00"
+    },
+    {
+      "id": "c1258cbd8683ce82",
+      "content_hash": "c1258cbd8683ce82bf01f9f341b91c559a695b5c609849292be3dd0e6269d747",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
+      "title": "The main way I've seen people turn ideologically crazy (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49235349\">Comments</a>",
+      "url": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T20:15:52+00:00",
+      "created_at": "2026-08-09T23:18:42.330816+00:00"
     },
     {
       "id": "a3dbcb65fc327d0f",
@@ -896,6 +938,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T07:19:58+00:00",
       "created_at": "2026-08-09T09:27:31.717689+00:00"
+    },
+    {
+      "id": "a385face86802545",
+      "content_hash": "a385face868025459e2ee8b5313e90d561470f043cb7e2dfef6e99a3482d30b2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19341",
+      "title": "CVE-2026-19341 - A security vulnerability has been detected in UTT HiPER 1200GW up to 2.5.3-17030...",
+      "body": "A security vulnerability has been detected in UTT HiPER 1200GW up to 2.5.3-170306. This impacts the function strcpy of the file /goform/pptpSrvGlobalConfig. Such manipulation of the argument EncryptionMode leads to stack-based buffer overflow. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19341",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-09T07:17:04.373000",
+      "created_at": "2026-08-09T23:18:39.410856+00:00"
     },
     {
       "id": "d5e714cdb3b37c79",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-07T08:16:46.457000",
       "created_at": "2026-08-08T02:48:25.535335+00:00"
-    },
-    {
-      "id": "aee7d1b5293a373d",
-      "content_hash": "aee7d1b5293a373dcdec71075c1d56011403537ca4ee19d992fc1958cab70e47",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49006",
-      "title": "CVE-2026-49006 - By accessing unencrypted information in the device firmware, an attacker can obt...",
-      "body": "By accessing unencrypted information in the device firmware, an attacker can obtain credentials related to TLS transmission.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49006",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T08:16:46.323000",
-      "created_at": "2026-08-08T02:48:25.535330+00:00"
-    },
-    {
-      "id": "37187f395968a4e4",
-      "content_hash": "37187f395968a4e483d631058d68cd01cd22da1fe2bbed1239bf587e87c2a2af",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19079",
-      "title": "CVE-2026-19079 - A TOCTOU (Time-of-Check-Time-of-Use) race condition vulnerability was found in t...",
-      "body": "A TOCTOU (Time-of-Check-Time-of-Use) race condition vulnerability was found in the fixfiles script in policycoreutils. When running fixfiles relabel or fixfiles restore, the script used find and chcon commands to locate and relabel unlabeled files under /tmp and other directories. A local attacker could exploit a race window between the file discovery and the label change operation by swapping directory components with symlinks, causing chcon to follow the symlink and modify SELinux labels on arbitrary system files. This could undermine SELinux mandatory access control protections on critical files such as /etc/shadow.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19079",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "published_at": "2026-08-07T08:16:46.160000",
-      "created_at": "2026-08-08T02:48:25.535325+00:00"
-    },
-    {
-      "id": "cf761f6bce67b8bb",
-      "content_hash": "cf761f6bce67b8bb511d0213901473038785591bfd84dff8c9ea6140301977ea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16027",
-      "title": "CVE-2026-16027 - Server-Side request forgery (SSRF) vulnerability in Revenue Administration Türki...",
-      "body": "Server-Side request forgery (SSRF) vulnerability in Revenue Administration Türkiye's E-Signature allows Server Side Request Forgery.\n\nThis issue affects Türkiye's E-Signature: from 2.4.4.0 before 2.5.1.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16027",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-07T08:16:46.023000",
-      "created_at": "2026-08-08T02:48:25.535320+00:00"
-    },
-    {
-      "id": "9afd489e27be0220",
-      "content_hash": "9afd489e27be02200af195bf5cf3c14be3d6d47849c9b10a7c4815b8a921f1cd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15239",
-      "title": "CVE-2026-15239 - The Simple CAPTCHA with Cloudflare Turnstile WordPress plugin before 1.42.0 does...",
-      "body": "The Simple CAPTCHA with Cloudflare Turnstile WordPress plugin before 1.42.0 does not bind its Turnstile validation cache to the single-use challenge token in its Forminator integration, instead keying it to an attacker-controlled, reusable request value, allowing unauthenticated attackers to solve one challenge and then replay token-less form submissions for a short window, defeating the anti-abuse protection the plugin provides.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15239",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T08:16:45.897000",
-      "created_at": "2026-08-08T02:48:25.535314+00:00"
     }
   ]
 }
