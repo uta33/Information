@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:27:31.718565+00:00",
+  "generated_at": "2026-08-09T10:20:51.205150+00:00",
   "items": [
     {
       "id": "ad70359e064b65be",
@@ -84,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T04:30:26+00:00",
       "created_at": "2026-08-09T06:35:46.330946+00:00"
+    },
+    {
+      "id": "4aa2a8c2973b5e26",
+      "content_hash": "4aa2a8c2973b5e2679883976f7fb83f90f2b734fed3b2cf95f3accc4e24cdf65",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c4g64152v71o",
+      "title": "Why MySpace fans want it back as relaunch hinted",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228426\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c4g64152v71o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T04:24:10+00:00",
+      "created_at": "2026-08-09T10:20:51.204782+00:00"
     },
     {
       "id": "5c86e3e48dffda25",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T22:16:48.410000",
       "created_at": "2026-08-07T16:39:40.808064+00:00"
-    },
-    {
-      "id": "ca00e32790cebbee",
-      "content_hash": "ca00e32790cebbeebf5b93095968197b251dd8af9af01e1f30c2d8665e8239aa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15732",
-      "title": "CVE-2026-15732 - A Server-Side Request Forgery (SSFR) vulnerability exist in WGDashboard version ...",
-      "body": "A Server-Side Request Forgery (SSFR) vulnerability exist in WGDashboard version 4.2.3 and earlier. The webhook functionality allows authenticated attackers to make arbitrary HTTP requests and retrieve responses.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15732",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T22:16:48.300000",
-      "created_at": "2026-08-07T16:39:40.808057+00:00"
     }
   ]
 }
