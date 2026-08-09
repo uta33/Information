@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-09T19:23:40.066962+00:00",
+  "generated_at": "2026-08-09T20:18:22.507989+00:00",
   "items": [
+    {
+      "id": "d0730f95c11e0865",
+      "content_hash": "d0730f95c11e0865c270a3202208b3a5f06e4e2244026f5d55b0552e05a5ed25",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49234724\">Comments</a>",
+      "url": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T19:20:40+00:00",
+      "created_at": "2026-08-09T20:18:22.507353+00:00"
+    },
     {
       "id": "aca202ee0d1cbfbc",
       "content_hash": "aca202ee0d1cbfbc265ddffd5f3e3dc6368580011567851c722e68cba0e6b5c0",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T19:20:32+00:00",
       "created_at": "2026-08-09T19:23:39.691385+00:00"
+    },
+    {
+      "id": "0365c6f9fdcd3c4e",
+      "content_hash": "0365c6f9fdcd3c4e518ef56a3b3cbcfdc705f4ffca4a99cf558f7227accec3ff",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "title": "How I use LLMs to learn complex topics",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49234675\">Comments</a>",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T19:16:49+00:00",
+      "created_at": "2026-08-09T20:18:22.507138+00:00"
     },
     {
       "id": "6804250bf0d51228",
@@ -6972,34 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-08-07T06:16:55.577000",
       "created_at": "2026-08-07T23:23:24.750355+00:00"
-    },
-    {
-      "id": "1a60b7ffc4a356b2",
-      "content_hash": "1a60b7ffc4a356b2a7264bc477c17e67d781a6c5471a29e4d1463db99dda0ee5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15359",
-      "title": "CVE-2026-15359 - The Templately  WordPress plugin before 3.7.1 does not have an authorisation che...",
-      "body": "The Templately  WordPress plugin before 3.7.1 does not have an authorisation check on one of its request handlers, allowing unauthenticated attackers to overwrite the administrator's stored cloud service connection with an account under their control, disconnecting the legitimate administrator and redirecting the site's cloud template library to attacker-controlled content.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15359",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-07T06:16:55.460000",
-      "created_at": "2026-08-07T23:23:24.750350+00:00"
-    },
-    {
-      "id": "45608770d8a56c82",
-      "content_hash": "45608770d8a56c8292d1ba0e4a95779514f10b5287ae663074994c2074f32818",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-15245",
-      "title": "CVE-2026-15245 - The BNE Testimonials WordPress plugin before 2.0.8.2 does not properly escape a ...",
-      "body": "The BNE Testimonials WordPress plugin before 2.0.8.2 does not properly escape a shortcode attribute for a JavaScript context before echoing it into an inline script, allowing users with the contributor role and above to inject arbitrary JavaScript that executes in the browser of anyone viewing the affected content.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15245",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-07T06:16:55.350000",
-      "created_at": "2026-08-07T23:23:24.750345+00:00"
     }
   ]
 }
