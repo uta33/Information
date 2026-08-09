@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-09T04:10:01.673848+00:00",
+  "generated_at": "2026-08-09T05:39:36.615673+00:00",
   "items": [
+    {
+      "id": "f81fac5cfe7a6217",
+      "content_hash": "f81fac5cfe7a6217098500d99779f84f50da49a000d7d33baf075256b64c599e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://longbets.org/601/",
+      "title": "\"The original URL for this prediction will no longer be available in 11 years.\" (2011)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228458\">Comments</a>",
+      "url": "https://longbets.org/601/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T04:30:26+00:00",
+      "created_at": "2026-08-09T05:39:36.614497+00:00"
+    },
+    {
+      "id": "b567720094f14ef5",
+      "content_hash": "b567720094f14ef5d78f5bf63d106579d6d9d674b056fee6e6b6773982cc6f1e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "title": "Illinois Just Told Every Operating System to Start Reporting Your Kid's Age",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228350\">Comments</a>",
+      "url": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T04:03:59+00:00",
+      "created_at": "2026-08-09T05:39:36.615031+00:00"
+    },
     {
       "id": "38e3feba0c3e8f27",
       "content_hash": "38e3feba0c3e8f271882783745791023294dce5f21271e5dd6e2da183393a1b3",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T03:26:00+00:00",
       "created_at": "2026-08-09T04:10:01.673587+00:00"
+    },
+    {
+      "id": "d8a28312bb943a31",
+      "content_hash": "d8a28312bb943a31f74a24f600362a319c3bc7451197c8f3dfeb7769e976bb3e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://marketnow.site/",
+      "title": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49228086\">Comments</a>",
+      "url": "https://marketnow.site/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-09T03:13:01+00:00",
+      "created_at": "2026-08-09T05:39:36.615323+00:00"
     },
     {
       "id": "45802ccad23cff75",
@@ -44,6 +86,20 @@
       "created_at": "2026-08-09T02:55:43.239146+00:00"
     },
     {
+      "id": "ec12de40c72d464d",
+      "content_hash": "ec12de40c72d464d2e3a6fb8c3cd7f9fec91c0357ab67ee330fd72158ee89caf",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "title": "Incentives Are for Losers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227652\">Comments</a>",
+      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T01:49:48+00:00",
+      "created_at": "2026-08-09T05:39:36.614813+00:00"
+    },
+    {
       "id": "5a05d6625364661f",
       "content_hash": "5a05d6625364661f509ce2770a48c5e3616c5b56d345a5aecc8a4bf769c804da",
       "source_name": "Hacker News (Best)",
@@ -56,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T01:23:36+00:00",
       "created_at": "2026-08-09T04:10:01.673252+00:00"
+    },
+    {
+      "id": "fcd9b6daffcc51a4",
+      "content_hash": "fcd9b6daffcc51a454020434fe646229965b906cbd281fde11f0d544eae49370",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
+      "title": "Melatonin impairs morning cognition in healthy young adults",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49227365\">Comments</a>",
+      "url": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T00:59:58+00:00",
+      "created_at": "2026-08-09T05:39:36.614778+00:00"
     },
     {
       "id": "287c09f9ec307211",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-06T21:20:00+00:00",
       "created_at": "2026-08-06T23:47:31.115663+00:00"
-    },
-    {
-      "id": "40209e0180c32250",
-      "content_hash": "40209e0180c32250330b36a6a8940368b705db248ee5c6050566f16a0af5fcac",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "title": "Bioengineered chewing gum may offer a way to fight microbes linked to cancers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49202716\">Comments</a>",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:18:32+00:00",
-      "created_at": "2026-08-06T23:47:31.506644+00:00"
-    },
-    {
-      "id": "e4f152059bdf26df",
-      "content_hash": "e4f152059bdf26dfc37fa1f452051821461e791b9505efceba29b3100e5548dc",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49202716\">Comments</a>",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:18:32+00:00",
-      "created_at": "2026-08-07T02:02:08.282161+00:00"
-    },
-    {
-      "id": "13bfd6cf8c486e4e",
-      "content_hash": "13bfd6cf8c486e4ec5ffcd9c12a2929ce272164ba0d8b18d4ae919cd7854d6e0",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://roge.onwrite.app/what-is-a-product",
-      "title": "What is a product?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49202690\">Comments</a>",
-      "url": "https://roge.onwrite.app/what-is-a-product",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T21:16:52+00:00",
-      "created_at": "2026-08-07T08:04:44.608039+00:00"
-    },
-    {
-      "id": "ca7355d8bad802f5",
-      "content_hash": "ca7355d8bad802f526f4b59502379d3afc25464bc524fed2732d0fde9d1f8ba4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49201970\">Comments</a>",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T20:23:11+00:00",
-      "created_at": "2026-08-06T23:47:31.506008+00:00"
-    },
-    {
-      "id": "c1f4b50eea1fa703",
-      "content_hash": "c1f4b50eea1fa70365a19c98e65175f2eee151a810f32217e3876247d5800be7",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
-      "title": "Quake – 30th Anniversary Update",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49201930\">Comments</a>",
-      "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-06T20:21:19+00:00",
-      "created_at": "2026-08-06T23:47:31.506318+00:00"
     }
   ]
 }
