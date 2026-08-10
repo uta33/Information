@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:18:42.331212+00:00",
+  "generated_at": "2026-08-10T00:51:46.840616+00:00",
   "items": [
     {
       "id": "577fa8445ba7aaf7",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-09T22:00:36+00:00",
       "created_at": "2026-08-09T23:18:42.331000+00:00"
+    },
+    {
+      "id": "914e9a90dc8e47d6",
+      "content_hash": "914e9a90dc8e47d622bde200e5832932a2c46001166cc8d726a8e40dd11825f4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
+      "title": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49236439\">Comments</a>",
+      "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-09T21:52:23+00:00",
+      "created_at": "2026-08-10T00:51:46.840313+00:00"
     },
     {
       "id": "edbde321be69b4df",
@@ -910,6 +924,34 @@
       "cvss_score": null,
       "published_at": "2026-08-09T09:29:32+00:00",
       "created_at": "2026-08-09T12:24:57.520162+00:00"
+    },
+    {
+      "id": "f392583d0d06c1cd",
+      "content_hash": "f392583d0d06c1cd44ab4bed2eff6eddd589b1ad09b43f52c3422ec75189e26f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19343",
+      "title": "CVE-2026-19343 - A flaw has been found in code-projects Task Management System 1.0. Affected by t...",
+      "body": "A flaw has been found in code-projects Task Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/AdminLogin.php. Executing a manipulation of the argument email/password can lead to sql injection. The attack may be performed from remote. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19343",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-08-09T08:16:47.710000",
+      "created_at": "2026-08-10T00:51:43.616327+00:00"
+    },
+    {
+      "id": "d4807901476db395",
+      "content_hash": "d4807901476db3953601a28b4f2a35e0f85c36ddfe234b09261d554225157c58",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19342",
+      "title": "CVE-2026-19342 - A vulnerability was detected in code-projects Task Management System 1.0. Affect...",
+      "body": "A vulnerability was detected in code-projects Task Management System 1.0. Affected is an unknown function of the file /index.php of the component Login. Performing a manipulation of the argument Password results in improper authentication. The attack is possible to be carried out remotely. The exploit is now public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19342",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-08-09T08:16:46.807000",
+      "created_at": "2026-08-10T00:51:43.616320+00:00"
     },
     {
       "id": "ad70359e064b65be",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-07T09:00:00+00:00",
       "created_at": "2026-08-07T09:48:35.356078+00:00"
-    },
-    {
-      "id": "5d81a07105a94e42",
-      "content_hash": "5d81a07105a94e42e38b59cad2afcab631d26a65f6f8f182ebceed39c46144f6",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "body": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, disclose victim IP addresses and mapped ports, and exhaust NAT tables.\n\nPresented at Black Hat USA 2026, Stagg said the techniques were demonstrated across network infrastructure devices",
-      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T08:52:11+00:00",
-      "created_at": "2026-08-07T09:48:35.858440+00:00"
-    },
-    {
-      "id": "6c2a47b0d842092f",
-      "content_hash": "6c2a47b0d842092f1b402972fec5848571a0ea01a17bf1d6f80462fd625b0b5c",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "body": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
-      "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T08:18:35+00:00",
-      "created_at": "2026-08-07T09:48:35.858464+00:00"
-    },
-    {
-      "id": "e142b8499cec40f4",
-      "content_hash": "e142b8499cec40f41b01aafc91c8e018132e21d556874225c1966a13cc3af2b6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49007",
-      "title": "CVE-2026-49007 - By accessing unencrypted information in the device firmware, an attacker can obt...",
-      "body": "By accessing unencrypted information in the device firmware, an attacker can obtain the initial login credentials for the device's web interface.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49007",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-07T08:16:46.457000",
-      "created_at": "2026-08-08T02:48:25.535335+00:00"
     }
   ]
 }
