@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:55:57.160894+00:00",
+  "generated_at": "2026-08-10T11:40:58.176107+00:00",
   "items": [
     {
       "id": "9808832884b88d2d",
@@ -42,6 +42,48 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "a43b3da879319e21",
+      "content_hash": "a43b3da879319e21d08de3bac738fbde7e0af785308bf5ccce41fe66d02144bb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13701",
+      "title": "CVE-2026-13701 - The Advanced Excerpt WordPress plugin before 4.5 does not sanitise and escape on...",
+      "body": "The Advanced Excerpt WordPress plugin before 4.5 does not sanitise and escape one of its settings before outputting it on the front end of the site, which could allow administrators (including those without the unfiltered_html capability, such as on multisite) to perform Stored Cross-Site Scripting attacks that execute in the context of any visitor viewing affected pages.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13701",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:46.597000",
+      "created_at": "2026-08-10T11:40:53.361262+00:00"
+    },
+    {
+      "id": "4aff39d271a922f9",
+      "content_hash": "4aff39d271a922f9bfc725b6a0ec8cf648a9a529b0ea5eb02d00a69d8b588c23",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13600",
+      "title": "CVE-2026-13600 - The AutoNetTV Relay WordPress plugin before 3.0.14 does not perform any capabili...",
+      "body": "The AutoNetTV Relay WordPress plugin before 3.0.14 does not perform any capability or authentication check before setting a WordPress administrator authentication cookie during its scheduled content-synchronization task. On server configurations where the scheduled task executes before the HTTP response is committed, an unauthenticated attacker who triggers the due task can receive the administrator's session cookie and gain administrator access without credentials.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13600",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:46.473000",
+      "created_at": "2026-08-10T11:40:53.361256+00:00"
+    },
+    {
+      "id": "83a7f50449fdafe5",
+      "content_hash": "83a7f50449fdafe548de55c0c1a795f835acd90142aca2714837e32abdd95f73",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13170",
+      "title": "CVE-2026-13170 - The Eventin  WordPress plugin before 4.1.20 does not properly validate a templat...",
+      "body": "The Eventin  WordPress plugin before 4.1.20 does not properly validate a template path setting before using it to include a local file, allowing users with editor-level access and above to include and execute arbitrary local PHP files.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13170",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:46.360000",
+      "created_at": "2026-08-10T11:40:53.361250+00:00"
     },
     {
       "id": "acb23101601bfdea",
@@ -6958,48 +7000,6 @@
       "cvss_score": 3.5,
       "published_at": "2026-08-07T19:17:40.650000",
       "created_at": "2026-08-08T17:19:10.930030+00:00"
-    },
-    {
-      "id": "ce967c161c5be4fc",
-      "content_hash": "ce967c161c5be4fcde8d69ad2aa87e4559010c1c08ca5d0db35b32f78f253623",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-17435",
-      "title": "CVE-2026-17435 - File::Rotate::Simple versions before 0.4.0 for Perl create the target of danglin...",
-      "body": "File::Rotate::Simple versions before 0.4.0 for Perl create the target of dangling symlinks when rotating files.\n\nWhen the file to be rotated is a symbolic link to a missing file, and the touch option is enabled, then the rotate method assumes that the file is absent (since the existence check is against the target), and does not rotate it. But it touches the file, which creates the target.\n\nAn attacker that has the ability to create the symlink can use this to create an arbitrary file with permissions of the process rotating the files (which may be different from the process that normally writes to the log file that is being rotated).\n\nNote that the touch option is disabled by default.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17435",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T19:17:37.923000",
-      "created_at": "2026-08-08T17:19:10.930023+00:00"
-    },
-    {
-      "id": "b7d20b361950432a",
-      "content_hash": "b7d20b361950432a09c28f7ca97b538d9e267a61bb66cfcc7bab9ab81eb226e5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11430",
-      "title": "CVE-2026-11430 - Grav CMS's scheduler-webhook plugin contains an authentication bypass in the web...",
-      "body": "Grav CMS's scheduler-webhook plugin contains an authentication bypass in the webhook token check. When the webhook feature is enabled but no webhookToken is configured, a compound conditional short-circuits and skips token validation, so an unauthenticated remote attacker who can reach POST /scheduler/webhook can trigger the operator's already-configured scheduled jobs by sending a single request. The primitive is triggering-existing-jobs, not attacker-chosen command execution: the attacker controls when the jobs run and which one runs (via ?job=), but does not control what the jobs do. Code execution follows only when the operator has configured a job that shells out, and even then the attacker controls timing rather than payload. Not a default-install issue: reaching the endpoint requires the separate scheduler-webhook GPM plugin to be installed, scheduler.modern.webhook.enabled to be true (default false), and no webhookToken to be configured; a stock Grav or Grav-Admin install exposes nothing here.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11430",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-08-07T19:17:34.497000",
-      "created_at": "2026-08-08T17:19:10.930017+00:00"
-    },
-    {
-      "id": "13ea19aa40f95903",
-      "content_hash": "13ea19aa40f959030c04ddc489a376043e4bc94fc8e6b58f9810ad6524bd660b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-71413",
-      "title": "CVE-2025-71413 - Malformed or out-of-sequence frames at the Aviation Very High Frequency Link Con...",
-      "body": "Malformed or out-of-sequence frames at the Aviation Very High Frequency Link Control X.25 layers cause repeated resets which may result in increased workload and reduced situational awareness. This type of attack can be carried out remotely over radio frequency.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71413",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T19:17:34.343000",
-      "created_at": "2026-08-08T17:19:10.930011+00:00"
     }
   ]
 }
