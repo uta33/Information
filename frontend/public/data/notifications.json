@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-10T21:30:20.880870+00:00",
+  "generated_at": "2026-08-10T22:24:43.857167+00:00",
   "items": [
+    {
+      "id": "5715dfa6d9e4760c",
+      "content_hash": "5715dfa6d9e4760c39310b68bd7823a5dd27cd969b5549eb31634e0b1a9a249f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "title": "How Claude marks AI-generated content",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49250109\">Comments</a>",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T21:36:56+00:00",
+      "created_at": "2026-08-10T22:24:43.856378+00:00"
+    },
+    {
+      "id": "f4b6670a99cd7f8c",
+      "content_hash": "f4b6670a99cd7f8c124656c1b2bc85ab79b924077034975856494633c2355676",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://discuss.google.dev/t/trusted-automation-with-google-antigravity-scaling-secure-finance-integrations-from-40-days-to-5/383313",
+      "title": "We cut a 40-day financial integration down to 5 days using Google Anti",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49249986\">Comments</a>",
+      "url": "https://discuss.google.dev/t/trusted-automation-with-google-antigravity-scaling-secure-finance-integrations-from-40-days-to-5/383313",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T21:27:02+00:00",
+      "created_at": "2026-08-10T22:24:43.856616+00:00"
+    },
+    {
+      "id": "303266488ff67090",
+      "content_hash": "303266488ff67090757ffc221174b0e55b06f548858c2b1bdacd46dc557daee2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+      "title": "Amazon backs power plant that may become top source of US climate pollution",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49249971\">Comments</a>",
+      "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-10T21:26:16+00:00",
+      "created_at": "2026-08-10T22:24:43.856713+00:00"
+    },
     {
       "id": "b8d40b11d4ed8760",
       "content_hash": "b8d40b11d4ed8760de21fcac0f3ec112274831d10f1743ad40e5c6706d5fd9e5",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T20:53:02+00:00",
       "created_at": "2026-08-10T21:30:20.769873+00:00"
+    },
+    {
+      "id": "4527716f84f0ecbb",
+      "content_hash": "4527716f84f0ecbbdef29ff9e823775cae1eb9f740055a3ca0d3d0f1bb7e3056",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arachnoid.com/lutusp/sailbook.html",
+      "title": "Confessions of a Long-Distance Sailor",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49249555\">Comments</a>",
+      "url": "https://arachnoid.com/lutusp/sailbook.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T20:52:55+00:00",
+      "created_at": "2026-08-10T22:24:43.856635+00:00"
     },
     {
       "id": "0176d45abcb38f63",
@@ -1232,6 +1288,34 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "34bf7e440ddf659d",
+      "content_hash": "34bf7e440ddf659d29f7ffb926670711977f79f781f168779a64828eaa3b83e5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17023",
+      "title": "CVE-2026-17023 - The Salon Booking System  WordPress plugin through 10.30.33 does not perform any...",
+      "body": "The Salon Booking System  WordPress plugin through 10.30.33 does not perform any capability check or validate an OAuth state value on its Google Calendar authorization callback, which is also hooked for unauthenticated users, allowing an unauthenticated attacker to overwrite the site's stored Google Calendar connection tokens with attacker-controlled ones and hijack the integration. Exploitation requires the site to have configured its own Google OAuth client for the calendar feature.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17023",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:49.353000",
+      "created_at": "2026-08-10T22:24:39.031608+00:00"
+    },
+    {
+      "id": "f285b1e6d8007713",
+      "content_hash": "f285b1e6d80077135fed7808f399831011f96fa7e54e133015f53e069c355759",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17022",
+      "title": "CVE-2026-17022 - The Salon Booking System  WordPress plugin through 10.30.33 does not properly va...",
+      "body": "The Salon Booking System  WordPress plugin through 10.30.33 does not properly validate a booking's ownership token before loading it in its booking-wizard confirmation steps, allowing unauthenticated attackers to disclose other customers' booking records, including personal information, by supplying a sequential booking identifier.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17022",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-10T07:16:49.243000",
+      "created_at": "2026-08-10T22:24:39.031601+00:00"
     },
     {
       "id": "bb4c26322470204a",
@@ -6916,90 +7000,6 @@
       "cvss_score": 7.3,
       "published_at": "2026-08-08T07:17:11.790000",
       "created_at": "2026-08-08T23:16:58.087166+00:00"
-    },
-    {
-      "id": "20a550059ecdd308",
-      "content_hash": "20a550059ecdd3082223c4bbda91e55080e7eabc8d38d1c5e563e925a878f7b9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19259",
-      "title": "CVE-2026-19259 - A vulnerability has been found in MZ Automation libiec61850 up to 1.6.1. The aff...",
-      "body": "A vulnerability has been found in MZ Automation libiec61850 up to 1.6.1. The affected element is the function MmsMapping_varAccessSpecToObjectReference of the file src/iec61850/common/iec61850_common.c of the component MMS Protocol Workflow. Such manipulation of the argument GetNamedVariableListAttributesResponse.itemId leads to heap-based buffer overflow. The attack must be carried out locally. The exploit has been disclosed to the public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19259",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-08T07:17:11.560000",
-      "created_at": "2026-08-08T23:16:58.087159+00:00"
-    },
-    {
-      "id": "ceff24a1ec3a6dc1",
-      "content_hash": "ceff24a1ec3a6dc177bde42e512e85fce30a2b6d265aa2351b38327444d9ac20",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16955",
-      "title": "CVE-2026-16955 - The AI Engine  WordPress plugin before 3.6.6 does not confine a caller-supplied ...",
-      "body": "The AI Engine  WordPress plugin before 3.6.6 does not confine a caller-supplied file path before reading it and forwarding the contents to an external service, allowing users with a subscriber-level account to read arbitrary files from the server and exfiltrate them off-host. Reaching the issue at subscriber level requires a non-default public API feature to be enabled; otherwise the same issue is reachable by an administrator, which on multisite allows a non-super subsite administrator to read the network-shared configuration and its secrets.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16955",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:11.440000",
-      "created_at": "2026-08-08T23:16:58.087148+00:00"
-    },
-    {
-      "id": "3e589aa22be57b8c",
-      "content_hash": "3e589aa22be57b8cba793e35e9c9e3c22a54b6df077c7c02d56609b9943b0cf3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16953",
-      "title": "CVE-2026-16953 - The AI Engine  WordPress plugin before 3.6.4 does not verify ownership of a gues...",
-      "body": "The AI Engine  WordPress plugin before 3.6.4 does not verify ownership of a guest's uploaded chatbot files before deletion, authorising the action solely by a client-supplied session cookie value, so an unauthenticated attacker who obtains a victim's session identifier and file reference can delete that victim's uploaded files.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16953",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:11.337000",
-      "created_at": "2026-08-08T23:16:58.087141+00:00"
-    },
-    {
-      "id": "14ab3eda2d78591b",
-      "content_hash": "14ab3eda2d78591b39fa51e73d280556154c78836e6799843d3dcd3ff319ca3d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16948",
-      "title": "CVE-2026-16948 - The Solace Extra WordPress plugin before 1.6.1 does not perform capability check...",
-      "body": "The Solace Extra WordPress plugin before 1.6.1 does not perform capability checks in several of its AJAX actions and exposes the nonce that protects them on admin pages reachable by low-privileged users, allowing users with a role as low as Subscriber to modify site-wide presentation settings and delete imported site-builder content.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16948",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:11.227000",
-      "created_at": "2026-08-08T23:16:58.087134+00:00"
-    },
-    {
-      "id": "7d1d0ba22179f19d",
-      "content_hash": "7d1d0ba22179f19d1607df863e0957a4916b3b0fbb39deacc7eb0b271fe1431c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16608",
-      "title": "CVE-2026-16608 - The Download Monitor WordPress plugin before 5.2.6 does not perform authorizatio...",
-      "body": "The Download Monitor WordPress plugin before 5.2.6 does not perform authorization checks on one of its download-logging AJAX actions, and exposes the nonce protecting it to unauthenticated visitors, allowing unauthenticated users to inject arbitrary download log entries and inflate a site's download statistics.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16608",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:11.120000",
-      "created_at": "2026-08-08T23:16:58.087128+00:00"
-    },
-    {
-      "id": "0055fdc56632aee7",
-      "content_hash": "0055fdc56632aee7f999802e52e6233343b29cdf9ee4d6a46806ee105733c2ef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16595",
-      "title": "CVE-2026-16595 - The WP Directory Kit WordPress plugin before 1.5.5 does not perform authorizatio...",
-      "body": "The WP Directory Kit WordPress plugin before 1.5.5 does not perform authorization or nonce checks on one of its authenticated AJAX actions, allowing any authenticated user such as a Subscriber to disclose the site's user list and unpublished listings belonging to other users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16595",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:11.020000",
-      "created_at": "2026-08-08T23:16:58.087121+00:00"
     }
   ]
 }
