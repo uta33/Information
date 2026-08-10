@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:41:03.031979+00:00",
+  "generated_at": "2026-08-10T17:41:54.805173+00:00",
   "items": [
     {
       "id": "3e8461327ef818e6",
@@ -86,6 +86,20 @@
       "created_at": "2026-08-10T16:41:03.031277+00:00"
     },
     {
+      "id": "feb72e937a17e779",
+      "content_hash": "feb72e937a17e7795ce0a3a33f0474f899128dc008d9c7bd073ed80486253a22",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
+      "title": "Study links GLP-1 drugs to bigger jump in women's employment than a degree",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49245487\">Comments</a>",
+      "url": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T16:02:34+00:00",
+      "created_at": "2026-08-10T17:41:54.804873+00:00"
+    },
+    {
       "id": "013d9b399a16cf18",
       "content_hash": "013d9b399a16cf186f2cc7663d206f7eae62ecdf55b2695fac7100ca3c9acd77",
       "source_name": "Hacker News (Best)",
@@ -114,6 +128,34 @@
       "created_at": "2026-08-10T16:41:03.031446+00:00"
     },
     {
+      "id": "ce833e6b587c6f32",
+      "content_hash": "ce833e6b587c6f32b637a2e20b62f3a8fa4bfa7adb6520c6a83b90cb25151758",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jackschaedler.github.io/handwriting-recognition/",
+      "title": "Back to the Future of Handwriting Recognition (2016)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49245421\">Comments</a>",
+      "url": "https://jackschaedler.github.io/handwriting-recognition/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T15:58:32+00:00",
+      "created_at": "2026-08-10T17:41:54.804665+00:00"
+    },
+    {
+      "id": "9ab911a3aa99dba9",
+      "content_hash": "9ab911a3aa99dba9110431096f9ac73a9252aff1c6bf75459159d0c2de7e91c7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2607.29380",
+      "title": "The Tragedy of the Cognitive Commons",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49245359\">Comments</a>",
+      "url": "https://arxiv.org/abs/2607.29380",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T15:55:15+00:00",
+      "created_at": "2026-08-10T17:41:54.804501+00:00"
+    },
+    {
       "id": "cb545898bd6a8f0a",
       "content_hash": "cb545898bd6a8f0a6c57d9f9457256fce61be998bba9bba71cf01693ac3da7d2",
       "source_name": "Hacker News (Best)",
@@ -126,6 +168,34 @@
       "cvss_score": null,
       "published_at": "2026-08-10T15:54:47+00:00",
       "created_at": "2026-08-10T16:41:03.031403+00:00"
+    },
+    {
+      "id": "9a7a46d19c29882d",
+      "content_hash": "9a7a46d19c29882d9f6cc3a4f0fbae9e7068e230ba9ce9eca553ab2cd299e5d3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://mergeimage.app/",
+      "title": "Show HN: MergeImage – Merge and stitch images locally in the browser",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49245319\">Comments</a>",
+      "url": "https://mergeimage.app/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T15:53:02+00:00",
+      "created_at": "2026-08-10T17:41:54.804893+00:00"
+    },
+    {
+      "id": "455dbe74e8567fd6",
+      "content_hash": "455dbe74e8567fd6caddf947388a306b40e37ad1cde3d7d85e6e67a3c573a244",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pim.murata.com/asset/pim4/siliconCapacitor/SICAP_X2SC422522_PDF_SILICONCAPACITOR",
+      "title": "Extreme 220GHz+Broadband Silicon Capacitor X2SC 0201M 22nF BV11",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49245318\">Comments</a>",
+      "url": "https://pim.murata.com/asset/pim4/siliconCapacitor/SICAP_X2SC422522_PDF_SILICONCAPACITOR",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T15:53:01+00:00",
+      "created_at": "2026-08-10T17:41:54.804700+00:00"
     },
     {
       "id": "dc0030214685d0ba",
@@ -210,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T15:23:44+00:00",
       "created_at": "2026-08-10T15:47:43.953717+00:00"
+    },
+    {
+      "id": "293117516faf3f60",
+      "content_hash": "293117516faf3f60f565f0f52dad00673ff5719562d59b4f39c07a8eb547307e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thetokyohermit.substack.com/p/itadakimasu-a-word-you-say-to-the",
+      "title": "Itadakimasu: A word you say to the food, not the cook",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49244916\">Comments</a>",
+      "url": "https://thetokyohermit.substack.com/p/itadakimasu-a-word-you-say-to-the",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T15:23:44+00:00",
+      "created_at": "2026-08-10T17:41:54.804574+00:00"
     },
     {
       "id": "c636e65d1577ff8c",
@@ -338,6 +422,20 @@
       "created_at": "2026-08-10T16:41:03.031508+00:00"
     },
     {
+      "id": "2ae0dce7817654fa",
+      "content_hash": "2ae0dce7817654faecf8cad499b10765284dac6f35495ac1eb2e98ee387c090a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thetrek.co/appalachian-trail/there-is-no-done-reflections-on-a-completed-at-thru-hike/",
+      "title": "There is no “done”: Reflections on a completed Appalachian Trail thru-hike (2022)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49244250\">Comments</a>",
+      "url": "https://thetrek.co/appalachian-trail/there-is-no-done-reflections-on-a-completed-at-thru-hike/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T14:32:54+00:00",
+      "created_at": "2026-08-10T17:41:54.804806+00:00"
+    },
+    {
       "id": "1671ea9e73af9035",
       "content_hash": "1671ea9e73af9035eb4c340cbecd2e46d32c8160d6e4235063fb8d51530cc26e",
       "source_name": "Google AI Blog",
@@ -464,6 +562,20 @@
       "created_at": "2026-08-10T14:11:10.536234+00:00"
     },
     {
+      "id": "b6ed5ee14b21fe06",
+      "content_hash": "b6ed5ee14b21fe06fc3b69d7c9dbd2addee5fcdc83cce1a3ba581ea038a38e5b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
+      "title": "Mistral Patent for “Code implemented tool calls”",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49243397\">Comments</a>",
+      "url": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T13:29:12+00:00",
+      "created_at": "2026-08-10T17:41:54.804734+00:00"
+    },
+    {
       "id": "163761be4142aa94",
       "content_hash": "163761be4142aa9404ab4a79cb5402b5fe96651476d5ab73c34a1a4dbee89f8b",
       "source_name": "Hacker News (Best)",
@@ -534,6 +646,20 @@
       "created_at": "2026-08-10T14:11:10.536224+00:00"
     },
     {
+      "id": "18a0ebee798361b7",
+      "content_hash": "18a0ebee798361b7844315a1c4caef487abc1e0ae57f56afefe92e1e3b553fe8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bobdahacker.com/blog/tldv-hack",
+      "title": "Tl;dv: Over 180k meetings left wide open",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49242739\">Comments</a>",
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T12:26:05+00:00",
+      "created_at": "2026-08-10T17:41:54.804786+00:00"
+    },
+    {
       "id": "f168e52ebe08fb08",
       "content_hash": "f168e52ebe08fb08c46151f97c8052c45b0dd17ef8e77d0ca81c125e4593d83a",
       "source_name": "The Hacker News",
@@ -560,6 +686,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T12:15:53+00:00",
       "created_at": "2026-08-10T14:11:10.536176+00:00"
+    },
+    {
+      "id": "8f1d2c0195edcd5a",
+      "content_hash": "8f1d2c0195edcd5a0b66d1817afa5284314e3d804c40c1c6cbff36df412477c6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://squeak.org/release_notes/6.1/",
+      "title": "Squeak 6.1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49242653\">Comments</a>",
+      "url": "https://squeak.org/release_notes/6.1/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T12:15:53+00:00",
+      "created_at": "2026-08-10T17:41:54.804557+00:00"
     },
     {
       "id": "11810f5035976669",
@@ -660,6 +800,20 @@
       "created_at": "2026-08-10T12:40:56.157531+00:00"
     },
     {
+      "id": "1ca8d2b95373f767",
+      "content_hash": "1ca8d2b95373f7672964dfee0a3eee9baf212a2bd4474be311852d645dea907c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lwn.net/Articles/1034703/",
+      "title": "Tail-call optimization in C is relatively recent (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49242297\">Comments</a>",
+      "url": "https://lwn.net/Articles/1034703/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T11:34:40+00:00",
+      "created_at": "2026-08-10T17:41:54.804752+00:00"
+    },
+    {
       "id": "c4d99de812e277b0",
       "content_hash": "c4d99de812e277b04ff01246ca562e081f12ac480c7b75d218ff676e634c9ebc",
       "source_name": "The Hacker News",
@@ -744,6 +898,34 @@
       "created_at": "2026-08-10T10:55:57.160283+00:00"
     },
     {
+      "id": "23f0afcd1d766e8d",
+      "content_hash": "23f0afcd1d766e8d252ea2060f51c1a58f5eeee56d89b0e7efc9708aa916e75a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49241679\">Comments</a>",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T10:10:02+00:00",
+      "created_at": "2026-08-10T17:41:54.804364+00:00"
+    },
+    {
+      "id": "df618c63609ecaac",
+      "content_hash": "df618c63609ecaac0ab2986bd86c41569097b3a0651cc4ecee0d0e5b18b8884e",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "body": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "created_at": "2026-08-10T17:41:49.580091+00:00"
+    },
+    {
       "id": "00f6d28c06ca616e",
       "content_hash": "00f6d28c06ca616e4837b76bb86b71cb8fcabd0a57632b67ee5d4b267b0250e5",
       "source_name": "Bleeping Computer",
@@ -770,6 +952,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "a73a65e40ba98400",
+      "content_hash": "a73a65e40ba9840081ce2ed65d28f4e362f2cf197c47bdc157663fd05a3eaddc",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15238",
+      "title": "CVE-2026-15238 - The MotoPress Hotel Booking WordPress plugin before 6.2.3 does not verify record...",
+      "body": "The MotoPress Hotel Booking WordPress plugin before 6.2.3 does not verify record ownership before updating customer records, allowing any authenticated user with a low-privileged account (Subscriber and above) to modify or overwrite the personal data of any customer by supplying an arbitrary identifier.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15238",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:47.830000",
+      "created_at": "2026-08-10T17:41:51.042578+00:00"
     },
     {
       "id": "53ba03b1ef871c7b",
@@ -2674,6 +2870,20 @@
       "cvss_score": 6.3,
       "published_at": "2026-08-10T00:17:09.677000",
       "created_at": "2026-08-10T09:05:20.820216+00:00"
+    },
+    {
+      "id": "9ed8db0545579640",
+      "content_hash": "9ed8db0545579640a394cdecad741f9889e8f2c072ca7ac0648e73682b039aa0",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/premium-seats-chatgpt-business",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "body": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "category": "ai",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "created_at": "2026-08-10T17:41:49.580113+00:00"
     },
     {
       "id": "f0dc5f4359c6f52c",
@@ -5252,6 +5462,20 @@
       "created_at": "2026-08-08T22:15:55.149642+00:00"
     },
     {
+      "id": "a403ea652c1567b1",
+      "content_hash": "a403ea652c1567b1e1739dc8baee47c3268bbb770344f2420109b2b930cd01f7",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151379",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the US",
+      "body": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-08T21:24:02+00:00",
+      "created_at": "2026-08-10T17:41:54.638386+00:00"
+    },
+    {
       "id": "07460be82cd36a7a",
       "content_hash": "07460be82cd36a7a8c838797eeabea47772c9e5da02f7f501a0c4d92d8c8edac",
       "source_name": "Hacker News (Best)",
@@ -6776,230 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-07T23:17:03.960000",
       "created_at": "2026-08-08T21:18:04.107348+00:00"
-    },
-    {
-      "id": "3309e51718abc914",
-      "content_hash": "3309e51718abc914146bc3a2b1de63f2071317cda4d50b74649c18763d39799e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48026",
-      "title": "CVE-2026-48026 - lakeFS is an open-source tool that transforms object storage into a Git-like rep...",
-      "body": "lakeFS is an open-source tool that transforms object storage into a Git-like repositories. Prior to version 1.81.1 of the open source edition and 1.84.0 of the enterprise edition, lakeFS Web UI renders markdown files from repository objects without sanitizing the resulting HTML. A user with write access to any repository branch can commit a `.md` object containing arbitrary HTML/JavaScript. Any other user who opens that object, or who navigates to a repository or directory containing a malicious `README.md`, executes the attacker-supplied script in their own authenticated session. lakeFS fixes the issue in v1.81.1 and lakeFS Enterprise fixes the issue in in v1.84.0. Enterprise customers using older versions can temporarily disable Markdown rendering by adding YAML to their config. No workaround exists for OSS release. Users are advised to upgrade to the latest version for both lakeFS and lakeFS-Enterprise.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48026",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.7,
-      "published_at": "2026-08-07T23:17:03.810000",
-      "created_at": "2026-08-08T21:18:04.107341+00:00"
-    },
-    {
-      "id": "5ac7fb5bb9a3c013",
-      "content_hash": "5ac7fb5bb9a3c01324bda5f202c78531d275878b6ae1b389c6507260d4f11876",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47249",
-      "title": "CVE-2026-47249 - Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1...",
-      "body": "Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.18, the P2P resolver request handling logic is vulnerable to hash-array amplification. A connected peer can send a compressed RequestDataType_HashArrayType direct request that is only 442 bytes on the wire but expands into 200,000 decoded hash entries inside the resolver path. The resolver's antiflood logic counts only a single logical message and the compressed wire size, and while Batch.Decompress() caps the decompressed byte size, it never limits the number of decoded repeated-field items. As a result, both TxResolver and TrieNodeResolver preallocate and iterate over the entire unchecked set of decoded hashes, causing remote memory and CPU amplification against any node that accepts P2P peer connections. This issue is fixed in version 1.7.18.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47249",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-07T23:17:03.670000",
-      "created_at": "2026-08-08T21:18:04.107332+00:00"
-    },
-    {
-      "id": "9db56ab354872fa5",
-      "content_hash": "9db56ab354872fa5d72c606bb5c9d9c394ec534c1d3010553649790819955f3e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47127",
-      "title": "CVE-2026-47127 - Ghostfolio is an open source wealth management software. Prior to version 3.4.0,...",
-      "body": "Ghostfolio is an open source wealth management software. Prior to version 3.4.0, Ghostfolio's Stripe checkout success-URL handler at `GET /api/v1/subscription/stripe/callback?checkoutSessionId=<id>` retrieves the Stripe Checkout Session by ID and unconditionally grants a Premium subscription to the session's `client_reference_id` — without ever checking `session.payment_status` or `session.status`. There is no separate Stripe webhook endpoint with `stripe-signature` verification; this callback is the sole code path that creates Stripe-driven subscriptions. Any authenticated user can self-grant a 1-year Premium subscription without ever paying. Version 3.4.0 rejects sessions unless `session.payment_status === 'paid'` AND `session.status === 'complete'` (fails closed). Additionally, new unique `stripeCheckoutSessionId` column → a session can't be redeemed twice (race-safe via DB unique constraint).",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47127",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-07T23:17:03.400000",
-      "created_at": "2026-08-08T21:18:04.107325+00:00"
-    },
-    {
-      "id": "b289bb785f394daf",
-      "content_hash": "b289bb785f394daf5c0126c188dd3c9af77a2167a7bee6f3e771e40092d9d899",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46409",
-      "title": "CVE-2026-46409 - OpenYak is a local-first agent runtime for reliable tool-using models, with a de...",
-      "body": "OpenYak is a local-first agent runtime for reliable tool-using models, with a desktop workspace built on top. Prior to version 1.1.3, the OpenYak desktop backend binds an HTTP API to `127.0.0.1:<random port>` (commonly 19141) without server-side Origin validation, loopback authentication, or Content-Type enforcement, and with a wildcard CORS policy. Any webpage a user visits while OpenYak is running can issue cross-origin requests to this local server — the browser acts as a proxy into loopback, bypassing OS-level network isolation. Chained, this lets a malicious page execute arbitrary shell commands on the host (RCE) via the build agent with `permission_presets.bash=true`, shut down the service, and exfiltrate chat history and account PII — with no user interaction beyond opening the page. Version 1.1.3 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46409",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-08-07T23:17:03.243000",
-      "created_at": "2026-08-08T21:18:04.107317+00:00"
-    },
-    {
-      "id": "a0d48a21f1ee22e5",
-      "content_hash": "a0d48a21f1ee22e571162c188c90adb0864074bb185dc1a9a6e2e5e81f2e744a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-4438",
-      "title": "CVE-2025-4438 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4438",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T23:17:03.147000",
-      "created_at": "2026-08-08T21:18:04.107310+00:00"
-    },
-    {
-      "id": "0f3f55900f08b9fa",
-      "content_hash": "0f3f55900f08b9fa472005f790a6b0fad6285b89dc1ffd0d193e3639674f8794",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3151331",
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "body": "OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess.",
-      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:48:24+00:00",
-      "created_at": "2026-08-07T23:23:28.193595+00:00"
-    },
-    {
-      "id": "21181eb31020a3d3",
-      "content_hash": "21181eb31020a3d37796a59dd2ef98bd7c6bdba31af042af656419dec0d096d3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
-      "title": "Working on Economics with Fable 5",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49217001\">Comments</a>",
-      "url": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:29:57+00:00",
-      "created_at": "2026-08-08T05:34:24.661738+00:00"
-    },
-    {
-      "id": "c535bdda217e7554",
-      "content_hash": "c535bdda217e7554e949b429d1541676c8e4aba5c5349795dfdeb0461275a7e6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://genesisopenmodels.anl.gov/",
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49216946\">Comments</a>",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:24:27+00:00",
-      "created_at": "2026-08-08T00:45:17.619557+00:00"
-    },
-    {
-      "id": "57af79302410f6c3",
-      "content_hash": "57af79302410f6c370ea066af6a28d1537cca95a798bc082c8d6f5f9f6ddc3a2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-64676",
-      "title": "CVE-2026-64676 - Kata Containers is an open source implementation of lightweight Virtual Machines...",
-      "body": "Kata Containers is an open source implementation of lightweight Virtual Machines (VMs) that perform like containers. In versions prior to 4.0.0, the kata-agent is vulnerable to an authorization bypass in confidential-guest memory management. In Confidential Containers (CoCo) deployments, the kata-agent enforces an OPA/Rego-based AgentPolicy that must authorize every ttRPC API call, forming the security boundary that prevents an untrusted host from directing the confidential guest. Two ttRPC methods introduced with the mem-agent feature are missing this authorization check, so an untrusted host can invoke them unconditionally regardless of the guest's policy configuration. When mem-agent is enabled (off by default), this lets the host tamper with in-guest memory management by forcing swap, aggressive eviction, or compaction, resulting in attacker-controlled availability and performance degradation of the confidential workload entirely outside the agent-policy boundary. The impact does not include memory disclosure or code execution, and severity is bounded by the precondition that mem-agent must be explicitly enabled. This issue is fixed in version 4.0.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64676",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.7,
-      "published_at": "2026-08-07T22:16:59.480000",
-      "created_at": "2026-08-08T21:18:04.107303+00:00"
-    },
-    {
-      "id": "f045059d13ad9536",
-      "content_hash": "f045059d13ad95360f396e33959c38eac9dadce66fdeedb20d684ca91c7bd82a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58262",
-      "title": "CVE-2026-58262 - Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1...",
-      "body": "Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.20, header signature verification counts the unused padding bits of the PubKeysBitmap toward the two-thirds validator quorum. These padding bits do not correspond to any validator and are ignored by the actual BLS aggregate-signature check, so a malicious or compromised block producer can set them to reach the required quorum while gathering fewer genuine validator signatures than the protocol demands. As a result, nodes that import or intercept the header accept it as correctly signed without a real two-thirds quorum, weakening consensus safety and undermining finality. This issue is fixed in version 1.7.20.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58262",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:16:59.327000",
-      "created_at": "2026-08-08T21:18:04.107296+00:00"
-    },
-    {
-      "id": "9c95b18ddb810ed4",
-      "content_hash": "9c95b18ddb810ed49bec463dc9280a9ad6e080ca5371b039f156996d05f76205",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48170",
-      "title": "CVE-2026-48170 - `scim-patch`, a library to perform SCIM patch, prior to version 0.9.1 performs p...",
-      "body": "`scim-patch`, a library to perform SCIM patch, prior to version 0.9.1 performs prototype pollution when applying a SCIM PATCH operation whose `value` object contains a key like `\"__proto__.someProp\"`. After one such patch,\n`Object.prototype.someProp` is set process-wide, affecting every plain object in the Node process. Any service that calls `scimPatch()` on attacker-controlled JSON (i.e. any SCIM endpoint accepting `PATCH` from an external IdP) is exploitable on a stock Node runtime. Version 0.9.1 contains a patch. A workaround is available. Calling `Object.freeze(Object.prototype)` (and the same on `Array.prototype`, `Function.prototype`) at process startup neutralizes this class of bug — assignment to a frozen prototype becomes a silent no-op in sloppy mode or a `TypeError` in strict mode. Node's `--frozen-intrinsics` flag does this for built-ins automatically.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48170",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-08-07T22:16:59.170000",
-      "created_at": "2026-08-08T21:18:04.107289+00:00"
-    },
-    {
-      "id": "63920fd6a49f30d8",
-      "content_hash": "63920fd6a49f30d87e875953c46afde8386b44593f27c37706b7a4b79fb06936",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48169",
-      "title": "CVE-2026-48169 - PraisonAI is a multi-agent teams system. Versions prior to 0.1.4 of the PraisonA...",
-      "body": "PraisonAI is a multi-agent teams system. Versions prior to 0.1.4 of the PraisonAI Platform API have two authorization failures that together break workspace isolation. The service layer for issues and projects performs global primary-key lookups without checking workspace ownership, so any authenticated user can read, modify, and delete resources in any workspace just by swapping UUIDs in their API requests. On top of that, every member management endpoint (add, update role, remove) only requires `min_role=\"member\"`, which lets any workspace member promote themselves to owner and kick out the original owner. A low-privilege member of one workspace can steal data from every other workspace and take over any workspace they belong to. Both issues come from the same gap: the route layer pulls `workspace_id` from the URL and verifies membership, but the service layer ignores the workspace scope for resource lookups and ignores the caller's role level for member operations. The `require_workspace_member()` dependency does its job correctly. The problem is that the service layer doesn't use the information it provides. Version 0.1.4 of the PraisonAI Platform API patch the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48169",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-07T22:16:59.013000",
-      "created_at": "2026-08-08T21:18:04.107282+00:00"
-    },
-    {
-      "id": "41b86f7e0fdf80e0",
-      "content_hash": "41b86f7e0fdf80e0aeaf6e99eb46d8a08424aed174f489aa2197ea413634ba00",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47243",
-      "title": "CVE-2026-47243 - Kata Containers is an open source project focusing on a standard implementation ...",
-      "body": "Kata Containers is an open source project focusing on a standard implementation of lightweight Virtual Machines (VMs) that perform like containers. Prior to 3.31.0, the runtime-rs standalone virtio-fs path is vulnerable to a guest-root to host-root escape. In this configuration, Kata runs the host virtiofsd as root with --sandbox none --seccomp none, so an attacker with root-equivalent access inside the guest can bypass the guest virtio-fs client entirely by taking over the virtio-fs PCI device and building a virtqueue in userspace to submit raw FUSE requests directly to the host virtiofsd. A crafted FUSE_SYMLINK request whose new symlink name is an absolute host path is honored outside the configured shared directory, allowing guest root to create root-owned symlinks in sensitive host locations such as /etc/cron.d. By pointing such a symlink at a guest-controlled crontab payload reachable through a live runtime process's mount namespace, the attacker causes the host cron daemon to execute that payload as host root, crossing the Kata isolation boundary. This issue is fixed in version 3.31.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47243",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:16:58.753000",
-      "created_at": "2026-08-08T21:18:04.107275+00:00"
-    },
-    {
-      "id": "afe918268aebf730",
-      "content_hash": "afe918268aebf730d85b93a88900a24de0066aa86407e1e9675b6068d3fb30fc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46405",
-      "title": "CVE-2026-46405 - OpenBao is an open source identity-based secrets management system. Prior to ver...",
-      "body": "OpenBao is an open source identity-based secrets management system. Prior to version 2.5.4, in OpenBao's Kerberos auth method on the `GET` handler, or when an `Authorization: Negotiate` header is supplied, the response is includes a `logical.Auth` object in addition to an error message. This results in tokens being created with only the default policy, default TTL, and no entity information, which are hidden by the returned error message. No access to these tokens by the caller occurs and the authentication token is not ever made accessible outside of `sys/raw`. This is fixed in OpenBao v2.5.4. As a workaround, users may set a rate limit quota to limit the creation of these paths. As the path is unauthenticated, it isn't possible to deny access to it.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46405",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T22:16:58.600000",
-      "created_at": "2026-08-08T21:18:04.107269+00:00"
-    },
-    {
-      "id": "8e767771d4ffa20f",
-      "content_hash": "8e767771d4ffa20fe2266f81c786aa5f1cd19adc8f6114e550bf10911bbc4bba",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-45808",
-      "title": "CVE-2026-45808 - OpenBao is an open source identity-based secrets management system. Prior to ver...",
-      "body": "OpenBao is an open source identity-based secrets management system. Prior to version 2.5.4, OpenBao's namespaces provide multi-tenant separation. A tenant who intentionally leaks lease identifiers can have their lease and underlying credential revoked or renewed by a user in another tenant via the legacy, undocumented `sys/revoke` and `sys/renew` endpoints. This is fixed in OpenBao v2.5.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45808",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-07T22:16:58.370000",
-      "created_at": "2026-08-08T21:18:04.107263+00:00"
-    },
-    {
-      "id": "8ef03988b5bff299",
-      "content_hash": "8ef03988b5bff29964f8eec17adbdac94dc9ba2110166ba169a1c019205ed343",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11743",
-      "title": "CVE-2026-11743 - The SF32LB MPI QSPI NOR flash driver (drivers/flash/flash_sf32lb_mpi_qspi_nor.c)...",
-      "body": "The SF32LB MPI QSPI NOR flash driver (drivers/flash/flash_sf32lb_mpi_qspi_nor.c) validated the flash offset and length on its read and write paths with the test (offset + size) > data->size. Because offset is a signed off_t while size is unsigned, a negative offset is converted to a large unsigned value and the addition can wrap to a small result that passes the check. The read path then performs memcpy(dst, (void *)(data->base + offset), size) and the write path programs flash at offset and cache-invalidates data->base + offset, in both cases accessing memory outside the mapped flash window. The driver's erase path already rejected negative offsets, but read and write did not.\n\nIn builds with CONFIG_USERSPACE, flash_read and flash_write are syscalls whose verifiers validate the device object and the caller's buffer but deliberately delegate offset bounds checking to the driver. An unprivileged thread that has been granted access to this flash device can therefore call the syscall with a crafted negative offset and a buffer valid in its own memory domain, and reach the unchecked access.\n\nThe most direct impact is on the read path: by choosing a negative offset and matching size, an attacker slides the memcpy source below the flash base and copies arbitrary CPU-addressable memory into its own buffer, disclosing memory it is not authorized to read. The write path additionally allows programming flash at an out-of-range address and invalidating an attacker-chosen cache range, affecting integrity and availability. Reachability requires userspace to be enabled and the raw flash device object to be granted to an untrusted thread.\n\nThe fix replaces the check with qspi_nor_range_is_valid(), which rejects negative offsets and performs the bound comparison in overflow-safe 64-bit arithmetic on both paths, and additionally adds an SRAM DMA bounce buffer plus source/destination overlap rejection to prevent a separate DMA bus-hang condition.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11743",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.6,
-      "published_at": "2026-08-07T22:16:57.317000",
-      "created_at": "2026-08-08T21:18:04.107256+00:00"
     }
   ]
 }
