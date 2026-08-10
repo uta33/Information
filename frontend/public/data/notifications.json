@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-10T09:05:24.096185+00:00",
+  "generated_at": "2026-08-10T10:55:57.160894+00:00",
   "items": [
+    {
+      "id": "9808832884b88d2d",
+      "content_hash": "9808832884b88d2d346011a98047c8a1943fe5c2a3c2cbeeccbf11caab770ebb",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "Meta Muse Glimmer – open weights 30B local coding model",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49241679\">Comments</a>",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T10:10:02+00:00",
+      "created_at": "2026-08-10T10:55:57.160283+00:00"
+    },
+    {
+      "id": "00f6d28c06ca616e",
+      "content_hash": "00f6d28c06ca616e4837b76bb86b71cb8fcabd0a57632b67ee5d4b267b0250e5",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-10T09:49:37+00:00",
+      "created_at": "2026-08-10T10:55:52.465128+00:00"
+    },
     {
       "id": "9379424d34adcfd6",
       "content_hash": "9379424d34adcfd6b595047a465c30e5da5b808023ce3c89a5d8fe9b1269bbb1",
@@ -14,6 +42,34 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "acb23101601bfdea",
+      "content_hash": "acb23101601bfdeadc6551f2daa6496f24d3bd1e6700c8b942c67f552fdb2c07",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-13133",
+      "title": "CVE-2026-13133 - A vulnerability has been identified in LineInst.exe (LINE for Windows) prior to ...",
+      "body": "A vulnerability has been identified in LineInst.exe (LINE for Windows) prior to version 26.4.0, where Msftedit.dll is loaded via a relative path without a secure DLL search path, allowing a malicious DLL placed in the installer's directory to be loaded ahead of the legitimate System32 copy.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13133",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:46.173000",
+      "created_at": "2026-08-10T10:55:53.842533+00:00"
+    },
+    {
+      "id": "2ca9ad04d7de9128",
+      "content_hash": "2ca9ad04d7de9128a7b4f81a70205edf611ab4a466816dce063c977a913cf726",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-12971",
+      "title": "CVE-2026-12971 - The LearnPress  WordPress plugin before 4.4.4 does not validate a user-supplied ...",
+      "body": "The LearnPress  WordPress plugin before 4.4.4 does not validate a user-supplied URL before the server fetches it, allowing users with the instructor role to induce the server to issue requests to arbitrary external hosts, a blind and bounded server-side request forgery.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12971",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:46.043000",
+      "created_at": "2026-08-10T10:55:53.842528+00:00"
     },
     {
       "id": "e61015f528f56f6b",
@@ -2296,6 +2352,20 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-09T18:16:43.280000",
       "created_at": "2026-08-10T07:06:00.654670+00:00"
+    },
+    {
+      "id": "367f983e86fa2564",
+      "content_hash": "367f983e86fa256479dd451523c20fd0f8623d9494c154b69569f01570689f42",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19363",
+      "title": "CVE-2026-19363 - A vulnerability was found in lmammino oidc-authorizer up to 0.4.0. Impacted is a...",
+      "body": "A vulnerability was found in lmammino oidc-authorizer up to 0.4.0. Impacted is an unknown function of the file src/handler.rs of the component Lambda Authorizer. The manipulation results in sensitive information in log files. The attack can be executed remotely. `src/handler.rs` logs raw Authorization header values and complete bearer tokens/JWTs on authentication failure paths, potentially exposing credentials through CloudWatch Logs. `src/models.rs` serializes the complete validated JWT claims set with `serde_json::to_string(token_claims).unwrap()` and propagates it through `context[\"jwtClaims\"]` to downstream integrations. This code performs serialization, not deserialization, and does not process attacker-controlled `jwtClaims` input. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19363",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-09T18:16:43.280000",
+      "created_at": "2026-08-10T10:55:53.842386+00:00"
     },
     {
       "id": "2393e325bea6331a",
@@ -6930,76 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-07T19:17:34.343000",
       "created_at": "2026-08-08T17:19:10.930011+00:00"
-    },
-    {
-      "id": "80b6eb34c8e4b00c",
-      "content_hash": "80b6eb34c8e4b00ce41eb446cc44cff91aeb760a9e66fc4b41fb3b6490c17c57",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-71412",
-      "title": "CVE-2025-71412 - Injection of false emergency or status messages over CPDLC may lead to misalloca...",
-      "body": "Injection of false emergency or status messages over CPDLC may lead to misallocation of resources, operational confusion, and improper response actions by flight crews, traffic controllers, and ground operations.  This type of attack can be carried out remotely over radio frequency.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71412",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-07T19:17:34.190000",
-      "created_at": "2026-08-08T17:19:10.930005+00:00"
-    },
-    {
-      "id": "8653d442f561f5c2",
-      "content_hash": "8653d442f561f5c233544ebdcd3551a780da93ecea7c6237ccfc7e5b208b0b96",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-71411",
-      "title": "CVE-2025-71411 - Broadcast control frames can disconnect multiple aircraft simultaneously leading...",
-      "body": "Broadcast control frames can disconnect multiple aircraft simultaneously leading to delayed clearances and air traffic controller overload. This type of attack can be carried out remotely over radio frequency.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71411",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T19:17:34.047000",
-      "created_at": "2026-08-08T16:18:19.649903+00:00"
-    },
-    {
-      "id": "c183b7f3802db5f0",
-      "content_hash": "c183b7f3802db5f027c2329f8a3cd8502facd2b4a95cb82596251c8992ee4491",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-71410",
-      "title": "CVE-2025-71410 - Unnumbered Disconnect (U DISC) and malformed Aviation Very High Frequency Link C...",
-      "body": "Unnumbered Disconnect (U DISC) and malformed Aviation Very High Frequency Link Control frames can terminate sessions and lead to a loss of CPDLC functions requiring a reversion to voice communication and increased controller workload. This type of attack can be carried out remotely over radio frequency.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71410",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-07T19:17:33.893000",
-      "created_at": "2026-08-08T16:18:19.649896+00:00"
-    },
-    {
-      "id": "29fe69a946c083b5",
-      "content_hash": "29fe69a946c083b5fc582ff74e9879e666d9b1f420de8c94d6ad80a315eb758a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-71409",
-      "title": "CVE-2025-71409 - Lack of authentication for Very High Frequency Data Link messages allows rogue g...",
-      "body": "Lack of authentication for Very High Frequency Data Link messages allows rogue ground stations to inject CPDLC messages leading to unexpected or misleading clearances and potential pilot confusion. This type of attack can be carried out remotely over radio frequency.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71409",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-07T19:17:33.720000",
-      "created_at": "2026-08-08T16:18:19.649890+00:00"
-    },
-    {
-      "id": "dcb40dd3fd0d51c8",
-      "content_hash": "dcb40dd3fd0d51c88f7f107cd5073f8315746437f462830ca5b8a700c0eae09c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-63235",
-      "title": "CVE-2025-63235 - In sol commit 373d848 (2024-12-12), the broker does not fully release resources ...",
-      "body": "In sol commit 373d848 (2024-12-12), the broker does not fully release resources when handling malformed or duplicate CONNECT packets. When clients send invalid CONNECT packets - either due to repeated attempts or failed authentication - the server may silently drop the connection or send a CONNACK but fail to close the session or deallocate internal resources. This behavior allows an attacker to create numerous half-open connections that consume memory and file descriptors indefinitely, potentially triggering the Linux OOM killer and causing a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63235",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-07T19:17:33.580000",
-      "created_at": "2026-08-08T16:18:19.649884+00:00"
     }
   ]
 }
