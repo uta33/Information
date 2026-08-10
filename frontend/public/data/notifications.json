@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-10T19:46:25.685492+00:00",
+  "generated_at": "2026-08-10T20:29:39.605993+00:00",
   "items": [
+    {
+      "id": "451ee972749525e8",
+      "content_hash": "451ee972749525e87935b6b285d169b07b47b76d922819232c5ef48bfaedf5a6",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3151503",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "body": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-10T20:04:24+00:00",
+      "created_at": "2026-08-10T20:29:39.495892+00:00"
+    },
     {
       "id": "38785cd6c278750c",
       "content_hash": "38785cd6c278750c8d42c7e81dfa59fbbcec2a4e96243201864bfc3dc81fe0f9",
@@ -1134,6 +1148,48 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "fa926e49c9508a44",
+      "content_hash": "fa926e49c9508a44b2967941ddb594be5fc80c7e967541dda87734561396b61a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17020",
+      "title": "CVE-2026-17020 - The Salon Booking System  WordPress plugin through 10.30.33 does not verify that...",
+      "body": "The Salon Booking System  WordPress plugin through 10.30.33 does not verify that a requested booking belongs to the caller on one of its REST API endpoints, requiring only a basic read capability, allowing any authenticated user (including a Subscriber or self-registered customer account) to disclose any customer's booking personal data such as name, email, phone number, address and private notes by enumerating booking identifiers.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17020",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:49.040000",
+      "created_at": "2026-08-10T20:29:36.259800+00:00"
+    },
+    {
+      "id": "ed29e70bf710697d",
+      "content_hash": "ed29e70bf710697dbade93e105231f67e3cead3a22537b39da247061c71a4813",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17019",
+      "title": "CVE-2026-17019 - The JetEngine WordPress plugin before 3.8.13.1 does not sanitise uploaded SVG fi...",
+      "body": "The JetEngine WordPress plugin before 3.8.13.1 does not sanitise uploaded SVG files before storing and serving them, and does not adequately restrict who can upload them, allowing unauthenticated attackers to upload a file containing malicious JavaScript that executes in the browser of any user who opens it (Stored Cross-Site Scripting).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17019",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.1,
+      "published_at": "2026-08-10T07:16:48.927000",
+      "created_at": "2026-08-10T20:29:36.259793+00:00"
+    },
+    {
+      "id": "b6614c912af5c23d",
+      "content_hash": "b6614c912af5c23d4cd35f2123672f2fe6826603a253eed82d1fd88be9acce10",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-17018",
+      "title": "CVE-2026-17018 - The CubeWP Framework WordPress plugin through 1.1.30 does not perform a per-obje...",
+      "body": "The CubeWP Framework WordPress plugin through 1.1.30 does not perform a per-object read authorization check, nor restrict which metadata keys may be requested, on one of its REST API endpoints, allowing users with the Contributor role and above to read arbitrary post metadata (including that of other users' draft, pending, private, and password-protected posts) and arbitrary user metadata of any user, including administrators.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17018",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:48.813000",
+      "created_at": "2026-08-10T20:29:36.259787+00:00"
     },
     {
       "id": "96e1b9f978a8914f",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-08T07:17:10.237000",
       "created_at": "2026-08-08T21:18:04.107459+00:00"
-    },
-    {
-      "id": "1013e0d227930cc6",
-      "content_hash": "1013e0d227930cc6f3f9834a76e9aef209a4255908871d91bf5de5a08eae0df7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16558",
-      "title": "CVE-2026-16558 - The YMC Filter WordPress plugin before 3.12.8 does not sanitize and escape a lay...",
-      "body": "The YMC Filter WordPress plugin before 3.12.8 does not sanitize and escape a layout builder setting before outputting it on a public endpoint, and does not verify object ownership when the setting is saved, allowing users with the Contributor role and above to store JavaScript that executes in the browser of any visitor viewing an affected filter.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16558",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:10.130000",
-      "created_at": "2026-08-08T21:18:04.107453+00:00"
-    },
-    {
-      "id": "814211584b19af81",
-      "content_hash": "814211584b19af81b23236b3b520eeeccf8436337f5df08b40554fe410a3b935",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16535",
-      "title": "CVE-2026-16535 - The Link Library WordPress plugin before 7.9.4 does not sanitise and escape a pa...",
-      "body": "The Link Library WordPress plugin before 7.9.4 does not sanitise and escape a parameter before reflecting it back in a response, allowing unauthenticated attackers to perform Reflected Cross-Site Scripting attacks against users who can be tricked into performing an action.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16535",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:10.013000",
-      "created_at": "2026-08-08T21:18:04.107446+00:00"
-    },
-    {
-      "id": "a09724b919234dc5",
-      "content_hash": "a09724b919234dc5ae296ebbb9d0fc720499d752de9c1dca35981243b450017e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16282",
-      "title": "CVE-2026-16282 - The Appointment Hour Booking  WordPress plugin before 1.5.88 does not validate a...",
-      "body": "The Appointment Hour Booking  WordPress plugin before 1.5.88 does not validate a client-supplied booking price against the server-side configured service price, allowing unauthenticated users to submit an arbitrary final price (including zero or negative) that is stored as the authoritative booking price, corrupting booking and payment records.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16282",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:09.900000",
-      "created_at": "2026-08-08T21:18:04.107437+00:00"
-    },
-    {
-      "id": "7526c04e7beda2b8",
-      "content_hash": "7526c04e7beda2b802778a32dd278d7aa806eb38fa5cb1b9ece0a2b102b8d93d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16269",
-      "title": "CVE-2026-16269 - The Newsletters WordPress plugin before 4.16 does not strictly compare its API a...",
-      "body": "The Newsletters WordPress plugin before 4.16 does not strictly compare its API authentication key, allowing unauthenticated attackers to bypass the API authentication via type juggling and perform privileged actions such as modifying subscriber records and sending emails, when the optional API has been enabled.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16269",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T07:17:09.790000",
-      "created_at": "2026-08-08T21:18:04.107431+00:00"
     }
   ]
 }
