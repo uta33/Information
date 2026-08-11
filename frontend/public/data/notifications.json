@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-11T06:44:20.841165+00:00",
+  "generated_at": "2026-08-11T08:01:48.248239+00:00",
   "items": [
+    {
+      "id": "20f800d2b76e1f8a",
+      "content_hash": "20f800d2b76e1f8a2d52bdbea8bdd36e783927d3f1fd0acd3d46456689d4954b",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "body": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the intruders were still active inside the network, and customers lost neither heat",
+      "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-11T06:55:45+00:00",
+      "created_at": "2026-08-11T08:01:43.332360+00:00"
+    },
     {
       "id": "138a5e626110da2a",
       "content_hash": "138a5e626110da2a990d0420942be443aaacff6e0415c9e5522c637ec36293ab",
@@ -254,6 +268,20 @@
       "created_at": "2026-08-11T00:51:03.227280+00:00"
     },
     {
+      "id": "12a44bad8a4f174c",
+      "content_hash": "12a44bad8a4f174c70f014a248ca8892937cefda6b0162ce84eb34529bd64459",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.effort.news/uk-lobby",
+      "title": "The UK's war on anonymity has come to America",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49251411\">Comments</a>",
+      "url": "https://www.effort.news/uk-lobby",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T23:45:50+00:00",
+      "created_at": "2026-08-11T08:01:48.247642+00:00"
+    },
+    {
       "id": "6c0b64829f107596",
       "content_hash": "6c0b64829f1075965070fce8884b0a0ab1271d5e25f6d0663511cd877e49726a",
       "source_name": "TechCrunch",
@@ -322,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T22:36:30+00:00",
       "created_at": "2026-08-10T23:23:51.124144+00:00"
+    },
+    {
+      "id": "ae085a4f29dd884e",
+      "content_hash": "ae085a4f29dd884eaf9efbfb075911fd5fbe41088e8aaca92ea1c5f00604c6b8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thewalrus.ca/google-search-is-dying/",
+      "title": "As AI eats the web, the internet’s collective memory is disappearing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49250836\">Comments</a>",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T22:36:30+00:00",
+      "created_at": "2026-08-11T08:01:48.247509+00:00"
     },
     {
       "id": "7659003d4d893973",
@@ -1638,6 +1680,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "5a6e2d43d121c6f8",
+      "content_hash": "5a6e2d43d121c6f812af253c962e2ce3e298c04c80419641c62dc4c6c069a755",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19089",
+      "title": "CVE-2026-19089 - The Product Input Fields for WooCommerce WordPress plugin before 2.0.2 does not ...",
+      "body": "The Product Input Fields for WooCommerce WordPress plugin before 2.0.2 does not validate uploaded file types when its accepted-types setting is left empty, which its own documentation advertises as accepting all files, allowing unauthenticated attackers to upload arbitrary files and achieve remote code execution on servers that do not honour the directory's access rules.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19089",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:51.490000",
+      "created_at": "2026-08-11T08:01:43.658722+00:00"
     },
     {
       "id": "62ffc1aa3e0f2bf0",
@@ -6944,62 +7000,6 @@
       "cvss_score": 9.8,
       "published_at": "2026-08-08T17:16:47.710000",
       "created_at": "2026-08-09T00:49:38.815613+00:00"
-    },
-    {
-      "id": "52533f4704872ff0",
-      "content_hash": "52533f4704872ff07b6ecc084b7c49b02120b3e39f3e04f381e1353006575383",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-71944",
-      "title": "CVE-2026-71944 - D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1...",
-      "body": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formLtefotaUpgradeQuectel interface. A remote attacker can inject arbitrary malicious commands into the fota_url field, resulting in command execution with root privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71944",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-08-08T17:16:47.550000",
-      "created_at": "2026-08-09T00:49:38.815607+00:00"
-    },
-    {
-      "id": "b43ecb7a54f64b43",
-      "content_hash": "b43ecb7a54f64b43a295513e77f4829030e0c0bbc7ed02624a00559318ed2fda",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/andrewpollack/linkedin-feed-blocker",
-      "title": "LinkedIn Feed Blocker",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49223475\">Comments</a>",
-      "url": "https://github.com/andrewpollack/linkedin-feed-blocker",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T16:49:07+00:00",
-      "created_at": "2026-08-08T18:20:22.039594+00:00"
-    },
-    {
-      "id": "36b0b1b0973e4ddb",
-      "content_hash": "36b0b1b0973e4ddb4fb4e970054fd68038e159e84bbf68fec9f0796893e78045",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3151374",
-      "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
-      "body": "X is winding down its existing Revenue Sharing program.",
-      "url": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T16:34:22+00:00",
-      "created_at": "2026-08-08T17:19:14.916724+00:00"
-    },
-    {
-      "id": "73a21d6bfbcf3e1b",
-      "content_hash": "73a21d6bfbcf3e1b5f29f90b0838b8a151d87cf746075771e488a5d7d0e6fce8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67620",
-      "title": "CVE-2026-67620 - Flowise through 3.1.4 contains a server-side request forgery vulnerability in th...",
-      "body": "Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Cloud metadata endpoint 100.100.100.200, allowing authenticated attackers to force the server to issue arbitrary GET requests to cloud instance metadata services. Attackers can send requests to the fetch-links API endpoint with a crafted URL parameter, bypassing deny-list validation including redirect-based bypasses, to reach instance metadata services and expose instance identity data and role credentials on Oracle Cloud Infrastructure or Alibaba Cloud deployments, with unauthenticated access possible when URL-fetching nodes exist in public chatflows.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67620",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-08-08T16:16:49.420000",
-      "created_at": "2026-08-09T00:49:38.815601+00:00"
     }
   ]
 }
