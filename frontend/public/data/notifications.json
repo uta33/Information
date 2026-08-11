@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T02:58:24.920628+00:00",
+  "generated_at": "2026-08-11T04:16:39.044548+00:00",
   "items": [
     {
       "id": "fea5765faf5f8059",
@@ -14,6 +14,34 @@
       "cvss_score": null,
       "published_at": "2026-08-11T02:41:48+00:00",
       "created_at": "2026-08-11T02:58:24.920306+00:00"
+    },
+    {
+      "id": "7e38e7d9f59fb71c",
+      "content_hash": "7e38e7d9f59fb71cf323f3fef20261d86cdbb7d94c6fb9c752d72d519df3014c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hypercritical.co/hyperspace/",
+      "title": "Hyperspace",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49252493\">Comments</a>",
+      "url": "https://hypercritical.co/hyperspace/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-11T02:04:35+00:00",
+      "created_at": "2026-08-11T04:16:39.043880+00:00"
+    },
+    {
+      "id": "a4f57d8cf5f930ad",
+      "content_hash": "a4f57d8cf5f930ad07c9e19ed7f92f2c4807df34db1d36109ff096f0513a5bb3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tokenstead.ai/",
+      "title": "Claude will watermark AI-generated text and images",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49252486\">Comments</a>",
+      "url": "https://tokenstead.ai/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-11T02:03:37+00:00",
+      "created_at": "2026-08-11T04:16:39.044340+00:00"
     },
     {
       "id": "ffd6158a55e9b364",
@@ -1484,6 +1512,20 @@
       "cvss_score": null,
       "published_at": "2026-08-10T07:38:23+00:00",
       "created_at": "2026-08-10T09:05:16.847020+00:00"
+    },
+    {
+      "id": "49392df42d1ef292",
+      "content_hash": "49392df42d1ef292c6f1eafe6e274462cb41b5065e0b8870ed8e83728424632b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19049",
+      "title": "CVE-2026-19049 - The ProSolution WP Client WordPress plugin before 2.0.9 does not sanitise a cook...",
+      "body": "The ProSolution WP Client WordPress plugin before 2.0.9 does not sanitise a cookie value before using it in SQL queries, and processes that cookie on every request without any authentication or capability check, allowing unauthenticated users to read arbitrary data from the database and to delete the records the ProSolution WP Client WordPress plugin before 2.0.9 stores.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19049",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-10T07:16:50.937000",
+      "created_at": "2026-08-11T04:16:35.661608+00:00"
     },
     {
       "id": "c01c1c4f8a70ff5f",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-08T14:16:23+00:00",
       "created_at": "2026-08-08T15:17:58.918969+00:00"
-    },
-    {
-      "id": "43020d67bf28a275",
-      "content_hash": "43020d67bf28a2753bbccc1464b11d4ea3a8a366ab263aadc37c609de517bf66",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19287",
-      "title": "CVE-2026-19287 - A flaw has been found in abrinsmead mindpilot-mcp 0.5.0. Affected by this issue ...",
-      "body": "A flaw has been found in abrinsmead mindpilot-mcp 0.5.0. Affected by this issue is some unknown functionality of the component HistoryService. This manipulation of the argument ID causes path traversal. The attack needs to be launched locally. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19287",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-08T14:16:22.913000",
-      "created_at": "2026-08-09T00:49:38.815581+00:00"
-    },
-    {
-      "id": "06965a4bca216f61",
-      "content_hash": "06965a4bca216f61a4db6d2037fe7d20253787a8ff7ba2f90fdb0e90b4f503a1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all/",
-      "title": "Sensitive Info Goes into 'No Reply' Emails Constantly. This Guy Sees It All",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49221947\">Comments</a>",
-      "url": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T14:07:06+00:00",
-      "created_at": "2026-08-08T15:18:06.506861+00:00"
-    },
-    {
-      "id": "96ec927b7254c8ec",
-      "content_hash": "96ec927b7254c8ec50e8cb8fd9af3838283b14d99051ef7b089657c8e7a740e4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nate.spot/no-phone-while-poop/",
-      "title": "Don't use your phone while you poop",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49221939\">Comments</a>",
-      "url": "https://nate.spot/no-phone-while-poop/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-08T14:05:56+00:00",
-      "created_at": "2026-08-08T15:18:06.506543+00:00"
     }
   ]
 }
