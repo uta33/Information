@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-12T03:20:48.778505+00:00",
+  "generated_at": "2026-08-12T05:22:19.719339+00:00",
   "items": [
+    {
+      "id": "498591f1c8c88966",
+      "content_hash": "498591f1c8c88966419c4fc0db5c220f560eea1b5b33d06282c07e6f6127b790",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3152202",
+      "title": "India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand",
+      "body": "Yulu aims to have a fleet of 200,000 bikes in the next two years and faster electric two-wheelers, aiming at new logistics use cases.",
+      "url": "https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-12T04:30:00+00:00",
+      "created_at": "2026-08-12T05:22:19.439125+00:00"
+    },
+    {
+      "id": "fa903fbca463f2c1",
+      "content_hash": "fa903fbca463f2c14fd75ba279f27addbf05edcfc9dd9eacb414c7d19ac808fd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "title": "The Human Is the Loop",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49267108\">Comments</a>",
+      "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-12T02:15:01+00:00",
+      "created_at": "2026-08-12T05:22:19.718683+00:00"
+    },
     {
       "id": "f730f38dea45f4de",
       "content_hash": "f730f38dea45f4def0e25c5438e4d35338c7296c69c607239826324d8fb2e443",
@@ -2172,6 +2200,20 @@
       "created_at": "2026-08-11T12:37:40.901362+00:00"
     },
     {
+      "id": "ad0064a8c6ad3cbd",
+      "content_hash": "ad0064a8c6ad3cbde9b6296dbd19d0055371c278e77fe4611c9654408b8e6175",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-58231",
+      "title": "CVE-2026-58231 - SAP Commerce Cloud allows an unauthenticated\nattacker to abuse a default authent...",
+      "body": "SAP Commerce Cloud allows an unauthenticated\nattacker to abuse a default authentication client and submit specially crafted\ninput to certain functions lacking sufficient validation. Successful\nexploitation could enable arbitrary code execution and compromise internal\ncomponents, resulting in high impact on confidentiality, integrity, and\navailability of the application.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58231",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 10.0,
+      "published_at": "2026-08-11T11:17:15.390000",
+      "created_at": "2026-08-12T05:22:14.918947+00:00"
+    },
+    {
       "id": "f3989e13839479b7",
       "content_hash": "f3989e13839479b7f52bf55adff902423bea53bd820ec5656c585800ec598282",
       "source_name": "Bleeping Computer",
@@ -2254,6 +2296,48 @@
       "cvss_score": null,
       "published_at": "2026-08-11T10:24:00+00:00",
       "created_at": "2026-08-11T11:35:17.640929+00:00"
+    },
+    {
+      "id": "f159d07f8d166295",
+      "content_hash": "f159d07f8d1662958a4f5a9c0cb48698b60bc468748ac0ec9ddf0ae3fdcdfe0a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73162",
+      "title": "CVE-2026-73162 - Affected versions of MISP cti-transmute expose several state-changing account op...",
+      "body": "Affected versions of MISP cti-transmute expose several state-changing account operations as GET requests:\n\n\n\n  *  \n/account/follow\n\n\n  *  \n/account/delete_notification\n\n\n  *  \n/account/mark_notification_read\n\n\n  *  \n/account/mark_all_read\n\n\n\n\n\nThese endpoints require authentication, but before the fix they could be invoked with simple GET requests. That makes them susceptible to cross-site request forgery because a third-party site can induce the victim’s browser to send authenticated GET requests automatically.\n\n\nThe patch converts the actions to POST or DELETE and updates the frontend to include an X-CSRFToken header, providing explicit CSRF protection for those state-changing operations.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73162",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-11T10:17:13.180000",
+      "created_at": "2026-08-12T05:22:14.918940+00:00"
+    },
+    {
+      "id": "3abbaa7581d06ca1",
+      "content_hash": "3abbaa7581d06ca1d6adb0951ec004f5843f86862bde1b4ea20c68926e12ec78",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33922",
+      "title": "CVE-2026-33922 - A path traversal vulnerability was discovered in the Offline archives functional...",
+      "body": "A path traversal vulnerability was discovered in the Offline archives functionality of the local web interface due to insufficient validation of an input parameter. A local user with administrative credentials for the web interface could submit an archive name containing traversal sequences and delete arbitrary files reachable by the Arc process, which runs with administrative privileges on the host.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33922",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.0,
+      "published_at": "2026-08-11T10:17:12.257000",
+      "created_at": "2026-08-12T05:22:14.918934+00:00"
+    },
+    {
+      "id": "3b8a34137fe4b9e6",
+      "content_hash": "3b8a34137fe4b9e6a76b74de9250ddc0868139fdc299b47d6021865aaa4660bf",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-33921",
+      "title": "CVE-2026-33921 - The Windows installer deployed Npcap leaving its access restriction option at th...",
+      "body": "The Windows installer deployed Npcap leaving its access restriction option at the insecure default value, so the driver was accessible to every local user of the host instead of being restricted to administrators only. A local user without administrative privileges could use the Npcap driver to capture the traffic reaching the host, which discloses information belonging both to the host and to other systems on the same network segment, and to send arbitrary raw packets on that segment.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33921",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.2,
+      "published_at": "2026-08-11T10:17:11.963000",
+      "created_at": "2026-08-12T05:22:14.918927+00:00"
     },
     {
       "id": "347ce2453723f243",
@@ -6916,90 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-10T16:19:47.967000",
       "created_at": "2026-08-11T15:48:06.805805+00:00"
-    },
-    {
-      "id": "92ddccf43c4593cc",
-      "content_hash": "92ddccf43c4593cc036f3a24da9f4eec34d6649f1b8cceeaaf700f11ce05c7ff",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47754",
-      "title": "CVE-2026-47754 - Metacat is data repository software that helps researchers preserve, share, and ...",
-      "body": "Metacat is data repository software that helps researchers preserve, share, and discover data. Versions 2.x through 2.19.1 and all 1.x versions contain an unauthenticated path traversal in the `archiveEntryName` parameter of the `action=read` endpoint that is part of the original 1.x Metacat API. `ArchiveHandler.readArchiveEntry()` concatenates the user-supplied parameter into a filesystem path without validation, and the surrounding `hasReadPermission()` check is commented out. An unauthenticated remote attacker can read any file accessible to the Tomcat process by sending a single GET request. Proof-of-concept exploits have been demonstrated and verified against this vulnerability, and it should be considered easily exploitable for any Metacat deployment < 3.0.0 by any user with access to the 1.x API. Through this vulnerability, production 2.x deployments are exposed to credential theft, client certificate and private key exfiltration enabling member node impersonation within the federation, embargoed research data disclosure, and broad system reconnaissance. Given Metacat's deployment footprint across the DataONE network of repositories and federally funded research programs, the population of exposed 2.x instances is non-trivial. The vulnerability was eliminated in Metacat version 3.0.0 and after by eliminating the entire Metacat 1.x API that exposed this vulnerability. The vulnerability was remediated in April 2024 with the release of Metacat 3.0.0, which removed the legacy Metacat API including ArchiveHandler.java. The commit message and issue reference architectural cleanup, not a security fix, and no advisory or CVE was issued. The 2.x branch was not and will not be backported, as is standard practice in Metacat, which only supports the most current release. 2.19.1 remains vulnerable with identical code and is beyond its supported lifetime. As a workaround, disable or restrict 1.x API servlets. Because the vulnerable 1.x API is no longer used or necessary in",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47754",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-08-10T16:19:47.797000",
-      "created_at": "2026-08-11T15:48:06.805797+00:00"
-    },
-    {
-      "id": "42bc205302ff8910",
-      "content_hash": "42bc205302ff89107c7e32101b1d1dd44a33695cc34f236790521b1d137309e1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://thehistoricalinsights.page/2026/06/why-addresses-have-numbers.html",
-      "title": "Why Addresses Have Numbers",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49245646\">Comments</a>",
-      "url": "https://thehistoricalinsights.page/2026/06/why-addresses-have-numbers.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-10T16:12:54+00:00",
-      "created_at": "2026-08-10T16:41:03.031424+00:00"
-    },
-    {
-      "id": "16e05c0d06c57e18",
-      "content_hash": "16e05c0d06c57e185a37b749293962ffcfd721ba0439f73552498cb837562c5c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
-      "title": "Exploiting System Management Mode with a very long interrupt",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49245491\">Comments</a>",
-      "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
-      "category": "it",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-10T16:03:14+00:00",
-      "created_at": "2026-08-10T16:41:03.031225+00:00"
-    },
-    {
-      "id": "4dd5c31934d7e30b",
-      "content_hash": "4dd5c31934d7e30b30db49f46f86665cb50965a94fe6788beb062edd2f1ed04e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
-      "title": "GLP-1 drugs linked to bigger jump in women’s employment than a college degree",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49245487\">Comments</a>",
-      "url": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-10T16:02:34+00:00",
-      "created_at": "2026-08-10T16:41:03.031277+00:00"
-    },
-    {
-      "id": "feb72e937a17e779",
-      "content_hash": "feb72e937a17e7795ce0a3a33f0474f899128dc008d9c7bd073ed80486253a22",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
-      "title": "Study links GLP-1 drugs to bigger jump in women's employment than a degree",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49245487\">Comments</a>",
-      "url": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-10T16:02:34+00:00",
-      "created_at": "2026-08-10T17:41:54.804873+00:00"
-    },
-    {
-      "id": "013d9b399a16cf18",
-      "content_hash": "013d9b399a16cf186f2cc7663d206f7eae62ecdf55b2695fac7100ca3c9acd77",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/AntigmaLabs/ante",
-      "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49245437\">Comments</a>",
-      "url": "https://github.com/AntigmaLabs/ante",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-10T15:59:23+00:00",
-      "created_at": "2026-08-10T16:41:03.031299+00:00"
     }
   ]
 }
