@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-13T11:37:48.878415+00:00",
+  "generated_at": "2026-08-13T12:41:56.046244+00:00",
   "items": [
+    {
+      "id": "3458130eea572091",
+      "content_hash": "3458130eea572091bb087223e12b043a13c2f3f6b75644bf4745c9e112944b5b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49284774\">Comments</a>",
+      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-13T12:09:50+00:00",
+      "created_at": "2026-08-13T12:41:56.045391+00:00"
+    },
+    {
+      "id": "d7df920b2e483d7b",
+      "content_hash": "d7df920b2e483d7b4b54eb63b0ed2f1b18338ea332421bb1852a6af6d7f178c6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://atg.science/careers",
+      "title": "ATG (YC F25) Is Hiring Member of Technical Staff (Data Platform)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49284697\">Comments</a>",
+      "url": "https://atg.science/careers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-13T12:01:02+00:00",
+      "created_at": "2026-08-13T12:41:56.045539+00:00"
+    },
+    {
+      "id": "9d9e9e8c4edd71e3",
+      "content_hash": "9d9e9e8c4edd71e3897013439e70ac71380ed1a90432a14eeb49a077106bb81a",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+      "title": "WhatsApp rolls out new feature that flags potential scam messages",
+      "body": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-13T11:50:22+00:00",
+      "created_at": "2026-08-13T12:41:51.392396+00:00"
+    },
     {
       "id": "63745d2314bac3a4",
       "content_hash": "63745d2314bac3a4c472a9dc070fd063b8fec3fcff2dab3d125bcb088a16b51f",
@@ -1610,6 +1652,20 @@
       "cvss_score": null,
       "published_at": "2026-08-12T15:18:55+00:00",
       "created_at": "2026-08-12T15:47:58.741839+00:00"
+    },
+    {
+      "id": "aff5e47208a2149b",
+      "content_hash": "aff5e47208a2149bc82594c574d40ef866d6f55d0656af224f7b3f265b706d58",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66380",
+      "title": "CVE-2026-66380 - An authenticated user without repository read permission may access private OCI ...",
+      "body": "An authenticated user without repository read permission may access private OCI referrer metadata under specific conditions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66380",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-08-12T15:18:19.967000",
+      "created_at": "2026-08-13T12:41:52.453877+00:00"
     },
     {
       "id": "bdce7818631521cf",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-11T20:18:49.117000",
       "created_at": "2026-08-12T20:31:11.540261+00:00"
-    },
-    {
-      "id": "91d991ba27685e83",
-      "content_hash": "91d991ba27685e837e1f3bdb6d9d029204406ba14c49497fe1b279215d788c0f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73235",
-      "title": "CVE-2026-73235 - FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to ...",
-      "body": "FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to 1.1.2, the Xerces SAX2 XMLReader constructed in src/Base/Reader.cpp by Base::XMLReader::XMLReader() parses attacker-controlled Document.xml from a crafted .FCStd archive without disabling default external entity resolution or external DTD loading. When Document::restore() opens the document, external entities can read local files through the file URI scheme or initiate server-side requests through the http URI scheme, and resolved content can flow through the characters() callback. This issue is fixed in version 1.1.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73235",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-08-11T20:18:48.973000",
-      "created_at": "2026-08-12T20:31:11.540255+00:00"
-    },
-    {
-      "id": "14eb9246af99e96e",
-      "content_hash": "14eb9246af99e96eb2886f6414a87d38ca18deb6a4d6849da6033c2f6636dc14",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73234",
-      "title": "CVE-2026-73234 - FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to ...",
-      "body": "FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to 1.1.2, PropertyFileIncluded::Restore() in src/App/PropertyFile.cpp concatenates an attacker-controlled file or data attribute from Document.xml with the document transient path without rejecting directory components, absolute paths, or parent traversal. A crafted .FCStd archive with a matching FileIncluded XML attribute and ZIP entry can therefore write attacker-controlled content to arbitrary locations accessible to the FreeCAD user, potentially enabling persistence, credential compromise, configuration replacement, or code execution. This issue is fixed in version 1.1.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73234",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-11T20:18:48.833000",
-      "created_at": "2026-08-12T20:31:11.540249+00:00"
-    },
-    {
-      "id": "6d487e01abf4cb33",
-      "content_hash": "6d487e01abf4cb33fde7dc0cf831dd92e1b09f13f153939845c0459d26bc6330",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73233",
-      "title": "CVE-2026-73233 - FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to ...",
-      "body": "FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to 1.1.2, the FEM Displacement Constraint task dialog in src/Mod/Fem/Gui/TaskFemConstraintDisplacement.cpp passes the xDisplacementFormula, yDisplacementFormula, and zDisplacementFormula fields of a Fem::ConstraintDisplacement object through TaskDlgFemConstraintDisplacement::accept() into Gui::Command::doCommand. The escaping helper neutralizes quotation marks but not backslashes, allowing crafted formula text to terminate the generated Python string and execute arbitrary Python code with the FreeCAD process's privileges when a victim accepts the dialog. This issue is fixed in version 1.1.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73233",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-11T20:18:48.693000",
-      "created_at": "2026-08-12T20:31:11.540243+00:00"
-    },
-    {
-      "id": "611073cc037a5fe5",
-      "content_hash": "611073cc037a5fe52490db7140d8fabdc9c30d674674cde07a54f9058ac96604",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73232",
-      "title": "CVE-2026-73232 - ffuf is a fast web fuzzer written in Go. Prior to 2.2.0, ffuf allows a malicious...",
-      "body": "ffuf is a fast web fuzzer written in Go. Prior to 2.2.0, ffuf allows a malicious target server to cause an out-of-memory denial of service because the response size guard in pkg/runner/simple.go checks only the compressed Content-Length while io.ReadAll reads gzip, brotli, deflate, transparently decompressed, or chunked response bodies without a decompressed-size bound. This issue is fixed in version 2.2.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73232",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-11T20:18:48.543000",
-      "created_at": "2026-08-12T20:31:11.540237+00:00"
     }
   ]
 }
