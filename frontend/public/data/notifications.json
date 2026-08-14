@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T05:23:12.188252+00:00",
+  "generated_at": "2026-08-14T07:05:25.115322+00:00",
   "items": [
     {
       "id": "c6654dc31080edb2",
@@ -1302,6 +1302,48 @@
       "cvss_score": null,
       "published_at": "2026-08-13T12:49:21+00:00",
       "created_at": "2026-08-13T14:13:15.065209+00:00"
+    },
+    {
+      "id": "8a44ca4b3db0b61c",
+      "content_hash": "8a44ca4b3db0b61c31a96294cbc857f5b9cc77236b5db8161b6b705a038a2f9d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73609",
+      "title": "CVE-2026-73609 - SiYuan versions before v3.7.4 contain an information disclosure vulnerability in...",
+      "body": "SiYuan versions before v3.7.4 contain an information disclosure vulnerability in the getBookmarkLabels endpoint that returns all bookmark labels in the workspace without publish-access filtering. Anonymous readers and publish-mode readers can obtain the complete bookmark vocabulary across the workspace, disclosing subject matter and organizational information from inaccessible documents.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73609",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.8,
+      "published_at": "2026-08-13T12:17:25.463000",
+      "created_at": "2026-08-14T07:05:19.912646+00:00"
+    },
+    {
+      "id": "8916843553af17d4",
+      "content_hash": "8916843553af17d46f342fd16ec9b306497911922e9e54564aff6c1dfc520027",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73608",
+      "title": "CVE-2026-73608 - SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not presen...",
+      "body": "SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not present in v3.7.3 or master, patched in v3.7.4) contains a missing-authorization vulnerability in the /api/av/getAttributeViewSearchTarget endpoint. The route is registered with CheckAuth only and performs no authorization checks (no CheckReadonly, no publish-access or encrypted-notebook gating). Given a database identifier taken from a published page and a keyword, an anonymous reader can query the endpoint to retrieve matching database row content, including rows that publish filters (FilterAttributeViewByPublishAccess) would otherwise withhold. No released stable version is affected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73608",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.6,
+      "published_at": "2026-08-13T12:17:25.323000",
+      "created_at": "2026-08-14T07:05:19.912640+00:00"
+    },
+    {
+      "id": "8f1ac8b8d7f3f8f6",
+      "content_hash": "8f1ac8b8d7f3f8f67128117d7f7c2590d4bf0ffa029b128150550bbb63867930",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73607",
+      "title": "CVE-2026-73607 - SiYuan versions before v3.7.4 contain an information disclosure vulnerability in...",
+      "body": "SiYuan versions before v3.7.4 contain an information disclosure vulnerability in the /api/storage/getOutlineStorage endpoint that performs no authorization checks. Attackers can retrieve outline state including heading identifiers for any document by supplying its identifier, even for documents forbidden to the requester.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73607",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.8,
+      "published_at": "2026-08-13T12:17:25.183000",
+      "created_at": "2026-08-14T07:05:19.912633+00:00"
     },
     {
       "id": "f3d75cee29d1c068",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-12T16:16:51.513000",
       "created_at": "2026-08-13T16:43:02.456595+00:00"
-    },
-    {
-      "id": "203a8f53e7e02443",
-      "content_hash": "203a8f53e7e02443528f20dfeed2431e8f6aa69b35edee72cb6fce2344e218f3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-32737",
-      "title": "CVE-2025-32737 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority because it is Unused",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32737",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:16:51.450000",
-      "created_at": "2026-08-13T16:43:02.456588+00:00"
-    },
-    {
-      "id": "d83ad6bf2d527963",
-      "content_hash": "d83ad6bf2d527963451e3787505718b8b46e07ed4e27343bb3985a71ee5c92fc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-32087",
-      "title": "CVE-2025-32087 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority because it is Unused",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32087",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:16:51.390000",
-      "created_at": "2026-08-13T16:43:02.456582+00:00"
-    },
-    {
-      "id": "b9703ed0d9a136c6",
-      "content_hash": "b9703ed0d9a136c62547a1d6254d7436700950e07b76fb61e95a6be68eb0b665",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-32084",
-      "title": "CVE-2025-32084 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority because it is Unused",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32084",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:16:51.330000",
-      "created_at": "2026-08-13T16:43:02.456575+00:00"
     }
   ]
 }
