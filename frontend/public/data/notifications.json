@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:56:22.456502+00:00",
+  "generated_at": "2026-08-14T09:51:52.899186+00:00",
   "items": [
     {
       "id": "2ef030a10827d3ec",
@@ -1372,6 +1372,34 @@
       "cvss_score": null,
       "published_at": "2026-08-13T12:49:21+00:00",
       "created_at": "2026-08-13T14:13:15.065209+00:00"
+    },
+    {
+      "id": "dfcd5bc99ab85a3f",
+      "content_hash": "dfcd5bc99ab85a3fc9c85d0783657281216f52e8dc6efb052246ca08f9765861",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73620",
+      "title": "CVE-2026-73620 - GitPython before 3.1.57 fails to guard git option forwarding in IndexFile.checko...",
+      "body": "GitPython before 3.1.57 fails to guard git option forwarding in IndexFile.checkout() and TagReference.create(), allowing attackers to pass unsafe options via kwargs. Attackers can use --prefix to overwrite arbitrary files with repository content or -F to read arbitrary files returned in-band.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73620",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-13T12:17:27.057000",
+      "created_at": "2026-08-14T09:51:48.947481+00:00"
+    },
+    {
+      "id": "68046b242af28904",
+      "content_hash": "68046b242af28904c74d9c37a1ba9cf50589ab367e1b325fd1199ff4af71e325",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-73619",
+      "title": "CVE-2026-73619 - GitPython before 3.1.57 contains an incomplete denylist in the unsafe_git_archiv...",
+      "body": "GitPython before 3.1.57 contains an incomplete denylist in the unsafe_git_archive_options guard that omits --add-file and --add-virtual-file options. Attackers can supply these options to Repo.archive() to read arbitrary files from the filesystem and include them in the returned archive.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73619",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-08-13T12:17:26.913000",
+      "created_at": "2026-08-14T09:51:48.947474+00:00"
     },
     {
       "id": "cb86ba10404ef957",
@@ -6972,34 +7000,6 @@
       "cvss_score": 6.7,
       "published_at": "2026-08-12T16:17:14.383000",
       "created_at": "2026-08-13T16:43:02.456722+00:00"
-    },
-    {
-      "id": "a4e9fdab2148365e",
-      "content_hash": "a4e9fdab2148365e1d7a3104a93db6c9c63a59a93c7a8dd8a2bca64c730c7542",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65941",
-      "title": "CVE-2026-65941 - In WhatsUp Gold versions released before 2026.0.2, an unauthenticated remote att...",
-      "body": "In WhatsUp Gold versions released before 2026.0.2, an unauthenticated remote attacker with network access to the affected service can execute arbitrary code in the context of the IIS application service account.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65941",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-12T16:17:14.050000",
-      "created_at": "2026-08-13T16:43:02.456714+00:00"
-    },
-    {
-      "id": "54354e7e116c3a1e",
-      "content_hash": "54354e7e116c3a1e9fd597e18c7a02edf9d719b9da725c81c65fe898b4bf19f5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65940",
-      "title": "CVE-2026-65940 - In WhatsUp Gold versions released before 2026.0.2, a privileged attacker can wri...",
-      "body": "In WhatsUp Gold versions released before 2026.0.2, a privileged attacker can write arbitrary files to a web-accessible location on the host server.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65940",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-08-12T16:17:13.927000",
-      "created_at": "2026-08-13T16:43:02.456707+00:00"
     }
   ]
 }
