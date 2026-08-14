@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-14T11:35:20.793039+00:00",
+  "generated_at": "2026-08-14T12:37:39.381388+00:00",
   "items": [
+    {
+      "id": "6683603449e1edf0",
+      "content_hash": "6683603449e1edf0a62c822cd4e904a40e9e3912b76a3a0304365f931d58c100",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+      "title": "Shell investigates 'potential incident' after Clop data theft claims",
+      "body": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T11:55:45+00:00",
+      "created_at": "2026-08-14T12:37:34.284669+00:00"
+    },
     {
       "id": "5aa16c83d4d33098",
       "content_hash": "5aa16c83d4d33098b9b4def0c141ba9f6c6f86cbd5f14a0fe49390da10bbe445",
@@ -1372,6 +1386,48 @@
       "cvss_score": null,
       "published_at": "2026-08-13T13:28:45+00:00",
       "created_at": "2026-08-13T15:47:11.791642+00:00"
+    },
+    {
+      "id": "875eaa0dfe0d58fd",
+      "content_hash": "875eaa0dfe0d58fdba224a479ed33b06a355f697561b04a0e803f926c1f37f9c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14678",
+      "title": "CVE-2026-14678 - Buffer over-read in PostgreSQL pg_trgm index picksplit function reads past end o...",
+      "body": "Buffer over-read in PostgreSQL pg_trgm index picksplit function reads past end of a heap buffer.  This might allow a table maintainer to infer limited memory values, via the lossy signal of index split choices.  Versions before PostgreSQL 18.5, 17.11, 16.15, 15.19, and 14.24 are affected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14678",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-08-13T13:17:45.150000",
+      "created_at": "2026-08-14T12:37:34.551214+00:00"
+    },
+    {
+      "id": "03767b97f11d3da1",
+      "content_hash": "03767b97f11d3da1a42e3c9903440eb12d8d1afeb784303b76f66476ab32ea64",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14677",
+      "title": "CVE-2026-14677 - Integer wraparound in PostgreSQL 32-bit builds of pltcl and plperl allows an obj...",
+      "body": "Integer wraparound in PostgreSQL 32-bit builds of pltcl and plperl allows an object creator to cause the server to undersize an allocation and write out-of-bounds via crafted function bodies.  This may execute arbitrary code as the operating system user running the database.  CVE-2026-6473 had fixed similar problems.  Versions before PostgreSQL 18.5, 17.11, 16.15, 15.19, and 14.24 are affected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14677",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-13T13:17:45.027000",
+      "created_at": "2026-08-14T12:37:34.551208+00:00"
+    },
+    {
+      "id": "9a89b21a157dcf8b",
+      "content_hash": "9a89b21a157dcf8bdea8e0798ef28e5a6471813b48acb4e15d5b6a847b2cdf93",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14676",
+      "title": "CVE-2026-14676 - Heap buffer overflow in PostgreSQL pg_stat_statements allows the query author to...",
+      "body": "Heap buffer overflow in PostgreSQL pg_stat_statements allows the query author to execute arbitrary code as the operating system user running the database, via crafted queries containing array constants.  Within major version 18, minor versions before PostgreSQL 18.5 are affected.  Versions before PostgreSQL 18 are unaffected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14676",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-13T13:17:44.907000",
+      "created_at": "2026-08-14T12:37:34.551202+00:00"
     },
     {
       "id": "9edc3cce668d2068",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-12T16:54:25+00:00",
       "created_at": "2026-08-12T18:44:44.625941+00:00"
-    },
-    {
-      "id": "b5a7d4f1362181e8",
-      "content_hash": "b5a7d4f1362181e8dfde2abea1883e88aceb75cf017405e508b2a3e41c65a773",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49275385\">Comments</a>",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:54:25+00:00",
-      "created_at": "2026-08-12T19:54:53.472487+00:00"
-    },
-    {
-      "id": "81d2826d72d6716b",
-      "content_hash": "81d2826d72d6716b506a21b1be3f89bc47b17551eeb25bf7b09916d2b06f3138",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
-      "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49275335\">Comments</a>",
-      "url": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:51:25+00:00",
-      "created_at": "2026-08-12T17:48:41.761689+00:00"
-    },
-    {
-      "id": "5b45f8f2fc6772e0",
-      "content_hash": "5b45f8f2fc6772e0e31e391d6b7d18b477b4b831df417ffede0f352c3730fdff",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?post_type=tc_video&p=3152427",
-      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "body": "AI notetaking hardware has taken off&#160;over&#160;the past&#160;couple of years, with credit-card-sized devices, pendants, pins,&#160;and&#160;even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way.&#160; One of [&#8230;]",
-      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:46:02+00:00",
-      "created_at": "2026-08-12T17:48:41.540006+00:00"
-    },
-    {
-      "id": "2b42d074cca98cdf",
-      "content_hash": "2b42d074cca98cdfa700b7f15242e42860a9c6a3da6245bc44e4cf365731daa6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://climate.metoffice.cloud/glaciers.html",
-      "title": "Glaciers on the Climate Dashboard",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49275132\">Comments</a>",
-      "url": "https://climate.metoffice.cloud/glaciers.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-12T16:38:25+00:00",
-      "created_at": "2026-08-12T17:48:41.761628+00:00"
     }
   ]
 }
