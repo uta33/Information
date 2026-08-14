@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-14T20:19:59.227750+00:00",
+  "generated_at": "2026-08-14T21:14:13.426554+00:00",
   "items": [
+    {
+      "id": "1d0c19d314724502",
+      "content_hash": "1d0c19d3147245021f326957b7ab4b6a1eb71617351c9c878bf5186e7f79c4cc",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3153246",
+      "title": "Self-driving trucks are officially testing on California highways",
+      "body": "Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles.",
+      "url": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-14T20:37:49+00:00",
+      "created_at": "2026-08-14T21:14:13.329812+00:00"
+    },
+    {
+      "id": "74ddaf3907d25e1c",
+      "content_hash": "74ddaf3907d25e1cc648a19cf5186f699db220973c0f3ea33c9e1dac9c29626f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://iafisher.com/2026/07/pelham-123",
+      "title": "Every exterior shot in The Taking of Pelham 123",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49303957\">Comments</a>",
+      "url": "https://iafisher.com/2026/07/pelham-123",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T20:10:49+00:00",
+      "created_at": "2026-08-14T21:14:13.426001+00:00"
+    },
     {
       "id": "e86703ccb9f0c356",
       "content_hash": "e86703ccb9f0c3565c1d8e95c8143995b6945e78a0089e341f8ad3acfe73aa41",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-14T19:41:42+00:00",
       "created_at": "2026-08-14T20:19:59.227140+00:00"
+    },
+    {
+      "id": "30864d6dd8158aa1",
+      "content_hash": "30864d6dd8158aa11896784b1b68b0ffa6eb072863a6151cee86676e103ebe73",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo",
+      "title": "CEO who fired 900 people on Zoom just before Christmas wants his job back",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49303592\">Comments</a>",
+      "url": "https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T19:36:18+00:00",
+      "created_at": "2026-08-14T21:14:13.426103+00:00"
     },
     {
       "id": "fccfbb9e2df2a27b",
@@ -56,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-08-14T19:28:17+00:00",
       "created_at": "2026-08-14T20:19:59.227453+00:00"
+    },
+    {
+      "id": "e69f78b45aa83b8b",
+      "content_hash": "e69f78b45aa83b8b0c58d93a4ab0200e60496ef86dc02a94cf98f4f197c00c64",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "title": "What You Gain by Building Your Own Game Engine",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49303405\">Comments</a>",
+      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T19:20:20+00:00",
+      "created_at": "2026-08-14T21:14:13.425959+00:00"
     },
     {
       "id": "2230d14c2ba83354",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-13T07:26:00+00:00",
       "created_at": "2026-08-13T09:00:34.012326+00:00"
-    },
-    {
-      "id": "ae00556dc0f2c9e5",
-      "content_hash": "ae00556dc0f2c9e592ffe88962f88600708765c851232c1b2d3adab947eed511",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028167.html",
-      "title": "IBMのAspera Desktop Appにおける本質的に危険な機能の使用に関する脆弱性",
-      "body": "IBM Aspera Desktop App バージョン1.0.5から1.0.19までの間において、起動時にDLLファイルを読み込むことで任意のコードが実行される可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028167.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T07:26:00+00:00",
-      "created_at": "2026-08-13T09:00:34.012344+00:00"
-    },
-    {
-      "id": "d89356a3cc2ce700",
-      "content_hash": "d89356a3cc2ce700cdb689e4086408c8819bce4ab6c227072cc7b4b59fd6492f",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028166.html",
-      "title": "IBMのAspera Desktop Appにおけるパストラバーサルの脆弱性",
-      "body": "IBM Aspera Desktop App バージョン1.0.5から1.0.19までのIBM Aspera for desktopには、ユーザーが選択したダウンロード先以外の場所にファイルを書き込む可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028166.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T07:26:00+00:00",
-      "created_at": "2026-08-13T09:00:34.012362+00:00"
-    },
-    {
-      "id": "ec80e28ec2c8cae9",
-      "content_hash": "ec80e28ec2c8cae9d84e6b873049878a14818bb20be8079409023c2f9369c9d2",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028165.html",
-      "title": "レッドハットのCost Management Metrics Operatorにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "Red Hat OpenShift用のkoku-metrics-operatorに脆弱性が発見されました。このオペレーターのCostManagementMetricsConfigカスタムリソースでは、編集可能なユーザーが任意のアップロードURLを指定できるようになっています。オペレーターはこのユーザー制御のURLに送信されるクエリに自身のKubernetesサービスアカウントのベアラートークンを添付するため、攻撃者がそのトークンを取得できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028165.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T07:26:00+00:00",
-      "created_at": "2026-08-13T09:00:34.012380+00:00"
-    },
-    {
-      "id": "700219174e6aa380",
-      "content_hash": "700219174e6aa380021a0be00525f7d16485c0bce118308556f40d24e736ed3d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028164.html",
-      "title": "レッドハットのCost Management Metrics Operatorにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "koku-metrics-operatorに脆弱性が発見されました。このオペレーターのCostManagementMetricsConfigカスタムリソースは、CRの編集が可能なユーザーが任意のOAuthトークンエンドポイントを指定できる仕様になっています。authentication.typeがservice-accountに設定されている場合、オペレーターはテナントのRed Hat SSOのclient_idおよびclient_secretを、このユーザーが制御するURLに送信し、攻撃者が資格情報を取得できる状態になります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028164.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T07:26:00+00:00",
-      "created_at": "2026-08-13T09:00:34.012397+00:00"
     }
   ]
 }
