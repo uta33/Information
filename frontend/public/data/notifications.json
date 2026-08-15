@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-15T00:34:25.448164+00:00",
+  "generated_at": "2026-08-15T02:06:55.620179+00:00",
   "items": [
+    {
+      "id": "615048570dde6d78",
+      "content_hash": "615048570dde6d786008aafb857e510bf8cf204264defa2e5095f154ad12fbf8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49306577\">Comments</a>",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T01:14:05+00:00",
+      "created_at": "2026-08-15T02:06:55.619364+00:00"
+    },
+    {
+      "id": "e1cedaa3978fc4d9",
+      "content_hash": "e1cedaa3978fc4d9d6f814fda57824c63fd30a5315a9a94b19234d4d29506e23",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "title": "The Ploopy A+ Trackball Is Here",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49306443\">Comments</a>",
+      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T00:55:31+00:00",
+      "created_at": "2026-08-15T02:06:55.619447+00:00"
+    },
+    {
+      "id": "585807ba98927a86",
+      "content_hash": "585807ba98927a861b6f0362564133d49ff19f7ee8567c696bf9000c880686a8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/1811.03459",
+      "title": "Simplifying and Refactoring Introductory Calculus",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49306196\">Comments</a>",
+      "url": "https://arxiv.org/abs/1811.03459",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T00:15:23+00:00",
+      "created_at": "2026-08-15T02:06:55.619492+00:00"
+    },
+    {
+      "id": "ef2e98ad6eaa2ed0",
+      "content_hash": "ef2e98ad6eaa2ed0bad29ec8bab5f2bfd3f4faff7f1c20fcc6eceebeb0f4b69e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sf.gazetteer.co/corgi-kills-short-lived-website-that-ranked-its-female-employees",
+      "title": "Corgi kills short-lived website that ranked its female employees",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49306080\">Comments</a>",
+      "url": "https://sf.gazetteer.co/corgi-kills-short-lived-website-that-ranked-its-female-employees",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T00:00:55+00:00",
+      "created_at": "2026-08-15T02:06:55.619591+00:00"
+    },
     {
       "id": "c23d02a7337cae37",
       "content_hash": "c23d02a7337cae3785fe095b41f3f0a62023009a0d44b74072d688159256163d",
@@ -84,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-08-14T22:38:34+00:00",
       "created_at": "2026-08-14T23:10:42.107149+00:00"
+    },
+    {
+      "id": "b0c26fd2460e76d0",
+      "content_hash": "b0c26fd2460e76d076a703f43881fa0d9da9440f8953bef90484af1c70bed2f0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://eigendrum.com/#p=circle",
+      "title": "eigendrum",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49305250\">Comments</a>",
+      "url": "https://eigendrum.com/#p=circle",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T22:15:12+00:00",
+      "created_at": "2026-08-15T02:06:55.619610+00:00"
     },
     {
       "id": "f88d2be1bd949249",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-13T14:37:51+00:00",
       "created_at": "2026-08-13T15:47:11.791858+00:00"
-    },
-    {
-      "id": "9a22c1a6c9a404f9",
-      "content_hash": "9a22c1a6c9a404f9f99e3b381a7d9c9cd3d470015154d2dddf3deeccd006dad8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
-      "title": "I requested a copy of my data from McDonald’s loyalty program",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49286662\">Comments</a>",
-      "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T14:37:51+00:00",
-      "created_at": "2026-08-13T16:43:06.199660+00:00"
-    },
-    {
-      "id": "b747a602f76e9703",
-      "content_hash": "b747a602f76e9703128eef89ad5fc61275e083c0269e1baa025766bc2457c315",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency",
-      "title": "Flock Safety changes system defaults in response to criticisms",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49286654\">Comments</a>",
-      "url": "https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T14:37:29+00:00",
-      "created_at": "2026-08-13T15:47:11.792041+00:00"
-    },
-    {
-      "id": "9a92d302743b390f",
-      "content_hash": "9a92d302743b390fedc3fe3a1e1a7a30531d54710a038fe4c48c402e7296612e",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3152741",
-      "title": "Apple in talks to pay publishers to provide Siri with current news: report",
-      "body": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
-      "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T14:34:43+00:00",
-      "created_at": "2026-08-13T15:47:11.537518+00:00"
-    },
-    {
-      "id": "d40611fb6c5d1671",
-      "content_hash": "d40611fb6c5d1671884684d7d9ad29de91eabf7bdf6f47e54c353653c7d862fd",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "title": "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49286485\">Comments</a>",
-      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T14:26:41+00:00",
-      "created_at": "2026-08-13T15:47:11.791659+00:00"
-    },
-    {
-      "id": "05e38e13646b60ff",
-      "content_hash": "05e38e13646b60ff332a0425d5e12208f131f83b66e87dd4077011e75f8c3bab",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49286485\">Comments</a>",
-      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T14:26:41+00:00",
-      "created_at": "2026-08-13T16:43:06.199464+00:00"
     }
   ]
 }
