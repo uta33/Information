@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:10:55.331038+00:00",
+  "generated_at": "2026-08-15T11:08:52.968878+00:00",
   "items": [
     {
       "id": "57dbd7c52325b344",
@@ -1106,6 +1106,34 @@
       "cvss_score": null,
       "published_at": "2026-08-14T14:21:18+00:00",
       "created_at": "2026-08-14T15:40:06.809713+00:00"
+    },
+    {
+      "id": "18631dba26d4a632",
+      "content_hash": "18631dba26d4a632f7e18510bccb4a03b179df81bd68e7980b1db37d968004f8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-53472",
+      "title": "CVE-2026-53472 - A flaw was found in migration-planner. Insufficient validation of the `AgentStat...",
+      "body": "A flaw was found in migration-planner. Insufficient validation of the `AgentStatusUpdate.CredentialUrl` field allows an authenticated attacker to store a malicious `javascript:` URL. When a victim views this URL in the Hybrid Cloud Console, it can lead to Cross-Site Scripting (XSS), enabling script execution in the victim's session and potentially disclosing sensitive information.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53472",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-14T14:16:51.753000",
+      "created_at": "2026-08-15T11:08:49.630553+00:00"
+    },
+    {
+      "id": "8c10b6306bce226a",
+      "content_hash": "8c10b6306bce226a40faa97eb9e8a6b644872005f4e52fb65c2cc282075e1145",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-1621",
+      "title": "CVE-2026-1621 - Authentication bypass by primary weakness vulnerability in Universal Software In...",
+      "body": "Authentication bypass by primary weakness vulnerability in Universal Software Inc. E-Municipality allows Exploitation of Trusted Identifiers.\n\nThis issue affects E-Municipality: from 20251127 before 20260204.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1621",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-14T14:16:51.610000",
+      "created_at": "2026-08-15T11:08:49.630548+00:00"
     },
     {
       "id": "7e35b63c5054541a",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.2,
       "published_at": "2026-08-13T15:19:56.557000",
       "created_at": "2026-08-14T15:40:02.557409+00:00"
-    },
-    {
-      "id": "ed2ed86dd1b50027",
-      "content_hash": "ed2ed86dd1b500276588971719bd04ed74b5159bf5e3a9654091910c3e9fd0df",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65936",
-      "title": "CVE-2026-65936 - A malformed Bluetooth connection request message can cause the RS9116W/SiWx917 t...",
-      "body": "A malformed Bluetooth connection request message can cause the RS9116W/SiWx917 to leak potentially sensitive information. \nSee vulnerability B-E4 in the related paper below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65936",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:56.423000",
-      "created_at": "2026-08-14T15:40:02.557405+00:00"
-    },
-    {
-      "id": "cdf22860aee58645",
-      "content_hash": "cdf22860aee5864584b8b599f7de680a59576db7fc9eb11ee55bcd5e0ed4a31c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65935",
-      "title": "CVE-2026-65935 - Passkey entry Bluetooth LE legacy pairing can be bypassed in the RS9116W and SiW...",
-      "body": "Passkey entry Bluetooth LE legacy pairing can be bypassed in the RS9116W and SiWx917 by manipulating the temporary key value. \nSee vulnerability B-E3 in the related paper below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65935",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:56.290000",
-      "created_at": "2026-08-14T15:40:02.557401+00:00"
     }
   ]
 }
