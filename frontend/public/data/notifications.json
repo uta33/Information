@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-15T09:14:50.683796+00:00",
+  "generated_at": "2026-08-15T10:10:55.331038+00:00",
   "items": [
+    {
+      "id": "57dbd7c52325b344",
+      "content_hash": "57dbd7c52325b344011d2c8bbb092daccfddfa65c88ce8a603da2ce311b8c4ef",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://uecker.codeberg.page/2026-07-14.html",
+      "title": "Using GCC's Nested Functions with Wide Pointers and No Trampolines II",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49308685\">Comments</a>",
+      "url": "https://uecker.codeberg.page/2026-07-14.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T07:59:42+00:00",
+      "created_at": "2026-08-15T10:10:55.330581+00:00"
+    },
+    {
+      "id": "f6271d1b376f1050",
+      "content_hash": "f6271d1b376f1050cb025f24875383a971b1695935f2b943164f547fd5702d54",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49308553\">Comments</a>",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T07:31:46+00:00",
+      "created_at": "2026-08-15T10:10:55.330714+00:00"
+    },
     {
       "id": "c1908bb87c0f6af9",
       "content_hash": "c1908bb87c0f6af91225fa7389f2a89fa81bcf9ff29f2cf505fe3fabf800a256",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T06:01:19+00:00",
       "created_at": "2026-08-15T07:20:43.411789+00:00"
+    },
+    {
+      "id": "fd0073fed0af9987",
+      "content_hash": "fd0073fed0af998754b727de0ce5d90c1f4c053980b12b84dcb3b8ea08a09115",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49308059",
+      "title": "Ask HN: How do you keep up with HN these days?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49308059\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49308059",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T05:59:12+00:00",
+      "created_at": "2026-08-15T10:10:55.330615+00:00"
     },
     {
       "id": "bfbc5a74b4cbc937",
@@ -1064,6 +1106,48 @@
       "cvss_score": null,
       "published_at": "2026-08-14T14:21:18+00:00",
       "created_at": "2026-08-14T15:40:06.809713+00:00"
+    },
+    {
+      "id": "7e35b63c5054541a",
+      "content_hash": "7e35b63c5054541a0ec53b17bc7dc0405bdac9c028e30456f3e29120ddbe6946",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19871",
+      "title": "CVE-2026-19871 - Use of Hard-coded Credentials in the human resources component in Roskus Prosper...",
+      "body": "Use of Hard-coded Credentials in the human resources component in Roskus Prospero Flow CRM before 5.15.9 allows unauthenticated remote attackers to authenticate as any employee onboarded through the standard flow, knowing only their email address, because the employee save controller falls back to the literal password \"changeme\" and the onboarding form provides no password field.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19871",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T14:16:51.493000",
+      "created_at": "2026-08-15T10:10:50.274443+00:00"
+    },
+    {
+      "id": "8bb1f0648727890c",
+      "content_hash": "8bb1f0648727890cf8b0812f8985c9c361e38331133436cdc6c24ed3bccd40b6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19830",
+      "title": "CVE-2026-19830 - A vulnerability was found in TRENDnet TEW-816DRM GURNC4.OT182B-C-TN-R1B028-US.EN...",
+      "body": "A vulnerability was found in TRENDnet TEW-816DRM GURNC4.OT182B-C-TN-R1B028-US.EN. This impacts an unknown function of the file /etc/bftpd.conf of the component bftpd. The manipulation of the argument USERLIMIT_GLOBAL results in allocation of resources. It is possible to launch the attack remotely. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19830",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-14T14:16:51.317000",
+      "created_at": "2026-08-15T10:10:50.274437+00:00"
+    },
+    {
+      "id": "e362c8a099777876",
+      "content_hash": "e362c8a099777876a01f98d28021ab7cd777fdb60f683718e35cdb107b534dcf",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19829",
+      "title": "CVE-2026-19829 - A security flaw has been discovered in 648540858 wvp-GB28181-pro 2.7.4-20260107....",
+      "body": "A security flaw has been discovered in 648540858 wvp-GB28181-pro 2.7.4-20260107. This vulnerability affects unknown code of the file LogController.java of the component Log File Download Endpoint. The manipulation of the argument fileName results in path traversal. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19829",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-08-14T14:16:51.153000",
+      "created_at": "2026-08-15T10:10:50.274431+00:00"
     },
     {
       "id": "d33cf7e7f71849f7",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-13T15:19:56.290000",
       "created_at": "2026-08-14T15:40:02.557401+00:00"
-    },
-    {
-      "id": "c190d499751abb93",
-      "content_hash": "c190d499751abb9397a9d0b7defa122aa8224add132a59c3632f4562b4d48937",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65934",
-      "title": "CVE-2026-65934 - An unencrypted 'pause encryption request' message causes a denial of service in ...",
-      "body": "An unencrypted 'pause encryption request' message causes a denial of service in the BT122 module. \nSee vulnerability B-E10 in the related paper below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65934",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:56.147000",
-      "created_at": "2026-08-14T15:40:02.557397+00:00"
-    },
-    {
-      "id": "1cb82f73dc0dcd94",
-      "content_hash": "1cb82f73dc0dcd949d8e525f952b1e5620ad1802aa47af97f0be2fa3dc6d0678",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65933",
-      "title": "CVE-2026-65933 - A malformed Bluetooth connection request message can cause the BT122 to leak pot...",
-      "body": "A malformed Bluetooth connection request message can cause the BT122 to leak potentially sensitive information. See vulnerability B-E4 in the related paper below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65933",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:56.003000",
-      "created_at": "2026-08-14T15:40:02.557393+00:00"
-    },
-    {
-      "id": "8cf1855a2f69fa3b",
-      "content_hash": "8cf1855a2f69fa3b648676b0614fb975d5809e28134c7685ff337f0a782cb8dd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-65932",
-      "title": "CVE-2026-65932 - The BT122 module stops advertising after receiving a plaintext 'pause enceryptio...",
-      "body": "The BT122 module stops advertising after receiving a plaintext 'pause enceryption response' message resulting in a denial of service. See vulnerability B-E2 in the related paper below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65932",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:55.867000",
-      "created_at": "2026-08-14T15:40:02.557389+00:00"
-    },
-    {
-      "id": "42c4c2d4fef5e637",
-      "content_hash": "42c4c2d4fef5e637e7c3d041042b71ba43ef64d1b9aeb4872ef3f96cf0da3897",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63426",
-      "title": "CVE-2026-63426 - During an internal security assessment, a potential vulnerability was discovered...",
-      "body": "During an internal security assessment, a potential vulnerability was discovered in Lenovo Dock Manager that could allow an authenticated local user to perform an arbitrary file deletion with elevated privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63426",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-13T15:19:55.517000",
-      "created_at": "2026-08-14T15:40:02.557385+00:00"
-    },
-    {
-      "id": "957a2e8220ea088a",
-      "content_hash": "957a2e8220ea088aeb3b124d6ba944ce06ee43c48268ac177d42319c2704e027",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63425",
-      "title": "CVE-2026-63425 - During an internal security assessment, a potential improper permissions vulnera...",
-      "body": "During an internal security assessment, a potential improper permissions vulnerability was discovered in Lenovo Dock Manager that could allow a local authenticated user to execute arbitrary code with elevated privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63425",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-13T15:19:55.377000",
-      "created_at": "2026-08-14T15:40:02.557382+00:00"
-    },
-    {
-      "id": "82530ee0e55811fa",
-      "content_hash": "82530ee0e55811fa888944ea90455fddea9d162e54d3030626d78f3e457df204",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63424",
-      "title": "CVE-2026-63424 - During an internal security assessment, an improperly protected key was discover...",
-      "body": "During an internal security assessment, an improperly protected key was discovered in Lenovo Dock Manager that could allow a local authenticated user to escalate privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63424",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.3,
-      "published_at": "2026-08-13T15:19:55.223000",
-      "created_at": "2026-08-14T15:40:02.557377+00:00"
     }
   ]
 }
