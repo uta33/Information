@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-15T11:08:52.968878+00:00",
+  "generated_at": "2026-08-15T12:14:58.821844+00:00",
   "items": [
+    {
+      "id": "12e39d5081caa3c3",
+      "content_hash": "12e39d5081caa3c33a972ad83f9ac509870e822d064aa6b83c339bc8156063bd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sankalp.bearblog.dev/autoresearch/",
+      "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49309549\">Comments</a>",
+      "url": "https://sankalp.bearblog.dev/autoresearch/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T11:00:02+00:00",
+      "created_at": "2026-08-15T12:14:58.821026+00:00"
+    },
+    {
+      "id": "c94041c3eba37ba6",
+      "content_hash": "c94041c3eba37ba6608702d85a6193189ca0797433bd48ca8ecc026a373a29e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+      "title": "Debian has begun voting on the future of AI/LLM contributions",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49309050\">Comments</a>",
+      "url": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T09:20:07+00:00",
+      "created_at": "2026-08-15T12:14:58.821437+00:00"
+    },
     {
       "id": "57dbd7c52325b344",
       "content_hash": "57dbd7c52325b344011d2c8bbb092daccfddfa65c88ce8a603da2ce311b8c4ef",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-13T15:19:57.970000",
       "created_at": "2026-08-14T15:40:02.557417+00:00"
-    },
-    {
-      "id": "ae90a35f52eeb40c",
-      "content_hash": "ae90a35f52eeb40c458d7608676b1bf6a7fcf400a84f53665d468c52f090208c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-68451",
-      "title": "CVE-2026-68451 - In the Linux kernel, the following vulnerability has been resolved:\n\ns390/zcrypt...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/zcrypt: Validate length for CCA ECC private key requests\n\ncca_ecc2protkey() derives the copy length for the CPRB parameter\nblock directly from the length field in the key token. Reject the\nrequest early if the token length exceeds the available space in the\nparameter block.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68451",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-13T15:19:57.847000",
-      "created_at": "2026-08-14T15:40:02.557413+00:00"
-    },
-    {
-      "id": "e3c3089a9104c804",
-      "content_hash": "e3c3089a9104c804dde6735e46b89e3427a3eb6f8e626438faae67937b4881dd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66256",
-      "title": "CVE-2026-66256 - ** UNSUPPORTED WHEN ASSIGNED ** Deserialization of Untrusted Data vulnerability ...",
-      "body": "** UNSUPPORTED WHEN ASSIGNED ** Deserialization of Untrusted Data vulnerability in Apache Shindig.\n\nThis issue affects Apache Shindig: all versions.\n\nUsers with access to the Shindig REST API can send specially-crafted requests to trigger arbitrary code execution on the server.\n\nAs this project is retired, we do not plan to release a version that fixes this issue. Users are recommended to find an alternative or restrict access to the instance to trusted users.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66256",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-08-13T15:19:56.557000",
-      "created_at": "2026-08-14T15:40:02.557409+00:00"
     }
   ]
 }
