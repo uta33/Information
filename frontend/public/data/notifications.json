@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-15T13:21:34.414704+00:00",
+  "generated_at": "2026-08-15T14:11:15.234123+00:00",
   "items": [
+    {
+      "id": "2d197b0a20a4f8b5",
+      "content_hash": "2d197b0a20a4f8b5b37d34e6fa1847bcac3803ad1a4ae67c071b088646cebee0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.rs",
+      "title": "Brazilian election filter in X For You timeline",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49310291\">Comments</a>",
+      "url": "https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.rs",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:18:27+00:00",
+      "created_at": "2026-08-15T14:11:15.233355+00:00"
+    },
+    {
+      "id": "9725d803ea11f7ee",
+      "content_hash": "9725d803ea11f7eef692c224d29f6c52a0bfad15ed811387e6273bae227e04fa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.scientificamerican.com/article/388-years-ago-galileo-worked-out-why-human-giants-cant-exist-and-explained-a-law-of-nature/",
+      "title": "388 years ago, Galileo worked out why human giants can't exist",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49310277\">Comments</a>",
+      "url": "https://www.scientificamerican.com/article/388-years-ago-galileo-worked-out-why-human-giants-cant-exist-and-explained-a-law-of-nature/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:15:48+00:00",
+      "created_at": "2026-08-15T14:11:15.233644+00:00"
+    },
     {
       "id": "cf762b4c7b5c1acb",
       "content_hash": "cf762b4c7b5c1acb3628e710ca145b68fecf9cac7b66716cf12bc5f58f3a8932",
@@ -14,6 +42,48 @@
       "cvss_score": null,
       "published_at": "2026-08-15T13:15:20+00:00",
       "created_at": "2026-08-15T13:21:34.144003+00:00"
+    },
+    {
+      "id": "98bc631761cd9407",
+      "content_hash": "98bc631761cd94078df8d846e2950cb482b8771e6d5c1d4a56c678ad2960b822",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html",
+      "title": "Brain turns listening inward during REM sleep, EEG recordings suggest",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49310248\">Comments</a>",
+      "url": "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:09:28+00:00",
+      "created_at": "2026-08-15T14:11:15.233552+00:00"
+    },
+    {
+      "id": "e0b0760e061f2dae",
+      "content_hash": "e0b0760e061f2dae14661cf400fcb668cf5dde3b614c5eaa2b99410f861343a7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+      "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49310177\">Comments</a>",
+      "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T12:56:56+00:00",
+      "created_at": "2026-08-15T14:11:15.233375+00:00"
+    },
+    {
+      "id": "dd4c5915b0388d66",
+      "content_hash": "dd4c5915b0388d66e9eb1d97975854afd7ed37b4231d64b3285693b30537b824",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hormuz.now/",
+      "title": "Strait of Hormuz Live Traffic Tracking",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49310170\">Comments</a>",
+      "url": "https://hormuz.now/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T12:54:43+00:00",
+      "created_at": "2026-08-15T14:11:15.233332+00:00"
     },
     {
       "id": "12e39d5081caa3c3",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-13T17:17:21.887000",
       "created_at": "2026-08-14T16:38:31.425356+00:00"
-    },
-    {
-      "id": "97055149bdded07a",
-      "content_hash": "97055149bdded07aadad341fe7c04c907ec7b20454460eab752d50516353097b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-23603",
-      "title": "CVE-2026-23603 - Blind SSRF in OAuth2 avatar synchronization via unvalidated OIDC picture claim",
-      "body": "Blind SSRF in OAuth2 avatar synchronization via unvalidated OIDC picture claim",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23603",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T17:17:21.770000",
-      "created_at": "2026-08-14T16:38:31.425349+00:00"
-    },
-    {
-      "id": "b6686ed98b5b9531",
-      "content_hash": "b6686ed98b5b9531672f86f949bd1ecd74dfbd679218088a4b1478817399bb54",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13051",
-      "title": "CVE-2026-13051 - Form::Processor::Field::HtmlArea versions from 0.06 through 1.162360 for Perl al...",
-      "body": "Form::Processor::Field::HtmlArea versions from 0.06 through 1.162360 for Perl allow attacker selected method dispatch and resource exhaustion via an HTML::Tidy diagnostic that validate passes to add_error as a Locale::Maketext template.\n\nvalidate runs HTML::Tidy over the submitted markup and passes each resulting message to add_error as its first argument, which add_error hands to the language handle as the Locale::Maketext message key. The default handle's lexicon sets `_AUTO`, so a message that is not a lexicon entry is compiled as a bracket notation template instead of being looked up. Tidy diagnostics quote the offending attribute name or value, so a bracket group in the submitted markup reaches the template position, where the first token of the group names a method called on the language handle and the remaining tokens are its arguments. A group such as `[0]` makes the compile croak, and neither the field nor the handle catches it, so the exception leaves validate. `[sprintf,%2000000000d,7]` reaches CORE::sprintf with an attacker chosen field width.\n\nOne submission of crafted markup to an HtmlArea field throws an unhandled exception out of form validation or allocates an arbitrary amount of memory, and an application whose language handle subclass defines side effecting public methods makes those callable with attacker chosen arguments. The other field types pass fixed templates with the submitted value in an argument slot, where it stays inert, and are unaffected.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13051",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T17:17:19.513000",
-      "created_at": "2026-08-14T16:38:31.425342+00:00"
-    },
-    {
-      "id": "3a89a22350336444",
-      "content_hash": "3a89a22350336444c8fd6b7bb9146ae25212022c3c9421b0b77026108c64acb7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13048",
-      "title": "CVE-2026-13048 - Data::MuForm::Localizer versions through 0.05 for Perl execute Perl from a messa...",
-      "body": "Data::MuForm::Localizer versions through 0.05 for Perl execute Perl from a message catalog header, reached at an arbitrary path because load_lexicon interpolates the language attribute into the catalog filename.\n\nload_lexicon builds the catalog path by appending `Messages/$lang.po` to the directory holding Localizer.pm, where $lang is the language attribute, with no check that it names a bare locale tag. A value holding `../` segments walks out of the message directory, so any readable path with a `.po` suffix is loaded. While parsing the catalog, extract_header_msgstr takes the `Plural-Forms:` header, prefixes `$` to the bare words nplurals, plural and n, and passes the rest verbatim into a string that is evaluated: the nplurals form evaluates the header expression immediately, and the plural_code form compiles it into a subroutine whose body runs when a plural message is localized. A header of `nplurals=2; plural=(system('...'),0);` therefore runs that command as the catalog loads. The evaluation inherits strict, so an expression that assigns to an undeclared variable fails to compile, while one built from calls alone does not.\n\nAn application that sets the language attribute from request data, an Accept-Language header or a locale parameter, and an attacker who can place a file with a `.po` suffix and chosen contents at a readable path, together give code execution as the application user. The message expansion path is not affected: expand_named substitutes only the placeholder names the caller supplies, and _mangle_value returns the value unchanged.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13048",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-08-13T17:17:19.397000",
-      "created_at": "2026-08-14T16:38:31.425330+00:00"
-    },
-    {
-      "id": "2e290175ae6ff63b",
-      "content_hash": "2e290175ae6ff63be881a1aca781925e6d0e2df9d639b8d3206d23e13b922f8a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2022-4993",
-      "title": "CVE-2022-4993 - HTML::FormHandler versions through 0.40068 for Perl allow attacker selected meth...",
-      "body": "HTML::FormHandler versions through 0.40068 for Perl allow attacker selected method dispatch and resource exhaustion because _apply_actions and add_error use error message text built from request data as a Locale::Maketext bracket notation template.\n\nadd_error hands its first argument to the language handle as the Locale::Maketext message key, and the default handle's lexicon sets `_AUTO`, so a string that is not a lexicon entry is compiled as a bracket notation template instead of being looked up. In a bracket group the first token names a method called on the language handle and the remaining tokens are its arguments.\n\nThree kinds of text the library did not author reach that position. _apply_actions installs a `$SIG{__WARN__}` handler that stores the warning text in `$error_message`, and a captured warning survives a successful action, so a field carrying a numeric transform turns `Argument \"[sprintf,%50000000d,0]\" isn't numeric` into the template; a warning quotes the submitted value verbatim, so the group is well formed and dispatches. `$error_message ||= $tobj->validate($new_value)` takes a type constraint's own failure message, which renders the rejected value through a partial dumper in bracket and comma form (Devel::PartialDump when Moose can load it, Type::Tiny's own dumper always), so a field with `apply => [ Str ]` given a parameter sent more than once, which arrives as an array, gets `Reference [\"a\",\"b\"] did not pass type constraint \"Str\"` as its template, from a request that carries no bracket character of its own. A coercion or transform exception reaches it the same way. Beyond those, a validator whose message contains the field value puts that value in the template directly, and add_error replaces the message list with the contents of an arrayref first argument (`@message = @{$message[0]} if ref $message[0] eq 'ARRAY'`), so a value arriving as an array fills the argument slots from the same request as well.\n\nA malformed group such as `[0]` makes the ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4993",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-08-13T17:17:17.780000",
-      "created_at": "2026-08-14T16:38:31.425323+00:00"
-    },
-    {
-      "id": "783c8bb7569547f9",
-      "content_hash": "783c8bb7569547f99f435710123cd51fcfd8ce0d11294a2cead37bef000ae0f6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lrc.la.utexas.edu/eieol/tokol/0",
-      "title": "Tocharian Online",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49289026\">Comments</a>",
-      "url": "https://lrc.la.utexas.edu/eieol/tokol/0",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T17:15:46+00:00",
-      "created_at": "2026-08-13T17:47:34.783553+00:00"
     }
   ]
 }
