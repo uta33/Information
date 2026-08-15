@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:13:54.549180+00:00",
+  "generated_at": "2026-08-15T09:14:50.683796+00:00",
   "items": [
     {
       "id": "c1908bb87c0f6af9",
@@ -1064,6 +1064,20 @@
       "cvss_score": null,
       "published_at": "2026-08-14T14:21:18+00:00",
       "created_at": "2026-08-14T15:40:06.809713+00:00"
+    },
+    {
+      "id": "d33cf7e7f71849f7",
+      "content_hash": "d33cf7e7f71849f737633aed806a05fe7352023bba22cc2eab9f3eaa95fa98f0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19828",
+      "title": "CVE-2026-19828 - A vulnerability was identified in 648540858 wvp-GB28181-pro 2.7.4-20260107. This...",
+      "body": "A vulnerability was identified in 648540858 wvp-GB28181-pro 2.7.4-20260107. This affects an unknown part of the file PlayController.java of the component Snapshot Endpoint. The manipulation of the argument deviceId/channelId leads to path traversal. The attack may be initiated remotely. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19828",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-14T14:16:50.880000",
+      "created_at": "2026-08-15T09:14:46.316908+00:00"
     },
     {
       "id": "fc3709a4b034794f",
@@ -6986,20 +7000,6 @@
       "cvss_score": 7.3,
       "published_at": "2026-08-13T15:19:55.223000",
       "created_at": "2026-08-14T15:40:02.557377+00:00"
-    },
-    {
-      "id": "a799c14e86d4ece2",
-      "content_hash": "a799c14e86d4ece21f1b4adb264ddb480c58e6e475bab9091d779d6b1199aa56",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63423",
-      "title": "CVE-2026-63423 - During an internal security assessment, a potential vulnerability was discovered...",
-      "body": "During an internal security assessment, a potential vulnerability was discovered in Lenovo Accessories and Display Manager for Enterprise for Windows that could allow a local authenticated user to execute arbitrary code with elevated privileges.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63423",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-13T15:19:55.080000",
-      "created_at": "2026-08-14T15:40:02.557374+00:00"
     }
   ]
 }
