@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-15T04:18:49.393372+00:00",
+  "generated_at": "2026-08-15T05:14:47.384369+00:00",
   "items": [
+    {
+      "id": "cbd0250d17d4009d",
+      "content_hash": "cbd0250d17d4009dc3f41b12dac493c4f60cf9bb1f879e27817d51eaf6b906e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "title": "The other Sean Byrne doesn't exist",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49307592\">Comments</a>",
+      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T04:18:44+00:00",
+      "created_at": "2026-08-15T05:14:47.383740+00:00"
+    },
     {
       "id": "be42a9060f042180",
       "content_hash": "be42a9060f0421800702a79dbba90157447fe05a008200d32299c05a157459d7",
@@ -6986,20 +7000,6 @@
       "cvss_score": 7.1,
       "published_at": "2026-08-13T15:19:42.190000",
       "created_at": "2026-08-14T15:40:02.557294+00:00"
-    },
-    {
-      "id": "de6487519be290f0",
-      "content_hash": "de6487519be290f079343ce74d09057b11c7e425a9ce760bc33c01bb9a7fc158",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53783",
-      "title": "CVE-2026-53783 - rsync before 3.5.0 contains a time-of-check to time-of-use (TOCTOU) race conditi...",
-      "body": "rsync before 3.5.0 contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability in the rrsync restricted shell wrapper that allows authenticated clients to escape enforced directory restrictions by substituting a symlink for a path component after validation but before transfer processing. Attackers can additionally leverage unrestricted flags such as --copy-unsafe-links, -D, and --log-file through rrsync to read or write files outside the permitted directory subtree.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53783",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-13T15:19:41.913000",
-      "created_at": "2026-08-14T15:40:02.557289+00:00"
     }
   ]
 }
