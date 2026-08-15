@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:28:53.873689+00:00",
+  "generated_at": "2026-08-15T04:18:49.393372+00:00",
   "items": [
     {
       "id": "be42a9060f042180",
@@ -476,6 +476,20 @@
       "cvss_score": null,
       "published_at": "2026-08-14T18:43:49+00:00",
       "created_at": "2026-08-14T22:10:53.736986+00:00"
+    },
+    {
+      "id": "b040ba5e6633dd9e",
+      "content_hash": "b040ba5e6633dd9ecfb8731ce248dd05ea161c3378f0b4cb5e29c5e25258a381",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+      "title": "Racket v9.3",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49302562\">Comments</a>",
+      "url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T18:14:48+00:00",
+      "created_at": "2026-08-15T04:18:49.393084+00:00"
     },
     {
       "id": "249fab4a2b038cab",
@@ -1134,6 +1148,76 @@
       "cvss_score": null,
       "published_at": "2026-08-14T12:23:22+00:00",
       "created_at": "2026-08-14T14:07:19.778259+00:00"
+    },
+    {
+      "id": "6a1f7a7781ebc01d",
+      "content_hash": "6a1f7a7781ebc01df46ab889dac73af49ca25d44b6b3152a2bc01f9dff1b947e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-72837",
+      "title": "CVE-2026-72837 - File Browser versions before 2.63.20 fail to honor the createUserDir isolation i...",
+      "body": "File Browser versions before 2.63.20 fail to honor the createUserDir isolation in proxy and hook authentication auto-provisioning paths. Attackers with valid upstream-authenticated credentials can read, modify, delete, and share files belonging to other users by exploiting the server root scope assignment.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72837",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-14T12:16:47.187000",
+      "created_at": "2026-08-15T04:18:45.947445+00:00"
+    },
+    {
+      "id": "47d04705b21a3814",
+      "content_hash": "47d04705b21a3814b9d4b7dd8203364df29b6efde0c73c353ff0e732b89655fa",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-72836",
+      "title": "CVE-2026-72836 - FileBrowser before 2.63.19 does not account for case-insensitive filesystems whe...",
+      "body": "FileBrowser before 2.63.19 does not account for case-insensitive filesystems when checking home directory ownership during self-registration. When Signup and CreateUserDir are enabled and FileBrowser's root is on a case-insensitive filesystem (confirmed on Windows/NTFS), two self-registered usernames that differ only in letter case (e.g., CaseVictim and casevictim) are stored as distinct accounts but resolve to the same physical home directory, because the scope-ownership check compares the persisted scope as an exact case-sensitive string. A second registrant can therefore read, overwrite, and delete another account's files through authenticated HTTP endpoints, without needing an existing account or victim interaction.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72836",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-14T12:16:47.060000",
+      "created_at": "2026-08-15T04:18:45.947438+00:00"
+    },
+    {
+      "id": "535072c326a35aa3",
+      "content_hash": "535072c326a35aa3e8ee1d54981cb01f6aa83dde3ddefd5a1b3ab770410d00b4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-72835",
+      "title": "CVE-2026-72835 - filebrowser versions before v2.63.21 fail to canonicalize paths before evaluatin...",
+      "body": "filebrowser versions before v2.63.21 fail to canonicalize paths before evaluating access rules, allowing authenticated users to bypass administrator-defined deny rules using case-variant or backslash-separated paths. Attackers can request files with alternate path representations that match no rule but resolve to the same filesystem object, gaining unauthorized access to denied files within their scope.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72835",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.8,
+      "published_at": "2026-08-14T12:16:46.930000",
+      "created_at": "2026-08-15T04:18:45.947431+00:00"
+    },
+    {
+      "id": "399416469b84d890",
+      "content_hash": "399416469b84d8900da7f7b309fa2b2690fcecad8d396961c36b656897f1d455",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-72834",
+      "title": "CVE-2026-72834 - filebrowser before 2.63.19 contains a permission bypass in the /api/resources en...",
+      "body": "filebrowser before 2.63.19 contains a permission bypass in the /api/resources endpoint. The checksum (?checksum=) branch of resourceGetHandler reads the entire file to compute a digest and returns it without performing a Perm.Download check (unlike the sibling raw, preview, and subtitle paths). As a result, an authenticated user provisioned with Perm.Download=false can obtain a content-hash oracle for any same-scope file (md5/sha1/sha256/sha512), enabling confirmation of known/guessed content, change detection, and offline brute-force of low-entropy files. This is an incomplete fix of CVE-2026-35606; it bypasses only the Download permission and does not defeat scope/path authorization.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72834",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "published_at": "2026-08-14T12:16:46.807000",
+      "created_at": "2026-08-15T04:18:45.947424+00:00"
+    },
+    {
+      "id": "b55ef7c4cb8cf383",
+      "content_hash": "b55ef7c4cb8cf383e896e70e4b04500d8f989855fb00d0b75564e420197c68b9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-72833",
+      "title": "CVE-2026-72833 - The Grav API plugin (getgrav/grav-plugin-api) versions >= 1.0.6 and <= 1.0.11 co...",
+      "body": "The Grav API plugin (getgrav/grav-plugin-api) versions >= 1.0.6 and <= 1.0.11 contain a privilege escalation vulnerability. A scoped API key minted on a super-admin account bypasses its declared scope cap on four isSuperAdmin()-gated write endpoints (in GroupsController, AccountsConfigController, PreferencesController, and DashboardWidgetController). These endpoints authorize via a super-admin early-return that never invokes requirePermission()—the sole enforcement point of the scope cap—so a 'read-only'-scoped key (e.g. api.pages.read) can perform super-only write operations, including rewriting group ACL maps to grant super-admin privileges to arbitrary accounts. A leaked or delegated read-only CI/monitoring key can therefore gain full super-admin write capability. Fixed in 1.0.13.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72833",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-14T12:16:46.670000",
+      "created_at": "2026-08-15T04:18:45.947417+00:00"
     },
     {
       "id": "f76634cf2e95ad4a",
@@ -6916,90 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-08-13T15:19:41.913000",
       "created_at": "2026-08-14T15:40:02.557289+00:00"
-    },
-    {
-      "id": "48296bc89192f58f",
-      "content_hash": "48296bc89192f58f529e2d6dd24c30845ed65af46bc9809c92b7cd004ec6ec81",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49857",
-      "title": "CVE-2026-49857 - auth-fetch-mcp is an MCP server that lets AI assistants fetch content from authe...",
-      "body": "auth-fetch-mcp is an MCP server that lets AI assistants fetch content from authenticated web pages. Version 3.0.1 implements SSRF protection in `assertSafeUrl()` (`src/security.ts`) to block requests to private and loopback addresses. However, the `isPrivateV6()` function fails to detect IPv4-mapped IPv6 loopback addresses in their hex-normalized form. When an attacker supplies a URL such as `http://[::ffff:127.0.0.1]:PORT/`, the Node.js WHATWG URL parser silently normalizes the host to `[::ffff:7f00:1]`. Because `net.isIPv4('7f00:1')` returns `false`, the private-IP check is bypassed and the URL is passed to the browser or HTTP client, allowing the MCP tool to reach loopback services that are supposed to be blocked. The issue is exploitable under default configuration without any special environment variable. Version 3.0.1 patches the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49857",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-08-13T15:19:41.743000",
-      "created_at": "2026-08-14T15:40:02.557285+00:00"
-    },
-    {
-      "id": "ae256157e32831b6",
-      "content_hash": "ae256157e32831b6b00d969ee9d3b5f3acbcb1be84ef4ad5d26a7737574ff453",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49856",
-      "title": "CVE-2026-49856 - @jshookmcp/jshook is an MCP server that gives AI agents tools for JavaScript ana...",
-      "body": "@jshookmcp/jshook is an MCP server that gives AI agents tools for JavaScript analysis and security research. In version 0.3.1, he network domain has a central SSRF authorization policy that blocks private, loopback, link-local, and reserved targets unless an explicit authorization object allows private network access. The policy is enforced by raw HTTP/TCP/TLS RTT tools, but the ICMP probe and traceroute tools resolve the target and invoke the native ICMP/traceroute sink directly. An MCP client with access to an active network domain can therefore ask the jshookmcp server to probe internal addresses even when local SSRF access is disabled for the other raw network tools. This exposes an internal reachability and route mapping primitive from the server network position. Version 0.3.2 fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49856",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-13T15:19:41.563000",
-      "created_at": "2026-08-14T15:40:02.557281+00:00"
-    },
-    {
-      "id": "576b0c6b32bb5f12",
-      "content_hash": "576b0c6b32bb5f123d5cfde369736fa40566cc8160897cfcd831cbe57abc61fc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-49820",
-      "title": "CVE-2026-49820 - Probo is a self-hostable governance, risk, and compliance (GRC) platform built f...",
-      "body": "Probo is a self-hostable governance, risk, and compliance (GRC) platform built for engineering and security teams. Probo's `saferedirect` package validates redirect URLs used across authentication flows (OIDC, SAML, session transfer, OAuth connectors, and trust-center magic links). Prior to version 0.19.3.1, the validator only inspected the second character of relative paths, so a URL like `/../\\evil.com` passed validation because the second character is `.`. Go's `http.Redirect` normalizes this path to `/\\evil.com` before setting the `Location` header. Browsers can interpret the backslash as a host separator and redirect the user to an external domain (`https://evil.com`), bypassing the intended same-origin restriction. This enables open-redirect phishing: an attacker can craft a `continue` parameter (or embed a malicious URL in a session-transfer token) that appears to originate from a trusted Probo domain but redirects victims elsewhere. This is fixed in `go.probo.inc/probo` 0.193.1 by normalizing relative paths with `path.Clean` before validation, rejecting backslashes (including percent-encoded `%5c`) anywhere in the path, and re-checking the normalized result for protocol-relative and backslash prefixes. Self-hosted deployments should upgrade to probod v0.194.1 or later. SaaS deployments on getprobo.com are patched. No practical workaround is available for self-hosted installations.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49820",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.7,
-      "published_at": "2026-08-13T15:19:41.410000",
-      "created_at": "2026-08-14T15:40:02.557277+00:00"
-    },
-    {
-      "id": "58c0dac8b6675e4c",
-      "content_hash": "58c0dac8b6675e4c62362dd44a823e8825e61174f117854b5449e1594adc5c03",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-28154",
-      "title": "CVE-2026-28154 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripti...",
-      "body": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in snstheme Samex - Clean, Minimal Shop WooCommerce WordPress Theme and snstheme M.Anh - Fashion WooCoommerce WordPress Theme allows Reflected XSS.\n\nThis issue affects Samex - Clean, Minimal Shop WooCommerce WordPress Theme: from n/a through 2.5; M.Anh - Fashion WooCoommerce WordPress Theme: from n/a through 1.7.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28154",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-13T15:19:39.213000",
-      "created_at": "2026-08-14T15:40:02.557272+00:00"
-    },
-    {
-      "id": "486de7c428de6c0e",
-      "content_hash": "486de7c428de6c0e68409d5fe5fcdc3e91b9711dc8bb0478526a8263792c0877",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19734",
-      "title": "CVE-2026-19734 - Missing Authorization and Authorization Bypass Through User-Controlled Key in th...",
-      "body": "Missing Authorization and Authorization Bypass Through User-Controlled Key in the product management component in Roskus Prospero Flow CRM before 5.4.7 allows authenticated users of any company to read the full sensitive data (price, cost, stock, SKU, and barcode) of another company's product and to hijack that product by reassigning its company_id, via the product's numeric identifier, because `ProductUpdateController` did not extend `MainController` and therefore required no authentication check on the read endpoint, and `ProductRepository::save()` retrieved the record via `Product::find($data['id'])` without constraining the query to the authenticated user's company before overwriting its company_id.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19734",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T15:19:38.940000",
-      "created_at": "2026-08-14T15:40:02.557268+00:00"
-    },
-    {
-      "id": "21dda7916ed856de",
-      "content_hash": "21dda7916ed856de917600db19bed044df550ed8976d14fd9e9416ff6f863e29",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19293",
-      "title": "CVE-2026-19293 - SMP security request (from peripheral) does not include the maximum\nencryption k...",
-      "body": "SMP security request (from peripheral) does not include the maximum\nencryption key size supported. Using a key with less than the maximum keysize\nmakes brute-forcing the key easier. See V6 in BLERP paper linked below.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19293",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-13T15:19:37.873000",
-      "created_at": "2026-08-14T15:40:02.557263+00:00"
     }
   ]
 }
