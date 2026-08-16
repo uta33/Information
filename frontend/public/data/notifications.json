@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T08:15:06.598447+00:00",
+  "generated_at": "2026-08-16T09:16:08.355366+00:00",
   "items": [
     {
       "id": "9b16f0126eb77924",
@@ -1078,6 +1078,34 @@
       "cvss_score": null,
       "published_at": "2026-08-15T13:18:27+00:00",
       "created_at": "2026-08-15T14:11:15.233355+00:00"
+    },
+    {
+      "id": "879e9c9795d8f9c1",
+      "content_hash": "879e9c9795d8f9c177d74856259f919e38c43bd0579e82c02cb22771a0435089",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74476",
+      "title": "CVE-2026-74476 - In the Linux kernel, the following vulnerability has been resolved:\n\nveth: conve...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nveth: convert frag_list skbs before running XDP\n\nA frag_list skb can reach veth with data_len set but nr_frags zero.\nveth_convert_skb_to_xdp_buff() only converts skbs that are shared,\nlocked, have frags[], or do not have enough headroom. It later uses\nskb_is_nonlinear() to decide whether to set XDP_FLAGS_HAS_FRAGS and\nxdp_frags_size.\n\nThat exposes frag_list data to XDP as if it were stored in frags[], but\nfrags[] is empty. AF_XDP copy mode can then trust the bogus XDP fragment\nmetadata, walk an empty fragment entry, and crash in memcpy() from\n__xsk_rcv().\n\nRoute non-linear skbs through skb_pp_cow_data() before exposing them to\nXDP, and only advertise XDP frags when the resulting skb has frags[].\nskb_copy_bits() already handles frag_list input, and skb_pp_cow_data()\nbuilds frags[] output with skb_add_rx_frag(), which is the\nrepresentation XDP multi-buffer expects.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74476",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:17:52.397000",
+      "created_at": "2026-08-16T09:16:04.612281+00:00"
+    },
+    {
+      "id": "ff6a58c58c4658f4",
+      "content_hash": "ff6a58c58c4658f4ebdbf0bfa68eb915595c331e4ca3437bddf992e55c58e74f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74475",
+      "title": "CVE-2026-74475 - In the Linux kernel, the following vulnerability has been resolved:\n\nvxlan: use ...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nvxlan: use neigh_ha_snapshot() in route_shortcircuit()\n\nThe neighbour hardware address n->ha can be updated asynchronously by the\nneighbour subsystem, protected by n->ha_lock seqlock. Reading n->ha without\nholding the seqlock loop can lead to torn reads or reading a partially updated\nMAC address.\n\nUse neigh_ha_snapshot() in route_shortcircuit() to safely copy n->ha under\nread_seqbegin()/read_seqretry() lock protection before using it.\n\nNote that arp_reduce() and neigh_reduce() seem to have the same issue\nleft for future patches.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74475",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:17:52.293000",
+      "created_at": "2026-08-16T09:16:04.612276+00:00"
     },
     {
       "id": "d32398bc4ace59d7",
@@ -6972,34 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-08-14T12:16:47.187000",
       "created_at": "2026-08-15T04:18:45.947445+00:00"
-    },
-    {
-      "id": "47d04705b21a3814",
-      "content_hash": "47d04705b21a3814b9d4b7dd8203364df29b6efde0c73c353ff0e732b89655fa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72836",
-      "title": "CVE-2026-72836 - FileBrowser before 2.63.19 does not account for case-insensitive filesystems whe...",
-      "body": "FileBrowser before 2.63.19 does not account for case-insensitive filesystems when checking home directory ownership during self-registration. When Signup and CreateUserDir are enabled and FileBrowser's root is on a case-insensitive filesystem (confirmed on Windows/NTFS), two self-registered usernames that differ only in letter case (e.g., CaseVictim and casevictim) are stored as distinct accounts but resolve to the same physical home directory, because the scope-ownership check compares the persisted scope as an exact case-sensitive string. A second registrant can therefore read, overwrite, and delete another account's files through authenticated HTTP endpoints, without needing an existing account or victim interaction.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72836",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-14T12:16:47.060000",
-      "created_at": "2026-08-15T04:18:45.947438+00:00"
-    },
-    {
-      "id": "535072c326a35aa3",
-      "content_hash": "535072c326a35aa3e8ee1d54981cb01f6aa83dde3ddefd5a1b3ab770410d00b4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72835",
-      "title": "CVE-2026-72835 - filebrowser versions before v2.63.21 fail to canonicalize paths before evaluatin...",
-      "body": "filebrowser versions before v2.63.21 fail to canonicalize paths before evaluating access rules, allowing authenticated users to bypass administrator-defined deny rules using case-variant or backslash-separated paths. Attackers can request files with alternate path representations that match no rule but resolve to the same filesystem object, gaining unauthorized access to denied files within their scope.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72835",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-08-14T12:16:46.930000",
-      "created_at": "2026-08-15T04:18:45.947431+00:00"
     }
   ]
 }
