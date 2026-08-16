@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-16T21:09:30.794006+00:00",
+  "generated_at": "2026-08-16T22:09:06.279175+00:00",
   "items": [
+    {
+      "id": "0863158b36fb77b7",
+      "content_hash": "0863158b36fb77b735b9150a10d4a3f6174519f9917065daa79b2ab9b02b525d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49324087\">Comments</a>",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:53:43+00:00",
+      "created_at": "2026-08-16T22:09:06.278919+00:00"
+    },
+    {
+      "id": "31e9ed0ac5edbb39",
+      "content_hash": "31e9ed0ac5edbb399f8f7ee2452b6ab5cf0b37b9325e95a43695234289e0c692",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49324078",
+      "title": "Claude Seems Down",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49324078\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49324078",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:52:59+00:00",
+      "created_at": "2026-08-16T22:09:06.278451+00:00"
+    },
+    {
+      "id": "a26e20d26fb6ab57",
+      "content_hash": "a26e20d26fb6ab5728fc21dfe5d306818dc84239c8eb8ac799f629fe9dc57ec1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49323686\">Comments</a>",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:07:10+00:00",
+      "created_at": "2026-08-16T22:09:06.278595+00:00"
+    },
+    {
+      "id": "027db0c068a7e6d7",
+      "content_hash": "027db0c068a7e6d7c4302bd309e7e1ff831a67a66c1752b4ec1e96f51d796727",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49323620\">Comments</a>",
+      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:00:25+00:00",
+      "created_at": "2026-08-16T22:09:06.278657+00:00"
+    },
     {
       "id": "34d5fd45501c9733",
       "content_hash": "34d5fd45501c97336d635007cd8f268cbc67a1981b683d7e085b0d26f38b5a6a",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-08-14T18:17:22.817000",
       "created_at": "2026-08-15T17:10:53.358681+00:00"
-    },
-    {
-      "id": "df6ae82a5c66f359",
-      "content_hash": "df6ae82a5c66f3594fd64e2b4a92d57eb4eb4d6ebc1439a1b4cdf4435433d6f6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19631",
-      "title": "CVE-2026-19631 - A SQL injection vulnerability exists in Security Center that could allow an auth...",
-      "body": "A SQL injection vulnerability exists in Security Center that could allow an authenticated administrator to execute arbitrary SQL queries, potentially resulting in unauthorized access to sensitive data, including credentials.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19631",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "published_at": "2026-08-14T18:17:22.683000",
-      "created_at": "2026-08-15T17:10:53.358674+00:00"
-    },
-    {
-      "id": "7cad865e77ca76f5",
-      "content_hash": "7cad865e77ca76f57ed7e456a0eff910e147e1c26351d764bff93df82ae4d08b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19629",
-      "title": "CVE-2026-19629 - A privilege escalation vulnerability exists in Tenable Security Center that allo...",
-      "body": "A privilege escalation vulnerability exists in Tenable Security Center that allows a user with \"Security Manager\" role and \"manage user\" permission on a single group to modify users belonging to other groups. This bypasses the intended access control restrictions and enables unauthorized cross-group user management.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19629",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-14T18:17:22.557000",
-      "created_at": "2026-08-15T16:10:45.917193+00:00"
-    },
-    {
-      "id": "d6daa15be684ba78",
-      "content_hash": "d6daa15be684ba780a800ab3baa5c917dd39950ce5eeb08eeb4eccfaeaa6b98c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12366",
-      "title": "CVE-2026-12366 - Zephyr's dynamic kernel-object disposal path unref_check() in kernel/userspace/u...",
-      "body": "Zephyr's dynamic kernel-object disposal path unref_check() in kernel/userspace/userspace.c frees an object's storage (k_free(dyn->data)) once its reference count reaches zero, after running a per-object-type cleanup. The cleanup switch handled only K_OBJ_MSGQ and K_OBJ_STACK; there was no K_OBJ_TIMER case. A dynamically-allocated, initialized, and armed k_timer keeps its embedded struct _timeout dnode linked in the global timeout queue (_timeout_q), so freeing the timer storage without cancelling the timeout leaves a dangling node in that queue.\n\nWhen the timer next expires, the timeout machinery walks _timeout_q and invokes z_timer_expiration_handler() on the freed node, dereferencing and writing freed (and reusable) kernel heap in kernel/ISR context. This is a deterministic use-after-free that does not depend on SMP: the queued node is simply never unlinked at free time.\n\nThe disposal is reachable from an unprivileged user thread under CONFIG_USERSPACE + CONFIG_DYNAMIC_OBJECTS: a thread that holds the last permission on such a timer drops it via the k_object_release() syscall (or by exiting, through k_thread_perms_all_clear()), and can arm the timer itself via the k_timer_start() syscall. The free and the expiration handler run at kernel privilege while the actor is a user thread, so the bug is a sandbox-escape memory-corruption primitive usable for privilege escalation. The fix adds k_timer_cleanup() (cancel the timeout and wait for any in-flight handler) and calls it for K_OBJ_TIMER before freeing.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12366",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-14T18:17:22.043000",
-      "created_at": "2026-08-15T16:10:45.917186+00:00"
-    },
-    {
-      "id": "d86b2c972d686d75",
-      "content_hash": "d86b2c972d686d75fb0deee3648477e310af7bf3d03504b8da4c7b2fa74ab02e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12365",
-      "title": "CVE-2026-12365 - A use-after-free exists in the Zephyr second-generation work queue (kernel/work....",
-      "body": "A use-after-free exists in the Zephyr second-generation work queue (kernel/work.c) in the handling of delayable work timeouts. When a delayable work item's timeout has been dequeued and its handler work_timeout() is in flight (blocked acquiring the work-queue spinlock), a concurrent cancellation does not wait for that handler to finish. In unschedule_locked() the pre-fix code called z_abort_timeout(), which for an already-announcing record returns -EINVAL without removing it; cancel_async_locked() then observes the work as idle, so even k_work_cancel_delayable_sync() and k_work_flush_delayable() return without blocking on the in-flight handler.\n\nBecause those are the APIs the kernel header documents as the safe way to cancel before freeing a k_work_delayable, a caller that frees the object immediately after a successful sync cancel can race the still-pending handler. work_timeout() subsequently dereferences the freed record: it reads to->dticks via z_is_timeout_handler_canceled() and, if the freed slot has been reused so the bail check fails, performs a read-modify-write of wp->flags (K_WORK_DELAYED_BIT) and submits work against a stale dw->queue pointer — a use-after-free read and write.\n\nThe k_work API is kernel-mode only (no __syscall entry point), so this is a kernel-internal concurrency defect rather than a userspace privilege escalation. Triggering it requires an SMP build and a subsystem that schedules and then frees (or reschedules) a delayable work item in the narrow window while its timeout is announcing; an attacker able to influence the timing of such teardown (for example via connection churn driving subsystem timers) has a plausible but probabilistic path. The impact is kernel memory corruption or crash (denial of service).\n\nThe fix makes unschedule_locked() wait, by spinning on z_try_abort_timeout() returning -EAGAIN while releasing and re-acquiring the work spinlock, until any in-flight handler completes before returning, and switches work_timeout() ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12365",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-08-14T18:17:21.933000",
-      "created_at": "2026-08-15T16:10:45.917179+00:00"
     }
   ]
 }
