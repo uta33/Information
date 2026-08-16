@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-16T18:12:25.246666+00:00",
+  "generated_at": "2026-08-16T19:12:23.368615+00:00",
   "items": [
+    {
+      "id": "bfb684a79a8a9a3e",
+      "content_hash": "bfb684a79a8a9a3efb4a541bd3f05967a3ead3bff2e8a418cc61a2b787b54001",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://math-ai-org.github.io/mathcode/",
+      "title": "MathCode, Mathematical Coding Agent",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49322330\">Comments</a>",
+      "url": "https://math-ai-org.github.io/mathcode/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T18:17:10+00:00",
+      "created_at": "2026-08-16T19:12:23.367906+00:00"
+    },
+    {
+      "id": "139a5f62a59dc3ca",
+      "content_hash": "139a5f62a59dc3ca4f5ae3733d000313672761981b53bb2414c11aada7c05b47",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.lorekit.io/blog/give-your-agent-a-memory",
+      "title": "I've built a free, open-source local and remote memory system for agentw and CL",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49322206\">Comments</a>",
+      "url": "https://www.lorekit.io/blog/give-your-agent-a-memory",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-16T18:03:09+00:00",
+      "created_at": "2026-08-16T19:12:23.368013+00:00"
+    },
+    {
+      "id": "497d8e68fb868d6a",
+      "content_hash": "497d8e68fb868d6ab30a157ecf72116e98cab41ed2c55d2f626f1c175c411e45",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49322107",
+      "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49322107\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49322107",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T17:49:46+00:00",
+      "created_at": "2026-08-16T19:12:23.368180+00:00"
+    },
     {
       "id": "9082f475b3dc35ce",
       "content_hash": "9082f475b3dc35cef793cb3b26f0180998e53d99edb479cc8145db7dc25c37be",
@@ -392,6 +434,34 @@
       "cvss_score": null,
       "published_at": "2026-08-16T05:45:32+00:00",
       "created_at": "2026-08-16T06:20:00.332719+00:00"
+    },
+    {
+      "id": "7a2f18ca334cbe3b",
+      "content_hash": "7a2f18ca334cbe3b54546d8f6f7032314f0303417286f7f556da7ff3e6a81537",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15602",
+      "title": "CVE-2026-15602 - The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vuln...",
+      "body": "The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vulnerable to generic SQL Injection via the 'additional_params' parameter in all versions up to, and including, 9.2.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with admin-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. This is a second-order vulnerability; the payload is stored via the submission_report2 AJAX handler (which lacks a nonce check and relies solely on a capability that can be configured down to subscriber-level) and triggered when a CSV export is generated.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15602",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.9,
+      "published_at": "2026-08-16T05:16:47.140000",
+      "created_at": "2026-08-16T19:12:19.515634+00:00"
+    },
+    {
+      "id": "380f8b3344ccc88f",
+      "content_hash": "380f8b3344ccc88f4079376785415353fc4dfbf369d4940bb6f7a257d02a2903",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15441",
+      "title": "CVE-2026-15441 - The WC Product Table Lite plugin for WordPress is vulnerable to CSS Injection in...",
+      "body": "The WC Product Table Lite plugin for WordPress is vulnerable to CSS Injection in versions up to, and including, 5.6.0 via the 'laptop_scroll_offset' shortcode attribute exposed through the unauthenticated wcpt_ajax() AJAX handler. The handler is registered for wp_ajax_nopriv_wcpt_ajax, JSON-decodes attacker-supplied attributes, only allowlists key names (not values), applies a preg_replace that strips only [ ] < >, and passes the value through do_shortcode into wcpt_style__sticky_sidebar(), where it is interpolated verbatim into inline CSS ('top: {$top}px;' and 'max-height: calc(100vh - {$top}px);') with no numeric casting or CSS escaping. This makes it possible for unauthenticated attackers to inject arbitrary CSS declarations and rules on pages rendering a product table with sticky sidebar enabled, which can be leveraged for data exfiltration (via attribute-selector + background-image URLs), UI redressing, and phishing that bypasses CSPs permitting inline styles.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15441",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-16T05:16:47.010000",
+      "created_at": "2026-08-16T19:12:19.515627+00:00"
     },
     {
       "id": "36f7faa59b805cc9",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-14T17:18:15.307000",
       "created_at": "2026-08-15T13:21:30.054992+00:00"
-    },
-    {
-      "id": "8522845c6d93b8c5",
-      "content_hash": "8522845c6d93b8c5b8a46cf4133342885d40b202b05041d827a31f49e75af574",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46439",
-      "title": "CVE-2026-46439 - compliance-trestle is a tooling platform for managing compliance as code. Versio...",
-      "body": "compliance-trestle is a tooling platform for managing compliance as code. Versions prior to 3.12.2 and 4.0.3 have a Server-Side Template Injection (SSTI) vulnerability exists in the `trestle author jinja` command. The command recursively evaluates rendered templates, allowing an attacker to achieve arbitrary command execution with privileges of the running process by injecting malicious payloads into data fields (such as SSP documents or Lookup Tables). The vulnerability does not require attacker control of the template itself. Only attacker-controlled input data rendered into a trusted template is required. This distinction is critical: the template author may only intend to render plain text (e.g., `Title: {{ ssp.metadata.title }}`), but because of the recursive parsing, the data field itself becomes executable. The vulnerability is caused by recursive re-compilation and re-rendering of already-rendered output. Versions 3.12.3 and 4.0.3 patch the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46439",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-14T17:18:14.853000",
-      "created_at": "2026-08-15T13:21:30.054986+00:00"
-    },
-    {
-      "id": "f84f433b738bcc12",
-      "content_hash": "f84f433b738bcc1252234a12006c10fd8641a872d55d9a955fb3a72e62c454d7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46380",
-      "title": "CVE-2026-46380 - compliance-trestle is a tooling platform for managing compliance as code. Prior ...",
-      "body": "compliance-trestle is a tooling platform for managing compliance as code. Prior to versions 3.12.2 and 4.0.3, the HTTPSFetcher._do_fetch() method passes a user-supplied URL directly to requests.get() without validation. This allows an attacker to perform Server-Side Request Forgery, targeting internal services or cloud metadata endpoints. Versions 3.12.2 and 4.0.3 fix the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46380",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.7,
-      "published_at": "2026-08-14T17:18:14.710000",
-      "created_at": "2026-08-15T13:21:30.054980+00:00"
-    },
-    {
-      "id": "04e3193e8503a03e",
-      "content_hash": "04e3193e8503a03ec9da04e8957b117c337019a0e18a3ee6198b060d8e073d7a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19845",
-      "title": "CVE-2026-19845 - A vulnerability was determined in TOTOLINK A800R 4.1.2cu.5137_B20200730. This af...",
-      "body": "A vulnerability was determined in TOTOLINK A800R 4.1.2cu.5137_B20200730. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecgi.cgi of the component lan.so. Executing a manipulation of the argument Comment can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19845",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-14T17:17:35.753000",
-      "created_at": "2026-08-15T13:21:30.054974+00:00"
-    },
-    {
-      "id": "8803c9028918a880",
-      "content_hash": "8803c9028918a880ccceae7edec26ccef3e531888014ef7afc240b4a6c205374",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19844",
-      "title": "CVE-2026-19844 - A vulnerability was found in TOTOLINK A800R 4.1.2cu.5137_B20200730. The impacted...",
-      "body": "A vulnerability was found in TOTOLINK A800R 4.1.2cu.5137_B20200730. The impacted element is the function setRadvdCfg of the file /cgi-bin/cstecgi.cgi of the component ipv6.so. Performing a manipulation of the argument radvdinterfacename results in stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19844",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-14T17:17:35.560000",
-      "created_at": "2026-08-15T13:21:30.054968+00:00"
-    },
-    {
-      "id": "bd38a97f0049b3df",
-      "content_hash": "bd38a97f0049b3df53c6b6012a288f79c15c55cc3648501bbdb137d62902d75d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19841",
-      "title": "CVE-2026-19841 - A flaw has been found in TRENDNET TEW-813DRU 1.01b01. Impacted is an unknown fun...",
-      "body": "A flaw has been found in TRENDNET TEW-813DRU 1.01b01. Impacted is an unknown function of the file /etc/vsftpd.conf of the component vsftpd. This manipulation causes incorrect default permissions. The attack is possible to be carried out remotely. A high degree of complexity is needed for the attack. The exploitability is considered difficult. This vulnerability only affects products that are no longer supported by the maintainer.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19841",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-08-14T17:17:34.993000",
-      "created_at": "2026-08-15T13:21:30.054962+00:00"
     }
   ]
 }
