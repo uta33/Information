@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-16T00:35:26.604468+00:00",
+  "generated_at": "2026-08-16T02:14:05.556433+00:00",
   "items": [
+    {
+      "id": "6088a15d91857ebf",
+      "content_hash": "6088a15d91857ebf7708af9001266a42dc0f00d40fe5fac9d1f2790b2c59787e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.micdrop.gg/",
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49315742\">Comments</a>",
+      "url": "https://www.micdrop.gg/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T00:46:29+00:00",
+      "created_at": "2026-08-16T02:14:05.555697+00:00"
+    },
+    {
+      "id": "98b29dfc7fc90885",
+      "content_hash": "98b29dfc7fc908856e25b497fd6d397a0c227e5310edfebedc8807f8d54596e7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://waku.sh",
+      "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49315709\">Comments</a>",
+      "url": "https://waku.sh",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T00:38:44+00:00",
+      "created_at": "2026-08-16T02:14:05.556036+00:00"
+    },
+    {
+      "id": "e73d435d197d986d",
+      "content_hash": "e73d435d197d986dab9b197291cf923205a13c2cfeb9edeb49d34eeb9eccf1d9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/PhillipChaffee/big-pickle-swe-atlas",
+      "title": "Big Pickle on SWE Atlas – Codebase QnA",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49315563\">Comments</a>",
+      "url": "https://github.com/PhillipChaffee/big-pickle-swe-atlas",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T00:10:48+00:00",
+      "created_at": "2026-08-16T02:14:05.556076+00:00"
+    },
     {
       "id": "585f6e8903e7e681",
       "content_hash": "585f6e8903e7e6815fa0be84db7ff607fc5f3217b07644a473fa31d55070586e",
@@ -42,6 +84,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T23:22:59+00:00",
       "created_at": "2026-08-16T00:35:26.604192+00:00"
+    },
+    {
+      "id": "e8ce64155d81d9f7",
+      "content_hash": "e8ce64155d81d9f77cda12f4d9f6e9cea2cddf3069e6a50c0038c1cfd0335b82",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.colorado.edu/today/2026/08/10/decoding-smell-study-reveals-how-odor-signals-shapeshift-wind",
+      "title": "Decoding smell: Study reveals how odor signals shapeshift in the wind",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49315065\">Comments</a>",
+      "url": "https://www.colorado.edu/today/2026/08/10/decoding-smell-study-reveals-how-odor-signals-shapeshift-wind",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T22:55:50+00:00",
+      "created_at": "2026-08-16T02:14:05.556152+00:00"
     },
     {
       "id": "97ee3fbd8919c6ac",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-13T21:50:11+00:00",
       "created_at": "2026-08-13T22:29:07.949452+00:00"
-    },
-    {
-      "id": "b0775d32959e72a1",
-      "content_hash": "b0775d32959e72a14dc63198fbfbc23d8b3c437fef34540f00bf12b328818e03",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-8715",
-      "title": "CVE-2026-8715 - Vault Secrets Operator 1.3.0 up to 1.4.1 is vulnerable to an arbitrary file read...",
-      "body": "Vault Secrets Operator 1.3.0 up to 1.4.1 is vulnerable to an arbitrary file read and credential exfiltration issue in the AppRole authentication configuration that may allow a tenant with limited Kubernetes RBAC permissions to read files from the operator pod's filesystem and transmit their contents to a tenant-controlled endpoint, potentially leading to privilege escalation within the cluster. This vulnerability (CVE-2026-8715) is fixed in Vault Secrets Operator 1.5.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8715",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.6,
-      "published_at": "2026-08-13T21:18:32.333000",
-      "created_at": "2026-08-14T22:10:49.400683+00:00"
-    },
-    {
-      "id": "6dc7326f08bb171a",
-      "content_hash": "6dc7326f08bb171a541baba79c9ff8c766b2f40648c853c890d99ac3aa030c86",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73480",
-      "title": "CVE-2026-73480 - gdu fails to strip terminal escape sequences from directory and file names when ...",
-      "body": "gdu fails to strip terminal escape sequences from directory and file names when printing paths after TUI exit. Attackers can craft malicious directory or file names containing escape sequences that are interpreted by the terminal, enabling title spoofing, clipboard manipulation, or other terminal-dependent effects.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73480",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.0,
-      "published_at": "2026-08-13T21:18:32.187000",
-      "created_at": "2026-08-14T22:10:49.400679+00:00"
-    },
-    {
-      "id": "0c752a8f05a3561e",
-      "content_hash": "0c752a8f05a3561e4f1fd92b84a2b7c905bb144426099c1e5573afda7a382dd3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19749",
-      "title": "CVE-2026-19749 - A vulnerability was detected in Tenda CH7, CH7G, CH10, CP3, CP3 Pro, CP7, TC3B14...",
-      "body": "A vulnerability was detected in Tenda CH7, CH7G, CH10, CP3, CP3 Pro, CP7, TC3B14C, TC3B15C, TC3T14C and TC3T15C up to 20260625. Affected by this vulnerability is an unknown functionality of the component RTSP/ONVIF. Performing a manipulation results in missing authentication. It is possible to initiate the attack remotely. The attack is considered to have high complexity. The exploitation appears to be difficult. The exploit is now public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19749",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-08-13T21:17:46.557000",
-      "created_at": "2026-08-14T22:10:49.400675+00:00"
-    },
-    {
-      "id": "7252c2205af2bb13",
-      "content_hash": "7252c2205af2bb1394f5576c5a9932529563be885e53a3e62329482490b36906",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19748",
-      "title": "CVE-2026-19748 - A security vulnerability has been detected in Tenda CH7, CH7G, CH10, CP3, CP3 Pr...",
-      "body": "A security vulnerability has been detected in Tenda CH7, CH7G, CH10, CP3, CP3 Pro, CP7, TC3B14C, TC3B15C, TC3T14C and TC3T15C up to 20260625. Affected is the function CWebSessionManager_ParseSession of the file /user/bin/Kylin of the component Kylin Web Service. Such manipulation of the argument SESSION leads to insufficient entropy. The attack may be performed from remote. Attacks of this nature are highly complex. The exploitability is told to be difficult.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19748",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-08-13T21:17:46.343000",
-      "created_at": "2026-08-14T22:10:49.400671+00:00"
     }
   ]
 }
