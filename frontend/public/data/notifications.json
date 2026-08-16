@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-16T04:24:20.398801+00:00",
+  "generated_at": "2026-08-16T05:17:20.483485+00:00",
   "items": [
+    {
+      "id": "9353bf4f729eacf8",
+      "content_hash": "9353bf4f729eacf8d08ffcb1616957930243f367476812e4f7cce9b5780e6ff9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://breck.lol/plMakers.html",
+      "title": "The quirky personal homepages of programming language creators",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49316888\">Comments</a>",
+      "url": "https://breck.lol/plMakers.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T04:24:00+00:00",
+      "created_at": "2026-08-16T05:17:20.482721+00:00"
+    },
+    {
+      "id": "87dd75ed50f85898",
+      "content_hash": "87dd75ed50f858981753bcc55c5a6559d7302f08bcea60cbb0776f6ab0bfeca4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
+      "title": "21,000 MCP servers exposed: the protocol reaches a security inflection point",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49316815\">Comments</a>",
+      "url": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T04:07:18+00:00",
+      "created_at": "2026-08-16T05:17:20.482782+00:00"
+    },
     {
       "id": "e64ba3ed9e4c4469",
       "content_hash": "e64ba3ed9e4c446955a6b0e986f4de84d537a36f4ac6ca289a50d982c738bb49",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-16T03:23:34+00:00",
       "created_at": "2026-08-16T04:24:20.398380+00:00"
+    },
+    {
+      "id": "34930306ff0d5092",
+      "content_hash": "34930306ff0d5092fc2639fed2114a636aeadce33a6806bb07003e4187856e4e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/yebiguo/ProofRun",
+      "title": "ProofRun – a local verification receipt for AI coding agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49316605\">Comments</a>",
+      "url": "https://github.com/yebiguo/ProofRun",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T03:22:15+00:00",
+      "created_at": "2026-08-16T05:17:20.483230+00:00"
     },
     {
       "id": "ed6a411411853ed1",
@@ -6958,48 +7000,6 @@
       "cvss_score": 7.6,
       "published_at": "2026-08-13T22:17:24.593000",
       "created_at": "2026-08-14T23:10:36.813112+00:00"
-    },
-    {
-      "id": "0f4d7f94003ac0fd",
-      "content_hash": "0f4d7f94003ac0fde47632aec817f7e46ec7d4a0def4e0cc6ded9a876b1280cd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72851",
-      "title": "CVE-2026-72851 - Budibase before 3.40.0 contains an unauthenticated SQL injection vulnerability i...",
-      "body": "Budibase before 3.40.0 contains an unauthenticated SQL injection vulnerability in webhook-triggered automations with EXECUTE_QUERY steps. Attackers can POST attacker-controlled JSON to the webhook trigger endpoint to inject SQL payloads that execute with builder-configured database credentials, enabling data exfiltration, modification, and persistence in connected datasources like Snowflake.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72851",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-08-13T22:17:24.450000",
-      "created_at": "2026-08-14T23:10:36.813105+00:00"
-    },
-    {
-      "id": "0b3e32b8df573d7a",
-      "content_hash": "0b3e32b8df573d7a6f2d0e9e0190248cf1ca7d0cae00e2b8b131f832c45555c9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72850",
-      "title": "CVE-2026-72850 - Budibase before 3.40.0 fails to properly sanitize S3 object keys, allowing authe...",
-      "body": "Budibase before 3.40.0 fails to properly sanitize S3 object keys, allowing authenticated builders to upload files with traversal sequences that are preserved during export. Attackers can craft filenames containing .. segments that escape the temporary directory during workspace export, writing arbitrary content to any path writable by the Budibase process.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72850",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-08-13T22:17:24.307000",
-      "created_at": "2026-08-14T23:10:36.813099+00:00"
-    },
-    {
-      "id": "451cd396ae25336b",
-      "content_hash": "451cd396ae25336be9a8b5050c1b96712748a6ee5a0bb041fd56ff8c0100f40b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72849",
-      "title": "CVE-2026-72849 - Budibase before 3.40.0 contains a cross-site request forgery vulnerability in th...",
-      "body": "Budibase before 3.40.0 contains a cross-site request forgery vulnerability in the chat-link handoff endpoint that allows attackers to bind an external chat identity to a victim's account. Attackers can craft a phishing page that auto-submits a POST request with a leaked confirmation token to bind their chat identity to a victim user's account, enabling impersonation within agent operations and inheritance of victim permissions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72849",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-08-13T22:17:24.140000",
-      "created_at": "2026-08-14T23:10:36.813091+00:00"
     }
   ]
 }
