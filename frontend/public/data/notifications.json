@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-16T02:14:05.556433+00:00",
+  "generated_at": "2026-08-16T03:38:06.517494+00:00",
   "items": [
+    {
+      "id": "ed6a411411853ed1",
+      "content_hash": "ed6a411411853ed1abe0caefdae1b4db08e632ede19c90e9a0679ea47861472b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "title": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49316395\">Comments</a>",
+      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T02:36:10+00:00",
+      "created_at": "2026-08-16T03:38:06.516932+00:00"
+    },
+    {
+      "id": "d9e1569ceb216d98",
+      "content_hash": "d9e1569ceb216d98d50af15308d04453e8e1ac480320d0abac690500c01b4af3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.anthropic.com/research/multiagent-systems",
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49316271\">Comments</a>",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T02:12:53+00:00",
+      "created_at": "2026-08-16T03:38:06.517037+00:00"
+    },
+    {
+      "id": "ab02dafe2dd40f9a",
+      "content_hash": "ab02dafe2dd40f9a62208c2bac8e34e73d8b70be86b813cda443d44b822e0f85",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
+      "title": "Guiding Ships with Moire Patterns",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49315995\">Comments</a>",
+      "url": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T01:26:44+00:00",
+      "created_at": "2026-08-16T03:38:06.516752+00:00"
+    },
     {
       "id": "6088a15d91857ebf",
       "content_hash": "6088a15d91857ebf7708af9001266a42dc0f00d40fe5fac9d1f2790b2c59787e",
@@ -100,6 +142,20 @@
       "created_at": "2026-08-16T02:14:05.556152+00:00"
     },
     {
+      "id": "d669873a9ea15bd7",
+      "content_hash": "d669873a9ea15bd772247f128f91d1a440af5a225eb6b3c4119c9979add8672d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2608.13122",
+      "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49314967\">Comments</a>",
+      "url": "https://arxiv.org/abs/2608.13122",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T22:41:51+00:00",
+      "created_at": "2026-08-16T03:38:06.517168+00:00"
+    },
+    {
       "id": "97ee3fbd8919c6ac",
       "content_hash": "97ee3fbd8919c6ac392ff2474cbc3b9c894f6ee45052766008859f17047efd32",
       "source_name": "Hacker News (Best)",
@@ -114,6 +170,20 @@
       "created_at": "2026-08-15T23:10:12.516227+00:00"
     },
     {
+      "id": "5bdffd498e8d3992",
+      "content_hash": "5bdffd498e8d39929f06825292c41c24f3c4aab066d53f68f04a6c7f7a1e0284",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "title": "Software Engineering fundamentals matter more",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49314902\">Comments</a>",
+      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T22:31:09+00:00",
+      "created_at": "2026-08-16T03:38:06.516912+00:00"
+    },
+    {
       "id": "1d3ef62648646358",
       "content_hash": "1d3ef62648646358a79a0ad047870972fd3aea7a95c025a8d93d4c7467e2387a",
       "source_name": "Hacker News (Best)",
@@ -126,6 +196,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T22:28:14+00:00",
       "created_at": "2026-08-15T23:10:12.516141+00:00"
+    },
+    {
+      "id": "dd67bef775514d8d",
+      "content_hash": "dd67bef775514d8d2b5a8d388b9819ce6f00edff24ddad7afc4e8ef553e5ce20",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bribes.fyi/compare",
+      "title": "Show HN: Bribes.fyi – Compare bribes statistics department wise",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49314765\">Comments</a>",
+      "url": "https://bribes.fyi/compare",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T22:11:16+00:00",
+      "created_at": "2026-08-16T03:38:06.517190+00:00"
     },
     {
       "id": "606202ded1d2b619",
@@ -6916,90 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-13T22:17:19.840000",
       "created_at": "2026-08-14T22:10:49.400700+00:00"
-    },
-    {
-      "id": "89f48e9a9614c579",
-      "content_hash": "89f48e9a9614c5792704dfd588fb71eb629bad496e23551efc2c5af45d57a3c7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19752",
-      "title": "CVE-2026-19752 - A vulnerability was found in EnzoVezzaro mcp-dominican-layer up to 39dd373786712...",
-      "body": "A vulnerability was found in EnzoVezzaro mcp-dominican-layer up to 39dd373786712650097ad31db27d5c477c8f9c82. This affects the function parse-pdf of the file src/index.ts of the component PDF Parsing. Performing a manipulation of the argument pdfUrl results in server-side request forgery. It is possible to initiate the attack remotely. The exploit has been made public and could be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19752",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-13T22:17:19.663000",
-      "created_at": "2026-08-14T22:10:49.400696+00:00"
-    },
-    {
-      "id": "71e615da3a8931ba",
-      "content_hash": "71e615da3a8931bac906fd8539a360d8b72be750348f89d574b4f7c43f29f58b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19751",
-      "title": "CVE-2026-19751 - A flaw has been found in EnzoVezzaro mcp-dominican-layer up to 39dd3737867126500...",
-      "body": "A flaw has been found in EnzoVezzaro mcp-dominican-layer up to 39dd373786712650097ad31db27d5c477c8f9c82. The affected element is the function axios.get of the file src/index.ts of the component parse-csv tool. This manipulation of the argument csvUrl causes server-side request forgery. The attack is possible to be carried out remotely. The exploit has been published and may be used. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19751",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-13T22:17:19.483000",
-      "created_at": "2026-08-14T22:10:49.400691+00:00"
-    },
-    {
-      "id": "335c8bcb20d8d1d3",
-      "content_hash": "335c8bcb20d8d1d3f96762952d030f5ede7bb9b9c90f77935a90e6891a187d68",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19750",
-      "title": "CVE-2026-19750 - A flaw has been found in Tenda CH, CP and TX3 V21.x/V22.x/V25.x/V26.x/V27.x. Aff...",
-      "body": "A flaw has been found in Tenda CH, CP and TX3 V21.x/V22.x/V25.x/V26.x/V27.x. Affected by this issue is some unknown functionality of the component SSH. Executing a manipulation can lead to use of hard-coded password. It is possible to launch the attack remotely. The attack requires a high level of complexity. The exploitation is known to be difficult. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19750",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-13T22:17:19.290000",
-      "created_at": "2026-08-14T22:10:49.400687+00:00"
-    },
-    {
-      "id": "4bfb2e007165a9f9",
-      "content_hash": "4bfb2e007165a9f9eb14271c78079c53f3b3fd403b497e400bf7221cd15118b8",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3152989",
-      "title": "Investors sue Selena Gomez alleging fraud tied to her mental health startup",
-      "body": "The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup.",
-      "url": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T22:12:40+00:00",
-      "created_at": "2026-08-13T22:29:07.949392+00:00"
-    },
-    {
-      "id": "27945bc5631fa0a8",
-      "content_hash": "27945bc5631fa0a86db2560e381c025aa81c632640c8038096b46d772699bf25",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3152977",
-      "title": "Flock says its new tool will help identify police abuse, but hasn’t explained how it works",
-      "body": "The surveillance company announced it's making a tool called \"Audit Assistance\" mandatory for all customers, claiming it's already helped catch abuse. But the company has yet to explain how the tool works in detail, raising questions about its effectiveness.",
-      "url": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T22:02:04+00:00",
-      "created_at": "2026-08-13T22:29:07.949430+00:00"
-    },
-    {
-      "id": "5578f0469b6e4f37",
-      "content_hash": "5578f0469b6e4f373c4fad335d5408c417269ed5bf1fc0bd6559e0d2452f1cc1",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3152998",
-      "title": "If Apple sends you a push notification alerting you to a spyware attack, take it seriously",
-      "body": "Apple now sends out push notifications to iPhone lock screens when the company identifies government spyware targeting someone's devices.",
-      "url": "https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-13T21:50:11+00:00",
-      "created_at": "2026-08-13T22:29:07.949452+00:00"
     }
   ]
 }
