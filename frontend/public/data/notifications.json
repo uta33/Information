@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-16T16:10:50.579625+00:00",
+  "generated_at": "2026-08-16T17:10:27.433696+00:00",
   "items": [
+    {
+      "id": "d2c4df65ea7f6027",
+      "content_hash": "d2c4df65ea7f602728e2740d86406b66764a0e0c512ae9409b8e364264665645",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3153318",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "body": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T16:53:51+00:00",
+      "created_at": "2026-08-16T17:10:27.161950+00:00"
+    },
+    {
+      "id": "67973882c74a6b87",
+      "content_hash": "67973882c74a6b8776add982e0b3aba703466f8216380adb6d65bdad87589d6a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
+      "title": "NIH is ending a key grant for budding clinical researchers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49321353\">Comments</a>",
+      "url": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T16:14:55+00:00",
+      "created_at": "2026-08-16T17:10:27.433058+00:00"
+    },
     {
       "id": "2b23462dbea42996",
       "content_hash": "2b23462dbea42996621f739d596af3c8e41172e2892d787df875d686db999c90",
@@ -254,6 +282,20 @@
       "created_at": "2026-08-16T13:22:47.771216+00:00"
     },
     {
+      "id": "a5b969a591abae57",
+      "content_hash": "a5b969a591abae578c230d4625817413ec36488de8a10936623ac1bff12cfd9d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://peterbloem.nl/blog/craft-coding",
+      "title": "AI Coding Without the Vibes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49318735\">Comments</a>",
+      "url": "https://peterbloem.nl/blog/craft-coding",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T10:31:36+00:00",
+      "created_at": "2026-08-16T17:10:27.433268+00:00"
+    },
+    {
       "id": "ab804dc273e0bdb6",
       "content_hash": "ab804dc273e0bdb688fa555e3869467aa7847f48313c7b0d9e73eb41532aa46a",
       "source_name": "Hacker News (Best)",
@@ -308,6 +350,20 @@
       "cvss_score": null,
       "published_at": "2026-08-16T05:45:32+00:00",
       "created_at": "2026-08-16T06:20:00.332719+00:00"
+    },
+    {
+      "id": "0a2b7da57e0924c8",
+      "content_hash": "0a2b7da57e0924c8dc6ccc713993bdc998ecfed621674f17400e242b7934b117",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15002",
+      "title": "CVE-2026-15002 - The Platnosci Online Blue Media (Autopay) plugin for WordPress is vulnerable to ...",
+      "body": "The Platnosci Online Blue Media (Autopay) plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 5.0.0 via the 'bm_woocommerce_css_editor_content' POST parameter. This is due to the Css_Editor::handle_save() method being wired to the WordPress 'init' hook by Settings_Manager::init_once() with no capability check, no nonce verification, and no sanitization on the input — the raw $_POST value is written to the 'woocommerce_bluemedia_settings' option via update_option(), then later echoed directly inside a <style> block on the WooCommerce checkout page by Css_Frontend::print_to_wp_head() with no output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page (the checkout page).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15002",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.2,
+      "published_at": "2026-08-16T05:16:46.620000",
+      "created_at": "2026-08-16T17:10:18.222458+00:00"
     },
     {
       "id": "89c20a61d414b7c9",
@@ -1344,6 +1400,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T20:00:14+00:00",
       "created_at": "2026-08-15T21:10:17.337616+00:00"
+    },
+    {
+      "id": "a032f8af73bcc0d1",
+      "content_hash": "a032f8af73bcc0d1f1f78a65dae3b06e300bbea7a17812e76bf9aa3c73d174e2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49313711",
+      "title": "Kimi Work attaches raw agent sessions to feedback reports",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49313711\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49313711",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T19:50:46+00:00",
+      "created_at": "2026-08-16T17:10:27.433127+00:00"
     },
     {
       "id": "51365aa1ab70c031",
@@ -5098,6 +5168,20 @@
       "created_at": "2026-08-15T02:06:55.619591+00:00"
     },
     {
+      "id": "053c88b5aa0fdb52",
+      "content_hash": "053c88b5aa0fdb52705a292e7b01476e7421ecc931bf7e858a736dd3e34d9df9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://commonreader.wustl.edu/winning-and-losing-at-the-great-game-of-intimacy/",
+      "title": "Anton Chekhov played at love most of his life",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49306021\">Comments</a>",
+      "url": "https://commonreader.wustl.edu/winning-and-losing-at-the-great-game-of-intimacy/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T23:53:43+00:00",
+      "created_at": "2026-08-16T17:10:27.432947+00:00"
+    },
+    {
       "id": "c23d02a7337cae37",
       "content_hash": "c23d02a7337cae3785fe095b41f3f0a62023009a0d44b74072d688159256163d",
       "source_name": "Hacker News (Best)",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-14T16:57:14+00:00",
       "created_at": "2026-08-14T17:42:57.092942+00:00"
-    },
-    {
-      "id": "7404757b70e410a6",
-      "content_hash": "7404757b70e410a64b65a7b7a82bec24e58e87d8d17bf413575109ef2c5256b1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.byhand.ai/p/28-discrete-fourier-transform",
-      "title": "Discrete Fourier Transform by Hand",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49301342\">Comments</a>",
-      "url": "https://www.byhand.ai/p/28-discrete-fourier-transform",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T16:52:46+00:00",
-      "created_at": "2026-08-14T17:42:57.092883+00:00"
-    },
-    {
-      "id": "9516c07e31de6bef",
-      "content_hash": "9516c07e31de6bef97374dbd3124a9299709eefe793d9a2e5c6f1bc14d9121ee",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.bbc.com/news/articles/ce97mm3vvemo",
-      "title": "Count Binface receives over a quarter of votes in Clacton by-election",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49301260\">Comments</a>",
-      "url": "https://www.bbc.com/news/articles/ce97mm3vvemo",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T16:45:49+00:00",
-      "created_at": "2026-08-14T17:42:57.092554+00:00"
-    },
-    {
-      "id": "f73b10d2fe65deb1",
-      "content_hash": "f73b10d2fe65deb1443878dbdaa77d47d7c22d29ac5abadcad160704b96ff012",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://luacad.ad-si.com",
-      "title": "Show HN: LuaCAD – Parametric CAD Scripted in Lua",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49301215\">Comments</a>",
-      "url": "https://luacad.ad-si.com",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T16:43:22+00:00",
-      "created_at": "2026-08-14T17:42:57.093021+00:00"
-    },
-    {
-      "id": "d6e349e30c8661e0",
-      "content_hash": "d6e349e30c8661e07491e39f7567b5487c3a7e17a4490a2b8f13ded23015c64f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3153119",
-      "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
-      "body": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore — or accidentally dismiss.",
-      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T16:21:04+00:00",
-      "created_at": "2026-08-14T16:38:34.917707+00:00"
-    },
-    {
-      "id": "5a9b0ed76605b90e",
-      "content_hash": "5a9b0ed76605b90e3d20e9d8247a96719122145a095e5d3992b8ad8160ea8484",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66272",
-      "title": "CVE-2026-66272 - Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain a Missing ...",
-      "body": "Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66272",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-14T16:16:59.143000",
-      "created_at": "2026-08-15T13:21:30.054919+00:00"
-    },
-    {
-      "id": "bb6400a79981c721",
-      "content_hash": "bb6400a79981c72160172bc9585c390eb101877acd167209eb035ef5b00fe737",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66271",
-      "title": "CVE-2026-66271 - Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain an Unrestr...",
-      "body": "Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain an Unrestricted Upload of File with Dangerous Type vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Remote Code Execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66271",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-08-14T16:16:59.030000",
-      "created_at": "2026-08-15T13:21:30.054913+00:00"
     }
   ]
 }
