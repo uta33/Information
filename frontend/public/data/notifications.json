@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-16T17:10:27.433696+00:00",
+  "generated_at": "2026-08-16T18:12:25.246666+00:00",
   "items": [
+    {
+      "id": "9082f475b3dc35ce",
+      "content_hash": "9082f475b3dc35cef793cb3b26f0180998e53d99edb479cc8145db7dc25c37be",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "body": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T17:29:52+00:00",
+      "created_at": "2026-08-16T18:12:21.083613+00:00"
+    },
+    {
+      "id": "b1c1ffc646f25e2d",
+      "content_hash": "b1c1ffc646f25e2ddf53de123cd38c20d0bfc637df7b10276f78ba580e359578",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+      "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49321783\">Comments</a>",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T17:10:04+00:00",
+      "created_at": "2026-08-16T18:12:25.246322+00:00"
+    },
+    {
+      "id": "984cf8f3c501c645",
+      "content_hash": "984cf8f3c501c64524818ece63d896264833c80d23af24d2cad73c91309a2dea",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://rvembedded.com/blog_post/12/",
+      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49321717\">Comments</a>",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T17:01:07+00:00",
+      "created_at": "2026-08-16T18:12:25.245953+00:00"
+    },
     {
       "id": "d2c4df65ea7f6027",
       "content_hash": "d2c4df65ea7f602728e2740d86406b66764a0e0c512ae9409b8e364264665645",
@@ -350,6 +392,34 @@
       "cvss_score": null,
       "published_at": "2026-08-16T05:45:32+00:00",
       "created_at": "2026-08-16T06:20:00.332719+00:00"
+    },
+    {
+      "id": "36f7faa59b805cc9",
+      "content_hash": "36f7faa59b805cc90ce112501139e88e5040deeb0c295232bc561cef5826f55b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15066",
+      "title": "CVE-2026-15066 - The Loco Translate plugin for WordPress is vulnerable to Stored Cross-Site Scrip...",
+      "body": "The Loco Translate plugin for WordPress is vulnerable to Stored Cross-Site Scripting via PO File Extracted Comments in all versions up to, and including, 2.8.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with translator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15066",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-08-16T05:16:46.880000",
+      "created_at": "2026-08-16T18:12:21.597704+00:00"
+    },
+    {
+      "id": "bbf7987bb9d76c03",
+      "content_hash": "bbf7987bb9d76c03852c0741ed753fcc83c243d56a1b1b56507585c5722a3c57",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15009",
+      "title": "CVE-2026-15009 - The Advanced File Manager – Ultimate File Manager for WordPress And Document Lib...",
+      "body": "The Advanced File Manager – Ultimate File Manager for WordPress And Document Library Solution plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'soundFile' parameter in all versions up to, and including, 5.4.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires the attacker to control a domain whose origin string is a leading prefix of the target site's backend URL (e.g. https://example.co against https://example.com), and the victim must be an authenticated WordPress administrator who visits the attacker-controlled page while the File Manager admin screen is open.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15009",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.1,
+      "published_at": "2026-08-16T05:16:46.753000",
+      "created_at": "2026-08-16T18:12:21.597695+00:00"
     },
     {
       "id": "0a2b7da57e0924c8",
@@ -1386,6 +1456,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T20:18:37+00:00",
       "created_at": "2026-08-15T23:10:12.516260+00:00"
+    },
+    {
+      "id": "7519d57285fe5851",
+      "content_hash": "7519d57285fe58510d61834e57b68403ce75fa0b7738d7a22dec6d8153ee011e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=-y8bGBE71yw",
+      "title": "Plastic mechanical computer from 1963: The Digi-Comp 1 [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49313920\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=-y8bGBE71yw",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T20:15:51+00:00",
+      "created_at": "2026-08-16T18:12:25.246060+00:00"
     },
     {
       "id": "32d094292bbac668",
@@ -6916,90 +7000,6 @@
       "cvss_score": 3.1,
       "published_at": "2026-08-14T17:17:34.993000",
       "created_at": "2026-08-15T13:21:30.054962+00:00"
-    },
-    {
-      "id": "657e34d7ac909d51",
-      "content_hash": "657e34d7ac909d51ee7c07f93970c93f31fe37c09346d2accb991ab76e1380ec",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19839",
-      "title": "CVE-2026-19839 - A vulnerability was detected in SourceCodester Simple Doctors Appointment System...",
-      "body": "A vulnerability was detected in SourceCodester Simple Doctors Appointment System 1.0. This issue affects the function save_doctor of the file /save_file.php. The manipulation results in unrestricted upload. The attack can be executed remotely. The exploit is now public and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19839",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.7,
-      "published_at": "2026-08-14T17:17:34.803000",
-      "created_at": "2026-08-15T13:21:30.054956+00:00"
-    },
-    {
-      "id": "c7aed09ec2b7c014",
-      "content_hash": "c7aed09ec2b7c014fb89f36fb032b3c570cf300f1890eb5c4f2b220e02b118b0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19838",
-      "title": "CVE-2026-19838 - A security vulnerability has been detected in Webkul Bagisto up to 2.4.4. This v...",
-      "body": "A security vulnerability has been detected in Webkul Bagisto up to 2.4.4. This vulnerability affects unknown code of the file /admin/reporting/sales/ of the component Backend Reporting Endpoint. The manipulation leads to authorization bypass. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used. The vendor confirms: \"The reported issues were already identified through our internal security assessment process prior to this notification and are being handled through our established internal security and development lifecycle. Some of these items have already been addressed, while the remaining items are planned for resolution in upcoming product releases.\"",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19838",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-14T17:17:34.267000",
-      "created_at": "2026-08-15T13:21:30.054947+00:00"
-    },
-    {
-      "id": "9199007fdece350f",
-      "content_hash": "9199007fdece350f31856f54395ca47eff068e030b95ead2c176b65eedbf3b1d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19628",
-      "title": "CVE-2026-19628 - A command injection vulnerability exists in Tenable Security Center. An authenti...",
-      "body": "A command injection vulnerability exists in Tenable Security Center. An authenticated administrator could modify application configuration values to achieve arbitrary command execution on the underlying operating system when specific backend operations are triggered.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19628",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-08-14T17:17:31.110000",
-      "created_at": "2026-08-15T13:21:30.054941+00:00"
-    },
-    {
-      "id": "024a5749df7288bc",
-      "content_hash": "024a5749df7288bc459a2a60c43102ae9c7c2ac76bd9d1159c757da3db21b7d0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19626",
-      "title": "CVE-2026-19626 - A remote code execution vulnerability exists in Tenable Security Center's report...",
-      "body": "A remote code execution vulnerability exists in Tenable Security Center's report generation functionality. An authenticated, non-administrative user could exploit this issue by supplying specially crafted input that is later processed unsafely during server-side report rendering, resulting in arbitrary code execution with the privileges of the service account.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19626",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-08-14T17:17:30.940000",
-      "created_at": "2026-08-15T13:21:30.054933+00:00"
-    },
-    {
-      "id": "16d5dfdb58dd319c",
-      "content_hash": "16d5dfdb58dd319cc367ea7d2c21ffc74210e88d68c50498dd05f8ea08a89a0a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7347",
-      "title": "CVE-2023-7347 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7347",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T17:17:09.550000",
-      "created_at": "2026-08-15T13:21:30.054926+00:00"
-    },
-    {
-      "id": "4d85fb2c3e865c6f",
-      "content_hash": "4d85fb2c3e865c6ff68553942fa0745f589b0f0e2088de053817df5fa588e5b1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2608.12700",
-      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49301417\">Comments</a>",
-      "url": "https://arxiv.org/abs/2608.12700",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T16:57:14+00:00",
-      "created_at": "2026-08-14T17:42:57.092942+00:00"
     }
   ]
 }
