@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-16T22:09:06.279175+00:00",
+  "generated_at": "2026-08-16T23:09:16.535099+00:00",
   "items": [
+    {
+      "id": "3d0182aa742d6eea",
+      "content_hash": "3d0182aa742d6eeaf5a22d7168c0edefa6c15681c2d9c28ee770e7a460a75d20",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+      "body": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T22:28:57+00:00",
+      "created_at": "2026-08-16T23:09:12.288393+00:00"
+    },
     {
       "id": "0863158b36fb77b7",
       "content_hash": "0863158b36fb77b735b9150a10d4a3f6174519f9917065daa79b2ab9b02b525d",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-16T21:52:59+00:00",
       "created_at": "2026-08-16T22:09:06.278451+00:00"
+    },
+    {
+      "id": "e122ccd2bf425bb2",
+      "content_hash": "e122ccd2bf425bb2acde2ac5cbf4dce932fdce50c70d1d26dc7be3d4ddf89532",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.foxnews.com/opinion/america-needs-stop-turning-every-purchase-uncomfortable-tip-request",
+      "title": "Stop Turning every purchase into a tip request",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49323874\">Comments</a>",
+      "url": "https://www.foxnews.com/opinion/america-needs-stop-turning-every-purchase-uncomfortable-tip-request",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:28:59+00:00",
+      "created_at": "2026-08-16T23:09:16.534644+00:00"
     },
     {
       "id": "a26e20d26fb6ab57",
@@ -6414,6 +6442,20 @@
       "created_at": "2026-08-14T21:14:13.426001+00:00"
     },
     {
+      "id": "37963df04587b306",
+      "content_hash": "37963df04587b30621ec2198100398463f983941130cd521b1707f236c725d16",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bernsteinbear.com/blog/zkp/",
+      "title": "A quick look at zero-knowledge proofs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49303776\">Comments</a>",
+      "url": "https://bernsteinbear.com/blog/zkp/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-14T19:52:05+00:00",
+      "created_at": "2026-08-16T23:09:16.534379+00:00"
+    },
+    {
       "id": "e86703ccb9f0c356",
       "content_hash": "e86703ccb9f0c3565c1d8e95c8143995b6945e78a0089e341f8ad3acfe73aa41",
       "source_name": "Hacker News (Best)",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.8,
       "published_at": "2026-08-14T18:17:23.230000",
       "created_at": "2026-08-15T18:12:04.624127+00:00"
-    },
-    {
-      "id": "daf676e727d41826",
-      "content_hash": "daf676e727d4182660bf0655363be1ee7ae8025dfd37fef26205aef3998a0e08",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19639",
-      "title": "CVE-2026-19639 - An improper access control vulnerability exists where an authenticated non-admin...",
-      "body": "An improper access control vulnerability exists where an authenticated non-administrative application user could potentially view settings outside of their assigned scope.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19639",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-14T18:17:23.100000",
-      "created_at": "2026-08-15T17:10:53.358695+00:00"
-    },
-    {
-      "id": "c11937006a1e257c",
-      "content_hash": "c11937006a1e257c245756fbdc28fc7a83b2d0c59a0eeb2afe95dbc84ff88fc5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19636",
-      "title": "CVE-2026-19636 - An issue was identified in which CSRF tokens were generated using a predictable ...",
-      "body": "An issue was identified in which CSRF tokens were generated using a predictable method, potentially reducing their effectiveness as a security control. This has been addressed by improving the randomness and entropy of token generation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19636",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-14T18:17:22.953000",
-      "created_at": "2026-08-15T17:10:53.358688+00:00"
-    },
-    {
-      "id": "4ddc795734bd051b",
-      "content_hash": "4ddc795734bd051b4fcd44abf803a10e987167af764de89041f7949422da218d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19635",
-      "title": "CVE-2026-19635 - A local privilege escalation vulnerability exists in Security Center. An attacke...",
-      "body": "A local privilege escalation vulnerability exists in Security Center. An attacker with write access to a specific configuration file could achieve arbitrary code execution with elevated privileges, without requiring further user or victim interaction.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19635",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-14T18:17:22.817000",
-      "created_at": "2026-08-15T17:10:53.358681+00:00"
     }
   ]
 }
