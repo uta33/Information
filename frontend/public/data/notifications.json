@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-16T11:09:52.988323+00:00",
+  "generated_at": "2026-08-16T12:15:31.089641+00:00",
   "items": [
+    {
+      "id": "8ac3406c9822329f",
+      "content_hash": "8ac3406c9822329f071c299f0da434ab77fb9c46e37250e3cf03bdfc7626613c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer",
+      "title": "Gooseworks (YC W23) Is Hiring a Founding Builder / Engineer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49319215\">Comments</a>",
+      "url": "https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T12:00:23+00:00",
+      "created_at": "2026-08-16T12:15:31.088909+00:00"
+    },
+    {
+      "id": "ab804dc273e0bdb6",
+      "content_hash": "ab804dc273e0bdb688fa555e3869467aa7847f48313c7b0d9e73eb41532aa46a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+      "title": "Show HN: Grafana agent observability for Hermes Agent",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49318128\">Comments</a>",
+      "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T08:40:50+00:00",
+      "created_at": "2026-08-16T12:15:31.089383+00:00"
+    },
     {
       "id": "9b16f0126eb77924",
       "content_hash": "9b16f0126eb7792468532cd5dc5e5c7851ce665bb5388b5c75477108f57b5fcb",
@@ -1078,6 +1106,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T13:18:27+00:00",
       "created_at": "2026-08-15T14:11:15.233355+00:00"
+    },
+    {
+      "id": "58be7d32e408967d",
+      "content_hash": "58be7d32e408967dc220b3c21fb85bf74e3937fa3bcdbabeb3fe1a33ff978c81",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74479",
+      "title": "CVE-2026-74479 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: pktgen...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: pktgen: fix proc entry use-after-free\n\npktgen_change_name() replaces pkt_dev->entry while holding t->if_lock.\npktgen_remove_device() removes the same entry before\n_rem_dev_from_if_list() takes that lock.\n\nThis allows the following interleaving:\n\n  CPU 0 (NETDEV_CHANGENAME)       CPU 1 (kpktgend)\n  if_lock(t)\n  proc_remove(pkt_dev->entry)\n                                  proc_remove(pkt_dev->entry)\n  pkt_dev->entry = proc_create_data(...)\n  if_unlock(t)\n\nThe kthread can pass the stale proc_dir_entry to proc_remove() after the\nrename path has freed it. A reproducer with a widened race window reports:\n\n  BUG: KASAN: slab-use-after-free in proc_remove+0x78/0x80\n  Read of size 8 at addr ffff8881478fea70 by task kpktgend_0/67\n  Call Trace:\n   proc_remove+0x78/0x80\n   pktgen_remove_device.isra.0+0x11c/0x4c0\n   pktgen_thread_worker+0x1214/0x6bc0\n   kthread+0x2c6/0x3b0\n  Allocated by task 95:\n   __proc_create+0x204/0x790\n   proc_create_data+0x72/0xe0\n   pktgen_thread_write+0xd61/0x1510\n  Freed by task 28:\n   kmem_cache_free+0xcb/0x3d0\n   proc_free_inode+0x5b/0x80\n   rcu_core+0x50a/0x1850\n  The buggy address belongs to the object at ffff8881478fea00\n   which belongs to the cache proc_dir_entry of size 192\n\nMove proc_remove() into the if_lock-protected list removal helper. Keep it\nbefore list_del_rcu() to preserve the ordering required by add_device().\nThe rename path must then finish replacing the entry before removal, or\nit observes that the device is no longer on the list.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74479",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-15T13:17:52.713000",
+      "created_at": "2026-08-16T12:15:27.535176+00:00"
     },
     {
       "id": "8c960784174ef0d2",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-14T12:16:47.820000",
       "created_at": "2026-08-15T06:17:35.831565+00:00"
-    },
-    {
-      "id": "d0f30521efdf619b",
-      "content_hash": "d0f30521efdf619b2a0a875b7f2d950deda98b81cc6b5be12007368455c921e2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73049",
-      "title": "CVE-2026-73049 - SiYuan versions before v3.7.4 contain an information disclosure vulnerability in...",
-      "body": "SiYuan versions before v3.7.4 contain an information disclosure vulnerability in the getAttributeViewBacklinks endpoint that consults the forbidden access list instead of the visibility list when filtering backlinks. Anonymous readers can supply a publicly visible database row identifier to discover hidden-tier documents that reference it, receiving the database name, row title, and document path of hidden documents.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73049",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-08-14T12:16:47.697000",
-      "created_at": "2026-08-15T06:17:35.831560+00:00"
-    },
-    {
-      "id": "cb6445db2293bc06",
-      "content_hash": "cb6445db2293bc06d526c9cf69d6a2946808253c8c76d4b131f9ef79fb522fe3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73048",
-      "title": "CVE-2026-73048 - SiYuan versions before v3.7.4 contain an information disclosure vulnerability in...",
-      "body": "SiYuan versions before v3.7.4 contain an information disclosure vulnerability in the getRefIDsByFileAnnotationID endpoint that returns block identifiers citing PDF annotations without publish-access filtering. Attackers can extract block identifiers from restricted documents by supplying annotation identifiers visible in published pages, revealing citation relationships across forbidden and password-protected tiers.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73048",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-08-14T12:16:47.567000",
-      "created_at": "2026-08-15T06:17:35.831556+00:00"
-    },
-    {
-      "id": "3a7fccdf6dbdeb77",
-      "content_hash": "3a7fccdf6dbdeb77a504afaa7fe26e69dea7ee32ace4fbbe785b9f094a655fa0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72859",
-      "title": "CVE-2026-72859 - Budibase versions 3.39.4 before 3.40.0 contain an authorization regression in th...",
-      "body": "Budibase versions 3.39.4 before 3.40.0 contain an authorization regression in the S3 attachment upload endpoint that allows BASIC users to obtain S3 PutObject presigned URLs by sending POST requests to the attachments endpoint. The route was changed from a BUILDER permission check to a TABLE/WRITE check, which BASIC users hold by default. Attackers can specify arbitrary S3 buckets in the request body to generate presigned URLs for writing to any bucket accessible by the stored IAM credentials, enabling unauthorized file uploads.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72859",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-08-14T12:16:47.440000",
-      "created_at": "2026-08-15T06:17:35.831551+00:00"
     }
   ]
 }
