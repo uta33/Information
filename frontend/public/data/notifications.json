@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-17T11:15:06.341107+00:00",
+  "generated_at": "2026-08-17T12:19:03.321761+00:00",
   "items": [
+    {
+      "id": "621e63f6329ba58a",
+      "content_hash": "621e63f6329ba58a056aca8f0b15e48ad831653a0c183f26b5c1472777681f5f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e",
+      "title": "People are worried about America's solvency",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49329347\">Comments</a>",
+      "url": "https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T11:45:12+00:00",
+      "created_at": "2026-08-17T12:19:03.321057+00:00"
+    },
+    {
+      "id": "c27d88372a67ae2f",
+      "content_hash": "c27d88372a67ae2f321e906d707941bd0a05b3917c25316acac86f5c760bed50",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "body": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-17T11:25:02+00:00",
+      "created_at": "2026-08-17T12:18:57.734471+00:00"
+    },
+    {
+      "id": "5ca2b6cade3582a5",
+      "content_hash": "5ca2b6cade3582a589edaaee831d0ec2e4169a63a3f99e66ce85ece607eb335e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+      "title": "Self hosted email continues to steeply decline",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49328911\">Comments</a>",
+      "url": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T10:45:14+00:00",
+      "created_at": "2026-08-17T12:19:03.321279+00:00"
+    },
+    {
+      "id": "3ddd220e55ccb663",
+      "content_hash": "3ddd220e55ccb6636b93b9ab3da6316cd49493bfd6466f9ebd414bc4b505ef01",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
+      "title": "The Marxist Case for the Technofeudal Hypothesis",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49328899\">Comments</a>",
+      "url": "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T10:44:17+00:00",
+      "created_at": "2026-08-17T12:19:03.321260+00:00"
+    },
     {
       "id": "270a7256b0f4af67",
       "content_hash": "270a7256b0f4af679224a2aa44451217eed4c8e9708ef5d81d02e3d94caeef0f",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T06:21:37.197000",
       "created_at": "2026-08-16T07:21:37.707147+00:00"
-    },
-    {
-      "id": "666e9742b30f5ea8",
-      "content_hash": "666e9742b30f5ea8fb6082e5e2ec5da7b3b4c54638e530398fc1ce2c560f4c83",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72187",
-      "title": "CVE-2026-72187 - In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: avoid...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: avoid self-deadlock during inode eviction\n\nAn attribute-list update performed while allocating clusters can drop the\nlast reference to the temporary attribute inode. Evicting that inode\ndrops its reference to the base inode and can invoke ntfs_drop_big_inode()\nfor the base inode from within the base inode's own writeback path.\n\nIf the base inode is unlinked, ntfs_drop_big_inode() calls\ntruncate_setsize(), which waits for the inode's folio writeback to\ncomplete. The same writeback worker is responsible for completing that\nwriteback, so it waits for itself indefinitely.\n\nPrevent this self-deadlock by grabbing a reference to the base inode at the\nbeginning of ntfs_writepages() and releasing it at the end of the function.\nThis defers eviction until all bios have been submitted, allowing the wait\nfor folio writeback to complete safely.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72187",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:37.077000",
-      "created_at": "2026-08-16T07:21:37.707127+00:00"
-    },
-    {
-      "id": "90ecf1bc5bbe7930",
-      "content_hash": "90ecf1bc5bbe79302a9696003f70fc7577bd049be0a4ac3e140772d2f57a0c4f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72020",
-      "title": "CVE-2026-72020 - In the Linux kernel, the following vulnerability has been resolved:\n\nipvs: reset...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nipvs: reset full ip_vs_seq structs in ip_vs_conn_new\n\nCommit 9a05475cebdd (\"ipvs: avoid kmem_cache_zalloc in\nip_vs_conn_new\") changed ip_vs_conn_new() to allocate an ip_vs_conn\nobject with kmem_cache_alloc().  The function then initializes many\nfields explicitly, but only resets in_seq.delta and out_seq.delta in the\ntwo struct ip_vs_seq members.\n\nThat leaves init_seq and previous_delta uninitialized.  This is normally\nharmless while the corresponding IP_VS_CONN_F_IN_SEQ or\nIP_VS_CONN_F_OUT_SEQ flag is clear.  For connections learned from a sync\nmessage, however, ip_vs_proc_conn() preserves those flags from\nIP_VS_CONN_F_BACKUP_MASK and passes opt=NULL when the message omits\nIPVS_OPT_SEQ_DATA.  In that case the new connection can be hashed with\nSEQ flags set but with the rest of in_seq/out_seq still containing stale\nslab data.\n\nWhen a packet for such a connection is later handled by an IPVS\napplication helper, vs_fix_seq() and vs_fix_ack_seq() use\nprevious_delta and init_seq to rewrite TCP sequence numbers.  A malformed\nsync message can therefore make forwarded packets carry stale slab bytes\nin their TCP seq/ack numbers, and can also corrupt the forwarded TCP\nflow.\n\nReset both struct ip_vs_seq members completely before publishing the\nconnection.  This matches the existing \"reset struct ip_vs_seq\" comment\nand keeps the sequence-adjustment gates inactive unless valid sequence\ndata is installed later.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72020",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.920000",
-      "created_at": "2026-08-16T06:19:55.918514+00:00"
-    },
-    {
-      "id": "307f1a3e156bb2a2",
-      "content_hash": "307f1a3e156bb2a224229ca60341562c76af49c583ba79cd8166de3a2a18e79a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72019",
-      "title": "CVE-2026-72019 - In the Linux kernel, the following vulnerability has been resolved:\n\nmacsec: don...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmacsec: don't read an unset MAC header in macsec_encrypt()\n\nmacsec_encrypt() reads the Ethernet header via eth_hdr(skb)\n(skb->head + skb->mac_header) to memmove() the 12 source/destination MAC\nbytes forward and make room for the SecTAG.\n\nOn the AF_PACKET SOCK_RAW + PACKET_QDISC_BYPASS transmit path the skb\nreaches the macsec ndo_start_xmit() with the MAC header unset, so\neth_hdr(skb) resolves to skb->head + (u16)~0 and the read is out of\nbounds: a 12-byte heap over-read that is also emitted on the wire as the\nframe's outer source/destination MAC. KASAN reports a slab-out-of-bounds\nread in macsec_start_xmit() on 6.0; on current mainline a CONFIG_DEBUG_NET\nbuild flags it as an unset mac header in skb_mac_header().\n\nOn the TX path the L2 header is at skb->data, so use skb_eth_hdr(), added\nby commit 96cc4b69581d (\"macvlan: do not assume mac_header is set in\nmacvlan_broadcast()\") for exactly this purpose.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72019",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.790000",
-      "created_at": "2026-08-16T06:19:55.918506+00:00"
-    },
-    {
-      "id": "9f7c8d753d9aaa72",
-      "content_hash": "9f7c8d753d9aaa729219209c7c2d36c8014bda638467bca586b40498c037b559",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72018",
-      "title": "CVE-2026-72018 - In the Linux kernel, the following vulnerability has been resolved:\n\ndibs: loopb...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndibs: loopback: validate offset and size in move_data()\n\nThe loopback move_data() performs a memcpy into the registered DMB\nwithout checking whether offset + size exceeds the DMB length.  Unlike\nreal ISM hardware, which enforces memory region bounds natively, the\nsoftware loopback has no such protection.\n\nA peer-supplied out-of-bounds offset or oversized write would result in\nan OOB write past the allocated kernel buffer.  Add an explicit bounds\ncheck before the memcpy to reject such requests with -EINVAL.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72018",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.670000",
-      "created_at": "2026-08-16T06:19:55.918497+00:00"
     }
   ]
 }
