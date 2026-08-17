@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-17T03:39:13.202128+00:00",
+  "generated_at": "2026-08-17T04:30:11.741467+00:00",
   "items": [
+    {
+      "id": "de66d68757a4616a",
+      "content_hash": "de66d68757a4616ace6ee43486ba7095e97fcf353b5ba7a47b3a9b30227ee23c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://boston.conman.org/2026/08/11.1",
+      "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49326229\">Comments</a>",
+      "url": "https://boston.conman.org/2026/08/11.1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T03:21:37+00:00",
+      "created_at": "2026-08-17T04:30:11.740793+00:00"
+    },
+    {
+      "id": "1c8bb8c74f118830",
+      "content_hash": "1c8bb8c74f1188307669ac8e4799f06de0af2c0a9cd3a10899f1b71e74b603ec",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/clyqpx6xk69o",
+      "title": "If Meta loses this trial, Instagram and Facebook could change forever",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49325937\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/clyqpx6xk69o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T02:28:16+00:00",
+      "created_at": "2026-08-17T04:30:11.741232+00:00"
+    },
     {
       "id": "0467dbaa96df55ef",
       "content_hash": "0467dbaa96df55ef42b90803bdbc24beac88b5d0d39b07b91c86899416cc71b5",
@@ -1470,6 +1498,48 @@
       "cvss_score": null,
       "published_at": "2026-08-16T06:55:04+00:00",
       "created_at": "2026-08-16T07:21:41.157033+00:00"
+    },
+    {
+      "id": "31c3bf03579b3a6a",
+      "content_hash": "31c3bf03579b3a6a1ff2ddc878be679e876d98e1e1ee7515bb8df5c98e89cc63",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19728",
+      "title": "CVE-2026-19728 - The Extra Product Options Builder for WooCommerce WordPress plugin before 1.2.17...",
+      "body": "The Extra Product Options Builder for WooCommerce WordPress plugin before 1.2.176 does not verify that the requester is entitled to a customer-uploaded file before serving it, allowing unauthenticated users who obtain a file's stored name to retrieve it.\n\nThe Extra Product Options Builder for WooCommerce WordPress plugin before 1.2.176 writes a deny-all rule into its upload directories, so the disclosure only crosses a boundary on web servers that honour it, such as Apache. Where it is ignored, as on a default nginx setup, the same files are already served at their direct URL and the endpoint exposes nothing further.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19728",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T06:16:52.673000",
+      "created_at": "2026-08-17T04:29:59.808396+00:00"
+    },
+    {
+      "id": "2f3105e762a11832",
+      "content_hash": "2f3105e762a118324f1ffe719226dc1a47a4f9cd0c577a5a9289af63036d23e8",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19726",
+      "title": "CVE-2026-19726 - The Visualizer  WordPress plugin before 4.0.7 does not properly authorise access...",
+      "body": "The Visualizer  WordPress plugin before 4.0.7 does not properly authorise access to the configuration of its charts, allowing users with the Contributor role and above to read the full configuration of any chart on the site, including charts the Visualizer  WordPress plugin before 4.0.7's own interface denies them, and to retrieve every chart's configuration in a single request. The disclosed configuration can include the credentials of a remote data source a chart reads from.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19726",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T06:16:52.580000",
+      "created_at": "2026-08-17T04:29:59.808390+00:00"
+    },
+    {
+      "id": "6d92471560220a3f",
+      "content_hash": "6d92471560220a3fbf1c7a171bc72f83245f6e489fe438c0689a32eaa4bb2862",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19725",
+      "title": "CVE-2026-19725 - The WPvivid — Backup, Migration & Staging WordPress plugin before 0.9.131 does n...",
+      "body": "The WPvivid — Backup, Migration & Staging WordPress plugin before 0.9.131 does not sanitise a value taken from an unauthenticated request before using it to build a log file path, allowing an attacker holding a site to site transfer key to create a log file in any existing writable directory of the site, including the web root.\n\nThe file name always carries a fixed suffix and the contents are always the WPvivid — Backup, Migration & Staging WordPress plugin before 0.9.131's own log header, so only the location of the file is attacker controlled.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19725",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T06:16:52.487000",
+      "created_at": "2026-08-17T04:29:59.808382+00:00"
     },
     {
       "id": "db0d32b4dcf95381",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-08-14T23:16:34.360000",
       "created_at": "2026-08-15T21:10:13.921131+00:00"
-    },
-    {
-      "id": "4205e432b6988957",
-      "content_hash": "4205e432b6988957597152b8293b8707489cbc2137083dd377c31313a1d25850",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74242",
-      "title": "CVE-2026-74242 - A flaw was found in Red Hat Quay. An administrator of any repository, by knowing...",
-      "body": "A flaw was found in Red Hat Quay. An administrator of any repository, by knowing or guessing a target notification's Universally Unique Identifier (UUID), can read the notification configuration, including sensitive details like webhook URLs, Slack tokens, and email addresses. This vulnerability also allows them to trigger test notifications for another repository. This could lead to unauthorized information disclosure and potential misuse of notification services.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74242",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-14T23:16:34.227000",
-      "created_at": "2026-08-15T20:09:19.565272+00:00"
-    },
-    {
-      "id": "2275c6e0abca9c07",
-      "content_hash": "2275c6e0abca9c07b01dcd62efe09d0d4b4d13e3a3e9d5730c93735b40211814",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74241",
-      "title": "CVE-2026-74241 - A flaw was found in Red Hat Quay's external Lightweight Directory Access Protoco...",
-      "body": "A flaw was found in Red Hat Quay's external Lightweight Directory Access Protocol (LDAP) authentication handling. When an LDAP referral is returned during authentication, the system does not properly escape the username input. This allows an attacker to inject LDAP filter metacharacters, enabling user-existence oracle attacks at the referral Directory Name (DN). This could also potentially influence which DN is used for password binding in multi-domain Active Directory environments.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74241",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.8,
-      "published_at": "2026-08-14T23:16:34.093000",
-      "created_at": "2026-08-15T20:09:19.565265+00:00"
-    },
-    {
-      "id": "65c6327e7b536082",
-      "content_hash": "65c6327e7b5360821c064ddfaf615fef7aaefa5780722388709f964b6f31381a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74240",
-      "title": "CVE-2026-74240 - A flaw was found in Red Hat Quay's JWT (JSON Web Token) validation for federated...",
-      "body": "A flaw was found in Red Hat Quay's JWT (JSON Web Token) validation for federated robot accounts and single sign-on (SSO) authentication. Multiple issues related to audience verification and the enforcement of `azp` and `sub` claims were identified. These flaws could allow an attacker with a validly-signed token from the same identity provider to bypass configured security restrictions. This bypass could lead to unauthorized access by circumventing intended audience, subject, or authorized-client limitations.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74240",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-14T23:16:33.960000",
-      "created_at": "2026-08-15T20:09:19.565259+00:00"
-    },
-    {
-      "id": "14c1055d1b972422",
-      "content_hash": "14c1055d1b97242224fa61757905354a9c9123204aedec7c288db88b1d376810",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63650",
-      "title": "CVE-2026-63650 - OpenVPN 2.7_alpha1 through 2.7.5 using mbedTLS allows remote authenticated users...",
-      "body": "OpenVPN 2.7_alpha1 through 2.7.5 using mbedTLS allows remote authenticated users to be misidentified by ignoring the configured X.509 username identity lookup field",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63650",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T23:16:32.653000",
-      "created_at": "2026-08-15T20:09:19.565252+00:00"
-    },
-    {
-      "id": "29af0f9281b61bfe",
-      "content_hash": "29af0f9281b61bfe0470718c26f20a068eac6d58ee13bcc3ef97a4c093eff663",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63649",
-      "title": "CVE-2026-63649 - The Windows interactive service in OpenVPN 2.4.0 through 2.6.21 and 2.7_alpha1 t...",
-      "body": "The Windows interactive service in OpenVPN 2.4.0 through 2.6.21 and 2.7_alpha1 through 2.7.5 allows local authenticated users to bypass the trusted configuration directory constraint and load arbitrary configuration files via crafted options that bypass whitelist checks",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63649",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-14T23:16:32.507000",
-      "created_at": "2026-08-15T20:09:19.565246+00:00"
     }
   ]
 }
