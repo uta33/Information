@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:20:05.499833+00:00",
+  "generated_at": "2026-08-17T11:15:06.341107+00:00",
   "items": [
     {
       "id": "270a7256b0f4af67",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-17T10:09:48+00:00",
       "created_at": "2026-08-17T10:20:00.248908+00:00"
+    },
+    {
+      "id": "a3cd05606339885a",
+      "content_hash": "a3cd05606339885ab3d87085155480d85340082b03c489fa5be4d528b24900a1",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "body": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including",
+      "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-17T09:29:55+00:00",
+      "created_at": "2026-08-17T11:15:01.081456+00:00"
     },
     {
       "id": "d157fc463687873a",
@@ -42,6 +56,34 @@
       "cvss_score": null,
       "published_at": "2026-08-17T08:00:00+00:00",
       "created_at": "2026-08-17T08:29:49.128187+00:00"
+    },
+    {
+      "id": "50d83bb2b35ad242",
+      "content_hash": "50d83bb2b35ad2425d02d81fcc9221278d9cdd4e6911267f47baeba55fae5f14",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://desktopcolors.com",
+      "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49327643\">Comments</a>",
+      "url": "https://desktopcolors.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T07:51:22+00:00",
+      "created_at": "2026-08-17T11:15:06.340482+00:00"
+    },
+    {
+      "id": "d3666537a849c73e",
+      "content_hash": "d3666537a849c73e9340325160dee4d65f1293e7b1d1d99aa70e886998e94ab9",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "body": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).\n\nThe attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code",
+      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-17T07:36:19+00:00",
+      "created_at": "2026-08-17T11:15:01.081494+00:00"
     },
     {
       "id": "58bbc9fd480ee341",
@@ -238,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-08-17T03:15:00+00:00",
       "created_at": "2026-08-17T08:29:54.630370+00:00"
+    },
+    {
+      "id": "c5ac30e97c2d50d9",
+      "content_hash": "c5ac30e97c2d50d9db1b4e425c4ec85f513212e3a58250075186a0f822ff08ba",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "title": "New policy ideas for the Intelligence Age",
+      "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T03:15:00+00:00",
+      "created_at": "2026-08-17T11:15:00.611297+00:00"
     },
     {
       "id": "a0c95ea0ba466b7d",
@@ -6120,6 +6176,20 @@
       "created_at": "2026-08-16T08:15:01.441843+00:00"
     },
     {
+      "id": "884dba379f401dce",
+      "content_hash": "884dba379f401dce3bb6e9a0b6175f102ab41e3697dfae3b3c867ab13ef42da0",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+      "body": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
+      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-15T08:38:46+00:00",
+      "created_at": "2026-08-17T11:15:01.081521+00:00"
+    },
+    {
       "id": "57dbd7c52325b344",
       "content_hash": "57dbd7c52325b344011d2c8bbb092daccfddfa65c88ce8a603da2ce311b8c4ef",
       "source_name": "Hacker News (Best)",
@@ -6146,6 +6216,20 @@
       "cvss_score": null,
       "published_at": "2026-08-15T07:31:46+00:00",
       "created_at": "2026-08-15T10:10:55.330714+00:00"
+    },
+    {
+      "id": "c6c4b36ce6eadb94",
+      "content_hash": "c6c4b36ce6eadb9444145831b89e666d641c8d6e504d165fe413453157be792e",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+      "body": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.\n\nThe vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to",
+      "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-15T07:24:04+00:00",
+      "created_at": "2026-08-17T11:15:01.081542+00:00"
     },
     {
       "id": "04740188d88821eb",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T06:21:00.670000",
       "created_at": "2026-08-16T06:19:55.918497+00:00"
-    },
-    {
-      "id": "5191dc3d7255f647",
-      "content_hash": "5191dc3d7255f647206bea822218ef26130e40df8b351966d29fd9caddaaa897",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72017",
-      "title": "CVE-2026-72017 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: macb: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: macb: drop in-flight Tx SKBs on close\n\nThe MACB driver has since forever leaked the outgoing SKBs that\nhave not yet been marked as completed. They live in queue->tx_skb\nwhich gets freed without remorse nor checking.\n\nmacb_free_consistent() gets called in a few codepaths, but only close will\ntrigger the added expressions. In macb_open() and macb_alloc_consistent()\nfailure cases, queues' tx_skb just got allocated and are empty.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72017",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.550000",
-      "created_at": "2026-08-16T06:19:55.918489+00:00"
-    },
-    {
-      "id": "30b9d2f5b0cea324",
-      "content_hash": "30b9d2f5b0cea32481f64643159e7677d7d46bbc3ae6005fb0e46f4225469aaa",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72016",
-      "title": "CVE-2026-72016 - In the Linux kernel, the following vulnerability has been resolved:\n\ncpu/hotplug...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpu/hotplug: Fix NULL kobject warning in cpuhp_smt_enable()\n\nOn arm64, when booting with `maxcpus` greater than the number of present\nCPUs (e.g., QEMU -smp cpus=4,maxcpus=8), some CPUs are marked as 'present'\nbut have not yet been registered via register_cpu(). Consequently,\nthe per-cpu device objects for these CPUs are not yet initialized.\n\nIn cpuhp_smt_enable(), the code iterates over all present CPUs. Calling\n_cpu_up() for these unregistered CPUs eventually leads to\nsysfs_create_group() being called with a NULL kobject (or a kobject\nwithout a directory), triggering the following warning in\nfs/sysfs/group.c:\n\n  WARNING: fs/sysfs/group.c:137 at internal_create_group+0x41c/0x4bc, CPU#2: sh/181\n  [...]\n  Call trace:\n    internal_create_group+0x41c/0x4bc (P)\n    sysfs_create_group+0x18/0x24\n    topology_add_dev+0x1c/0x28\n    cpuhp_invoke_callback+0x104/0x20c\n    __cpuhp_invoke_callback_range+0x94/0x11c\n    _cpu_up+0x200/0x37c\n\nWhen booting with ACPI, arm64 smp_prepare_cpus() currently sets all\nenumerated CPUs as \"present\" regardless of their status in the MADT. This\ncauses issues with SMT hotplug control. For instance, with QEMU's\n\"-smp 4,maxcpus=8\" configuration, the MADT GICC entries are populated as\nfollows:\n\n1. The first four CPUs: `Enabled` set but `Online Capable` not set.\n\n2. The remaining four CPUs: `Online Capable` set but `Enabled` not set\n   to support potential hot-plugging.\n\nFix this by:\n\n1. When booting with ACPI, checking the ACPI_MADT_ENABLED flag in the GICC\n   entry before calling set_cpu_present() during SMP initialization.\n\n2. Properly managing the present mask in acpi_map_cpu() and\n   acpi_unmap_cpu() to support actual CPU hotplug events, This aligns with\n   other architectures like x86 and LoongArch.\n\n3. Update the arm64 CPU hotplug documentation to no longer state that all\n   online-capable vCPUs are marked as present by the kernel at boot time.\n\nThis ensures that only physical",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72016",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.433000",
-      "created_at": "2026-08-16T06:19:55.918481+00:00"
-    },
-    {
-      "id": "ee7c3a874e3c50e0",
-      "content_hash": "ee7c3a874e3c50e007c549c0f1a9bfc0ce4c106bf85b7e9e81d69e6331cf5690",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72015",
-      "title": "CVE-2026-72015 - In the Linux kernel, the following vulnerability has been resolved:\n\nfs/resctrl:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/resctrl: Fix double-add of pseudo-locked region's RMID to free list\n\nA pseudo-locked group's RMID is freed when it is created. On unmount\nrmdir_all_sub() unconditionally frees all RMID of all groups, resulting\nin a double-free of the pseudo-locked group's RMID. The consequence of this\nis that the original free results in the pseudo-locked group's RMID being\nadded to the rmid_free_lru linked list and the second free then attempts\nto add the same RMID entry to the rmid_free_lru again.\n\nDo not double-free a pseudo-locked group's RMID.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72015",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.307000",
-      "created_at": "2026-08-16T06:19:55.918473+00:00"
-    },
-    {
-      "id": "88331d03cbe72def",
-      "content_hash": "88331d03cbe72defe8624a7bdc150c01116265d7fdf3cc674bcdcdcec68aafd4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72014",
-      "title": "CVE-2026-72014 - In the Linux kernel, the following vulnerability has been resolved:\n\ndrbd: rejec...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrbd: reject data replies with an out-of-range payload size\n\nrecv_dless_read() receives a P_DATA_REPLY from a peer into the bio of an\noutstanding read request. The peer-supplied payload length reaches it as\nthe signed int data_size, and two peer-controlled inputs can make it\nnegative. With a negotiated data-integrity-alg the digest length is\nsubtracted first, so a reply whose payload is smaller than the digest\nunderflows data_size. With no integrity algorithm (the default) data_size\nis assigned from the unsigned h95/h100 wire length and drbdd() never\nbounds it for a payload-carrying command, so a length above INT_MAX casts\nit negative; this path needs no non-default feature. The bio receive loop\nthen computes expect = min_t(int, data_size, bv_len), which is negative,\nand drbd_recv_all_warn(mapped, expect) receives with a size_t of SIZE_MAX\ninto the first mapped page.\n\nThe sibling receive path read_in_block() is not affected: it uses an\nunsigned size and rejects it against DRBD_MAX_BIO_SIZE before receiving.\nReject a data reply whose size is negative after the optional digest\nsubtraction, covering both triggers.\n\nImpact: a malicious or man-in-the-middle DRBD peer copies attacker-chosen\nbytes past a bio page in the receiver, corrupting kernel memory. A node\nthat reads from its peer (a diskless node, or read-balancing to the peer)\nis exposed in the default configuration; data-integrity-alg is not\nrequired.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72014",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.173000",
-      "created_at": "2026-08-16T06:19:55.918465+00:00"
-    },
-    {
-      "id": "7a8cf79f23393399",
-      "content_hash": "7a8cf79f233933991f9586d7ccb3bf2956db44c1669e97ff236e2abb6030417b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72013",
-      "title": "CVE-2026-72013 - In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Prev...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Prevent NULL pointer dereference in machine_kexec_prepare()\n\nA NULL pointer dereference issue is noticed in riscv's\nmachine_kexec_prepare(), where image->segment[i].buf might be NULL and\ncopied unchecked.\n\nThe NULL buf comes from ima_add_kexec_buffer(), where kbuf is added by\nkexec_add_buffer(), but kbuf.buffer is NULL, then it is copied without\na check in machine_kexec_prepare():\n\n  kexec_file_load\n    -> kimage_file_alloc_init()\n       -> kimage_file_prepare_segments()\n          -> ima_add_kexec_buffer()\n             -> kexec_add_buffer()\n    -> machine_kexec_prepare()\n       -> memcpy()\n\nAddress this by adding a check before the data copy attempt.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72013",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:21:00.033000",
-      "created_at": "2026-08-16T06:19:55.918458+00:00"
-    },
-    {
-      "id": "4decf70e7301d635",
-      "content_hash": "4decf70e7301d635a647b2a48a8a47ac6af7e6fa2f39be68d499126b056eb584",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72012",
-      "title": "CVE-2026-72012 - In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/osn...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/osnoise: Call synchronize_rcu() when unregistering\n\nThis ensures that any RCU readers traversing the instance list\nhave finished, before releasing the reference on the tracer that\nthe instance points to.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72012",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.907000",
-      "created_at": "2026-08-16T06:19:55.918450+00:00"
     }
   ]
 }
