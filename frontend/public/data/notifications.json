@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-17T21:14:48.155181+00:00",
+  "generated_at": "2026-08-17T22:12:29.111976+00:00",
   "items": [
+    {
+      "id": "b15851b917a7fc02",
+      "content_hash": "b15851b917a7fc02cbae048a23783ab57db5f551509b0675e9e58dd4e6b0c40e",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3153653",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "body": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T21:27:05+00:00",
+      "created_at": "2026-08-17T22:12:28.890621+00:00"
+    },
     {
       "id": "4efc1bf30557be94",
       "content_hash": "4efc1bf30557be944164d42fe51a5ffd0b8ddaecf18a24bd24413243603a12d8",
@@ -1274,6 +1288,20 @@
       "cvss_score": null,
       "published_at": "2026-08-17T09:29:55+00:00",
       "created_at": "2026-08-17T11:15:01.081456+00:00"
+    },
+    {
+      "id": "2739bef5e924732f",
+      "content_hash": "2739bef5e924732f5e2b15e792efaa9b2164e07e60209452de817e94d52ac391",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49302",
+      "title": "CVE-2026-49302 - Permission control vulnerability in the notification service module. Impact: Suc...",
+      "body": "Permission control vulnerability in the notification service module. Impact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49302",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.2,
+      "published_at": "2026-08-17T09:17:30.130000",
+      "created_at": "2026-08-17T22:12:24.956533+00:00"
     },
     {
       "id": "3d1926ef4ee10ffd",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T13:17:52.713000",
       "created_at": "2026-08-16T12:15:27.535176+00:00"
-    },
-    {
-      "id": "8c960784174ef0d2",
-      "content_hash": "8c960784174ef0d279a7f1025c1089eaa2335bb481d555212196abe398e108a0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74478",
-      "title": "CVE-2026-74478 - In the Linux kernel, the following vulnerability has been resolved:\n\num: vector:...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\num: vector: fix use-after-free in vector_mmsg_rx()\n\nWhen vector_mmsg_rx() discards a packet whose overlay header fails\nverify_header(), it frees the skb and continues the loop:\n\n\tif (header_check < 0) {\n\t\tdev_kfree_skb_irq(skb);\n\t\tvp->estats.rx_encaps_errors++;\n\t\tcontinue;\n\t}\n\nThe normal and short-packet paths fall through to the bottom of the\nloop body, which clears the consumed slot and advances the cursors:\n\n\t(*skbuff_vector) = NULL;\n\tmmsg_vector++;\n\tskbuff_vector++;\n\nThe verify_header() < 0 path skips that via continue, so the freed skb\nis left in skbuff_vector[] and the cursors do not advance. The next\niteration reads the same slot, gets the freed skb, and frees it again,\nproducing a refcount underflow / use-after-free in the RX path.\n\nDiscard the slot the same way the other paths do before continuing.\n\nOnly transports whose verify_header() can return negative are affected:\nGRE and L2TPv3 do so on a cookie/session-id mismatch (raw/tap do not),\nso any peer on such a transport can trigger it without authentication.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74478",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T13:17:52.600000",
-      "created_at": "2026-08-16T11:09:49.390583+00:00"
-    },
-    {
-      "id": "038447fd4dfeff0f",
-      "content_hash": "038447fd4dfeff0f144ecdae49cc11d321447228a38fd9f050f6d3f7a382d7b6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74477",
-      "title": "CVE-2026-74477 - In the Linux kernel, the following vulnerability has been resolved:\n\nuprobes: Fi...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nuprobes: Fix NULL pointer dereference in hprobe_expire()\n\nForking a task that has a pending uretprobe can oops the kernel with a\nNULL pointer dereference in the clone() path:\n\n  BUG: kernel NULL pointer dereference, address: 0000000000000018\n  Oops: 0002 [#1] SMP NOPTI\n  RIP: 0010:hprobe_expire\n  CR2: 0000000000000018\n  Call Trace:\n   uprobe_copy_process\n   copy_process\n   kernel_clone\n   __x64_sys_clone\n   do_syscall_64\n   entry_SYSCALL_64_after_hwframe\n\nThis was found on real hosts on Meta fleet.\n\nI've got the impression that this is what is happening:\n\n  CPU 1                          CPU 2 (traced task)\n  -----                          -------------------\n                                 hit uprobe, prepare_uretprobe():\n                                   hprobe LEASED, refcount >= 1\n  uprobe_unregister()\n    put_uprobe(): refcount -> 0\n                                 fork() -> dup_utask()\n                                   hprobe_expire(hprobe, true)\n                                     try_get_uprobe() -> NULL\n                                     get_uprobe(NULL)   <-- Oops\n\nOnly take the extra reference when the uprobe is non-NULL; a NULL means\nit is gone and is the correct value to return.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74477",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T13:17:52.497000",
-      "created_at": "2026-08-16T11:09:49.390577+00:00"
     }
   ]
 }
