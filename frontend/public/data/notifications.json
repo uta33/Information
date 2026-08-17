@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-17T08:29:54.797482+00:00",
+  "generated_at": "2026-08-17T09:28:32.403948+00:00",
   "items": [
+    {
+      "id": "d157fc463687873a",
+      "content_hash": "d157fc463687873a8eccd8a48d3a182f8981a5edc46252350e8bcac70fa85363",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+      "body": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-17T09:05:33+00:00",
+      "created_at": "2026-08-17T09:28:25.183866+00:00"
+    },
     {
       "id": "523a8d25ea7919ad",
       "content_hash": "523a8d25ea7919addaf906482d4d858bf7473b1449432dfcece28b5a82b0b321",
@@ -1358,6 +1372,20 @@
       "cvss_score": null,
       "published_at": "2026-08-16T21:53:43+00:00",
       "created_at": "2026-08-16T22:09:06.278919+00:00"
+    },
+    {
+      "id": "f17789229c941a33",
+      "content_hash": "f17789229c941a33990bc5a796d0cbf586cb3a69cbd710199d16278d49b61958",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49324087\">Comments</a>",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T21:53:43+00:00",
+      "created_at": "2026-08-17T09:28:32.403229+00:00"
     },
     {
       "id": "31e9ed0ac5edbb39",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T06:20:59.570000",
       "created_at": "2026-08-16T04:24:15.283047+00:00"
-    },
-    {
-      "id": "0d5c609dc07b6ddd",
-      "content_hash": "0d5c609dc07b6ddd4508c2f6b7d7cd070a154f70e3443fb34e5c0344b2f7588b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72008",
-      "title": "CVE-2026-72008 - In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: m...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: mediatek: Fix possible nullptr KP in HWV cleanup/on-check\n\nShould probe fail for HW_VOTER type power domains, this driver was\nunconditionally trying to perform cleanup for DIRECT_CTL domains,\nbut only after checking if the target domain is powered on... with\nthe DIRECT_CTL scpsys_domain_is_on() code again.\n\nAnd there's more: the scpsys_domain_is_on() function is also being\nunconditionally used in the probe path, for any power domain that\nhas flag MTK_SCPD_KEEP_DEFAULT_OFF!\n\nThis bug was never experienced by anyone because the HWV domains\nnever failed probe, and because none of those is declared with the\naforementioned flag - but it's still something critical.\n\nIn order to fix this, add a check for MTCMOS Type and, based on\nthat, call the correct functions for an \"is on\" check, and also\ndo the same for the cleanup path, calling the correct functions\nfor the \"power off\" action.\n\nFor the latter, since there's a call to pm_genpd_remove() right\nbefore calling power_off, be cautious and add a variation of the\npower off functions (with a _internal suffix) for those to get a\npointer to scpsys_domain instead of one to generic_pm_domain as,\neven if that's still working, this is way too much fragile and\nwould break at some point.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72008",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.473000",
-      "created_at": "2026-08-16T04:24:15.283040+00:00"
-    },
-    {
-      "id": "8770a24a4c8c8a83",
-      "content_hash": "8770a24a4c8c8a834a7dd47e902b4e0bd09bd9bc16e6c0ef6c0e119eebd922c4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72007",
-      "title": "CVE-2026-72007 - In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: i...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: imx: Fix i.MX8MP VC8000E power up sequence\n\nPer errata[1]:\nERR050531: VPU_NOC power down handshake may hang during VC8000E/VPUMIX\npower up/down cycling.\nDescription: VC8000E reset de-assertion edge and AXI clock may have a\ntiming issue.\nWorkaround: Set bit2 (vc8000e_clk_en) of BLK_CLK_EN_CSR to 0 to gate off\nboth AXI clock and VC8000E clock sent to VC8000E and AXI clock sent to\nVPU_NOC m_v_2 interface during VC8000E power up(VC8000E reset is\nde-asserted by HW)\n\nAdd a bool variable is_errata_err050531 in\n'struct imx8m_blk_ctrl_domain_data' to represent whether the workaround\nis needed. If is_errata_err050531 is true, first clear the clk before\npowering up gpc, then enable the clk after powering up gpc.\n\n[1] https://www.nxp.com/webapp/Download?colCode=IMX8MP_1P33A",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72007",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.350000",
-      "created_at": "2026-08-16T04:24:15.283034+00:00"
     }
   ]
 }
