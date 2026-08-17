@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T04:30:11.741467+00:00",
+  "generated_at": "2026-08-17T05:25:24.169173+00:00",
   "items": [
     {
       "id": "de66d68757a4616a",
@@ -1498,6 +1498,34 @@
       "cvss_score": null,
       "published_at": "2026-08-16T06:55:04+00:00",
       "created_at": "2026-08-16T07:21:41.157033+00:00"
+    },
+    {
+      "id": "c1f3ba2091e2c883",
+      "content_hash": "c1f3ba2091e2c8839ddacbed60ad7a5478bf4bb2bf1ac739e4fe0eaa2cd79ab1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-2283",
+      "title": "CVE-2026-2283 - The User Login History plugin for WordPress is vulnerable to SQL Injection via t...",
+      "body": "The User Login History plugin for WordPress is vulnerable to SQL Injection via the 'blog_id' parameter in all versions up to, and including, 2.1.7. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. This is only exploitable on multisite installations.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2283",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.9,
+      "published_at": "2026-08-16T06:16:53.003000",
+      "created_at": "2026-08-17T05:25:20.488728+00:00"
+    },
+    {
+      "id": "74c94c4564ba3732",
+      "content_hash": "74c94c4564ba373235232d689404a6243ea01a0f6f37a5d8b9afbd6a89fa9866",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19934",
+      "title": "CVE-2026-19934 - A vulnerability has been found in itsourcecode Hospital Management System 1.0. T...",
+      "body": "A vulnerability has been found in itsourcecode Hospital Management System 1.0. This impacts an unknown function of the file /vieworder.php. The manipulation of the argument delid leads to sql injection. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19934",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-16T06:16:52.773000",
+      "created_at": "2026-08-17T05:25:20.488721+00:00"
     },
     {
       "id": "31c3bf03579b3a6a",
@@ -6972,34 +7000,6 @@
       "cvss_score": 5.9,
       "published_at": "2026-08-14T23:16:34.600000",
       "created_at": "2026-08-15T21:10:13.921141+00:00"
-    },
-    {
-      "id": "7d6ada13e342f897",
-      "content_hash": "7d6ada13e342f8976507bdf974e530736653cdad3039ae9b4a2df85e8b261263",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74244",
-      "title": "CVE-2026-74244 - A flaw was found in Red Hat Quay's Stripe billing webhook handler. This vulnerab...",
-      "body": "A flaw was found in Red Hat Quay's Stripe billing webhook handler. This vulnerability allows an unauthenticated attacker to forge billing events by sending crafted JSON requests to the `/webhooks/stripe` endpoint without validating the Stripe-Signature header. Successful exploitation can lead to the unauthorized resetting of a namespace's build quota to its maximum and trigger unsolicited billing emails to namespace administrators.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74244",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-08-14T23:16:34.490000",
-      "created_at": "2026-08-15T21:10:13.921136+00:00"
-    },
-    {
-      "id": "3b28da0b5040daa6",
-      "content_hash": "3b28da0b5040daa63a9b49d853351d60430b1fa48ee4d10e0bb3ee01c84c5456",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74243",
-      "title": "CVE-2026-74243 - A flaw was found in Red Hat Quay. When the SECURITY_SCANNER_V4_PSK (pre-shared k...",
-      "body": "A flaw was found in Red Hat Quay. When the SECURITY_SCANNER_V4_PSK (pre-shared key) is not set, a remote unauthenticated attacker can send POST requests to the security scanner notification endpoint. This allows the attacker to flood the notification queue and inject path traversal characters into Clair API URL paths. The primary consequence is worker resource exhaustion and blind path manipulation on the configured Clair host, potentially leading to a denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74243",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-14T23:16:34.360000",
-      "created_at": "2026-08-15T21:10:13.921131+00:00"
     }
   ]
 }
