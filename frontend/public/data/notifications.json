@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-17T09:28:32.403948+00:00",
+  "generated_at": "2026-08-17T10:20:05.499833+00:00",
   "items": [
+    {
+      "id": "270a7256b0f4af67",
+      "content_hash": "270a7256b0f4af679224a2aa44451217eed4c8e9708ef5d81d02e3d94caeef0f",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "body": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-17T10:09:48+00:00",
+      "created_at": "2026-08-17T10:20:00.248908+00:00"
+    },
     {
       "id": "d157fc463687873a",
       "content_hash": "d157fc463687873a8eccd8a48d3a182f8981a5edc46252350e8bcac70fa85363",
@@ -126,6 +140,34 @@
       "cvss_score": null,
       "published_at": "2026-08-17T03:21:37+00:00",
       "created_at": "2026-08-17T04:30:11.740793+00:00"
+    },
+    {
+      "id": "e3c3a511d1e59928",
+      "content_hash": "e3c3a511d1e599283c99a900e5e9645b5cdf50a7a90bbacbe2b5da618cafb121",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-50601",
+      "title": "CVE-2026-50601 - A security vulnerability has been identified in the Planet9 desktop application ...",
+      "body": "A security vulnerability has been identified in the Planet9 desktop application where a hardcoded read-only API key permitted unauthorized access to internal repositories. An attacker could exploit this access to extract embedded administrative keys and secrets, potentially allowing them to gain administrative access to repository infrastructure and modify software source code. To mitigate this security risk, Acer has released an update to resolve the issue.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50601",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T03:16:50.703000",
+      "created_at": "2026-08-17T10:20:00.614209+00:00"
+    },
+    {
+      "id": "e537295cf0612e23",
+      "content_hash": "e537295cf0612e236dee1bbf431b21daf7b477df530197d8f1c6d05b01cd077d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19977",
+      "title": "CVE-2026-19977 - A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element ...",
+      "body": "A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element is the function httpcon_check_session_url of the component Session Validation. Performing a manipulation results in improper authentication. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19977",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 10.0,
+      "published_at": "2026-08-17T03:16:50.517000",
+      "created_at": "2026-08-17T10:20:00.614202+00:00"
     },
     {
       "id": "faea3aafc98c19df",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T06:20:59.907000",
       "created_at": "2026-08-16T06:19:55.918450+00:00"
-    },
-    {
-      "id": "8f8617cbf7657e80",
-      "content_hash": "8f8617cbf7657e807e0edee2c8d7d6591304f33f52a0bfaaedf6158e6c2ced58",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72011",
-      "title": "CVE-2026-72011 - In the Linux kernel, the following vulnerability has been resolved:\n\ns390/diag: ...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/diag: Add missing array_index_nospec() call to memtop_get_page_count()\n\n'level' is user space controlled and used to read from an array. Add the\nmissing array_index_nospec() call to prevent speculative execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72011",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.800000",
-      "created_at": "2026-08-16T06:19:55.918441+00:00"
-    },
-    {
-      "id": "91b788f8b0f98b14",
-      "content_hash": "91b788f8b0f98b14436089ac992f18bf47c609bb81c18e1956992f82c0ace6fc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72010",
-      "title": "CVE-2026-72010 - In the Linux kernel, the following vulnerability has been resolved:\n\ncgroup/cpus...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ncgroup/cpuset: rebind mm mempolicy to effective_mems, not mems_allowed\n\nCreating a child cpuset where cpuset.mems is never set leads to a div/0\nwhen a VMA mempolicy with MPOL_F_RELATIVE_NODES rebinds in response to a\nCPU hotplug event.\n\nReproduction steps:\n 1) Create a cgroup w/ cpuset controls (do not set cpuset.mems)\n 2) Move the task into the child cpuset\n 3) Create a VMA mempolicy for that task with MPOL_F_RELATIVE_NODES\n 4) unplug and hotplug a cpu\n      echo 0 > /sys/devices/system/cpu/cpu1/online\n      echo 1 > /sys/devices/system/cpu/cpu1/online\n 5) mempolicy rebind does a div/0 in mpol_relative_nodemask on the\n    call to __nodes_fold()\n\nThe cpuset code passes (cs->mems_allowed) which is not guaranteed to have\nnodes to the rebind routine.  Use cs->effective_mems instead, which is\nguaranteed to have a non-empty nodemask once we reach that code path.\n\n[ david: add a comment, slightly rephrase description ]",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72010",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.670000",
-      "created_at": "2026-08-16T04:24:15.283054+00:00"
-    },
-    {
-      "id": "60e31fe54e43ba01",
-      "content_hash": "60e31fe54e43ba012398aeeed229519b687eab5a9ec4d0ab9739588b8f06df21",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-72009",
-      "title": "CVE-2026-72009 - In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: i...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: imx93-blk-ctrl: Extract PHY as shared domain for DSI/CSI\n\nThe MIPI DSI and CSI domains share control bits for clock and reset, which\ncan lead to incorrect behavior if one domain disables the shared resource\nwhile the other is still active.\n\nTo fix the issue, introduce a shared MIPI PHY power domain to own the\ncommon resources and make DSI and CSI its subdomains. This ensures the\nshared bits are properly managed and not disabled while still in use.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72009",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T06:20:59.570000",
-      "created_at": "2026-08-16T04:24:15.283047+00:00"
     }
   ]
 }
