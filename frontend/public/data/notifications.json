@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T00:34:08.201649+00:00",
+  "generated_at": "2026-08-18T02:08:30.895528+00:00",
   "items": [
+    {
+      "id": "c0d73fd7cc5f680b",
+      "content_hash": "c0d73fd7cc5f680b2ba862bb5c6af5ba0f40ea4f9a085b2cc573011b6f1b1ec1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49340013",
+      "title": "Ask HN: Does anyone else feel like nothing matters anymore?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49340013\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49340013",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T01:28:48+00:00",
+      "created_at": "2026-08-18T02:08:30.895192+00:00"
+    },
     {
       "id": "5233df9ecd92ab9b",
       "content_hash": "5233df9ecd92ab9ba75c5a7b113f6e71600b98333dece0179427f2994ce64a14",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-17T23:56:26+00:00",
       "created_at": "2026-08-18T00:34:07.941156+00:00"
+    },
+    {
+      "id": "1d8fa10e2fa72729",
+      "content_hash": "1d8fa10e2fa72729ee37cf2e9179ee3a59c02f9953d4d1c793c4ceca07855026",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.repaircafe.org/",
+      "title": "Repair Cafe – Fix Your Broken Items",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49339097\">Comments</a>",
+      "url": "https://www.repaircafe.org/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T23:28:28+00:00",
+      "created_at": "2026-08-18T02:08:30.895131+00:00"
     },
     {
       "id": "889931192872f4b4",
@@ -210,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-08-17T21:03:04+00:00",
       "created_at": "2026-08-17T21:14:42.549514+00:00"
+    },
+    {
+      "id": "de90163c09d4cfe6",
+      "content_hash": "de90163c09d4cfe6bdea93d5a2725ad0f9c57d4e055cc044e81e7073c63f769e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49337392\">Comments</a>",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-17T20:46:10+00:00",
+      "created_at": "2026-08-18T02:08:30.895088+00:00"
     },
     {
       "id": "1e069d42b467a745",
@@ -1416,6 +1458,20 @@
       "created_at": "2026-08-17T12:18:57.734471+00:00"
     },
     {
+      "id": "1318211537592648",
+      "content_hash": "13182115375926482ef117daf55227994fa48e1fc6cd8173b2aa060153244fab",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74798",
+      "title": "CVE-2026-74798 - SiYuan kernel before v3.7.4 contains a path traversal vulnerability in the datab...",
+      "body": "SiYuan kernel before v3.7.4 contains a path traversal vulnerability in the database_clean MCP tool. The tool performs only an empty-string check on the id parameter before passing it to RemoveUnusedAttributeView (kernel/model/attribute_view.go), which builds a filesystem path via filepath.Join without validating that id matches SiYuan's node-ID format. An authenticated MCP client can supply path traversal sequences in id to cause the kernel to copy an arbitrary file readable by the process into SiYuan's history directory (arbitrary file read) and then delete the original file (arbitrary file deletion). The corresponding HTTP API handler was hardened in GHSA-7hm9-v7vf-7g4w, but this MCP caller was not.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74798",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.7,
+      "published_at": "2026-08-17T11:16:39.873000",
+      "created_at": "2026-08-18T02:08:27.107792+00:00"
+    },
+    {
       "id": "234e316e0c2ce43c",
       "content_hash": "234e316e0c2ce43ca712c7eff595121ac8ea7be30d05a91659c15f2c95359e89",
       "source_name": "The Hacker News",
@@ -1458,6 +1514,20 @@
       "created_at": "2026-08-17T12:19:03.321260+00:00"
     },
     {
+      "id": "95a2ef36d7646bee",
+      "content_hash": "95a2ef36d7646beebbd9b96705fb5d6e7918efa97ff2512c229ee96ed8fc22ed",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74845",
+      "title": "CVE-2026-74845 - Official Document Management System developed by 2100 Technology has an Arbitrar...",
+      "body": "Official Document Management System developed by 2100 Technology has an Arbitrary File Upload vulnerability, allowing authenticated remote attackers to upload and execute web shell backdoors, thereby enabling arbitrary code execution on the server.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74845",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-17T10:16:42.403000",
+      "created_at": "2026-08-18T02:08:27.107786+00:00"
+    },
+    {
       "id": "270a7256b0f4af67",
       "content_hash": "270a7256b0f4af679224a2aa44451217eed4c8e9708ef5d81d02e3d94caeef0f",
       "source_name": "Bleeping Computer",
@@ -1484,6 +1554,34 @@
       "cvss_score": null,
       "published_at": "2026-08-17T09:29:55+00:00",
       "created_at": "2026-08-17T11:15:01.081456+00:00"
+    },
+    {
+      "id": "c6e6ea663834b3da",
+      "content_hash": "c6e6ea663834b3da9442f2b30d16afc51235dd92dc1aead78c7af5069010dd28",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-58561",
+      "title": "CVE-2026-58561 - Null pointer dereference issue in the image codec module. Impact: Successful exp...",
+      "body": "Null pointer dereference issue in the image codec module. Impact: Successful exploitation of this vulnerability may affect availability.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58561",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.0,
+      "published_at": "2026-08-17T09:17:31.290000",
+      "created_at": "2026-08-18T02:08:27.107778+00:00"
+    },
+    {
+      "id": "9d62fdcb0e49fc45",
+      "content_hash": "9d62fdcb0e49fc45c809eed01644e1604bdb6ada65265bb1177ef26e09849c75",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-58560",
+      "title": "CVE-2026-58560 - Null pointer dereference issue in the image codec module. Impact: Successful exp...",
+      "body": "Null pointer dereference issue in the image codec module. Impact: Successful exploitation of this vulnerability may affect availability.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58560",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.0,
+      "published_at": "2026-08-17T09:17:31.140000",
+      "created_at": "2026-08-18T02:08:27.107771+00:00"
     },
     {
       "id": "c0694b20ea74e76b",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T14:34:04+00:00",
       "created_at": "2026-08-15T17:10:56.949644+00:00"
-    },
-    {
-      "id": "7c35b058349f5593",
-      "content_hash": "7c35b058349f55930f10be7f8a3887becca02b871ba512bf5501aaaba279daa5",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.dampfkraft.com/ghost-characters.html",
-      "title": "A spectre is haunting Unicode",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49310926\">Comments</a>",
-      "url": "https://www.dampfkraft.com/ghost-characters.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T14:34:04+00:00",
-      "created_at": "2026-08-15T22:08:51.145684+00:00"
-    },
-    {
-      "id": "7b4dacfa154ae106",
-      "content_hash": "7b4dacfa154ae106c6163d8ea4feabf7f6f7e789fb0efab87155da1d8a2cb989",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://printytron.com",
-      "title": "Printytron – Type it. 3D Print it",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49310829\">Comments</a>",
-      "url": "https://printytron.com",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T14:22:20+00:00",
-      "created_at": "2026-08-15T19:13:13.836417+00:00"
-    },
-    {
-      "id": "075eb4503fc56034",
-      "content_hash": "075eb4503fc56034c8c013d47dd6cd7cbbb979fd5c0f853547ca653ce9f31438",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19895",
-      "title": "CVE-2026-19895 - A vulnerability was detected in opensourcepos Open Source Point of Sale up to 3....",
-      "body": "A vulnerability was detected in opensourcepos Open Source Point of Sale up to 3.4.2. This affects the function Login::index of the file app/Config/Filters.php of the component Login Endpoint. The manipulation results in improper restriction of excessive authentication attempts. The attack may be launched remotely. The attack requires a high level of complexity. It is indicated that the exploitability is difficult. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19895",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.7,
-      "published_at": "2026-08-15T14:17:07.840000",
-      "created_at": "2026-08-16T15:09:50.403642+00:00"
-    },
-    {
-      "id": "8e5cf15ca645b482",
-      "content_hash": "8e5cf15ca645b4827cf6ec56c71ddb1fb5a1d625ab74ab35b5e3cdc3555ef178",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19474",
-      "title": "CVE-2026-19474 - @fastify/multipart is a multipart form-data parser for Fastify. In versions from...",
-      "body": "@fastify/multipart is a multipart form-data parser for Fastify. In versions from 3.0.0 up to but not including 10.1.1, request.saveRequestFiles() can leave completed temporary files on disk when a client disconnects while the parser is advancing between multipart parts. The iterator rejection that occurs between parts falls outside the per-file cleanup path, so an earlier completed file is never removed. An unauthenticated client can repeat this to cause persistent, linear disk consumption, leading to denial of service. This is an incomplete-fix variant of CVE-2025-24033. The issue is fixed in @fastify/multipart 10.1.1. Users should upgrade to 10.1.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19474",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-15T14:17:07.710000",
-      "created_at": "2026-08-16T15:09:50.403633+00:00"
-    },
-    {
-      "id": "a3d8b4d8927ff9a7",
-      "content_hash": "a3d8b4d8927ff9a7665ee5b166f1ca6f67debadc2338f607c3319bdf5d51b59b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18549",
-      "title": "CVE-2026-18549 - @fastify/multipart is a multipart form-data parser for Fastify. In versions from...",
-      "body": "@fastify/multipart is a multipart form-data parser for Fastify. In versions from 5.3.0 up to but not including 10.1.1, when the busboy fileSize limit truncates a file part, the plugin clears its internal current-file reference while the underlying stream is still open. If the client then aborts the connection before sending the terminating boundary, the abort cleanup finds no stream to destroy, so saveRequestFiles() never settles, the request handler hangs, and the temporary file already written to disk is never cleaned up. An unauthenticated client can repeat this to permanently leak temporary files and suspended handler executions, leading to disk and event-loop exhaustion. The issue is fixed in @fastify/multipart 10.1.1. Users should upgrade to 10.1.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18549",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-15T14:17:07.590000",
-      "created_at": "2026-08-16T15:09:50.403624+00:00"
-    },
-    {
-      "id": "838fc8efe139dc3c",
-      "content_hash": "838fc8efe139dc3c74cdd15b1b5341e2d3f1cd8a714ca8d8929ec2df23225f7c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18500",
-      "title": "CVE-2026-18500 - @fastify/jwt is a JSON Web Token plugin for Fastify. In versions before 10.2.2, ...",
-      "body": "@fastify/jwt is a JSON Web Token plugin for Fastify. In versions before 10.2.2, a per-request verification key passed to request.jwtVerify({ key }) is silently overridden by the plugin's globally configured secret, because the option merge applies the global key last. Applications that use different keys for different authorization domains, for example separate user and admin keys, therefore accept a token signed with the global key on a route that explicitly requires another key. This lets an ordinary authenticated user cross a key-based trust boundary without knowing either secret. The issue is fixed in @fastify/jwt 10.2.2, where an explicit per-call key takes precedence over the global secret. Users should upgrade to 10.2.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18500",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-15T14:17:07.473000",
-      "created_at": "2026-08-16T15:09:50.403614+00:00"
-    },
-    {
-      "id": "ea394fd913f7e1f4",
-      "content_hash": "ea394fd913f7e1f4ef6c7c0ad0bfc53b26bd3e5878047f86ee59c16f9913e523",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18165",
-      "title": "CVE-2026-18165 - @fastify/oauth2 is an OAuth 2.0 plugin for Fastify. In versions from 7.2.0 up to...",
-      "body": "@fastify/oauth2 is an OAuth 2.0 plugin for Fastify. In versions from 7.2.0 up to but not including 8.3.0, the plugin validates the OAuth state, and with PKCE the code verifier, by comparing the callback query parameter against an unprefixed, predictable cookie, with no server-side binding to the browser that began the flow. Any party able to write a cookie for the application's host, such as a sibling subdomain under the same registrable domain, can plant matching state and verifier cookies and complete an attacker-owned OAuth flow inside a victim's browser, silently signing the victim in to the attacker's account (login CSRF). It does not expose the victim's own account, credentials, or tokens. The issue is fixed in @fastify/oauth2 8.3.0, which adds an opt-in hostPrefixedCookies option. Users should upgrade to 8.3.0 and enable it, or bind state to a server-side session.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18165",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.2,
-      "published_at": "2026-08-15T14:17:07.290000",
-      "created_at": "2026-08-16T15:09:50.403601+00:00"
     }
   ]
 }
