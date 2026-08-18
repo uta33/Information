@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-18T19:19:48.857233+00:00",
+  "generated_at": "2026-08-18T20:10:30.438856+00:00",
   "items": [
+    {
+      "id": "99427b8e924bd3dc",
+      "content_hash": "99427b8e924bd3dc10e755eb35ac219ca7cf60cc8fbf46c94868dcd4e8e94b93",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3154071",
+      "title": "TikTok explores peer-to-peer payments via DMs, report says",
+      "body": "If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in Southeast Asia for TikTok Shop purchases.",
+      "url": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T20:03:56+00:00",
+      "created_at": "2026-08-18T20:10:30.152419+00:00"
+    },
+    {
+      "id": "696953ba68fdcdb8",
+      "content_hash": "696953ba68fdcdb8a03976171a268e7684ab3ddba2739af215d71e7cda70223b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "title": "Norway Should Buy OpenAI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49351330\">Comments</a>",
+      "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T19:30:29+00:00",
+      "created_at": "2026-08-18T20:10:30.438134+00:00"
+    },
+    {
+      "id": "69de632331a93da1",
+      "content_hash": "69de632331a93da1f115e4ed54c67d7875871a5f97bad980d40e4efc2ce1f84e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+      "title": "Beware Management Consultants",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49351324\">Comments</a>",
+      "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T19:29:51+00:00",
+      "created_at": "2026-08-18T20:10:30.438112+00:00"
+    },
+    {
+      "id": "3cba58094f5b29ce",
+      "content_hash": "3cba58094f5b29ce143564119bce4a13b99aaa27d69107d4e8cb1c03820a38b7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/argus-testing/argus",
+      "title": "Show HN: Argus, agentic QA for teams whose coding agents move faster than QA",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49351020\">Comments</a>",
+      "url": "https://github.com/argus-testing/argus",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T19:10:16+00:00",
+      "created_at": "2026-08-18T20:10:30.438455+00:00"
+    },
     {
       "id": "a7738fc5dff2744a",
       "content_hash": "a7738fc5dff2744a4352a25d4948e0e3fdded41ecf781facbad9a747d431cf24",
@@ -30,6 +86,20 @@
       "created_at": "2026-08-18T19:19:48.856563+00:00"
     },
     {
+      "id": "85c6845ad5da9578",
+      "content_hash": "85c6845ad5da95781117c456d1a42ed7fcd68e729b1fb23bb268ac293b8c6385",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "title": "Strengthening Democratic Oversight in National Security",
+      "body": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T19:00:00+00:00",
+      "created_at": "2026-08-18T20:10:24.985168+00:00"
+    },
+    {
       "id": "e8481d0f9d8f6bec",
       "content_hash": "e8481d0f9d8f6becbaeb8b8390b0fb15a89f4d083a0d9593e29ec102e865b81f",
       "source_name": "Hacker News (Best)",
@@ -42,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T18:47:51+00:00",
       "created_at": "2026-08-18T19:19:48.856835+00:00"
+    },
+    {
+      "id": "a61ddd12f0cf0f65",
+      "content_hash": "a61ddd12f0cf0f65e145b77c3b4c5c14bd4a4ff4bd73f641bd71230a9b376828",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49350031\">Comments</a>",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-18T18:14:59+00:00",
+      "created_at": "2026-08-18T20:10:30.438295+00:00"
     },
     {
       "id": "4575a9585bce595b",
@@ -6916,90 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-17T04:16:54.783000",
       "created_at": "2026-08-17T16:13:22.507121+00:00"
-    },
-    {
-      "id": "ea7e851f4b2644f6",
-      "content_hash": "ea7e851f4b2644f6116dd00d1a522af5e1e01cb7db18e7403238590f6c01f1b2",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028659.html",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年08月13日）",
-      "body": "2026年08月13日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。\n\n新規：15件<ul><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01\" target=\"_blank\">ICSA-26-225-01: AVEVA Enterprise SCADA</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02\" target=\"_blank\">ICSA-26-225-02: Haiwell IoT Cloud HMI Gateway</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03\" target=\"_blank\">ICSA-26-225-03: Johnson Controls Inc. Airwall</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04\" target=\"_blank\">ICSA-26-225-04: Hitachi Energy APM Edge Product</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05\" target=\"_blank\">ICSA-26-225-05: ANDRITZ HIPASE-250 and 250 SCALA</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-06\" target=\"_blank\">ICSA-26-225-06: Siemens RUGGEDCOM APE1808</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07\" target=\"_blank\">ICSA-26-225-07: Siemens License Server (SLS)</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08\" target=\"_blank\">ICSA-26-225-08: Siemens Desigo DXR and PXC Controllers</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09\" target=\"_blank\">ICSA-26-225-09: Siemens Siveillance Video</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10\" target=\"_blank\">ICSA-26-225-10: Siemens Parasolid</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11\" target=\"_blank\">ICSA-26-225-11: Siemens Simcenter Femap</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12\" target=\"_blank\">ICSA-26-225-12: Siemens Solid Edge</a></li><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13\" target=\"_blank\">ICSA-26-225-13: Siemens LOGO! Soft Comfort</a></li><li><a href=\"https://www.cisa.gov/news",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-028659.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T03:29:00+00:00",
-      "created_at": "2026-08-17T08:29:54.630354+00:00"
-    },
-    {
-      "id": "de66d68757a4616a",
-      "content_hash": "de66d68757a4616ace6ee43486ba7095e97fcf353b5ba7a47b3a9b30227ee23c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://boston.conman.org/2026/08/11.1",
-      "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49326229\">Comments</a>",
-      "url": "https://boston.conman.org/2026/08/11.1",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T03:21:37+00:00",
-      "created_at": "2026-08-17T04:30:11.740793+00:00"
-    },
-    {
-      "id": "45cbe7f24abfd6b4",
-      "content_hash": "45cbe7f24abfd6b4310e9141d7407d544ade00361f534675f6150c6b29429f29",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50602",
-      "title": "CVE-2026-50602 - A security vulnerability has been identified in Planet9 due to incorrect file pe...",
-      "body": "A security vulnerability has been identified in Planet9 due to incorrect file permissions assigned to an application executable used by the Planet9 background service. The service runs with SYSTEM privileges, while the affected executable grants excessive permissions to non-administrative users. As a result, an authenticated local user could potentially modify or replace the executable and execute arbitrary code with SYSTEM privileges when the service starts or the system is restarted.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50602",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T03:16:50.840000",
-      "created_at": "2026-08-17T15:14:33.056049+00:00"
-    },
-    {
-      "id": "e3c3a511d1e59928",
-      "content_hash": "e3c3a511d1e599283c99a900e5e9645b5cdf50a7a90bbacbe2b5da618cafb121",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50601",
-      "title": "CVE-2026-50601 - A security vulnerability has been identified in the Planet9 desktop application ...",
-      "body": "A security vulnerability has been identified in the Planet9 desktop application where a hardcoded read-only API key permitted unauthorized access to internal repositories. An attacker could exploit this access to extract embedded administrative keys and secrets, potentially allowing them to gain administrative access to repository infrastructure and modify software source code. To mitigate this security risk, Acer has released an update to resolve the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50601",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T03:16:50.703000",
-      "created_at": "2026-08-17T10:20:00.614209+00:00"
-    },
-    {
-      "id": "e537295cf0612e23",
-      "content_hash": "e537295cf0612e236dee1bbf431b21daf7b477df530197d8f1c6d05b01cd077d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19977",
-      "title": "CVE-2026-19977 - A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element ...",
-      "body": "A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element is the function httpcon_check_session_url of the component Session Validation. Performing a manipulation results in improper authentication. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19977",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-08-17T03:16:50.517000",
-      "created_at": "2026-08-17T10:20:00.614202+00:00"
-    },
-    {
-      "id": "faea3aafc98c19df",
-      "content_hash": "faea3aafc98c19df0cf85155248ad392f120f6c26e3459f81193e00238185bf2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19976",
-      "title": "CVE-2026-19976 - A security vulnerability has been detected in COMFAST CF-N1-S 2.6.0.1. Impacted ...",
-      "body": "A security vulnerability has been detected in COMFAST CF-N1-S 2.6.0.1. Impacted is the function sub_44A968 of the file /cgi-bin/mbox-config?method=SET&section=ptest_macaddress. Such manipulation of the argument macaddress leads to command injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19976",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.6,
-      "published_at": "2026-08-17T03:16:50.333000",
-      "created_at": "2026-08-17T08:29:51.338734+00:00"
     }
   ]
 }
