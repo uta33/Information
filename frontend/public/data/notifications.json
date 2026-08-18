@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:23:38.138602+00:00",
+  "generated_at": "2026-08-18T05:18:42.339261+00:00",
   "items": [
     {
       "id": "8819dc9b23fd1772",
@@ -2184,6 +2184,62 @@
       "cvss_score": null,
       "published_at": "2026-08-17T11:25:02+00:00",
       "created_at": "2026-08-17T12:18:57.734471+00:00"
+    },
+    {
+      "id": "63142fba4c20e1f8",
+      "content_hash": "63142fba4c20e1f8af6a7c07575f1d5d6de66792c3ac4685afb674c39b874f23",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74879",
+      "title": "CVE-2026-74879 - openssl_encrypt versions before 1.4.0 contain an information disclosure vulnerab...",
+      "body": "openssl_encrypt versions before 1.4.0 contain an information disclosure vulnerability in the /ready endpoint that returns full database exception strings to unauthenticated callers. Attackers can trigger database errors to extract sensitive information including hostnames, IP addresses, connection parameters, and potentially credentials from exception messages.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74879",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-17T11:16:42.460000",
+      "created_at": "2026-08-18T05:18:38.594588+00:00"
+    },
+    {
+      "id": "7739818086c95cfe",
+      "content_hash": "7739818086c95cfece6b554abe6d49223740f0a83f818f2325a9e1e01d2a0c1b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74878",
+      "title": "CVE-2026-74878 - openssl_encrypt versions before 1.4.0 use an in-memory rate limiter for TOTP bru...",
+      "body": "openssl_encrypt versions before 1.4.0 use an in-memory rate limiter for TOTP brute-force protection that is not shared across workers and is lost on server restart. Attackers can distribute authentication attempts across multiple server instances or retry immediately after a restart to bypass rate limiting protections.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74878",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:42.330000",
+      "created_at": "2026-08-18T05:18:38.594582+00:00"
+    },
+    {
+      "id": "46fed682354fcd3c",
+      "content_hash": "46fed682354fcd3c373c420e1a131843dae4986ac4eff3a1d479411b9826c21a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74877",
+      "title": "CVE-2026-74877 - openssl_encrypt versions before 1.4.0 contain a missing ownership verification v...",
+      "body": "openssl_encrypt versions before 1.4.0 contain a missing ownership verification vulnerability in the revoke_key method that allows authenticated clients to revoke any other client's key. Attackers can revoke arbitrary keys by providing a valid ML-DSA signature, bypassing the intended ownership restriction.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74877",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-17T11:16:42.203000",
+      "created_at": "2026-08-18T05:18:38.594575+00:00"
+    },
+    {
+      "id": "ae71bd5b9c8e0b6e",
+      "content_hash": "ae71bd5b9c8e0b6e97fb03d8adf7aacb68d6687b097c17f61f2cef8c32842c61",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74876",
+      "title": "CVE-2026-74876 - openssl_encrypt versions before 1.4.0 contain a vulnerability in PublicKeyBundle...",
+      "body": "openssl_encrypt versions before 1.4.0 contain a vulnerability in PublicKeyBundle.from_dict() that creates key bundles from untrusted data without verifying signatures. Attackers can call from_dict() followed by to_identity() without signature verification to encrypt data using attacker-controlled public keys, leaking secrets.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74876",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:42.073000",
+      "created_at": "2026-08-18T05:18:38.594568+00:00"
     },
     {
       "id": "a6c601b8225edd88",
@@ -4452,6 +4508,20 @@
       "cvss_score": 6.3,
       "published_at": "2026-08-16T22:16:28.970000",
       "created_at": "2026-08-17T07:41:44.143753+00:00"
+    },
+    {
+      "id": "af4d1e262f72acea",
+      "content_hash": "af4d1e262f72acea95aa9791f0bed74f746e3b228b5b2458b5fa61f92b85af71",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thenewcuriosityshop.substack.com/p/ghosts-of-the-past-and-devils-of",
+      "title": "Ghosts of the Past and Devils of the Present",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49324256\">Comments</a>",
+      "url": "https://thenewcuriosityshop.substack.com/p/ghosts-of-the-past-and-devils-of",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-16T22:11:43+00:00",
+      "created_at": "2026-08-18T05:18:42.338903+00:00"
     },
     {
       "id": "0863158b36fb77b7",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T22:55:50+00:00",
       "created_at": "2026-08-16T02:14:05.556152+00:00"
-    },
-    {
-      "id": "d669873a9ea15bd7",
-      "content_hash": "d669873a9ea15bd772247f128f91d1a440af5a225eb6b3c4119c9979add8672d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2608.13122",
-      "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49314967\">Comments</a>",
-      "url": "https://arxiv.org/abs/2608.13122",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:41:51+00:00",
-      "created_at": "2026-08-16T03:38:06.517168+00:00"
-    },
-    {
-      "id": "97ee3fbd8919c6ac",
-      "content_hash": "97ee3fbd8919c6ac392ff2474cbc3b9c894f6ee45052766008859f17047efd32",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
-      "title": "The Government Is Monitoring Anti-Flock TikTok and Instagram Accounts",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49314962\">Comments</a>",
-      "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:40:20+00:00",
-      "created_at": "2026-08-15T23:10:12.516227+00:00"
-    },
-    {
-      "id": "5bdffd498e8d3992",
-      "content_hash": "5bdffd498e8d39929f06825292c41c24f3c4aab066d53f68f04a6c7f7a1e0284",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-      "title": "Software Engineering fundamentals matter more",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49314902\">Comments</a>",
-      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:31:09+00:00",
-      "created_at": "2026-08-16T03:38:06.516912+00:00"
-    },
-    {
-      "id": "1d3ef62648646358",
-      "content_hash": "1d3ef62648646358a79a0ad047870972fd3aea7a95c025a8d93d4c7467e2387a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://sugartrack-beta.vercel.app/",
-      "title": "SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49314884\">Comments</a>",
-      "url": "https://sugartrack-beta.vercel.app/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:28:14+00:00",
-      "created_at": "2026-08-15T23:10:12.516141+00:00"
-    },
-    {
-      "id": "0525458e93113fab",
-      "content_hash": "0525458e93113fab1f93d0b48f14d024c226958aec05ca28ec5044955240d771",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74767",
-      "title": "CVE-2026-74767 - Pandora contains a denial-of-service vulnerability in its handling of DAA (Direc...",
-      "body": "Pandora contains a denial-of-service vulnerability in its handling of DAA (Direct Access Archive) files. When extracting the internal ISO image from a DAA archive, compressed chunks were decompressed using zlib.decompress() without enforcing a limit on the resulting uncompressed data.\n\n\nAn attacker able to submit a crafted DAA file containing highly compressed data could cause Pandora to decompress a relatively small input into a very large amount of data in memory. Because the decompressed chunks are accumulated to construct the internal ISO image, this could result in excessive memory consumption and potentially CPU exhaustion, causing the extraction worker to become unresponsive, terminate, or affect the availability of the Pandora service.\n\n\nThe patch introduces bounded decompression using decompressobj().decompress() with max_extracted_filesize, verifies the cumulative size of decompressed chunks, and raises a dedicated ZipBomb exception when the configured limit is exceeded. Pandora then aborts extraction and reports the file as too large.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74767",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:16:55.697000",
-      "created_at": "2026-08-16T15:09:50.403869+00:00"
     }
   ]
 }
