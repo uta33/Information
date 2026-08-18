@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T08:21:46.634157+00:00",
+  "generated_at": "2026-08-18T09:20:26.197246+00:00",
   "items": [
+    {
+      "id": "830fc685da8cd8f7",
+      "content_hash": "830fc685da8cd8f7e45b92b66d2f1d9e873bbd31db424de3a17c6277980f6278",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "body": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.\n\nThe hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line \"[Important] Your SafePal Order",
+      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T09:10:45+00:00",
+      "created_at": "2026-08-18T09:20:20.972046+00:00"
+    },
     {
       "id": "1c7585900d301248",
       "content_hash": "1c7585900d30124809b034bb112f1d511d122f7d59d013b690f46a3f83fabc5a",
@@ -14,6 +28,34 @@
       "cvss_score": null,
       "published_at": "2026-08-18T08:12:08+00:00",
       "created_at": "2026-08-18T08:21:41.805978+00:00"
+    },
+    {
+      "id": "2480c54a1d1fb519",
+      "content_hash": "2480c54a1d1fb5197a8f9d2eca739a1202c736db345c218b1670206a9baabf54",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49342719\">Comments</a>",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T07:51:50+00:00",
+      "created_at": "2026-08-18T09:20:26.196585+00:00"
+    },
+    {
+      "id": "d4aaf17fa4cb8a31",
+      "content_hash": "d4aaf17fa4cb8a319fc8f06821de62b966f4d5c47f959da796c89c447390197f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://acadia.engineering/blog/rethinking-database-programming",
+      "title": "Rethinking Database Programming",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49342530\">Comments</a>",
+      "url": "https://acadia.engineering/blog/rethinking-database-programming",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T07:28:27+00:00",
+      "created_at": "2026-08-18T09:20:26.196775+00:00"
     },
     {
       "id": "996da97dca0e3d62",
@@ -2240,6 +2282,48 @@
       "cvss_score": null,
       "published_at": "2026-08-17T11:25:02+00:00",
       "created_at": "2026-08-17T12:18:57.734471+00:00"
+    },
+    {
+      "id": "c9aa075e3c1e0722",
+      "content_hash": "c9aa075e3c1e0722fd99241ed22073fe3ad68aec394d6c21904fb269656784e6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74901",
+      "title": "CVE-2026-74901 - openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerabi...",
+      "body": "openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerability in pqc.py where AES-GCM decryption failures trigger fallback to unauthenticated AES-CTR mode. Attackers can modify ciphertext in transit to bypass integrity verification and perform bit-flipping attacks without detection.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74901",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:45.183000",
+      "created_at": "2026-08-18T09:20:21.720448+00:00"
+    },
+    {
+      "id": "b0d1da6f1836a158",
+      "content_hash": "b0d1da6f1836a158ca490759f6f9ef06ce631034889947d875ae5bf9b24adbad",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74900",
+      "title": "CVE-2026-74900 - openssl_encrypt versions before 1.4.0 contain a critical vulnerability in pqc.py...",
+      "body": "openssl_encrypt versions before 1.4.0 contain a critical vulnerability in pqc.py where KEM decapsulation failures silently fall back to simulation mode, generating a deterministic shared secret from only 16 bytes of the private key and publicly available encapsulated key data. Attackers who obtain 16 bytes of the private key can compute the shared secret and decrypt all ciphertext, as the fallback triggers on any KEM failure without raising an error.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74900",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:45.050000",
+      "created_at": "2026-08-18T09:20:21.720443+00:00"
+    },
+    {
+      "id": "6e8e495f8f6b4238",
+      "content_hash": "6e8e495f8f6b4238c8add8cb46bba1c92d7fcf9dd795e0e151058c05514b4140",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74899",
+      "title": "CVE-2026-74899 - openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in ...",
+      "body": "openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in IsolatedPluginExecutor that exposes Python type objects in restricted exec() builtins. Attackers can traverse the Python class hierarchy via __class__.__mro__.__subclasses__() to access system functions and execute arbitrary OS commands.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74899",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:44.917000",
+      "created_at": "2026-08-18T09:20:21.720437+00:00"
     },
     {
       "id": "602f3b699ace6ab1",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-16T04:02:38+00:00",
       "created_at": "2026-08-16T04:24:20.398091+00:00"
-    },
-    {
-      "id": "fd7aef8169c299a2",
-      "content_hash": "fd7aef8169c299a2864652bbfbd0257412834f74015ecc1f2401771bcf14e113",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.science.org/doi/10.1126/sciadv.adx3012",
-      "title": "Targeted marine cloud brightening weakens subsequent El Niño",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49316685\">Comments</a>",
-      "url": "https://www.science.org/doi/10.1126/sciadv.adx3012",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-16T03:40:05+00:00",
-      "created_at": "2026-08-16T06:20:00.332641+00:00"
-    },
-    {
-      "id": "da31926e3c05b1f6",
-      "content_hash": "da31926e3c05b1f667a44eceb56584b5477099a4ff41726b056b5ccf51c73cd1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nntaleb.substack.com/p/have-another-drink",
-      "title": "Government sponsored study on alcohol doesn't stand up to scrutiny: Nassim Taleb",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49316611\">Comments</a>",
-      "url": "https://nntaleb.substack.com/p/have-another-drink",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-16T03:23:34+00:00",
-      "created_at": "2026-08-16T04:24:20.398380+00:00"
-    },
-    {
-      "id": "9fc3d9630a3f831a",
-      "content_hash": "9fc3d9630a3f831a886c2f52d086ab05594b42aead0940a9c562e93e6b77a6ea",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://nntaleb.substack.com/p/have-another-drink",
-      "title": "Government sponsored study on alcohol doesn't stand up to scrutiny",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49316611\">Comments</a>",
-      "url": "https://nntaleb.substack.com/p/have-another-drink",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-16T03:23:34+00:00",
-      "created_at": "2026-08-16T07:21:41.157354+00:00"
-    },
-    {
-      "id": "34930306ff0d5092",
-      "content_hash": "34930306ff0d5092fc2639fed2114a636aeadce33a6806bb07003e4187856e4e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/yebiguo/ProofRun",
-      "title": "ProofRun – a local verification receipt for AI coding agents",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49316605\">Comments</a>",
-      "url": "https://github.com/yebiguo/ProofRun",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-16T03:22:15+00:00",
-      "created_at": "2026-08-16T05:17:20.483230+00:00"
-    },
-    {
-      "id": "edf3b16d7cee3c5d",
-      "content_hash": "edf3b16d7cee3c5dbaecee615cda580382a11b21a585f743eea7812fde5549fe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19929",
-      "title": "CVE-2026-19929 - A vulnerability was identified in OpenBoxes up to 0.9.6. This impacts the functi...",
-      "body": "A vulnerability was identified in OpenBoxes up to 0.9.6. This impacts the function buildZebraTemplate of the file grails-app/controllers/org/pih/warehouse/core/DocumentController.groovy of the component Template Processing. The manipulation leads to improper neutralization of special elements used in a template engine. It is possible to initiate the attack remotely. The exploit is publicly available and might be used. Upgrading to version 0.9.8-hotfix1 and 0.9.8 will fix this issue. The identifier of the patch is deeac6a4a7aba86ce99c4bda37142e41d209293e. It is recommended to upgrade the affected component.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19929",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-16T03:16:50.300000",
-      "created_at": "2026-08-16T15:09:50.403975+00:00"
-    },
-    {
-      "id": "31021c5335deb5ba",
-      "content_hash": "31021c5335deb5baf7ff20f9a33773310768005e8d9c9dbb0725cc076abf0dbe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19928",
-      "title": "CVE-2026-19928 - A vulnerability was determined in OpenBoxes up to 0.9.7. This affects the functi...",
-      "body": "A vulnerability was determined in OpenBoxes up to 0.9.7. This affects the function needManager of the file grails-app/controllers/org/pih/warehouse/RoleInterceptor.groovy of the component Role Interceptor. Executing a manipulation can lead to improper privilege management. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. Upgrading to version 0.9.8-hotfix1 and 0.9.8 mitigates this issue. This patch is called 788cace0af816aa972a713a4631c57f16f895e6b. Upgrading the affected component is recommended.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19928",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-16T03:16:50.143000",
-      "created_at": "2026-08-16T15:09:50.403967+00:00"
     }
   ]
 }
