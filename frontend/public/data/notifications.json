@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-18T14:20:53.772214+00:00",
+  "generated_at": "2026-08-18T15:20:05.186224+00:00",
   "items": [
+    {
+      "id": "72a232f847e733ee",
+      "content_hash": "72a232f847e733ee6e74efd963ff54b29b8a5088ed55ddec43a752db85011691",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://pleated-jeans.com/2026/08/15/engineers-forgotten-recipe-hack-viral-divides-internet/",
+      "title": "An Engineer's Old Cooking Trick Is Going Viral, Divides the Internet",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49346312\">Comments</a>",
+      "url": "https://pleated-jeans.com/2026/08/15/engineers-forgotten-recipe-hack-viral-divides-internet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T14:40:42+00:00",
+      "created_at": "2026-08-18T15:20:05.185834+00:00"
+    },
+    {
+      "id": "d03cea018be9cd7f",
+      "content_hash": "d03cea018be9cd7f04587a87afc1c1448e27ed59324eadd2a6fabdacfd2a8d65",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
+      "title": "Babies born under sugar rationing grew into adults with lower cancer risk",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49345843\">Comments</a>",
+      "url": "https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T14:06:50+00:00",
+      "created_at": "2026-08-18T15:20:05.185794+00:00"
+    },
     {
       "id": "f41b2d97716f54d6",
       "content_hash": "f41b2d97716f54d616d7edbb89f17df170a78916d756e6d893e96f6790277b2f",
@@ -168,6 +196,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T13:08:32+00:00",
       "created_at": "2026-08-18T14:20:53.771642+00:00"
+    },
+    {
+      "id": "99664fec1c04d670",
+      "content_hash": "99664fec1c04d6704fb1304df8dd1d5fa746899b34635ee8fb4ca65e10af2d26",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://newsletter.kentbeck.com/p/composable-tests",
+      "title": "Composable Tests",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49345094\">Comments</a>",
+      "url": "https://newsletter.kentbeck.com/p/composable-tests",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T13:08:32+00:00",
+      "created_at": "2026-08-18T15:20:05.185674+00:00"
     },
     {
       "id": "9071e48d74826c51",
@@ -462,6 +504,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T10:13:28+00:00",
       "created_at": "2026-08-18T11:14:10.270949+00:00"
+    },
+    {
+      "id": "1014104c17ff05d9",
+      "content_hash": "1014104c17ff05d98c9be10f7381a35a5f6310c3449760d98dc7f530d6ed7d7f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "title": "Google buys crashed airline Spirit's data at auction",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49343559\">Comments</a>",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T10:13:28+00:00",
+      "created_at": "2026-08-18T15:20:05.185715+00:00"
     },
     {
       "id": "a04571d42f2dd3fe",
@@ -6944,62 +7000,6 @@
       "cvss_score": 8.6,
       "published_at": "2026-08-16T14:16:57.183000",
       "created_at": "2026-08-17T07:41:44.143701+00:00"
-    },
-    {
-      "id": "4d75f5522d52f8d3",
-      "content_hash": "4d75f5522d52f8d3c9fd34731fcbcafea6bec464fdb154fde6dac83266748184",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74790",
-      "title": "CVE-2026-74790 - Scriban before 7.0.0 caches TypedObjectAccessor by Type only without considering...",
-      "body": "Scriban before 7.0.0 caches TypedObjectAccessor by Type only without considering MemberFilter changes, allowing reused TemplateContext instances to expose members that should be hidden. Attackers can access filtered properties and fields by reusing a TemplateContext after tightening its MemberFilter, bypassing sandbox policies across requests or tenants.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74790",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-08-16T14:16:57.050000",
-      "created_at": "2026-08-17T07:41:44.143695+00:00"
-    },
-    {
-      "id": "b5b4d24e36212021",
-      "content_hash": "b5b4d24e36212021636a89180c05536a28bf1c64edd0ae61cd6ada8b23b176f6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74789",
-      "title": "CVE-2026-74789 - Scriban before 7.0.0 (affected <= 6.6.0) applies its LoopLimit constraint only t...",
-      "body": "Scriban before 7.0.0 (affected <= 6.6.0) applies its LoopLimit constraint only to script loop statements and not to expensive iteration performed inside built-in operators and functions. As a result, a single expression such as {{ 1..1000000 | array.size }} — or a memory-amplification expression such as {{ 'A' * 200000000 }} — can force large CPU or memory consumption even when LoopLimit is configured to a very small value, resulting in denial of service. Applications that render attacker-controlled templates and rely on LoopLimit for safe execution are affected.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74789",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-16T14:16:56.917000",
-      "created_at": "2026-08-17T07:41:44.143689+00:00"
-    },
-    {
-      "id": "ef8ffb3763c1b6d1",
-      "content_hash": "ef8ffb3763c1b6d12a904539229452cdac63ccc14bb79831605b7dc12b7e38dc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74788",
-      "title": "CVE-2026-74788 - Scriban before 7.0.0 (affected versions <= 6.6.0) contains an uncontrolled memor...",
-      "body": "Scriban before 7.0.0 (affected versions <= 6.6.0) contains an uncontrolled memory allocation vulnerability in the string.pad_left and string.pad_right template functions, which perform no validation on the width parameter before delegating to .NET's String.PadLeft/PadRight. When an application exposes Scriban to untrusted template input, an attacker can supply an arbitrarily large width value (e.g., 500,000,000) to trigger ~1GB memory allocations in a single call, resulting in OutOfMemoryException and denial of service. The TemplateContext.LimitToString limit does not prevent this because it is only enforced after the string has been fully allocated.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74788",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-16T14:16:56.787000",
-      "created_at": "2026-08-17T07:41:44.143680+00:00"
-    },
-    {
-      "id": "03b95f3e1dd24aec",
-      "content_hash": "03b95f3e1dd24aec881980f72ff71a2a2248adc84050b9913c408541ecbf7b56",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74787",
-      "title": "CVE-2026-74787 - Scriban before 7.0.0 contains an uncontrolled recursion vulnerability in the obj...",
-      "body": "Scriban before 7.0.0 contains an uncontrolled recursion vulnerability in the object.to_json builtin function that lacks depth limits and circular reference detection. Attackers can craft templates with self-referencing objects to trigger unbounded recursion, causing a StackOverflowException that fatally terminates the hosting .NET process.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74787",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-16T14:16:56.653000",
-      "created_at": "2026-08-17T07:41:44.143674+00:00"
     }
   ]
 }
