@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:18:42.339261+00:00",
+  "generated_at": "2026-08-18T06:22:18.515384+00:00",
   "items": [
     {
       "id": "8819dc9b23fd1772",
@@ -2184,6 +2184,62 @@
       "cvss_score": null,
       "published_at": "2026-08-17T11:25:02+00:00",
       "created_at": "2026-08-17T12:18:57.734471+00:00"
+    },
+    {
+      "id": "c3bec9a4448405cc",
+      "content_hash": "c3bec9a4448405ccd9ce4a737dbbc7122a6e98785ebeec006ca462e39ba8caa9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74883",
+      "title": "CVE-2026-74883 - openssl_encrypt versions before 1.4.0 contain a sandbox bypass vulnerability whe...",
+      "body": "openssl_encrypt versions before 1.4.0 contain a sandbox bypass vulnerability where the plugin sandbox fails to restrict alternative file access methods like pathlib.Path and io.open. Attackers can import pathlib or io modules to read and write arbitrary files, completely bypassing the restricted_open file access controls.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74883",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-17T11:16:42.993000",
+      "created_at": "2026-08-18T06:22:13.808095+00:00"
+    },
+    {
+      "id": "5d9ff28705587e6d",
+      "content_hash": "5d9ff28705587e6d28fe3e2b8914da9ab48a1860b44d332947c5dc4d278de903",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74882",
+      "title": "CVE-2026-74882 - openssl_encrypt versions before 1.4.0 contain an insecure default configuration ...",
+      "body": "openssl_encrypt versions before 1.4.0 contain an insecure default configuration that trusts the entire RFC 1918 private address space in IntegrityProxyConfig trusted_proxies. Attackers on private networks can forge client certificate headers to bypass mTLS authentication when ProxyAuth validation is relaxed or modified.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74882",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-17T11:16:42.863000",
+      "created_at": "2026-08-18T06:22:13.808089+00:00"
+    },
+    {
+      "id": "5db69f9da0667a64",
+      "content_hash": "5db69f9da0667a6497a775d2f8bb13f81afa8dca601b31d74f900f6f6b7c8685",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74881",
+      "title": "CVE-2026-74881 - openssl_encrypt versions before 1.4.0 configure CORS with allow_origins set to w...",
+      "body": "openssl_encrypt versions before 1.4.0 configure CORS with allow_origins set to wildcard and allow_credentials enabled to true. Attackers can create malicious websites that make authenticated cross-origin requests to the API on behalf of any user who visits them.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74881",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-08-17T11:16:42.723000",
+      "created_at": "2026-08-18T06:22:13.808083+00:00"
+    },
+    {
+      "id": "87198568783b9f2d",
+      "content_hash": "87198568783b9f2d8c2d2b9f298109c92fe808f93c093be000e689aeadce348f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74880",
+      "title": "CVE-2026-74880 - openssl_encrypt versions before 1.4.0 accept refresh tokens as URL query paramet...",
+      "body": "openssl_encrypt versions before 1.4.0 accept refresh tokens as URL query parameters in keyserver and telemetry server routes. Attackers can extract tokens from server logs, proxy logs, browser history, and HTTP Referer headers to gain unauthorized access.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74880",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-17T11:16:42.593000",
+      "created_at": "2026-08-18T06:22:13.808077+00:00"
     },
     {
       "id": "63142fba4c20e1f8",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-15T23:54:35+00:00",
       "created_at": "2026-08-16T00:35:26.604093+00:00"
-    },
-    {
-      "id": "4fd63a8df45cd4d3",
-      "content_hash": "4fd63a8df45cd4d33167faa0475538eca6eb63494ba1cd37025dccf3d31dce51",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://pen.org/banned-words-list/",
-      "title": "Banned Words List",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49315453\">Comments</a>",
-      "url": "https://pen.org/banned-words-list/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T23:54:05+00:00",
-      "created_at": "2026-08-16T00:35:26.603997+00:00"
-    },
-    {
-      "id": "19e72e2ddf1cc121",
-      "content_hash": "19e72e2ddf1cc12108501da0b2ccc603525bce75c6de0215c5eea74ca4a0a271",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/",
-      "title": "Credit card debt rises to $1.26T, nearing all-time record",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49315232\">Comments</a>",
-      "url": "https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T23:22:59+00:00",
-      "created_at": "2026-08-16T00:35:26.604192+00:00"
-    },
-    {
-      "id": "6f535f1e1e8adfb6",
-      "content_hash": "6f535f1e1e8adfb6c121b70639b7f51aab7eb674cfc29724a586f724240c08ad",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19917",
-      "title": "CVE-2026-19917 - A flaw has been found in code-projects Online Food Order System 1.0. The impacte...",
-      "body": "A flaw has been found in code-projects Online Food Order System 1.0. The impacted element is an unknown function of the file delete_food_items1.php. Executing a manipulation of the argument checkbox can lead to sql injection. The attack can be executed remotely. The exploit has been published and may be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19917",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-15T23:16:20.913000",
-      "created_at": "2026-08-16T15:09:50.403877+00:00"
-    },
-    {
-      "id": "e8ce64155d81d9f7",
-      "content_hash": "e8ce64155d81d9f77cda12f4d9f6e9cea2cddf3069e6a50c0038c1cfd0335b82",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.colorado.edu/today/2026/08/10/decoding-smell-study-reveals-how-odor-signals-shapeshift-wind",
-      "title": "Decoding smell: Study reveals how odor signals shapeshift in the wind",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49315065\">Comments</a>",
-      "url": "https://www.colorado.edu/today/2026/08/10/decoding-smell-study-reveals-how-odor-signals-shapeshift-wind",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-15T22:55:50+00:00",
-      "created_at": "2026-08-16T02:14:05.556152+00:00"
     }
   ]
 }
