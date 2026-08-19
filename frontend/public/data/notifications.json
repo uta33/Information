@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T10:16:56.061761+00:00",
+  "generated_at": "2026-08-19T11:14:28.352074+00:00",
   "items": [
+    {
+      "id": "70a1f6418f4057a3",
+      "content_hash": "70a1f6418f4057a33f406ddab41f47832eb31b879b2bd131163fd640f9c72449",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://theremin.bizibah.com/",
+      "title": "Air Theremin – a browser theremin you play by waving at your webcam",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49359425\">Comments</a>",
+      "url": "https://theremin.bizibah.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T10:15:00+00:00",
+      "created_at": "2026-08-19T11:14:28.351120+00:00"
+    },
     {
       "id": "7ca8065180461d6d",
       "content_hash": "7ca8065180461d6d375d911981c3a9fe12e290ff2ae74ffa7c7451382fa53a72",
@@ -2128,6 +2142,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T13:18:40+00:00",
       "created_at": "2026-08-18T18:20:03.282959+00:00"
+    },
+    {
+      "id": "39b9527b910f5f7e",
+      "content_hash": "39b9527b910f5f7e25bcd417861b76373ac470d470b39f6cf7a9a3c69a9aa411",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23930",
+      "title": "CVE-2026-23930 - An unauthenticated user is able to cause disproportionate CPU load on the Fronte...",
+      "body": "An unauthenticated user is able to cause disproportionate CPU load on the Frontend webserver by sending specifically crafted requests to the Frontend popup.testtriggerexpr action, leading to potential denial of service.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23930",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T13:17:21.303000",
+      "created_at": "2026-08-19T11:14:24.055549+00:00"
     },
     {
       "id": "4adef755373aadca",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T18:17:35.913000",
       "created_at": "2026-08-18T17:17:01.722177+00:00"
-    },
-    {
-      "id": "62740cae6d66c79f",
-      "content_hash": "62740cae6d66c79fd247f41bcb7a6b00d1672cfbee1401ee733555ab13fcb665",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59893",
-      "title": "CVE-2026-59893 - sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, SQL_R...",
-      "body": "sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, SQL_REGEX in sqlparse/keywords.py and the per-position loop in sqlparse/lexer.py repeatedly scan unmatched dollar-quoted literal and multiline-comment delimiters, causing quadratic CPU consumption through sqlparse.parse(), sqlparse.format(), and sqlparse.split(). This issue is fixed in version 0.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59893",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-17T18:17:35.730000",
-      "created_at": "2026-08-18T17:17:01.722170+00:00"
-    },
-    {
-      "id": "4adf2d2382a1556d",
-      "content_hash": "4adf2d2382a1556dc7fae129c26a22c226819b687405c36ec26f53da55119cab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54284",
-      "title": "CVE-2026-54284 - sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, Token...",
-      "body": "sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, TokenList construction and string conversion in sqlparse/sql.py repeatedly flatten nested token subtrees constructed by group_parenthesis and group_case, causing quadratic CPU consumption through sqlparse.parse(), sqlparse.format(), and sqlparse.split() before depth and token limits terminate processing. This issue is fixed in version 0.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54284",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T18:17:11.400000",
-      "created_at": "2026-08-18T17:17:01.722163+00:00"
     }
   ]
 }
