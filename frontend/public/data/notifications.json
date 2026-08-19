@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:25:24.327007+00:00",
+  "generated_at": "2026-08-19T05:19:15.865928+00:00",
   "items": [
     {
       "id": "0c15de9f954720cf",
@@ -30,6 +30,20 @@
       "created_at": "2026-08-19T03:36:42.471652+00:00"
     },
     {
+      "id": "a8c7aeaa2934657b",
+      "content_hash": "a8c7aeaa2934657b139c5b47c580418d2b44d0342c9f56b1172800e2a0d0ccf5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/katiahayati/lucasartsifier/",
+      "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49355607\">Comments</a>",
+      "url": "https://github.com/katiahayati/lucasartsifier/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T01:58:33+00:00",
+      "created_at": "2026-08-19T05:19:15.865586+00:00"
+    },
+    {
       "id": "c8902ef711199e04",
       "content_hash": "c8902ef711199e043d81f00cd21ae5f2455cb8936a3ee6b68ebca081eac7b463",
       "source_name": "Hacker News (Best)",
@@ -42,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T01:58:28+00:00",
       "created_at": "2026-08-19T03:36:42.471702+00:00"
+    },
+    {
+      "id": "2139ead80573e8ad",
+      "content_hash": "2139ead80573e8ad076ab555e6d1005313def4a52e9309edf45041ed1ad1fd7a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.koh-antique.com/client/tangwreck/tangwreck.html",
+      "title": "The Vietnam Binh Chau (Chau Tan) Late Tang Wreck",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49355451\">Comments</a>",
+      "url": "https://www.koh-antique.com/client/tangwreck/tangwreck.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T01:36:40+00:00",
+      "created_at": "2026-08-19T05:19:15.865298+00:00"
     },
     {
       "id": "c698034e0ebb4bc7",
@@ -798,6 +826,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T00:53:51+00:00",
       "created_at": "2026-08-19T02:10:54.161997+00:00"
+    },
+    {
+      "id": "7b90d65ed80e7807",
+      "content_hash": "7b90d65ed80e78070ad786eeaf8bfa13e96fc7c629ef27d94f5599a45c10f69d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49355142\">Comments</a>",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T00:53:51+00:00",
+      "created_at": "2026-08-19T05:19:15.865404+00:00"
     },
     {
       "id": "73ed91792abc1312",
@@ -3010,6 +3052,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T07:21:35+00:00",
       "created_at": "2026-08-18T11:14:10.271481+00:00"
+    },
+    {
+      "id": "44cda82ff9496af0",
+      "content_hash": "44cda82ff9496af00823b4b49fb83dd317be47c104e3489e0b28918c4c77e2dd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
+      "title": "Finger: the 1971 social network that never died",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49342472\">Comments</a>",
+      "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T07:21:35+00:00",
+      "created_at": "2026-08-19T05:19:15.865467+00:00"
     },
     {
       "id": "5f30abb9119cff5f",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T17:25:17+00:00",
       "created_at": "2026-08-17T18:20:27.378796+00:00"
-    },
-    {
-      "id": "0f57f539380d3cb0",
-      "content_hash": "0f57f539380d3cb056c8be76c9c97c60fcae7da85a4868f289878940d4841d05",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-9771",
-      "title": "CVE-2026-9771 - The flash_copy() system call is verified by z_vrfy_flash_copy() in drivers/flash...",
-      "body": "The flash_copy() system call is verified by z_vrfy_flash_copy() in drivers/flash/flash_util.c. On builds with CONFIG_USERSPACE enabled, this handler is the kernel-side trust boundary for a user-mode caller. Prior to the fix it validated only the output buffer (K_SYSCALL_MEMORY_WRITE) and passed the two struct device * arguments, src_dev and dst_dev, directly into the implementation without any object validation — unlike every sibling flash syscall, which guards its device pointer with K_SYSCALL_DRIVER_FLASH.\n\nA user-mode thread fully controls the values of src_dev/dst_dev and the contents of its own address space. The implementation z_impl_flash_copy() dereferences these pointers and calls through their driver-API function tables (e.g. api->get_parameters(dst_dev), flash_read(src_dev, ...), flash_write(dst_dev, ...)). By supplying a pointer to a forged struct device whose api table contains attacker-chosen function pointers, an unprivileged thread can cause the kernel to call arbitrary code in supervisor mode; passing any arbitrary or invalid address otherwise yields a kernel crash or out-of-bounds read.\n\nThe result is a local privilege escalation out of the userspace sandbox (with kernel denial-of-service and information disclosure as lesser outcomes). The fix adds K_SYSCALL_DRIVER_FLASH(src_dev, read) and K_SYSCALL_DRIVER_FLASH(dst_dev, write) to z_vrfy_flash_copy(), which verify each device is a registered flash-driver kernel object the calling thread is permitted to use before any dereference, closing the path completely.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9771",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-17T17:16:57.720000",
-      "created_at": "2026-08-18T16:17:43.330217+00:00"
-    },
-    {
-      "id": "bbcc8a31ff35c09f",
-      "content_hash": "bbcc8a31ff35c09f7b57d6a8103f390c4af5eadd596b9c513983e184900b8d16",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-68518",
-      "title": "CVE-2026-68518 - Glances is an open-source system cross-platform monitoring tool. Prior to 4.5.6,...",
-      "body": "Glances is an open-source system cross-platform monitoring tool. Prior to 4.5.6, _sanitize_mustache_dict() in glances/actions.py sanitizes individual Mustache values before chevron.render(), allowing adjacent unescaped Mustache variables to reconstruct shell operators that secure_popen() executes when attacker-controlled process or container fields are rendered by an administrator-configured action template. This issue is fixed in 4.5.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68518",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:16:40.353000",
-      "created_at": "2026-08-18T16:17:43.330210+00:00"
-    },
-    {
-      "id": "411a233055e8966b",
-      "content_hash": "411a233055e8966b98d9131bed0826554f98e3a22a16f0e48894fcba399a6361",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-68517",
-      "title": "CVE-2026-68517 - Glances is an open-source system cross-platform monitoring tool. Prior to 4.5.6,...",
-      "body": "Glances is an open-source system cross-platform monitoring tool. Prior to 4.5.6, the cors_origins guard in glances/outputs/glances_restful_api.py uses exact list equality instead of wildcard membership, allowing a multi-origin list containing the wildcard to retain cors_credentials and expose authenticated REST API data to an untrusted website visited by a previously authenticated user. This issue is fixed in 4.5.6.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68517",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-17T17:16:40.173000",
-      "created_at": "2026-08-18T16:17:43.330203+00:00"
-    },
-    {
-      "id": "3996c0a7cf1de131",
-      "content_hash": "3996c0a7cf1de131f51c76e3c2f812e06e67ec5f408d988efd5535e30acb7c4f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61666",
-      "title": "CVE-2026-61666 - websocket-driver is a WebSocket protocol handler with pluggable I/O. Prior to 0....",
-      "body": "websocket-driver is a WebSocket protocol handler with pluggable I/O. Prior to 0.8.2, WebSocket::Driver.server() passes a malformed Host header to URI.parse in lib/websocket/http/request.rb without catching URI::InvalidURIError, allowing a remote client to crash a TCP-backed WebSocket server when the application does not catch the error from parse(). This issue is fixed in version 0.8.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61666",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:16:39.917000",
-      "created_at": "2026-08-18T16:17:43.330197+00:00"
     }
   ]
 }
