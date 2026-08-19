@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:23:08.125837+00:00",
+  "generated_at": "2026-08-19T07:28:47.347775+00:00",
   "items": [
     {
       "id": "893eb5c550cd3d2a",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T05:51:17+00:00",
       "created_at": "2026-08-19T06:23:08.125026+00:00"
+    },
+    {
+      "id": "987ed6ca98c85ec2",
+      "content_hash": "987ed6ca98c85ec2ac66646ac85cdd1caf618d150c47cdf9953c61ffa27190f3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.economist.com/asia/2026/08/18/japans-gen-x-workers-are-struggling",
+      "title": "Japan's Gen X workers are struggling",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49356115\">Comments</a>",
+      "url": "https://www.economist.com/asia/2026/08/18/japans-gen-x-workers-are-struggling",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T03:02:43+00:00",
+      "created_at": "2026-08-19T07:28:47.347571+00:00"
     },
     {
       "id": "0c15de9f954720cf",
@@ -1946,6 +1960,34 @@
       "cvss_score": null,
       "published_at": "2026-08-18T13:18:40+00:00",
       "created_at": "2026-08-18T18:20:03.282959+00:00"
+    },
+    {
+      "id": "c0ca845af1efa576",
+      "content_hash": "c0ca845af1efa576c790452583425bf616939eb58a8090133f647a1da3905c91",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-18751",
+      "title": "CVE-2026-18751 - External control of file name or path vulnerability in Citrix WorkSpace App on M...",
+      "body": "External control of file name or path vulnerability in Citrix WorkSpace App on MacOS.\n\nThis issue affects WorkSpace App: 2607.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18751",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T13:17:20.730000",
+      "created_at": "2026-08-19T07:28:42.885112+00:00"
+    },
+    {
+      "id": "b13b84def978749d",
+      "content_hash": "b13b84def978749d2b49c9a709b299f63d59114a698400f4e28c35ccbc08bfdb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16309",
+      "title": "CVE-2026-16309 - Authorization bypass through User-Controlled key vulnerability in Netiket Inform...",
+      "body": "Authorization bypass through User-Controlled key vulnerability in Netiket Information Technologies EdoWEB allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects EdoWEB: before 780-g7.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16309",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-18T13:17:20.140000",
+      "created_at": "2026-08-19T07:28:42.885106+00:00"
     },
     {
       "id": "d68c1582e6059f86",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T17:55:24+00:00",
       "created_at": "2026-08-17T19:19:20.214999+00:00"
-    },
-    {
-      "id": "914506feb617a226",
-      "content_hash": "914506feb617a22670ac9261702d9540c6d449270cc473fe1568e6fe7f60fd5e",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2608.13759",
-      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49334991\">Comments</a>",
-      "url": "https://arxiv.org/abs/2608.13759",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:54:59+00:00",
-      "created_at": "2026-08-17T19:19:20.214939+00:00"
-    },
-    {
-      "id": "5dfaf150e8f7ce18",
-      "content_hash": "5dfaf150e8f7ce18bd7c0498b1a147b99907951178e362eceacdf2a56e23b56f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "title": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49334960\">Comments</a>",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:52:37+00:00",
-      "created_at": "2026-08-17T18:20:27.378899+00:00"
-    },
-    {
-      "id": "1fc6c7d3a9d4d4c5",
-      "content_hash": "1fc6c7d3a9d4d4c5812202b24d08696543623511842b86db43f3d7ff26c34ca4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "title": "Memory prices climb 500% in 12 months",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49334960\">Comments</a>",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:52:37+00:00",
-      "created_at": "2026-08-18T17:17:05.225642+00:00"
     }
   ]
 }
