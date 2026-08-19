@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T05:19:15.865928+00:00",
+  "generated_at": "2026-08-19T06:23:08.125837+00:00",
   "items": [
+    {
+      "id": "893eb5c550cd3d2a",
+      "content_hash": "893eb5c550cd3d2a3c956b4eaea62e610f6bbea5f6c7b9dcadaf620e62ec658d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tipiirai.com/writing/bun-rust-rewrite-worries",
+      "title": "Bun 1.4 Rust rewrite is not looking good",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49357401\">Comments</a>",
+      "url": "https://tipiirai.com/writing/bun-rust-rewrite-worries",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T05:51:17+00:00",
+      "created_at": "2026-08-19T06:23:08.125026+00:00"
+    },
     {
       "id": "0c15de9f954720cf",
       "content_hash": "0c15de9f954720cf97c227e40dafbadfa6b75a6817f2b85610b9cb4ff676c59a",
@@ -1022,6 +1036,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T22:00:21+00:00",
       "created_at": "2026-08-18T23:11:27.382778+00:00"
+    },
+    {
+      "id": "e3dd0c2aab4771c9",
+      "content_hash": "e3dd0c2aab4771c910fbecf9155ba87be853752c41f4df9abbf398764aef2f11",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "title": "ChatGPT Ads expands across Europe",
+      "body": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T22:00:00+00:00",
+      "created_at": "2026-08-19T06:22:59.418144+00:00"
     },
     {
       "id": "327d2a69ef53af58",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T17:52:37+00:00",
       "created_at": "2026-08-18T17:17:05.225642+00:00"
-    },
-    {
-      "id": "102967bc1aef2a9b",
-      "content_hash": "102967bc1aef2a9bf765ac30aaaac816467b1a9478cf09e22b1caaa12ac8cee4",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-      "body": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.\n\nRussian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to the discovery of previously unreported components that expand the",
-      "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:41:06+00:00",
-      "created_at": "2026-08-17T20:13:37.241793+00:00"
-    },
-    {
-      "id": "aa40040ba2f7099e",
-      "content_hash": "aa40040ba2f7099e10b0a88c19227cc7e2a021c73c578ccaf3e7fd5b7856a2b6",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49334544\">Comments</a>",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:25:17+00:00",
-      "created_at": "2026-08-17T18:20:27.378796+00:00"
     }
   ]
 }
