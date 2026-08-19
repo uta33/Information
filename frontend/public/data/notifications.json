@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T08:22:15.809384+00:00",
+  "generated_at": "2026-08-19T09:21:14.240116+00:00",
   "items": [
+    {
+      "id": "829ba702619a090f",
+      "content_hash": "829ba702619a090f4ba86b8e48f015c6ae0d3d02afa404da9542dc41bf8143e9",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+      "body": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T09:10:20+00:00",
+      "created_at": "2026-08-19T09:21:06.257516+00:00"
+    },
     {
       "id": "f2c9a211aa8e1864",
       "content_hash": "f2c9a211aa8e186479d4f021bcaeeb2ec28932feacf00551068e9719673c19e4",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T08:00:48+00:00",
       "created_at": "2026-08-19T08:22:10.810436+00:00"
+    },
+    {
+      "id": "7e42213a8d5f1af8",
+      "content_hash": "7e42213a8d5f1af81bbb17d511028e17146c6aa5c3fb896027848f56558288a5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.modular.com/blog/modcon-announcements",
+      "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49358327\">Comments</a>",
+      "url": "https://www.modular.com/blog/modcon-announcements",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-19T07:47:19+00:00",
+      "created_at": "2026-08-19T09:21:14.239734+00:00"
     },
     {
       "id": "ddf6199771ba22ce",
@@ -2044,6 +2072,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T13:18:40+00:00",
       "created_at": "2026-08-18T18:20:03.282959+00:00"
+    },
+    {
+      "id": "1b2d4bc843c28df1",
+      "content_hash": "1b2d4bc843c28df17262f78ece9676e9fc136794dbc7b98e469372d5f480eddb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23922",
+      "title": "CVE-2026-23922 - The email media OAuth field 'Client secret' cannot be read after saving, but a S...",
+      "body": "The email media OAuth field 'Client secret' cannot be read after saving, but a Super Admin can leak it by setting a malicious 'Token endpoint'. Changes were made to reset the client secret upon changing the token endpoint.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23922",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T13:17:21.040000",
+      "created_at": "2026-08-19T09:21:11.104893+00:00"
     },
     {
       "id": "a33e3ea90f8547dd",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T18:17:08.880000",
       "created_at": "2026-08-18T16:17:43.330251+00:00"
-    },
-    {
-      "id": "310a7926e27341ed",
-      "content_hash": "310a7926e27341ededa8c61dbc02889915928c8db0485d4e8922ae56649fe862",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50768",
-      "title": "CVE-2026-50768 - File Upload vulnerability in T-Systems International GmbH ImageMaster Version: 9...",
-      "body": "File Upload vulnerability in T-Systems International GmbH ImageMaster Version: 9.14.2.8.1 allows a remote attacker to execute arbitrary code via the add attachments feature in the create new document function.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50768",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-08-17T18:17:08.760000",
-      "created_at": "2026-08-18T16:17:43.330244+00:00"
-    },
-    {
-      "id": "b5e00cb6fccd8503",
-      "content_hash": "b5e00cb6fccd85037a03d5f9686dc7ba9b32068d0073008200e813cfe25d3888",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48053",
-      "title": "CVE-2026-48053 - Kolibri is an offline-first education platform. Prior to version 0.19.4, several...",
-      "body": "Kolibri is an offline-first education platform. Prior to version 0.19.4, several Kolibri API endpoints accept an unvalidated `baseurl` parameter and fetch attacker-controlled URLs from the Kolibri server, reflecting the response body back to the caller. The original report identified two endpoints on the `RemoteFacilityUser*` viewsets; remediation review found two further reflection points on the same pattern. The GET endpoint was unauthenticated. Version 0.19.4 fixes the vulnerability.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48053",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.8,
-      "published_at": "2026-08-17T18:16:39.660000",
-      "created_at": "2026-08-18T16:17:43.330238+00:00"
-    },
-    {
-      "id": "717c4dd72107195e",
-      "content_hash": "717c4dd72107195edcc1f2de528a9a46ba182e4c23c4ce18a11c52129a2ab9c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-46345",
-      "title": "CVE-2026-46345 - compliance-trestle is a tooling platform for managing compliance as code. Prior ...",
-      "body": "compliance-trestle is a tooling platform for managing compliance as code. Prior to versions 3.12.2 and 4.0.3, the `-o/--output` argument in `trestle author jinja` allows writing files outside the intended workspace. The application does not properly validate, `../`,  `..\\`, or absolute paths. This allows arbitrary file write to attacker-controlled locations. Versions 3.12.3 and 4.0.3 patch the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46345",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.4,
-      "published_at": "2026-08-17T18:16:38.393000",
-      "created_at": "2026-08-18T16:17:43.330230+00:00"
     }
   ]
 }
