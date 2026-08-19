@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:36:42.472492+00:00",
+  "generated_at": "2026-08-19T04:25:24.327007+00:00",
   "items": [
     {
       "id": "0c15de9f954720cf",
@@ -2044,6 +2044,34 @@
       "cvss_score": null,
       "published_at": "2026-08-18T12:22:58+00:00",
       "created_at": "2026-08-18T13:34:01.350131+00:00"
+    },
+    {
+      "id": "490086bedf18a3c5",
+      "content_hash": "490086bedf18a3c50253782907971c6b601eb6f6f365c166e32570c73d347487",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75855",
+      "title": "CVE-2026-75855 - ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api...",
+      "body": "ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api/v1/server endpoint's create database and drop database commands, allowing authenticated root users to write and delete arbitrary files outside the configured database directory. Attackers can supply database names containing ../ sequences to create databases at arbitrary filesystem paths or recursively delete directories the server process can access.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75855",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.7,
+      "published_at": "2026-08-18T12:19:35.997000",
+      "created_at": "2026-08-19T04:25:19.782919+00:00"
+    },
+    {
+      "id": "ea23b0f4a4103e50",
+      "content_hash": "ea23b0f4a4103e50607320f09305ee110490696cdb204eee5fb58fe98032eaa0",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75854",
+      "title": "CVE-2026-75854 - ArcadeDB versions before 26.8.1 contain a missing authentication vulnerability i...",
+      "body": "ArcadeDB versions before 26.8.1 contain a missing authentication vulnerability in the Redis wire-protocol plugin that allows unauthenticated attackers to read, write, and delete data. Attackers can connect to the Redis port and execute arbitrary commands against any database on the server without providing credentials, bypassing all security gates.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75854",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-18T12:19:35.860000",
+      "created_at": "2026-08-19T04:25:19.782913+00:00"
     },
     {
       "id": "a2faf9a24207d68e",
@@ -6972,34 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T17:16:39.917000",
       "created_at": "2026-08-18T16:17:43.330197+00:00"
-    },
-    {
-      "id": "cc659a10bad17ad6",
-      "content_hash": "cc659a10bad17ad61d19c231e953b6ace8c9ecad2ce55af37d0c789b4493ca82",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-40145",
-      "title": "CVE-2026-40145 - A vulnerability exists in the interaction between a Endpoint Privilege Managemen...",
-      "body": "A vulnerability exists in the interaction between a Endpoint Privilege Management (Windows Deployment) support utility and the agent's tamper protection controls. Under certain conditions, the protections applied to the utility process may not be enforced as intended.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40145",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T17:16:39.787000",
-      "created_at": "2026-08-18T16:17:43.330190+00:00"
-    },
-    {
-      "id": "a913c5181485af97",
-      "content_hash": "a913c5181485af97d4a046e6226b2e7473a1eaeb05fb1a23ed042c52034f6293",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12630",
-      "title": "CVE-2026-12630 - Zephyr's 6LoWPAN IP Header Compression (IPHC) uncompression code contains an out...",
-      "body": "Zephyr's 6LoWPAN IP Header Compression (IPHC) uncompression code contains an out-of-bounds read in get_ihpc_inlined_size() (subsys/net/ip/6lo.c). The destination inline size is looked up in da_inline_size_table, which has 13 entries, using an index built from the M, DAC and DAM bits of the received IPHC dispatch word (iphc & NET_6LO_IPHC_DA_MASK, a 4-bit value of 0-15). The reserved combinations 13, 14 and 15 are not bounds-checked and read past the end of the table.\n\nThe iphc word is taken directly from the received frame, and get_ihpc_inlined_size() is reached on every inbound 6LoWPAN frame via net_6lo_uncompress() from the 802.15.4 receive path (subsys/net/l2/ieee802154/ieee802154_6lo.c and ieee802154_6lo_fragment.c). An unauthenticated attacker on the radio/adjacent link can therefore craft a frame whose destination addressing-mode nibble selects an out-of-range index, with no privileges or user interaction.\n\nThe out-of-bounds value becomes the computed inline_size, which then drives header reconstruction before the buffer-length check: it is used to dereference *(pkt->buffer->data + sizeof(iphc) + inline_size) and to compute a size_t diff that can underflow, leading to a further out-of-bounds read of the packet buffer and malformed uncompression. The practical impact is a radio-triggerable out-of-bounds read / denial-of-service on the receiver; the leaked byte is not returned to the attacker. The fix rejects any destination index beyond the table, aborting processing of the malformed frame.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12630",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-17T17:16:39.130000",
-      "created_at": "2026-08-18T16:17:43.330183+00:00"
     }
   ]
 }
