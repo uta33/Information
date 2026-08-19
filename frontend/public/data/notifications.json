@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-19T09:21:14.240116+00:00",
+  "generated_at": "2026-08-19T10:16:56.061761+00:00",
   "items": [
+    {
+      "id": "7ca8065180461d6d",
+      "content_hash": "7ca8065180461d6d375d911981c3a9fe12e290ff2ae74ffa7c7451382fa53a72",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+      "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-19T10:12:24+00:00",
+      "created_at": "2026-08-19T10:16:48.162201+00:00"
+    },
+    {
+      "id": "3afa0cf5481c7c48",
+      "content_hash": "3afa0cf5481c7c48b1975fc2dd54b82aae75f6c013e5376af47552faf85d5c67",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3154147",
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "body": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+      "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T10:00:00+00:00",
+      "created_at": "2026-08-19T10:16:55.809323+00:00"
+    },
     {
       "id": "829ba702619a090f",
       "content_hash": "829ba702619a090f4ba86b8e48f015c6ae0d3d02afa404da9542dc41bf8143e9",
@@ -100,6 +128,20 @@
       "created_at": "2026-08-19T08:22:15.808855+00:00"
     },
     {
+      "id": "877be954cc710d8e",
+      "content_hash": "877be954cc710d8e3ee70067ce8817aa1a879f35a587f7bc7cdb605c9204b130",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+      "body": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration.\n\nThe tech giant said it required multiple endpoint and network behaviors to align before",
+      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T06:01:53+00:00",
+      "created_at": "2026-08-19T10:16:48.041686+00:00"
+    },
+    {
       "id": "893eb5c550cd3d2a",
       "content_hash": "893eb5c550cd3d2a3c956b4eaea62e610f6bbea5f6c7b9dcadaf620e62ec658d",
       "source_name": "Hacker News (Best)",
@@ -112,6 +154,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T05:51:17+00:00",
       "created_at": "2026-08-19T06:23:08.125026+00:00"
+    },
+    {
+      "id": "8562a66bae5ddfa4",
+      "content_hash": "8562a66bae5ddfa4b38a863ebf797b41bce2d11a12b299d69cfa81c423ded46b",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+      "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+      "body": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest.\n\nThe cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault",
+      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-19T05:39:25+00:00",
+      "created_at": "2026-08-19T10:16:48.041721+00:00"
     },
     {
       "id": "ef206d91eef3054b",
@@ -2072,6 +2128,20 @@
       "cvss_score": null,
       "published_at": "2026-08-18T13:18:40+00:00",
       "created_at": "2026-08-18T18:20:03.282959+00:00"
+    },
+    {
+      "id": "4adef755373aadca",
+      "content_hash": "4adef755373aadcad8a8626d0360e4716105e7460556561c58cf84fac586c1d3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-23929",
+      "title": "CVE-2026-23929 - Prototype pollution vulnerability in searchParamsToObject() is leading to a pers...",
+      "body": "Prototype pollution vulnerability in searchParamsToObject() is leading to a persistent XSS in Maps. URL parameter processing was not filtering dangerous properties like __proto__, combined with jQuery's unsafe element creation that traversed the prototype chain.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23929",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-18T13:17:21.170000",
+      "created_at": "2026-08-19T10:16:52.872733+00:00"
     },
     {
       "id": "1b2d4bc843c28df1",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-17T18:17:11.400000",
       "created_at": "2026-08-18T17:17:01.722163+00:00"
-    },
-    {
-      "id": "7db680c9bcb8d198",
-      "content_hash": "7db680c9bcb8d1980d66e1a197877e2c7861c219a080160dd16cc798f4eb86af",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-51346",
-      "title": "CVE-2026-51346 - SQL Injection vulnerability in StudIP 6.0.x before 6.0.3 and 5.4.x before 5.4.12...",
-      "body": "SQL Injection vulnerability in StudIP 6.0.x before 6.0.3 and 5.4.x before 5.4.12 allows a remote attacker to execute arbitrary code and obtain sensitive information via the store() functions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51346",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.1,
-      "published_at": "2026-08-17T18:17:09.320000",
-      "created_at": "2026-08-18T17:17:01.722156+00:00"
-    },
-    {
-      "id": "c4efbfd6ba1dc482",
-      "content_hash": "c4efbfd6ba1dc482877469af11dcc133ff00cb405994d778f8cb32269af25c26",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50772",
-      "title": "CVE-2026-50772 - An issue in Squirro Cognitive Search < 3.14.2 allows a remote attacker to execut...",
-      "body": "An issue in Squirro Cognitive Search < 3.14.2 allows a remote attacker to execute arbitrary code via a crafted payload to the password reset function.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50772",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T18:17:09.207000",
-      "created_at": "2026-08-18T16:17:43.330271+00:00"
-    },
-    {
-      "id": "1d9219687d394a9d",
-      "content_hash": "1d9219687d394a9d162b8e86eb20b888deccf5d4d8ab6c71847d07d5f021017f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50771",
-      "title": "CVE-2026-50771 - Cross Site Scripting vulnerability in Squirro Cognitive Search < 3.14.2 allows a...",
-      "body": "Cross Site Scripting vulnerability in Squirro Cognitive Search < 3.14.2 allows a remote attacker to execute arbtirary code via the Email Notification, Create Evaluation Sets and HTML Editor functions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50771",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-08-17T18:17:09.100000",
-      "created_at": "2026-08-18T16:17:43.330264+00:00"
-    },
-    {
-      "id": "70980b4408d3ed76",
-      "content_hash": "70980b4408d3ed76b1dec9bbbcbb6e7766043629aba290384e35173631e7af72",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50770",
-      "title": "CVE-2026-50770 - An issue in Squirro Cognitive Search before v.3.14.2 allows a remote attacker to...",
-      "body": "An issue in Squirro Cognitive Search before v.3.14.2 allows a remote attacker to escalate privileges via a crafted request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50770",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T18:17:08.990000",
-      "created_at": "2026-08-18T16:17:43.330257+00:00"
-    },
-    {
-      "id": "3254226cce7b8f5d",
-      "content_hash": "3254226cce7b8f5df9974ebad1460e4b595d265240b59a48aca64baa95727924",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50769",
-      "title": "CVE-2026-50769 - The CRM+ application before and including version 2025.6 from Brainformatik is v...",
-      "body": "The CRM+ application before and including version 2025.6 from Brainformatik is vulnerable to SQL Injection (time-based) vulnerability. The check conflict endpoint index.php?module=Appointments&action=CheckConflictOfDates&ajaxSkipHeader=true which is used to check any conflicts for user calendar is vulnerable to SQL injection allowing an attacker to execute arbitrary code.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50769",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-17T18:17:08.880000",
-      "created_at": "2026-08-18T16:17:43.330251+00:00"
     }
   ]
 }
