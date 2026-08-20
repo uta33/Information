@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-20T09:22:16.026324+00:00",
+  "generated_at": "2026-08-20T10:18:22.887544+00:00",
   "items": [
+    {
+      "id": "463d924b31480ab8",
+      "content_hash": "463d924b31480ab8813ac1cd9b1238c42f282a149a968f2b7bf8c2d60757bb85",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "body": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T10:02:02+00:00",
+      "created_at": "2026-08-20T10:18:18.255561+00:00"
+    },
+    {
+      "id": "023f385c0b0f1aac",
+      "content_hash": "023f385c0b0f1aacc1629ee84f55317ec48701224dc5a3a70ffc8331fda1d7cd",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "body": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-20T09:46:54+00:00",
+      "created_at": "2026-08-20T10:18:18.255592+00:00"
+    },
+    {
+      "id": "0826bafd5e42087f",
+      "content_hash": "0826bafd5e42087f3a03ed5c728cf78d8805504c836bd1c38b87acbd6a9a20e6",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3154391",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "body": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T09:30:00+00:00",
+      "created_at": "2026-08-20T10:18:22.597777+00:00"
+    },
     {
       "id": "f30038f296bad9dc",
       "content_hash": "f30038f296bad9dcfd935067c0791a3749aab678c1cbff7d05b43f41cdddc4df",
@@ -2296,6 +2338,20 @@
       "cvss_score": null,
       "published_at": "2026-08-19T14:20:10+00:00",
       "created_at": "2026-08-20T00:34:12.316122+00:00"
+    },
+    {
+      "id": "5d6c4e72a6950567",
+      "content_hash": "5d6c4e72a6950567dd734e9a71f1cb64db1c23e3fe6a6cd82cda860f5635ccc5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-70422",
+      "title": "CVE-2026-70422 - Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutra...",
+      "body": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Script injection.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70422",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-19T14:17:38.897000",
+      "created_at": "2026-08-20T10:18:18.394272+00:00"
     },
     {
       "id": "77b54c3c2bf0d531",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-18T21:13:30+00:00",
       "created_at": "2026-08-18T23:11:27.382914+00:00"
-    },
-    {
-      "id": "76eda9880385a5f5",
-      "content_hash": "76eda9880385a5f5dccf82941a2d889d9cadc4b9260b33cd56c22ba7c53b0ea8",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.secondcitycitation.com",
-      "title": "Find Chicago Parking Cops",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49352737\">Comments</a>",
-      "url": "https://www.secondcitycitation.com",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T21:08:40+00:00",
-      "created_at": "2026-08-18T22:10:41.214317+00:00"
-    },
-    {
-      "id": "058e475ed5204166",
-      "content_hash": "058e475ed5204166b601676f58e97e0527ff323589765a5abeaf41f32470f997",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3154080",
-      "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
-      "body": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",
-      "url": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T20:36:20+00:00",
-      "created_at": "2026-08-18T21:12:24.602193+00:00"
-    },
-    {
-      "id": "ec9d7b374e8a5739",
-      "content_hash": "ec9d7b374e8a573946868322324396ab2c2d20613aea069b050fc2a41cf2578d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76032",
-      "title": "CVE-2026-76032 - Pydio Cells 5.0.0 through 5.0.2 returns share-link details to any authenticated ...",
-      "body": "Pydio Cells 5.0.0 through 5.0.2 returns share-link details to any authenticated user. The REST handler for GET /a/share/link/{Uuid} in idm/share/rest/handler.go reads the workspace UUID from the path, calls LinkById, and writes the result with no authorization step, whereas the sibling handler for GET /a/share/cell/{Uuid} loads the workspace and requires MatchPolicies with ResourcePolicyAction_READ, returning a not-found error so that existence is not disclosed. Nothing compensates further down: GetLinkWorkspace reaches GetOrCreateWorkspace, which issues SearchWorkspace with a query carrying no ResourcePolicyQuery, and PrepareResourcePolicyQuery returns the query unmodified when that field is nil, so the workspace service applies no policy filter. The workspace UUID is not secret, because the unauthenticated public page served for a share link embeds it as START_REPOSITORY. Any account holding a standard user role can therefore submit the UUID and receive the link hash and URL, the owner's user identifier, the hidden share user login, the permission set, the download limit and count, the target users, the expiry, and the password-required flag, while a direct read of the shared node from the same account is refused.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76032",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-18T20:17:34.503000",
-      "created_at": "2026-08-19T21:14:49.169935+00:00"
-    },
-    {
-      "id": "cc1ee11f99ec9801",
-      "content_hash": "cc1ee11f99ec9801a50c94128678bf21e08552ddb1cb0c5ce12810b739fb4e27",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-75936",
-      "title": "CVE-2026-75936 - Improper handling of highly compressed data in the GZIP auto-decompression handl...",
-      "body": "Improper handling of highly compressed data in the GZIP auto-decompression handler in Amazon ion-java before 1.12.0 might allow remote actors to cause a denial of service via a crafted compressed Ion document that expands to an arbitrarily large size upon decompression.\n\n\n\nTo remediate this issue, users should upgrade to version 1.12.0 and configure withGzipDecompressionEnabled(false) and/or set an explicit withMaximumBufferSize() when parsing untrusted input.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75936",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-18T20:17:34.317000",
-      "created_at": "2026-08-19T21:14:49.169929+00:00"
     }
   ]
 }
