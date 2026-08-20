@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-20T10:18:22.887544+00:00",
+  "generated_at": "2026-08-20T11:15:56.341915+00:00",
   "items": [
+    {
+      "id": "9802a21c8dd89aa2",
+      "content_hash": "9802a21c8dd89aa20b317db8d59818e02a9fdb219cace983ba9f3217fc8d5c19",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+      "body": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-20T11:06:14+00:00",
+      "created_at": "2026-08-20T11:15:51.682196+00:00"
+    },
+    {
+      "id": "1600d7de3dc2a57f",
+      "content_hash": "1600d7de3dc2a57f9e0bf60fa20611ffdd741f8157c919a0d07e3fc311895c3f",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "body": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus.\n\nThe chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",
+      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-20T11:05:11+00:00",
+      "created_at": "2026-08-20T11:15:51.560777+00:00"
+    },
+    {
+      "id": "41a314db64a148df",
+      "content_hash": "41a314db64a148df4d2a7f9bc3aedeb5d100588971d78646b35f2d788e31fe78",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+      "body": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally.\n\nZimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.",
+      "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T10:38:28+00:00",
+      "created_at": "2026-08-20T11:15:51.560805+00:00"
+    },
+    {
+      "id": "206d0e6ef6f8051a",
+      "content_hash": "206d0e6ef6f8051ad16e3f8f7cda5ed6a6dd898e94ab331d39cd2b21f380ce33",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49372583\">Comments</a>",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T10:08:52+00:00",
+      "created_at": "2026-08-20T11:15:56.341325+00:00"
+    },
     {
       "id": "463d924b31480ab8",
       "content_hash": "463d924b31480ab8813ac1cd9b1238c42f282a149a968f2b7bf8c2d60757bb85",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T09:30:00+00:00",
       "created_at": "2026-08-20T10:18:22.597777+00:00"
+    },
+    {
+      "id": "aaac43ef86534bb0",
+      "content_hash": "aaac43ef86534bb07a80dad3b24e83b9c27c78b1391546a716caf6dd645fec1f",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+      "body": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.\n\nAccording to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and infrastructure overlaps. The campaign, dubbed Offside Wallet Theft Factory, is believed to",
+      "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-20T08:42:03+00:00",
+      "created_at": "2026-08-20T11:15:51.560822+00:00"
     },
     {
       "id": "f30038f296bad9dc",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.3,
       "published_at": "2026-08-18T21:16:33.910000",
       "created_at": "2026-08-19T21:14:49.169955+00:00"
-    },
-    {
-      "id": "9d1a657018817662",
-      "content_hash": "9d1a657018817662e1c575c659f7d8f44f9e9659ed2d5666f80ab0f8c934de24",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12632",
-      "title": "CVE-2026-12632 - Zephyr's Precision Time Protocol receive handler ptp_msg_post_recv() in subsys/n...",
-      "body": "Zephyr's Precision Time Protocol receive handler ptp_msg_post_recv() in subsys/net/lib/ptp/msg.c takes the 4-bit message type straight off the wire via ptp_msg_type() (msg->header.type_major_sdo_id & 0xF, range 0-15) and uses it to index the msg_size[] table. That table only defines entries up to PTP_MSG_MANAGEMENT (0xD), giving it ARRAY_SIZE == 14. Before the fix there was no upper-bound check, so the undefined types 0xE and 0xF indexed one or two int slots past the end of the array — an out-of-bounds read of adjacent read-only data.\n\nThe out-of-bounds value is then reused as a length: it gates msg_size[type] > cnt, and when it is small or negative it makes cnt - msg_size[type] a large positive budget passed to msg_tlv_post_recv(), whose TLV loop then walks the message suffix past the received bytes, performing further out-of-bounds reads and in-place byte-swap writes on memory beyond the message slab.\n\nThe defect is reached directly from the network: ptp_port_event_gen() in subsys/net/lib/ptp/port.c reads a PTP frame with ptp_transport_recv() and calls ptp_msg_post_recv() with the attacker-chosen type. PTP uses UDP multicast or raw Ethernet (0x88F7) and is unauthenticated, so any host on the same link can trigger the indexing on a CONFIG_PTP-enabled node with no preconditions.\n\nThe reliably reproducible impact is a denial of service (fault/crash); a limited memory-corruption path exists but depends on the build-specific value adjacent to msg_size[], which the attacker cannot tune. The fix rejects type >= ARRAY_SIZE(msg_size) with -EBADMSG before any indexing.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12632",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-18T21:16:33.783000",
-      "created_at": "2026-08-19T21:14:49.169949+00:00"
-    },
-    {
-      "id": "69bc19fdb98943a3",
-      "content_hash": "69bc19fdb98943a3c1f2830695b02a472ed9939f31c1f758af6068bea8fe0761",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12631",
-      "title": "CVE-2026-12631 - The Zephyr kernel validates the k_thread_join() and k_thread_abort() system call...",
-      "body": "The Zephyr kernel validates the k_thread_join() and k_thread_abort() system calls (declared __syscall in include/zephyr/kernel.h) through thread_obj_validate() in kernel/thread.c. Its default switch branch is the access-denied path, taken when k_object_validate() returns -EPERM (the calling user thread was never granted access to the target thread object) or -EBADF (the supplied pointer is not a registered kernel object of the right type). That branch invoked K_OOPS(K_SYSCALL_VERIFY_MSG(ret, \"access denied\")), but K_SYSCALL_VERIFY_MSG treats a true expression as success; the non-zero error code ret therefore read as \"verified OK\", the kernel oops was never raised, and control fell through to CODE_UNREACHABLE.\n\nBecause k_thread_join() and k_thread_abort() are system calls, an unprivileged user-mode thread (under CONFIG_USERSPACE) can reach this denial path directly by calling either syscall on a thread object it does not own. Instead of the offending thread being cleanly terminated, execution reaches __builtin_unreachable() while running in supervisor mode inside the syscall handler.\n\nOn Clang builds CODE_UNREACHABLE emits an illegal-instruction trap, so a user thread can deterministically crash the kernel — a locally triggerable denial of service that escapes the userspace sandbox. On GCC builds the path is undefined behavior: the compiler may drop the return-value handling for thread_obj_validate(), so it can return an undefined bool; if that is false, the caller proceeds into the real k_thread_join()/k_thread_abort() implementation for a thread the user was never authorized to access, an access-control bypass.\n\nThe fix changes the verification expression to ret == 0, so a denied (non-zero) result now correctly raises K_OOPS and terminates the offending caller.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12631",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-18T21:16:33.647000",
-      "created_at": "2026-08-19T21:14:49.169942+00:00"
-    },
-    {
-      "id": "8aa30581161812ae",
-      "content_hash": "8aa30581161812ae83394a911a3582d977a657f659007914d07abdfdfda6b714",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-      "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49352806\">Comments</a>",
-      "url": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T21:14:21+00:00",
-      "created_at": "2026-08-18T22:10:41.214099+00:00"
-    },
-    {
-      "id": "e5130e75cecfac76",
-      "content_hash": "e5130e75cecfac76cfeb3953c8345327756f71c98da86c833b129f96beb02f44",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lawsofsoftwareengineering.com/laws/dilbert-principle/",
-      "title": "Companies promote incompetent employees to management tolimit damage they can do",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49352794\">Comments</a>",
-      "url": "https://lawsofsoftwareengineering.com/laws/dilbert-principle/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T21:13:30+00:00",
-      "created_at": "2026-08-18T22:10:41.214120+00:00"
-    },
-    {
-      "id": "6e8542a1af8235db",
-      "content_hash": "6e8542a1af8235db6dd736bb23a1f3addd87cf3239410bd438f8e3f1400463cf",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lawsofsoftwareengineering.com/laws/dilbert-principle/",
-      "title": "Companies promote incompetent employees to management to limit damage they do",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49352794\">Comments</a>",
-      "url": "https://lawsofsoftwareengineering.com/laws/dilbert-principle/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T21:13:30+00:00",
-      "created_at": "2026-08-18T23:11:27.382914+00:00"
     }
   ]
 }
