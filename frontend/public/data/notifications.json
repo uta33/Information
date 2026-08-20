@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:36:39.855377+00:00",
+  "generated_at": "2026-08-20T04:24:37.351403+00:00",
   "items": [
     {
       "id": "1b8bbfabb1401c7b",
@@ -2268,6 +2268,76 @@
       "cvss_score": null,
       "published_at": "2026-08-19T07:00:00+00:00",
       "created_at": "2026-08-19T14:21:23.041881+00:00"
+    },
+    {
+      "id": "2db4e652f69a6a99",
+      "content_hash": "2db4e652f69a6a9970436008d7982573c129b8d08760797b161466ce56beb71e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49426",
+      "title": "CVE-2026-49426 - When auditing a system call executed via ptrace(PT_SC_REMOTE), the kernel passed...",
+      "body": "When auditing a system call executed via ptrace(PT_SC_REMOTE), the kernel passed the return value of an internal setup function to AUDIT_SYSCALL_EXIT() rather than the actual result of the executed system call.  As a result, committed audit records for system calls which returned an error do not reflect the true outcome of the operation.  That is, they indicate that the operation succeeded when it in fact failed.\n\nAudit records for system calls executed via ptrace(PT_SC_REMOTE) may show an incorrect error status.  An attacker with the ability to debug a process could use this to produce misleading audit trails, potentially undermining audit-based Intrusion Detection Systems (IDS).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49426",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T06:17:41.720000",
+      "created_at": "2026-08-20T04:24:33.020776+00:00"
+    },
+    {
+      "id": "9cc8564db5ceda4a",
+      "content_hash": "9cc8564db5ceda4a16e8872bc8d4aba590582351cb7dce39633428e594b80bc5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49422",
+      "title": "CVE-2026-49422 - The RACK setsockopt(2) handler drops the connection lock in order to copy option...",
+      "body": "The RACK setsockopt(2) handler drops the connection lock in order to copy option data from userspace, then reacquires the lock.  After reacquiring, it verifies that the TCP stack had not been switched away, but did not reload its pointer to the stack's per-connection control block.  If userspace switches stacks twice during this window, the check will succeed but the saved pointer will refer to freed memory.\n\nThe bug may be exploitable by an unprivileged local user to escalate privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49422",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.4,
+      "published_at": "2026-08-19T06:17:41.447000",
+      "created_at": "2026-08-20T04:24:33.020772+00:00"
+    },
+    {
+      "id": "3aa3d477d2a28c53",
+      "content_hash": "3aa3d477d2a28c53f4673d53b8f7dcd563f45dbe279a9fdf1d2f177f8ea64a99",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49421",
+      "title": "CVE-2026-49421 - The kernel function that implements unlinkat(2) and funlinkat(2) validated the A...",
+      "body": "The kernel function that implements unlinkat(2) and funlinkat(2) validated the AT_RESOLVE_BENEATH flag but failed to pass it through to the underlying path lookup.  The flag was silently dropped, so path resolution was not actually restricted.\n\nA process that uses AT_RESOLVE_BENEATH with unlinkat(2) or funlinkat(2) to confine path resolution can in fact resolve paths above the starting directory.  A caller relying on this flag for path containment may delete files outside the intended directory tree.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49421",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T06:17:41.160000",
+      "created_at": "2026-08-20T04:24:33.020766+00:00"
+    },
+    {
+      "id": "e874149f9943f3a9",
+      "content_hash": "e874149f9943f3a929c52d686da27fca7c7c8e3fb7d0cd0c16ec1a3d028be181",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49420",
+      "title": "CVE-2026-49420 - The RTSP handler in libalias rewrote outgoing packets into a fixed-length stack ...",
+      "body": "The RTSP handler in libalias rewrote outgoing packets into a fixed-length stack buffer without checking whether the rewritten data fit in the buffer, or whether the result fit back in the original packet.\n\nA host sending crafted RTSP traffic from inside a NAT gateway using libalias can overflow a stack buffer, potentially achieving remote code execution in the kernel (when using ipfw(4) NAT) or in the natd(8) process (which generally runs as the root user).",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49420",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-19T06:17:40.790000",
+      "created_at": "2026-08-20T04:24:33.020761+00:00"
+    },
+    {
+      "id": "96b37fe30df42250",
+      "content_hash": "96b37fe30df42250e4af193170dda9373c491a4a7b4ba075b84a776f45b0c091",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19842",
+      "title": "CVE-2026-19842 - The SAML Single Sign On  WordPress plugin before 5.4.7 does not verify the signa...",
+      "body": "The SAML Single Sign On  WordPress plugin before 5.4.7 does not verify the signature of a SAML response before storing the certificate it carries, and offers an administrator a one-click control that promotes that stored certificate to the site's trusted signing certificate, allowing unauthenticated attackers to have a certificate of their own trusted and then authenticate as any user, including an administrator.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19842",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-19T06:17:40.613000",
+      "created_at": "2026-08-20T04:24:33.020757+00:00"
     },
     {
       "id": "e9ae50e1f13d9611",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.1,
       "published_at": "2026-08-18T18:18:20.143000",
       "created_at": "2026-08-19T18:16:40.637061+00:00"
-    },
-    {
-      "id": "1c22c3c77288d004",
-      "content_hash": "1c22c3c77288d004e6af324369a71077d685420f7024e4d892f1a1f16ac790b2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52608",
-      "title": "CVE-2026-52608 - An incorrect access control vulnerability in reportico-web <= 8.1.0 allows an un...",
-      "body": "An incorrect access control vulnerability in reportico-web <= 8.1.0 allows an unauthenticated attacker to inject arbitrary php code into the PreExecuteCode attribute of any report regardless of the safe_mode setting leading to remote code execution.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52608",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:18:20.020000",
-      "created_at": "2026-08-19T18:16:40.637054+00:00"
-    },
-    {
-      "id": "ac76fd50f09bb925",
-      "content_hash": "ac76fd50f09bb92587c9bcb756ad89789b5eb03886a23b6ad55706d9e3de347d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52607",
-      "title": "CVE-2026-52607 - A directory traversal vulnerability in reportico-web <= 8.1.0 allows remote atta...",
-      "body": "A directory traversal vulnerability in reportico-web <= 8.1.0 allows remote attackers to expose or execute arbitrary php files on the web server by specifying the filename in the target_format parameter in conjunction with the execute_mode=EXECUTE parameter of the run.php endpoint.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52607",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:18:19.883000",
-      "created_at": "2026-08-19T18:16:40.637048+00:00"
-    },
-    {
-      "id": "a782ec75225abca3",
-      "content_hash": "a782ec75225abca3f6a7f43e0225b1b5093ad689b711d63392d5ec703a3e90c7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50167",
-      "title": "CVE-2026-50167 - Kurrier is a modern, self-hosted workspace for email, calendar, contacts, and st...",
-      "body": "Kurrier is a modern, self-hosted workspace for email, calendar, contacts, and storage. Prior to 1.2.4, Kurrier API endpoints for listing and retrieving webhook and identity resources did not enforce ownership checks for authenticated API requests. An attacker with a valid API key could use another account's identifiers to read and enumerate webhook and identity resources belonging to that account through apps/worker/server/routes/api/kurrier/webhooks/[id].get.ts, apps/worker/server/routes/api/kurrier/webhooks/index.get.ts, apps/worker/server/routes/api/kurrier/identities/[id].get.ts, and apps/worker/server/routes/api/kurrier/identities/index.get.ts. Anonymous requests and invalid API keys were rejected, and cross-user modification operations were blocked, but affected GET and list operations could expose another user's resource metadata. This issue is fixed in version 1.2.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50167",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:17:53.533000",
-      "created_at": "2026-08-19T18:16:40.637042+00:00"
-    },
-    {
-      "id": "4c87e9db9cb5f572",
-      "content_hash": "4c87e9db9cb5f5723b49fd5d9ce6dbb6e0c73cfc81893db0796a6cca3519acce",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50161",
-      "title": "CVE-2026-50161 - libre is a generic library for real-time communications with asynchronous input ...",
-      "body": "libre is a generic library for real-time communications with asynchronous input and output support. Prior to 4.8.1, the websock_decode() function in src/websock/websock.c contains an integer overflow when validating a masked WebSocket frame that uses the 64-bit extended length encoding. The expression 4 + hdr->len can wrap when hdr->len is close to UINT64_MAX, causing the mbuf_get_left() bounds check to pass. The subsequent XOR unmasking loop then writes beyond the heap buffer. Applications using websock_accept() or websock_accept_proto() to implement a WebSocket server are affected, and exploitation can cause attacker-controlled heap corruption or denial of service after the HTTP WebSocket upgrade handshake. This issue is fixed in version 4.8.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50161",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:17:53.380000",
-      "created_at": "2026-08-19T18:16:40.637035+00:00"
-    },
-    {
-      "id": "92a6dc8f0918b31a",
-      "content_hash": "92a6dc8f0918b31a2124f39e18daf2b98bd4d542bba84a649fff813d0d6ffa3d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50143",
-      "title": "CVE-2026-50143 - The Apify MCP server enables AI agents to extract data from websites using ready...",
-      "body": "The Apify MCP server enables AI agents to extract data from websites using ready-made scrapers, crawlers, and automation tools available on the Apify Store. Prior to 0.10.11, getActorMCPServerURL in src/mcp/actors.ts concatenates the trusted Actor standby URL with the attacker-controlled webServerMcpPath from an Actor definition without verifying the resulting origin, allowing a malicious Actor publisher to use a userinfo-style authority value to redirect connectMCPClient to a third-party host. The call-actor, fetch-actor-details, and actor-mcp tool-loading paths pass this URL to transports in src/mcp/client.ts that attach the victim Authorization bearer token, exposing the Apify API token and enabling access to Actors, stored data, and billable compute. A victim must invoke or inspect the attacker-controlled Actor. This issue is fixed in version 0.10.11.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50143",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-18T18:17:53.227000",
-      "created_at": "2026-08-19T18:16:40.637029+00:00"
     }
   ]
 }
