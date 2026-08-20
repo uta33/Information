@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T00:34:12.316390+00:00",
+  "generated_at": "2026-08-20T02:09:28.038757+00:00",
   "items": [
     {
       "id": "cdb7552b40688423",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T00:20:55+00:00",
       "created_at": "2026-08-20T00:34:07.310935+00:00"
+    },
+    {
+      "id": "3404e3147326ba69",
+      "content_hash": "3404e3147326ba69a821e4d0ec2f8fcc142139c54e02968bb08cc9d8cbe57077",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2007.13664",
+      "title": "Universality of Gradient Descent Neural Network Training",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49368828\">Comments</a>",
+      "url": "https://arxiv.org/abs/2007.13664",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T00:05:12+00:00",
+      "created_at": "2026-08-20T02:09:28.038361+00:00"
     },
     {
       "id": "01cde10b9c2405fe",
@@ -1540,6 +1554,48 @@
       "cvss_score": null,
       "published_at": "2026-08-19T07:00:00+00:00",
       "created_at": "2026-08-19T14:21:23.041881+00:00"
+    },
+    {
+      "id": "9cd6b06e54b99283",
+      "content_hash": "9cd6b06e54b992837af6bcbddaaa1c2932df027953eaf7e2a1c9dd6b40736b9a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-18937",
+      "title": "CVE-2026-18937 - The Broken Link Checker WordPress plugin before 2.4.12 does not limit which quer...",
+      "body": "The Broken Link Checker WordPress plugin before 2.4.12 does not limit which query variables it accepts from user input on sites using plain permalinks, allowing unauthenticated users to overwrite arbitrary PHP global variables, and to execute arbitrary code on the server when a classic (non-block)  is active.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18937",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.0,
+      "published_at": "2026-08-19T06:17:38.847000",
+      "created_at": "2026-08-20T02:09:23.607928+00:00"
+    },
+    {
+      "id": "9d627c81e7394e15",
+      "content_hash": "9d627c81e7394e15a724a1ad41171671a36b03b52fe2ded5be3fa1df6468db25",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-18779",
+      "title": "CVE-2026-18779 - The TrueBooker  WordPress plugin before 1.2.7 does not have proper authorisation...",
+      "body": "The TrueBooker  WordPress plugin before 1.2.7 does not have proper authorisation checks in one of its AJAX actions, allowing unauthenticated users to delete arbitrary appointment records along with their associated booking items and payment records.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18779",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-19T06:17:38.683000",
+      "created_at": "2026-08-20T02:09:23.607923+00:00"
+    },
+    {
+      "id": "c7f22281af31e727",
+      "content_hash": "c7f22281af31e727aef5e714acccf5a77b0d4f6c5a34c5dbd51dbf20369e6ade",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-18778",
+      "title": "CVE-2026-18778 - The TrueBooker  WordPress plugin before 1.2.7 does not have proper authorisation...",
+      "body": "The TrueBooker  WordPress plugin before 1.2.7 does not have proper authorisation checks in some of its AJAX actions, allowing unauthenticated users to retrieve the personal information of customers who booked an appointment, including their name, email address, phone number and postal address.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18778",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-19T06:17:38.470000",
+      "created_at": "2026-08-20T02:09:23.607918+00:00"
     },
     {
       "id": "73fca8ebb90dc6d4",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-18T17:11:28+00:00",
       "created_at": "2026-08-18T19:19:48.856488+00:00"
-    },
-    {
-      "id": "3a9bcd6fc47dec71",
-      "content_hash": "3a9bcd6fc47dec710594221fc4b0e0dce4556ba17890eaaf04b7b96eb61ab392",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "title": "Claude Code weekly limits reduce by a third tomorrow",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49348751\">Comments</a>",
-      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T17:02:15+00:00",
-      "created_at": "2026-08-18T18:20:03.282913+00:00"
-    },
-    {
-      "id": "c265b04ddae7dad1",
-      "content_hash": "c265b04ddae7dad1e733654755aaf0d916c14e68d8dfa6cd87c8c825aa20ff9c",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "title": "Claude Code May–August 2026 weekly limits promotion",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49348751\">Comments</a>",
-      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T17:02:15+00:00",
-      "created_at": "2026-08-18T19:19:48.856758+00:00"
-    },
-    {
-      "id": "9ea635df48e24b17",
-      "content_hash": "9ea635df48e24b170f7c65ae9ed9aea60e393141c84e0bd97e87c79ef0cff627",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-      "body": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.\n\n\"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous,\" GuidePoint Research",
-      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T16:58:16+00:00",
-      "created_at": "2026-08-18T19:19:43.964607+00:00"
-    },
-    {
-      "id": "13309e7cbe923d9f",
-      "content_hash": "13309e7cbe923d9fa73ad1ea006773b2fb45327a7c66126c520beb6c6a0aedb3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-      "title": "Why your Amazon order confirmation emails have become so unhelpful",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49348627\">Comments</a>",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T16:54:42+00:00",
-      "created_at": "2026-08-18T18:20:03.283193+00:00"
     }
   ]
 }
