@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:24:37.351403+00:00",
+  "generated_at": "2026-08-20T05:20:24.079739+00:00",
   "items": [
     {
       "id": "1b8bbfabb1401c7b",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T01:29:12+00:00",
       "created_at": "2026-08-20T03:36:39.854709+00:00"
+    },
+    {
+      "id": "d88f73b99ca1a4f7",
+      "content_hash": "d88f73b99ca1a4f7f6abf37766e7bf1cd24342218f0978d5a60970c63b2bf205",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+      "title": "Turns are Better than Radians (2022)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49369408\">Comments</a>",
+      "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T01:29:12+00:00",
+      "created_at": "2026-08-20T05:20:24.079296+00:00"
     },
     {
       "id": "b4d65dbd543e59a6",
@@ -2268,6 +2282,34 @@
       "cvss_score": null,
       "published_at": "2026-08-19T07:00:00+00:00",
       "created_at": "2026-08-19T14:21:23.041881+00:00"
+    },
+    {
+      "id": "d7e8038773d3f720",
+      "content_hash": "d7e8038773d3f720805224791d27e6241d7bf8479d595f87e54a2c7916cfed55",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49428",
+      "title": "CVE-2026-49428 - Certain system calls, such open(2) with the O_TRUNC flag set, and fspacectl(2), ...",
+      "body": "Certain system calls, such open(2) with the O_TRUNC flag set, and fspacectl(2), could incorrectly free memory in largepage objects.  These operations are not permitted on largepage objects, but the implementation did not verify this.\n\nAn unprivileged local user can abuse the bug to access freed kernel memory.  This can be exploited to escalate privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49428",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.4,
+      "published_at": "2026-08-19T06:17:42.263000",
+      "created_at": "2026-08-20T05:20:20.458457+00:00"
+    },
+    {
+      "id": "29ac9e2b550a0316",
+      "content_hash": "29ac9e2b550a03166321f1103d2ed49c1e8eb2cec1705f280715cc1a07f514be",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-49427",
+      "title": "CVE-2026-49427 - Pages belonging to largepage shared memory objects were not explicitly wired.  W...",
+      "body": "Pages belonging to largepage shared memory objects were not explicitly wired.  When sendfile(2) transmitted such an object with the SF_NOCACHE flag, it freed the underlying pages after transmission even though existing mappings still referred to them.\n\nAn unprivileged local user can abuse the bug to access freed kernel memory.  This can be exploited to escalate privileges.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49427",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-19T06:17:41.977000",
+      "created_at": "2026-08-20T05:20:20.458453+00:00"
     },
     {
       "id": "2db4e652f69a6a99",
@@ -6958,48 +7000,6 @@
       "cvss_score": 7.9,
       "published_at": "2026-08-18T18:18:23.147000",
       "created_at": "2026-08-19T19:16:41.910628+00:00"
-    },
-    {
-      "id": "47ecb91ce225faab",
-      "content_hash": "47ecb91ce225faabe5dcd6cb3e89370affcfb87b375a2d5f2fb0602f7cd3dd73",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53533",
-      "title": "CVE-2026-53533 - aiosmtplib is an asynchronous SMTP client for use with asyncio. Prior to 5.1.1, ...",
-      "body": "aiosmtplib is an asynchronous SMTP client for use with asyncio. Prior to 5.1.1, SMTP.mail(), SMTP.rcpt(), SMTP.vrfy(), and SMTP.expn() send caller-supplied addresses without rejecting embedded CR or LF bytes. Data after the line break is framed as additional standalone SMTP command lines, allowing an attacker who influences an envelope sender or recipient to inject commands such as MAIL FROM, RCPT TO, RSET, DATA, or AUTH. SMTP.sendmail() and SMTP.send() without a Message object pass addresses through the affected methods, while SMTP.send_message() is not affected. Successful injection can desynchronize the command-response pipeline, hang the SMTP instance, or send an arbitrary message without requiring attacker control of the SMTP server. This issue is fixed in version 5.1.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53533",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:18:20.513000",
-      "created_at": "2026-08-19T19:16:41.910621+00:00"
-    },
-    {
-      "id": "6700bdf07e1a905e",
-      "content_hash": "6700bdf07e1a905eed802a45ff8778a72d43567f433d4956495fab973e51981a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52610",
-      "title": "CVE-2026-52610 - An arbitrary file write/directory traversal vulnerability in reportico-web <= 8....",
-      "body": "An arbitrary file write/directory traversal vulnerability in reportico-web <= 8.1.0 allows remote attackers to create or overwrite files anywhere on the filesystem subject to the permissions of the web user by specifying a filename in the \"saveTemplate\" parameter in conjuction with \"execute_mode=PREPARE\" parameter in the \"run.php\" endpoint.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52610",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-18T18:18:20.263000",
-      "created_at": "2026-08-19T19:16:41.910615+00:00"
-    },
-    {
-      "id": "51f322fa4d6ad330",
-      "content_hash": "51f322fa4d6ad3302361ecdfca8e5e5fc53679d4c60badef95c2cb29e8dff83b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-52609",
-      "title": "CVE-2026-52609 - A reflected cross-site scripting (XSS) vulnerability in reportico-web <= 8.1.0 a...",
-      "body": "A reflected cross-site scripting (XSS) vulnerability in reportico-web <= 8.1.0 allows remote attackers to execute arbitrary JavaScript in the web browser of a user by including a malicious payload in the reportico_criteria parameter in conjunction with the execute_mode=CRITERIA parameter of run.php.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52609",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-08-18T18:18:20.143000",
-      "created_at": "2026-08-19T18:16:40.637061+00:00"
     }
   ]
 }
