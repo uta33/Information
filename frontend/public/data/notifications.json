@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-21T10:18:16.572467+00:00",
+  "generated_at": "2026-08-21T11:15:32.103566+00:00",
   "items": [
+    {
+      "id": "03cbb188226a9642",
+      "content_hash": "03cbb188226a9642e93e51c845b1efe32cc83f2a3818b7c28cbaef0d32c8e25b",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "body": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-21T11:04:10+00:00",
+      "created_at": "2026-08-21T11:15:26.912678+00:00"
+    },
+    {
+      "id": "05ca4bcaf7a1e2ca",
+      "content_hash": "05ca4bcaf7a1e2ca890ce1bfd58b1007d68330612e0054451e09918ef3cc7691",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "body": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T11:00:00+00:00",
+      "created_at": "2026-08-21T11:15:26.912725+00:00"
+    },
+    {
+      "id": "393da387d23eff90",
+      "content_hash": "393da387d23eff903bf1785565274dd9689f7eb2e231ec9f0959def8300f6fca",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://api-docs.deepseek.com/guides/vision/",
+      "title": "DeepSeek-v4-flash-vision-exp",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49386163\">Comments</a>",
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T10:33:56+00:00",
+      "created_at": "2026-08-21T11:15:32.102772+00:00"
+    },
     {
       "id": "dab4e400b466e2e0",
       "content_hash": "dab4e400b466e2e0d2bd93c1449799d8395342e7c79dbe00187ae80e787bb8fa",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-19T21:17:37.563000",
       "created_at": "2026-08-20T22:14:31.484710+00:00"
-    },
-    {
-      "id": "4b4f09676bd3d317",
-      "content_hash": "4b4f09676bd3d31780fc254535af398d43ae0d4fdceaf0743002822d2c048f61",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-75569",
-      "title": "CVE-2026-75569 - A flaw was found in mce-operator-bundle. The build process fetches and executes ...",
-      "body": "A flaw was found in mce-operator-bundle. The build process fetches and executes scripts from a remote repository without performing integrity checks, such as commit pinning or signature verification. This allows a malicious actor with write access to the remote repository to inject and execute arbitrary code during the build. The consequence is a compromised build process, potentially leading to the distribution of malicious software.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75569",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-08-19T21:17:37.287000",
-      "created_at": "2026-08-20T22:14:31.484704+00:00"
-    },
-    {
-      "id": "a2d100bfb9851bd4",
-      "content_hash": "a2d100bfb9851bd4d4fd26bfcbdee7c4bf162e55b7d3af03b33c84108a2b8dd2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-75476",
-      "title": "CVE-2026-75476 - Tanium addressed a compression bomb vulnerability in Threat Response.",
-      "body": "Tanium addressed a compression bomb vulnerability in Threat Response.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75476",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.1,
-      "published_at": "2026-08-19T21:17:37.143000",
-      "created_at": "2026-08-20T22:14:31.484697+00:00"
-    },
-    {
-      "id": "dda548ac2aca1952",
-      "content_hash": "dda548ac2aca1952695d036c7689e319f517205ca83f29ef3d5145e720987ebe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-69222",
-      "title": "CVE-2026-69222 - LiquidJS is a Shopify / GitHub Pages compatible template engine in pure JavaScri...",
-      "body": "LiquidJS is a Shopify / GitHub Pages compatible template engine in pure JavaScript. Prior to 10.27.2, the join filter in src/filters/array.ts computes complexity from array.length and separator length instead of the total string length produced by array.join(sep). The concat filter can cheaply double arrays of references, after which join materializes the referenced content while charging only for element count, allowing a template to exceed a configured memoryLimit by a large factor. The sibling array_to_sentence_string filter in src/filters/string.ts has the same accounting defect, and a crafted template can allocate toward V8's string or process memory limit and crash the process. This issue is fixed in version 10.27.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69222",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-19T21:17:31.627000",
-      "created_at": "2026-08-20T22:14:31.484690+00:00"
     }
   ]
 }
