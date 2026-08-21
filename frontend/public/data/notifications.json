@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-21T19:18:03.415416+00:00",
+  "generated_at": "2026-08-21T20:12:35.918631+00:00",
   "items": [
+    {
+      "id": "a8390593b28f43df",
+      "content_hash": "a8390593b28f43dfbc87d37d69284ed0c34611c7c27d39babc740094aa0ca832",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3155447",
+      "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
+      "body": "The $225 Pebble Time 2 pairs quirky watch faces and apps with physical buttons, an e-paper display, weeks of battery life, and a playful hacker spirit.",
+      "url": "https://techcrunch.com/2026/08/21/the-225-pebble-time-2-is-a-refreshingly-fun-smartwatch/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T19:57:46+00:00",
+      "created_at": "2026-08-21T20:12:35.591250+00:00"
+    },
+    {
+      "id": "f8fc9400b7de814a",
+      "content_hash": "f8fc9400b7de814a862b9ad51f646c0ce40687d2bfb5a4a126f207ebf08369fd",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3155284",
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "body": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T19:43:39+00:00",
+      "created_at": "2026-08-21T20:12:35.591281+00:00"
+    },
     {
       "id": "53fcf2764b109b60",
       "content_hash": "53fcf2764b109b60a0846bd38247b0555abbf314bc47d0039e8de973ae21d2ff",
@@ -14,6 +42,48 @@
       "cvss_score": null,
       "published_at": "2026-08-21T19:16:15+00:00",
       "created_at": "2026-08-21T19:18:03.240524+00:00"
+    },
+    {
+      "id": "a6a497e817d556ad",
+      "content_hash": "a6a497e817d556ad6444433079e68a49da1ac9fc4796647625df8c74e0714173",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tumbleforth.hardcoded.net/",
+      "title": "Tumble Forth – from assembly to OS with C compiler",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49392465\">Comments</a>",
+      "url": "https://tumbleforth.hardcoded.net/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T18:59:52+00:00",
+      "created_at": "2026-08-21T20:12:35.918193+00:00"
+    },
+    {
+      "id": "efc3df2344476038",
+      "content_hash": "efc3df234447603811a7338e9fb5d8048721aa9e421722ca4cc5bf0993078b2f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jank.cool/death-to-the-self-playing-game/",
+      "title": "Death to the Self-Playing Game",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49392449\">Comments</a>",
+      "url": "https://www.jank.cool/death-to-the-self-playing-game/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T18:58:12+00:00",
+      "created_at": "2026-08-21T20:12:35.918394+00:00"
+    },
+    {
+      "id": "16c8796bc8248a6b",
+      "content_hash": "16c8796bc8248a6bad870618582edb506763446cc0697eb5b5848316fc340dcc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49392331\">Comments</a>",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T18:48:28+00:00",
+      "created_at": "2026-08-21T20:12:35.918157+00:00"
     },
     {
       "id": "90b231d00d0c3f17",
@@ -6930,76 +7000,6 @@
       "cvss_score": 9.1,
       "published_at": "2026-08-20T12:16:33.810000",
       "created_at": "2026-08-21T07:33:43.522349+00:00"
-    },
-    {
-      "id": "69b0b13b91d3161d",
-      "content_hash": "69b0b13b91d3161d6b043af1f1c2bacc347494a142267810a2c7c9acc26b24ce",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66598",
-      "title": "CVE-2026-66598 - Unauthenticated Cross Site Scripting (XSS) in B2BKing Premium <= 5.6.07 versions...",
-      "body": "Unauthenticated Cross Site Scripting (XSS) in B2BKing Premium <= 5.6.07 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66598",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-20T12:16:33.683000",
-      "created_at": "2026-08-21T07:33:43.522343+00:00"
-    },
-    {
-      "id": "62c1680de340edf0",
-      "content_hash": "62c1680de340edf0e808e0fa1da822905bec6ba440f0f9cf548f7d5e6382f2f1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66597",
-      "title": "CVE-2026-66597 - Unauthenticated Cross Site Scripting (XSS) in wpDataTables <= 6.5.1.4 versions.",
-      "body": "Unauthenticated Cross Site Scripting (XSS) in wpDataTables <= 6.5.1.4 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66597",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-20T12:16:33.557000",
-      "created_at": "2026-08-21T07:33:43.522337+00:00"
-    },
-    {
-      "id": "ef1269bf51c4c896",
-      "content_hash": "ef1269bf51c4c8967111fa4be220f81ab9e1f325aa19b6fe702987a18960ff16",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66595",
-      "title": "CVE-2026-66595 - Unauthenticated Broken Access Control in WP Data Access <= 5.5.80 versions.",
-      "body": "Unauthenticated Broken Access Control in WP Data Access <= 5.5.80 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66595",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-08-20T12:16:33.433000",
-      "created_at": "2026-08-21T07:33:43.522331+00:00"
-    },
-    {
-      "id": "9f85bf99ea98c80c",
-      "content_hash": "9f85bf99ea98c80ccf89bb375867ff3d2e421cfe4b7ee0755387bbe77fa66898",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66594",
-      "title": "CVE-2026-66594 - Subscriber SQL Injection in WordPress Persistent Login <= 3.1.0 versions.",
-      "body": "Subscriber SQL Injection in WordPress Persistent Login <= 3.1.0 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66594",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.5,
-      "published_at": "2026-08-20T12:16:33.307000",
-      "created_at": "2026-08-21T07:33:43.522324+00:00"
-    },
-    {
-      "id": "25bf48d69be82c5a",
-      "content_hash": "25bf48d69be82c5ac95743474fb9ea59d48eb1e53af31e5e5f5952258ed4465d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66593",
-      "title": "CVE-2026-66593 - Unauthenticated SQL Injection in Security & Malware scan by CleanTalk <= 2.184 v...",
-      "body": "Unauthenticated SQL Injection in Security & Malware scan by CleanTalk <= 2.184 versions.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66593",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-08-20T12:16:33.187000",
-      "created_at": "2026-08-21T07:33:43.522318+00:00"
     }
   ]
 }
