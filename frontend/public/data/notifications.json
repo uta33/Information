@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-21T03:40:31.807362+00:00",
+  "generated_at": "2026-08-21T04:26:43.497817+00:00",
   "items": [
+    {
+      "id": "94e1840ccd02fca6",
+      "content_hash": "94e1840ccd02fca66c038bd4caf59b5671ac4447536438f198a30f3227372e73",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/openai/codex/issues/37674",
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49383326\">Comments</a>",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T03:17:43+00:00",
+      "created_at": "2026-08-21T04:26:43.497084+00:00"
+    },
     {
       "id": "e515f09f18475022",
       "content_hash": "e515f09f1847502269a26951264af0f7edbf2f622e7cbfb8098b98c25454b3ab",
@@ -112,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T23:56:35+00:00",
       "created_at": "2026-08-21T02:16:25.954083+00:00"
+    },
+    {
+      "id": "535a4123e819eb15",
+      "content_hash": "535a4123e819eb1523f43447563e4eb97495d8fcba89c25a44107ae6609f5e08",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openrouter.ai/stealth/ox-alpha",
+      "title": "Ox Alpha",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49381896\">Comments</a>",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T23:56:35+00:00",
+      "created_at": "2026-08-21T04:26:43.497246+00:00"
     },
     {
       "id": "f1270ff1b2570335",
@@ -1540,6 +1568,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T12:19:37+00:00",
       "created_at": "2026-08-20T13:37:08.731895+00:00"
+    },
+    {
+      "id": "77601cd70fe0f0b9",
+      "content_hash": "77601cd70fe0f0b9e12d62730c420dc890b996c4c60efacf7c6b38a17009c13f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66583",
+      "title": "CVE-2026-66583 - Unauthenticated PHP Object Injection in Forminator <= 1.57.0 versions.",
+      "body": "Unauthenticated PHP Object Injection in Forminator <= 1.57.0 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66583",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-20T12:16:32.670000",
+      "created_at": "2026-08-21T04:26:39.038592+00:00"
     },
     {
       "id": "73e1a1f322ebaf19",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-19T19:44:45+00:00",
       "created_at": "2026-08-19T21:14:52.282795+00:00"
-    },
-    {
-      "id": "ebb9f22a00bafea4",
-      "content_hash": "ebb9f22a00bafea424a8109faa388a36156971cbe5e34b93fc1b2189f752a959",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
-      "title": "Pixel 11 Pro Fold feels like the end of an era",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366264\">Comments</a>",
-      "url": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T19:43:48+00:00",
-      "created_at": "2026-08-19T20:13:38.458732+00:00"
-    },
-    {
-      "id": "bf6653f793832e93",
-      "content_hash": "bf6653f793832e936b2d36ebd95b9dacf56b76fe54eebf15436c7a5b7507f4c3",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.amppublic.com/research/openrouter",
-      "title": "You Probably Don't Get Why Stripe Bought OpenRouter",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366225\">Comments</a>",
-      "url": "https://www.amppublic.com/research/openrouter",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T19:39:36+00:00",
-      "created_at": "2026-08-19T20:13:38.458803+00:00"
-    },
-    {
-      "id": "57dea6d6a4e3e6e6",
-      "content_hash": "57dea6d6a4e3e6e6d6d882f41064fe0f3d25a0ed6e17459726c49a5c87815b07",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2510.24491",
-      "title": "From Quantum Relative Entropy to the Semiclassical Einstein Equations",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366115\">Comments</a>",
-      "url": "https://arxiv.org/abs/2510.24491",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T19:31:02+00:00",
-      "created_at": "2026-08-19T20:13:38.458703+00:00"
     }
   ]
 }
