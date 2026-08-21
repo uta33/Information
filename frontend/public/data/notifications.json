@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-21T05:21:48.291135+00:00",
+  "generated_at": "2026-08-21T06:25:00.678138+00:00",
   "items": [
+    {
+      "id": "92c9b353ca9e00b9",
+      "content_hash": "92c9b353ca9e00b9b8fe0c476347311096ea20c98016e45645782debaf951780",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "title": "Japan tried to build an operating system for the world, the US intervened",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49384180\">Comments</a>",
+      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T05:31:34+00:00",
+      "created_at": "2026-08-21T06:25:00.677635+00:00"
+    },
     {
       "id": "94e1840ccd02fca6",
       "content_hash": "94e1840ccd02fca66c038bd4caf59b5671ac4447536438f198a30f3227372e73",
@@ -828,6 +842,20 @@
       "created_at": "2026-08-20T19:22:00.987026+00:00"
     },
     {
+      "id": "64a3bcbe04587a2c",
+      "content_hash": "64a3bcbe04587a2c6012ee9f079170a557cd5db2e679553d649d87caa4d76d8a",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "body": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.\n\nNothing here needs",
+      "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-20T17:23:48+00:00",
+      "created_at": "2026-08-21T06:24:55.678563+00:00"
+    },
+    {
       "id": "88a194773e2956a8",
       "content_hash": "88a194773e2956a8388a5a2d1beb69fa31cdc78d65a20d7cc13b788311f8447f",
       "source_name": "Hacker News (Best)",
@@ -1568,6 +1596,48 @@
       "cvss_score": null,
       "published_at": "2026-08-20T12:19:37+00:00",
       "created_at": "2026-08-20T13:37:08.731895+00:00"
+    },
+    {
+      "id": "a058e48a7a15c37f",
+      "content_hash": "a058e48a7a15c37f3a29bdb14ed80ae3546de621c4a567f0a53587922d9ec3f1",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66592",
+      "title": "CVE-2026-66592 - Unauthenticated SQL Injection in rtMedia for WordPress, BuddyPress and bbPress <...",
+      "body": "Unauthenticated SQL Injection in rtMedia for WordPress, BuddyPress and bbPress <= 4.7.11 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66592",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.3,
+      "published_at": "2026-08-20T12:16:33.057000",
+      "created_at": "2026-08-21T06:24:56.148232+00:00"
+    },
+    {
+      "id": "99297460d223fe24",
+      "content_hash": "99297460d223fe245573770cc30573741cc03d1082144f629f59040be3978542",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66590",
+      "title": "CVE-2026-66590 - Unauthenticated Cross Site Scripting (XSS) in Tagembed <= 7.4 versions.",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in Tagembed <= 7.4 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66590",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-20T12:16:32.930000",
+      "created_at": "2026-08-21T06:24:56.148216+00:00"
+    },
+    {
+      "id": "3021a8a3b7e6bf93",
+      "content_hash": "3021a8a3b7e6bf93e961710a9d26878afe4ef3ee02c1d5fa6fb1559ff82df4ee",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66586",
+      "title": "CVE-2026-66586 - Author Local File Inclusion in WP Cafe Pro < 3.0.15 versions.",
+      "body": "Author Local File Inclusion in WP Cafe Pro < 3.0.15 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66586",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.6,
+      "published_at": "2026-08-20T12:16:32.800000",
+      "created_at": "2026-08-21T06:24:56.148209+00:00"
     },
     {
       "id": "77601cd70fe0f0b9",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-19T20:07:12+00:00",
       "created_at": "2026-08-19T20:13:34.359506+00:00"
-    },
-    {
-      "id": "3af03533138424f7",
-      "content_hash": "3af03533138424f7b8792668cce75d3e853b2b94e521e958212a6de3753f5e69",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3154535",
-      "title": "Gwyneth Paltrow allegedly set to throw dinner in honor of Sam Altman",
-      "body": "The actress' firm Kinship Ventures is an investor in the company.",
-      "url": "https://techcrunch.com/2026/08/19/gwyneth-paltrow-allegedly-set-to-throw-dinner-in-honor-of-sam-altman/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T20:04:12+00:00",
-      "created_at": "2026-08-19T20:13:38.220323+00:00"
-    },
-    {
-      "id": "2deea26ff7da267f",
-      "content_hash": "2deea26ff7da267f9fa6ba7442755c0ee264062e5c83a9290fad2bee2f50a173",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lists.x.org/archives/xorg/2026-August/062280.html",
-      "title": "XWayland 26.1-rc1 Released Two Years After the Last Release",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366474\">Comments</a>",
-      "url": "https://lists.x.org/archives/xorg/2026-August/062280.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T20:03:03+00:00",
-      "created_at": "2026-08-19T21:14:52.282684+00:00"
-    },
-    {
-      "id": "388970a7f3b51016",
-      "content_hash": "388970a7f3b5101633f59ae668052d535de412281435b885ee4506f02464cb0b",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://lists.x.org/archives/xorg/2026-August/062280.html",
-      "title": "Xwayland 26.1.0 rc1",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366474\">Comments</a>",
-      "url": "https://lists.x.org/archives/xorg/2026-August/062280.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T20:03:03+00:00",
-      "created_at": "2026-08-19T22:12:51.480049+00:00"
-    },
-    {
-      "id": "e108868ed404370e",
-      "content_hash": "e108868ed404370ebec03c26930f25f26825b1487ea6bd290f087cdcdcd38d0f",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3154508",
-      "title": "Gambling on the Little League World Series? Sports bettors have gone too far",
-      "body": "Have we tried turning off society and turning it back on again?",
-      "url": "https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T20:01:02+00:00",
-      "created_at": "2026-08-19T20:13:38.220336+00:00"
-    },
-    {
-      "id": "5414bb1b0f1f95b0",
-      "content_hash": "5414bb1b0f1f95b04fb40537139076454f0a1a425c65281fd1fe87ac3108d471",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://dogdogfish.com/blog/2026/08/19/digital-immortality/",
-      "title": "Digital Immortality",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49366270\">Comments</a>",
-      "url": "https://dogdogfish.com/blog/2026/08/19/digital-immortality/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T19:44:45+00:00",
-      "created_at": "2026-08-19T21:14:52.282795+00:00"
     }
   ]
 }
