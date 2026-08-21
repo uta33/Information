@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-21T00:36:36.232903+00:00",
+  "generated_at": "2026-08-21T02:16:25.954644+00:00",
   "items": [
+    {
+      "id": "d930ac66a249c0e9",
+      "content_hash": "d930ac66a249c0e9fe8ea0bd6333ebac52b0b566413ac5c93b0810e71e921b67",
+      "source_name": "Hacker News (Best)",
+      "external_id": "http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html",
+      "title": "It is a sign of the times that Amazon gets to call this fair use",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49382200\">Comments</a>",
+      "url": "http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T00:34:32+00:00",
+      "created_at": "2026-08-21T02:16:25.953868+00:00"
+    },
+    {
+      "id": "ef2b33a85ce433b2",
+      "content_hash": "ef2b33a85ce433b2208fa57fe06fc3b611b7136d1880009453033baafade793c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "title": "There's no such thing as a small software team anymore",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49382152\">Comments</a>",
+      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T00:28:37+00:00",
+      "created_at": "2026-08-21T02:16:25.953980+00:00"
+    },
     {
       "id": "114f848293da7fc2",
       "content_hash": "114f848293da7fc2d1756404d2befa48b4ef15b22b95c2b181ced6f715478e69",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-21T00:13:44+00:00",
       "created_at": "2026-08-21T00:36:36.133668+00:00"
+    },
+    {
+      "id": "624e6d96874b85d7",
+      "content_hash": "624e6d96874b85d73866cfef0615d075e5b9d002ca98031f0d82ecce123e4d9e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openrouter.ai/stealth/ox-alpha",
+      "title": "Stealth Model",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49381896\">Comments</a>",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-20T23:56:35+00:00",
+      "created_at": "2026-08-21T02:16:25.954083+00:00"
     },
     {
       "id": "f1270ff1b2570335",
@@ -1458,6 +1500,48 @@
       "created_at": "2026-08-20T13:37:08.731895+00:00"
     },
     {
+      "id": "55ad70365d4d88b6",
+      "content_hash": "55ad70365d4d88b681e456142fc734b69596b777599124f66c0650c9bbecda94",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-15689",
+      "title": "CVE-2025-15689 - Unauthenticated Privilege Escalation in Capella <= 2.5.5 versions.",
+      "body": "Unauthenticated Privilege Escalation in Capella <= 2.5.5 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15689",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-20T12:16:31.890000",
+      "created_at": "2026-08-21T02:16:21.201483+00:00"
+    },
+    {
+      "id": "8b162a28b5034da3",
+      "content_hash": "8b162a28b5034da3ec6a8af4ea04cf7b8b1893e2f096387f6b9e884604ca0689",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-15688",
+      "title": "CVE-2025-15688 - Unauthenticated SQL Injection in Capella <= 2.5.5 versions.",
+      "body": "Unauthenticated SQL Injection in Capella <= 2.5.5 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15688",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.3,
+      "published_at": "2026-08-20T12:16:31.763000",
+      "created_at": "2026-08-21T02:16:21.201476+00:00"
+    },
+    {
+      "id": "ee97610faf96f5cb",
+      "content_hash": "ee97610faf96f5cb8e0185e5112acef6ade14df27af43c3d27c2fcd702102b98",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2025-15637",
+      "title": "CVE-2025-15637 - Unauthenticated Local File Inclusion in Shuffle <= 1.8 versions.",
+      "body": "Unauthenticated Local File Inclusion in Shuffle <= 1.8 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15637",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-20T12:16:30.777000",
+      "created_at": "2026-08-21T02:16:21.201470+00:00"
+    },
+    {
       "id": "6d7ef9e35bfc3491",
       "content_hash": "6d7ef9e35bfc349152c32613fdb771539a711c3498bfe4018832a611114e6bb7",
       "source_name": "Bleeping Computer",
@@ -1596,6 +1680,20 @@
       "cvss_score": null,
       "published_at": "2026-08-20T11:23:43+00:00",
       "created_at": "2026-08-20T13:37:08.732014+00:00"
+    },
+    {
+      "id": "bb95e652176a34cb",
+      "content_hash": "bb95e652176a34cba9d160d3c15be65814b9b8ca1e769085bd428e4e9ba40602",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77067",
+      "title": "CVE-2026-77067 - The setWebhookResolver in packages/api/src/resolvers/webhooks/index.ts stores th...",
+      "body": "The setWebhookResolver in packages/api/src/resolvers/webhooks/index.ts stores the caller-supplied url without any address validation, and the file imports no validation helper. When a subscribed event fires, callWebhook in packages/api/src/jobs/call_webhook.ts issues axios.request with that url, the method and Content-Type recorded on the webhook, and a JSON body carrying the event data, so an authenticated user can make the server send repeated attacker-shaped requests to internal endpoints, including link-local metadata addresses. The request is blind: callWebhook discards the result and writes only a success line or the axios error to the server log, so the response is not returned through the API.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77067",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.0,
+      "published_at": "2026-08-20T11:16:22.240000",
+      "created_at": "2026-08-21T02:16:21.201463+00:00"
     },
     {
       "id": "3e3e2d2c326dc2ea",
@@ -6902,104 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-19T18:17:23.583000",
       "created_at": "2026-08-20T18:20:51.384402+00:00"
-    },
-    {
-      "id": "04595035d58906d2",
-      "content_hash": "04595035d58906d2005ec4d17d17956628bf3481ea7bb1a3aa9c6924e3eea694",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-71865",
-      "title": "CVE-2026-71865 - Orval generates type-safe JavaScript clients in TypeScript from OpenAPI v3 and S...",
-      "body": "Orval generates type-safe JavaScript clients in TypeScript from OpenAPI v3 and Swagger v2 specifications. Prior to 8.21.0, a double quote in a query parameter name is emitted into the generated request-validation zod.object({...}) schema without safe encoding. This permits attacker-controlled JavaScript to be evaluated when the generated zod schema module is imported, resulting in code execution in the developer, CI, test, or application environment. The affected code is packages/zod/src/index.ts and query request-validation generation. This issue is fixed in version 8.21.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71865",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T18:17:23.450000",
-      "created_at": "2026-08-20T18:20:51.384399+00:00"
-    },
-    {
-      "id": "682f5ccf21cbdb9b",
-      "content_hash": "682f5ccf21cbdb9b220dd7150bd3b5070b68123de8bbbe59e7bbd2fca1de0eb0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-71864",
-      "title": "CVE-2026-71864 - Orval generates type-safe JavaScript clients in TypeScript from OpenAPI v3 and S...",
-      "body": "Orval generates type-safe JavaScript clients in TypeScript from OpenAPI v3 and Swagger v2 specifications. Prior to 8.21.0, a double quote in a header parameter name is emitted into the generated request-validation zod.object({...}) schema without safe encoding. This permits attacker-controlled JavaScript to be evaluated when the generated zod schema module is imported, resulting in code execution in the developer, CI, test, or application environment. The affected code is packages/zod/src/index.ts and header request-validation generation. This issue is fixed in version 8.21.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71864",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T18:17:23.313000",
-      "created_at": "2026-08-20T18:20:51.384396+00:00"
-    },
-    {
-      "id": "26fee5fb244c7280",
-      "content_hash": "26fee5fb244c728072a2105274c329f27e99d2cb3b56b93f1f0541537e130f22",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-69159",
-      "title": "CVE-2026-69159 - FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.29.0...",
-      "body": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.29.0, planar_decompress_plane_rle and planar_decompress_plane_rle_only in libfreerdp/codec/planar.c verify that a control byte exists but do not verify that the source buffer contains the zero to fifteen raw bytes declared by that control byte. A malicious RDP server can send a truncated planar bitmap or surface update whose final control byte claims additional raw bytes, causing the decoder to read beyond pSrcData while processing a color plane. This can crash the client and may disclose adjacent memory. This issue is fixed in version 3.29.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69159",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-19T18:17:19.813000",
-      "created_at": "2026-08-20T18:20:51.384393+00:00"
-    },
-    {
-      "id": "df0d8f71fac2da7c",
-      "content_hash": "df0d8f71fac2da7c4c9507ad13f5e7ce71b143e688266c5201a174d32ae8f638",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67581",
-      "title": "CVE-2026-67581 - Authentication Bypass by Capture-replay in ZenHive mpp allows an unauthenticated...",
-      "body": "Authentication Bypass by Capture-replay in ZenHive mpp allows an unauthenticated remote client to obtain paid resources by resubmitting one settled on-chain transfer.\n\nMPP.Methods.EVM.verify/2 accepts a transaction-hash credential and matches a transfer purely on token, to and amount (ERC-20) or to and value (native). It binds the proof neither to the challenge being verified nor to any record of prior use, and the generic MPP.Plug dedup store keys on challenge.id, which is regenerated for every 402 response. On a static-price route, a single historical transfer matching the charge therefore satisfies an unbounded number of later charges, including transfers an attacker can read off a public block explorer.\n\nThis issue affects mpp: from 0.3.0 before 0.6.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67581",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T18:17:17.303000",
-      "created_at": "2026-08-20T18:20:51.384389+00:00"
-    },
-    {
-      "id": "8c29f9a22929a77c",
-      "content_hash": "8c29f9a22929a77c2680878e7382be471c507645a4fc73b30a3a88382fbd8d4b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66794",
-      "title": "CVE-2026-66794 - A flaw was found in the `cluster-proxy-addon` component of Multicluster Engine f...",
-      "body": "A flaw was found in the `cluster-proxy-addon` component of Multicluster Engine for Kubernetes. This vulnerability allows an unauthenticated attacker, who can access the user-facing route, to bypass authentication and authorization checks. By manipulating URL path segments, the attacker can proxy requests to arbitrary services across any managed cluster. This enables unauthorized access to internal services that would otherwise be protected, potentially leading to information disclosure or further compromise of the cluster environment.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66794",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.3,
-      "published_at": "2026-08-19T18:17:16.547000",
-      "created_at": "2026-08-20T18:20:51.384386+00:00"
-    },
-    {
-      "id": "6875e9c6d35244d1",
-      "content_hash": "6875e9c6d35244d1b3c8582553997b3ec4b8cb7dd9758513aee5f957b4aea972",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63652",
-      "title": "CVE-2026-63652 - FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0...",
-      "body": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0, rdpsnd_server_recv_formats in channels/rdpsnd/server/rdpsnd_main.c frees context->client_formats on a malformed Client Audio Formats PDU without clearing the owning pointer or num_client_formats. An authenticated RDP client can trigger an error such as a cbSize larger than the remaining record, leave the dangling pointer in the server context, and cause rdpsnd_server_context_free to free the same allocation again at session teardown. This reliably terminates the server and can create allocator-dependent heap corruption. This issue is fixed in version 3.28.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63652",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T18:17:10.167000",
-      "created_at": "2026-08-20T18:20:51.384383+00:00"
-    },
-    {
-      "id": "abe0321876d9a711",
-      "content_hash": "abe0321876d9a7111a65bd40956ee54b5700dc4ec70a2936df146776b1bf9658",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63633",
-      "title": "CVE-2026-63633 - FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0...",
-      "body": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0, freerdp_dsp_decode_opus in libfreerdp/codec/dsp.c calls Stream_EnsureRemainingCapacity on context->common.buffer even though opus_decode writes decoded PCM into the caller-supplied out stream. A malicious RDP server that negotiates WAVE_FORMAT_OPUS with a client built with WITH_OPUS enabled and WITH_DSP_FFMPEG disabled can make libopus write a large decoded frame beyond the 4096-byte StreamPool_Take destination used by channels/rdpsnd/client/rdpsnd_main.c. This can corrupt the client heap, crash the client, and may permit code execution. This issue is fixed in version 3.28.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63633",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-19T18:17:10.017000",
-      "created_at": "2026-08-20T18:20:51.384379+00:00"
     }
   ]
 }
