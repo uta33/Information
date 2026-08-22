@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:16:18.481004+00:00",
+  "generated_at": "2026-08-22T10:11:37.831356+00:00",
   "items": [
     {
       "id": "3da922d0f5ae54e9",
@@ -1680,6 +1680,62 @@
       "cvss_score": null,
       "published_at": "2026-08-21T12:25:33+00:00",
       "created_at": "2026-08-21T13:36:16.734404+00:00"
+    },
+    {
+      "id": "99e700731ae1258d",
+      "content_hash": "99e700731ae1258ddcf39623de5ae8b530d126d27f3545723cc4b6a9df86f164",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-59308",
+      "title": "CVE-2026-59308 - In Spring AI's Semantic Cache support, the context hash used to isolate cached r...",
+      "body": "In Spring AI's Semantic Cache support, the context hash used to isolate cached responses between different system prompts could allow cached responses to be shared across unrelated contexts.\nAffected versions:\nSpring AI: 2.0.0",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59308",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.2,
+      "published_at": "2026-08-21T12:16:30.270000",
+      "created_at": "2026-08-22T10:11:33.303683+00:00"
+    },
+    {
+      "id": "c6b825c21fd1f192",
+      "content_hash": "c6b825c21fd1f1922ab00940b559d98751ab9bb796d273c61b35ab89b0490a7c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-59279",
+      "title": "CVE-2026-59279 - The MCP Streamable HTTP server transport (WebFlux and WebMvc variants) does not ...",
+      "body": "The MCP Streamable HTTP server transport (WebFlux and WebMvc variants) does not place any limit on the number of sessions it retains, and by default does not require clients to be authenticated. As a result, a remote attacker can cause the server to accumulate an unbounded number of sessions over time, gradually exhausting available memory and ultimately causing a Denial of Service that affects all legitimate clients.\nAffected versions:\nSpring AI: 2.0.0",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59279",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-21T12:16:30.013000",
+      "created_at": "2026-08-22T10:11:33.303676+00:00"
+    },
+    {
+      "id": "14fc5e254de1b2f4",
+      "content_hash": "14fc5e254de1b2f43e2500d89b6ec24b142e9f13444631d7fef77a3e2b4ed83e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19848",
+      "title": "CVE-2026-19848 - The ProfilePress WordPress plugin before 4.17.1 does not strip shortcodes from t...",
+      "body": "The ProfilePress WordPress plugin before 4.17.1 does not strip shortcodes from two of its profile fields before rendering them on public pages, allowing unauthenticated attackers to store shortcodes that are then executed when the page is viewed, disclosing a chosen user's email address, login and registration date.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19848",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-08-21T12:16:24.980000",
+      "created_at": "2026-08-22T10:11:33.303669+00:00"
+    },
+    {
+      "id": "67642968d85718bd",
+      "content_hash": "67642968d85718bdd7213fe98d1ce8d95f8ab3da32e957ee3ac2294698f90579",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-18356",
+      "title": "CVE-2026-18356 - The Limit Login Attempts Reloaded WordPress plugin before 3.3.5 does not compare...",
+      "body": "The Limit Login Attempts Reloaded WordPress plugin before 3.3.5 does not compare logins against its username denylist case-insensitively and does not account for the account's email address, allowing an account an administrator intended to block from logging in to authenticate anyway.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18356",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 3.7,
+      "published_at": "2026-08-21T12:16:24.863000",
+      "created_at": "2026-08-22T10:11:33.303663+00:00"
     },
     {
       "id": "6722bd88132ba2e4",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-20T17:33:32+00:00",
       "created_at": "2026-08-20T18:20:54.202364+00:00"
-    },
-    {
-      "id": "cc106a6096b5eba1",
-      "content_hash": "cc106a6096b5eba1882e72ac1c45884dad313b5de2671a03db7beb058fe75874",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3154977",
-      "title": "Grok keeps sending gibberish responses to users",
-      "body": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
-      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-20T17:32:16+00:00",
-      "created_at": "2026-08-20T18:20:54.025553+00:00"
-    },
-    {
-      "id": "fb4b5658c28c0e6a",
-      "content_hash": "fb4b5658c28c0e6afd01c16a3dcdda3f0a15be957cce7efab3fe75617d448dca",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3154551",
-      "title": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "body": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year.",
-      "url": "https://techcrunch.com/2026/08/20/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-20T17:27:47+00:00",
-      "created_at": "2026-08-20T18:20:54.025566+00:00"
-    },
-    {
-      "id": "8a24309990e89a90",
-      "content_hash": "8a24309990e89a90039bc38dbb8107c9f8f484dd4a5bb8dff36414abe44ddc6d",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
-      "body": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.\n\nNothing here needs",
-      "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-08-20T17:23:48+00:00",
-      "created_at": "2026-08-20T19:22:00.987026+00:00"
-    },
-    {
-      "id": "64a3bcbe04587a2c",
-      "content_hash": "64a3bcbe04587a2c6012ee9f079170a557cd5db2e679553d649d87caa4d76d8a",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "body": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.\n\nNothing here needs",
-      "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-08-20T17:23:48+00:00",
-      "created_at": "2026-08-21T06:24:55.678563+00:00"
     }
   ]
 }
