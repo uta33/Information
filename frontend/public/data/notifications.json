@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:32:09.043703+00:00",
+  "generated_at": "2026-08-22T04:21:04.228923+00:00",
   "items": [
     {
       "id": "08986e9e2dea179b",
@@ -1722,6 +1722,62 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:33:56+00:00",
       "created_at": "2026-08-21T11:15:32.102772+00:00"
+    },
+    {
+      "id": "fc8b0cfb74c248c3",
+      "content_hash": "fc8b0cfb74c248c3637cf6067fdee9ba698ca900496407c75677b2c23e5fd09b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-59323",
+      "title": "CVE-2026-59323 - An application using Micrometer Tracing with W3C baggage propagation in the Brav...",
+      "body": "An application using Micrometer Tracing with W3C baggage propagation in the Brave bridge is vulnerable to denial of service (DoS) due to unbounded object allocation when extracting incoming baggage headers.\n\n\n\nSpecifically, an application is vulnerable when all the following are true:\n\n  *  The application uses a vulnerable version of io.micrometer:micrometer-tracing-bridge-brave.\n  *  W3C propagation is active (either configured manually or active by default, such as in Spring Boot 3.x+).\n  *  Baggage propagation is enabled (which is the default in Spring Boot 3.x+) and a baggage manager (such as BraveBaggageManager) is configured to handle baggage fields.\n  *  The application processes requests or messages from untrusted sources with baggage headers which it normally should not, see:  https://www.w3.org/TR/trace-context/#security-considerations .\n  *  Network components including the (HTTP) server that receives the request do not limit the header size or the limit is high enough to cause issues.\n\n\n\n\nThe last two points are very important: normally this should not affect applications because they should not receive untrusted and unlimited input for baggage.\n\n  *  The application processes requests or messages from untrusted sources with baggage headers.\n\n\n\n\nWhen extracting baggage from the W3C baggage header, incoming entries are parsed without enforcing limits on the number of entries or header size as mandated by the W3C Baggage specification. An attacker can send requests or messages with artificially inflated baggage headers containing many key-value pairs, causing unconditional BaggageField allocations per entry. This leads to garbage collection pressure, high CPU usage, and potential application crash via OutOfMemoryError.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59323",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-21T10:16:38.910000",
+      "created_at": "2026-08-22T04:21:01.163762+00:00"
+    },
+    {
+      "id": "d7d789ed0fe6a96e",
+      "content_hash": "d7d789ed0fe6a96e1077b022c0729a55b7b9274dc7e4c0b7ae73c771264b013d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-48590",
+      "title": "CVE-2026-48590 - XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows C...",
+      "body": "XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows Content Spoofing, XML Injection.\n\nThis vulnerability is associated with program files lib/xml_builder.ex and program routines XmlBuilder.generate/1, XmlBuilder.generate/2, XmlBuilder.element/1, XmlBuilder.element/2, XmlBuilder.element/3.\n\nElement names, attribute names, and doctype identifiers are interpolated verbatim into the serialized XML output without validation or escaping of structural characters (<, >, \", ', &). An attacker who can influence a name argument (for example, an element name derived from a JSON object key or an HTTP form field name) can inject arbitrary XML markup including extra elements, comments, and event-handler attributes into the output document.\n\nThis issue affects xml_builder: from 0.0.1 before 2.4.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48590",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T10:16:38.767000",
+      "created_at": "2026-08-22T04:21:01.163755+00:00"
+    },
+    {
+      "id": "c5f8af35a57354d2",
+      "content_hash": "c5f8af35a57354d2bacaec839a901268a6b1af31d58cba0eddd0150397d0f874",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-47827",
+      "title": "CVE-2026-47827 - Command Injection in BOSH CLI tool on windows in Cloud Foundry allows a remote a...",
+      "body": "Command Injection in BOSH CLI tool on windows in Cloud Foundry allows a remote attacker to execute arbitrary shell commands via command injection vulnerabilities",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47827",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-21T10:16:38.647000",
+      "created_at": "2026-08-22T04:21:01.163749+00:00"
+    },
+    {
+      "id": "de726f57e2872252",
+      "content_hash": "de726f57e28722524a8d24d6ca41121087e6cdf3905de7c60fe8475075a00b4d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-47080",
+      "title": "CVE-2026-47080 - XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows C...",
+      "body": "XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows Content Spoofing, XML Injection.\n\nThis vulnerability is associated with program files lib/xml_builder.ex and program routines XmlBuilder.generate/1, XmlBuilder.generate/2, XmlBuilder.escape/1.\n\nThe escape/1 clause for {:cdata, data} in lib/xml_builder.ex concatenates data verbatim between the CDATA opener <![CDATA[ and closer ]]> without rewriting or splitting on the embedded ]]> sequence. Because CDATA sections have no internal escape mechanism, the only safe way to embed arbitrary bytes is to split on ]]> and emit adjacent CDATA sections. An attacker who can supply input containing ]]> closes the CDATA section early; any bytes that follow are parsed as ordinary XML markup by downstream consumers, allowing injection of arbitrary elements, text, or entity references into the output document.\n\nThis issue affects xml_builder: from 0.0.7 before 2.4.1.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47080",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T10:16:38.497000",
+      "created_at": "2026-08-22T04:21:01.163744+00:00"
     },
     {
       "id": "bd7635f5d3c97242",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-20T17:17:24.883000",
       "created_at": "2026-08-21T16:18:24.618155+00:00"
-    },
-    {
-      "id": "e2615becf42f1555",
-      "content_hash": "e2615becf42f155535d904ababc2c6e7c34ac105cff74d648933bccbb083f3f7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18283",
-      "title": "CVE-2026-18283 - Sony XAV-9500ES udev USB Rules Authorization Bypass Vulnerability. This vulnerab...",
-      "body": "Sony XAV-9500ES udev USB Rules Authorization Bypass Vulnerability. This vulnerability allows physically present attackers to bypass authorization on affected installations on Sony XAV-9500ES devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the udev rules. A crafted USB device connected to the system can trigger instantiation of otherwise restricted USB device types. An attacker can leverage this vulnerability to bypass authorization on the system. Was ZDI-CAN-28992.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18283",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.4,
-      "published_at": "2026-08-20T17:17:24.763000",
-      "created_at": "2026-08-21T16:18:24.618150+00:00"
-    },
-    {
-      "id": "08dfb59afb439216",
-      "content_hash": "08dfb59afb4392165073f2f9fd5ff0d6daf18da4e03d010bf50837c24de94419",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18282",
-      "title": "CVE-2026-18282 - Sony XAV-9500ES AVRCP_Br_Response_Parser Heap-based Buffer Overflow Remote Code ...",
-      "body": "Sony XAV-9500ES AVRCP_Br_Response_Parser Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sony XAV-9500ES devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of AVRCP packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-28995.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18282",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.0,
-      "published_at": "2026-08-20T17:17:24.643000",
-      "created_at": "2026-08-21T16:18:24.618145+00:00"
-    },
-    {
-      "id": "0a9a52733ee05b83",
-      "content_hash": "0a9a52733ee05b8328d057a15e3865d048fcecb684e1cdf2cc1a8b9095a05567",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18281",
-      "title": "CVE-2026-18281 - Sony XAV-9500ES l2_reassemble_sdu Heap-based Buffer Overflow Remote Code Executi...",
-      "body": "Sony XAV-9500ES l2_reassemble_sdu Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sony XAV-9500ES devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of Bluetooth L2CAP packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-29072.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18281",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.0,
-      "published_at": "2026-08-20T17:17:24.523000",
-      "created_at": "2026-08-21T16:18:24.618140+00:00"
-    },
-    {
-      "id": "9cdfdc6936682133",
-      "content_hash": "9cdfdc6936682133d83384cfdda255f1aaced399ae4a92f5cd095066d60cb17e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18280",
-      "title": "CVE-2026-18280 - Sony XAV-9500ES gpsd Buffer Overflow Arbitrary Code Execution Vulnerability. Thi...",
-      "body": "Sony XAV-9500ES gpsd Buffer Overflow Arbitrary Code Execution Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Sony XAV-9500ES devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of NMEA data by the gpsd daemon. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the gpsd daemon. Was ZDI-CAN-29060.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18280",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 3.9,
-      "published_at": "2026-08-20T17:17:24.403000",
-      "created_at": "2026-08-21T16:18:24.618135+00:00"
     }
   ]
 }
