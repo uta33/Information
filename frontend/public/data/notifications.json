@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-22T13:23:02.308615+00:00",
+  "generated_at": "2026-08-22T14:10:08.643816+00:00",
   "items": [
+    {
+      "id": "88d45eced77d8dd9",
+      "content_hash": "88d45eced77d8dd970a608d7e740d732738a403d984baeae8ba12b7509983e6e",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3153752",
+      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+      "body": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.",
+      "url": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T14:00:00+00:00",
+      "created_at": "2026-08-22T14:10:08.389964+00:00"
+    },
+    {
+      "id": "0b5247ffad7cc6f1",
+      "content_hash": "0b5247ffad7cc6f161ff57da4eb2078d87f4b1259868ad0261d6da152af87f34",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "title": "The New MCP Roadmap",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49399591\">Comments</a>",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T13:31:34+00:00",
+      "created_at": "2026-08-22T14:10:08.643115+00:00"
+    },
+    {
+      "id": "6f3ac73c4d34989f",
+      "content_hash": "6f3ac73c4d34989fbaee733387badb6e5d6b899fd341f381f9de018606bfdc94",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/",
+      "title": "A Kantian Critique of \"Sorry\" by Justin Bieber",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49399524\">Comments</a>",
+      "url": "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T13:24:06+00:00",
+      "created_at": "2026-08-22T14:10:08.642993+00:00"
+    },
     {
       "id": "3fbff4f78acd08fe",
       "content_hash": "3fbff4f78acd08fe184a7aa7c532ca21dfcc407a677b89d9df5f3faa3cd337e5",
@@ -28,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-22T12:07:06+00:00",
       "created_at": "2026-08-22T13:23:02.307960+00:00"
+    },
+    {
+      "id": "a9889cf12ff7c333",
+      "content_hash": "a9889cf12ff7c333f2cd0a1d0dff8a961632bd745844fefaee47978497482422",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zaksa.zip/blog/formal-education-is-the-answer/",
+      "title": "A formal degree and algorithmic problem-solving is the answer. Always has been",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49398710\">Comments</a>",
+      "url": "https://zaksa.zip/blog/formal-education-is-the-answer/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T11:39:12+00:00",
+      "created_at": "2026-08-22T14:10:08.643208+00:00"
     },
     {
       "id": "5ee53b3dd02e70fe",
@@ -70,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-08-22T09:49:14+00:00",
       "created_at": "2026-08-22T11:10:22.108777+00:00"
+    },
+    {
+      "id": "67d0a97111473f21",
+      "content_hash": "67d0a97111473f219607cc38721ea6e7bf3b0f877968692d57479097a9cec533",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nostarch.com/embedded-ai",
+      "title": "Embedded AI",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49397947\">Comments</a>",
+      "url": "https://nostarch.com/embedded-ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T09:07:26+00:00",
+      "created_at": "2026-08-22T14:10:08.643577+00:00"
     },
     {
       "id": "3da922d0f5ae54e9",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.5,
       "published_at": "2026-08-20T19:16:55.333000",
       "created_at": "2026-08-21T18:20:09.885198+00:00"
-    },
-    {
-      "id": "a9153dec37699ef8",
-      "content_hash": "a9153dec37699ef8982c549a6231dda46a8d73f143104d0dd4899d9b3e11011a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53993",
-      "title": "CVE-2026-53993 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53993",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-20T19:16:55.273000",
-      "created_at": "2026-08-21T18:20:09.885193+00:00"
-    },
-    {
-      "id": "78b5c220a2551983",
-      "content_hash": "78b5c220a2551983970a2f89c51f991829280fcfd89ee048c14d2ff38e1dd849",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53587",
-      "title": "CVE-2026-53587 - libgit2 is a portable C implementation of the Git core methods provided as a lin...",
-      "body": "libgit2 is a portable C implementation of the Git core methods provided as a linkable library with a solid API, allowing to build Git functionality into your application. Prior to 1.8.6 and 1.9.5, libgit2 performs a fixed-size strncmp in set_data in src/libgit2/transports/smart_pkt.c without first verifying that the smart-protocol pkt-line capability buffer contains 14 bytes. A malicious Git server can make bytes after the pkt-line complete object-format=, causing format_str to advance beyond the pkt-line and the following memchr length calculation to underflow. The resulting heap out-of-bounds walk can crash a client during the first refs-advertisement packet over HTTP, HTTPS, SSH, or the Git protocol. This issue is fixed in versions 1.8.6 and 1.9.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53587",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-20T19:16:55.137000",
-      "created_at": "2026-08-21T18:20:09.885188+00:00"
-    },
-    {
-      "id": "5e1546c3df286e67",
-      "content_hash": "5e1546c3df286e67dbf00311209d884f9abfe3c4e07cc5ba869495a6e1d5d7f5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53586",
-      "title": "CVE-2026-53586 - libgit2 is a portable C implementation of the Git core methods provided as a lin...",
-      "body": "libgit2 is a portable C implementation of the Git core methods provided as a linkable library with a solid API, allowing to build Git functionality into your application. Prior to 1.8.6 and 1.9.5, the built-in HTTP transport in src/libgit2/transports/http.c follows an offsite initial redirect, and handle_remote_auth and handle_auth pass transport->owner->url instead of transport->server.url to the credential callback when the redirected host returns 401 Unauthorized. A callback that scopes credentials to the original trusted URL can therefore return GIT_CREDENTIAL_USERPASS_PLAINTEXT credentials that libgit2 stores in transport->server.cred and sends as an Authorization header to the redirected host. An attacker who controls a trusted Git host or an open redirect on that host can disclose HTTP Basic credentials, personal access tokens, or equivalent credentials. This issue is fixed in versions 1.8.6 and 1.9.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53586",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-20T19:16:54.983000",
-      "created_at": "2026-08-21T18:20:09.885183+00:00"
-    },
-    {
-      "id": "dc9589074bab8d8a",
-      "content_hash": "dc9589074bab8d8a3b1fa4e6b087d0cfae37b22c620166e7caa5d0282f3639b2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53585",
-      "title": "CVE-2026-53585 - libgit2 is a portable C implementation of the Git core methods provided as a lin...",
-      "body": "libgit2 is a portable C implementation of the Git core methods provided as a linkable library with a solid API, allowing to build Git functionality into your application. Prior to 1.8.6 and 1.9.5, git_delta_apply in src/libgit2/delta.c trusts the attacker-controlled res_sz value parsed by hdr_sz from a delta object header and passes that amount to git__malloc before validating delta instructions. Malicious pack data supplied through git_clone, git_fetch, git_remote_fetch, git_indexer_append, or a local attacker-supplied repository can use a very small multi-level OFS_DELTA chain to retain extremely large allocations and exhaust memory. This issue is fixed in versions 1.8.6 and 1.9.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53585",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-20T19:16:54.837000",
-      "created_at": "2026-08-21T18:20:09.885178+00:00"
-    },
-    {
-      "id": "02e56575cd2e788e",
-      "content_hash": "02e56575cd2e788ec687bfce747231e04885ff4a4b29bc05ec7211c58c93c2a4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53584",
-      "title": "CVE-2026-53584 - libgit2 is a portable C implementation of the Git core methods provided as a lin...",
-      "body": "libgit2 is a portable C implementation of the Git core methods provided as a linkable library with a solid API, allowing to build Git functionality into your application. Prior to 1.8.6 and 1.9.5, libgit2 does not reject traversal components in a submodule path loaded from .gitmodules. The affected src/libgit2/submodule.c paths include git_submodule_lookup and git_submodule_add_setup. A crafted repository can specify a path such as ../escape-target, and applications that initialize the submodule can create directories outside the repository working tree. This issue is fixed in versions 1.8.6 and 1.9.5.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53584",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-20T19:16:54.680000",
-      "created_at": "2026-08-21T18:20:09.885173+00:00"
     }
   ]
 }
