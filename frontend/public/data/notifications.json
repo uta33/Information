@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:16:18.075407+00:00",
+  "generated_at": "2026-08-22T06:19:28.834584+00:00",
   "items": [
     {
       "id": "16df517f0f0c4b5f",
@@ -14,6 +14,20 @@
       "cvss_score": null,
       "published_at": "2026-08-22T04:42:19+00:00",
       "created_at": "2026-08-22T05:16:18.074653+00:00"
+    },
+    {
+      "id": "8522e0d3febdef77",
+      "content_hash": "8522e0d3febdef77761d3531b59653834c9084f1394173e4229a7842ae4febc2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "title": "GPT 5.6 Sol 20% price reduction",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49396590\">Comments</a>",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T04:33:06+00:00",
+      "created_at": "2026-08-22T06:19:28.833927+00:00"
     },
     {
       "id": "08986e9e2dea179b",
@@ -532,6 +546,20 @@
       "cvss_score": null,
       "published_at": "2026-08-21T18:01:30+00:00",
       "created_at": "2026-08-21T18:20:08.743389+00:00"
+    },
+    {
+      "id": "a12a2848ef866660",
+      "content_hash": "a12a2848ef866660d55ff52f8e6febf569d05264e861359a7b20d5b31290232d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+      "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49391661\">Comments</a>",
+      "url": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T17:54:06+00:00",
+      "created_at": "2026-08-22T06:19:28.834016+00:00"
     },
     {
       "id": "95912c001c09807a",
@@ -1696,6 +1724,48 @@
       "created_at": "2026-08-21T12:21:44.939796+00:00"
     },
     {
+      "id": "6689621959b337c3",
+      "content_hash": "6689621959b337c37265345a1a5e55b12e6b28bdbda93b84c015e4ab04b2bbe6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-59296",
+      "title": "CVE-2026-59296 - Using untrusted, non-normalized input as-is for metrics data (such as metric nam...",
+      "body": "Using untrusted, non-normalized input as-is for metrics data (such as metric names, tag keys, or tag values) is a dangerous antipattern that general-purpose instrumentation should never perform. When such unsafe instrumentation is used, the application becomes vulnerable to injection and spoofing attacks because micrometer-registry-statsd and micrometer-core do not sanitize newline characters (\\n, \\r) by default prior to this fix.\n\n  *  For the StatsD registry in micrometer-registry-statsd (when using the Datadog or Etsy flavor), because the StatsD protocol is newline-delimited, this allows for line-protocol injection (cross-metric spoofing).\n  *  For LoggingMeterRegistry in micrometer-core, because metric output is printed line-by-line to log files, this allows for both metric spoofing (if downstream log-metrics scrapers or parsers ingest the log lines as separate metrics) and general log spoofing.\n\n\n\n\nSpecifically, an application is vulnerable when all the following are true:\n\n  *  The application uses a vulnerable version of io.micrometer:micrometer-registry-statsd or io.micrometer:micrometer-core.\n  *  The application uses the Datadog or Etsy flavor of the StatsD registry, or uses LoggingMeterRegistry.\n  *  The application instruments meters using user-controlled, unvalidated input for metric names, tag keys, or tag values.\n\n\n\n\nWhen vulnerable, an attacker can break out of the current metric or log line by injecting line terminators. This allows them to spoof arbitrary metrics (e.g., system load, standard JVM metrics, or other business metrics) across the metrics registry namespace (either directly via StatsD protocol or via downstream log-metric scrapers/parsers), as well as inject arbitrary log entries to spoof general log records.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59296",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "published_at": "2026-08-21T11:17:05.780000",
+      "created_at": "2026-08-22T06:19:24.588662+00:00"
+    },
+    {
+      "id": "86892e5be3401c21",
+      "content_hash": "86892e5be3401c215f884d1b8f59187489bebe556c6d8069feb77dd76e6e947a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-15576",
+      "title": "CVE-2026-15576 - Improper authentication in the agent receiver of Checkmk <2.5.0p10 allows an una...",
+      "body": "Improper authentication in the agent receiver of Checkmk <2.5.0p10 allows an unauthenticated remote attacker to bypass mutual TLS client certificate verification of relay endpoints by supplying a fixed placeholder identity in the request URL, resulting in limited impact on integrity and availability. Only the Cloud, Ultimate and Ultimate MT editions are affected, as other editions do not expose relay endpoints.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15576",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T11:17:04.463000",
+      "created_at": "2026-08-22T06:19:24.588656+00:00"
+    },
+    {
+      "id": "a6e76474ebe2a45c",
+      "content_hash": "a6e76474ebe2a45c846bce62367f87412121a25459daa1e74e20a26e51ff2e46",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-14208",
+      "title": "CVE-2026-14208 - Remote Utilities Host <=7.7.3.0 sets insecure ACLs on all DLL files in the insta...",
+      "body": "Remote Utilities Host <=7.7.3.0 sets insecure ACLs on all DLL files in the installation directory (C:\\Program Files (x86)\\Remote Utilities - Host\\), granting FULL CONTROL (F) to the built-in Everyone group (BUILTIN\\Everyone, S-1-1-0). A Windows service running as NT AUTHORITY\\SYSTEM loads DLLs from this directory. The DLLs are file-locked at runtime, but a race window exists when the service is stopped (e.g. during a software update or following a crash), during which a local unprivileged attacker can replace a DLL with a malicious payload. Upon service restart, the payload executes as NT AUTHORITY\\SYSTEM. The DLL confirmed as actively loaded during testing is libasset32.dll. Additional DLLs in the same directory (eventmsg.dll, libcodec32.dll, vp8encoder.dll, vp8decoder.dll, webmvorbisdecoder.dll, webmvorbisencoder.dll, webmmux.dll) share identical insecure permissions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14208",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T11:17:04.287000",
+      "created_at": "2026-08-22T06:19:24.588650+00:00"
+    },
+    {
       "id": "421172ae5f59cad2",
       "content_hash": "421172ae5f59cad26d0860926c7ed174d833fd6a6c568ff45b2b0bc73d2a56c2",
       "source_name": "Hacker News (Best)",
@@ -1750,6 +1820,48 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:33:56+00:00",
       "created_at": "2026-08-21T11:15:32.102772+00:00"
+    },
+    {
+      "id": "b39e61fc0ebaa9a7",
+      "content_hash": "b39e61fc0ebaa9a7589702042910c4fbb012fc6ae0596b5f25157c600d7acf66",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77755",
+      "title": "CVE-2026-77755 - A denial-of-service vulnerability was identified in misp-stix when processing at...",
+      "body": "A denial-of-service vulnerability was identified in misp-stix when processing attacker-controlled STIX 1 or STIX 2 documents.\n\nThe STIX import code used sys.exit() to handle several parsing and loading failures. Because SystemExit inherits from BaseException rather than Exception, these failures bypassed the exception handlers used by callers of the library. As a result, a malformed STIX document could terminate a long-running importer process instead of returning a recoverable parsing error.\n\nAdditionally, no limit was imposed on the size of STIX documents before parsing. A submitted document was therefore read and materialised in memory before its validity or type was evaluated. Depending on the document and parsing path, processing could consume approximately two to seven times the input size in memory, allowing a sufficiently large STIX document to cause excessive memory and CPU consumption and potentially terminate or severely degrade the importing service.\n\nAn attacker able to provide STIX content to a MISP-STIX import workflow could exploit either condition to affect availability. A malformed document could cause abnormal process termination through an uncaught SystemExit, while a large document could exhaust resources during deserialisation and conversion.\n\nThe fixes replace process-terminating sys.exit() calls with catchable exceptions such as STIXLoadingError and MissingSTIXContentError, and extend exception handling around the complete STIX detection and conversion process. The importer also now enforces an input-size limit before parsing. The default maximum is 100 MB, can be adjusted by callers, and can explicitly be disabled when required. STIX 1 inputs are additionally checked for the expected root element before the complete XML tree is constructed.\n\nImpactSuccessful exploitation can cause:\n\n  *  termination of a long-running MISP-STIX importer;\n  *  excessive memory allocation;\n  *  excessive CPU consumption;\n  *  degradation or temporary unavailabi",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77755",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T10:16:39.363000",
+      "created_at": "2026-08-22T06:19:24.588644+00:00"
+    },
+    {
+      "id": "fbabebe0f315b14f",
+      "content_hash": "fbabebe0f315b14fae8e9f742a34ab01ff8a101d2f496347f57451e8ca4344d7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77751",
+      "title": "CVE-2026-77751 - A path traversal vulnerability existed in the handling of MISP object template n...",
+      "body": "A path traversal vulnerability existed in the handling of MISP object template names during STIX 2 import and MISP-to-STIX 2 export.\n\nMISP object names are passed to PyMISP's object-template resolution mechanism, which constructs a filesystem path by joining the configured MISP object-template directory, the object name, and definition.json. An object name originating from untrusted STIX or MISP content was not sufficiently restricted before being used in this filesystem path.\n\nAn attacker able to supply a crafted object name containing path separators or traversal sequences such as ../ could therefore cause template resolution to escape the expected template directory and attempt to load a definition.json file from another location accessible to the process.\n\nDuring STIX 2 import, an attacker-controlled x_misp_name from a custom STIX object could directly reach this template-resolution mechanism.\n\nThe issue could also become persistent. A malicious object name stored in a MISP event could later be processed again during STIX 2 export. Consequently, content originally introduced in one security context could trigger filesystem access later when the event is exported by a process operating with different or greater privileges.\n\nIf a suitable definition.json file exists outside the intended template directory, its contents may be interpreted as a MISP object template and fields from that file copied into the converted object. This can result in unintended disclosure of locally accessible data represented by the template file and modification of the resulting object's metadata or semantics.\n\nThe patches introduce strict validation of object-template names. Valid names are restricted to a single path component containing letters, digits, hyphens, or underscores. Names that do not meet these requirements are replaced with the generic unknown-template name before reaching PyMISP template resolution. The original rejected name is preserved in the object's comment and a war",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77751",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T10:16:39.210000",
+      "created_at": "2026-08-22T06:19:24.588638+00:00"
+    },
+    {
+      "id": "16f53f331f086dbd",
+      "content_hash": "16f53f331f086dbd0673da44863cce680b9bb404460bf32a486cc139f64f49e6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77681",
+      "title": "CVE-2026-77681 - A vulnerability was identified in CodeAstro Online Job Portal 1.0. Affected by t...",
+      "body": "A vulnerability was identified in CodeAstro Online Job Portal 1.0. Affected by this vulnerability is an unknown functionality of the file /users/update-profile.php. The manipulation of the argument Name leads to unrestricted upload. The attack can be initiated remotely. The exploit is publicly available and might be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77681",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-21T10:16:39.047000",
+      "created_at": "2026-08-22T06:19:24.588627+00:00"
     },
     {
       "id": "fc8b0cfb74c248c3",
@@ -6888,118 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-20T17:17:26.130000",
       "created_at": "2026-08-21T17:18:09.743335+00:00"
-    },
-    {
-      "id": "02f4042588d803e6",
-      "content_hash": "02f4042588d803e659e880d6df4a10dc7e6a6bc55bddd5bb70719e01f0cc5b33",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18293",
-      "title": "CVE-2026-18293 - OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Executi...",
-      "body": "OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29336.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18293",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:26.010000",
-      "created_at": "2026-08-21T17:18:09.743329+00:00"
-    },
-    {
-      "id": "b94bd33e0cf8922a",
-      "content_hash": "b94bd33e0cf8922a5fc4ca1b2363f42199f53834525b14fb37e72942854adaf5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18292",
-      "title": "CVE-2026-18292 - OriginLab OriginPro OGG File Parsing Memory Corruption Remote Code Execution Vul...",
-      "body": "OriginLab OriginPro OGG File Parsing Memory Corruption Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro . User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29335.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18292",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.890000",
-      "created_at": "2026-08-21T16:18:24.618194+00:00"
-    },
-    {
-      "id": "448b5c7a8e7b1b84",
-      "content_hash": "448b5c7a8e7b1b847a51328f14213c33669f59d2985f7526606fedbc121fbab6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18291",
-      "title": "CVE-2026-18291 - OriginLab OriginPro OGW File Parsing Memory Corruption Remote Code Execution Vul...",
-      "body": "OriginLab OriginPro OGW File Parsing Memory Corruption Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OGW files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29334.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18291",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.767000",
-      "created_at": "2026-08-21T16:18:24.618189+00:00"
-    },
-    {
-      "id": "a159b52adf531f52",
-      "content_hash": "a159b52adf531f524a2125324d73ac07e6849d72321a959846eb6a24cf98c92e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18290",
-      "title": "CVE-2026-18290 - OriginLab OriginPro OGG File Parsing Out-Of-Bounds Write Remote Code Execution V...",
-      "body": "OriginLab OriginPro OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29333.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18290",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.647000",
-      "created_at": "2026-08-21T16:18:24.618183+00:00"
-    },
-    {
-      "id": "55e5339cd2ed434b",
-      "content_hash": "55e5339cd2ed434b9d6c71644a0d62ebd3b7da6f25d608f6128ce61a6f6308c3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18289",
-      "title": "CVE-2026-18289 - OriginLab OriginPro OPJ File Parsing Out-Of-Bounds Write Remote Code Execution V...",
-      "body": "OriginLab OriginPro OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29332.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18289",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.523000",
-      "created_at": "2026-08-21T16:18:24.618179+00:00"
-    },
-    {
-      "id": "d33488139d16a447",
-      "content_hash": "d33488139d16a4471bfa25906a23567f9039731b6cd9a2a8abf02280daf6375a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18288",
-      "title": "CVE-2026-18288 - OriginLab OriginPro OPJU File Parsing Out-Of-Bounds Write Remote Code Execution ...",
-      "body": "OriginLab OriginPro OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.\n. Was ZDI-CAN-29331.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18288",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.397000",
-      "created_at": "2026-08-21T16:18:24.618174+00:00"
-    },
-    {
-      "id": "b078559542576449",
-      "content_hash": "b078559542576449790ce7a102edc9c0dff3baf5932fa070d9718511cd528981",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18287",
-      "title": "CVE-2026-18287 - Aeon load_time_series_segmentation_benchmark Code Injection Remote Code Executio...",
-      "body": "Aeon load_time_series_segmentation_benchmark Code Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of aeon. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the load_time_series_segmentation_benchmark method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29159.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18287",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.263000",
-      "created_at": "2026-08-21T16:18:24.618169+00:00"
-    },
-    {
-      "id": "8ed4645d98995e27",
-      "content_hash": "8ed4645d98995e2798c84ce46f46fdae7e049899dcaaa12d41eb78a784846b0e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18286",
-      "title": "CVE-2026-18286 - Aeon load_human_activity_segmentation_datasets Code Injection Remote Code Execut...",
-      "body": "Aeon load_human_activity_segmentation_datasets Code Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of aeon. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the load_human_activity_segmentation_datasets method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29160.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18286",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.140000",
-      "created_at": "2026-08-21T16:18:24.618165+00:00"
     }
   ]
 }
