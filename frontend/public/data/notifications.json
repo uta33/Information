@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-22T04:21:04.228923+00:00",
+  "generated_at": "2026-08-22T05:16:18.075407+00:00",
   "items": [
+    {
+      "id": "16df517f0f0c4b5f",
+      "content_hash": "16df517f0f0c4b5f5074e9f1e3e4e22398f9d689316595a3e6a458e12c88ce5a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+      "title": "4 in 10 travellers visit tourist sites to capture social media content",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49396620\">Comments</a>",
+      "url": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T04:42:19+00:00",
+      "created_at": "2026-08-22T05:16:18.074653+00:00"
+    },
     {
       "id": "08986e9e2dea179b",
       "content_hash": "08986e9e2dea179b9bb22f564530c49ccb7b7533879d267d51b4bf7c11001048",
@@ -1190,6 +1204,20 @@
       "cvss_score": null,
       "published_at": "2026-08-21T14:30:23+00:00",
       "created_at": "2026-08-21T15:21:30.380459+00:00"
+    },
+    {
+      "id": "bc70209e5134b138",
+      "content_hash": "bc70209e5134b138e135c236210a3be863ca671062a99751a871344d4e22b1e8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "title": "Zig's Io.Threaded Is Neat",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49388694\">Comments</a>",
+      "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T14:28:15+00:00",
+      "created_at": "2026-08-22T05:16:18.074873+00:00"
     },
     {
       "id": "d5169b7d0a6eb9be",
@@ -6972,34 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-20T17:17:25.140000",
       "created_at": "2026-08-21T16:18:24.618165+00:00"
-    },
-    {
-      "id": "621c880829017cdc",
-      "content_hash": "621c880829017cdc6fc01dd5d4b01dab137247409f74e135c99e4ec9b4535f8c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18285",
-      "title": "CVE-2026-18285 - Aeon load_rehab_pile_dataset Deserialization of Untrusted Data Remote Code Execu...",
-      "body": "Aeon load_rehab_pile_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Aeon. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the load_rehab_pile_dataset method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-28749.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18285",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:25.007000",
-      "created_at": "2026-08-21T16:18:24.618160+00:00"
-    },
-    {
-      "id": "e869319459f84625",
-      "content_hash": "e869319459f84625030de73f055470b616c430745baed478bac7bc5696d7cc1a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18284",
-      "title": "CVE-2026-18284 - Sony XAV-9500ES Crash Dump Handler Command Injection Local Privilege Escalation ...",
-      "body": "Sony XAV-9500ES Crash Dump Handler Command Injection Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Sony XAV-9500ES devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of process crash dumps. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-29061.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18284",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:24.883000",
-      "created_at": "2026-08-21T16:18:24.618155+00:00"
     }
   ]
 }
