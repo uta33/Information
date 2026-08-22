@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-22T06:19:28.834584+00:00",
+  "generated_at": "2026-08-22T07:21:56.126593+00:00",
   "items": [
+    {
+      "id": "3da922d0f5ae54e9",
+      "content_hash": "3da922d0f5ae54e9e4800be8e77c32ba6e95d8a79907676163e835398c7c5944",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49397074\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T06:16:57+00:00",
+      "created_at": "2026-08-22T07:21:56.126225+00:00"
+    },
     {
       "id": "16df517f0f0c4b5f",
       "content_hash": "16df517f0f0c4b5f5074e9f1e3e4e22398f9d689316595a3e6a458e12c88ce5a",
@@ -588,6 +602,20 @@
       "cvss_score": null,
       "published_at": "2026-08-21T17:45:41+00:00",
       "created_at": "2026-08-22T02:07:43.208344+00:00"
+    },
+    {
+      "id": "e60c9e8eaac8e99d",
+      "content_hash": "e60c9e8eaac8e99d0e1118d4c1ffb634ab4439b734bd3b0785bf5765c2314edc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "title": "OTel isn’t going well",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49391553\">Comments</a>",
+      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T17:45:41+00:00",
+      "created_at": "2026-08-22T07:21:56.126046+00:00"
     },
     {
       "id": "30e14579f2eb256f",
@@ -1248,6 +1276,20 @@
       "created_at": "2026-08-22T05:16:18.074873+00:00"
     },
     {
+      "id": "8b0275b9be3b9794",
+      "content_hash": "8b0275b9be3b979400fbce39060a0a5e1691963a5db32c794133d03a41f8f311",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "title": "Zig’s io.threaded is neat",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49388694\">Comments</a>",
+      "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-21T14:28:15+00:00",
+      "created_at": "2026-08-22T07:21:56.126023+00:00"
+    },
+    {
       "id": "d5169b7d0a6eb9be",
       "content_hash": "d5169b7d0a6eb9be84dee254ee0b61a2dcf774b0c5503b4093d9806f04596e6d",
       "source_name": "Hacker News (Best)",
@@ -1792,6 +1834,20 @@
       "cvss_score": null,
       "published_at": "2026-08-21T11:04:10+00:00",
       "created_at": "2026-08-21T11:15:26.912678+00:00"
+    },
+    {
+      "id": "df4810c922a16319",
+      "content_hash": "df4810c922a163197039a80ed8d485537ea149296b1a1f7b256b59e8d496de99",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
+      "body": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-21T11:04:10+00:00",
+      "created_at": "2026-08-22T07:21:51.488635+00:00"
     },
     {
       "id": "05ca4bcaf7a1e2ca",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-20T17:17:26.643000",
       "created_at": "2026-08-21T17:18:09.743362+00:00"
-    },
-    {
-      "id": "3516df5b4c7ff239",
-      "content_hash": "3516df5b4c7ff239a4f273abf2bbf70023554ccbc5092713f662cf066526d1b7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18297",
-      "title": "CVE-2026-18297 - GStreamer OGG File Parsing Stack-based Buffer Overflow Remote Code Execution Vul...",
-      "body": "GStreamer OGG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29584.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18297",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:26.507000",
-      "created_at": "2026-08-21T17:18:09.743355+00:00"
-    },
-    {
-      "id": "41f52ef8a5c17bbc",
-      "content_hash": "41f52ef8a5c17bbc362557d33863244f68587cc17c6d37be9662993c55c4d3ee",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18296",
-      "title": "CVE-2026-18296 - GStreamer MRF File Parsing Heap-based Buffer Overflow Remote Code Execution Vuln...",
-      "body": "GStreamer MRF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of MRF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29608.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18296",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:26.390000",
-      "created_at": "2026-08-21T17:18:09.743349+00:00"
-    },
-    {
-      "id": "6e87cd89ded50722",
-      "content_hash": "6e87cd89ded507227759ce6e6b6b60dcb1d727be202ed383b730fa39da77af8c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18295",
-      "title": "CVE-2026-18295 - GStreamer MRF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerabili...",
-      "body": "GStreamer MRF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of MRF files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29510.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18295",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:26.260000",
-      "created_at": "2026-08-21T17:18:09.743342+00:00"
-    },
-    {
-      "id": "59f216ff55cf828d",
-      "content_hash": "59f216ff55cf828de1265ca910d3137cba3f7ff5b8a6754448fede33a25f2310",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-18294",
-      "title": "CVE-2026-18294 - OriginLab Origin Viewer OGW File Parsing Memory Corruption Remote Code Execution...",
-      "body": "OriginLab Origin Viewer OGW File Parsing Memory Corruption Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of OGW files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29338.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18294",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-20T17:17:26.130000",
-      "created_at": "2026-08-21T17:18:09.743335+00:00"
     }
   ]
 }
