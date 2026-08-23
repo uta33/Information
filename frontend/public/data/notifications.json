@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-23T04:25:52.841980+00:00",
+  "generated_at": "2026-08-23T05:18:44.050929+00:00",
   "items": [
+    {
+      "id": "0e1ba7cc54060f77",
+      "content_hash": "0e1ba7cc54060f7780fbf7d00280f888f2dfb11d0b1922a505cf926733e2326f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49406069\">Comments</a>",
+      "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T04:28:18+00:00",
+      "created_at": "2026-08-23T05:18:44.050506+00:00"
+    },
+    {
+      "id": "9f89231fb1766368",
+      "content_hash": "9f89231fb17663688d24e6e5baedb076b630d09ff227c81d346cbb0d11499f97",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "title": "The Golden Rule for Becoming a Better Writer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49405870\">Comments</a>",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T03:32:25+00:00",
+      "created_at": "2026-08-23T05:18:44.050199+00:00"
+    },
     {
       "id": "fa4c36df329c7e33",
       "content_hash": "fa4c36df329c7e3340c687bf369169782e26dccca686272d1b5978a73b705f87",
@@ -448,6 +476,48 @@
       "cvss_score": null,
       "published_at": "2026-08-22T14:32:41+00:00",
       "created_at": "2026-08-22T15:09:37.581744+00:00"
+    },
+    {
+      "id": "113c076ffa6e11a7",
+      "content_hash": "113c076ffa6e11a7d7a531319a0b83b5623c1c6e0a99309728e499d6e497112b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75870",
+      "title": "CVE-2026-75870 - Punk versions before 0.18 for Perl allow session cookie forgery via an empty def...",
+      "body": "Punk versions before 0.18 for Perl allow session cookie forgery via an empty default HMAC key when a session is declared without a secret.\n\nThe session keyword freezes its options onto the application as given: it does not require a secret, warn, or refuse to start when one is absent. The cookie read and the write-back both default that key to the empty string, so a declaration with no secret option, or with an undefined or empty one, signs and verifies with a zero-length HMAC-SHA256 key.\n\nAn attacker who knows the cookie format can then mint one offline carrying any contents the session holds, such as a user identifier or a role. Nothing marks the misconfiguration at runtime: cookies are well formed and sessions round-trip as expected.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75870",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T14:16:33.813000",
+      "created_at": "2026-08-23T05:18:39.948715+00:00"
+    },
+    {
+      "id": "bb0b6cf2bdc2c654",
+      "content_hash": "bb0b6cf2bdc2c654672182d42f3f61980131d8cc07e4d29e6b4b6d5d43f567be",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75866",
+      "title": "CVE-2026-75866 - Punk::OAuth2::Server versions through 0.03 for Perl issue access tokens outside ...",
+      "body": "Punk::OAuth2::Server versions through 0.03 for Perl issue access tokens outside a client's registered scopes and grant types because no authorization path reads them.\n\nPunk::OAuth2::Server::Store registers scopes and grant_types per client and documents both as client registration. token dispatches on the grant_type in the request body, so a client registered for authorization_code alone can ask for client_credentials, and that arm passes the requested scope straight to the minter, which signs it into the at+jwt access token. authorize copies the query scope into the authorization code record without comparing it against the registration, leaving the optional consent hook as the only check between an arbitrary scope and the issued code. redirect_uris on the same client row is read and enforced.\n\nA registered client can obtain a correctly signed token carrying any scope it names, and a resource server running Punk::OAuth2::Checker accepts that token and honours the scope. A client registered without a secret authenticates on its client_id alone, so anyone who knows that identifier can request one.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75866",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T14:16:33.700000",
+      "created_at": "2026-08-23T05:18:39.948709+00:00"
+    },
+    {
+      "id": "453f8fd3d1c484a3",
+      "content_hash": "453f8fd3d1c484a3349bace09ab555a038e18ba3c75301906f3e1155d526c3b4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-71514",
+      "title": "CVE-2026-71514 - NLTK 3.9.4 through 3.10.2 contains a path traversal vulnerability in CrubadanCor...",
+      "body": "NLTK 3.9.4 through 3.10.2 contains a path traversal vulnerability in CrubadanCorpusReader. _load_lang_ngrams joins the corpus root with crubadan_code, the column-0 value read from the corpus table.txt mapping file, and opens the result with the builtin open() rather than the pathsec-validated opener, so os.path.join discards the root when that value is absolute and the read escapes the corpus directory without the containment check nltk.pathsec applies when ENFORCE is set. An attacker who controls a corpus package can disclose file contents outside the corpus root through lang_freq, limited to paths ending in -3grams.txt whose contents parse as token count lines.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71514",
+      "category": "security",
+      "severity": "low",
+      "cvss_score": 2.5,
+      "published_at": "2026-08-22T14:16:33.560000",
+      "created_at": "2026-08-23T05:18:39.948703+00:00"
     },
     {
       "id": "b4d28906a7532471",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T09:16:38.533000",
       "created_at": "2026-08-22T00:33:41.947973+00:00"
-    },
-    {
-      "id": "7a9a912d716cf032",
-      "content_hash": "7a9a912d716cf032475ca4a4eace58da7506cbb6f5622e201726ef9ed43913e7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59085",
-      "title": "CVE-2026-59085 - Server-Side Request Forgery (SSRF) vulnerability in Apache CloudStack's webhook ...",
-      "body": "Server-Side Request Forgery (SSRF) vulnerability in Apache CloudStack's webhook module, exploitable via webhook delivery requests.\n\nThis issue affects Apache CloudStack: from 4.20.0.0 through 4.20.3.0 and from 4.21.0.0 through 4.22.1.0.\n\nUsers are recommended to upgrade to version 4.20.3.1 or 4.22.1.1 or later, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59085",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T09:16:38.410000",
-      "created_at": "2026-08-22T00:33:41.947966+00:00"
-    },
-    {
-      "id": "478bb22b737647fa",
-      "content_hash": "478bb22b737647fa4dba6893794eb09954a73a9083887a3dd1b47a22b6ebe2eb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50222",
-      "title": "CVE-2026-50222 - Missing Authorization, Exposure of Sensitive Information to an Unauthorized Acto...",
-      "body": "Missing Authorization, Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache CloudStack's Userdata reference APIs.\n\nSeveral userdata-related APIs in Apache CloudStack, including deleteUserData, linkUserDataToTemplate, resetUserDataForVirtualMachine, deployVirtualMachine, and updateVirtualMachine, exhibit missing or insufficient access control validation, potentially allowing cross-tenant/cross-account access to userdata resources that belong to other tenants.\n\nThis issue affects Apache CloudStack: from 4.18.0.0 through 4.20.3.0 and from 4.21.0.0 through 4.22.1.0.\n\nThe deleteCniConfiguration API, introduced in 4.21.0.0, also exhibits similar behaviour and lacks access validation.\n\nUsers are recommended to upgrade to version 4.20.3.1 or 4.22.1.1 or later, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50222",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T09:16:38.280000",
-      "created_at": "2026-08-22T00:33:41.947960+00:00"
-    },
-    {
-      "id": "fd1b5d2e9778c5dc",
-      "content_hash": "fd1b5d2e9778c5dc56806d76c7debedb566ab2914884c06107262f76b7d680ea",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50112",
-      "title": "CVE-2026-50112 - SSRF via Metalink Mirror URL Resolution:\n\nAn authenticated tenant can register a...",
-      "body": "SSRF via Metalink Mirror URL Resolution:\n\nAn authenticated tenant can register a template pointing to an attacker-controlled metalink file containing internal targets. The Secondary Storage VM will retrieve the data and persist it as a template file, which can later be downloaded through normal APIs.\n\nRCE on KVM hypervisor via NFS, Metalink files with/without Direct Downloads:\n\nAn authenticated CloudStack tenant holding the default User role can execute arbitrary shell commands as root on the KVM hypervisor host that runs other tenants' VMs. This is cross-tenant root on the underlying compute, reachable via the public CloudStack API.\n\n\nWhen a User registers a VM template with directDownload=true and a URL pointing to a .metalink file, the management server fetches the metalink XML and dispatches download to the KVM agent. Inner URLs inside the metalink XML are never re-validated against the scheme allowlist.\n\n\nThese issues affect Apache CloudStack: from 4.14.0.0 through 4.20.3.0 and from 4.21.0.0 through 4.22.1.0.\n\nUsers are recommended to upgrade to version 4.20.3.1 or 4.22.1.1 or later, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50112",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-21T09:16:38.150000",
-      "created_at": "2026-08-22T00:33:41.947953+00:00"
-    },
-    {
-      "id": "d5bdc660226ad947",
-      "content_hash": "d5bdc660226ad9473b385ce631a9cead149c265f1a77b3f9e624e955f0c93fbe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47359",
-      "title": "CVE-2026-47359 - Improper Neutralization of Special Elements used in an OS Command ('OS Command I...",
-      "body": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Apache CloudStack's NAS backup provider plugin. The addBackupRepository API (available since 4.20.0.0) and updateBackupRepository API (introduced in 4.22.0.0) accept unsanitized command options for the backup repository. A malicious operator account can exploit this to inject arbitrary commands that execute on the KVM hypervisor host when any account subsequently performs a backup restore.\n\nThis issue affects Apache CloudStack: from 4.20.0.0 through 4.20.3.0 and from 4.21.0.0 through 4.22.1.0.\n\nUsers are recommended to upgrade to version 4.20.3.1 or 4.22.1.1 or later, which fixes the issue.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47359",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T09:16:38",
-      "created_at": "2026-08-22T00:33:41.947946+00:00"
-    },
-    {
-      "id": "2e90badc3465d7a7",
-      "content_hash": "2e90badc3465d7a73ad9919d9dd3428dd96e71d9869530e52fde9c01e1834e78",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
-      "title": "Emacs 31.1 will release on 8/24",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49385296\">Comments</a>",
-      "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T08:19:48+00:00",
-      "created_at": "2026-08-21T09:24:18.775952+00:00"
     }
   ]
 }
