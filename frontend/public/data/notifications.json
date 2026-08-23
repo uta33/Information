@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-23T20:09:49.219703+00:00",
+  "generated_at": "2026-08-23T21:10:51.079610+00:00",
   "items": [
+    {
+      "id": "5fce62b8f0082f11",
+      "content_hash": "5fce62b8f0082f1167ea32acf7fd455e218945598712585ac55d9a5d82382131",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78183",
+      "title": "CVE-2026-78183 - DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float.\n\n...",
+      "body": "DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float.\n\nquote_float() allocates the length of the string + 1, which is the size of the bare numeric symbol plus NULL.  But for special literals NaN, Inf, +Inf, -Inf, Infinity, +Infinity, -Infinity it emits the literal surrounded by quotes plus NULL, which is length + 3 bytes. Every recognised literal (case-insensitive) overflows by 2 bytes, a single quote and a NULL.\n\nThis can be reached by the $dbh->quote method, for example\n\n    $dbh->quote( \"Infinity\", DBI::SQL_NUMERIC ).\n\nThis regression was introduced in 3.21.0 by the quote.c rewrite.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78183",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T20:16:50.550000",
+      "created_at": "2026-08-23T21:10:48.077208+00:00"
+    },
+    {
+      "id": "07bde64891581e9c",
+      "content_hash": "07bde64891581e9cf8808cc85d8bfadeb93fabf0e065e254e357b4dcac00a85b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78140",
+      "title": "CVE-2026-78140 - A flaw has been found in Dromara UJCMS up to 10.1.3. The impacted element is the...",
+      "body": "A flaw has been found in Dromara UJCMS up to 10.1.3. The impacted element is the function update of the file src/main/java/com/ujcms/cms/ext/web/backendapi/WebFileTemplateController.java of the component web-file-template Endpoint. Executing a manipulation can lead to improper neutralization of special elements used in a template engine. The attack can be launched remotely. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78140",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.7,
+      "published_at": "2026-08-23T20:16:50.380000",
+      "created_at": "2026-08-23T21:10:48.077201+00:00"
+    },
+    {
+      "id": "78be8e963b7113a2",
+      "content_hash": "78be8e963b7113a2094b5fe5f9da29c5415513eda763e1bef5cc2f3e82f8940b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-19565",
+      "title": "CVE-2026-19565 - Apache::AppSamurai::Util versions through 1.01 for Perl generate predictable ses...",
+      "body": "Apache::AppSamurai::Util versions through 1.01 for Perl generate predictable session authentication keys from the clock and process id in CreateSessionAuthKey.\n\nCreateSessionAuthKey runs five rounds of SHA-256, each over a fresh Time::HiRes reading formatted to six decimal places, the running digest, and the process id. CreateSession calls it with an empty key source on every login, and the optional Keysource directive is the only route to the other branch. The result is 64 hex characters. The microsecond field of the first reading takes one of a million values, the later readings follow it within microseconds, and the process id is drawn from a small range.\n\nThe key is returned to the browser as the session cookie, and is combined with the configured server key to compute the session id and to encrypt the stored session data. An attacker who knows the second in which a session was created and the process id of the worker that created it can enumerate candidate keys and recover the victim's cookie, bypassing authentication for the protected resources. Each candidate has to be tried against the server, which validates the cookie with a key the attacker does not hold.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19565",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T20:16:50.053000",
+      "created_at": "2026-08-23T21:10:48.077194+00:00"
+    },
+    {
+      "id": "0e8cd7ebd17ef5fd",
+      "content_hash": "0e8cd7ebd17ef5fd70e469e385fcead665acc33a22bd9735d39f78d7c548d21d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2608.20186",
+      "title": "Decoding silent reading from non-invasive EEG",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49412176\">Comments</a>",
+      "url": "https://arxiv.org/abs/2608.20186",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T20:13:34+00:00",
+      "created_at": "2026-08-23T21:10:51.079037+00:00"
+    },
     {
       "id": "7c53c991260c5609",
       "content_hash": "7c53c991260c56092a162aa481bda1863c3284520c85a3479d9eb8ddfcef434b",
@@ -56,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T19:23:29+00:00",
       "created_at": "2026-08-23T20:09:49.218863+00:00"
+    },
+    {
+      "id": "9f108f8833beebdd",
+      "content_hash": "9f108f8833beebdd738e06c18f0e831106f473b7ed6f4bcd0a1d4047936a7001",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lalitm.com/post/find-problems-staff-engineer/",
+      "title": "How I find problems to solve as a staff engineer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411643\">Comments</a>",
+      "url": "https://lalitm.com/post/find-problems-staff-engineer/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T19:23:29+00:00",
+      "created_at": "2026-08-23T21:10:51.078771+00:00"
     },
     {
       "id": "da2430bf89d89273",
@@ -154,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T18:27:33+00:00",
       "created_at": "2026-08-23T20:09:49.219369+00:00"
+    },
+    {
+      "id": "c80b2c22ca2a2982",
+      "content_hash": "c80b2c22ca2a2982ea72d6b0d0f60e20d2c18124d6dcc71840079b342b039e0b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
+      "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411178\">Comments</a>",
+      "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T18:27:33+00:00",
+      "created_at": "2026-08-23T21:10:51.079145+00:00"
     },
     {
       "id": "317fa24541218c8f",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T17:16:26.583000",
       "created_at": "2026-08-22T13:22:58.094536+00:00"
-    },
-    {
-      "id": "288def9a1b671bdc",
-      "content_hash": "288def9a1b671bdc48d5fddda10506896305b4187e0eb34a2783a3ca904729f5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2021-4482",
-      "title": "CVE-2021-4482 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4482",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.353000",
-      "created_at": "2026-08-22T13:22:58.094529+00:00"
-    },
-    {
-      "id": "0cf88b090f158cbc",
-      "content_hash": "0cf88b090f158cbc3714c3c4301a95f5faa67f52e8196fc7f07704f64318387e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2021-4476",
-      "title": "CVE-2021-4476 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4476",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.283000",
-      "created_at": "2026-08-22T13:22:58.094524+00:00"
-    },
-    {
-      "id": "2ebbcb3798253b4f",
-      "content_hash": "2ebbcb3798253b4f6c0d3d5ab963835143444552b25edfee910b15ae73160b4c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2021-4475",
-      "title": "CVE-2021-4475 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4475",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.217000",
-      "created_at": "2026-08-22T13:22:58.094518+00:00"
-    },
-    {
-      "id": "fe2e79b04a8e88ac",
-      "content_hash": "fe2e79b04a8e88acbdebfbfe1d2c5057fbcf92b36c894c9645d92b20e9ce6189",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2019-25725",
-      "title": "CVE-2019-25725 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25725",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.137000",
-      "created_at": "2026-08-22T13:22:58.094511+00:00"
-    },
-    {
-      "id": "48f04ec377d7dccc",
-      "content_hash": "48f04ec377d7dccc3d71fd581c3ee9e9198a0f499c1ad82d2f9723848560d3ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2019-25715",
-      "title": "CVE-2019-25715 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25715",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.067000",
-      "created_at": "2026-08-22T13:22:58.094505+00:00"
-    },
-    {
-      "id": "11c7fa6debb70a3b",
-      "content_hash": "11c7fa6debb70a3b191fac35e465403d165f50ae580fad59689df1b723971b57",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2017-20232",
-      "title": "CVE-2017-20232 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20232",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:25.950000",
-      "created_at": "2026-08-22T13:22:58.094499+00:00"
     }
   ]
 }
