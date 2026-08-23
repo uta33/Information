@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-23T21:10:51.079610+00:00",
+  "generated_at": "2026-08-23T22:10:01.414432+00:00",
   "items": [
+    {
+      "id": "18dd392d965f22ef",
+      "content_hash": "18dd392d965f22ef77ce9923a94446b55770fcd7697b48d9debb9f3bbf6051e2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/",
+      "title": "The Planet Now Has More Trees Than It Did 35 Years Ago",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49413004\">Comments</a>",
+      "url": "https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T21:55:55+00:00",
+      "created_at": "2026-08-23T22:10:01.414146+00:00"
+    },
+    {
+      "id": "8df66d249a8a4bdc",
+      "content_hash": "8df66d249a8a4bdc3f15ad013013b9238730d3069b99f6394e26d73d8145e04a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://alpo.ge/s6.pdf",
+      "title": "A complex structure on S^6 [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49412947\">Comments</a>",
+      "url": "https://alpo.ge/s6.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T21:47:25+00:00",
+      "created_at": "2026-08-23T22:10:01.413694+00:00"
+    },
+    {
+      "id": "857b3bfdec9c39c4",
+      "content_hash": "857b3bfdec9c39c4756f44ba6857576880b2a105a4991cb2236bec7c8ac2ca9b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kpres12.github.io/Cicada.OS/",
+      "title": "Cicada.os – Graphene.os for Your Laptop",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49412548\">Comments</a>",
+      "url": "https://kpres12.github.io/Cicada.OS/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T20:56:01+00:00",
+      "created_at": "2026-08-23T22:10:01.414009+00:00"
+    },
     {
       "id": "5fce62b8f0082f11",
       "content_hash": "5fce62b8f0082f1167ea32acf7fd455e218945598712585ac55d9a5d82382131",
@@ -98,6 +140,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T19:30:00+00:00",
       "created_at": "2026-08-23T20:09:49.121092+00:00"
+    },
+    {
+      "id": "62f4bc08b187baef",
+      "content_hash": "62f4bc08b187baef95f79ee2f2ef2cb09235b1e763dea04ff590ba6e26b8f0c4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "title": "Google Workspace thinks my domain is an email provider",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411717\">Comments</a>",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T19:29:32+00:00",
+      "created_at": "2026-08-23T22:10:01.413735+00:00"
     },
     {
       "id": "8169b48e5da282b5",
@@ -420,6 +476,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T16:43:19+00:00",
       "created_at": "2026-08-23T20:09:49.219328+00:00"
+    },
+    {
+      "id": "3e4bf72cde30377e",
+      "content_hash": "3e4bf72cde30377e02436dc41fa7bcee6db8b9e0748a94c42d5a2aa1e7a1799a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.colino.net/wordpress/archives/2026/08/23/kodak-dc50-now-usable-on-the-apple-ii/",
+      "title": "Kodak DC50 now usable on the Apple II",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49410111\">Comments</a>",
+      "url": "https://www.colino.net/wordpress/archives/2026/08/23/kodak-dc50-now-usable-on-the-apple-ii/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T16:25:59+00:00",
+      "created_at": "2026-08-23T22:10:01.414048+00:00"
     },
     {
       "id": "3400da00921bc33a",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T17:16:28.863000",
       "created_at": "2026-08-22T15:09:37.857671+00:00"
-    },
-    {
-      "id": "f5ed428c65d27145",
-      "content_hash": "f5ed428c65d27145237ec2a0ca4855b12f115b7bcbd6df9894ff9773dff5bc42",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11830",
-      "title": "CVE-2026-11830 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11830",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:28.797000",
-      "created_at": "2026-08-22T15:09:37.857665+00:00"
-    },
-    {
-      "id": "7ce43db29192ea95",
-      "content_hash": "7ce43db29192ea95911204f2e97ff8f13750ab303a03c03b7662748c5bbc0723",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11427",
-      "title": "CVE-2026-11427 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11427",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:28.720000",
-      "created_at": "2026-08-22T15:09:37.857659+00:00"
-    },
-    {
-      "id": "e6ca9bee9cde6ce7",
-      "content_hash": "e6ca9bee9cde6ce7eed1a54ff740602383ba110c82bc255a5c529d801f27813d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7344",
-      "title": "CVE-2023-7344 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7344",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.713000",
-      "created_at": "2026-08-22T15:09:37.857653+00:00"
-    },
-    {
-      "id": "118fad664850e50a",
-      "content_hash": "118fad664850e50a0eb2cc8b4022a603030d083f51fe4bc55fb44f72aaa7f3df",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7336",
-      "title": "CVE-2023-7336 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7336",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.653000",
-      "created_at": "2026-08-22T15:09:37.857647+00:00"
-    },
-    {
-      "id": "e4d0e72dfe0bba89",
-      "content_hash": "e4d0e72dfe0bba89e4a2a5ec4baac27c8f10aecb6accaab349fea31a50561b37",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2023-7310",
-      "title": "CVE-2023-7310 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7310",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:26.583000",
-      "created_at": "2026-08-22T13:22:58.094536+00:00"
     }
   ]
 }
