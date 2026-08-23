@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T00:36:30.198103+00:00",
+  "generated_at": "2026-08-23T02:17:02.858292+00:00",
   "items": [
     {
       "id": "b83eba9cf93b1e94",
@@ -170,6 +170,20 @@
       "created_at": "2026-08-22T20:10:04.685176+00:00"
     },
     {
+      "id": "e091270bcabcd073",
+      "content_hash": "e091270bcabcd073119927f530c0d561aefc995f5f7f82e5aba06e64a6188ede",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://marcua.net/minitools/figmimic/",
+      "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49402213\">Comments</a>",
+      "url": "https://marcua.net/minitools/figmimic/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T18:11:40+00:00",
+      "created_at": "2026-08-23T02:17:02.857413+00:00"
+    },
+    {
       "id": "b182e3f2f2fa389b",
       "content_hash": "b182e3f2f2fa389bf24acb8579f6ccb80a710edcd4d1cad8f0d0164946a079b2",
       "source_name": "Hacker News (Best)",
@@ -184,6 +198,20 @@
       "created_at": "2026-08-22T23:09:39.010881+00:00"
     },
     {
+      "id": "cd4a1c45ca62530f",
+      "content_hash": "cd4a1c45ca62530f3a3f92b6feea4934776eacbca92e1a03ff13614ce216ee68",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://thinkinginpython.com/",
+      "title": "Thinking in Python",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49402202\">Comments</a>",
+      "url": "https://thinkinginpython.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T18:10:49+00:00",
+      "created_at": "2026-08-23T02:17:02.857803+00:00"
+    },
+    {
       "id": "5d1bbc824890f7c8",
       "content_hash": "5d1bbc824890f7c8f4eb3b54d3e93e0b8bc5b7447ab7fb8978daaa4e7185967c",
       "source_name": "Hacker News (Best)",
@@ -196,6 +224,48 @@
       "cvss_score": null,
       "published_at": "2026-08-22T18:08:56+00:00",
       "created_at": "2026-08-22T19:14:14.927761+00:00"
+    },
+    {
+      "id": "93959e480d446ade",
+      "content_hash": "93959e480d446ade9f1df51f306c3b68288d603834adfe19d7a08cd04ee40444",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/moxie/status/2091218652133732491",
+      "title": "Scrap (2006)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49402189\">Comments</a>",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T18:08:56+00:00",
+      "created_at": "2026-08-23T02:17:02.857470+00:00"
+    },
+    {
+      "id": "28314e5d31b993e4",
+      "content_hash": "28314e5d31b993e4eaf11ab6f49b7c97803f163489408999b65ea28b248803a0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://rwwgreene.substack.com/p/i-set-a-trap-for-a-book-marketing",
+      "title": "I set a trap for a book-marketing scammer (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49402181\">Comments</a>",
+      "url": "https://rwwgreene.substack.com/p/i-set-a-trap-for-a-book-marketing",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T18:08:25+00:00",
+      "created_at": "2026-08-23T02:17:02.857664+00:00"
+    },
+    {
+      "id": "db3bafa6978b489f",
+      "content_hash": "db3bafa6978b489f6d48b83ca5947e772ab16d9063320408c49ecad55a45a8c8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://readingmaps.com/",
+      "title": "Reading Maps – Journeys from fiction drawn on the real world",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49402107\">Comments</a>",
+      "url": "https://readingmaps.com/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T17:59:09+00:00",
+      "created_at": "2026-08-23T02:17:02.857724+00:00"
     },
     {
       "id": "948344c866fc721a",
@@ -322,6 +392,20 @@
       "cvss_score": null,
       "published_at": "2026-08-22T14:32:41+00:00",
       "created_at": "2026-08-22T15:09:37.581744+00:00"
+    },
+    {
+      "id": "30511ee525851b59",
+      "content_hash": "30511ee525851b596ffd769a9d417f762d4312750fae1e0f4ba83b744fbed348",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-68769",
+      "title": "CVE-2026-68769 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
+      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68769",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T14:16:33.343000",
+      "created_at": "2026-08-23T02:16:58.423319+00:00"
     },
     {
       "id": "d29c1527094e7af7",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T07:48:50+00:00",
       "created_at": "2026-08-21T12:21:49.935266+00:00"
-    },
-    {
-      "id": "2fbbfa496777f307",
-      "content_hash": "2fbbfa496777f307b32a3e96123e203f0035b1edffc1e16c542163b8d5e6fac1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029524.html",
-      "title": "CriblのCribl StreamにおけるUNIX Symbolic Link のフォローに関する脆弱性",
-      "body": "Cribl Streamのバージョン4.18.2以前におけるPack Gitインポート機能でシンボリックリンクの検証が不適切に行われていたため、Packインポートおよびパイプラインプレビュー権限を持つリモートの認証済み攻撃者が、functionsディレクトリ内にシンボリックリンクを含む細工されたGitリポジトリを介してCriblサーバープロセスとして任意のコードを実行できる可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029524.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:44:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726840+00:00"
-    },
-    {
-      "id": "40045d2765c05b6d",
-      "content_hash": "40045d2765c05b6d9f0cf1047bbf5f06a883c5dcca3533de110db971c11ed7d7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029523.html",
-      "title": "TrueConf LLC.のTrueConf Serverにおける重要な機能に対する認証の欠如に関する脆弱性",
-      "body": "ポート4307/TCPを介してネットワークにアクセスできるリモートの未承認攻撃者が、TrueConfサーバーのバージョン5.3.Xから5.3.9、5.4.Xから5.4.9、5.5.Xから5.5.5およびそれ以前のバージョンにおいて、未公開の関数を呼び出すことで任意のスクリプトを実行する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029523.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:43:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726874+00:00"
-    },
-    {
-      "id": "fed45fde4f2a0cec",
-      "content_hash": "fed45fde4f2a0cec843e1a410fed158e3395fdedb7343a7a849b86e8fe7dbe63",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029522.html",
-      "title": "TrueConf LLC.のTrueConf Serverにおけるコードインジェクションの脆弱性",
-      "body": "ネットワーク経由でポート4307/TCPを通じてTrueConfサーバーのバージョン5.3.Xから5.3.9、5.4.Xから5.4.9、5.5.Xから5.5.5、およびそれ以前のバージョンにアクセスできるリモートの不正な攻撃者は、特別に細工されたスクリプトを使用して隔離された環境から脱出し、ホストシステム上で任意のコードを実行する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029522.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:43:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726896+00:00"
-    },
-    {
-      "id": "8cab94320bd63d49",
-      "content_hash": "8cab94320bd63d49b298434e37f3e824b338f36a7b6ef03922b528db60cc8ce5",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029521.html",
-      "title": "LenovoのSmart Connectにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "Smart Connectで使用されるLenovo Virtual Busドライバに潜在的なバッファオーバーフローの脆弱性が報告されており、これによりローカルの認証済みユーザーがメモリを破損させ、Windowsでブルースクリーンエラーが発生する可能性があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029521.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:43:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726914+00:00"
-    },
-    {
-      "id": "0f218b877393f728",
-      "content_hash": "0f218b877393f728a8fbd4f9d6f08c5c89ca99801f9fcfbaf4bb2a7b18d3fa0e",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029520.html",
-      "title": "LenovoのSmart Connectにおけるゼロ除算に関する脆弱性",
-      "body": "Smart Connectで使用されるLenovo Virtual Busドライバに、ローカルの認証ユーザーがWindowsでブルースクリーンエラーを引き起こす可能性があるゼロ除算の脆弱性が報告されました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029520.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:43:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726932+00:00"
-    },
-    {
-      "id": "2c45fb45f585150e",
-      "content_hash": "2c45fb45f585150efee52a9831e6964b3249e88995149031a3bdec0986d74af6",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029519.html",
-      "title": "pgvector Projectのpgvectorにおける複数の脆弱性",
-      "body": "pgvector 0.8.6より前のバージョンにおけるIVFFlatインデックスの構築処理で整数オーバーフローが発生し、データベースユーザーが境界外のデータを書き込むことが可能となり、任意のコードが実行される恐れがあります。影響を受けるのは32ビットシステムのみです。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029519.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:43:00+00:00",
-      "created_at": "2026-08-21T08:24:37.726949+00:00"
     }
   ]
 }
