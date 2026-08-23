@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-23T08:16:19.780969+00:00",
+  "generated_at": "2026-08-23T09:16:24.319801+00:00",
   "items": [
+    {
+      "id": "be5a0f0438d8c129",
+      "content_hash": "be5a0f0438d8c12921ddc9bd92df027c5acdfd0d2c1f43eaca245f6aecf2b803",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://erikengdahl.se/autism/isnt/",
+      "title": "Tragically, as many as 9625 out of every 10k individuals may be neurotypical",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407143\">Comments</a>",
+      "url": "https://erikengdahl.se/autism/isnt/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T08:48:34+00:00",
+      "created_at": "2026-08-23T09:16:24.319160+00:00"
+    },
     {
       "id": "257bfb9a3ba550fe",
       "content_hash": "257bfb9a3ba550feb6e75b14a6f45dc9fd37a0ff330e1dfa13c5979649dc9c75",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:03:11+00:00",
       "created_at": "2026-08-21T12:21:44.939829+00:00"
-    },
-    {
-      "id": "a320379fecf8495c",
-      "content_hash": "a320379fecf8495c03ba39c292a5e3f8d091ba2c5550a362015f82e80ac61406",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://htmlcat.net/",
-      "title": "Small, native web tricks worth remembering",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49385860\">Comments</a>",
-      "url": "https://htmlcat.net/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T09:45:14+00:00",
-      "created_at": "2026-08-21T10:18:16.571851+00:00"
     }
   ]
 }
