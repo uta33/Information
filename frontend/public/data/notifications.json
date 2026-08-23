@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-23T03:40:07.279838+00:00",
+  "generated_at": "2026-08-23T04:25:52.841980+00:00",
   "items": [
+    {
+      "id": "fa4c36df329c7e33",
+      "content_hash": "fa4c36df329c7e3340c687bf369169782e26dccca686272d1b5978a73b705f87",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://martypc.net/",
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49405816\">Comments</a>",
+      "url": "https://martypc.net/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T03:13:16+00:00",
+      "created_at": "2026-08-23T04:25:52.841281+00:00"
+    },
     {
       "id": "c13047645eec4fe7",
       "content_hash": "c13047645eec4fe7a6e974af2771ba2bd50ad96608ac1eea9ca00328609956ea",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T03:00:00+00:00",
       "created_at": "2026-08-23T03:40:07.155897+00:00"
+    },
+    {
+      "id": "fc4d6af572eafb6c",
+      "content_hash": "fc4d6af572eafb6c933db68a48ec6bfc1b6f8ac2b6b53209584cd7998e95ebb0",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://henry.codes/writing/i-dream-of-quieter-computing/",
+      "title": "I Dream of Quieter Computing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49405682\">Comments</a>",
+      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T02:33:22+00:00",
+      "created_at": "2026-08-23T04:25:52.841466+00:00"
     },
     {
       "id": "0719b9b10f9ce8a0",
@@ -420,6 +448,20 @@
       "cvss_score": null,
       "published_at": "2026-08-22T14:32:41+00:00",
       "created_at": "2026-08-22T15:09:37.581744+00:00"
+    },
+    {
+      "id": "b4d28906a7532471",
+      "content_hash": "b4d28906a75324710f75731443f4c38e8969c32334ca450158f5c8722625fd79",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-71513",
+      "title": "CVE-2026-71513 - NLTK before 3.10.3 contains a remote code execution vulnerability in AllowlistUn...",
+      "body": "NLTK before 3.10.3 contains a remote code execution vulnerability in AllowlistUnpickler that validates only the pickle module string and not the global name, allowing attackers to resolve dotted names by attribute traversal to callables outside the allowlisted namespace. Attackers can craft untrusted transition-parser models that execute arbitrary commands when TransitionParser.parse loads the model through allowlisted_pickle_load.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71513",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-22T14:16:33.417000",
+      "created_at": "2026-08-23T04:25:48.578519+00:00"
     },
     {
       "id": "30511ee525851b59",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T08:19:48+00:00",
       "created_at": "2026-08-21T09:24:18.775952+00:00"
-    },
-    {
-      "id": "17d094ff8430b1ce",
-      "content_hash": "17d094ff8430b1ce675606bad5fb9b6ab4000512e33153f5c1a91433029d305e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77264",
-      "title": "CVE-2026-77264 - The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Co...",
-      "body": "The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 4.8.6. This is due to the handle_email_otp_return() function returning the secret magic login token in the response to a publicly accessible OTP request, rather than only delivering it to the user's email address. This makes it possible for unauthenticated attackers to log in as any user on the site, including administrators, if they know that user's email address.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77264",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.8,
-      "published_at": "2026-08-21T08:16:44.160000",
-      "created_at": "2026-08-22T00:33:41.947938+00:00"
-    },
-    {
-      "id": "a74ef4b89018ea26",
-      "content_hash": "a74ef4b89018ea264d92ac1e35d987ebe61d095bec9d23921ada392fe1953a2e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-73537",
-      "title": "CVE-2026-73537 - Cross-site scripting vulnerability exists in Miraikan Assist App. If this vulner...",
-      "body": "Cross-site scripting vulnerability exists in Miraikan Assist App. If this vulnerability is exploited, an arbitrary script may be executed in the browser component (WebView) running on the affected product, resulting in the displayed content being altered.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73537",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.7,
-      "published_at": "2026-08-21T08:16:44.003000",
-      "created_at": "2026-08-22T00:33:41.947930+00:00"
-    },
-    {
-      "id": "163c3c6e31d34e83",
-      "content_hash": "163c3c6e31d34e8319691a924c5a9a44d63938dd0af5067dc0b6ae1647580718",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19441",
-      "title": "CVE-2026-19441 - Missing authentication for critical function vulnerability in IKAS Technology In...",
-      "body": "Missing authentication for critical function vulnerability in IKAS Technology Inc. Rush allows Fake the Source of Data.\n\nThis issue affects Rush: through 21082026.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19441",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-21T08:16:43.837000",
-      "created_at": "2026-08-22T00:33:41.947923+00:00"
     }
   ]
 }
