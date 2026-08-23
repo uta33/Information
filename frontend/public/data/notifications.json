@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-23T22:10:01.414432+00:00",
+  "generated_at": "2026-08-23T23:09:43.164321+00:00",
   "items": [
+    {
+      "id": "95eba3d51e127446",
+      "content_hash": "95eba3d51e127446836bf359f4e7648528ea951f6f50971ac0300698dc4e44c3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://schlarp.com/posts/everything-i-own-owned/",
+      "title": "Everything I own, owned",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49413320\">Comments</a>",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T22:41:04+00:00",
+      "created_at": "2026-08-23T23:09:43.163531+00:00"
+    },
+    {
+      "id": "9665fd33326b51ea",
+      "content_hash": "9665fd33326b51ea2746d79d12bf040f56f613bced259f46590595382004d8e9",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78142",
+      "title": "CVE-2026-78142 - A vulnerability was found in code-projects Barangay Resident Profiling Managemen...",
+      "body": "A vulnerability was found in code-projects Barangay Resident Profiling Management System 1.0. This impacts an unknown function of the file /archived_records.php of the component Restore/Delete. The manipulation of the argument resident_id results in authorization bypass. The attack may be launched remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78142",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-23T22:16:32.903000",
+      "created_at": "2026-08-23T23:09:39.961519+00:00"
+    },
+    {
+      "id": "a67ed8f1de2356aa",
+      "content_hash": "a67ed8f1de2356aa2395642310e9135872c76f17dfc3fa4095b024c679ca1b97",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78141",
+      "title": "CVE-2026-78141 - A vulnerability has been found in Tenda CH22 1.0.0.1. This affects the function ...",
+      "body": "A vulnerability has been found in Tenda CH22 1.0.0.1. This affects the function formexeCommand of the file /goform/exeCommand. The manipulation of the argument cmdinput leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78141",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.4,
+      "published_at": "2026-08-23T22:16:32.667000",
+      "created_at": "2026-08-23T23:09:39.961512+00:00"
+    },
     {
       "id": "18dd392d965f22ef",
       "content_hash": "18dd392d965f22ef77ce9923a94446b55770fcd7697b48d9debb9f3bbf6051e2",
@@ -14,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T21:55:55+00:00",
       "created_at": "2026-08-23T22:10:01.414146+00:00"
+    },
+    {
+      "id": "4e1e924d3b08f86b",
+      "content_hash": "4e1e924d3b08f86b09960d9e8b27efba1a83844b231889ebea3544849a7ea339",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/",
+      "title": "The planet now has more trees than it did 35 years ago (2018)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49413004\">Comments</a>",
+      "url": "https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T21:55:55+00:00",
+      "created_at": "2026-08-23T23:09:43.163942+00:00"
     },
     {
       "id": "8df66d249a8a4bdc",
@@ -42,6 +98,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T20:56:01+00:00",
       "created_at": "2026-08-23T22:10:01.414009+00:00"
+    },
+    {
+      "id": "9f7e9646a6d22583",
+      "content_hash": "9f7e9646a6d22583da3e82430b8e0bc0a4839703fd7308719c4e63ae21360953",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/",
+      "title": "Declarative WebGPU with S-Expressions",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49412467\">Comments</a>",
+      "url": "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T20:47:53+00:00",
+      "created_at": "2026-08-23T23:09:43.164056+00:00"
     },
     {
       "id": "5fce62b8f0082f11",
@@ -114,6 +184,20 @@
       "created_at": "2026-08-23T20:09:49.121053+00:00"
     },
     {
+      "id": "73486d48f72541e2",
+      "content_hash": "73486d48f72541e2912b1595662748fdfe9b847b36576665758f807d868423c7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://surya.website/rling-qwen-to-paint-with-code",
+      "title": "Training AI to Paint with Code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411800\">Comments</a>",
+      "url": "https://surya.website/rling-qwen-to-paint-with-code",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T19:39:29+00:00",
+      "created_at": "2026-08-23T23:09:43.164020+00:00"
+    },
+    {
       "id": "c5d841125fbf9563",
       "content_hash": "c5d841125fbf9563cd5db56b3a0300edbe56c7daa2b341ec5db0f597b2def0ab",
       "source_name": "Hacker News (Best)",
@@ -154,6 +238,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T19:29:32+00:00",
       "created_at": "2026-08-23T22:10:01.413735+00:00"
+    },
+    {
+      "id": "42cd1941242bcf5f",
+      "content_hash": "42cd1941242bcf5fa159719ce207ca2273b0e7159db0a543a0a7669a18c83c2a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411717\">Comments</a>",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T19:29:32+00:00",
+      "created_at": "2026-08-23T23:09:43.163556+00:00"
     },
     {
       "id": "8169b48e5da282b5",
@@ -224,6 +322,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T19:06:09+00:00",
       "created_at": "2026-08-23T20:09:49.218932+00:00"
+    },
+    {
+      "id": "d059620826b747e5",
+      "content_hash": "d059620826b747e510cd4a2de9174f74a41ab1c0fceee08e8bb0d54b01b578fa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "title": "Fable and the end of the free lunch",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411468\">Comments</a>",
+      "url": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T19:06:09+00:00",
+      "created_at": "2026-08-23T23:09:43.163887+00:00"
     },
     {
       "id": "3c2e471b69d95598",
@@ -546,6 +658,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T15:50:18+00:00",
       "created_at": "2026-08-23T17:10:53.949644+00:00"
+    },
+    {
+      "id": "cc8cd7d36a5d5059",
+      "content_hash": "cc8cd7d36a5d5059dc6dd4f978a647ea558f125e6a6271ccbf11900ea38421d5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://studyfinds.com/coconut-oil-jet-fuel-matches-kerosenes-efficiency-in-engine-tests/",
+      "title": "Coconut oil jet fuel matches kerosene's efficiency in engine tests",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49409780\">Comments</a>",
+      "url": "https://studyfinds.com/coconut-oil-jet-fuel-matches-kerosenes-efficiency-in-engine-tests/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T15:50:18+00:00",
+      "created_at": "2026-08-23T23:09:43.163960+00:00"
     },
     {
       "id": "c0cfaf8b6e100632",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T17:16:44.210000",
       "created_at": "2026-08-22T17:10:34.914719+00:00"
-    },
-    {
-      "id": "b23f47420625364a",
-      "content_hash": "b23f47420625364a6d68900c7878a4cc03af99ba4ba0ffd2f3b4a718709bad6d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-69701",
-      "title": "CVE-2026-69701 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69701",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:42.980000",
-      "created_at": "2026-08-22T17:10:34.914713+00:00"
-    },
-    {
-      "id": "a3f09352687c36c9",
-      "content_hash": "a3f09352687c36c97c611e924bba7e1ab766068b0ae16747408993aa59e1ec81",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-69099",
-      "title": "CVE-2026-69099 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69099",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:42.390000",
-      "created_at": "2026-08-22T17:10:34.914708+00:00"
-    },
-    {
-      "id": "c90370182c4953e5",
-      "content_hash": "c90370182c4953e5edd610abb62528bcdecf29b961a7735d2d240da4c1e957c7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63726",
-      "title": "CVE-2026-63726 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63726",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:36.400000",
-      "created_at": "2026-08-22T17:10:34.914703+00:00"
-    },
-    {
-      "id": "0cc75e15f0c4fb36",
-      "content_hash": "0cc75e15f0c4fb36b9ecced3683caf80ff46627b6389bd6defa4a366ef5d03b5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57835",
-      "title": "CVE-2026-57835 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57835",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:32.200000",
-      "created_at": "2026-08-22T16:10:18.913992+00:00"
-    },
-    {
-      "id": "3bf40432aa50c030",
-      "content_hash": "3bf40432aa50c030fb9a6aedf473a37e6442dab1756904478b58ca50b461bc44",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53991",
-      "title": "CVE-2026-53991 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53991",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:31.623000",
-      "created_at": "2026-08-22T16:10:18.913985+00:00"
-    },
-    {
-      "id": "b99d6356b6490459",
-      "content_hash": "b99d6356b64904598b1ca0542c3ead9848fa271dfa9ebda18164b7a6bc2ef803",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53974",
-      "title": "CVE-2026-53974 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53974",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:31.560000",
-      "created_at": "2026-08-22T16:10:18.913978+00:00"
-    },
-    {
-      "id": "3c1ed00f57746ceb",
-      "content_hash": "3c1ed00f57746ceb584889eda47960d4b5c779c778f6ba5562640edb434322d4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-39909",
-      "title": "CVE-2026-39909 - llama.cpp before b8585 contains a use-after-free vulnerability in the RPC server...",
-      "body": "llama.cpp before b8585 contains a use-after-free vulnerability in the RPC server's GRAPH_RECOMPUTE handler that allows unauthenticated remote attackers to achieve arbitrary read and write access by storing a computation graph, freeing referenced buffers, and reclaiming freed memory with attacker-controlled content. Attackers can send RPC requests to trigger re-execution of stored graphs with dangling pointers, enabling full remote code execution without requiring authentication or user interaction.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39909",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-21T17:16:30.810000",
-      "created_at": "2026-08-22T15:09:37.857687+00:00"
-    },
-    {
-      "id": "5f353923d5a43db3",
-      "content_hash": "5f353923d5a43db3ddf20370bccb685f1a275477e3e388b193680db3e5c388c5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11938",
-      "title": "CVE-2026-11938 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11938",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:28.930000",
-      "created_at": "2026-08-22T15:09:37.857677+00:00"
-    },
-    {
-      "id": "83f94fc28fcfa4c2",
-      "content_hash": "83f94fc28fcfa4c25d1dbf166b37f17dd0fb2226524592c518f805fd9aabf2c0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11902",
-      "title": "CVE-2026-11902 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11902",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T17:16:28.863000",
-      "created_at": "2026-08-22T15:09:37.857671+00:00"
     }
   ]
 }
