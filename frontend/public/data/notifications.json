@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-23T10:11:57.364117+00:00",
+  "generated_at": "2026-08-23T11:10:53.878664+00:00",
   "items": [
+    {
+      "id": "9a0e1bc037dcc35c",
+      "content_hash": "9a0e1bc037dcc35c5c0112ebff272bfacb8d6dafd1b3a4c02a00c20bb3337b5f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theglobeandmail.com/canada/article-canada-us-trade-deal-tariffs-mark-carney-donald-trump-august-22/",
+      "title": "Canada now 'at war' with United States over trade, Prime Minister says",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407477\">Comments</a>",
+      "url": "https://www.theglobeandmail.com/canada/article-canada-us-trade-deal-tariffs-mark-carney-donald-trump-august-22/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T09:58:22+00:00",
+      "created_at": "2026-08-23T11:10:53.878036+00:00"
+    },
+    {
+      "id": "5bd4ec8afb11ca6d",
+      "content_hash": "5bd4ec8afb11ca6daf6d222328b2bba12ccdb8d125ccba8ecd567002f1e94814",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "title": "The Sloppification of Peptides",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407341\">Comments</a>",
+      "url": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T09:32:54+00:00",
+      "created_at": "2026-08-23T11:10:53.878056+00:00"
+    },
+    {
+      "id": "37eded9b2b101b90",
+      "content_hash": "37eded9b2b101b90d178d9839ac2062422518ab470fc2a3b002bc650ae77d3c9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://stories.tamu.edu/news/2026/08/13/doomscrolling-at-work-wastes-time-but-the-real-cost-is-what-happens-after/",
+      "title": "Doomscrolling at work wastes time, but the real cost is what happens after",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407305\">Comments</a>",
+      "url": "https://stories.tamu.edu/news/2026/08/13/doomscrolling-at-work-wastes-time-but-the-real-cost-is-what-happens-after/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T09:26:55+00:00",
+      "created_at": "2026-08-23T11:10:53.878229+00:00"
+    },
     {
       "id": "be5a0f0438d8c129",
       "content_hash": "be5a0f0438d8c12921ddc9bd92df027c5acdfd0d2c1f43eaca245f6aecf2b803",
@@ -546,6 +588,34 @@
       "cvss_score": null,
       "published_at": "2026-08-22T15:20:00+00:00",
       "created_at": "2026-08-22T16:10:25.870493+00:00"
+    },
+    {
+      "id": "40b0bc49cbc34665",
+      "content_hash": "40b0bc49cbc34665d63cb3082deecfd9dc32a970490bc12e58157c02261e600d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-74584",
+      "title": "CVE-2026-74584 - In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_r...",
+      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: zero shared page before exposing to userspace\n\nbnxt_re_alloc_ucontext() allocates uctx->shpg via\n__get_free_page(GFP_KERNEL). The buddy allocator does not zero pages\nwithout __GFP_ZERO, so the page contains stale kernel data from\nwhatever object most recently freed it.\n\nThe page is then mapped into userspace via vm_insert_page() under\nBNXT_RE_MMAP_SH_PAGE in bnxt_re_mmap(). The driver only ever writes\n4 bytes (a u32 AVID) at offset BNXT_RE_AVID_OFFT (0x10) inside\nbnxt_re_create_ah(); the remaining 4092 bytes of the page are exposed\nto userspace unsanitised, leaking kernel memory contents.\n\nAny user with access to /dev/infiniband/uverbsX on a host with a\nbnxt_re device (typically rdma group membership) can read this data\nvia a single mmap() at pgoff 0 after IB_USER_VERBS_CMD_GET_CONTEXT.\n\nOther shared pages in the same file already use get_zeroed_page()\ncorrectly:\n\n  drivers/infiniband/hw/bnxt_re/ib_verbs.c\n      srq->uctx_srq_page = (void *)get_zeroed_page(GFP_KERNEL);\n      cq->uctx_cq_page  = (void *)get_zeroed_page(GFP_KERNEL);\n\nuctx->shpg is the only outlier. Bring it in line with the existing\nconvention by switching to get_zeroed_page().",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74584",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-22T15:16:21.230000",
+      "created_at": "2026-08-23T11:10:50.791288+00:00"
+    },
+    {
+      "id": "db8ff837a49c894a",
+      "content_hash": "db8ff837a49c894a9a11cc8a7f3b93ec69415bb79f499bdf5e0ac6324a6de89d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-70626",
+      "title": "CVE-2026-70626 - NLTK versions before 3.9.4 contain a symlink escape vulnerability in CorpusReade...",
+      "body": "NLTK versions before 3.9.4 contain a symlink escape vulnerability in CorpusReader.open() that allows local attackers to read arbitrary files outside the corpus root. The vulnerability exists because path validation is lexical and does not account for symlink resolution, enabling attackers to place symlinks inside the corpus root to access files outside the intended boundary.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70626",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.2,
+      "published_at": "2026-08-22T15:16:21.100000",
+      "created_at": "2026-08-23T11:10:50.791281+00:00"
     },
     {
       "id": "b65843b233cbb4f6",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:16:38.767000",
       "created_at": "2026-08-22T04:21:01.163755+00:00"
-    },
-    {
-      "id": "c5f8af35a57354d2",
-      "content_hash": "c5f8af35a57354d2bacaec839a901268a6b1af31d58cba0eddd0150397d0f874",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47827",
-      "title": "CVE-2026-47827 - Command Injection in BOSH CLI tool on windows in Cloud Foundry allows a remote a...",
-      "body": "Command Injection in BOSH CLI tool on windows in Cloud Foundry allows a remote attacker to execute arbitrary shell commands via command injection vulnerabilities",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47827",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-21T10:16:38.647000",
-      "created_at": "2026-08-22T04:21:01.163749+00:00"
-    },
-    {
-      "id": "de726f57e2872252",
-      "content_hash": "de726f57e28722524a8d24d6ca41121087e6cdf3905de7c60fe8475075a00b4d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47080",
-      "title": "CVE-2026-47080 - XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows C...",
-      "body": "XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows Content Spoofing, XML Injection.\n\nThis vulnerability is associated with program files lib/xml_builder.ex and program routines XmlBuilder.generate/1, XmlBuilder.generate/2, XmlBuilder.escape/1.\n\nThe escape/1 clause for {:cdata, data} in lib/xml_builder.ex concatenates data verbatim between the CDATA opener <![CDATA[ and closer ]]> without rewriting or splitting on the embedded ]]> sequence. Because CDATA sections have no internal escape mechanism, the only safe way to embed arbitrary bytes is to split on ]]> and emit adjacent CDATA sections. An attacker who can supply input containing ]]> closes the CDATA section early; any bytes that follow are parsed as ordinary XML markup by downstream consumers, allowing injection of arbitrary elements, text, or entity references into the output document.\n\nThis issue affects xml_builder: from 0.0.7 before 2.4.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47080",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:16:38.497000",
-      "created_at": "2026-08-22T04:21:01.163744+00:00"
-    },
-    {
-      "id": "bd7635f5d3c97242",
-      "content_hash": "bd7635f5d3c972424d960888de918341aefef4722b5dc364ae5e8a0a485e166d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-47079",
-      "title": "CVE-2026-47079 - Inappropriate Encoding for Output Context vulnerability in joshnuss xml_builder ...",
-      "body": "Inappropriate Encoding for Output Context vulnerability in joshnuss xml_builder (XmlBuilder module) allows Content Spoofing, Cross-site Scripting.\n\nThis vulnerability is associated with program files lib/xml_builder.ex and program routines XmlBuilder.generate/1, XmlBuilder.generate/2, XmlBuilder.escape_string/1, XmlBuilder.escape_entity/1.\n\nXmlBuilder.generate/1 does not escape literal & characters in text or attribute values when they are followed by an entity-like token (lt;, gt;, amp;, quot;, apos;). As a result, attacker-supplied input such as &lt;script&gt; is emitted verbatim into the serialized XML rather than being escaped to &amp;lt;script&amp;gt;. When a downstream XML parser later reads the document, it decodes the entity sequences into the literal characters <script>, promoting inert-looking text into real markup. This allows an attacker to bypass upstream filters that block raw < and > characters, injecting markup into any downstream consumer that parses the produced XML and renders the text content in a markup-sensitive context (HTML, SVG, RSS/Atom feeds). Both element text and attribute values are affected.\n\nThis issue affects xml_builder: from 0.0.6 before 2.4.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47079",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:16:38.167000",
-      "created_at": "2026-08-22T03:32:05.284487+00:00"
-    },
-    {
-      "id": "dab4e400b466e2e0",
-      "content_hash": "dab4e400b466e2e0d2bd93c1449799d8395342e7c79dbe00187ae80e787bb8fa",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "body": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:10:42+00:00",
-      "created_at": "2026-08-21T10:18:12.058632+00:00"
-    },
-    {
-      "id": "6c5db81c38d8290d",
-      "content_hash": "6c5db81c38d8290d374dee402444610b82a72a1d6136bc4a7b58c9f219b8a84d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://annas-archive.pk/blog/physical-destruction.html",
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49385994\">Comments</a>",
-      "url": "https://annas-archive.pk/blog/physical-destruction.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:05:46+00:00",
-      "created_at": "2026-08-21T12:21:49.934757+00:00"
     }
   ]
 }
