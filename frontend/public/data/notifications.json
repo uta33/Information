@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-23T02:17:02.858292+00:00",
+  "generated_at": "2026-08-23T03:40:07.279838+00:00",
   "items": [
+    {
+      "id": "c13047645eec4fe7",
+      "content_hash": "c13047645eec4fe7a6e974af2771ba2bd50ad96608ac1eea9ca00328609956ea",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3155850",
+      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
+      "body": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
+      "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-23T03:00:00+00:00",
+      "created_at": "2026-08-23T03:40:07.155897+00:00"
+    },
+    {
+      "id": "0719b9b10f9ce8a0",
+      "content_hash": "0719b9b10f9ce8a0bcdeed9dcbe83b635a5e6ca02c89104ddd10a38465f04f7f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+      "title": "The Art and Beauty of Blade Runner",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49405331\">Comments</a>",
+      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T00:56:03+00:00",
+      "created_at": "2026-08-23T03:40:07.279606+00:00"
+    },
     {
       "id": "b83eba9cf93b1e94",
       "content_hash": "b83eba9cf93b1e949b8c73f2b3a97f558e717d7ad33d68d1aa575076a8617c42",
@@ -6972,34 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-21T08:16:43.837000",
       "created_at": "2026-08-22T00:33:41.947923+00:00"
-    },
-    {
-      "id": "39218e4d0f122b0a",
-      "content_hash": "39218e4d0f122b0a3885be9813135510cc6e612de336d99b21dad383afd06340",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16323",
-      "title": "CVE-2026-16323 - Execution after redirect (EAR) vulnerability in FuyaWeb Internet and Informatics...",
-      "body": "Execution after redirect (EAR) vulnerability in FuyaWeb Internet and Informatics Services ArchitectPanel Web Admin Panel allows Authentication Bypass.\n\nThis issue affects ArchitectPanel Web Admin Panel: through 28072026.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16323",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-21T08:16:42.667000",
-      "created_at": "2026-08-22T00:33:41.947916+00:00"
-    },
-    {
-      "id": "38e9df4c7269675e",
-      "content_hash": "38e9df4c7269675e86f7f25818fe8636bdc11fee452b764ec78f29761c9f70fe",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://matklad.github.io/2026/08/20/better-batteries.html",
-      "title": "Better Batteries",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49385068\">Comments</a>",
-      "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T07:48:50+00:00",
-      "created_at": "2026-08-21T12:21:49.935266+00:00"
     }
   ]
 }
