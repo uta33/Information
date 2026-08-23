@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-23T18:12:33.161217+00:00",
+  "generated_at": "2026-08-23T19:13:52.924122+00:00",
   "items": [
+    {
+      "id": "3c2e471b69d95598",
+      "content_hash": "3c2e471b69d955987094d506d74d75b29e3b464f9d3103eb4f54f44554d62e98",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://slate.com/technology/2026/08/microsoft-software-nonprofit-data-delete.html",
+      "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411395\">Comments</a>",
+      "url": "https://slate.com/technology/2026/08/microsoft-software-nonprofit-data-delete.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T18:55:54+00:00",
+      "created_at": "2026-08-23T19:13:52.923641+00:00"
+    },
+    {
+      "id": "91f31fb19676c564",
+      "content_hash": "91f31fb19676c564216cd37a28e38799c5a5f78eba4874859a107a662ddc27fa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/",
+      "title": "Explain it to me like I'm ten",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49411020\">Comments</a>",
+      "url": "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T18:08:13+00:00",
+      "created_at": "2026-08-23T19:13:52.923608+00:00"
+    },
+    {
+      "id": "9909df40fba34646",
+      "content_hash": "9909df40fba346460882911386f0578af2eefe0ed4a5a6a9eafa56cc0d8bea14",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/technology/2026/aug/21/netherlands-fines-uber-automated-driver-suspensions",
+      "title": "Dutch regulator fines Uber $966M for automating driver suspensions",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49410697\">Comments</a>",
+      "url": "https://www.theguardian.com/technology/2026/aug/21/netherlands-fines-uber-automated-driver-suspensions",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T17:32:43+00:00",
+      "created_at": "2026-08-23T19:13:52.923658+00:00"
+    },
     {
       "id": "7805c52ea93abba1",
       "content_hash": "7805c52ea93abba142e03eb44a423b1cc3c029063f21ac879fa12dc17e28a7f7",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T16:09:50+00:00",
       "created_at": "2026-08-21T18:20:12.805672+00:00"
-    },
-    {
-      "id": "b6d890a60b86de62",
-      "content_hash": "b6d890a60b86de628339454bc859a56fa730acd2d3cb9194b0aaf4588a1c5c09",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
-      "title": "Omacom Foundation Launches with $8M",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49390132\">Comments</a>",
-      "url": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T16:03:47+00:00",
-      "created_at": "2026-08-21T16:18:28.858291+00:00"
-    },
-    {
-      "id": "331fb05be47d4c67",
-      "content_hash": "331fb05be47d4c67b781eb1fc3c84545987a0f199c2867f8294192b8944ee1d6",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3155072",
-      "title": "US government lab is probing Chinese lidar for security vulnerabilities",
-      "body": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -- or a group of companies -- in the electric and autonomous vehicle industries.",
-      "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T16:01:54+00:00",
-      "created_at": "2026-08-21T16:18:28.627231+00:00"
-    },
-    {
-      "id": "3d244a52c2f58d56",
-      "content_hash": "3d244a52c2f58d565b6ca8a43af09d43419bc7a9c8f7879fac7930d857b8ad2f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.0xsid.com/blog/just-want-to-search",
-      "title": "I Just Want to Search",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49390099\">Comments</a>",
-      "url": "https://www.0xsid.com/blog/just-want-to-search",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T16:00:54+00:00",
-      "created_at": "2026-08-21T17:18:12.702230+00:00"
     }
   ]
 }
