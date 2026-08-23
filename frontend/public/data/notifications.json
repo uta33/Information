@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:16:24.319801+00:00",
+  "generated_at": "2026-08-23T10:11:57.364117+00:00",
   "items": [
     {
       "id": "be5a0f0438d8c129",
@@ -168,6 +168,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T00:56:03+00:00",
       "created_at": "2026-08-23T07:23:46.266388+00:00"
+    },
+    {
+      "id": "72ef53079a819670",
+      "content_hash": "72ef53079a81967088cde035915d57139a86c24fdcf46baab57771cd23215bb9",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://olli.unt.edu/handouts/fall24/tk-writing-sample.pdf",
+      "title": "Mathematicians will probably become obsolete before anyone else [pdf]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49405083\">Comments</a>",
+      "url": "https://olli.unt.edu/handouts/fall24/tk-writing-sample.pdf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T00:14:16+00:00",
+      "created_at": "2026-08-23T10:11:57.363835+00:00"
     },
     {
       "id": "b83eba9cf93b1e94",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:05:46+00:00",
       "created_at": "2026-08-21T12:21:49.934757+00:00"
-    },
-    {
-      "id": "2b701d5c89309044",
-      "content_hash": "2b701d5c89309044e7cce50ddd6eec1d51e5ce9c35fa2438b1f2ad58ee1ae620",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-      "body": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.\n\nFour of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -",
-      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:03:11+00:00",
-      "created_at": "2026-08-21T12:21:44.939829+00:00"
     }
   ]
 }
