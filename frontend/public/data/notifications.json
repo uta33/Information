@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-23T11:10:53.878664+00:00",
+  "generated_at": "2026-08-23T12:16:29.115791+00:00",
   "items": [
+    {
+      "id": "8c1d6d3829e48a89",
+      "content_hash": "8c1d6d3829e48a8936257c89caef948a33dbe091fc848a28a85853e2a24f098f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/cvg92y1wzn8o",
+      "title": "Sydney Marathon medal mistakenly depicts Munich stadium",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407576\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/cvg92y1wzn8o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T10:14:48+00:00",
+      "created_at": "2026-08-23T12:16:29.115088+00:00"
+    },
+    {
+      "id": "c4d748673c1de058",
+      "content_hash": "c4d748673c1de0583306d06bff79086a57a606ae07a8741fd3059c581fdcf2ee",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407507\">Comments</a>",
+      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T10:02:51+00:00",
+      "created_at": "2026-08-23T12:16:29.115148+00:00"
+    },
     {
       "id": "9a0e1bc037dcc35c",
       "content_hash": "9a0e1bc037dcc35c5c0112ebff272bfacb8d6dafd1b3a4c02a00c20bb3337b5f",
@@ -28,6 +56,20 @@
       "cvss_score": null,
       "published_at": "2026-08-23T09:32:54+00:00",
       "created_at": "2026-08-23T11:10:53.878056+00:00"
+    },
+    {
+      "id": "e28f37faec078a46",
+      "content_hash": "e28f37faec078a460a7939dbbf89049951c7392e20cbc3b011695ab8a9f11b2d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://skylens.yantraai.app/",
+      "title": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49407309\">Comments</a>",
+      "url": "https://skylens.yantraai.app/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T09:27:40+00:00",
+      "created_at": "2026-08-23T12:16:29.115046+00:00"
     },
     {
       "id": "37eded9b2b101b90",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T10:16:39.210000",
       "created_at": "2026-08-22T06:19:24.588638+00:00"
-    },
-    {
-      "id": "16f53f331f086dbd",
-      "content_hash": "16f53f331f086dbd0673da44863cce680b9bb404460bf32a486cc139f64f49e6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77681",
-      "title": "CVE-2026-77681 - A vulnerability was identified in CodeAstro Online Job Portal 1.0. Affected by t...",
-      "body": "A vulnerability was identified in CodeAstro Online Job Portal 1.0. Affected by this vulnerability is an unknown functionality of the file /users/update-profile.php. The manipulation of the argument Name leads to unrestricted upload. The attack can be initiated remotely. The exploit is publicly available and might be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77681",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-21T10:16:39.047000",
-      "created_at": "2026-08-22T06:19:24.588627+00:00"
-    },
-    {
-      "id": "fc8b0cfb74c248c3",
-      "content_hash": "fc8b0cfb74c248c3637cf6067fdee9ba698ca900496407c75677b2c23e5fd09b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59323",
-      "title": "CVE-2026-59323 - An application using Micrometer Tracing with W3C baggage propagation in the Brav...",
-      "body": "An application using Micrometer Tracing with W3C baggage propagation in the Brave bridge is vulnerable to denial of service (DoS) due to unbounded object allocation when extracting incoming baggage headers.\n\n\n\nSpecifically, an application is vulnerable when all the following are true:\n\n  *  The application uses a vulnerable version of io.micrometer:micrometer-tracing-bridge-brave.\n  *  W3C propagation is active (either configured manually or active by default, such as in Spring Boot 3.x+).\n  *  Baggage propagation is enabled (which is the default in Spring Boot 3.x+) and a baggage manager (such as BraveBaggageManager) is configured to handle baggage fields.\n  *  The application processes requests or messages from untrusted sources with baggage headers which it normally should not, see:  https://www.w3.org/TR/trace-context/#security-considerations .\n  *  Network components including the (HTTP) server that receives the request do not limit the header size or the limit is high enough to cause issues.\n\n\n\n\nThe last two points are very important: normally this should not affect applications because they should not receive untrusted and unlimited input for baggage.\n\n  *  The application processes requests or messages from untrusted sources with baggage headers.\n\n\n\n\nWhen extracting baggage from the W3C baggage header, incoming entries are parsed without enforcing limits on the number of entries or header size as mandated by the W3C Baggage specification. An attacker can send requests or messages with artificially inflated baggage headers containing many key-value pairs, causing unconditional BaggageField allocations per entry. This leads to garbage collection pressure, high CPU usage, and potential application crash via OutOfMemoryError.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59323",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-21T10:16:38.910000",
-      "created_at": "2026-08-22T04:21:01.163762+00:00"
-    },
-    {
-      "id": "d7d789ed0fe6a96e",
-      "content_hash": "d7d789ed0fe6a96e1077b022c0729a55b7b9274dc7e4c0b7ae73c771264b013d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-48590",
-      "title": "CVE-2026-48590 - XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows C...",
-      "body": "XML Injection vulnerability in joshnuss xml_builder (XmlBuilder module) allows Content Spoofing, XML Injection.\n\nThis vulnerability is associated with program files lib/xml_builder.ex and program routines XmlBuilder.generate/1, XmlBuilder.generate/2, XmlBuilder.element/1, XmlBuilder.element/2, XmlBuilder.element/3.\n\nElement names, attribute names, and doctype identifiers are interpolated verbatim into the serialized XML output without validation or escaping of structural characters (<, >, \", ', &). An attacker who can influence a name argument (for example, an element name derived from a JSON object key or an HTTP form field name) can inject arbitrary XML markup including extra elements, comments, and event-handler attributes into the output document.\n\nThis issue affects xml_builder: from 0.0.1 before 2.4.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48590",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T10:16:38.767000",
-      "created_at": "2026-08-22T04:21:01.163755+00:00"
     }
   ]
 }
