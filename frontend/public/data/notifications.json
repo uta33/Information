@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T04:33:34.601996+00:00",
+  "generated_at": "2026-08-24T05:28:25.469512+00:00",
   "items": [
+    {
+      "id": "22e5a3fabef2d7fd",
+      "content_hash": "22e5a3fabef2d7fdb81f7570442b3731117885c531762666210de0d1965440fd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/BrianRoemmele/status/2091127620431933780",
+      "title": "AI Is Quietly Draining the Public Internet of Thought",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49415237\">Comments</a>",
+      "url": "https://twitter.com/BrianRoemmele/status/2091127620431933780",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T04:41:37+00:00",
+      "created_at": "2026-08-24T05:28:25.469138+00:00"
+    },
     {
       "id": "4b3dfd43cf9ace52",
       "content_hash": "4b3dfd43cf9ace52d5c815b55604e5bab3d4775a88d801dc851d8938a2f430fa",
@@ -28,6 +42,48 @@
       "cvss_score": null,
       "published_at": "2026-08-24T02:17:26+00:00",
       "created_at": "2026-08-24T03:42:45.305490+00:00"
+    },
+    {
+      "id": "395c2da1bb590bec",
+      "content_hash": "395c2da1bb590bec99a7fc0756c6af49a449674f23ea5095a3ed9cfbea034c83",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78169",
+      "title": "CVE-2026-78169 - A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This...",
+      "body": "A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This impacts the function strcpy of the file /goform/aspRemoteApConfTempSend of the component HTTP Request Handler. Performing a manipulation of the argument Profile results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is now public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78169",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.9,
+      "published_at": "2026-08-24T02:17:04.650000",
+      "created_at": "2026-08-24T05:28:21.393772+00:00"
+    },
+    {
+      "id": "45d180eab57bc068",
+      "content_hash": "45d180eab57bc0682b54050a57ed514627b97511a79a3956fa1065937ada9481",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78168",
+      "title": "CVE-2026-78168 - A security vulnerability has been detected in EFM ipTIME T24000M up to 14.20.0. ...",
+      "body": "A security vulnerability has been detected in EFM ipTIME T24000M up to 14.20.0. This affects the function httpcon_check_session_url of the component Session Validation Handler. Such manipulation leads to improper authentication. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78168",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-24T02:17:04.480000",
+      "created_at": "2026-08-24T05:28:21.393766+00:00"
+    },
+    {
+      "id": "81ef8d2be7a46429",
+      "content_hash": "81ef8d2be7a464298f38e16dd0be7579196e66565076fa71d5d912795842e48c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78167",
+      "title": "CVE-2026-78167 - A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted eleme...",
+      "body": "A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted element is the function httpcon_check_session_url of the component Session Validation Handler. This manipulation causes improper authentication. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78167",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 10.0,
+      "published_at": "2026-08-24T02:17:04.300000",
+      "created_at": "2026-08-24T05:28:21.393759+00:00"
     },
     {
       "id": "2ce19fd7776444bf",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T20:16:39.960000",
       "created_at": "2026-08-22T19:14:10.606118+00:00"
-    },
-    {
-      "id": "b940bae26c1165d1",
-      "content_hash": "b940bae26c1165d1b8197901b1b8805187a16df100a680c5014462643e8fc5d9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67361",
-      "title": "CVE-2026-67361 - Joomla Extension - j2commerce.com - Unauthenticated file upload with missing dir...",
-      "body": "Joomla Extension - j2commerce.com - Unauthenticated file upload with missing directory protection in J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - The file upload endpoint accepted POST requests from unauthenticated visitors with no CSRF token. Compounding this, the installer manifest omitted the upload and invoices directories, causing fresh installs to deploy those directories without .htaccess/web.config protection, making uploaded files directly web-accessible.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67361",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:39.827000",
-      "created_at": "2026-08-22T19:14:10.606112+00:00"
-    },
-    {
-      "id": "a34cd24c63e4c61c",
-      "content_hash": "a34cd24c63e4c61cc8b87f5e289904507978ad316eeca59f84f9659696ed1dca",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67360",
-      "title": "CVE-2026-67360 - Joomla Extension - j2commerce.com - Cross-customer order replication in J2Store ...",
-      "body": "Joomla Extension - j2commerce.com - Cross-customer order replication in J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - An authenticated user could supply another customer's order_id to copy their cart contents and address data into the attacker's session. The CSRF token was validated but ownership was not checked.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67360",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:39.700000",
-      "created_at": "2026-08-22T19:14:10.606105+00:00"
-    },
-    {
-      "id": "014b86e6b94da26d",
-      "content_hash": "014b86e6b94da26da81947f87d9b04d4d57f1555e8443b54f972539f2dd2d6c9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67359",
-      "title": "CVE-2026-67359 - Joomla Extension - j2commerce.com - Order content disclosure J2Store 1.0.0-3.3.2...",
-      "body": "Joomla Extension - j2commerce.com - Order content disclosure J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - An unauthenticated visitor could supply any order_id as a query parameter to render the full checkout confirmation page for that order, including line items, prices, and totals.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67359",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:39.583000",
-      "created_at": "2026-08-22T19:14:10.606099+00:00"
-    },
-    {
-      "id": "d2c0dbe90afcc9a9",
-      "content_hash": "d2c0dbe90afcc9a932bdc3b954a745a7dcc742295338194ce02952bcba8f7b3c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67358",
-      "title": "CVE-2026-67358 - Joomla Extension - j2commerce.com - Download quota manipulation in J2Store 1.0.0...",
-      "body": "Joomla Extension - j2commerce.com - Download quota manipulation in J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - An authenticated user with a valid order token could increment the download limit counter on a download record belonging to a different order. The endpoint also lacked a CSRF token.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67358",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:39.450000",
-      "created_at": "2026-08-22T19:14:10.606092+00:00"
     }
   ]
 }
