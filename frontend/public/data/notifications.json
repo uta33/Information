@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T03:42:45.305764+00:00",
+  "generated_at": "2026-08-24T04:33:34.601996+00:00",
   "items": [
+    {
+      "id": "4b3dfd43cf9ace52",
+      "content_hash": "4b3dfd43cf9ace52d5c815b55604e5bab3d4775a88d801dc851d8938a2f430fa",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c4g6ggdg030o",
+      "title": "Nearly 3M Teslas recalled in China over hidden door handles",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49415187\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c4g6ggdg030o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T04:27:57+00:00",
+      "created_at": "2026-08-24T04:33:34.601650+00:00"
+    },
     {
       "id": "511f61e664b34db4",
       "content_hash": "511f61e664b34db4e37e79b7e952df179199f2ea39eb54603490a05727ceafc1",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T02:17:26+00:00",
       "created_at": "2026-08-24T03:42:45.305490+00:00"
+    },
+    {
+      "id": "2ce19fd7776444bf",
+      "content_hash": "2ce19fd7776444bfdb0bbc5e2d86d11ce99fb5b5278b63fb1e6a327d2413396e",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78166",
+      "title": "CVE-2026-78166 - A security flaw has been discovered in provectus kafka-ui up to 0.7.2. The affec...",
+      "body": "A security flaw has been discovered in provectus kafka-ui up to 0.7.2. The affected element is the function executeSmartFilterTest of the file kafka-ui-api/src/main/java/com/provectus/kafka/ui/controller/MessagesController.java of the component Groovy Code Handler. The manipulation results in code injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78166",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-24T02:17:04.120000",
+      "created_at": "2026-08-24T04:33:30.144671+00:00"
     },
     {
       "id": "6d8a456ba367391f",
@@ -728,6 +756,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T01:33:14+00:00",
       "created_at": "2026-08-24T02:15:25.611813+00:00"
+    },
+    {
+      "id": "229ebe5acfb1bd44",
+      "content_hash": "229ebe5acfb1bd44fb7921da8b68ec7a25191f107049cee559b5484115fa34af",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78209",
+      "title": "CVE-2026-78209 - exceljs-hardened versions before 5.0.0 fail to neutralize leading equals, plus, ...",
+      "body": "exceljs-hardened versions before 5.0.0 fail to neutralize leading equals, plus, minus, or at signs in cell values written to CSV output. Attackers who can influence exported cell values can inject formulas that execute when the CSV file is opened in a spreadsheet application, potentially exfiltrating data or performing other malicious actions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78209",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "published_at": "2026-08-24T01:16:58.423000",
+      "created_at": "2026-08-24T04:33:30.144664+00:00"
     },
     {
       "id": "92f635f6d9779973",
@@ -6958,48 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T20:16:39.450000",
       "created_at": "2026-08-22T19:14:10.606092+00:00"
-    },
-    {
-      "id": "1bc2e8a9109acd81",
-      "content_hash": "1bc2e8a9109acd815fa0f283cf482babe14347e4f32ad0e5502b8a8c41c8676d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62960",
-      "title": "CVE-2026-62960 - Git for Windows is the Windows port of Git. Prior to 2.55.0.windows.4, a malicio...",
-      "body": "Git for Windows is the Windows port of Git. Prior to 2.55.0.windows.4, a malicious remote Git server can advertise a bundle URI that reaches transport_get_remote_bundle_uri(), fetch_bundle_uri_internal(), and copy_uri_to_file() in bundle-uri.c during clone or fetch when transfer.bundleuri=true. Non-HTTP(S) values are treated as local filesystem paths, and file URI prefixes are removed, so a bare UNC path or file URI targeting an attacker-controlled share causes Windows to initiate an outbound SMB connection. This can expose NTLM authentication material to the attacker-selected host. This issue is fixed in version 2.55.0.windows.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62960",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-08-21T20:16:38.700000",
-      "created_at": "2026-08-22T19:14:10.606085+00:00"
-    },
-    {
-      "id": "1a1075139c4e5d05",
-      "content_hash": "1a1075139c4e5d05465b702e4113461265b7fe30dd348bdc24ee4fee335adf33",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50290",
-      "title": "CVE-2026-50290 - SpecifyJS is a declarative TypeScript user interface framework. Prior to version...",
-      "body": "SpecifyJS is a declarative TypeScript user interface framework. Prior to version 0.2.136, CSS value sanitization stripped `expression(` and `url(javascript:` using simple regex, but could be bypassed with CSS unicode escapes (`\\65xpression(`), null bytes, or CSS comments (`exp/**/ression(`). These CSS injection vectors only work in legacy browsers (IE6-IE10). SpecifyJS targets modern browsers. Starting in version 0.2.136, CSS sanitization now normalizes unicode escapes and strips CSS comments before pattern matching. Also checks for `behavior:`, `-moz-binding`, and `-o-link` patterns.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50290",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:36.220000",
-      "created_at": "2026-08-22T19:14:10.606078+00:00"
-    },
-    {
-      "id": "3c8cf447b57bf398",
-      "content_hash": "3c8cf447b57bf398a86c880c4360837b21b77cb6f6164ec245d0a7ef8b70ede9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-50288",
-      "title": "CVE-2026-50288 - SpecifyJS is a declarative TypeScript user interface framework. Prior to version...",
-      "body": "SpecifyJS is a declarative TypeScript user interface framework. Prior to version 0.2.136, when `new URL()` throws a parse error, the `assertSecureUrl` function returned without throwing, silently allowing the request to proceed without HTTPS validation. Starting in version 0.2.136, the catch block now throws an error instead of silently returning.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50288",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:36.067000",
-      "created_at": "2026-08-22T19:14:10.606071+00:00"
     }
   ]
 }
