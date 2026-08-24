@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-24T09:34:36.331615+00:00",
+  "generated_at": "2026-08-24T10:26:28.339419+00:00",
   "items": [
+    {
+      "id": "650e39dffd1d37d8",
+      "content_hash": "650e39dffd1d37d8a24c244fba4a475d85ceff23e9b5a44aac11b371eaa7d686",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
+      "title": "Woman stranded in Spain after UK's eVisa system mistakes her for twin sister",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49417394\">Comments</a>",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T09:45:02+00:00",
+      "created_at": "2026-08-24T10:26:28.339004+00:00"
+    },
+    {
+      "id": "cceb7add93942a46",
+      "content_hash": "cceb7add93942a461ebc8b44e42083ed3b1a182a83cb3c28bff85d055181e147",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
+      "body": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T09:42:05+00:00",
+      "created_at": "2026-08-24T10:26:23.931052+00:00"
+    },
+    {
+      "id": "7297b6961bcfee90",
+      "content_hash": "7297b6961bcfee903edf4831aad0adad3c290cf715b9fb31b2dc76ab2ebaafee",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://essays.georgestrakhov.com/weird/",
+      "title": "The Future Belongs to the Weird",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49416953\">Comments</a>",
+      "url": "https://essays.georgestrakhov.com/weird/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:46:19+00:00",
+      "created_at": "2026-08-24T10:26:28.338992+00:00"
+    },
+    {
+      "id": "6c9dcab41d58485e",
+      "content_hash": "6c9dcab41d58485e37ea70e15d9b8bc68f1525aa78f4edb87b1adb76caa05e70",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/",
+      "title": "Fast drilldown dashboards from a single Parquet file",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49416652\">Comments</a>",
+      "url": "https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:13:17+00:00",
+      "created_at": "2026-08-24T10:26:28.339093+00:00"
+    },
     {
       "id": "5c4b50e6d2961a15",
       "content_hash": "5c4b50e6d2961a1528b879b5adc726a4681eac912e7a4fbb794a821652265062",
@@ -6944,62 +7000,6 @@
       "cvss_score": 7.8,
       "published_at": "2026-08-21T21:17:02.963000",
       "created_at": "2026-08-22T21:10:30.465264+00:00"
-    },
-    {
-      "id": "e6d6031c548e5736",
-      "content_hash": "e6d6031c548e5736c8dc7694a6ef3fc8fa4046e027f784da490ec3b80a655e1b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67619",
-      "title": "CVE-2026-67619 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67619",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:02.737000",
-      "created_at": "2026-08-22T21:10:30.465257+00:00"
-    },
-    {
-      "id": "29139ce396020ed5",
-      "content_hash": "29139ce396020ed56609ec11ed040eab88e814c5db3a40b6293815d78c9fabf8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-64679",
-      "title": "CVE-2026-64679 - Atlantis is a self-hosted golang application that listens for Terraform pull req...",
-      "body": "Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. From 0.19.8 until 0.45.0, Atlantis does not consistently validate user-controlled workspace values supplied through accepted repository-level atlantis.yaml configuration or authenticated /api/plan input before joining them into local workspace paths. Traversal segments can escape the intended per-pull workspace directory and cause clone preparation or other working-directory code paths to call os.RemoveAll, os.MkdirAll, or related filesystem operations on out-of-bounds directories before Terraform rejects the invalid workspace name. This can create, delete, or reuse writable paths with the privileges of the Atlantis process, causing integrity loss or denial of service. This issue is fixed in version 0.45.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64679",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.1,
-      "published_at": "2026-08-21T21:17:01.920000",
-      "created_at": "2026-08-22T21:10:30.465251+00:00"
-    },
-    {
-      "id": "7d186dad6756ff7d",
-      "content_hash": "7d186dad6756ff7d961c0136f6210b5cbb2dc86a9d7f648cb53e2114844d05d5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63421",
-      "title": "CVE-2026-63421 - Keystone is a content management system for Node.js. Prior to 6.5.3, the findMan...",
-      "body": "Keystone is a content management system for Node.js. Prior to 6.5.3, the findMany resolver in packages/core/src/lib/core/queries/resolvers.ts compares the signed take argument directly with graphql.maxTake, allowing a remote unauthenticated GraphQL client to provide a negative take value whose magnitude exceeds the configured bound. The bypass also applies to relationship queries and can return more records than the developer intended, potentially exhausting service resources. This issue is fixed in version 6.5.3.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63421",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-21T21:17:01.643000",
-      "created_at": "2026-08-22T20:10:00.329934+00:00"
-    },
-    {
-      "id": "f06ae1e50fb8d2cd",
-      "content_hash": "f06ae1e50fb8d2cd8dfb32b7ab38ebe0ae52270ff82fc3ade9dae126178be0f8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-63135",
-      "title": "CVE-2026-63135 - YOURLS is a self-hosted, customizable URL shortener written in PHP. From 1.5.1 u...",
-      "body": "YOURLS is a self-hosted, customizable URL shortener written in PHP. From 1.5.1 until 1.10.4, YOURLS stores the HTTP Referer header through yourls_get_referrer(), yourls_sanitize_url_safe(), and yourls_log_redirect(), then aggregates the value in yourls-infos.php and passes the derived domain through yourls_get_domain(), yourls_stats_pie(), and yourls_google_array_to_data_table(). The chart builder concatenates labels into inline JavaScript without JavaScript-string escaping, so an unauthenticated attacker can poison the statistics of an existing short URL with a crafted referrer. When an administrator or public stats-page viewer opens the affected statistics page, attacker-controlled JavaScript executes in the YOURLS origin and can access admin-visible data, the API signature token, and privileged same-origin actions. This issue is fixed in version 1.10.4.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63135",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-08-21T21:17:01.493000",
-      "created_at": "2026-08-22T20:10:00.329928+00:00"
     }
   ]
 }
