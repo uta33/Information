@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T05:28:25.469512+00:00",
+  "generated_at": "2026-08-24T06:33:29.850200+00:00",
   "items": [
+    {
+      "id": "2078ccce243e6f2c",
+      "content_hash": "2078ccce243e6f2cd17a46e1e1fdb3aea7d093689d6435d89ce871d533a9cb13",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/",
+      "title": "New EU-wide product repair rules come into force",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49415621\">Comments</a>",
+      "url": "https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-24T05:47:27+00:00",
+      "created_at": "2026-08-24T06:33:29.849788+00:00"
+    },
     {
       "id": "22e5a3fabef2d7fd",
       "content_hash": "22e5a3fabef2d7fdb81f7570442b3731117885c531762666210de0d1965440fd",
@@ -30,6 +44,20 @@
       "created_at": "2026-08-24T04:33:34.601650+00:00"
     },
     {
+      "id": "16d4de340fc43c84",
+      "content_hash": "16d4de340fc43c840d0551a813ed05fc153ce5e96749b23cada82e84642f6e5b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78171",
+      "title": "CVE-2026-78171 - A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. A...",
+      "body": "A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. Affected by this vulnerability is an unknown functionality of the file /pages/processlogin.php. The manipulation of the argument User leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78171",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.3,
+      "published_at": "2026-08-24T03:16:39.423000",
+      "created_at": "2026-08-24T06:33:25.668091+00:00"
+    },
+    {
       "id": "511f61e664b34db4",
       "content_hash": "511f61e664b34db4e37e79b7e952df179199f2ea39eb54603490a05727ceafc1",
       "source_name": "Hacker News (Best)",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T02:17:26+00:00",
       "created_at": "2026-08-24T03:42:45.305490+00:00"
+    },
+    {
+      "id": "e5a4e9d5cb031931",
+      "content_hash": "e5a4e9d5cb0319314fb30fd37dcc831f666345a8a12828d427082f7241b158e2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78170",
+      "title": "CVE-2026-78170 - A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the fu...",
+      "body": "A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formConfigFastDirectionW. Executing a manipulation of the argument ssid can lead to buffer overflow. The attack may be performed from remote. The exploit has been published and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78170",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-24T02:17:04.817000",
+      "created_at": "2026-08-24T06:33:25.668084+00:00"
     },
     {
       "id": "395c2da1bb590bec",
@@ -6958,48 +7000,6 @@
       "cvss_score": 9.9,
       "published_at": "2026-08-21T20:16:45.530000",
       "created_at": "2026-08-22T19:14:10.606139+00:00"
-    },
-    {
-      "id": "ff6a8933641431fa",
-      "content_hash": "ff6a8933641431fa779171c7544405b8b1193c8c2f4bddf91f3a840626b4a456",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76876",
-      "title": "CVE-2026-76876 - Craftplan before 0.5.1 contains a broken access control vulnerability that allow...",
-      "body": "Craftplan before 0.5.1 contains a broken access control vulnerability that allows unauthenticated attackers to read sensitive credentials by exploiting an unconditional authorization policy on the Settings resource. Attackers can send a GET request to the settings API endpoint with a valid record ID to retrieve decrypted SMTP passwords, email API keys, and email API secrets due to the read policy using an always-allow authorization check that bypasses all identity verification.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76876",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "published_at": "2026-08-21T20:16:44.680000",
-      "created_at": "2026-08-22T19:14:10.606132+00:00"
-    },
-    {
-      "id": "d19f7241ad99057b",
-      "content_hash": "d19f7241ad99057b6d7bf38967f9e0aeee1f808f26d142357413c18c3c318512",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74252",
-      "title": "CVE-2026-74252 - Joomla Extension - j2commerce.com - Stored XSS in Guest checkout in J2Store 1.0....",
-      "body": "Joomla Extension - j2commerce.com - Stored XSS in Guest checkout in J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - J2Commerce 4.1.5 is vulnerable to Stored Cross-Site Scripting (XSS) through the guest checkout billing address fields. An unauthenticated attacker exploits a filter bypass in Joomla's Input::getArray() combined with PHP's variables_order=EGPCS (Cookie overrides POST in $_REQUEST ) to store unsanitized HTML in fields such as billing_first_name.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74252",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:41",
-      "created_at": "2026-08-22T19:14:10.606125+00:00"
-    },
-    {
-      "id": "de6f9960be2ad224",
-      "content_hash": "de6f9960be2ad2247823453c9529a5b46983e9dc99357af3fae1d6e693e29b8b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-67362",
-      "title": "CVE-2026-67362 - Joomla Extension - j2commerce.com - Open redirect in cart controller in J2Store ...",
-      "body": "Joomla Extension - j2commerce.com - Open redirect in cart controller in J2Store 1.0.0-3.3.20, 4.0.0-4.0.20, 4.1.0-4.1.5 - Four task handlers accepted a base64-encoded URL from user input and redirected to it without validating the destination host, enabling phishing using the shop's trusted domain. No authentication required.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67362",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T20:16:39.960000",
-      "created_at": "2026-08-22T19:14:10.606118+00:00"
     }
   ]
 }
