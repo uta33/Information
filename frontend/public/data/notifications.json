@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T21:17:51.301676+00:00",
+  "generated_at": "2026-08-24T22:13:44.227498+00:00",
   "items": [
+    {
+      "id": "14c8c45303dcb6fa",
+      "content_hash": "14c8c45303dcb6fad5024a406553a7207c2af614a4a8d288cead35b9cb5adc9b",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3156185",
+      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "body": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T21:24:17+00:00",
+      "created_at": "2026-08-24T22:13:43.931928+00:00"
+    },
     {
       "id": "e0cd624bc0101ee3",
       "content_hash": "e0cd624bc0101ee3d4f5667a969094ff1f5432d37bdf4e334502a7aff6567de0",
@@ -378,6 +392,34 @@
       "cvss_score": null,
       "published_at": "2026-08-24T17:50:18+00:00",
       "created_at": "2026-08-24T18:22:13.147843+00:00"
+    },
+    {
+      "id": "5ff0aef65fb68c52",
+      "content_hash": "5ff0aef65fb68c529eccbd93fafbe15f0c24a6e3dbcd47f3ca3a43fee4d909a2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://yegge.ai/essays/fences-not-sandboxes/",
+      "title": "Fences, Not Sandboxes",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49423146\">Comments</a>",
+      "url": "https://yegge.ai/essays/fences-not-sandboxes/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T17:28:43+00:00",
+      "created_at": "2026-08-24T22:13:44.227209+00:00"
+    },
+    {
+      "id": "5c2388224596f994",
+      "content_hash": "5c2388224596f9947537924bd1e8b8c298b392aa9a63796a6eed6627d5ef4d54",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
+      "title": "Agent Lightning v1.0",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49423077\">Comments</a>",
+      "url": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T17:23:22+00:00",
+      "created_at": "2026-08-24T22:13:44.227245+00:00"
     },
     {
       "id": "caefb3c97d217552",
@@ -6958,48 +7000,6 @@
       "cvss_score": 10.0,
       "published_at": "2026-08-22T11:16:54.447000",
       "created_at": "2026-08-23T00:36:25.832349+00:00"
-    },
-    {
-      "id": "33a550f83726551c",
-      "content_hash": "33a550f83726551cfa286203968df360aea6490e7a4e5251218074e7051509fb",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77945",
-      "title": "CVE-2026-77945 - A vulnerability was found in TRENDnet TEW-821DAP 2.2.01b05. Affected is an unkno...",
-      "body": "A vulnerability was found in TRENDnet TEW-821DAP 2.2.01b05. Affected is an unknown function of the file /cgi-bin/upload.cgi of the component ssi. Performing a manipulation of the argument filename results in command injection. The attack may be initiated remotely. The exploit has been made public and could be used.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77945",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.4,
-      "published_at": "2026-08-22T11:16:53.243000",
-      "created_at": "2026-08-23T00:36:25.832343+00:00"
-    },
-    {
-      "id": "5ee53b3dd02e70fe",
-      "content_hash": "5ee53b3dd02e70fe5bc830af71d494ead3187533ecec766ec484aa0452958679",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
-      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49398304\">Comments</a>",
-      "url": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T10:26:09+00:00",
-      "created_at": "2026-08-22T11:10:22.108589+00:00"
-    },
-    {
-      "id": "b8329d029c971247",
-      "content_hash": "b8329d029c9712476fde130f76709bafac559265df7e088f7a63f60e61c5b245",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
-      "title": "Z80–The 1970s Microprocessor Still Alive",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49398158\">Comments</a>",
-      "url": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T09:49:57+00:00",
-      "created_at": "2026-08-22T11:10:22.108692+00:00"
     }
   ]
 }
