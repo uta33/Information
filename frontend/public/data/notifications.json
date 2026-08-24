@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T08:34:32.691323+00:00",
+  "generated_at": "2026-08-24T09:34:36.331615+00:00",
   "items": [
+    {
+      "id": "5c4b50e6d2961a15",
+      "content_hash": "5c4b50e6d2961a1528b879b5adc726a4681eac912e7a4fbb794a821652265062",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "body": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors.\n\nThe vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Details of the threat activity came to light following the discovery of an open",
+      "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:08:31+00:00",
+      "created_at": "2026-08-24T09:34:30.875305+00:00"
+    },
     {
       "id": "e66dfb9201df7e30",
       "content_hash": "e66dfb9201df7e30a66539ea9e9d2a550dc7bd19c60a0aa87a5d2cf18162b235",
@@ -212,6 +226,20 @@
       "created_at": "2026-08-24T07:48:33.759528+00:00"
     },
     {
+      "id": "e033510c99cb924e",
+      "content_hash": "e033510c99cb924e93ab23e5ff48619b1d6ae2be529ddf7fdf4846920d4e19f5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lwn.net/Articles/1090098/",
+      "title": "Mourning Steve French",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49415265\">Comments</a>",
+      "url": "https://lwn.net/Articles/1090098/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T04:47:14+00:00",
+      "created_at": "2026-08-24T09:34:36.331413+00:00"
+    },
+    {
       "id": "22e5a3fabef2d7fd",
       "content_hash": "22e5a3fabef2d7fdb81f7570442b3731117885c531762666210de0d1965440fd",
       "source_name": "Hacker News (Best)",
@@ -280,6 +308,20 @@
       "cvss_score": 8.9,
       "published_at": "2026-08-24T04:16:46.557000",
       "created_at": "2026-08-24T07:48:29.899498+00:00"
+    },
+    {
+      "id": "f63bb9e42c082f3d",
+      "content_hash": "f63bb9e42c082f3da405c585fa07fe78f64ff1d1bdd88899e7b4fea5cc69719a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cmart.blog/claude-writing/",
+      "title": "Why is Anthropic's public writing style so unlike Claude's?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49414934\">Comments</a>",
+      "url": "https://cmart.blog/claude-writing/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T03:32:42+00:00",
+      "created_at": "2026-08-24T09:34:36.331324+00:00"
     },
     {
       "id": "8ee9feb91429aef4",
@@ -6958,48 +7000,6 @@
       "cvss_score": 8.2,
       "published_at": "2026-08-21T21:17:01.493000",
       "created_at": "2026-08-22T20:10:00.329928+00:00"
-    },
-    {
-      "id": "44a5e879deb1b286",
-      "content_hash": "44a5e879deb1b28613ac0d940e3e17c51764863b6299f4aab774360924e160e5",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62316",
-      "title": "CVE-2026-62316 - Microsoft UFO open-source framework for intelligent automation across devices an...",
-      "body": "Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8, ufo/client/mcp/http_servers/linux_mcp_server.py binds a FastMCP streamable HTTP server to localhost:8010 but does not validate the Host, Origin, or Sec-Fetch-Site headers. An attacker-controlled web page can use DNS rebinding to reach the local /mcp endpoint, enumerate tool schemas through tools/list, and invoke execute_command with a valid UFO_MCP_API_KEY to read files or execute allowed operating system commands as the victim's user. This issue is fixed in version 3.0.8.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62316",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-21T21:17:01.350000",
-      "created_at": "2026-08-22T20:10:00.329921+00:00"
-    },
-    {
-      "id": "cadbb747b522d434",
-      "content_hash": "cadbb747b522d434413f9098735f8022dffb03db7264d82f1d7dabc61c9a1fc0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62283",
-      "title": "CVE-2026-62283 - Nezha Monitoring is a self-hostable, lightweight, servers and websites monitorin...",
-      "body": "Nezha Monitoring is a self-hostable, lightweight, servers and websites monitoring and O&M tool. Nezha versions 1.14.13 through 1.14.14 and 2.0.0 through 2.0.9 do not bind stream identifiers created by CreateStream in service/rpc/io_stream.go to their creating user, and `GET /ws/terminal/:id` and `GET /ws/file/:id` only check whether the supplied UUID exists. An authenticated RoleMember who obtains a live stream UUID from logs, browser history, referer data, or telemetry can attach to another user's terminal or file-manager session, read and write target-server files, and execute shell commands. This issue is fixed in version 2.0.10.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62283",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 9.9,
-      "published_at": "2026-08-21T21:17:01.183000",
-      "created_at": "2026-08-22T20:10:00.329915+00:00"
-    },
-    {
-      "id": "ddde3de4ebc52bcc",
-      "content_hash": "ddde3de4ebc52bcc917f565d2a7c01dbc7e70308c30f35547222bf13f42aeaf4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61824",
-      "title": "CVE-2026-61824 - Defuddle cleans up HTML pages. Prior to 0.19.1, site extractors interpolate page...",
-      "body": "Defuddle cleans up HTML pages. Prior to 0.19.1, site extractors interpolate page-derived image alt and src values, og:image values, and video descriptions into HTML strings without context-appropriate escaping, and buildExtractorResponse() returns this contentHtml without the main pipeline's DOM-based sanitization. The affected paths include src/extractors/x-article.ts, src/extractors/substack.ts, and src/extractors/youtube.ts. A malicious page or attacker-controlled content on a matching domain can inject event-handler attributes or javascript URLs that execute when a victim or downstream application renders the extracted HTML. This issue is fixed in version 0.19.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61824",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.2,
-      "published_at": "2026-08-21T21:17:01.017000",
-      "created_at": "2026-08-22T20:10:00.329909+00:00"
     }
   ]
 }
