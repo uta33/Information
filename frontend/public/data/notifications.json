@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-24T12:22:47.114731+00:00",
+  "generated_at": "2026-08-24T13:41:08.858501+00:00",
   "items": [
+    {
+      "id": "36352df399d81ab0",
+      "content_hash": "36352df399d81ab0eda7f27bbbc0d033e577cc0bb985a0200b5481940ac23609",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "title": "How Europe is killing makers and micro-entrepreneurs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49419237\">Comments</a>",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T13:05:25+00:00",
+      "created_at": "2026-08-24T13:41:08.857705+00:00"
+    },
+    {
+      "id": "9298ed0a367918a7",
+      "content_hash": "9298ed0a367918a79b25a459dc0296017fd552c40a822e6e08cf78d7f28f4b57",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "body": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T12:40:21+00:00",
+      "created_at": "2026-08-24T13:41:01.696958+00:00"
+    },
+    {
+      "id": "af78823882a142b0",
+      "content_hash": "af78823882a142b00a2078cea05c0e8c999db80f0f727463f8d0fee9f5aff146",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49418675",
+      "title": "Ask HN: Why do corporate failures always seem to punish the wrong people?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49418675\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49418675",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T12:18:56+00:00",
+      "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
     {
       "id": "10d9d5cd74556b44",
       "content_hash": "10d9d5cd74556b4486c07c71030e9c456165a3b8986599003e937da490ae6a13",
@@ -86,6 +128,20 @@
       "created_at": "2026-08-24T12:22:42.301282+00:00"
     },
     {
+      "id": "f848e367e13b328e",
+      "content_hash": "f848e367e13b328ea56c008228a51c8eb3173da5bd517fc404384b821a86eabc",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers",
+      "title": "Why older tech is sometimes safer from hackers",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49418184\">Comments</a>",
+      "url": "https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T11:23:39+00:00",
+      "created_at": "2026-08-24T13:41:08.857885+00:00"
+    },
+    {
       "id": "5fbfe47a33b82607",
       "content_hash": "5fbfe47a33b8260786fbabde83a1d8927380c9b35b50eda1b9b15c850ab379f5",
       "source_name": "Hacker News (Best)",
@@ -168,6 +224,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T10:28:56+00:00",
       "created_at": "2026-08-24T11:16:43.572733+00:00"
+    },
+    {
+      "id": "d437fd4499ff3b25",
+      "content_hash": "d437fd4499ff3b25f29022bd21ea76d9f94714e3106a51950a1085798d2c4e14",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release",
+      "title": "Show HN: Vanilla OS 3 Reunion – Immutable and Reproducible Operating System",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49417684\">Comments</a>",
+      "url": "https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T10:18:03+00:00",
+      "created_at": "2026-08-24T13:41:08.858236+00:00"
     },
     {
       "id": "650e39dffd1d37d8",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-21T21:17:07.553000",
       "created_at": "2026-08-22T22:09:59.273938+00:00"
-    },
-    {
-      "id": "45fa526704c96bcd",
-      "content_hash": "45fa526704c96bcd575bc09ef08b278ac97ba2d32147efe06702f4bf90b328d6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77414",
-      "title": "CVE-2026-77414 - JSONata is a JSON query and transformation language. Prior to 1.8.8 and 2.2.1, t...",
-      "body": "JSONata is a JSON query and transformation language. Prior to 1.8.8 and 2.2.1, the src/jsonata.js environment.lookup function used a bypassable hasOwnProperty check. Crafted expressions could use $hasOwnProperty, $spread, $string, prototype access, and $constructor to reach the object prototype and invoke process.getBuiltinModule with child_process, executing arbitrary code with the privileges of the host process. This issue is fixed in versions 1.8.8 and 2.2.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77414",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:07.410000",
-      "created_at": "2026-08-22T22:09:59.273934+00:00"
-    },
-    {
-      "id": "9015b76469debb30",
-      "content_hash": "9015b76469debb30d8a93b7fa671d04952ef39191dd5356c13ffbf5f9051e02e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77413",
-      "title": "CVE-2026-77413 - JSONata is a JSON query and transformation language. Prior to 1.8.8 and 2.2.0, t...",
-      "body": "JSONata is a JSON query and transformation language. Prior to 1.8.8 and 2.2.0, the src/functions.js lookup function lacked an Object.prototype.hasOwnProperty check and allowed crafted expressions to access inherited prototype members. An attacker able to supply an expression could use inherited prototype setters and getters, constructor access, valueOf, and process.getBuiltinModule to reach the child_process module and execute arbitrary code with the privileges of the host process. This issue is fixed in versions 1.8.8 and 2.2.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77413",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:07.267000",
-      "created_at": "2026-08-22T22:09:59.273930+00:00"
-    },
-    {
-      "id": "ebfeab00eef44664",
-      "content_hash": "ebfeab00eef44664c8c0686d352b4731607476c9b148febf163cbd5635ee4ebd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77354",
-      "title": "CVE-2026-77354 - kin-openapi is a Go project for handling OpenAPI files. From 0.124.0 until 0.142...",
-      "body": "kin-openapi is a Go project for handling OpenAPI files. From 0.124.0 until 0.142.0, openapi3filter.sliceMapToSlice in openapi3filter/req_resp_decoder.go converts attacker-controlled sparse indexes from a deepObject query parameter into a dense slice by allocating entries from zero through the largest supplied index, after which buildResObj creates another slice of the same length. This allocation occurs before schema validation, so maxItems does not prevent it. An unauthenticated client can send a small query such as param[items][50000000]=x to an endpoint whose deepObject schema contains an array, forcing multi-gigabyte heap allocation and causing an OOM kill or restart loop. Other request-body encodings and styled parameters that do not produce bracketed integer indexes are not affected. This issue is fixed in version 0.142.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77354",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:07.130000",
-      "created_at": "2026-08-22T22:09:59.273927+00:00"
-    },
-    {
-      "id": "61c7cb48030afb3d",
-      "content_hash": "61c7cb48030afb3dab622bcdb3711fbe59a106bb4f166b875efad412dd901925",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77220",
-      "title": "CVE-2026-77220 - PDFio before 1.6.5 contains a dangling pointer vulnerability in the dictionary s...",
-      "body": "PDFio before 1.6.5 contains a dangling pointer vulnerability in the dictionary string-formatting function that stores a pointer to a stack-local buffer in the document dictionary without copying the string value. In multi-threaded or pooled-request environments, attackers or concurrent users can trigger stack memory reuse across requests, causing cross-tenant document content corruption by silently overwriting one caller's dictionary string values with another caller's data.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77220",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-21T21:17:06.737000",
-      "created_at": "2026-08-22T22:09:59.273923+00:00"
-    },
-    {
-      "id": "0510702ffd3a5317",
-      "content_hash": "0510702ffd3a5317e2bd092b79903e654925f38b990f56b9d3aa36cf5817b9b8",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77219",
-      "title": "CVE-2026-77219 - GNU Emacs before 31.0.91 contains an integer overflow in the PBM/PPM/PGM image l...",
-      "body": "GNU Emacs before 31.0.91 contains an integer overflow in the PBM/PPM/PGM image loader that allows an attacker to leak heap memory contents by supplying a crafted image with large dimensions and an elevated max color index. The image loader multiplies image dimensions and channel count using signed integer arithmetic; for sufficiently large values, the result wraps to a negative number, bypassing the bounds check and causing the pixel reader to access heap memory past the end of the allocated buffer. The over-read contents are interpreted as pixel color values and rendered on screen.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77219",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-21T21:17:06.590000",
-      "created_at": "2026-08-22T22:09:59.273919+00:00"
     }
   ]
 }
