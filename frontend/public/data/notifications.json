@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-24T07:48:33.759803+00:00",
+  "generated_at": "2026-08-24T08:34:32.691323+00:00",
   "items": [
+    {
+      "id": "e66dfb9201df7e30",
+      "content_hash": "e66dfb9201df7e30a66539ea9e9d2a550dc7bd19c60a0aa87a5d2cf18162b235",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gist.github.com/omeid/a9d6d1e3c25cb3aa577931e60e006f54",
+      "title": "We are not going anywhere",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49416366\">Comments</a>",
+      "url": "https://gist.github.com/omeid/a9d6d1e3c25cb3aa577931e60e006f54",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T07:37:53+00:00",
+      "created_at": "2026-08-24T08:34:32.690588+00:00"
+    },
+    {
+      "id": "f93c9f58712f1575",
+      "content_hash": "f93c9f58712f15759b4ed2132cb33a1233e85a7c6c8d5e4b7b9fc0008b69cb32",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://employees.theworknumber.com",
+      "title": "The Work Number: credit score but for your employment history – by Equifax",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49416200\">Comments</a>",
+      "url": "https://employees.theworknumber.com",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T07:17:02+00:00",
+      "created_at": "2026-08-24T08:34:32.690697+00:00"
+    },
     {
       "id": "77542ee0da78943d",
       "content_hash": "77542ee0da78943d686593cbafbf86f0cae6976fc6a97895a4f6daae00228968",
@@ -128,6 +156,48 @@
       "created_at": "2026-08-24T07:48:33.759392+00:00"
     },
     {
+      "id": "c4de4f05089f5d12",
+      "content_hash": "c4de4f05089f5d12a6888059e9ac4e7e8af4578d98d4ddbcfdffbea77a0a32be",
+      "source_name": "JVN（日本脆弱性情報）",
+      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000097.html",
+      "title": "SKYSEA Client ViewおよびSKYMEC IT Managerにおける複数の脆弱性",
+      "body": "Ｓｋｙ株式会社が提供するSKYSEA Client ViewおよびSKYMEC IT ManagerはIT資産管理用ツールです。SKYSEA Client ViewおよびSKYMEC IT Managerには、次の複数の脆弱性が存在します。<ul><li>認可処理の欠如（CWE-862）- CVE-2026-66109</li><li>パストラバーサル（CWE-22）- CVE-2026-68062</li><li>パストラバーサル（CWE-25）- CVE-2026-68959</li><li>スタックベースのバッファオーバーフロー（CWE-121）- CVE-2026-68960</li><li>インストール時の不適切なファイルアクセス権設定（CWE-276）- CVE-2026-69665</li></ul>\nこの脆弱性情報は、次の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。\nCVE-2026-66109、CVE-2026-68062、CVE-2026-68959、CVE-2026-68960\n報告者：富士通株式会社 サイフィエフ ルスラン 氏、ファウストヴ デニス 氏\nCVE-2026-69665\n報告者：早水優二 氏",
+      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000097.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T05:10:00+00:00",
+      "created_at": "2026-08-24T08:34:32.312459+00:00"
+    },
+    {
+      "id": "93755c61ed512b78",
+      "content_hash": "93755c61ed512b78d284fad2d23e6c0d82860ad26ba6faee3c97616b279fe8eb",
+      "source_name": "JVN（日本脆弱性情報）",
+      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029751.html",
+      "title": "ヤマハ製VOCALOID6 Editorにおける複数の脆弱性",
+      "body": "ヤマハ株式会社が提供するVOCALOID6 Editorには、次の複数の脆弱性が存在します。<a href=\"https://cwe.mitre.org/data/definitions/798.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/306.html\" target=\"_blank\"></a><ul><li>ハードコードされた認証情報の使用（CWE-798） - CVE-2026-76131</li><li>重要な機能に対する認証の欠如（CWE-306） - CVE-2026-76137</li></ul>この脆弱性情報は、下記の方がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。\n報告者：Zero 氏",
+      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029751.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T05:10:00+00:00",
+      "created_at": "2026-08-24T08:34:32.312514+00:00"
+    },
+    {
+      "id": "99b80e952222c80b",
+      "content_hash": "99b80e952222c80bd8d2f72303a93279fd746921f0b73ab317904cf3ab53cca7",
+      "source_name": "JVN（日本脆弱性情報）",
+      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029750.html",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年08月20日）",
+      "body": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。\n\n新規：1件<ul><li><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01\" target=\"_blank\">ICSA-26-232-01: Johnson Controls Simplex Incident Manager</a></li></ul>",
+      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-029750.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T05:10:00+00:00",
+      "created_at": "2026-08-24T08:34:32.312531+00:00"
+    },
+    {
       "id": "26f21fccd12e5a81",
       "content_hash": "26f21fccd12e5a81ebd5fbe4a4d0f1edd882e5f035c5ddb47222ee5d01dbce1a",
       "source_name": "Hacker News (Best)",
@@ -252,6 +322,20 @@
       "cvss_score": 7.3,
       "published_at": "2026-08-24T03:16:39.423000",
       "created_at": "2026-08-24T06:33:25.668091+00:00"
+    },
+    {
+      "id": "6b9d545193ecca86",
+      "content_hash": "6b9d545193ecca868bd5eb8fbff53fbbad019a67e9e1beaff86f3aad58124ceb",
+      "source_name": "JVN（日本脆弱性情報）",
+      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000115.html",
+      "title": "サクラエディタにおけるOSコマンドインジェクションの脆弱性",
+      "body": "サクラエディタ開発コミュニティが提供するサクラエディタには「ターミナルを起動」する機能があります。この機能は、編集中のファイルが置かれたディレクトリをカレントディレクトリとしてシェルプログラムを起動しますが、ディレクトリ名を表す文字列を無害化せずに使用しています。<ul><li>OSコマンドインジェクション（CWE-78）- CVE-2026-59561</li></ul>",
+      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000115.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T03:06:00+00:00",
+      "created_at": "2026-08-24T08:34:32.312548+00:00"
     },
     {
       "id": "511f61e664b34db4",
@@ -6916,90 +7000,6 @@
       "cvss_score": 8.2,
       "published_at": "2026-08-21T21:17:01.017000",
       "created_at": "2026-08-22T20:10:00.329909+00:00"
-    },
-    {
-      "id": "9f3f83949aa59b66",
-      "content_hash": "9f3f83949aa59b6671968009f0728776519921f59d344aca8e7cee9e60b11835",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-61539",
-      "title": "CVE-2026-61539 - Xinference is an inference API for running open-source, speech, and multimodal m...",
-      "body": "Xinference is an inference API for running open-source, speech, and multimodal models. In 2.5.0 and earlier, Xinference passes attacker-influenced Llama3 tool-call output to eval() in xinference/model/llm/tool_parsers/llama3_tool_parser.py and xinference/model/llm/utils.py. Requests to /v1/chat/completions with a tools field flow through xinference/api/restful_api.py, xinference/model/llm/transformers/core.py, handle_chat_result_non_streaming(), and _post_process_completion() before extract_tool_calls() or _eval_llama3_chat_arguments() evaluates the model-generated Python expression. An unauthenticated remote attacker can influence that output through a crafted prompt and execute commands in the Xinference server process context. This issue is fixed in version 2.7.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61539",
-      "category": "security",
-      "severity": "critical",
-      "cvss_score": 10.0,
-      "published_at": "2026-08-21T21:17:00.867000",
-      "created_at": "2026-08-22T20:10:00.329903+00:00"
-    },
-    {
-      "id": "e238d0979e298979",
-      "content_hash": "e238d0979e29897969a73dc3af2662b984c7c10c3856842d4f58d4651e00a7e1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-59989",
-      "title": "CVE-2026-59989 - Phalcon is a high-performance, full-stack PHP framework. In 5.15.0 and earlier, ...",
-      "body": "Phalcon is a high-performance, full-stack PHP framework. In 5.15.0 and earlier, resolveFilter in phalcon/Mvc/View/Engine/Volt/Compiler.zep builds the join filter by inserting the raw separator and array token values into generated PHP without passing them through expression(). An attacker who can influence Volt template source can place quote-breaking content in a join argument, inject PHP into the compiled cache file, and execute it when Phalcon\\Mvc\\View\\Engine\\Volt::render() loads the template. This issue is fixed in version 5.16.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59989",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:00.713000",
-      "created_at": "2026-08-22T20:10:00.329896+00:00"
-    },
-    {
-      "id": "f3d5bbdafd34c22a",
-      "content_hash": "f3d5bbdafd34c22a74cb25854b4ebb62e03aee9ea8735dcdee51f708378a9993",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55185",
-      "title": "CVE-2026-55185 - Miniflux 2 is an open source feed reader. Prior to 2.3.1, IsRelativePath in inte...",
-      "body": "Miniflux 2 is an open source feed reader. Prior to 2.3.1, IsRelativePath in internal/urllib/url.go accepts redirect targets containing backslashes because Go URL parsing treats them as path characters. Browser backslash normalization converts them to forward slashes. An unauthenticated attacker can provide such a redirect_url value to the login flow, bypass the relative-path and host checks, and redirect a victim to an attacker-controlled external site. This issue is fixed in version 2.3.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55185",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-21T21:17:00.563000",
-      "created_at": "2026-08-22T20:10:00.329890+00:00"
-    },
-    {
-      "id": "44956f81e0502bab",
-      "content_hash": "44956f81e0502bab72e5f242f50799ce6f43f00f237f57ab3155d54d39d3af0e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-55168",
-      "title": "CVE-2026-55168 - Runtipi is a personal homeserver orchestrator. In 4.10.0 and earlier, Runtipi ac...",
-      "body": "Runtipi is a personal homeserver orchestrator. In 4.10.0 and earlier, Runtipi accepts symbolic links from an attacker-controlled backup archive and copies them into live application paths during the backup restore flow. An authenticated attacker can plant user-config/app.env as a symlink to an arbitrary reachable path and then send PUT /api/user-config/demoapp3:_user with attacker-controlled appEnv content. FilesystemService.writeTextFile() follows the planted link, allowing content to be written outside the intended restore and user-config directory boundary with Runtipi process permissions. This issue is fixed in version 4.10.1.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55168",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-21T21:17:00.410000",
-      "created_at": "2026-08-22T20:10:00.329884+00:00"
-    },
-    {
-      "id": "663efcc9b05ee202",
-      "content_hash": "663efcc9b05ee202909810f7cf21f8dcff06a3054101a7923abf5f11fadcf182",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-54457",
-      "title": "CVE-2026-54457 - TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observ...",
-      "body": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation. Prior to 2026.6.0, the TensorZero Gateway /internal/object_storage endpoint accepts a caller-supplied JSON storage_path parameter that dynamically overrides the [object_storage] configuration. Selecting the filesystem storage type allows arbitrary files on the gateway filesystem to be read, including credential files. Selecting the s3_compatible storage type causes outbound object-storage requests to attacker-chosen internal or cloud-metadata endpoints. Exploitation requires access to the gateway, which can be authenticated or unauthenticated depending on deployment configuration. This issue is fixed in version 2026.6.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54457",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.7,
-      "published_at": "2026-08-21T21:17:00.267000",
-      "created_at": "2026-08-22T20:10:00.329878+00:00"
-    },
-    {
-      "id": "583148f4b26d84a1",
-      "content_hash": "583148f4b26d84a1beea0aa410b5f03000c40b6e81a69e5fe7b346724581f451",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-53656",
-      "title": "CVE-2026-53656 - FiftyOne is an open-source platform for refining high-quality datasets and visua...",
-      "body": "FiftyOne is an open-source platform for refining high-quality datasets and visual AI models. Prior to 1.17.0, the FiftyOne App/API server in fiftyone/server/app.py and the /media route in fiftyone/server/routes/media.py unconditionally return Access-Control-Allow-Origin: *. Because the embedded server is local and unauthenticated, a malicious website visited by the user can read cross-origin responses. The /media endpoint accepts a filesystem path, allowing a drive-by page to read files accessible to the server process and exfiltrate them without additional clicks. The allowed_origins configuration and FIFTYONE_ALLOWED_ORIGINS environment variable now make cross-origin access explicit, while the default policy is same-origin. This issue is fixed in version 1.17.0.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53656",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.3,
-      "published_at": "2026-08-21T21:17:00.113000",
-      "created_at": "2026-08-22T20:10:00.329871+00:00"
     }
   ]
 }
