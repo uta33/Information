@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-25T00:35:02.477096+00:00",
+  "generated_at": "2026-08-25T02:11:23.023821+00:00",
   "items": [
+    {
+      "id": "f9d0dde40ba81684",
+      "content_hash": "f9d0dde40ba81684d4752fa95d3f4e700fa30ff997ed7dc72f5b6f6c9e9fb4a5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://paulgraham.com/prepare.html",
+      "title": "How Universities Should Prepare Founders",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49428121\">Comments</a>",
+      "url": "https://paulgraham.com/prepare.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T01:40:39+00:00",
+      "created_at": "2026-08-25T02:11:23.023240+00:00"
+    },
+    {
+      "id": "7cbf7d1a7be9c2ea",
+      "content_hash": "7cbf7d1a7be9c2eab5805abcfbc2c67e1a7f5a51223a211c84facafc2d3e6f35",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://plicara.ai/research/agent-skill-languages/",
+      "title": "What languages are agent skills written in?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49427825\">Comments</a>",
+      "url": "https://plicara.ai/research/agent-skill-languages/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T00:52:27+00:00",
+      "created_at": "2026-08-25T02:11:23.023185+00:00"
+    },
     {
       "id": "7f607bfdaeb59b24",
       "content_hash": "7f607bfdaeb59b24e0142a65fbf4c3fa35373a95aebb50f8cb8caf70f4bdfab3",
@@ -1302,6 +1330,48 @@
       "cvss_score": null,
       "published_at": "2026-08-24T10:18:03+00:00",
       "created_at": "2026-08-24T13:41:08.858236+00:00"
+    },
+    {
+      "id": "a5a6e2439ee7a4ad",
+      "content_hash": "a5a6e2439ee7a4adc8857901907427337e33514a1faea3c525bb9f0f27897a98",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75931",
+      "title": "CVE-2026-75931 - fast-uri is a URI parser for Node.js. It canonicalizes a host to its ASCII form ...",
+      "body": "fast-uri is a URI parser for Node.js. It canonicalizes a host to its ASCII form only when the input carries an explicit scheme, so a scheme-relative reference such as a host preceded by two slashes is returned with its host verbatim and no error set. As a result fast-uri's own entry points disagree with each other: parse, resolve, normalize, and equal can yield different hosts for the same input depending only on whether a scheme is written out, and equal can return opposite verdicts for the same pair of hosts. An application that extracts a host with fast-uri to check it against a policy list and then resolves the same reference can make its decision on one host while the destination is another, enabling host confusion and policy bypass. The affected versions are 2.4.2 up to but not including 2.4.5, 3.1.3 up to but not including 3.1.6, and 4.0.1 up to but not including 4.1.3. The issue is fixed in 2.4.5, 3.1.6, and 4.1.3, which canonicalize the host consistently across the resolve path. Users should upgrade to a patched version.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75931",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-24T10:16:40.113000",
+      "created_at": "2026-08-25T02:11:19.853531+00:00"
+    },
+    {
+      "id": "0a5f0217b194296b",
+      "content_hash": "0a5f0217b194296bd00c4cb7a2c705f797b8eb717fd8f74b0e6b35c8fe5af94b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-75899",
+      "title": "CVE-2026-75899 - fast-uri is a URI parser for Node.js. It decodes percent escapes in a hostname d...",
+      "body": "fast-uri is a URI parser for Node.js. It decodes percent escapes in a hostname during parsing and then decodes the parsed hostname a second time during authority recomposition, so a single call to normalize or resolve can turn nested percent-encoded input into a different network destination such as a loopback hostname or address. For example, a doubly encoded host that spells out a loopback name decodes to that live host in one operation, which contradicts RFC 3986 section 2.4 that an implementation must not decode the same string more than once. An application that normalizes or resolves an untrusted HTTP-family URI before outbound routing, redirect validation, or a host-policy check can receive a destination different from the one the original encoded host represented, giving a server-side request forgery and host-policy bypass primitive. This is an incomplete-fix variant of CVE-2026-6322. The affected versions are 2.4.1 up to but not including 2.4.5, 3.1.2 up to but not including 3.1.6, and 4.0.0 up to but not including 4.1.3. The issue is fixed in 2.4.5, 3.1.6, and 4.1.3, which normalize percent escapes once and preserve encoded percent signs. Users should upgrade to a patched version.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75899",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-08-24T10:16:39.960000",
+      "created_at": "2026-08-25T02:11:19.853524+00:00"
+    },
+    {
+      "id": "43b4f5511c0b2df9",
+      "content_hash": "43b4f5511c0b2df9ffe0aa46c8ca44b1a84c15ce87d967e053ea7fc4c0ddd20c",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66897",
+      "title": "CVE-2026-66897 - A path traversal vulnerability in LXD's instance template processing allows an a...",
+      "body": "A path traversal vulnerability in LXD's instance template processing allows an attacker with container edit permissions, or any user launching a crafted image, to overwrite arbitrary files on the host system as root. When processing target template paths specified in metadata.yaml, LXD validates the path against a confined os.Root directory handle but subsequently opens and creates the file using os.Create with an unconfined string path. This discrepancy between path resolution checks and file creation allows an attacker to escape directory confinement, overwrite root-owned host files, and achieve host root code execution.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66897",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.9,
+      "published_at": "2026-08-24T10:16:39.767000",
+      "created_at": "2026-08-25T02:11:19.853517+00:00"
     },
     {
       "id": "b50c85dd71b4203f",
@@ -6930,76 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-08-22T13:16:38.817000",
       "created_at": "2026-08-23T00:36:25.832443+00:00"
-    },
-    {
-      "id": "cdd13b6e8cba07b8",
-      "content_hash": "cdd13b6e8cba07b811f5329831b52bafadc06b99c897d3f1986310a06c350ab0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58003",
-      "title": "CVE-2026-58003 - WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulner...",
-      "body": "WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the releaseVideoNow.json.php endpoint that lacks authenticity checks and accepts GET requests. Attackers can craft a malicious cross-site GET request carrying an administrator's session cookie to permanently publish any embargoed video by manipulating the videos_id parameter.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58003",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-08-22T13:16:38.673000",
-      "created_at": "2026-08-23T00:36:25.832436+00:00"
-    },
-    {
-      "id": "7c87f73f5cd093e1",
-      "content_hash": "7c87f73f5cd093e1b606319407c68227be1fe692746034e8e07a3bece7e68d52",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58002",
-      "title": "CVE-2026-58002 - WWBN AVideo through commit 9c39d8c8b4c1f75540788d6b391740852ceb0732 contains an ...",
-      "body": "WWBN AVideo through commit 9c39d8c8b4c1f75540788d6b391740852ceb0732 contains an authorization bypass vulnerability in the Users_affiliations add.json.php endpoint that allows authenticated users to forge two-party consent records by supplying the counterparty's agreement timestamp. Attackers can create a forged affiliation with status='a' and then reassign video ownership to arbitrary users through the videoAddNew.json.php endpoint, which trusts the forged affiliation as an authorization term.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58002",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-08-22T13:16:38.540000",
-      "created_at": "2026-08-23T00:36:25.832430+00:00"
-    },
-    {
-      "id": "7284ba79dd2c2285",
-      "content_hash": "7284ba79dd2c228574a78d44c5e893dd07969681de6578653ffe6534daff89fc",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-58001",
-      "title": "CVE-2026-58001 - WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulner...",
-      "body": "WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in objects/videoEditLight.php that lacks request authenticity checks and accepts GET requests. Attackers can store an img tag in a video description that transfers video ownership to an attacker-controlled account when an administrator views the video page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58001",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.7,
-      "published_at": "2026-08-22T13:16:38.403000",
-      "created_at": "2026-08-23T00:36:25.832424+00:00"
-    },
-    {
-      "id": "a85458353f2184db",
-      "content_hash": "a85458353f2184dbe7311d4e26af74d31f33e95e261a5970bd30e12cfbc1618e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57998",
-      "title": "CVE-2026-57998 - better-npm-audit through 3.11.0, and the 4.0.0-rc.2 prerelease, builds its npm a...",
-      "body": "better-npm-audit through 3.11.0, and the 4.0.0-rc.2 prerelease, builds its npm audit command by interpolating the user-supplied --registry option into a command string in src/handlers/handleInput.ts without validation or quoting, then passes that string to child_process.exec() in index.ts, which spawns a shell. A registry value containing shell metacharacters such as a semicolon, pipe, or command substitution executes arbitrary operating system commands with the privileges of the process running the audit.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57998",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "published_at": "2026-08-22T13:16:38.263000",
-      "created_at": "2026-08-23T00:36:25.832418+00:00"
-    },
-    {
-      "id": "845c95dc2f52808d",
-      "content_hash": "845c95dc2f52808d62186a932e1e0cf7a6f04f2efb4c6bc4fc5cd6812ba09b42",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-57944",
-      "title": "CVE-2026-57944 - AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerabili...",
-      "body": "AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in channelToGallery.json.php that allows attackers to modify site-wide Gallery configuration by performing unauthorized writes to plugin data. Attackers can craft a cross-site GET request carrying an administrator's session cookie to promote arbitrary channels to the front page or delete curated sections without token validation.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57944",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-08-22T13:16:38.130000",
-      "created_at": "2026-08-23T00:36:25.832412+00:00"
     }
   ]
 }
