@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-25T09:23:19.999418+00:00",
+  "generated_at": "2026-08-25T10:20:16.103882+00:00",
   "items": [
+    {
+      "id": "8b93b4be28b771b9",
+      "content_hash": "8b93b4be28b771b94be1c2d3e7e0b86ab97ab941006d0e404cf081d20ec486f6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.bbc.com/news/articles/c4g36yze692o",
+      "title": "Why some US restaurants are banning tips",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49431364\">Comments</a>",
+      "url": "https://www.bbc.com/news/articles/c4g36yze692o",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T10:09:47+00:00",
+      "created_at": "2026-08-25T10:20:16.103263+00:00"
+    },
+    {
+      "id": "38d3134500d58b3c",
+      "content_hash": "38d3134500d58b3c0fecc1d2d3d97e58908d4e40aeaa51e6b57cbc4cbc4ed266",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
+      "title": "Screen viewing time from age 1 to 8 years and subsequent academic performance",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49431024\">Comments</a>",
+      "url": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33+00:00",
+      "created_at": "2026-08-25T10:20:16.103654+00:00"
+    },
+    {
+      "id": "ea81ac6988023fb5",
+      "content_hash": "ea81ac6988023fb59639f9c1e04c086ea9164ab9074a2740b3baec570a024242",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "body": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators.\n\nThe vulnerabilities, as disclosed by Patchstack, are listed below -\n\n\n  CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
+      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-25T08:34:07+00:00",
+      "created_at": "2026-08-25T10:20:11.424983+00:00"
+    },
     {
       "id": "530a7d05c1fbfe11",
       "content_hash": "530a7d05c1fbfe11a40a269c941c06d5980c638b729961793f1c6c15ce0b3ad3",
@@ -2058,6 +2100,34 @@
       "cvss_score": null,
       "published_at": "2026-08-24T12:18:56+00:00",
       "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
+    {
+      "id": "7509cf45e55175c6",
+      "content_hash": "7509cf45e55175c61b37d2097fa4d6b335b1e2da119ad27ef1fc08f37891aafa",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78278",
+      "title": "CVE-2026-78278 - Subscriber Insecure Direct Object References (IDOR) in Fluent Boards Pro <= 2.0....",
+      "body": "Subscriber Insecure Direct Object References (IDOR) in Fluent Boards Pro <= 2.0.11 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78278",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.3,
+      "published_at": "2026-08-24T12:16:55.507000",
+      "created_at": "2026-08-25T10:20:11.802734+00:00"
+    },
+    {
+      "id": "2e311357b7da910a",
+      "content_hash": "2e311357b7da910ae59f83a0e827548be9a08f6e1d906bb77b31ef0e4b00505d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78277",
+      "title": "CVE-2026-78277 - Subscriber Server Side Request Forgery (SSRF) in FluentCRM Pro <= 3.1.12 version...",
+      "body": "Subscriber Server Side Request Forgery (SSRF) in FluentCRM Pro <= 3.1.12 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78277",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 4.9,
+      "published_at": "2026-08-24T12:16:55.347000",
+      "created_at": "2026-08-25T10:20:11.802729+00:00"
     },
     {
       "id": "535a539c0ffb75f3",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-22T17:09:27+00:00",
       "created_at": "2026-08-22T18:12:56.013148+00:00"
-    },
-    {
-      "id": "425821a90ce99a66",
-      "content_hash": "425821a90ce99a663433ec0852ce8750d0f8a48e45254cef7208bbc09061dc6f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://twitter.com/argofowl/status/2091150597374537729",
-      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49401549\">Comments</a>",
-      "url": "https://twitter.com/argofowl/status/2091150597374537729",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:58:49+00:00",
-      "created_at": "2026-08-22T18:12:56.013085+00:00"
-    },
-    {
-      "id": "02ea5ab77ed8ee58",
-      "content_hash": "02ea5ab77ed8ee5897ab8ed2baf38066da56354705d47babf71db6669b11e3bf",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3155841",
-      "title": "OpenAI says California should strengthen its AI safety bill",
-      "body": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:30:34+00:00",
-      "created_at": "2026-08-22T17:10:38.382653+00:00"
-    },
-    {
-      "id": "959f4e858755ddac",
-      "content_hash": "959f4e858755ddac10d16f63f7e64d2c4a878780e7d62e9f1e021b5e43fcd5f1",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49401229\">Comments</a>",
-      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-      "category": "it",
-      "severity": "critical",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:23:09+00:00",
-      "created_at": "2026-08-22T17:10:38.609966+00:00"
-    },
-    {
-      "id": "02ff77dafc9eedc2",
-      "content_hash": "02ff77dafc9eedc22ab51210808efce560c309f947db7d30ae212fe5ef5001f2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74633",
-      "title": "CVE-2026-74633 - In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Fi...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Fix NULL pointer dereference in module event cache removal\n\nA module-only event filter such as \":mod:foo\" is cached with a NULL\nevent_mod->match when foo has not been loaded. If a later write tries to\nremove a specific match from the same module, remove_cache_mod() passes\nthe NULL cached match to strcmp(), causing a NULL pointer dereference.\n\nThe issue can be reproduced from userspace:\n\n  echo ':mod:trace_events_kunit_missing' > /sys/kernel/tracing/set_event\n  echo '!foo_bar:mod:trace_events_kunit_missing' >> /sys/kernel/tracing/set_event\n\nThe second write must be a concatenation (\">>\") to not include O_TRUNC as\nthat would cause ftrace_clear_events() to clear the cached modules lines.\n\nThe crash was reproduced on x86_64 QEMU while KUnit workers contended on\nthe event tracing path:\n\n  BUG: kernel NULL pointer dereference, address: 0000000000000000\n  #PF: supervisor read access in kernel mode\n  RIP: 0010:strcmp+0x10/0x30\n  Call Trace:\n   __ftrace_set_clr_event_nolock+0x373/0x4a0\n   ftrace_set_clr_event+0xf0/0x180\n   ftrace_event_write+0xdf/0x110\n   vfs_write+0xf6/0x440\n   ksys_write+0x68/0xe0\n   do_syscall_64+0xf9/0x540\n   entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nCheck event_mod->match before comparing it, consistent with the existing\nNULL checks for the cached system and event fields. The mismatched removal\ncontinues to return -EINVAL; a broad cached module filter is removed with\n\"!:mod:<module>\".",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74633",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:36.380000",
-      "created_at": "2026-08-23T17:10:49.788507+00:00"
-    },
-    {
-      "id": "8eff3a24c0a5093e",
-      "content_hash": "8eff3a24c0a5093e146d6ee7555866af1581de4fb5911f6df7b56edc380a8421",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74632",
-      "title": "CVE-2026-74632 - In the Linux kernel, the following vulnerability has been resolved:\n\nmm/huge_mem...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/huge_memory: fix huge_zero_pfn race\n\nPatch series \"mm/huge_memory: fix huge_zero_pfn race\", v2.\n\nThere is a subtle race in the reference-counted huge_zero_folio\nimplementation.\n\nThe fast path atomic logic fails to account for the fact that the shrinker\n(which drops the final huge_zero_refcount pin) can overwrite huge_zero_pfn\nwith the ~0UL sentinel value in shrink_huge_zero_folio_scan() after a\nracing get_huge_zero_folio() installed a valid value there.\n\nThis results in huge_zero_folio being correctly set but huge_zero_pfn\nbeing set incorrectly and thus is_huge_zero_pfn() and consequently\nis_huge_zero_pmd() will misidentify the huge zero folio as being an\nordinary THP folio.\n\nThis can result in the huge zero folio being split and otherwise treated\nincorrectly.\n\nThe solution to this is very subtle as there is an atomic fast path, and\nthus ordering in weakly ordered architectures has to be treated very\ncarefully.\n\nThe first commit fixes the issue by introducing a spinlock around\nhuge_zero_[pfn, folio, refcount] write, with careful consideration paid to\nload/store ordering in the fast path.  It is placed first and kept as\nsmall as possible so that it can be backported on its own.\n\nThe second commit is a pure cleanup which reworks the\nCONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic to better separate the persistent\nlogic from the dynamically allocated one.\n\n\nThis patch (of 2):\n\nIf !CONFIG_PERSISTENT_HUGE_ZERO_FOLIO, the huge_zero_folio is refcounted\nby huge_zero_refcount and returned by mm_get_huge_zero_folio().\n\nWhen the caller is done with the huge zero page, its reference count is\ndecremented.  Only a shrinker can set the reference count to zero.\n\nA race can unfortunately occur between a shrinker decrementing the\nreference count to zero and a concurrent page fault.\n\nThis is because shrink_huge_zero_folio_scan() might, if very unlucky, be\npreempted between setting huge_zero_refcount to zero and writing an",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74632",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:36.217000",
-      "created_at": "2026-08-23T17:10:49.788502+00:00"
     }
   ]
 }
