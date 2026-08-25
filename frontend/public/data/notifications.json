@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:28:16.734768+00:00",
+  "generated_at": "2026-08-25T09:23:19.999418+00:00",
   "items": [
     {
       "id": "530a7d05c1fbfe11",
@@ -882,6 +882,20 @@
       "cvss_score": null,
       "published_at": "2026-08-25T00:23:12+00:00",
       "created_at": "2026-08-25T00:35:02.168084+00:00"
+    },
+    {
+      "id": "122f24c526bda312",
+      "content_hash": "122f24c526bda312f27f1fdf3ee21250129d7fc2f3baa26d064a3cf6a50c8a42",
+      "source_name": "OpenAI News",
+      "external_id": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "body": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "category": "ai",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "created_at": "2026-08-25T09:23:15.035551+00:00"
     },
     {
       "id": "c7ac87d5baebe416",
@@ -2044,6 +2058,48 @@
       "cvss_score": null,
       "published_at": "2026-08-24T12:18:56+00:00",
       "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
+    {
+      "id": "535a539c0ffb75f3",
+      "content_hash": "535a539c0ffb75f3ecb053a96d6b48fc9c69e84e2d584e7c05f6a6fc01050fa5",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78272",
+      "title": "CVE-2026-78272 - Subscriber Broken Access Control in Fluent Support Pro <= 2.3.1 versions.",
+      "body": "Subscriber Broken Access Control in Fluent Support Pro <= 2.3.1 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78272",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 5.4,
+      "published_at": "2026-08-24T12:16:55.193000",
+      "created_at": "2026-08-25T09:23:17.089658+00:00"
+    },
+    {
+      "id": "dddcfff7f30e2713",
+      "content_hash": "dddcfff7f30e2713b65d6685201572ba03d079b0eb19d11aff3e1ebdf962124f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78270",
+      "title": "CVE-2026-78270 - Author SQL Injection in FluentCRM Pro <= 3.1.12 versions.",
+      "body": "Author SQL Injection in FluentCRM Pro <= 3.1.12 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78270",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.6,
+      "published_at": "2026-08-24T12:16:55.043000",
+      "created_at": "2026-08-25T09:23:17.089654+00:00"
+    },
+    {
+      "id": "9ccbe0550a149213",
+      "content_hash": "9ccbe0550a1492132d1fb62943735a594205dfe9aaebb672b1f00150faa7bba4",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78269",
+      "title": "CVE-2026-78269 - Contributor Server Side Request Forgery (SSRF) in Shared Files <= 1.7.69 version...",
+      "body": "Contributor Server Side Request Forgery (SSRF) in Shared Files <= 1.7.69 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78269",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.4,
+      "published_at": "2026-08-24T12:16:54.893000",
+      "created_at": "2026-08-25T09:23:17.089649+00:00"
     },
     {
       "id": "9ef395cc5530de8e",
@@ -6944,62 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-22T16:16:36.217000",
       "created_at": "2026-08-23T17:10:49.788502+00:00"
-    },
-    {
-      "id": "fb5d437eee15934c",
-      "content_hash": "fb5d437eee15934cddf28b6ddb729e1a21e633fe7b1675be10007521c6149f54",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74631",
-      "title": "CVE-2026-74631 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet: smc: f...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: smc: fix splice entry lifetime imbalance in smc_rx_splice\n\nsmc_rx_splice() passes pages to splice_to_pipe() before taking the\nreferences that cover the lifetime of each splice entry. In the\nVM-backed RMB path, splice_to_pipe() may drop unqueued entries through\nsmc_rx_spd_release(), while queued entries are released later via the\npipe buffer callback.\n\nThe old post-splice accounting also derives the number of queued VM pages\nfrom an offset mutated while building the descriptor, and a multi-page\nsplice pairs one sock_hold() with multiple sock_put() calls.\n\nTake the page and socket references for every candidate entry before\nsplice_to_pipe(), and drop the matching private state, page reference,\nand socket reference from smc_rx_spd_release() for entries that never\nget queued. This fixes a refcount imbalance that can underflow page\nrefcounts and trigger a use-after-free.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74631",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:36.080000",
-      "created_at": "2026-08-23T17:10:49.788495+00:00"
-    },
-    {
-      "id": "b24002b276d33d16",
-      "content_hash": "b24002b276d33d16defbcb3cc6d0c3ec41ba81e161ad7b3276d3220866983a32",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74630",
-      "title": "CVE-2026-74630 - In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: preve...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: prevent in6_dev_get() from resurrecting inet6_dev\n\nin6_dev_get() reads dev->ip6_ptr under RCU and then unconditionally\nincrements its refcount. Device teardown can clear the pointer and drop\nthe last reference between these operations. The increment then\nresurrects an object whose RCU free has already been queued, so callers\ncan use it after it is freed.\n\nUse refcount_inc_not_zero() and return NULL when the object has already\nreached zero. RCU keeps the memory accessible through the attempted\nreference acquisition, and a successful increment pins the object for\nthe caller.\n\nAn independent run on the exact unpatched 6f5156d7a31a (v7.2-rc3)\nkernel reproduced the invalid reference acquisition as UID 1000:\n\n  refcount_t: addition on 0; use-after-free.\n  ip6_mc_source+0xef4/0x17e0\n\nIt was followed by the corresponding reference underflow in\nip6_mc_source(). The supplied trace from the same unpatched revision\nadditionally shows the access after the RCU read-side section ends:\n\n  BUG: KASAN: slab-use-after-free in mutex_lock+0x76/0xe0\n  Write of size 8 at addr ffff888015b50240 by task poc/1219\n\nBug found and triaged by OpenAI Security Research and\nvalidated by Trail of Bits.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74630",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:35.943000",
-      "created_at": "2026-08-23T17:10:49.788489+00:00"
-    },
-    {
-      "id": "a42b8277071a784b",
-      "content_hash": "a42b8277071a784bcb03ade109cd90aeb0062d82ce5589b8b5970f6cc17b7f3c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74629",
-      "title": "CVE-2026-74629 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/dibs: C...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/dibs: Correct freeing of dmb_clientid_arr\n\nA dibs device interrupt handler can be active after dibs_dev_del() and\nmay still access dmb_clientid_arr. (UAF)\n\nIn case of a failure in dibs_dev_add() being called by dibs_lo_dev_probe()\ndmb_clientid_arr is freed twice (double free).\n\nFree dmb_clientid_arr in dibs_dev_release() after last reference is gone.\nNote that allocating in dibs_dev_add() instead of dibs_dev_alloc() is ok\nfor now, because no dmbs can be registered before dibs_dev_add().",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74629",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:35.840000",
-      "created_at": "2026-08-23T17:10:49.788483+00:00"
-    },
-    {
-      "id": "f6b1b43f0e10ba87",
-      "content_hash": "f6b1b43f0e10ba874aae10864765a3d40f4dabb2b08c5485a36892c2abedefa9",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-74628",
-      "title": "CVE-2026-74628 - In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: fi...",
-      "body": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: fix use-after-free of the socket by its timers\n\nThe x25 timers are armed with mod_timer() and cancelled with\ntimer_delete(), so a pending timer holds no reference on the socket and a\ncancel does not wait for a callback already running on another CPU.\n\nx25_heartbeat_expiry() also rearms unconditionally, so it can reinstall\nsk->sk_timer after __x25_destroy_socket() has passed its cancel point.\nThe following __sock_put() frees the socket while the timer is still\nqueued, and the next expiry uses freed memory.  KASAN reports a\nslab-use-after-free on the kmalloc-2k object freed by close().\n\ntimer_delete_sync() cannot be used here: x25_heartbeat_expiry() and\nx25_timer_expiry() both reach the cancels from inside the timer they\nwould wait on, through __x25_destroy_socket() and x25_disconnect().\n\nArm the timers with sk_reset_timer() and cancel them with sk_stop_timer()\nso that an armed timer owns a reference, and release it in both expiry\nhandlers.  Rearm the heartbeat only while sk_hashed(sk) is still true,\nsince __x25_destroy_socket() unlinks the socket before dropping it.  Arm\nthe deferred destroy timer the same way and drop its reference in\nx25_destroy_timer().\n\nReproduced on net with KASAN, with the heartbeat period shortened so the\nwindow recurs.  With this patch the reproducer no longer triggers a\nreport and /proc/net/x25 drains.\n\nDiscovered by XBOW, triaged by Baul Lee <baul.lee@xbow.com>",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74628",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T16:16:35.737000",
-      "created_at": "2026-08-23T17:10:49.788477+00:00"
     }
   ]
 }
