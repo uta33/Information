@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-25T10:20:16.103882+00:00",
+  "generated_at": "2026-08-25T11:15:47.297951+00:00",
   "items": [
+    {
+      "id": "97cbc781b51b65f4",
+      "content_hash": "97cbc781b51b65f46a5afec07da706dac9b6c4f99eee8ee5451d7c2aa40e03ac",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+      "title": "Police arrests dozens of suspects in global cybercrime crackdown",
+      "body": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-25T10:53:20+00:00",
+      "created_at": "2026-08-25T11:15:42.658552+00:00"
+    },
     {
       "id": "8b93b4be28b771b9",
       "content_hash": "8b93b4be28b771b94be1c2d3e7e0b86ab97ab941006d0e404cf081d20ec486f6",
@@ -6986,20 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-22T17:59:09+00:00",
       "created_at": "2026-08-23T02:17:02.857724+00:00"
-    },
-    {
-      "id": "948344c866fc721a",
-      "content_hash": "948344c866fc721ad14ba60cafffabc7b9af98b2e74d8f9ef63ce924796b247f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
-      "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49401621\">Comments</a>",
-      "url": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T17:09:27+00:00",
-      "created_at": "2026-08-22T18:12:56.013148+00:00"
     }
   ]
 }
