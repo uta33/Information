@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T23:12:47.582246+00:00",
+  "generated_at": "2026-08-25T00:35:02.477096+00:00",
   "items": [
+    {
+      "id": "7f607bfdaeb59b24",
+      "content_hash": "7f607bfdaeb59b24e0142a65fbf4c3fa35373a95aebb50f8cb8caf70f4bdfab3",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3156230",
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "body": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T00:23:12+00:00",
+      "created_at": "2026-08-25T00:35:02.168084+00:00"
+    },
     {
       "id": "c7ac87d5baebe416",
       "content_hash": "c7ac87d5baebe4167e05c7c6ed1887221e5a73ce418cb6c3c31b80d6e0128b51",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T23:05:44+00:00",
       "created_at": "2026-08-24T23:12:47.296191+00:00"
+    },
+    {
+      "id": "1d5b7f0e949a49e8",
+      "content_hash": "1d5b7f0e949a49e83e417e2d1c3b72c5f77e6bf10cba4906f5776038d1a6eb8d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/murerkinn/bookshelf",
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49427001\">Comments</a>",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T23:00:37+00:00",
+      "created_at": "2026-08-25T00:35:02.476497+00:00"
     },
     {
       "id": "c022b5a2c452a766",
@@ -42,6 +70,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T22:06:02+00:00",
       "created_at": "2026-08-24T23:12:47.581586+00:00"
+    },
+    {
+      "id": "6e5f7b6455e70ef4",
+      "content_hash": "6e5f7b6455e70ef4b43fffa34b85f768dcee23383b0e563ef8649f1d4dac29af",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://ciechanow.ski/moon/",
+      "title": "Moon (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49426466\">Comments</a>",
+      "url": "https://ciechanow.ski/moon/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T22:06:02+00:00",
+      "created_at": "2026-08-25T00:35:02.476392+00:00"
     },
     {
       "id": "14c8c45303dcb6fa",
@@ -434,6 +476,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T17:50:18+00:00",
       "created_at": "2026-08-24T18:22:13.147843+00:00"
+    },
+    {
+      "id": "65283ba89f001830",
+      "content_hash": "65283ba89f00183000134a3016b862f9ebc68dfd6eac8e8d4198337882e73c54",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+      "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+      "body": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,",
+      "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T17:41:11+00:00",
+      "created_at": "2026-08-25T00:34:55.202613+00:00"
     },
     {
       "id": "5ff0aef65fb68c52",
@@ -1248,6 +1304,20 @@
       "created_at": "2026-08-24T13:41:08.858236+00:00"
     },
     {
+      "id": "b50c85dd71b4203f",
+      "content_hash": "b50c85dd71b4203f3edd8ab4fb2064cf55e8ef6ebdd966894c00cd2d9b743ea6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-16249",
+      "title": "CVE-2026-16249 - Rejected reason: This CVE ID is a duplicate of CVE-2026-15303 and was never publ...",
+      "body": "Rejected reason: This CVE ID is a duplicate of CVE-2026-15303 and was never published. Both IDs were assigned to the same vulnerability in the 6Storage Rentals WordPress plugin. All CVE users should reference CVE-2026-15303 instead of this ID.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16249",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T10:16:38.650000",
+      "created_at": "2026-08-25T00:34:55.898332+00:00"
+    },
+    {
       "id": "650e39dffd1d37d8",
       "content_hash": "650e39dffd1d37d8a24c244fba4a475d85ceff23e9b5a44aac11b371eaa7d686",
       "source_name": "Hacker News (Best)",
@@ -1276,6 +1346,34 @@
       "created_at": "2026-08-24T10:26:23.931052+00:00"
     },
     {
+      "id": "2d7d70dc3344d34f",
+      "content_hash": "2d7d70dc3344d34fbb9b222cf26966a67d75a3fd5997fa8451fb27504f90077d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78321",
+      "title": "CVE-2026-78321 - The HTTP media server on DJI drones does not enforce sufficient limits on incomi...",
+      "body": "The HTTP media server on DJI drones does not enforce sufficient limits on incoming connections or request rates. An attacker with access to the drone's internal network can exhaust the server's connection pool by repeatedly requesting a stored media file, preventing the server from handling legitimate requests and causing a denial of service that prevents the DJI Fly application from retrieving photos and videos from the aircraft in QuickTransfer mode.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\nRemediation requires a firmware update from the vendor.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78321",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T09:16:47.423000",
+      "created_at": "2026-08-25T00:34:55.898325+00:00"
+    },
+    {
+      "id": "f52e7309eb8a3af7",
+      "content_hash": "f52e7309eb8a3af7e34b64c5b5344ba3608051aa972ce494e1465b07cef8c97f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78306",
+      "title": "CVE-2026-78306 - DJI drones expose an unauthenticated DUML command interface over Bluetooth that ...",
+      "body": "DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\n\nRemediation requires a firmware update from the vendor.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78306",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T09:16:47.200000",
+      "created_at": "2026-08-25T00:34:55.898311+00:00"
+    },
+    {
       "id": "7297b6961bcfee90",
       "content_hash": "7297b6961bcfee903edf4831aad0adad3c290cf715b9fb31b2dc76ab2ebaafee",
       "source_name": "Hacker News (Best)",
@@ -1288,6 +1386,48 @@
       "cvss_score": null,
       "published_at": "2026-08-24T08:46:19+00:00",
       "created_at": "2026-08-24T10:26:28.338992+00:00"
+    },
+    {
+      "id": "e3f00f8153c6366f",
+      "content_hash": "e3f00f8153c6366fce7b6038d5090a70bb84ada4557f2989b4fe97c4897670da",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-78255",
+      "title": "CVE-2026-78255 - The HTTP media server running on DJI drones serves stored photos and videos thro...",
+      "body": "The HTTP media server running on DJI drones serves stored photos and videos through the `/v2` endpoint without authenticating the requesting client. Filenames follow a predictable pattern, allowing an attacker who joins the drone's internal network to enumerate valid filenames and exfiltrate stored photos and videos. The exposed media may reveal sensitive information, including private locations, property, travel history, identifiable individuals, and the operator's routines.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78255",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:16:33.967000",
+      "created_at": "2026-08-25T00:34:55.898300+00:00"
+    },
+    {
+      "id": "4861c7831e08c134",
+      "content_hash": "4861c7831e08c134a775433abfe9dc72d33dfabee76416f47e32faa834735989",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77994",
+      "title": "CVE-2026-77994 - Joomla Extension - joomlack.fr - Second order SQL injection in Page Builder CK <...",
+      "body": "Joomla Extension - joomlack.fr - Second order SQL injection in Page Builder CK < 3.6.5 - The Joomla extension Page Builder CK is vulnerable to a SQL injection issue related to the loadStyles method of the frontend page model.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77994",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:16:33.807000",
+      "created_at": "2026-08-25T00:34:55.898289+00:00"
+    },
+    {
+      "id": "6fd3a6cc4c051acb",
+      "content_hash": "6fd3a6cc4c051acb6b2dec3cf1cb426a8ef79eb5cec7830bb707e13e8ea8585d",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77993",
+      "title": "CVE-2026-77993 - Joomla Extension - joomlack.fr - Reflected XSS in Page Builder CK < 3.6.5 - The ...",
+      "body": "Joomla Extension - joomlack.fr - Reflected XSS in Page Builder CK < 3.6.5 - The Joomla extension Page Builder CK is vulnerable to a reflected XSS via the iscontenttype parameter.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77993",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T08:16:33.677000",
+      "created_at": "2026-08-25T00:34:55.898279+00:00"
     },
     {
       "id": "6c9dcab41d58485e",
@@ -6860,146 +7000,6 @@
       "cvss_score": 5.4,
       "published_at": "2026-08-22T13:16:38.130000",
       "created_at": "2026-08-23T00:36:25.832412+00:00"
-    },
-    {
-      "id": "0ae10dd9799356fd",
-      "content_hash": "0ae10dd9799356fd506cc050938df0e646a3db32822313c9483f07a5d05ea609",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-56380",
-      "title": "CVE-2026-56380 - AVideo through commit 9c39d8c8 contains an information exposure vulnerability in...",
-      "body": "AVideo through commit 9c39d8c8 contains an information exposure vulnerability in feed/index.php that allows unauthenticated attackers to retrieve channel owner email addresses by supplying a public channel name parameter. Attackers can enumerate all creator email addresses by iterating through public channel names and extract them from the itunes:email and itunes:author RSS elements, enabling account takeover attempts and phishing campaigns.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56380",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-22T13:16:37.977000",
-      "created_at": "2026-08-23T00:36:25.832405+00:00"
-    },
-    {
-      "id": "64dc4e49d6b55294",
-      "content_hash": "64dc4e49d6b5529481263f26f92823187bbe4d134aa9aedd5330de4bd57d2eb4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4244",
-      "title": "CVE-2026-4244 - The Post Duplicator plugin for WordPress is vulnerable to unauthorized modificat...",
-      "body": "The Post Duplicator plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the `duplicate_post()` function in all versions up to, and including, 3.0.11. This is due to the function not verifying that the user has `edit_others_posts` capability before accepting a `selectedAuthorId` parameter via the `duplicate-post` REST endpoint. This makes it possible for authenticated attackers, with Contributor-level access and above, to create duplicated posts attributed to any user, including administrators.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4244",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-22T13:16:37.523000",
-      "created_at": "2026-08-23T00:36:25.832400+00:00"
-    },
-    {
-      "id": "f5966f1b1fd83b00",
-      "content_hash": "f5966f1b1fd83b009106d212424363eb0f6f9d5f71279514dd6d6babc66edaae",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11948",
-      "title": "CVE-2026-11948 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11948",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T13:16:37.450000",
-      "created_at": "2026-08-23T00:36:25.832393+00:00"
-    },
-    {
-      "id": "a4ca0ab6ffa0929d",
-      "content_hash": "a4ca0ab6ffa0929df0fc70df68609d0ccaaa8a331334bc9cbb688c2d3557c744",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-11947",
-      "title": "CVE-2026-11947 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11947",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T13:16:36.970000",
-      "created_at": "2026-08-23T00:36:25.832387+00:00"
-    },
-    {
-      "id": "3fbff4f78acd08fe",
-      "content_hash": "3fbff4f78acd08fe184a7aa7c532ca21dfcc407a677b89d9df5f3faa3cd337e5",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "body": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T13:00:09+00:00",
-      "created_at": "2026-08-22T13:22:57.888362+00:00"
-    },
-    {
-      "id": "0ee4828f1b63a01e",
-      "content_hash": "0ee4828f1b63a01ecf0316035effa800391fedb847d04312d0167fc095c07575",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-77988",
-      "title": "CVE-2026-77988 - A weakness has been identified in TRENDnet TEW-823DRU 1.1.02b01. This vulnerabil...",
-      "body": "A weakness has been identified in TRENDnet TEW-823DRU 1.1.02b01. This vulnerability affects the function nvram_get of the component CLI Configuration Tool. This manipulation causes command injection. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77988",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.6,
-      "published_at": "2026-08-22T12:16:25.817000",
-      "created_at": "2026-08-23T00:36:25.832381+00:00"
-    },
-    {
-      "id": "d571a8a294808f98",
-      "content_hash": "d571a8a294808f980933c1899ed4ef99ee6806943d8d8107b5df0447da5e23c0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66917",
-      "title": "CVE-2026-66917 - Joomla Extension - joomgalleryfriends.net - Stored XSS in JoomGallery < 4.4.0 - ...",
-      "body": "Joomla Extension - joomgalleryfriends.net - Stored XSS in JoomGallery < 4.4.0 - An authenticated, privileged can store an XSS payload in any image causing JS execution in every visitor's browser.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66917",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T12:16:25.680000",
-      "created_at": "2026-08-23T00:36:25.832375+00:00"
-    },
-    {
-      "id": "87a965393881eab5",
-      "content_hash": "87a965393881eab59e883ba7728b0681ad19e5da338425a28487221a7210b358",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-66916",
-      "title": "CVE-2026-66916 - Joomla Extension - joomgalleryfriends.net - Password-Protected Category Bypass v...",
-      "body": "Joomla Extension - joomgalleryfriends.net - Password-Protected Category Bypass via JSON Format in JoomGallery < 4.4.0- An unauthenticated access control bypass exists in JoomGallery's category JSON view. When a gallery category is protected with a password, the HTML view correctly enforces the password gate - but the JSON view ( format=json ) skips this check entirely.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66916",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T12:16:25.547000",
-      "created_at": "2026-08-23T00:36:25.832369+00:00"
-    },
-    {
-      "id": "714a170e4c3ffc5f",
-      "content_hash": "714a170e4c3ffc5f9c4e2b26b09bf05282995a8ee41fb4f8612412a9cabd20ed",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4245",
-      "title": "CVE-2026-4245 - The Post Duplicator plugin for WordPress is vulnerable to authorization bypass i...",
-      "body": "The Post Duplicator plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 3.0.11. This is due to the `duplicate_post_permissions()` permission callback only verifying the `duplicate_posts` capability without checking whether the requesting user holds `publish_posts` or other status-gated capabilities. This makes it possible for authenticated attackers, with Contributor-level access and above, to create duplicate posts with `future` (scheduled, auto-publishes) or `private` status, bypassing editorial review. Additionally, the REST endpoint does not enforce administrator-configured post-type duplication restrictions, allowing duplication of post types that have been explicitly disabled.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4245",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-22T12:16:25.400000",
-      "created_at": "2026-08-23T00:36:25.832363+00:00"
-    },
-    {
-      "id": "3f0dbe8142d89007",
-      "content_hash": "3f0dbe8142d890076ab1dbe15860ae03843437b725b48cb5570a5a05f1e47594",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-3424",
-      "title": "CVE-2026-3424 - The The kk Star Ratings – Rate Post & Collect User Feedbacks plugin for WordPres...",
-      "body": "The The kk Star Ratings – Rate Post & Collect User Feedbacks plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 5.4.10.3. This is due to the software allowing users to execute an action that does not properly validate the 'payload' value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3424",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.3,
-      "published_at": "2026-08-22T12:16:24.677000",
-      "created_at": "2026-08-23T00:36:25.832356+00:00"
     }
   ]
 }
