@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-25T06:24:41.123535+00:00",
+  "generated_at": "2026-08-25T07:34:33.591993+00:00",
   "items": [
+    {
+      "id": "30272fb865c63516",
+      "content_hash": "30272fb865c63516e563b459ada84bf0a72f69c9bc536653c16c2b8ce08729c0",
+      "source_name": "The Hacker News",
+      "external_id": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to",
+      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-08-25T06:12:35+00:00",
+      "created_at": "2026-08-25T07:34:29.515656+00:00"
+    },
     {
       "id": "10b832b0c1c69e5b",
       "content_hash": "10b832b0c1c69e5b1ea18f94a5ad6989e7d6c5f4a2b17cdb8b2c9b1da8bb4dc7",
@@ -14,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-25T04:33:24+00:00",
       "created_at": "2026-08-25T05:21:59.795390+00:00"
+    },
+    {
+      "id": "0ab3a11aab562585",
+      "content_hash": "0ab3a11aab562585eaf4f9e52cf59e9fe336647b0e7f5643d504aedf8fefbe66",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://knowablemagazine.org/content/article/physical-world/2026/volcanoes-that-made-history",
+      "title": "Volcanoes that made history",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49428972\">Comments</a>",
+      "url": "https://knowablemagazine.org/content/article/physical-world/2026/volcanoes-that-made-history",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T04:09:43+00:00",
+      "created_at": "2026-08-25T07:34:33.591635+00:00"
     },
     {
       "id": "37ae7ef66e46aef5",
@@ -1316,6 +1344,62 @@
       "cvss_score": null,
       "published_at": "2026-08-24T12:18:56+00:00",
       "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
+    {
+      "id": "fdf3c270200cf0fe",
+      "content_hash": "fdf3c270200cf0fe39aa49fa2900dd6af0aca9bf4406a8a2da6d06175fc170c7",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-6017",
+      "title": "CVE-2026-6017 - Firmware in KAON PG5298A and PG5298B routers allow an unauthenticated user to qu...",
+      "body": "Firmware in KAON PG5298A and PG5298B routers allow an unauthenticated user to query a specific endpoint and acquire sensitive information such as a password to the administrative portal.   \nThis vulnerability has been fixed in firmware version: 3.0.82 for PG5298A and 4.0.82 for PG5298B.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6017",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T12:16:54.030000",
+      "created_at": "2026-08-25T07:34:30.096235+00:00"
+    },
+    {
+      "id": "e78a24452f7a0b30",
+      "content_hash": "e78a24452f7a0b30fbc8064e03c1106dd7d37f951102f8162cfae399de3df06b",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66671",
+      "title": "CVE-2026-66671 - Unauthenticated Local File Inclusion in Verdure Core <= 1.2 versions.",
+      "body": "Unauthenticated Local File Inclusion in Verdure Core <= 1.2 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66671",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-24T12:16:53.880000",
+      "created_at": "2026-08-25T07:34:30.096228+00:00"
+    },
+    {
+      "id": "9db6e26500b71cb0",
+      "content_hash": "9db6e26500b71cb0e69a731a82bd5b1671f3cf9429d0b05679be906b20a7678f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66670",
+      "title": "CVE-2026-66670 - Unauthenticated Local File Inclusion in Måne <= 1.7 versions.",
+      "body": "Unauthenticated Local File Inclusion in Måne <= 1.7 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66670",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "published_at": "2026-08-24T12:16:53.730000",
+      "created_at": "2026-08-25T07:34:30.096222+00:00"
+    },
+    {
+      "id": "4ad066159eb7dde2",
+      "content_hash": "4ad066159eb7dde2fd4453b44f2c57208dbb8892bbf51e483017ce93e6a3b9e3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66650",
+      "title": "CVE-2026-66650 - Unauthenticated PHP Object Injection in FreightCo <= 1.1.15 versions.",
+      "body": "Unauthenticated PHP Object Injection in FreightCo <= 1.1.15 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66650",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-24T12:16:53.580000",
+      "created_at": "2026-08-25T07:34:30.096215+00:00"
     },
     {
       "id": "d9b63d4ae787814a",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-22T15:16:22.797000",
       "created_at": "2026-08-23T15:10:46.439737+00:00"
-    },
-    {
-      "id": "7afad76c13d4eb92",
-      "content_hash": "7afad76c13d4eb92971db7110fd386d43cd115807c4721528df29bcde30c7a7f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76606",
-      "title": "CVE-2026-76606 - Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik < 4...",
-      "body": "Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik < 4.7.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76606",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.680000",
-      "created_at": "2026-08-23T15:10:46.439731+00:00"
-    },
-    {
-      "id": "ea1c9a8020f0fa61",
-      "content_hash": "ea1c9a8020f0fa61b123815cea644d8597d1929ce02a191942f924d14d890ade",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76605",
-      "title": "CVE-2026-76605 - Joomla Extension - fabrikar.com - Remote code execution via image element in Fab...",
-      "body": "Joomla Extension - fabrikar.com - Remote code execution via image element in Fabrik < 4.7.2.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76605",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.563000",
-      "created_at": "2026-08-23T15:10:46.439725+00:00"
-    },
-    {
-      "id": "9afb481c24397b58",
-      "content_hash": "9afb481c24397b5842665666872bf897d0f904d63f33cf398b00fe41f864df95",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76604",
-      "title": "CVE-2026-76604 - Joomla Extension - fabrikar.com - Unauthenticated remote code execution via PHP ...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated remote code execution via PHP form element in Fabrik < 4.7.2 - The PHP form element is vulnerable to the execution of user provided codes.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76604",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.440000",
-      "created_at": "2026-08-23T15:10:46.439719+00:00"
-    },
-    {
-      "id": "096a46ca6c5cad4f",
-      "content_hash": "096a46ca6c5cad4f8a35d46ee550a70fbd81ab37a17ed2521f86299b3a87cdbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76603",
-      "title": "CVE-2026-76603 - Joomla Extension - fabrikar.com - Unauthenticated row disclosure via form.inline...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated row disclosure via form.inlineedit in Fabrik < 4.7.2 - The inineedit form controller does not perform any access checks, disclosing items to unauthorized users.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76603",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.320000",
-      "created_at": "2026-08-23T15:10:46.439713+00:00"
-    },
-    {
-      "id": "850d72cfe7b07918",
-      "content_hash": "850d72cfe7b07918a343845050d0efbdca41acecd5afa8cfb8bc40fd6366d5d6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76602",
-      "title": "CVE-2026-76602 - Joomla Extension - fabrikar.com - Unauthenticated SQL injection in ORDER BY in F...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated SQL injection in ORDER BY in Fabrik < 4.7.2 - The order parameter in list models is used in queries without validation, allowing read SQLi vectors.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76602",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.200000",
-      "created_at": "2026-08-23T15:10:46.439707+00:00"
-    },
-    {
-      "id": "49d03744ba77b905",
-      "content_hash": "49d03744ba77b9056871348ec255545e261d8af65d50e918ad1a3d9b3f53a324",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76601",
-      "title": "CVE-2026-76601 - Joomla Extension - fabrikar.com - Unauthenticated row reordering in Fabrik < 4.7...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated row reordering in Fabrik < 4.7.2 - The order plugin did not perform any access checks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76601",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:22.090000",
-      "created_at": "2026-08-23T13:23:33.578181+00:00"
     }
   ]
 }
