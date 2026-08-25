@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:21:59.795886+00:00",
+  "generated_at": "2026-08-25T06:24:41.123535+00:00",
   "items": [
     {
       "id": "10b832b0c1c69e5b",
@@ -1316,6 +1316,76 @@
       "cvss_score": null,
       "published_at": "2026-08-24T12:18:56+00:00",
       "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
+    {
+      "id": "d9b63d4ae787814a",
+      "content_hash": "d9b63d4ae787814aa53e8c2b7f5cf0218d6a059a804f6373af754345c028f346",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66648",
+      "title": "CVE-2026-66648 - Unauthenticated Privilege Escalation in Jawn <= 1.4.2 versions.",
+      "body": "Unauthenticated Privilege Escalation in Jawn <= 1.4.2 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66648",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-24T12:16:53.433000",
+      "created_at": "2026-08-25T06:24:36.723452+00:00"
+    },
+    {
+      "id": "4e552f4eca08c042",
+      "content_hash": "4e552f4eca08c042ab8434b8e36f9e40a22d13b23f66e1fa7f5a422830911a16",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66623",
+      "title": "CVE-2026-66623 - Unauthenticated Cross Site Scripting (XSS) in Social Media & Share Icons <= 2.9....",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in Social Media & Share Icons <= 2.9.9 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66623",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-24T12:16:53.270000",
+      "created_at": "2026-08-25T06:24:36.723446+00:00"
+    },
+    {
+      "id": "c1f07db0d700a916",
+      "content_hash": "c1f07db0d700a91696900d0045f279d5d6d1f4c1465afb20e98b1fd7d6e16d0f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66610",
+      "title": "CVE-2026-66610 - Unauthenticated Cross Site Scripting (XSS) in Urna <= 2.6.2 versions.",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in Urna <= 2.6.2 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66610",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-24T12:16:53.127000",
+      "created_at": "2026-08-25T06:24:36.723440+00:00"
+    },
+    {
+      "id": "9cea656a8d7fdeff",
+      "content_hash": "9cea656a8d7fdeff2dd223071a7459d4cc08c9830f89a9bd2dc5a628db2e792f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66599",
+      "title": "CVE-2026-66599 - Unauthenticated Cross Site Scripting (XSS) in WPComplete <= 2.9.5.6 versions.",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in WPComplete <= 2.9.5.6 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66599",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-24T12:16:52.980000",
+      "created_at": "2026-08-25T06:24:36.723434+00:00"
+    },
+    {
+      "id": "7130b574f2514ed8",
+      "content_hash": "7130b574f2514ed8beb010b1ab8899b1c58c87166bada67b092df29de0a53fea",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-66587",
+      "title": "CVE-2026-66587 - Unauthenticated Local File Inclusion in WP Cafe Pro < 3.0.15 versions.",
+      "body": "Unauthenticated Local File Inclusion in WP Cafe Pro < 3.0.15 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66587",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-24T12:16:52.837000",
+      "created_at": "2026-08-25T06:24:36.723428+00:00"
     },
     {
       "id": "751080fa97a81272",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-22T15:16:22.090000",
       "created_at": "2026-08-23T13:23:33.578181+00:00"
-    },
-    {
-      "id": "c91e9d34c57dca80",
-      "content_hash": "c91e9d34c57dca802ab7879bc8dbb6e055cf6590c32d6f07ac73619cc8f3530e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76600",
-      "title": "CVE-2026-76600 - Joomla Extension - fabrikar.com - Unauthenticated deletion of any comment in Fab...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated deletion of any comment in Fabrik < 4.7.2 - The DeleteComment endpoint did not perform any access checks.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76600",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:21.970000",
-      "created_at": "2026-08-23T13:23:33.578177+00:00"
-    },
-    {
-      "id": "fa2a4c611e1b517f",
-      "content_hash": "fa2a4c611e1b517f0ba91f7fb7d4c30b671e95c6936e25ca4b2974371e50bfdd",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76599",
-      "title": "CVE-2026-76599 - Joomla Extension - fabrikar.com - Unauthenticated database table list and table-...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated database table list and table-prefix disclosure in Fabrik < 4.7.2 - The ajax_tables method of the elements model allows listings of arbitrary database tables including columns.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76599",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:21.857000",
-      "created_at": "2026-08-23T13:23:33.578173+00:00"
-    },
-    {
-      "id": "1b45b407991cd3e1",
-      "content_hash": "1b45b407991cd3e1e87c51961f30845f0e47096cf5a8fb510083e37b9841922c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76598",
-      "title": "CVE-2026-76598 - Joomla Extension - fabrikar.com - Unauthenticated arbitrary directory listing vi...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated arbitrary directory listing via onAjax_getFolders in Fabrik < 4.7.2 - The onAjax_getFolders method of the elements model allows arbitrary directory listings.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76598",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:21.733000",
-      "created_at": "2026-08-23T13:23:33.578170+00:00"
-    },
-    {
-      "id": "c684fcaa5c7174e9",
-      "content_hash": "c684fcaa5c7174e9dafb73ca624557138a42a4b6c5a05de5819c869cc04045d7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76597",
-      "title": "CVE-2026-76597 - Joomla Extension - fabrikar.com - Unauthenticated arbitrary file upload to web r...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated arbitrary file upload to web root via list email plugin in Fabrik < 4.7.2 - The list email plugin controller allows to upload non-executable files to the webroot.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76597",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:21.620000",
-      "created_at": "2026-08-23T13:23:33.578166+00:00"
-    },
-    {
-      "id": "ed4584b592c02411",
-      "content_hash": "ed4584b592c0241177c6d238060b20a7d68dc0962065fe61aec231d053fc3c8b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-76596",
-      "title": "CVE-2026-76596 - Joomla Extension - fabrikar.com - Unauthenticated table truncation via list.doem...",
-      "body": "Joomla Extension - fabrikar.com - Unauthenticated table truncation via list.doempty in Fabrik < 4.7.2- The list controllers doemtpy endpoints lacks ACL gates, a plain GET empties the target list's table",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76596",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T15:16:21.500000",
-      "created_at": "2026-08-23T13:23:33.578162+00:00"
     }
   ]
 }
