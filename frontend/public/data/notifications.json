@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-25T03:38:14.831200+00:00",
+  "generated_at": "2026-08-25T04:27:32.660864+00:00",
   "items": [
+    {
+      "id": "37ae7ef66e46aef5",
+      "content_hash": "37ae7ef66e46aef59ab9c2517c4e9da7c710470cf3c15948a38fe7aae53a3e3d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49428882\">Comments</a>",
+      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T03:54:19+00:00",
+      "created_at": "2026-08-25T04:27:32.660105+00:00"
+    },
+    {
+      "id": "c1cb997cba1742f0",
+      "content_hash": "c1cb997cba1742f02382d924f3636317edb85e1b4b6d75131411dbd35f1a4062",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49428842",
+      "title": "Ask HN: Good large format (>20 inches) touchscreen E-Paper display options?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49428842\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49428842",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T03:46:01+00:00",
+      "created_at": "2026-08-25T04:27:32.660453+00:00"
+    },
     {
       "id": "ac13844839835243",
       "content_hash": "ac13844839835243bbe8a8c5a60674eb513d58e44fa7c19c1d8b3c3e31f0c1cd",
@@ -702,6 +730,20 @@
       "created_at": "2026-08-25T03:38:14.830936+00:00"
     },
     {
+      "id": "64d49127eb97a7c2",
+      "content_hash": "64d49127eb97a7c2571e62ad6294a0bfffdef0067e1c2d2a40f71f64eb7438e4",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dejan.ai/blog/ox-alpha/",
+      "title": "Ox-Alpha Is GLM?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49422226\">Comments</a>",
+      "url": "https://dejan.ai/blog/ox-alpha/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T16:30:16+00:00",
+      "created_at": "2026-08-25T04:27:32.660316+00:00"
+    },
+    {
       "id": "71378bdb4453e873",
       "content_hash": "71378bdb4453e873623ce5e5b51f0b29151af4f6c89011918abac061f509800d",
       "source_name": "Hacker News (Best)",
@@ -926,6 +968,20 @@
       "created_at": "2026-08-24T16:21:58.414069+00:00"
     },
     {
+      "id": "5ab00fcb22655e01",
+      "content_hash": "5ab00fcb22655e010d38997139c909d26951b72999f82c6627487b462311d10b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://solar.lowtechmagazine.com/2018/08/could-we-dredge-the-netherlands-without-fossil-fuels",
+      "title": "Could we dredge the Netherlands without fossil fuels? (2018)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49420861\">Comments</a>",
+      "url": "https://solar.lowtechmagazine.com/2018/08/could-we-dredge-the-netherlands-without-fossil-fuels",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T15:07:07+00:00",
+      "created_at": "2026-08-25T04:27:32.660600+00:00"
+    },
+    {
       "id": "1360af80b0fef670",
       "content_hash": "1360af80b0fef67062159a0030e81ef781b331bdc8b53c1e959b264653ae0746",
       "source_name": "Hacker News (Best)",
@@ -980,6 +1036,20 @@
       "cvss_score": null,
       "published_at": "2026-08-24T15:00:00+00:00",
       "created_at": "2026-08-24T15:27:40.383444+00:00"
+    },
+    {
+      "id": "087ea5fde502918b",
+      "content_hash": "087ea5fde502918b4fe436f45e4d11d7583c9d713067378b207b00aa2975a213",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/tobi/walgit",
+      "title": "Walgit – a Git server that is one binary in front of an object store",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49420598\">Comments</a>",
+      "url": "https://github.com/tobi/walgit",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T14:49:49+00:00",
+      "created_at": "2026-08-25T04:27:32.660395+00:00"
     },
     {
       "id": "58515fdf783c45c3",
@@ -1052,6 +1122,20 @@
       "created_at": "2026-08-24T14:30:24.729984+00:00"
     },
     {
+      "id": "10d04405568d6332",
+      "content_hash": "10d04405568d63322d405793397c2f9e275ba04b3c82c540256b9f481b97c5c6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://kylezhe.ng/writes/crafting-qr-codes",
+      "title": "Crafting QR Codes: A deep dive into QR code art (2024)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49420116\">Comments</a>",
+      "url": "https://kylezhe.ng/writes/crafting-qr-codes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T14:15:38+00:00",
+      "created_at": "2026-08-25T04:27:32.660241+00:00"
+    },
+    {
       "id": "2b14b8fde0b458f2",
       "content_hash": "2b14b8fde0b458f29cc35e2317c235ca26a69258f47bb68d66feb78ce3b0806e",
       "source_name": "Bleeping Computer",
@@ -1122,6 +1206,20 @@
       "created_at": "2026-08-24T15:27:40.465119+00:00"
     },
     {
+      "id": "fef1e794f83db9e6",
+      "content_hash": "fef1e794f83db9e6bce5e32fdf5fda07e9730192ec2e035a79feab1caca8f07b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.masteringemacs.org/article/whats-new-in-emacs-311",
+      "title": "What's new in Emacs 31.1",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49419252\">Comments</a>",
+      "url": "https://www.masteringemacs.org/article/whats-new-in-emacs-311",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T13:07:22+00:00",
+      "created_at": "2026-08-25T04:27:32.660373+00:00"
+    },
+    {
       "id": "36352df399d81ab0",
       "content_hash": "36352df399d81ab0eda7f27bbbc0d033e577cc0bb985a0200b5481940ac23609",
       "source_name": "Hacker News (Best)",
@@ -1176,6 +1274,48 @@
       "cvss_score": null,
       "published_at": "2026-08-24T12:18:56+00:00",
       "created_at": "2026-08-24T13:41:08.858311+00:00"
+    },
+    {
+      "id": "03022f12e93b6718",
+      "content_hash": "03022f12e93b67182eacdc881c2073c4ad559a2bbc86f39b5eb5b9ac7faaaaeb",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-28166",
+      "title": "CVE-2026-28166 - Unauthenticated Cross Site Scripting (XSS) in Tourmaster <= 5.4.9 versions.",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in Tourmaster <= 5.4.9 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28166",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-24T12:16:50.723000",
+      "created_at": "2026-08-25T04:27:29.474720+00:00"
+    },
+    {
+      "id": "be4fa0340967e050",
+      "content_hash": "be4fa0340967e050a0dc14730401855b9ca94aa5c38d8102edbf065c6fe0665a",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-28165",
+      "title": "CVE-2026-28165 - Unauthenticated Privilege Escalation in Digits <= 9.2 versions.",
+      "body": "Unauthenticated Privilege Escalation in Digits <= 9.2 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28165",
+      "category": "security",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "published_at": "2026-08-24T12:16:50.600000",
+      "created_at": "2026-08-25T04:27:29.474713+00:00"
+    },
+    {
+      "id": "9507202f3be2a553",
+      "content_hash": "9507202f3be2a5535803ff21aeb1080d7dbc3eefad5a3249bcd1216c38409a6f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-28162",
+      "title": "CVE-2026-28162 - Unauthenticated Cross Site Scripting (XSS) in Events Made Easy <= 3.2.5 versions...",
+      "body": "Unauthenticated Cross Site Scripting (XSS) in Events Made Easy <= 3.2.5 versions.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28162",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "published_at": "2026-08-24T12:16:50.473000",
+      "created_at": "2026-08-25T04:27:29.474707+00:00"
     },
     {
       "id": "f2a456fed4833fb9",
@@ -4076,6 +4216,20 @@
       "created_at": "2026-08-23T20:09:49.219305+00:00"
     },
     {
+      "id": "b338b0122e6a0ca1",
+      "content_hash": "b338b0122e6a0ca13fc666ecbb7475af2d366169ecabb2697f13ced75368b61b",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://tarjan.itch.io/thoreaubasic",
+      "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49410814\">Comments</a>",
+      "url": "https://tarjan.itch.io/thoreaubasic",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-23T17:48:12+00:00",
+      "created_at": "2026-08-25T04:27:32.660354+00:00"
+    },
+    {
       "id": "9909df40fba34646",
       "content_hash": "9909df40fba346460882911386f0578af2eefe0ed4a5a6a9eafa56cc0d8bea14",
       "source_name": "Hacker News (Best)",
@@ -6846,160 +7000,6 @@
       "cvss_score": 5.9,
       "published_at": "2026-08-22T15:16:18.833000",
       "created_at": "2026-08-23T07:23:43.480649+00:00"
-    },
-    {
-      "id": "3db59e92772e24f7",
-      "content_hash": "3db59e92772e24f7cbb7dea3f1dc343ee7c632cb461001d42255fc4a29868806",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62384",
-      "title": "CVE-2026-62384 - NLTK versions before 3.10.2 contain a symlink-based sandbox bypass in FramenetCo...",
-      "body": "NLTK versions before 3.10.2 contain a symlink-based sandbox bypass in FramenetCorpusReader that allows attackers to read arbitrary XML files outside the corpus root. Attackers can place symlinks with names containing no path separators inside the corpus subdirectory, which pass the path validation guard and are resolved to files outside the intended corpus root when accessed via frame_by_name(), _lu_file(), or doc() methods.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62384",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-22T15:16:18.700000",
-      "created_at": "2026-08-23T07:23:43.480641+00:00"
-    },
-    {
-      "id": "d20469e34d724b5f",
-      "content_hash": "d20469e34d724b5f695e46271292b7bcbb80ee8d459f2f329d8591d263b9a61c",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-62383",
-      "title": "CVE-2026-62383 - nltk versions before 3.10.2 contain a symlink-based arbitrary file read vulnerab...",
-      "body": "nltk versions before 3.10.2 contain a symlink-based arbitrary file read vulnerability in IPIPANCorpusReader methods that bypass nltk.pathsec validation entirely. Attackers can place a symlink in the corpus root directory and read arbitrary files accessible to the process by calling channels(), domains(), categories(), or fileids() methods with the symlink filename.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62383",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.5,
-      "published_at": "2026-08-22T15:16:17.883000",
-      "created_at": "2026-08-23T07:23:43.480632+00:00"
-    },
-    {
-      "id": "15f20457a0627299",
-      "content_hash": "15f20457a0627299f6ae0384715c1fe06a5f7d302e4a16e7d1c46117fc5c720a",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://quantumi.sh/public/labs.html",
-      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49400408\">Comments</a>",
-      "url": "https://quantumi.sh/public/labs.html",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T14:54:07+00:00",
-      "created_at": "2026-08-22T16:10:26.064523+00:00"
-    },
-    {
-      "id": "8ad5dbfb12156b12",
-      "content_hash": "8ad5dbfb12156b12773b08ca3183230474f7b5d1ca3eae4986d287288fb1c105",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "body": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.\n\nAs part of the settlement, the social media platform will pay $300 million immediately, and an additional $100 million \"upon entry of an order vacating a prior consent decree entered against",
-      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T14:32:41+00:00",
-      "created_at": "2026-08-22T15:09:37.581744+00:00"
-    },
-    {
-      "id": "113c076ffa6e11a7",
-      "content_hash": "113c076ffa6e11a7d7a531319a0b83b5623c1c6e0a99309728e499d6e497112b",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-75870",
-      "title": "CVE-2026-75870 - Punk versions before 0.18 for Perl allow session cookie forgery via an empty def...",
-      "body": "Punk versions before 0.18 for Perl allow session cookie forgery via an empty default HMAC key when a session is declared without a secret.\n\nThe session keyword freezes its options onto the application as given: it does not require a secret, warn, or refuse to start when one is absent. The cookie read and the write-back both default that key to the empty string, so a declaration with no secret option, or with an undefined or empty one, signs and verifies with a zero-length HMAC-SHA256 key.\n\nAn attacker who knows the cookie format can then mint one offline carrying any contents the session holds, such as a user identifier or a role. Nothing marks the misconfiguration at runtime: cookies are well formed and sessions round-trip as expected.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75870",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T14:16:33.813000",
-      "created_at": "2026-08-23T05:18:39.948715+00:00"
-    },
-    {
-      "id": "bb0b6cf2bdc2c654",
-      "content_hash": "bb0b6cf2bdc2c654672182d42f3f61980131d8cc07e4d29e6b4b6d5d43f567be",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-75866",
-      "title": "CVE-2026-75866 - Punk::OAuth2::Server versions through 0.03 for Perl issue access tokens outside ...",
-      "body": "Punk::OAuth2::Server versions through 0.03 for Perl issue access tokens outside a client's registered scopes and grant types because no authorization path reads them.\n\nPunk::OAuth2::Server::Store registers scopes and grant_types per client and documents both as client registration. token dispatches on the grant_type in the request body, so a client registered for authorization_code alone can ask for client_credentials, and that arm passes the requested scope straight to the minter, which signs it into the at+jwt access token. authorize copies the query scope into the authorization code record without comparing it against the registration, leaving the optional consent hook as the only check between an arbitrary scope and the issued code. redirect_uris on the same client row is read and enforced.\n\nA registered client can obtain a correctly signed token carrying any scope it names, and a resource server running Punk::OAuth2::Checker accepts that token and honours the scope. A client registered without a secret authenticates on its client_id alone, so anyone who knows that identifier can request one.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75866",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T14:16:33.700000",
-      "created_at": "2026-08-23T05:18:39.948709+00:00"
-    },
-    {
-      "id": "453f8fd3d1c484a3",
-      "content_hash": "453f8fd3d1c484a3349bace09ab555a038e18ba3c75301906f3e1155d526c3b4",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-71514",
-      "title": "CVE-2026-71514 - NLTK 3.9.4 through 3.10.2 contains a path traversal vulnerability in CrubadanCor...",
-      "body": "NLTK 3.9.4 through 3.10.2 contains a path traversal vulnerability in CrubadanCorpusReader. _load_lang_ngrams joins the corpus root with crubadan_code, the column-0 value read from the corpus table.txt mapping file, and opens the result with the builtin open() rather than the pathsec-validated opener, so os.path.join discards the root when that value is absolute and the read escapes the corpus directory without the containment check nltk.pathsec applies when ENFORCE is set. An attacker who controls a corpus package can disclose file contents outside the corpus root through lang_freq, limited to paths ending in -3grams.txt whose contents parse as token count lines.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71514",
-      "category": "security",
-      "severity": "low",
-      "cvss_score": 2.5,
-      "published_at": "2026-08-22T14:16:33.560000",
-      "created_at": "2026-08-23T05:18:39.948703+00:00"
-    },
-    {
-      "id": "b4d28906a7532471",
-      "content_hash": "b4d28906a75324710f75731443f4c38e8969c32334ca450158f5c8722625fd79",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-71513",
-      "title": "CVE-2026-71513 - NLTK before 3.10.3 contains a remote code execution vulnerability in AllowlistUn...",
-      "body": "NLTK before 3.10.3 contains a remote code execution vulnerability in AllowlistUnpickler that validates only the pickle module string and not the global name, allowing attackers to resolve dotted names by attribute traversal to callables outside the allowlisted namespace. Attackers can craft untrusted transition-parser models that execute arbitrary commands when TransitionParser.parse loads the model through allowlisted_pickle_load.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71513",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-22T14:16:33.417000",
-      "created_at": "2026-08-23T04:25:48.578519+00:00"
-    },
-    {
-      "id": "30511ee525851b59",
-      "content_hash": "30511ee525851b596ffd769a9d417f762d4312750fae1e0f4ba83b744fbed348",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-68769",
-      "title": "CVE-2026-68769 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering...",
-      "body": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68769",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-22T14:16:33.343000",
-      "created_at": "2026-08-23T02:16:58.423319+00:00"
-    },
-    {
-      "id": "d29c1527094e7af7",
-      "content_hash": "d29c1527094e7af760debc0044f65772b7754038440e93b662e3e64dd041d4ff",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-5093",
-      "title": "CVE-2026-5093 - The GreenShift – Animation and Page Builder Blocks plugin for WordPress is vulne...",
-      "body": "The GreenShift – Animation and Page Builder Blocks plugin for WordPress is vulnerable to unauthorized modification of data in versions up to, and including, 12.8.9. This is due to a missing capability check on the 'gspb_update_global_wp_settings' function that only verifies the 'edit_posts' capability instead of requiring administrative privileges. This makes it possible for authenticated attackers, with contributor-level access and above, to modify global WordPress theme color settings site-wide, leading to site defacement.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5093",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "published_at": "2026-08-22T14:16:33.210000",
-      "created_at": "2026-08-23T00:36:25.832525+00:00"
-    },
-    {
-      "id": "28d3da2e799f0015",
-      "content_hash": "28d3da2e799f001562b357ec0bf9de4595812d9f3eea5eb05811982ff17ae2d0",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-4561",
-      "title": "CVE-2026-4561 - The MC4WP: Mailchimp for WordPress plugin for WordPress is vulnerable to Stored ...",
-      "body": "The MC4WP: Mailchimp for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the form response message post meta fields (e.g., 'text_subscribed', 'text_error') in all versions up to, and including, 4.12.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4561",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-08-22T14:16:33.080000",
-      "created_at": "2026-08-23T00:36:25.832518+00:00"
     }
   ]
 }
