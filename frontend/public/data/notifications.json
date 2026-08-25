@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-25T19:21:39.309617+00:00",
+  "generated_at": "2026-08-25T20:15:31.360163+00:00",
   "items": [
+    {
+      "id": "3d0eb04ec87e988d",
+      "content_hash": "3d0eb04ec87e988d82996ab253ddb65bb358644cde5423e79a5eba64569708e3",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai",
+      "title": "Perplexity Portable Computer",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49439535\">Comments</a>",
+      "url": "https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T19:41:48+00:00",
+      "created_at": "2026-08-25T20:15:31.359868+00:00"
+    },
+    {
+      "id": "1655003847086257",
+      "content_hash": "1655003847086257e34b2d710d96e61038fb30f21562725af727506640c97077",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3156733",
+      "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
+      "body": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads post that it’s rolling out “First Draft,” a new editing feature that automatically trims selected video clips and removes pauses, pulling together the best moments into an initial cut.&#160; Instagram says the process can produce [&#8230;]",
+      "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T19:22:52+00:00",
+      "created_at": "2026-08-25T20:15:31.051340+00:00"
+    },
     {
       "id": "7ff57033e098f403",
       "content_hash": "7ff57033e098f403d429877d2bdd2417cd39d29f6bfbde145f12a7bfd23b3103",
@@ -14,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-08-25T19:07:01+00:00",
       "created_at": "2026-08-25T19:21:39.308941+00:00"
+    },
+    {
+      "id": "40d38026e080da4a",
+      "content_hash": "40d38026e080da4af00a5919fd37a236c8c06239d545457f65ecb4d5f9bc93db",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49439017\">Comments</a>",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T19:07:01+00:00",
+      "created_at": "2026-08-25T20:15:31.359435+00:00"
     },
     {
       "id": "cfa492c1e1727ea1",
@@ -4216,6 +4258,20 @@
       "created_at": "2026-08-24T22:13:44.227245+00:00"
     },
     {
+      "id": "031336603b7c5653",
+      "content_hash": "031336603b7c5653686e2afc5c4c3beb5356358891d52432fce4caa3bf0208d7",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.jack.bio/blog/costco-gas-tracking",
+      "title": "Tracking Costco gas prices",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49423045\">Comments</a>",
+      "url": "https://www.jack.bio/blog/costco-gas-tracking",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-24T17:21:20+00:00",
+      "created_at": "2026-08-25T20:15:31.359729+00:00"
+    },
+    {
       "id": "a47a30d6a563e899",
       "content_hash": "a47a30d6a563e899cdd977835bcc7008049ab2640d6d05c0d6825f0ce94604a0",
       "source_name": "CVE (NVD)",
@@ -6944,62 +7000,6 @@
       "cvss_score": 9.9,
       "published_at": "2026-08-24T10:16:39.767000",
       "created_at": "2026-08-25T02:11:19.853517+00:00"
-    },
-    {
-      "id": "b50c85dd71b4203f",
-      "content_hash": "b50c85dd71b4203f3edd8ab4fb2064cf55e8ef6ebdd966894c00cd2d9b743ea6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-16249",
-      "title": "CVE-2026-16249 - Rejected reason: This CVE ID is a duplicate of CVE-2026-15303 and was never publ...",
-      "body": "Rejected reason: This CVE ID is a duplicate of CVE-2026-15303 and was never published. Both IDs were assigned to the same vulnerability in the 6Storage Rentals WordPress plugin. All CVE users should reference CVE-2026-15303 instead of this ID.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16249",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T10:16:38.650000",
-      "created_at": "2026-08-25T00:34:55.898332+00:00"
-    },
-    {
-      "id": "650e39dffd1d37d8",
-      "content_hash": "650e39dffd1d37d8a24c244fba4a475d85ceff23e9b5a44aac11b371eaa7d686",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
-      "title": "Woman stranded in Spain after UK's eVisa system mistakes her for twin sister",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49417394\">Comments</a>",
-      "url": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T09:45:02+00:00",
-      "created_at": "2026-08-24T10:26:28.339004+00:00"
-    },
-    {
-      "id": "cceb7add93942a46",
-      "content_hash": "cceb7add93942a461ebc8b44e42083ed3b1a182a83cb3c28bff85d055181e147",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-      "body": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T09:42:05+00:00",
-      "created_at": "2026-08-24T10:26:23.931052+00:00"
-    },
-    {
-      "id": "2d7d70dc3344d34f",
-      "content_hash": "2d7d70dc3344d34fbb9b222cf26966a67d75a3fd5997fa8451fb27504f90077d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-78321",
-      "title": "CVE-2026-78321 - The HTTP media server on DJI drones does not enforce sufficient limits on incomi...",
-      "body": "The HTTP media server on DJI drones does not enforce sufficient limits on incoming connections or request rates. An attacker with access to the drone's internal network can exhaust the server's connection pool by repeatedly requesting a stored media file, preventing the server from handling legitimate requests and causing a denial of service that prevents the DJI Fly application from retrieving photos and videos from the aircraft in QuickTransfer mode.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\nRemediation requires a firmware update from the vendor.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78321",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T09:16:47.423000",
-      "created_at": "2026-08-25T00:34:55.898325+00:00"
     }
   ]
 }
