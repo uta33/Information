@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T03:43:16.926789+00:00",
+  "generated_at": "2026-08-26T04:29:21.865536+00:00",
   "items": [
     {
       "id": "433083c25881176e",
@@ -28,6 +28,20 @@
       "cvss_score": null,
       "published_at": "2026-08-26T03:17:51+00:00",
       "created_at": "2026-08-26T03:43:16.926368+00:00"
+    },
+    {
+      "id": "8d48dcb9969e66a2",
+      "content_hash": "8d48dcb9969e66a29bcbeea8a059cdee9dc8f34f5960f158f90296ace3c68365",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2607.21503",
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49443523\">Comments</a>",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-26T02:35:25+00:00",
+      "created_at": "2026-08-26T04:29:21.865002+00:00"
     },
     {
       "id": "c1e8e2508db20861",
@@ -1638,6 +1652,76 @@
       "cvss_score": null,
       "published_at": "2026-08-25T10:09:47+00:00",
       "created_at": "2026-08-25T10:20:16.103263+00:00"
+    },
+    {
+      "id": "c8992bda3c5a4e15",
+      "content_hash": "c8992bda3c5a4e155bdfc4c8adbf5b5bd295e0cdf7a2e146f8cd8f54a27086a2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77133",
+      "title": "CVE-2026-77133 - The extension fails to restrict which frontend usergroups a logged-in user may a...",
+      "body": "The extension fails to restrict which frontend usergroups a logged-in user may assign to their own account when the profile edit plugin uses its default field configuration, allowing self-service privilege escalation into arbitrary frontend groups.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77133",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33.697000",
+      "created_at": "2026-08-26T04:28:42.733950+00:00"
+    },
+    {
+      "id": "1fda2cc32ea8391b",
+      "content_hash": "1fda2cc32ea8391b6e1678fe4f10fe0add15b1507965fb05213e768fac1086b2",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77131",
+      "title": "CVE-2026-77131 - When OpenSSL is unavailable on the server, the extension transmits TYPO3 system ...",
+      "body": "When OpenSSL is unavailable on the server, the extension transmits TYPO3 system information in cleartext instead of encrypting it. Exploitation requires the attacker to already be in control of the SYSSY project's API key.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77131",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33.527000",
+      "created_at": "2026-08-26T04:28:42.733944+00:00"
+    },
+    {
+      "id": "ec5a212769cc3e1f",
+      "content_hash": "ec5a212769cc3e1f2d8458aef27f268b24cd111f013d6b56bfd4ea2cfdfdb3b6",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77130",
+      "title": "CVE-2026-77130 - The extension fails to properly validate the expiration of a client-supplied JWT...",
+      "body": "The extension fails to properly validate the expiration of a client-supplied JWT token, allowing an attacker in control of a valid API key to authenticate with an expired token. Exploitation requires the attacker to already be in control of the SYSSY project's API key.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77130",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33.360000",
+      "created_at": "2026-08-26T04:28:42.733938+00:00"
+    },
+    {
+      "id": "a5cb85d7d2929dfb",
+      "content_hash": "a5cb85d7d2929dfb54d8d8d8ceb7abdd934adb707aefb08b2e1f9c879ca3023f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77129",
+      "title": "CVE-2026-77129 - The extension passes an editor-configurable email subject string directly into a...",
+      "body": "The extension passes an editor-configurable email subject string directly into a Fluid template source without restriction. A backend user with edit access to the event plugin or Backend Module can supply Fluid ViewHelper syntax in this field to disclose sensitive data or execute TypoScript content objects. Exploitation of this issue requires an authenticated backend account with edit access to the event registration plugin or backend module.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77129",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33.200000",
+      "created_at": "2026-08-26T04:28:42.733932+00:00"
+    },
+    {
+      "id": "571c5be8b4a452a4",
+      "content_hash": "571c5be8b4a452a403193a50d67b5980401d8449a1f6629d3c7f45312505c391",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77128",
+      "title": "CVE-2026-77128 - The extension fails to enforce enable-field restrictions on a repository query p...",
+      "body": "The extension fails to enforce enable-field restrictions on a repository query parameter. An unauthenticated remote user can pass a demand-override parameter to view hidden or time-restricted events, unless the disableOverrideDemand plugin setting is active. Exploitation of this issue requires only that disableOverrideDemand is not enabled.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77128",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:33.033000",
+      "created_at": "2026-08-26T04:28:42.733926+00:00"
     },
     {
       "id": "38d3134500d58b3c",
@@ -6916,90 +7000,6 @@
       "cvss_score": 5.3,
       "published_at": "2026-08-24T16:16:55.530000",
       "created_at": "2026-08-25T14:33:03.151013+00:00"
-    },
-    {
-      "id": "7e31be743e879362",
-      "content_hash": "7e31be743e8793624be32b2dbd7f3d64edc19f2e2e36b6b2540c44f8196e2c3a",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-13212",
-      "title": "CVE-2026-13212 - The Zephyr virtio driver does not validate the descriptor-chain head id that the...",
-      "body": "The Zephyr virtio driver does not validate the descriptor-chain head id that the virtio device writes into the used ring. In virtio_isr() (drivers/virtio/virtio_common.c), the device-written vq->used->ring[idx].id is used directly as an index into vq->recv_cbs[] and vq->desc[], which are both allocated with exactly vq->num entries. recv_cbs[] holds {cb, opaque} callback entries, and the indexed callback pointer is then invoked as cbe.cb(cbe.opaque, used_len).\n\nBecause the id is consumed as a 16-bit value with no bound check, a malicious or compromised virtio backend (an untrusted hypervisor, or an untrusted hardware/peer-processor virtio device on a PCI or MMIO transport) can supply an id far beyond vq->num. This causes an out-of-bounds read of a {function pointer, argument} pair from heap memory beyond recv_cbs[], after which the driver calls that attacker-shaped pointer in the guest's interrupt context. No guest privileges or user interaction are required; the backend triggers it by writing the shared used ring and raising the queue interrupt.\n\nThe result is an arbitrary / attacker-influenced function-pointer call in the Zephyr guest, i.e. a control-flow-hijack primitive that can lead to code execution or, at minimum, a reliable crash. The fix rejects any used-ring id >= vq->num before indexing recv_cbs[]/desc[] or invoking the callback. This affects builds using CONFIG_VIRTIO with the PCI or MMIO transport.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13212",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-08-24T16:16:55.393000",
-      "created_at": "2026-08-25T14:33:03.151006+00:00"
-    },
-    {
-      "id": "ef19d864552f6c70",
-      "content_hash": "ef19d864552f6c70685ec924926ee211547082a8766270877b4d869ede64c4c3",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12556",
-      "title": "CVE-2026-12556 - Potential security vulnerabilities have been identified in HP Easy Start for mac...",
-      "body": "Potential security vulnerabilities have been identified in HP Easy Start for macOS, versions prior to 2.16.7.260722. These potential vulnerabilities may lead to escalation of privilege. HP is releasing updates to mitigate these potential vulnerabilities.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12556",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:16:55.263000",
-      "created_at": "2026-08-25T13:39:22.847497+00:00"
-    },
-    {
-      "id": "01647bc03b77b01c",
-      "content_hash": "01647bc03b77b01c5ab146c651d2b7ee6f16dc11afe0fe3aeee5a75064ecb987",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12555",
-      "title": "CVE-2026-12555 - Potential security vulnerabilities have been identified in HP Easy Start for mac...",
-      "body": "Potential security vulnerabilities have been identified in HP Easy Start for macOS, versions prior to 2.16.7.260722. These potential vulnerabilities may lead to escalation of privilege. HP is releasing updates to mitigate these potential vulnerabilities.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12555",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:16:55.130000",
-      "created_at": "2026-08-25T13:39:22.847492+00:00"
-    },
-    {
-      "id": "26ced205668ca39a",
-      "content_hash": "26ced205668ca39a9285d49f5db58044864a4a8803e5edc789a42dcaf9cbe70f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-12554",
-      "title": "CVE-2026-12554 - Potential security vulnerabilities have been identified in HP Easy Start for mac...",
-      "body": "Potential security vulnerabilities have been identified in HP Easy Start for macOS, versions prior to 2.16.7.260722. These potential vulnerabilities may lead to escalation of privilege. HP is releasing updates to mitigate these potential vulnerabilities.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12554",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:16:54.967000",
-      "created_at": "2026-08-25T13:39:22.847488+00:00"
-    },
-    {
-      "id": "d8695acfff9add28",
-      "content_hash": "d8695acfff9add2842962b6a29ac75f07563c0c36d64a6224df893837a8e1762",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-68825",
-      "title": "CVE-2025-68825 - HCL Hive is affected by incorrect default permissions which could allow an attac...",
-      "body": "HCL Hive is affected by incorrect default permissions which could allow an attacker unauthorized lateral movement, container breakout, and interception of sensitive internal communications.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68825",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-08-24T16:16:54.693000",
-      "created_at": "2026-08-25T13:39:22.847483+00:00"
-    },
-    {
-      "id": "48a666db81a3856a",
-      "content_hash": "48a666db81a3856a3def6773563ae485cc2407a63a432f21d582b3443c57a0eb",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://glassbox.codecanary.org",
-      "title": "Show HN: GlassBox – what the browser reveals, and how identifiable you are",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49421948\">Comments</a>",
-      "url": "https://glassbox.codecanary.org",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:15:10+00:00",
-      "created_at": "2026-08-24T17:20:48.294385+00:00"
     }
   ]
 }
