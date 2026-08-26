@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-26T05:22:20.352421+00:00",
+  "generated_at": "2026-08-26T06:26:54.616765+00:00",
   "items": [
+    {
+      "id": "10dbedc49d8edfaf",
+      "content_hash": "10dbedc49d8edfaff4b363a806a467f24bf2ad6f5730b42adf21eaa5de233587",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49444514\">Comments</a>",
+      "url": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-26T05:49:20+00:00",
+      "created_at": "2026-08-26T06:26:54.616158+00:00"
+    },
     {
       "id": "433083c25881176e",
       "content_hash": "433083c25881176eec7902cb37aea4b931bcd692578b43b3944b7e14fa97d457",
@@ -238,6 +252,20 @@
       "cvss_score": null,
       "published_at": "2026-08-25T20:49:03+00:00",
       "created_at": "2026-08-25T22:13:56.433269+00:00"
+    },
+    {
+      "id": "02873f2e84e2e6cf",
+      "content_hash": "02873f2e84e2e6cf22bfcf92a5c91c95e63d03cb08a957f8ef0907e83cc0f542",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "title": "When str.lower() is a security vulnerability in Python",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49440410\">Comments</a>",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "category": "it",
+      "severity": "high",
+      "cvss_score": null,
+      "published_at": "2026-08-25T20:49:03+00:00",
+      "created_at": "2026-08-26T06:26:54.616315+00:00"
     },
     {
       "id": "3064b39a824b6f1a",
@@ -1666,6 +1694,62 @@
       "cvss_score": null,
       "published_at": "2026-08-25T10:09:47+00:00",
       "created_at": "2026-08-25T10:20:16.103263+00:00"
+    },
+    {
+      "id": "21afb8e2900dc43c",
+      "content_hash": "21afb8e2900dc43c077ac7186ebaf1cf6b486c27970bee3822ceb6dda1460514",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77143",
+      "title": "CVE-2026-77143 - The frontend topic editing flow does not verify on the server side that the requ...",
+      "body": "The frontend topic editing flow does not verify on the server side that the requesting visitor owns the topic being modified. As a result, a visitor who knows the identifier of a topic from the public forum can submit a modified update request for that topic directly and overwrite its content, without the application confirming ownership. Topic identifiers are visible in the public forum listing, and exploitation requires no privileged access or non-default configuration.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77143",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:35.333000",
+      "created_at": "2026-08-26T06:26:50.928855+00:00"
+    },
+    {
+      "id": "890d1c491b6df831",
+      "content_hash": "890d1c491b6df8314b228bcfd88700adc35ccc74cf0973c8c30e2365652e7518",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77142",
+      "title": "CVE-2026-77142 - The frontend company self-service editing feature relies on a template-level vis...",
+      "body": "The frontend company self-service editing feature relies on a template-level visibility flag to hide the edit form for company records a visitor does not own, but the corresponding write operation does not repeat this ownership check on the server side. As a result, a visitor who knows the identifier of a company record from the public directory can submit a modified update request for that record directly and overwrite its data, without the application ever confirming that the visitor owns it.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77142",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:35.133000",
+      "created_at": "2026-08-26T06:26:50.928850+00:00"
+    },
+    {
+      "id": "2821013d3cdd92c0",
+      "content_hash": "2821013d3cdd92c0ae904d2260fd78b48c71b7aff3bc7ec35ea0b75045f81b03",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77141",
+      "title": "CVE-2026-77141 - The extension resolves the targeted club record from a user-supplied request arg...",
+      "body": "The extension resolves the targeted club record from a user-supplied request argument in its frontend edit, update, and activate actions, but performs no ownership check in any of them. An unauthenticated visitor who knows the UID of a club record can send a direct request to the update or activate action and overwrite that record, or publish one still awaiting approval, without owning it.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77141",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:34.960000",
+      "created_at": "2026-08-26T06:26:50.928844+00:00"
+    },
+    {
+      "id": "3ee65370dffb9400",
+      "content_hash": "3ee65370dffb94005faff883038e55861e4cc5711893a958f0af6e70a8921123",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-77140",
+      "title": "CVE-2026-77140 - The extension validates the HMAC of a frontend employee edit link only in the ac...",
+      "body": "The extension validates the HMAC of a frontend employee edit link only in the action that renders the edit form, not in the action that persists the change. An unauthenticated visitor who knows the UID of a visible employee record can send a direct POST request to the update action and overwrite that record without a valid edit link or any ownership check.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77140",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-25T09:17:34.807000",
+      "created_at": "2026-08-26T06:26:50.928839+00:00"
     },
     {
       "id": "1f53b2d4b58bd5b7",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-24T16:46:56+00:00",
       "created_at": "2026-08-24T17:20:48.294442+00:00"
-    },
-    {
-      "id": "6412bbdf054c3179",
-      "content_hash": "6412bbdf054c31791d9a431dc9878658730071bbfa889d32a27097c5b13cf0f4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://github.com/ovenpasta/adi2",
-      "title": "Show HN: A Modern GUI Library for Ada: CSS Styling, XML UI, SDL3",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49422243\">Comments</a>",
-      "url": "https://github.com/ovenpasta/adi2",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:30:51+00:00",
-      "created_at": "2026-08-24T17:20:48.294370+00:00"
-    },
-    {
-      "id": "2b137b2573dc7a8c",
-      "content_hash": "2b137b2573dc7a8c510c773b16519f52920fa3fae7d9fc43e4c4f54edc4b2607",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2608.16603",
-      "title": "Public services are increasingly strained by LLM-written appeals for benefits",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49422227\">Comments</a>",
-      "url": "https://arxiv.org/abs/2608.16603",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:30:21+00:00",
-      "created_at": "2026-08-24T17:20:48.294241+00:00"
-    },
-    {
-      "id": "4019859e9def2964",
-      "content_hash": "4019859e9def29640c4df0c0ebae5344db4ec9fe29587ab0fa8c9ac66c58509f",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://arxiv.org/abs/2608.16603",
-      "title": "Characterizing Agentic Flooding of Government Services",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49422227\">Comments</a>",
-      "url": "https://arxiv.org/abs/2608.16603",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:30:21+00:00",
-      "created_at": "2026-08-25T03:38:14.830936+00:00"
-    },
-    {
-      "id": "64d49127eb97a7c2",
-      "content_hash": "64d49127eb97a7c2571e62ad6294a0bfffdef0067e1c2d2a40f71f64eb7438e4",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://dejan.ai/blog/ox-alpha/",
-      "title": "Ox-Alpha Is GLM?",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49422226\">Comments</a>",
-      "url": "https://dejan.ai/blog/ox-alpha/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:30:16+00:00",
-      "created_at": "2026-08-25T04:27:32.660316+00:00"
-    },
-    {
-      "id": "71378bdb4453e873",
-      "content_hash": "71378bdb4453e873623ce5e5b51f0b29151af4f6c89011918abac061f509800d",
-      "source_name": "Hacker News (Best)",
-      "external_id": "https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure",
-      "title": "A Blackstone real estate company exposed SSN digits, DOBs, addresses and more",
-      "body": "<a href=\"https://news.ycombinator.com/item?id=49422204\">Comments</a>",
-      "url": "https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:29:00+00:00",
-      "created_at": "2026-08-24T17:20:48.294256+00:00"
-    },
-    {
-      "id": "ae58472880a64469",
-      "content_hash": "ae58472880a644690b3f3b1953104236d1f02cd27b4fe1d4faf033e4686be41d",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-78416",
-      "title": "CVE-2026-78416 - Craft CMS versions from 4.0.0-RC1 before 4.18.2 and from 5.0.0-RC1 before 5.10.6...",
-      "body": "Craft CMS versions from 4.0.0-RC1 before 4.18.2 and from 5.0.0-RC1 before 5.10.6 contain an authenticated remote code execution vulnerability in control panel element-search condition handling. A JSON cleanse bypass in condition.config allows Yii behavior/event configuration keys to be interpreted after decoding, enabling command execution as the PHP/web user.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78416",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-24T16:17:24.250000",
-      "created_at": "2026-08-25T15:32:13.598388+00:00"
     }
   ]
 }
