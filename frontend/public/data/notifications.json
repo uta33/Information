@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-30T22:59:09.320818+00:00",
+  "generated_at": "2026-08-31T01:06:11.148108+00:00",
   "items": [
+    {
+      "id": "4a59d62f874f13eb",
+      "content_hash": "4a59d62f874f13eb0c3821b55db9e6a43a4b87a4ea2c5bdd2fd44d5beb3e549e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.japantimes.co.jp/business/2026/08/29/markets/yen-160-dollar-intervention/",
+      "title": "Yen weakens past ¥160 per dollar, eroding intervention gains",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49504352\">Comments</a>",
+      "url": "https://www.japantimes.co.jp/business/2026/08/29/markets/yen-160-dollar-intervention/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-31T00:37:47+00:00",
+      "created_at": "2026-08-31T01:06:11.147710+00:00"
+    },
+    {
+      "id": "446499d0c5eb49d4",
+      "content_hash": "446499d0c5eb49d4fca4a45dff544e84f28821ff6fe13b21caa3750b97a09076",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "title": "“I just chose words carefully”",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49503601\">Comments</a>",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-08-30T22:49:48+00:00",
+      "created_at": "2026-08-31T01:06:11.147351+00:00"
+    },
     {
       "id": "a795ecbbef09c9db",
       "content_hash": "a795ecbbef09c9db52f44edd7de053254a9392b2821889f75dcac2404acd7dc0",
@@ -226,6 +254,34 @@
       "created_at": "2026-08-30T20:13:00.448198+00:00"
     },
     {
+      "id": "f8a61a35b7ceb09b",
+      "content_hash": "f8a61a35b7ceb09b57e8cf09ebf405f77b309daba90d5d066eae2b4da94832cf",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-82547",
+      "title": "CVE-2026-82547 - A vulnerability was found in Linux Foundation Magma 1.9.0. The affected element ...",
+      "body": "A vulnerability was found in Linux Foundation Magma 1.9.0. The affected element is an unknown function of the file tasks/amf/amf_fsm.cpp of the component Registration Complete Message Handler. The manipulation results in improper authentication. The attack can be launched remotely. The exploit has been made public and could be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82547",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.5,
+      "published_at": "2026-08-30T15:16:44.237000",
+      "created_at": "2026-08-31T01:06:05.239635+00:00"
+    },
+    {
+      "id": "ee7d7882ee4546b9",
+      "content_hash": "ee7d7882ee4546b91365a7170e8591dc3b060bf7ea4cfbf38f9f793ca4f12938",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-82545",
+      "title": "CVE-2026-82545 - A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. I...",
+      "body": "A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. Impacted is an unknown function of the file /pages/sup_searchfrm.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82545",
+      "category": "security",
+      "severity": "medium",
+      "cvss_score": 6.3,
+      "published_at": "2026-08-30T15:16:43.290000",
+      "created_at": "2026-08-31T01:06:05.239628+00:00"
+    },
+    {
       "id": "2a9655260946f4f2",
       "content_hash": "2a9655260946f4f2ede815a038e8edd3a3f372be3992274a8f4f3364ef0f7be8",
       "source_name": "Hacker News (Best)",
@@ -322,6 +378,20 @@
       "cvss_score": null,
       "published_at": "2026-08-30T14:17:44+00:00",
       "created_at": "2026-08-30T17:02:20.681792+00:00"
+    },
+    {
+      "id": "1b332f9d3a09983e",
+      "content_hash": "1b332f9d3a09983ef43047de6bf2521e8b471acb52621248cfe2421987a469b3",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-82642",
+      "title": "CVE-2026-82642 - Readest is an open-source e-book reader built on Tauri. In versions prior to 0.1...",
+      "body": "Readest is an open-source e-book reader built on Tauri. In versions prior to 0.11.16, EPUB chapter HTML is sanitized with DOMPurify using a configuration that forbade only the <script> tag (FORBID_TAGS: ['script']) in apps/readest-app/src/services/transformers/sanitizer.ts. DOMPurify does not parse the contents of the srcdoc attribute on <iframe> elements, treating it as an opaque string attribute, so an attacker who can get an <iframe> element to survive sanitization can embed a complete HTML document containing a <script> tag inside srcdoc and have it execute when the browser renders the iframe. The content iframe is configured with sandbox=\"allow-same-origin allow-scripts\", so script executing inside it shares the parent origin and can reach parent.parent.__TAURI_INTERNALS__.invoke(...), giving access to every Tauri IPC command the application is permitted to use, which escalates to arbitrary code execution. The payload can be made invisible (zero-size, transparent iframe) so the reader sees only normal book text. Version 0.11.16 hardened the sanitizer configuration by adding 'iframe', 'object' and 'embed' to FORBID_TAGS and adding 'srcdoc' to FORBID_ATTR.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82642",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-08-30T14:17:04.193000",
+      "created_at": "2026-08-31T01:06:05.239620+00:00"
     },
     {
       "id": "c58f93eaf6322702",
@@ -6930,76 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-08-28T07:01:00+00:00",
       "created_at": "2026-08-28T19:43:48.354425+00:00"
-    },
-    {
-      "id": "938a5f3842036d48",
-      "content_hash": "938a5f3842036d4857f64c5fd6263cf1769067c5c25ec53cd12f07e7dfaf14cf",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030800.html",
-      "title": "アドビのAdobe Substance 3D Designerにおける境界外書き込みに関する脆弱性",
-      "body": "Substance3D - Designerには、現在のユーザーのコンテキストで任意のコードを実行させる可能性のある境界外書き込みの脆弱性があります。この問題を悪用するには、被害者が悪意のあるファイルを開くというユーザーの操作を行う必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030800.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-28T07:01:00+00:00",
-      "created_at": "2026-08-28T19:43:48.354439+00:00"
-    },
-    {
-      "id": "892eb43afd8ca6d6",
-      "content_hash": "892eb43afd8ca6d677049807b348b9c011f7c5124fabe25a3085a0d8dfb4b672",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030799.html",
-      "title": "アドビのAdobe Substance 3D Designerにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "Substance3D - Designerは、ヒープベースのバッファオーバーフローの脆弱性の影響を受けており、これにより現在のユーザーのコンテキストで任意のコードが実行される可能性があります。この問題を悪用するにはユーザーの操作が必要であり、被害者が悪意のあるファイルを開かなければなりません。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030799.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-28T07:01:00+00:00",
-      "created_at": "2026-08-28T19:43:48.354458+00:00"
-    },
-    {
-      "id": "9e76c3e44012dfee",
-      "content_hash": "9e76c3e44012dfee5c3957224aa76536c91ed4e1db8fcbe54658b88c10c322e8",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030798.html",
-      "title": "アドビのAdobe Substance 3D DesignerにおけるNULL ポインタデリファレンスに関する脆弱性",
-      "body": "Substance3D - Designer は NULL ポインタ参照の脆弱性の影響を受けており、これによりアプリケーションがサービス拒否（DoS）を引き起こす可能性があります。攻撃者はこの脆弱性を悪用してアプリケーションをクラッシュさせ、サービス拒否の状態を発生させることができます。この問題を悪用するには、被害者が悪意のあるファイルを開くというユーザーの操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030798.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-28T07:01:00+00:00",
-      "created_at": "2026-08-28T19:43:48.354487+00:00"
-    },
-    {
-      "id": "262369f15c00bb4b",
-      "content_hash": "262369f15c00bb4bc7b285156e18964b92b1b5e71c0e48b99b2a25084a1df353",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030797.html",
-      "title": "アドビのAdobe Substance 3D Designerにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "Substance3D - Designer は、ヒープベースのバッファオーバーフローの脆弱性の影響を受けており、現在のユーザーのコンテキストで任意のコードが実行される可能性があります。この問題を悪用するには、被害者が悪意のあるファイルを開く必要があるため、ユーザーが操作を行う必要があります。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030797.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-28T07:01:00+00:00",
-      "created_at": "2026-08-28T19:43:48.354502+00:00"
-    },
-    {
-      "id": "f26466dd7836fead",
-      "content_hash": "f26466dd7836fead09ba801e221eba5ecac7dc061961d05dd36360efe7b56bb7",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030796.html",
-      "title": "アドビのAdobe Substance 3D Designerにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "body": "Substance3D - Designerは、ヒープベースのバッファオーバーフローの脆弱性に影響を受けており、これにより現在のユーザー権限で任意のコードが実行される可能性があります。この問題を悪用するには、被害者が悪意のあるファイルを開くというユーザー操作が必要です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-030796.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-08-28T07:01:00+00:00",
-      "created_at": "2026-08-28T19:43:48.354517+00:00"
     }
   ]
 }
