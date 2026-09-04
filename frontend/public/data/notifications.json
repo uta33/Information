@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-03T23:38:38.867808+00:00",
+  "generated_at": "2026-09-04T01:48:22.603502+00:00",
   "items": [
+    {
+      "id": "98450d50526691aa",
+      "content_hash": "98450d50526691aa3dfb9206268620b96ee34aec540835e5616df4a093266e48",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3160771",
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "body": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-04T00:48:42+00:00",
+      "created_at": "2026-09-04T01:48:22.349322+00:00"
+    },
     {
       "id": "37a909bfba2c32ec",
       "content_hash": "37a909bfba2c32ec30c7b2d288e3100b0460f500ee782ba6c3bbc2d61a5227a6",
@@ -28,6 +42,20 @@
       "cvss_score": null,
       "published_at": "2026-09-03T22:37:31+00:00",
       "created_at": "2026-09-03T23:38:38.867281+00:00"
+    },
+    {
+      "id": "3b1ab8f8e9ff31f5",
+      "content_hash": "3b1ab8f8e9ff31f593eb527d04f2df7a7092fe57aa83b40cf6149d0b2517e9a2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
+      "title": "GLP-1s are being linked to fewer serious infections, including TB",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49558086\">Comments</a>",
+      "url": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-03T22:37:31+00:00",
+      "created_at": "2026-09-04T01:48:22.603000+00:00"
     },
     {
       "id": "4bb4e6731d6c2ea7",
@@ -154,6 +182,20 @@
       "cvss_score": null,
       "published_at": "2026-09-03T19:42:48+00:00",
       "created_at": "2026-09-03T21:28:33.976031+00:00"
+    },
+    {
+      "id": "3cacaf010830abde",
+      "content_hash": "3cacaf010830abdee116666a66bfe161750aa25d7b980c884c479d839aad19b5",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49555592",
+      "title": "Ask HN: Are others seeing Google's reCAPTCHA rejecting Firefox users?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49555592\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49555592",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-03T19:38:46+00:00",
+      "created_at": "2026-09-04T01:48:22.603101+00:00"
     },
     {
       "id": "658ffd55e795de80",
@@ -1596,6 +1638,20 @@
       "cvss_score": null,
       "published_at": "2026-09-03T11:58:00+00:00",
       "created_at": "2026-09-03T14:46:28.139245+00:00"
+    },
+    {
+      "id": "22b8669379f1c0c7",
+      "content_hash": "22b8669379f1c0c7aecfbff48721e2e1ec7ad7340e4c3030f3d5f5cdbf337cd1",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://news.ycombinator.com/item?id=49548600",
+      "title": "Ask HN: Who is using MCP in production?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49548600\">Comments</a>",
+      "url": "https://news.ycombinator.com/item?id=49548600",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-03T11:21:18+00:00",
+      "created_at": "2026-09-04T01:48:22.603135+00:00"
     },
     {
       "id": "07bd8160ba4df1dd",
@@ -6050,6 +6106,20 @@
       "created_at": "2026-09-03T21:28:34.299254+00:00"
     },
     {
+      "id": "0993640efd1c3f54",
+      "content_hash": "0993640efd1c3f5446c17afb5728b4ae17153a6e2633332cf6ce690e3943f296",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://monfak.top/blog/posts/dextroproporphan",
+      "title": "Dextroproporphan: An Analogue for a Better Dextromethorphan?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49534573\">Comments</a>",
+      "url": "https://monfak.top/blog/posts/dextroproporphan",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-02T11:06:05+00:00",
+      "created_at": "2026-09-04T01:48:22.603289+00:00"
+    },
+    {
       "id": "29cf8da9043a14c7",
       "content_hash": "29cf8da9043a14c747d47ba2752cab3b96e5f6a1a58338038e24f3579c918391",
       "source_name": "Hacker News (Best)",
@@ -6930,76 +7000,6 @@
       "cvss_score": 6.8,
       "published_at": "2026-09-02T06:17:15.700000",
       "created_at": "2026-09-03T05:17:24.998057+00:00"
-    },
-    {
-      "id": "bef2ff1ef86c3d66",
-      "content_hash": "bef2ff1ef86c3d66b74108212206d12964369d4b4ed32692f747ee103a2f393e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15663",
-      "title": "CVE-2025-15663 - The Ultimate Before After Image Slider & Gallery  WordPress plugin before 4.7.19...",
-      "body": "The Ultimate Before After Image Slider & Gallery  WordPress plugin before 4.7.19 does not properly escape the slider's after-label value before its bundled client-side script re-injects it into the DOM, allowing users with the Author role and above to store a payload that executes in the browser of anyone (including an administrator) who views the slider.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15663",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.8,
-      "published_at": "2026-09-02T06:17:14.587000",
-      "created_at": "2026-09-03T05:17:24.998050+00:00"
-    },
-    {
-      "id": "8716cda4e57f1f79",
-      "content_hash": "8716cda4e57f1f7907e3fd5691391da7764e10673ece6756cdec90c4d166203d",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031531.html",
-      "title": "VMwareのSpring Integrationにおける高圧縮データの処理 (データ増幅)に関する脆弱性",
-      "body": "UnZipTransformer は、アーカイブを処理する際に解凍後のエントリサイズやエントリ数の制限を行っていません。そのため、攻撃者はJVMのヒープメモリを枯渇させることができるzipアーカイブを送信し、サービス拒否（DoS）障害を引き起こす可能性があります。対応バージョンは、Spring Integration 7.1.0、Spring Integration 7.0.0 から 7.0.5、Spring Integration 6.5.0 から 6.5.10、および Spring Integration 6.4.0 から 6.4.12 です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031531.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-02T05:52:00+00:00",
-      "created_at": "2026-09-02T11:49:19.910913+00:00"
-    },
-    {
-      "id": "bef1ebc68357ea0f",
-      "content_hash": "bef1ebc68357ea0f0fee167e076a3267213d6f82d9031db4367a3cbb47eb2fd4",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031530.html",
-      "title": "VMwareのSpring AMQPにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-      "body": "単一の悪意あるAMQPメッセージがリスナースレッドだけでなく消費者JVM全体を終了させる（System.exit(99)）可能性があり、そのプロセス内に共存するすべてのワークロードに対して完全な可用性の喪失を引き起こします。対象となるSpring AMQPのバージョンは、4.1.0、4.0.0から4.0.4、3.2.0から3.2.12、2.4.18およびそれ以前のものです。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031530.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-02T05:52:00+00:00",
-      "created_at": "2026-09-02T11:49:19.910949+00:00"
-    },
-    {
-      "id": "722d8c201166e8d0",
-      "content_hash": "722d8c201166e8d01ca128be432da002ba4d3787f9ea616b5e1a6fe53e1c8f8b",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031529.html",
-      "title": "VMwareのspring for apache kafkaにおけるサーバサイドのリクエストフォージェリの脆弱性",
-      "body": "JsonKafkaHeaderMapper と DefaultKafkaHeaderMapper は、そのデフォルトの信頼されたパッケージリストに java.net を含んでいます。これらのマッパーが使用される場合（これはすべての @KafkaListener コンシューマのデフォルト設定です）、外部の Kafka プロデューサーは spring_json_header_types メッセージヘッダーを介して java.net.InetAddress 型を注入することが可能です。対象バージョンは以下の通りです。Spring for Apache Kafka 4.1.0、Spring for Apache Kafka 4.0.0 から 4.0.6、Spring for Apache Kafka 3.0.0 から 3.3.16、Spring for Apache Kafka 2.9.0 から 2.9.14、および Spring for Apache Kafka 2.8.12 以前です。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031529.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-02T05:52:00+00:00",
-      "created_at": "2026-09-02T11:49:19.910971+00:00"
-    },
-    {
-      "id": "a8b4e17645e1560e",
-      "content_hash": "a8b4e17645e1560e76815435ed052448f9b70a1ccc9bff8ecadf6de8f61aeda1",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031528.html",
-      "title": "VMwareのSpring Frameworkにおけるパストラバーサルの脆弱性",
-      "body": "Spring FrameworkのFreeMarker統合を使用しているアプリケーションは、コントローラーが信頼されていない入力に基づいて派生したビュー名を返し、かつFreeMarkerがSpringTemplateLoaderを介してテンプレートを解決するように構成されている場合に、パストラバーサル攻撃の脆弱性が存在する可能性があります。対象となるSpring Frameworkのバージョンは以下の通りです。- Spring Framework 7.0.0 から 7.0.8まで- Spring Framework 6.2.0 から 6.2.19まで- Spring Framework 6.1.0 から 6.1.28まで- Spring Framework 6.0.0 から 6.0.30まで- Spring Framework 5.3.0 から 5.3.49まで- Spring Framework 5.2.25.RELEASE およびそれ以前のバージョンに該当します。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-031528.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-02T05:52:00+00:00",
-      "created_at": "2026-09-02T11:49:19.910989+00:00"
     }
   ]
 }
