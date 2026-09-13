@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:53:46.249591+00:00",
+  "generated_at": "2026-09-13T23:44:26.725224+00:00",
   "items": [
     {
       "id": "706f19ef7f02f050",
@@ -16,6 +16,48 @@
       "created_at": "2026-09-12T01:57:40.082034+00:00"
     },
     {
+      "id": "e37a744b3dacf70c",
+      "content_hash": "e37a744b3dacf70cdd4d50ef83a77c96f994552b23062b2376efbe5832660028",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://openai.com/index/better-language-models/",
+      "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49689706\">Comments</a>",
+      "url": "https://openai.com/index/better-language-models/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T23:11:17+00:00",
+      "created_at": "2026-09-13T23:44:26.724524+00:00"
+    },
+    {
+      "id": "95c5c683084c1e3b",
+      "content_hash": "95c5c683084c1e3b360843d200dd1b24b32b7f2930b1e6ac26a852dd128bbb51",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "title": "The Contagion of Fear",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49689460\">Comments</a>",
+      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T22:38:18+00:00",
+      "created_at": "2026-09-13T23:44:26.724391+00:00"
+    },
+    {
+      "id": "6660bda0971ef538",
+      "content_hash": "6660bda0971ef53816cf505dd8c639479e2527fe6216ca35bba60d5382be944a",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49689048\">Comments</a>",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T21:47:04+00:00",
+      "created_at": "2026-09-13T23:44:26.724461+00:00"
+    },
+    {
       "id": "1b2ebafe8c45e2b1",
       "content_hash": "1b2ebafe8c45e2b1427d54c97e352a4854a7b075f1b65882606089ad01917324",
       "source_name": "TechCrunch",
@@ -30,6 +72,34 @@
       "created_at": "2026-09-13T21:53:46.141081+00:00"
     },
     {
+      "id": "146d1da7530f6599",
+      "content_hash": "146d1da7530f65991868a83be6e9b0aedfdfec8c412b01b50a792ef7a4f73db8",
+      "source_name": "TechCrunch",
+      "external_id": "https://techcrunch.com/?p=3163457",
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "body": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
+      "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T21:30:00+00:00",
+      "created_at": "2026-09-13T23:44:26.506092+00:00"
+    },
+    {
+      "id": "4b3e9e7e74a094b0",
+      "content_hash": "4b3e9e7e74a094b05b0a46111be18f348ffe84a9d9fd0ee33183c9a3148c5a9e",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://cacm.acm.org/blogcacm/why-is-privacy-so-hard/",
+      "title": "Why is privacy so hard?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49688766\">Comments</a>",
+      "url": "https://cacm.acm.org/blogcacm/why-is-privacy-so-hard/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T21:13:43+00:00",
+      "created_at": "2026-09-13T23:44:26.724771+00:00"
+    },
+    {
       "id": "b23eaecf95c774b6",
       "content_hash": "b23eaecf95c774b6b37506151490f636c49a27c3dd65f08e943af816abef111e",
       "source_name": "Hacker News (Best)",
@@ -42,6 +112,20 @@
       "cvss_score": null,
       "published_at": "2026-09-13T21:06:13+00:00",
       "created_at": "2026-09-13T21:53:46.249044+00:00"
+    },
+    {
+      "id": "184b7e22415ac0fb",
+      "content_hash": "184b7e22415ac0fbe3f767647f6b304f7070bf690127ad71327b1544a003b109",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49688695\">Comments</a>",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T21:06:13+00:00",
+      "created_at": "2026-09-13T23:44:26.724334+00:00"
     },
     {
       "id": "3901f66fc54094a5",
@@ -532,6 +616,20 @@
       "cvss_score": null,
       "published_at": "2026-09-13T11:47:23+00:00",
       "created_at": "2026-09-13T12:26:55.088673+00:00"
+    },
+    {
+      "id": "689ca245d1d7000d",
+      "content_hash": "689ca245d1d7000da535fb49ba13c2d883dee4dec8d03cdc64912960042f0183",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-90770",
+      "title": "CVE-2026-90770 - Spug through 3.4.0 contains a remote code execution vulnerability in the ping_ch...",
+      "body": "Spug through 3.4.0 contains a remote code execution vulnerability in the ping_check function that interpolates user-supplied monitor addresses directly into shell commands without validation. Authenticated users with monitor permissions can inject shell metacharacters via the /monitor/run_test/ endpoint to execute arbitrary commands as the Spug process user.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90770",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "published_at": "2026-09-13T11:17:01.453000",
+      "created_at": "2026-09-13T23:44:22.939601+00:00"
     },
     {
       "id": "afea495465d89fed",
@@ -6902,104 +7000,6 @@
       "cvss_score": 8.1,
       "published_at": "2026-09-11T12:16:53.960000",
       "created_at": "2026-09-12T11:21:33.625918+00:00"
-    },
-    {
-      "id": "9a1395c3c69c1508",
-      "content_hash": "9a1395c3c69c150884d61b9c0739c24610e838585c5b42223b04022fe8567ca1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-89242",
-      "title": "CVE-2026-89242 - WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a s...",
-      "body": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a server-side request forgery vulnerability in the _json_decode function that fetches remote URLs and local file paths without SSRF validation. Unauthenticated attackers can POST file paths or HTTP URLs to login.json.php to read local files or access internal services, with results parsed as login credentials.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89242",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-09-11T12:16:53.803000",
-      "created_at": "2026-09-12T11:21:33.625910+00:00"
-    },
-    {
-      "id": "29bb6d8c5d434632",
-      "content_hash": "29bb6d8c5d4346327b5ad0b54c5d072f07e712d530193866541475f79a544cbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-89241",
-      "title": "CVE-2026-89241 - WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a r...",
-      "body": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a reflected cross-site scripting vulnerability in confirmLivePassword.php that copies REQUEST_URI into a form action attribute without encoding. Attackers can craft a malicious URL with a quote character to break out of the action attribute and inject event handlers that execute in the victim's browser within the site origin.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89241",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-09-11T12:16:53.650000",
-      "created_at": "2026-09-12T11:21:33.625900+00:00"
-    },
-    {
-      "id": "84e368ece73e2a79",
-      "content_hash": "84e368ece73e2a79c5ca99849fe755f74ca22bd1c64caf7cd6d28f8d52c495f6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-89240",
-      "title": "CVE-2026-89240 - WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a r...",
-      "body": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a reflected cross-site scripting vulnerability in plugin/Live/confirmLivePassword.php. The script interpolates the unauthenticated GET parameter u (which is not covered by $securityFilter) directly into an <img src=\"...\"> attribute without URL- or HTML-encoding. A remote attacker can craft a link containing a double-quote character in u (with a non-empty key parameter and no valid c parameter) to close the src attribute and inject an additional tag with an onerror handler, executing arbitrary JavaScript in the site's origin in the browser of any user, including an administrator, who opens the link. No patched version was available at the time of the advisory.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89240",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-09-11T12:16:53.493000",
-      "created_at": "2026-09-12T11:21:33.625894+00:00"
-    },
-    {
-      "id": "fd3f734194749977",
-      "content_hash": "fd3f73419474997712552e513616d8ded2aafe338352e10048b64a1a924eec5e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-89239",
-      "title": "CVE-2026-89239 - WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a r...",
-      "body": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a reflected cross-site scripting vulnerability in the showAlertMessage() function that inserts the raw Referer header into a JavaScript comment without encoding. Attackers can craft a Referer header containing */ to close the comment and inject arbitrary JavaScript that executes in the site origin for visitors arriving from the attacker-controlled page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89239",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "published_at": "2026-09-11T12:16:53.327000",
-      "created_at": "2026-09-12T11:21:33.625888+00:00"
-    },
-    {
-      "id": "975a89cc7f0ab459",
-      "content_hash": "975a89cc7f0ab459ce3e76233c363e44d8956ed83d90955f3f14c6d76a427ae7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-89148",
-      "title": "CVE-2026-89148 - AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains an open ...",
-      "body": "AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains an open redirect in objects/playlistSort.php. Because the endpoint is not a *.json.php script, AVideo's automatic CSRF guard (autoCSRFGuard()/forbidIfIsUntrustedRequest()) does not run, and when the request includes the sort parameter the script issues a Location header set to the unvalidated $_SERVER['HTTP_REFERER'] value without calling isSafeRedirectURL(). A remote unauthenticated attacker can therefore induce a logged-in user who can manage the targeted playlist to submit a cross-origin POST with a crafted Referer, causing the victim's playlist to be reordered and the victim's browser to be redirected from a trusted AVideo URL to an attacker-controlled site for phishing. No patched version is available.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89148",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.4,
-      "published_at": "2026-09-11T12:16:53.170000",
-      "created_at": "2026-09-12T11:21:33.625881+00:00"
-    },
-    {
-      "id": "1a6be89563de4aa9",
-      "content_hash": "1a6be89563de4aa91cf52cba7084e8989def0f1e012b946e504afcc7fa0ad925",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-87776",
-      "title": "CVE-2026-87776 - compression is a Node.js and Express compression middleware. In versions before ...",
-      "body": "compression is a Node.js and Express compression middleware. In versions before 1.8.2, when a client aborts the connection while a compressed response is still being sent, the zlib stream created to compress that response is never destroyed, so each aborted compressed response leaks its native zlib memory. A remote unauthenticated attacker can repeatedly open requests and disconnect early, exhausting the available memory and crashing the server. All applications using compression are affected. The issue is fixed in compression 1.8.2, and users should upgrade to 1.8.2 or later.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87776",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.5,
-      "published_at": "2026-09-11T12:16:52.530000",
-      "created_at": "2026-09-12T11:21:33.625875+00:00"
-    },
-    {
-      "id": "a916b6afb48b85f5",
-      "content_hash": "a916b6afb48b85f5a8bfa2ced22b5ee1bf6661bb2d325e39775afa02bca42377",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-86793",
-      "title": "CVE-2026-86793 - SGLang allows unauthenticated pickle deserialization through /update_weights_fro...",
-      "body": "SGLang allows unauthenticated pickle deserialization through /update_weights_from_tensor when no auth keys are configured, and the SafeUnpickler policy can be bypassed because builtins.import and builtins.getattr are resolvable, enabling code execution via pickle REDUCE.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86793",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T12:16:52.427000",
-      "created_at": "2026-09-12T11:21:33.625868+00:00"
     }
   ]
 }
