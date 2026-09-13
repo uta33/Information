@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:43:23.763236+00:00",
+  "generated_at": "2026-09-13T19:03:35.219083+00:00",
   "items": [
     {
       "id": "706f19ef7f02f050",
@@ -16,6 +16,76 @@
       "created_at": "2026-09-12T01:57:40.082034+00:00"
     },
     {
+      "id": "d8a0b958916c9ae7",
+      "content_hash": "d8a0b958916c9ae73bc679b47279363b129dfdfaf7bb0330adc36fdaadea0f0d",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=koclOnlde0E",
+      "title": "Flock cameras used to arrest a child for playing on a swing",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49687312\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=koclOnlde0E",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T18:47:26+00:00",
+      "created_at": "2026-09-13T19:03:35.218651+00:00"
+    },
+    {
+      "id": "ef749abcbea045dc",
+      "content_hash": "ef749abcbea045dc443306da5ea82acbc2e5ac26046b7199de733e89b44b28ad",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://dreamstation.systems/personal/tesla.html",
+      "title": "I'm being cyberattacked by Tesla, Inc",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49686766\">Comments</a>",
+      "url": "https://dreamstation.systems/personal/tesla.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T18:03:09+00:00",
+      "created_at": "2026-09-13T19:03:35.218203+00:00"
+    },
+    {
+      "id": "de99c0ddf9ec240e",
+      "content_hash": "de99c0ddf9ec240ef05d312df9842d0c271d813299039168a232992a9fd68fa8",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "title": "Why is Google still serving dodgy ads?",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49686445\">Comments</a>",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T17:37:44+00:00",
+      "created_at": "2026-09-13T19:03:35.218239+00:00"
+    },
+    {
+      "id": "29a3d1ad364d38b0",
+      "content_hash": "29a3d1ad364d38b045ffb905e170c2e9e230fd01f7bb9d0b0cd6747799bd7e90",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+      "title": "Romania soccer introduces black card to 'combat abusive behaviour' from parents",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49686134\">Comments</a>",
+      "url": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T17:08:16+00:00",
+      "created_at": "2026-09-13T19:03:35.218596+00:00"
+    },
+    {
+      "id": "7419de6125cbb2f9",
+      "content_hash": "7419de6125cbb2f9ab52c5a824eaea0bc532296fe494e1c7df69d79a7d76d317",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49685991\">Comments</a>",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T16:52:33+00:00",
+      "created_at": "2026-09-13T19:03:35.218501+00:00"
+    },
+    {
       "id": "44d683a733c58068",
       "content_hash": "44d683a733c580683fd511eaf18e1807fa875747d69a4cb49d112905e808af88",
       "source_name": "TechCrunch",
@@ -30,6 +100,20 @@
       "created_at": "2026-09-13T16:43:23.665950+00:00"
     },
     {
+      "id": "bb89d4fd6b4e363a",
+      "content_hash": "bb89d4fd6b4e363a50b4ab05cb7b653b58d44d003176c73bb38f68d272addbe6",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/Dillonsmart/docket",
+      "title": "Docket – Per-commit evidence records for agent-written code",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49685642\">Comments</a>",
+      "url": "https://github.com/Dillonsmart/docket",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T16:17:07+00:00",
+      "created_at": "2026-09-13T19:03:35.218728+00:00"
+    },
+    {
       "id": "e2a05c0612502baf",
       "content_hash": "e2a05c0612502baf074019f259445ebcff4f2fda70d9e44ddc49c2dd9582d40f",
       "source_name": "TechCrunch",
@@ -42,6 +126,20 @@
       "cvss_score": null,
       "published_at": "2026-09-13T16:04:00+00:00",
       "created_at": "2026-09-13T16:43:23.665976+00:00"
+    },
+    {
+      "id": "b2b9fed7c9959af0",
+      "content_hash": "b2b9fed7c9959af090e79c72f3edd311e735d10cb664584a13c2a53a27fc9b17",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.paulgraham.com/powerful.html",
+      "title": "Making Startups Powerful",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49685347\">Comments</a>",
+      "url": "https://www.paulgraham.com/powerful.html",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T15:51:47+00:00",
+      "created_at": "2026-09-13T19:03:35.218633+00:00"
     },
     {
       "id": "de7a47e0b7d89b49",
@@ -182,6 +280,20 @@
       "cvss_score": null,
       "published_at": "2026-09-13T13:54:25+00:00",
       "created_at": "2026-09-13T16:43:23.762974+00:00"
+    },
+    {
+      "id": "7e729c01948ad4c2",
+      "content_hash": "7e729c01948ad4c2bb81553ba6f3d088d98926a312beb2fc3be9b6a56f3810ce",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "title": "Data collected by cars and sold to third parties",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49683953\">Comments</a>",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-13T13:45:08+00:00",
+      "created_at": "2026-09-13T19:03:35.218327+00:00"
     },
     {
       "id": "c18fc426fec072ba",
@@ -4202,6 +4314,20 @@
       "created_at": "2026-09-12T19:48:32.126882+00:00"
     },
     {
+      "id": "2c89dbb3ca9d5d5f",
+      "content_hash": "2c89dbb3ca9d5d5f795297816cf59a3f90a989aed085d1bf7648e61f7c9d0666",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/OSPreservProject/sprite/blob/master/sprite.txt",
+      "title": "A Brief Retrospective on the Sprite Network Operating System",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49664413\">Comments</a>",
+      "url": "https://github.com/OSPreservProject/sprite/blob/master/sprite.txt",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-11T19:52:53+00:00",
+      "created_at": "2026-09-13T19:03:35.218766+00:00"
+    },
+    {
       "id": "6112e7caafeea4b6",
       "content_hash": "6112e7caafeea4b6806200e543fb1be7fb290b41972500dde11d519d5638f9f7",
       "source_name": "TechCrunch",
@@ -6874,132 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-09-11T10:16:51.567000",
       "created_at": "2026-09-12T06:47:47.844121+00:00"
-    },
-    {
-      "id": "7d67c1045fb06208",
-      "content_hash": "7d67c1045fb0620899cdcbf9119f7be56af6fc094372a086b6ff85d7d006815e",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-17037",
-      "title": "CVE-2026-17037 - The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordP...",
-      "body": "The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘comment’ parameter in all versions up to, and including, 6.2.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17037",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-09-11T10:16:51.330000",
-      "created_at": "2026-09-12T06:47:47.844105+00:00"
-    },
-    {
-      "id": "53dd1b16cefbe0ba",
-      "content_hash": "53dd1b16cefbe0baf98bd1eaeba5c714523a06a75e8fbb10136afcdc8441374e",
-      "source_name": "OpenAI News",
-      "external_id": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "body": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "category": "ai",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T10:00:00+00:00",
-      "created_at": "2026-09-11T18:50:18.658873+00:00"
-    },
-    {
-      "id": "f7c119e1b3b9edfd",
-      "content_hash": "f7c119e1b3b9edfd40412f8a6202d3f3ffe052421bd97ab256ec3b834901d380",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-033235.html",
-      "title": "コンテック製CONPROSYSシリーズにおける複数の脆弱性",
-      "body": "株式会社コンテックが提供するCONPROSYSシリーズには、次の複数の脆弱性が存在します。<a href=\"https://cwe.mitre.org/data/definitions/79.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/78.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/548.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/1395.html\" target=\"_blank\"></a><a href=\"https://www.cve.org/CVERecord?id=CVE-2020-7746\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/434.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/79.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/787.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/352.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/256.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/306.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/121.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/522.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/306.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/95.html\" target=\"_blank\"></a><ul><li>クロスサイトスクリプティング（CWE-79） - CVE-2026-82773、CVE-2026-82776、CVE-2026-82788</li><li>OSコマンドインジェクション（CWE-78） - CVE-2026-82774、CVE-2026-82777、CVE-2026-82779</li><li>ディレクトリリスティングによる情報漏えい（CWE-548） - CVE-2026-82775、CVE-2026-82778</li><li>脆弱なサードパーティ製コンポーネントの使用（CWE-1395）</li><ul><li>本問題はchart.jsの脆弱性（CVE-2020-7746）に起因しています。</li></ul><li>アップロードするファイルの検証が不十分（CWE-434） - CVE-2026-82780</li><li>クロスサイトスクリプティング（CWE-79） - CVE-2026-82781</li><li>境界外書き込み（CWE-787） - CVE-2026-82782</li><li>クロスサイトリクエストフォージェリ（CWE-352） - CVE-2026-82764</li><li>パスワードの平文保存（CWE-256） - CVE-2026-82783</li><li>重要な機能に対する認証の欠如（CWE-306） - CVE-2026-82784</li><li>スタックベースのバッファオーバーフロー（CWE-121） - CVE-2026-82785</li><li>認証情報の不十分な保護（CWE-522） - CVE-2026-82786</li><li>重要な機能に対する認証の欠如（CWE-306） - CVE-2026-82787</li><li>Evalインジェクション（CWE-9",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-033235.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T09:50:00+00:00",
-      "created_at": "2026-09-12T06:47:51.901341+00:00"
-    },
-    {
-      "id": "1aca491f428cd726",
-      "content_hash": "1aca491f428cd726859d45c1373fefa303508277a956e8e7e18b797b8224ae0f",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "body": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T09:39:37+00:00",
-      "created_at": "2026-09-11T11:55:20.797959+00:00"
-    },
-    {
-      "id": "a43c9406d4273f65",
-      "content_hash": "a43c9406d4273f65a63813d9be09c00c54903b6ae1aa924442b044d10793fc52",
-      "source_name": "JVN（日本脆弱性情報）",
-      "external_id": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-033234.html",
-      "title": "コンテック製無線LAN FLEXLANシリーズにおける複数の脆弱性",
-      "body": "株式会社コンテックが提供する無線LAN FLEXLANシリーズには、次の複数の脆弱性が存在します。<a href=\"https://cwe.mitre.org/data/definitions/78.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/79.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/352.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/23.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/79.html\" target=\"_blank\"></a><a href=\"https://cwe.mitre.org/data/definitions/120.html\" target=\"_blank\"></a><ul><li>OSコマンドインジェクション（CWE-78） - CVE-2026-82762、CVE-2026-82766</li><li>クロスサイトスクリプティング（CWE-79） - CVE-2026-82763、CVE-2026-82769、CVE-2026-82771</li><li>クロスサイトリクエストフォージェリ（CWE-352） - CVE-2026-82764</li><li>パストラバーサル（CWE-23） - CVE-2026-82765、CVE-2026-82768</li><li>クロスサイトスクリプティング（CWE-79） - CVE-2026-82767</li><li>バッファオーバーフロー（CWE-120） - CVE-2026-82770、CVE-2026-82772</li></ul>この脆弱性情報は、製品利用者への周知を目的に、開発者がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。",
-      "url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-033234.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T09:34:00+00:00",
-      "created_at": "2026-09-12T06:47:51.901378+00:00"
-    },
-    {
-      "id": "f710e7c1f9ce8168",
-      "content_hash": "f710e7c1f9ce816847fe2a0f02a0ed8fc113221d39f059f0081660a210d94b40",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-87727",
-      "title": "CVE-2026-87727 - a-blog cms Ver. 3.2.33 and earlier contains a path traversal vulnerability, whic...",
-      "body": "a-blog cms Ver. 3.2.33 and earlier contains a path traversal vulnerability, which allows an unauthenticated attacker to read or delete arbitrary files on the affected product.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87727",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-09-11T09:17:22.237000",
-      "created_at": "2026-09-12T06:47:47.844097+00:00"
-    },
-    {
-      "id": "79f0d9d5d378c97b",
-      "content_hash": "79f0d9d5d378c97b5b2afc0a8368d0195e4ba9087414cd28c2bd1f92f3afd0b1",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-80469",
-      "title": "CVE-2026-80469 - An attacker may achieve arbitrary code execution on a target system by uploading...",
-      "body": "An attacker may achieve arbitrary code execution on a target system by uploading a malicious device driver package, bypassing driver verification mechanisms, and triggering the execution of\nattacker-controlled code. User interaction is required.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80469",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.3,
-      "published_at": "2026-09-11T09:17:20.833000",
-      "created_at": "2026-09-12T06:47:47.844090+00:00"
-    },
-    {
-      "id": "1bd15e95d036e584",
-      "content_hash": "1bd15e95d036e5846f0a7bbc2020471cc52fe5079cd08cd5891f73e7d58b08c7",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-19486",
-      "title": "CVE-2026-19486 - A Server-Side Request Forgery (SSRF) vulnerability in Google Cloud Gemini Enterp...",
-      "body": "A Server-Side Request Forgery (SSRF) vulnerability in Google Cloud Gemini Enterprise Agent Platform App Builder versions prior to 2026-06-01 on Google Cloud Platform allows an unauthenticated attacker to leak the Compute Engine default service account access token.\n\n\n\nThis vulnerability was patched on 01 June 2026. Users will need to redeploy their previously deployed apps.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19486",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T09:17:20.327000",
-      "created_at": "2026-09-12T06:47:47.844083+00:00"
-    },
-    {
-      "id": "f8f6a45fa673f7eb",
-      "content_hash": "f8f6a45fa673f7eb57c4db8f065a90eb1b7e11b4db27641390f6aaf4d913afbe",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2025-15679",
-      "title": "CVE-2025-15679 - Under certain circumstances such as reset to factory default operation, the BMC ...",
-      "body": "Under certain circumstances such as reset to factory default operation, the BMC root account is made active without a password on BullSequana XH3406 and XH3515.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15679",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-11T09:17:20.067000",
-      "created_at": "2026-09-12T06:47:47.844076+00:00"
     }
   ]
 }
