@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-27T22:38:50.069435+00:00",
+  "generated_at": "2026-09-28T01:16:04.056100+00:00",
   "items": [
+    {
+      "id": "f30dbca6347015c2",
+      "content_hash": "f30dbca6347015c2b1b493e7908a203c770d418587f7bdfce2468bcb269c0a0a",
+      "source_name": "Bleeping Computer",
+      "external_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+      "body": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-27T23:40:39+00:00",
+      "created_at": "2026-09-28T01:15:54.961850+00:00"
+    },
     {
       "id": "477af184e1c66108",
       "content_hash": "477af184e1c66108e12fc5363d8c2b3432bfbb0b647972775d618bcca1754df7",
@@ -30,6 +44,20 @@
       "created_at": "2026-09-27T22:38:49.795759+00:00"
     },
     {
+      "id": "27bd872dab824e02",
+      "content_hash": "27bd872dab824e02bc21dd78f5a50c5161c9bea2ee498ac70d5c00edbd386269",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://notoriousbfg.com/recent-woodworking-projects/",
+      "title": "My Recent Woodworking Projects",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49870541\">Comments</a>",
+      "url": "https://notoriousbfg.com/recent-woodworking-projects/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-27T20:33:55+00:00",
+      "created_at": "2026-09-28T01:16:04.055688+00:00"
+    },
+    {
       "id": "a61c61654572d8bc",
       "content_hash": "a61c61654572d8bcf0e7db89d051d9cb4491cb667d30395aed66cd0f8dede092",
       "source_name": "Hacker News (Best)",
@@ -56,6 +84,34 @@
       "cvss_score": null,
       "published_at": "2026-09-27T20:12:54+00:00",
       "created_at": "2026-09-27T22:38:50.068642+00:00"
+    },
+    {
+      "id": "478f9d02cfaae11e",
+      "content_hash": "478f9d02cfaae11ee886944cc821aa3a62df14277af94463186f132614aa6793",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://zachholman.com/posts/you-should-have-an-llc",
+      "title": "Have an LLC",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49870304\">Comments</a>",
+      "url": "https://zachholman.com/posts/you-should-have-an-llc",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-27T20:04:37+00:00",
+      "created_at": "2026-09-28T01:16:04.055650+00:00"
+    },
+    {
+      "id": "20412ee073804bb9",
+      "content_hash": "20412ee073804bb90e28ba89fee05c6780f7f1d36b9d279c04053310943e8571",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+      "title": "Self-Hosting on the Dark Web",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49870295\">Comments</a>",
+      "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-27T20:03:36+00:00",
+      "created_at": "2026-09-28T01:16:04.055495+00:00"
     },
     {
       "id": "00935879462f55e3",
@@ -560,6 +616,20 @@
       "cvss_score": null,
       "published_at": "2026-09-27T06:19:33+00:00",
       "created_at": "2026-09-27T15:25:51.341051+00:00"
+    },
+    {
+      "id": "625bdd98635b076a",
+      "content_hash": "625bdd98635b076a22f071f40db51c1d313bcd935aa9098f961a74d88cc76a8f",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-84069",
+      "title": "CVE-2026-84069 - The WebFacing™  WordPress plugin before 5.4 does not restrict access to one of i...",
+      "body": "The WebFacing™  WordPress plugin before 5.4 does not restrict access to one of its bundled scripts and does not validate a user-supplied path before using it to include a local file, allowing unauthenticated users to perform Local File Inclusion.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84069",
+      "category": "security",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-27T06:17:06.560000",
+      "created_at": "2026-09-28T01:15:55.271064+00:00"
     },
     {
       "id": "d43f5c5e75567f4a",
@@ -1652,6 +1722,20 @@
       "cvss_score": null,
       "published_at": "2026-09-26T18:42:10+00:00",
       "created_at": "2026-09-27T00:00:13.861325+00:00"
+    },
+    {
+      "id": "a5bc0b2bb1931491",
+      "content_hash": "a5bc0b2bb19314912ad0a6b72ed84c7b3318d9fa96375c9ad75b73d49e0b7880",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.tabletmag.com/sections/arts-letters/articles/coltranes-shadow-tiberi-tapes",
+      "title": "Coltrane's Shadow",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=49859271\">Comments</a>",
+      "url": "https://www.tabletmag.com/sections/arts-letters/articles/coltranes-shadow-tiberi-tapes",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-09-26T18:39:47+00:00",
+      "created_at": "2026-09-28T01:16:04.055670+00:00"
     },
     {
       "id": "e68735d994ce23b8",
@@ -6916,90 +7000,6 @@
       "cvss_score": null,
       "published_at": "2026-09-25T15:27:35+00:00",
       "created_at": "2026-09-25T18:59:56.585215+00:00"
-    },
-    {
-      "id": "6a8242bedb261caf",
-      "content_hash": "6a8242bedb261cafbf2397e4ac99051b4a18e1be80f887f6eddecfb69ad8ebfe",
-      "source_name": "TechCrunch",
-      "external_id": "https://techcrunch.com/?p=3169572",
-      "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
-      "body": "Tesla's Semi truck, with a 500-mile range, is about to hit the road in big numbers, with the company saying it plans to make 50,000 units a year.",
-      "url": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
-      "category": "it",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-25T15:24:50+00:00",
-      "created_at": "2026-09-25T18:59:56.489100+00:00"
-    },
-    {
-      "id": "6a8bd5fda29183da",
-      "content_hash": "6a8bd5fda29183da5f630cf511682ba68f7ea0906b064bea72ca4209b8b65ed6",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-97866",
-      "title": "CVE-2026-97866 - A weakness has been identified in Zhonglun CloudPOS 3.0. Affected by this vulner...",
-      "body": "A weakness has been identified in Zhonglun CloudPOS 3.0. Affected by this vulnerability is an unknown functionality of the file Program.cs of the component Automatic Update. Executing a manipulation of the argument version/url/packagekey/package name can lead to channel accessible by non-endpoint. The attack can be launched remotely. Attacks of this nature are highly complex. The exploitation appears to be difficult. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97866",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 5.6,
-      "published_at": "2026-09-25T15:18:01.780000",
-      "created_at": "2026-09-26T15:17:33.698163+00:00"
-    },
-    {
-      "id": "e46867e858bedb40",
-      "content_hash": "e46867e858bedb404294ce24efedaabcc6a296b57ad6168d91fef54db9915fef",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-96812",
-      "title": "CVE-2026-96812 - Improper Exposure of Resource to Wrong Sphere in the host file helper (gofer) in...",
-      "body": "Improper Exposure of Resource to Wrong Sphere in the host file helper (gofer) in Google gVisor prior to commit 573a9e73cf844f on Linux platforms with CUSE enabled allows a local attacker with container image deployment privileges to achieve root code execution on the host system. By including a /dev/cuse character device node in a container image, opening the device passes through to the host, allowing the sandboxed attacker to register a host device and exploit CUSE unrestricted ioctl handling to overwrite root udev helper memory.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96812",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-25T15:17:57.097000",
-      "created_at": "2026-09-26T15:17:33.698158+00:00"
-    },
-    {
-      "id": "907eacb6b059e611",
-      "content_hash": "907eacb6b059e611712bb71144901d436c201f9d2cbb22912cb2d86d55bddbbf",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-93306",
-      "title": "CVE-2026-93306 - IBM Server Firmware FW1120.00 through FW1120.01, FW1110.00 through FW1110.31, FW...",
-      "body": "IBM Server Firmware FW1120.00 through FW1120.01, FW1110.00 through FW1110.31, FW1060.00 through FW1060.81, and FW950.00 through FW950.H3 is affected by a vulnerability in the ASMI web interface. An unauthenticated attacker on the management network can send a malformed HTTPS request to ASMI, causing the web server to crash with possible memory corruption and generate an error log. The ASMI web interface will restart automatically; however, repeated exploitation could result in a sustained loss of access to the ASMI management interface, resulting in an integrity and availability impact.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93306",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.1,
-      "published_at": "2026-09-25T15:17:56.943000",
-      "created_at": "2026-09-26T15:17:33.698153+00:00"
-    },
-    {
-      "id": "71eef27f7c43492f",
-      "content_hash": "71eef27f7c43492fca680d3febf51e227a5271f7d95fe7f11e9cbdfa8e0fa2ab",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-93030",
-      "title": "CVE-2026-93030 - FTM 4.x ALL could allow a remote authenticated attacker to obtain sensitive info...",
-      "body": "FTM 4.x ALL could allow a remote authenticated attacker to obtain sensitive information due to an XML external entity injection flaw.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93030",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.5,
-      "published_at": "2026-09-25T15:17:56.810000",
-      "created_at": "2026-09-26T15:17:33.698148+00:00"
-    },
-    {
-      "id": "c85ac090c9be730e",
-      "content_hash": "c85ac090c9be730e2a8d8c9337cfdad6f3cc3f65943ee79dbb3a850a2f735f9f",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-88389",
-      "title": "CVE-2026-88389 - Espruino 2v29 (commit bffc6d0) contains a NULL pointer dereference vulnerability...",
-      "body": "Espruino 2v29 (commit bffc6d0) contains a NULL pointer dereference vulnerability in jslGetRawString() in src/jslex.c. Crafted raw/binary string input can cause the lexer to pass a NULL iterator target to jsvLockAgain(). In RELEASE/NO_ASSERT builds, the missing assertion guard allows a write through the NULL pointer, resulting in memory corruption and application termination or denial of service.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88389",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-09-25T15:17:56.687000",
-      "created_at": "2026-09-26T15:17:33.698143+00:00"
     }
   ]
 }
