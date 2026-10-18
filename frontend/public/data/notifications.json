@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-18T21:08:53.299630+00:00",
+  "generated_at": "2026-10-18T23:46:15.904795+00:00",
   "items": [
+    {
+      "id": "2f9fe7d7277fa8f0",
+      "content_hash": "2f9fe7d7277fa8f069034bb3d30c5f40ace34c0d75faeb3ae7ba3171043e29b2",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/finereli/whatsapp-mcp",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50145715\">Comments</a>",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-10-18T21:36:10+00:00",
+      "created_at": "2026-10-18T23:46:15.904075+00:00"
+    },
     {
       "id": "b4d70f71c6767330",
       "content_hash": "b4d70f71c6767330fae3876d0980335adeef94fcddedded6d7f57cb6854de9b0",
@@ -28,6 +42,34 @@
       "cvss_score": null,
       "published_at": "2026-10-18T20:48:14+00:00",
       "created_at": "2026-10-18T21:08:53.298877+00:00"
+    },
+    {
+      "id": "a974832b24495569",
+      "content_hash": "a974832b24495569815a4fe3ea688ca5cacfe1e3c5261f1bcf77710c22ea037f",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://arxiv.org/abs/2610.18861",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50145337\">Comments</a>",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-10-18T20:48:14+00:00",
+      "created_at": "2026-10-18T23:46:15.903928+00:00"
+    },
+    {
+      "id": "36d6621242e53d06",
+      "content_hash": "36d6621242e53d0607a956c486a879b77c316639dd84d2f435b6e1cc387e951c",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://github.com/Netflix/vmaf",
+      "title": "Netflix vmaf: Perceptual video quality assessment based on multi-method fusion",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50145295\">Comments</a>",
+      "url": "https://github.com/Netflix/vmaf",
+      "category": "it",
+      "severity": "critical",
+      "cvss_score": null,
+      "published_at": "2026-10-18T20:43:40+00:00",
+      "created_at": "2026-10-18T23:46:15.904561+00:00"
     },
     {
       "id": "a9983b13f2048cec",
@@ -364,6 +406,20 @@
       "cvss_score": null,
       "published_at": "2026-10-18T13:06:54+00:00",
       "created_at": "2026-10-18T15:01:36.721529+00:00"
+    },
+    {
+      "id": "213da1b5229dd5a1",
+      "content_hash": "213da1b5229dd5a1c0c0824f7882a198453bfa40e77f8a59179d64cb8e649239",
+      "source_name": "CVE (NVD)",
+      "external_id": "CVE-2026-111999",
+      "title": "CVE-2026-111999 - Vanus 0.8.0 through 0.9.0 contains a missing authentication vulnerability that a...",
+      "body": "Vanus 0.8.0 through 0.9.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to publish events to any eventbus through the gateway CloudEvents HTTP receiver. Attackers can send forged CloudEvents to the /namespaces/{ns}/eventbus/{name}/events or legacy /gateway/{name} paths, bypassing token authentication and authPublish checks, so they are stored and delivered to subscription sinks.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111999",
+      "category": "security",
+      "severity": "high",
+      "cvss_score": 7.5,
+      "published_at": "2026-10-18T12:17:11.870000",
+      "created_at": "2026-10-18T23:46:11.453564+00:00"
     },
     {
       "id": "16c2c666034a3e33",
@@ -1136,6 +1192,20 @@
       "created_at": "2026-10-18T06:47:51.883291+00:00"
     },
     {
+      "id": "a973c450b77d45f9",
+      "content_hash": "a973c450b77d45f956589f71f0f2efeeec6971d4be54d99dae2400bf007478cd",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "title": "The Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50137620\">Comments</a>",
+      "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-10-18T03:19:49+00:00",
+      "created_at": "2026-10-18T23:46:15.904404+00:00"
+    },
+    {
       "id": "f32406647e6aca22",
       "content_hash": "f32406647e6aca22dc0c1cc975138fe301e6d6c0e061af82b4925768ee227b35",
       "source_name": "CVE (NVD)",
@@ -1232,6 +1302,20 @@
       "cvss_score": null,
       "published_at": "2026-10-18T00:14:22+00:00",
       "created_at": "2026-10-18T01:55:54.575107+00:00"
+    },
+    {
+      "id": "3e69334792422bfb",
+      "content_hash": "3e69334792422bfb90941a6752207e06f1b6babdcd278608821d5159bd994f31",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50136150\">Comments</a>",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-10-17T23:26:35+00:00",
+      "created_at": "2026-10-18T23:46:15.903988+00:00"
     },
     {
       "id": "051a98275009401d",
@@ -4188,6 +4272,20 @@
       "created_at": "2026-10-17T19:47:18.675405+00:00"
     },
     {
+      "id": "8eca4fc43646c78d",
+      "content_hash": "8eca4fc43646c78d7c8490fc2b33d1b79a8e0c620b18ab2164949ba371987a73",
+      "source_name": "Hacker News (Best)",
+      "external_id": "https://unsung.aresluna.org/traditional-but-puzzling/",
+      "title": "\"Traditional, but Puzzling\"",
+      "body": "<a href=\"https://news.ycombinator.com/item?id=50123123\">Comments</a>",
+      "url": "https://unsung.aresluna.org/traditional-but-puzzling/",
+      "category": "it",
+      "severity": "info",
+      "cvss_score": null,
+      "published_at": "2026-10-16T19:17:23+00:00",
+      "created_at": "2026-10-18T23:46:15.904165+00:00"
+    },
+    {
       "id": "6997e16ac82b90e2",
       "content_hash": "6997e16ac82b90e2e089220d2eed1b9d29f0c854fd206091085b318a5a65f286",
       "source_name": "CVE (NVD)",
@@ -6902,104 +7000,6 @@
       "cvss_score": 7.5,
       "published_at": "2026-10-16T12:16:31.733000",
       "created_at": "2026-10-17T11:14:31.772382+00:00"
-    },
-    {
-      "id": "ddbf062d32c355ac",
-      "content_hash": "ddbf062d32c355ac78de52ebb795cfdacd954aec6ba01d1e6c70ee686b18c98a",
-      "source_name": "Bleeping Computer",
-      "external_id": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "title": "Burger King Japan data breach exposes 11 million customer records",
-      "body": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": null,
-      "published_at": "2026-10-16T12:01:29+00:00",
-      "created_at": "2026-10-16T12:47:44.762584+00:00"
-    },
-    {
-      "id": "bb7f2087356c7733",
-      "content_hash": "bb7f2087356c7733d918b0295be5e457a44c2f609c46450178d0336394a06b91",
-      "source_name": "The Hacker News",
-      "external_id": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "body": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are",
-      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-10-16T11:30:00+00:00",
-      "created_at": "2026-10-16T12:47:44.582586+00:00"
-    },
-    {
-      "id": "6ccf466817639d3f",
-      "content_hash": "6ccf466817639d3f90752a233ff4385819631778d6546f21a9b902b2a1b8d0be",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-109119",
-      "title": "CVE-2026-109119 - Improper Privilege Management in the user management API endpoint (/api/users/{u...",
-      "body": "Improper Privilege Management in the user management API endpoint (/api/users/{username_or_id}) in Rdiffweb allows authenticated users to elevate their privileges to administrator by modifying the role parameter in a POST request.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109119",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "published_at": "2026-10-16T11:17:00.927000",
-      "created_at": "2026-10-17T11:14:31.772377+00:00"
-    },
-    {
-      "id": "8e81f2ffc46b9b9b",
-      "content_hash": "8e81f2ffc46b9b9be2d2386da22551c8caa3e2e7948764a417e46841a0b21e15",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-109118",
-      "title": "CVE-2026-109118 - Improper path containment check in ikus060 rdiffweb 7.1.1 allows an authenticate...",
-      "body": "Improper path containment check in ikus060 rdiffweb 7.1.1 allows an authenticated user to cause the browse, restore, history and delete operations to resolve to a path outside the repository being operated on, via a percent-encoded traversal sequence (%2e%2e) in the request path, because the containment check uses a string prefix comparison (startswith) instead of a filesystem path boundary check. The target must be a sibling path whose name begins with the repository path, and the user already hold permissions on it; the issue can mislead a user into operating on, or deleting, data other than the repository displayed",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109118",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 4.6,
-      "published_at": "2026-10-16T11:17:00.793000",
-      "created_at": "2026-10-17T11:14:31.772372+00:00"
-    },
-    {
-      "id": "97b8d6a5900119df",
-      "content_hash": "97b8d6a5900119dfae3f232ee0f4d4cb47dd1d44315f9a9a533406e976e9f170",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-96768",
-      "title": "CVE-2026-96768 - The GoSMTP Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting...",
-      "body": "The GoSMTP Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Content via Email Log Body in all versions up to, and including, 1.2.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The exploit is made possible because WordPress comment kses does not strip entity-encoded tag delimiters, allowing the payload to pass moderation as safe text before being decoded into live HTML by core email notification functions and written verbatim into the plugin's email log database table.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96768",
-      "category": "security",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "published_at": "2026-10-16T10:18:05.863000",
-      "created_at": "2026-10-17T11:14:31.772366+00:00"
-    },
-    {
-      "id": "65b8476514fcac86",
-      "content_hash": "65b8476514fcac86598faf5050dee2ef598b02c988498b86ff1941cd88b301c2",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-14452",
-      "title": "CVE-2026-14452 - Improper validation of the reset_url parameter of the Setup in-page search in Ch...",
-      "body": "Improper validation of the reset_url parameter of the Setup in-page search in Checkmk <2.5.0p15, <2.4.0p38, <2.3.0p51 and 2.2.0 (EOL) allows an attacker to execute arbitrary script in the session of an authenticated user with Setup access, or to redirect that user to an arbitrary external site, by tricking the user into opening a crafted URL and clicking the Reset button or submitting an empty search.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14452",
-      "category": "security",
-      "severity": "info",
-      "cvss_score": null,
-      "published_at": "2026-10-16T10:18:05.653000",
-      "created_at": "2026-10-17T11:14:31.772360+00:00"
-    },
-    {
-      "id": "6eea95789671414f",
-      "content_hash": "6eea95789671414ff72b39cbcb0e7b62b1a80b713ef253cbb716d8440a485f87",
-      "source_name": "CVE (NVD)",
-      "external_id": "CVE-2026-110703",
-      "title": "CVE-2026-110703 - The GeoDirectory – WP Business Directory Plugin and Classified Listings Director...",
-      "body": "The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'post_content' parameter in all versions up to, and including, 2.8.191 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This requires the attacker to own a published listing, as the ownership check in GeoDir_Post_Data::can_edit() limits who can store the payload; however, because ajax_save_post() re-applies the existing post_status, edits to an already-published listing bypass re-moderation and remain live immediately.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110703",
-      "category": "security",
-      "severity": "medium",
-      "cvss_score": 6.4,
-      "published_at": "2026-10-16T10:18:05.447000",
-      "created_at": "2026-10-17T11:14:31.772353+00:00"
     }
   ]
 }
