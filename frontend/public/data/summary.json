@@ -1,9 +1,9 @@
 {
-  "critical": 43,
-  "high": 66,
+  "critical": 41,
+  "high": 74,
   "ai_unread": 11,
-  "it_unread": 168,
-  "security_unread": 321,
+  "it_unread": 157,
+  "security_unread": 332,
   "total": 500,
-  "generated_at": "2026-10-22T08:03:14.400624+00:00"
+  "generated_at": "2026-10-22T14:10:44.058200+00:00"
 }
